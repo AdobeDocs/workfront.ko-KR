@@ -4,9 +4,17 @@ description: 2026년 1분기 통합 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
+exl-id: 2ea9c93c-fae4-47da-ae34-39b73ce85a3c
+TQID: https://experienceleague.adobe.com/bTUJTZd4KSYmY75T1Q22USVhidJL9XEXk0F5mzAg174
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: 184
 ht-degree: 0%
 
 ---
@@ -22,8 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2025년 12월 15일
->프로덕션 빠른 릴리스: 2025년 12월 15일\
+>미리 보기: 2025년 12월 15일>프로덕션 빠른 릴리스: 2025년 12월 15일\
 >모두를 위한 프로덕션: 2025년 12월 15일
 
 증명을 보낼 Workfront 프로젝트를 선택할 수 있습니다. 이렇게 하면 모든 관련 에셋과 증명이 동일한 프로젝트 내에 체계적으로 정리될 수 있습니다.
@@ -36,8 +43,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2025년 11월 20일
->프로덕션 빠른 릴리스: 2025년 12월 11일\
+>미리 보기: 2025년 11월 20일>프로덕션 빠른 릴리스: 2025년 12월 11일\
 >모두를 위한 프로덕션: 2026년 1월 16일
 
 Experience Manager Assets용 Adobe Workfront 통합에서 에셋 선택기를 업그레이드했습니다. 이제 이 업그레이드를 사용하여 AEM 컬렉션을 선택하고 Workfront으로 직접 가져올 수 있습니다.
@@ -61,4 +67,3 @@ To stay up-to-date with recent changes to the Workfront API, we've created a new
 For instructions and links for downloading and installing the new integration, see [Install Adobe Workfront for Salesforce](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
 -->
-

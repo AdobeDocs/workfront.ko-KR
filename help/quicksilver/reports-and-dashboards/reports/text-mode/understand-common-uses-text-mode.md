@@ -6,11 +6,21 @@ description: 텍스트 모드의 일반적인 사용 개요
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/T-slclYoeq429jltWCDKC8tBKo9nblvtm8IL2ahTLzg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: 763
 ht-degree: 0%
 
 ---
@@ -87,8 +97,8 @@ Workfront에서 다음을 달성하고자 할 때 텍스트 모드를 사용할 
 * [필터: 승인 상태의 항목만 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [필터: 상태가 다른 그룹과 연결되어 있을 때 같은 이름 상태로 항목을 표시합니다](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 * [필터: 두 필드를 비교하여 목록에 있는 항목을 제거합니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
-* 문서 [EXISTS 문을 사용하여 복잡한 텍스트 모드 필터 만들기](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples)의 섹션 [개체 계층에서 여러 수준에 걸쳐 있는 텍스트 모드 필터의 예](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-* 문서 [EXISTS 문을 사용하여 복합 텍스트 모드 필터 만들기](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters)의 섹션 [누락된 개체에 대한 복합 텍스트 모드 필터 만들기](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+* 문서 [EXISTS 문을 사용하여 복잡한 텍스트 모드 필터 만들기](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)의 섹션 [개체 계층에서 여러 수준에 걸쳐 있는 텍스트 모드 필터의 예](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples)
+* 문서 [EXISTS 문을 사용하여 복합 텍스트 모드 필터 만들기](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)의 섹션 [누락된 개체에 대한 복합 텍스트 모드 필터 만들기](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters)
 
 ## 그룹화에 텍스트 모드 사용 {#use-text-mode-in-groupings}
 

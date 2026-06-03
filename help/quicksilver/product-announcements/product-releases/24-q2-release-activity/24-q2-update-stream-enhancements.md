@@ -5,11 +5,18 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: 741
 ht-degree: 0%
 
 ---
@@ -60,7 +67,7 @@ ht-degree: 0%
 
 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
-[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427992/){target=_blank}(이 특정 기능에 대한 논의는 2:47부터 시작)
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427992/){target=_blank} (이 특정 기능에 대한 논의는 2:47부터 시작)
 
 ## 새 댓글 달기 경험의 시스템 활동 탭에서 읽기 전용 댓글이 지원됩니다
 
@@ -72,7 +79,7 @@ ht-degree: 0%
 
 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
-[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427992/){target=_blank}(이 특정 기능에 대한 논의는 2:00부터 시작)
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427992/){target=_blank} (이 특정 기능에 대한 논의는 2:00부터 시작)
 
 ## 댓글과 시스템 활동 항목을 모두 캡처하는 새로운 업데이트 스트림 탭
 
@@ -86,7 +93,7 @@ ht-degree: 0%
 
 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
-[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427992/){target=_blank}(이 특정 기능에 대한 논의는 0:31부터 시작)
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427992/){target=_blank} (이 특정 기능에 대한 논의는 0:31부터 시작)
 
 ## 이제 요약 패널에서 새 댓글 스트림을 사용할 수 있습니다.
 

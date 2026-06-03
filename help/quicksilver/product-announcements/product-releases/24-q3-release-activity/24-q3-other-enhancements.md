@@ -5,11 +5,18 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/aW5kAUq4zhTPslAsU5d9gwX7Mncz647yAKttkigDniI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: 451
 ht-degree: 0%
 
 ---
@@ -65,4 +72,4 @@ Adobe 통합 경험에는 다음이 포함됩니다.
 
 팀 및 사용자는 이 변경 사항에 포함되지 않습니다. 사용자는 여전히 팀과 사용자 이름을 볼 수 있습니다.
 
-자세한 내용은 [&#x200B; 개체 개요 문서의 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects)개체 액세스 제한[!DNL Adobe Workfront] 섹션을 참조하십시오.
+자세한 내용은 [!DNL Adobe Workfront] 개체 개요 문서의 [개체 액세스 제한](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) 섹션을 참조하십시오.

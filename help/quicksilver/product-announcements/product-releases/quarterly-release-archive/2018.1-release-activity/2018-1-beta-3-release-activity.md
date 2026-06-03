@@ -7,9 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+TQID: https://experienceleague.adobe.com/O9xy5YXPnfSooL6rSHuODkP2Bn-1wyC1569ZbsTfiYA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: 1857
 ht-degree: 0%
 
 ---
@@ -22,7 +34,7 @@ ht-degree: 0%
 >
 > 이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2018.1의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+2018.1의 모든 변경 사항 목록은 [2018.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)를 참조하십시오.
 
 2018.1 Beta 3 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
@@ -188,7 +200,7 @@ HTML5 증명 뷰어의 비교 모드는 기존 증명 뷰어와 다음과 같은
 
 이 변경 이전에는 작업만 백로그에 추가할 수 있었습니다. 문제를 추가하려면 먼저 문제를 작업으로 변환해야 합니다.
 
-백로그에서 문제를 사용하는 방법에 대한 자세한 내용은  [애자일 백로그를 관리합니다](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+백로그에서 문제를 사용하는 방법에 대한 자세한 내용은 [애자일 백로그 관리](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)를 참조하십시오.
 
 ### 애자일 팀의 백로그에 그룹화 및 필터 적용 {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -196,7 +208,7 @@ HTML5 증명 뷰어의 비교 모드는 기존 증명 뷰어와 다음과 같은
 
 이 변경 전에 애자일 백로그에 보기에 적용할 수 있었습니다.
 
-자세한 내용은  [애자일 백로그 관리](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)  [애자일 백로그를 관리합니다](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+자세한 내용은 [애자일 백로그 관리](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)에서 [애자일 백로그 관리](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)를 참조하십시오.
 
 ### 빈 반복을 만들고 나중에 업데이트 {#create-a-blank-iteration-and-update-it-later}
 

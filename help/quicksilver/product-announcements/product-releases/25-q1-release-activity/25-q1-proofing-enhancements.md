@@ -5,11 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/qdVmrTCD63HS9EMkY8zyFXHZqN9Z2oPY1Z3qC0BR-Vw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: 216
 ht-degree: 0%
 
 ---
@@ -39,4 +44,4 @@ Desktop Proofing Viewer 설치에 대한 자세한 내용은 [Desktop Proofing V
 
 새로운 Adobe Workfront 검토 도구는 모든 공통 브라우저에서 ZIP 콘텐츠 검토를 지원합니다. ZIP 콘텐츠 외에도 새 확장은 URL 콘텐츠 검토도 지원하며 현재 베타 버전입니다.
 
-새 확장을 설치하려면 [Adobe Workfront 검토 도구를 사용하여 대화형 콘텐츠 검토](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)에서 [확장 설치](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) 섹션을 참조하십시오.
+새 확장을 설치하려면 [Adobe Workfront 검토 도구를 사용하여 대화형 콘텐츠 검토](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)에서 [확장 설치](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension) 섹션을 참조하십시오.

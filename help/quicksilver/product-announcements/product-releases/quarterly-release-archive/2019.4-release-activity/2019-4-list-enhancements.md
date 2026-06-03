@@ -7,9 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 77de46a0-cf3c-4226-ad03-08f30420724b
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+TQID: https://experienceleague.adobe.com/Di5TIVt-f10GPYJ3NRTVEF5vhOOzpgw4YIYN08O1KXQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: 541
 ht-degree: 4%
 
 ---
@@ -37,7 +44,7 @@ ht-degree: 4%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>보고서, 템플릿 작업, Portfolio 등을 위한 목록에 새 디자인이 적용됨</strong> <p>중요: 이러한 개선 사항은 2019년 11월 8일에 미리보기 환경에서 제거되었으며 2019.4 프로덕션 릴리스에는 포함되지 않습니다. 이러한 개선 사항은 프로덕션에 2019.4 릴리스 이후 미리보기 환경에 다시 추가되며, 향후 릴리스에서 프로덕션에 제공될 예정입니다.</p> <p>이제 다음 목록에서 새 목록 디자인을 사용할 수 있습니다.</p> 
+   <td><strong>보고서, 템플릿 작업, 포트폴리오 등의 목록에 새 디자인이 적용됨</strong> <p>중요: 이러한 개선 사항은 2019년 11월 8일에 미리보기 환경에서 제거되었으며 2019.4 프로덕션 릴리스에는 포함되지 않습니다. 이러한 개선 사항은 프로덕션에 2019.4 릴리스 이후 미리보기 환경에 다시 추가되며, 향후 릴리스에서 프로덕션에 제공될 예정입니다.</p> <p>이제 다음 목록에서 새 목록 디자인을 사용할 수 있습니다.</p> 
     <ul> 
      <li>보고서 </li> 
      <li>문제</li> 
@@ -56,7 +63,7 @@ ht-degree: 4%
      <li> <p>백로그 작업 항목(준비 중)</p> </li> 
      <li> <p>반복 작업 항목(준비 중) </p> </li> 
      <li>기준선 </li> 
-     <li>청구 요금 </li> 
+     <li>청구 요율 </li> 
      <li> <p>대시보드 </p> </li> 
      <li> <p>반복 </p> </li> 
      <li> <p>프로그램 </p> </li> 

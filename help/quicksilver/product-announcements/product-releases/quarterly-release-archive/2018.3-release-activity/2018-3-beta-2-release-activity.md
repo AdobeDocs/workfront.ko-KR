@@ -7,9 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 97945661-e97d-43c8-b564-624c4388de2f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/2VzVuejEi80fNoxQ2KRGdLbDbiIX-7z4b5P33o-3N8s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: 913
 ht-degree: 0%
 
 ---
@@ -22,7 +34,7 @@ ht-degree: 0%
 >
 > 이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2018.3의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+2018.3의 모든 변경 사항 목록은 [2018.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)를 참조하십시오.
 
 2018.3 Beta 2 릴리스에는 Workfront 관리자와 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
@@ -39,7 +51,7 @@ ht-degree: 0%
 * [증명 뷰어에서 사용자별 댓글 및 답글 필터링](#filter-comments-and-replies-by-user-in-the-proofing-viewer)
 * [비디오 증명의 푸티지 범위에 주석 달기](#comment-on-a-range-of-footage-in-a-video-proof)
 * [증명 뷰어의 주석 마크업에 대한 새 폴리라인 도구](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
-* [보고서, 캘린더 및 문서 공유에 대한 Flash 제거](#flash-removal-for-report-calendar-and-document-sharing)
+* [보고서, 캘린더 및 문서 공유를 위한 Flash 제거](#flash-removal-for-report-calendar-and-document-sharing)
 
 ## 그룹 관리자로서 사용자 프로필의 이메일 주소 업데이트 {#update-the-email-address-in-the-user-profile-as-a-group-administrator}
 
@@ -81,7 +93,7 @@ ht-degree: 0%
 
 이전에는 작업 및 문제를 최소화할 때 작업 및 문제가 사용자 및 역할에 대한 예약 타임라인에 남아 있지만 압축된 보기에 표시됩니다.
 
-예약 타임라인에서 작업 및 문제를 최소화하는 방법에 대한 자세한 내용은 다음을 참조하십시오.  &quot;리소스 일정 조정 시작&quot;
+예약 타임라인에서 작업 및 문제를 최소화하는 방법에 대한 자세한 내용은 &quot;리소스 예약 시작&quot;을 참조하십시오.
 
 ## 증명 뷰어에서 사용자별 댓글 및 답글 필터링 {#filter-comments-and-replies-by-user-in-the-proofing-viewer}
 
@@ -101,12 +113,12 @@ ht-degree: 0%
 
 이전에는 증명을 표시하여 주석을 추가할 때 사각형, 직선, 자유 곡선, 모양 또는 화살표를 그릴 수 있었습니다.
 
-## 보고서, 캘린더 및 문서 공유에 대한 Flash 제거 {#flash-removal-for-report-calendar-and-document-sharing}
+## 보고서, 캘린더 및 문서 공유를 위한 Flash 제거 {#flash-removal-for-report-calendar-and-document-sharing}
 
-Workfront의 다음 공유 대화 상자에서 Flash을 제거했습니다.
+Workfront의 다음 공유 대화 상자에서 Flash를 제거했습니다.
 
 * 보고서
 * 캘린더
 * 문서
 
-이전과 마찬가지로 이러한 개체를 공유할 수 있지만, 이제 더 이상 경험이 Flash에 의존하지 않습니다.
+이전과 마찬가지로 이러한 개체를 공유할 수 있지만, 이제 더 이상 경험은 Flash를 사용하지 않습니다.

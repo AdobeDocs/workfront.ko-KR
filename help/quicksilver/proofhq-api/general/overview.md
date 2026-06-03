@@ -6,9 +6,14 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: 882b657a-1bde-4efd-93e8-1de80c065b2d
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+TQID: https://experienceleague.adobe.com/WSTkOBXeb30iXwB9jNeaSeAo-6twy3cHfRlTnGf0GXo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: 270
 ht-degree: 1%
 
 ---
@@ -25,7 +30,7 @@ Workfront Proof API는 SSL을 사용하여 보호되는 간단한 HTTP 서비스
 
 ## API 버전 관리
 
-기존 클라이언트 통합과의 호환성을 유지하기 위해 12.1 릴리스부터 API 버전 관리를 도입했습니다. 다음을 참조하십시오.  자세한 내용은 [API 업데이트](https://api.proofhq.com/new-updates.html) 페이지를 참조하십시오. 메서드나 매개 변수에 버전 정보가 없으면 표준 API의 일부로 이 메서드를 찾을 수 있다는 의미입니다. 아래의 &quot;API 시작하기&quot; 섹션을 참조하십시오.
+기존 클라이언트 통합과의 호환성을 유지하기 위해 12.1 릴리스부터 API 버전 관리를 도입했습니다. 자세한 내용은 [API 업데이트](https://api.proofhq.com/new-updates.html) 페이지를 참조하십시오. 메서드나 매개 변수에 버전 정보가 없으면 표준 API의 일부로 이 메서드를 찾을 수 있다는 의미입니다. 아래의 &quot;API 시작하기&quot; 섹션을 참조하십시오.
 
 ## API 시작하기
 

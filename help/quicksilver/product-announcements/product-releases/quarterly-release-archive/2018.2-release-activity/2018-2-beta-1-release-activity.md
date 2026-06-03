@@ -7,9 +7,17 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbe98ee2-f155-4d31-88c4-7f41b6f91eb2
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+TQID: https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: 1178
 ht-degree: 0%
 
 ---
@@ -55,7 +63,7 @@ ht-degree: 0%
 
 자세한 내용은 [커밋 일자 개요](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)를 참조하십시오.
 
-자세한 내용은 [Portfolio 최적화 도구 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.
+자세한 내용은 [Portfolio Optimizer 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하세요.
 
 ## 문서 목록의 문서에 다시 도입된 다양한 링크 {#various-links-re-introduced-to-documents-on-the-document-list}
 
@@ -74,7 +82,7 @@ ht-degree: 0%
 
 자세한 내용은 다음 섹션을 참조하십시오.
 
-*  위치: 
+*  in 
 
 ## 리소스 플래너의 사용자 보기 개선 사항 {#user-view-improvements-in-the-resource-planner}
 

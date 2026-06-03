@@ -5,12 +5,33 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/JhnaFQbcX6-s-AsTT8icddervRkfGPi-MN0hU0gwBLA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2773'
-ht-degree: 0%
+source-wordcount: 2909
+ht-degree: 1%
 
 ---
 
@@ -363,7 +384,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        새 홈 <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">에서 작업 추적에 대한 </a>변경 </p>
+                        새 홈 </a>에서 작업 추적에 대한 <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">변경 </p>
                         <p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>사용자 피드백을 기반으로 마감 및 완료된 작업을 집계한 페이지 전체 시간 범위 필터 및 요약 표시줄을 제거했습니다. 프로젝트, 작업 및 문제 위젯에는 각각 개별적으로 범위를 사용자 지정할 수 있는 필터링 기능이 내장되어 있습니다.</p>
                     </td>
@@ -785,7 +806,7 @@ Workfront 모바일 앱에는 Workfront 로그인이 필요합니다. 외부 사
 
 #### 워크스트림을 사용하지 않는 계정의 워크스트림이 제거됨
 
-Adobe Workfront 보드에서 작업 스트림을 생성한 적이 없는 계정의 경우, 작업 스트림 영역은 2023년 10월 11일부터 보드 대시보드에서 제거되었습니다. 워크스트림을 사용하는 계정은 여전히 액세스할 수 있습니다. 향상된 스크럼 기능은 향후 릴리스에서 해결될 예정입니다.
+Adobe Workfront 보드에서 작업 스트림을 생성한 적이 없는 계정의 경우, 작업 스트림 영역은 2023년 10월 11일부터 보드 대시보드에서 제거되었습니다. 워크스트림을 사용하는 계정은 계속해서 액세스할 수 있습니다. 향상된 스크럼 기능은 향후 릴리스에서 해결될 예정입니다.
 
 <!--
  HTML you might need

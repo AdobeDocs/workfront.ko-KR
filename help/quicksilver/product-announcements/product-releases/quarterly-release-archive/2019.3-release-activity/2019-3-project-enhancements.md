@@ -7,9 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/f-IlcpRr2VY8bfdWtfKWs5snkxwPocgPgKgeEi5Nvms
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: 1385
 ht-degree: 0%
 
 ---
@@ -193,7 +206,7 @@ Workfront의 다음 영역에서 새 목록을 찾을 수 있습니다.
 >
 >프로덕션 릴리스 날짜 이전의 새 사용자 정의 필드는 Mobile, Outlook, MS Teams 및 기본 Salesforce 통합에서 지원되지 않습니다.
 >
->프로덕션에서 Outlook 및 MS 팀이 지원됩니다. 모바일은 6월 말 또는 7월 초에 지원되었으며, Salesforce 통합은 6월에 지원되었습니다.
+>프로덕션에서 Outlook 및 MS 팀이 지원됩니다. 모바일은 6월 말 또는 7월 초에 지원되었으며 Salesforce 통합은 6월부터 지원되었습니다.
 
 ## 새 요청 &quot;제목&quot; 필드의 이름이 &quot;Name&quot;(으)로 변경되었습니다.
 

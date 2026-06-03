@@ -6,10 +6,23 @@ description: 리소스 플래너에서 리소스의 가용성과 프로젝트에
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 4%
+source-wordcount: 1200
+ht-degree: 6%
 
 ---
 
@@ -19,7 +32,7 @@ ht-degree: 4%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,7 +40,7 @@ ht-degree: 4%
  <tbody> 
   <tr>
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td>
+   <td><p>Any</p></td>
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -132,7 +145,7 @@ ht-degree: 4%
       <td role="rowheader">비용</td> 
       <td> <p>프로젝트 또는 역할 보기에서 리소스 플래너를 보는 경우 비용별 가용성 및 할당 정보를 표시합니다. 정보는 시스템 통화로 값을 표시합니다. Workfront 관리자가 시스템 통화를 정의합니다. Workfront에서 시스템 통화를 설정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">환율 설정</a>을 참조하십시오.</p> <p><b>메모</b>
 
-   리소스 플래너에 비용 정보를 표시하려면 사용자 및 작업 역할을 시간당 비용에 연결해야 합니다.<br style="font-style: italic;">시간당 비용을 작업 역할과 연결하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">작업 역할 만들기 및 관리</a>를 참조하십시오.<br style="font-style: italic;">시간당 비용을 사용자와 연결하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">사용자 프로필 편집</a>을 참조하십시오.<br style="font-style: italic;">리소스 플래너에서 비용을 계산하는 방법에 대한 자세한 내용은 <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">리소스 플래너에서 비용 계산 </a>을 참조하십시오.</p> </td>
+   리소스 플래너에 비용 정보를 표시하려면 사용자 및 작업 역할을 시간당 비용에 연결해야 합니다.<br style="font-style: italic;">시간당 비용과 작업 역할의 연결에 대한 자세한 내용은 <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">작업 역할 만들기 및 관리</a>를 참조하십시오.<br style="font-style: italic;">시간당 비용을 사용자와 연결하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">사용자 프로필 편집</a>을 참조하십시오.<br style="font-style: italic;">리소스 플래너에서 비용을 계산하는 방법에 대한 자세한 내용은 <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">리소스 플래너에서 비용 계산 </a>을 참조하십시오.</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">맞춤화</td> 
@@ -194,7 +207,7 @@ ht-degree: 4%
 
 1. 리소스 플래너로 이동합니다.
 
-   리소스 플래너에 액세스하는 방법에 대한 자세한 내용은 문서 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)에서 [리소스 플래너 찾기](../../resource-mgmt/resource-planning/get-started-resource-planner.md) 섹션을 참조하십시오.
+   리소스 플래너에 액세스하는 방법에 대한 자세한 내용은 문서 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md)에서 [리소스 플래너 찾기](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner) 섹션을 참조하십시오.
 
 1. **사용자별 보기**&#x200B;를 선택합니다.
 

@@ -7,9 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: 1700
 ht-degree: 0%
 
 ---
@@ -22,7 +34,7 @@ ht-degree: 0%
 >
 > 이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2018.2의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+2018.2의 모든 변경 사항 목록은 [2018.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)를 참조하십시오.
 
 2018.2 Beta 4 릴리스에는 Workfront 관리자 및 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
@@ -51,7 +63,7 @@ ht-degree: 0%
 
 이 변경 이전에는 Kanban 보드의 모든 열에 적용되는 WIP 제한을 하나만 구성할 수 있었습니다. 
 
-자세한 내용은 섹션을 참조하십시오  문서에서 [WIP(작업 진행 중) 제한 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)  [Kanban 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+자세한 내용은 문서 [Kanban 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)에서 [WIP(Work In Progress) 제한 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) 섹션을 참조하십시오.
 
 ### 칸반 보드에서 직접 WIP(Work In Progress) 한도 갱신
 
@@ -59,7 +71,7 @@ ht-degree: 0%
 
 이 변경 이전에는 팀 설정 영역에서만 WIP 제한을 업데이트할 수 있었습니다.
 
-자세한 내용은  (문서 내).
+자세한 내용은 이 문서에서 를 참조하십시오.
 
 ## 애자일 팀의 상태를 구성하기 위한 인터페이스 개선 {#improved-interface-for-configuring-statuses-for-an-agile-team}
 

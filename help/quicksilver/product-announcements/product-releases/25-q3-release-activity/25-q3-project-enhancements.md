@@ -6,9 +6,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: 873
 ht-degree: 0%
 
 ---
@@ -53,7 +58,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >시간이 기록된 시기에 따라 프로젝트, 작업 또는 문제에 대한 실제 시간과 레거시 실제 시간이 일치하지 않을 수 있습니다.<br>
->다음과 같은 시나리오가 있습니다.
+>다음 시나리오가 있습니다.
 >
 >* 실제 근로시간은 2021년 5월 이후 프로젝트, 작업 및 문제에 대해 기록된 시간을 나타냅니다.
 >* 기존 실제 시간은 프로젝트, 작업 또는 문제의 수명 동안 프로젝트, 작업 및 문제에 기록된 시간을 나타냅니다. 여기에는 2021년 5월 이전에 현재 시간까지 기록된 시간이 포함됩니다.

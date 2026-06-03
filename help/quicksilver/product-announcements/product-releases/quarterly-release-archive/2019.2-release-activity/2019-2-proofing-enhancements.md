@@ -7,9 +7,20 @@ author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: e8b67a10-1c9a-427e-96d5-0bcee47333f3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/FcN7LffeTY6SeNxt3laTGDubTW9fQhaU2FhHCc-lVTk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: 369
 ht-degree: 0%
 
 ---
@@ -28,7 +39,7 @@ ht-degree: 0%
 
 ## 증명 뷰어에서 증명에 댓글을 달 때 모든 사용자에 태그 지정
 
-증명에 대해 댓글을 달 때 증명에 대한 편집 권한이 있는 경우 이제 Workfront에서 인식하는 이메일 주소를 가진 사람에게 태그를 지정하거나 &quot;@mention&quot;할 수 있습니다. 여기에는 다음이 포함됩니다.
+증명에 대해 댓글을 달 때 증명에 대한 편집 권한이 있는 경우 이제 Workfront에서 인식하는 이메일 주소를 가진 사람에게 태그를 지정하거나 &quot;@mention&quot;할 수 있습니다. 여기에는 다음 항목이 포함되어 있습니다.
 
 * 이메일 주소를 사용하여 조직의 Workfront 계정에서 증명에 추가된 모든 사용자.
 * 조직의 Workfront 계정에서 증명에 구독하기 위해 이메일 주소를 사용한 모든 사용자.

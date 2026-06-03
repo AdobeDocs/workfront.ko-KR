@@ -4,10 +4,16 @@ description: 2026년 2분기 프로젝트 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
+exl-id: def76c9c-d808-489b-82c7-b1f44c241116
+TQID: https://experienceleague.adobe.com/4aDDK3EIDecA-DcuB7wb3e6-NV5IvIUF7mKl-lhnY8I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 1%
+source-wordcount: 262
+ht-degree: 2%
 
 ---
 
@@ -21,8 +27,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->미리 보기: 2026년 2월 5일
->프로덕션: 2026년 2월 5일에 시작\
+>미리 보기: 2026년 2월 5일>프로덕션: 2026년 2월 5일에 시작\
 >[!BADGE 일정 해제]{type=Neutral}
 
 단일 템플릿 작업을 편집하거나 일괄 편집할 때 템플릿 작업 편집 상자의 할당 섹션을 업데이트했습니다.  
@@ -32,7 +37,7 @@ ht-degree: 1%
 
    * 할당 
    * 소유자 또는 작업 소유자 
-   * 피할당자의 역할 
+   * 할당자의 역할 
 
 * &quot;이전 경험으로 다시 전환&quot; 옵션이 제거되었습니다.
 
@@ -42,8 +47,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->미리 보기: 2026년 1월 26일
->프로덕션: 2026년 2월 5일에 시작
+>미리 보기: 2026년 1월 26일>프로덕션: 2026년 2월 5일에 시작
 
 단일 작업을 편집하거나 일괄 편집할 때 작업 편집 상자의 할당 섹션을 업데이트했습니다.
 
@@ -60,6 +64,3 @@ ht-degree: 1%
 * &quot;이전 경험으로 다시 전환&quot; 옵션이 제거되었습니다.
 
 자세한 내용은 [작업 편집](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
-
-
-

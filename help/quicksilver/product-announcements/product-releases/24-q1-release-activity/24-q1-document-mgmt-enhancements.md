@@ -5,9 +5,14 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/q02y5omKlgFxVUj2SgDscgRVFc-qauvNB3gO9XjRlZA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: 341
 ht-degree: 0%
 
 ---
@@ -38,7 +43,7 @@ ht-degree: 0%
 
 특정 상태에 대한 자세한 내용은 [문서 승인 상태](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)를 참조하세요.
 
-## 내 리뷰 완료
+## 내 검토 완료
 
 >[!NOTE]
 >

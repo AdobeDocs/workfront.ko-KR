@@ -6,10 +6,26 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/7jiKsgfucD4HWoEz0nAKOGB4y2R0rpzAsq4vrNiyM3E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 0%
+source-wordcount: 2914
+ht-degree: 1%
 
 ---
 
@@ -79,7 +95,7 @@ ht-degree: 0%
                         <ul>
                         <li><strong>필드 복사</strong>: 이제 캔버스에서 직접 필드의 복사 아이콘을 클릭하여 기존 필드를 복사할 수 있습니다.</li>
                         <li><strong>기본 섹션 사용</strong>: 양식 작성자가 양식 맨 위에 섹션을 추가하지 않은 경우 이제 캔버스에 기본 섹션이 표시되므로 사용자 지정 섹션이 할당되지 않은 필드에 대한 권한을 사용자가 조정할 수 있습니다. </li>
-                        <li><strong>설명 텍스트 크기 변경</strong>: 이제 설명 텍스트 필드에 작은 크기, 중간 크기 또는 큰 크기를 할당할 수 있습니다. 같은 행에서 다른 필드와 함께 사용할 수도 있습니다. <span style="color: #ff0000;"> 설명 텍스트의 크기를 변경하는 작업이 일시적으로 지연되었지만 곧 제공될 예정입니다.</span></li> 
+                        <li><strong>설명 텍스트 크기 변경</strong>: 이제 설명 텍스트 필드에 작은 크기, 중간 크기 또는 큰 크기를 할당할 수 있습니다. 같은 행에서 다른 필드와 함께 사용할 수도 있습니다. <span style="color: #ff0000;"> 설명 텍스트의 크기를 변경하는 것이 일시적으로 지연되었지만 곧 제공될 예정입니다.</span></li> 
                         </ul>
                         </p>
                     </td>
@@ -89,7 +105,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2023년 3월 9일</p>
                             </li>
                             <li>
-                                 <p>프로덕션 릴리스: 23.2 릴리스<br />
+                                 <p>프로덕션 릴리스: 23.2 릴리스 포함<br />
                                  <span style="color: #ff0000;">2023년 5월 24일부터 7월 21일까지 미리 보기 및 프로덕션에서 양식 디자이너 Beta가 일시적으로 비활성화되었습니다.</span></p>
                             </li>
                         </ul>

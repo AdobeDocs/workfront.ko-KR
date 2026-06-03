@@ -7,9 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8e016f12-bc72-475c-a8cc-38ded4351f88
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/L7mlcRH-mf84Dt3lfuzI59lDkn7jCKMOZTBqVVnkAq8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2435'
+source-wordcount: 2427
 ht-degree: 0%
 
 ---
@@ -22,7 +35,7 @@ ht-degree: 0%
 >
 > 이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2018.1의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+2018.1의 모든 변경 사항 목록은 [2018.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)를 참조하십시오.
 
 2018.1 Beta 4 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
@@ -91,7 +104,7 @@ Workfront의 문서 목록은 다음과 같이 개선되었습니다. 
 
 * 교정쇄 생성
 * 교정쇄
-* 세부 정보
+* 세부 사항
 * 공유
 * 체크아웃 / 체크인
 
@@ -139,7 +152,7 @@ Workfront의 문서 목록은 다음과 같이 개선되었습니다. 
 >
 >이제 Workfront Proof의 이 새 증명 만들기 페이지가 Workfront 내에서 증명을 만들 때 최근에 사용할 수 있었던 증명 만들기 페이지와 일치합니다. 
 
-자세한 내용은  [Workfront Proof에서 증명 생성](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+자세한 내용은 [Workfront Proof에서 증명 생성](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)을 참조하십시오.
 
 ## Workfront 및 Workfront Proof의 증명 개선 사항 {#proofing-improvements-within-workfront-and-workfront-proof}
 
@@ -271,9 +284,9 @@ Workfront 및 Workfront Proof에 문서를 추가할 때 다음 변경 사항이
 
 간트 차트에 대한 자세한 내용은 [작업 목록 간트 차트에서 정보 업데이트](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)를 참조하십시오.
 
-## 새 Portfolio 최적화 도구 {#new-portfolio-optimizer}
+## 새로운 Portfolio Optimizer {#new-portfolio-optimizer}
 
-이제 Workfront의 Portfolio 최적화 도구 영역이 새로운 모양과 느낌으로 업데이트되었습니다. 기능은 변경되지 않았습니다.
+이제 Workfront의 Portfolio Optimizer 영역이 새로운 모양과 느낌으로 업데이트되었습니다. 기능은 변경되지 않았습니다.
 
 Portfolio 최적화 프로그램에 대한 자세한 내용은 [Portfolio 최적화 프로그램 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.
 

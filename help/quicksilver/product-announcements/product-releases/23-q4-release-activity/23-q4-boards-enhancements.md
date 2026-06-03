@@ -5,9 +5,14 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/mv5U1jTFgfL7MpI6sOL6SLT5psOP2hQ-mIFnUb-dC4E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: 530
 ht-degree: 0%
 
 ---
@@ -52,11 +57,11 @@ Workfront 작업의 보드에 연결된 카드를 추가하면 기존의 모든 
 
 자세한 내용은 [보드에서 구성원 추가 또는 제거](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md)를 참조하십시오.
 
-[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3423222/){target=_blank}
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3423222/){target=_blank}
 
 ## 연결된 카드에서 보기 전용으로 사용할 수 있는 문서
 
-이제 Adobe Workfront 보드의 연결된 카드에 대해 이미지 및 PDF 등의 문서를 볼 수 있습니다. 브라우저에서 문서를 미리 보거나 컴퓨터에 다운로드할 수 있습니다.
+이제 Adobe Workfront 보드에서 연결된 카드의 경우 이미지 및 PDF와 같은 문서를 볼 수 있습니다. 브라우저에서 문서를 미리 보거나 컴퓨터에 다운로드할 수 있습니다.
 
 이때 연결된 카드에서 문서를 사용하려면 Workfront 작업에 문서를 업로드해야 합니다.
 

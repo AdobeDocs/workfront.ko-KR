@@ -6,9 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/qmNKLogk-6ziKzb3zAmLY3vCbyP1gbwRGyWOBAGsuKk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: 519
 ht-degree: 0%
 
 ---
@@ -19,9 +26,9 @@ ht-degree: 0%
 
 23.2 릴리스 주기 동안 현재 사용 가능한 모든 변경 사항 목록을 보려면 [23.2 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)를 참조하십시오.
 
-## Creative Cloud 플러그인을 위한 Workfront의 새로운 기능
+## Creative Cloud용 Workfront 플러그인 신규
 
-Creative Cloud 플러그인용 Workfront에 다음과 같은 변경 사항을 추가했습니다.
+Creative Cloud용 Workfront 플러그인에 다음과 같은 변경 사항을 추가했습니다.
 
 * 이제 플러그인이 작업에 전임 작업이 있는 경우 알림을 보냅니다.
 * 한국어는 이제 지원되는 언어입니다
@@ -54,28 +61,28 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
-## Adobe Workfront for XD에서 대지를 단일 PDF 또는 여러 PDF 파일로 내보내기
+## Adobe Workfront for XD에서 아트보드를 단일 PDF 또는 여러 PDF 파일로 내보내기
 
-이제 Adobe Workfront for XD 플러그인에서 대지를 단일 PDF 파일 또는 여러 PDF 파일로 내보내도록 선택할 수 있습니다.
+이제 Adobe Workfront for XD 플러그인에서 아트보드를 단일 PDF 파일 또는 여러 PDF 파일로 내보내도록 선택할 수 있습니다.
 
 자세한 내용은 다음 문서를 참조하십시오.
 
 * [&#x200B; [!DNL XD] 아트 게시판을 문서로  [!DNL Workfront]에 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
 * [&#x200B; [!DNL XD] 아트 게시판을 증명으로  [!DNL Workfront]에 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
 
-## 완전히 새로운 고객은 통합 경험 Adobe에 온보딩됩니다
+## Adobe 통합 경험에 온보딩할 새로운 고객
 
-2023년 3월 중순부터 하순까지 새로운 고객이 Adobe 통합 경험에 온보딩되기 시작합니다. 신규 고객은 Adobe 비즈니스 플랫폼에 온보딩되므로 경우에 따라 처리됩니다.
+2023년 3월 중순부터 하순까지 새로운 고객은 Adobe 통합 경험에 온보딩될 예정입니다. 신규 고객은 Adobe Business Platform에 온보딩되므로 사안별로 처리됩니다.
 
 기존 고객을 통합 경험으로 마이그레이션하는 작업이 2023년 말로 연기되었습니다. 영향을 받는 모든 고객은 해당 시점에 통지됩니다.
 
-통합 경험 Adobe은 다음을 포함합니다.
+Adobe 통합 경험에는 다음이 포함됩니다.
 
 * Adobe Experience Cloud을 통한 모든 Adobe 애플리케이션에 대한 단일 로그인
 * Workfront 조직과 환경 사이를 이동하는 &quot;조직 전환기&quot;
 * Workfront 페이지, Adobe Experience Cloud 환경 설정 및 Workfront 프로필에 대한 옵션을 사용하여 탐색
 
-자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
+자세한 내용은 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 

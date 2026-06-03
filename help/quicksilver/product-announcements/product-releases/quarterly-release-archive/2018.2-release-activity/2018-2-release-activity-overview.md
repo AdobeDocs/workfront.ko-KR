@@ -7,9 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/BpvPAawc1yatEYsfS9YYjjz-6lOzw5-3cgD68D2dQhs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: 1158
 ht-degree: 0%
 
 ---
@@ -21,7 +34,7 @@ ht-degree: 0%
 > 프로덕션 환경에서는 다음 날짜에 18.2 릴리스를 사용할 수 있습니다.
 >
 >* Workfront Proof 프로덕션 환경 - 7월 17일 화요일
->* 클러스터 2 및 4를 위한 Workfront 프로덕션 환경  - 7월 19일 목요일 
+>* 클러스터 2 및 4를 위한 Workfront 프로덕션 환경 - 7월 19일 목요일 
 >* 클러스터 1, 3 및 5를 위한 Workfront 프로덕션 환경 - 7월 20일 금요일
 >
 
@@ -203,7 +216,7 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfro
   자세한 내용은 다음 리소스를 참조하십시오.
 
    * [웹 증명 뷰어에서 증명 검토](https://support.workfront.com/hc/en-us/sections/115000275214)
-   * [데스크톱 증명 뷰어에서 증명 검토](https://support.workfront.com/hc/en-us/sections/360000686434)
+   * [Desktop Proofing Viewer에서 증명 검토](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### Microsoft Outlook 추가 기능 지원이 종료됨 {#microsoft-outlook-add-in-support-is-ending}
 
