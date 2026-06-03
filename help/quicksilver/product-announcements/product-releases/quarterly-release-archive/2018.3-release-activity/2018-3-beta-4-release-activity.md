@@ -8,11 +8,18 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b40eda2c-8ad4-4945-a7e3-cb28ed8a14db
 TQID: https://experienceleague.adobe.com/gGZEw-nwXhtOQFIJS9-pZtb6XIg180CP02wMLVTTMPk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1134
@@ -28,7 +35,7 @@ ht-degree: 0%
 
 2018.3 Beta 4 릴리스에는 Workfront 관리자와 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [그룹 관리자로서 사용자 프로필의 보고 구조 업데이트](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 

@@ -9,10 +9,15 @@ exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/KdqJFE6HvNnPU2bQMF4oi9wiQzTt0fN8tRiS6TGbCj4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1194
@@ -116,7 +121,7 @@ ht-degree: 2%
 1. **보고서 보내기**&#x200B;를 클릭합니다.
 
 1. **액세스 권한이 있는 이 보고서 배달:** 필드에서 보고서가 전자 메일에 배달될 때 표시할 사용자의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 기본값은 보고서를 작성하는 사용자의 이름입니다.\
-   ![액세스 권한이 ](assets/unshimmed-send-report-access-rights-of.png)인 보고서를 보냈습니다.
+   ![액세스 권한이 &#x200B;](assets/unshimmed-send-report-access-rights-of.png)인 보고서를 보냈습니다.
 
    >[!NOTE]
    >

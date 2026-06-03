@@ -7,11 +7,19 @@ author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
 TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2369
@@ -130,7 +138,7 @@ ht-degree: 1%
 1. 의 왼쪽 상단 모서리에서 **필터** 아이콘을 클릭합니다.
    ![filter_icon.png](assets/filter-icon.png)
 또는
-**필터** 드롭다운 메뉴를 확장하고 **새 필터 추가**를 클릭합니다.
+**필터** 드롭다운 메뉴를 확장하고 **새 필터 추가**&#x200B;를 클릭합니다.
    ![필터 드롭다운](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 기본 제공 기준을 사용하여 필터를 빌드하려면 다음 필드 중 하나를 지정합니다.

@@ -7,11 +7,18 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
 TQID: https://experienceleague.adobe.com/xL8MU-Yhd3nI9S-HcTWzCy4akZFe1PZruOlVnyZarTk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 415
@@ -31,7 +38,7 @@ ht-degree: 0%
 
 이전에는 Workfront 데이터를 Experience Manager Assets 태그에 매핑할 수 없었습니다.
 
-Experience Manager Assets as a Cloud Service의 이 기능에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service을 구성]합니다](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).[!UICONTROL 
+Experience Manager Assets as a Cloud Service의 이 기능에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service을 구성]합니다(/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 Experience Manager Assets Essentials의 이 기능에 대한 자세한 내용은 [Experience Manager Assets Essentials 통합을 구성](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)하십시오.
 

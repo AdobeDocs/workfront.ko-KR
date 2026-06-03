@@ -9,10 +9,15 @@ exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/stg5BuJJo-hPWoXl3E7QnO2RW2h7rwQ4Pptw5H2MGq4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 593
@@ -67,7 +72,7 @@ ht-degree: 3%
 [!DNL Workfront] 내의 일정을 공유하려면:
 
 1. 공유할 캘린더로 이동합니다.
-1. 일정 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **공유**를 클릭합니다.
+1. 일정 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **공유**&#x200B;를 클릭합니다.
    ![일정 추가 메뉴](assets/more-menu-calendar.png)
 1. **[!UICONTROL 일정 액세스 권한 부여]** 필드에서 일정을 공유할 사용자, 팀, 역할, 그룹, 회사 또는 비즈니스 프로필 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.\
    권한 설정에 대한 자세한 내용은 [개체에 대한 공유 권한 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하세요.
@@ -112,7 +117,7 @@ ht-degree: 3%
 [!DNL Workfront]명의 사용자와 개인 캘린더 링크를 공유할 수 있습니다. 사용자가 링크를 사용할 때 캘린더를 보려면 로그인해야 합니다.
 
 1. 공유할 캘린더로 이동합니다.
-1. 일정 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **[!UICONTROL 공유 가능한 링크 가져오기]**를 클릭합니다.
+1. 일정 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **[!UICONTROL 공유 가능한 링크 가져오기]**&#x200B;를 클릭합니다.
    ![일정 추가 메뉴](assets/more-menu-calendar.png)
 
    >[!NOTE]

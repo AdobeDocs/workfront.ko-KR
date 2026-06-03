@@ -7,11 +7,18 @@ author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
 TQID: https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2087
@@ -110,7 +117,7 @@ ht-degree: 1%
 
    * 프로젝트에 대한 **자세히** 메뉴를 클릭한 다음 **예산에 따라 역할 계획된 시간 설정**&#x200B;을 클릭합니다.\
      각 역할에 대한 예산 시간은 다음 공식을 사용하여 계산됩니다.\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -159,7 +166,7 @@ ht-degree: 1%
 
 리소스 예산 책정에 필요한 액세스에 대한 자세한 내용은 문서 [Adobe Workfront의 리소스 예산 책정에 필요한 액세스](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)를 참조하십시오.
 
-역할 보기의 리소스 플래너에서 할당 예산**** 책정하려면
+역할 보기의 리소스 플래너에서 할당 예산&#x200B;**&#x200B;** 책정하려면
 
 1. Adobe Workfront 오른쪽 위 모서리에 있는 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
 
@@ -180,8 +187,8 @@ ht-degree: 1%
    * **BDG** 열에서 작업 역할에 대한 예산 시간, FTE 또는 비용을 수동으로 지정하십시오.\
      이렇게 하면 관리 액세스 권한이 있는 프로젝트에 대한 역할 예산 시간이 프로젝트 예산 시간으로 분산됩니다.
 
-   * 작업 역할에 대한 **자세히** 메뉴를 클릭한 다음 **프로젝트의 계획된 시간을 예산 시간으로 설정**역할 예산 시간은 다음 공식을 사용하여 계산됩니다.\
-     *
+   * 작업 역할에 대한 **자세히** 메뉴를 클릭한 다음 **프로젝트의 계획된 시간을 예산 시간으로 설정**&#x200B;역할 예산 시간은 다음 공식을 사용하여 계산됩니다.\
+     &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

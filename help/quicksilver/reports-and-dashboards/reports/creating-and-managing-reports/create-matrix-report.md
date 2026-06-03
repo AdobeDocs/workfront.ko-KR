@@ -9,10 +9,15 @@ exl-id: 714f2802-089f-4a41-8205-f397cf474a24
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/hCw4yyqTl-aXG5Z71TpFsfWX1s463Z8cUTIdJ1ifbfo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1091
@@ -133,9 +138,8 @@ ht-degree: 2%
      >   * 숫자 및 통화 값에 대한 사용자 정의 데이터 필드는 상위, 1차 하위 구성요소, 1차 상위 구성요소 및 독립 실행형 작업과 같은 모든 작업을 집계합니다. **값** 열에 계획된 시간 또는 실제 시간을 표시하는 매트릭스 보고서를 만든 경우 상위 개체(예: 상위 작업)에 대한 시간 또는 비용 정보가 매트릭스 보고서에 표시되지 않습니다. 상위 개체에 대한 시간을 보려면 **세부 정보** 탭을 확인해야 합니다.
      >   
      >   
-     >
+     >**조건부 규칙:** 집계되는 값에 대한 서식 규칙을 설정합니다.\
 
-   **조건부 규칙:** 집계되는 값에 대한 서식 규칙을 설정합니다.\
    규칙을 추가한 후 해당 규칙과 일치하는 필드가 표시되는 방식에 대한 필드 및 텍스트 스타일을 정의할 수 있습니다. 규칙 정의를 마친 후 **규칙 추가**&#x200B;를 클릭한 다음 **완료**&#x200B;를 클릭하여 규칙을 저장합니다.
 
 1. 보고서에 표시할 정보를 정의하려면 **필터** 탭을 클릭하십시오.

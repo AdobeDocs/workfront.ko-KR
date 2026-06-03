@@ -8,9 +8,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f3293166-ef91-4623-828b-9530d746296d
 TQID: https://experienceleague.adobe.com/CtGQZMxSWimi-9K73442-rUmpyPcqNh0EQ6MNaBNtns
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 831
@@ -30,7 +33,7 @@ ht-degree: 0%
 
 2017.3 Beta 2 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [단계 활성화를 통해 워크플로우에 대한 액세스 제한(Workfront Proof)](#restrict-access-to-workflows-by-stage-activation-workfront-proof)
 

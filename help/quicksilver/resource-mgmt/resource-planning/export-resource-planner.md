@@ -7,11 +7,17 @@ author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
 TQID: https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 582
@@ -119,7 +125,7 @@ ht-degree: 7%
 1. 리소스 플래너에서 정보를 내보내려면 **내보내기**&#x200B;를 클릭하십시오.\
    저장한 정보만 내보냅니다.
 
-1. (조건부) 역할 또는 프로젝트 보기에서 예산 시간을 저장하지 않은 경우 **저장하고 계속하기**를 클릭합니다.
+1. (조건부) 역할 또는 프로젝트 보기에서 예산 시간을 저장하지 않은 경우 **저장하고 계속하기**&#x200B;를 클릭합니다.
 Excel(.xlsx) 파일이 컴퓨터에 다운로드됩니다.\
    파일을 다운로드할 준비가 되어 있는 동안에는 리소스 플래너에서 내보내기를 사용할 수 없습니다.\
    (조건부) 많은 양의 데이터를 내보내는 경우 파일을 다운로드할 수 있는 링크가 포함된 이메일이 전송됩니다.\

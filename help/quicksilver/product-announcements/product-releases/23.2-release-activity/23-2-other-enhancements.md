@@ -7,9 +7,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
 TQID: https://experienceleague.adobe.com/qmNKLogk-6ziKzb3zAmLY3vCbyP1gbwRGyWOBAGsuKk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 519
@@ -64,8 +67,8 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 
 자세한 내용은 다음 문서를 참조하십시오.
 
-* [ [!DNL XD] 아트 게시판을 문서로  [!DNL Workfront]에 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-* [ [!DNL XD] 아트 게시판을 증명으로  [!DNL Workfront]에 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [&#x200B; [!DNL XD] 아트 게시판을 문서로  [!DNL Workfront]에 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [&#x200B; [!DNL XD] 아트 게시판을 증명으로  [!DNL Workfront]에 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
 
 ## Adobe 통합 경험에 온보딩할 새로운 고객
 

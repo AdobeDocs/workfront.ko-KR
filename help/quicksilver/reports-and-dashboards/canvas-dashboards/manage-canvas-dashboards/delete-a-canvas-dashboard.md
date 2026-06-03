@@ -9,10 +9,15 @@ exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Nd2VxoXLOIzSFEV4blP5Z6fFh7UUcotJRT2X7nqGtT8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 219
@@ -95,7 +100,7 @@ ht-degree: 10%
 
 1. **캔버스 대시보드** 페이지에서 삭제할 대시보드를 선택합니다.
 
-1. 오른쪽 상단 모서리에서 **자세히** ![추가 아이콘](assets/more-icon.png) 아이콘을 선택한 다음 **대시보드 삭제**를 선택합니다.
+1. 오른쪽 상단 모서리에서 **자세히** ![추가 아이콘](assets/more-icon.png) 아이콘을 선택한 다음 **대시보드 삭제**&#x200B;를 선택합니다.
    ![대시보드 삭제](assets/delete-dashboard.png)
 
 1. **대시보드 삭제** 대화 상자에서 **이 대시보드를 삭제할지 확인** 확인란을 선택합니다.

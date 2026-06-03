@@ -8,11 +8,17 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 97945661-e97d-43c8-b564-624c4388de2f
 TQID: https://experienceleague.adobe.com/2VzVuejEi80fNoxQ2KRGdLbDbiIX-7z4b5P33o-3N8s
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 913
@@ -32,7 +38,7 @@ ht-degree: 0%
 
 2018.3 Beta 2 릴리스에는 Workfront 관리자와 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [그룹 관리자로서 사용자 프로필의 이메일 주소 업데이트](#update-the-email-address-in-the-user-profile-as-a-group-administrator)
 

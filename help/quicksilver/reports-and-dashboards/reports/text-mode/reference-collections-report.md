@@ -9,10 +9,16 @@ exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/HPw9hvYELkeZOzP2OpoJcpicXdEP76nmeEwdn3uWojY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2624
@@ -273,7 +279,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>목록의 값을 구분하는 데 사용되는 구분 기호입니다.<br>값 사이에 줄 바꿈을 추가하는 <code>&lt;p&gt;</code>을(를) 사용하는 것이 좋습니다.</p> <p>다음을 사용할 수도 있습니다.</p> <p><code>&amp;zwj;</code> (폭 없는 결합자). 컬렉션의 값 사이에 구분이 없습니다.<br><strong>,</strong> =쉼표 구분 기호. 컬렉션의 값은 쉼표로 구분되며 뒤에 공백이 없습니다.<br><strong>/</strong> = 슬래시 구분 기호. 컬렉션의 값은 슬래시로 구분됩니다.<br><strong>-</strong> = 대시 구분 기호. 컬렉션의 값은 대시로 구분됩니다.<br>이 줄을 비워 두면 기본적으로 쉼표 다음에 컬렉션의 값 사이에 공백이 추가됩니다.</p> </td> 
+   <td> <p>목록의 값을 구분하는 데 사용되는 구분 기호입니다.<br>값 사이에 줄 바꿈을 추가하는 <code>&lt;p&gt;</code>을(를) 사용하는 것이 좋습니다.</p> <p>다음을 사용할 수도 있습니다.</p> <p><code>&zwj;</code> (폭 없는 결합자). 컬렉션의 값 사이에 구분이 없습니다.<br><strong>,</strong> =쉼표 구분 기호. 컬렉션의 값은 쉼표로 구분되며 뒤에 공백이 없습니다.<br><strong>/</strong> = 슬래시 구분 기호. 컬렉션의 값은 슬래시로 구분됩니다.<br><strong>-</strong> = 대시 구분 기호. 컬렉션의 값은 대시로 구분됩니다.<br>이 줄을 비워 두면 기본적으로 쉼표 다음에 컬렉션의 값 사이에 공백이 추가됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>열 이름</em> </td> 
@@ -402,7 +408,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 1. **보고서 프롬프트**&#x200B;를 클릭합니다.
 1. **프롬프트 추가**&#x200B;를 클릭합니다.
 1. **사용자 지정 프롬프트**&#x200B;를 클릭합니다.
-1. **필드****이름** 필드에 프롬프트 이름을 지정하십시오.
+1. **필드**&#x200B;**이름** 필드에 프롬프트 이름을 지정하십시오.
 
 1. **드롭다운 항목 레이블**&#x200B;을(를) 지정하십시오.
 1. **조건** 필드에 다음을 지정하십시오.

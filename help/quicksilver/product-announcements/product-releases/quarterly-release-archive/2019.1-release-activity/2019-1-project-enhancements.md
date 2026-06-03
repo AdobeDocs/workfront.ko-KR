@@ -8,8 +8,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7b39082a-ab96-4e54-8f28-96629760715a
 TQID: https://experienceleague.adobe.com/cHyxMUlRSlpjq9pLWw-jBmewYCc7REao-zYdMQq861Y
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1467
@@ -27,7 +29,7 @@ ht-degree: 1%
 
 2019.1의 모든 변경 사항 목록은 &quot;2019.1 릴리스 활동 개요&quot;를 참조하십시오.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [휴지통에서 템플릿 복원](#restore-templates-from-the-recycle-bin)
 * [홈의 날짜 필드에 대한 타임스탬프 표시](#show-timestamps-for-date-fields-in-home)

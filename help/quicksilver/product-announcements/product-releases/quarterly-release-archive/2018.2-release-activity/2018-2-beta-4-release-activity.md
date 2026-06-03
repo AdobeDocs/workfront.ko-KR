@@ -8,11 +8,17 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
 TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1700
@@ -32,7 +38,7 @@ ht-degree: 0%
 
 2018.2 Beta 4 릴리스에는 Workfront 관리자 및 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [시스템 설정: 외부 페이지의 세션 정보](#system-setting-session-information-in-external-pages)
 
