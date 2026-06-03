@@ -6,11 +6,23 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c33c023ab33a3b0c8369e6fae091d0ec877aa4e2
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: 1720
 ht-degree: 2%
 
 ---
@@ -125,6 +137,8 @@ maybe use the Share record types as example here and touch on the same points: h
 사용자가 작업 영역 또는 레코드 유형에 대한 기여 권한을 가지고 있으면 해당 레코드 유형의 레코드에 대한 관리 권한을 받습니다.
 * 작업 영역에서 엔티티를 제거하면 모든 공유 권한이 레코드 유형 및 그 안의 모든 레코드에서 제거됩니다.
 * 작업 영역 또는 레코드 유형에 대한 권한이 없는 사용자와 레코드를 공유할 수 없습니다.
+
+  작업 영역에 없는 사람과 레코드를 공유하는 경우 해당 레코드가 작업 영역에 자동으로 추가됩니다.
 * 사용자의 레코드에 대한 액세스는 다음 3가지 설정의 조합을 통해 결정됩니다.
 
    * 레코드 유형 및 작업 영역에서 상속된 권한
@@ -149,7 +163,7 @@ maybe use the Share record types as example here and touch on the same points: h
 
 * 단일 레코드에 대해 상속된 권한을 비활성화할 수 있습니다. 이 경우 개별 레코드에 대한 권한을 선택한 사용자에게 부여할 수 있습니다. 또는 **작업 영역의 모든 사람이 볼 수 있음** 옵션으로 인해 작업 영역에 속하는 경우 권한을 획득할 수 있습니다.
 
-* 동일한 사용자에 대해 여러 공유 권한이 적용되는 경우 해당 권한 중 가장 높은 권한을 받습니다.
+* 동일한 사용자에 대해 여러 공유 권한이 적용되는 경우 해당 권한은 가장 높은 수준으로 제공됩니다.
 
   예를 들어 레코드가 보기 권한이 있는 사용자와 공유되고 해당 그룹이 관리 액세스 권한이 있는 경우, 해당 사용자는 레코드에 대한 관리 권한을 받습니다.
 
