@@ -5,9 +5,15 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+TQID: https://experienceleague.adobe.com/8LLDPoqTld6CKGylVcw7B7PAvLUqHj0fjzl5cw382-M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: 585
 ht-degree: 0%
 
 ---
@@ -48,7 +54,7 @@ ht-degree: 0%
 >
 >미리보기 릴리스: 2024년 8월 29일, 모든 고객을 위한 프로덕션 릴리스: 2024년 8월 29일
 
-레이아웃 템플릿을 사용하여 필드를 보다 쉽게 표시하거나 숨길 수 있도록 레이아웃 템플릿에서 세부 정보 보기의 개요 및 재무 영역에 **모두 선택** 확인란이 추가되었습니다. 이 옵션은 **사용자에게 표시되는 항목 사용자 지정**&#x200B;에서 프로젝트, 작업, 문제, Portfolio 또는 프로그램을 선택한 경우 사용할 수 있습니다. 일부 객체에는 재무 영역이 표시되지 않으며 각 영역의 필드는 객체에 따라 다릅니다.
+레이아웃 템플릿을 사용하여 필드를 보다 쉽게 표시하거나 숨길 수 있도록 레이아웃 템플릿에서 세부 정보 보기의 개요 및 재무 영역에 **모두 선택** 확인란이 추가되었습니다. 이 옵션은 **사용자에게 표시되는 항목 사용자 지정**&#x200B;에서 프로젝트, 작업, 문제, Portfolio 또는 프로그램을 선택한 경우에 사용할 수 있습니다. 일부 객체에는 재무 영역이 표시되지 않으며 각 영역의 필드는 객체에 따라 다릅니다.
 
 자세한 내용은 [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오.
 

@@ -6,11 +6,16 @@ description: 텍스트 모드에서 조건부 서식 사용
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9YTbzW6MnqD4EpNYObP4HEtbZw2r7eBwNdheE0qxsEo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: 1738
 ht-degree: 2%
 
 ---
@@ -181,7 +186,7 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >[!NOTE]
 >
 >* 이 문은 회사 이름 열에 적용할 수 있지만 보고서의 다른 열에도 적용할 수 있습니다. 프로젝트에 연결된 회사가 있는 경우에만 녹색 텍스트가 표시됩니다. 조건이 열에 표시되는지 여부에 관계없이 `[field name]`, `[value]` 및 `[qualifier]` 드라이브를 기억하십시오.
->* 한정자를 사용할 때는 `cicontains`보다 `equal`을(를) 사용하는 것이 좋습니다. 기본적으로 `equal`은(는) ID 번호를 찾습니다. `cicontains` 한정자를 사용하면 해당 이름으로 항목에 액세스할 수 있습니다.
+>* 한정자를 사용할 때는 `equal`보다 `cicontains`을(를) 사용하는 것이 좋습니다. 기본적으로 `equal`은(는) ID 번호를 찾습니다. `cicontains` 한정자를 사용하면 해당 이름으로 항목에 액세스할 수 있습니다.
 
 ![텍스트 모드 예](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 

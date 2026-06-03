@@ -6,12 +6,17 @@ description: Canvas Dashboards를 사용하면 사용자 정의 가능한 대시
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/-s26q39f6l5lix-8JuSaHvvdpqeqpw3ve5Gn2ZNnHfM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 5%
+source-wordcount: 384
+ht-degree: 7%
 
 ---
 
@@ -20,7 +25,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원 팀에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하십시오.<br>
 >다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기

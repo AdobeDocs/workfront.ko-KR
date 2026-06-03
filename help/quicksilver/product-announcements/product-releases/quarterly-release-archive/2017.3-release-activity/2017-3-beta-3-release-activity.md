@@ -7,9 +7,14 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc0cada8-4b9e-40cb-89a5-16f15268b513
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/12nUGoSnwlcVACSTf-b-Fks7QRuCCl9HBujkDNG5ubU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: 572
 ht-degree: 6%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 6%
 >
 > 이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2017.3의 모든 변경 사항 목록은 다음을 참조하십시오.  [2017.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+2017.3의 모든 변경 사항 목록은 [2017.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)를 참조하십시오.
 
 2017.3 Beta 3 릴리스에는 모든 사용자를 위한 향상된 기능이 포함되어 있습니다.
 
@@ -62,13 +67,13 @@ ht-degree: 6%
 * 권한 지우기
 * 모두 선택
 
-프로젝트 복사와 관련된 새로운 기능에 대한 자세한 내용은 의 &quot;미리보기 환경에서 프로젝트 복사&quot; 섹션을 참조하십시오.   [프로젝트 복사](../../../../manage-work/projects/manage-projects/copy-project.md).
+프로젝트 복사와 관련된 새로운 기능에 대한 자세한 내용은 [프로젝트 복사](../../../../manage-work/projects/manage-projects/copy-project.md)의 &quot;미리 보기 환경에서 프로젝트 복사&quot; 섹션을 참조하십시오.
 
 ## 리소스 플래너 개선 사항: 필터 {#resource-planner-improvement-filters}
 
 이제 다음 개체를 사용하여 리소스 플래너에 표시되는 정보를 필터링할 수 있습니다.
 
-* Portfolio
+* 포트폴리오
 * 프로젝트 상태
 * 팀
 * 작업 역할

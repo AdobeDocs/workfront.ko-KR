@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1b5d231b-c08a-4dea-bcbb-278527ccc4bd
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/abvfQY8TGHaoIB8jDSoCT6CDJPSQeQFOUacds9JuXJ8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: 842
 ht-degree: 0%
 
 ---
@@ -100,7 +106,7 @@ ht-degree: 0%
 
 * [프로젝트의 사용률 보고서에 필터 저장 및 관리](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#save-and-manage-filters-in-the-utilization-report-on-a-project)
 * [사용률 보고서의 추가 필터링 옵션](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#additional-filtering-options-in-the-utilization-report)
-* [프로그램 또는 Portfolio의 사용률 보고서 보기](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#run-the-utilization-report-at-the-program-and-portfolio-level)
+* [프로그램 또는 Portfolio별 사용률 보고서 보기](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#run-the-utilization-report-at-the-program-and-portfolio-level)
 * [프로젝트의 사용률 보고서에 사용자 할당 정보 포함](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#include-user-allocation-information-in-the-utilization-report-on-a-project)
 * [프로젝트의 사용률 보고서 내에서 콘텐츠 필터링](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#filter-content-within-a-utilization-report-on-a-project)
 * [프로젝트의 사용률 보고서에서 비용 정보 보기](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#view-cost-information-in-the-utilization-report-on-a-project)
@@ -136,7 +142,7 @@ ht-degree: 0%
 
 **Workfront Proof 및 Workfront 모두에서 향상된 증명 기능**
 
-* [HTML 5 증명 뷰어 업데이트](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#html-static-proofing-viewer)
+* [HTML5 증명 뷰어 업데이트](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#html-static-proofing-viewer)
 * [HTML5 비디오 증명 뷰어에서 다시 시작 및 건너뛰기(키보드 단축키)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#restart-and-skip-in-html5-proofing)
 
 ### 기타 개선 사항

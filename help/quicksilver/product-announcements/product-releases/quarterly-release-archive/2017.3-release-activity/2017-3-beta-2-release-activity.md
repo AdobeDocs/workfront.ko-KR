@@ -7,9 +7,13 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f3293166-ef91-4623-828b-9530d746296d
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/CtGQZMxSWimi-9K73442-rUmpyPcqNh0EQ6MNaBNtns
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: 831
 ht-degree: 0%
 
 ---
@@ -22,11 +26,11 @@ ht-degree: 0%
 >
 > 이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2017.3의 모든 변경 사항 목록은 다음을 참조하십시오.  [2017.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+2017.3의 모든 변경 사항 목록은 [2017.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)를 참조하십시오.
 
 2017.3 Beta 2 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1&rbrace;**
+관리자용 **1}**
 
 * [단계 활성화를 통해 워크플로우에 대한 액세스 제한(Workfront Proof)](#restrict-access-to-workflows-by-stage-activation-workfront-proof)
 
@@ -61,7 +65,7 @@ ht-degree: 0%
 
 이제 프로젝트의 활용성 보고서에 표시되는 콘텐츠를 필터링할 수 있습니다.
 
-자세한 내용은 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오.  [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+자세한 내용은 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)의 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오.
 
 ## 프로젝트에 대한 활용성 보고서의 원가 정보 조회 {#view-cost-information-in-the-utilization-report-on-a-project}
 
@@ -69,7 +73,7 @@ ht-degree: 0%
 
 이 변경 이전에는 활용성 보고서에서 시간 정보만 사용할 수 있었습니다.
 
-자세한 내용은 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오.  [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+자세한 내용은 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)의 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오.
 
 ## 항목에 사용자 구독 및 구독 취소 {#subscribing-and-unsubscribing-users-to-items}
 
@@ -79,7 +83,7 @@ ht-degree: 0%
 
 일단 가입되면 사용자는 가입된 객체의 스트림을 업데이트하라는 댓글이 있을 때마다 인앱 알림을 받습니다. 또한 구독자는 이메일 및 모바일 알림을 수신하도록 선택할 수 있습니다.
 
-개체를 구독 및 구독 취소하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 항목 구독](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)을 참조하세요.   [Adobe Workfront에서 항목 구독](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
+개체를 구독 및 구독 취소하는 방법에 대한 자세한 내용은 [Adobe Workfront의 항목 구독](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)([Adobe Workfront의 항목 구독](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md))을 참조하십시오.
 
 ## 보고서 또는 보기에서 가입자 목록 보기 {#viewing-the-subscriber-list-in-a-report-or-view}
 
@@ -89,7 +93,7 @@ ht-degree: 0%
 
 커뮤니케이션 이메일의 모양과 느낌이 업데이트되어 오브젝트에 대한 커뮤니케이션에 훨씬 더 많은 컨텍스트를 제공합니다. 이제 댓글 스레드를 빠르게 따라 커뮤니케이션에 포함된 사용자를 볼 수 있습니다.
 
-자세한 내용은 다음에서 [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md)을 참조하세요.  [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md).
+자세한 내용은 [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md)의 [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md)을 참조하세요.
 
 ## 단계 활성화를 통해 워크플로우에 대한 액세스 제한(Workfront Proof) {#restrict-access-to-workflows-by-stage-activation-workfront-proof}
 

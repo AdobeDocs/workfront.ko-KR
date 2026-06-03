@@ -7,9 +7,12 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: efcc2217-ab69-4ac4-8e9a-f811eba77d49
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/-BFykQtqXROGYgeh8eOtpfqQsMIAn0yfQIAy-1KflGw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: 1055
 ht-degree: 0%
 
 ---
@@ -22,11 +25,11 @@ ht-degree: 0%
 >
 > 이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2018.1의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+2018.1의 모든 변경 사항 목록은 [2018.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)를 참조하십시오.
 
 2018.1 Beta 1 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1&rbrace;**
+관리자용 **1}**
 
 * [홈 영역을 지원하도록 레이아웃 템플릿을 업데이트했습니다](#updated-layout-template-to-support-the-home-area)
 * [Workfront에서 보낸 증명 전자 메일 알림 사용 안 함](#disable-proofing-email-notifications-sent-from-workfront)

@@ -6,11 +6,17 @@ description: 현저하게 집계된 단일 KPI를 표시하는 KPI 보고서를 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
+TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: 1301
 ht-degree: 7%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 7%
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원 팀에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하십시오.<br>
 >다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
@@ -165,8 +171,8 @@ KPI 보고서 예제에 대한 자세한 내용은 [검토 및 승인을 위한 
 
 1. **세부 정보** 섹션을 구성하려면 아래 단계를 따르십시오.
 
-   1. *이름* 필드에 **보류 중**&#x200B;을(를) 입력하십시오.
-   1. *설명* 필드에 **승인 보류 중**&#x200B;을(를) 입력하십시오. KPI 값 아래에 캡션으로 표시됩니다.
+   1. **이름** 필드에 *보류 중*&#x200B;을(를) 입력하십시오.
+   1. **설명** 필드에 *승인 보류 중*&#x200B;을(를) 입력하십시오. KPI 값 아래에 캡션으로 표시됩니다.
 
 1. **KPI 작성** 섹션을 구성하려면 아래 단계를 따르십시오.
 

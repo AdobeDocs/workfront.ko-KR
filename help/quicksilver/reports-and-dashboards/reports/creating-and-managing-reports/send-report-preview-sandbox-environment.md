@@ -6,11 +6,16 @@ description: 이 페이지의 정보는 미리보기 및 사용자 지정 새로
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/aikRhNKy6A6Rjhw9dYWJrMuZyjKJjLvNYOkxI2-jR70
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 617
 ht-degree: 3%
 
 ---
@@ -94,7 +99,7 @@ ht-degree: 3%
 
 배달된 보고서가 사용자 지정 새로 고침 샌드박스에서 생성되는지 여부는 이 테스트 환경에서 이메일 수신 설정의 활성화 여부에 따라 달라집니다.
 
-미리 보기 환경에서 전자 메일을 사용하는 방법에 대한 자세한 내용은 문서 [사용자 전자 메일 알림 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view)의 [전자 메일 알림 설정 보기 및 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 섹션을 참조하십시오.
+미리 보기 환경에서 전자 메일을 사용하는 방법에 대한 자세한 내용은 문서 [사용자 전자 메일 알림 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)의 [전자 메일 알림 설정 보기 및 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) 섹션을 참조하십시오.
 
 ![샌드박스에서 이메일 수신 옵션](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 

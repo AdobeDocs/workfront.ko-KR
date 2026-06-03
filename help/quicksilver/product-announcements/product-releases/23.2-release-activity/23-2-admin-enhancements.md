@@ -6,9 +6,15 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+TQID: https://experienceleague.adobe.com/xL8MU-Yhd3nI9S-HcTWzCy4akZFe1PZruOlVnyZarTk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: 415
 ht-degree: 0%
 
 ---
@@ -25,7 +31,7 @@ ht-degree: 0%
 
 이전에는 Workfront 데이터를 Experience Manager Assets 태그에 매핑할 수 없었습니다.
 
-이 기능에 대한 자세한 내용은 Experience Manager Assetsas a Cloud Service 를 참조하십시오. [Experience Manager Assets as a Cloud Service 구성] 통합(/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
+Experience Manager Assets as a Cloud Service의 이 기능에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service을 구성]합니다](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).[!UICONTROL 
 
 Experience Manager Assets Essentials의 이 기능에 대한 자세한 내용은 [Experience Manager Assets Essentials 통합을 구성](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)하십시오.
 
@@ -39,11 +45,11 @@ Experience Manager Assets Essentials의 이 기능에 대한 자세한 내용은
 
 * **기본 섹션 사용**: 양식 작성자가 양식 맨 위에 섹션을 추가하지 않은 경우 이제 캔버스에 기본 섹션이 표시되므로 사용자 지정 섹션이 할당되지 않은 필드에 대한 권한을 사용자가 조정할 수 있습니다.
 
-* **설명 텍스트 크기 변경**: 이제 설명 텍스트 필드에 작은 크기, 중간 크기 또는 큰 크기를 할당할 수 있습니다. 같은 행에서 다른 필드와 함께 사용할 수도 있습니다. <span style="color: #ff0000;"> 설명 텍스트의 크기를 변경하는 작업이 일시적으로 지연되었지만 곧 제공될 예정입니다.</span></li>
+* **설명 텍스트 크기 변경**: 이제 설명 텍스트 필드에 작은 크기, 중간 크기 또는 큰 크기를 할당할 수 있습니다. 같은 행에서 다른 필드와 함께 사용할 수도 있습니다. <span style="color: #ff0000;"> 설명 텍스트의 크기를 변경하는 것이 일시적으로 지연되었지만 곧 제공될 예정입니다.</span></li>
 
 자세한 내용은 [사용자 정의 양식 개요](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)를 참조하십시오.
 
-[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3416586/){target=_blank}
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## 레이아웃 템플릿의 고정 항목 이름 바꾸기
 
@@ -51,4 +57,4 @@ Experience Manager Assets Essentials의 이 기능에 대한 자세한 내용은
 
 자세한 내용은 [레이아웃 템플릿을 사용하여 고정된 페이지 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)을 참조하십시오. 사용자가 개인 고정 페이지의 이름을 바꾸는 방법에 대한 자세한 내용은 [페이지를 고정하여 작업 영역 사용자 지정](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md)을 참조하세요.
 
-[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3414364/){target=_blank}
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3414364/){target=_blank}

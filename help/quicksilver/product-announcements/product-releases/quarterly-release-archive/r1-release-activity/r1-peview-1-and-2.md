@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: 1024
 ht-degree: 2%
 
 ---
@@ -38,7 +44,7 @@ Workfront에서 개체를 복원하는 방법에 대한 자세한 내용은 [삭
 
 프로젝트의 경우 프로젝트 제목 옆에 있는 헤더에 승인 정보가 표시됩니다. 작업 및 문제의 경우 승인 정보가 오른쪽 패널에 표시됩니다.
 
-자세한 내용은 [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md)을 참조하세요.  [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+자세한 내용은 [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md)에서 [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md)을 참조하세요.
 
 ## 승인 보류 중인 업데이트할 개체 구성
 
@@ -95,7 +101,7 @@ Workfront에서 개체를 복원하는 방법에 대한 자세한 내용은 [삭
 * 나에게 할당된 작업 정보
 * 커뮤니케이션
 
-자세한 내용은 [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md)을 참조하세요.  미리보기 샌드박스에서 모든 사용자의 이메일 주소를 지우므로 이 기능을 테스트하려면 계정과 연결된 이메일 주소를 업데이트해야 합니다. 
+자세한 내용은 [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md)을 참조하세요. 미리 보기 샌드박스에서 모든 사용자의 전자 메일 주소를 지우므로 이 기능을 테스트하려면 계정과 연결된 전자 메일 주소를 업데이트해야 합니다. 
 
 ## 공개로 그룹 만들기
 

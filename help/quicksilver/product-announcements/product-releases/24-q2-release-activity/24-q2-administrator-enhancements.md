@@ -5,9 +5,15 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+TQID: https://experienceleague.adobe.com/xcYDVGJSTKtR0dRM3EhQf62WokddEzsudevZ6Ur6Wn0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: 827
 ht-degree: 0%
 
 ---
@@ -78,7 +84,7 @@ JumpSeat 통합에 대한 자세한 내용은 [JumpSeat 통합 구성](/help/qui
 
 이전에는 Adobe IMS에 아직 온보딩되지 않은 조직에서만 이 기능을 사용할 수 있었습니다.
 
-특성 매핑 구성에 대한 지침은 **사용자 특성 매핑 및 새 사용자 자동 프로비저닝**&#x200B;의 [Adobe 통합 경험에서 사용자 특성 매핑](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)을 참조하십시오.
+특성 매핑을 구성하는 방법은 문서 **사용자 특성 매핑 및 새 사용자 자동 프로비저닝**&#x200B;의 [Adobe 통합 경험에서 사용자 특성 매핑](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)을 참조하십시오.
 
 ## 이제 양식 디자이너 베타에서 건너뛰기 논리 및 표시 논리를 사용할 수 있습니다
 

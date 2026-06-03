@@ -5,9 +5,15 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+TQID: https://experienceleague.adobe.com/EaBgUmWMJByCS3QoH-GoOEheVUKihKNw17cgJnbkm9A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: 326
 ht-degree: 0%
 
 ---
@@ -32,7 +38,7 @@ ht-degree: 0%
 
 자세한 내용은 [타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 및 [그룹에 대한 타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)을 참조하십시오.
 
-[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3419111/){target=_blank}
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3419111/){target=_blank}
 
 ## 양식 디자이너 베타에 표시되는 논리 표시 및 건너뛰기 논리 표시기 및 규칙
 

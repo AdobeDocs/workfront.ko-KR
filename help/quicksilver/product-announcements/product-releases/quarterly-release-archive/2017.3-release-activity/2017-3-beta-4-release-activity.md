@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+TQID: https://experienceleague.adobe.com/JB7Mhf1RUya-cG9B1OJ-xuAW-y9aq-V2Jxa3Xpf7VFI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: 1625
 ht-degree: 0%
 
 ---
@@ -22,11 +28,11 @@ ht-degree: 0%
 >
 > 이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2017.3의 모든 변경 사항 목록은 다음을 참조하십시오.  [2017.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+2017.3의 모든 변경 사항 목록은 [2017.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)를 참조하십시오.
 
 2017.3 Beta 4 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1&rbrace;**
+관리자용 **1}**
 
 * [설정 영역의 새 리소스 관리 기본 설정 영역](#new-resource-management-preferences-area-in-the-setup-area)
 
@@ -39,7 +45,7 @@ ht-degree: 0%
 * [사용자 설정에 대한 작업 역할 섹션에 FTE 사용 가능 비율이 포함됨](#job-role-section-for-user-settings-includes-percentage-of-fte-availability)
 * [프로젝트의 사용률 보고서에 필터 저장 및 관리](#save-and-manage-filters-in-the-utilization-report-on-a-project)
 * [사용률 보고서의 추가 필터링 옵션](#additional-filtering-options-in-the-utilization-report)
-* [프로그램 또는 Portfolio의 사용률 보고서 보기](#view-the-utilization-report-by-program-or-portfolio)
+* [프로그램 또는 Portfolio별 사용률 보고서 보기](#view-the-utilization-report-by-program-or-portfolio)
 * [프로젝트 및 작업 보고서에 원본 문제 정보 표시](#show-original-issue-information-in-project-and-task-reports)
 * [업데이트 스트림의 필터 시스템 업데이트가 이제 개체 간에 지속됩니다](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
 * [Workfront 내의 활성 증명 단계에 대해 보고](#report-on-active-proof-stages-within-workfront)
@@ -52,7 +58,7 @@ ht-degree: 0%
 
 이 변경 전에 작업을 새 프로젝트 또는 기존 프로젝트에 복사하고 복사할 때 일부 정보를 수정할 수 있습니다.
 
-대상  작업 복제에 대한 자세한 내용은 [작업 복사 및 복제](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)를 참조하세요.
+작업 복제에 대한 자세한 내용은 [작업 복사 및 복제](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)를 참조하십시오.
 
 ## 자원 스케줄링 시 할당 자동화 {#automate-assignments-when-scheduling-resources}
 
@@ -119,13 +125,13 @@ Workfront은 사용 가능한 사용자 간 현재 작업 할당을 분석하고
 
 ## 활용성 보고서의 추가 필터링 옵션 {#additional-filtering-options-in-the-utilization-report}
 
-이제 활용성 보고서를 실행할 때 이전에 사용 가능했던 작업, 문제 및 역할 필드 외에 필터를 생성할 때 Portfolio, 프로그램 및 프로젝트에 대한 새 필터링 필드를 사용할 수 있습니다.
+이제 활용성 보고서를 실행할 때 이전에 사용 가능했던 작업, 문제 및 역할 필드 외에 필터를 생성할 때 포트폴리오, 프로그램 및 프로젝트에 대한 새 필터링 필드를 사용할 수 있습니다.
 
 이 변경 이전에는 새 필터 규칙을 추가하여 포트폴리오, 프로그램 및 프로젝트별로 필터링할 수 있었습니다.
 
 자세한 내용은 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)의 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오.
 
-## 프로그램 또는 Portfolio으로 활용성 보고서 보기 {#view-the-utilization-report-by-program-or-portfolio}
+## 프로그램 또는 Portfolio별 활용성 보고서 보기 {#view-the-utilization-report-by-program-or-portfolio}
 
 이제 프로그램 또는 포트폴리오별로 활용률 보고서를 볼 수 있습니다. 이렇게 하면 단일 활용성 보고서 내에서 여러 프로젝트의 정보를 볼 수 있습니다.
 
@@ -133,7 +139,7 @@ Workfront은 사용 가능한 사용자 간 현재 작업 할당을 분석하고
 
 이 변경 이전에는 프로젝트 내에서만 활용성 보고서에 액세스할 수 있었습니다.
 
-자세한 내용은  [리소스 사용률 보고서의 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md). 
+자세한 내용은 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오. 
 
 ## 프로젝트 및 작업 보고서에 원래 문제 정보 표시 {#show-original-issue-information-in-project-and-task-reports}
 

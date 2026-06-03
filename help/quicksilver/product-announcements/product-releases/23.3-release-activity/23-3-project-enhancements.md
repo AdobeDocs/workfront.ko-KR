@@ -5,9 +5,12 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: 9a705b985177489bf13181e8b36a6c52379d1251
+TQID: https://experienceleague.adobe.com/ulNcq0pM3iF92IAHGiB0-zpPYiRoUkyG2idj-rtJoRg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: 208
 ht-degree: 0%
 
 ---
@@ -34,4 +37,4 @@ ht-degree: 0%
 
 공유 옵션을 더 직관적으로 공유하기 위해 프로젝트, 작업 및 문제에 대한 더 보기 메뉴에서 제거했습니다. 이제 [추가] 메뉴 바로 앞에 개체의 이름 옆에 새 공유 단추가 표시됩니다. 문서, 포트폴리오 및 프로그램 공유는 변경되지 않습니다.
 
-개체 공유에 대한 자세한 내용은 [개체 공유](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)를 참조하십시오.
+개체 공유에 대한 자세한 내용은 [개체 공유](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)를 참조하십시오.

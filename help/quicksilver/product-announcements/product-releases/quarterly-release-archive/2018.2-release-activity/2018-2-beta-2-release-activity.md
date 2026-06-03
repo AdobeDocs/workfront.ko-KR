@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c8ef68f5-53db-4c3c-af0f-e1c98521ec27
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/H6fYgtO6-VLGp-dfmhuzIga3Ko0p3dDOF3qupCEVlGo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: 865
 ht-degree: 0%
 
 ---
@@ -22,14 +28,14 @@ ht-degree: 0%
 >
 > 이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2018.2의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+2018.2의 모든 변경 사항 목록은 [2018.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)를 참조하십시오.
 
 2018.2 Beta 2 릴리스에는 다음과 같은 개선 사항이 포함되어 있습니다.
 
 * [홈 영역에서 직접 필드 편집](#edit-fields-directly-from-the-home-area)
 * [일 단위로 시간 기록](#log-time-in-days)
 * [프로젝트 목록의 간트 차트에서 프로젝트 간 전임 작업 관계 보기](#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects)
-* [Portfolio 최적화 도구에서 예산 비용을 사용하여 Portfolio 재무 계산](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
+* [Portfolio Optimizer에서 예산 비용을 사용하여 Portfolio 재무 계산](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
 * [사용률 보고서: 새 리소스 예산 책정에서 예산 시간을 채웁니다](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)(미리 보기 전용)
 
 * [사용률 보고서: 프로젝트에 대한 사용자별 예산 시간을 봅니다](#utilization-report-view-budgeted-hours-by-user-on-a-project)(미리 보기만)
@@ -43,7 +49,7 @@ ht-degree: 0%
 
 이 변경 이전에는 정보를 편집하지 않고 홈 영역에서만 볼 수 있었습니다.
 
-자세한 내용은 문서에서 [홈 영역에서 작업 항목 업데이트 또는 편집](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)을 참조하십시오  [홈 영역에서 작업 항목 업데이트 또는 편집](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+자세한 내용은 [홈 영역에서 작업 항목 업데이트 또는 편집](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) 문서의 [홈 영역에서 작업 항목 업데이트 또는 편집](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)을 참조하십시오.
 
 ## 기간 내 시간 기록 {#log-time-in-days}
 
@@ -66,19 +72,19 @@ ht-degree: 0%
 
 자세한 내용은 [간트 차트에 정보가 표시되는 방법 구성](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)을 참조하십시오. 
 
-## Portfolio 최적화 도구에서 예산 비용을 사용하여 Portfolio 재무 계산 {#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances}
+## Portfolio Optimizer에서 예산 비용을 사용하여 Portfolio 재무 계산 {#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances}
 
-이제 새 Portfolio 최적기는 비즈니스 사례의 새 리소스 예산 책정 영역 또는 리소스 플래너에서 예산 책정된 원가를 사용하여 다음 필드를 계산합니다.
+이제 새로운 Portfolio Optimizer는 비즈니스 사례의 새 리소스 예산 책정 영역 또는 리소스 플래너에서 예산 책정된 비용을 사용하여 다음 필드를 계산합니다.
 
 * 순 가치
 * 투자 수익률(ROI)
 * 비용
 
-이전에는 신규 및 기존 Portfolio 최적화 도구에서 모두 기존 예산 비용을 사용했습니다. 기존 Portfolio 최적기는 여전히 기존 예산 비용을 사용하여 순 가치, 투자 수익률 및 비용을 계산합니다.
+이전에는 새 Portfolio Optimizer와 이전 Optimizer 모두 이전 예산 비용을 사용했습니다. 기존 Portfolio Optimizer는 여전히 기존 예산 비용을 사용하여 순 가치, 투자 수익률 및 비용을 계산합니다.
 
-또한 Portfolio 재무 필드에 레거시 ROI 및 레거시 순 가치라는 두 가지 새로운 필드를 추가하여 새로운 리소스 관리 도구에서 새로운 가치를 포착했습니다.
+또한 Portfolio 재무 필드에 레거시 ROI 및 레거시 순 가치라는 두 가지 새로운 필드를 추가하여 새로운 리소스 관리 도구에서 새로운 값을 캡처했습니다.
 
-자세한 내용은 이 문서에서 [Portfolio 최적화 도구 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.  [Portfolio 최적화 도구 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+자세한 내용은 [Portfolio Optimizer 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) 문서의 [Portfolio Optimizer 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.
 
 ## 활용성 보고서: 신규 자원 예산 책정에서 예산 시간을 채웁니다. {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -90,7 +96,7 @@ ht-degree: 0%
 
 이 변경 이전에는 기존 리소스 견적 영역의 정보가 사용되었습니다.
 
-자세한 내용은 이 문서에서 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오.  [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+자세한 내용은 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 문서의 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오.
 
 ## 활용성 보고서: 프로젝트에 대한 사용자별 예산 시간 보기 {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 

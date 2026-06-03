@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+TQID: https://experienceleague.adobe.com/GyC2n9wRlsbHDp79Z-Bj-hrF-Q1Qfd252LH9aG6T3r0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: 712
 ht-degree: 0%
 
 ---
@@ -59,7 +65,7 @@ ht-degree: 0%
 
 레이아웃 템플릿이 적용될 때 Workfront이 내 작업 영역에 새 캘린더를 표시하도록 구성하려면, 작업 및 문제에 대한 계획된 완료 일자를 표시하도록 레이아웃 템플릿을 구성한 다음 해당 레이아웃 템플릿을 적절한 사용자에게 할당합니다.
 
-레이아웃 템플릿 구성에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work)에서 [레이아웃 템플릿 만들기 및 관리](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
+레이아웃 템플릿 구성에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에서 [레이아웃 템플릿 만들기 및 관리](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work)를 참조하십시오.
 
 ## Outlook 365 Beta
 

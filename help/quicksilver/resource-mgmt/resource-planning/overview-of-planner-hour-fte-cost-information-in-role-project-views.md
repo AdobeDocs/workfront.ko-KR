@@ -7,9 +7,15 @@ description: 리소스 플래너의 프로젝트 및 역할 보기에서 시간,
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
+TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: 3089
 ht-degree: 0%
 
 ---
@@ -210,7 +216,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>사용자</td> 
-   <td> <p>선택한 시간대에 대해 사용자의 예산 시간을 예상하는 수동 입력. </p> <p> <p><b>참고</b>   작업에 할당되지 않았지만 프로젝트의 리소스 풀과 연결된 사용자의 예산 시간은 리소스 플래너에도 표시되므로 예측할 수 있습니다. 그러나 작업에 할당되지 않은 경우 계획된 시간은 0이어야 합니다. </p> </p> </td> 
+   <td> <p>선택한 시간대에 대해 사용자의 예산 시간을 예상하는 수동 입력. </p> <p> <p><b>참고</b> 작업에 할당되지 않았지만 프로젝트의 리소스 풀과 연결된 사용자의 예산 시간을 예상할 수 있습니다. 이러한 사용자는 리소스 플래너에도 표시되기 때문입니다. 그러나 작업에 할당되지 않은 경우 계획된 시간은 0이어야 합니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

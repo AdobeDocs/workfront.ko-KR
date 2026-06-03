@@ -7,12 +7,18 @@ description: 데이터 표현식을 사용하여 Adobe Workfront에서 계산된
 author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/a2yfues0ClR-ZnG1Vo5foOuzaw6d3yiGlU33DUt0Kx0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2551'
-ht-degree: 2%
+source-wordcount: 2553
+ht-degree: 1%
 
 ---
 
@@ -388,7 +394,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td><strong>배열</strong> </td> 
-   <td> <p>문자열을 배열로 변환합니다. 구분 기호는 모든 문자열이 될 수 있습니다.</p> 
+   <td> <p>문자열을 배열로 변환합니다. 구분 기호는 임의의 문자열일 수 있습니다.</p> 
    <p>표현식의 형식은 다음과 같습니다.</p>
    <p><code>ARRAY(string1, "delimiter")</code></p> 
    </td> 
@@ -411,7 +417,7 @@ ht-degree: 2%
   </tr>
   <tr> 
    <td><strong>ARRAYELEMENT</strong> </td> 
-   <td> <p>배열에서 지정된 번호에 있는 요소를 반환합니다. 색인이 범위를 벗어나면 비어 있는 값을 반환합니다.</p> 
+   <td> <p>배열에서 지정된 숫자의 요소를 반환합니다. 인덱스가 범위를 벗어나면 빈 을 반환합니다.</p> 
    <p>표현식의 형식은 다음과 같습니다.</p>
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 

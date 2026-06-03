@@ -7,9 +7,13 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: ad2ca56c-27cf-4238-84dc-08ce575d2bec
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/EzTWdwdTXcFyk1IYUebYtdVqhDZcHzJWVRL55EFloPg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: 243
 ht-degree: 0%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 0%
 
 ## Workfront for Microsoft Teams 개선 사항
 
-이제 Microsoft Teams용 Workfront을 사용할 때 다음 작업을 수행할 수 있습니다.
+이제 Microsoft Teams용 Workfront을 사용할 때 다음을 수행할 수 있습니다.
 
 * Workfront 요청 제출
 

@@ -5,11 +5,15 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: 387
 ht-degree: 0%
 
 ---
@@ -24,9 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2025년 10월 2일
->프로덕션 빠른 릴리스: 2025년 10월 15일
->모두를 위한 프로덕션: 2025년 10월 16일
+>미리 보기: 2025년 10월 2일>프로덕션 빠른 릴리스: 2025년 10월 15일>모두를 위한 프로덕션: 2025년 10월 16일
 
 필요한 정보를 더 쉽게 볼 수 있도록 요청 영역에 보기를 만들고 저장하는 기능을 추가했습니다. 이제 필터 및 열 구성을 포함하여 보기를 저장하고 보기 간에 전환할 수 있습니다. Workfront 관리자는 레이아웃 템플릿에 새 보기를 추가할 수 있습니다.
 

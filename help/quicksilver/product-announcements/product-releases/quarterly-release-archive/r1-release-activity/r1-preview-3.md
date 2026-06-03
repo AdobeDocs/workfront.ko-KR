@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/--RlYylhPcyb6lNrf8RuuC-87lrw88NlAms6EfmGRWo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: 1353
 ht-degree: 1%
 
 ---
@@ -22,13 +28,13 @@ R1의 모든 변경 사항 목록은 [R1 릴리스 활동 개요](../../../../pr
 
 ## 외부 파일을 연결하는 개선된 방법
 
-외부 소스(예: Google 드라이브, 상자, Dropbox 등)에서 문서를 연결하는 옵션이 이제 문서 영역의 더 눈에 띄는 위치에 있습니다. 
+외부 소스(예: Google 드라이브, Box, Dropbox 등)에서 문서를 연결하는 옵션이 이제 문서 영역의 더 눈에 띄는 위치에 있습니다. 
 
 또한 해당 공급자에서 파일을 처음 연결하기 전에 문서 공급자에게 권한을 부여하는 작업이 보다 직관적입니다(외부 공급자의 파일을 연결할 때 추가 단계일 뿐입니다).
 
 이러한 변경 이전에는 외부 소스에서 파일을 연결하는 옵션이 문서 영역의 문서 추가 대화 상자에 있었습니다. 외부 소스에서 문서를 처음 연결하기 전에 문서를 연결하는 사용자가 설정 영역에서 해당 문서 공급자에게 권한을 부여해야 했습니다.
 
-자세한 내용은  [외부 응용 프로그램에서 문서 연결](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
 ## 캘린더에서 처리 중인 팀 업데이트됨
 
@@ -91,7 +97,7 @@ R1의 모든 변경 사항 목록은 [R1 릴리스 활동 개요](../../../../pr
 이제 특정 개체의 이름을 변경하여 Workfront 용어를 사용자 지정할 수 있습니다.\
 이제 레이아웃 템플릿을 사용하여 조직의 요구 사항에 맞게 다음 작업 객체의 이름을 변경할 수 있습니다.
 
-* Portfolio
+* 포트폴리오
 * 프로그램
 * 프로젝트
 * 작업
@@ -116,7 +122,7 @@ R1의 모든 변경 사항 목록은 [R1 릴리스 활동 개요](../../../../pr
 * 수용작업량 플래너
 * 리소스 그리드
 * 팀 빌더
-* Portfolio 최적화 도구 
+* Portfolio Optimizer 
 * 모바일 앱
 * Outlook 추가 기능
 
@@ -129,7 +135,7 @@ R1의 모든 변경 사항 목록은 [R1 릴리스 활동 개요](../../../../pr
 * 승인 경로 시작 일자
 * 승인 경로 완료 일자
 
-이러한 필드를 사용하면 현재 또는 가장 최근 승인 경로가 시작된 시기와 완료로 표시된 시기를 파악할 수 있습니다.
+이러한 필드를 사용하면 insight에서 현재 또는 가장 최근 승인 경로가 시작된 시점과 완료로 표시된 시점을 확인할 수 있습니다.
 
 이러한 필드에 대한 자세한 내용은 [Adobe Workfront 용어](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)를 참조하십시오.
 
