@@ -6,10 +6,20 @@ description: 증명 뷰어에서 증명에 댓글을 달 때 다른 사용자를
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/2SXtiuPnP7J6jRrlsWFlrmgeqAmWsBzMwyhAs-Rp7bI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 0%
+source-wordcount: 653
+ht-degree: 3%
 
 ---
 
@@ -24,7 +34,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항 {#access-requirements}
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,11 +42,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td><p>임의</p> </td> 
+   <td><p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>임의</p>
+   <td> <p>Any</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -60,7 +70,7 @@ ht-degree: 0%
 
 ## 사용자를 태그로 지정하여 증명 공유
 
-위의 [액세스 요구 사항](#access-requirements) 섹션에 설명된 증명 권한 프로필 또는 증명 역할을 가진 사용자는 기본적으로 증명을 공유하도록 사용자를 태그 지정할 수 있습니다. 증명 소유자 또는 작성자인 경우 증명 권한 프로필 또는 증명 역할에 관계없이 증명 공유를 위해 사용자에 태그를 지정할 수도 있습니다. 낮은 증명 권한 프로필 또는 증명 역할을 가진 사용자가 증명을 만들 때 증명에 태그를 지정하여 공유할 수 있도록 설정할 수 있습니다. 자세한 내용은 [기본 워크플로를 사용하여 고급 증명 만들기](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur) 문서의 [워크플로 구성 및 검토자 추가](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) 섹션을 참조하십시오.
+위의 [액세스 요구 사항](#access-requirements) 섹션에 설명된 증명 권한 프로필 또는 증명 역할을 가진 사용자는 기본적으로 증명을 공유하도록 사용자를 태그 지정할 수 있습니다. 증명 소유자 또는 작성자인 경우 증명 권한 프로필 또는 증명 역할에 관계없이 증명 공유를 위해 사용자에 태그를 지정할 수도 있습니다. 낮은 증명 권한 프로필 또는 증명 역할을 가진 사용자가 증명을 만들 때 증명에 태그를 지정하여 공유할 수 있도록 설정할 수 있습니다. 자세한 내용은 [기본 워크플로를 사용하여 고급 증명 만들기](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) 문서의 [워크플로 구성 및 검토자 추가](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur) 섹션을 참조하십시오.
 
 >[!NOTE]
 >

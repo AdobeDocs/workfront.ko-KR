@@ -7,9 +7,14 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/JdDKLhr3DrbDCXrRBKuO5A7Qd1GO--J9Et998BbY6-A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: 276
 ht-degree: 0%
 
 ---
@@ -48,9 +53,9 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront] 모바일 앱에 대한 자세한 내용은 다음 문서를 검토하십시오.
 
-* [[!DNL Adobe Workfront]에 대한  [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
+* [&#x200B; [!DNL Android]에 대한 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 * [&#x200B; [!DNL Android] Beta 테스터여야 함](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
-* [[!DNL Adobe Workfront]에 대한  [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* [&#x200B; [!DNL iOS]에 대한 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [&#x200B; [!DNL iOS] Beta 테스터여야 함](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
 * [[!UICONTROL 홈] 영역 위젯](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
 * [모바일 앱의 [!UICONTROL 내 작업] 섹션](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
@@ -60,6 +65,6 @@ ht-degree: 0%
 * [&#x200B; [!DNL Android]의 증명에 대한 댓글](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
 * [&#x200B; [!DNL Adobe Workfront] 모바일 앱에서 증명 공유 및 다운로드](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
 * [&#x200B; [!DNL Adobe Workfront] 모바일 앱의 승인](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
-* [[!DNL Adobe Workfront]에 대한  [!DNL Mobile Device Management] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
-* [&#x200B; [!DNL Adobe Workfront] 에 대해  [!DNL MobileIron]구성](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
+* [&#x200B; [!DNL Mobile Device Management] 에 대한 [!DNL Adobe Workfront]&#x200B;(MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
+* [&#x200B; [!DNL MobileIron]에 대해  [!DNL Adobe Workfront] 구성](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
 

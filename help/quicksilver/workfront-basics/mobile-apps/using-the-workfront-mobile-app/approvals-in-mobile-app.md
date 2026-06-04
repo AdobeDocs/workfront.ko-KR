@@ -2,20 +2,25 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: ' [!DNL Adobe Workfront] 모바일 앱의 승인'
-description: '[!UICONTROL 모바일 앱의 &#x200B;]승인 [!DNL Adobe Workfront]  영역에서 할당되거나 위임된 승인을 관리할 수 있습니다.'
+description: ' [!DNL Adobe Workfront] 모바일 앱의 [!UICONTROL 승인] 영역에서 할당되거나 위임된 승인을 관리할 수 있습니다.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/gHOishp5DInktXg4JXo73IGOSJCTfYGtzYirRPnqR-Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: 264
+ht-degree: 3%
 
 ---
 
 # [!DNL Adobe Workfront] 모바일 앱의 승인
 
-[!UICONTROL &#x200B; 모바일 앱의 &#x200B;]승인[!DNL Adobe Workfront] 영역에서 할당되거나 위임된 승인을 관리할 수 있습니다. [!UICONTROL 승인] 영역에서 다음을 승인할 수 있습니다.
+[!DNL Adobe Workfront] 모바일 앱의 [!UICONTROL 승인] 영역에서 할당되거나 위임된 승인을 관리할 수 있습니다. [!UICONTROL 승인] 영역에서 다음을 승인할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,11 +42,11 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-증명은 별도의 승인 프로세스를 따릅니다. 작업 항목이나 문서 승인에서 증명을 승인할 수 없습니다. 증명 검토 및 승인에 대한 자세한 내용은 [모바일 앱에서 증명 검토 및 결정 [!DNL Adobe Workfront] 을 참조하세요.](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
+증명은 별도의 승인 프로세스를 따릅니다. 작업 항목이나 문서 승인에서 증명을 승인할 수 없습니다. 증명 검토 및 승인에 대한 자세한 내용은 [모바일 앱에서 증명 검토 및 결정](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)을 참조하세요. [!DNL Adobe Workfront] 
 
 ## 승인 검토
 
-1. **[!UICONTROL 내 작업]**&#x200B;의 [!UICONTROL 승인] 영역에서 [!UICONTROL 모든 승인 표시]를 선택합니다.
+1. [!UICONTROL 내 작업]의 [!UICONTROL 승인] 영역에서 **[!UICONTROL 모든 승인 표시]**&#x200B;를 선택합니다.
 
    모바일 앱의 [!UICONTROL 내 작업]에 대한 자세한 내용은 모바일 앱의 [[!UICONTROL 내 작업] 섹션](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)을 참조하세요.
 

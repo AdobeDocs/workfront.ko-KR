@@ -6,11 +6,21 @@ description: 프로젝트를 빠른 검토 및 승인을 위한 문서로 업로
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/n4--63kZRMH-oq3l5Ta-Yh6nrobh-zHv0J5laatnAEE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: 233
 ht-degree: 6%
 
 ---
@@ -39,7 +49,7 @@ ht-degree: 6%
   -->
   <tr> 
    <td role="rowheader">추가 제품</td> 
-   <td>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</td> 
+   <td>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -58,7 +68,7 @@ ht-degree: 6%
 
 ## 전제 조건
 
-* [!DNL Adobe Workfront for Photoshop] 프로젝트를 [!DNL Adobe Photoshop]에 업로드하려면 먼저 [!DNL Workfront] 플러그인을 설치해야 합니다.
+* [!DNL Adobe Photoshop] 프로젝트를 [!DNL Workfront]에 업로드하려면 먼저 [!DNL Adobe Workfront for Photoshop] 플러그인을 설치해야 합니다.
 
   자세한 내용은 [Photoshop용 Adobe Workfront 설치](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)를 참조하십시오.
 

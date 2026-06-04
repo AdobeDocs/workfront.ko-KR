@@ -6,10 +6,22 @@ description: 증명 소유자 또는 작성자가 공유를 활성화한 경우 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/-EUf54B-yS68PPW4BmPmQWN4aIi7KgyU2567zbrD3ag
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 0%
+source-wordcount: 1446
+ht-degree: 2%
 
 ---
 
@@ -23,7 +35,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,11 +43,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">증명 역할 </td> 
@@ -153,7 +165,7 @@ ht-degree: 0%
 
    * **증명 역할**: 자세한 내용은 [Workfront Proof에서 증명 역할 관리](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
 
-   * **단계**: (증명에 자동화된 워크플로가 있는 경우에만 사용 가능). 자세한 내용은  [자동화된 워크플로 단계 개요](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+   * **단계**: (증명에 자동화된 워크플로가 있는 경우에만 사용 가능). 자세한 내용은 [자동화된 워크플로 단계 개요](../../../../review-and-approve-work/proofing/proofing-overview/stages.md)를 참조하십시오.
 
    * **전자 메일 경고**: 다음 옵션 중 하나를 선택하여 증명에 대한 활동에 대한 알림을 받는 방법을 지정합니다.
 

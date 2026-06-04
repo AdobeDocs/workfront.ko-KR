@@ -3,16 +3,27 @@ product-area: projects;user-management
 keywords: 편집,양식,리치,텍스트,특수,서식,필드,사용자 지정,정보,사용자 지정,개체
 navigation-topic: work-with-custom-forms
 title: 사용자 정의 양식 필드의 정보 편집
-description: 양식을 오브젝트에 첨부한 후 사용자 정의 양식에 대한 정보를 편집할 수 있습니다. 오브젝트에 사용자 정의 양식을 추가하는 방법에 대한 자세한 내용은 오브젝트에 사용자 정의 양식 추가를 참조하십시오.
+description: 오브젝트에 양식을 첨부한 후 사용자 정의 양식에 대한 정보를 편집할 수 있습니다. 오브젝트에 사용자 정의 양식을 추가하는 방법에 대한 자세한 내용은 오브젝트에 사용자 정의 양식 추가를 참조하십시오.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/JfnVyJAxwaCJ8BeCOo3gP783O8L8GtAegswSceEhYfo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 3%
+source-wordcount: 1231
+ht-degree: 5%
 
 ---
 
@@ -20,7 +31,7 @@ ht-degree: 3%
 
 <!--Audited: 10/2025-->
 
-양식을 오브젝트에 첨부한 후 사용자 정의 양식에 대한 정보를 편집할 수 있습니다. 개체에 사용자 정의 양식을 추가하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
+오브젝트에 양식을 첨부한 후 사용자 정의 양식에 대한 정보를 편집할 수 있습니다. 개체에 사용자 정의 양식을 추가하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 

@@ -6,15 +6,44 @@ description: ' [!DNL Adobe Workfront] 용어집에는  [!DNL Adobe Workfront]. Y
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dbed69be1a57571e6c0701b7370e20be323037fe
+TQID: https://experienceleague.adobe.com/Nwg9J4XQcWv8PsTyUu9iHRHGd5anfcDJT9FKGt5rwy8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '21952'
+source-wordcount: 21551
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Adobe Workfront] 용어 용어집
 
@@ -137,7 +166,7 @@ ht-degree: 0%
       <!--
       Resource Estimates or a
       -->
-     프로젝트(재무 데이터) 보고서를 작성하고 [!UICONTROL 할당 날짜]에 대한 매트릭스 그룹화를 추가한 다음 가장 정확한 데이터에 대해 주별, 월별, 분기별 또는 연도별 결과를 그룹화합니다.<br>매트릭스 그룹화에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">매트릭스 보고서 만들기</a> 문서를 참조하십시오.</p> </li>
+     프로젝트(재무 데이터) 보고서를 작성하고 [!UICONTROL 할당 날짜]에 대한 매트릭스 그룹화를 추가한 다음 가장 정확한 데이터에 대해 주간, 월간, 분기별 또는 연별로 결과를 그룹화합니다.<br>매트릭스 그룹화 구축에 대한 자세한 내용은 문서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">매트릭스 보고서 만들기</a>를 참조하십시오.</p> </li>
     </ul> <p>재무 정보는 [!UICONTROL 프로젝트(재무 데이터)] 보고서와 관련된 데이터가 5년 미만인 경우에만 표시됩니다. 예를 들어 작업 역할이 2015년 1월에 작업에 할당되었고 오늘이 2021년 9월인 경우 작업 역할에 대한 [!UICONTROL 할당 날짜]와 같은 재무 필드가 [!UICONTROL 프로젝트(재무 데이터)] 보고서에 채워지지 않습니다. </p> 
     <div> 
      <p>[!UICONTROL 예산 시간] 보고서의 경우:</p> 

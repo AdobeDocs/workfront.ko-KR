@@ -4,9 +4,14 @@ title: Adobe Workfront 도움말 액세스
 description: Workfront은 Workfront에서 제공하는 다양한 제품 내에서 기능과 관련하여 발생할 수 있는 질문에 대한 답변을 찾을 수 있도록 다양한 콘텐츠를 제공합니다.
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-source-git-commit: 940e19e707790fea7de428b55ce677eedb9ab32c
+TQID: https://experienceleague.adobe.com/AD0uU89l7bVNXCiFiBDd3rRc59EUgzZNrHWyiZhUlgk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: 183
 ht-degree: 17%
 
 ---

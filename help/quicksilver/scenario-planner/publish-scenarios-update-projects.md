@@ -7,11 +7,23 @@ description: 기존 이니셔티브에서 프로젝트를 만들고, Adobe Workf
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/mo2xl9ElZiaehjY1KH6ykvqO-PaO126rw0GAOFLJ0sg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: 1705
 ht-degree: 1%
 
 ---
@@ -242,11 +254,11 @@ Old:
 
      ![게시의 스트림 확인 업데이트](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
-   * **[!UICONTROL 프로젝트 세부 정보] 섹션[!UICONTROL 의 &#x200B;]개요** 영역: 이 영역에 연결된 이니셔티브의 정보를 포함하는 새 [!DNL Scenario Planner] 섹션이 만들어집니다.
+   * **[!UICONTROL 프로젝트 세부 정보] 섹션**&#x200B;의 [!UICONTROL 개요] 영역: 이 영역에 연결된 이니셔티브의 정보를 포함하는 새 [!DNL Scenario Planner] 섹션이 만들어집니다.
 
      ![프로젝트 세부 정보에 대한 시나리오 플래너](assets/scenario-planner-on-project-details-350x135.png)
 
-     다음 이니셔티브 정보가 [!DNL Scenario Planner]프로젝트 세부 정보[!UICONTROL &#x200B; 섹션의 &#x200B;] 영역에 게시되었습니다.
+     다음 이니셔티브 정보가 [!UICONTROL 프로젝트 세부 정보] 섹션의 [!DNL Scenario Planner] 영역에 게시되었습니다.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -285,12 +297,12 @@ Old:
 
      >[!NOTE]
      >
-     >프로젝트에 대한 [!UICONTROL 보기] 액세스 권한이 있는 모든 사용자는 [!DNL Scenario Planner]개요[!UICONTROL &#x200B; 영역에서 &#x200B;] 섹션을 볼 수 있습니다. 레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 섹션에 이 영역을 표시할지 여부를 제어할 수 있습니다. 사용자에게 연결된 레이아웃 템플릿이 없는 경우 기본적으로 이 영역이 표시됩니다.
+     >프로젝트에 대한 [!UICONTROL 보기] 액세스 권한이 있는 모든 사용자는 [!UICONTROL 개요] 영역에서 [!DNL Scenario Planner] 섹션을 볼 수 있습니다. 레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 섹션에 이 영역을 표시할지 여부를 제어할 수 있습니다. 사용자에게 연결된 레이아웃 템플릿이 없는 경우 기본적으로 이 영역이 표시됩니다.
      >
      >   
      >   
      >   * 레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 섹션에서 영역을 추가하거나 제거하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 보기 사용자 지정](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오.
-     >   * [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL 개요] 영역에서 정보를 보는 방법에 대한 자세한 내용은 프로젝트 [[!UICONTROL 개요] 영역[!UICONTROL 에서 &#x200B;]관리](../manage-work/projects/manage-projects/understand-project-overview-area.md) 정보를 참조하십시오.
+     >   * [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL 개요] 영역에서 정보를 보는 방법에 대한 자세한 내용은 프로젝트 [!UICONTROL 개요] 영역[&#128279;](../manage-work/projects/manage-projects/understand-project-overview-area.md)에서 [!UICONTROL 관리] 정보를 참조하십시오.
      >   
      >
 
@@ -304,7 +316,7 @@ Old:
 
    * **프로젝트의 [!UICONTROL 비즈니스 사례]에 있는 [!UICONTROL 리소스 예산 편성] 영역**: [!DNL Scenario Planner] 정보를 사용하여 프로젝트 리소스를 관리하는 새로운 옵션이 프로젝트의 [!UICONTROL 비즈니스 사례]에 있는 [!UICONTROL 리소스 예산 편성] 영역에 추가되었습니다.
 
-     자세한 내용은 [을(를) 사용하여 [!UICONTROL 비즈니스 사례]의  [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)예산 리소스를 참조하십시오.
+     자세한 내용은  [!DNL Scenario Planner][&#128279;](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)을(를) 사용하여 [!UICONTROL 비즈니스 사례]의 예산 리소스를 참조하십시오.
 
      ![비즈니스 사례의 시나리오 플래너](assets/sp-in-business-case-selected-350x110.png)
 

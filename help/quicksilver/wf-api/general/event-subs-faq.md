@@ -7,9 +7,18 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
+TQID: https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: 987
 ht-degree: 0%
 
 ---
@@ -94,4 +103,4 @@ Workfront 지원 센터에 문의하십시오. 지원 센터에 문의하는 방
 
 * **이벤트 구독 다시 시도 이해**: [이벤트 구독 다시 시도](../../wf-api/api/event-sub-retries.md)
 
-* **Workfront허용 목록에 추가하다 에 대한 방화벽 구성**: [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* **Workfront에 대한 방화벽 구성**: [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

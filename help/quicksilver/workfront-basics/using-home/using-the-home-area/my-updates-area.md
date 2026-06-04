@@ -6,15 +6,26 @@ description: '[!UICONTROL 내 업데이트] 영역을 사용하여 결정을 기
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/tBVFQLaFE0Vb15SDNsWRomKEDRTeIsEjnMaCv-CrMR8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: 786
 ht-degree: 2%
 
 ---
-
 
 # [!UICONTROL 내 업데이트] 영역 사용
 
@@ -69,7 +80,7 @@ ht-degree: 2%
 
 시작하기 전에 다음을 수행해야 합니다.
 
-* [!DNL Workfront]검토[!UICONTROL &#x200B; 이외의 &#x200B;] 라이선스가 있는 경우 [!DNL Workfront] 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 [!UICONTROL 내 업데이트] 영역을 [!UICONTROL 메인 메뉴]에 추가하고 해당 템플릿에 사용자를 할당해야 합니다.
+* [!UICONTROL 검토] 이외의 [!DNL Workfront] 라이선스가 있는 경우 [!DNL Workfront] 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 [!UICONTROL 내 업데이트] 영역을 [!UICONTROL 메인 메뉴]에 추가하고 해당 템플릿에 사용자를 할당해야 합니다.
 
 * Review-license 사용자는 기본적으로 [!UICONTROL 기본 메뉴]에서 [!UICONTROL 내 업데이트] 영역을 볼 수 있습니다.
 
@@ -91,7 +102,7 @@ ht-degree: 2%
 
    ![내 업데이트에 대한 페이지 매김](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (선택 사항) **[!UICONTROL 내 업데이트]** 섹션의 오른쪽 위 모서리에 있는 ![필터](assets/filter-nwepng.png) 드롭다운 메뉴 **[!UICONTROL 필터 아이콘]**&#x200B;을 확장하고 다음 중에서 선택합니다.
+1. (선택 사항) **[!UICONTROL 내 업데이트]** 섹션의 오른쪽 위 모서리에 있는 **[!UICONTROL 필터]** 드롭다운 메뉴 ![필터 아이콘](assets/filter-nwepng.png)을 확장하고 다음 중에서 선택합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -116,7 +127,7 @@ ht-degree: 2%
 
 1. 승인하기 전에 항목을 승인 또는 거부하거나 문서에 대한 변경 사항을 제안하려면 다음을 수행합니다.
 
-   1. (선택 사항) 승인 결정(**승인**, ![변경](assets/down-arrow-blue.png),**[!UICONTROL 거부]**) 옆의 **[!UICONTROL 드롭다운]** 아이콘 **[!UICONTROL 드롭다운 아이콘]**&#x200B;을 클릭하고 댓글을 추가한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+   1. (선택 사항) 승인 결정(**[!UICONTROL 승인]**, **[!UICONTROL 변경]**,**[!UICONTROL 거부]**) 옆의 **드롭다운** 아이콘 ![드롭다운 아이콘](assets/down-arrow-blue.png)을 클릭하고 댓글을 추가한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
       또는
 

@@ -6,9 +6,14 @@ description: 이 문서를 검토하여  [!DNL Adobe Workfront] 모바일 앱의
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/HUw6I8SHhD7iM9l4l0XIBDeG6g26cNy54-3BKQL9mHw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: 442
 ht-degree: 0%
 
 ---
@@ -25,7 +30,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL TestFlight] 앱을 설치하고 [!DNL iOS] 장치에서 베타 테스터가 되면 [!DNL Workfront] 대신 [!DNL TestFlight] 앱을 사용하여 업데이트된 [!DNL Apple Store] 버전을 다운로드해야 합니다. [!DNL iOS]의 Beta 테스터가 아닌 경우 [!DNL Apple Store]에서 모바일 앱을 계속 업데이트할 수 있습니다.
+>[!DNL TestFlight] 앱을 설치하고 [!DNL iOS] 장치에서 베타 테스터가 되면 [!DNL Apple Store] 대신 [!DNL TestFlight] 앱을 사용하여 업데이트된 [!DNL Workfront] 버전을 다운로드해야 합니다. [!DNL iOS]의 Beta 테스터가 아닌 경우 [!DNL Apple Store]에서 모바일 앱을 계속 업데이트할 수 있습니다.
 
 #### &#x200B;1. [!DNL TestFlight] 앱 설치
 
@@ -35,13 +40,13 @@ ht-degree: 0%
 1. [!DNL Workfront] 모바일 앱을 엽니다.
 1. 아래쪽 탐색 모음에서 **[!UICONTROL 자세히]**&#x200B;를 탭합니다.
 1. 이름을 탭한 다음 **[!UICONTROL Beta 테스터가 되기]**&#x200B;를 탭합니다.
-1. **[!UICONTROL 앱을 보려면[!DNL App Store]]**&#x200B;에서 [!DNL TestFlight]보기 를 탭하세요.
+1. [!DNL TestFlight] 앱을 보려면 [!DNL App Store]&#x200B;**에서**&#x200B;보기 를 탭하세요.
 1. **[!UICONTROL Get]**&#x200B;을 눌러 장치에 [!DNL TestFlight]을(를) 설치한 다음 **[!UICONTROL Install]**&#x200B;을 누릅니다.
-1. **[!UICONTROL 앱에서]**&#x200B;열기&#x200B;**[!UICONTROL 를 탭한 다음]**&#x200B;계속[!DNL TestFlight]을 탭합니다.
-1. **[!UICONTROL 앱의 사용 약관에 동의하려면]**&#x200B;동의[!DNL TestFlight]를 탭하세요.\
+1. [!DNL TestFlight] 앱에서 **[!UICONTROL 열기]**&#x200B;를 탭한 다음 **[!UICONTROL 계속]**&#x200B;을 탭합니다.
+1. [!DNL TestFlight] 앱의 사용 약관에 동의하려면 **[!UICONTROL 동의]**&#x200B;를 탭하세요.\
    [!DNL TestFlight] 앱이 장치에 설치되어 있습니다. 다음 섹션으로 이동합니다.
 
-#### &#x200B;2. [!DNL Workfront]에 [!DNL TestFlight] Beta 앱 설치
+#### &#x200B;2. [!DNL TestFlight]에 [!DNL Workfront] Beta 앱 설치
 
 iOS 장치에서 Beta 테스터가 되려면 먼저 iOS 장치에 [!DNL Workfront] 앱과 [!DNL TestFlight] 앱이 설치되어 있어야 합니다.
 
@@ -72,7 +77,7 @@ Beta 앱에 대한 피드백을 제공하거나 문제를 보고하려면 다음
 
 ## [!DNL Workfront] Beta 앱 업데이트
 
-Beta 테스터로 등록한 경우 Beta에서 사용할 수 있는 새로운 기능에 액세스하려면 [!DNL Workfront]에서 [!DNL TestFlight] 앱을 업데이트해야 합니다.
+Beta 테스터로 등록한 경우 Beta에서 사용할 수 있는 새로운 기능에 액세스하려면 [!DNL TestFlight]에서 [!DNL Workfront] 앱을 업데이트해야 합니다.
 
 1. [!DNL TestFlight] 앱을 엽니다.
 1. **[!UICONTROL 업데이트]**&#x200B;를 탭합니다.

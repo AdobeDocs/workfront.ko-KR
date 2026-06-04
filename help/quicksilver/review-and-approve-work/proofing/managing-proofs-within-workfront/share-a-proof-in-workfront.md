@@ -6,10 +6,22 @@ description: 문서를 공유하거나 증명에 사용자를 추가하여 Adobe
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/2fQRZtOWmMXOPEq-NDvyHTVsM6SQuOj-V8UtrAys6y8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 0%
+source-wordcount: 1164
+ht-degree: 2%
 
 ---
 
@@ -25,7 +37,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +45,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -154,7 +166,7 @@ ht-degree: 0%
 
 웹 증명 뷰어와 데스크탑 증명 뷰어에서 증명을 검토하는 동안 증명에 사용자를 추가할 수 있습니다.
 
-자세한 내용은 문서 [증명 뷰어에서 증명 공유](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)에서 [사용자를 추가하여 증명 공유](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)를 참조하십시오.
+자세한 내용은 문서 [증명 뷰어에서 증명 공유](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)에서 [사용자를 추가하여 증명 공유](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)를 참조하십시오.
 
 ## 증명 승인에 대한 보고서
 
@@ -168,10 +180,10 @@ Workfront 내에서 공유된 증명 승인에 대해 보고하는 보고서를 
 
 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)에 설명된 대로 개체를 기반으로 보고서를 만들 때 이 승인에 액세스합니다.
 
-증명 승인 개체 보고서에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)의 [개체에 대한 보고서](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 섹션을 참조하십시오.
+증명 승인 개체 보고서에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 [개체에 대한 보고서](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) 섹션을 참조하십시오.
 
 ## 공유 증명 승인
 
 사용자가 증명에 귀하를 추가하고 자동화된 워크플로를 사용하여 승인자 역할 또는 검토자 및 승인자 역할을 부여하면 홈 영역의 내 승인 위젯에 승인 요청이 표시됩니다. 그런 다음 증명을 보고 Workfront에서 직접 증명에 대한 승인 결정을 내릴 수 있습니다.
 
-내 승인 위젯에서 승인 결정을 내리는 방법에 대한 자세한 내용은 [작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)에서 [홈 영역에서 작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) 또는 [작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md)을 참조하십시오.
+내 승인 위젯에서 승인 결정을 내리는 방법에 대한 자세한 내용은 [작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md)에서 [홈 영역에서 작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) 또는 [작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)을 참조하십시오.

@@ -6,11 +6,23 @@ description: 기존 프로젝트를 플랜으로 가져올 수 있습니다. 가
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/yZ3-dqcetTEtRr3-SBAMrsmEE0JcW-DhOOhO9dPsakM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: 1679
 ht-degree: 1%
 
 ---
@@ -185,7 +197,7 @@ Old:
 >
 >다음이 발생합니다.
 >
->* 프로젝트를 플랜으로 가져온 후에는 프로젝트 변경 사항이 이니셔티브에 영향을 주지 않습니다. 이러한 변경 사항에는 작업 역할 할당에 대한 변경 사항이 포함됩니다.
+>* 프로젝트를 플랜으로 가져온 후에는 프로젝트 변경 사항이 이니셔티브에 영향을 주지 않습니다.이러한 변경 사항에는 작업 역할 할당에 대한 변경 사항이 포함됩니다.
 >* 이니셔티브를 변경하면 해당 프로젝트에 이니셔티브를 게시하는 경우에만 프로젝트의 [!DNL Scenario Planner] 영역에 있는 정보에 영향을 줍니다. 그렇지 않으면 프로젝트의 작업 및 문제에 대한 [!UICONTROL 계획된 시간] 정보에 영향을 주지 않습니다.
 >
 >  이니셔티브 게시가 연결된 프로젝트에 미치는 영향에 대한 자세한 내용은 [시나리오 플래너에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기](../scenario-planner/publish-scenarios-update-projects.md)를 참조하십시오.

@@ -6,10 +6,21 @@ description: 타임시트, 타임시트에 포함된 작업 항목 및 사용자
 author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+TQID: https://experienceleague.adobe.com/Lx-CI6hjj-YXrxIus0Kicsa7Gx84xjiuKDUJWPpUVqc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 0%
+source-wordcount: 873
+ht-degree: 2%
 
 ---
 
@@ -27,7 +38,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +46,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -59,7 +70,7 @@ ht-degree: 0%
 
 ## 타임시트의 시간 입력 주석 보기 {#view-hour-entry-comments-on-a-timesheet}
 
-타임시트에 표시할 개별 시간 항목에 대한 설명을 구성할 수 있습니다. 댓글 표시 및 숨기기 옵션은 전체 타임시트에 작성한 댓글이나 개별 항목에 작성된 댓글에는 영향을 주지 않습니다. 자세한 내용은  [타임시트에 댓글을 달기](#make-comments-on-a-timesheet).
+타임시트에 표시할 개별 시간 항목에 대한 설명을 구성할 수 있습니다. 댓글 표시 및 숨기기 옵션은 전체 타임시트에 작성한 댓글이나 개별 항목에 작성된 댓글에는 영향을 주지 않습니다. 자세한 내용은 [타임시트에 댓글 달기](#make-comments-on-a-timesheet)를 참조하세요.
 
 타임시트에 처음 액세스할 때 기본적으로 댓글은 숨겨집니다.
 
@@ -86,7 +97,7 @@ ht-degree: 0%
 
 타임시트에 대한 일반적인 설명을 할 수 있습니다. 전체 타임시트에 댓글을 다는 것은 다른 오브젝트에 댓글을 다는 것과 비슷합니다.
 
-1. Workfront 사용 가능한 경우 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png) 또는 왼쪽 상단의 **주 메뉴** 아이콘 ![줄 주 메뉴](assets/lines-main-menu.png)를 클릭합니다.
+1. 사용 가능한 경우 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png) 또는 왼쪽 상단의 **주 메뉴** 아이콘 ![줄 주 메뉴](assets/lines-main-menu.png)를 클릭합니다.
 
 1. **타임시트**&#x200B;를 클릭합니다.
 1. 댓글을 달려는 타임시트로 이동합니다.

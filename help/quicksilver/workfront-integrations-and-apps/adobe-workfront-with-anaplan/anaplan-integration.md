@@ -6,16 +6,25 @@ draft: Probably
 feature: Workfront Integrations and Apps, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: c78d1276-6545-44f0-8ec9-62cfe1b66e35
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+TQID: https://experienceleague.adobe.com/V3991LF2iB578eD1mKpKHWt-riMA8ZjctIPGnVDWjOQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: 162
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] ([!DNL Anaplan] 포함)
+# [!DNL Adobe Workfront]&#x200B;([!DNL Anaplan] 포함)
 
-Adobe [!DNL Workfront Fusion]을(를) 통해 [!DNL Workfront]을(를) [!DNL Anaplan] 계정과 통합할 수 있습니다. 예를 들어 [!DNL Anaplan]에서 캠페인을 만든 다음 캠페인에 연결된 [!DNL Workfront] 프로젝트 또는 프로그램을 만들 수 있습니다. [!DNL Workfront]에서 추적된 모든 비용을 [!DNL Anaplan] (으)로 다시 업로드하여 캠페인 성과를 검토할 수 있습니다.
+Adobe [!DNL Workfront Fusion]을(를) 사용하면 [!DNL Workfront]을(를) [!DNL Anaplan] 계정과 통합할 수 있습니다. 예를 들어 [!DNL Anaplan]에서 캠페인을 만든 다음 캠페인에 연결된 [!DNL Workfront] 프로젝트 또는 프로그램을 만들 수 있습니다. [!DNL Workfront]에서 추적된 모든 비용을 [!DNL Anaplan]&#x200B;(으)로 다시 업로드하여 캠페인 성과를 검토할 수 있습니다.
 
 이 통합을 위해 [!DNL Anaplan]과(와) Workfront 모두에서 특정 개체를 구성해야 합니다. 특정 오브젝트 및 구성은 특정 워크플로우에 따라 다릅니다. 그런 다음 [!DNL Anaplan] 및 [!DNL Workfront] 개체와 필드를 사용하여 Workfront Fusion 템플릿을 구성합니다. [!DNL Workfront Fusion]은(는) 구성을 기반으로 통합을 자동화합니다.
 

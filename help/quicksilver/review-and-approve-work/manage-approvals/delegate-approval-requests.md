@@ -6,11 +6,26 @@ description: '승인 요청을 위임하면 다른 사용자에게 일정 기간
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: 1199
 ht-degree: 1%
 
 ---
@@ -73,10 +88,10 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  > Adobe Workfront 관리자는 사용자가 특정 오브젝트 유형에 액세스하지 못하도록 제한할 수 있습니다. 사용자에게 객체 유형에 대한 액세스 권한이 없고 해당 유형에 대한 승인이 사용자에게 위임된 경우 사용자에게 객체에 대한 보기 액세스 권한이 없습니다. 그러나 사용자는 **작업 승인**&#x200B;에 설명된 대로 [Home](../../review-and-approve-work/manage-approvals/approving-work.md) 페이지에서 승인 요청을 승인하거나 거부할 수 있습니다.\
+  > Adobe Workfront 관리자는 사용자가 특정 오브젝트 유형에 액세스하지 못하도록 제한할 수 있습니다. 사용자에게 객체 유형에 대한 액세스 권한이 없고 해당 유형에 대한 승인이 사용자에게 위임된 경우 사용자에게 객체에 대한 보기 액세스 권한이 없습니다. 그러나 사용자는 [작업 승인](../../review-and-approve-work/manage-approvals/approving-work.md)에 설명된 대로 **Home** 페이지에서 승인 요청을 승인하거나 거부할 수 있습니다.\
   >예를 들어 사용자 A는 그룹 A에 속합니다. Workfront 관리자가 그룹 A의 액세스 권한을 제한하여 이 그룹의 사용자가 Workfront 내의 작업을 볼 수 없도록 했습니다. 작업 승인 요청이 사용자 A에게 위임되면 사용자 A는 승인이 연관된 작업을 볼 수 없습니다. 하지만 사용자 A는 홈 페이지의 승인 요청을 승인하거나 거부할 수 있습니다.
 
-  Workfront 관리자가 설정 내의 오브젝트 유형에 대한 액세스를 제한하는 방법에 대한 자세한 내용은 다음을 참조하십시오.  [사용자 지정 액세스 수준을 만들거나 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
+  Workfront 관리자가 설정 내의 개체 유형에 대한 액세스를 제한하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오. 
 
 승인 위임이 중단되거나 취소된 후 승인자로 지정된 사용자는 다음과 같습니다.
 

@@ -8,10 +8,17 @@ author: Becky
 feature: Workfront API, Digital Content and Documents
 role: Developer
 exl-id: 8a3bf0c4-4a20-4311-8c05-15f4ef3a1d42
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/flRrmTOPVSGP83tVYfKG9AZOT7CNZN4IeWZNsVwcOO4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 3%
+source-wordcount: 139
+ht-degree: 5%
 
 ---
 
@@ -44,7 +51,7 @@ GET /search
    <td> <p>(선택 사항) 검색이 실행되는 폴더 ID입니다. 참고: Workfront의 향후 기능을 위한 자리 표시자입니다. 현재 Workfront는 이 매개 변수를 전달하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td>최대</td> 
+   <td>max</td> 
    <td>반환할 최대 항목 수입니다. 페이지 매김에 사용됩니다.</td> 
   </tr> 
   <tr> 

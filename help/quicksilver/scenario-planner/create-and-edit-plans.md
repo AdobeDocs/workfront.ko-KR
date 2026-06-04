@@ -6,18 +6,30 @@ description: 회사의 상위 수준 전략에 우선 순위를 지정할 때 Wo
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/i0-G-8KxjFmKp0R4oFPsELMmD6cS06HFKRROeosApYM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: 2407
 ht-degree: 1%
 
 ---
 
 # [!DNL Scenario Planner]에서 계획 만들기 및 편집
 
-회사의 상위 수준 전략에 우선 순위를 지정할 때 [!DNL Workfront Scenario Planner]을(를) 사용하는 과정에서 계획을 만들 수 있습니다. 플랜에 대한 자세한 내용은 [에서  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)플랜 개요를 참조하십시오.
+회사의 상위 수준 전략에 우선 순위를 지정할 때 [!DNL Workfront Scenario Planner]을(를) 사용하는 과정에서 계획을 만들 수 있습니다. 플랜에 대한 자세한 내용은  [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)에서 플랜 개요를 참조하십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -114,7 +126,7 @@ Old:
 
 이 문서에서는 처음부터 계획을 작성하거나 기존 계획을 편집하는 방법에 대해 설명합니다.
 
-플랜에 사용할 수 있는 정보를 포함하여 플랜에 대한 모든 고려 사항은 [에서  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)플랜 개요를 참조하십시오.
+플랜에 사용할 수 있는 정보를 포함하여 플랜에 대한 모든 고려 사항은  [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)에서 플랜 개요를 참조하십시오.
 
 플랜 삭제에 대한 자세한 내용은 [다음에서 플랜 삭제 [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)를 참조하십시오.
 
@@ -244,7 +256,7 @@ Old:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[!UICONTROL Max available] (FTE의 경우) </p> <p role="rowheader">또는 </p> <p role="rowheader"><span>[!UICONTROL 총 사용 가능] (시간)</span> </p> </td> 
-      <td> <p><span>플랜에 시간을 사용할지 FTE를 사용할지 여부에 따라 다음 필드에 플랜에 대한 작업을 실행하는 데 사용할 수 있는 작업 역할 FTE 수 </span>또는 시간<span>을(를) </span>입력하십시오. </p> 
+      <td> <p><span>플랜에 시간을 사용할지 FTE를 사용할지 여부에 따라 다음 필드에 플랜에 대한 작업을 실행하는 데 사용할 수 있는 작업 역할 FTE 수 <span>또는 시간</span>을(를) </span>입력하십시오. </p> 
        <ul> 
         <li> <p style="font-weight: normal;"><strong>[!UICONTROL Total available]</strong>(시간): 시나리오가 진행되는 동안 모든 달의 총 시간을 나타냅니다. 기본적으로 [!DNL Workfront]은(는) 시나리오 기간 동안 사용 가능한 총 수를 모든 달에 균등하게 나눕니다. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span>Designer에 1200시간을 입력하면 계획 [!UICONTROL Duration]이 1년일 때 계획 기간 동안 매월 100시간 동안 Designer을 사용할 수 있습니다. </p> </li> 
         <li> <p><b>[!UICONTROL 최대 사용 가능]</b>(FTE의 경우): 플랜 기간 동안 매월 작업 역할을 사용할 수 있는 FTE 수를 나타냅니다. 기본적으로 <strong>Workfront</strong>은(는) 시나리오 기간 동안 각 달에 [!UICONTROL Max available] 숫자를 할당합니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span>컨설턴트에게 1개의 FTE를 입력하면, 컨설턴트는 플랜 기간 동안 매달 1개의 FTE에 사용할 수 있습니다. </p> <p>1FTE보다 작은 숫자를 입력할 수 있습니다. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span>0.5 컨설턴트 작업 역할로 인해 컨설턴트는 FTE의 절반(일반적으로 4시간, 8시간은 FTE 1시간)을 이 플랜에 할애하게 됩니다. 시나리오 플래너의 모든 계산에 대해 Workfront은 다음 값을 사용합니다. 1 FTE = 8 시간. </p> </li> 
@@ -252,7 +264,7 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[!UICONTROL 최대 필요] (FTE의 경우)</p> <p role="rowheader">또는 </p> <p role="rowheader"><span>[!UICONTROL 총 필요] (시간)</span> </p> </td> 
-      <td> <p><span>플랜에 시간을 사용할지 FTE를 사용할지 여부에 따라 시나리오에서 이니셔티브를 완료하는 데 필요한 작업 역할 FTE 수 </span>또는 시간<span>을(를) 검토</span>하십시오. 다음 필드를 검토하십시오.</p> 
+      <td> <p><span>플랜에 시간을 사용할지 FTE를 사용할지 여부에 따라 시나리오에서 이니셔티브를 완료하는 데 필요한 작업 역할 FTE 수 <span>또는 시간</span>을(를) 검토</span>하십시오. 다음 필드를 검토하십시오.</p> 
        <ul> 
         <li> <p><strong>[!UICONTROL Total required]</strong>(시간): 플랜 기간 동안 모든 달에 필요한 총 시간입니다.</p> </li> 
         <li> <p><strong>[!UICONTROL 최대 필요]</strong>(FTE의 경우): 플랜 기간 동안 필요한 최대 FTE 수. </p> </li> 
@@ -301,8 +313,8 @@ Old:
        </div> </td> 
       <td> <p><span>플랜에 시간을 사용할지 FTE를 사용할지 여부에 따라 </span> 다음 필드의 시나리오에 사용할 수 있는 월별 작업 역할 FTE 수 <span>또는 시간</span>을(를) 검토하거나 업데이트하십시오.</p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL 사용 가능] (최대 &lt;FTE 수&gt;)</strong>: 괄호 안의 숫자는 시나리오의 어느 한 달에 사용할 수 있는 최대 역할 수를 표시합니다. 시나리오의 각 달에 대한 FTE 수를 검토하거나 업데이트합니다. 월별 할당을 변경하면 괄호 안에 있는 FTE 수가 업데이트될 수 있습니다. </p> </li> 
-        <li> <p><span><strong>[!UICONTROL 사용 가능] (총 &lt;시간 수&gt;)</strong>: 괄호로 묶인 숫자는 시나리오의 모든 월에 사용할 수 있는 총 시간 수를 표시합니다. 시나리오의 각 달에 대한 시간 수를 검토하거나 업데이트합니다. 월별 할당을 변경하면 괄호 안의 시간 수가 업데이트됩니다.</span> </p> </li> 
+        <li> <p><strong>[!UICONTROL 사용 가능] (최대 &lt;FTE 수&gt;)</strong>: 괄호로 묶인 숫자는 시나리오의 어느 한 달에 사용할 수 있는 최대 역할 수를 표시합니다. 시나리오의 각 달에 대한 FTE 수를 검토하거나 업데이트합니다. 월별 할당을 변경하면 괄호 안에 있는 FTE 수가 업데이트될 수 있습니다. </p> </li> 
+        <li> <p><span><strong>[!UICONTROL 사용 가능] (총 &lt;시간 수&gt;)</strong>: 괄호로 묶인 숫자는 시나리오의 모든 달에 사용할 수 있는 총 시간을 표시합니다. 시나리오의 각 달에 대한 시간 수를 검토하거나 업데이트합니다. 월별 할당을 변경하면 괄호 안의 시간 수가 업데이트됩니다.</span> </p> </li> 
        </ul> <p>월별 작업 역할 할당을 수동으로 업데이트하는 것은 시나리오에서 이니셔티브 간 작업 역할 충돌을 해결하는 또 다른 방법입니다. </p> <p>팁:   <p><span>월별 역할 가용성을 여러 달 동안 업데이트하려면 특정 월의 [!UICONTROL 사용 가능] 필드에 시간 또는 FTE 수를 입력한 다음 필드의 모서리를 인접한 개월 위로 끌어 놓아 각 달에 대해 동일한 값을 복사합니다. 모든 월을 업데이트하려면 삭제하세요.</span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
      </tr> 
      <tr> 
@@ -314,7 +326,7 @@ Old:
       <td> <p><span>플랜에 시간을 사용할지 FTE를 사용할지 여부에 따라 </span> 다음 필드에서 시나리오에 필요한 월별 작업 역할 FTE 수 또는 시간을 검토하십시오. </p> 
        <ul> 
         <li> <p><strong>[!UICONTROL 필수] (최대 &lt;FTE 수&gt;)</strong>: 괄호 안의 숫자는 시나리오의 어느 한 달에 필요한 최대 역할 수를 표시합니다. </p> </li> 
-        <li> <p><span><strong>[!UICONTROL 필수] (총 &lt;시간 수&gt;)</strong>: 괄호 안의 숫자는 시나리오의 모든 월에 필요한 총 시간 수를 표시합니다.</span> </p> </li> 
+        <li> <p><span><strong>[!UICONTROL 필수] (총 &lt;시간 수&gt;)</strong>: 괄호 안의 숫자는 시나리오의 모든 달에 필요한 총 시간을 표시합니다.</span> </p> </li> 
        </ul> <p>팁: 작업 역할에 필요한 FTE 수 <span> 또는 시간</span>을(를) 수정할 수 없습니다. 이니셔티브 및 해당 작업 역할 요구 사항 추가를 시작하면 이 숫자가 시나리오에 대해 채워집니다. </p> </td> 
      </tr> 
      <tr> 

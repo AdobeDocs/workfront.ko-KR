@@ -7,9 +7,19 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+TQID: https://experienceleague.adobe.com/uxF82lsimZlGpWRe8BEt80-9wb0rnwz7uhBHCI8nAig
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -63,18 +73,18 @@ OAuth2 애플리케이션 만들기에 대한 지침은 [Workfront 통합을 위
   </tr> 
   <tr> 
    <td role="rowheader">iss</td> 
-   <td>필수. 발급자는 OAuth2 앱 세부 사항에서 고객 ID입니다.</td> 
+   <td>필수 여부. 발급자는 OAuth2 앱 세부 사항에서 고객 ID입니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">하위</td> 
-   <td>필수. 제목은 설정에서 공개 키를 만든 사용자 ID입니다.</td> 
+   <td>필수 여부. 제목은 설정에서 공개 키를 만든 사용자 ID입니다.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ## JWT를 교환하여 액세스 토큰 검색
 
-1. POST 요청을 다음으로 보내기:
+1. POST 요청 전송 대상:
 
    <!-- [Copy](javascript:void(0);) -->
    <pre><code>https://yourdomain.my.workfront.com/integrations/oauth2/api/v1/jwt/exchange</code></pre>

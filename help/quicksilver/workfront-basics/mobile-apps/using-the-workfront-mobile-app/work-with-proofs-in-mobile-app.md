@@ -6,9 +6,14 @@ description: 승인이 필요한 증명이 할당되면 모바일 앱의 승인 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/50PA5RHzFX275EI4nPAZ-b9P8Xx0Ia9dlgB1JHAd6-s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: 768
 ht-degree: 0%
 
 ---
@@ -30,7 +35,7 @@ ht-degree: 0%
      ![내 작업 승인 섹션](assets/mobile-mywork-approvals-338x482.png)\
       또는
 
-   * **[!UICONTROL 내 작업]**&#x200B;의 [!UICONTROL 승인] 영역에서 [!UICONTROL 모든 승인 표시]를 선택합니다. 그런 다음 모든 승인 목록에서 증명 승인 작업을 선택합니다.
+   * [!UICONTROL 내 작업]의 [!UICONTROL 승인] 영역에서 **[!UICONTROL 모든 승인 표시]**&#x200B;를 선택합니다. 그런 다음 모든 승인 목록에서 증명 승인 작업을 선택합니다.
 
      모바일 앱의 [!UICONTROL 내 작업]에 대한 자세한 내용은 모바일 앱의 [[!UICONTROL 내 작업] 섹션](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)을 참조하세요.
 

@@ -2,24 +2,31 @@
 product-area: documents
 navigation-topic: proofing-overview
 title: 증명을 위한 문서 재처리 개요
-description: 증명을 위해 문서(DOCX, PDF, XLSX, AI)를 제출하면 Adobe Workfront이 증명을 생성하는 데 사용한 소프트웨어 애플리케이션 없이 증명 뷰어에 표시할 수 있도록 재처리합니다.
+description: 증명을 위해 문서(DOCX, PDF, XLSX, AI)를 제출하면 Adobe Workfront에서 증명을 생성하는 데 사용한 소프트웨어 애플리케이션 없이 증명 뷰어에 표시될 수 있도록 문서를 재처리합니다.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+TQID: https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: 632
 ht-degree: 0%
 
 ---
 
 # 증명을 위한 문서 재처리 개요
 
-증명을 위해 문서(DOCX, PDF, XLSX, AI)를 제출하면 Adobe Workfront이 증명을 생성하는 데 사용한 소프트웨어 애플리케이션 없이 증명 뷰어에 표시할 수 있도록 재처리합니다. 
+증명을 위해 문서(DOCX, PDF, XLSX, AI)를 제출하면 Adobe Workfront에서 증명을 생성하는 데 사용한 소프트웨어 애플리케이션 없이 증명 뷰어에 표시될 수 있도록 문서를 재처리합니다. 
 
 문서의 각 페이지가 증명 뷰어에 축소판 이미지로 나타납니다. 썸네일을 클릭하면 해당 페이지의 비트맵 버전을 100%, 200% 및 400%로 확대할 수 있습니다. 높이 또는 너비가 800mm를 초과하는 증명의 경우 최대 확대/축소 수준은 200%입니다.
 
-문서의 색상은 sRGB로 표시되며 최신 Adobe 라이브러리에서 색상 변환이 이루어집니다. 증명 뷰어는 문서에 포함된 모든 ICC(International Color Consortium) 프로파일을 지원합니다.
+문서의 색상은 최신 Adobe 라이브러리에서 색상 변환을 통해 sRGB로 표시됩니다. 증명 뷰어는 문서에 포함된 모든 ICC(International Color Consortium) 프로파일을 지원합니다.
 
 시스템에 문서를 업로드할 때 올바른 파일 확장명을 포함하면 모든 글꼴 텍스트가 해당 레이어에서 추출됩니다. 이미지 또는 커브로 포함된 텍스트는 표시되지 않습니다.
 

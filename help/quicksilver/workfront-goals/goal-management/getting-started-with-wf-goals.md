@@ -4,12 +4,26 @@ description: Workfront 목표는 전략을 작업 실행 및 전달에 연결하
 author: Alina
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/pCSacmcYWNxn2nMKQU5vynPFk35nc4UCy-inrjoPwuA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 1%
+source-wordcount: 1351
+ht-degree: 2%
 
 ---
 
@@ -97,7 +111,7 @@ Workfront 목표에 대한 자세한 내용은 [Adobe Workfront 목표 개요](.
 목표를 만들고 조정할 때 다음 지침을 고려하십시오.
 
 * &quot;이 최상위 수준의 목표를 달성하기 위해 내 팀과 내가 달성해야 하는 것은 무엇입니까?&quot;라는 질문을 생각해 보십시오.
-* 종속 연결된 목표는 상위 항목의 달성을 유도하거나 가능하게 하기 위해 달성해야 하는 필요한 결과를 나타내야 합니다. 그 성취의 범위는 그 부모의 성과보다 더 좁아야 한다.
+* 계단식 목표는 상위 목표 달성을 추진하거나 가능하게 하기 위해 달성해야 하는 필수 결과를 나타내야 합니다. 그 성취의 범위는 그 부모의 성과보다 더 좁아야 한다.
 * 따라하기 어렵거나 레이어가 너무 많은 복잡한 목표 계층을 만들지 마십시오.
 
 목표 생성 및 정렬에 대한 자세한 내용은 다음 문서를 참조하십시오.
