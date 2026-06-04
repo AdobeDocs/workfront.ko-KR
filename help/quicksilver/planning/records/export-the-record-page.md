@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 471
+source-wordcount: 441
 ht-degree: 1%
 
 ---
@@ -63,13 +63,8 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
    <td>   <p>작업 영역, 레코드 종류 및 <span class="preview">레코드</span>에 대한 이상의 사용 권한 보기 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> </td> 
   </tr> 
-  </tr> 
-  <tr>
-   <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> 라이트 또는 기여자 라이선스가 있는 사용자에게 Planning이 포함된 레이아웃 템플릿을 할당해야 합니다.
-   <p>표준 사용자 및 시스템 관리자에게는 기본적으로 계획 영역이 활성화되어 있습니다.</p></div></li></ul>
-</td>
-  </tr>  
+  </tr>
+
 </tbody> 
 </table>
 
