@@ -9,20 +9,14 @@ exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c33c023ab33a3b0c8369e6fae091d0ec877aa4e2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 1720
+source-wordcount: 1690
 ht-degree: 2%
 
 ---
@@ -104,13 +98,6 @@ at GA, check that the Workfront plans article linked below has Planning info
    <p><b>중요</b></p>
    <p>작업 영역에 대한 관리 권한이 있는 사용자만 레코드를 공유할 수 있습니다.</p></td> 
   </tr>
-<tr>
-   <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> 라이트 또는 기여자 라이선스가 있는 사용자에게 Planning이 포함된 레이아웃 템플릿을 할당해야 합니다.
-   <p>표준 사용자 및 시스템 관리자에게는 기본적으로 계획 영역이 활성화되어 있습니다.</p></div></li></ul>
-</td>
-  </tr>
-
 </tbody> 
 </table>
 
@@ -216,7 +203,7 @@ Lilit is checking on this, it is not working correctly
 
    **공유** 상자가 열립니다.
 
-   ![&#128279;](assets/permissions-for-records-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드에 대한 사용 권한
+   ](assets/permissions-for-records-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드에 대한 ![사용 권한
 
    >[!WARNING]
    >

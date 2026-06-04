@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1873'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 0%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
+<!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
@@ -72,13 +73,8 @@ Workfront Planning의 다음 영역에서 목록 보기에서 객체를 볼 수 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>보기에 대한 권한 관리</p>  
    <p>보기에 대한 권한을 보고 일시적으로 보기 설정을 변경하거나 복제합니다.</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> 라이트 또는 기여자 라이선스가 있는 사용자에게 Planning이 포함된 레이아웃 템플릿을 할당해야 합니다.
-   <p>표준 사용자 및 시스템 관리자에게는 기본적으로 계획 영역이 활성화되어 있습니다.</p></div></li></ul>
-</td>
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
