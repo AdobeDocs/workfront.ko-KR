@@ -8,18 +8,30 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 8%
+source-wordcount: 1959
+ht-degree: 5%
 
 ---
 
 # [!DNL Workfront] 통합을 위한 OAuth2 애플리케이션 만들기
 
-[!DNL Adobe Workfront] 관리자는 [!DNL Workfront] 인스턴스에 대한 OAuth2 응용 프로그램을 만들 수 있으며, 이를 통해 다른 응용 프로그램에서 [!DNL Workfront]에 액세스할 수 있습니다. 그런 다음 사용자는 다른 응용 프로그램에 [!DNL Workfront] 데이터에 액세스할 수 있는 권한을 부여할 수 있습니다. 이러한 방식으로   자체 애플리케이션을 포함하여 원하는 애플리케이션을 제공합니다.
+[!DNL Adobe Workfront] 관리자는 [!DNL Workfront] 인스턴스에 대한 OAuth2 응용 프로그램을 만들 수 있으며, 이를 통해 다른 응용 프로그램에서 [!DNL Workfront]에 액세스할 수 있습니다. 그런 다음 사용자는 다른 응용 프로그램에 [!DNL Workfront] 데이터에 액세스할 수 있는 권한을 부여할 수 있습니다. 이러한 방식으로 자체 애플리케이션을 포함하여 원하는 애플리케이션과 통합할 수 있습니다.
 
 [!UICONTROL OAuth2] 응용 프로그램을 만들 때 클라이언트 ID 및 클라이언트 암호를 생성합니다. 그런 다음 사용자는 API 호출에서 클라이언트 ID를 사용하여 만든 애플리케이션과 통합할 수 있습니다.
 
@@ -129,7 +141,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth2 응용 프로그램]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 앱 통합 만들기]**&#x200B;를 클릭합니다.
-**새 OAuth2 응용 프로그램** 상자가 표시됩니다.
+**새 OAuth2 애플리케이션** 상자가 표시됩니다.
 1. **새 OAuth2 응용 프로그램** 상자에서 **[!UICONTROL 컴퓨터 대 컴퓨터 응용 프로그램]**&#x200B;을 선택합니다.
 1. 새 응용 프로그램의 이름을 입력하십시오(예: &quot;[!DNL Workfront] for ClientApp&quot;).
 1. Click **[!UICONTROL Create]**.
@@ -217,7 +229,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 새로 고침 토큰 순환]</td> 
-      <td>새로 고침 토큰을 사용할 때마다 새 새로 고침 토큰을 발급하려면 이 옵션을 활성화합니다. 애플리케이션은 매번 새로 고침 후에 새 새로 고침 토큰을 저장해야 합니다.</td> 
+      <td>새로 고침 토큰을 사용할 때마다 새 새로 고침 토큰을 발급하려면 이 옵션을 활성화합니다. 애플리케이션은 매번 새로 고침 후 새 새로 고침 토큰을 저장해야 합니다.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 절대 새로 고침 토큰 만료]</td> 
@@ -277,7 +289,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 사용할 때마다 새로 고침 토큰을 회전합니다.]</td> 
-      <td>새로 고침 토큰을 사용할 때마다 새 새로 고침 토큰을 발급하려면 이 옵션을 활성화합니다. 애플리케이션은 매번 새로 고침 후에 새 새로 고침 토큰을 저장해야 합니다.</td> 
+      <td>새로 고침 토큰을 사용할 때마다 새 새로 고침 토큰을 발급하려면 이 옵션을 활성화합니다. 애플리케이션은 매번 새로 고침 후 새 새로 고침 토큰을 저장해야 합니다.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 절대 만료]</td> 
@@ -345,7 +357,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
 1. ClientApp에는 [!DNL Workfront]의 정보가 필요하므로 [!DNL Workfront] API `/authorize` 끝점에 요청을 보냅니다. 요청에 [!UICONTROL response_type] `code`이(가) 포함되어 있습니다. 이는 요청이 인증 코드를 반환해야 함을 나타냅니다.
 1. [!DNL Workfront]을(를) 트리거하여 사용자에게 인증 프롬프트를 보냅니다. 사용자는 프롬프트에 자격 증명을 입력할 수 있으며, 이를 통해 [!DNL Workfront]에게 ClientApp과 통신할 수 있는 권한을 부여할 수 있습니다. 사용자가 이미 [!DNL Workfront]에 로그인한 경우 이 단계를 건너뛸 수 있습니다.
 1. [!DNL Workfront] API가 ClientApp에 인증 코드를 보냅니다.
-1. ClientApp이 [!DNL Workfront] API `/token`에 다음 정보를 요청으로 보냅니다.   끝점:
+1. ClientApp이 [!DNL Workfront] API `/token` 끝점에 다음 정보를 요청으로 보냅니다.
 
    * 3단계에서 ClientApp으로 전송된 인증 코드입니다. 이는 사용자 권한의 특정 인스턴스를 식별합니다.
    * [!DNL Workfront]에서 ClientApp OAuth2 앱을 설정할 때 생성된 클라이언트 암호입니다. 이를 통해 [!DNL Workfront]은(는) 요청이 ClientApp에서 오고 있음을 알 수 있습니다.

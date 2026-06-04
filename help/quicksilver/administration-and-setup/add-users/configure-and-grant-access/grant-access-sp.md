@@ -5,10 +5,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+TQID: https://experienceleague.adobe.com/oIZ0F7oKuK-UsGCnjgXQphxTLqBcYCxHuGEHKBN328Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 0%
+source-wordcount: 610
+ht-degree: 3%
 
 ---
 
@@ -20,7 +32,7 @@ Scenario Planner에 대한 액세스 권한 외에도 시스템 관리자가 아
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +81,7 @@ Scenario Planner에 대한 액세스 권한 외에도 시스템 관리자가 아
 
 ## 라이선스 유형별 시나리오 플래너에 액세스
 
-각 액세스 수준의 사용자가 시나리오 플래너로 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario)의 [시나리오 플래너 영역](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) 섹션을 참조하십시오.
+각 액세스 수준의 사용자가 시나리오 플래너로 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)의 [시나리오 플래너 영역](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario) 섹션을 참조하십시오.
 
 ## 액세스 수준 설정별 시나리오 플래너 액세스
 

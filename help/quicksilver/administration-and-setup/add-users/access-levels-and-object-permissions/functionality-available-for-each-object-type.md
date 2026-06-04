@@ -10,12 +10,28 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Q4zl3y3gXnQ-9-oO-JzaHFyN2NR0s8pdU0ND08f1oIM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 14%
+source-wordcount: 1553
+ht-degree: 13%
 
 ---
 
@@ -83,7 +99,7 @@ ht-degree: 14%
 | 시스템 전체 공유 | ✓&#42; |  |  |  |  |
 | 보기 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | 전임 작업 추가 | ✓ | ✓ |  |  |  |
-|  문제 추가 | ✓ | ✓ |  |  |  |
+| 문제 추가 | ✓ | ✓ |  |  |  |
 | 작업 편집(상태 제외) | ✓ | ✓ |  |  |  |
 | 작업 상태 변경 | ✓ | ✓ |  |  |  |
 | 문서 추가 | ✓ | ✓ | ✓ |  |  |
@@ -539,7 +555,7 @@ ht-degree: 14%
 
 &#42;&#42;재무 데이터에 대한 추가 액세스 및 프로젝트 재무 권한이 필요합니다. 재무 데이터에 대한 액세스 권한이 없는 플래너 사용자에게 리소스 관리 액세스 권한을 부여하는 경우 사용자는 리소스 플래너에서 시간별 할당을 계속 볼 수 있지만 비용 보기로 전환하거나 비즈니스 사례를 볼 수는 없습니다. 자세한 내용은 [재무 데이터에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) 및 [개체에 대한 재무 권한 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)를 참조하십시오.
 
-&#42;&#42;&#42;고급 설정에서 [할당]을 사용하도록 설정하여 개체에 연결할 수 있는 권한이 필요합니다. 자세한 내용은 문서 [개체에 대한 권한 공유 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object)의 [상속된 권한 및 개체의 계층 구조 이해](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) 섹션을 참조하십시오.
+&#42;&#42;&#42;고급 설정에서 [할당]을 사용하도록 설정하여 개체에 연결할 수 있는 권한이 필요합니다. 자세한 내용은 문서 [개체에 대한 권한 공유 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)의 [상속된 권한 및 개체의 계층 구조 이해](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) 섹션을 참조하십시오.
 
 ## 시나리오 플래너 영역
 

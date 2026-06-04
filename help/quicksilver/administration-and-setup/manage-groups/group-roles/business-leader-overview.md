@@ -8,9 +8,19 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4081587f-1ace-4f40-a3a1-57231d5a5d43
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/k0DCWJsFH0dC-GjMgVnLVzgkl8q1ZtuzNNHqolPfVIc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: 318
 ht-degree: 0%
 
 ---
@@ -37,7 +47,7 @@ ht-degree: 0%
 
 그룹에 대한 보고서를 생성하는 사용자는 필터, 보기 또는 그룹화에 비즈니스 리더 필드를 포함할 수 있습니다.
 
-For example:
+예:
 
 * 비즈니스 리더로 필터링하여 해당 개인이 비즈니스 리더로 할당된 그룹을 나열합니다.
 * 목록에 그룹에 지정된 모든 비즈니스 리더의 이름을 나열하려면 뷰에 비즈니스 리더 필드를 추가합니다. 이름을 클릭하여 해당 비즈니스 리더의 사용자 프로필로 이동하거나 이름을 편집할 수 있습니다.

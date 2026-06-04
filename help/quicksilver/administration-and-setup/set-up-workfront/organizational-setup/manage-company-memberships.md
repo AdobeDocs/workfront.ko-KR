@@ -8,10 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+TQID: https://experienceleague.adobe.com/0bS4VdGyGBzH4LBw-WTeF0Ud8gtRAaxu0UevRtyZLQo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 1%
+source-wordcount: 841
+ht-degree: 2%
 
 ---
 
@@ -23,13 +33,13 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto">
  <tbody> 
   <tr> 
    <td> <p>[!DNL Workfront] 패키지</p> </td> 
-   <td><p>임의</p>
+   <td><p>Any</p>
    </td> 
   </tr> 
   <tr> 
@@ -50,7 +60,7 @@ ht-degree: 1%
       <li> <p>[!DNL Workfront] 시스템에서 사용자를 추가하고 제거하려면 다음 중 하나가 있어야 합니다.</p> 
        <ul> 
         <li> <p>[!UICONTROL 시스템 관리자] 액세스 수준입니다. </p> </li> 
-        <li> <p>액세스 수준의 <b>[!UICONTROL 사용자]</b> 설정이 <b>[!UICONTROL 편집]</b> 액세스로 구성되었으며, <b>[!UICONTROL 만들기]</b>와(과) <b>[!UICONTROL 사용자 관리]</b> <b>에서 두 개의 </b>[!UICONTROL 사용자 관리]<img src="assets/gear-icon-in-access-levels.png"> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p> <img src="assets/access-req-users.png"> </p> <p>이 두 옵션 중 <b>[!UICONTROL 사용자 관리자(그룹 사용자)]</b>이(가) 활성화된 경우 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> </li> 
+        <li> <p>액세스 수준의 <b>[!UICONTROL 사용자]</b> 설정이 <b>[!UICONTROL 편집]</b> 액세스로 구성되었으며, <b>[!UICONTROL 만들기]</b>와(과) <b>[!UICONTROL 사용자 관리]</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>[!UICONTROL 사용자 관리]</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p> <img src="assets/access-req-users.png"> </p> <p>이 두 옵션 중 <b>[!UICONTROL 사용자 관리자(그룹 사용자)]</b>이(가) 활성화된 경우 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td>

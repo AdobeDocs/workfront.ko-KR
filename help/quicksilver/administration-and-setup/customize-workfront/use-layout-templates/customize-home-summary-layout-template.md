@@ -8,11 +8,21 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/NieBFLmqeOBfaG26ZX6mfBzqJvnB9-x6mYDhX5zCIK8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: 768
 ht-degree: 4%
 
 ---
@@ -72,7 +82,7 @@ ht-degree: 4%
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
 
-1. ![사용자에게 표시되는 항목 사용자 지정](assets/dropdown-arrow.png)에서 아래쪽 화살표 **아래쪽 화살표**&#x200B;를 클릭한 다음 **요약 패널**&#x200B;을 클릭합니다.
+1. **사용자에게 표시되는 항목 사용자 지정**&#x200B;에서 아래쪽 화살표 ![아래쪽 화살표](assets/dropdown-arrow.png)를 클릭한 다음 **요약 패널**&#x200B;을 클릭합니다.
 
 1. 아래에 표시되는 목록에서 요약 패널을 사용자 지정할 객체 유형을 클릭합니다.
 
@@ -148,7 +158,7 @@ These were removed with the new Home:
     <tbody> 
      <tr> 
       <td role="rowheader">작업 업데이트 보기</td> 
-      <td>요약 패널에서 선택한 작업 또는 문제에 대한 모든 업데이트를 표시합니다. 여기에는 시스템 업데이트와 사용자가 수행한 업데이트가 모두 포함됩니다. 사용자는 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">작업 업데이트</a>의 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">시스템 업데이트 사용 또는 사용 안 함</a>에 설명된 대로 시스템 업데이트를 계속 필터링할 수 있습니다.</td> 
+      <td>요약 패널에서 선택한 작업 또는 문제에 대한 모든 업데이트를 표시합니다. 여기에는 시스템 업데이트와 사용자가 수행한 업데이트가 모두 포함됩니다. 사용자는 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">작업 업데이트</a>의 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">시스템 업데이트 사용 또는 사용 안 함</a>에 설명된 대로 시스템 업데이트를 계속 필터링할 수 있습니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">작업에 대한 시간 기록</td> 

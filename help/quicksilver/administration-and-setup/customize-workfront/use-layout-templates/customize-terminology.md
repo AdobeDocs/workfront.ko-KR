@@ -8,9 +8,24 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 3080fc1ebf33186f3bdf64a960fd1b5572dbfb2f
+TQID: https://experienceleague.adobe.com/chM5Ny9QZBJ8qc-2p-rzGDFWDCvB0H3pEV70HWOrIWI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: 645
 ht-degree: 5%
 
 ---
@@ -33,7 +48,7 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 조직에서
 
 >[!NOTE]
 >
->* 레이블을 사용자 지정할 때 문법 및 기타 문제가 발생할 수 있습니다. 예를 들어 &quot;문제&quot;를 &quot;요청&quot;으로 변경하면 UI에서 &quot;요청&quot;이라는 구문이 표시되는 위치가 있을 수 있습니다. 자세한 내용은 문서 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)에서 [개체 이름 사용자 지정의 의미](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)를 참조하십시오.
+>* 레이블을 사용자 지정할 때 문법 및 기타 문제가 발생할 수 있습니다. 예를 들어 &quot;문제&quot;를 &quot;요청&quot;으로 변경하면 UI에서 &quot;요청&quot;이라는 구문이 표시되는 위치가 있을 수 있습니다. 자세한 내용은 문서 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)에서 [개체 이름 사용자 지정의 의미](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)를 참조하십시오.
 >* 용어 번역을 영어 이외의 언어로 사용자 지정하려면 [사용자 지정 지역화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)을 참조하십시오.
 
 레이아웃 템플릿에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.

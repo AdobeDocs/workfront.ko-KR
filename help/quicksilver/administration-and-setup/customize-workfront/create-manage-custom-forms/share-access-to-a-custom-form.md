@@ -8,9 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 3e6ae76eea2e12fc7fc3a45dad753261a7bad628
+TQID: https://experienceleague.adobe.com/gpJQedqcdtjaxvhVuWKgJVpfAPAT2ICSgO6nRFLvimM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: 980
 ht-degree: 2%
 
 ---
@@ -171,7 +182,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
    >* 대부분의 조직에서는 시스템에서 작업 중인 오브젝트에 사용자 정의 양식을 첨부하고 보고서에서 해당 데이터를 볼 때 모든 사용자가 사용자 정의 양식을 작성할 수 있도록 하고자 합니다. 조직에 대해 true인 경우 **시스템의 모든 사용자가 볼 수 있음**&#x200B;을 사용하는 것이 좋습니다.
    >* <span class="preview">**시스템의 모든 사용자가 보고 연결할 수 있음**&#x200B;을 선택하면 모든 사용자가 다른 개체에 양식을 첨부할 수 있습니다.</span>
    >
-   >미리 보기 환경의 <span class="preview">샘플 이미지:</span>
+   ><span class="preview">미리 보기 환경의 샘플 이미지:</span>
    >![사용자 정의 양식 공유](assets/share-custom-forms-all-can-attach.png)
    >   
    >프로덕션 환경의 샘플 이미지:

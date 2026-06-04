@@ -9,10 +9,21 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 58a6b489ca5f1683a5c40c63bb4528b1f49e9324
+TQID: https://experienceleague.adobe.com/lmFoyQeyCQvMd3hupnNKvUY980rjY8b2n21NycCmtcw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 26%
+source-wordcount: 464
+ht-degree: 12%
 
 ---
 
@@ -24,7 +35,7 @@ Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 �
 
 >[!NOTE]
 >
->사용자는 사용자 프로필 환경 설정을 편집하여 자신의 레이아웃을 변경할 수 있습니다. 자세한 내용은 [내 설정 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences)의 [환경 설정](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) 섹션을 참조하십시오.
+>사용자는 사용자 프로필 환경 설정을 편집하여 자신의 레이아웃을 변경할 수 있습니다. 자세한 내용은 [내 설정 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)의 [환경 설정](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) 섹션을 참조하십시오.
 
 ## 각 라이선스 유형에 대한 기본 메인 메뉴 항목
 

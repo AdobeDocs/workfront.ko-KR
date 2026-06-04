@@ -3,21 +3,32 @@ title: 메타데이터 매핑 설정
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: 메타데이터는 문서와 관련된 설명 정보입니다.  [!DNL Adobe Workfront] 응용 프로그램으로 보낸 문서에 메타데이터를 포함하도록  [!DNL Workfront] 을(를) 설정할 수 있습니다.
+description: 메타데이터는 문서와 관련된 설명 정보입니다.  [!DNL Workfront] 응용 프로그램으로 보낸 문서에 메타데이터를 포함하도록  [!DNL Adobe Workfront] 을(를) 설정할 수 있습니다.
 author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/vo2d0t7tVnUsQT6pX0fBdX5JDqkYXtnWpCoAWlUeD1U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: 556
 ht-degree: 5%
 
 ---
 
 # 메타데이터 매핑 설정
 
-메타데이터는 문서와 관련된 설명 정보입니다. [!DNL Adobe Workfront] 응용 프로그램으로 보낸 문서에 메타데이터를 포함하도록 [!DNL Workfront]을(를) 설정할 수 있습니다.
+메타데이터는 문서와 관련된 설명 정보입니다. [!DNL Workfront] 응용 프로그램으로 보낸 문서에 메타데이터를 포함하도록 [!DNL Adobe Workfront]을(를) 설정할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -62,7 +73,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->메타데이터는 [!DNL Workfront]에서 [!DNL Workfront DAM] 방향으로만 매핑할 수 있습니다. [!DNL Workfront]에서 [!DNL Workfront DAM]에 연결된 문서의 메타데이터를 Workfront으로 전송할 수 없습니다.
+>메타데이터는 [!DNL Workfront]에서 [!DNL Workfront DAM] 방향으로만 매핑할 수 있습니다. [!DNL Workfront DAM]에서 [!DNL Workfront]에 연결된 문서의 메타데이터를 Workfront으로 전송할 수 없습니다.
 
 동일한 [!DNL Workfront] 필드를 [!DNL Workfront DAM]의 다양한 메타데이터 필드에 매핑할 수 있지만 여러 [!DNL Workfront] 메타데이터 필드에 대해 이들 응용 프로그램에서 메타데이터 필드를 사용할 수는 없습니다.
 

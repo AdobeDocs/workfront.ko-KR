@@ -5,13 +5,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+TQID: https://experienceleague.adobe.com/jLoqncsE3CSAK27siU8Ro2EQdZkbJC-gs040vGxX-5E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 900
 ht-degree: 3%
 
 ---
-
 
 # 사용자에게 액세스 권한 부여
 
@@ -66,7 +74,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 ## 사용자 정의 액세스 수준을 사용하여 사용자 편집에 대한 사용자 액세스 구성
 
 1. [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에 설명된 대로 액세스 수준을 만들거나 편집하십시오.
-1. 표준, 플랜 또는 작업 라이선스가 있는 사용자가 다른 사용자의 정보를 볼 수 있는 기능을 변경하려면 ![사용자](assets/gear-icon-settings.png) 오른쪽에 있는 **보기** 단추의 톱니바퀴 아이콘 **톱니바퀴 아이콘**&#x200B;을 클릭한 다음 **설정을 미세 조정** 상자에서 부여할 보기 옵션을 선택하십시오.
+1. 표준, 플랜 또는 작업 라이선스가 있는 사용자가 다른 사용자의 정보를 볼 수 있는 기능을 변경하려면 **사용자** 오른쪽에 있는 **보기** 단추의 톱니바퀴 아이콘 ![톱니바퀴 아이콘](assets/gear-icon-settings.png)을 클릭한 다음 **설정을 미세 조정** 상자에서 부여할 보기 옵션을 선택하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -93,7 +101,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
    ![보기 사용자 설정 미세 조정](assets/fine-tune-view-users.png)
 
-1. 표준 또는 플랜 라이선스 액세스 권한을 가진 사용자가 다른 사용자를 편집할 수 있는 기능을 수정하려면 ![사용자](assets/gear-icon-settings.png) 오른쪽에 있는 **편집** 단추의 톱니바퀴 아이콘 **톱니바퀴 아이콘**&#x200B;을 클릭한 다음 **설정을 미세 조정** 상자에서 부여할 편집 옵션을 선택하십시오.
+1. 표준 또는 플랜 라이선스 액세스 권한을 가진 사용자가 다른 사용자를 편집할 수 있는 기능을 수정하려면 **사용자** 오른쪽에 있는 **편집** 단추의 톱니바퀴 아이콘 ![톱니바퀴 아이콘](assets/gear-icon-settings.png)을 클릭한 다음 **설정을 미세 조정** 상자에서 부여할 편집 옵션을 선택하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -163,4 +171,4 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
 ## 라이선스 유형별 사용자 액세스
 
-각 액세스 수준의 사용자가 사용자를 통해 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users)의 [사용자](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) 섹션을 참조하십시오.
+각 액세스 수준의 사용자가 사용자를 통해 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)의 [사용자](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) 섹션을 참조하십시오.

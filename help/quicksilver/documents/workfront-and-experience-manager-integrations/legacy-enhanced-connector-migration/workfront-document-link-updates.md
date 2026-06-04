@@ -6,9 +6,19 @@ description: API를 사용하여 연결된 폴더 및 문서를 Adobe Experience
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 586ab0a8-52ee-4aba-9298-af5a304acb02
-source-git-commit: aad8f4648a57c93047a1a691d5e608c327d78c1b
+TQID: https://experienceleague.adobe.com/W2Y50cEqsMIxHpG5-8uwVtR4OKd4TfdCLET9oYpycSk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: 926
 ht-degree: 0%
 
 ---
@@ -45,7 +55,7 @@ API를 사용하여 연결된 폴더 및 문서를 Adobe Experience Manager Asse
 
 ## API 정보
 
-이 섹션에서 Workfront API에 대한 자세한 내용은 [개발자 설명서:문서](https://developer.workfront.com/documents.html)를 참조하십시오.
+이 섹션의 Workfront API에 대한 자세한 내용은 [개발자 설명서:Documents](https://developer.workfront.com/documents.html)를 참조하십시오.
 
 ### 모든 문서 찾기
 
@@ -160,7 +170,7 @@ API 문서: (현재 developer.workfront.com에서 다루지 않는 내부 링크
 
   >[!NOTE]
   >
-  > Workfront에는 아직 외부 문서 식별자에 대한 표준이 없습니다. AEM ID에 새 사양이 사용되고 있지만, 다른 ID의 경우 외부 문서 ID는 공급자 유형에 따라 다른 양식을 사용할 수 있습니다.
+  > Workfront에는 아직 외부 문서 식별자에 대한 표준이 없습니다. AEM ID에는 새 사양이 사용되고 있지만, 다른 ID의 경우 외부 문서 ID는 공급자 유형에 따라 다른 양식을 사용할 수 있습니다.
 
 
 * **개체 유형**: 이 문서의 목적에 맞는 API 전용 용어입니다. 상호 작용하려는 Workfront 내의 일반 오브젝트 유형입니다. 이 경우 &quot;DOCU&quot; 및 &quot;DOCFDR&quot; 유형이 각각 포함된 문서 및 폴더와 상호 작용하게 됩니다.

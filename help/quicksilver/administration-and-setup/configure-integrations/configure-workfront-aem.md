@@ -1,5 +1,5 @@
 ---
-title: ' [!DNL Workfront] 기존 커넥터로  [!DNL Adobe Experience Manager] 구성'
+title: ' [!DNL Adobe Experience Manager] 기존 커넥터로  [!DNL Workfront] 구성'
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,14 +8,28 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
+TQID: https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 0%
+source-wordcount: 1869
+ht-degree: 1%
 
 ---
 
-# [!DNL Workfront] 레거시 커넥터로 [!DNL Adobe Experience Manager] 구성
+# [!DNL Adobe Experience Manager] 레거시 커넥터로 [!DNL Workfront] 구성
 
 <!-- Audited: 4/2025 -->
 
@@ -23,7 +37,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table>
   <tr>
@@ -62,7 +76,7 @@ ht-degree: 0%
 
 * [!DNL AEM Digital Asset Managemen]t(DAM) 리포지토리와 통합하여 [!DNL Workfront]을(를) 사용하여 DAM에 저장된 디지털 에셋을 관리하고 공유할 수 있습니다.
 
-  문서 및 에셋 폴더 연결에 대한 자세한 내용은   [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+  문서 및 자산 폴더 연결에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
 * 두 애플리케이션의 메타데이터를 결합하고 에셋에 적용합니다.
 * 자산에 대한 모든 것을 포함하는 통신 스트림을 봅니다. [!DNL Workfront] 또는 [!UICONTROL AEM Assets]에서 자산에 대한 업데이트 및 댓글이 다른 응용 프로그램과 동기화되어 자산에 대한 포괄적인 통신 기록을 수립합니다.
@@ -71,22 +85,22 @@ ht-degree: 0%
 
 ## [!DNL AEM Assets] 커넥터를 설치하기 위한 필수 구성 요소
 
-[!DNL Workfront]AEM Assets[!UICONTROL 용 &#x200B;] 커넥터를 설치하려면 먼저 다음 필수 구성 요소를 충족하는지 확인하십시오.
+[!UICONTROL AEM Assets]용 [!DNL Workfront] 커넥터를 설치하려면 먼저 다음 필수 구성 요소를 충족하는지 확인하십시오.
 
 * [!UICONTROL AEM Assets]이(가) 설치 및 구성되었습니다. 버전 6.5 이상 [!UICONTROL AEM Assets] 설치에 대한 자세한 내용은 [[!DNL Adobe Experience Manager] 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager)를 참조하세요.
-* (조건부) 방화벽 규칙이 예상대로 트래픽을 허용하지 않는 경우 클러스터의 IP 주소 및/또는 도메인을 허용 목록에 추가하다에 추가하십시오. 허용 목록에 추가하다 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
+* (조건부) 방화벽 규칙이 예상대로 트래픽을 허용하지 않는 경우 클러스터의 IP 주소 및/또는 도메인을 허용 목록에 추가하다에 추가하십시오. 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
 
 ## [!DNL Workfront for AEM Assets] 커넥터 패키지 설치 {#install-the-workfront-for-aem-assets-connector-package}
 
 >[!IMPORTANT]
 >
->다음 지침은 [!DNL Workfront with AEM Assets]향상된 커넥터[[!DNL Workfront for Experience Manager] 로 대체된 &#x200B;](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md) 레거시 커넥터에 대한 것입니다. 자세한 내용은 계정 담당자에게 문의하십시오.
+>다음 지침은 [[!DNL Workfront for Experience Manager] 향상된 커넥터](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)로 대체된 [!DNL Workfront with AEM Assets] 레거시 커넥터에 대한 것입니다. 자세한 내용은 계정 담당자에게 문의하십시오.
 
 [!DNL Workfront for AEM Assets] 커넥터를 설치하려면 [!UICONTROL CRX 패키지 관리자]를 사용하여 커넥터를 패키지로 AEM에 가져와야 합니다.
 
 1. 이미 AEM을 설치한 워크스테이션에서 [!DNL Workfront for AEM Assets] Connector 설치 파일을 다운로드합니다.
 
-   [!DNL Workfront for AEM Assets] 담당자로부터 [!DNL Workfront] 커넥터를 가져올 수 있습니다.
+   [!DNL Workfront] 담당자로부터 [!DNL Workfront for AEM Assets] 커넥터를 가져올 수 있습니다.
 
 1. 관리자 계정을 사용하여 AEM에 로그인합니다.
 1. **[!UICONTROL 도구]** > **[!UICONTROL 배포]** > **[!UICONTROL 패키지]**&#x200B;를 클릭합니다. [!UICONTROL CRX 패키지 관리자]가 열립니다.
@@ -106,9 +120,9 @@ ht-degree: 0%
 
 1. [!UICONTROL CRX 패키지 관리자]를 닫습니다. 커넥터가 설치되어 있으므로 [!DNL AEM Assets]을(를) [!DNL Workfront]과(와) 통합하도록 구성할 수 있습니다.
 
-1. [과(와) 통합하려면  [!DNL AEM Assets] 구성 [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)을(를) 계속합니다.
+1. [!DNL Workfront][&#128279;](#configure-aem-assets-to-integrate-with-workfront)과(와) 통합하려면 구성 [!DNL AEM Assets] 을(를) 계속합니다.
 
-## [!DNL AEM Assets]과(와) 통합하도록 [!DNL Workfront] 구성 {#configure-aem-assets-to-integrate-with-workfront}
+## [!DNL Workfront]과(와) 통합하도록 [!DNL AEM Assets] 구성 {#configure-aem-assets-to-integrate-with-workfront}
 
 커넥터를 설치한 후 커넥터 패키지를 AEM으로 가져오고 [!DNL Workfront]의 문서와 연결하도록 AEM을 구성하십시오.
 
@@ -123,9 +137,9 @@ ht-degree: 0%
 시작하기 전에 workfront 서비스에 대한 권한을 활성화해야 합니다.
 
 1. AEM에서 **[!UICONTROL 도구]** > **[!UICONTROL 보안]** > **[!UICONTROL 권한]**(으)로 이동합니다.
-1. 왼쪽 상단 모서리에서 &#x200B; 드롭다운 메뉴에서 **[!UICONTROL 사용자]**&#x200B;를 선택하고 *[!UICONTROL 검색]* 필드에 **[!UICONTROL workfront-service]**&#x200B;을(를) &#x200B; 입력합니다. [!UICONTROL workfront-service] 사용자를 선택하십시오.
+1. 왼쪽 상단 모서리에서 &#x200B; 드롭다운 메뉴에서 **[!UICONTROL 사용자]**&#x200B;를 선택하고 **[!UICONTROL 검색]** 필드에 *[!UICONTROL workfront-service]*&#x200B;을(를) &#x200B; 입력합니다. [!UICONTROL workfront-service] 사용자를 선택하십시오.
 1. 화면 오른쪽에서 **[!UICONTROL ACE 추가]**&#x200B;를 선택하여 새 항목을 만듭니다.
-1. {&#x200B;0}새 항목 추가{1&#x200B;} 창에서 **[!UICONTROL 경로]** 필드&#x200B;의 확인란 아이콘을 선택하고 다음 폴더를 선택합니다. **[!UICONTROL /conf]**&#x200B;**
+1. {&#x200B;0}새 항목 추가{1&#x200B;} 창에서 **[!UICONTROL 경로]** 필드&#x200B;의 확인란 아이콘을 선택하고 다음 폴더를 선택합니다. */conf&#x200B;**&#x200B;***
 1. **권한** 필드에 다음을 입력하십시오. *jcr:read*
 1. 오른쪽 상단 모서리에서 **추가**&#x200B;를 선택합니다.
 1. (선택 사항) 더 많은 항목을 만들려면 위의 단계를 반복합니다.
@@ -142,7 +156,7 @@ ht-degree: 0%
 
       예를 들어 [!DNL https]://`<account>`.my.workfront.com입니다. 여기서 `<account>`은(는) AEM과의 통합에 사용하는 계정입니다.
 
-   1. {&#x200B;0}기본 폴더&#x200B;**[!UICONTROL 필드에서 확인란 아이콘을 선택합니다.]**
+   1. {&#x200B;0}기본 폴더&#x200B;**필드에서 확인란 아이콘을 선택합니다.**
    1. 드롭다운 메뉴에서 [!DNL Workfront] 개체에 연결된 문서가 저장된 경로를 선택합니다.
    1. 표시되는 AEM 모달에서 [!DNL Workfront] 개체에 연결된 문서가 있는 폴더의 경로를 따릅니다. 폴더를 선택한 다음 오른쪽 상단의 **[!UICONTROL 선택]**&#x200B;을 누릅니다.
 
@@ -169,7 +183,7 @@ ht-degree: 0%
          1. **[!UICONTROL 사용자의 API 키]** 레이블에서 **[!UICONTROL API 키 생성]**&#x200B;을 클릭합니다. [!DNL Workfront]에 대한 API 키가 생성되어 표시됩니다.
       1. API 키를 클립보드에 복사합니다.
       1. AEM 커넥터의 브라우저 탭을 열고 **[!DNL Workfront API Key]** 상자에서 복사한 API 키를 붙여넣습니다.
-   1. (조건부) **[!UICONTROL 통합 구성]** 페이지의 왼쪽 위 모서리에 있는 [!UICONTROL [!DNL Workfront]고급] 탭을 클릭하고 해당하는 경우 다음 옵션을 선택합니다.
+   1. (조건부) [!UICONTROL [!DNL Workfront] 통합 구성] 페이지의 왼쪽 위 모서리에 있는 **[!UICONTROL 고급]** 탭을 클릭하고 해당하는 경우 다음 옵션을 선택합니다.
 
       **[!UICONTROL 컬렉션 찾아보기 허용]:**&#x200B;조직에서 [!DNL Workfront] 사용자가 [!DNL Workfront] 개체에 AEM Assets 컬렉션을 연결할 수 있도록 허용하는 경우 이 옵션을 선택하십시오.
 
@@ -177,7 +191,7 @@ ht-degree: 0%
 
       **[!UICONTROL 전자 메일 도메인 무시]:** AEM 사용자가 사용자 ID에서 도메인 이름을 사용하지 않는 경우 이 옵션을 선택합니다.
 
-      **[!UICONTROL 액세스 제한]** 이 옵션을 선택하여 허용 목록에 추가해야 하는 적절한 [!DNL Workfront] IP 주소를 지정합니다. 허용 목록에 추가하다허용 목록에 추가하다 에 대한 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
+      **[!UICONTROL 액세스 제한]** 이 옵션을 선택하여 허용 목록에 추가해야 하는 적절한 [!DNL Workfront] IP 주소를 지정합니다. 허용 목록에 추가하다에 대한 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
 
    1. Workfront 통합 구성 페이지의 왼쪽 상단 모서리에서 **[!UICONTROL 기본]** 탭을 클릭한 다음 **[!UICONTROL 연결]**&#x200B;을 클릭합니다.
 
@@ -228,7 +242,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL OSGI]**&#x200B;를 클릭한 다음 드롭다운 메뉴에서 **[!UICONTROL 구성]**&#x200B;을 클릭합니다.
 
-1. 구성 목록에서 {&#x200B;0}일 CQ 링크 외부화&#x200B;**[!UICONTROL 를 선택합니다.]** **[!UICONTROL 외부화]** 페이지가 표시됩니다.
+1. 구성 목록에서 {&#x200B;0}일 CQ 링크 외부화을(를) 선택합니다.**&#x200B;**&#x200B;**[!UICONTROL 외부화]** 페이지가 표시됩니다.
 
 1. **[!UICONTROL 도메인]** 섹션에서 **[!UICONTROL 작성자]** 필드에 나열된 도메인이 AEM 사용자가 외부에서 액세스할 수 있는 도메인 이름인지 확인하십시오.
 
@@ -239,11 +253,11 @@ ht-degree: 0%
 1. (조건부) 필요한 경우 **[!UICONTROL 작성자]** 필드에서 도메인을 업데이트합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이제 [!UICONTROL AEM Assets]이(가) 문서를 [!DNL Workfront]과(와) 연결하도록 구성되었습니다.
 
-1. [과(와) 통합하려면  [!DNL Workfront] 구성 [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets)을(를) 계속합니다.
+1. [!DNL AEM assets][&#128279;](#configure-workfront-to-integrate-with-aem-assets)과(와) 통합하려면 구성 [!DNL Workfront] 을(를) 계속합니다.
 
-## [!DNL Workfront]과(와) 통합하도록 [!DNL AEM assets] 구성 {#configure-workfront-to-integrate-with-aem-assets}
+## [!DNL AEM assets]과(와) 통합하도록 [!DNL Workfront] 구성 {#configure-workfront-to-integrate-with-aem-assets}
 
-[!UICONTROL AEM Assets용 &#x200B;]Workfront 설치[&#x200B; 커넥터 패키지 설치[!UICONTROL 에 설명된 대로 &#x200B;]AEM Assets용 Workfront](#install-the-workfront-for-aem-assets-connector-package) 커넥터를 설치하고 [!UICONTROL AEM Assets]을(를) 구성([와 통합하도록 [!UICONTROL AEM Assets 구성] 구성 [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)에 설명된 대로)한 후에는 [!DNL Workfront]과(와) [!DNL Workfront] 사이에 문서를 연결하도록 [!DNL AEM Assets]을(를) 구성해야 합니다.
+[AEM Assets용 [!UICONTROL Workfront 설치] 커넥터 패키지 설치](#install-the-workfront-for-aem-assets-connector-package)에 설명된 대로 [!UICONTROL AEM Assets용 Workfront] 커넥터를 설치하고 [!UICONTROL AEM Assets]을(를) 구성([와 통합하도록 [!UICONTROL AEM Assets 구성] 구성 [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)에 설명된 대로)한 후에는 [!DNL Workfront]과(와) [!DNL AEM Assets] 사이에 문서를 연결하도록 [!DNL Workfront]을(를) 구성해야 합니다.
 
 1. 관리자로 Workfront에 로그인합니다.
 
@@ -268,7 +282,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL 인증 유형]** 드롭다운 메뉴에서 **[!UICONTROL ApiKey].**&#x200B;을(를) 선택합니다.
 
-1. {&#x200B;0}API 키&#x200B;**[!UICONTROL 상자에]** AEM Assets[!UICONTROL 을(를) 구성할 때 복사한 AEM API 키를 붙여 넣습니다.]
+1. {&#x200B;0}API 키&#x200B;**상자에 [!UICONTROL AEM Assets]을(를) 구성할 때 복사한 AEM API 키를 붙여 넣습니다.**
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. (선택 사항) 통합이 [!UICONTROL Active]&#x200B;(으)로 표시되어 있는지 확인하십시오.\
    ![aem_custom_integration_active.png](assets/aem-custom-integration-active-350x81.png)
@@ -279,7 +293,7 @@ ht-degree: 0%
 
 ## 커넥터를 사용할 사용자 설정 {#set-up-users-to-use-the-connector}
 
-사용자가 커넥터에 액세스하려면 AEM에 사용자 프로필이 있어야 하며 [!DNL Workfront]만들기[!UICONTROL &#x200B; 및 &#x200B;]삭제[!UICONTROL &#x200B; 권한을 포함하는 액세스 수준이 있는 &#x200B;] 그룹에 속해 있어야 합니다.
+사용자가 커넥터에 액세스하려면 AEM에 사용자 프로필이 있어야 하며 [!UICONTROL 만들기] 및 [!UICONTROL 삭제] 권한을 포함하는 액세스 수준이 있는 [!DNL Workfront] 그룹에 속해 있어야 합니다.
 
 [!DNL Workfront] 권한에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
@@ -299,11 +313,11 @@ ht-degree: 0%
 
       필수 필드는 **ID** 필드뿐입니다. 사용자의 AEM ID는 사용자의 [!DNL Workfront] 이메일 주소인 [!DNL Workfront] ID와 일치해야 합니다.
 
-      AEM을 **[!UICONTROL 과(와) 통합하도록 구성할 때]**&#x200B;이메일 도메인 무시[!DNL Workfront] 옵션을 선택한 경우 AEM ID가 [!DNL Workfront] 이메일 주소와 일치하지 않습니다.
+      AEM을 [!DNL Workfront]과(와) 통합하도록 구성할 때 **[!UICONTROL 이메일 도메인 무시]** 옵션을 선택한 경우 AEM ID가 [!DNL Workfront] 이메일 주소와 일치하지 않습니다.
 
 1. (조건부) 사용자에게 AEM 프로필이 있는 경우 사용자의 AEM 프로필을 엽니다.
 
-   1. {&#x200B;0}사용자&#x200B;**[!UICONTROL 를 클릭합니다.]** **[!UICONTROL 사용자 관리]** 페이지가 표시됩니다.
+   1. {&#x200B;0}사용자&#x200B;**를 클릭합니다.**&#x200B;**[!UICONTROL 사용자 관리]** 페이지가 표시됩니다.
 
    1. 추가할 사용자를 클릭한 다음 **[!UICONTROL 속성]**&#x200B;을 클릭합니다. 사용자의 설정 페이지가 표시됩니다.
 
@@ -311,7 +325,7 @@ ht-degree: 0%
 
    ![그룹 탭](assets/groupstab.png)
 
-1. 사용자가 [!DNL Workfront]만들기&#x200B;**[!UICONTROL 및]**&#x200B;삭제&#x200B;**[!UICONTROL 권한을 포함하는 액세스 수준이 있는 하나 이상의]** 그룹에 속해 있는지 확인하십시오.
+1. 사용자가 **[!UICONTROL 만들기]** 및 **[!UICONTROL 삭제]** 권한을 포함하는 액세스 수준이 있는 하나 이상의 [!DNL Workfront] 그룹에 속해 있는지 확인하십시오.
 
    1. 기존 그룹에 사용자를 추가하려면 **[!UICONTROL 그룹 이름 입력]** 상자에 그룹 이름을 입력한 다음 드롭다운 메뉴에 표시될 때 그룹을 선택합니다.
 

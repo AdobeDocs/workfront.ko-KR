@@ -8,10 +8,21 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+TQID: https://experienceleague.adobe.com/KwUrEyHt6dqTcmP3JrTObsfvkcjP9q7O6-msiBuZVP4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 2%
+source-wordcount: 578
+ht-degree: 5%
 
 ---
 
@@ -31,7 +42,7 @@ Adobe Workfront에는 작업의 승인 전에 잠재적인 장애 요소를 식�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +50,7 @@ Adobe Workfront에는 작업의 승인 전에 잠재적인 장애 요소를 식�
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 라이센스</td> 
@@ -61,7 +72,7 @@ Adobe Workfront에는 작업의 승인 전에 잠재적인 장애 요소를 식�
 
 위험 유형은 보고 목적으로 위험을 분류하는 데 사용할 수 있는 레이블입니다.
 
-[!DNL Workfront] 관리자는 [!UICONTROL 설정] 영역에서 [!UICONTROL **위험 유형**]&#x200B;을 만들 수 있습니다.
+[!DNL Workfront] 관리자는 [!UICONTROL **설정**] 영역에서 [!UICONTROL 위험 유형]을 만들 수 있습니다.
 
 위험 유형을 설정한 후에는 시스템에 범용적입니다.
 

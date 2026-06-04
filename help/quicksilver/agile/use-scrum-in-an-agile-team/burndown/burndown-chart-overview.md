@@ -7,11 +7,23 @@ description: 번다운 차트는 스토리가 반복 또는 프로젝트 를 통
 author: Courtney
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: 976
 ht-degree: 0%
 
 ---
@@ -60,7 +72,7 @@ ht-degree: 0%
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="작업용 녹색 점 타서"> </td> 
    <td> <p>녹색 또는 빨간색 점은 작업이 타버릴 때마다 실제 번다운 비율에 표시됩니다. (해당 날짜의 실제 번다운 비율이 빨간색이면 점이 빨간색이고, 해당 날짜의 실제 번다운 비율이 녹색이면 점이 녹색입니다.)</p> <p>다음 중 하나가 발생하면 작업이 전소됩니다.</p> 
     <ul> 
-     <li> 스토리에서 [!UICONTROL 완료율]이 증가했습니다.다음과 같은 경우 <br>[!UICONTROL 완료율]이 증가합니다. 
+     <li> 스토리에서 [!UICONTROL 완료율]이 증가했습니다. <br>[!UICONTROL 완료율]은 다음 경우에 증가합니다. 
       <ul> 
        <li> <p>수동으로 변경됨</p> </li> 
        <li> <p>스토리의 포인트 또는 시간이 업데이트됩니다.</p> </li> 
@@ -73,7 +85,7 @@ ht-degree: 0%
 
 ## 휴무가 번다운 차트에 미치는 영향 {#how-days-off-affect-the-burndown-chart}
 
-[!DNL Workfront]에 정의된 기본 일정은 번다운에서 휴무(주말 및 공휴일)를 제외하여 번다운 차트에 영향을 줍니다. 번다운 차트에서 설명한 대로 기본 일정을 사용하여 근무일을 정의합니다.  [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+[!DNL Workfront]에 정의된 기본 일정은 번다운에서 휴무(주말 및 공휴일)를 제외하여 번다운 차트에 영향을 줍니다. 번다운 차트는 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)에 설명된 대로 기본 일정을 사용하여 작업일을 정의합니다.
 
 애자일 팀은 대체 일정을 정의하여 팀별 휴무일을 통합할 수 있습니다([번다운 차트에 대체 팀 일정을 사용](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md) 문서에 설명된 대로). 그런 다음 이 대체 일정이 팀에 할당된 반복의 번다운 차트에 반영됩니다. 대체 일정은 번다운 차트에만 영향을 줍니다.
 

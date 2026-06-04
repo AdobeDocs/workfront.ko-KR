@@ -8,10 +8,20 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 0%
+source-wordcount: 753
+ht-degree: 2%
 
 ---
 
@@ -21,7 +31,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +39,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -55,9 +65,9 @@ ht-degree: 0%
 >
 >이 중 하나를 다시 활성화해야 하는 경우 다음 중 하나를 수행한 후 다시 활성화할 수 있습니다.
 >
->* 상위 그룹에서 제거합니다. 자세한 내용은 문서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)에서 [상위 그룹에서 하위 그룹을 제거하고 최상위 그룹으로 만들기](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md) 섹션을 참조하십시오.
+>* 상위 그룹에서 제거합니다. 자세한 내용은 문서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)에서 [상위 그룹에서 하위 그룹을 제거하고 최상위 그룹으로 만들기](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) 섹션을 참조하십시오.
 >
->* 활성 그룹으로 이동합니다. 자세한 내용은 문서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)에서 [하위 그룹을 만들기, 이동, 보기, 편집, 복사, 이름 변경, 내보내기 또는 삭제](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md) 섹션을 참조하십시오.
+>* 활성 그룹으로 이동합니다. 자세한 내용은 문서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)에서 [하위 그룹을 만들기, 이동, 보기, 편집, 복사, 이름 변경, 내보내기 또는 삭제](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) 섹션을 참조하십시오.
 
 {{step-1-to-setup}}
 
@@ -110,4 +120,4 @@ ht-degree: 0%
 
 * 상위 그룹에서 하위 그룹을 제거합니다(하위 그룹을 최상위 그룹으로 만들기). 이 문서의 [그룹 비활성화 또는 다시 활성화](#View) 섹션에 설명된 대로 이동한 그룹에 대해 활성 옵션을 활성화합니다.
 
-  상위 그룹에서 하위 그룹을 제거하는 방법에 대한 지침은 문서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)에서 [상위 그룹에서 하위 그룹 제거 및 최상위 그룹으로 만들기](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md) 섹션을 참조하십시오.
+  상위 그룹에서 하위 그룹을 제거하는 방법에 대한 지침은 문서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)에서 [상위 그룹에서 하위 그룹 제거 및 최상위 그룹으로 만들기](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) 섹션을 참조하십시오.

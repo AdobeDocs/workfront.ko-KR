@@ -8,12 +8,23 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/xucBhD4dm4gA-BJt-mqb3Lstxgc5NFGd49rJhX1MGRk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 9%
+source-wordcount: 902
+ht-degree: 10%
 
 ---
 
@@ -152,7 +163,7 @@ Old:
    >[!DNL Workfront]이(가) 이미 필드를 추적하는 중이면 목록에서 두 번 추가할 수 없습니다.
 
 1. [!DNL Workfront]에서 추적할 모든 필드를 추가한 후 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-추가한 기본 제공 필드는 **[!UICONTROL 기본 제공 필드]** 하위 탭에 표시되고 사용자 지정 필드는 **[!UICONTROL 사용자 지정 필드]** 하위 탭에 표시됩니다.
+추가한 기본 제공 필드는 **[!UICONTROL 기본 제공 필드]** 하위 탭에 표시되고 사용자 정의 필드는 **[!UICONTROL 사용자 정의 필드]** 하위 탭에 표시됩니다.
 **[!UICONTROL 모든 필드]** 하위 탭에는 [!DNL Workfront]에서 추적하는 기본 제공 필드와 사용자 지정 필드가 모두 표시됩니다.
 
 ### 추적하지 않을 필드 제거 {#remove-fields-you-don-t-want-tracked}

@@ -8,9 +8,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+TQID: https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: 2612
 ht-degree: 1%
 
 ---
@@ -46,7 +59,7 @@ ht-degree: 1%
    <td> <p>다음 중 하나가 있어야 합니다.</p> 
     <ul> 
      <li> <p>시스템 관리자 액세스 수준입니다. </li> 
-     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <b>에서 두 개의 </b>사용자 관리<img src="assets/gear-icon-in-access-levels.png"> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
+     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -160,7 +173,7 @@ ht-degree: 1%
   >작업 시간 값을 1로 설정하면 사용자가 프로젝트 관련 작업에 전체 시간에 해당하는 전체 시간을 사용할 수 있음을 나타냅니다.
 
 * **비활성화 날짜 설정**: 이러한 사용자를 특정 날짜와 특정 시간에 비활성화하도록 예약하려면 이 단추를 클릭하십시오.
-* **비활성화 날짜**: 사용자가 비활성화되는 날짜와 시간입니다. 비활성화에 대한 사용자 예약에 대한 자세한 내용은 [사용자 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)에서 [비활성화에 대한 사용자 예약](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)을 참조하십시오.
+* **비활성화 날짜**: 사용자가 비활성화되는 날짜와 시간입니다. 비활성화에 대한 사용자 예약에 대한 자세한 내용은 [사용자 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)에서 [비활성화에 대한 사용자 예약](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)을 참조하십시오.
 * **기본 역할**: 사용자가 Workfront에서 수행할 수 있는 기본 작업 역할입니다. 사용자가 할당된 모든 작업 및 문제도 이 작업 역할에 할당됩니다. 작업 역할은 리소스 관리에서 필수적입니다. 관리자 액세스 권한이 있는 Standard 또는 Plan 라이선스가 있거나 Workfront 관리자인 경우에만 이 필드를 업데이트할 수 있습니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 [사용자에게 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
 
   활성 작업 역할만 목록에 표시됩니다.

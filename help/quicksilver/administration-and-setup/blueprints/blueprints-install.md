@@ -9,11 +9,21 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/PJ7DN2mrsCeXeimGmBQL17ye0EaQIK2uDed1YHvuXw8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: 478
 ht-degree: 4%
 
 ---
@@ -64,11 +74,11 @@ ht-degree: 4%
     </tr>
     <tr>
         <td><strong>샌드박스 미리보기</strong></td>
-        <td>샌드박스 미리보기는 라이브 환경의 복제본 역할을 하는 테스트 환경이며 Adobe Workfront에서 매주 주말에 새로 고칩니다. 모든 지원 패키지는 샌드박스 미리보기에 액세스할 수 있습니다. 자세한 내용은 <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">샌드박스 환경 미리 보기[!DNL Adobe Workfront]를 참조하십시오.</a></td>
+        <td>샌드박스 미리보기는 라이브 환경의 복제본 역할을 하는 테스트 환경이며 Adobe Workfront에서 매주 주말에 새로 고칩니다. 모든 지원 패키지는 샌드박스 미리보기에 액세스할 수 있습니다. 자세한 내용은 <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">샌드박스 환경 미리 보기</a>를 참조하십시오.[!DNL Adobe Workfront]</td>
     </tr>
     <tr>
         <td><strong>샌드박스 1 및 2</strong></td>
-        <td>사용자 지정 새로 고침 샌드박스는 사용자가 수동으로 새로 고치는 별도의 테스트 환경입니다. 사용자 지정 새로 고침 샌드박스를 얻는 데 추가 비용이 있습니다. 자세한 내용은 <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md">사용자 지정 새로 고침 샌드박스 환경[!DNL Adobe Workfront]을 참조하십시오.</a></td>
+        <td>사용자 지정 새로 고침 샌드박스는 사용자가 수동으로 새로 고치는 별도의 테스트 환경입니다. 사용자 지정 새로 고침 샌드박스를 얻는 데 추가 비용이 있습니다. 자세한 내용은 <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md">사용자 지정 새로 고침 샌드박스 환경</a>을 참조하십시오.[!DNL Adobe Workfront]</td>
     </tr>
 </table>
 
@@ -89,7 +99,7 @@ ht-degree: 4%
 1. (선택 사항) 블루프린트의 작동 방식을 알아보려면 **[!UICONTROL 세부 정보]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. 프로덕션 환경 또는 샌드박스 환경에 설치하도록 선택합니다.\
-   자세한 내용은 [블루프린트는 어디에서 설치할 수 있습니까?이 문서의 &#x200B;](#where-should-i-install-a-blueprint) 섹션.
+   자세한 내용은 [블루프린트를 설치할 위치](#where-should-i-install-a-blueprint)를 참조하십시오. 이 문서의 섹션.
 1. **구성** 페이지에서 다음 중 하나를 수행하도록 선택할 수 있습니다.
 
    * 블루프린트를 그대로 설치합니다. 구성이 필요하지 않은 블루프린트 유형의 경우 이 옵션만 제공됩니다. 구성이 필요한 블루프린트 유형의 경우 선택적으로 지금 블루프린트를 설치하고 나중에 구성할 수 있습니다. **[!UICONTROL 다음으로 설치]**&#x200B;를 클릭합니다.

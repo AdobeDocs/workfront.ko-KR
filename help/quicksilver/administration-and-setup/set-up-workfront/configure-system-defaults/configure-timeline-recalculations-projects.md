@@ -8,10 +8,19 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+TQID: https://experienceleague.adobe.com/knyphSiLwqiL0f6swxeDmx7SI6KMqb3GqYbxE8fQbgI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: 435
+ht-degree: 3%
 
 ---
 
@@ -21,11 +30,11 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront] 관리자는 시스템의 모든 프로젝트에 대한 타임라인을 수동으로 다시 계산할 수 있습니다. 프로젝트 소유자는 개별 프로젝트에 대한 타임라인을 수동으로 다시 계산할 수도 있습니다. 자세한 내용은 [프로젝트 타임라인 다시 계산](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)을 참조하십시오.
 
-이 문서에서는 [!DNL Workfront] 관리자로서 [!DNL Workfront]설정[!UICONTROL &#x200B; 영역에서 프로젝트 환경 설정을 구성하여 &#x200B;]이(가) 프로젝트 타임라인을 자동으로 계산하는 방법과 시기를 확인하는 방법에 대해 설명합니다.
+이 문서에서는 [!DNL Workfront] 관리자로서 [!UICONTROL 설정] 영역에서 프로젝트 환경 설정을 구성하여 [!DNL Workfront]이(가) 프로젝트 타임라인을 자동으로 계산하는 방법과 시기를 확인하는 방법에 대해 설명합니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +42,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 라이센스</td> 

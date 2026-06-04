@@ -8,9 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+TQID: https://experienceleague.adobe.com/faBqmsHF6tu9rS-mS0ucOS1-Pw4gKM5B8amHTXgHLZA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: 532
 ht-degree: 4%
 
 ---
@@ -40,7 +50,7 @@ ht-degree: 4%
    <td> <p>다음 중 하나가 있어야 합니다.</p> 
     <ul> 
      <li> <p>시스템 관리자 액세스 수준입니다. </li> 
-     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <b>에서 두 개의 </b>사용자 관리<img src="assets/gear-icon-in-access-levels.png"> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
+     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

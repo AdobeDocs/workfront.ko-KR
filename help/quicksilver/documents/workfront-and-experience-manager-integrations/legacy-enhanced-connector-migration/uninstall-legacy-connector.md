@@ -6,9 +6,19 @@ description: 텍스트
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/vA8FflK8mA9a002-Mf8WKzECsEhOaIlvnd0kG958ySE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: 397
 ht-degree: 0%
 
 ---
@@ -56,11 +66,11 @@ Workfront에서 AEM Dam에 액세스하는 모든 사용자에게 `/content/dam`
 
 ## 일별 CQ 링크 외부화
 
-Day CQ 링크 외부화가 필요하지 않은 경우 `localhost:4502`(으)로 이동하여 &#39;Day CQ 링크 외부화&#39;를 찾으면 이를 `/system/console/configMgr`(으)로 되돌릴 수 있습니다.
+Day CQ 링크 외부화가 필요하지 않은 경우 `/system/console/configMgr`(으)로 이동하여 &#39;Day CQ 링크 외부화&#39;를 찾으면 이를 `localhost:4502`(으)로 되돌릴 수 있습니다.
 
 >[!NOTE]
 >
->Adobe Experience Manager as a Cloud Service을 사용하는 경우 프로젝트를 살펴보고 _ui.apps/src/main/content/jcr_root/apps/mysite/config_ 내의 _com.day.cq.commons.impl.ExternalizerImpl.xml_ 파일을 찾아 이 설정을 변경할 수 있습니다.
+>Adobe Experience Manager as a Cloud Service을 사용하는 경우 프로젝트를 살펴보고 _ui.apps/src/main/content/jcr_ root/apps/mysite/config _내의_ com.day.cq.commons.impl.ExternalizerImpl.xml_ 파일을 찾아 이 설정을 변경할 수 있습니다.
 
 ![일 CQ 링크 외부화](assets/Day-CQ-Link-Externalizer.png)
 

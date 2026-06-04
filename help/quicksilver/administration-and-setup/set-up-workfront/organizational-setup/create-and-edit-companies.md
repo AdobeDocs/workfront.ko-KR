@@ -8,11 +8,24 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: 1469
 ht-degree: 1%
 
 ---
@@ -57,7 +70,7 @@ ht-degree: 1%
       <li> <p>[!DNL Workfront] 시스템에서 사용자를 추가하고 제거하려면 다음 중 하나가 있어야 합니다.</p> 
        <ul> 
         <li> <p>[!UICONTROL 시스템 관리자] 액세스 수준입니다. </p> </li> 
-        <li> <p>액세스 수준의 <b>[!UICONTROL 사용자]</b> 설정이 <b>[!UICONTROL 편집]</b> 액세스로 구성되었으며, <b>[!UICONTROL 만들기]</b>와(과) <b>[!UICONTROL 사용자 관리]</b> <b>에서 두 개의 </b>[!UICONTROL 사용자 관리]<img src="assets/gear-icon-in-access-levels.png"> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p> <img src="assets/access-req-users.png"> </p> <p>이 두 옵션 중 <b>[!UICONTROL 사용자 관리자(그룹 사용자)]</b>이(가) 활성화된 경우 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> </li> 
+        <li> <p>액세스 수준의 <b>[!UICONTROL 사용자]</b> 설정이 <b>[!UICONTROL 편집]</b> 액세스로 구성되었으며, <b>[!UICONTROL 만들기]</b>와(과) <b>[!UICONTROL 사용자 관리]</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>[!UICONTROL 사용자 관리]</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p> <img src="assets/access-req-users.png"> </p> <p>이 두 옵션 중 <b>[!UICONTROL 사용자 관리자(그룹 사용자)]</b>이(가) 활성화된 경우 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -77,7 +90,7 @@ ht-degree: 1%
 
    * 동일한 회사의 사용자가 서로의 요청을 볼 수 있습니다.
 
-     [!DNL Workfront] 관리자가 사용자 회사를 기반으로 요청에 유사한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성 [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) 문서의 [모두를 위한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) 섹션을 참조하십시오.
+     [!DNL Workfront] 관리자가 사용자 회사를 기반으로 요청에 유사한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) 문서의 [모두를 위한 작업 및 문제 환경 설정 구성 [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) 섹션을 참조하십시오.
 
      그룹 관리자가 사용자 회사를 기반으로 요청에 유사한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)을 참조하십시오.
 

@@ -8,11 +8,24 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Abb8wbD3oRt-lRej2qBcEO32QiISb3tCEFuclzrJZ-I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: 2238
 ht-degree: 1%
 
 ---
@@ -184,7 +197,7 @@ Linked to Converting Issues.
   <tbody> 
     <tr> 
     <td role="rowheader">[!UICONTROL 작업 또는 문제가 "신규"에서 "진행 중"으로 변경되면 실제 시작 일자를] (으)로 설정합니다.</td> 
-    <td> <p>작업 또는 문제가 [!DNL Workfront]&#x200B;[!UICONTROL New]<strong>에서 </strong>[!UICONTROL In Progress]<strong>(으)로 이동할 때 실제 시작 날짜가 </strong>에 기록되는 경우 다음 옵션 중 하나를 선택하십시오.</p> 
+    <td> <p>작업 또는 문제가 <strong>[!UICONTROL New]</strong>에서 <strong>[!UICONTROL In Progress]</strong>(으)로 이동할 때 실제 시작 날짜가 [!DNL Workfront]에 기록되는 경우 다음 옵션 중 하나를 선택하십시오.</p> 
       <ul> 
       <li><strong>[!UICONTROL Now]:</strong> 실제 시작 날짜가 현재 날짜로 설정되어 있습니다.</li> 
       <li><strong>[!UICONTROL 계획된 시작 일자]:</strong> 실제 시작 일자가 작업 또는 문제의 계획된 시작 일자로 설정됩니다.</li> 
@@ -207,7 +220,7 @@ Linked to Converting Issues.
 
 이 설정을 사용하면 사용자에게 다음이 표시됩니다.
 
-* [!UICONTROL **홈**] 영역의 [!UICONTROL 내 작업], [!UICONTROL 내 작업] 또는 [!UICONTROL 내 문제] 위젯에 있는 [!UICONTROL 대리인] 링크입니다. 여기에서 작업 및 문제 할당을 위임할 수 있습니다.
+* [!UICONTROL 홈] 영역의 [!UICONTROL 내 작업], [!UICONTROL 내 작업] 또는 [!UICONTROL 내 문제] 위젯에 있는 [!UICONTROL **대리인**] 링크입니다. 여기에서 작업 및 문제 할당을 위임할 수 있습니다.
 
   >[!NOTE]
   >

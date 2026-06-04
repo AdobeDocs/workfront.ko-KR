@@ -8,10 +8,20 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/GL1yGKWO2xOV-qfFHBNEJrMEmyi8a9-EKshCaYU1Cd4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 1%
+source-wordcount: 1267
+ht-degree: 2%
 
 ---
 
@@ -23,7 +33,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +41,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -86,7 +96,7 @@ ht-degree: 1%
       <td role="rowheader">하나 이상의 템플릿 공유</td> 
       <td> <p>템플릿을 하나 이상 선택하고 공유 아이콘 <img src="assets/share-icon.png">을(를) 클릭한 다음 드롭다운 메뉴에서 다음 옵션 중 하나를 클릭합니다.</p> 
        <ul> 
-        <li> <p><strong>템플릿</strong>: 표시되는 <strong>템플릿 액세스</strong> 상자에서 이름을 추가하여 템플릿 자체에 액세스할 사용자를 지정합니다.</p> <p>자세한 내용은 문서 <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">프로젝트 템플릿 공유</a>에서 <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">템플릿 공유</a> 섹션을 참조하십시오.</p> </li> 
+        <li> <p><strong>템플릿</strong>: 표시되는 <strong>템플릿 액세스</strong> 상자에서 이름을 추가하여 템플릿 자체에 액세스할 사용자를 지정합니다.</p> <p>자세한 내용은 문서 <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">프로젝트 템플릿 공유</a>에서 <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">템플릿 공유</a> 섹션을 참조하십시오.</p> </li> 
         <li><strong>프로젝트</strong>: 표시되는 <strong>프로젝트 액세스</strong> 상자에서 이름을 추가하여 템플릿에서 만든 프로젝트에 액세스할 사용자를 지정합니다</li> 
        </ul> <p>공유 아이콘은 선택한 모든 템플릿에 대한 공유 액세스 권한이 있는 경우에만 사용할 수 있습니다. 이 액세스에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">템플릿에 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
      </tr> 
@@ -166,7 +176,7 @@ ht-degree: 1%
 >   * 수익 유형
 >   * 비용 유형
 >
->  그러나 템플릿 작업은 새 템플릿에 대한 &quot;누군가가 작업에 할당되었을 때&quot; 설정의 영향을 받습니다. 자세한 내용은 문서 [프로젝트 템플릿 편집](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)의 [액세스](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) 섹션을 참조하십시오.
+>  그러나 템플릿 작업은 새 템플릿에 대한 &quot;누군가가 작업에 할당되었을 때&quot; 설정의 영향을 받습니다. 자세한 내용은 문서 [프로젝트 템플릿 편집](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)의 [액세스](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) 섹션을 참조하십시오.
 >
 >* 관리자가 프로젝트를 템플릿으로 저장하면 그룹을 포함하여 템플릿에 대한 모든 설정이 프로젝트에서 상속됩니다.
 >

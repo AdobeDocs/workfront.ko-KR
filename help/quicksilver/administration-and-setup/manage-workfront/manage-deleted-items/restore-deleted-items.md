@@ -8,10 +8,23 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 2%
+source-wordcount: 1029
+ht-degree: 4%
 
 ---
 
@@ -38,7 +51,7 @@ Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +59,7 @@ Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 

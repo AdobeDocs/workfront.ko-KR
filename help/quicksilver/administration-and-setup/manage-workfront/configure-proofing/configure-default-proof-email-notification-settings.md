@@ -8,10 +8,20 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+TQID: https://experienceleague.adobe.com/QxKE6DZTT7NHafvJRPKXYQs05EWCqEOa8UUMJIopn7s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 1%
+source-wordcount: 291
+ht-degree: 5%
 
 ---
 
@@ -23,7 +33,7 @@ Workfront Proof에서 보내는 알림 설정 구성에 대한 자세한 내용�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -33,7 +43,7 @@ Workfront Proof에서 보내는 알림 설정 구성에 대한 자세한 내용�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 

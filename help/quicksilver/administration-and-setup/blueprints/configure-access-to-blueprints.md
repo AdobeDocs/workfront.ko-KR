@@ -8,11 +8,21 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ssQ-zj5Hn4ZalKVm1ERlR3NIpqNJlwJjDqQoSFzJHMw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: 512
 ht-degree: 3%
 
 ---
@@ -23,7 +33,7 @@ ht-degree: 3%
 
 시스템 관리자는 다음 작업을 수행할 수 있습니다.
 
-* 레이아웃 템플릿의 기본 메뉴에 [!UICONTROL 블루프린트]를 추가하고 사용자 또는 그룹에 레이아웃 템플릿을 할당하십시오. 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴 사용자 지정] 및 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)레이아웃 템플릿에 사용자 할당[을 참조하십시오.](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
+* 레이아웃 템플릿의 기본 메뉴에 [!UICONTROL 블루프린트]를 추가하고 사용자 또는 그룹에 레이아웃 템플릿을 할당하십시오. 자세한 내용은 [&#128279;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴 사용자 지정] 및 [레이아웃 템플릿에 사용자 할당](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
 
   >[!NOTE]
   >
@@ -66,7 +76,7 @@ ht-degree: 3%
 ## 전제 조건 {#prerequisites}
 
 * 블루프린트 요청을 저장하려면 기존 요청 대기열을 사용해야 합니다. 프로젝트는 요청 대기열로 저장해야 하며 [!UICONTROL 현재] 상태여야 합니다.
-* 요청 대기열은 공개 상태여야 합니다. 요청 대기열 세부 정보에서 &quot;[!UICONTROL 이 대기열에 요청을 추가할 수 있는 사용자는 누구입니까?]&quot;은(는) **[!UICONTROL 모든 사용자]**(으)로 설정해야 합니다.
+* 요청 대기열은 공개 상태여야 합니다. 요청 대기열 세부 정보에서 &quot;[!UICONTROL 이 대기열에 요청을 추가할 수 있는 사용자는 누구입니까?]&quot; 은(는) **[!UICONTROL 모든 사용자]**(으)로 설정해야 합니다.
 
 >[!TIP]
 >

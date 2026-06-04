@@ -8,10 +8,23 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/BRL1-glICVWSXkdA8HYkbXVfCfEKafHjLBOSrfiVRXM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: c549503a-6440-4802-9525-ceb73a00feff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 3%
+source-wordcount: 450
+ht-degree: 4%
 
 ---
 
@@ -226,7 +239,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-&#42; 그룹 관리자의 액세스 수준에서 **사용자** 설정에 대해 **편집**&#x200B;을(를) 선택해야 합니다. **설정 미세 조정** **설정 미세 조정 아이콘**&#x200B;에서 ![사용자 관리자(그룹 사용자)](assets/gear-icon-in-access-levels.png)를 선택합니다. 자세한 내용은 문서 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)에서 [사용자 정의 액세스 수준을 사용하여 사용자를 편집할 수 있는 사용자 액세스 구성](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md) 섹션을 참조하십시오.
+&#42; 그룹 관리자의 액세스 수준에서 **사용자** 설정에 대해 **편집**&#x200B;을(를) 선택해야 합니다. **설정 미세 조정** ![설정 미세 조정 아이콘](assets/gear-icon-in-access-levels.png)에서 **사용자 관리자(그룹 사용자)**&#x200B;를 선택합니다. 자세한 내용은 문서 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)에서 [사용자 정의 액세스 수준을 사용하여 사용자를 편집할 수 있는 사용자 액세스 구성](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) 섹션을 참조하십시오.
 
 &#42;&#42; 그룹 관리자의 액세스 수준에서 이 작업에 대한 액세스를 사용하도록 설정해야 합니다. 자세한 내용은 [특정 영역에 대한 관리자 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
 

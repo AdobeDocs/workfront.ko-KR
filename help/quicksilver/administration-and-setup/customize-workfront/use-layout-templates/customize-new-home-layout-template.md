@@ -8,9 +8,21 @@ author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+TQID: https://experienceleague.adobe.com/j2Y56liYA3jg5L5GFq--2iLfv3kYPI7MsyaLWIlzZ0o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: 837
 ht-degree: 3%
 
 ---
@@ -49,7 +61,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -75,7 +87,7 @@ ht-degree: 3%
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
 
-1. ![사용자에게 표시되는 항목 사용자 지정](assets/dropdown-arrow.png)에서 아래쪽 화살표 **아래쪽 화살표**&#x200B;를 클릭한 다음 **홈 Workspace**&#x200B;를 클릭합니다.
+1. **사용자에게 표시되는 항목 사용자 지정**&#x200B;에서 아래쪽 화살표 ![아래쪽 화살표](assets/dropdown-arrow.png)를 클릭한 다음 **홈 Workspace**&#x200B;를 클릭합니다.
 
 1. 오른쪽 탭에서 다음 중 하나를 클릭합니다.
 
@@ -97,7 +109,7 @@ ht-degree: 3%
       <p> 다음 중 하나를 수행합니다. </p>
       <ul><li><a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">홈에서 위젯 추가, 편집 또는 제거</a>에 설명된 단계에 따라 이 탭을 사용자 지정합니다. </li>
       <li>위젯을 선택하고 사용자에게 표시하려는 대로 작업 영역을 정렬합니다.</li>
-      <li>배경을 변경하려면 <b>홈 시작</b>에서 <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">백그라운드 사용자 지정</a>의 단계를 따르십시오.</li></p>
+      <li>배경을 변경하려면 <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">홈 시작</a>에서 <b>백그라운드 사용자 지정</b>의 단계를 따르십시오.</li></p>
       <p>
 
    >[!NOTE]

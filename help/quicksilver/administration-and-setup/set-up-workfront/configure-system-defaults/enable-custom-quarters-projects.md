@@ -8,11 +8,21 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/8kRfZ17zcgN0-hlc16wh328YGRjTlzuI3LAe-Yjj25s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: 350
 ht-degree: 4%
 
 ---
@@ -32,7 +42,7 @@ ht-degree: 4%
 회사에서 구매한 제품에 따라 Workfront 설정 영역에서 다음 분기 수를 구성할 수 있습니다.
 
 * [!DNL Workfront]만 구입한 고객은 [!DNL Adobe Workfront] 시스템에 대해 최대 8개의 사용자 정의 분기를 구성할 수 있습니다.
-* [!DNL Workfront] 및 [!DNL Workfront Planning]을(를) 구매한 고객은 [!DNL Workfront]에서도 사용할 수 있는 [!DNL Planning] 시스템에 대해 최대 100분기를 구성할 수 있습니다.
+* [!DNL Workfront] 및 [!DNL Workfront Planning]을(를) 구매한 고객은 [!DNL Planning]에서도 사용할 수 있는 [!DNL Workfront] 시스템에 대해 최대 100분기를 구성할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -83,7 +93,7 @@ ht-degree: 4%
    >![겹침 경고가 있는 사용자 지정 분기](assets/custom-quarters-with-overlap-warning.png)
    >[!DNL Workfront]명의 고객에게만 분기 간 간격 및 중복이 허용됩니다.
 
-1. (선택 사항 및 조건부) 회사에서 [!DNL Workfront] 없이 [!DNL Workfront Planning]만 구입한 경우 회계 분기를 참조하는 보고 요소를 만듭니다.
+1. (선택 사항 및 조건부) 회사에서 [!DNL Workfront Planning] 없이 [!DNL Workfront]만 구입한 경우 회계 분기를 참조하는 보고 요소를 만듭니다.
 
    **예:** [!UICONTROL 프로젝트] 목록에 대한 필터를 만들고 사용자 정의 분기를 참조하는 프로젝트의 계획된 완료 날짜를 포함합니다.
 

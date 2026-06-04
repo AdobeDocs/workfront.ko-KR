@@ -8,10 +8,21 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: d7e85faa0e6da2218d7e983d00fd992dc858a1d9
+TQID: https://experienceleague.adobe.com/q1AaAmCj7h-4PsuPXTFuw-e-t3UYu-pVCdv53DQHyDk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 3%
+source-wordcount: 1337
+ht-degree: 2%
 
 ---
 
@@ -25,7 +36,7 @@ Workfront 관리자가 상태 잠금을 해제한 경우 관리하는 그룹의 
 
 >[!NOTE]
 >
->애자일 보기에서 프로젝트를 볼 때 프로젝트에 사용자 지정 그룹 상태를 표시할 수 없습니다. 애자일 보기에서 프로젝트를 볼 때는 기본 및 사용자 지정 잠금 상태만 표시됩니다. 프로젝트의 애자일 보기를 사용자 지정하는 방법에 대한 자세한 내용은 문서 [Adobe Workfront에서 보기 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)의 [애자일 보기 만들기 또는 사용자 지정](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 섹션을 참조하십시오.
+>애자일 보기에서 프로젝트를 볼 때 프로젝트에 사용자 지정 그룹 상태를 표시할 수 없습니다. 애자일 보기에서 프로젝트를 볼 때는 기본 및 사용자 지정 잠금 상태만 표시됩니다. 프로젝트의 애자일 보기를 사용자 지정하는 방법에 대한 자세한 내용은 문서 [Adobe Workfront에서 보기 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)의 [애자일 보기 만들기 또는 사용자 지정](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) 섹션을 참조하십시오.
 
 상태에 대한 일반적인 정보는 [상태 개요](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)를 참조하십시오.
 

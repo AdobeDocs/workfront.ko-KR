@@ -8,10 +8,24 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+TQID: https://experienceleague.adobe.com/e8vdktak-XCg5wC1h4mYTMUtOHVOssw7BSFri6rAx5Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 1%
+source-wordcount: 643
+ht-degree: 4%
 
 ---
 
@@ -25,7 +39,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +47,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 라이센스</td> 
@@ -68,7 +82,7 @@ ht-degree: 1%
 * [!UICONTROL 리소스 풀]의 [!UICONTROL 풀 구성원] 필드
 * 사용자가 프로젝트에 대한 청구 요금을 오버라이드할 때 [!UICONTROL 청구 요금] 편집 화면의 [!UICONTROL 작업 역할] 필드
 * 프로젝트의 [!UICONTROL Kanban 보드에 할당 추가] 대화 상자
-* 누군가 [!UICONTROL 을(를) 사용하고 있을 때 계획 또는 이니셔티브의 &#x200B;]작업 역할[!DNL Adobe Workfront Scenario Planner] 필드.
+* 누군가 [!DNL Adobe Workfront Scenario Planner]을(를) 사용하고 있을 때 계획 또는 이니셔티브의 [!UICONTROL 작업 역할] 필드.
 
   [!DNL Scenario Planner]은(는) 새 [!DNL Adobe Workfront] 경험에서만 사용할 수 있으며 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 [개요 [!DNL Scenario Planner] 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하세요.
 

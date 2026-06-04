@@ -8,10 +8,22 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
+TQID: https://experienceleague.adobe.com/Jmo6PQZ14wo8ROdKO0UvLd0Cakq1vciAhTEjZPjA9Bk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 0%
+source-wordcount: 786
+ht-degree: 2%
 
 ---
 
@@ -23,7 +35,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +43,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -95,6 +107,6 @@ ht-degree: 0%
    >
    >회사를 삭제할 때 회사가 기본 회사로 설정되어 있거나 다른 오브젝트에서 사용 중인 경우 삭제할 회사를 대체할 다른 회사를 선택하라는 메시지가 표시됩니다. 선택한 회사가 기본 회사가 되거나 회사가 지정된 오브젝트에서 삭제된 회사를 바꿉니다.
 
-   회사 편집에 대한 자세한 내용은 문서 [회사 만들기 및 편집](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront)에서 [Workfront에서 회사 만들기 또는 편집](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) 섹션을 참조하십시오.
+   회사 편집에 대한 자세한 내용은 문서 [회사 만들기 및 편집](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)에서 [Workfront에서 회사 만들기 또는 편집](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) 섹션을 참조하십시오.
 
 1. (선택 사항) 회사 목록을 내보내려면 내보내기 아이콘 ![내보내기 아이콘](assets/export.png)을 클릭한 다음 내보낸 목록에 사용할 파일 형식을 선택합니다.

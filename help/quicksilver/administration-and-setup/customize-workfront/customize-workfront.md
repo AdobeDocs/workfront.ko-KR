@@ -10,9 +10,21 @@ role: Admin
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: c9b16408-c02f-409e-91df-33288f3aae23
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+TQID: https://experienceleague.adobe.com/rC84qhxdnY3iTvnefNW8GoQNrSyrAp1nRuckMPgv0vo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: 60
 ht-degree: 6%
 
 ---
@@ -26,4 +38,4 @@ ht-degree: 6%
 * [사용자 정의 양식: 문서 인덱스](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
 * [상태 및 우선 순위 레이블](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
 * [승인 프로세스 및 마일스톤 경로](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
-* [사용자 정의 상태](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
+* [사용자 정의 조건](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)

@@ -8,10 +8,25 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14948e33-3dd7-4ef3-9307-51628dedd1f5
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+TQID: https://experienceleague.adobe.com/K-SveIsDCsH7eskte0y96MwUlPoQ2FANImBY3RxshKo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 5%
+source-wordcount: 488
+ht-degree: 8%
 
 ---
 
@@ -21,7 +36,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +44,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -50,7 +65,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 ## 사용자 지정 액세스 수준을 사용하여 리소스 관리 도구에 대한 사용자 액세스 구성
 
 1. [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에 설명된 대로 액세스 수준을 만들거나 편집하십시오.
-1. 리소스 관리 오른쪽에 있는 ![](assets/gear-icon-settings.png)보기&#x200B;**또는**&#x200B;편집&#x200B;**단추의 톱니바퀴 아이콘**&#x200B;을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
+1. 리소스 관리 오른쪽에 있는 **보기** 또는 **편집** 단추의 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
 
    ![](assets/resource-management-details-of-edit-in-the-access-level.png)
 
@@ -80,7 +95,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
 ## 라이선스 유형별 리소스 관리에 대한 액세스
 
-각 액세스 수준의 사용자가 리소스 관리로 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#resource)의 [리소스 관리](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) 섹션을 참조하십시오.
+각 액세스 수준의 사용자가 리소스 관리로 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)의 [리소스 관리](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#resource) 섹션을 참조하십시오.
 
 ## 공유 문제에 액세스
 
