@@ -7,12 +7,17 @@ description: ' [!DNL Adobe Workfront] 을(를) 타사 응용 프로그램과 통
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
+TQID: https://experienceleague.adobe.com/6gk7GL9Uu6X9q4hAoqzV4l5wYz3t7jiI2VGue9-dbEo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 3%
+source-wordcount: 481
+ht-degree: 2%
 
 ---
 
@@ -20,7 +25,7 @@ ht-degree: 3%
 
 <!-- Audited: 12/2023 -->
 
-[!DNL Adobe Workfront]을(를) 타사 응용 프로그램 및 다른 [!DNL Adobe] 제품과 통합할 수 있습니다. 이러한 통합을 통해 [!DNL Workfront]의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 예를 들어 마케팅 업계의 크리에이티브 작업자인 경우 [!DNL Adobe Workfront] 애플리케이션에 [!DNL Creative Cloud] 플러그인을 사용하여 자산을 Photoshop에서 Workfront으로 직접 내보낼 수 있습니다.
+[!DNL Adobe Workfront]을(를) 타사 응용 프로그램 및 다른 [!DNL Adobe] 제품과 통합할 수 있습니다. 이러한 통합을 통해 [!DNL Workfront]의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 예를 들어 마케팅 업계의 크리에이티브 작업자인 경우 [!DNL Creative Cloud] 애플리케이션에 [!DNL Adobe Workfront] 플러그인을 사용하여 자산을 Photoshop에서 Workfront으로 직접 내보낼 수 있습니다.
 
 [!DNL Workfront] 관리자는 기본 제공 통합을 사용하도록 설정하고 구성해야 사용할 수 있습니다. 조직 내에서 사용되는 기본 제공 통합에 대해 알아보려면 [!DNL Workfront] 관리자에게 문의하십시오.
 
@@ -45,8 +50,8 @@ ht-degree: 3%
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
-     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Adobe Workfront]개 응용 프로그램용 [!DNL Creative Cloud] 플러그 인 설치</a>를 참조하십시오.</p> </td> 
+     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
+     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets 및 Assets Essentials </p>  </p> </td> 
@@ -91,7 +96,7 @@ ht-degree: 3%
    <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>참고</b>: 2025년 7월 1일부터 Microsoft에서 Classic Teams 데스크톱 앱에 대한 지원을 제거합니다. 따라서 Classic Teams 데스크탑 앱을 더 이상 사용할 수 없게 되면 Microsoft Teams과의 Workfront 통합이 지원되지 않습니다. </p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Workfront]에서 [!DNL Microsoft Teams]개의 알림 받기 </li> 
+     <li>[!DNL Microsoft Teams]에서 [!DNL Workfront]개의 알림 받기 </li> 
      <li>승인 결정 </li> 
      <li>[!DNL Workfront]개의 프로젝트, 작업 및 문제 검색 </li> 
      <li>[!DNL Workfront]개의 개인 작업 만들기 </li> 
@@ -102,9 +107,9 @@ ht-degree: 3%
    <td role="rowheader"> <p>Slack</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Workfront]에서 [!DNL Slack]개의 알림 수신 </li> 
+     <li>[!DNL Slack]에서 [!DNL Workfront]개의 알림 수신 </li> 
      <li>Slack에서 승인 관리 </li> 
-     <li>[!DNL Workfront]에서 [!DNL Slack]개의 작업 및 문제 만들기 </li> 
+     <li>[!DNL Slack]에서 [!DNL Workfront]개의 작업 및 문제 만들기 </li> 
      <li>Slack에서 프로젝트 또는 작업에 주석 게시</li> 
     </ul> </td> 
   </tr> 

@@ -3,9 +3,13 @@ title: ' [!DNL Workfront Proof] 모바일 앱에 로그인할 수 없습니다.'
 description: Workfront Proof 모바일 앱 로그인 문제 해결.
 hide: true
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/PoLoFtTA-3tZRGMRAH3y37hGJc8T8rU49nW0TCt21Bw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: 137
 ht-degree: 0%
 
 ---
@@ -30,6 +34,6 @@ ht-degree: 0%
 
 1. [!DNL Workfront] 모바일 앱과 [!DNL Workfront Proof] 모바일 앱이 모두 장치에 설치되어 있는지 확인하십시오.
 1. [!DNL Workfront] 모바일 앱에 로그인하고 증명하려는 문서로 이동합니다.
-1. 화면 오른쪽 상단에 있는 점 3개를 클릭한 다음 **[!UICONTROL 증명]**&#x200B;을 클릭합니다.
-[!DNL Workfront Proof] 모바일 앱에서 자동으로 로그인된 로그를 시작합니다.
+1. 화면 오른쪽 상단에 있는 점 3개를 클릭한 다음 **[!UICONTROL 증명]**을 클릭합니다.
+[!DNL Workfront Proof] 모바일 앱에서 자동으로 로그인을 시작합니다.
 이제 문서에서 교정을 사용하여 작업할 수 있습니다.

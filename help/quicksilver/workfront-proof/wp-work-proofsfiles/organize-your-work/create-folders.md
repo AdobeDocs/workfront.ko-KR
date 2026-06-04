@@ -7,9 +7,12 @@ description: Workfront Proof에서 하위 폴더를 만들 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/yHgnZWct7KCzUeazJ-HZcy39TFKmpPG1qrD6Q1L-22I
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: 766
 ht-degree: 0%
 
 ---
@@ -115,7 +118,7 @@ ht-degree: 0%
 
 * 폴더의 새 소유자 할당 (1) - 폴더 생성자는 폴더에 나열된 상태로 유지되며 제거할 수 없습니다. 단, 계정의 다른 사용자에게 폴더에 대한 편집 권한을 부여할 소유자를 지정할 수 있습니다.
 * 전자 메일 주소(2)를 입력하여 다른 [!DNL Workfront Proof] 사용자와 폴더를 공유하십시오. 폴더는 [!DNL Workfront Proof] 로그인이 있는 사람에게만 공유할 수 있습니다.
-* 폴더를 공유하는 사람들의 권한을 설정합니다(3). 이 기능은 계정의 사용자와 개인 폴더를 공유하는 데 유용합니다. [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) 프로필에 증명 권한 프로필이 있는 사용자가 폴더에서 항목을 만들고 편집하고 삭제할 수 있도록 허용할지 여부를 결정할 수 있습니다.
+* 폴더를 공유하는 사람들의 권한을 설정합니다(3). 이 기능은 계정의 사용자와 개인 폴더를 공유하는 데 유용합니다. [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) 프로필에 [증명 권한 프로필이 있는 사용자가 폴더에서 항목을 만들고 편집하고 삭제할 수 있도록 허용할지 여부를 결정할 수 있습니다.
 * 사용자 이름 오른쪽에 있는 휴지통 아이콘(4)을 클릭하여 폴더 공유 목록에서 사용자를 제거합니다.
 * 맨 위 휴지통 아이콘(5)을 클릭하여 폴더 공유 목록에서 모든 사람을 제거합니다. 폴더의 생성자 또는 소유자를 제거할 수 없습니다.
 

@@ -3,9 +3,12 @@ title: 태블릿용 Workfront Proof 모바일 앱
 description: ' [!DNL Workfront Proof] 태블릿 앱을 사용하면 이동 중에 편리하게 증명을 검토하고 승인할 수 있습니다. 앱을 모든 사용자가 다운로드할 수 있습니다. 태블릿이나 휴대폰에서 증명을 검토할 수 있도록  [!DNL Workfront Proof] 사용자가 아니어도 됩니다.'
 hide: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/Unk0yRCZtepX7LK-J7Y8JnUtcbUdMRzWo3XmMQuBXQM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: 1979
 ht-degree: 0%
 
 ---

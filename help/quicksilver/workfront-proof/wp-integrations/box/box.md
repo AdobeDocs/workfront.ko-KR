@@ -3,20 +3,24 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
-title: Box
+title: 확인란
 description: Box와 통합에 대해 알아봅니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: d49cfd97-1cd8-4d0b-997f-37013623da62
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/0NRhzVI1MkdHB-TQeFxn6Afb82U3G2yQ1cMIVRSGv5w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: 45
 ht-degree: 4%
 
 ---
 
-# Box
+# 확인란
 
 >[!IMPORTANT]
 >
@@ -24,7 +28,7 @@ ht-degree: 4%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [&#x200B; [!DNL Workfront Proof] and [!DNL Box] 통합 소개](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [&#x200B; [!DNL Box] 계정을 통해 증명 만들기](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
-* [&#x200B; [!DNL Workfront Proof]과(와)  [!DNL Box] 폴더 동기화](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
-* [&#x200B; [!DNL Box]에서 증명의 원본 파일 보기](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
+* [ [!DNL Workfront Proof] and [!DNL Box] 통합 소개](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [ [!DNL Box] 계정을 통해 증명 만들기](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [ [!DNL Workfront Proof]과(와)  [!DNL Box] 폴더 동기화](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
+* [ [!DNL Box]에서 증명의 원본 파일 보기](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

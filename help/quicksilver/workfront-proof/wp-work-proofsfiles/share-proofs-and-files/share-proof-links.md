@@ -7,9 +7,12 @@ description: 증명 URL 및 증명용 다운로드 URL은  [!DNL Workfront Proof
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: aa3fd399-6381-4118-a64a-a331784b4854
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+TQID: https://experienceleague.adobe.com/Atbe7oIceQ6Rk0WKQjeFd1lgSWwR4gfPs18K1Q0qIzA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -47,7 +50,7 @@ ht-degree: 0%
    * 이메일 주소를 입력하여 링크를 공유할 사람을 추가합니다.
    * (선택 사항) 이메일에 사용자 정의 메시지를 추가합니다.
 
-1. **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 제출을 클릭합니다]**.
 
    Workfront Proof이 공유 목록에 있는 사람들에게 증명 링크가 포함된 이메일을 보냅니다.
 

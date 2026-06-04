@@ -7,9 +7,12 @@ description: 증명 세부 정보 페이지를 사용하여 기존 증명을 관
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/XtCGq47fdKxfK-yF2LbH94Fq4AP46ENnEroJEGbuEhM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: 1198
 ht-degree: 0%
 
 ---
@@ -105,7 +108,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 추가 공유 옵션]** 섹션: 증명 URL 및 포함 코드를 사용하도록 설정할 수 있습니다. [!DNL Workfront] 증명과 Basecamp 통합을 사용하는 경우 이 섹션에서는 [!DNL Basecamp] 프로젝트에 증명을 추가하고, 증명이 추가된 프로젝트를 변경하고(**[!UICONTROL 편집]** 클릭), Basecamp에서 증명에 액세스합니다(제공된 링크 클릭).
 
-   * **[!UICONTROL 설정]** 섹션:  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)의 [!UICONTROL 증명 구성] 설정에 설명된 대로 설정을 변경할 수 있습니다.
+   * **[!UICONTROL 설정]** 섹션:  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)의 [[!UICONTROL 증명 구성] 설정에 설명된 대로 설정을 변경할 수 있습니다.
 
    * **[!UICONTROL 활동]** 섹션: 증명에 대한 감사 추적을 제공하여 증명에서 수행한 모든 작업의 목록을 시간 순서대로 표시합니다. 여기에는 증명에 대한 최근 활동의 날짜 및 세부 사항이 포함됩니다. [!UICONTROL 활동] 섹션은 [!UICONTROL 메시지] 섹션과 함께 증명에 대한 검토 프로세스에 대한 전체 개요를 제공하며 이는 승인 프로세스를 담당하는 프로젝트 관리자에게 특히 유용합니다.
    * **[!UICONTROL 메시지]** 섹션: 증명에 대한 모든 전자 메일 활동의 세부 정보를 나열합니다. 자세한 내용은 [전자 메일 알림 설정 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)을 참조하세요.

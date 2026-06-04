@@ -9,9 +9,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2064baa7-598c-4e42-a4f3-211198fb065f
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/5YXXkeFtuyx2iRrrneBR-0XRC3EShA8-HT-z1ljOLcg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: 70
 ht-degree: 0%
 
 ---
@@ -24,13 +27,13 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [&#x200B; [!DNL Workfront Proof]의 폴더](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
-* [&#x200B; [!DNL Workfront Proof]에 폴더 만들기](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)
-* [&#x200B; [!DNL Workfront Proof]에서 폴더 관리](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)
-* [&#x200B; [!DNL Workfront Proof]에서 폴더 및 해당 컨텐츠 관리](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)
-* [&#x200B; [!DNL Workfront Proof]에서 폴더 공유](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)
-* [&#x200B; [!DNL Workfront Proof]의 폴더 권한 이해](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md)
-* [&#x200B; [!DNL Workfront Proof]에서 태그를 만들고 관리합니다.](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)
-* [&#x200B; [!DNL Workfront Proof]에 보관](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
-* [&#x200B; [!DNL Workfront Proof] 데이터 백업](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
-* [&#x200B; [!DNL Workfront Proof]의 댓글 인쇄 및 내보내기](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
+* [ [!DNL Workfront Proof]의 폴더](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
+* [ [!DNL Workfront Proof]에 폴더 만들기](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)
+* [ [!DNL Workfront Proof]에서 폴더 관리](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)
+* [ [!DNL Workfront Proof]에서 폴더 및 해당 컨텐츠 관리](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)
+* [ [!DNL Workfront Proof]에서 폴더 공유](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)
+* [ [!DNL Workfront Proof]의 폴더 권한 이해](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md)
+* [ [!DNL Workfront Proof]에서 태그를 만들고 관리합니다.](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)
+* [ [!DNL Workfront Proof]에 보관](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
+* [ [!DNL Workfront Proof] 데이터 백업](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
+* [ [!DNL Workfront Proof]의 댓글 인쇄 및 내보내기](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)

@@ -8,10 +8,15 @@ description: ' [!DNL Workfront Proof] 관리자는 계정의 모든 사용자에
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca585494-5cda-4c41-b9b2-908e24d210d6
-source-git-commit: 3a938714a948ca7681dfd7deaf924af6453dee58
+TQID: https://experienceleague.adobe.com/vzF1bCvrr-kUWnLO4DbtjlAPaWbjL6CevyhUsQxSagw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 2%
+source-wordcount: 349
+ht-degree: 3%
 
 ---
 
@@ -42,7 +47,7 @@ ht-degree: 2%
 
 계정의 기본 언어를 변경하려면 아래 단계를 수행합니다.
 
-1. **[!UICONTROL 의]**&#x200B;계정 설정&#x200B;**[!UICONTROL 에서]**&#x200B;세부 정보[!DNL Workfront Proof] 탭으로 이동합니다.
+1. [!DNL Workfront Proof]의 **[!UICONTROL 계정 설정]**&#x200B;에서 **[!UICONTROL 세부 정보]** 탭으로 이동합니다.
 
 1. **[!UICONTROL 계정 세부 정보]** 섹션에서 **[!UICONTROL 기본 언어]** 설정에 대해 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
@@ -55,7 +60,7 @@ ht-degree: 2%
 
 개별 [!DNL Workfront Proof] 사용자는 계정에서 기본적으로 사용되는 언어와 다른 언어를 지정할 수 있습니다. 개인 기본 언어를 변경하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 의]**&#x200B;개인 설정&#x200B;**[!UICONTROL 에서]**&#x200B;개인 정보[!DNL Workfront Proof] 탭으로 이동합니다.\
+1. [!DNL Workfront Proof]의 **[!UICONTROL 개인 설정]**&#x200B;에서 **[!UICONTROL 개인 정보]** 탭으로 이동합니다.\
    자세한 내용은 [관리 [!DNL Workfront Proof] 사용자](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)를 참조하십시오.
 
 1. **[!UICONTROL 언어]** 설정에 표시되는 언어를 클릭합니다.

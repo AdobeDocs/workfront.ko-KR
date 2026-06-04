@@ -1,27 +1,33 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: ' [!DNL Adobe Workfront] 에서  [!DNL Slack]개 항목 검색'
-description: 설치된  [!DNL Adobe Workfront] 앱에서  [!DNL Slack], if your instance of Slack has had the [!DNL Workfront] 개 항목을 검색할 수 있습니다.
+title: ' [!DNL Slack]에서  [!DNL Adobe Workfront] 개 항목 검색'
+description: 설치된  [!DNL Slack], if your instance of Slack has had the [!DNL Workfront] 앱에서  [!DNL Adobe Workfront] 개 항목을 검색할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+TQID: https://experienceleague.adobe.com/JulYq173XQa6mG93qzUwfBDn4TPVEafD2OVpcIAXxi8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 6%
+source-wordcount: 208
+ht-degree: 15%
 
 ---
 
-# [!DNL Adobe Workfront]에서 [!DNL Slack]개 항목 검색
+# [!DNL Slack]에서 [!DNL Adobe Workfront]개 항목 검색
 
-[!DNL Adobe Workfront] 인스턴스에 [!DNL Slack] 앱이 설치된 경우 [!DNL Slack]에서 [!DNL Workfront]개 항목을 검색할 수 있습니다.
+[!DNL Slack] 인스턴스에 [!DNL Workfront] 앱이 설치된 경우 [!DNL Slack]에서 [!DNL Adobe Workfront]개 항목을 검색할 수 있습니다.
 
-[!DNL Workfront]을(를) 사용하여 [!DNL Slack]을(를) 구성하는 방법에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront] for [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을(를) 참조하십시오.
+[!DNL Slack]을(를) 사용하여 [!DNL Workfront]을(를) 구성하는 방법에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront] for [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을(를) 참조하십시오.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,11 +35,11 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>임의</p>
+   <td> <p>Any</p>
   </tr> 
  </tbody> 
 </table>
@@ -44,15 +50,15 @@ ht-degree: 6%
 
 ## 전제 조건
 
-[!DNL Workfront]에서 [!DNL Slack]개 항목을 검색하려면 먼저 다음을 수행해야 합니다.
+[!DNL Slack]에서 [!DNL Workfront]개 항목을 검색하려면 먼저 다음을 수행해야 합니다.
 
-* [!DNL Workfront]에 대해 [!DNL Slack] 구성\
+* [!DNL Slack]에 대해 [!DNL Workfront] 구성\
    [!DNL Workfront for Slack] 구성에 대한 지침은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을 참조하십시오.
 
-## [!DNL Workfront]에서 [!DNL Slack]개 항목 검색:
+## [!DNL Slack]에서 [!DNL Workfront]개 항목 검색:
 
-1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.\
-   [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront]Access[!DNL Slack]from[의 &quot; [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.\
+   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
 
 1. 채널에서 메시지 필드에 다음 명령 중 하나를 입력하십시오.
 

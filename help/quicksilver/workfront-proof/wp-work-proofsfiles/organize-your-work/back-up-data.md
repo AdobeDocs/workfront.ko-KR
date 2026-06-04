@@ -7,9 +7,12 @@ description: 백업 기능을 사용하여  [!DNL Workfront Proof] 에서 모든
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 3b831bb5-2d03-4d7e-ad1f-54ae95f05ccd
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/GLlV0VddtRk0rbow8cD4FLPbneOrWOpUAT97c13WYoA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: 1056
 ht-degree: 0%
 
 ---
@@ -62,7 +65,7 @@ ht-degree: 0%
 
 백업이 준비되면 다음 상황이 발생합니다.
 
-* [!DNL Workfront Proof] (으)로부터 이를 알리는 이메일을 받습니다(&quot;[!DNL Workfront Proof] 백업이 준비되었습니다&quot;). 이메일에는 백업 데이터에 대한 다운로드 링크가 포함되어 있습니다.
+* [!DNL Workfront Proof]&#x200B;(으)로부터 이를 알리는 이메일을 받습니다(&quot;[!DNL Workfront Proof] 백업이 준비되었습니다&quot;). 이메일에는 백업 데이터에 대한 다운로드 링크가 포함되어 있습니다.
 * [계정 설정](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) 백업 탭에 백업 데이터에 대한 다운로드 링크가 표시됩니다.
 * 백업 탭에 새 백업 요청 링크(3)가 다시 나타납니다
 

@@ -7,9 +7,14 @@ description: 엔터프라이즈 플랜이 있는 경우, 계정에 로그인할 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e66142fa-3b0d-4821-9aa5-040c62f00d62
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/BHaoBaXJte-ssHEPefYCEqjs3zTSJ9MDcOw8G7YsHUs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: 952
 ht-degree: 0%
 
 ---
@@ -120,6 +125,6 @@ Workfront에서(제출자) 파일이 새 증명인지 새 버전인지 확인하
 * 증명 요약 펼치기/접기(8)
 * 증명 선택(9)
 
-페이지 레이아웃과 정렬 및 필터링 옵션은 [!DNL Views] 목록과 동일합니다. 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리 를 참조하십시오.
+페이지 레이아웃과 정렬 및 필터링 옵션은 [!DNL Views] 목록과 동일합니다. 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리 를 참조하십시오.
 
 ![New_Dropzone_design__Feb_2013_.jpg](assets/new-dropzone-design--feb-2013--350x224.jpg)

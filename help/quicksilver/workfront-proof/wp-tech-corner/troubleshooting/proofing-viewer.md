@@ -8,9 +8,14 @@ description: 증명 콘텐츠가 로드되지 않고 빈 증명 뷰어만 표시
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: 39fdf5c2c2114a82c48f515c4a9f088596394045
+TQID: https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: 837
 ht-degree: 0%
 
 ---
@@ -45,7 +50,7 @@ Please note: we do recommend using the original [!DNL Adobe] plugin, so if your 
 
 일반적으로 대부분의 브라우저는 자동으로 업데이트되지만 문제가 발생하는 경우 사용 중인 버전을 확인하고 필요한 경우 업데이트를 수행하는 것이 좋습니다.
 
-브라우저에서 [!UICONTROL 메뉴] (으)로 이동하여 [!UICONTROL 정보] 옵션을 찾습니다(경우에 따라 [!UICONTROL 도움말] 메뉴에 표시될 수 있음). [!UICONTROL 정보] 팝업에서 현재 브라우저 버전에 대한 정보와 업데이트를 업데이트/확인하는 옵션을 찾을 수 있습니다.
+브라우저에서 [!UICONTROL 메뉴]&#x200B;(으)로 이동하여 [!UICONTROL 정보] 옵션을 찾습니다(경우에 따라 [!UICONTROL 도움말] 메뉴에 표시될 수 있음). [!UICONTROL 정보] 팝업에서 현재 브라우저 버전에 대한 정보와 업데이트를 업데이트/확인하는 옵션을 찾을 수 있습니다.
 
 예를 들어 Chrome에서:
 
