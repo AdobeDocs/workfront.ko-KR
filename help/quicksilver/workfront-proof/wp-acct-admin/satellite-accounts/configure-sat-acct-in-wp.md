@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 82c6dff3-6187-4145-951c-3f5312049b59
 TQID: https://experienceleague.adobe.com/5VqJBVuawpq6A8yRu-2MPwLIN3ZjB2LpCg5dkjVzUEE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 549
@@ -25,9 +29,9 @@ ht-degree: 1%
 >
 >이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
-위성 계정은 자신의 [!DNL Workfront Proof] 계정 내에서 구성하고 관리하는 유료 계정입니다. 자세한 내용은  [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)의 [위성 계정을 참조하십시오.
+위성 계정은 자신의 [!DNL Workfront Proof] 계정 내에서 구성하고 관리하는 유료 계정입니다. 자세한 내용은  [!DNL Workfront] Proof[&#128279;](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)의 위성 계정을 참조하십시오.
 
-모든 청구 관리자는 위성 계정을 만들 수 있습니다. 청구 관리자에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [[!UICONTROL 증명 권한 프로필]을 참조하십시오.
+모든 청구 관리자는 위성 계정을 만들 수 있습니다. 청구 관리자에 대한 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [!UICONTROL 증명 권한 프로필]을 참조하십시오.
 
 >[!NOTE]
 >

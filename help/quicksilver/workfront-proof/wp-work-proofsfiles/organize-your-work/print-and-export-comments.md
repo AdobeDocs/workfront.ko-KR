@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
 TQID: https://experienceleague.adobe.com/2ikEopwBMpVFPsAtqzg9SsKkmJjxIbI4bY5QxD-87kU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 502
@@ -31,7 +33,7 @@ ht-degree: 0%
 
 * [증명 뷰어](#the-proof-viewer)
 * [증명 세부 정보 페이지](#the-proof-details-page)
-* [ [!DNL Proof] 작업 메뉴](#the-proof-actions-menu)
+* [&#x200B; [!DNL Proof] 작업 메뉴](#the-proof-actions-menu)
 
 ### 증명 뷰어 {#the-proof-viewer}
 
@@ -93,7 +95,7 @@ ht-degree: 0%
 
 증명 작업 메뉴에서 [!DNL Excel] 요약을 내보내려면:
 
-1. 증명 오른쪽에 있는 **작업** 아이콘을 클릭한 다음 **[!UICONTROL [!DNL Excel]개의 요약]**을 선택합니다.
+1. 증명 오른쪽에 있는 **작업** 아이콘을 클릭한 다음 **[!UICONTROL [!DNL Excel]개의 요약]**&#x200B;을 선택합니다.
    ![Excel 요약 내보내기](assets/excel-summary-option.png)
 
 증명 세부 정보 페이지에서 [!DNL Excel] 요약을 다운로드하려면 다음을 수행하십시오.

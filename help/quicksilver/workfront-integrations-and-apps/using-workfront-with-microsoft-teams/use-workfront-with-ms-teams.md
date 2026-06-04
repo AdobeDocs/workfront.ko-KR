@@ -8,10 +8,15 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b8b9d216-b529-4ff0-9259-b37724675d6a
 TQID: https://experienceleague.adobe.com/1elmmFSSPWtzkFCSPP48dAdyi-OaKQyeY4HsEyMa58c
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 198
@@ -30,9 +35,9 @@ ht-degree: 0%
 Adobe Workfront은 Microsoft Teams과의 통합을 제공합니다. 이 문서는 이 통합을 설치 및 구성하기 위한 지침과 일상적인 작업에서 이 통합을 사용하는 방법에 대한 링크를 제공합니다.
 
 * [Microsoft Teams 개요에 대한 [!DNL Adobe Workfront]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
-* [ [!DNL Adobe Workfront for Microsoft Teams] 설치](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
-* [ [!DNL Microsoft Teams]에서  [!DNL Adobe Workfront] 액세스](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
-* [ [!DNL Microsoft Teams]에서  [!DNL Adobe Workfront] 개 항목 검색 및 공유](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
-* [ [!DNL Microsoft Teams]에서  [!DNL Adobe Workfront] 작업 만들기](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
-* [ [!DNL Microsoft Teams]의  [!DNL Adobe Workfront] 요청 제출](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
-* [ [!DNL Microsoft Teams]의  [!DNL Adobe Workfront] 알림 관리](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
+* [&#x200B; [!DNL Adobe Workfront for Microsoft Teams] 설치](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
+* [&#x200B; [!DNL Microsoft Teams]에서  [!DNL Adobe Workfront] 액세스](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
+* [&#x200B; [!DNL Microsoft Teams]에서  [!DNL Adobe Workfront] 개 항목 검색 및 공유](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
+* [&#x200B; [!DNL Microsoft Teams]에서  [!DNL Adobe Workfront] 작업 만들기](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
+* [&#x200B; [!DNL Microsoft Teams]의  [!DNL Adobe Workfront] 요청 제출](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
+* [&#x200B; [!DNL Microsoft Teams]의  [!DNL Adobe Workfront] 알림 관리](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)

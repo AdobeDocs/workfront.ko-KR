@@ -7,11 +7,17 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
 TQID: https://experienceleague.adobe.com/EGXeEO-HU8813eA-dyVAuKSv6rAQg8tsDiDT5leVee0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 449
@@ -97,4 +103,4 @@ ht-degree: 4%
    참조 번호에 대한 자세한 내용은 [개체 이해 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 문서에서 [[!UICONTROL 개체의 참조 번호]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) 섹션을 참조하십시오.
 
 1. (선택 사항) 작업 정보를 추가로 편집하려면 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
-1. (선택 사항) [!DNL Workfront]의 새 탭에서 작업을 열고 추가로 작업을 편집하거나, 프로젝트로 이동하거나, 다른 사람에게 할당하려면 [!DNL Workfront]]**의**[!UICONTROL &#x200B;보기를 클릭합니다.
+1. (선택 사항) [!DNL Workfront]의 새 탭에서 작업을 열고 추가로 작업을 편집하거나, 프로젝트로 이동하거나, 다른 사람에게 할당하려면 [!DNL Workfront]&#x200B;**의**&#x200B;보기를 클릭합니다.

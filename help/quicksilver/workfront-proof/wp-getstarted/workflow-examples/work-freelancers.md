@@ -9,9 +9,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
 TQID: https://experienceleague.adobe.com/U4G0Tt1KZZXbwLk1SNyRTIBEzEerq6izTDOznYVwMzk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 931
@@ -68,7 +71,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Dropzone] 사용
 
-이 옵션은 클라이언트와 프리랜서가 [!DNL Workfront Proof]에서 서로 보지 않도록 하려는 경우에 유용합니다. 프리랜서에게 [!UICONTROL Dropzone]에 대한 액세스 권한을 부여할 수 있습니다([!UICONTROL Enterprise] 및 [!UICONTROL Unlimited] 플랜에서만 사용 가능). 자세한 내용은 [Dropzone]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)을 참조하십시오.[!UICONTROL 
+이 옵션은 클라이언트와 프리랜서가 [!DNL Workfront Proof]에서 서로 보지 않도록 하려는 경우에 유용합니다. 프리랜서에게 [!UICONTROL Dropzone]에 대한 액세스 권한을 부여할 수 있습니다([!UICONTROL Enterprise] 및 [!UICONTROL Unlimited] 플랜에서만 사용 가능). 자세한 내용은 [Dropzone](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)을 참조하십시오.
 
 ![프리랜서&#x200B;_-_ option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
 

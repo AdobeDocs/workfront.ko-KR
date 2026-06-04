@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
 TQID: https://experienceleague.adobe.com/RA5oWAqGovk6LODhTtcgETCubkVzvassVU7g6xYeies
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 576
@@ -69,7 +73,7 @@ ht-degree: 2%
 
    ![Proof_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
-1. 드롭다운 메뉴에서 **[!UICONTROL 브랜딩 이미지]**를 선택합니다.
+1. 드롭다운 메뉴에서 **[!UICONTROL 브랜딩 이미지]**&#x200B;를 선택합니다.
 **[!UICONTROL 사용 안 함]**&#x200B;을 선택하면 증명 로드 페이지에 [!DNL Workfront Proof] 로고가 표시됩니다
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. (3)
@@ -101,7 +105,7 @@ ht-degree: 2%
    구성할 수 있는 다양한 계정 설정에 대한 자세한 내용은 [계정 설정](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)을 참조하세요.
 
 1. **[!UICONTROL 설정]** 탭을 클릭합니다.
-1. **[!UICONTROL 브랜딩]** 섹션에서 전자 메일 응용 프로그램 이미지(1) 옆에 있는 **[!UICONTROL 편집]**을 클릭합니다.
+1. **[!UICONTROL 브랜딩]** 섹션에서 전자 메일 응용 프로그램 이미지(1) 옆에 있는 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
    ![Email_branding_setup_1.png](assets/email-branding-setup-1-350x227.png)
 
 1. 이메일 브랜딩에 사용할 이미지를 선택하십시오. (2)

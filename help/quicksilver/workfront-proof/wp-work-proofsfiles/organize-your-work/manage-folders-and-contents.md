@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
 TQID: https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1260
@@ -47,7 +49,7 @@ ht-degree: 0%
 
 1. (조건부) 다음 중 하나를 수행합니다.
 
-   * 폴더에 증명을 추가하는 경우  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)의 [[!UICONTROL 증명 세부 정보 관리]에 설명된 대로 [!UICONTROL 증명 세부 정보] 페이지로 이동합니다.
+   * 폴더에 증명을 추가하는 경우  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)의 [!UICONTROL 증명 세부 정보 관리]에 설명된 대로 [!UICONTROL 증명 세부 정보] 페이지로 이동합니다.
    * 폴더에 파일을 추가하는 경우 [파일 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)에 설명된 대로 [파일 세부 정보] 페이지로 이동하십시오.&quot;
 
 1. 파일이나 증명이 있는 **폴더**&#x200B;의 이름을 클릭한 다음 이동할 폴더의 이름을 클릭합니다.\
@@ -57,7 +59,7 @@ ht-degree: 0%
 
 1. (조건부) 다음 중 하나를 수행합니다.
 
-   * 폴더에서 증명을 이동하는 경우  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)의 [[!UICONTROL 증명 세부 정보 관리]에 설명된 대로 [!UICONTROL 증명 세부 정보] 페이지로 이동합니다\
+   * 폴더에서 증명을 이동하는 경우  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)의 [!UICONTROL 증명 세부 정보 관리]에 설명된 대로 [!UICONTROL 증명 세부 정보] 페이지로 이동합니다\
 
      또는\
       폴더에서 파일을 이동하고 있는 경우 [파일 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)에 설명된 대로 파일 세부 정보 페이지로 이동하십시오.&quot;
@@ -90,7 +92,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 증명 세부 정보 보기]** 또는 **[!UICONTROL 파일 세부 정보 보기]**: 증명 세부 정보 또는 파일 세부 정보 페이지를 엽니다. 자세한 내용은 [파일 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) 또는 [증명 세부 정보 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)를 참조하십시오.
 
-   * **[!UICONTROL 공유]**: 다른 사용자와 파일을 공유할 수 있습니다. 자세한 내용은 [Workfront Proof에서 파일 공유]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)를 참조하십시오.[!UICONTROL 
+   * **[!UICONTROL 공유]**: 다른 사용자와 파일을 공유할 수 있습니다. 자세한 내용은 [Workfront Proof에서 파일 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)를 참조하십시오.
 
    * **[!UICONTROL 메시지]**: 증명을 공유한 사람에게 전자 메일을 보냅니다.
    * **[!UICONTROL 새 버전]**: 증명의 새 버전을 만듭니다.

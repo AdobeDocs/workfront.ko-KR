@@ -8,10 +8,15 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
 TQID: https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 555
@@ -29,7 +34,7 @@ ht-degree: 0%
 
 ## 그룹 페이지 열기
 
-1. 왼쪽 탐색 사이드바에서 **[!UICONTROL 그룹]**을 클릭합니다.
+1. 왼쪽 탐색 사이드바에서 **[!UICONTROL 그룹]**&#x200B;을 클릭합니다.
 [!UICONTROL 그룹] 페이지에서 다음을 수행할 수 있습니다.
 
    * 모든 공개 및 비공개 그룹을 봅니다.
@@ -81,7 +86,7 @@ ht-degree: 0%
 
 ## 그룹 세부 정보 보기 및 편집
 
-1. 그룹 이름의 오른쪽 끝에 있는 **[!UICONTROL 자세히]** 단추를 클릭한 다음 드롭다운 메뉴에서 **[!UICONTROL 그룹 세부 정보 보기]**를 클릭합니다.
+1. 그룹 이름의 오른쪽 끝에 있는 **[!UICONTROL 자세히]** 단추를 클릭한 다음 드롭다운 메뉴에서 **[!UICONTROL 그룹 세부 정보 보기]**&#x200B;를 클릭합니다.
 표시되는 페이지에서 현재 그룹에 있는 모든 사용자와 그룹의 기본 역할 및 이메일 경고를 볼 수 있습니다.
 
 1. 그룹 세부 정보를 편집하려면 다음 중 하나를 수행하십시오.

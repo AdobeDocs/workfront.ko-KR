@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
 TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1544
@@ -200,4 +202,4 @@ ht-degree: 0%
 1. 다음 중 하나를 수행하십시오.
 
    * 한 항목을 이동하려면 항목을 클릭한 채 항목을 넣을 폴더로 드래그 앤 드롭합니다.
-   * 여러 항목을 동시에 이동하려면 항목 왼쪽에 있는 확인란을 선택한 다음 목록 위에서 **[!UICONTROL 다음으로 이동]**을 클릭한 다음 항목을 넣을 폴더를 선택하거나 항목을 위한 새 폴더를 만들 수 있습니다.
+   * 여러 항목을 동시에 이동하려면 항목 왼쪽에 있는 확인란을 선택한 다음 목록 위에서 **[!UICONTROL 다음으로 이동]**&#x200B;을 클릭한 다음 항목을 넣을 폴더를 선택하거나 항목을 위한 새 폴더를 만들 수 있습니다.

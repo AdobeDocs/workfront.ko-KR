@@ -8,9 +8,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
 TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1610
@@ -169,7 +172,7 @@ ht-degree: 0%
 
 기본 증명을 자동화된 워크플로로 변환할 수 있습니다.
 
-1. [!UICONTROL 증명 세부 정보] 페이지에서 **[!UICONTROL 자동화된 워크플로로 변환]**을 클릭합니다.
+1. [!UICONTROL 증명 세부 정보] 페이지에서 **[!UICONTROL 자동화된 워크플로로 변환]**&#x200B;을 클릭합니다.
 증명이 자동화된 워크플로로 다시 작동되면 모든 단계가 활성 상태이고 공개되며 해당 [!UICONTROL 단계 잠금] 옵션이 기본적으로 [수동]으로 설정됩니다. 모든 단계는 사용자 및 해당 설정과 함께 유지됩니다.
 
    * 단계 활성화는 모든 단계에서 증명 생성 시 로 설정됩니다.

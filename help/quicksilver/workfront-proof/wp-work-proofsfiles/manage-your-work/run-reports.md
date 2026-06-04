@@ -8,9 +8,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
 TQID: https://experienceleague.adobe.com/85Z2YFfmz4zUV2oIkQFUDFOYVtLFgiGh44KEm6pAlr4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 694
@@ -44,7 +47,7 @@ Workfront Proof을 사용하면 보고서를 볼 수 있으므로 팀의 작업 
 
 ### 사용자 사전 요구 사항 {#user-prerequisites}
 
-보고 정보는 계정의 모든 증명에 대한 전체 액세스 권한이 있는 사용자(예:  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)에서 [증명 권한 프로필 이상이 있는 사용자)에게만 제공됩니다.
+보고 정보는 계정의 모든 증명에 대한 전체 액세스 권한이 있는 사용자(예:  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)에서 증명 권한 프로필 이상이 있는 사용자)에게만 제공됩니다.
 
 이 패널에서 다음 작업을 수행할 수 있습니다.
 

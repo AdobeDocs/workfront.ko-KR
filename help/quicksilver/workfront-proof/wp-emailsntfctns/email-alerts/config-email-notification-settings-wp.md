@@ -8,10 +8,15 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
 TQID: https://experienceleague.adobe.com/BGkemxbMeYw-pkWCR1NRMbuVbLZzYoB-m91cOLAwqwc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2072
@@ -121,7 +126,7 @@ ht-degree: 0%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 이메일 없음]</td> 
-      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary]([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td> 
+      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary] ([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -134,7 +139,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">증명이 준비되면 [!UICONTROL 이메일 확인]</td> 
-      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">증명된 [!UICONTROL] 메일</a>을 참조하세요.</td> 
+      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">증명된  메일</a>을 참조하세요.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 나에게 보낸 이메일 형식] </td> 
@@ -215,7 +220,7 @@ ht-degree: 0%
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">[!UICONTROL 이메일 없음]</td>
-      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary]([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td>
+      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary] ([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td>
      </tr>
     </tbody>
    </table>
@@ -228,7 +233,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">증명이 준비되면 [!UICONTROL 이메일 확인]</td> 
-      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="https://support.workfront.com/hc/en-us/article">증명된 [!UICONTROL] 이메일을 참조하십시오.</a></td> 
+      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="https://support.workfront.com/hc/en-us/article">증명된  이메일을 참조하십시오.</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 나에게 보낸 이메일 형식] </td> 

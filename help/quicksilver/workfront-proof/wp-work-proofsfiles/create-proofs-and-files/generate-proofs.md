@@ -8,9 +8,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
 TQID: https://experienceleague.adobe.com/iBlyGnTO5o6I5gtqDsguJIijR--fvcdo1lWspoqHouk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1895
@@ -200,8 +203,8 @@ ht-degree: 1%
 
 1. (선택 사항) 증명 공유, 자동화된 워크플로 추가 또는 액세스 및 구독 설정 설정과 같은 고급 증명 옵션을 구성합니다. 이러한 옵션에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-   * [ [!DNL Adobe Workfront] 내에서 증명 공유](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
-   * [ [!DNL Workfront Proof]에서 자동화된 워크플로를 사용하여 증명 설정](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
+   * [&#x200B; [!DNL Adobe Workfront] 내에서 증명 공유](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+   * [&#x200B; [!DNL Workfront Proof]에서 자동화된 워크플로를 사용하여 증명 설정](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
    * [증명에 대한 액세스 및 구독 설정 구성](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
@@ -236,7 +239,7 @@ ht-degree: 1%
 
 1. (선택 사항) 증명 공유, 자동화된 워크플로 추가 또는 액세스 및 구독 설정 설정과 같은 고급 증명 옵션을 구성합니다. 이러한 옵션에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-   * [ [!DNL Adobe Workfront] 내에서 증명 공유](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+   * [&#x200B; [!DNL Adobe Workfront] 내에서 증명 공유](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
    * [증명에 대한 액세스 및 구독 설정 구성](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. **[!UICONTROL 증명 만들기]**&#x200B;를 클릭합니다. Workfront은 zip 파일의 증명을 생성합니다.

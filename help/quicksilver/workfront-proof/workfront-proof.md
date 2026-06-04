@@ -10,10 +10,15 @@ feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
 TQID: https://experienceleague.adobe.com/IKAk2oTdiLOntrgFxSrt1IMh7epEVS18AqQ09IyTipk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 70
@@ -37,6 +42,6 @@ ht-degree: 1%
 * [[!DNL Workfront Proof] 청구 설정](../workfront-proof/wp-billingsettings/wp-billing-settings.md)
 * [증명 알림 및 미리 알림](../workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
 * [전자 메일 경고](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
-* [ [!DNL Workfront Proof]에서 사용자 및 연락처 관리](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
+* [&#x200B; [!DNL Workfront Proof]에서 사용자 및 연락처 관리](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
 * [[!DNL Workfront Proof] 기술 코너](../workfront-proof/wp-tech-corner/tech-corner.md)
 * [[!DNL Workfront Proof] 통합](../workfront-proof/wp-integrations/wp-integrations.md)

@@ -7,11 +7,18 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
 TQID: https://experienceleague.adobe.com/rOccEnbPoWVh5LFVPCeX81S3Nl-VpEBGGfcNDNXEdPk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e4fedd42-4a54-4109-859f-13c7f0366a72
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 417
@@ -71,8 +78,8 @@ ht-degree: 4%
 
 다음과 같은 방법으로 앱을 설치할 수 있습니다.
 
-* [ [!DNL Workfront] 외부 앱 설치 [!DNL Slack]](#install-the-workfront-app-outside-slack-install-the-workfront-app-outside-slack)
-* [ [!DNL Slack] 내에  [!DNL Workfront] 앱 설치](#install-the-workfront-app-within-slack-install-the-workfront-app-within-slack)
+* [&#x200B; [!DNL Workfront] 외부 앱 설치 [!DNL Slack]](#install-the-workfront-app-outside-slack-install-the-workfront-app-outside-slack)
+* [&#x200B; [!DNL Slack] 내에  [!DNL Workfront] 앱 설치](#install-the-workfront-app-within-slack-install-the-workfront-app-within-slack)
 
 ### [!DNL Slack] 외부에 [!DNL Workfront] 앱 설치 {#install-the-workfront-app-outside-slack}
 
@@ -84,7 +91,7 @@ ht-degree: 4%
 
 1. [[!DNL Slack] 스토어](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info)에서 [!DNL Adobe Workfront] 추가 기능을 찾습니다.
 
-1. [!DNL Slack]]**에서**[!UICONTROL &#x200B;열기를 클릭합니다.
+1. [!DNL Slack]&#x200B;**에서**&#x200B;열기를 클릭합니다.
 
 1. [!DNL Slack] URL을 지정하고 **[!UICONTROL 계속]**&#x200B;을 클릭하여 작업 영역에 로그인합니다.\
 

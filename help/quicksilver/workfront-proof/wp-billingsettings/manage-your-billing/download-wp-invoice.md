@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6bfb82b8-f127-4dac-a1cf-7c7962a86e48
 TQID: https://experienceleague.adobe.com/awflnggvqWgcGKukvaZ51-mQzogYR9ZlfDaJc3x4t2g
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 384
@@ -27,7 +31,7 @@ ht-degree: 0%
 
 새 청구 기간의 첫 날에 구독료 청구서가 계정의 기본 청구 담당자와 [!UICONTROL 청구 CC] 이메일 주소(정의된 경우)로 전송됩니다.
 
-청구서는 [!DNL Workfront Proof] 계정의 [!UICONTROL 청구] 섹션에도 나타나며 다운로드할 수 있습니다. 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2}를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+청구서는 [!DNL Workfront Proof] 계정의 [!UICONTROL 청구] 섹션에도 나타나며 다운로드할 수 있습니다. 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2&rbrace;를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 청구서에는 다음 정보가 있습니다.
 

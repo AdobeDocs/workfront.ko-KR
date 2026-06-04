@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d85577f5-6aa0-40a3-a6e3-45555a3124db
 TQID: https://experienceleague.adobe.com/sJxqocTWlV--ZrYQ9OrcqW8udhfRBk9ujGyaDxmcAZw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 662
@@ -65,7 +69,7 @@ ht-degree: 0%
 >
 >* [!UICONTROL 폴더 옵션] 메뉴에서 [!DNL Box] 폴더를 동기화할 수도 있습니다.
 >* 브랜드 [!DNL Workfront Proof] 로그인 페이지가 있는 경우 표준 [!DNL Workfront Proof] 로그인 페이지가 아닌 해당 페이지로 이동합니다. 자세한 내용은 [브랜딩](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)의 문서를 참조하십시오.
->* [!DNL Workfront Proof] 계정에서 [!UICONTROL SSO(Single Sign-On)] 기능을 사용하도록 설정한 경우 SSO 로그인 페이지로 이동하여 SSO 로그인 자격 증명을 입력하도록 요청하지만, [!DNL Box] 계정 및 [!DNL Workfront Proof]에 대해 동일한 전자 메일 주소를 사용하고 있는 경우에만 가능합니다. 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)의 [[!UICONTROL SSO(Single Sign-On)]을 참조하세요.
+>* [!DNL Workfront Proof] 계정에서 [!UICONTROL SSO(Single Sign-On)] 기능을 사용하도록 설정한 경우 SSO 로그인 페이지로 이동하여 SSO 로그인 자격 증명을 입력하도록 요청하지만, [!DNL Box] 계정 및 [!DNL Workfront Proof]에 대해 동일한 전자 메일 주소를 사용하고 있는 경우에만 가능합니다. 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)의 [!UICONTROL SSO(Single Sign-On)]을 참조하세요.
 >* [!DNL Box] 계정과 [!DNL Workfront Proof] 계정 모두에 동일한 이메일 주소를 사용하지 않는 경우 항상 표준 [!DNL Workfront Proof] 로그인 페이지로 이동됩니다.
 >
 

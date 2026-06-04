@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
 TQID: https://experienceleague.adobe.com/1K7jdfa8Eccib8MbsUrrPwfL8MrhCkhA1y2ojYjVNV8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 533
@@ -61,7 +65,7 @@ ht-degree: 0%
 
       * **구독. 공개 URL 또는 포함 코드를 통해 증명에 등록할 수 있습니다.** 조직 외부의 검토자가 공개 URL 또는 포함 코드를 통해 증명에 등록할 수 있습니다.
 
-        이 옵션을 선택하면 **구독자가 증명에 액세스하려면 전자 메일의 링크를 클릭해야 합니다**도 사용할 수 있습니다. 외부 검토자가 증명에 액세스하기 위해 이메일 내의 링크를 클릭하도록 하려면 이 옵션을 선택합니다.
+        이 옵션을 선택하면 **구독자가 증명에 액세스하려면 전자 메일의 링크를 클릭해야 합니다**&#x200B;도 사용할 수 있습니다. 외부 검토자가 증명에 액세스하기 위해 이메일 내의 링크를 클릭하도록 하려면 이 옵션을 선택합니다.
 이 옵션은 **공개 공유** 옵션을 선택한 경우 기본적으로 활성화됩니다.
 
       * **새 게스트 검토자의 기본 역할:** 게스트 검토자의 기본 증명 역할을 선택하십시오. 옵션은 **기본 증명 역할**&#x200B;의 옵션과 동일하지만 중재자와 작성자는 예외입니다.

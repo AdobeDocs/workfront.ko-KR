@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 208d719e-a2fc-4080-88be-954c2f87f7ff
 TQID: https://experienceleague.adobe.com/MwuRFeRGjhdfpeNLL-tUnLze7PSvLZwhthboOtejws0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 220
@@ -38,5 +42,5 @@ ht-degree: 0%
 1. 대시보드에서 **[!UICONTROL 새 증명]** 옆에 있는 아래쪽 화살표를 클릭한 다음 **[!UICONTROL 새 게스트]**&#x200B;를 클릭합니다.
 
 1. 관찰자 프로필이 있는 경우 새 연락처를 추가할 수 있는 옵션이 없습니다. 자세한 내용은 [증명 권한 프로필 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)을 참조하세요.
-1. 게스트 정보를 입력한 다음 **[!UICONTROL 만들기]**를 클릭합니다. 새 게스트에 대한 기본 증명 역할과 권한을 선택할 수 있습니다. 이 사람이 증명에 추가되면 기본적으로 이 역할과 경고가 제공되지만, 증명에 추가할 때 새 증명 페이지에서 변경할 수 있습니다.
+1. 게스트 정보를 입력한 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 새 게스트에 대한 기본 증명 역할과 권한을 선택할 수 있습니다. 이 사람이 증명에 추가되면 기본적으로 이 역할과 경고가 제공되지만, 증명에 추가할 때 새 증명 페이지에서 변경할 수 있습니다.
 자세한 내용은 [증명 권한 프로필 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) 및 [전자 메일 알림 설정 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)을 참조하십시오.

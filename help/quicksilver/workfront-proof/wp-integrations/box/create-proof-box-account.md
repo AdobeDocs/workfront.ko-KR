@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6fdabea6-c380-4b64-9b26-93b3f773f996
 TQID: https://experienceleague.adobe.com/7KC9FpJAVX7-inrT8y50iR5IalARRD3qWx3bZiUCDq8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 617
@@ -31,7 +35,7 @@ Box 계정을 통해 손쉽게 증명 및 새 증명 버전을 만들 수 있습
 
 1. [!DNL Box] 계정에 로그인한 다음 [!DNL Workfront Proof]에서 증명하려는 파일 옆에 있는 **[!UICONTROL 추가 옵션]** 단추를 클릭합니다.
 1. **[!UICONTROL 추가 작업]**(으)로 이동합니다.
-1. [!DNL Workfront Proof]]**을(를) 사용하여**[!UICONTROL &#x200B;리뷰를 선택합니다.\
+1. [!DNL Workfront Proof]&#x200B;**을(를) 사용하여**&#x200B;리뷰를 선택합니다.\
    [!DNL Workfront Proof]에 이미 로그인한 경우 새 증명 페이지에 업로드된 파일과 함께 팝업 창이 나타납니다.\
    여기에서 파일을 더 추가하고(한 번에 여러 증명을 만들거나 여러 파일을 하나의 증명으로 결합하려는 경우), 증명에 사람을 추가하고, 증명 기한을 설정하고, 태그를 추가하고, 증명 폴더를 선택할 수 있습니다\
    이 증명을 기존 증명의 새 버전으로 만들 수도 있습니다

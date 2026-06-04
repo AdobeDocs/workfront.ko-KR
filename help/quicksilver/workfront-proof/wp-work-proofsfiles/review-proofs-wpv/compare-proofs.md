@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
 TQID: https://experienceleague.adobe.com/WqMIoCFL-uqoaiZN59IyGljdSPb1sn0Py3RaVgjuuKM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 964
@@ -48,8 +50,8 @@ ht-degree: 0%
 
 두 개의 개별 증명을 비교할 수 있습니다.
 
-* [ [!DNL Workfront]에서 개별 증명 비교](#compare-separate-proofs-in-workfront)
-* [ [!DNL Workfront Proof]에서 개별 증명 비교](#compare-separate-proofs-in-workfront-proof)
+* [&#x200B; [!DNL Workfront]에서 개별 증명 비교](#compare-separate-proofs-in-workfront)
+* [&#x200B; [!DNL Workfront Proof]에서 개별 증명 비교](#compare-separate-proofs-in-workfront-proof)
 
 ### [!DNL Workfront]에서 개별 증명 비교 {#compare-separate-proofs-in-workfront}
 

@@ -8,9 +8,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f6d5aef6-573d-4398-a057-ffea2e67288f
 TQID: https://experienceleague.adobe.com/EyGqYRFaK3kCXNU-vY8DWhB4s8d2Gw1ZlVflB-0QqJk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 737
@@ -58,7 +61,7 @@ ht-degree: 0%
 
 ## [!DNL Workfront Proof]과(와) [!DNL Basecamp] 통합 사용
 
- [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [증명 권한 프로필 또는  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [증명 권한 프로필[계정 설정](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)에서 전체 계정에 대한 [!DNL Basecamp] 통합을 설정할 수 있습니다.
+ [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [증명 권한 프로필 또는  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 증명 권한 프로필[계정 설정](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)에서 전체 계정에 대한 [!DNL Basecamp] 통합을 설정할 수 있습니다.
 
 1. [!UICONTROL Basecamp]에서 다음 정보를 수집하십시오.
 
@@ -91,7 +94,7 @@ ht-degree: 0%
 
 조직에 대해 [계정 설정](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)을 설정한 후에는 증명을 만들거나 제출하는 작성자 각자가 [개인 설정](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)을 설정해야 합니다.
 
-1. **[!UICONTROL 개인&#x200B;**설정]**(으)로 이동합니다.
+1. **[!UICONTROL 개인&#x200B;**&#x200B;설정]**(으)로 이동합니다.
 
 1. **[!UICONTROL 통합]** 탭을 엽니다(1).
 1. [!DNL Basecamp] 통합을 사용하려면 **[!UICONTROL 사용]**(2)을 클릭합니다.

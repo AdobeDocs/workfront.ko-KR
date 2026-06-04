@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
 TQID: https://experienceleague.adobe.com/-kFiMr-1GYxY3JvfHTW0NBNupGvnob0KuzELquFISDI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1317
@@ -53,7 +57,7 @@ ht-degree: 1%
 자세한 내용은 다음 문서를 참조하십시오.
 
 * [증명 댓글에 작업 사용](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
-* [ [!DNL Workfront Proof]에서 증명 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
+* [&#x200B; [!DNL Workfront Proof]에서 증명 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
 
 ### 읽기 전용
 
@@ -218,7 +222,7 @@ ht-degree: 1%
 >
 >관리자 또는 청구 관리자 프로필이 있는 사용자만 계정의 다른 사용자에 대한 증명 기본값을 변경할 수 있습니다.
 
-자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)의 [개인 설정을 참조하십시오.
+자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)의 개인 설정을 참조하십시오.
 
 ## 작성자 및 소유자
 
@@ -259,7 +263,7 @@ ht-degree: 1%
 >
 >동일한 계정 또는 파트너 계정의 사용자만 증명 소유자로 만들 수 있습니다. 다음과 같은 경우에만 파트너 계정의 사용자를 증명 소유자로 설정할 수 있습니다.
 >
->* 계정 간에 기존 파트너 관계가 설정되어 있습니다. 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)의 [파트너 계정을 참조하십시오.
+>* 계정 간에 기존 파트너 관계가 설정되어 있습니다. 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)의 파트너 계정을 참조하십시오.
 >* [!UICONTROL 새 증명] 페이지에 사용자 지정 필드가 없습니다.
 >* 증명이 폴더에 할당되지 않았습니다.
 >* 증명에 적용된 태그가 없습니다.

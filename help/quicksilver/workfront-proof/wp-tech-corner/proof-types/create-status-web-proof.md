@@ -8,9 +8,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b93ed288-1bf2-4268-96c3-6263ab6be633
 TQID: https://experienceleague.adobe.com/M9rAORvc-CQGUB2pYWQV16HPZuFd3ZU31HAf25JRGYk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 493
@@ -34,7 +37,7 @@ ht-degree: 0%
 1. 이 상자 바로 아래에 있는 해상도(기본값은 1366x768)를 클릭한 다음 **[!UICONTROL 화면 해상도]** 상자에서 원하는 해상도를 선택합니다.
 모바일 장치용 디자인을 증명하려면 더 작은 해상도를 선택하십시오. 일반적으로 디자인은 화면/브라우저 창 해상도에 따라 로드됩니다.
 
-1. 입력한 URL과 동일한 도메인/하위 도메인에 있는 연결된 페이지를 포함하려면 **[!UICONTROL 하위 페이지 찾기]**를 클릭합니다.
+1. 입력한 URL과 동일한 도메인/하위 도메인에 있는 연결된 페이지를 포함하려면 **[!UICONTROL 하위 페이지 찾기]**&#x200B;를 클릭합니다.
    [!DNL Workfront Proof]이(가) 연결된 페이지를 검사하여 **[!UICONTROL 하위 페이지 찾기]** 옵션 아래에 표시합니다. 포함할 페이지를 선택할 수 있습니다.
 
 1. [!UICONTROL 증명 결합] 기능을 사용하면 모든 웹 페이지를 하나의 다중 페이지 증명으로 제출할 수 있습니다.

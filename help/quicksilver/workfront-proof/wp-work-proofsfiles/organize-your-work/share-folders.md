@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 57f846a1-f315-42c1-911a-cfbc8b4879ba
 TQID: https://experienceleague.adobe.com/J7dSfuj-8f8m4pNsPGejE-k29Bkk1Rlh-HbpYkwx2xM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 955
@@ -77,7 +79,7 @@ ht-degree: 0%
 
 1. 받은 알림 이메일의 링크를 클릭합니다.
 1. [!DNL Workfront Proof]에 로그인합니다.\
-     [!DNL  Workfront Proof]이(가) 폴더 세부 정보 페이지를 표시합니다. 자세한 내용은 [폴더 및 해당 컨텐츠 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)를 참조하십시오.
+     [!DNL &#x200B; Workfront Proof]이(가) 폴더 세부 정보 페이지를 표시합니다. 자세한 내용은 [폴더 및 해당 컨텐츠 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)를 참조하십시오.
 
 ## 하위 폴더 공유 정보
 
