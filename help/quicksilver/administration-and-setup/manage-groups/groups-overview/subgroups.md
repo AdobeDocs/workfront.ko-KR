@@ -10,10 +10,14 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
 TQID: https://experienceleague.adobe.com/lVTPu5Nz5FqEPEh-S3LnT9cGIQnV6v9WN6yBcPgCvzs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 642
@@ -59,7 +63,7 @@ ht-degree: 0%
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-하위 그룹을 만들거나 편집할 때 하위 그룹 구성원을 그룹 관리자로 하위 그룹에 할당할 수 있습니다. 자세한 내용은 문서 [그룹 만들기](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)의 [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)을(를) 참조하십시오.
+하위 그룹을 만들거나 편집할 때 하위 그룹 구성원을 그룹 관리자로 하위 그룹에 할당할 수 있습니다. 자세한 내용은 문서 [그룹 만들기](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)의 [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)을(를) 참조하십시오.
 
 또는 하위 그룹의 관리를 상위 그룹에 할당된 그룹 관리자에게 위임할 수 있습니다. 하위 그룹을 만들면 상위 그룹의 그룹 관리자가 하위 그룹을 관리할 수 있는 자동 액세스 권한을 갖게 됩니다.
 

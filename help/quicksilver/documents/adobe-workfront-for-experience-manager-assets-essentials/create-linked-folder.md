@@ -8,10 +8,15 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
 TQID: https://experienceleague.adobe.com/fGs1kZQXTTMioosnBsRBKKpS3q--m5PHKYg-tHrq-b8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 409
@@ -100,5 +105,5 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials와
    >
    >Workfront 관리자는 이 통합에 사용할 이름을 선택할 수 있으므로 Experience Manager Assets 또는 Assets Essentials에 대해 특별히 언급하지 않을 수 있습니다.
 
-1. **연결된 폴더 만들기**를 선택합니다. 시스템은 통합 설정 시 지정된 위치를 기반으로 Experience Manager에 폴더를 자동으로 생성합니다.
+1. **연결된 폴더 만들기**&#x200B;를 선택합니다. 시스템은 통합 설정 시 지정된 위치를 기반으로 Experience Manager에 폴더를 자동으로 생성합니다.
    ![연결된 폴더 만들기](assets/linked-folder.png)

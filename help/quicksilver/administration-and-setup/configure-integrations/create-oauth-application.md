@@ -11,10 +11,17 @@ exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1959
@@ -133,7 +140,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
 {{step-1-to-setup}}
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth2 응용 프로그램]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 앱 통합 만들기]**를 클릭합니다.
+1. **[!UICONTROL 앱 통합 만들기]**&#x200B;를 클릭합니다.
 **새 OAuth2 애플리케이션** 상자가 표시됩니다.
 1. **새 OAuth2 응용 프로그램** 상자에서 **[!UICONTROL 컴퓨터 대 컴퓨터 응용 프로그램]**&#x200B;을 선택합니다.
 1. 새 응용 프로그램의 이름을 입력하십시오(예: &quot;[!DNL Workfront] for ClientApp&quot;).
@@ -218,7 +225,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 리디렉션 URL]</td> 
-      <td>사용자가 [!DNL Workfront](으)로 인증되면 이 경로로 리디렉션됩니다.</td> 
+      <td>사용자가 [!DNL Workfront] (으)로 인증되면 이 경로로 리디렉션됩니다.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 새로 고침 토큰 순환]</td> 

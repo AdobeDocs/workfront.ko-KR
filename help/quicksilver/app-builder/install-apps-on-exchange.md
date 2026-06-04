@@ -5,10 +5,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
 TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1301
@@ -104,7 +108,7 @@ Workfront용 앱을 보려면 Adobe Exchange으로 이동하여 Workfront 호환
 
 1. 앱 이름을 클릭합니다.
 1. 앱 목록의 오른쪽 상단 모서리에 있는 버튼을 클릭합니다.
-1. **예, 계속**을 클릭한 다음 최종 사용자 사용권 계약에 동의하십시오.
+1. **예, 계속**&#x200B;을 클릭한 다음 최종 사용자 사용권 계약에 동의하십시오.
    ![사용권 계약 확인](assets/2-aquire-application.png)
 
 ### 시스템 관리자에 대한 작업
@@ -134,7 +138,7 @@ Workfront용 앱을 보려면 Adobe Exchange으로 이동하여 Workfront 호환
 1. 설치할 앱을 찾아 화면 오른쪽에 있는 작업 메뉴를 엽니다.
 1. 앱 세부 사항 보기를 클릭합니다.
 1. 화면 왼쪽에서 환경을 선택하거나 새 환경을 추가합니다.
-1. **배포**를 클릭합니다.
+1. **배포**&#x200B;를 클릭합니다.
    ![앱 배포](assets/10-env-details-2.png)
 1. 설치 또는 사용 권한 할당(필요한 경우)
 

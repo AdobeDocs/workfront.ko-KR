@@ -9,11 +9,18 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1111
@@ -207,7 +214,7 @@ ht-degree: 4%
 
 사용자가 서드파티 문서 통합을 구성한 후 이를 사용할 수 있는 방법에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
-### [!UICONTROL [!DNL Workfront] DAM](으)로 메타데이터를 보내도록 [!DNL Workfront] 구성 {#configure-workfront-to-send-metadata-to-workfront-dam}
+### [!UICONTROL [!DNL Workfront] DAM] (으)로 메타데이터를 보내도록 [!DNL Workfront] 구성 {#configure-workfront-to-send-metadata-to-workfront-dam}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **) </p>

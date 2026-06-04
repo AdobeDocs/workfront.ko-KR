@@ -9,10 +9,14 @@ exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 568
@@ -102,7 +106,7 @@ ht-degree: 4%
 또는
 반복에 추가할 작업 또는 문제가 포함된 프로젝트, 보고서 또는 대시보드로 이동합니다. 그런 다음 작업 또는 문제를 하나 이상 선택합니다.
 
-1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png) > **[!UICONTROL 반복에 추가]**를 클릭합니다.
+1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png) > **[!UICONTROL 반복에 추가]**&#x200B;를 클릭합니다.
 애자일이 아닌 팀에 할당된 작업 또는 문제를 할당할 수 없습니다.
 
 1. **[!UICONTROL 다음에 추가]** 상자에서 반복 이름을 입력하고 목록에 나타나면 선택합니다.

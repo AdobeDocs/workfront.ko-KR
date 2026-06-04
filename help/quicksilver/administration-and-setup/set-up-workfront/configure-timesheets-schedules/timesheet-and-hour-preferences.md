@@ -9,11 +9,17 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
 TQID: https://experienceleague.adobe.com/qMIf5ZqLEhhUKcsoKe8dB0bT08K-aDKzvhI-eJm6-DU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1416
@@ -104,7 +110,7 @@ ht-degree: 1%
       <td> <p>사용자가 사용자 프로필에 할당되거나 객체에 할당된 작업 역할을 수동으로 선택할 수 있습니다.</p> <p><b>중요</b>:  
         <ul> 
          <li>작업 역할을 시간 항목에 할당한 후 이 설정을 사용하지 않으면 사용자는 프로젝트, 작업 또는 문제의 [!UICONTROL 시간] 탭에서 다양한 역할에 기록된 시간을 조정해야 합니다.</li> 
-         <li>사용자에게 프로필에 할당된 작업 역할이 없고 [!UICONTROL Advanced Assignments] 대화 상자에 [!UICONTROL Task Owner](으)로 할당된 작업이 있는 경우 사용자가 작업에 시간을 기록할 때 해당 작업 역할이 표시됩니다.</li> 
+         <li>사용자에게 프로필에 할당된 작업 역할이 없고 [!UICONTROL Advanced Assignments] 대화 상자에 [!UICONTROL Task Owner] (으)로 할당된 작업이 있는 경우 사용자가 작업에 시간을 기록할 때 해당 작업 역할이 표시됩니다.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -127,7 +133,7 @@ ht-degree: 1%
 
    <table style="table-layout:auto">
     <tr>
-        <td>프로젝트에서 바로 [!UICONTROL]</td>
+        <td>프로젝트에서 바로 </td>
         <td>사용자가 프로젝트에 시간을 기록할 수 있습니다([!UICONTROL 업데이트] 탭과 타임시트 모두). 사용자가 프로젝트 수준에서 시간을 기록하지 않는 경우 이 옵션은 선택하지 않은 상태로 유지되어야 합니다.</td>
     </tr>
     <tr>

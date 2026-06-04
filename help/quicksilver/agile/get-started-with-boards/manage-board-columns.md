@@ -9,10 +9,14 @@ exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/8yM-RXZnxUYYoxRJ-Y9SH5Z-uo1V7Hh0BWuFJq279GI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1075
@@ -178,7 +182,7 @@ ht-degree: 1%
 
 1. 열에 추가할 수 있는 카드 수를 제한하려면 **[!UICONTROL 진행 중인 작업 제한]** 정책을 사용하도록 설정하십시오. **[!UICONTROL 제한 설정]** 필드에 제한 번호를 입력하십시오.
 
-   ](assets/boards-wip-limit-in-column.png) 열에 대한 ![WIP 제한
+   ![&#128279;](assets/boards-wip-limit-in-column.png) 열에 대한 WIP 제한
 
    자세한 내용은 [게시판에서 WIP(Work In Progress) 한도 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)를 참조하십시오.
 

@@ -10,9 +10,12 @@ exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/O-bOfD0blzsjSIDTyvxfK2CA-syztA7pMgGkuuM7H8I
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 488
@@ -38,7 +41,7 @@ K[!UICONTROL anban] 방법에 대한 설명은 [애자일 팀 만들기](/help/q
 
 **스토리 상태**: 스토리가 있는 상태 열에 따라 스토리가 진행되는 방식을 나타냅니다.
 
-자세한 내용은 [Kanban] 보드에서 스토리 상태 업데이트](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)를 참조하십시오.[!UICONTROL 
+자세한 내용은 [Kanban] 보드에서 스토리 상태 업데이트(../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)를 참조하십시오.
 
 [다음 위치에서 보기 만들기 또는 편집 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)의 [[!UICONTROL 애자일 보기 만들기 또는 사용자 지정]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) 섹션에 설명된 대로 애자일 보기를 수정하여 프로젝트에 대해 스토리 상태를 사용자 지정할 수 있습니다.
 

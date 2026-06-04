@@ -9,11 +9,17 @@ exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eIcQnZTyB60Uox-XSXGxoy-PmbsVvqkTJnX4wNofuuY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 689
@@ -92,7 +98,7 @@ ht-degree: 3%
       <td>스토리를 반복에 추가할 준비가 되면 이 옵션을 선택합니다. 이 옵션을 선택하면 백로그의 스토리를 반복에 추가할 준비가 되었음을 사용자에게 표시합니다.<br>스토리가 <strong>[!UICONTROL 준비]로 표시되는지 여부에 관계없이 반복에 추가할 수 있습니다.</strong></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Estimate](포인트)</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Estimate] (포인트)</strong></td>
       <td>스토리의 예상 값을 지정합니다. 애자일 팀이 스토리를 포인트 단위로 추정하도록 구성된 경우 기본적으로 1포인트는 8시간입니다. 예상 시간이 스토리에 [!UICONTROL 계획된 시간]으로 추가됩니다.<br>예를 들어 스토리를 3점으로 예상하면 기본적으로 스토리에 24개의 [!UICONTROL 계획된 시간]을 추가합니다.<br>스토리에 하위 작업이 포함된 경우 모든 하위 작업에 대한 전체 예상 값이 상위 스토리의 예상 값을 결정합니다. 자세한 내용은 <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">기존 반복에 스토리 추가</a>를 참조하십시오.</td>
      </tr>
      <tr>
@@ -114,7 +120,7 @@ ht-degree: 3%
 
 ## 백로그에 애자일 스토리 만들기
 
-애자일 백로그 [[!UICONTROL 관리] 문서 ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)의 [백로그에 새 스토리 만들기](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) 섹션에 설명된 대로 애자일 백로그에서 애자일 스토리를 만들 수 있습니다.
+애자일 백로그 [[!UICONTROL 관리] 문서 &#x200B;](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)의 [백로그에 새 스토리 만들기](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) 섹션에 설명된 대로 애자일 백로그에서 애자일 스토리를 만들 수 있습니다.
 
 ## 작업 또는 문제를 애자일 스토리로 추가
 

@@ -9,11 +9,17 @@ exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1285
@@ -99,7 +105,7 @@ ht-degree: 1%
 스토리를 분류하려면:
 
 1. 분류할 스토리가 포함된 백로그로 이동합니다.
-1. 분류할 스토리를 선택한 다음 **[!UICONTROL 스토리 분류]**를 클릭합니다.
+1. 분류할 스토리를 선택한 다음 **[!UICONTROL 스토리 분류]**&#x200B;를 클릭합니다.
 [!UICONTROL 분류 스토리] 대화 상자가 표시됩니다.
    ![분석 스토리 대화 상자](assets/backlog-breakdown-dialog.png)
 
@@ -189,7 +195,7 @@ ht-degree: 1%
 1. (선택 사항) 기존 피할당자를 삭제합니다.
 1. **[!UICONTROL 피할당자 추가]**&#x200B;를 클릭합니다.
 1. 작업 또는 문제에 할당할 애자일 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 팀 이름을 클릭합니다.
-1. **[!UICONTROL 변경 내용 저장]**을 클릭합니다.
+1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 이제 작업 또는 문제를 팀 백로그에서 사용할 수 있습니다.
 
 ## 백로그 내부 또는 외부로 스토리 이동
@@ -201,7 +207,7 @@ ht-degree: 1%
 ### 백로그에서 반복 또는 보드로 스토리 이동
 
 1. 애자일 팀의 백로그로 이동합니다.
-1. 반복 또는 칸반 보드로 이동할 스토리를 선택한 다음 **[!UICONTROL 자세히]** > **[!UICONTROL 다음으로 이동]**을 클릭합니다.
+1. 반복 또는 칸반 보드로 이동할 스토리를 선택한 다음 **[!UICONTROL 자세히]** > **[!UICONTROL 다음으로 이동]**&#x200B;을 클릭합니다.
 스토리를 [!UICONTROL Kanban] 보드로 이동하면 [!UICONTROL Kanban] 보드로 스토리 이동 보드가 표시됩니다.
 스토리를 반복으로 이동하면 [!UICONTROL 스토리를 반복으로 이동] 대화 상자가 표시됩니다.
    ![스토리 이동 대화 상자](assets/agile-backlog-addtoiteration.png)

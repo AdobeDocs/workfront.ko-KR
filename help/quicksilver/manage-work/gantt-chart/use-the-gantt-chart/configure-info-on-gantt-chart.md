@@ -10,11 +10,19 @@ exl-id: 465365a2-d94b-47b6-a393-16770fca2714
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/k9q-K34EL3-iU9mmqH4nWFHPQhLeJ-85fk-AKOprHJI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 845
@@ -163,7 +171,7 @@ Old:
 ## 표시 옵션 구성
 
 1. **작업 목록 간트 차트** 또는 **프로젝트 목록 간트 차트**(으)로 이동합니다.\
-   Gantt 차트의 위치에 대한 자세한 내용은 [Gantt 차트 시작]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)을 참조하세요.[!UICONTROL 
+   Gantt 차트의 위치에 대한 자세한 내용은 [Gantt 차트 시작](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)을 참조하세요.
 
 1. (선택 사항) **예상 날짜로 전환** 설정을 선택하여 예상 날짜별로 작업을 표시합니다. 기본적으로 작업은 계획된 일자에 따라 표시됩니다.
 1. **옵션** 아이콘을 클릭합니다. **옵션** 대화 상자가 열립니다.\
