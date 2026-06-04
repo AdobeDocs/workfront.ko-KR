@@ -9,11 +9,17 @@ exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/D-9t-QNg3sRqKbPLDebqwHVKYy-R6TbiMpIaq9Mgpl8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1611
@@ -109,7 +115,7 @@ Old:
 
 플랜을 작성하거나 다른 사용자가 플랜을 공유해야 해당 플랜 내에서 이니셔티브를 작성할 수 있습니다. 계획 만들기에 대한 자세한 내용은 [계획 만들기 및 편집 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)을 참조하세요.
 
-이니셔티브가 무엇인지에 대한 자세한 내용은  [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)에서 [이니셔티브 개요 를 참조하십시오.
+이니셔티브가 무엇인지에 대한 자세한 내용은  [!DNL Scenario Planner][&#128279;](../scenario-planner/initiatives-overview.md)에서 이니셔티브 개요 를 참조하십시오.
 
 ## 이니셔티브 만들기
 

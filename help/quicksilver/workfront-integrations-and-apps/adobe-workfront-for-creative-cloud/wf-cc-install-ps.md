@@ -7,10 +7,17 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
 TQID: https://experienceleague.adobe.com/JMhdlpEdwvqkfNHjIjifRIFoXznmNienvTFdt2muUuo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 592
@@ -62,7 +69,7 @@ ht-degree: 4%
 
 [비디오 튜토리얼은 여기에서 봅니다](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
+[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console][&#128279;](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
 
 ## 개별적으로 [!DNL Adobe Workfront for Photoshop] 플러그 인을 설치하십시오.
 

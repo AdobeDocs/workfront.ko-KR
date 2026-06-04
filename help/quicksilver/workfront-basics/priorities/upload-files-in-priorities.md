@@ -7,10 +7,15 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
 TQID: https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 309
@@ -58,12 +63,12 @@ ht-degree: 12%
 {{step1-to-priorities}}
 
 1. 이름을 마우스로 가리킨 다음 **자세히** ![추가 아이콘](assets/more-icon.png) 아이콘을 클릭합니다.
-1. **업로드**를 클릭합니다.
+1. **업로드**&#x200B;를 클릭합니다.
    ![업데이트, 로그 시간 및 업로드](assets/update-log-upload.png)
 1. (선택 사항) **파일 업로드** 상자에서 폴더를 선택합니다.
 1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
 또는
-**파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
+**파일 추가**&#x200B;를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
    ![파일 추가](assets/add-files.png)
 1. (선택 사항) 댓글을 추가합니다.
 1. (선택 사항) 파일을 더 추가합니다.

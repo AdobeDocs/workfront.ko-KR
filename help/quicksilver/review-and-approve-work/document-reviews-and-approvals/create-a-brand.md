@@ -10,11 +10,17 @@ exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 571
@@ -80,7 +86,7 @@ ht-degree: 4%
 1. 왼쪽 패널에서 **검토 및 승인** > **브랜드**(으)로 이동합니다.
 1. 화면 오른쪽 상단에서 **브랜드 추가**&#x200B;를 클릭합니다.
 1. 브랜드 이름을 지정합니다.
-1. 브랜드 파일을 업로드하려면 **PDF 업로드**를 클릭하세요.
+1. 브랜드 파일을 업로드하려면 **PDF 업로드**&#x200B;를 클릭하세요.
    ![브랜드 pdf 업로드](assets/upload-PDF.png)
 1. **계속**&#x200B;을 클릭합니다.
 1. 브랜드 가이드라인이 포함된 PDF 파일을 하나 이상 업로드한 다음 **브랜드 추가**&#x200B;를 클릭합니다.

@@ -9,11 +9,16 @@ exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/bvmUPwUcqt0do-U4eQbMssDTwanC8r7fPl0o-S5mGA8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2199
@@ -141,7 +146,7 @@ Old:
 
    >[!TIP]
    >
-   >계획에는 여러 가지 시나리오가 있을 수 있습니다. 계획의 충돌을 볼 때 [!DNL Workfront]은(는) 선택한 시나리오에서 현재 사용할 수 있는 리소스와 해당 시나리오의 이니셔티브에 필요한 리소스를 참조합니다. 시나리오에 대한 자세한 내용은  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)에서 [계획 시나리오 만들기 및 비교를 참조하십시오.
+   >계획에는 여러 가지 시나리오가 있을 수 있습니다. 계획의 충돌을 볼 때 [!DNL Workfront]은(는) 선택한 시나리오에서 현재 사용할 수 있는 리소스와 해당 시나리오의 이니셔티브에 필요한 리소스를 참조합니다. 시나리오에 대한 자세한 내용은  [!DNL Scenario Planner][&#128279;](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)에서 계획 시나리오 만들기 및 비교를 참조하십시오.
 
 1. **[!UICONTROL 충돌 표시]**&#x200B;가 활성화되어 있는지 확인하십시오. 기본적으로 활성화되어 있습니다.
 

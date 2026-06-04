@@ -7,11 +7,17 @@ author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
 TQID: https://experienceleague.adobe.com/KIxSnxmDRCIYGQ9Dn-sTJ-LyYQSJQqYloDbyqG9TCOs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 784
@@ -66,7 +72,7 @@ ht-degree: 2%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 작업** 위젯을 추가합니다.
-1. 작업 항목을 찾은 다음 작업 항목에서 **[!UICONTROL 완료로 표시]**를 클릭합니다.
+1. 작업 항목을 찾은 다음 작업 항목에서 **[!UICONTROL 완료로 표시]**&#x200B;를 클릭합니다.
 이 단추가 표시되는 방법에 대한 자세한 내용은 [[!UICONTROL 완료] 단추의 옵션 이해](#understand-the-options-of-the-done-button)를 참조하십시오.
    ![내 작업 표시 완료](assets/my-work-done.png)
 
@@ -102,7 +108,7 @@ ht-degree: 2%
 
 [!UICONTROL 완료] 단추와 관련된 상태를 이해하려면 [팀 설정 편집](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)에 설명된 대로 홈 팀의 [!UICONTROL 팀 설정]에서 [!UICONTROL 완료 단추] 섹션을 확인하십시오.
 
-홈 팀에 할당되지 않은 경우 [완료] 단추의 옵션 이해](#understand-the-options-of-the-done-button)에서 설명한 대로 [!UICONTROL 완료]를 클릭하면 기본 상태가 선택됩니다.[!UICONTROL 
+홈 팀에 할당되지 않은 경우 [완료] 단추의 옵션 이해(#understand-the-options-of-the-done-button)에서 설명한 대로 [!UICONTROL 완료]를 클릭하면 기본 상태가 선택됩니다.
 
 ### 여러 상태와 연결된 [!UICONTROL 완료] 단추
 

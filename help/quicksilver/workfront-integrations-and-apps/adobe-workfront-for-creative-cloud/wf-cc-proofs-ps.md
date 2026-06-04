@@ -7,11 +7,17 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
 TQID: https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 625
@@ -126,7 +132,7 @@ ht-degree: 3%
 
 1. 드롭다운 메뉴에서 **[!UICONTROL 자산 유형]**&#x200B;을(를) 선택합니다.
 1. (선택 사항) **[!UICONTROL 외부 파일 추가]**&#x200B;를 선택하여 컴퓨터에서 파일을 추가합니다.
-1. **[!UICONTROL 업로드]**를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
+1. **[!UICONTROL 업로드]**&#x200B;를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
 문서가 [!DNL Photoshop]의 [!DNL Workfront] 패널 및 [!DNL Workfront] 데스크톱 앱의 [!UICONTROL 문서] 영역에 표시됩니다.
 
 ## 새 증명 버전 업로드
@@ -143,11 +149,11 @@ ht-degree: 3%
 1. [!DNL Workfront] 패널 아래쪽에 있는 **[!UICONTROL 새 버전]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 증명 만들기]** 토글을 사용하도록 설정합니다.
 
-1. *[!UICONTROL *증명 승인]** 섹션에서 **[!UICONTROL 기본]** 또는 **[!UICONTROL 자동화]**&#x200B;를 선택합니다.
+1. *[!UICONTROL *증명 승인] **&#x200B; 섹션에서 &#x200B;** [!UICONTROL 기본] **&#x200B; 또는 &#x200B;** [!UICONTROL 자동화]**&#x200B;를 선택합니다.
 
 1. 7단계에서 선택한 승인 유형에 따라 **[!UICONTROL 검토자]** 또는 **[!UICONTROL 워크플로 템플릿]**&#x200B;을 추가하십시오.
 
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역에 댓글을 입력합니다.
 1. 드롭다운 메뉴에서 **[!UICONTROL 자산 유형]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL 업로드]**를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
+1. **[!UICONTROL 업로드]**&#x200B;를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
 문서가 [!DNL Photoshop]의 [!DNL Workfront] 패널 및 [!DNL Workfront] 데스크톱 앱의 [!UICONTROL 문서] 영역에 표시됩니다.

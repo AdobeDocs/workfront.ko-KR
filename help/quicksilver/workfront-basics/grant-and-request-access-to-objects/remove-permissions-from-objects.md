@@ -7,10 +7,14 @@ author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
 TQID: https://experienceleague.adobe.com/IJ79CqrncfDUAsrRiOqnoCIWMHgyotIEP5-kJO8h5pE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 738
@@ -78,7 +82,7 @@ ht-degree: 3%
 
       ![권한 제거](assets/remove-permissions-on-portfolio.png)
 
-   1. 이&#x200B;**드롭다운 메뉴에서**[&#x200B;사용자 이름]의 Workfront 액세스가 제거됩니다. 선택한 개체에서만 액세스 권한을 제거할지 또는 해당 개체와 연결된 모든 자식 개체에서 액세스 권한을 제거할지를 선택하십시오.
+   1. 이&#x200B;**드롭다운 메뉴에서**&#x200B;[&#x200B;사용자 이름]의 Workfront 액세스가 제거됩니다. 선택한 개체에서만 액세스 권한을 제거할지 또는 해당 개체와 연결된 모든 자식 개체에서 액세스 권한을 제거할지를 선택하십시오.
 
 1. (조건부) 프로젝트, 작업 및 문제의 경우 다음을 수행합니다.
 
@@ -86,7 +90,7 @@ ht-degree: 3%
 
       ![공유](assets/new-share-button.png)
    1. 객체에서 제거할 사용자, 역할, 팀, 그룹 또는 회사를 찾습니다.
-   1. **제거**를 클릭합니다.
+   1. **제거**&#x200B;를 클릭합니다.
 **제거 &lt; 사용자 이름 > from** 드롭다운 메뉴에서 선택한 개체에서만 액세스 권한을 제거할지 또는 해당 개체와 연결된 모든 하위 개체에서 액세스 권한을 제거할지를 선택합니다.
 
       ![제거](assets/remove-permissions-on-project-nwe-350x479.png)

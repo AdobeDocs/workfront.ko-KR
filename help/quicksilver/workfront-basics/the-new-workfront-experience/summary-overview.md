@@ -8,8 +8,10 @@ exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/cJBIqyDvl1wPpYWy4mFvJrcAOr52kRzyHDTCWyD8LdE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 914
@@ -108,7 +110,7 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 
 [!UICONTROL 업무 균형자]에서 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 [[!UICONTROL 요약]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)을(를) 사용하여 [!UICONTROL 업무 균형자]에서 작업 항목 업데이트를 참조하십시오.
 
-문서의 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 문서 개요](../../documents/managing-documents/summary-for-documents.md)의 [[!UICONTROL 요약]을 참조하십시오.
+문서의 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 문서 개요[&#128279;](../../documents/managing-documents/summary-for-documents.md)의 [!UICONTROL 요약]을 참조하십시오.
 
 
 ## 작업 또는 문제 목록에서 [!UICONTROL 요약] 패널 보기

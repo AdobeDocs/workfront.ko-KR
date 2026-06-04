@@ -9,11 +9,18 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/y6gIjeP-4NXrR-itk9Ohr8h6LVutIN7AH0Kr1RJBfTA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 3164
@@ -283,7 +290,7 @@ You can add updates to the following objects:
 이 문서에서는 프로젝트, 작업 또는 문제를 업데이트하는 방법에 대해 설명합니다. 대부분의 다른 객체를 업데이트하는 것도 유사합니다.
 
 1. 주석을 추가할 개체를 찾은 다음 해당 이름을 클릭하여 개체 페이지를 엽니다.
-1. 왼쪽 패널에서 **업데이트**를 클릭합니다.
+1. 왼쪽 패널에서 **업데이트**&#x200B;를 클릭합니다.
 기본적으로 **댓글** 탭이 선택되어 있습니다.
 
 1. **새 댓글** 상자에 댓글을 입력하세요.

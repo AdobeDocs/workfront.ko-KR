@@ -9,8 +9,10 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 1a64a148-529c-4c66-9ee8-fbfa205b0a67
 TQID: https://experienceleague.adobe.com/WgK4RWDvy53PMMcXMCCTWKSMaKcCnxBmyQ76LM0dCws
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 146
@@ -39,4 +41,4 @@ ht-degree: 0%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [[!UICONTROL 내 설정] 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-* [ [!DNL Adobe Workfront]에서 개인 휴무 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+* [&#x200B; [!DNL Adobe Workfront]에서 개인 휴무 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)

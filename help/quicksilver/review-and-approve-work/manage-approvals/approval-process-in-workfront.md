@@ -8,11 +8,18 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
 TQID: https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1789
@@ -84,9 +91,7 @@ Adobe Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 
      >     예를 들어, 진행 중 상태와 관련된 작업 승인이 있는 경우 승인이 승인되면 해당 작업은 자동으로 진행 중으로 상태를 변경합니다. 상태를 완료됨 또는 승인과 연관되지 않은 다른 상태로 자동 변경할 수 없습니다.
      >   
      >   
-     >
-
-   * 승인 프로세스와 연결된 엔티티는 사용자, 작업 역할 또는 팀일 수 있습니다. 사용자는 승인을 수락하거나 거부할 책임이 있습니다. 프로젝트에서 특정 역할을 수행하는 사용자에게 승인을 할당할 수 있습니다. 예를 들어 프로젝트 소유자 또는 스폰서에게 승인을 할당할 수 있습니다. 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
+     >* 승인 프로세스와 연결된 엔티티는 사용자, 작업 역할 또는 팀일 수 있습니다. 사용자는 승인을 수락하거나 거부할 책임이 있습니다. 프로젝트에서 특정 역할을 수행하는 사용자에게 승인을 할당할 수 있습니다. 예를 들어 프로젝트 소유자 또는 스폰서에게 승인을 할당할 수 있습니다. 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
      다음과 같은 시나리오가 있습니다.
 

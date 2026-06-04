@@ -5,8 +5,10 @@ description: Workfront은 Workfront에서 제공하는 다양한 제품 내에�
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
 TQID: https://experienceleague.adobe.com/AD0uU89l7bVNXCiFiBDd3rRc59EUgzZNrHWyiZhUlgk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 183
@@ -20,13 +22,13 @@ ht-degree: 17%
 
 ## Experience League에서 [!DNL Adobe Workfront] 설명서에 액세스
 
-1.  [!DNL Experience League]](https://experienceleague.adobe.com/ko/docs/workfront/using/home)의 [[!DNL Adobe Workfront] 설명서 페이지로 이동합니다.
+1. [!DNL Experience League][&#128279;](https://experienceleague.adobe.com/ko/docs/workfront/using/home)의 [!DNL Adobe Workfront] 설명서 페이지로 이동합니다.
 
 도움말 설명서를 검색하는 것 외에도 Experience League에서 다음 [!DNL Workfront] 리소스에 액세스할 수 있습니다.
 
 * Workfront 자습서: 자세한 내용은 [[!DNL Workfront] 자습서](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
 
-* [!UICONTROL 혁신 랩]: 자세한 내용은 [혁신 랩[!UICONTROL 4}](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas)을 참조하십시오.]
+* [!UICONTROL 혁신 랩]: 자세한 내용은 [혁신 랩[[!UICONTROL 4&rbrace;]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas)을 참조하십시오.]
 * [!UICONTROL [!DNL Workfront] 커뮤니티]: 자세한 내용은 [[!UICONTROL [!DNL Adobe Workfront] 커뮤니티]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)를 참조하십시오.
 
 ## [!DNL Workfront] 내부의 도움말에 액세스

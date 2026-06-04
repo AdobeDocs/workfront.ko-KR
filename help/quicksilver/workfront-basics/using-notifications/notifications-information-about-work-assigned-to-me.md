@@ -7,9 +7,12 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
 TQID: https://experienceleague.adobe.com/OcJcSh-I9--ZGuigzsTnIOh5r9U55JRlLcj7gymp7wA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2016
@@ -104,7 +107,7 @@ ht-degree: 1%
    <td><strong>일별</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>문서를 업로드하거나 내가 할당된 요청에 따라 변경합니다</strong> </p> <p>문제 피할당자는 추가한 문제에 대한 문서가 업로드되거나 문서 세부 정보가 변경되면 이메일 알림을 받습니다.</p> <p>문제를 트리거한 사용자가 문제 피할당자인 경우 이메일 알림이 전송되지 않습니다.</p> <p>프로젝트 상태가 [!UICONTROL Current]이고 프로젝트가 도움말 요청 큐(<a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 큐 만들기</a>에 설명된 대로)로 설정된 경우에만 알림이 전송됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[!UICONTROL 문서가 &lt;요청 이름&gt;</em></p> <p> 일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Work Assigned or You] &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
+   <td> <p><strong>문서를 업로드하거나 내가 할당된 요청에 따라 변경합니다</strong> </p> <p>문제 피할당자는 추가한 문제에 대한 문서가 업로드되거나 문서 세부 정보가 변경되면 이메일 알림을 받습니다.</p> <p>문제를 트리거한 사용자가 문제 피할당자인 경우 이메일 알림이 전송되지 않습니다.</p> <p>프로젝트 상태가 [!UICONTROL Current]이고 프로젝트가 도움말 요청 큐(<a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 큐 만들기</a>에 설명된 대로)로 설정된 경우에만 알림이 전송됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>문서가 &lt;요청 이름&gt;</em></p> <p> 일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Work Assigned or You] &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
    <td> <p>요청 이름<br>프로젝트 이름(요청 큐 이름)<br>문서 참조 번호 <br>문서를 업로드한 사용자의 이름<br>문서 이름 <br>날짜에 추가됨<br>문서 세부 정보(형식, 크기, 버전 번호)<br>문서 축소판<br><strong>[!UICONTROL 미리 보기]</strong> 및 <strong>[!UICONTROL 다운로드]</strong> 단추<br>*프로젝트 이름<br>*프로젝트 참조 번호<br>*업로드되거나 변경된 총 문서 수<br>*문서 이름<br>*개체 이름<br>*문서를 업로드한 사용자의 이름<br>*일별 다이제스트</p> </td> 
    <td><strong>일별</strong> </td> 
   </tr> 

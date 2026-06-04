@@ -7,10 +7,14 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
 TQID: https://experienceleague.adobe.com/xCCyTLfCsX3-hFfqKaiAtBgLLCQ6QmVTx7UfSGpBp3s
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 283
@@ -67,7 +71,7 @@ ht-degree: 6%
 1. 작업 항목 이름을 클릭하여 **개요** 페이지를 엽니다.
 1. **빠른 링크** 섹션에서 **링크 추가**&#x200B;를 클릭합니다.
 1. **링크 추가** 상자에 URL을 붙여 넣습니다.
-1. **저장**을 클릭합니다.
+1. **저장**&#x200B;을 클릭합니다.
    ![링크 추가](assets/add-link.png)
 
 ## 클립보드에 빠른 링크 복사
@@ -93,6 +97,6 @@ ht-degree: 6%
 {{step1-to-priorities}}
 
 1. 작업 항목 이름을 클릭하여 **개요** 페이지를 엽니다.
-1. 화면 오른쪽 상단에서 **세부 정보 편집**을 클릭합니다.
+1. 화면 오른쪽 상단에서 **세부 정보 편집**&#x200B;을 클릭합니다.
    ![세부 정보 편집](assets/edit-details.png)
 1. 제거할 링크를 찾은 다음 **삭제** ![삭제 아이콘](assets/delete-icon.png) 아이콘을 클릭합니다.

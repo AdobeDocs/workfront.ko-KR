@@ -9,11 +9,16 @@ exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/QeQHLMIUuBnloZ-l-q0ytD3UXx95s7fUPgiCO38LOxA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 559
@@ -241,7 +246,7 @@ Editing goals differs depending on what environment you use.
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. (선택 사항) 목표에 결과, 활동 또는 프로젝트를 추가하려면 왼쪽 패널의 **진행 표시기**를 클릭합니다. 진행 표시기를 추가하면 목표의 진행 상황을 추적할 수 있습니다.
+1. (선택 사항) 목표에 결과, 활동 또는 프로젝트를 추가하려면 왼쪽 패널의 **진행 표시기**&#x200B;를 클릭합니다. 진행 표시기를 추가하면 목표의 진행 상황을 추적할 수 있습니다.
 자세한 내용은 다음 문서를 참조하십시오.
    * [Adobe Workfront 목표의 목표에 활동 추가](../results-and-activities/add-activities-to-goals.md)
    * [Adobe Workfront 목표의 목표에 결과 추가](../results-and-activities/add-results-to-goals.md).

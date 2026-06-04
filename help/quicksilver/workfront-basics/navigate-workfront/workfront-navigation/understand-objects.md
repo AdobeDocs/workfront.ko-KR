@@ -7,11 +7,21 @@ feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
 TQID: https://experienceleague.adobe.com/CK2A3TGk-ojo-hg6IVEIjGUq-aUwLs2Im2ZrlE2od3M
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2391
@@ -151,7 +161,7 @@ Workfront에서 다른 개체의 이름은 사용자 지정할 수 없습니다.
 
 [!DNL Workfront] 설명서는 항상 개체의 기본 이름을 참조합니다. 개체의 이름이 사용자 지정된 경우 해당 개체와 관련된 아이콘을 사용하여 사용자 지정된 개체가 기본 개체 [!DNL Workfront]에 해당하는지 파악할 수 있습니다.
 
-[!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 [레이아웃 템플릿]](#object-names-that-can-be-customized-using-a-layout-template)을 사용하여 사용자 지정할 수 있는 개체 이름을 참조하십시오.[!UICONTROL 
+[!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 [레이아웃 템플릿](#object-names-that-can-be-customized-using-a-layout-template)을 사용하여 사용자 지정할 수 있는 개체 이름을 참조하십시오.
 
 다음은 Workfront에 있는 개체 및 해당 아이콘 목록입니다.
 
@@ -223,7 +233,7 @@ Open API를 사용하여 데이터베이스의 모든 개체에 대해 보고할
 
 >[!NOTE]
 >
-> * 레이아웃 템플릿을 사용하여 오브젝트의 이름을 사용자 정의한 경우 Report Builder의 오브젝트 이름도 사용자 정의되었습니다. 사용자 정의된 개체를 알고 Report Builder에서 사용자 정의된 이름을 찾습니다. [!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 이 문서에서 [!UICONTROL 레이아웃 템플릿]](#object-names-that-can-be-customized-using-a-layout-template)을 사용하여 사용자 지정할 수 있는 [개체 이름을 참조하십시오.
+> * 레이아웃 템플릿을 사용하여 오브젝트의 이름을 사용자 정의한 경우 Report Builder의 오브젝트 이름도 사용자 정의되었습니다. 사용자 정의된 개체를 알고 Report Builder에서 사용자 정의된 이름을 찾습니다. [!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 이 문서에서 [!UICONTROL 레이아웃 템플릿][&#128279;](#object-names-that-can-be-customized-using-a-layout-template)을 사용하여 사용자 지정할 수 있는 개체 이름을 참조하십시오.
 > * 보고서에서 텍스트 모드를 사용할 때 텍스트 모드 표현식의 개체 이름은 사용자 지정된 개체 이름이 아니라 [!DNL Workfront]의 표준 이름입니다. 보고서에서 텍스트 모드를 사용하는 방법에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
 
 보고서 작성에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.\
@@ -271,7 +281,7 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 * [!UICONTROL 그룹화]
 * [!UICONTROL 시간 유형]
 * [!UICONTROL 이니셔티브]
-   * 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입한 경우에만 플랜의 하위 개체인 이니셔티브에 대한 보고서를 만들 수 있습니다. 이니셔티브에 대한 자세한 내용은  [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md)에서 [이니셔티브 개요 를 참조하십시오.
+   * 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입한 경우에만 플랜의 하위 개체인 이니셔티브에 대한 보고서를 만들 수 있습니다. 이니셔티브에 대한 자세한 내용은  [!DNL Workfront Scenario Planner][&#128279;](../../../scenario-planner/initiatives-overview.md)에서 이니셔티브 개요 를 참조하십시오.
 
 * 이니셔티브 작업 역할
    * 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입한 경우에만 플랜의 이니셔티브와 연결된 작업 역할에 대한 보고서를 만들 수 있습니다. 이니셔티브를 만들고 작업 역할과 연결하는 방법에 대한 자세한 내용은 [이니셔티브 만들기 및 편집 [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md)을 참조하십시오.

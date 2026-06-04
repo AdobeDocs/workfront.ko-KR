@@ -9,10 +9,15 @@ exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/W5Shsncva5V27Klj9nIgxdHkr4JO3QrS0V6wVuJskk0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 236
@@ -86,5 +91,5 @@ ht-degree: 5%
 1. **[!UICONTROL 내보내기 파일 설정 설정]** 대화 상자를 연 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
 
    ![파일 내보내기 설정](assets/file-export-settings.png)
-1. **[!UICONTROL 업로드]**를 클릭합니다.
+1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
 이 문서는 플러그 인 및 데스크톱 앱의 [!UICONTROL 문서] 영역에 표시됩니다.

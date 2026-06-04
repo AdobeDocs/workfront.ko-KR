@@ -7,11 +7,16 @@ author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
 TQID: https://experienceleague.adobe.com/Lx-CI6hjj-YXrxIus0Kicsa7Gx84xjiuKDUJWPpUVqc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 873
@@ -76,7 +81,7 @@ ht-degree: 2%
 **타임시트** 영역이 열립니다.
 
 1. 주석을 표시할 타임시트를 엽니다.
-1. 타임시트의 오른쪽 상단에서 **댓글 표시**를 클릭합니다.
+1. 타임시트의 오른쪽 상단에서 **댓글 표시**&#x200B;를 클릭합니다.
 시간 항목과 댓글이 기록된 항목 아래에 댓글이 표시됩니다.
 
    ![다시 디자인된 타임시트 작업에서 확장된 주석](assets/comments-expanded-under-tasks-redesigned-timesheet.png)

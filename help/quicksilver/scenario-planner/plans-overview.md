@@ -8,9 +8,12 @@ author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
 TQID: https://experienceleague.adobe.com/FvNrULxi5wJwH6C6Rok0gnIriccNiYRXx150Ea-9-HI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1167
@@ -34,7 +37,7 @@ ht-degree: 0%
 
 각 높은 수준의 조직 결과를 식별하고 [!DNL Workfront Scenario Planner]에 플랜으로 추가할 수 있습니다. 플랜은 [!DNL Scenario Planner]에서 가장 큰 작업 항목입니다. 계획을 더 쉽게 달성할 수 있도록 여러 이니셔티브로 나누어 개별 조직 단위가 해당 완료를 위해 수행해야 하는 단계를 나타낼 수 있습니다.
 
-그런 다음 이니셔티브를 실제 프로젝트와 연결하여 실제 작업 요소가 계획을 실제로 완료하는 방법을 나타낼 수 있습니다. 이 문서에서는 플랜에 대한 일반적인 정보를 제공합니다. 이니셔티브에 대한 자세한 내용은  [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)에서 [이니셔티브 개요 를 참조하십시오.
+그런 다음 이니셔티브를 실제 프로젝트와 연결하여 실제 작업 요소가 계획을 실제로 완료하는 방법을 나타낼 수 있습니다. 이 문서에서는 플랜에 대한 일반적인 정보를 제공합니다. 이니셔티브에 대한 자세한 내용은  [!DNL Scenario Planner][&#128279;](../scenario-planner/initiatives-overview.md)에서 이니셔티브 개요 를 참조하십시오.
 
 계획에서 식별된 작업을 완료하는 데 필요한 인건비 및 재무 자원을 정의할 수 있습니다. 또한 계획에서 이니셔티브가 완료할 수 있도록 이니셔티브에 필요한 인건비 및 재무 자원을 볼 수 있습니다.
 

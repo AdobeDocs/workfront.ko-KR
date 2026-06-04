@@ -7,10 +7,14 @@ feature: Workfront Integrations and Apps, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: c78d1276-6545-44f0-8ec9-62cfe1b66e35
 TQID: https://experienceleague.adobe.com/V3991LF2iB578eD1mKpKHWt-riMA8ZjctIPGnVDWjOQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 162
@@ -30,20 +34,20 @@ Adobe [!DNL Workfront Fusion]을(를) 사용하면 [!DNL Workfront]을(를) [!DN
 
 ### 지출 최적화 워크플로우
 
-* [ [!DNL Anaplan] 목록 항목에  [!DNL Adobe Workfront] 프로젝트 업데이트 보내기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
-* [ [!DNL Anaplan] 목록 항목으로  [!DNL Adobe Workfront] 경비 보내기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [ [!DNL Anaplan] 목록 항목에  [!DNL Adobe Workfront] 실제 시간 업데이트 보내기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [&#x200B; [!DNL Anaplan] 목록 항목에  [!DNL Adobe Workfront] 프로젝트 업데이트 보내기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [&#x200B; [!DNL Anaplan] 목록 항목으로  [!DNL Adobe Workfront] 경비 보내기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [&#x200B; [!DNL Anaplan] 목록 항목에  [!DNL Adobe Workfront] 실제 시간 업데이트 보내기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 ### 예산 요청 연결을 위한 워크플로
 
-* [ [!DNL Adobe Workfront] 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [ [!DNL Adobe Workfront] 프로젝트에  [!DNL Anaplan] 예산 할당 적용](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [&#x200B; [!DNL Adobe Workfront] 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [&#x200B; [!DNL Adobe Workfront] 프로젝트에  [!DNL Anaplan] 예산 할당 적용](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### 캠페인 요청 연결을 위한 워크플로우
 
-* [ [!DNL Adobe Workfront] campaign 요청에서  [!DNL Anaplan] 목록 항목 만들기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [ [!DNL Adobe Workfront] 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [&#x200B; [!DNL Adobe Workfront] campaign 요청에서  [!DNL Anaplan] 목록 항목 만들기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [&#x200B; [!DNL Adobe Workfront] 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 ## [!DNL Anaplan]개의 FAQ가 있는 Adobe Workfront
 
-* [ [!DNL Anaplan] 통합 FAQ가 있는 [!DNL Adobe] Workfront](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)
+* [&#x200B; [!DNL Anaplan] 통합 FAQ가 있는 [!DNL Adobe] Workfront](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)

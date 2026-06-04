@@ -8,8 +8,10 @@ feature: Get Started with Workfront
 hide: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
 TQID: https://experienceleague.adobe.com/DCTbiQAsLjKIEN4qNvPrCUDLO3eRnYhT1LYGKgwpf-Q
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 197
@@ -52,7 +54,7 @@ ht-degree: 1%
 
 {{step-1-to-users}}
 
-1. 암호를 다시 설정해야 하는 **[!UICONTROL 사용자]**을(를) 선택하십시오.
+1. 암호를 다시 설정해야 하는 **[!UICONTROL 사용자]**&#x200B;을(를) 선택하십시오.
    ![사용자 선택](assets/100520classicnweselectuser-350x105.png)
 
 1. 원하는 **[!UICONTROL 사용자]**&#x200B;를 선택한 후 표시되는 **[!UICONTROL 자세히] 단추**&#x200B;를 클릭하고 드롭다운 메뉴에서 **[!UICONTROL 암호 찾기 이메일 보내기]** 옵션을 선택합니다.

@@ -7,9 +7,12 @@ feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
 TQID: https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2359
@@ -29,7 +32,7 @@ ht-degree: 3%
 
 보고서 및 목록에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [ [!DNL Adobe Workfront]의 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
+* [&#x200B; [!DNL Adobe Workfront]의 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [보고서 시작](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
 프로젝트, 작업 및 문제 필드에 대한 자세한 내용은 [용어집 [!DNL Adobe Workfront] 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)을 참조하세요.
