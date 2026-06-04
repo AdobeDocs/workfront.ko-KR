@@ -8,10 +8,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
 TQID: https://experienceleague.adobe.com/uC23s3GzNOgYxXOFwnaqXxlSbj7aIYYIXyC1RgU0dRE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1233
@@ -53,7 +57,7 @@ ht-degree: 0%
 예정된 릴리스에 대해 조직을 준비하는 데 도움이 되는 다음 작업 중 일부 또는 모두를 고려하는 것이 좋습니다.
 
 * [릴리스 정보를 최신 상태로 유지](#stay-up-to-date-with-release-notes)
-* [ [!DNL Workfront] 알림 센터 보기](#watch-the-workfront-announcement-center)
+* [&#x200B; [!DNL Workfront] 알림 센터 보기](#watch-the-workfront-announcement-center)
 * [[!UICONTROL 샌드박스 미리 보기] 환경 탐색](#explore-the-preview-sandbox-environment)
 * [릴리스 웨비나 참석](#attend-the-release-webinar)
 * [Workfront에 대한 오퍼 피드백](#offer-feedback-to-workfront)

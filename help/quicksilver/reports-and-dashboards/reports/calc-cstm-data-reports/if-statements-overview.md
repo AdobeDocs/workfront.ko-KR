@@ -10,9 +10,12 @@ exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 932
@@ -63,7 +66,7 @@ ht-degree: 0%
 
 * **조건 연산자** = &quot;IF&quot; 문의 조건을 만드는 데 도움이 되는 연산자입니다. 예를 들어 &quot;다음과 같음&quot; 또는 &quot;다음보다 큼&quot;은 조건 연산자입니다. 문에서 사용할 수 있는 조건 연산자 목록을 보려면 [계산된 사용자 지정 식의 조건 연산자](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)를 참조하십시오.
 
-* **True****식** = 조건 기준이 충족되면 표시할 지표(true 지표)를 방정식에 알려 주는 &quot;True&quot; 변수입니다.
+* **True**&#x200B;**식** = 조건 기준이 충족되면 표시할 지표(true 지표)를 방정식에 알려 주는 &quot;True&quot; 변수입니다.
 
 * **False 식** = 조건 기준이 충족되지 않을 때 표시할 표시기(false 표시기)를 방정식에 알려 주는 &quot;False&quot; 변수입니다.
 

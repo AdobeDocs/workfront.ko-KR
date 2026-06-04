@@ -8,9 +8,13 @@ author: Courtney
 feature: Reports and Dashboards
 exl-id: c3f2b4a9-0831-48f0-871b-486d09ae5ea4
 TQID: https://experienceleague.adobe.com/Z4RrMAPGd3CCti-cQFiJ7hlf-h8-suXeuoYfzk-9aKo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 229
@@ -42,7 +46,7 @@ Workfront에서 연결 암호를 재설정한 다음 연결 편집 대화 상자
 1. Workfront > 설정 > 시스템 > Data Connect로 이동합니다.
 1. 목록에서 연결을 찾아 엽니다.
 1. **연결 암호 재설정**&#x200B;에서 암호를 재설정할지 확인하는 상자를 선택합니다.
-1. **연결 암호 재설정**을 클릭합니다.
+1. **연결 암호 재설정**&#x200B;을 클릭합니다.
    ![연결 암호 재설정](assets/reset-password.png)
 1. 아래 섹션으로 이동합니다.
 

@@ -7,10 +7,15 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
 TQID: https://experienceleague.adobe.com/QzjHfD9RX0nF8Bk84Rq3yFTJvQpKMJPq9YmIXjJ9QJw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 277
@@ -45,6 +50,6 @@ ht-degree: 0%
 * 사용자 일정:
 * 사용자 수용작업량 = (일정 시간 - 일정 예외 - 휴무) `*` 작업 시간.
 
-자세한 내용은 [리소스 관리 구성]기본 설정](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)을 참조하세요.[!UICONTROL 
+자세한 내용은 [리소스 관리 구성]기본 설정(/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)을 참조하세요.
 
 [이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3415608/){target=_blank}

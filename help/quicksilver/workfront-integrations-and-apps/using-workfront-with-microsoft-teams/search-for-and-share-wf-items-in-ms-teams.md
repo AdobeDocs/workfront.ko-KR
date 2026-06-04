@@ -7,11 +7,17 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
 TQID: https://experienceleague.adobe.com/LR2Je81cHRzkXMS9cyaLF4b01bN8PGmu2zC6aAqptrM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 498
@@ -29,8 +35,8 @@ ht-degree: 4%
 
 [!DNL Microsoft Teams]의 [!DNL Adobe Workfront] 채널에서 [!DNL Workfront]개 항목을 검색하고 해당 항목을 팀의 구성원과 공유할 수 있습니다.
 
-* [ [!DNL Microsoft Teams]의  [!DNL Workfront] 항목 공유를 위한 필수 구성 요소](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
-* [ [!DNL Microsoft Teams]에서  [!DNL Workfront] 개 항목 검색 및 공유](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
+* [&#x200B; [!DNL Microsoft Teams]의  [!DNL Workfront] 항목 공유를 위한 필수 구성 요소](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
+* [&#x200B; [!DNL Microsoft Teams]에서  [!DNL Workfront] 개 항목 검색 및 공유](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
 
 
 

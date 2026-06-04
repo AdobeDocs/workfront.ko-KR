@@ -9,10 +9,16 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
 TQID: https://experienceleague.adobe.com/4o0kpYFF1CMOYWLJxT-v-rcfM5BCnzywq2W0VNeFCYk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 349
@@ -60,4 +66,4 @@ ht-degree: 0%
 
 개인 설정에 저장된 설정은 사용자가 만든 모든 증명에 적용되지만 새 증명을 만들거나 증명을 수정할 때 [에서 증명 세부 정보 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)에 설명된 대로 재정의할 수 있습니다.
 
-[에서 증명 설정 구성[!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)에 설명된 대로 개인 증명 설정을 수정하여 파일 다운로드를 비활성화할 수 있습니다.
+[에서 증명 설정 구성[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)에 설명된 대로 개인 증명 설정을 수정하여 파일 다운로드를 비활성화할 수 있습니다.

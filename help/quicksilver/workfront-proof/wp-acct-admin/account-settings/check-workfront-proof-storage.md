@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e387b209-3a76-423f-982b-6c1046ee6198
 TQID: https://experienceleague.adobe.com/qEv4qQPPKV6FkF-2j43kbFxthWXEYPrLWHaFonfwKtw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 160
@@ -36,7 +40,7 @@ ht-degree: 0%
 1. **[!UICONTROL 설정]** > **[!UICONTROL 계정 설정]**&#x200B;을 클릭합니다.
 
 1. **[!UICONTROL 기록]** 탭을 엽니다.
-1. **[!UICONTROL 사용 통계]**에서 현재 저장소 마운트를 봅니다.
+1. **[!UICONTROL 사용 통계]**&#x200B;에서 현재 저장소 마운트를 봅니다.
 계정의 스토리지 사용량이 75%에 도달하면 계정의 청구 관리자에게 경고 이메일이 전송됩니다.
 
 ## 추가 저장소 가져오기

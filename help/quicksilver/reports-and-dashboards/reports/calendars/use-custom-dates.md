@@ -9,10 +9,15 @@ exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/URkp-zMtLtg3auZRaRciz2qCjeJUMFYZQ7SYKuzHU8g
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 618
@@ -73,7 +78,7 @@ ht-degree: 4%
 
 {{step1-to-calendars}}
 
-1. 새 항목 그룹을 추가할 일정을 선택하고 기타 메뉴를 클릭한 다음 **편집**을 클릭합니다.
+1. 새 항목 그룹을 추가할 일정을 선택하고 기타 메뉴를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 또는
 **[!UICONTROL + 새 일정]**&#x200B;을 클릭하고 프로젝트 이름을 입력한 다음 **[!UICONTROL 고급 항목 추가]**&#x200B;를 클릭합니다.
 
@@ -104,7 +109,7 @@ ht-degree: 4%
       <td><p>날짜를 표시할 방법을 선택하십시오.</p>
        <ul>
         <li><strong>[!UICONTROL Single Date]</strong>: 캘린더에 개체가 단일 날짜에 표시됩니다.</li>
-        <li><strong>[!UICONTROL Duration](시작~끝)</strong>: 일정에서 일 범위에 걸쳐 개체를 표시합니다.<br><p>참고: <strong>[!UICONTROL Duration]</strong>을(를) 선택하는 경우 지정된 종료 날짜는 시작 날짜 이후여야 합니다. 그렇지 않으면 캘린더에 항목이 표시되지 않습니다.</p></li>
+        <li><strong>[!UICONTROL Duration] (시작~끝)</strong>: 일정에서 일 범위에 걸쳐 개체를 표시합니다.<br><p>참고: <strong>[!UICONTROL Duration]</strong>을(를) 선택하는 경우 지정된 종료 날짜는 시작 날짜 이후여야 합니다. 그렇지 않으면 캘린더에 항목이 표시되지 않습니다.</p></li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">

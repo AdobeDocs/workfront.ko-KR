@@ -9,10 +9,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cdf269c6-39b1-477a-b9ea-03edf2de77f0
 TQID: https://experienceleague.adobe.com/CzFfPMeC-BD9J7HST1VABarz08O1ZuS8-TVvZHUWhZ8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 434
@@ -41,7 +45,7 @@ ht-degree: 0%
 기본적으로 시스템 관리자는 샌드박스 미리보기 환경에 액세스할 수 있습니다. 이 섹션에 설명된 대로 샌드박스 미리보기 환경에 액세스할 수 없는 경우 [!DNL Workfront] 관리자 또는 지원 팀에 문의하십시오.
 
 * [독립 실행형 샌드박스 미리 보기 액세스 [!DNL Workfront Proof] 고객](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
-* [ [!DNL Workfront]+[!DNL Workfront Proof] 고객으로 샌드박스 미리 보기 액세스](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
+* [&#x200B; [!DNL Workfront]+[!DNL Workfront Proof] 고객으로 샌드박스 미리 보기 액세스](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
 
 ### 독립 실행형 [!DNL Workfront Proof] 고객으로 미리 보기 샌드박스에 액세스
 
