@@ -5,11 +5,17 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ZiRTszrV8GYwr0GIM523WXP7Qk6zfRRsMjVLJ3PZRZg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: 2730
 ht-degree: 0%
 
 ---
@@ -206,7 +212,7 @@ Adobe Workfront Classic에서 모든 Flash 기반 도구를 제거했습니다.
      <li> <p><strong>분석 단계의 경우:</strong> </p> 
       <ul> 
        <li> <p><strong>업무 균형자</strong>: 업무 균형자를 사용하여 사용자의 업무 부하를 더 세분화된 수준으로 봅니다. 업무 균형자 를 사용할 때 어느 사용자가 업무 균형자에서 제 시간에 작업을 완료할 수 있는지 확인할 수 있습니다. 여기에는 휴무와 일정 예외 세부 사항이 포함됩니다. </p> <p>업무 균형자에 대한 자세한 내용은 <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">업무 균형자 개요</a>를 참조하십시오.</p> </li> 
-       <li> <p><strong>리소스 플래너의 사용자 보기</strong><strong>:</strong> 사용자가 할당된 프로젝트를 더 높은 수준에서 이해하려 할 때 리소스 플래너의 사용자 보기를 사용하십시오. 이를 통해 작업 중인 사용자와 특정 시간대에 초과 및 과소 할당을 확인할 수 있습니다. 리소스 플래너는 또한 전체적으로 사용자의 전체 할당에 대한 시각화를 제공하고, 기록된 실제 시간에 대한 가시성을 제공하므로 수행된 작업의 진행 상황을 분석하는 데 도움이 됩니다. </p> <p>리소스 플래너에서 사용자 보기를 사용하는 방법에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">사용자 보기를 사용하여 </a>리소스 플래너 개요<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">에서 사용 가능한 시간, 계획된 시간 및 실제 시간 또는 FTE </a> 섹션을 참조하십시오.</p> </li> 
+       <li> <p><strong>리소스 플래너의 사용자 보기</strong><strong>:</strong> 사용자가 할당된 프로젝트를 더 높은 수준에서 이해하려 할 때 리소스 플래너의 사용자 보기를 사용하십시오. 이를 통해 작업 중인 사용자와 특정 시간대에 초과 및 과소 할당을 확인할 수 있습니다. 리소스 플래너는 또한 전체적으로 사용자의 전체 할당에 대한 시각화를 제공하고, 기록된 실제 시간에 대한 가시성을 제공하므로 수행된 작업의 진행 상황을 분석하는 데 도움이 됩니다. </p> <p>리소스 플래너에서 사용자 보기를 사용하는 방법에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">사용자 보기를 사용하여 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">리소스 플래너 개요</a>에서 사용 가능한 시간, 계획된 시간 및 실제 시간 또는 FTE </a> 섹션을 참조하십시오.</p> </li> 
       </ul> </li> 
      <li><strong>전술 단계:</strong>의 경우 
       <ul> 

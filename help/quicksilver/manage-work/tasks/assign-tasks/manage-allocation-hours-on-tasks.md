@@ -6,11 +6,17 @@ description: 작업에 사용자 또는 역할을 할당할 때 작업을 완료
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+TQID: https://experienceleague.adobe.com/Jx-D1MY9dopkps0UqnE7Mgu4vlYevFjzRjRGWXDaWQQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: 559
 ht-degree: 4%
 
 ---
@@ -85,7 +91,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 >[!IMPORTANT]
 >
->작업에 대한 각 할당에 대한 할당을 수동으로 수정하면 작업의 계획된 시간이 그에 따라 업데이트될 수 있습니다. 자세한 내용은 문서 [계획된 시간 개요](../../../manage-work/tasks/task-information/planned-hours.md#update)에서 [사용자 할당을 관리할 때 작업 계획된 시간 업데이트](../../../manage-work/tasks/task-information/planned-hours.md) 섹션을 참조하십시오.
+>작업에 대한 각 할당에 대한 할당을 수동으로 수정하면 작업의 계획된 시간이 그에 따라 업데이트될 수 있습니다. 자세한 내용은 문서 [계획된 시간 개요](../../../manage-work/tasks/task-information/planned-hours.md)에서 [사용자 할당을 관리할 때 작업 계획된 시간 업데이트](../../../manage-work/tasks/task-information/planned-hours.md#update) 섹션을 참조하십시오.
 
 * 작업에 할당된 개별 리소스에 할당된 총 시간은 작업의 계획된 시간을 나타냅니다.
 * 작업에 한 명의 사용자 또는 역할이 할당된 경우 해당 사용자 또는 역할에 할당된 시간이 작업의 계획된 시간과 일치합니다.

@@ -6,11 +6,17 @@ description: 포트폴리오 내에서 탐색
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: 660
 ht-degree: 2%
 
 ---
@@ -133,7 +139,7 @@ Old:
      필터 만들기에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
 
-1. 왼쪽 패널의 **[!UICONTROL 프로그램]**&#x200B;을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
+1. 왼쪽 패널의 **[!UICONTROL 프로그램]**을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
 프로그램에 대한 자세한 내용은 [프로그램 만들기 및 관리](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) 섹션을 참조하십시오.
 
 1. (선택 사항) 왼쪽 패널에서 **[!UICONTROL Portfolio 세부 정보]** 영역을 확장한 다음 **[!UICONTROL 개요]** 또는 **[!UICONTROL 사용자 지정 Forms]**&#x200B;를 클릭하여 포트폴리오에 대한 정보를 편집합니다.

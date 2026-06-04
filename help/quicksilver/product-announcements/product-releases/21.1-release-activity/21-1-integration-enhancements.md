@@ -8,9 +8,13 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 0cd407f6-2593-4de8-9456-c26ba231e482
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+TQID: https://experienceleague.adobe.com/fl-BzJ--JWaqu0Y9lZ5Ri-1cCA59VOrkPiZt8YBE4wI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: 234
 ht-degree: 0%
 
 ---
@@ -23,13 +27,13 @@ ht-degree: 0%
 
 ## Microsoft Teams의 Adobe Workfront 알림 개선 사항
 
-Microsoft Teams을 통해 Workfront을 더 쉽게 사용할 수 있도록 Workfront에서 전송된 Microsoft Teams 알림에 다음과 같은 새로운 기능이 추가되었습니다.
+Microsoft Teams을 통해 Workfront을 더 쉽게 사용할 수 있도록 Workfront에서 보낸 Microsoft Teams 알림에 다음과 같은 새로운 기능을 추가했습니다.
 
 * Microsoft Teams에서 수신할 수 있는 알림 유형을 확장했습니다. 이제 타임시트에 누군가 댓글을 달거나 문서 승인을 원하는 경우와 같이 보다 다양한 이벤트에 대한 알림을 받을 수 있습니다.
 * 이제 알림에서 댓글을 달거나 직접 답글을 달 수 있습니다. 댓글과 답글은 작업 항목의 업데이트 스트림에 Workfront에 표시됩니다.
 * 알림에서 작업 항목의 사용자 정의 양식을 보고 사용자 정의 양식을 확장하여 해당 필드를 볼 수 있습니다.
 
-이 새로운 기능을 이용하려면 Microsoft Teams 계정에 다시 로그인해야 합니다. 다른 조치는 취하지 않으셔도 됩니다
+이 새로운 기능을 활용하려면 Microsoft Teams 계정에 다시 로그인해야 합니다. 다른 조치는 취하지 않으셔도 됩니다
 
 자세한 내용은 [Microsoft Teams에서 Adobe Workfront 알림 관리](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)를 참조하십시오.
 

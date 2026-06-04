@@ -8,9 +8,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+TQID: https://experienceleague.adobe.com/R3wSSgj2kfPhGFa2qga9vWBdk0HKouiIDjXP7QzeLUc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c10f2e93-7a58-4212-aa24-684c265ebe76id: c33d85a1-be85-4290-854c-87408c10aa80id: c3a155b4-a54b-4a82-a3d2-c8f0f971673eid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '5545'
+source-wordcount: 5714
 ht-degree: 0%
 
 ---
@@ -348,7 +354,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">XD용 Adobe Workfront 소개</a> </p> <p>새로운 플러그인인 Adobe Workfront for XD의 출시를 발표하게 되어 매우 기쁘게 생각합니다. 이 플러그인을 사용하면 XD을 종료하지 않고도 작업 항목 세부 정보에 액세스하고, 업데이트 영역에서 동료와 공동 작업하고, 검토를 위해 증명을 제출할 수 있습니다. 지금 Adobe XD 마켓플레이스로 이동하여 플러그인을 다운로드하십시오.</p> </td> 
+   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">XD용 Adobe Workfront 소개</a> </p> <p>새로운 플러그인의 출시를 발표하게 되어 기쁩니다. Adobe Workfront for XD. 이 플러그인을 사용하면 XD을 종료하지 않고도 작업 항목 세부 정보에 액세스하고, 업데이트 영역에서 동료와 공동 작업하고, 검토를 위해 증명을 제출할 수 있습니다. 지금 Adobe XD 마켓플레이스로 이동하여 플러그인을 다운로드하십시오.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> <p>Beta 미리보기 릴리스: 2021년 4월 27일<br></p> <p>프로덕션 릴리스: 2021년 4월 27일</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -373,7 +379,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>허용 목록에 추가하다 <a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#email" class="MCXref xref" xrefformat="{para}">전자 메일 유효성 검사</a> </p> <p>이메일 주소를 사용하는 경우 이제 허용 목록에 추가하다허용 목록에 추가하다 에 대해 새 사용자 이메일과 업데이트된 사용자 이메일이 확인됩니다. 새 사용자를 추가하거나 기존 사용자를 편집하고 허용 목록에 추가하다에 없는 이메일 도메인을 입력하면 사용자가 이메일 메시지를 받지 못한다는 메시지가 표시됩니다. 허용 목록에 추가하다 사용자 프로필을 저장할 수 있지만 사용자가 이메일을 수신할 수 있도록 도메인에 도메인을 추가해야 합니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#email" class="MCXref xref" xrefformat="{para}">전자 메일 유효성 검사</a> </p> <p>이메일 주소를 사용하는 경우 이제 허용 목록에 추가하다에 대해 새 사용자 이메일과 업데이트된 사용자 이메일이 확인됩니다. 새 사용자를 추가하거나 기존 사용자를 편집하고 허용 목록에 추가하다에 없는 이메일 도메인을 입력하면 사용자가 이메일 메시지를 받지 못한다는 메시지가 표시됩니다. 사용자 프로필을 저장할 수 있지만 사용자가 이메일을 수신할 수 있도록 도메인에 도메인을 추가해야 합니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> <p>Beta 미리보기 릴리스: 2021년 4월 22일<br></p> <p>프로덕션 릴리스: 21.2 릴리스 포함</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

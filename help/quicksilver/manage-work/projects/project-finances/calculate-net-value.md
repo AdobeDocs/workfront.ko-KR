@@ -7,9 +7,15 @@ description: 프로젝트의 순 가치(Net Value)는 프로젝트의 편익을 
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/Bj8-Lz2cRE0HeMF7xGryTucaqddQW25DzyPpbzWQR94
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 402
 ht-degree: 1%
 
 ---
@@ -29,7 +35,7 @@ Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
 다음 필드는 프로젝트의 순 가치에 영향을 줄 수 있습니다.
 
 * **계획된 이익**: 비즈니스 사례의 **프로젝트 정보** 영역을 완료할 때 프로젝트 소유자가 지정한 수동 항목입니다.\
-  프로젝트의 계획된 혜택에 대한 자세한 내용은 문서 [비즈니스 사례 영역 개요](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info)의 [프로젝트 정보](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) 섹션을 참조하십시오.
+  프로젝트의 계획된 혜택에 대한 자세한 내용은 문서 [비즈니스 사례 영역 개요](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)의 [프로젝트 정보](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) 섹션을 참조하십시오.
 
 * **예산 비용**: 프로젝트를 처음 시작할 때 예상한 프로젝트와 관련된 총 비용입니다.
 

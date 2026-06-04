@@ -6,9 +6,12 @@ description: 유지 관리 기간은 Workfront에서 인프라 및 기타 플랫
 author: Luke
 feature: Product Announcements
 exl-id: d0b811d3-94e7-4062-83ce-080fefb56055
-source-git-commit: 31b62fd665040c1ca91c5ab1afbee0b72b0af268
+TQID: https://experienceleague.adobe.com/iKvCyL9B4YEQ56k0py93f1rf6v4K-O2t6gdhP0DI88s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: 203
 ht-degree: 1%
 
 ---
@@ -19,7 +22,7 @@ ht-degree: 1%
 
 유지 관리 기간은 Workfront에서 인프라 및 기타 플랫폼 관련 문제를 업데이트하기 위해 예약한 시간 블록입니다. 경우에 따라 샌드박스 환경이 유지 관리에 포함됩니다.
 
-Workfront은 가능한 한 업무 중단을 최소화하기 위해 노력하고 있습니다. 유지 관리가 필요한 경우 [status.adobe.com](https://status.adobe.com/ko-kr/)의 Workfront 상태 사이트에서 유지 관리를 예약하여 발표합니다.
+Workfront은 가능한 한 업무 중단을 최소화하기 위해 노력하고 있습니다. 유지 관리가 필요한 경우 [status.adobe.com](https://status.adobe.com/)의 Workfront 상태 사이트에서 유지 관리를 예약하여 발표합니다.
 
 ## Workfront 유지 관리 기간은 언제입니까?
 
@@ -27,6 +30,6 @@ Workfront은 가능한 한 업무 중단을 최소화하기 위해 노력하고 
 
 ## 예약된 유지 관리 전에 알림을 받을 수 있습니까?
 
-Workfront Status 사이트([status.adobe.com](https://status.adobe.com/ko-kr/))를 구독하면 계획된 유지 관리에 대한 고급 알림을 받을 수 있습니다. Workfront Status 사이트는 이벤트가 시작되기 최소 3일 전에 유지 관리를 공지합니다. 긴급 상황이 발생하면 사전 고지가 적을 수 있다.
+Workfront 상태 사이트([status.adobe.com](https://status.adobe.com/))를 구독하면 계획된 유지 관리에 대한 고급 알림을 받을 수 있습니다. Workfront 상태 사이트에서는 이벤트 최소 3일 전에 유지 관리를 발표합니다. 긴급 상황이 발생하면 사전 고지가 적을 수 있다.
 
-유지 관리 및 추세 문제에 대한 상태 업데이트를 받는 방법에 대한 자세한 내용은 문서 [Adobe Workfront 상태 사이트](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md#managing-your-subscription)에서 [구독 또는 관리](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)를 참조하십시오.
+유지 관리 및 추세 문제에 대한 상태 업데이트를 받는 방법에 대한 자세한 내용은 문서 [Adobe Workfront 상태 사이트](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)에서 [구독 또는 관리](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md#managing-your-subscription)를 참조하십시오.

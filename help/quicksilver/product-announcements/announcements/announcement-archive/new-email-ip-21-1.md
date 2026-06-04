@@ -2,13 +2,18 @@
 content-type: reference
 navigation-topic: announcements
 title: 21.1 릴리스가 포함된 Adobe Workfront 이메일의 새 IP 주소
-description: 성공적인 이메일 전달을 높이기 위해 아래 나열된 클러스터에 대한 21.1 프로덕션 릴리스를 통해 새 IP 주소를 추가하고 있습니다. 인스턴스인 클러스터를 확인하려면 Setup &gt; System &gt; Customer Info로 이동합니다.
+description: 성공적인 이메일 전달을 높이기 위해 아래 나열된 클러스터에 대한 21.1 프로덕션 릴리스를 통해 새 IP 주소를 추가하고 있습니다. 인스턴스인 클러스터를 확인하려면 Setup > System > Customer Info로 이동합니다.
 author: Luke
 feature: Product Announcements
 exl-id: b29c8de0-b405-4419-b52e-2d5536bc7f63
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/-KslmXDeh9YgnBSS-gcvtkDT2fQFrVmyKtbhPpZMxaI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: 231
 ht-degree: 0%
 
 ---
@@ -33,7 +38,7 @@ ht-degree: 0%
 * 23.251.239.98
 * 23.251.239.99
 
-(허용 목록에 추가하다 및 다른 IP 주소에 대한 추가 정보는 허용 목록에 추가하다허용 목록에 추가하다 에 이미 추가되었을 수 있으므로 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.)
+(허용 목록에 추가하다 및 다른 IP 주소에 대한 추가 정보는 허용 목록에 추가하다에 이미 추가되었을 수 있으므로 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.)
 
 이 작업을 언제 수행해야 합니까?
 

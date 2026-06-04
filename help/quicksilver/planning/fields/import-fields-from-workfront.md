@@ -6,12 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/uyoOkZ9Yd48O9Sur9YMal4cBZD9e45bTbwc6TQ2fAds
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 8%
+source-wordcount: 597
+ht-degree: 9%
 
 ---
 
@@ -208,7 +214,7 @@ Old:
 
    * 오브젝트 유형: 가져올 필드의 Workfront 오브젝트 유형을 선택합니다.
    * 사용자 정의 양식: Workfront에서 하나 또는 여러 사용자 정의 양식을 선택합니다. 먼저 오브젝트 유형을 선택하지 않고 사용자 정의 양식을 선택할 수 있습니다.
-1. **+**&#x200B;을 클릭한 다음 **필드 추가**&#x200B;를 클릭합니다.
+1. **+**&#x200B;을 클릭한 다음 **필드 추가**를 클릭합니다.
 필드는 표 보기 및 레코드의 세부 사항 페이지에 추가됩니다.
 
    >[!IMPORTANT]

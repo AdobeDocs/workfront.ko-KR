@@ -7,9 +7,14 @@ description: 종속성 유형 은 작업 간의 전임 작업 관계를 나타�
 author: Alina
 feature: Work Management
 exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+TQID: https://experienceleague.adobe.com/AioKERGt0FLv1eBE5-evwa2d35fItwknWI-ZouBECSo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: 322
 ht-degree: 0%
 
 ---
@@ -38,5 +43,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->종속성 유형에 대한 약자는 작업 목록에서 전임 작업 관계를 정의하는 데 사용됩니다. 자세한 내용은 [작업 전임 작업 개요](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list)의 [작업 목록에 있는 전임 작업 값의 예](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md)를 참조하십시오.
+>종속성 유형에 대한 약자는 작업 목록에서 전임 작업 관계를 정의하는 데 사용됩니다. 자세한 내용은 [작업 전임 작업 개요](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md)의 [작업 목록에 있는 전임 작업 값의 예](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list)를 참조하십시오.
 

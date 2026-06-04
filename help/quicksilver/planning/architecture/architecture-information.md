@@ -6,19 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+TQID: https://experienceleague.adobe.com/EQBOcWZ90EDMHab3XDXJDwNN97-b019ciwr2srvCvrQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: 235
+ht-degree: 9%
 
 ---
-
 
 # 아키텍처: 문서 인덱스
 
 {{planning-important-intro}}
 
-마케팅 운영 리더로서 Adobe Workfront Planning을 사용하여 모든 팀의 마케팅 라이프사이클 전반에서 작업을 구성할 수 있습니다.
+마케팅 운영 리더로서 Adobe Workfront 계획 수립을 사용하여 모든 팀의 마케팅 라이프사이클 전반에 걸쳐 작업을 구성할 수 있습니다.
 
 Workfront Planning을 사용하면 조직에서 사용하는 개체 유형(또는 레코드 유형)을 결정하는 것부터 이러한 개체가 서로 연결되는 방법을 구성하는 것까지 워크플로를 완전히 사용자 정의할 수 있습니다.
 

@@ -6,9 +6,13 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/h42aq8ShyeC-mZrt8JlpHYFGfgml9HQ2vWHI0-Op-io
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: 965
 ht-degree: 2%
 
 ---
@@ -112,7 +116,7 @@ ht-degree: 2%
 
 ### 피드백을 받고 싶습니다!
 
-이 공개 Beta 사용자에게는 피드백 버튼을 클릭하여 필터 경험을 작업하는 팀에 직접 피드백을 제출할 수 있는 기회가 제공됩니다. 공개 Beta의 새로운 필터 경험에 대해 귀하와 귀하의 사용자로부터 답변을 기다리겠습니다. 귀하의 팀이 추가 피드백을 제공하기 위해 제품을 직접 만나고 싶은 경우, https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25에서 언제든지 회의를 예약하십시오.
+이 공개 Beta 사용자에게는 피드백 버튼을 클릭하여 필터 경험을 작업하는 팀에 직접 피드백을 제출할 수 있는 기회가 제공됩니다. 공개 Beta의 새로운 필터 경험에 대해 귀하와 귀하의 사용자로부터 답변을 기다리겠습니다. 귀하의 팀이 추가 피드백을 제공하기 위해 제품을 직접 만나고 싶은 경우, https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25에서 언제든지 회의를 예약하십시오.
 
 ### 다음은 무엇입니까?
 

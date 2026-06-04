@@ -6,10 +6,15 @@ description: Adobe Workfront이 20.3 릴리스(2020년 8월 목표)를 사용하
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/eOFRSbJicMbYHqq74-O9VW0c73RDQmAC-OIkLX-FKFw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: 319
+ht-degree: 1%
 
 ---
 
@@ -31,4 +36,4 @@ Adobe Workfront이 20.3 릴리스(2020년 8월 목표)를 사용하여 이메일
 
 Workfront Proof 시스템에서 직접 전송되는 이메일은 변경되지 않습니다. 이전과 마찬가지로 해당 이메일을 계속 수신하게 됩니다.
 
-다른 질문이 있거나 문제가 있는 경우 [Workfront 지원 팀](https://experienceleague.adobe.com/ko?support-tab=home#support)에 문의하십시오.
+다른 질문이 있거나 문제가 있는 경우 [Workfront 지원 팀](https://experienceleague.adobe.com/?support-tab=home#support)에 문의하십시오.

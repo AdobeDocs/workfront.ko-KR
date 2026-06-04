@@ -7,11 +7,17 @@ description: 프로젝트의 중요 경로를 결정하는 것은 Adobe Workfron
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/5ng4Rg7k0qQYBU5dWT-dxSqaOJRGs4-hP5j9-k3EDkk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: 696
 ht-degree: 3%
 
 ---
@@ -40,7 +46,7 @@ ht-degree: 3%
      >작업의 후속 작업 날짜가 종속 작업 또는 프로젝트 날짜에 직접 영향을 주지 않는 경우 후속 작업이 중요 경로에 없습니다.
      >
      >
-     >![중요 경로에 없는 후임 작업](assets/successor-not-on-critical-path-350x150.png)     >
+     >![중요 경로에 없는 후임 작업](assets/successor-not-on-critical-path-350x150.png) >
      >
 
    * 하위 작업이 중요 경로 작업으로 식별되는 경우, 예상 시작 일자와 상위 작업의 시간이 하위 작업의 시간과 동일한 경우, 상위 작업도 중요 경로 작업으로 식별됩니다.

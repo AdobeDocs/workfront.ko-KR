@@ -6,11 +6,17 @@ description: 프로젝트 요청은 Adobe Workfront에서 [!UICONTROL 요청됨]
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/TedrcHAXyGEp4suJFPRv5p-kgXdFzyKr9h5Vqp4q3E8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c10f2e93-7a58-4212-aa24-684c265ebe76id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: 429
 ht-degree: 3%
 
 ---
@@ -19,7 +25,7 @@ ht-degree: 3%
 
 <!--Audited: 10/2025-->
 
-검토를 위해 여러 개의 프로젝트 요청이 제출되면 프로젝트 관리 사무소나 포트폴리오 위원회는 제출된 요청을 검토하고 프로젝트 요청 승인을 결정할 수 있습니다. 프로젝트 요청은 [!UICONTROL 에서 &#x200B;]요청됨[!DNL Adobe Workfront] 상태의 프로젝트로 표시됩니다.
+검토를 위해 여러 개의 프로젝트 요청이 제출되면 프로젝트 관리 사무소나 포트폴리오 위원회는 제출된 요청을 검토하고 프로젝트 요청 승인을 결정할 수 있습니다. 프로젝트 요청은 [!DNL Adobe Workfront]에서 [!UICONTROL 요청됨] 상태의 프로젝트로 표시됩니다.
 
 다음 중 하나를 수행하여 검토를 위해 프로젝트 요청을 제출할 수 있습니다.
 
@@ -95,7 +101,7 @@ Old:
 
 프로젝트에 대한 보고서를 작성하여 상태가 [!UICONTROL 요청됨]인 프로젝트를 확인할 수 있습니다.
 
-프로젝트 보고서를 작성하여 프로젝트 요청을 승인하는 방법에 대한 자세한 내용은 [[!UICONTROL 비즈니스 사례 승인]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)의 [프로젝트 보고서를 작성하여 비즈니스 사례 승인](../../../manage-work/projects/define-a-business-case/approve-business-case.md) 섹션을 참조하십시오.
+프로젝트 보고서를 작성하여 프로젝트 요청을 승인하는 방법에 대한 자세한 내용은 [비즈니스 사례 승인](../../../manage-work/projects/define-a-business-case/approve-business-case.md)의 [[!UICONTROL 프로젝트 보고서를 작성하여 비즈니스 사례 승인]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) 섹션을 참조하십시오.
 
 ## 포트폴리오 내에서 요청된 프로젝트 검토
 
@@ -113,7 +119,7 @@ Old:
 1. 왼쪽 패널에서 **[!UICONTROL 프로젝트 세부 정보]**&#x200B;를 클릭합니다.
 1. 다음 중 하나를 수행합니다.
 
-   * **[!UICONTROL 비즈니스 사례]**&#x200B;를 클릭한 다음 **[!UICONTROL 비즈니스 사례 요약]** 영역에서 **[!UICONTROL 승인]** 또는 [!UICONTROL 거부]를 클릭하여 비즈니스 사례를 승인하거나 거부합니다.
+   * **[!UICONTROL 비즈니스 사례]**&#x200B;를 클릭한 다음 [!UICONTROL 비즈니스 사례 요약] 영역에서 **[!UICONTROL 승인]** 또는 **[!UICONTROL 거부]**&#x200B;를 클릭하여 비즈니스 사례를 승인하거나 거부합니다.
 
      ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
 

@@ -7,11 +7,17 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: daaa13d5a3ebbd249f0093181ee7834f9db43fdb
+TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3457'
+source-wordcount: 3340
 ht-degree: 0%
 
 ---
@@ -106,7 +112,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!TIP]
    >
-   >작업 목록에서 직접 고급 할당을 수행할 수 있습니다. 작업과 같은 줄에 있는 **할당** 필드 내부를 클릭한 다음 목록의 맨 아래에 있는 **고급** 또는 할당 상자의 오른쪽 위 모서리에 있는 **사람 아이콘**&#x200B;을 클릭하여 고급 할당 창을 엽니다. 5단계로 건너뛰고 고급 할당을 계속 작성합니다.
+   >작업 목록에서 직접 고급 할당을 수행할 수 있습니다. 작업과 같은 줄에 있는 **할당** 필드 내부를 클릭한 다음 목록의 맨 아래에 있는 **고급** 또는 할당 상자의 오른쪽 위 모서리에 있는 **사람 아이콘**을 클릭하여 고급 할당 창을 엽니다. 5단계로 건너뛰고 고급 할당을 계속 작성합니다.
    >![고급 또는 인물 아이콘을 클릭합니다](assets/access-aa-from-lists.png)
 
 1. 작업 헤더의 **할당** 필드에서 **할당 대상**&#x200B;을 클릭합니다
@@ -190,7 +196,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!IMPORTANT]
    >
-   >Workfront 관리자 또는 그룹 관리자가 프로젝트 환경 설정을 설정하는 방법에 따라 Workfront은 작업에 여러 명의 사용자를 할당한 경우 작업 소유자의 일정을 사용하여 작업의 타임라인을 계산할 수 있습니다. 여러 작업 할당자에 대한 자세한 내용은 [작업 할당](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users) 문서의 [작업 역할, 팀 및 사용자에 대한 여러 할당 고려 사항](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 섹션을 참조하십시오.
+   >Workfront 관리자 또는 그룹 관리자가 프로젝트 환경 설정을 설정하는 방법에 따라 Workfront은 작업에 여러 명의 사용자를 할당한 경우 작업 소유자의 일정을 사용하여 작업의 타임라인을 계산할 수 있습니다. 여러 작업 할당자에 대한 자세한 내용은 [작업 할당](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 문서의 [작업 역할, 팀 및 사용자에 대한 여러 할당 고려 사항](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users) 섹션을 참조하십시오.
 
 1. **피할당자** 열의 각 사용자에 대해 다음 정보를 지정하십시오.
 
@@ -208,7 +214,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
      >[!TIP]
      >
-     >작업에 대한 할당 할당을 수동으로 수정한 후 작업의 계획된 시간이 그에 따라 업데이트될 수 있습니다. 작업에 할당된 팀의 할당은 수동으로 수정할 수 없습니다. 자세한 내용은 문서 [계획된 시간 개요](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations)에서 [사용자 할당을 관리할 때 작업 계획된 시간 업데이트](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md) 섹션을 참조하십시오.
+     >작업에 대한 할당 할당을 수동으로 수정한 후 작업의 계획된 시간이 그에 따라 업데이트될 수 있습니다. 작업에 할당된 팀의 할당은 수동으로 수정할 수 없습니다. 자세한 내용은 문서 [계획된 시간 개요](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md)에서 [사용자 할당을 관리할 때 작업 계획된 시간 업데이트](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations) 섹션을 참조하십시오.
 
    * **특성**: 사용자가 사용할 수 있는 모든 특성이 특성 필드에 표시됩니다. 관리자가 속성을 설정하고 속성을 사용자 프로필에 추가하거나 비율 카드의 작업 역할과 연관시킵니다. 자세한 내용은 [비율 특성 정의](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) 및 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
@@ -324,7 +330,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!TIP]
    >
-   >작업 또는 문제 목록에서 직접 고급 할당을 수행할 수 있습니다. 작업 또는 문제와 같은 줄에 있는 **할당** 필드 내부를 클릭한 다음, 목록의 맨 아래에 있는 **고급** 또는 할당 상자의 오른쪽 위 모서리에 있는 **사람 아이콘**&#x200B;을 클릭하여 고급 할당 창을 엽니다. 5단계로 건너뛰고 고급 할당을 계속 작성합니다.
+   >작업 또는 문제 목록에서 직접 고급 할당을 수행할 수 있습니다. 작업 또는 문제와 같은 줄에 있는 **할당** 필드 내부를 클릭한 다음, 목록의 맨 아래에 있는 **고급** 또는 할당 상자의 오른쪽 위 모서리에 있는 **사람 아이콘**을 클릭하여 고급 할당 창을 엽니다. 5단계로 건너뛰고 고급 할당을 계속 작성합니다.
    >![고급 또는 인물 아이콘을 클릭합니다](assets/access-aa-from-lists.png)
 
 1. 작업 또는 문제의 헤더에 있는 **할당** 필드에서 **할당 대상**&#x200B;을 클릭합니다
@@ -366,13 +372,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
      >[!IMPORTANT]
      >
-     >Workfront 관리자 또는 그룹 관리자가 프로젝트 환경 설정을 설정하는 방법에 따라 Workfront은 작업에 여러 명의 사용자를 할당한 경우 작업 소유자의 일정을 사용하여 작업의 타임라인을 계산할 수 있습니다. 여러 작업 할당자에 대한 자세한 내용은 [작업 할당](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users) 문서의 [작업 역할, 팀 및 사용자에 대한 여러 할당 고려 사항](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 섹션을 참조하십시오.
+     >Workfront 관리자 또는 그룹 관리자가 프로젝트 환경 설정을 설정하는 방법에 따라 Workfront은 작업에 여러 명의 사용자를 할당한 경우 작업 소유자의 일정을 사용하여 작업의 타임라인을 계산할 수 있습니다. 여러 작업 할당자에 대한 자세한 내용은 [작업 할당](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 문서의 [작업 역할, 팀 및 사용자에 대한 여러 할당 고려 사항](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users) 섹션을 참조하십시오.
 
    * **할당**: 작업의 기간 유형이 간단한 경우 각 사용자 또는 작업 역할이 작업에 할당되어야 하는 시간을 지정합니다. 각 사용자에 대해 할당된 모든 시간의 합계는 [할당] 열의 맨 아래에 있는 **계획된 시간** 필드의 숫자와 같습니다. 다른 모든 경우에는 할당자가 작업 또는 문제를 해결하는 데 소비할 시간(또는 할당)의 백분율을 지정합니다.
 
      >[!TIP]
      >   
-     >   * 작업에 대한 할당 할당을 수동으로 수정한 후 작업의 계획된 시간이 그에 따라 업데이트될 수 있습니다. 자세한 내용은 문서 [계획된 시간 개요](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations)에서 [사용자 할당을 관리할 때 작업 계획된 시간 업데이트](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md) 섹션을 참조하십시오.
+     >   * 작업에 대한 할당 할당을 수동으로 수정한 후 작업의 계획된 시간이 그에 따라 업데이트될 수 있습니다. 자세한 내용은 문서 [계획된 시간 개요](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md)에서 [사용자 할당을 관리할 때 작업 계획된 시간 업데이트](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations) 섹션을 참조하십시오.
      >   * 문제에 대한 할당 할당을 수동으로 수정할 수 없습니다.
      >   * 작업에 할당된 팀의 할당은 수동으로 수정할 수 없습니다.
 

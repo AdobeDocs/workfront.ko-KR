@@ -6,11 +6,17 @@ description: 이 문서에서는 프로젝트에 대한 시스템 작업 역할 
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
+TQID: https://experienceleague.adobe.com/zCRX2XunBvSbVd0-pr0evZlpMftnDb8QjBxOvDL-djo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: 812
 ht-degree: 2%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 2%
 
 프로젝트의 작업 역할 청구 요율 재정의 및 프로젝트 수익 계산에 대한 일반 정보는 [프로젝트의 청구 요율 재정의 및 수익 계산 개요](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)를 참조하십시오.
 
-프로젝트의 수익을 계산하는 데 사용되는 작업 역할에 대한 자세한 내용은 [청구 및 수익 개요](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) 문서의 [수익 및 비용 계층 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) 및 [사용자 및 역할 할당에 따른 작업에 대한 수익 계산](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) 섹션을 참조하십시오.
+프로젝트의 수익을 계산하는 데 사용되는 작업 역할에 대한 자세한 내용은 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) 문서의 [수익 및 비용 계층 개요](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) 및 [사용자 및 역할 할당에 따른 작업에 대한 수익 계산](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) 섹션을 참조하십시오.
 
 >[!NOTE]
 >

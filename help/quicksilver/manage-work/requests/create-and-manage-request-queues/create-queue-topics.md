@@ -7,11 +7,17 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/SBPIFd6lCHfwvZgZ-7Qmjt8miUM6Sjz9iY7BADIpnLk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c10f2e93-7a58-4212-aa24-684c265ebe76id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: 972
 ht-degree: 4%
 
 ---
@@ -128,7 +134,7 @@ drafted - replace table with P&P:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>주제 그룹에 추가</strong> </td> 
-      <td> 프로젝트에 주제 그룹이 없는 경우 프로젝트 이름은 기본적으로 주제 그룹으로 설정됩니다.<br>여기에서 추가 주제 그룹을 만들려면 드롭다운 메뉴에서 <strong>새 주제 그룹 만들기</strong>를 선택하십시오.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td> 프로젝트에 주제 그룹이 없으면 프로젝트 이름이 주제 그룹으로 기본 설정됩니다.<br>여기에서 주제 그룹을 추가로 만들려면 드롭다운 메뉴에서 <strong>새 주제 그룹 만들기</strong>를 선택하십시오.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>사용자 정의 양식</strong> </td> 

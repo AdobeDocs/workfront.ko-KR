@@ -8,9 +8,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/MKm0PiSRhZmTgQEGSv7BnoZZKsEyxDoajFr3JHMEV14
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3659'
+source-wordcount: 3831
 ht-degree: 0%
 
 ---
@@ -105,11 +111,11 @@ For specific release dates and times for each cluster, see the
    <td><strong>다음 날짜에 사용 가능:</strong> <p>Beta 미리보기 릴리스: 2020년 12월 2일</p> <p>프로덕션 릴리스: 21.1 릴리스 <span style="color: #dc143c; font-weight: bold;">(요청을 제출할 때 현재 사용할 수 없음)</span></p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur2" class="MCXref xref" xrefformat="{para}">Workfront 허용 목록에 추가하다 전자 메일 구성</a> </p> <p>허용 목록에 추가하다 이제 데이터 보안을 강화하기 위해 이메일 도메인을 사용하여 다음을 수행할 수 있습니다.</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur2" class="MCXref xref" xrefformat="{para}">Workfront 전자 메일 구성</a> </p> <p>이제 데이터 보안을 강화하기 위해 이메일 도메인을 사용하여 다음을 수행할 수 있습니다.</p> 
     <ul> 
      <li> <p>Workfront에 저장된 보고서나 문서가 포함된 Workfront 이메일의 이동 경로 제어</p> </li> 
      <li> <p>제어 이메일 도메인은 사용자가 사용자 프로필에 지정할 수 있는 이메일 주소에 있을 수 있습니다</p> </li> 
-    </ul> <p>허용 목록에 추가하다 예를 들어, 위험 상태의 고객을 나열하는 보고서와 같은 중요한 데이터를 보호하려는 경우 이메일 도메인에 내부 이메일 또는 도메인만 포함할 수 있습니다. 이러한 방식으로 사용자는 해당 보고서(또는 다른 Workfront 보고서)를 외부 이메일 주소로 보낼 수 없습니다.</p> </td> 
+    </ul> <p>예를 들어, 위험 상태의 고객을 나열하는 보고서와 같은 중요한 데이터를 보호하려는 경우 이메일 도메인에 내부 이메일 또는 도메인만 포함할 수 있습니다. 이러한 방식으로 사용자는 해당 보고서(또는 다른 Workfront 보고서)를 외부 이메일 주소로 보낼 수 없습니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> <p>Beta 미리보기 릴리스: 2020년 11월 20일</p> <p>프로덕션 릴리스: 21.1 릴리스 포함 </p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront 클래식 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -268,7 +274,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
  </tbody> 
 </table>
-—&gt;
+--&gt;
 
 ### 기타 개선 사항 {#other-enhancements}
 
@@ -337,7 +343,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-새로운 기능 및 업데이트 내용은 [API 버전 12의 새로운 기능](https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)을 참조하세요.
+새로운 기능 및 업데이트 내용은 [API 버전 12의 새로운 기능](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)을 참조하세요.
 
 API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](../../../wf-api/api/api-version-support-schedule.md)을 참조하세요.
 
@@ -354,7 +360,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 ## 공지
 
 * [21.1 릴리스가 포함된 Workfront 전자 메일의 새 IP 주소](#new-ip-addresses-for-workfront-email-with-the-21-1-release)
-* 허용 목록에 추가하다 추가 IP 주소 [구독 중](#allowlist-of-additional-ip-addresses-for-event-subscriptions)
+* 추가 IP 주소 [구독 중](#allowlist-of-additional-ip-addresses-for-event-subscriptions)
 * Workfront 액세스 시 [추가 도메인 허용 목록](#allowlist-of-additional-domains-required-for-accessing-workfront)
 * [Flash 사용 중단](#flash-deprecation)
 * [21.1 릴리스 웨비나](#21-1-release-webinar)
@@ -377,12 +383,12 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 ### 에 액세스해야 하는 추가 Workfront 허용 목록 {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
-허용 목록에 추가하다 조직에서 방화벽을 사용하는 경우 Workfront에 대한 액세스가 중단되지 않도록 다음 추가 도메인을 도메인에 추가해야 합니다.
+조직에서 방화벽을 사용하는 경우 Workfront에 대한 액세스가 중단되지 않도록 다음 추가 도메인을 도메인에 추가해야 합니다.
 
 * event.split.io
 * sdk.split.io
 
-허용 목록에 추가하다 자세한 내용은 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
+자세한 내용은 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
 
 ### Flash 사용 중단 {#flash-deprecation}
 
@@ -392,7 +398,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 ### 21.1 릴리스 웨비나 {#21-1-release-webinar}
 
-Workfront 21.1 릴리스 웨비나는 2월 3일 오전 11시(EDT) / 오후 4시(BST)에 제공됩니다. 웨비나 [여기](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register)에 등록하십시오.
+Workfront 21.1 릴리스 웨비나는 2월 3일 오전 11시(EDT) / 오후 4:00시(BST)에 제공됩니다. :00웨비나 [여기](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register)에 등록하십시오.
 
 ### 미리보기 릴리스 케이던스 변경 {#change-in-preview-release-cadence}
 
@@ -404,4 +410,4 @@ Workfront 21.1 릴리스 웨비나는 2월 3일 오전 11시(EDT) / 오후 4시(
 
 Workfront One을 사용하면 한 번의 로그인으로 Workfront에서 가장 중요한 콘텐츠, 리소스 및 뉴스를 모두 한 곳에서 확인할 수 있습니다. Experience, Community 및 Training 사이트를 통합하여 원하는 항목을 보다 쉽게 찾을 수 있습니다.
 
-[Workfront One에 대해 자세히 알아보세요](https://business.adobe.com/kr/products/workfront.html).
+[Workfront One에 대해 자세히 알아보세요](https://business.adobe.com/products/workfront.html).

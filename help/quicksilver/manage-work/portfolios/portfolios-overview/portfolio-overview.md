@@ -7,11 +7,17 @@ description: Portfolio은 통합 특성이 있는 프로젝트 모음입니다. 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/mLs5mZiSsS-ApmxUkD08wiBUmMV5VKtoUB0u23gCeRA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 587
 ht-degree: 1%
 
 ---
@@ -140,4 +146,4 @@ Old:
 
    Portfolio 관리자는 Portfolio 대시보드를 사용하여 포트폴리오 내에서 재무 성과를 추적할 수 있습니다. 이 대시보드는 Portfolio의 헤더에 표시됩니다.
 
-   Portfolio의 재무 필드에 대한 자세한 내용은 [Portfolio Optimizer 개요](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection)의 [Portfolio Optimizer에서 재무 필드 이해](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) 섹션을 참조하십시오.
+   Portfolio의 재무 필드에 대한 자세한 내용은 [Portfolio Optimizer 개요](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)의 [Portfolio Optimizer에서 재무 필드 이해](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection) 섹션을 참조하십시오.

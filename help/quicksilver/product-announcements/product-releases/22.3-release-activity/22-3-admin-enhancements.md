@@ -2,13 +2,19 @@
 title: 22.3 관리자 개선 사항
 description: 22.3 관리자 개선 사항
 author: Luke
-draft: false
+draft: No
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/WCt-16lnZP57hwfKa2ejmA8-QyjQoFOEldI4TtjIdJk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: 781
 ht-degree: 1%
 
 ---
@@ -52,7 +58,7 @@ ht-degree: 1%
 
 ## 사용자 정의 양식에 PDF 파일 추가
 
-이미지 및 비디오와 같은 추가할 수 있는 새로운 에셋 위젯을 통해 사용자 정의 양식을 보다 시각적이고 유익하게 만들 수 있도록 지속적으로 지원하고 있습니다. 이제 사용자 정의 양식에 PDF 파일에 대한 링크를 추가할 수 있습니다. 양식이 오브젝트에 첨부되어 있으면 오브젝트와 함께 작업하는 사용자는 양식 내에서 PDF을 보고 상호 작용할 수 있습니다.
+이미지 및 비디오와 같은 추가할 수 있는 새로운 에셋 위젯을 통해 사용자 정의 양식을 보다 시각적이고 유익하게 만들 수 있도록 지속적으로 지원하고 있습니다. 이제 PDF 파일에 대한 링크를 사용자 정의 양식에 추가할 수 있습니다. 양식이 오브젝트에 첨부되어 있으면 오브젝트와 함께 작업하는 사용자는 양식 내에서 PDF을 보고 상호 작용할 수 있습니다.
 
 ## 사용자 정의 양식 필드 계산 편집기에 오류 정보 표시
 
