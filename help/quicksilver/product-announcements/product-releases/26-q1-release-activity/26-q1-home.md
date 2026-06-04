@@ -4,9 +4,17 @@ description: 2026년 1분기 홈 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
+exl-id: 8f86d1af-d981-470e-a83f-ac7789b596c2
+TQID: https://experienceleague.adobe.com/JrPOn7Nr6nAd-00-6ulqzF0VcdKkk8T7u-5eyJoH0I4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: 200
 ht-degree: 0%
 
 ---
@@ -21,9 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2025년 12월 17일
->프로덕션 빠른 릴리스: 2026년 1월 14일
->전체 프로덕션: 2026년 1월 15일
+>미리 보기: 2025년 12월 17일>프로덕션 빠른 릴리스: 2026년 1월 14일>모두를 위한 프로덕션: 2026년 1월 15일
 
 홈의 언급 위젯에 대한 다음과 같은 사항이 개선되었습니다.
 
@@ -32,4 +38,3 @@ ht-degree: 0%
 * 이제 언급 위젯에 지난 2주 동안 사용자가 작성하거나 태그 지정한 주석이 포함됩니다. 이 업데이트 이전에는 위젯에 할당된 작업 및 문제, 다른 사용자에게 할당한 문제, 소유한 문제, 기본 담당자였던 문제 또는 최근 30일 이내에 업데이트한 작업에 대한 댓글이 표시되었습니다.
 
 자세한 내용은 [홈 시작](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)을 참조하세요.
-

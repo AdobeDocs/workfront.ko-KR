@@ -6,11 +6,22 @@ description: 외부 웹 페이지를 대시보드에 포함하여 Adobe Workfron
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/G45Rx-nLjiBMHF--VNCwEjUqHZwLk3qjEP9WifRC29A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: 989
 ht-degree: 2%
 
 ---
@@ -106,7 +117,7 @@ ht-degree: 2%
 
 {{step1-to-dashboards}}
 
-1. 기존 대시보드를 편집하려면 웹 사이트 페이지를 포함할 대시보드를 선택한 다음 **대시보드 작업**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다
+1. 기존 대시보드를 편집하려면 웹 사이트 페이지를 포함할 대시보드를 선택한 다음 **대시보드 작업**&#x200B;을 클릭하고 **편집을 클릭합니다**
 또는\
    새 대시보드를 만들려면 **새 대시보드**&#x200B;를 클릭하세요.\
    대시보드를 만드는 방법에 대한 자세한 내용은 [대시보드 만들기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)를 참조하세요.

@@ -6,15 +6,26 @@ description: 보기에 액세스할 수 있는 모든 보고서를 실행할 수
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/zxwMrDMGuAfJXaPCdulM6NK8BP26hFmDOqD0x6H-5FY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 4%
+source-wordcount: 503
+ht-degree: 3%
 
 ---
-
 
 # 보고서 실행
 
@@ -94,7 +105,7 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
 
 * 보고서 설정을 편집하고 보고서를 저장합니다.
 * 보기, 그룹 또는 필터를 변경합니다.
-* **다시 로드 아이콘** ![다시 로드 아이콘](assets/unshimmed-report-refresh-icon.png)을 클릭합니다
+* **다시 로드 아이콘** ![다시 로드 아이콘 클릭](assets/unshimmed-report-refresh-icon.png)
 이 옵션은 보고서가 저장된 시간을 나타내는 메시지 상자 내의 페이지 오른쪽 상단 모서리에서 사용하거나 보고서가 배치된 대시보드의 오른쪽 상단 모서리에서 사용할 수 있습니다. 대시보드를 다시 로드하는 방법에 대한 자세한 내용은 문서 [대시보드 시작](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)에서 &quot;대시보드 표시&quot; 섹션을 참조하십시오.
 
 * 요약, 매트릭스 또는 차트 탭으로 이동하여 첫 번째 페이지 이외의 보고서 페이지에 액세스합니다.

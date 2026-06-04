@@ -7,11 +7,21 @@ description: 3자 키 NST를 사용하여 Group A에 작업 상태를 New Status
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/qOu5WArxekdKKXAswMAtapaOHX36J9vGMpUom614lvE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: 479
 ht-degree: 3%
 
 ---
@@ -20,7 +30,7 @@ ht-degree: 3%
 
 <!--Audited: 10/2024-->
 
-3자리 키 *NST*&#x200B;을(를) 사용하여 *새 상태*(이)라는 그룹 A에 작업 상태를 할당할 수 있습니다. 3자리 키 *NES를 사용하여*&#x200B;새 상태&#x200B;*(이)라는 다른 작업 상태가 그룹 B에 할당되었을 수 있습니다.* 두 상태의 이름은 동일할 수 있지만, 3자로 된 코드는 항상 고유합니다.
+3자리 키 *NST*&#x200B;을(를) 사용하여 *새 상태*(이)라는 그룹 A에 작업 상태를 할당할 수 있습니다. 3자 키 *NES*&#x200B;을(를) 사용하여 *새 상태*(이)라는 다른 작업 상태가 그룹 B에 할당되었을 수 있습니다. 두 상태의 이름은 동일할 수 있지만, 3자로 된 코드는 항상 고유합니다.
 
 그룹 상태에 대한 자세한 내용은 [그룹 상태 만들기 또는 편집](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)을 참조하세요.
 

@@ -7,11 +7,21 @@ description: '보고서: 예산 시간'
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/pNgl5pELeORB8eiEJLKNKIAOY3hf-rOtrzlTWHmTM5M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: 659
 ht-degree: 4%
 
 ---
@@ -115,15 +125,15 @@ ht-degree: 4%
    <td>예산 시간과 연관된 사용자의 이름입니다.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">할당 일자</td> 
+   <td role="rowheader">할당. 일자</td> 
    <td> <p>할당 날짜입니다. 이는 시간 예산을 책정한 주의 첫째 날(일요일)입니다.</p> <p>팁:  <p>한 주가 2개월 동안 걸리면 보고서에 두 개의 행이 생성됩니다. 하나는 첫 번째 요일(첫 번째 달 동안 있는 주의 일요일)에 해당하고 두 번째 하나는 두 번째 달의 첫 번째 요일(해당 주의 어떤 요일일 수 있음)에 해당합니다.</p> <p>예를 들어, 6월 30일(일요일) - 7월 6일(토요일) 주에 대해 사용자에 대해 8시간을 책정하는 경우 두 행에 할당 일자가 6월 30일과 7월 1일로 표시됩니다.</p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">예산 시간</td> 
+   <td role="rowheader">버드 시간</td> 
    <td>리소스 플래너에서 사용자에게 할당된 예산 시간입니다.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">계획됨. 예산 시간</td> 
+   <td role="rowheader">계획됨. 버드 시간</td> 
    <td>리소스 플래너의 작업 역할 또는 프로젝트에 할당된 예산 시간입니다.</td> 
   </tr> 
  </tbody> 

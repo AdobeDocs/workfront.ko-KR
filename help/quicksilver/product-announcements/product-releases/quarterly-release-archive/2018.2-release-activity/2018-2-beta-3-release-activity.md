@@ -7,9 +7,18 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 239a4e7e-e9db-4cf0-a703-8888e00f0d83
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/496MnQ2HZg6qwvdMzXQ7vQBtD2msLKmcDvDizeljurY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: 482
 ht-degree: 0%
 
 ---
@@ -22,7 +31,7 @@ ht-degree: 0%
 >
 > 이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2018.2의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+2018.2의 모든 변경 사항 목록은 [2018.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)를 참조하십시오.
 
 2018.2 Beta 3 릴리스에는 다음과 같은 개선 사항이 포함되어 있습니다.
 

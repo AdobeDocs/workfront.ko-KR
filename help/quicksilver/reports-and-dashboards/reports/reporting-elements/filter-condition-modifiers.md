@@ -6,11 +6,19 @@ description: 필터 및 조건 수정자를 사용하여 필터를 작성하고 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/-zma9k-MyCFD5wrcn9ggAoPnKjwAmunEVgl33yhH-Mk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: 1600
 ht-degree: 0%
 
 ---
@@ -72,12 +80,12 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> <p><strong>포함</strong> </p> </td> 
    <td> <p><strong>범위</strong> </p> </td> 
-   <td> <p><i>포함</i>의 <strong>대/소문자를 구분하지 않음</strong> 버전입니다. 예를 들어 <code>cicontains inf</code>은(는) <code>Inf</code> 또는 <code>inf</code>을(를) 포함하는 모든 값을 캡처합니다.</p> <p> <p>참고: Adobe Workfront은 각 필터 문에 대해 지정하는 정확한 단어 또는 구를 검색합니다. 예를 들어, 이름에 <code>new project</code> 구문이 포함된 프로젝트를 검색하는 경우 Workfront은 이름에 <code>new</code>, <code>project</code> 또는 <code>new main project</code>만 있는 프로젝트를 표시하지 않습니다. 필터에서 이름에 정확한 구 <code>new project</code>이(가) 있는 프로젝트만 찾습니다.</p> </p> </td> 
+   <td> <p><strong>포함</strong>의 <i>대/소문자를 구분하지 않음</i> 버전입니다. 예를 들어 <code>cicontains inf</code>은(는) <code>Inf</code> 또는 <code>inf</code>을(를) 포함하는 모든 값을 캡처합니다.</p> <p> <p>참고: Adobe Workfront은 각 필터 문에 대해 지정하는 정확한 단어 또는 구를 검색합니다. 예를 들어, 이름에 <code>new project</code> 구문이 포함된 프로젝트를 검색하는 경우 Workfront은 이름에 <code>new</code>, <code>project</code> 또는 <code>new main project</code>만 있는 프로젝트를 표시하지 않습니다. 필터에서 이름에 정확한 구 <code>new project</code>이(가) 있는 프로젝트만 찾습니다.</p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>다음을 포함하지 않음</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p><i>notcontains</i>의 <strong>대/소문자를 구분하지 않습니다</strong> 버전입니다.</p><p>이 수정자는 지정된 값이 누락된 항목을 필터링합니다.</p> <p>예를 들어 <code>does not contain inf</code>은(는) 이름에 <code>Inf</code> 또는 <code>inf</code>이(가) 없는 모든 항목을 캡처합니다.</p> <p>참고: 여러 값이 포함된 필드(예: 프로젝트 내의 메모 컬렉션)에 적용되면 필터는 다음과 같이 제외를 결정합니다.
+   <td> <p><strong>notcontains</strong>의 <i>대/소문자를 구분하지 않습니다</i> 버전입니다.</p><p>이 수정자는 지정된 값이 누락된 항목을 필터링합니다.</p> <p>예를 들어 <code>does not contain inf</code>은(는) 이름에 <code>Inf</code> 또는 <code>inf</code>이(가) 없는 모든 항목을 캡처합니다.</p> <p>참고: 여러 값이 포함된 필드(예: 프로젝트 내의 메모 컬렉션)에 적용되면 필터는 다음과 같이 제외를 결정합니다.
 <ul>
     <li>컬렉션의 모든 항목에 지정된 텍스트가 포함되어 있으면 전체 레코드가 결과에서 제외됩니다.</li>
     <li>컬렉션에서 하나 이상의 항목에 지정된 텍스트가 없으면 레코드가 결과에 남아 있습니다.</li>
@@ -87,7 +95,7 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> </td> 
    <td> <p><strong>포함</strong> </p> </td> 
-   <td> <p> 전체 텍스트 문자열에서 지정된 <i>대/소문자 구분</i> 텍스트를 검색합니다.</p> <p>예를 들어 <code>contains Inf</code>을(를) 사용하면 단어와 같이 <code>Inf</code>이(가) 포함된 모든 항목을 캡처합니다 <code>Infinity.</code></p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하세요.</p> </td> 
+   <td> <p> 전체 텍스트 문자열에서 지정된 <i>대/소문자 구분</i> 텍스트를 검색합니다.</p> <p>예를 들어 <code>contains Inf</code>을(를) 사용하면 단어와 같이 <code>Inf</code>이(가) 포함된 모든 항목을 캡처합니다 <code>Infinity.</code></p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다.필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>notcontains</strong> </p> </td> 
@@ -97,12 +105,12 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p><i>eq</i>의 <strong>대/소문자를 구분하지 않는</strong> 옵션입니다. 검색된 값과 정확히 일치하는 값만 반환합니다.</p> <p>예를 들어, 특정 이름의 작업을 검색할 때 <code>task name cieq test</code>은(는) 이름이 <code>Test</code>, <code>TEST</code> 또는 <code>Test</code>인 작업을 찾지만 해당 이름의 작업은 찾지 않습니다 <code>test 123.</code></p> <p>상태를 검색할 때 <strong>cieq</strong> 한정자는 지원되지 않습니다. 상태를 검색하려면 대/소문자를 구분하는 한정자 <strong>eq</strong>을(를) 사용해야 합니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td>
+   <td> <p><strong>eq</strong>의 <i>대/소문자를 구분하지 않는</i> 옵션입니다. 검색된 값과 정확히 일치하는 값만 반환합니다.</p> <p>예를 들어, 특정 이름의 작업을 검색할 때 <code>task name cieq test</code>은(는) 이름이 <code>Test</code>, <code>TEST</code> 또는 <code>Test</code>인 작업을 찾지만 해당 이름의 작업은 찾지 않습니다 <code>test 123.</code></p> <p>상태를 검색할 때 <strong>cieq</strong> 한정자는 지원되지 않습니다. 상태를 검색하려면 대/소문자를 구분하는 한정자 <strong>eq</strong>을(를) 사용해야 합니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td>
   </tr> 
   <tr valign="top"> 
    <td> </td> 
    <td><strong>cine</strong> </td> 
-   <td> <p><i>ne</i>의 <strong>대/소문자를 구분하지 않는</strong> 옵션이며 <b>cieq</b> 수정자와 반대입니다. 값의 대/소문자를 구분하지 않고 검색된 값의 정확한 일치 결과가 아닌 결과만 반환합니다.</p> <p>예를 들어 <b>cine</b>은(는) "current" 또는 "Current"와 같지 않은 값을 반환합니다. </p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
+   <td> <p><strong>ne</strong>의 <i>대/소문자를 구분하지 않는</i> 옵션이며 <b>cieq</b> 수정자와 반대입니다. 값의 대/소문자를 구분하지 않고 검색된 값의 정확한 일치 결과가 아닌 결과만 반환합니다.</p> <p>예를 들어 <b>cine</b>은(는) "current" 또는 "Current"와 같지 않은 값을 반환합니다. </p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
   </tr>   <tr valign="top"> 
    <td> </td> 
    <td> <p><strong>eq</strong> </p> </td> 
@@ -111,17 +119,17 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> </td> 
    <td><strong>새</strong> </td> 
-   <td> <p><i>eq</i>과(와) 반대의 <strong>대/소문자 구분</strong>입니다. 검색된 값과 정확히 일치하지 않는 결과만 반환하며 값의 대/소문자도 일치합니다.</p> <p>예를 들어 <b>ne</b>은(는) "Current"와 같지 않은 값은 반환하지만 "current"와 같지 않은 값은 반환하지 않습니다. </p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.<br></p> </td> 
+   <td> <p><strong>eq</strong>과(와) 반대의 <i>대/소문자 구분</i>입니다. 검색된 값과 정확히 일치하지 않는 결과만 반환하며 값의 대/소문자도 일치합니다.</p> <p>예를 들어 <b>ne</b>은(는) "Current"와 같지 않은 값은 반환하지만 "current"와 같지 않은 값은 반환하지 않습니다. </p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.<br></p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>로그인</strong> </p> </td> 
-   <td> <p> <i>in</i>의 <strong>대/소문자를 구분하지 않는</strong> 버전입니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
+   <td> <p> <strong>in</strong>의 <i>대/소문자를 구분하지 않는</i> 버전입니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cinotin</strong> </p> </td> 
-   <td> <p><i>알림</i>의 <strong>대/소문자를 구분하지 않는</strong> 버전입니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
+   <td> <p><strong>알림</strong>의 <i>대/소문자를 구분하지 않는</i> 버전입니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> <p> </p> <p> </p> <p><strong>같음</strong> </p> </td> 
@@ -131,17 +139,17 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> <p><strong>같지 않음</strong> </p> </td> 
    <td> <p><strong>알림</strong> </p> </td> 
-   <td> <p><i>in</i>의 반대인 <strong>대/소문자를 구분하는</strong>입니다. 지정된 목록에 없는 결과만 반환합니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> <p>참고: <span>필터링하려는 필드에 여러 옵션이 있는 경우, 이 옵션은 지정한 선택과 지정한 선택 및 추가 선택 항목이 모두 포함된 결과를 필터링합니다.</span> </p> </td> 
+   <td> <p><strong>in</strong>의 반대인 <i>대/소문자를 구분하는</i>입니다. 지정된 목록에 없는 결과만 반환합니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> <p>참고: <span>필터링하려는 필드에 여러 옵션이 있는 경우, 이 옵션은 지정한 선택과 지정한 선택 및 추가 선택 항목이 모두 포함된 결과를 필터링합니다.</span> </p> </td> 
   </tr>
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>좋아요</strong> </p> </td> 
-   <td> <p>이 한정자는 <i>포함</i>과 유사한 방식으로 <strong>대/소문자를 구분하는</strong> 텍스트 문자열의 일부를 검색합니다. 그러나 <strong>like</strong>에서는 와일드카드 문자를 삽입하여 텍스트를 구분하는 기능을 제공합니다.</p> <p>예를 들어 메모를 검색할 때 <code>like %Current% %Dead%</code>을(를) 사용하면 "Current to Dead" 구문을 포함하는 메모가 반환됩니다. "Dead to Current"가 포함된 노트는 포함되지 않습니다. 각 값은 나열된 순서대로 검색됩니다. %는 텍스트의 문자 또는 세그먼트를 바꿀 와일드카드를 나타냅니다. "Project"와 "Projects"를 모두 반환하는 <code>like Project_</code>에서와 같이 단일 와일드카드 문자에도 밑줄을 사용할 수 있습니다. 필터링에 <strong>like</strong> 또는 <strong>like</strong> 한정자를 사용하려는 경우 사용자 지정 데이터 필드 이름, 매개 변수 옵션 값 또는 기타 개체 이름에 % 또는 _ 문자를 사용하지 않는 것이 좋습니다.</p><p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
+   <td> <p>이 한정자는 <strong>포함</strong>과 유사한 방식으로 <i>대/소문자를 구분하는</i> 텍스트 문자열의 일부를 검색합니다. 그러나 <strong>like</strong>에서는 와일드카드 문자를 삽입하여 텍스트를 구분하는 기능을 제공합니다.</p> <p>예를 들어 메모를 검색할 때 <code>like %Current% %Dead%</code>을(를) 사용하면 "Current to Dead" 구문을 포함하는 메모가 반환됩니다. "Dead to Current"가 포함된 노트는 포함되지 않습니다. 각 값은 나열된 순서대로 검색됩니다. %는 텍스트의 문자 또는 세그먼트를 바꿀 와일드카드를 나타냅니다. "Project"와 "Projects"를 모두 반환하는 <code>like Project_</code>에서와 같이 단일 와일드카드 문자에도 밑줄을 사용할 수 있습니다. 필터링에 <strong>like</strong> 또는 <strong>like</strong> 한정자를 사용하려는 경우 사용자 지정 데이터 필드 이름, 매개 변수 옵션 값 또는 기타 개체 이름에 % 또는 _ 문자를 사용하지 않는 것이 좋습니다.</p><p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
   </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>기능</strong> </p> </td> 
-   <td> <p><i>like</i>의 <strong>대/소문자를 구분하지 않습니다</strong> 버전입니다. 예를 들어 <code>cilike %Current% %Dead%</code>은(는) <code>Current to Dead</code> 또는 <code>current to dead</code>이(가) 포함된 메모를 반환합니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
+   <td> <p><strong>like</strong>의 <i>대/소문자를 구분하지 않습니다</i> 버전입니다. 예를 들어 <code>cilike %Current% %Dead%</code>은(는) <code>Current to Dead</code> 또는 <code>current to dead</code>이(가) 포함된 메모를 반환합니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>존재하지 않음</strong> </td> 

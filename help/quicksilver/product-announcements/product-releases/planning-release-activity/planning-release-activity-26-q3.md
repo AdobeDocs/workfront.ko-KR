@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Workspace managers can modify views in sample workspaces.
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
 -->
+
+## 새 샘플 작업 공간 탭이 Planning 랜딩 페이지에 추가됨
+
+>[!NOTE]
+>
+>미리 보기: 2026년 6월 1일>프로덕션 빠른 릴리스: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
+
+모범 사례 작업 영역의 예를 볼 수 있는 Planning 랜딩 영역에 샘플 작업 영역 탭을 추가했습니다. 작업 영역을 편집할 수 없습니다. Workspace 관리자는 샘플 작업 공간에서 보기를 수정할 수 있습니다. 이 탭은 Standard 및 System Administrator 사용자에게 표시됩니다.
+
+샘플 작업 영역을 예로 보고 다중 작업 영역 템플릿 번들을 사용하여 해당 템플릿을 사용하는 작업 영역을 만들고, 편집하고, 공유하는 것이 좋습니다.  템플릿 번들에는 샘플 작업 공간 탭과 동일한 작업 공간이 포함되어 있습니다.
+
+자세한 내용은 [작업 영역 개요](/help/quicksilver/planning/architecture/workspaces-overview.md)를 참조하십시오.
 
 ## Workfront Planning API 버전 2
 

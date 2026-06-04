@@ -7,9 +7,18 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 97091ac4-f5de-4256-aa24-f96d083ced49
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/j-B0syjTynUyElEvzamXoagAzd8pl4FfutepHohOHPA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: 426
 ht-degree: 2%
 
 ---
@@ -35,7 +44,7 @@ Workfront 2017.2 릴리스 웨비나는 6월 27일에 Workfront 제품 팀에서
 
 * [소개](#introduction)
 * [리소스 관리](#resource-management)
-* [증명](#proofing)
+* [교정](#proofing)
 * [기타 개선 사항](#other-enhancements)
 * [모바일](#mobile)
 * [제거 중인 기능](#functionality-being-removed)
@@ -73,7 +82,7 @@ Workfront 2017.2 릴리스 웨비나는 6월 27일에 Workfront 제품 팀에서
 웨비나의 이 부분에는 다음 주제가 포함되어 있습니다.
 
 * 증명 승인 보류 중 인앱 알림
-* 항목 구독:작업, 문제, 프로젝트
+* 항목 :Tasks, 문제, 프로젝트 구독
 * 활용성 보고서를 TSV 및 PDF으로 내보내기
 * 내 작업 캘린더 업데이트됨
 * 간트 차트 개선 사항

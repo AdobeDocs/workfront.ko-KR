@@ -6,13 +6,21 @@ title: Power BI 도구는 제공된 암호로 연결할 수 없습니다.
 description: Power BI 도구에서 Data Connect에 로그인하려고 하면 로그인 오류가 표시됩니다.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 40050915153af6e1f70024461e193fb536d74e35
+exl-id: c3f2b4a9-0831-48f0-871b-486d09ae5ea4
+TQID: https://experienceleague.adobe.com/Z4RrMAPGd3CCti-cQFiJ7hlf-h8-suXeuoYfzk-9aKo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 0%
+source-wordcount: 229
+ht-degree: 2%
 
 ---
-
 
 # Power BI 도구는 제공된 암호와 연결할 수 없습니다.
 
@@ -47,7 +55,6 @@ Workfront에서 연결 암호를 재설정한 다음 연결 편집 대화 상자
 1. URL을 복사하여 새 브라우저 탭에 붙여넣습니다.
 1. Workfront에서 연결 사용자 이름과 기본 암호를 복사하여 새 브라우저 탭에 붙여넣습니다.
    ![url 및 기본 암호 복사](assets/link-password.png)
-1. **로그인**&#x200B;을 클릭합니다.
+1. **로그인을 클릭합니다**.
 1. 새 암호를 입력한 다음 **제출**&#x200B;을 클릭합니다.
 1. Power BI 도구로 이동한 다음 새 암호로 로그인합니다.
-

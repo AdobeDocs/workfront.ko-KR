@@ -8,11 +8,18 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/mZDdIAnoxjbsCZ2FO0Y4FDF2c-2c-5oXR-S-o-7vQ5Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: 182
 ht-degree: 0%
 
 ---
@@ -21,7 +28,7 @@ ht-degree: 0%
 
 Workfront Data Connect는 Snowflake 기술을 사용하여 Workfront 데이터에 액세스할 수 있으므로 비즈니스에 중요한 질문에 답변하고 프로세스의 가치를 측정할 수 있습니다. 이 기능을 통해 기업 고객은 Workfront 데이터 레이크에서 직접 데이터 시각화 도구를 사용하여 데이터를 분석하거나 Workfront 데이터를 고객 소유 데이터 웨어하우스로 내보낼 수 있습니다.
 
-구독자는 선택한 비즈니스 인텔리전스 도구(Tableau, Power BI, Domo, Looker 등)를 Data Connect에 연결하여 다음 유형의 데이터로 데이터 시각화를 만들 수 있습니다.
+구독자는 선택한 비즈니스 인텔리전스 도구(Tableau, Power BI, Domo, Looker 등)를 연결할 수 있습니다. Data Connect를 사용하여 다음 유형의 데이터로 데이터 시각화를 만들 수 있습니다.
 
 * 짧은 대기 시간, 현재 상태 데이터
 * 시점 비교를 위한 이벤트 레코드 변경

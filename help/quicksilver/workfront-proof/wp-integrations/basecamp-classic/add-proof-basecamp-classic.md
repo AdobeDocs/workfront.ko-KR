@@ -7,9 +7,16 @@ description: ' [!DNL Basecamp Classic] 통합을 설정한 후  [!DNL Basecamp C
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fbca81fb-97c4-449a-9c64-cfd902ea1e19
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+TQID: https://experienceleague.adobe.com/x-X8GzBkf51d9FRKZt8lMzSJNCN8PWlYM7uoAnBdbfk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: 667
 ht-degree: 0%
 
 ---
@@ -63,7 +70,7 @@ ht-degree: 0%
 1. 표시되는 [!UICONTROL [!DNL Basecamp]]에 추가 상자에서 다음을 수행합니다.
 
    1. 계속하기 전에 **[!UICONTROL 데이터 새로 고침]**&#x200B;을 클릭하여 [!DNL Basecamp Classic]과(와) 동기화하십시오.
-   1. 이 증명을 [!DNL Basecamp]의 [!UICONTROL Private] (새 [!DNL Basecamp]에서는 옵션을 사용할 수 없음)으로 할지 여부를 지정하십시오.
+   1. 이 증명을 [!DNL Basecamp]의 [!UICONTROL Private]&#x200B;(새 [!DNL Basecamp]에서는 옵션을 사용할 수 없음)으로 할지 여부를 지정하십시오.
    1. [!DNL Basecamp Classic] 프로젝트를 선택하십시오.
    1. [!UICONTROL [!DNL Basecamp Classic] 메시지 범주]을 선택하세요.
    1. **[!UICONTROL 프로젝트의 직원]**&#x200B;에서 증명에 추가할 [!DNL Basecamp Classic] 계정의 검토자에 대한 확인란을 선택하십시오.

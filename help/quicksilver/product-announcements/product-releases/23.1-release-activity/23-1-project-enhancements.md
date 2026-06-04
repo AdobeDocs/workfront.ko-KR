@@ -6,9 +6,18 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 180c73c6-f426-49b9-99a4-86b1c817bcef
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/GRGmCQpTm1lpvs3UZh2wN7reCLAepU7ppHXPpgwjOjY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: 290
 ht-degree: 0%
 
 ---
@@ -31,7 +40,7 @@ ht-degree: 0%
 
 자세한 내용은 [프로젝트 팀 관리](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)를 참조하십시오.
 
-[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3412443/){target=_blank}
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3412443/){target=_blank}
 
 ## 문서 폴더에 대한 직접 링크 복사
 
@@ -39,4 +48,4 @@ ht-degree: 0%
 
 자세한 내용은 [문서 폴더에 링크 복사 및 공유](/help/quicksilver/documents/managing-documents/copy-a-doc-folder-url.md)를 참조하세요.
 
-[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3412385/){target=_blank}
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3412385/){target=_blank}

@@ -7,9 +7,14 @@ description: 이 페이지에서는 미리보기 환경에 대한 Adobe Workfron
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/-ilB35Fvr1FF937vPOfsw0UHkAVu98-VU39sX5W47iQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -42,4 +47,4 @@ ht-degree: 0%
 
 Workfront 목표에 대한 자세한 내용은 Workfront 설명서의 [Adobe Workfront 목표: 문서 인덱스](/help/quicksilver/workfront-goals/workfront-goals.md) 영역에서 사용할 수 있는 문서를 참조하십시오.
 
-[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3413327/){target=_blank}
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3413327/){target=_blank}

@@ -7,11 +7,24 @@ description: 다중 선택 사용자 지정 필드에서 선택한 선택 사항
 author: Courtney
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/HkVox4rDOw-8RvRTQ9fscAs1svpjdhwi-MqomzqybXU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: 942
 ht-degree: 2%
 
 ---
@@ -153,7 +166,7 @@ ht-degree: 2%
 1. <strong>차트</strong> 탭을 선택하고 보고서에 차트를 추가합니다.
 
    예를들어 **열** 차트를 선택하세요.
-   <br>보고서에 차트를 추가하는 방법에 대한 자세한 내용은 문서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">사용자 지정 보고서 만들기</a>에서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">보고서에 차트 추가</a> 섹션을 참조하십시오.
+   <br>보고서에 차트를 추가하는 방법에 대한 자세한 내용은 문서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">사용자 지정 보고서 만들기</a>에서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">보고서에 차트 추가</a> 섹션을 참조하십시오.
 1. **아래쪽(X) 축** 필드에서 차트에 표시할 <strong>계산된 다중 선택 필드</strong>를 선택합니다.
 1. <strong>저장 및 닫기</strong>를 클릭합니다.
 
