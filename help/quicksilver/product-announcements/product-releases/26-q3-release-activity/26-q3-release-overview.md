@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
+source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1548'
 ht-degree: 2%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 2%
 * [관리자 개선 사항](#administrator-enhancements)
 * [문서 개선 사항](#documents-enhancements)
 * [향상된 Financial Management](#financial-management-enhancements)
+* [홈 개선 사항](#home-enhancements)
 * [보고 개선 사항](#reporting-enhancements)
 * [요청 개선 사항](#requesting-enhancements)
 * [기타 개선 사항](#other-enhancements)
@@ -164,6 +165,30 @@ ht-degree: 2%
             <td><p>2026년 5월 21일</p></td>
             <td><p>2026년 5월 21일</p></td>
             <td><p>2026년 5월 21일</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### 홈 개선 사항
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>기능</strong>
+            </td>
+            <td><strong>미리보기</strong></td>
+            <td><strong>빠른 릴리스</strong></td>
+            <td><strong>분기별</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md" class="MCXref xref" xrefformat="{para}">우선 순위에서 사용자 지정 데이터 및 보기 사용</a><p></p>
+                <p>이제 우선 순위가 열에서 사용자 지정 데이터 사용을 지원합니다. 작업 목록에서 열 관리자를 열어 열 데이터에 표시할 사용자 정의 필드를 추가합니다.</p>
+            </td>
+            <td><p>2026년 6월 4일</p></td>
+            <td><p>2026년 6월 11일</p></td>
+            <td><p>2026년 7월 16일</p></td>
         </tr>
     </tbody>
 </table>

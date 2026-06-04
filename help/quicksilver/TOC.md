@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: e94f01963995e80853fa1492cf2d23d811fc9373
+source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
 workflow-type: tm+mt
-source-wordcount: '14165'
+source-wordcount: '14170'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 2%
          * [2026년 3분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md)
          * [2026년 3분기 문서 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
          * [2026년 3분기 재무 관리 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md)
+         * [2026년 3분기 홈 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md)
          * [2026년 3분기 보고 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md)
          * [2026년 3분기 개선 요청](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
          * [2026년 3분기 기타 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md)
