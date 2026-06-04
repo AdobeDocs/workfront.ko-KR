@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1541'
 ht-degree: 2%
 
 ---
@@ -276,9 +276,9 @@ ht-degree: 2%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">댓글 알림 전자 메일에 대한 모양과 느낌을 업데이트했습니다</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
                 <p>업데이트 영역의 댓글에 대한 이메일 알림은 광범위한 Adobe 이메일 디자인에 맞는 새로운 모양과 느낌을 제공합니다. 이전 주석의 스레드는 더 이상 이메일 본문에 포함되지 않습니다.</p>
             </td>
-            <td><p>단계적 롤아웃, 발표될 시작일</p></td>
-            <td><p>단계적 롤아웃, 발표될 시작일</p></td>
-            <td><p>단계적 롤아웃, 발표될 시작일</p></td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 7월 16일부터 단계적으로 롤아웃</p></td>
+            <td><p>2026년 7월 16일부터 단계적으로 롤아웃</p></td>
         </tr>
         <tr>
             <td>
