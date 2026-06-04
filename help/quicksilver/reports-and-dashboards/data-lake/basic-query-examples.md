@@ -7,11 +7,15 @@ description: 예제 쿼리를 사용하여 특정 종류의 쿼리의 구문 및
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: 921
 ht-degree: 0%
 
 ---
@@ -163,7 +167,7 @@ FROM
 
 ### 설명
 
-이 쿼리는 Data Connect의 변경 이벤트 추적 기능을 사용합니다.  이전 이벤트와 다른 새 상태 값이 있었던 이벤트가 트리거된 날짜를 결정합니다. 
+이 쿼리는 Data Connect의 변경 이벤트 추적 기능을 사용합니다. 이전 이벤트와 다른 새 상태 값이 발생한 이벤트가 트리거된 날짜를 결정합니다. 
 
 쿼리를 처음부터 끝까지 검사합니다. 
 
@@ -172,7 +176,7 @@ FROM
 
 2. 변경된 레코드만 필터링: 
 
-   * 1단계의 계산에서 이전 상태가 인 레코드를 선택합니다.= 현재 상태. 
+   * 1단계의 계산에서 이전 상태가 현재 상태인 레코드!= 선택합니다. 
 
 3. 시작/종료 유효 타임스탬프 및 기간(일) 계산: 
 
@@ -183,11 +187,9 @@ FROM
 
 >[!NOTE]
 >
->PowerBI 또는 Tableau에서 이 쿼리를 자체 &quot;보기&quot;로 사용하는 것이 좋습니다.  `<object>_event view`에서 다른 필드를 가져오려면 이 쿼리의 출력을 `<object>_event view`(으)로 다시 조인합니다.  조인 필드는 다음과 같습니다. <br>
->projects_event의 경우 
->`From projects_event p`
->`Join <above query> c on c.projectid = p.projectid  `
->`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>PowerBI 또는 Tableau에서 이 쿼리를 자체 &quot;보기&quot;로 사용하는 것이 좋습니다. `<object>_event view`에서 다른 필드를 가져오려면, 이 쿼리의 출력을 `<object>_event view`(으)로 다시 조인하십시오. 조인 필드는 다음과 같습니다. <br>
+>projects_event: 
+>`From projects_event p`>`Join <above query> c on c.projectid = p.projectid  `>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 

@@ -5,11 +5,14 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 42fe3f53-6f83-4769-aaa6-953875cdfb7d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/QLkHTx4Ew5BM47EdLlzJE2yIsJvtIHpZdCIjokBgwEg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: 290
 ht-degree: 0%
 
 ---
@@ -31,9 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2025년 10월 30일
->프로덕션 빠른 릴리스: 2025년 11월 13일
->모두를 위한 프로덕션: 2026년 1월 15일
+>미리 보기: 2025년 10월 30일>프로덕션 빠른 릴리스: 2025년 11월 13일>모두를 위한 프로덕션: 2026년 1월 15일
 
 확인란 및 다중 선택 드롭다운과 같이 여러 항목을 선택할 수 있는 필드는 이제 사용자가 양식을 채울 때 5000개까지 선택할 수 있습니다.
 
@@ -46,8 +47,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2025년 12월 11일
->프로덕션 빠른 릴리스: 2026년 2월 11일\
+>미리 보기: 2025년 12월 11일>프로덕션 빠른 릴리스: 2026년 2월 11일\
 >모두를 위한 프로덕션: 2026년 2월 11일
 
 조직이 Adobe 통합 경험의 이점을 이용할 수 있도록 하기 위해 기존 Workfront 고객이 이를 사용할 수 있도록 계속 노력하고 있습니다.

@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9647f3c6-f287-426c-a5e7-eb33b8b22a34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/OKzzIQnrWd9qvpM-vrh-jVLI3s120i1FaBdQxGpbMcY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: 1379
 ht-degree: 0%
 
 ---
@@ -79,7 +85,7 @@ ht-degree: 0%
 
 이제 간트 차트를 PDF으로 내보낼 때 차트 자체와 함께 차트의 범례도 내보내시겠습니까? 범례에 포함된 항목은 UI의 간트 차트에 표시되도록 활성화한 옵션입니다. 이러한 옵션은 프로젝트의 작업에 있는 경우 범례에 포함됩니다. 예를 들어 간트 차트에서 이정표를 표시하도록 활성화하면 범례에도 이정표가 표시되지만 이정표와 연관된 작업이 하나 이상 있는 경우에만 표시됩니다.
 
-이 변경 이전에는 내보낸 PDF에서 범례를 제외할 수 없었고, 범례에는 간트의 사용 여부와 관계없이 가능한 모든 옵션과 마커가 포함되어 있었습니다.
+이 변경 이전에는 내보낸 PDF에서 범례를 제외할 수 없었고, 범례에는 Gantt의 활성화 또는 존재 여부에 관계없이 가능한 모든 옵션 및 마커가 포함되어 있었습니다.
 
 간트 차트 내보내기에 대한 자세한 내용은 [PDF으로 간트 차트 내보내기](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)를 참조하십시오.
 
@@ -149,7 +155,7 @@ Workfront 및 ProofHQ의 증명 뷰어가 새로운 모양과 느낌, 향상된 
 
 * Workfront 미리보기 환경(계정이 교정을 통해 활성화된 경우)
 
-  Workfront 미리보기 환경에 대한 자세한 내용은  [Adobe Workfront 미리 보기 샌드박스 환경](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+  Workfront 미리 보기 환경에 대한 자세한 내용은 [Adobe Workfront 미리 보기 샌드박스 환경](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)을 참조하십시오.
 
 이 릴리스에서는 새 증명 뷰어가 비디오 증명만 지원합니다. 즉, 모든 비디오 증명은 새 증명 뷰어를 활용하는 반면, 모든 정적 및 리치 미디어 증명은 기존 증명 뷰어를 계속 활용합니다.
 

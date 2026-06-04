@@ -2,14 +2,18 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: "Adobe Workfront Goals 21.2 릴리스 활동: 2021년 4월 5일 주"
+title: 'Adobe Workfront Goals 21.2 릴리스 활동: 2021년 4월 5일 주'
 description: 이 페이지에서는 2021년 4월 5일이 있는 주에 Adobe Workfront 목표에 대해 21.2 릴리스의 모든 개선 사항을 설명합니다. 이러한 개선 사항은 21.2의 1분기에 프로덕션 환경에서 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 8439b983-7817-403e-b9be-dcbf209ad3ee
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+TQID: https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: 385
 ht-degree: 1%
 
 ---

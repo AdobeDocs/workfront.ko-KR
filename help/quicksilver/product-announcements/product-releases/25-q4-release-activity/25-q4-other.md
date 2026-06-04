@@ -5,10 +5,14 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
+TQID: https://experienceleague.adobe.com/0abYVe3tHVDckYTIqVMlT-5i3tM5mp5KF-UOUe5P8fM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 0%
+source-wordcount: 492
+ht-degree: 1%
 
 ---
 
@@ -24,8 +28,7 @@ ht-degree: 0%
 >
 >* 미리 보기: 2025년 10월 13일
 >* 프로덕션 빠른 릴리스: 2025년 10월 13일
->* 모든 고객을 위한 프로덕션: 2025년 10월 13일
->[!BADGE 일정 해제]{type=Neutral}
+>* 모든 고객을 위한 프로덕션: 2025년 10월 13일>[!BADGE 일정 중단]{type=Neutral}
 
 보고서의 요약 탭이 다음과 같은 향상된 기능으로 업데이트되었습니다.
 
@@ -54,7 +57,7 @@ ht-degree: 0%
 >
 >| 릴리스 미리 보기 | 프로덕션 릴리스 |
 >|---|---|
->| 2024년 9월 24일 | 2025년 10월 16일(25.10 릴리스 포함) |
+>| 2023년 9월 19일 | 2025년 10월 16일(25.10 릴리스 포함) |
 >| 2025년 12월 11일 금요일 | 2026년 1월 15일(26.1 릴리스 포함) |
 
 조직이 Adobe 통합 경험의 이점을 이용할 수 있도록 하기 위해 기존 Workfront 고객이 이를 사용할 수 있도록 계속 노력하고 있습니다.

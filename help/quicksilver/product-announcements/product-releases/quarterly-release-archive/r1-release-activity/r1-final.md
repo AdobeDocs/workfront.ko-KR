@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/FQZ7CAhTWmVPgaSkVIedTDIRaXtt2ekNZq5x7kjTvxc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: 1195
 ht-degree: 0%
 
 ---
@@ -50,7 +56,7 @@ ht-degree: 0%
 
 추가 문서 메뉴를 사용하여 새 버전을 업로드할 때 증명이 자동으로 생성되지 않습니다.
 
-자세한 내용은  의 섹션
+자세한 내용은 의 섹션을 참조하십시오.
 
 ## 모든 증명 사용자가 Workfront 인터페이스(Workfront)에서 직접 ProofHQ에 액세스할 수 있도록 설정
 
@@ -58,7 +64,7 @@ ht-degree: 0%
 
 이 옵션은 기본적으로 활성화되어 있지 않습니다. 이 옵션을 활성화하려면 Workfront 기술 지원에 문의하고 시스템의 모든 증명 사용자에 대해 이 액세스 권한을 요청하십시오.
 
-자세한 내용은 [Adobe Workfront에서 Workfront Proof 액세스](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)를 참조하십시오.  [Adobe Workfront에서 Workfront Proof 액세스](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+자세한 내용은 [Workfront Proof에서 Workfront Proof 액세스](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)에서 [Adobe Workfront에서 Adobe Workfront 액세스](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)를 참조하십시오.
 
 이 변경 이전에는 Workfront 관리자만 Workfront 인터페이스에서 ProofHQ 사이트에 직접 액세스할 수 있었습니다.
 
@@ -96,17 +102,17 @@ ht-degree: 0%
 
 모바일 앱에 대한 자세한 내용은 의 &quot;모바일 검색&quot; 섹션을 참조하십시오.  
 
-## 모바일 앱의 도움말: Tutorials(Workfront)
+## 모바일 앱의 도움말: 자습서(Workfront)
 
 4월 모바일 릴리스부터 모바일 경험을 안내하는 새로운 튜토리얼 화면이 표시됩니다. 모바일 앱에 처음 로그인하고 기능을 처음 사용하는 경우 기능의 작동 방식을 설명하는 간단한 자습서가 표시됩니다. 자습서는 특정 기능을 처음 사용할 때 한 번만 표시됩니다.
 
 모바일 앱에 대한 자세한 내용은 을 참조하십시오.
 
-## PDF 문서에서 검색(ProofHQ)
+## PDF 문서(ProofHQ)에서 검색
 
 이제 PDF 문서, Office 문서 및 정적 웹 페이지에서 검색을 수행할 수 있습니다.
 
-자세한 내용은  [증명 내에서 콘텐츠 검색](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
+자세한 내용은 [증명 내 콘텐츠 검색](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)을 참조하세요.
 
 ## 업데이트된 전역 탐색 바(ProofHQ)
 

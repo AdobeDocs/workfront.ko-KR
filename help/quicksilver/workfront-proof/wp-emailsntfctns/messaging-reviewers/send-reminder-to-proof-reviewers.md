@@ -7,9 +7,14 @@ description: 이 작업을 PiW용으로 수행
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 53abbd88-7915-4d74-9bda-d75c59663463
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/eCJhedBSQgqT9i4784HdrUFM-N61zC8O3wPJvuvXlKQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 437
 ht-degree: 2%
 
 ---
@@ -50,7 +55,7 @@ ht-degree: 2%
 
      기본 메시지는 검토자에게 증명에 추가되었음을 알려주고 증명 기한을 포함합니다.
 
-   * 사용자 지정 메시지를 만들려면 **[!UICONTROL 제목]**&#x200B;과 **[!UICONTROL 메시지],**&#x200B;를 입력한 다음 **[!UICONTROL 보내기]를 클릭하십시오.**&#x200B;사용자 지정된 미리 알림 전자 메일에는 기본 미리 알림 전자 메일과 동일한 정보가 포함되어 있지만 전자 메일 본문에 사용자 지정 제목 줄과 사용자 지정 메시지도 포함되어 있습니다.
+   * 사용자 지정 메시지를 만들려면 **[!UICONTROL 제목]** 및 **[!UICONTROL 메시지],**&#x200B;를 입력한 다음 **[!UICONTROL 보내기].**&#x200B;사용자 지정 미리 알림 전자 메일에는 기본 미리 알림 전자 메일과 동일한 정보가 포함되어 있지만 전자 메일 본문에 사용자 지정 제목 줄과 사용자 지정 메시지도 포함되어 있습니다.
 
 ## 스테이지에서 검토자에게 메시지 보내기
 
@@ -65,4 +70,4 @@ ht-degree: 2%
 
      기본 메시지는 검토자에게 증명에 추가되었음을 알려주고 증명 기한을 포함합니다.
 
-   * 사용자 지정 메시지를 만들려면 **[!UICONTROL 제목]**&#x200B;과 **[!UICONTROL 메시지],**&#x200B;를 입력한 다음 **[!UICONTROL 보내기]를 클릭하십시오.**&#x200B;사용자 지정된 미리 알림 전자 메일에는 기본 미리 알림 전자 메일과 동일한 정보가 포함되어 있지만 전자 메일 본문에 사용자 지정 제목 줄과 사용자 지정 메시지도 포함되어 있습니다.
+   * 사용자 지정 메시지를 만들려면 **[!UICONTROL 제목]** 및 **[!UICONTROL 메시지],**&#x200B;를 입력한 다음 **[!UICONTROL 보내기].**&#x200B;사용자 지정 미리 알림 전자 메일에는 기본 미리 알림 전자 메일과 동일한 정보가 포함되어 있지만 전자 메일 본문에 사용자 지정 제목 줄과 사용자 지정 메시지도 포함되어 있습니다.

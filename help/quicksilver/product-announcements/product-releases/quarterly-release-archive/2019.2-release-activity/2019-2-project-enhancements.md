@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 76292f90-af1a-4740-9b8e-b02a6303625c
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/-4bsOXpJd8x1IKN-bqcvRqHDDiD5JawSrXgyRYmVYqA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 741
 ht-degree: 1%
 
 ---
@@ -78,7 +84,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Workfront API를 통해 이러한 개체를 만들 때 &quot;isActive&quot; 매개 변수의 기본값은 true입니다. 모든 개체에 대한 새 필드이며 API 버전 11 이전에 편집할 수 없습니다. 이 필드는 Portfolio의 기본값이 false인 경우를 제외하고 이전에 존재했습니다. API 버전 11부터 기본값이 true로 변경됩니다.
+>Workfront API를 통해 이러한 개체를 만들 때 &quot;isActive&quot; 매개 변수의 기본값은 true입니다. 모든 개체에 대한 새 필드이며 API 버전 11 이전에 편집할 수 없습니다. 이 필드는 이전에 Portfolio에 대해 존재했지만 기본값이 false라는 점이 다릅니다. API 버전 11부터 기본값이 true로 변경됩니다.
 
 ## 예약된 작업의 예산 비용(BCWS) 및 수행된 작업 비용(BCWP)을 보기에 표시
 

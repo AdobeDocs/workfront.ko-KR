@@ -7,9 +7,13 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 134e4d1a-0acf-4ecb-b409-23f26b68c3f6
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/y-uIKCrAsBoiFJVetyrga8WNrckTOtzaTC23JhUdvOo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: 903
 ht-degree: 0%
 
 ---
@@ -102,7 +106,7 @@ R1에서 사용할 수 있는 전체 개선 사항 목록은 다음 섹션을 �
 * [모바일 앱에서 개체의 URL 공유](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#share-the-url-of-an-object-in-the-mobile-app)
 * [Outlook 365 Beta](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#outlook-365-beta) 
 * [모바일 앱에서 검색(Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#search-in-the-mobile-app)
-* [모바일 앱의 도움말: Tutorials(Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improved-help-in-the-mobile-app-tutorials)
+* [모바일 앱의 도움말: 자습서(Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improved-help-in-the-mobile-app-tutorials)
 
 ## 증명 개선 사항 {#proofing-enhancements}
 

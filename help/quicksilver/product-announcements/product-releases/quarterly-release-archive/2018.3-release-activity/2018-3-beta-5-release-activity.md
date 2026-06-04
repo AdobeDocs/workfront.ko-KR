@@ -7,9 +7,13 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f208b566-2529-4c4d-aa66-0c8756e55a5a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/cRgFYpirYkFSGNPJT0CFwtIB4Pul0-Mml9i892nV1aE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: 2151
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 이 페이지에서는 2018.3 Beta 5 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 9월 21일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
 
-2018.3의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+2018.3의 모든 변경 사항 목록은 [2018.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)를 참조하십시오.
 
 2018.3 Beta 5 릴리스에는 모든 사용자를 위한 향상된 기능이 포함되어 있습니다.
 
@@ -61,11 +65,11 @@ ht-degree: 0%
 
 자세한 내용은 [승인 관리](../../../../review-and-approve-work/manage-approvals/manage-approvals.md)를 참조하십시오. 
 
-## Workfront에서 Flash 기반 도구 교체 {#replacement-of-flash-based-tools-in-workfront}
+## Workfront에서 Flash 기반 도구 대체 {#replacement-of-flash-based-tools-in-workfront}
 
-Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfront에서 제거될 예정이며, 새로운 솔루션으로 대체될 것입니다.
+Flash 기술에 의존하는 모든 기능은 2018.3 릴리스에서 Workfront에서 제거될 예정이며, 새로운 솔루션으로 대체될 것입니다.
 
-이러한 기능의 제거로 영향을 받는 모든 영역에 대한 자세한 정보와 이를 대체할 도구를 이해하려면 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
+이러한 기능의 제거로 영향을 받는 모든 영역에 대한 자세한 내용과 대체할 도구를 이해하려면 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
 
 ## 작업 라이선스 사용자가 프로젝트의 일정 조정 하위 탭에 액세스할 수 있도록 허용 {#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project}
 
@@ -131,7 +135,7 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfro
 
 이 변경 이전에는 기존 리소스 견적 영역의 정보가 사용되었습니다.
 
-자세한 내용은  문서의 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)  [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+자세한 내용은 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 문서의 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오.
 
 ## 활용성 보고서: 프로젝트에 대한 사용자별 예산 시간 보기 {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -143,11 +147,11 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfro
 
 이 변경 이전의 활용성 보고서에는 작업 역할별 예산 시간만 표시됩니다. 
 
-자세한 내용은  문서의 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)  [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+자세한 내용은 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 문서의 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오.
 
-## SWF 파일이 증명 뷰어에서 더 이상 지원되지 않음 {#swf-files-no-longer-supported-in-the-proofing-viewer}
+## 증명 뷰어에서 SWF 파일이 더 이상 지원되지 않음 {#swf-files-no-longer-supported-in-the-proofing-viewer}
 
-Adobe Flash과 관련된 보안 문제로 인해 증명 뷰어는 더 이상 SWF 파일에서 생성된 증명을 지원하지 않습니다. SWF 파일에 대해 이전에 만든 증명을 여는 경우 증명 뷰어에서 증명 콘텐츠가 이전에 표시되던 위치에 메시지가 표시됩니다. 증명에서 댓글을 볼 수 있습니다. 댓글을 다운로드하고 원본 SWF 파일을 다운로드할 수도 있습니다.
+Adobe Flash와 관련된 보안 문제로 인해 증명 뷰어는 더 이상 SWF 파일에서 생성된 증명을 지원하지 않습니다. SWF 파일에 대해 이전에 만든 증명을 여는 경우 증명 뷰어에서 증명 콘텐츠가 이전에 표시되던 위치에 메시지가 표시됩니다. 증명에서 댓글을 볼 수 있습니다. 댓글을 다운로드하고 원본 SWF 파일을 다운로드할 수도 있습니다.
 
 자세한 내용은 문서 [지원되는 증명 파일 형식 및 크기 제한 개요](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)에서 [지원되는 증명 파일 형식 및 크기 제한 개요](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)를 참조하십시오. 
 
@@ -165,7 +169,7 @@ Adobe Flash과 관련된 보안 문제로 인해 증명 뷰어는 더 이상 SWF
 
 이전에는 이러한 옵션이 현재 기능과 동일한 기능을 제공했지만 문서 목록의 해당 옵션과 구성이 일치하지 않았습니다.
 
-자세한 내용은 섹션 을 참조하십시오.  문서에서 [URL 공유](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url)  [증명 뷰어에서 증명 공유](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+자세한 내용은 문서 [증명 뷰어에서 증명 공유](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)의 섹션 [URL 공유](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url)를 참조하십시오.
 
 ## 증명 뷰어의 주석 목록 개선 사항 {#comments-list-enhancements-in-the-proofing-viewer}
 
@@ -254,4 +258,4 @@ Adobe Flash과 관련된 보안 문제로 인해 증명 뷰어는 더 이상 SWF
 
 이제 모바일 앱에서 업데이트 탭의 모양과 느낌이 업데이트됩니다. 이 개선 사항은 현재 Android용 Workfront 베타 앱에서만 사용할 수 있습니다.
 
-Workfront 모바일 앱의 업데이트 및 주석 관리에 대한 자세한 내용은 섹션을 참조하십시오  에 있습니다.
+Workfront 모바일 앱의 업데이트 및 댓글 관리에 대한 자세한 내용은 의 섹션을 참조하십시오.

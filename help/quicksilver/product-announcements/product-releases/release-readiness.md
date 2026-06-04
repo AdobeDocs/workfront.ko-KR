@@ -7,9 +7,14 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
+TQID: https://experienceleague.adobe.com/uC23s3GzNOgYxXOFwnaqXxlSbj7aIYYIXyC1RgU0dRE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: 1233
 ht-degree: 0%
 
 ---
@@ -48,7 +53,7 @@ ht-degree: 0%
 예정된 릴리스에 대해 조직을 준비하는 데 도움이 되는 다음 작업 중 일부 또는 모두를 고려하는 것이 좋습니다.
 
 * [릴리스 정보를 최신 상태로 유지](#stay-up-to-date-with-release-notes)
-* [&#x200B; [!DNL Workfront] 알림 센터 보기](#watch-the-workfront-announcement-center)
+* [ [!DNL Workfront] 알림 센터 보기](#watch-the-workfront-announcement-center)
 * [[!UICONTROL 샌드박스 미리 보기] 환경 탐색](#explore-the-preview-sandbox-environment)
 * [릴리스 웨비나 참석](#attend-the-release-webinar)
 * [Workfront에 대한 오퍼 피드백](#offer-feedback-to-workfront)
@@ -85,7 +90,7 @@ ht-degree: 0%
 
 ### [!UICONTROL 샌드박스 미리 보기] 환경 탐색
 
-[!UICONTROL 미리 보기 샌드박스] 환경([!UICONTROL 미리 보기] 환경이라고도 함)은 조직의 사용자가 프로덕션 환경에서 별도의 데이터 복사본을 안전하게 테스트하고 작업할 수 있는 환경 역할을 합니다. [!UICONTROL Workfront]은(는) 일반적으로 최소 2주 동안 미리보기 환경에서 새로운 기능과 기능을 릴리스합니다.     프로덕션 환경으로 릴리스하기 전에 사용자의 일상적인 워크플로우로 릴리스되기 전에 이러한 기능을 숙지할 수 있습니다. 그런 다음 사용자가 새로운 기능을 활용하는 데 어려움이 있는 경우 해당 사용자의 적응을 보다 쉽게 지원할 수 있습니다.
+[!UICONTROL 미리 보기 샌드박스] 환경([!UICONTROL 미리 보기] 환경이라고도 함)은 조직의 사용자가 프로덕션 환경에서 별도의 데이터 복사본을 안전하게 테스트하고 작업할 수 있는 환경 역할을 합니다. [!UICONTROL Workfront]은(는) 일반적으로 프로덕션 환경에 릴리스되기 최소 2주 전에 미리보기 환경에서 새로운 기능과 기능을 릴리스합니다. 사용자의 일상적인 워크플로우로 릴리스되기 전에 이러한 기능을 숙지할 수 있습니다. 그런 다음 사용자가 새로운 기능을 활용하는 데 어려움이 있는 경우 해당 사용자의 적응을 보다 쉽게 지원할 수 있습니다.
 
 >[!TIP]
 >
