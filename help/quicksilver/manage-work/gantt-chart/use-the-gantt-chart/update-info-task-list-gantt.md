@@ -9,11 +9,18 @@ exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tM0VQ3qjYLpCxblaxG99yJ78Pj9H8tyoMMO1IFmK3Vs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1010
@@ -149,7 +156,7 @@ Old:
 1. 전임 작업 관계를 삭제하려면 두 작업을 연결하는 전임 작업 줄을 클릭하여 선택한 다음 키보드에서 **[!UICONTROL 삭제]**&#x200B;를 누르십시오.\
    ![Delete_predecesser.png](assets/delete-predecessor-350x152.png)
 
-1. (선택 사항 및 조건부) 변경 내용을 수동으로 저장하도록 선택한 경우 변경 내용을 취소하거나 복제하려면 **[!UICONTROL 실행 취소]** 또는 {&#x200B;2}다시 실행&#x200B;]**아이콘을 클릭합니다.**[!UICONTROL 
+1. (선택 사항 및 조건부) 변경 내용을 수동으로 저장하도록 선택한 경우 변경 내용을 취소하거나 복제하려면 **[!UICONTROL 실행 취소]** 또는 {&#x200B;2}다시 실행&#x200B;**아이콘을 클릭합니다.**
 
    >[!TIP]
    >
@@ -233,7 +240,7 @@ Old:
    >![update_percent_complete.png](assets/update-percent-complete-350x175.png) >
    >
 
-1. (선택 사항 및 조건부) 변경 내용을 수동으로 저장하도록 선택한 경우 변경 내용을 취소하거나 복제하려면 **[!UICONTROL 실행 취소]** 또는 {&#x200B;2}다시 실행&#x200B;]**아이콘을 클릭합니다.**[!UICONTROL 
+1. (선택 사항 및 조건부) 변경 내용을 수동으로 저장하도록 선택한 경우 변경 내용을 취소하거나 복제하려면 **[!UICONTROL 실행 취소]** 또는 {&#x200B;2}다시 실행&#x200B;**아이콘을 클릭합니다.**
 
    >[!TIP]
    >

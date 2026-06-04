@@ -9,11 +9,18 @@ exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1422
@@ -197,7 +204,7 @@ Old:
 
 </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL이 활성화됨] </td> 
+   <td role="rowheader">[!UICONTROL 이 활성화됨] </td> 
    <td> <p>이 프로그램을 활성화하고 사용자가 이 프로그램을 찾아 프로젝트와 연결하려면 이 설정을 확인하십시오.</p>
    <p>선택하지 않으면 프로젝트 또는 템플릿의 프로그램 필드에 프로그램이 표시되지 않습니다. </p> 
  </td> 
@@ -277,7 +284,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 활성 프로젝트 상태]</td> 
-   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 [!UICONTROL], 위험 상태 [!UICONTROL] 또는 문제 발생 [!UICONTROL]로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
+   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 , 위험 상태  또는 문제 발생 로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
   </tr> 
  </tbody> 
 </table>

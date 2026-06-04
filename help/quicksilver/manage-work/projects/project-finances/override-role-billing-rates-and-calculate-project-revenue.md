@@ -7,11 +7,17 @@ author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
 TQID: https://experienceleague.adobe.com/R4sO92imTe1YBO0YGJIsuD5OOlhfbhlN-0qvyYU48t0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 4595
@@ -149,7 +155,7 @@ Adobe Workfront 관리자는 청구 요금을 사용자 및 작업 역할에 모
 
 >[!NOTE]
 >
->날짜 유효 비율에 대해 **시작 날짜** 또는 **종료 날짜**&#x200B;가 비어 있는 경우 Workfront에서는 첫 번째 재정의의 **종료 날짜**&#x200B;보다 오래된 날짜가 있는 모든 시간에 대해 첫 번째 재정의 비율이 적용되고 마지막 재정의의 **시작 날짜**보다 오래된 날짜가 있는 모든 시간에 대해 마지막 재정의 비율이 적용된다고 가정합니다.
+>날짜 유효 비율에 대해 **시작 날짜** 또는 **종료 날짜**&#x200B;가 비어 있는 경우 Workfront에서는 첫 번째 재정의의 **종료 날짜**&#x200B;보다 오래된 날짜가 있는 모든 시간에 대해 첫 번째 재정의 비율이 적용되고 마지막 재정의의 **시작 날짜**&#x200B;보다 오래된 날짜가 있는 모든 시간에 대해 마지막 재정의 비율이 적용된다고 가정합니다.
 >프로젝트의 계획된 시작 일자 전에 시간이 기록된 경우 첫 번째 청구 요금이 사용됩니다.\
 >프로젝트의 계획된 완료 일자 이후 시간이 기록된 경우 마지막 청구 요금이 사용됩니다.
 

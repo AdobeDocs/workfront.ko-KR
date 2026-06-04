@@ -9,11 +9,18 @@ exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YGb9LSybhejKxNYvxqiw7pcGD5f8p-2BqXbHU1OHEFc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 395
@@ -122,4 +129,4 @@ Old:
 
      보기 만들기에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
-1. 2단계에서 템플릿에서 만든 작업을 모두 선택한 다음 **삭제 아이콘****> 예, 삭제**를 클릭합니다. 자세한 내용은 [작업 삭제](../../../manage-work/tasks/manage-tasks/delete-tasks.md)를 참조하십시오.
+1. 2단계에서 템플릿에서 만든 작업을 모두 선택한 다음 **삭제 아이콘**&#x200B;**> 예, 삭제**&#x200B;를 클릭합니다. 자세한 내용은 [작업 삭제](../../../manage-work/tasks/manage-tasks/delete-tasks.md)를 참조하십시오.
