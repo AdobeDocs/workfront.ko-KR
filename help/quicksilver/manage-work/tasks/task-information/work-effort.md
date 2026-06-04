@@ -7,11 +7,25 @@ description: 작업 노력 개요
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+TQID: https://experienceleague.adobe.com/glxqYn2m92yNMfsneQ3DW0KALaPKruUgU8o-xjMA1CI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: 1532
 ht-degree: 1%
 
 ---
@@ -41,7 +55,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">작업 노력 </td> 
    <td> <p>사용자가 작업을 완료하는 데 일일 작업량이 작은지, 중간인지 또는 크는지를 정의하는 수동 레이블입니다.
-   &lt;!--
+   &lt;!—!
 
     작업량 수준은 일일 작업 시간의 백분율입니다. (참고: 이 초안을 유지합니다. Vazgen이 필요하지 않다고 말했지만 사용자의 피드백을 기다리고 있습니다)
     

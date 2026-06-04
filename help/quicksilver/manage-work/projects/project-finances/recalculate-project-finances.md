@@ -6,9 +6,21 @@ description: 재원은 프로젝트에 기록된 시간 또는 비용 및 수익
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+TQID: https://experienceleague.adobe.com/b3urO3jsw7wxvdDhpYHZqgf01ewJi0LvulUaQHlCYWY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: 1614
 ht-degree: 1%
 
 ---
@@ -210,4 +222,4 @@ ht-degree: 1%
 >
 >프로젝트 상태를 변경하면 계획된 값만 다시 계산됩니다.
 
-**재무 다시 계산**&#x200B;을 클릭하여 프로젝트 수준의 ![기타](assets/qs-more-menu.png) 메뉴 **기타 메뉴**&#x200B;에서 재무 정보를 수동으로 다시 계산할 수도 있습니다.
+**재무 다시 계산**&#x200B;을 클릭하여 프로젝트 수준의 **기타** 메뉴 ![기타 메뉴](assets/qs-more-menu.png)에서 재무 정보를 수동으로 다시 계산할 수도 있습니다.

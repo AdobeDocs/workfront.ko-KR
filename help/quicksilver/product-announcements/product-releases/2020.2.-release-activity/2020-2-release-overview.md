@@ -7,9 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 88a97b1e-4052-485e-8566-963c6ba640b9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/MlMOUocVtOKfZ2QF2LS3MbdihhOHIs-TErVOoeP-jeg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2544'
+source-wordcount: 2706
 ht-degree: 0%
 
 ---
@@ -258,7 +271,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 * [미리 보기 릴리스 케이던스에서 변경](#change-in-preview-release-cadence) 새로 만들기!
 
-* 허용 목록에 추가하다 [Workfront에 액세스하는 데 필요한 추가 도메인 추가](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
+* [Workfront에 액세스하는 데 필요한 추가 도메인 추가](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 * [2020.1 릴리스 웨비나](#2020-1-release-webinar)
 * [1분기 제품 로드맵 웨비나](#q1-product-roadmap-webinar)
@@ -269,14 +282,14 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 자세한 내용은 [Workfront 미리 보기 릴리스 케이던스의 변경 내용 FAQ](https://experienceleague.adobe.com/ko/docs/workfront/using/home)을 참조하세요.
 
-### 허용 목록에 추가하다 Workfront 액세스에 필요한 도메인에 추가 도메인 추가 {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
+### Workfront 액세스에 필요한 도메인에 추가 도메인 추가 {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
-허용 목록에 추가하다 조직에서 방화벽을 사용하는 경우 Workfront에 대한 액세스가 중단되지 않도록 다음 추가 도메인을 도메인에 추가해야 합니다.
+조직에서 방화벽을 사용하는 경우 Workfront에 대한 액세스가 중단되지 않도록 다음 추가 도메인을 도메인에 추가해야 합니다.
 
 * event.split.io
 * sdk.split.io
 
-허용 목록에 추가하다 허용 목록에 추가하다 자세한 내용은 [&#128279;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)방화벽 구성[&#x200B; 섹션의 방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#urls) 섹션을 참조하십시오.
+자세한 내용은 [&#128279;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)방화벽 구성[&#x200B; 섹션의 방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#urls) 섹션을 참조하십시오.
 
 ### Workfront 원 {#workfront-one}
 

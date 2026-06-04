@@ -7,9 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a716590c-c833-458a-a138-9bc0723e5896
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/I5djuVv0ixHspF6afQaa5-jTkl0uXl26VlKf8BXqhO4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: 433
 ht-degree: 0%
 
 ---
@@ -34,7 +46,7 @@ ht-degree: 0%
 
 &#42;proofhq.com URL도 필요합니다.
 
-허용 목록 허용 목록에 추가하다 업데이트에 대한 자세한 내용은 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
+허용 목록 업데이트에 대한 자세한 내용은 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -57,9 +69,9 @@ ht-degree: 0%
 
 자세한 내용은 [Jira용 Adobe Workfront 구성](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)을 참조하십시오.
 
-## Flash Portfolio 최적화 도구 가 제거되었습니다.
+## Flash Portfolio Optimizer가 제거되었습니다.
 
-모든 고객을 위해 Workfront Classic 환경에서 새 Optimizer와 기존(Flash 기반) Portfolio Optimizer 간 전환 기능을 제거했습니다. 레거시 Portfolio 최적화 프로그램은 더 이상 사용되지 않는 기능이며 새로운 도구는 현재 동일한 기능을 제공합니다.
+모든 고객을 위해 Workfront Classic 환경에서 새 Portfolio Optimizer 및 레거시 (Flash 기반) 간 전환 기능을 제거했습니다. 레거시 Portfolio Optimizer는 더 이상 사용되지 않는 기능이며, 새 도구는 현재 동일한 기능을 제공합니다.
 
 포트폴리오 최적화 도구에 대한 자세한 내용은 https://experience.workfront.com/s/article/Understanding-the-Portfolio-Optimizer-356650079 을 참조하십시오.
 

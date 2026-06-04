@@ -6,15 +6,27 @@ description: 할당된 작업 또는 문제의 커밋 일자를 수동으로 업
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/KR4Zb3l4Mgdx4KPS64viTlw6nTeKUKXXzZDnd3UFaTk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: 590
 ht-degree: 3%
 
 ---
-
 
 # 작업 및 문제에 대한 커밋 일자 업데이트
 
@@ -145,7 +157,7 @@ Workfront의 다음 영역에서 작업 또는 문제의 커밋 일자를 업데
 
 1. **소유자**(으)로 할당된 작업 또는 문제로 이동합니다.
 
-   문제 또는 작업에 대한 작업 소유자를 찾는 방법에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 문서의 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md) 섹션을 참조하십시오.
+   문제 또는 작업에 대한 작업 소유자를 찾는 방법에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md) 문서의 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 섹션을 참조하십시오.
 
 1. (조건부 및 선택 사항) Workfront 또는 그룹 관리자가 작업 또는 문제 헤더에 커밋 날짜를 추가한 경우 헤더의 **커밋 날짜** 필드를 클릭한 다음 달력에서 날짜를 선택합니다. 커밋 일자 가 헤더에 없으면 다음 단계를 진행하십시오.
 

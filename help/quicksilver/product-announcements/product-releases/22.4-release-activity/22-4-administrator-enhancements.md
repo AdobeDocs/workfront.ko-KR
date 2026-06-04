@@ -6,9 +6,18 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+TQID: https://experienceleague.adobe.com/d5r4VDW3ZD3sNx5s9Kj9V8PKt39fZNFtwfiAj6dzdzk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: 881
 ht-degree: 0%
 
 ---
@@ -43,7 +52,7 @@ ht-degree: 0%
 
 자세한 내용은 [블루프린트에 대한 액세스 구성](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md)을 참조하십시오.
 
-[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3412382/){target=_blank}
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
 ## 문제 헤더 사용자 정의
 
@@ -65,7 +74,7 @@ ht-degree: 0%
 
 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오.
 
-[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3412383/){target=_blank}
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
 ## 작업 헤더 사용자 정의
 
@@ -109,9 +118,9 @@ Workfront 관리자만 초기 기능을 선택할 수 있습니다. 관리자가
 
 참고: 이 마이그레이션은 2023년 1분기~2분기로 연기되었습니다. 영향을 받는 모든 고객은 해당 시점에 통지됩니다.
 
-조직이 Adobe Admin Console에 온보딩된 경우 Workfront 인스턴스는 22.4 릴리스가 포함된 Adobe 통합 경험으로 마이그레이션됩니다.
+조직이 Adobe Admin Console에 온보딩된 경우 Workfront 인스턴스는 22.4 릴리스를 통해 Adobe 통합 경험으로 마이그레이션됩니다.
 
-통합 경험 Adobe은 다음을 포함합니다.
+Adobe 통합 경험에는 다음이 포함됩니다.
 
 * Adobe Experience Cloud을 통한 모든 Adobe 애플리케이션에 대한 단일 로그인
 
@@ -119,6 +128,6 @@ Workfront 관리자만 초기 기능을 선택할 수 있습니다. 관리자가
 
 * Workfront 페이지, Adobe Experience Cloud 환경 설정 및 Workfront 프로필에 대한 옵션을 사용하여 탐색
 
-자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
+자세한 내용은 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412388/){target=_blank}

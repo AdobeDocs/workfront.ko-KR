@@ -6,12 +6,21 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3405'
-ht-degree: 0%
+source-wordcount: 3410
+ht-degree: 1%
 
 ---
 
@@ -31,7 +40,7 @@ ht-degree: 0%
 >
 >자세한 내용은 [Adobe Workfront 계획 모범 사례: 문서 색인](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)에서 문서를 참조하는 것이 좋습니다.
 
-마케팅 운영 리더로서 Adobe Workfront Planning을 사용하여 모든 팀의 마케팅 라이프사이클 전반에서 작업을 구성할 수 있습니다.
+마케팅 운영 리더로서 Adobe Workfront 계획 수립을 사용하여 모든 팀의 마케팅 라이프사이클 전반에 걸쳐 작업을 구성할 수 있습니다.
 
 이 문서에서는 Workfront Planning을 시작할 때 권장하는 몇 가지 FAQ 및 모범 사례를 문서화합니다.
 

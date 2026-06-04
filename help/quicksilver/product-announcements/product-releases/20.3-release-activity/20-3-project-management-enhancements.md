@@ -7,9 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/m72HcdqC9ZH3Kzn11Lb1EoL-LZmosFkPVW3FUxa1gq8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: 932
 ht-degree: 0%
 
 ---
@@ -36,7 +49,7 @@ ht-degree: 0%
 >
 >이 기능은 새로운 Adobe Workfront 환경에서만 사용할 수 있습니다
 
-이제 프로젝트, Portfolio, 프로그램 및 템플릿의 전역 영역에 화면의 공간을 더 잘 활용할 수 있도록 업데이트된 헤더가 있습니다. 이 업데이트는 작업에 집중해야 하는 정보에 더 많은 공간을 제공합니다.
+이제 프로젝트, 포트폴리오, 프로그램 및 템플릿의 전역 영역에 화면의 공간을 더 잘 활용할 수 있도록 업데이트된 헤더가 있습니다. 이 업데이트는 작업에 집중해야 하는 정보에 더 많은 공간을 제공합니다.
 
 프로젝트 영역의 템플릿 링크가 제거되었습니다. 메인 메뉴에서 템플릿 영역에 계속 액세스할 수 있습니다.
 

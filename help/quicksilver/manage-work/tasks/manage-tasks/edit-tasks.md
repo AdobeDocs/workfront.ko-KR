@@ -7,11 +7,27 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/roM7lCswSeuhxKXc2Bf8S1wXr1thGzcQjFkqU5lCQCA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4076'
+source-wordcount: 4067
 ht-degree: 4%
 
 ---
@@ -320,13 +336,13 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">커밋 일자 및 시간</td> 
-      <td> <p>작업에 할당된 사용자가 작업을 완료하기로 약정하는 날짜입니다. 계획된 완료 일자와 다를 수 있습니다. 할당자만 이 필드를 편집할 수 있습니다. Workfront의 커밋 날짜에 대한 자세한 내용은 <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">커밋 날짜 개요</a>를 참조하십시오. </p> </td> 
+      <td> <p>작업에 할당된 사용자가 작업을 완료하기로 약정하는 날짜입니다. 계획된 완료 일자와 다를 수 있습니다. 할당된 사람만 이 필드를 편집할 수 있습니다. Workfront의 커밋 날짜에 대한 자세한 내용은 <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">커밋 날짜 개요</a>를 참조하십시오. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">계획된 시작 일자 및 시간</td> 
       <td> <p>작업이 시작될 예정인 시간. 작업의 계획된 시작 일자가 설정되며 여러 요인에 의해 영향을 받습니다.</p> 
        <ul> 
-      <li>작업 계획 시작 날짜에 대한 시스템 전체 기본 설정에 따라 프로젝트의 새 작업 시작 날짜는 기본적으로 오늘 또는 프로젝트 시작 날짜일 수 있습니다. <span>프로젝트와 연결된 그룹의 그룹 관리자가 그룹에 대한 이 환경 설정을 지정할 수도 있습니다.</span> 시스템 수준 또는 그룹 수준 작업 환경 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">시스템 전체 작업 및 문제 환경 설정 구성</a>을 참조하십시오.</li> 
+      <li>작업 계획 시작 날짜에 대한 시스템 전체 기본 설정에 따라 프로젝트의 새 작업 시작 날짜는 기본적으로 오늘 또는 프로젝트 시작 날짜일 수 있습니다. <span>프로젝트와 연결된 그룹의 그룹 관리자도 그룹에 대해 이 환경 설정을 설정할 수 있습니다.</span> 시스템 수준 또는 그룹 수준 작업 환경 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">시스템 전체 작업 및 문제 환경 설정 구성</a>을 참조하십시오.</li> 
       <li>작업의 전임 작업에 따라, Workfront에서 전임 작업이 완료된 후 사용 가능한 다음 날짜로 계획된 시작 날짜를 선택하거나 전임 작업 관계에 따라 시작 날짜를 선택합니다. 전임 작업 관계에 대한 자세한 내용은 <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">작업 전임 작업 개요</a>를 참조하십시오.</li> 
       <li>작업 제한 사항이 고정 일자 또는 필수 시작 일자인 경우 프로젝트 관리자 또는 작업 소유자는 계획된 시작 일자를 수동으로 설정할 수 있습니다. 작업 제한에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">작업 제한 개요</a>를 참조하십시오.</li> 
        </ul> </td> 
@@ -549,7 +565,7 @@ Old:
 
 1. **사용자 정의 양식 추가**&#x200B;를 클릭하고 작업에 연결할 사용자 정의 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다.
 
-   사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오. 작업에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다
+   사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.작업에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
 
 1. (조건부) 사용자 정의 양식을 작업에 첨부한 경우 양식의 모든 필드를 편집합니다. 작업을 저장하려면 먼저 모든 필수 필드를 지정해야 합니다.
 

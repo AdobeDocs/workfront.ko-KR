@@ -8,9 +8,23 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/u9WNEgL9QU9bPkE3iBu5myxuVGl58V-6qN-zIkwhSIo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: 626
 ht-degree: 0%
 
 ---
@@ -41,13 +55,13 @@ Adobe Workfront 애플리케이션 및 고객 대면 웹 사이트에서 가장 
 
 * 이메일 알림
 
-## 허용 목록에 추가하다 전자 메일 유효성 검사
+## 전자 메일 유효성 검사
 
 >[!NOTE]
 >
 >새로운 Adobe Workfront 경험에서만 사용할 수 있습니다.
 
-이메일 주소를 사용하는 경우 이제 허용 목록에 추가하다허용 목록에 추가하다 에 대해 새 사용자 이메일과 업데이트된 사용자 이메일이 확인됩니다. 새 사용자를 추가하거나 기존 사용자를 편집하고 허용 목록에 추가하다에 없는 이메일 도메인을 입력하면 사용자가 이메일 메시지를 받지 못한다는 메시지가 표시됩니다. 허용 목록에 추가하다 사용자 프로필을 저장할 수 있지만 사용자가 이메일을 수신할 수 있도록 도메인에 도메인을 추가해야 합니다.
+이메일 주소를 사용하는 경우 이제 허용 목록에 추가하다에 대해 새 사용자 이메일과 업데이트된 사용자 이메일이 확인됩니다. 새 사용자를 추가하거나 기존 사용자를 편집하고 허용 목록에 추가하다에 없는 이메일 도메인을 입력하면 사용자가 이메일 메시지를 받지 못한다는 메시지가 표시됩니다. 사용자 프로필을 저장할 수 있지만 사용자가 이메일을 수신할 수 있도록 도메인에 도메인을 추가해야 합니다.
 
 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 

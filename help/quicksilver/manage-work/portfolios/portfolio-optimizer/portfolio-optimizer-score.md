@@ -7,9 +7,20 @@ description: Portfolio Optimizer에서 Portfolio Optimizer 점수를 찾을 수 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+TQID: https://experienceleague.adobe.com/-DZAndwU0-o1YameaYjT9Bbv3AKkTHtffvdYvjtJwLs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: 737
 ht-degree: 0%
 
 ---
@@ -64,7 +75,7 @@ ht-degree: 0%
 
 프로젝트의 순위를 확인하려면 다음을 수행합니다.
 
-1. [!UICONTROL Portfolio 최적화 도구] (으)로 이동합니다.
+1. [!UICONTROL Portfolio 최적화 도구]&#x200B;(으)로 이동합니다.
 1. 등급 아이콘 위로 마우스를 가져가면 프로젝트에 대한 포트폴리오 최적화 도구 점수를 볼 수 있습니다.
 
 ![ranking_icon_in_portfolio_optimizer_new.png](assets/ranking-icon-in-portfolio-optimizer-new-350x160.png)

@@ -6,10 +6,17 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/zM-lC-wY-TUSdOq2IHypo6UuqHoInWaruiM8dWACReo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 0%
+source-wordcount: 375
+ht-degree: 1%
 
 ---
 
@@ -45,7 +52,7 @@ Workfront과 Proof 간의 통합 경험을 제공하기 위해 검토자 및 요
 
 또한 모든 사용자는 Workfront과 Proof 간의 연결 기능이 개선되어 많은 이점을 얻을 수 있습니다. 이제 사용자를 비활성화하거나 사용자의 이메일 주소를 업데이트할 때 Workfront에서 업데이트를 변경하면 증명이 올바르게 반영됩니다.
 
-자세한 내용은
+자세한 내용은 다음 문서를 참조하십시오.
 
 * [증명 역할 개요](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 
