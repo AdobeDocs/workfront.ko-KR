@@ -1,19 +1,32 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: ' [!DNL Adobe Workfront] 팀에서  [!DNL Microsoft] 요청 제출'
+title: ' [!DNL Microsoft] 팀에서  [!DNL Adobe Workfront] 요청 제출'
 description: 팀 소유자가 Microsoft Teams용 Adobe Workfront을 설치한 후 Microsoft Teams 계정에서 Workfront 요청을 제출할 수 있습니다. 이렇게 하려면 요청을 제출할 수 있는 액세스 권한이 있는 Workfront 계정이 있어야 합니다. Microsoft Teams용 Workfront 설치에 대한 자세한 내용은 Microsoft Teams용 Workfront 설치 를 참조하십시오.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+TQID: https://experienceleague.adobe.com/SAhx7otUvjrhEkQnMr87CF0gZFL3Fpvy8bXcnTf1-E8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 1%
+source-wordcount: 607
+ht-degree: 3%
 
 ---
 
-# [!DNL Adobe Workfront]개 팀에서 [!DNL Microsoft]개 요청 제출
+# [!DNL Microsoft]개 팀에서 [!DNL Adobe Workfront]개 요청 제출
 
 >[!IMPORTANT]
 >
@@ -21,7 +34,7 @@ ht-degree: 1%
 >
 >이제 업데이트된 Workfront 통합을 사용할 수 있으며 새 팀 경험과 완전히 호환됩니다. 대부분의 경우 사용자가 전환되면 Workfront이 자동으로 표시됩니다. 그렇지 않은 경우 Microsoft Teams App Store에서 수동으로 통합을 설치할 수 있습니다. 새 Teams 클라이언트에서 Workfront 통합을 설치하거나 확인하려면 [Microsoft Teams용 설치 [!DNL Adobe Workfront] 를 참조하십시오](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-팀 소유자가 [!DNL Adobe Workfront for Microsoft Teams]을(를) 설치한 후 [!DNL Workfront] 계정에서 [!DNL Microsoft Teams]개의 요청을 제출할 수 있습니다. 이렇게 하려면 요청을 제출할 수 있는 액세스 권한이 있는 Workfront 계정이 있어야 합니다. [!DNL Workfront for Microsoft Teams] 설치에 대한 자세한 내용은 [설치 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
+팀 소유자가 [!DNL Adobe Workfront for Microsoft Teams]을(를) 설치한 후 [!DNL Microsoft Teams] 계정에서 [!DNL Workfront]개의 요청을 제출할 수 있습니다. 이렇게 하려면 요청을 제출할 수 있는 액세스 권한이 있는 Workfront 계정이 있어야 합니다. [!DNL Workfront for Microsoft Teams] 설치에 대한 자세한 내용은 [설치 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -32,7 +45,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +53,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -56,11 +69,11 @@ ht-degree: 1%
 
 ## 전제 조건
 
-[!DNL Microsoft Teams] 팀 소유자는 [!DNL Workfront]에 대해 [!DNL Microsoft Teams]을(를) 설치해야 사용할 수 있습니다.
+[!DNL Microsoft Teams] 팀 소유자는 [!DNL Microsoft Teams]에 대해 [!DNL Workfront]을(를) 설치해야 사용할 수 있습니다.
 
-## [!DNL Workfront]에서 [!DNL Microsoft Teams]개 요청 제출
+## [!DNL Microsoft Teams]에서 [!DNL Workfront]개 요청 제출
 
-1. **[!UICONTROL 의 왼쪽 탐색 막대에 있는]**&#x200B;추가된 앱 추가[!DNL Microsoft Teams]&#x200B;(점 3개) 아이콘을 클릭합니다.
+1. [!DNL Microsoft Teams]의 왼쪽 탐색 막대에 있는 **[!UICONTROL 추가된 앱 추가]**(점 3개) 아이콘을 클릭합니다.
 
 1. 표시되는 목록에서 **[!DNL Workfront]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL 요청]** 탭을 클릭합니다.
@@ -96,9 +109,9 @@ ht-degree: 1%
 
    지정된 요청 큐의 [!DNL Workfront]에 요청이 나타납니다. 요청이 성공적으로 제출되었다는 확인 메시지가 표시됩니다.
 
-## [!DNL Workfront]에서 제출한 [!DNL Microsoft Teams]개 요청 보기
+## [!DNL Microsoft Teams]에서 제출한 [!DNL Workfront]개 요청 보기
 
-1. **[!UICONTROL 의 왼쪽 탐색 막대에 있는]**&#x200B;추가된 앱 추가[!DNL Microsoft Teams]&#x200B;(점 3개) 아이콘을 클릭합니다.
+1. [!DNL Microsoft Teams]의 왼쪽 탐색 막대에 있는 **[!UICONTROL 추가된 앱 추가]**(점 3개) 아이콘을 클릭합니다.
 
 1. 표시되는 목록에서 **[!DNL Workfront]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL 요청]** 탭을 클릭합니다.

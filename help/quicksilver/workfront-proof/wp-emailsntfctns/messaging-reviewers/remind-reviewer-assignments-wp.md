@@ -7,9 +7,18 @@ description: 검토자와 공유된 여러 항목을 알려 주는 단일 메시
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb29f888-bc99-47ef-852f-1197efb2b41e
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/QgADyJaadtQoow17rY7u5dZO9fKXNspU6cFQQR78VKE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: 225
 ht-degree: 0%
 
 ---
@@ -35,6 +44,6 @@ ht-degree: 0%
 
 1. **[!UICONTROL 자세히]** > **[!UICONTROL 메시지]**&#x200B;를 클릭합니다.
 
-1. 표시되는 **[!UICONTROL 메시지 보내기]** 상자에서 **[!UICONTROL 제목]** 및 **[!UICONTROL 메시지],**&#x200B;을 입력한 다음 **[!UICONTROL 보내기]를 클릭합니다.**&#x200B; 연락처는 하나의 전자 메일에 있는 모든 증명에 대한 정보 및 개인 링크가 포함된 전자 메일을 받습니다.
+1. 표시되는 **[!UICONTROL 메시지 보내기]** 상자에서 **[!UICONTROL 제목]** 및 **[!UICONTROL 메시지],**&#x200B;을 입력한 다음 **[!UICONTROL 보내기].**&#x200B;연락처는 하나의 전자 메일에 있는 모든 증명에 대한 정보 및 개인 링크가 포함된 전자 메일을 받습니다.
 
 

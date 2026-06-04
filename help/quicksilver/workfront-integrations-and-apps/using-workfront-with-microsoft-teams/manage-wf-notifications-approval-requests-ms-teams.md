@@ -1,19 +1,32 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: ' [!DNL Adobe Workfront] Teams의  [!DNL Microsoft] 알림 관리'
+title: ' [!DNL Microsoft] Teams의  [!DNL Adobe Workfront] 알림 관리'
 description: ' [!DNL Adobe Workfront] 에서 승인해야 하는 항목, 받은 할당 또는 연결된 항목에 대한 의견 및 변경 사항에 대한 알림을 받을 수 있습니다.'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
+TQID: https://experienceleague.adobe.com/VdZs7a8E9LDHRW8H-pu7-rFZqbwN6yVzxQCUfL4PBPA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 5%
+source-wordcount: 1422
+ht-degree: 2%
 
 ---
 
-# [!DNL Adobe Workfront]에서 [!DNL Microsoft Teams]개의 알림 관리
+# [!DNL Microsoft Teams]에서 [!DNL Adobe Workfront]개의 알림 관리
 
 >[!IMPORTANT]
 >
@@ -23,7 +36,7 @@ ht-degree: 5%
 
 [!DNL Adobe Workfront]에서 승인해야 하는 항목, 받은 할당 또는 연결된 항목에 대한 댓글 및 변경 사항에 대한 알림을 받을 수 있습니다.
 
-이러한 알림에는 [!DNL Workfront]에서 다른 곳으로 이동하지 않고 [!DNL Microsoft Teams] 내에서 수행할 수 있는 [!DNL Microsoft Teams] 작업이 포함되어 있습니다.
+이러한 알림에는 [!DNL Microsoft Teams]에서 다른 곳으로 이동하지 않고 [!DNL Microsoft Teams] 내에서 수행할 수 있는 [!DNL Workfront] 작업이 포함되어 있습니다.
 
 >[!NOTE]
 >
@@ -56,33 +69,33 @@ ht-degree: 5%
 
 +++
 
-## [!DNL Workfront]에서 [!DNL Microsoft Teams] 알림을 받기 위한 필수 구성 요소
+## [!DNL Microsoft Teams]에서 [!DNL Workfront] 알림을 받기 위한 필수 구성 요소
 
-다음 조건이 충족되는 경우 [!DNL Workfront]에서 [!DNL Microsoft Teams]개의 알림을 받을 수 있습니다.
+다음 조건이 충족되는 경우 [!DNL Microsoft Teams]에서 [!DNL Workfront]개의 알림을 받을 수 있습니다.
 
 * 팀 소유자가 귀하의 팀에 대해 [!DNL Workfront for Microsoft Teams]을(를) 설치하고 구성했습니다.
-* [!DNL Workfront]에서 [!DNL Microsoft Teams]에 로그인했습니다.
+* [!DNL Microsoft Teams]에서 [!DNL Workfront]에 로그인했습니다.
 * [!DNL Workfront]에서 인스턴트 알림을 사용하도록 설정했습니다. 인스턴트 알림을 사용하는 방법에 대한 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
 [!DNL Workfront for Microsoft Teams]을(를) 설치하고 [!DNL Workfront from Microsoft Teams]에 로그인하는 방법에 대한 자세한 내용은 [설치 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
 
-## [!DNL Workfront]에서 [!DNL Microsoft Teams]개의 알림 관리
+## [!DNL Microsoft Teams]에서 [!DNL Workfront]개의 알림 관리
 
-[!DNL Workfront for Microsoft Teams] 앱이 설치되면 해당 팀의 모든 구성원에 대해 [!DNL Workfront]에 [!DNL Microsoft Teams] 채팅 채널이 만들어집니다. [!DNL Workfront]에서 특정 작업이 수행되면 [!DNL Workfront for Microsoft Teams]의 [!DNL Workfront] 채팅 채널에서 해당 작업에 대한 알림을 받도록 [!DNL Microsoft Teams]에 대한 설정을 구성할 수 있습니다.
+[!DNL Workfront for Microsoft Teams] 앱이 설치되면 해당 팀의 모든 구성원에 대해 [!DNL Microsoft Teams]에 [!DNL Workfront] 채팅 채널이 만들어집니다. [!DNL Workfront]에서 특정 작업이 수행되면 [!DNL Microsoft Teams]의 [!DNL Workfront] 채팅 채널에서 해당 작업에 대한 알림을 받도록 [!DNL Workfront for Microsoft Teams]에 대한 설정을 구성할 수 있습니다.
 
-[!DNL Workfront]의 [!DNL Microsoft Teams] 알림을 사용하여 작업할 때 다음 사항을 고려하십시오.
+[!DNL Microsoft Teams]의 [!DNL Workfront] 알림을 사용하여 작업할 때 다음 사항을 고려하십시오.
 
-* 모두 받을 수 없지만 [!DNL Workfront]에서 선택한 개수의 [!DNL Microsoft Teams]개의 알림만 받습니다.
+* 모두 받을 수 없지만 [!DNL Microsoft Teams]에서 선택한 개수의 [!DNL Workfront]개의 알림만 받습니다.
 * [!DNL Workfront]에서 받은 모든 알림이 [!DNL Workfront] 봇 채팅 채널에 표시됩니다.
 
-  [!DNL Workfront] 보트 채널 설치에 대한 자세한 내용은 [설치 [!DNL Workfront]  문서의  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront)로그인 대상[부터 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) 섹션을 참조하십시오.
+  [!DNL Workfront] 보트 채널 설치에 대한 자세한 내용은 [설치 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) 문서의 [로그인 대상 [!DNL Workfront] 부터 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) 섹션을 참조하십시오.
 
 * [!DNL Workfront]에서 업데이트를 수행한 시간과 [!DNL Microsoft Teams]에서 해당 알림이 전송되는 시간 사이에 최대 5분이 지연될 수 있습니다.
 * 각 [!DNL Microsoft Teams] 알림에 대해 전자 메일 알림도 받습니다.
 
-[!DNL Workfront]에서 받을 수 있는 [!DNL Microsoft Teams] 알림을 관리하려면:
+[!DNL Microsoft Teams]에서 받을 수 있는 [!DNL Workfront] 알림을 관리하려면:
 
-1. **[!UICONTROL 의 왼쪽 탐색 막대에 있는]**&#x200B;추가 추가[!DNL Microsoft Teams]&#x200B;(점 3개) 앱 아이콘을 클릭합니다.
+1. [!DNL Microsoft Teams]의 왼쪽 탐색 막대에 있는 **[!UICONTROL 추가 추가]**(점 3개) 앱 아이콘을 클릭합니다.
 
 1. 표시되는 목록에서 [!DNL Workfront]을(를) 클릭합니다.
 1. **[!UICONTROL 설정]** 탭을 선택합니다.
@@ -99,9 +112,9 @@ ht-degree: 5%
    >
    >기본적으로 사용할 수 있는 알림에는 알림을 더 추가할 수 없습니다.
 
-## [!DNL Workfront]에서 [!DNL Microsoft Teams]개의 알림 및 승인 요청에 응답 중
+## [!DNL Microsoft Teams]에서 [!DNL Workfront]개의 알림 및 승인 요청에 응답 중
 
-1. [!DNL Workfront]에서 [!DNL Microsoft Teams]에 로그인합니다.\
+1. [!DNL Microsoft Teams]에서 [!DNL Workfront]에 로그인합니다.\
    [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [설치 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
 
 1. **[!UICONTROL 채팅]** 영역으로 이동하여 **[!DNL Workfront]** 봇 채널을 클릭합니다.\
@@ -116,7 +129,7 @@ ht-degree: 5%
 
 ### 승인 알림 {#approval-notifications}
 
-작업, 타임시트 또는 증명과 같은 개체를 승인하라는 메시지가 표시되면 승인 알림을 받습니다. 알림에 주석을 달 수 있지만 승인 알림에서 다음 작업을 수행할 수 있습니다.
+작업, 타임시트 또는 증명과 같은 개체를 승인하라는 메시지가 표시되면 승인 알림을 받습니다. 그러나 알림에 댓글을 달 수 있습니다.승인 통지에서 다음 작업을 수행할 수 있습니다.
 
 * **[!UICONTROL 승인]**: 항목을 승인하려면 클릭하십시오.
 * **[!UICONTROL 변경]**: 변경 내용이 있는 항목을 승인하려면 클릭하세요.

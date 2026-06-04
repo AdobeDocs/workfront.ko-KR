@@ -7,9 +7,16 @@ description: 베이스캠프는 37시그널이 개발한 온라인 프로젝트 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b14f33dc-e059-4ee2-a429-9f1852a2b9bb
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+TQID: https://experienceleague.adobe.com/H4oPVQW1kV-6efM04x0lIa1mUOrGfskjfcSVo8t8O2I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: 864
 ht-degree: 0%
 
 ---
@@ -97,7 +104,7 @@ ht-degree: 0%
 
 증명을 검토하려면:
 
-1. 댓글을 추가하려면 증명 상단에 있는 [!UICONTROL 댓글] (3)을 클릭하고 댓글을 입력하세요.\
+1. 댓글을 추가하려면 증명 상단에 있는 [!UICONTROL 댓글]&#x200B;(3)을 클릭하고 댓글을 입력하세요.\
    댓글과 [증명 뷰어에서 증명에 대한 결정을 내립니다](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)(예: [!DNL Workfront Proof] 내의 증명 검토).[!DNL Basecamp]
 
 1. 결정을 추가하려면 증명 상단에 있는 결정 (3)을 클릭하고 승인 결정을 선택합니다.\

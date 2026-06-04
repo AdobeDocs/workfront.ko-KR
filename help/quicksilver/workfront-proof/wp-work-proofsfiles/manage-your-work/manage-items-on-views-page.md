@@ -7,9 +7,14 @@ description: '[!UICONTROL 보기] 페이지에서는 모든 증명, 파일 및 �
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: 1544
 ht-degree: 0%
 
 ---
@@ -139,7 +144,7 @@ ht-degree: 0%
 1. (선택 사항) 검토자의 이름 오른쪽에 있는 **[!UICONTROL 자세히]**(점 3개) 메뉴를 클릭하여 다음 중 하나를 수행합니다.
 
    * 검토자에게 미리 알림 메시지를 보냅니다.
-   * 증명에서 검토자 설정을 편집합니다.\
+   * 증명에서 검토자의 설정을 편집합니다.\
 
      표시되는 검토자 편집 상자에서는 역할 및 이메일 경고뿐만 아니라 검토자의 표시 이름도 변경할 수 있습니다. 연락처 페이지의 검토자 세부 정보가 아닌 특정 증명에서만 표시 이름을 변경할 수 있습니다. 자세한 내용은 [연락처](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts)를 참조하세요.
 

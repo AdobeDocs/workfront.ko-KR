@@ -2,14 +2,27 @@
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-microsoft-teams
 title: Microsoft Teams용  [!DNL Adobe Workfront] 설치
-description: ' [!DNL Adobe Workfront for Microsoft Teams] 앱을 사용하면  [!DNL Workfront] 채팅 채널을 떠나지 않고  [!DNL Microsoft Teams] 에서 기본 작업을 수행할 수 있습니다.'
+description: ' [!DNL Adobe Workfront for Microsoft Teams] 앱을 사용하면  [!DNL Microsoft Teams] 채팅 채널을 떠나지 않고  [!DNL Workfront] 에서 기본 작업을 수행할 수 있습니다.'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+TQID: https://experienceleague.adobe.com/6bVoPpO5kyn202DJrUZ8lEmwzz6-V0wVEY8D9F42jFo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 0%
+source-wordcount: 715
+ht-degree: 3%
 
 ---
 
@@ -24,7 +37,7 @@ ht-degree: 0%
 >이제 업데이트된 Workfront 통합을 사용할 수 있으며 새 팀 경험과 완전히 호환됩니다. 대부분의 경우 사용자가 전환되면 Workfront이 자동으로 표시됩니다. 그렇지 않은 경우 Microsoft Teams App Store에서 수동으로 통합을 설치할 수 있습니다.
 
 
-[!DNL Adobe Workfront for Microsoft Teams] 앱을 사용하면 [!DNL Workfront] 채팅 채널을 떠나지 않고 [!DNL Microsoft Teams]에서 기본 작업을 수행할 수 있습니다.
+[!DNL Adobe Workfront for Microsoft Teams] 앱을 사용하면 [!DNL Microsoft Teams] 채팅 채널을 떠나지 않고 [!DNL Workfront]에서 기본 작업을 수행할 수 있습니다.
 
 >[!NOTE]
 >
@@ -35,7 +48,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +56,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -63,9 +76,9 @@ ht-degree: 0%
 
 ## [!DNL Workfront for Microsoft Teams] 설치
 
-[!DNL Microsoft Teams]의 팀 소유자는 [!DNL Workfront for Microsoft Teams] 스토어 또는 [!DNL Microsoft]에서 제공한 파일에서 각 팀에 대한 [!DNL Workfront] 앱을 설치할 수 있습니다.
+[!DNL Microsoft Teams]의 팀 소유자는 [!DNL Microsoft] 스토어 또는 [!DNL Workfront]에서 제공한 파일에서 각 팀에 대한 [!DNL Workfront for Microsoft Teams] 앱을 설치할 수 있습니다.
 
-### [!DNL Workfront for Microsoft Teams] 스토어에서 [!DNL Microsoft] 설치
+### [!DNL Microsoft] 스토어에서 [!DNL Workfront for Microsoft Teams] 설치
 
 1. [!DNL Microsoft Teams]에 팀 소유자로 로그인합니다.
 1. [!DNL Workfront for Microsoft Teams] 앱을 설치할 팀을 선택하십시오.
@@ -91,30 +104,30 @@ ht-degree: 0%
 
 1. [!DNL Workfront]에서 받은 개인 파일을 컴퓨터에 저장합니다.
 1. [!DNL Microsoft Teams]에 [!DNL Microsoft] 팀 소유자로 로그인합니다.
-1. **[!UICONTROL 을(를) 설치할 팀의]**&#x200B;자세히[!DNL Workfront for Microsoft Teams] 아이콘을 클릭합니다.
+1. [!DNL Workfront for Microsoft Teams]을(를) 설치할 팀의 **[!UICONTROL 자세히]** 아이콘을 클릭합니다.
 
 1. **[!UICONTROL 팀 관리]**&#x200B;를 클릭합니다.
 1. 앱 탭을 선택한 다음 화면 왼쪽 상단 모서리에서 앱 업로드 를 클릭합니다.
 1. 컴퓨터에 저장한 개인 파일을 찾은 다음 설치 단계에 따라 [!DNL Workfront for Microsoft Teams]을(를) 설치합니다.
 1. 설치가 완료되면 선택한 팀의 일반 채널에 설치가 성공했다는 알림이 표시됩니다. 팀의 모든 구성원이 이 알림을 볼 수 있습니다.
 
-## [!DNL Workfront] 팀에서 [!DNL Microsoft]에 로그인
+## [!DNL Microsoft] 팀에서 [!DNL Workfront]에 로그인
 
-[!DNL Microsoft Teams] 팀 소유자는 귀하 또는 팀의 모든 사용자가 [!DNL Workfront for Microsoft Teams]에 로그인할 수 있으려면 먼저 팀에 대한 [!DNL Workfront from Microsoft Teams] 앱을 설치해야 합니다.
+[!DNL Microsoft Teams] 팀 소유자는 귀하 또는 팀의 모든 사용자가 [!DNL Workfront from Microsoft Teams]에 로그인할 수 있으려면 먼저 팀에 대한 [!DNL Workfront for Microsoft Teams] 앱을 설치해야 합니다.
 
-[!DNL Workfront]에서 [!DNL Microsoft Teams]에 로그인한 경우 [!DNL Workfront] 봇 채널에서 [!DNL Workfront] 알림을 받거나 [!DNL Workfront]에서 [!DNL Microsoft Teams]의 특정 작업을 수행할 수 있습니다.
+[!DNL Microsoft Teams]에서 [!DNL Workfront]에 로그인한 경우 [!DNL Workfront] 봇 채널에서 [!DNL Workfront] 알림을 받거나 [!DNL Microsoft Teams]에서 [!DNL Workfront]의 특정 작업을 수행할 수 있습니다.
 
 [!DNL Workfront] 앱 설치에 대한 자세한 내용은 이 문서의 [설치 [!DNL Workfront for Microsoft Teams]](#install-workfront-for-microsoft-teams) 섹션을 참조하십시오.
 
-[!DNL Workfront]에서 [!DNL Microsoft Teams]에 액세스하여 특정 작업을 수행하는 방법에 대한 자세한 내용은 [액세스 [!DNL Adobe Workfront] 출처 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)를 참조하십시오.
+[!DNL Microsoft Teams]에서 [!DNL Workfront]에 액세스하여 특정 작업을 수행하는 방법에 대한 자세한 내용은 [액세스 [!DNL Adobe Workfront] 출처 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)를 참조하십시오.
 
-[!DNL Workfront]에서 [!DNL Microsoft Teams]에 로그인하려면:
+[!DNL Microsoft Teams]에서 [!DNL Workfront]에 로그인하려면:
 
-1. **[!UICONTROL 앱이 설치된 팀의]**&#x200B;일반[!DNL Workfront for Microsoft Teams] 채널로 이동하여 **[!UICONTROL Workfront에 로그인]**&#x200B;을 클릭합니다.
+1. [!DNL Workfront for Microsoft Teams] 앱이 설치된 팀의 **[!UICONTROL 일반]** 채널로 이동하여 **[!UICONTROL Workfront에 로그인]**&#x200B;을 클릭합니다.
 
    [!DNL Workfront] 보트 채팅 채널이 [!DNL Microsoft Teams] 채팅 채널에 추가되었습니다.
 
-1. [!DNL Workfront]의 [!DNL Microsoft Teams] 봇 채팅 채널로 이동하여 *[!UICONTROL 여기에 질문을 입력]* 또는 **[!UICONTROL 메시지 입력]** 필드에 **로그인**&#x200B;을 입력하십시오.
+1. [!DNL Microsoft Teams]의 [!DNL Workfront] 봇 채팅 채널로 이동하여 **[!UICONTROL 여기에 질문을 입력]** 또는 **메시지 입력** 필드에 *[!UICONTROL 로그인]*&#x200B;을 입력하십시오.
 
    또는
 

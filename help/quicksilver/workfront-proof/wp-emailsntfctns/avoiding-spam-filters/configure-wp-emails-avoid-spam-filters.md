@@ -3,13 +3,22 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: 스팸 필터를 사용하지 않도록  [!DNL Workfront Proof] 이메일 구성
-description: "이메일 클라이언트의 스팸 필터는 성가시고 악의적인 스팸 이메일로부터 사용자를 보호하는 중요한 역할을 합니다. 그러나 스팸 필터에 올바른 설정이 없으면 다음의 중요한 [!DNL Workfront Proof] 이메일을 볼 수 없게 됩니다. 증명 이메일 알림, 뉴스레터 및 특수 통신."
+description: 이메일 클라이언트의 스팸 필터는 성가시고 악의적일 수 있는 스팸 이메일을 보호하는 중요한 역할을 합니다. 그러나 스팸 필터에 올바른 설정이 없으면 증명 이메일 알림, 뉴스레터 및 특수 통신과 같은 중요한 [!DNL Workfront Proof] 이메일을 볼 수 없게 됩니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/QMtIDexmxDDuKqTg-Z47-lMnQ27zDEdMtwg-8OUe3Uw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: 496
 ht-degree: 0%
 
 ---
@@ -27,7 +36,7 @@ ht-degree: 0%
 * [!DNL Workfront Proof] 메일 서버: **[!DNL mx.proofhq.com]**
 * [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; 전자 메일 주소(예: notification@proofhq.com)
 
-허용 목록에 추가하다 허용 목록에 추가하다 허용 목록에 추가하다에 추가할 URL에 대한 자세한 내용은 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) 기사의 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
+허용 목록에 추가하다에 추가할 URL에 대한 자세한 내용은 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) 기사의 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
 
 ## [!DNL Workfront Proof] &quot;[!UICONTROL 보낸 사람]&quot; 전자 메일 주소
 

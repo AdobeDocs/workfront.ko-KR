@@ -7,9 +7,14 @@ description: 태그를 만들고 편집하여 증명 및 파일에 적용할 수
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
+TQID: https://experienceleague.adobe.com/sIZ53VhqzZxlud-4OEFP-voJIjJXjNd2x2hog8UHmzs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: 915
 ht-degree: 0%
 
 ---
@@ -98,7 +103,7 @@ ht-degree: 0%
 
 ## 태그 이름을 사용하여 항목 검색
 
-항목에 적용된 태그 이름을 사용하여 항목을 검색할 수 있습니다.항목을 다른 사람과 공유하는 경우 같은 방법으로 해당 항목을 검색할 수 있습니다.태그가 적용된 모든 항목의 목록을 보려면 다음과 같이 하십시오.
+항목에 적용된 것으로 알고 있는 태그의 이름을 사용하여 항목을 검색할 수 있습니다.다른 사람과 항목을 공유하면 같은 방법으로 해당 항목을 검색할 수 있습니다.태그가 적용된 모든 항목의 목록을 보려면 다음과 같이 하십시오.
 
 1. 목록 보기 또는 대시보드에서 왼쪽 사이드바의 **[!UICONTROL 태그]** 탭을 연 다음 표시되는 태그 목록에서 태그를 클릭합니다.\
    ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)\

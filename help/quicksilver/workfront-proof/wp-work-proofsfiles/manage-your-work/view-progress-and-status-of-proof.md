@@ -7,9 +7,14 @@ description: 증명 진행률은 검토자에게 증명을 보낸 시점부터 �
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8fd85595-1403-490e-9d52-2ba5b01457b7
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/RT6tZgY8-PP4bmiowZFQm1BK84Bd1CAguWcWRv9Hpqs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: 1139
 ht-degree: 0%
 
 ---
@@ -156,7 +161,7 @@ Workfront Proof은 진행률 아이콘을 사용하여 다음 각 수준에서 �
 
 * [!UICONTROL 모두 메시지] (2)
 * [!UICONTROL 공유] (3)
-* [!UICONTROL 단계 삭제] (4)
+* [!UICONTROL 단계 삭제]&#x200B;(4)
 
 >[!NOTE]
 >

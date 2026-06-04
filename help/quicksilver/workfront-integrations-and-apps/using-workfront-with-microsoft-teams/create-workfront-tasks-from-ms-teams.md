@@ -1,19 +1,31 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: ' [!DNL Adobe Workfront] 팀에서  [!DNL Microsoft] 작업 만들기'
-description: 팀 소유자가 귀하의 팀에 대해 Adobe을 설치 및 구성 [!DNL Workfront] 했으며 귀하가 Microsoft Teams에서 Workfront에 로그인한 경우 Microsoft TeamsMicrosoft Teams 에서  [!DNL Workfront] 개인 작업을 만들 수 있습니다.
+title: ' [!DNL Microsoft] 팀에서  [!DNL Adobe Workfront] 작업 만들기'
+description: 팀 소유자가 귀하의 팀에 대해 Adobe을 설치 및 구성 [!DNL Workfront] 했으며 귀하가 Microsoft Teams에서 Workfront에 로그인한 경우 Microsoft Teams에서  [!DNL Workfront] 개인 작업을 만들 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+TQID: https://experienceleague.adobe.com/EGXeEO-HU8813eA-dyVAuKSv6rAQg8tsDiDT5leVee0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 0%
+source-wordcount: 449
+ht-degree: 4%
 
 ---
 
-# [!DNL Adobe Workfront]에서 [!DNL Microsoft Teams]개 작업 만들기
+# [!DNL Microsoft Teams]에서 [!DNL Adobe Workfront]개 작업 만들기
 
 >[!IMPORTANT]
 >
@@ -25,7 +37,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +45,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -49,30 +61,30 @@ ht-degree: 0%
 
 ## 전제 조건
 
-다음 조건이 충족되는 경우 [!DNL Adobe Workfront]의 [!DNL Microsoft Teams]에서 개인 작업을 만들 수 있습니다.
+다음 조건이 충족되는 경우 [!DNL Microsoft Teams]의 [!DNL Adobe Workfront]에서 개인 작업을 만들 수 있습니다.
 
 * 팀 소유자가 귀하의 팀에 대해 [!DNL Workfront for Microsoft Teams]을(를) 설치하고 구성했습니다.
-* [!DNL Workfront]에서 [!DNL Microsoft Teams]에 로그인했습니다.
+* [!DNL Microsoft Teams]에서 [!DNL Workfront]에 로그인했습니다.
 
 >[!NOTE]
 >
 >[!DNL Microsoft Teams]은(는) 더 이상 [!DNL Internet Explorer]을(를) 지원하지 않습니다. [!DNL Adobe Workfront for Microsoft Teams] 통합을 사용하려면 [!DNL Internet Explorer] 이외의 웹 브라우저를 사용해야 합니다.
 
-[!DNL Workfront for Microsoft Teams]을(를) 설치하고 [!UICONTROL 에서 &#x200B;]Workfront[!DNL Microsoft Teams]에 로그인하는 방법에 대한 자세한 내용은 [설치 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
+[!DNL Workfront for Microsoft Teams]을(를) 설치하고 [!DNL Microsoft Teams]에서 [!UICONTROL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [설치 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
 
 ## [!DNL Microsoft Teams]에서 개인 작업 만들기
 
-1. [!DNL Workfront]에서 [!DNL Microsoft Teams]에 로그인합니다.
+1. [!DNL Microsoft Teams]에서 [!DNL Workfront]에 로그인합니다.
 
    [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [설치 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
 
 1. **[!UICONTROL 새 작업]** 카드를 열려면:
 
-   * [!DNL Workfront] 봇 채팅 채널에 있는 경우 **[!UICONTROL 대화]** 필드에 [!UICONTROL 새 작업]을 입력하여 새 작업을 만드십시오.
+   * [!DNL Workfront] 봇 채팅 채널에 있는 경우 [!UICONTROL 대화] 필드에 **[!UICONTROL 새 작업]**&#x200B;을 입력하여 새 작업을 만드십시오.
    * [!DNL Workfront] 보트 채팅 채널 이외의 채팅 채널에 있는 경우:
 
-      * **[!DNL @workfront]**&#x200B;대화[!UICONTROL &#x200B; 필드에 &#x200B;]을(를) 입력한 다음 원하는 [!DNL Workfront] 봇 채널을 선택하십시오.
-      * **[!UICONTROL 대화]** 필드에 [!UICONTROL 새 작업]을(를) 계속 입력하여 새 작업을 만듭니다.
+      * [!UICONTROL 대화] 필드에 **[!DNL @workfront]**&#x200B;을(를) 입력한 다음 원하는 [!DNL Workfront] 봇 채널을 선택하십시오.
+      * [!UICONTROL 대화] 필드에 **[!UICONTROL 새 작업]**&#x200B;을(를) 계속 입력하여 새 작업을 만듭니다.
 
         [!UICONTROL 새 작업] 카드가 [!DNL Workfront] 봇 채널에 표시됩니다.
 
@@ -88,7 +100,7 @@ ht-degree: 0%
 
    새 개인 작업이 [!DNL Workfront]에 만들어졌습니다. [!UICONTROL 참조 번호]이(가) 할당되어 [!UICONTROL 새 작업] 카드에 표시됩니다.
 
-   참조 번호에 대한 자세한 내용은 [[!UICONTROL 개체 이해] 문서에서 &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects)개체의 참조 번호[&#x200B; [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 섹션을 참조하십시오.
+   참조 번호에 대한 자세한 내용은 [개체 이해 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 문서에서 [[!UICONTROL 개체의 참조 번호]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) 섹션을 참조하십시오.
 
 1. (선택 사항) 작업 정보를 추가로 편집하려면 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
-1. (선택 사항) **[!UICONTROL 의 새 탭에서 작업을 열고 추가로 작업을 편집하거나, 프로젝트로 이동하거나, 다른 사람에게 할당하려면[!DNL Workfront]]**&#x200B;의 [!DNL Workfront]보기를 클릭합니다.
+1. (선택 사항) [!DNL Workfront]의 새 탭에서 작업을 열고 추가로 작업을 편집하거나, 프로젝트로 이동하거나, 다른 사람에게 할당하려면 [!DNL Workfront]&#x200B;**의**&#x200B;보기를 클릭합니다.

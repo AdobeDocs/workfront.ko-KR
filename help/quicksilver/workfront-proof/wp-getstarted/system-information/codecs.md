@@ -8,9 +8,18 @@ description: ' [!DNL Workfront Proof]의 코덱'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f760dbaf-edbb-49ec-a329-54727372bdc6
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+TQID: https://experienceleague.adobe.com/oaiiey4FOEV8tgyFgTsNcqndQTj0RF3OAXxTGWTS--M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: 101
 ht-degree: 0%
 
 ---
@@ -58,16 +67,16 @@ ht-degree: 0%
 * [!DNL Cinepak]
 * [!DNL Cirrus Logic AccuPak]
 * [!DNL Creative Labs Video Blaster Webcam]
-* [!DNL Creative YUV] (CYUV)
+* [!DNL Creative YUV]&#x200B;(CYUV)
 * [!DNL Delphine Software International CIN] 비디오
 * [!UICONTROL 디럭스 페인트 애니메이션]
 * [!DNL DivX ;-)] ([!DNL MPEG-4])
-* [!DNL DNxHD] (VC3)
-* [!DNL DV] (디지털 비디오)
+* [!DNL DNxHD]&#x200B;(VC3)
+* [!DNL DV]&#x200B;(디지털 비디오)
 * [!DNL Feeble Files]/[!DNL ScummVM DXA]
 * [!DNL FFmpeg] 비디오 코덱 #1
 * [!DNL Flash Screen Video]
-* [!DNL Flash Video] (FLV) / [!DNL Sorenson Spark] / [!DNL Sorenson H.263]
+* [!DNL Flash Video]&#x200B;(FLV) / [!DNL Sorenson Spark] / [!DNL Sorenson H.263]
 * [!DNL Forward Uncompressed Video Codec]
 * [!DNL fox motion video]
 * [!DNL FRAPS: Realtime Video Capture]
@@ -112,7 +121,7 @@ ht-degree: 0%
 * [!DNL MPEG-1] 비디오
 * [!DNL MPEG-2] 비디오
 * [!DNL MPEG-4 part 2]
-* [!DNL MPEG-4 part 2] ([!DNL Microsoft]개 변형 1-3)
+* [!DNL MPEG-4 part 2]&#x200B;([!DNL Microsoft]개 변형 1-3)
 * [!DNL MPEG-PES]
 * [!DNL MSS2]
 * [!DNL MSU Screen Capture Lossless Codec]
@@ -123,7 +132,7 @@ ht-degree: 0%
 * [!DNL On2 VP4]
 * [!DNL On2 VP5]
 * [!DNL On2 VP6]
-* [!DNL On2 VP6A] ([!DNL alpha channel] 포함)
+* [!DNL On2 VP6A]&#x200B;([!DNL alpha channel] 포함)
 * [!DNL On2 VP7]
 * [!DNL Power VideoWorks] 비디오
 * [!DNL ProRes 422]
@@ -195,9 +204,9 @@ ht-degree: 0%
 ## 지원되지 않는 코덱
 
 * [!DNL Apple Intermediate]
-* [!DNL ProRes 4444] ([!DNL ProRes 422]개 지원됨)
+* [!DNL ProRes 4444]&#x200B;([!DNL ProRes 422]개 지원됨)
 * [!DNL HDV 720p60]
 * [!DNL Go2Meeting3 (G2M3)]
 * [!DNL Go2Meeting4 (G2M4)]
-* [!DNL ER AAC LD] (오류 복원성, [!DNL AAC]의 저지연 변형)
+* [!DNL ER AAC LD]&#x200B;(오류 복원성, [!DNL AAC]의 저지연 변형)
 * [!DNL REDCODE]

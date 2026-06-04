@@ -8,9 +8,14 @@ description: 대시보드는  [!DNL Workfront Proof]  계정에 로그인할 때
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/70uFOpXwRaSaIKLxTLda7ro2sYSFh3s5sT4Olg7eis8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: 994
 ht-degree: 3%
 
 ---
@@ -61,7 +66,7 @@ ht-degree: 3%
 
 * 개인 설정
 * 계정 설정
-* 과금
+* 청구
 
 >[!NOTE]
 >
@@ -192,7 +197,7 @@ ht-degree: 3%
 * 새 사용자 추가
 * 암호 변경
 
-개요 섹션에는 미리 필터링된 정보도 표시됩니다. 이는 다음과 같습니다.
+개요 섹션에는 미리 필터링된 정보도 표시됩니다. 중요합니다.
 
 * 관리할 증명 - 사용자가 소유하고 사용자에게 위임된 총 활성 증명 수
 * 결정을 기다리는 증명 - 결정을 필요로 하는 총 활성 증명 수

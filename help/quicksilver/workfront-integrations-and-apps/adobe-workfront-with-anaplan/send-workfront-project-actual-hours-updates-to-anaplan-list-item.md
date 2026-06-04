@@ -1,19 +1,31 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: ' [!DNL Adobe Workfront] 목록 항목에  [!DNL Anaplan] 실제 시간 업데이트 보내기'
+title: ' [!DNL Anaplan] 목록 항목에  [!DNL Adobe Workfront] 실제 시간 업데이트 보내기'
 description: 이 통합 시나리오는  [!DNL Adobe Workfront] 프로젝트에서 캡처한 실제 시간 세부 정보를  [!DNL Anaplan] 예산 목록 항목과 공유합니다. 이 정보를 공유하면  [!DNL Anaplan] 이(가) 제공하는 지출 최적화 및 재무 분석을 더 잘 활용할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 450b9a87-79c6-4d10-a9ea-29766b4f5962
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/UBzKnVGm3E9XjneDGkyYfwTN0FCdLYtX60LM1MJs8PU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 784
 ht-degree: 15%
 
 ---
 
-# [!DNL Adobe Workfront] 목록 항목으로 [!DNL Anaplan]개의 실제 시간 업데이트 보내기
+# [!DNL Anaplan] 목록 항목으로 [!DNL Adobe Workfront]개의 실제 시간 업데이트 보내기
 
 이 통합 시나리오는 [!DNL Adobe Workfront] 프로젝트에서 캡처한 실제 시간 세부 정보를 [!DNL Anaplan] 예산 목록 항목과 공유합니다. 이 정보를 공유하면 [!DNL Anaplan]에서 제공하는 지출 최적화 및 재무 분석을 더 잘 활용할 수 있습니다.
 
@@ -21,7 +33,7 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->이 문서의 &quot;캠페인&quot;은 이 시나리오가 나타내는 마케팅 캠페인 사용 사례를 참조합니다. [!DNL Workfront Fusion]에서 [!UICONTROL &#x200B; Adobe Campaign 커넥터 또는 최근에 더 이상 사용되지 않는 &#x200B;]캠페인[!DNL Workfront] 개체에 연결할 수 없습니다.
+>이 문서의 &quot;캠페인&quot;은 이 시나리오가 나타내는 마케팅 캠페인 사용 사례를 참조합니다. [!DNL Workfront]에서 [!DNL Workfront Fusion] Adobe Campaign 커넥터 또는 최근에 더 이상 사용되지 않는 [!UICONTROL 캠페인] 개체에 연결할 수 없습니다.
 
 ## 액세스 요구 사항
 
@@ -119,7 +131,7 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 
 [!DNL Fusion] 계정에 이 통합 시나리오를 배포하려면 다음 단계를 완료하십시오. 필요한 [!DNL Workfront] 및 [!DNL Anaplan] 구성을 완료한 후에만 이 작업을 수행해야 합니다.
 
-1. [!UICONTROL 의 &#x200B;]템플릿[!DNL Workfront Fusion] 메뉴로 이동한 다음 **[!UICONTROL 목록 항목 [!DNL Anaplan]에 Workfront 실제 시간 업데이트 보내기]** 시나리오 템플릿을 클릭합니다.
+1. [!DNL Workfront Fusion]의 [!UICONTROL 템플릿] 메뉴로 이동한 다음 **[!UICONTROL 목록 항목 [!DNL Anaplan]에 Workfront 실제 시간 업데이트 보내기]** 시나리오 템플릿을 클릭합니다.
 1. 다음 [!DNL Anaplan]개 변수에 대한 변수 값을 바꿉니다.
 
    <table style="table-layout:auto"> 
@@ -172,8 +184,8 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 
 이 시나리오 템플릿은 다음과 같은 비용 최적화 시나리오 템플릿을 보완하며, 이 시나리오 템플릿 또한 배포할 수 있습니다.
 
-* [[!UICONTROL 목록 항목 [!DNL Adobe Workfront] 에 대한  [!DNL Anaplan] 프로젝트 업데이트 보내기]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
-* [[!UICONTROL 목록 항목 [!DNL Adobe Workfront] 에 경비 보내기 [!DNL Anaplan] 경비]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [[!UICONTROL 목록 항목 [!DNL Anaplan] 에 대한  [!DNL Adobe Workfront] 프로젝트 업데이트 보내기]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [[!UICONTROL 목록 항목 [!DNL Anaplan] 에 경비 보내기 [!DNL Adobe Workfront] 경비]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
 
 예산 요청 연결을 위한 추가 시나리오:
 

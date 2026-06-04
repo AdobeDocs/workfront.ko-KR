@@ -8,9 +8,16 @@ description: Desktop Proofing Viewer는 대화형 컨텐츠의 교정을 위해 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4610f24f-345a-4ebc-8a0c-382e34cac7b0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/r1SSgFEIOFSsr17rQxCfDA-bHDDyas8s8nI709bMQZM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: 550
 ht-degree: 0%
 
 ---
@@ -47,7 +54,7 @@ Desktop Proofing Viewer는 대화형 컨텐츠의 교정을 위해 설계되었�
 
 ### 데스크탑 증명 뷰어와 레거시 증명 뷰어 {#desktop-proofing-viewer-vs-legacy-proofing-viewer}
 
-레거시 증명 뷰어는 대부분의 환경에서 더 이상 사용되지 않는 Flash에서 지원하므로 액세스 권한이 없을 수도 있습니다.
+레거시 증명 뷰어는 대부분의 환경에서 더 이상 사용되지 않는 Flash에서 지원되므로 이 뷰어에 액세스하지 못할 수도 있습니다.
 
 Desktop Proofing Viewer에는 기존 증명 뷰어에 대한 다음과 같은 개선 사항이 포함되어 있습니다.
 

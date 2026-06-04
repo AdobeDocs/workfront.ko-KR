@@ -1,22 +1,35 @@
 ---
 product-area: workfront-integrations;setup;user-management
 navigation-topic: workfront-for-salesforce
-title: ' [!DNL Adobe Workfront] 사용자를 위한  [!DNL Salesforce] 섹션 구성'
+title: ' [!DNL Salesforce] 사용자를 위한  [!DNL Adobe Workfront] 섹션 구성'
 description: Salesforce용  [!DNL Adobe Workfront] 관리자  [!DNL Workfront] 를 설치한 후 Salesforce의 Opportunity 및 Account 페이지 레이아웃에 새 섹션에 추가하여 사용자에게 제공할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/mjSptTTPuxObb09RLFHEwgjZj-dAn6VWckotwUxhMKg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 154
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] 사용자에 대한 [!DNL Salesforce] 섹션 구성
+# [!DNL Salesforce] 사용자에 대한 [!DNL Adobe Workfront] 섹션 구성
 
 >[!IMPORTANT]
 >

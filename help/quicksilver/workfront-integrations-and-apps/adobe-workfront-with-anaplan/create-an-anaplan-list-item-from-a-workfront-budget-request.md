@@ -1,25 +1,39 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: ' [!DNL Anaplan] 예산 요청에서  [!DNL Adobe Workfront] 목록 항목 만들기'
+title: ' [!DNL Adobe Workfront] 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기'
 description: 이 통합 시나리오는  [!DNL Adobe Workfront] 프로젝트(캠페인)를  [!DNL Anaplan] 예산 목록 항목과 연결합니다. 자금 지원을 받아야 하는  [!DNL Workfront] 프로젝트에 예산 요청을 추가하면 됩니다. 이 시나리오는 처리되지 않은 예산 요청을 감시한 다음  [!DNL Anaplan] 에서 빈 예산 목록 항목을 만드는 프로세스를 실행하여 Anaplan에서 예산 할당 프로세스를 시작합니다.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/ozWZURR-8-rtFqj7UkEDJW1fVeKAmSV1tBnQMzGL0Xs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: 862
 ht-degree: 14%
 
 ---
 
-# [!DNL Anaplan] 예산 요청에서 [!DNL Adobe Workfront] 목록 항목 만들기
+# [!DNL Adobe Workfront] 예산 요청에서 [!DNL Anaplan] 목록 항목 만들기
 
 이 통합 시나리오는 [!DNL Adobe Workfront] 프로젝트(캠페인)를 [!DNL Anaplan] 예산 목록 항목과 연결합니다. 자금 지원을 받아야 하는 [!DNL Workfront] 프로젝트에 예산 요청을 추가하면 됩니다. 이 시나리오는 처리되지 않은 예산 요청을 감시한 다음 [!DNL Anaplan]에서 빈 예산 목록 항목을 만드는 프로세스를 실행하여 [!DNL Anaplan]에서 예산 할당 프로세스를 시작합니다.
 
 >[!IMPORTANT]
 >
->이 문서의 &quot;캠페인&quot;은 이 시나리오가 나타내는 마케팅 캠페인 사용 사례를 참조합니다. [!DNL Workfront Fusion]에서 [!UICONTROL &#x200B; Adobe Campaign 커넥터 또는 최근에 더 이상 사용되지 않는 &#x200B;]캠페인[!DNL Workfront] 개체에 연결할 수 없습니다.
+>이 문서의 &quot;캠페인&quot;은 이 시나리오가 나타내는 마케팅 캠페인 사용 사례를 참조합니다. [!DNL Workfront]에서 [!DNL Workfront Fusion] Adobe Campaign 커넥터 또는 최근에 더 이상 사용되지 않는 [!UICONTROL 캠페인] 개체에 연결할 수 없습니다.
 
 ## 액세스 요구 사항
 
@@ -71,7 +85,7 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 
   [!DNL Workfront]에서 사용자를 만드는 방법에 대한 자세한 내용은 [사용자 추가](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
 
-* **[!UICONTROL 요청]** 개체에 첨부된 [!UICONTROL 예산 요청] 사용자 정의 양식입니다.
+* [!UICONTROL 요청] 개체에 첨부된 **[!UICONTROL 예산 요청]** 사용자 정의 양식입니다.
 
   [!DNL Anaplan]에 대한 데이터 매핑을 지원하려면 사용자 지정 양식에 다음 필수 필드를 포함해야 합니다.
 
@@ -167,7 +181,7 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
    * [!UICONTROL 예산 요청 유형]
    * [!UICONTROL 자금 조정 이유]
 
-  이 목록 및 모듈에는 예산을 설정하고 예산 목록 항목을 다시 [!DNL Anaplan]에 동기화할 준비가 되었음을 알리는 기능을 포함하여 [!DNL Workfront]의 일반적인 기능에 필요한 추가 세부 정보가 저장되어야 합니다.
+  이 목록 및 모듈에는 예산을 설정하고 예산 목록 항목을 다시 [!DNL Workfront]에 동기화할 준비가 되었음을 알리는 기능을 포함하여 [!DNL Anaplan]의 일반적인 기능에 필요한 추가 세부 정보가 저장되어야 합니다.
 
 이러한 작업에 대한 지침은 [!DNL Anaplan] 설명서를 참조하십시오.
 
@@ -175,7 +189,7 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 
 [!DNL Fusion] 계정에 이 통합 시나리오를 배포하려면 다음 단계를 완료하십시오. 필요한 [!DNL Workfront] 및 [!DNL Anaplan] 구성을 완료한 후에만 이 작업을 수행해야 합니다.
 
-1. [!UICONTROL 의 &#x200B;]템플릿[!DNL Workfront Fusion] 메뉴로 이동한 다음 **[!UICONTROL Workfront 예산 요청에서 [!DNL Anaplan] 목록 항목 만들기]** 시나리오 템플릿을 클릭합니다.
+1. [!DNL Workfront Fusion]의 [!UICONTROL 템플릿] 메뉴로 이동한 다음 **[!UICONTROL Workfront 예산 요청에서 [!DNL Anaplan] 목록 항목 만들기]** 시나리오 템플릿을 클릭합니다.
 1. 다음 [!DNL Anaplan]개 변수에 대한 변수 값을 바꿉니다.
 
    | 변수 이름 | 값 바꾸기 |
@@ -205,6 +219,6 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 
 지출 최적화를 위한 추가 시나리오는 다음과 같습니다.
 
-* [[!UICONTROL 목록 항목 [!DNL Adobe Workfront] 에 대한  [!DNL Anaplan] 프로젝트 업데이트 보내기]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
-* [[!UICONTROL 목록 항목  [!DNL Adobe Workfront] 에 대한  [!DNL Anaplan] 실제 시간 업데이트 보내기]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [[!UICONTROL 목록 항목 [!DNL Adobe Workfront] 에 경비 보내기 [!DNL Anaplan] 경비]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [[!UICONTROL 목록 항목 [!DNL Anaplan] 에 대한  [!DNL Adobe Workfront] 프로젝트 업데이트 보내기]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [[!UICONTROL 목록 항목  [!DNL Anaplan] 에 대한  [!DNL Adobe Workfront] 실제 시간 업데이트 보내기]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL 목록 항목 [!DNL Anaplan] 에 경비 보내기 [!DNL Adobe Workfront] 경비]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)

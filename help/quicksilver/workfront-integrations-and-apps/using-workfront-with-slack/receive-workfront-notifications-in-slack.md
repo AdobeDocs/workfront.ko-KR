@@ -1,30 +1,42 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: ' [!DNL Adobe Workfront] 에서  [!DNL Slack]알림 수신'
-description: ' [!DNL Adobe Workfront] 에서  [!DNL Slack]알림 수신'
+title: ' [!DNL Slack]에서  [!DNL Adobe Workfront] 알림 수신'
+description: ' [!DNL Slack]에서  [!DNL Adobe Workfront] 알림 수신'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/7uflm9ZieQq-nl81hUpljzWkW98s2EzqiN4W1eZubgQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: 613
 ht-degree: 4%
 
 ---
 
-# [!DNL Adobe Workfront]에서 [!DNL Slack]개의 알림 수신
+# [!DNL Slack]에서 [!DNL Adobe Workfront]개의 알림 수신
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** Linked to Accessing Workfront from Slack.***Some of this information is duplicating in Accessing Workfront from Slack (also screen shots))</p>
 -->
 
-[!DNL Adobe Workfront for Slack]을(를) 설치한 후에는 [!DNL Workfront]에서 [!DNL Slack]개의 알림을 받을 수 있습니다.\
+[!DNL Adobe Workfront for Slack]을(를) 설치한 후에는 [!DNL Slack]에서 [!DNL Workfront]개의 알림을 받을 수 있습니다.\
 [!DNL Workfront for Slack] 설치에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을 참조하십시오.
 
-[!UICONTROL &#x200B; 인터페이스의 알림 버블에 표시되는 &#x200B;]알림[!DNL Workfront]의 선택 개수를 [!DNL Slack]에서도 전달할 수 있습니다.
+[!DNL Workfront] 인터페이스의 알림 버블에 표시되는 [!UICONTROL 알림]의 선택 개수를 [!DNL Slack]에서도 전달할 수 있습니다.
 
 전자 메일 알림은 [!DNL Workfront] 인터페이스 알림과 독립적으로 작동합니다. 사용자 또는 [!DNL Workfront] 관리자는 전자 메일 알림을 비활성화할 수 있지만 [!DNL Workfront]에서는 인터페이스 알림을 비활성화할 수 없습니다.\
 그러나 [!DNL Workfront] 인터페이스 내에서만 해당 알림에 집중하려면 [!DNL Slack]에서 받을 수 있는 [!DNL Workfront] 알림을 비활성화할 수 있습니다.
@@ -54,15 +66,15 @@ ht-degree: 4%
 
 ## 전제 조건
 
-[!DNL Workfront]에서 [!DNL Slack]개의 알림을 받으려면 먼저 다음을 수행해야 합니다.
+[!DNL Slack]에서 [!DNL Workfront]개의 알림을 받으려면 먼저 다음을 수행해야 합니다.
 
-* [!DNL Workfront for Slack] 구성\
+* 구성 [!DNL Workfront for Slack]\
    [!DNL Workfront for Slack] 구성에 대한 지침은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을 참조하십시오.
 
-## [!DNL Workfront]에 대한 [!DNL Slack] 알림 구성 {#configure-workfront-notifications-for-slack}
+## [!DNL Slack]에 대한 [!DNL Workfront] 알림 구성 {#configure-workfront-notifications-for-slack}
 
-1. (조건부) [!DNL Workfront]이(가) [!DNL Slack] 인스턴스에 추가되면 [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.\
-   [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [액세스 [!DNL Adobe Workfront] 출처 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)를 참조하십시오.
+1. (조건부) [!DNL Workfront]이(가) [!DNL Slack] 인스턴스에 추가되면 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.\
+   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [액세스 [!DNL Adobe Workfront] 출처 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)를 참조하십시오.
 
 1. 모든 채널에서 메시지 필드에 다음 명령 중 하나를 입력하십시오.
 
@@ -91,26 +103,26 @@ ht-degree: 4%
    * [!UICONTROL 누군가 내 도움말 요청에 댓글을 남겼습니다]
 
    [!UICONTROL 알림] 옵션에 대한 변경 사항이 즉시 적용됩니다.\
-   활성화한 알림은 [!DNL Workfront] [!DNL Slack] 채널에서 전달됩니다. 여기에서 알림을 사용하지 않도록 설정하면 [!DNL Slack] 인터페이스가 아닌 [!DNL Workfront]에 대해서만 사용할 수 없습니다. 인터페이스 오른쪽 상단의 [!DNL Workfront] 알림 버블에서 계속 수신합니다.
+   활성화한 알림은 [!DNL Workfront] [!DNL Slack] 채널에서 전달됩니다. 여기에서 알림을 사용하지 않도록 설정하면 [!DNL Workfront] 인터페이스가 아닌 [!DNL Slack]에 대해서만 사용할 수 없습니다. 인터페이스 오른쪽 상단의 [!DNL Workfront] 알림 버블에서 계속 수신합니다.
 
-## [!DNL Workfront]의 [!DNL Slack] 알림 관리
+## [!DNL Slack]의 [!DNL Workfront] 알림 관리
 
-[!DNL Workfront]에서 [!DNL Slack]개의 알림을 받고 응답할 수 있습니다.
+[!DNL Slack]에서 [!DNL Workfront]개의 알림을 받고 응답할 수 있습니다.
 
 [!DNL Slack]에서 사용하도록 설정한 알림에 대해 이메일 알림을 사용하지 않도록 설정하여 중복 알림을 받지 않도록 할 수 있습니다.\
 전자 메일 알림 구성에 대한 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
-[!DNL Workfront]에서 [!DNL Slack] 알림을 사용하거나 사용하지 않도록 설정해도 [!DNL Workfront] 인터페이스 내에서 받는 알림에는 영향을 주지 않습니다.\
+[!DNL Slack]에서 [!DNL Workfront] 알림을 사용하거나 사용하지 않도록 설정해도 [!DNL Workfront] 인터페이스 내에서 받는 알림에는 영향을 주지 않습니다.\
 [!DNL Workfront] 인터페이스 내의 알림을 사용하지 않도록 설정할 수 없습니다.
 
-[!DNL Workfront]에 대한 [!DNL Slack] 알림을 관리하려면:
+[!DNL Slack]에 대한 [!DNL Workfront] 알림을 관리하려면:
 
 1. [!UICONTROL Slack]에 로그인합니다.
-1. [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.\
-   [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront]Access[!DNL Slack]from[의 &quot; [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.
+1. [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.\
+   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
 
-1. [!DNL Workfront]에 대한 [!DNL Slack] 알림이 활성화되어 있는지 확인하십시오.\
-   [!DNL Workfront]에도 전송할 수 있도록 구성할 수 있는 [!DNL Slack] 알림에 대한 자세한 내용은 [구성 [!DNL Workfront] 알림 [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack)을 참조하십시오.
+1. [!DNL Slack]에 대한 [!DNL Workfront] 알림이 활성화되어 있는지 확인하십시오.\
+   [!DNL Slack]에도 전송할 수 있도록 구성할 수 있는 [!DNL Workfront] 알림에 대한 자세한 내용은 [구성 [!DNL Workfront] 알림 [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack)을 참조하십시오.
 
 1. **[!DNL Workfront]** 채널로 이동하여 [!DNL Workfront] 알림을 찾으십시오.
 1. (조건부 및 선택 사항) 다음 중 하나를 수행합니다.

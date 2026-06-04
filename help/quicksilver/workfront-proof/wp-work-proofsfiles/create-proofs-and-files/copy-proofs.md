@@ -7,9 +7,14 @@ description: 증명에 대한 편집 권한이 있는 검토자는 기존 증명
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/PS4LlvkS0KTleGJj-6aNtOjbTtRpqQTXoKKFdcSZb-8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: 716
 ht-degree: 0%
 
 ---
@@ -60,7 +65,7 @@ ht-degree: 0%
 
 다음 위치에 증명 사본을 만들 수도 있습니다(필수 계정 권한 프로필이 있는 경우).
 
-* **증명 뷰어**. 증명 뷰어에 대한 자세한 내용은 [웹 증명 뷰어에서 증명 검토](https://support.workfront.com/hc/en-us/sections/115000275214-Reviewing-Proofs-in-the-Web-Proofing-Viewer)(정적 증명) 및 [데스크톱 증명 뷰어에서 증명 검토](https://support.workfront.com/hc/en-us/sections/360000686434-Reviewing-Proofs-in-the-Desktop-Proofing-Viewer)(대화형 증명)을 참조하십시오.
+* **증명 뷰어**. 증명 뷰어에 대한 자세한 내용은 [웹 증명 뷰어에서 증명 검토](https://support.workfront.com/hc/en-us/sections/115000275214-Reviewing-Proofs-in-the-Web-Proofing-Viewer)&#x200B;(정적 증명) 및 [데스크톱 증명 뷰어에서 증명 검토](https://support.workfront.com/hc/en-us/sections/360000686434-Reviewing-Proofs-in-the-Desktop-Proofing-Viewer)&#x200B;(대화형 증명)을 참조하십시오.
 
 * **증명 세부 정보 페이지**. 자세한 내용은 [증명 세부 정보 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)를 참조하십시오.
 

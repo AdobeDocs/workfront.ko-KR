@@ -8,9 +8,16 @@ description: 조직에서 프리랜서를 사용하는 경우  [!DNL Workfront P
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
-source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
+TQID: https://experienceleague.adobe.com/U4G0Tt1KZZXbwLk1SNyRTIBEzEerq6izTDOznYVwMzk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: 931
 ht-degree: 0%
 
 ---
@@ -45,7 +52,7 @@ ht-degree: 0%
 
 즉, 작업 중인 모든 항목을 한 곳에서 볼 수 있는 자체 대시보드가 있습니다. 또한 [!DNL Workfront Proof]을(를) 통해 파일을 보낼 수 있으며, 이를 증명으로 변환할 수 있습니다([!UICONTROL Enterprise] 및 [!UICONTROL Unlimited] 요금제만). 자세한 내용은 [파일 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)를 참조하십시오.
 
-또한 프리랜서가 검토 프로세스 중에 증명의 새 버전을 만들어야 하는 경우 증명에 명시적으로 [!UICONTROL 작성자] (으)로 추가하여 검토 프로세스에 참여하고 필요할 때 새 버전을 만들 수 있습니다. 자세한 내용은 및 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
+또한 프리랜서가 검토 프로세스 중에 증명의 새 버전을 만들어야 하는 경우 증명에 명시적으로 [!UICONTROL 작성자]&#x200B;(으)로 추가하여 검토 프로세스에 참여하고 필요할 때 새 버전을 만들 수 있습니다. 자세한 내용은 및 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
 
 ![프리랜서_-_option_B.png](assets/freelancers_-_option_B.png)
 
@@ -66,7 +73,7 @@ ht-degree: 0%
 
 이 옵션은 클라이언트와 프리랜서가 [!DNL Workfront Proof]에서 서로 보지 않도록 하려는 경우에 유용합니다. 프리랜서에게 [!UICONTROL Dropzone]에 대한 액세스 권한을 부여할 수 있습니다([!UICONTROL Enterprise] 및 [!UICONTROL Unlimited] 플랜에서만 사용 가능). 자세한 내용은 [Dropzone](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)을 참조하십시오.
 
-![프리랜서_-_option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
+![프리랜서&#x200B;_-_ option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
 
 1. 프리랜서가 공개 [!UICONTROL 드롭 영역] 페이지로 이동합니다.
 1. [!UICONTROL Dropzone]을(를) 사용하여 계정에 새 증명을 만듭니다.
