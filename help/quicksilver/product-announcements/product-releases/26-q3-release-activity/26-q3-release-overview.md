@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1541'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 2026년 3분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 이 페이지가 추가 개선 사항으로 업데이트됩니다.
 
-라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/ko/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
+라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/en/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
 
 >[!IMPORTANT]
 >
@@ -276,9 +276,9 @@ ht-degree: 2%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">댓글 알림 전자 메일에 대한 모양과 느낌을 업데이트했습니다</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
                 <p>업데이트 영역의 댓글에 대한 이메일 알림은 광범위한 Adobe 이메일 디자인에 맞는 새로운 모양과 느낌을 제공합니다. 이전 주석의 스레드는 더 이상 이메일 본문에 포함되지 않습니다.</p>
             </td>
-            <td><p>단계적 롤아웃, 발표될 시작일</p></td>
-            <td><p>단계적 롤아웃, 발표될 시작일</p></td>
-            <td><p>단계적 롤아웃, 발표될 시작일</p></td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 7월 16일부터 단계적으로 롤아웃</p></td>
+            <td><p>2026년 7월 16일부터 단계적으로 롤아웃</p></td>
         </tr>
         <tr>
             <td>
@@ -373,11 +373,11 @@ Workfront 계획 심리는 2026년 5월 15일에 종료됩니다.
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
