@@ -7,11 +7,17 @@ description: 시나리오 플래너에는 Adobe Workfront과 별도의 라이센
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 82152918c528a5f5ed91081dfcb2b6fdc6dc8e09
+TQID: https://experienceleague.adobe.com/Trk0732l-rvF7JrmyZCqptC8SkSJ8nCD7dTl0yHVjk4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: 394
 ht-degree: 0%
 
 ---
@@ -26,7 +32,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-올바른 액세스 또는 권한이 없으면 [!UICONTROL 의 &#x200B;]시나리오[!DNL &#x200B; Adobe Workfront] 영역을 보거나 조직의 계획 또는 이니셔티브를 관리하지 못할 수 있습니다. 계획 및 이니셔티브의 관리에는 계획 및 이니셔티브 생성, 편집 및 삭제가 포함됩니다.
+올바른 액세스 또는 권한이 없으면 [!DNL  Adobe Workfront]의 [!UICONTROL 시나리오] 영역을 보거나 조직의 계획 또는 이니셔티브를 관리하지 못할 수 있습니다. 계획 및 이니셔티브의 관리에는 계획 및 이니셔티브 생성, 편집 및 삭제가 포함됩니다.
 
 ## [!DNL Adobe Workfront Scenario Planner]을(를) 보고 사용하는 데 필요한 액세스 권한
 
@@ -72,7 +78,7 @@ might need to add information about the permissions to plans/ initiatives if tho
       >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner.
 -->
 
-* [!DNL Workfront] 관리자가 액세스 수준의 [!UICONTROL 에 대한 &#x200B;]보기[!UICONTROL &#x200B; 또는 &#x200B;]편집[!DNL Scenario Planner] 액세스 권한을 부여해야 합니다.
+* [!DNL Workfront] 관리자가 액세스 수준의 [!DNL Scenario Planner]에 대한 [!UICONTROL 보기] 또는 [!UICONTROL 편집] 액세스 권한을 부여해야 합니다.
 
   [!DNL Workfront Scenario Planner]에 대한 액세스 권한 부여에 대한 자세한 내용은 [액세스 권한 부여 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)를 참조하십시오.
 

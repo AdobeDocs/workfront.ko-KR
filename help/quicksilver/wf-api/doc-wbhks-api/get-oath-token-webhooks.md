@@ -8,13 +8,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/dspQLWwqjYdo3y9Trqv70ylGd1hFE-ynJaBU7-xLyxg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 3%
+source-wordcount: 254
+ht-degree: 7%
 
 ---
-
 
 # OAuth2 토큰 가져오기
 
@@ -37,7 +40,7 @@ URL은 구성이 가능하며 사용자 지정 통합 설정 페이지의 토큰
  <thead>
   <tr>
    <th>이름</th>
-   <th>필수</th>
+   <th>필수 여부</th>
    <th>설명</th>
   </tr>
  </thead>
@@ -98,7 +101,7 @@ URL은 구성이 가능하며 사용자 지정 통합 설정 페이지의 토큰
   </tr>
   <tr>
    <td>expires_in </td>
-   <td>길게</td>
+   <td>김</td>
    <td><p>(선택 사항) access_token이 만료되기 전 시간(초)으로, 일반적으로 3,600입니다.</p></td>
   </tr>
  </tbody>

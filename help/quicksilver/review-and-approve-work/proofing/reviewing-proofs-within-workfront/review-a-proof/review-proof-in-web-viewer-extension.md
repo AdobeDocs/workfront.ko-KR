@@ -6,9 +6,12 @@ description: Adobe Workfront 검토 도구는 ZIP 파일 또는 URL로 인터랙
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 78d9e8e47f8f6777f9211d8f85a3dfbc9405d798
+TQID: https://experienceleague.adobe.com/jwZKladWxKsiSvAjO8me1BWoxMx1UDB2TKl7k-jnjcY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: 646
 ht-degree: 1%
 
 ---
@@ -37,7 +40,7 @@ Adobe Workfront 검토 도구는 ZIP 파일 또는 URL로 대화형 컨텐츠를
 
 검토자와 승인자는 Adobe Workfront 검토 도구를 설치해야 합니다. 다음 브라우저 중 하나에서 다음을 수행합니다.
 
-* [Firefox 확장 프로그램](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+* [Firefox 확장](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
 * [Chrome 확장](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 

@@ -6,10 +6,15 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+TQID: https://experienceleague.adobe.com/ST7uHa2yW7WjnUz9PwgKctI9jaBbp6maSuw6bTByGp0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 0%
+source-wordcount: 527
+ht-degree: 3%
 
 ---
 
@@ -21,7 +26,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +36,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 패키지</strong></td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
@@ -63,7 +68,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 업데이트할 작업 항목을 찾습니다.
-1. 이름을 마우스로 가리킨 다음 **새 업데이트 추가**&#x200B;를 클릭합니다.
+1. 이름을 마우스로 가리킨 다음 **새 업데이트 추가**를 클릭합니다.
    ![새 업데이트 추가](assets/add-update.png)
    <!--new screen for prod ![Update](assets/update-log-upload.png)-->
 1. 댓글을 입력하세요.
@@ -87,7 +92,7 @@ ht-degree: 0%
 1. 화면 오른쪽 아래 모서리에서 **업데이트** 영역을 찾습니다.
 1. (선택 사항) **댓글** 탭을 사용하여 다른 사람이 작업 항목에 대해 수행한 업데이트를 봅니다.
 1. (선택 사항) **시스템 활동** 탭을 사용하여 작업 항목과 관련된 시스템 활동을 봅니다.
-1. (선택 사항) 댓글을 추가하려면 **댓글** 탭으로 이동하여 **새 댓글** 상자에 입력을 시작합니다. 완료되면 **제출**&#x200B;을 클릭하세요.
+1. (선택 사항) 댓글을 추가하려면 **댓글** 탭으로 이동하여 **새 댓글** 상자에 입력을 시작합니다. 완료되면 **제출**을 클릭하세요.
    ![영역 업데이트](assets/updates-area-in-overview.png)
 
 ## 댓글에 회신

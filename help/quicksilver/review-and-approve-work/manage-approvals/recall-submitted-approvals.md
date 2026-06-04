@@ -6,10 +6,16 @@ description: 승인을 위해 제출된 다음 객체를 불러올 수 있습니
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+TQID: https://experienceleague.adobe.com/ItAwwM5EdjZeV5LRwfkSnEYB6GCfpuLzOCfANanm-hE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 1%
+source-wordcount: 1202
+ht-degree: 2%
 
 ---
 
@@ -26,7 +32,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +40,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -66,7 +72,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->템플릿을 사용하여 프로젝트 또는 작업의 첫 번째 상태를 승인 프로세스와 연결할 수 있습니다. 템플릿에 승인을 추가하는 방법에 대한 자세한 내용은  [프로젝트 템플릿 편집](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>템플릿을 사용하여 프로젝트 또는 작업의 첫 번째 상태를 승인 프로세스와 연결할 수 있습니다. 템플릿에 승인을 추가하는 방법에 대한 자세한 내용은 [프로젝트 템플릿 편집](../../manage-work/projects/create-and-manage-templates/edit-templates.md)을 참조하십시오.
 
 제출한 프로젝트 승인을 회수하려면
 

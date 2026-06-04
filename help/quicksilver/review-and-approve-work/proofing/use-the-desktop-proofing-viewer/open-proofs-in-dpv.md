@@ -6,10 +6,15 @@ description: 아래 설명된 대로 증명을 열 수 없는 경우 Adobe Workf
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/KW4JU7-KX4ai5Y-JN-Iz4G25f0GU-q21QP-5g9Bj3Y8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 5%
+source-wordcount: 218
+ht-degree: 14%
 
 ---
 
@@ -19,7 +24,7 @@ ht-degree: 5%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,11 +32,11 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">증명 역할 </td> 
@@ -60,7 +65,7 @@ ht-degree: 5%
 
 ## Desktop Proofing Viewer에서 증명 열기
 
-Desktop Proofing Viewer에서 대화형 콘텐츠를 정기적으로 검토하는 경우, Workfront 관리자는 Desktop Proofing Viewer를 기본 뷰어로 설정할 수 있습니다. 자세한 내용은 [데스크톱 증명 뷰어 이해](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs)에서 [데스크톱 증명 뷰어에서 비대화형 증명을 여는 사용자 설정](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)을 참조하십시오.
+Desktop Proofing Viewer에서 대화형 콘텐츠를 정기적으로 검토하는 경우, Workfront 관리자는 Desktop Proofing Viewer를 기본 뷰어로 설정할 수 있습니다. 자세한 내용은 [데스크톱 증명 뷰어 이해](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)에서 [데스크톱 증명 뷰어에서 비대화형 증명을 여는 사용자 설정](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs)을 참조하십시오.
 
 1. 데스크톱 증명 뷰어에서 **증명 URL**&#x200B;을(를) 입력하십시오.
 

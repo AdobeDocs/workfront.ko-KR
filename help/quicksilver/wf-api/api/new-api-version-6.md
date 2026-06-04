@@ -7,10 +7,13 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/ZXBvvhz5ObfHlwX2BBBs2-F2DbSmgY4lj8TwWnMCzBM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 34%
+source-wordcount: 513
+ht-degree: 49%
 
 ---
 
@@ -22,8 +25,8 @@ ht-degree: 34%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| ID | 고객 |   |   |   |   | 추가 |
-| customerID | 프로젝트 |   |   |   |   | 개수 |
+| ID | 고객 |   |   |   |   | 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 |
+| customerID | 프로젝트 |   |   |   |   | 계수 |
 | projectID | resourceManager |   |   |   |   | 삭제 |
 | 리소스 관리자 ID | 템플릿 |   |   |   |   | Get |
 | templateID |   |   |   |   |   | 보고서  |
@@ -43,8 +46,8 @@ ht-degree: 34%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| ID |   |   |   | checkDelete | 사용자 정의 레이블 | 추가 |
-|   |   |   |   | inUseByOtherLayoutTemplate | 사용자 정의 레이블 | 개수 |
+| ID |   |   |   | checkDelete | 사용자 정의 레이블 | 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 |
+|   |   |   |   | inUseByOtherLayoutTemplate | 사용자 정의 레이블 | 계수 |
 |   |   |   |   | removeCustomLabel |   | 삭제 |
 |   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 보고서 |
@@ -118,8 +121,8 @@ ht-degree: 34%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| approvedStatus |   |   |   |   |   | 추가 |
-| approvedStatusLabel |   |   |   |   |   | 개수 |
+| approvedStatus |   |   |   |   |   | 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 |
+| approvedStatusLabel |   |   |   |   |   | 계수 |
 | 댓글 |   |   |   |   |   | 삭제 |
 | 입력자 ID |   |   |   |   |   | 편집 |
 | entryDate |   |   |   |   |   | Get |
@@ -209,7 +212,7 @@ ht-degree: 34%
 
  
 
-### 범주 
+### 카테고리 
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
@@ -265,7 +268,7 @@ ht-degree: 34%
 
  
 
-### 저널 항목
+### 분개 기입
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|

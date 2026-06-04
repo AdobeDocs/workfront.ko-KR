@@ -6,11 +6,14 @@ description: 다음 알림은 관련된 작업 항목에서 발생하는 승인 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: 675
 ht-degree: 0%
 
 ---
@@ -39,12 +42,12 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>위임된 문제 승인 요청이 완료되었습니다</strong> </p> <p>다른 사용자에게 위임한 문제 승인이 해당 사용자에 의해 승인 또는 거부되었습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[!UICONTROL 문제 승인/ 대리 거부] &lt;사용자 이름&gt;</em></p> <p>일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Approval Information] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
+   <td> <p><strong>위임된 문제 승인 요청이 완료되었습니다</strong> </p> <p>다른 사용자에게 위임한 문제 승인이 해당 사용자에 의해 승인 또는 거부되었습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[!UICONTROL 문제 승인/거부 [이(가) 귀하를 대신하여] &lt;사용자 이름&gt;</em></p> <p>일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Approval Information] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
    <td> <p>문제 이름<br>프로젝트 이름<br>문제 참조 번호<br>귀하를 대신하여 문제를 승인/거부한 사용자 이름<br>승인 결정<br>문제 상태<br>승인을 요청한 사용자 이름<br><strong>[!UICONTROL 자세한 정보 보기]</strong> 단추<br>*프로젝트 참조 번호<br>*프로젝트 이름<br>*총 위임된 문제 승인 수<br>*문제 이름<br>*승인자 이름<br>*일별 다이제스트 날짜<br><br></p> </td> 
    <td><strong>일별</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>위임된 프로젝트 승인 요청이 완료되었습니다</strong> </p> <p>다른 사용자에게 위임한 프로젝트 승인이 해당 사용자에 의해 승인 또는 거부되었습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[!UICONTROL Project Approval/ Rejection Made Your 대신하여 수행한] &lt;User Name&gt;</em></p> <p><em>일별 요약 알림의 제목은 [!UICONTROL 승인 정보 요약] &lt;일별 요약 날짜&gt;</em>입니다. </p> </td> 
+   <td> <p><strong>위임된 프로젝트 승인 요청이 완료되었습니다</strong> </p> <p>다른 사용자에게 위임한 프로젝트 승인이 해당 사용자에 의해 승인 또는 거부되었습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[!UICONTROL Project Approval/ Rejection Made Your 대신하여 수행한] &lt;User Name&gt;</em></p> <p><em>일별 요약 알림의 제목은 다음과 같습니다. [!UICONTROL Digest of Approval Information] &lt;일별 요약 날짜&gt;</em> </p> </td> 
    <td> 프로젝트 이름<br>[!UICONTROL Portfolio 이름]<br>[!UICONTROL 프로젝트 참조 번호]<br>귀하를 대신하여 프로젝트를 승인/거부한 사용자의 이름<br>[!UICONTROL 승인 결정]<br>[!UICONTROL 프로젝트 상태]<br>승인을 요청한 사용자의 이름<br><strong>[!UICONTROL 자세히 보기]</strong> 단추<br>*프로젝트 참조 번호<br>*프로젝트 이름<br>*승인자 이름<br>[!UICONTROL *일별 다이제스트 날짜]<br></td> 
    <td><strong>일별</strong> </td> 
   </tr> 
@@ -54,7 +57,7 @@ ht-degree: 0%
    <td><strong>일별</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>문서 승인 요청이 취소되었습니다</strong> </p> <p>문서 승인 요청이 취소되면 문서의 문서 승인자가 이메일 알림을 받습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;사용자 이름&gt; [!UICONTROL 이 문서 승인 요청을 취소했습니다.]</em></p> <p> <p>참고: 일별 요약 이메일에 대해 이 알림을 구성할 수 없습니다.</p> </p> </td> 
+   <td> <p><strong>문서 승인 요청이 취소되었습니다</strong> </p> <p>문서 승인 요청이 취소되면 문서의 문서 승인자가 이메일 알림을 받습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;사용자 이름&gt; [!UICONTROL이 문서 승인 요청을 취소했습니다.]</em></p> <p> <p>참고: 일별 요약 이메일에 대해 이 알림을 구성할 수 없습니다.</p> </p> </td> 
    <td> 승인 요청을 취소한 사용자의 이름<br>[!UICONTROL 문서 이름] </td> 
    <td><strong>즉시</strong> </td> 
   </tr> 

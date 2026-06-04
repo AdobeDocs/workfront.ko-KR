@@ -6,10 +6,16 @@ description: 아트보드를 교정으로 Adobe Workfront에 직접 업로드하
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+TQID: https://experienceleague.adobe.com/5hqDm2la-PWL4l7MghSST8VhSx0eeQoJt5eVClY5yrw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 0%
+source-wordcount: 1014
+ht-degree: 2%
 
 ---
 
@@ -19,7 +25,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,7 +33,7 @@ ht-degree: 0%
  <tbody> 
  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
-   <td>임의 </td> 
+   <td>Any </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
@@ -35,7 +41,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">추가 제품</td> 
-   <td>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</td> 
+   <td>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">교정쇄 권한 프로필 </td> 
@@ -55,7 +61,7 @@ ht-degree: 0%
 
 ## 전제 조건
 
-* [!DNL Adobe Workfront for XD]에서 증명을 업로드하려면 먼저 [!DNL Adobe XD] 플러그인을 설치해야 합니다.
+* [!DNL Adobe XD]에서 증명을 업로드하려면 먼저 [!DNL Adobe Workfront for XD] 플러그인을 설치해야 합니다.
 
   지침은 [설치 [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)를 참조하십시오.
 
@@ -194,7 +200,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >대화형 증명을 검토하고 승인하려면 사용자가 [!UICONTROL 데스크톱 증명 뷰어]에 액세스할 수 있어야 합니다. 자세한 내용은 [Desktop Proofing Viewer 설치[!UICONTROL 를 참조하십시오.]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
+   >대화형 증명을 검토하고 승인하려면 사용자가 [!UICONTROL 데스크톱 증명 뷰어]에 액세스할 수 있어야 합니다. 자세한 내용은 [Desktop Proofing Viewer 설치]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)를 참조하십시오.[!UICONTROL 
 
 ## 새 증명 버전 업로드
 

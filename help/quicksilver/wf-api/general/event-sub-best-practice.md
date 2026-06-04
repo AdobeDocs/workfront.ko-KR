@@ -7,13 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
+TQID: https://experienceleague.adobe.com/uT7erlnJR5-h-KKGQiuztzZKBtwtEvWQ8U-EUgN4TG4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 0%
+source-wordcount: 356
+ht-degree: 15%
 
 ---
-
 
 # 이벤트 구독 모범 사례
 
@@ -32,7 +36,7 @@ ht-degree: 0%
 
 ## 이벤트 구독 오버로드 방지
 
-이벤트 구독 서비스는 모든 사용자에게 이벤트를 안정적으로 전달하도록 설계되었습니다. 이를 위해 단일 사용자의 과도한 이벤트 생성으로 모든 사용자에게 잠재적인 서비스 품질 문제가 발생할 수 있는 것을 방지하기 위한 안전 장치를 마련했다. 따라서 짧은 시간 내에 너무 많은 이벤트를 높은 비율로 생성하는 사용자는 샌드박싱과 이벤트 전달 지연을 경험할 수 있습니다.
+이벤트 구독 서비스는 모든 사용자에게 이벤트를 안정적으로 전달하도록 설계되었습니다. 이를 위해 모든 사용자에서 잠재적인 서비스 품질 문제를 일으킬 수도 있는 단일 사용자의 과도한 이벤트 생성을 방지하기 위한 안전장치가 마련되었습니다. 그 결과, 짧은 기간 내에 너무 많은 이벤트를 높은 비율로 생성하는 사용자는 샌드박스 작업과 이벤트 게재가 지연될 수 있습니다.
 
 ## 유예 기간 내에 테스트 완료
 
@@ -42,15 +46,15 @@ ht-degree: 0%
 
 구독 끝점이 표준 이벤트 구독 메시지 게재 요구 사항을 준수하는지 확인하십시오. 이러한 요구 사항에 대해 알아보려면 [이벤트 구독 배달 요구 사항](../../wf-api/general/setup-event-sub-endpoint.md)을 참조하세요.
 
-## 허용 목록에 추가하다 전역 IP 주소
+## 전역 IP 주소
 
-허용 목록에 추가하다 이벤트 구독 페이로드를 방화벽을 통해 수신하려면 글로벌 영역별로 IP 주소를 방화벽에 추가해야 합니다. 자세한 내용은 [이벤트 구독 API](../../wf-api/general/event-subs-api.md)를 참조하세요.
+이벤트 구독 페이로드를 방화벽을 통해 수신하려면 글로벌 영역별로 IP 주소를 방화벽에 추가해야 합니다. 자세한 내용은 [이벤트 구독 API](../../wf-api/general/event-subs-api.md)를 참조하세요.
 
 ## 적절한 액세스 수준 및 인증 보유
 
 이벤트 구독을 생성, 쿼리 또는 삭제하려면 Workfront 사용자가 필요합니다.
 
-* **시스템 관리자**&#x200B;의 액세스 수준
-자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) 또는 [사용자에게 특정 영역에 대한 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
+* **시스템 관리자의 액세스 수준**
+자세한 내용은 [사용자에게 전체 관리 액세스 권한을 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) 또는 [사용자에게 특정 영역에 대한 관리 액세스 권한을 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
 
 * 조직에서 Adobe IMS(Identity Management System)를 사용하는 경우 `X-User-Token` 헤더에 전달된 IMS 사용자 토큰을 포함합니다.

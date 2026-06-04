@@ -6,10 +6,15 @@ description: 여러 파일을 하나의 다중 페이지 증명으로 결합할 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/ftAfhh-z2L4bKJ9l5IErMy8cJ-YASuKcIcjSEJjavcU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 0%
+source-wordcount: 611
+ht-degree: 3%
 
 ---
 
@@ -19,7 +24,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,7 +32,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -89,4 +94,4 @@ ht-degree: 0%
 * AV 파일과 대화형 웹 캡처를 결합할 수 없습니다.
 * 증명의 썸네일 이미지는 증명의 첫 페이지에서 가져온 것입니다([Workfront Proof에서 증명 세부 정보 관리](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) 참조).
 * 증명 세부 정보 페이지에서 증명을 만들기 위해 결합된 파일 이름을 확인할 수 있습니다. 자세한 내용은 [Workfront Proof에서 증명 세부 정보 관리](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)를 참조하십시오.
-* 증명에 원본 파일을 다운로드하는 옵션이 활성화되어 있으면 증명을 .zip 파일로 만들기 위해 결합된 모든 파일을 다운로드할 수 있습니다. 자세한 내용은  [Workfront Proof에 저장된 파일을 다운로드합니다](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
+* 증명에 원본 파일을 다운로드하는 옵션이 활성화되어 있으면 증명을 .zip 파일로 만들기 위해 결합된 모든 파일을 다운로드할 수 있습니다. 자세한 내용은 [Workfront Proof에 저장된 파일 다운로드](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)를 참조하십시오.

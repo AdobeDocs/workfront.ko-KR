@@ -6,9 +6,13 @@ description: 이 문서에서는  [!DNL Adobe Workfront]의 프로젝트, 작업
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+TQID: https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: 2359
 ht-degree: 3%
 
 ---
@@ -25,7 +29,7 @@ ht-degree: 3%
 
 보고서 및 목록에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [&#x200B; [!DNL Adobe Workfront]의 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
+* [ [!DNL Adobe Workfront]의 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [보고서 시작](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
 프로젝트, 작업 및 문제 필드에 대한 자세한 내용은 [용어집 [!DNL Adobe Workfront] 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)을 참조하세요.
@@ -35,7 +39,7 @@ ht-degree: 3%
 
 [!UICONTROL 실제 시작 날짜]는 사용자가 프로젝트, 작업 또는 문제에 대해 실제로 작업을 시작하는 날짜입니다. 프로젝트, 작업 또는 문제를 만들 때 [!UICONTROL 실제 시작 일자]가 비어 있습니다.
 
-작업 또는 문제에 대한 작업이 시작된 시기를 수동으로 나타내거나 작업 또는 문제 상태가 [!UICONTROL 신규]에서 [!UICONTROL 진행 중] 또는 [!UICONTROL 완료] (으)로 변경될 때 [!UICONTROL 실제 시작 날짜]가 자동으로 채워집니다. 프로젝트의 [!UICONTROL 실제 시작 날짜]가 프로젝트의 첫 번째 작업이 시작되는 날짜와 일치합니다.
+작업 또는 문제에 대한 작업이 시작된 시기를 수동으로 나타내거나 작업 또는 문제 상태가 [!UICONTROL 신규]에서 [!UICONTROL 진행 중] 또는 [!UICONTROL 완료]&#x200B;(으)로 변경될 때 [!UICONTROL 실제 시작 날짜]가 자동으로 채워집니다. 프로젝트의 [!UICONTROL 실제 시작 날짜]가 프로젝트의 첫 번째 작업이 시작되는 날짜와 일치합니다.
 
 >[!TIP]
 >
@@ -57,7 +61,7 @@ ht-degree: 3%
 
 작업 또는 문제에 대한 작업이 완료되는 시기를 수동으로 나타내거나, 다음 중 하나가 발생하면 [!UICONTROL 실제 완료 일자]가 자동으로 채워집니다.
 
-* 프로젝트, 작업 또는 문제 상태가 [!UICONTROL 완료], [!UICONTROL 마감됨] 또는 [!UICONTROL 해결됨] (으)로 변경됩니다.
+* 프로젝트, 작업 또는 문제 상태가 [!UICONTROL 완료], [!UICONTROL 마감됨] 또는 [!UICONTROL 해결됨]&#x200B;(으)로 변경됩니다.
 * 작업 또는 프로젝트 완료율은 100%입니다.
 
 프로젝트의 [!UICONTROL 실제 완료 날짜]가 프로젝트에서 마지막 작업을 완료한 날짜와 일치합니다.
@@ -236,7 +240,7 @@ Workfront에서 시간을 기록하는 방법에 대한 자세한 내용은 [시
 
 >[!TIP]
 >
->상위 작업 또는 프로젝트보다 작업 작업 및 문제에 시간을 기록하는 것이 좋습니다. 작업 작업에 기록된 시간이 상위 작업 및 프로젝트에 대해 [!UICONTROL 실제 시간] (으)로 롤업됩니다. 로그온된 시간 문제는 프로젝트에 대해 [!UICONTROL 실제 시간] (으)로 롤업됩니다.
+>상위 작업 또는 프로젝트보다 작업 작업 및 문제에 시간을 기록하는 것이 좋습니다. 작업 작업에 기록된 시간이 상위 작업 및 프로젝트에 대해 [!UICONTROL 실제 시간]&#x200B;(으)로 롤업됩니다. 로그온된 시간 문제는 프로젝트에 대해 [!UICONTROL 실제 시간]&#x200B;(으)로 롤업됩니다.
 
 ## [!UICONTROL 계획된 완료 일자]
 

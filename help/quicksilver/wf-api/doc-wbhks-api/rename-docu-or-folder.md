@@ -8,13 +8,15 @@ author: Becky
 feature: Workfront API, Digital Content and Documents
 role: Developer
 exl-id: 5b1a4a02-a7fd-41f2-9adb-74b40606270b
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/-HmJkcMckTK6upblNcqX5LZkdYQxoWPDeuHkFjJarh4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 3%
+source-wordcount: 81
+ht-degree: 9%
 
 ---
-
 
 # 문서 또는 폴더 이름 바꾸기(아직 구현되지 않음)
 
@@ -28,7 +30,7 @@ PUT /rename
 
 | 이름  | 설명 |
 |---|---|
-| id | 이름을 바꿀 문서 또는 폴더 ID |
+| ID | 이름을 바꿀 문서 또는 폴더 ID |
 | 이름  | 문서 또는 폴더의 새 이름 |
 
 

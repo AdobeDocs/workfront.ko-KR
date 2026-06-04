@@ -6,10 +6,16 @@ description: 사진 문서 사전 설정을 증명으로  [!DNL Adobe Workfront]
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+TQID: https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 0%
+source-wordcount: 625
+ht-degree: 3%
 
 ---
 
@@ -19,13 +25,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->파일은 [Photoshop의 템플릿 및 사전 설정](https://helpx.adobe.com/kr/photoshop/using/create-documents.html)에 설명된 대로 사진 문서 사전 설정이어야 합니다.
+>파일은 [Photoshop의 템플릿 및 사전 설정](https://helpx.adobe.com/photoshop/using/create-documents.html)에 설명된 대로 사진 문서 사전 설정이어야 합니다.
 
 
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +39,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
-   <td> 임의</td> 
+   <td> Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
@@ -43,7 +49,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">추가 제품</td> 
-   <td>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</td> 
+   <td>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">교정쇄 권한 프로필 </td> 
@@ -62,7 +68,7 @@ ht-degree: 0%
 
 ## 전제 조건
 
-* [!DNL Adobe Workfront for Photoshop]에서 증명을 업로드하려면 먼저 [!DNL Adobe Photoshop]을(를) 설치해야 합니다.
+* [!DNL Adobe Photoshop]에서 증명을 업로드하려면 먼저 [!DNL Adobe Workfront for Photoshop]을(를) 설치해야 합니다.
 
   지침은 [설치 [!DNL Adobe Workfront for Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)를 참조하십시오.
 
@@ -74,7 +80,7 @@ ht-degree: 0%
 
 1. 증명을 업로드할 작업 항목으로 이동합니다.
 1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭합니다.
-1. **[!UICONTROL 패널 아래쪽에 있는]**&#x200B;새 파일[!DNL Workfront]을 클릭합니다.
+1. [!DNL Workfront] 패널 아래쪽에 있는 **[!UICONTROL 새 파일]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 증명 만들기]** 토글을 사용하도록 설정합니다.
 1. (선택 사항) **[!UICONTROL 증명 이름]** 텍스트 상자에 증명 이름을 입력합니다.
 1. **[!UICONTROL 증명 승인]** 섹션에서 **[!UICONTROL 기본]**&#x200B;을(를) 선택합니다.
@@ -89,7 +95,7 @@ ht-degree: 0%
 1. **[!UICONTROL 업로드]**&#x200B;를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
 
    ![플러그 인의 파일](assets/plugin-files-350x307.png)\
-   문서가 [!UICONTROL 의 &#x200B;] 패널 및 [!DNL Workfront] 데스크톱 앱의 [!DNL Photoshop]문서[!DNL Workfront] 영역에 표시됩니다.
+   문서가 [!DNL Photoshop]의 [!DNL Workfront] 패널 및 [!DNL Workfront] 데스크톱 앱의 [!UICONTROL 문서] 영역에 표시됩니다.
 
 
 ## 자동화된 증명 업로드
@@ -101,7 +107,7 @@ ht-degree: 0%
 1. 증명을 업로드할 작업 항목으로 이동합니다.
 1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭합니다.
 
-1. **[!UICONTROL 패널 아래쪽에 있는]**&#x200B;새 파일[!DNL Workfront]을 클릭합니다.
+1. [!DNL Workfront] 패널 아래쪽에 있는 **[!UICONTROL 새 파일]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 증명 만들기]** 토글을 사용하도록 설정합니다.
 1. (선택 사항) **[!UICONTROL 증명 이름]** 텍스트 상자에 증명 이름을 입력합니다.
 1. **[!UICONTROL 증명 승인]** 섹션에서 **[!UICONTROL 자동화]**&#x200B;를 선택합니다.
@@ -120,8 +126,8 @@ ht-degree: 0%
 
 1. 드롭다운 메뉴에서 **[!UICONTROL 자산 유형]**&#x200B;을(를) 선택합니다.
 1. (선택 사항) **[!UICONTROL 외부 파일 추가]**&#x200B;를 선택하여 컴퓨터에서 파일을 추가합니다.
-1. **[!UICONTROL 업로드]**&#x200B;를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
-문서가 [!UICONTROL 의 &#x200B;] 패널 및 [!DNL Workfront] 데스크톱 앱의 [!DNL Photoshop]문서[!DNL Workfront] 영역에 표시됩니다.
+1. **[!UICONTROL 업로드]**를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
+문서가 [!DNL Photoshop]의 [!DNL Workfront] 패널 및 [!DNL Workfront] 데스크톱 앱의 [!UICONTROL 문서] 영역에 표시됩니다.
 
 ## 새 증명 버전 업로드
 
@@ -134,14 +140,14 @@ ht-degree: 0%
 1. 문서를 업로드해야 하는 작업 항목으로 이동합니다.
 1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭합니다.
 
-1. **[!UICONTROL 패널 아래쪽에 있는]**&#x200B;새 버전[!DNL Workfront]을 클릭합니다.
+1. [!DNL Workfront] 패널 아래쪽에 있는 **[!UICONTROL 새 버전]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 증명 만들기]** 토글을 사용하도록 설정합니다.
 
-1. *[!UICONTROL *증명 승인] **&#x200B; 섹션에서 &#x200B;** [!UICONTROL 기본] **&#x200B; 또는 &#x200B;** [!UICONTROL 자동화]**&#x200B;를 선택합니다.
+1. *[!UICONTROL *증명 승인]** 섹션에서 **[!UICONTROL 기본]** 또는 **[!UICONTROL 자동화]**&#x200B;를 선택합니다.
 
 1. 7단계에서 선택한 승인 유형에 따라 **[!UICONTROL 검토자]** 또는 **[!UICONTROL 워크플로 템플릿]**&#x200B;을 추가하십시오.
 
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역에 댓글을 입력합니다.
 1. 드롭다운 메뉴에서 **[!UICONTROL 자산 유형]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL 업로드]**&#x200B;를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
-문서가 [!UICONTROL 의 &#x200B;] 패널 및 [!DNL Workfront] 데스크톱 앱의 [!DNL Photoshop]문서[!DNL Workfront] 영역에 표시됩니다.
+1. **[!UICONTROL 업로드]**를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
+문서가 [!DNL Photoshop]의 [!DNL Workfront] 패널 및 [!DNL Workfront] 데스크톱 앱의 [!UICONTROL 문서] 영역에 표시됩니다.

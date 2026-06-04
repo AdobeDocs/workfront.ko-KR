@@ -6,9 +6,13 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: 694
 ht-degree: 0%
 
 ---
@@ -25,7 +29,7 @@ Adobe Workfront 알림이 Adobe의 중앙 집중식 알림 시스템인 Experien
 
 ## 우리가 이 변화를 만드는 이유
 
-Workfront은 Adobe 디지털 경험 제품군의 일부입니다. Experience Cloud으로 이동하면 다음을 포함한 몇 가지 이점이 있습니다.
+Workfront은 Adobe 디지털 경험 제품군의 일부입니다. Experience Cloud로 이동하면 다음과 같은 몇 가지 이점이 있습니다.
 
 * 통합 알림 환경: 이제 모든 Adobe DX 솔루션에서 작동하는 하나의 인터페이스를 경험할 수 있습니다.
 * 알림 상태 유지: 한 곳에서 알림을 통합하면 알림이 누락될 위험이 줄어듭니다.
@@ -35,7 +39,7 @@ Workfront은 Adobe 디지털 경험 제품군의 일부입니다. Experience Clo
 ## 변경 사항
 
 * 단일 알림 아이콘이 상단 헤더의 Workfront 알림 아이콘을 대체했습니다.
-* 이제 새 Experience Cloud 알림 패널 및 모든 알림 페이지를 통해 개인 알림 설정에 액세스할 수 있습니다. 이전에는 사용자 프로필에서 액세스했습니다.
+* 이제 새로운 Experience Cloud 알림 패널 및 모든 알림 페이지를 통해 개인 알림 설정에 액세스할 수 있습니다. 이전에는 사용자 프로필에서 액세스했습니다.
 * 새로운 필터링 및 게재 옵션을 사용할 수 있습니다.
 * 이메일 알림 제목 줄 사용자 지정은 더 이상 사용할 수 없습니다.
 
@@ -91,7 +95,7 @@ Workfront은 Adobe 디지털 경험 제품군의 일부입니다. Experience Clo
 처음은 아닙니다. Workfront 관리자는 먼저 설정을 확인한 다음 Experience Cloud으로 전환하면 새 알림 아이콘을 보게 됩니다. 여기에서 개인 알림에 액세스하는 방법을 학습해야 합니다.
 +++
 
-+++조직이 Experience Cloud으로 전환할 준비가 되지 않았다면 어떻게 합니까?
++++조직이 Experience Cloud로 전환할 준비가 되지 않은 경우 어떻게 합니까?
 
 전환 일정을 조정해야 하는 경우 계정 팀이나 고객 지원 팀과 상의하십시오. 그러나 모든 고객은 새 알림 환경으로 이동해야 하므로 더 일찍 채택하는 것이 좋습니다.
 +++

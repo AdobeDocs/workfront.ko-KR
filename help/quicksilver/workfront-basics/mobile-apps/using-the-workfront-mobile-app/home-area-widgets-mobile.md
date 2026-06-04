@@ -6,9 +6,12 @@ description: iOS 및 Android 모두에 대한 홈 영역 위젯을 사용하여 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 36af1b05-4c95-4b8e-9b96-03b30fa9852c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/GAWPkf-yJO-drLQ-85rk5DiVCNOidi68TruAv-72gG0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: 139
 ht-degree: 0%
 
 ---
@@ -25,4 +28,4 @@ ht-degree: 0%
 
 **[!UICONTROL 지연 작업]:** 지연된 작업 항목 수를 표시합니다(계획된 완료 일자 초과). 항목 목록을 보려면 위젯을 선택합니다.
 
-**[!UICONTROL 멘션]:**&#x200B;은(는) 읽지 않은 멘션 수를 표시합니다. 언급은 [!UICONTROL 의 개체에 대해 &#x200B;]업데이트[!DNL Adobe Workfront] 탭에서 태그 지정 또는 알림을 받는 알림입니다. 언급 목록을 보려면 위젯을 선택합니다.
+**[!UICONTROL 멘션]:**&#x200B;은(는) 읽지 않은 멘션 수를 표시합니다. 언급은 [!DNL Adobe Workfront]의 개체에 대해 [!UICONTROL 업데이트] 탭에서 태그 지정 또는 알림을 받는 알림입니다. 언급 목록을 보려면 위젯을 선택합니다.

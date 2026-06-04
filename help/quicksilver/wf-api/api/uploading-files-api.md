@@ -7,9 +7,13 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: cf5a1ab848caae947829806e601662a31ce3a081
+TQID: https://experienceleague.adobe.com/Yd7byYJ1pYDXwdKvINXh4fKy-pWoEiNMj345jr1HHNs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: 176
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 Postman과 같은 API 도구 또는 간단한 cURL 명령을 사용하여 Workfront API를 사용하여 파일을 업로드할 수 있습니다.
 
-문서를 업로드하려면 Workfront **게시물 동작**&#x200B;에서 [문서 업로드](/help/quicksilver/wf-api/general/api-basics.md#post-behavior)에 대한 지침을 참조하십시오. cURL 요청에 대해서도 동일한 지침을 사용할 수 있습니다.
+문서를 업로드하려면 Workfront [게시물 동작](/help/quicksilver/wf-api/general/api-basics.md#post-behavior)에서 **문서 업로드**&#x200B;에 대한 지침을 참조하십시오. cURL 요청에 대해서도 동일한 지침을 사용할 수 있습니다.
 
 **API 도구를 사용하여 파일을 업로드할 때 다음 지침을 따르십시오.**
 

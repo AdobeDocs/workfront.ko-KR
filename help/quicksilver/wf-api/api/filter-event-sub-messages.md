@@ -8,9 +8,13 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/BJyCmAyuNBT-b8wscY66X9w4g6tq0TYh3NshJZjNy6o
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: 1843
 ht-degree: 0%
 
 ---
@@ -25,7 +29,7 @@ ht-degree: 0%
 
 이 섹션에는 이벤트 구독 메시지 로드를 줄이기 위해 구현할 수 있는 필터링의 코드 조각이 포함되어 있습니다.  다양한 언어의 구문에서 차이점을 표시하는 데 도움이 되도록 이 코드 조각은 다음 언어로 작성된 동일한 필터 세트를 보여 줍니다.
 
-[https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples)에서 필터링의 예를 볼 수 있습니다. 여기에서 각 언어의 구문과 AWS SDK와의 상호 작용 수단에 대한 차이점을 확인할 수 있습니다. 이러한 예제는 중간 필터링 및 처리 구성 요소를 사용하는 일반적인 방법인 AWS Lambda로 작성됩니다.
+[https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples)에서 필터링의 예를 볼 수 있습니다. 여기에서 각 언어의 구문과 AWS SDK과의 상호 작용 방법의 차이점을 볼 수 있습니다. 이러한 예는 중간 필터링 및 처리 구성 요소를 사용하는 일반적인 방법인 AWS Lambda로 작성됩니다.
 
 다음 코드 조각은 배포 준비가 거의 완료되었으며 보다 복잡한 고유한 필터 및 처리 구성 요소를 작성하는 데 도움이 되는 시작점으로 사용할 수 있습니다.
 
@@ -107,7 +111,7 @@ Java의 다음 예제에서는 [ProjectGroupFiltering.java:](https://github.com/
    }
    ```
 
-   AWS SDK는 필터링된 메시지를 원하는 끝점에 전달하는 다른 Lambda를 호출하는 데 사용됩니다.
+   AWS SDK은 필터링된 메시지를 원하는 끝점에 전달하는 다른 Lambda를 호출하는 데 사용됩니다.
 
    메시지를 다른 Lambda에 전달할 책임을 전달하는 목적은 이벤트 구독 서비스에서 오는 배달 요청의 시간 제한을 방지하기 위한 것입니다. 현재, 게재에 허용 가능한 시간 초과가 5초로 설정되어 있습니다. 필터가 설정에 허용된 시간보다 오래 걸리는 경우 요청을 처리할 수 있지만 이벤트 구독 서비스는 시간 초과 기간 내에 200 수준의 응답을 받을 때까지 시간 초과되어 재시도 루프에 속하게 됩니다.
 
@@ -179,7 +183,7 @@ Python의 다음 예제는 [projectGroupFiltering.py:](https://github.com/Workfr
       )
    ```
 
-   AWS SDK는 필터링된 메시지를 원하는 끝점에 전달하는 다른 Lambda를 호출하는 데 사용됩니다.
+   AWS SDK은 필터링된 메시지를 원하는 끝점에 전달하는 다른 Lambda를 호출하는 데 사용됩니다.
 
    메시지를 다른 Lambda에 전달할 책임을 전달하는 목적은 이벤트 구독 서비스에서 오는 배달 요청의 시간 제한을 방지하기 위한 것입니다. 현재, 게재에 대한 시간 제한은 5초로 설정되어 있습니다. 필터가 설정에 허용된 시간보다 오래 걸리는 경우 요청을 처리할 수 있지만 이벤트 구독 서비스는 시간 초과 기간 내에 200 수준의 응답을 받을 때까지 시간 초과되어 재시도 루프에 속하게 됩니다.
 
@@ -259,7 +263,7 @@ Node.js의 다음 예제는 [projectGroupFiltering.js:](https://github.com/Workf
    }
    ```
 
-   AWS SDK는 필터링된 메시지를 원하는 끝점에 전달하는 다른 Lambda를 호출하는 데 사용됩니다.\
+   AWS SDK은 필터링된 메시지를 원하는 끝점에 전달하는 다른 Lambda를 호출하는 데 사용됩니다.\
    메시지를 다른 Lambda에 전달할 책임을 전달하는 목적은 이벤트 구독 서비스에서 오는 배달 요청의 시간 제한을 방지하기 위한 것입니다. 현재, 게재에 대한 시간 제한은 5초로 설정되어 있습니다. 필터가 설정에 허용된 시간보다 오래 걸리는 경우 요청을 처리할 수 있지만 이벤트 구독 서비스는 시간 초과 기간 내에 200 수준의 응답을 받을 때까지 시간 초과되어 재시도 루프에 속하게 됩니다.\
    메시지 배달 관리에 대한 자세한 내용은 [시간 초과를 수용하는 동안 메시지 배달 개선](#improving-message-delivery-while-accommodating-timeouts)을 참조하세요.
 
@@ -332,4 +336,4 @@ public static List<Map<String, Object>> projectGroupFilteringStartupRecoveryQuer
 
 [이벤트 메시지 필터링](#filtering-event-messages) 섹션의 모든 예제는 필터링된 메시지를 다른 AWS Lambda에 전달할 권한을 전달합니다. 이 작업은 요청을 발행하는 이벤트 구독 서비스에 의해 적용되는 게재 요청에서 5초 시간 제한을 초과하지 않도록 하기 위해 수행됩니다.
 
-클라우드가 없는 아키텍처에서는 AWS SDK를 사용하여 다른 AWS Lambda에 대한 비동기 호출을 허용하는 방법과 유사한 비동기 처리 메커니즘을 구현해야 할 수 있습니다. 대부분의 최신 프로그래밍 언어에는 비동기 처리를 처리하는 서드파티 또는 코어 라이브러리가 있으므로 예제에서 구현된 비동기 스타일의 처리를 활용할 수 있습니다.
+클라우드가 없는 아키텍처에서는 AWS SDK을 사용하여 다른 AWS Lambda에 대한 비동기 호출을 허용하는 방법과 유사한 비동기 처리 메커니즘을 구현해야 할 수 있습니다. 대부분의 최신 프로그래밍 언어에는 비동기 처리를 처리하는 서드파티 또는 코어 라이브러리가 있으므로 예제에서 구현된 비동기 스타일의 처리를 활용할 수 있습니다.

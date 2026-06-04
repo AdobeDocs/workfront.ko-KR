@@ -6,18 +6,23 @@ description: Adobe Creative Cloud 애플리케이션을 종료하지 않고 Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/kNA5u-MELdG4G4TzFgLRqQO7S5LWzdcucPoxsENV-uQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 381
 ht-degree: 4%
 
 ---
 
 # [!DNL Adobe Workfront] 플러그인을 사용하여 작업 찾기
 
-다음 [!DNL Adobe Workfront]개의 응용 프로그램을 종료하지 않고 [!DNL Adobe Creative Cloud]에서 자신에게 할당된 작업을 찾으십시오.
+다음 [!DNL Adobe Creative Cloud]개의 응용 프로그램을 종료하지 않고 [!DNL Adobe Workfront]에서 자신에게 할당된 작업을 찾으십시오.
 
 {{cc-app-list}}
 
@@ -43,7 +48,7 @@ ht-degree: 4%
   -->
   <tr> 
    <td role="rowheader">추가 제품</td> 
-   <td>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</td> 
+   <td>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</td> 
   </tr> 
  </tbody> 
 </table>

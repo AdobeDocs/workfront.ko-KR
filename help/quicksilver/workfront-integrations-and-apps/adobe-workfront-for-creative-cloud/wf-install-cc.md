@@ -6,18 +6,23 @@ description: Adobe 마켓플레이스에서  [!DNL Adobe Workfront for design an
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
+TQID: https://experienceleague.adobe.com/f7UgSYwHUcG04fHSiY9O3LrT-0IE2-FafeqVve81Q24
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: 594
 ht-degree: 4%
 
 ---
 
 # [!DNL Adobe Workfront for design and video] 설치 및 열기
 
-[!DNL Adobe Workfront for design and video]에서 [!DNL Adobe Marketplace]을(를) 설치할 수 있습니다. 이 플러그인은 다음 Creative Cloud 애플리케이션을 지원합니다.
+[!DNL Adobe Marketplace]에서 [!DNL Adobe Workfront for design and video]을(를) 설치할 수 있습니다. 이 플러그인은 다음 Creative Cloud 애플리케이션을 지원합니다.
 
 {{cc-plugin-app-list}}
 
@@ -63,7 +68,7 @@ ht-degree: 4%
   -->
   <tr> 
    <td role="rowheader">추가 제품</td> 
-   <td><p>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</p></td> 
+   <td><p>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,15 +83,15 @@ ht-degree: 4%
 
 ## 조직에 대해 [!DNL Workfront for design and video] 설치
 
-[!DNL Adobe Admin Console] 관리자인 경우 [!DNL Adobe Workfront for design and video]개의 배포 패키지에 [!DNL Creative Cloud]을(를) 포함할 수 있습니다. 자세한 내용은 [패키지에 플러그인 포함](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)을 참조하십시오.
+[!DNL Adobe Admin Console] 관리자인 경우 [!DNL Creative Cloud]개의 배포 패키지에 [!DNL Adobe Workfront for design and video]을(를) 포함할 수 있습니다. 자세한 내용은 [패키지에 플러그인 포함](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)을 참조하십시오.
 
 [비디오 튜토리얼은 여기에서 봅니다](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은 [에서 사용자의  [!DNL Adobe Workfront] [!UICONTROL [!DNL Creative Cloud]] for [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)패키지 만들기를 참조하십시오.
+[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
 
 ## 개별적으로 [!DNL Workfront for design and video] 설치
 
-[!DNL Adobe Workfront for design and video]에서 직접 [!DNL Adobe Exchange]을(를) 설치할 수 있습니다.
+[!DNL Adobe Exchange]에서 직접 [!DNL Adobe Workfront for design and video]을(를) 설치할 수 있습니다.
 
 1. Adobe Exchange에서 [디자인 및 비디오용 Adobe Workfront 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share)&#x200B;(으)로 이동합니다.
 1. 표시되는 대화 상자에서 **데스크톱 앱 [!DNL Adobe Creative Cloud] 열기**&#x200B;를 클릭합니다.
@@ -163,9 +168,9 @@ ht-degree: 4%
 
    >[!TIP]
    >
-   >Mac에서 Finder로 이동하여 **Command+Shift+G**&#x200B;를 누르고 다음 위치로 이동합니다.  `~/Library/Application Support/Workfront`을(를) 클릭한 다음 **Workfront** 폴더를 삭제합니다.
+   >Mac에서 Finder로 이동하여 **Command+Shift+G**&#x200B;를 누르고 `~/Library/Application Support/Workfront`(으)로 이동한 다음 **Workfront** 폴더를 삭제합니다.
 
 
-1. 플러그인으로 돌아가 Workfront 도메인을 입력합니다. 도메인은 `company-name.my.workfront.com`이(가) 아닌 `experience.adobe.com`이어야 합니다.
+1. 플러그인으로 돌아가 Workfront 도메인을 입력합니다. 도메인은 `experience.adobe.com`이(가) 아닌 `company-name.my.workfront.com`이어야 합니다.
 
    [Workfront 도메인을 찾으려면](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) 설치, 고객 정보로 이동하십시오.

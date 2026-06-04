@@ -5,10 +5,15 @@ description: Adobe Workfront은 귀하에게 할당되거나 귀하가 소유한
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/k5EY-Pa8lmO7VJRlJpRsCVlbf0U4zByRfmb70OtBvFI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 0%
+source-wordcount: 1563
+ht-degree: 1%
 
 ---
 
@@ -34,7 +39,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +49,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Adobe Workfront] 패키지</strong></td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
@@ -219,7 +224,7 @@ ht-degree: 0%
   항목 중 하나에 댓글이 달릴 때 트리거되는 전자 메일 알림에 대한 자세한 내용은 [Adobe Workfront 알림](../../workfront-basics/using-notifications/wf-notifications.md)을 참조하세요.
 
 * 항목을 구독하고 댓글을 달면 댓글에 사용자 이름을 포함하지 않는 한 해당 댓글에 대한 구독 이메일을 받지 못합니다.
-* 항목에 댓글을 다는 사용자가 댓글을 잠궈 댓글을 비공개로 만들고, 사용자가 해당 사용자와 같은 회사에 속하지 않으면 해당 댓글에 대한 알림을 받지 않습니다. 댓글을 회사 전용으로 만드는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add)의 [작업 항목에 업데이트 추가](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md) 섹션을 참조하십시오.
+* 항목에 댓글을 다는 사용자가 댓글을 잠궈 댓글을 비공개로 만들고, 사용자가 해당 사용자와 같은 회사에 속하지 않으면 해당 댓글에 대한 알림을 받지 않습니다. 댓글을 회사 전용으로 만드는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)의 [작업 항목에 업데이트 추가](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) 섹션을 참조하십시오.
 
 * 구독에 대한 보고서를 작성할 수 없습니다. 다른 사용자가 항목을 구독하거나 구독 취소하면 모든 항목의 업데이트 상태에 감사가 기록됩니다.
-* 하위 객체에 대한 댓글은 상위 객체에 대한 가입 통지를 트리거하지 않습니다. 프로젝트를 구독하면 해당 프로젝트에 대한 댓글 알림만 수신됩니다. 각 하위 항목을 구독하지 않으면 프로젝트와 관련된 하위 항목(예: 작업 또는 문제)에 대한 의견 알림을 받지 못합니다. 개체 관계에 대한 자세한 내용은 [개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)의 [개체의 상호 종속성과 계층 구조 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 섹션을 참조하십시오.
+* 하위 객체에 대한 댓글은 상위 객체에 대한 가입 통지를 트리거하지 않습니다. 프로젝트를 구독하면 해당 프로젝트에 대한 댓글 알림만 수신됩니다. 각 하위 항목을 구독하지 않으면 프로젝트와 관련된 하위 항목(예: 작업 또는 문제)에 대한 의견 알림을 받지 못합니다. 개체 관계에 대한 자세한 내용은 [개체 이해 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 [개체의 상호 종속성과 계층 구조](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) 섹션을 참조하십시오.

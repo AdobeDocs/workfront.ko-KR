@@ -6,10 +6,15 @@ description: Workfront에 업로드할 때 문서에 대한 증명을 생성할 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/Pn0eWLEK9gi1eqztoZCg-aR9s7zm60M-SLkRudYGdnU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 0%
+source-wordcount: 617
+ht-degree: 4%
 
 ---
 
@@ -27,7 +32,7 @@ If a proof fails to generate after following the steps described in the followin
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +41,7 @@ If a proof fails to generate after following the steps described in the followin
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> 
-   <p>임의 </p>
+   <p>Any </p>
     </td> 
   </tr> 
   <tr> 
@@ -99,7 +104,7 @@ If a proof fails to generate after following the steps described in the followin
 드래그 앤 드롭을 사용하여 새 증명 또는 새 증명 버전을 생성하려면 다음을 수행하십시오.
 
 1. 에 설명된 대로 증명이 자동으로 생성되도록 구성되었는지 확인합니다.
-1. 계속  [파일 시스템에서 Adobe Workfront에 문서를 추가](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)합니다. 여기에서는 문서를 추가하는 드래그 앤 드롭 방법에 대해 설명합니다. 
+1. [파일 시스템에서 Adobe Workfront에 문서 추가](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)를 계속합니다. 이 방법에서는 문서를 추가하는 드래그 앤 드롭 방법을 설명합니다. 
 
 ## 기존 문서에 대한 증명 만들기
 
@@ -122,7 +127,7 @@ If a proof fails to generate after following the steps described in the followin
      </tr> 
      <tr> 
       <td role="rowheader">고급 증명</td> 
-      <td> <p>이 옵션을 사용하면 기본 또는 고급 워크플로를 구성하고 만든 증명에 대한 증명 설정을 수정할 수 있습니다. 자세한 내용은 </p> 
+      <td> <p>이 옵션을 사용하면 기본 또는 고급 워크플로를 구성하고 만든 증명에 대한 증명 설정을 수정할 수 있습니다. 자세한 내용은 다음 문서를 참조하십시오. </p> 
        <ul> 
         <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">기본 워크플로를 사용하여 고급 증명 만들기</a> </p> </li> 
         <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">자동화된 워크플로로 고급 증명 만들기</a> </p> </li> 

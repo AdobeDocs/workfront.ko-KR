@@ -7,10 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
-source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
+TQID: https://experienceleague.adobe.com/6cMTHhlWM6xf4Y7w4HRIdqV-w0aOOj0cq21fp1fDa2s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 1%
+source-wordcount: 1358
+ht-degree: 4%
 
 ---
 
@@ -74,7 +78,7 @@ ExternalDocument 객체는 Workfront 외부의 문서 스토리지 공급자에 
           <li><p><b>읽기 전용</b></p></li>
           <li><p><b>크기</b></p></li>
           <li><p><b>thumbnailURL</b></p></li>
-          <li><p><b>값</b></p></li>
+          <li><p><b>value</b></p></li>
         </ul>
       </td>
     </tr>
@@ -395,7 +399,7 @@ JournalEntry 개체는 특정 개체 필드에 대한 정보를 해당 필드가
               <li>검토자 변경됨(ARC)</li>
               <li>검토 완료(RDC)</li>
               <li>리뷰가 취소되었습니다(RDR).</li>
-              <li>Publish (PUB)</li>
+              <li>게시(PUB)</li>
             </ul>
           </li>
         </ul>
@@ -413,7 +417,7 @@ Kanban 보드 개체가 **INLINE_EDITABLE** 플래그를 제거했습니다.
 
 ### LinkedFolder(LNKFDR)
 
-LinkedFolder 개체는 Google 드라이브 또는 Dropbox과 같은 외부 문서 공급자로부터 연결된 폴더를 나타냅니다.
+LinkedFolder 개체는 Google Drive 또는 Dropbox과 같은 외부 문서 공급자로부터 연결된 폴더를 나타냅니다.
 
 <table>
   <col/>
@@ -812,7 +816,7 @@ UserNote 객체는 알림입니다.
               <li>문서에 검토(AND)가 아닌 지금 사용자의 승인이 필요합니다.</li>
               <li>검토된 문서(RDC)</li>
               <li>검토된 문서(TRC)</li>
-              <li>(사용자)가 (문서)를 완료된 것으로 검토했습니다. 더 이상 검토할 필요가 없습니다. (TRN)</li>
+              <li>(사용자)가 (문서)를 완료된 것으로 검토했습니다. 더 이상 검토가 필요하지 않습니다. (TRN)</li>
             </ul>
           </li>
         </ul>

@@ -6,11 +6,16 @@ description: 내 요청 위젯에서 요청을 제출할 수 있습니다. 필�
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-last-update: 2026-04-01T18:23:03Z
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+TQID: https://experienceleague.adobe.com/CmlT3NwdCWm-UiIiN5mxGgEVFVLjtqOY97ATuTgaN4g
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: 674
 ht-degree: 3%
 
 ---
@@ -28,7 +33,7 @@ remove Preview and Production references at Production release April 15, 2026
 >[!IMPORTANT]
 >
 >이 문서에서는 새로운 내 요청 위젯에 대해 설명합니다. 새 위젯을 보려면 새 요청 환경을 활성화해야 합니다.
->요청 영역에서 새 요청 경험을 활성화할 수 있습니다.
+>요청 영역에서 새 요청 환경을 사용할 수 있습니다.
 
 내 요청 위젯은 사용자가 제출한 요청을 표시합니다. 요청을 필터링하거나 특정 요청을 검색하거나 열 순서 및 가시성을 조정할 수 있습니다. 내 요청 위젯에서 새 요청을 만들 수도 있습니다.
 
@@ -80,7 +85,7 @@ remove Preview and Production references at Production release April 15, 2026
 
 내 요청 위젯에서 직접 요청을 만들 수 있습니다.
 
-지침은 [홈 영역에서 작업 항목 및 프로젝트 만들기](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) 문서의 [요청 만들기](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) 섹션을 참조하십시오.
+지침은 [홈 영역에서 작업 항목 및 프로젝트 만들기](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) 문서의 [요청 만들기](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) 섹션을 참조하십시오.
 
 ## 요청 복사
 

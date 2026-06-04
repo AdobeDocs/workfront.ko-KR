@@ -8,9 +8,13 @@ description: 증명 사용자를 위해  [!DNL Adobe] Workfront에서 사용할 
 feature: Get Started with Workfront
 auhor: Courtney
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: 255
 ht-degree: 0%
 
 ---
@@ -31,7 +35,7 @@ ht-degree: 0%
 
   ![](assets/access-denied-350x161.png)
 
-  **관리자** 권한이 있는 [!UICONTROL 솔루션:] 사용자를 증명에 명시적으로 추가해야 합니다. 항상 [!UICONTROL 고급 증명 옵션] 창을 통해 증명을 만들어야 하며 항상 이 옵션을 통해 사용자를 추가해야 합니다.
+  [!UICONTROL 관리자] 권한이 있는 **솔루션:** 사용자를 증명에 명시적으로 추가해야 합니다. 항상 [!UICONTROL 고급 증명 옵션] 창을 통해 증명을 만들어야 하며 항상 이 옵션을 통해 사용자를 추가해야 합니다.
 
 * **문제:** [!UICONTROL 관리자] 권한이 있는 사용자가 다른 사용자가 만든 증명에 증명 버전을 추가할 수 없습니다. 다른 사용자가 만든 원본 집합에는 해당 사용자가 증명을 제출할 수 있지만 해당 버전이 연결되지 않습니다.\
    **해결 방법:** [!UICONTROL 관리자] 권한이 있는 사용자는 다음 두 가지 경우에 [!UICONTROL 관리자] 권한이 있는 사용자가 다른 사용자의 증명에 버전을 제출할 수 있습니다.

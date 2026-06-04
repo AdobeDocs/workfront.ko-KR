@@ -2,15 +2,18 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: "작업 항목 업데이트 및 업데이트 보기: 문서 색인"
+title: '작업 항목 업데이트 및 업데이트 보기: 문서 색인'
 description: 대부분의 오브젝트의 업데이트 섹션을 사용하여 댓글과 응답을 추가하거나, 오브젝트에서 발생하는 변경 사항에 대한 시스템 추적 업데이트를 따를 수 있습니다.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+TQID: https://experienceleague.adobe.com/fzDoXrXB2daswcxxmcBjquMbFXRT8QrBtUw-2ZY1pQA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: 117
 ht-degree: 0%
 
 ---

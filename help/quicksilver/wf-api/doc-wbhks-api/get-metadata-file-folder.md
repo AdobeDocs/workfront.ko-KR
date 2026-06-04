@@ -8,13 +8,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/H04UQeyhGw-FdXDwaRZs5PSXnN-YErVptHWn-78INYo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 2%
+source-wordcount: 263
+ht-degree: 8%
 
 ---
-
 
 # 파일 또는 폴더에 대한 메타데이터 가져오기
 
@@ -37,7 +40,7 @@ GET /metadata?id=[문서 또는 폴더 ID]
  </thead> 
  <tbody> 
   <tr> 
-   <td>id</td> 
+   <td>ID</td> 
    <td>웹후크 공급자가 참조하는 파일 또는 폴더의 ID입니다. Adobe Workfront의 문서 ID와 다릅니다. 루트 디렉토리의 메타데이터를 가져오려면 값 '/'를 사용합니다.
    <p>참고: ID의 최대 길이는 255자입니다.</p></td> 
   </tr> 
@@ -71,7 +74,7 @@ GET /metadata?id=[문서 또는 폴더 ID]
    <td>이 항목이 파일 또는 폴더('file' 또는 'folder')인지 지정합니다.</td> 
   </tr> 
   <tr> 
-   <td>id</td> 
+   <td>ID</td> 
    <td>문자열 </td> 
    <td>파일 또는 폴더의 ID입니다.</td> 
   </tr> 
@@ -103,7 +106,7 @@ GET /metadata?id=[문서 또는 폴더 ID]
   <tr> 
    <td>읽기 전용</td> 
    <td>부울</td> 
-   <td> 이 파일 또는 폴더가 인증된 사용자에게 읽기 전용인지 여부를 나타냅니다.(선택 사항) </td> 
+   <td> 이 파일 또는 폴더가 인증된 사용자에게 읽기 전용인지 여부를 나타냅니다(선택 사항). </td> 
   </tr> 
  </tbody> 
 </table>
