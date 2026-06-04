@@ -8,9 +8,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
+TQID: https://experienceleague.adobe.com/2RcCpRizLBAaJzlW9N-Y-rxjyBDZq8j8E2xpb6u4WvQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: 1230
 ht-degree: 2%
 
 ---
@@ -88,7 +94,7 @@ ht-degree: 2%
      <tr> 
       <td>[!UICONTROL 프로젝트]</td> 
       <td>프로젝트 이름</td> 
-      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 리소스], [!UICONTROL 청구 기록], [!UICONTROL 경비], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [ !NICONTROL uicontrol People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
+      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 리소스], [!UICONTROL 청구 기록], [!UICONTROL 경비], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [!NICONTROL uicontrol People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 작업]</td> 
@@ -140,7 +146,7 @@ ht-degree: 2%
      <tr> 
       <td>[!UICONTROL 리소스 조달]</td> 
       <td>[!UICONTROL 기본 메뉴]의 [!UICONTROL 리소스] <img src="assets/main-menu-icon-left-nav.png"></td> 
-      <td>[!UICONTROL Planner] (숨길 수 없음), [!UICONTROL 업무 균형자], [!UICONTROL 사용률], [!UICONTROL 리소스 풀]</td> 
+      <td>[!UICONTROL Planner](숨길 수 없음), [!UICONTROL 업무 균형자], [!UICONTROL 사용률], [!UICONTROL 리소스 풀]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -180,7 +186,7 @@ ht-degree: 2%
      <tr> 
        <td>[!UICONTROL Rate Card]</td> 
        <td>요금 카드의 이름</td> 
-       <td>[!UICONTROL 작업 역할 및 비율] (숨길 수 없음), [!UICONTROL 비율 카드 세부 정보]</td> 
+       <td>[!UICONTROL 작업 역할 및 비율](숨길 수 없음), [!UICONTROL 비율 카드 세부 정보]</td> 
      </tr>
      <tr> 
        <td>[!UICONTROL Group]</td> 

@@ -6,11 +6,17 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Courtney
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/K08J41wUOl-fK3hBl-1KbBlpU48w-kGb8Jgbg8O3r0w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: 1514
 ht-degree: 2%
 
 ---
@@ -180,7 +186,7 @@ ht-degree: 2%
 
    왼쪽 탐색 패널을 사용하여 카드 세부 정보에서 필드의 섹션 사이를 이동합니다.
 
-1. **[!UICONTROL 닫기]**&#x200B;를 클릭하여 게시판으로 돌아갑니다.
+1. **[!UICONTROL 닫기]**를 클릭하여 게시판으로 돌아갑니다.
 카드에 연결된 객체, 담당자, 태그, 기한, 체크리스트 카운터, 예상 시간, 상태 등이 표시됩니다.
 
    ![보드에 카드 추가됨](assets/boards-connected-card-details-110922.png)

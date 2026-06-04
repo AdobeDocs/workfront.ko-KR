@@ -9,10 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: c1c30696dc9ef324103467f3bdcb83609cf5d1d8
+TQID: https://experienceleague.adobe.com/DP4cAQiJdCpE59ppP-EvU3UcJomEd9TUxza6DIB1cDg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 0%
+source-wordcount: 1018
+ht-degree: 1%
 
 ---
 
@@ -44,7 +50,7 @@ Workfront 설명서 방법 문서에는 해당 절차에 필요한 액세스 및
   <p>조직에서 이러한 영역 중 하나 이상에서 Workfront 패키지를 구매했을 수 있습니다.</p>
   <p>이전에는 Workfront에서 워크플로, 계획, 자동화 및 통합을 구분하지 않고 Workfront Select, Workfront Prime 및 Workfront Ultimate 패키지를 제공했습니다. 조직은 이러한 레거시 패키지 중 하나에 있을 수 있습니다. 
    <ul><li>조직이 현재 또는 레거시 패키징 모델인지 여부를 포함하여 조직이 사용하는 Adobe Workfront 패키지를 확인하려면 Workfront 관리자에게 문의하십시오.</li>
-   <li>Workfront 관리자가 조직의 Workfront 패키지를 찾는 방법에 대한 지침은 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">조직의 클러스터 및 Workfront 패키지 보기</a>를 참조하십시오.</li><li>Workfront 패키지에 대한 자세한 내용은 <a href="https://business.adobe.com/kr/products/workfront/pricing.html">Adobe Workfront 가격 및 패키징</a>을 참조하십시오.</li></ul> </td> 
+   <li>Workfront 관리자가 조직의 Workfront 패키지를 찾는 방법에 대한 지침은 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">조직의 클러스터 및 Workfront 패키지 보기</a>를 참조하십시오.</li><li>Workfront 패키지에 대한 자세한 내용은 <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront 가격 및 패키징</a>을 참조하십시오.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -95,7 +101,7 @@ Workfront 설명서 방법 문서에는 해당 절차에 필요한 액세스 및
    <ul><li>현재 라이선스 모델은 수행된 작업의 수를 기반으로 하며, 조직에서 수행할 수 있는 작업에 대한 제한은 없습니다. </li>
    <li>레거시 라이선스는 시나리오가 서드파티 애플리케이션에 연결할 수 있는지 또는 시나리오가 Workfront 자동화에만 사용되는지 여부를 기반으로 합니다. </li>
    </ul>
-   Fusion 라이선스에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion 라이선스</a>를 참조하십시오.
+   Fusion 라이선스에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion 라이선스</a>를 참조하십시오.
    </td> 
   </tr> 
  </tbody> 

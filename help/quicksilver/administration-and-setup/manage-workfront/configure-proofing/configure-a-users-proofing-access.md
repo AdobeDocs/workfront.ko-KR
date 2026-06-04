@@ -8,9 +8,14 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: 322a24fabd22ca2b54c020aded33b736a98f4bf5
+TQID: https://experienceleague.adobe.com/L-AMDvQYgtXJwxmtwekimbEA9OQQN72QHIcoQ2iKzGU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: 1104
 ht-degree: 1%
 
 ---
@@ -62,7 +67,7 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 Workfront 및 Work
 
    >[!NOTE]
    >
-   >기존 Workfront 플랜을 사용하는 경우 **사용자에 대한 증명 활성화 및 비활성화(기존 플랜만 해당)** 섹션에 설명된 대로 [사용자가 증명을 생성할 수 있음](#enable-and-disable-proofing-for-a-user-legacy-plans-only) 옵션이 활성화되어 있는지 확인하십시오.
+   >기존 Workfront 플랜을 사용하는 경우 [사용자에 대한 증명 활성화 및 비활성화(기존 플랜만 해당)](#enable-and-disable-proofing-for-a-user-legacy-plans-only) 섹션에 설명된 대로 **사용자가 증명을 생성할 수 있음** 옵션이 활성화되어 있는지 확인하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -128,7 +133,7 @@ Workfront 지원에 문의하고 요청을 제출하여 모든 사용자에게 W
 
 1. **증명 기본값**&#x200B;에서 **대화형 증명을 위한 데스크톱 증명 뷰어** 행 끝에 있는 **설정**&#x200B;을 클릭합니다.
 
-1. [조직에 대한 증명 설정 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer) 문서의 [데스크톱 증명 뷰어](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)에 설명된 대로 데스크톱 증명 뷰어 설정을 수정합니다.
+1. [조직에 대한 증명 설정 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) 문서의 [데스크톱 증명 뷰어](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer)에 설명된 대로 데스크톱 증명 뷰어 설정을 수정합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -139,4 +144,4 @@ Workfront 지원에 문의하고 요청을 제출하여 모든 사용자에게 W
 자세한 내용은 증명 뷰어에서 [대화형 증명 해상도 변경](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)을 참조하십시오.
 
 1. [Workfront에서 Workfront Proof 액세스](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)에 설명된 대로 Adobe Workfront에서 Workfront Proof 인터페이스에 액세스합니다.
-1. [조직에 대한 증명 설정 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs) 문서의 [증명에 대한 사용자 지정 장치 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)에 설명된 대로 데스크톱 증명 뷰어 설정을 수정합니다.
+1. [조직에 대한 증명 설정 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) 문서의 [증명에 대한 사용자 지정 장치 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs)에 설명된 대로 데스크톱 증명 뷰어 설정을 수정합니다.

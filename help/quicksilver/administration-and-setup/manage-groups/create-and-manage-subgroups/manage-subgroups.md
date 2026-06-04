@@ -9,10 +9,15 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/Ng0xKCrHg--5s3MdiLEOJfjoao9WND2uFqS5VI9LGng
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 0%
+source-wordcount: 1360
+ht-degree: 1%
 
 ---
 
@@ -40,7 +45,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +53,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -156,7 +161,7 @@ ht-degree: 0%
 1. 하위 그룹을 선택한 다음 **복사** 아이콘 ![복사 아이콘](assets/copy-icon.png)을 클릭하여 선택한 그룹을 기반으로 새 최상위 그룹을 만듭니다.
 1. 새 그룹의 설정을 구성합니다.
 
-   이러한 설정에 대한 도움말은 문서 [그룹 만들기](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create-a-top-level-group-by-copying-an-existing-group-or-subgroup)에서 [기존 그룹 또는 하위 그룹을 복사하여 최상위 그룹 만들기](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)를 참조하십시오.
+   이러한 설정에 대한 도움말은 문서 [그룹 만들기](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)에서 [기존 그룹 또는 하위 그룹을 복사하여 최상위 그룹 만들기](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create-a-top-level-group-by-copying-an-existing-group-or-subgroup)를 참조하십시오.
 
 1. **그룹 만들기**&#x200B;를 클릭합니다.
 
@@ -180,7 +185,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >하위 그룹이 있는 그룹을 비활성화하면 해당 하위 그룹도 비활성화됩니다. 이들 중 하나를 활성화하려면 다음 지침을 사용하여 상위 그룹에서 제거한 다음 다시 활성화할 수 있습니다.
->&#x200B;>그룹 비활성화 및 다시 활성화에 대한 지침은 [그룹 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)를 참조하십시오.
+>그룹 비활성화 및 다시 활성화에 대한 지침은 [그룹 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)를 참조하십시오.
 
 {{step-1-to-setup}}
 

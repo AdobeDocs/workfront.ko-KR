@@ -8,12 +8,17 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
+TQID: https://experienceleague.adobe.com/e2uZM6ICiPOrupfHh0rQHmh--rDWxjwpend11THYdh4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 14%
+source-wordcount: 270
+ht-degree: 13%
 
 ---
 
@@ -63,7 +68,7 @@ ht-degree: 14%
 
 시작하기 전에 다음을 수행해야 합니다
 
-* [!DNL Workfront]에서 응용 프로그램으로 [!DNL JumpSeat]을(를) 추가하고 활성화합니다. 자세한 내용은 [응용 프로그램을 추가하거나 삭제하는 방법](https://support.jumpseat.io/article/how-to-add-an-application/)을 참조하세요.
+* [!DNL JumpSeat]에서 응용 프로그램으로 [!DNL Workfront]을(를) 추가하고 활성화합니다. 자세한 내용은 [응용 프로그램을 추가하거나 삭제하는 방법](https://support.jumpseat.io/article/how-to-add-an-application/)을 참조하세요.
 
 >[!IMPORTANT]
 >
@@ -77,14 +82,14 @@ ht-degree: 14%
 
 >[!TIP]
 >
->[!DNL Workfront]에서 두 개의 별도 [!DNL JumpSeat] 응용 프로그램을 추가하고 활성화해야 합니다(미리 보기용 응용 프로그램과 프로덕션용 응용 프로그램). 자세한 내용은 [응용 프로그램을 추가하거나 삭제하는 방법](https://support.jumpseat.io/article/how-to-add-an-application/)을 참조하십시오.
+>[!DNL JumpSeat]에서 두 개의 별도 [!DNL Workfront] 응용 프로그램을 추가하고 활성화해야 합니다(미리 보기용 응용 프로그램과 프로덕션용 응용 프로그램). 자세한 내용은 [응용 프로그램을 추가하거나 삭제하는 방법](https://support.jumpseat.io/article/how-to-add-an-application/)을 참조하십시오.
 
 [!DNL JumpSeat] 통합을 구성하려면:
 
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **[!UICONTROL 시스템]** > **[!UICONTROL [!DNL JumpSeat]통합]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL [!DNL JumpSeat]의 확장 아이콘에 있는]** URL[!DNL JumpSeat]을(를) 입력하십시오.
+1. [!DNL JumpSeat]의 확장 아이콘에 있는 **[!UICONTROL [!DNL JumpSeat]URL]**&#x200B;을(를) 입력하십시오.
 
 >[!BEGINSHADEBOX]
 
@@ -92,11 +97,11 @@ ht-degree: 14%
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 
-1. **[!UICONTROL [!DNL JumpSeat]통합 토큰]**&#x200B;을(를) 입력하십시오. **[!UICONTROL 의]**&#x200B;구성[!DNL JumpSeat] 페이지에서 찾을 수 있습니다.
+1. **[!UICONTROL [!DNL JumpSeat]통합 토큰]**&#x200B;을(를) 입력하십시오. [!DNL JumpSeat]의 **[!UICONTROL 구성]** 페이지에서 찾을 수 있습니다.
 
    **예:** $2y$10$BevsKeQ8....OYR.LurSg2U64O
 
@@ -113,4 +118,4 @@ https://{mycompanyname}.jumpseat.io
 
 >[!TIP]
 >
->[!DNL JumpSeat] 통합 구성에 대한 자세한 내용은 [!DNL JumpSeat]JumpSeat+Workfront[에 대한 &#x200B;](https://jumpseat.io/landing-page/jumpseat-workfront/) 설명서를 참조하십시오.
+>[!DNL JumpSeat] 통합 구성에 대한 자세한 내용은 [JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/)에 대한 [!DNL JumpSeat] 설명서를 참조하십시오.

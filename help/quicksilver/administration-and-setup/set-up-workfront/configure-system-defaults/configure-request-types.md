@@ -8,10 +8,15 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
+TQID: https://experienceleague.adobe.com/4H5MhQIywl31xNFiBlCsDkFKKTmy-8dk2bIJtedfGo8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 2%
+source-wordcount: 443
+ht-degree: 3%
 
 ---
 
@@ -31,7 +36,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 라이센스</td> 
@@ -68,10 +73,10 @@ You must have at least one request type selected. You can select multiple reques
 
 ## 요청 유형 이름 사용자 지정
 
-[!DNL Workfront] 관리자는 시스템에서 요청 유형의 이름을 구성할 수 있습니다. [!DNL Workfront]문제 유형&#x200B;**[!UICONTROL 또는]**&#x200B;요청 유형&#x200B;**[!UICONTROL 필드가 표시되는]** 영역에 새 이름이 표시됩니다.
+[!DNL Workfront] 관리자는 시스템에서 요청 유형의 이름을 구성할 수 있습니다. **[!UICONTROL 문제 유형]** 또는 **[!UICONTROL 요청 유형]** 필드가 표시되는 [!DNL Workfront] 영역에 새 이름이 표시됩니다.
 
 * 문제 또는 요청을 수신할 프로젝트의 **[!UICONTROL 큐 세부 정보]** 영역에 있습니다.
-* 새 문제를 만들거나 새 요청을 제출할 때 **[!UICONTROL 문제 유형] 필드의**&#x200B;새 문제&#x200B;**[!UICONTROL 양식]**&#x200B;에서 요청 큐에 대해 요청 유형을 두 개 이상 선택합니다.
+* 새 문제를 만들거나 새 요청을 제출할 때 **[!UICONTROL 문제 유형]** 필드의 **[!UICONTROL 새 문제] 양식**&#x200B;에서 요청 큐에 대해 요청 유형을 두 개 이상 선택합니다.
 
   [!DNL Workfront]에서 문제를 만드는 방법에 대한 자세한 내용은 [문제 만들기](../../../manage-work/issues/manage-issues/create-issues.md)를 참조하십시오.
 

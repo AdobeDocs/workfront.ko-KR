@@ -9,10 +9,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
-source-git-commit: 929502c256011b464d938ad1095c127407e4a795
+TQID: https://experienceleague.adobe.com/6VnF205aiahPEWdP2kPk-YXF8UfPwSJ0-yJ6nGq3-FM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 1%
+source-wordcount: 292
+ht-degree: 5%
 
 ---
 
@@ -24,7 +29,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +37,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 라이센스</td> 
@@ -52,7 +57,7 @@ ht-degree: 1%
 
 ## 솔루션
 
-[방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)에 설명된 대로 프로덕션 환경에 맞게 IP 주소를 이미 허용 목록에 추가하다허용 목록에 추가하다 에 추가했으며 사용자가 여전히 이메일을 받지 못하는 경우:
+[방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)에 설명된 대로 프로덕션 환경에 맞게 IP 주소를 이미 허용 목록에 추가하다에 추가했으며 사용자가 여전히 이메일을 받지 못하는 경우:
 
 1. 다음 SPF 레코드를 방화벽에 추가합니다.
 

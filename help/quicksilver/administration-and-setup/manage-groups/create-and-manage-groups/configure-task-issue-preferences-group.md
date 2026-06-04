@@ -9,11 +9,17 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/MZdPcSLClVIK2mJS9ssxz3NZ3DvztgHfJxHdvmtS1KY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: 2177
 ht-degree: 3%
 
 ---
@@ -40,7 +46,7 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
 >
 >* 일반적으로 잠금 해제된 환경 설정은 무기한 잠금 해제된 상태로 유지됩니다. Workfront 관리자가 다시 잠근 경우 시스템 설정이 다시 적용되며 그룹 관리자가 설정한 기본 설정이 손실됩니다.
 >* 프로젝트와 관련된 그룹에 대해 설정된 환경 설정은 프로젝트를 작성하는 사용자의 홈 그룹에 대해 설정된 환경 설정보다 우선합니다.
->* 일부 그룹 수준 환경 설정은 그룹에 대해 만드는 프로젝트 템플릿에 영향을 줍니다. 자세한 내용은 [그룹의 프로젝트 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) 문서의 [그룹 영역에서 그룹의 템플릿 보기, 작업 및 만들기](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md) 섹션을 참조하십시오.
+>* 일부 그룹 수준 환경 설정은 그룹에 대해 만드는 프로젝트 템플릿에 영향을 줍니다. 자세한 내용은 [그룹의 프로젝트 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md) 문서의 [그룹 영역에서 그룹의 템플릿 보기, 작업 및 만들기](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) 섹션을 참조하십시오.
 >
 >* Workfront 관리자가 시스템 수준에서 환경 설정을 잠금 해제한 후 구성한 다음 잠궈 그룹 및 하위 그룹의 모든 사용자가 동일한 구성을 사용하도록 할 수 있습니다. 이는 Workfront 관리자가 시스템 내의 모든 사용자에 대한 환경 설정을 구성하고 잠그는 기능과 병행됩니다. 자세한 내용은 [하위 그룹에 대한 프로젝트, 작업 또는 문제 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)를 참조하십시오.
 >
@@ -258,7 +264,7 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
 
 이 설정을 사용하면 그룹 사용자에게 다음이 표시됩니다.
 
-* [!UICONTROL **홈**] 영역의 [!UICONTROL 내 작업], [!UICONTROL 내 작업] 또는 [!UICONTROL 내 문제] 위젯에 있는 [!UICONTROL 대리인] 링크입니다. 여기에서 작업 및 문제 할당을 위임할 수 있습니다.
+* [!UICONTROL 홈] 영역의 [!UICONTROL 내 작업], [!UICONTROL 내 작업] 또는 [!UICONTROL 내 문제] 위젯에 있는 [!UICONTROL **대리인**] 링크입니다. 여기에서 작업 및 문제 할당을 위임할 수 있습니다.
 
   >[!NOTE]
   >

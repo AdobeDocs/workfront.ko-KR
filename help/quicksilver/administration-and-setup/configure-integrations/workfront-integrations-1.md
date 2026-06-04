@@ -9,11 +9,17 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
+TQID: https://experienceleague.adobe.com/lyfhBuKOVUpBxyP6CNqFAOy75MB9-s-tMKVTWqlejp4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: 1304
 ht-degree: 1%
 
 ---
@@ -129,8 +135,8 @@ ht-degree: 1%
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
-     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Adobe Workfront]개 응용 프로그램용 [!DNL Creative Cloud] 플러그 인 설치</a>를 참조하십시오.</p> 
+     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
+     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -186,7 +192,7 @@ ht-degree: 1%
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Workfront] 팀에서 [!DNL Microsoft] 알림 받기 </li> 
+     <li>[!DNL Microsoft] 팀에서 [!DNL Workfront] 알림 받기 </li> 
      <li>승인 결정 </li> 
      <li>[!DNL Workfront]개의 프로젝트, 작업 및 문제 검색 </li> 
      <li>[!DNL Workfront]개의 개인 작업 만들기 </li> 
@@ -214,9 +220,9 @@ ht-degree: 1%
    <td> <p>[!DNL Slack]</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Workfront]에서 [!DNL Slack]개의 알림 수신 </li> 
+     <li>[!DNL Slack]에서 [!DNL Workfront]개의 알림 수신 </li> 
      <li>[!DNL Slack]에서 승인 관리 </li> 
-     <li>[!DNL Workfront]에서 [!DNL Slack]개의 작업 및 문제 만들기 </li> 
+     <li>[!DNL Slack]에서 [!DNL Workfront]개의 작업 및 문제 만들기 </li> 
      <li>의 프로젝트 또는 작업에 대한 댓글 게시 [!DNL Slack]</li> 
     </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>을(를) 참조하십시오.</p> </td> 
    <td> 
@@ -250,7 +256,7 @@ ht-degree: 1%
 
   [!DNL Adobe Workfront Fusion]은(는) 앱과 서비스 내에서 작업을 연결하여 데이터를 자동으로 전송하고 변환하는 시나리오를 만듭니다. 많은 앱에 대한 전용 커넥터를 보유하고 있지만 공개 API를 사용하여 모든 애플리케이션에 연결할 수 있습니다.
 
-  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan]&#x200B;([!DNL Workfront Fusion] 필요)

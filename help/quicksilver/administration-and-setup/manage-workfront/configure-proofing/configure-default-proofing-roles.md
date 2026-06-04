@@ -8,20 +8,25 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+TQID: https://experienceleague.adobe.com/1bEnBH5l58juHFYsg1bfR-LMcQ-wGgKNkeGAGQlNbJs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 2%
+source-wordcount: 505
+ht-degree: 5%
 
 ---
 
-# 기본 교정 역할 구성하기
+# 기본 교정 역할 구성
 
 Adobe Workfront 관리자는 Workfront에서 생성된 증명에 액세스하는 사용자 및 게스트 사용자에 대한 기본 증명 역할을 구성할 수 있습니다. 증명에 사용자를 추가하는 모든 사람은 이러한 역할을 조정할 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -31,7 +36,7 @@ Adobe Workfront 관리자는 Workfront에서 생성된 증명에 액세스하는
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -48,7 +53,7 @@ Adobe Workfront 관리자는 Workfront에서 생성된 증명에 액세스하는
 
 +++
 
-## 기본 교정 역할 구성하기
+## 기본 교정 역할 구성
 
 {{step-1-to-setup}}
 
@@ -117,99 +122,99 @@ Adobe Workfront 관리자는 Workfront에서 생성된 증명에 액세스하는
  <tbody> 
   <tr> 
    <td> <p><strong>읽기 전용</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>검토자</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>승인자</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>검토자 및 승인자</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>작성자</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p><strong>중재자</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ <strong>개</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> <p> </p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p><strong>✓</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> <p> </p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

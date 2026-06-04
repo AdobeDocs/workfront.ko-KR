@@ -8,10 +8,15 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
+TQID: https://experienceleague.adobe.com/nN-7cw-IwnuQ-7wjyjyp3wUifEvk2eNmo9zqyHDjfV0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 2%
+source-wordcount: 644
+ht-degree: 3%
 
 ---
 
@@ -39,7 +44,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -98,7 +103,7 @@ ht-degree: 2%
 >클라이언트 암호 자체를 볼 수 없습니다. 클라이언트 암호를 잃어버린 경우 클라이언트 암호를 삭제하고 새 클라이언트 암호를 만들어야 합니다.
 >
 >* 클라이언트 암호를 삭제하려면 이 문서에서 [클라이언트 암호 삭제](#delete-client-secret)를 참조하십시오.
->* 새 클라이언트 암호를 만들려면 [통합을 위한 OAuth2 응용 프로그램 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)통합[에서  [!DNL Workfront] OAuth2 응용 프로그램 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.
+>* 새 클라이언트 암호를 만들려면 [통합을 위한 OAuth2 응용 프로그램 만들기 [!DNL Workfront] 통합](../../administration-and-setup/configure-integrations/create-oauth-application.md)에서 [OAuth2 응용 프로그램 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)를 참조하십시오.
 >
 
 {{step-1-to-setup}}
@@ -107,7 +112,7 @@ ht-degree: 2%
 1. 응용 프로그램 위로 마우스를 가져간 후 맨 오른쪽에 나타나는 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 1. 클라이언트 보안 영역에서 세부 정보 보기:
 
-   * 제작 일자
+   * 생성 일자
    * 마지막으로 사용한 날짜
    * 참고
 

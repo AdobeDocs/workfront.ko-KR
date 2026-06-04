@@ -6,10 +6,15 @@ description: Experience Manager Assets 또는 Assets Essentials에서 연결된 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+TQID: https://experienceleague.adobe.com/dYoVL5-iJd6Y1-6fWFpVGow92z-MhE-15WVi3ur3ZTQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 0%
+source-wordcount: 229
+ht-degree: 9%
 
 ---
 
@@ -19,7 +24,7 @@ Experience Manager Assets 또는 Assets Essentials에서 연결된 Adobe Workfro
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,7 +32,7 @@ Experience Manager Assets 또는 Assets Essentials에서 연결된 Adobe Workfro
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p> 임의</p> </td> 
+   <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

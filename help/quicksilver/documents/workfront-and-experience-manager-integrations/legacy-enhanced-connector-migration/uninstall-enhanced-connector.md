@@ -2,20 +2,24 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Workfront for Adobe Experience Manager 강화 커넥터 제거
-description: Workfront Workfront과 Adobe Experience Manager Assetsas a Cloud Service 를 연결하는 최신 기본 통합에 대한 Adobe Experience Manager 강화 커넥터를 제거해야 합니다.
+description: Workfront과 Adobe Experience Manager Assets as a Cloud Service을 연결하는 최신 기본 통합으로 Workfront with Adobe Experience Manager 강화 커넥터를 제거해야 합니다.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
-source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
+TQID: https://experienceleague.adobe.com/CeCyF8zbwp4tVcxQebq0EdaJqagDyppVuCL6ilqEvJA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: 260
 ht-degree: 0%
 
 ---
 
 # Workfront with Adobe Experience Manager 강화 커넥터 제거
 
-Workfront Workfront과 Adobe Experience Manager Assetsas a Cloud Service 를 연결하는 최신 기본 통합에 대한 Adobe Experience Manager 강화 커넥터를 제거해야 합니다.
+Workfront과 Adobe Experience Manager Assets as a Cloud Service을 연결하는 최신 기본 통합으로 Workfront with Adobe Experience Manager 강화 커넥터를 제거해야 합니다.
 
 ## 전제 조건
 
@@ -86,7 +90,7 @@ Workfront Workfront과 Adobe Experience Manager Assetsas a Cloud Service 를 연
    </repository>
    ```
 
-1. (조건부) 다음 경로에 있는 settings.xml에서 서버 구성을 제거합니다.프로젝트 루트의 /cloudmanager/maven/settings.xml
+1. (조건부) 프로젝트 루트의 다음 경로 ./cloudmanager/maven/settings.xml에 있는 settings.xml에서 서버 구성을 제거합니다.
 
    ```
            <server>
@@ -104,4 +108,4 @@ Workfront Workfront과 Adobe Experience Manager Assetsas a Cloud Service 를 연
 
 1. 변경 사항을 커밋하고 코드를 Cloud Manager 저장소에 푸시합니다.
 
-1. Cloud Manager 파이프라인을 실행하여 Cloud Service 인스턴스에 변경 사항을 배포합니다
+1. Cloud Manager 파이프라인을 실행하여 클라우드 서비스 인스턴스에 변경 사항을 배포합니다

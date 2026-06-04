@@ -6,11 +6,16 @@ description: 팀이 만들어지는 동안 또는 만들어진 후에 Kanban 애
 author: Courtney
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/JxmS1LNAaCdJirWKbg1ab1d4oko8WOl9OC4mMdRIYVc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: 1448
 ht-degree: 2%
 
 ---
@@ -170,7 +175,7 @@ Kanban 팀의 WIP를 제한하려면
 1. **[!UICONTROL 애자일]** 섹션의 **[!UICONTROL 방법론]** 섹션에서 Kanban이 선택되었는지 확인하십시오.
 
 1. **[!UICONTROL 스토리 보드]** 섹션의 **[!UICONTROL WIP 제한]** 필드에서 [!UICONTROL Kanban] 애자일 스토리 보드의 각 열에 허용되는 최대 항목 수를 지정합니다. 각 열에 대해 다른 제한을 설정할 수 있습니다. 각 열에 대해 설정할 수 있는 최대 한도는 100입니다.
-설정하면 WIP 제한이 [!UICONTROL Kanban] 애자일 스토리 보드의 열에 대한 제한을 초과할 때마다 경고 메시지를 표시합니다. 이 경고 메시지는 WIP 제한이 처음 초과된 경우에만 표시됩니다. 이 경고 메시지는 [!UICONTROL 완료]와(과) 같은 상태의 열에는 표시되지 않습니다.
+설정하면 스토리 보드의 열에 대한 제한이 초과될 때마다 WIP 제한이 [!UICONTROL Kanban] 애자일 스토리 보드에 경고 메시지를 표시합니다. 이 경고 메시지는 WIP 제한이 처음 초과된 경우에만 표시됩니다. 이 경고 메시지는 [!UICONTROL 완료]와(과) 같은 상태의 열에는 표시되지 않습니다.
 WIP 제한은 단순히 시각적 경고일 뿐 팀이 단일 열에 설정한 제한보다 더 많은 항목을 보유하는 것을 제한하지 않습니다.
 
    ![WIP 제한](assets/wip-limit-350x193.png)

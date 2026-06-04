@@ -9,11 +9,17 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/g6c8t3kp1NMAAiXowWC-0CZYnTjJg6A8vd9zgWimvIw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: 1138
 ht-degree: 0%
 
 ---
@@ -40,7 +46,7 @@ ht-degree: 0%
 
 ### 템플릿 작업 기간 및 작업량 추정치 업데이트 {#update-template-task-duration-and-effort-estimates}
 
-템플릿의 모든 작업에는 계획된 기간 및 계획된 작업량 예측이 포함됩니다. 이러한 예상은 이러한 활동에 대한 기간 및 체류 시간의 시작점 역할을 합니다. 하지만 조직의 기능, 기술 및 속도는 독특합니다. 각 작업의 예상 기간과 노력을 검토하여 조직의 요구 사항을 반영하도록 조정해야 합니다. 자세한 내용은 [작업 세부 정보 개요[!UICONTROL &#x200B; 영역의 &#x200B;]작업 정보 관리](../../manage-work/tasks/manage-tasks/task-information-in-overview.md)를 참조하십시오.
+템플릿의 모든 작업에는 계획된 기간 및 계획된 작업량 예측이 포함됩니다. 이러한 예상은 이러한 활동에 대한 기간 및 체류 시간의 시작점 역할을 합니다. 하지만 조직의 기능, 기술 및 속도는 독특합니다. 각 작업의 예상 기간과 노력을 검토하여 조직의 요구 사항을 반영하도록 조정해야 합니다. 자세한 내용은 [!UICONTROL 작업 세부 정보 개요] 영역의 [작업 정보 관리](../../manage-work/tasks/manage-tasks/task-information-in-overview.md)를 참조하십시오.
 
 ### 마일스톤 경로 및 마일스톤 연결 {#associate-a-milestone-path-and-milestones}
 

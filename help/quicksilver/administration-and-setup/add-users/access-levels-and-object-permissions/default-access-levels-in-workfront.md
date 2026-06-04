@@ -10,10 +10,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/DPZYagVdnJmk541crPr4k5Lgxh-pyY60E2phgZz1z2k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 7%
+source-wordcount: 1663
+ht-degree: 6%
 
 ---
 
@@ -142,7 +148,7 @@ ht-degree: 7%
 | 사용자 |   |   | ✓ |
 | 팀 |   |   | ✓(제한된 액세스) |
 | 템플릿 | ✓ |   |   |
-| 재무 데이터 |   | ✓(기본 설정은 액세스 권한 없음입니다. 보기 설정을 사용하면 재무 영역만 볼 수 있습니다   ( 프로젝트 세부 정보 참조) |   |
+| 재무 데이터 |   | ✓(기본 설정은 액세스 권한 없음입니다. 보기 설정을 사용하면 프로젝트 세부 정보에서 재무 영역만 볼 수 있습니다.) |   |
 | 리소스 관리 |   | ✓ |   |
 | 시나리오 플래너 |   |   | ✓(기본 설정은 액세스 권한 없음) |
 | Workfront Goals |   |   | ✓(기본 설정은 액세스 권한 없음) |
@@ -249,7 +255,7 @@ ht-degree: 7%
   <tr> 
    <td>재무 데이터</td> 
    <td> </td> 
-   <td> <p>✓(기본 설정은 액세스 권한 없음). 보기 설정을 사용하면 재무 영역만 볼 수 있습니다   ( 프로젝트 세부 정보 참조)</p> </td> 
+   <td> <p>✓(기본 설정은 액세스 권한 없음). 보기 설정을 사용하면 프로젝트 세부 정보에서 재무 영역만 볼 수 있습니다.)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 

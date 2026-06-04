@@ -8,9 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 82f2fbb55dd46b9bfc55e9864c38f600041de968
+TQID: https://experienceleague.adobe.com/96BLmX7DGhWQUbgTrCW8lBq64p29nRA-ZtmtvEZSxLk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: 789
 ht-degree: 3%
 
 ---
@@ -64,7 +69,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 ## 사용자 정의 액세스 수준을 사용하여 재무 데이터에 대한 사용자 액세스 구성
 
 1. [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에 설명된 대로 액세스 수준을 만들거나 편집하십시오.
-1. 재무 데이터 오른쪽의 ![](assets/gear-icon-settings.png)보기&#x200B;**또는**&#x200B;편집&#x200B;**단추에서 톱니바퀴 아이콘**&#x200B;을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
+1. 재무 데이터 오른쪽의 **보기** 또는 **편집** 단추에서 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
 
    ![재무 데이터 액세스 세부 조정](assets/financial-data-access-fine-tune.png)
 
@@ -113,7 +118,7 @@ If you make changes here, make them also in the "Grant access to" articles where
 
 ## 라이선스 유형별 재무 정보 액세스
 
-각 액세스 수준의 사용자가 재무 정보로 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia)의 [재무 데이터](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) 섹션을 참조하십시오.
+각 액세스 수준의 사용자가 재무 정보로 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)의 [재무 데이터](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) 섹션을 참조하십시오.
 
 ## 다음을 설정하여 재무 정보에 액세스
 

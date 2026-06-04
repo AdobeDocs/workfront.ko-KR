@@ -9,9 +9,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/8rHmgTfG96Ca44EffT6BdyM1YwIkYhgRBu9KEvdbuL8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: 943
 ht-degree: 2%
 
 ---
@@ -29,9 +35,9 @@ ht-degree: 2%
    * [환경 프로모션 패키지 만들기 또는 편집](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [환경 프로모션 패키지 설치](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Workfront API를 통해 이 프로세스를 수행하는 방법에 대한 지침은 [API를 사용하여  [!DNL Workfront] 환경 간에 개체 이동 [!DNL Workfront] 을 참조하십시오.](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+* Workfront API를 통해 이 프로세스를 수행하는 방법에 대한 지침은 [API를 사용하여  [!DNL Workfront] 환경 간에 개체 이동](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)을 참조하십시오. [!DNL Workfront] 
 
-[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## 환경 프로모션을 위해 지원되는 오브젝트
 
@@ -153,7 +159,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>ASSEMBLING 단계가 실패할 경우 프로모션 패키지가 자동으로 이 상태로 전환됩니다.</p><p>패키지를 ASSEMBLING 스테이지로 되돌리려면 어셈블 프로세스를 다시 트리거해야 합니다.</p><p>패키지 조립에 대한 자세한 내용은 환경 프로모션 패키지 만들기 또는 편집 문서에서 <a href="https://experienceleague.adobe.com/ko/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">기존 패키지 편집 또는 조립</a> 섹션을 참조하십시오.</td> 
+   <td><p>ASSEMBLING 단계가 실패할 경우 프로모션 패키지가 자동으로 이 상태로 전환됩니다.</p><p>패키지를 ASSEMBLING 스테이지로 되돌리려면 어셈블 프로세스를 다시 트리거해야 합니다.</p><p>패키지 조립에 대한 자세한 내용은 환경 프로모션 패키지 만들기 또는 편집 문서에서 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">기존 패키지 편집 또는 조립</a> 섹션을 참조하십시오.</td> 
   </tr> 
   </tbody> 
 </table>

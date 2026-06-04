@@ -9,10 +9,15 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/q2nEtaLEkclEFtv5PvFP9hFfsmR2rReriYC0-uDgATc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 0%
+source-wordcount: 445
+ht-degree: 4%
 
 ---
 
@@ -27,7 +32,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +40,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -85,7 +90,7 @@ ht-degree: 0%
       <td role="rowheader"> <p>그룹에 대한 새 프로젝트 만들기</p> </td> 
       <td> 
        <ol> 
-        <li value="1"> <p><strong>새 프로젝트</strong>를 클릭한 다음 드롭다운 메뉴에서 옵션을 선택하여 만들 방법을 나타냅니다. </p> <p>자세한 내용은 문서 <a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">프로젝트 만들기</a>에서 <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">프로젝트를 만드는 방법</a> 섹션을 참조하십시오.</p> </li> 
+        <li value="1"> <p><strong>새 프로젝트</strong>를 클릭한 다음 드롭다운 메뉴에서 옵션을 선택하여 만들 방법을 나타냅니다. </p> <p>자세한 내용은 문서 <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">프로젝트 만들기</a>에서 <a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">프로젝트를 만드는 방법</a> 섹션을 참조하십시오.</p> </li> 
         <li value="2"><a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">프로젝트 편집</a>에 설명된 대로 프로젝트 이름을 입력하고 구성합니다.</li> 
        </ol> <p> 그룹에 대해 설정된 프로젝트 환경 설정은 그룹 영역에서 만드는 모든 프로젝트에 영향을 줍니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">그룹에 대한 프로젝트 환경 설정 구성</a>을 참조하십시오.</p> </td> 
      </tr> 

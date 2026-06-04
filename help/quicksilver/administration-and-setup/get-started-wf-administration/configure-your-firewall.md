@@ -8,10 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 9527a0597f90e20cd611d9f64056b8f7e1116be1
+TQID: https://experienceleague.adobe.com/voAiMROhu9NJkN-WLjPWcpDu-x8YYgtlZNeNWk8dFjA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1482'
-ht-degree: 8%
+source-wordcount: 1456
+ht-degree: 6%
 
 ---
 
@@ -25,7 +31,7 @@ ht-degree: 8%
 >
 >이 페이지에 설명된 절차는 Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다. 이제 모든 조직이 Adobe Admin Console에 온보딩되었으므로 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
 >
->조직이 Adobe Admin Console에 온보딩된 후 허용 목록에 추가하다를 구성하려면 [Adobe 앱 및 서비스에 대해 허용되는 도메인](https://helpx.adobe.com/kr/enterprise/kb/network-endpoints.html)을 참조하십시오.
+>조직이 Adobe Admin Console에 온보딩된 후 허용 목록에 추가하다를 구성하려면 [Adobe 앱 및 서비스에 대해 허용되는 도메인](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)을 참조하십시오.
 >
 >조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 Adobe Workfront과 Adobe Business Platform 간의 [관리 차이점](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
@@ -67,8 +73,8 @@ ht-degree: 8%
 ## 허용 목록에 추가하다에 추가할 IP 주소
 
 * [클러스터 1, 2, 3, 5, 7, 8 및 9를 허용하는 IP 주소](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* 클러스터 4[&#128279;](#ip-addresses-to-allow-for-cluster-4)에 대해 허용할 IP 주소
-* 클러스터 6[&#128279;](#ip-addresses-to-allow-for-cluster-6)을(를) 허용할 IP 주소
+* 클러스터 4](#ip-addresses-to-allow-for-cluster-4)에 대해 허용할 [IP 주소
+* 클러스터 6](#ip-addresses-to-allow-for-cluster-6)을(를) 허용할 [IP 주소
 * [클러스터 10을 허용할 IP 주소](#ip-addresses-to-allow-for-cluster-10)
 * 테스트 드라이브를 허용할 [IP 주소](#IP%20Addre2)
 * [이벤트 구독을 구현할 때 허용할 IP 주소](#ip-addresses-to-allow-when-implementing-event-subscriptions)

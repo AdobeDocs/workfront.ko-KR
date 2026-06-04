@@ -6,9 +6,14 @@ description: 다음 프로세스에서는 Adobe Experience Manager 레거시 커
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/px8ysyDqpwzajmCfRPJLclKOUSuIFacl99Uf6sRCKFQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: 356
 ht-degree: 0%
 
 ---
@@ -30,9 +35,9 @@ Adobe Experience Manager Assets as a Cloud Service을 사용하는 고객의 경
 >
 >향상된 커넥터를 구현하려면 인증된 파트너 또는 Adobe Consulting 서비스가 필요합니다.
 >
-> 향상된 커넥터에서 인증하려는 파트너는 다음 문서를 검토하십시오. [Workfront for Experience Manager 향상된 커넥터 전문가 시리즈](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
+> 향상된 커넥터에서 인증하려는 파트너는 다음 문서를 검토하십시오. [Workfront for Experience Manager 향상된 커넥터 전문가 시리즈](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-향상된 커넥터를 구현하려면 [Experience Manager용 Workfront 강화 커넥터 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure)을 참조하십시오.
+향상된 커넥터를 구현하려면 [Experience Manager용 Workfront 강화 커넥터 구성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure)을 참조하십시오.
 
 
 ## 기존 에셋 이동

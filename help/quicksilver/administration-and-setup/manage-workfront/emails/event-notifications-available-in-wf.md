@@ -8,11 +8,17 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/iWtyeGsk7xGf1Z9KE7Q2GrAbyCREAJYHZVT8GUboMW0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '5237'
+source-wordcount: 5242
 ht-degree: 7%
 
 ---
@@ -300,7 +306,7 @@ ht-degree: 7%
    <td> <p>문서</p> </td> 
    <td> <p>문서에 주석 달기</p> </td> 
    <td> <p>문서 소유자</p> </td> 
-   <td> <p>내 문서에 댓글이 추가되었습니다.</p> <p>Workfront의 문서 소유자는 댓글을 게시한 사용자가 문서 소유자가 아닌 경우 문서에 댓글이 게시되면 이메일 알림을 받습니다.</p> <p>댓글에 직접 포함된 모든 사용자에게는 이메일 알림도 전송됩니다.</p> <p>알림은 프로젝트 상태가 현재인 경우에만 전송됩니다. </p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;프로젝트 이름&gt;(ref# &lt;요청 참조 번호&gt;)의 &lt;요청 이름&gt;에 대한 댓글</em></p> <p> 일별 다이제스트 알림의 제목: <em> 커뮤니케이션 다이제스트 &lt;일별 다이제스트 날짜&gt;</em></p> </td> 
+   <td> <p>내 문서에 댓글이 추가되었습니다.</p> <p>Workfront의 문서 소유자는 댓글을 게시한 사용자가 문서 소유자가 아닌 경우 문서에 댓글이 게시되면 이메일 알림을 받습니다.</p> <p>댓글에 직접 포함된 모든 사용자에게는 이메일 알림도 전송됩니다.</p> <p>알림은 프로젝트 상태가 현재인 경우에만 전송됩니다. </p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;프로젝트 이름&gt;(ref# &lt;요청 참조 번호&gt;)의 &lt;요청 이름&gt;에 대한 댓글</em></p> <p> 일별 요약 알림의 제목은 <em> 커뮤니케이션 요약 &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
    <td> <p>활성</p> </td> 
   </tr> 
   <tr> 

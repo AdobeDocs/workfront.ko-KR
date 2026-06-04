@@ -3,16 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 스코어카드 만들기
-description: 스코어카드는 프로젝트가 이전에 설정한 포트폴리오 기준에 얼마나 잘 부합하는지 측정합니다. 스코어카드는 종종 조직의 임무, 가치 및 전략적 목표를 반영합니다. Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정의하여 프로젝트 우선 순위 지정 및 선택 시 의미 있고 가치 있는 질문을 하도록 합니다.  [!DNL Adobe Workfront] 관리자가 포트폴리오 관리자의 권장 사항을 기반으로 스코어카드를 작성합니다.
+description: 스코어카드는 프로젝트가 이전에 설정한 포트폴리오 기준에 얼마나 잘 부합하는지 측정합니다. 스코어카드는 종종 조직의 임무, 가치 및 전략적 목표를 반영합니다.Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정의하여 프로젝트 우선 순위 지정 및 선택 시 의미 있고 가치 있는 질문이 되도록 합니다.  [!DNL Adobe Workfront] 관리자가 포트폴리오 관리자의 권장 사항을 기반으로 스코어카드를 작성합니다.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Moddac2gKcXbmssSrzrMMcxuj-7al8Md76Vkjw-CSoY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 722
 ht-degree: 3%
 
 ---
@@ -144,7 +149,7 @@ ht-degree: 3%
 
 ## 프로젝트에 스코어카드 적용
 
-[!UICONTROL &#x200B; 관리자가 스코어카드를 만든 후에는 프로젝트에 대한 &#x200B;]관리[!DNL Workfront] 권한이 있는 사용자가 스코어카드를 프로젝트에 적용할 수 있습니다.
+[!DNL Workfront] 관리자가 스코어카드를 만든 후에는 프로젝트에 대한 [!UICONTROL 관리] 권한이 있는 사용자가 스코어카드를 프로젝트에 적용할 수 있습니다.
 
 프로젝트에 대한 비즈니스 사례를 만드는 과정의 일부로 스코어카드가 프로젝트에 추가됩니다. 프로젝트에 스코어카드를 추가하는 방법에 대한 자세한 내용은 [프로젝트에 스코어카드 적용 및 정렬 점수 생성](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)을 참조하십시오.
 
