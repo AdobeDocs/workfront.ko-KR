@@ -6,10 +6,15 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+TQID: https://experienceleague.adobe.com/0he3DEiya4uyF6tdS-xHqhqnSYiQkXijNxwheJVvDU4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 1%
+source-wordcount: 409
+ht-degree: 6%
 
 ---
 
@@ -26,7 +31,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +41,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 패키지</strong></td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
@@ -67,7 +72,7 @@ ht-degree: 1%
 {{step1-to-priorities}}
 
 1. 작업 목록에서 작업 항목 이름을 마우스로 가리킨 다음 **요약** 아이콘 ![요약 열기 아이콘](assets/summary-icon.png)을 클릭합니다.
-1. 요약 패널 상단의 **프로젝트**&#x200B;를 클릭합니다. 여기에서 다음을 수행할 수 있습니다
+1. 요약 패널 상단의 **프로젝트**&#x200B;를 클릭합니다. 여기에서 다음 작업을 수행할 수 있습니다.
    * 프로젝트 세부 정보 및 설명 보기 및 편집
    * 프로젝트에 대한 댓글 보기 및 추가
    * 로그 시간
@@ -81,7 +86,7 @@ ht-degree: 1%
 {{step1-to-priorities}}
 
 1. 작업 목록에서 작업 이름을 마우스로 가리킨 다음 **요약** 아이콘 ![요약 열기 아이콘](assets/summary-icon.png)을 클릭합니다.
-1. 기본적으로 작업이 선택되어 있습니다. 여기에서 다음을 수행할 수 있습니다
+1. 기본적으로 작업이 선택되어 있습니다. 여기에서 다음 작업을 수행할 수 있습니다.
    * 프로젝트 및 작업 세부 정보 및 설명 보기 및 편집
    * 프로젝트에 대한 댓글 보기 및 추가
    * 문서 보기 및 추가
@@ -118,7 +123,7 @@ ht-degree: 1%
 
 {{step1-to-priorities}}
 
-1. 작업 목록에서 작업 항목 이름을 클릭합니다. 세부 정보 페이지에서 다음을 수행할 수 있습니다
+1. 작업 목록에서 작업 항목 이름을 클릭합니다. 세부 정보 페이지에서는 다음 작업을 수행할 수 있습니다.
 
 * 프로젝트 세부 정보 및 설명 보기 및 편집
 * 프로젝트에 대한 댓글 보기 및 추가
