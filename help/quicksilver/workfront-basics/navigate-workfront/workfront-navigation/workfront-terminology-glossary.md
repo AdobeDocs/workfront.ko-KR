@@ -38,9 +38,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 21551
+source-wordcount: 21586
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 실제 근로시간]</td> 
-   <td> <p>프로젝트, 작업 또는 문제 보고서에서 [!UICONTROL 실제 시간]은 2021년 5월 이후 프로젝트, 작업 또는 문제에 기록된 모든 시간의 합계입니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span> 작업 1에 대한 [!UICONTROL Updates] 탭에서 'Log Time'을 클릭하고 25시간을 입력하면 작업 1의 실제 시간은 25시간입니다. </p> <p>[!DNL Workfront] 다음 공식을 사용하여 상위 작업 또는 프로젝트에 대한 [!UICONTROL 실제 시간]을 계산합니다.</p> 
+   <td> <p>프로젝트, 작업 또는 문제 보고서에서 [!UICONTROL 실제 시간]은 2021년 5월 이후 프로젝트, 작업 또는 문제에 기록된 모든 시간의 합계입니다. 모든 보고서에서 실제 시간을 사용하고 이전 실제 시간은 사용하지 않는 것이 좋습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span> 작업 1에 대한 [!UICONTROL Updates] 탭에서 'Log Time'을 클릭하고 25시간을 입력하면 작업 1의 실제 시간은 25시간입니다. </p> <p>[!DNL Workfront] 다음 공식을 사용하여 상위 작업 또는 프로젝트에 대한 [!UICONTROL 실제 시간]을 계산합니다.</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
@@ -1293,7 +1293,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 기존 실제 시간]</td> 
-   <td> <p>프로젝트, 작업 또는 문제 보고서에서 [!UICONTROL 기존 실제 시간]은 2021년 5월 전을 포함하여 언제든지 프로젝트, 작업 또는 문제에 기록된 모든 시간의 합계입니다.</p>  
+   <td> <p>프로젝트, 작업 또는 문제 보고서에서 [!UICONTROL 기존 실제 시간]은 2021년 5월 전을 포함하여 언제든지 프로젝트, 작업 또는 문제에 기록된 모든 시간의 합계입니다. 모든 보고서에서 실제 시간을 사용하고 이전 실제 시간은 사용하지 않는 것이 좋습니다.</p>  
    <p>기존 실제 시간은 프로젝트, 작업 또는 문제 세부 정보 영역에 실제 시간으로 표시됩니다. </p>
    <p><strong>실제 근로시간</strong>도 참조하세요.
     <p>자세한 내용은 <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">실제 근로시간 보기</a>를 참조하십시오.</p>
