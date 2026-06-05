@@ -4,9 +4,9 @@ description: 2026년 3분기 보고 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 3분기 릴리스의 보고 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)를 참조하십시오.
+
+## 사용자 정의 공식의 실제 시간 변경
+
+>[!NOTE]
+>
+>미리 보기: 2026년 6월 1일>프로덕션 빠른 릴리스: 2026년 6월 1일>모두를 위한 프로덕션: 2026년 6월 1일
+
+2025년에 새 실제 시간 필드가 Workfront 데이터베이스에 `actualWorkRequiredDouble`(으)로 추가되었으며 기존 실제 시간 필드(`actualWorkRequired` in the database)가 이전 실제 시간으로 이름이 변경되었습니다. 자세한 내용은 [릴리스 정보](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)를 참조하세요.
+
+2026년 6월에 `actualWorkRequired`(기존 실제 시간)을 사용하는 기존 사용자 지정 수식이 `actualWorkRequiredDouble`(실제 시간)을(를) 대신 사용하도록 마이그레이션되었습니다. `actualWorkRequired`은(는) 더 이상 계산 및 수식에 사용할 수 없습니다.
+
+또한 모든 보고서에서 `actualWorkRequiredDouble`을(를) 사용하는 것이 좋습니다.
+
+필드를 바꿀 때 `actualWorkRequired`은(는) 값을 분 단위로 저장하는 반면 `actualWorkRequiredDouble`은(는) 값을 소수 자릿수로 시간 단위로 저장합니다.
+
+실제 사용 시간에 대한 자세한 내용은 [실제 사용 시간 보기](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)를 참조하십시오.
 
 ## 캔버스 대시보드 보고서의 사용자 지정 통화 데이터 필드
 
