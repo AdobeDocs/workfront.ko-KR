@@ -4,7 +4,7 @@ description: 2026년 3분기 릴리스 기간 동안 홈 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: ca4b2ee8375442afa19bf0d3af2915d3aab20779
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -28,4 +28,5 @@ ht-degree: 0%
 우선 순위 작업 목록에 대한 보기를 만들고 공유할 수도 있습니다.
 
 우선 순위에 대한 자세한 내용은 [우선 순위 작업 목록 열 사용자 지정](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)을 참조하십시오. 보기를 만들고 열 관리자를 사용하는 방법에 대한 자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하십시오.
+
 
