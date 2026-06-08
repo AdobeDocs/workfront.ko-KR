@@ -5,7 +5,7 @@ title: Adobe Workfront MCP 서버 개요
 description: Adobe Workfront MCP 서버가 수행하는 작업과 AI 아젠틱 플랫폼에서 자연어 대화를 통해 Workfront과 작업할 수 있는 방법을 알아봅니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
