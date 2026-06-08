@@ -9,20 +9,14 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
 workflow-type: tm+mt
-source-wordcount: 3019
+source-wordcount: 3129
 ht-degree: 0%
 
 ---
@@ -212,7 +206,7 @@ Old:
    >
    >  다음 필드는 읽기 전용이고 Workfront에서 자동으로 업데이트하므로 해당 필드에 대한 정보는 편집할 수 없습니다.
    >  
-   >  * 레코드 종류를 연결하여 만든 연결된 필드. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+   >  * 레코드 종류 및 추가된 조회 필드를 연결하여 만든 연결 조회 필드입니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
    >  * 생성자, 생성일, 마지막 수정자, 마지막 수정일, 공식 필드 유형의 필드.
 
 1. (선택 사항 및 조건부) 단락 유형 필드를 편집할 때 다음 **서식 있는 텍스트** 서식 옵션을 사용합니다.
@@ -229,22 +223,24 @@ Old:
 1. (선택 사항) 연결된 레코드 필드를 두 번 클릭하여 연결된 레코드나 개체를 다른 레코드에 추가합니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
 1. 키보드에서 **Enter**&#x200B;를 누르거나 행 바깥쪽을 클릭하여 변경 내용을 저장합니다. 변경 사항은 자동으로 저장됩니다. 변경 내용이 저장되었음을 나타내기 위해 테이블 보기의 오른쪽 위 모서리에 **저장됨** 표시기가 잠시 표시됩니다.
 
-
 1. (선택 사항) 한 필드에서 다른 필드로 정보를 복사하여 붙여넣으려면 다음 중 하나를 수행합니다.
 
    * 한 필드의 기존 값을 하나 또는 여러 개 복사한 다음 다른 레코드의 같은 유형의 필드에 붙여 넣습니다.
    * 열의 열 헤더를 클릭하여 선택하고 복사한 다음 다른 열의 열 헤더를 클릭하고 복사한 열의 내용을 붙여넣습니다. 열에는 유사한 필드 유형이 포함되어야 합니다.
-   * Shift 키를 누른 상태에서 을 클릭하여 테이블의 여러 행을 선택하고 선택한 행의 정보를 복사한 다음 다른 행을 클릭하고 선택한 정보를 새 행 및 그 다음 행에 붙여넣습니다.
+   * Shift 키를 누른 상태에서 을 클릭하여 테이블의 여러 행을 선택하고 선택한 행의 정보를 복사한 다음 다른 행을 클릭하고 선택한 정보를 새 행 및 그 다음 행에 붙여넣습니다. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
    * 한 셀에서 정보를 복사한 다음 여러 셀을 선택하고 동일한 정보를 여러 셀에 붙여넣습니다. 여러 셀을 선택하고 인접한 행과 열의 여러 셀에 동일한 정보를 붙여 넣을 수 있습니다.
    * 복사할 정보가 들어 있는 기존 셀의 오른쪽 아래 모서리를 선택한 다음 동일한 정보를 붙여넣을 인접한 셀에 끌어서 놓습니다. 모든 셀에는 동일한 유형의 정보가 포함되어야 합니다.
 
      ![표 보기에서 복사 붙여넣기를 위한 오른쪽 아래 모서리 드래그 가능](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-
    * 외부 소스(예: Excel 파일)에서 하나 이상의 셀을 복사한 다음 다음 필드 유형 중 하나에 붙여넣습니다.
 
-      * Workfront Planning 연결 필드.
+      * Workfront Planning 연결 필드.\
+        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
       * 사람 필드. 값이 한 개인 필드만 지원됩니다.
+      * 텍스트 필드.
+      * 필드를 선택합니다.
+      * 숫자, 백분율 및 통화 필드.
 
      외부 소스에서 정보를 복사하여 Workfront 또는 다른 애플리케이션의 연결 필드를 포함한 다른 필드 유형에 붙여넣을 수 없습니다.
 
@@ -256,11 +252,12 @@ Old:
    >   * 복사: CTRL + C(⌘ + C(Mac))
    >   * 붙여넣기: CTRL + V(Mac의 경우 ⌘ + V)
    >
-   >* 레코드 페이지에서 필드 값을 복사하여 붙여넣을 수 없습니다. 이 기능은 레코드 종류의 표 보기에서만 지원됩니다.
+   >* 레코드 세부 정보 페이지에서 필드 값을 복사하여 붙여넣을 수 없습니다. 이 기능은 레코드 종류의 표 보기에서만 지원됩니다.
    >* 다음 필드 유형에 대한 필드 값을 복사하여 붙여넣을 수 없습니다.
    >
    >    * 레코드 종류를 연결할 때 만들어지는 조회 필드입니다. 연결된 레코드 필드를 복사하여 붙여 넣을 수 있습니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
    >    * 생성자, 생성일, 마지막 수정자, 마지막 수정자 유형의 필드
+   >* 연결 필드를 복사하여 붙여넣거나 필드 값을 선택할 때 복사하는 값이 먼저 Workfront Planning에 있어야 합니다.
 
 1. (선택 사항) 다음 키보드 단축키를 사용하여 레코드 정보 편집 또는 복사 및 붙여넣기를 실행 취소하거나 재실행할 수 있습니다.
 
@@ -269,9 +266,17 @@ Old:
 
    >[!TIP]
    >
-   >    키보드 단축키를 한 번에 여러 번 사용하여 여러 변경 내용을 실행 취소할 수 있습니다.
+   >키보드 단축키를 한 번에 여러 번 사용하여 여러 변경 내용을 실행 취소할 수 있습니다.
 
-1. (선택 사항) 레코드에 썸네일을 추가합니다. 자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
+1. (선택 사항) 레코드 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭하고 다음 옵션 중에서 선택합니다.
+
+   * **보기** <!--or <span class="preview"Open in new tab</span>-->: 레코드 페이지가 열립니다.
+   * **링크 복사**: 레코드의 페이지에 링크를 복사하려면
+   * **축소판 편집**: 레코드에 축소판을 추가하려면
+자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
+   * **복제**: 레코드의 동일한 복제가 만들어집니다.
+   * **위에 레코드 삽입/아래에 레코드 삽입**: 새 레코드를 추가할 수 있도록 새 행을 추가합니다. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * **삭제**: 레코드를 삭제합니다. 삭제된 레코드는 최대 30일 동안 [최근에 삭제됨] 상자에 저장됩니다.
 
 
 ### 레코드 유형의 타임라인 보기에서 레코드 편집
