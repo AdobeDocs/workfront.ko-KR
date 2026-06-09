@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
 workflow-type: tm+mt
 source-wordcount: 3224
 ht-degree: 0%
@@ -282,8 +282,8 @@ You can import records from other applications by linking them to existing recor
      >
      >그룹화 또는 하위 그룹화의 마지막 레코드 뒤에 새 레코드를 추가하면 Workfront이 그룹화에 포함된 필드를 자동으로 채웁니다. 필요한 경우 이러한 필드를 수동으로 편집할 수 있으며 그룹화에서 레코드가 제거될 수 있습니다.
 
-   * 표의 열 또는 행에서 키보드에서 **Shift + Enter**&#x200B;를 클릭합니다. 이렇게 하면 시작한 레코드 아래에 빈 행이 추가됩니다.
-   * 레코드의 기본 필드 위에 마우스를 가져다 대고 필드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **위에 레코드 삽입** 또는 **아래에 레코드 삽입**&#x200B;을 클릭합니다.
+   * 표의 열 또는 행에서 키보드에서 **Shift + Enter**&#x200B;를 클릭합니다. 이렇게 하면 시작한 레코드 아래에 빈 행이 추가됩니다. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * 레코드의 기본 필드 위에 마우스를 올려 놓고 필드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **위에 레코드 삽입** 또는 **아래에 레코드 삽입**&#x200B;을 클릭합니다. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
 
    ![테이블 행에 새 캠페인 추가](assets/adding-a-new-campaign-in-table-row.png)
 
