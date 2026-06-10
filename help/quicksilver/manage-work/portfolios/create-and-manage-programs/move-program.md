@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
 source-wordcount: 382
 ht-degree: 3%
@@ -109,6 +109,11 @@ Old:
 >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 >
 >모든 Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 있는 것은 아닙니다.
+
+<!--
+For preview/ Prod. release, rewrite the bullets above:
+* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
+-->
 
 기존 프로그램을 다른 포트폴리오에 추가하려면 다음 작업을 수행하십시오.
 

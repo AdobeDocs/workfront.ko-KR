@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 1404
+source-wordcount: 1484
 ht-degree: 1%
 
 ---
@@ -192,6 +192,13 @@ Old:
       > Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
       >
       >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
+
+
+      미리보기/프로덕션 릴리스의 경우: 위 메모의 세 번째 글머리 기호는 다시 작성해야 합니다.
+
+      >* 포트폴리오 또는 프로그램의 템플릿을 사용하여 프로젝트를 만들 때 다음과 같은 시나리오가 있습니다.
+      >  * 레거시 Workfront 스토리지 포트폴리오 또는 프로그램의 Adobe 클라우드 스토리지 템플릿을 사용하여 프로젝트를 생성할 수는 없습니다.
+      >  * 레거시 스토리지 템플릿을 사용하여 Adobe 스토리지 포트폴리오나 프로그램에 대한 Adobe 클라우드 스토리지 프로젝트를 생성할 수 있습니다. 템플릿 문서 및 폴더는 새 프로젝트에 첨부되지 않습니다.
 
    1. 오른쪽에서 다음 템플릿 세부 사항을 검토합니다.
 

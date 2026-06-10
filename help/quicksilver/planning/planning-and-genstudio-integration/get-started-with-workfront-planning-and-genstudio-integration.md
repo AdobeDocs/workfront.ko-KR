@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 2355
+source-wordcount: 2402
 ht-degree: 1%
 
 ---
@@ -408,7 +408,7 @@ AEM 개체 유형(에셋 및 콘텐츠 조각)이 GenStudio 작업 공간에서 
 
 ### GenStudio 레코드 유형의 요청 양식 및 자동화
 
-* Workfront Planning에서 GenStudio 레코드 유형에 요청 양식을 추가할 수 있습니다.
+* Workfront Planning에서 GenStudio 레코드 유형에 요청 양식을 추가할 수 있습니다. GenStudio 작업 영역 레코드 유형과 연결된 요청 양식에 Planning 연결 필드를 추가할 수 있습니다.
 
   자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 * Workfront Planning에서 GenStudio 레코드 유형에 대한 자동화를 구성할 수 있습니다.
@@ -419,12 +419,16 @@ AEM 개체 유형(에셋 및 콘텐츠 조각)이 GenStudio 작업 공간에서 
 
 조직이 Workfront Planning과 Adobe GenStudio을 통합한 경우 Workfront Planning의 모든 작업 영역에 있는 모든 레코드 유형에서 Planning 레코드 유형을 GenStudio 브랜드에 연결할 수 있습니다.
 
-브랜드는 기본적으로 다음 GenStudio 작업 공간 레코드 유형에 연결됩니다.
+다음 사항을 고려하십시오.
 
-* 제품
-* 페르소나
+* 브랜드는 기본적으로 다음 GenStudio 작업 공간 레코드 유형에 연결됩니다.
 
-브랜드는 다른 모든 GenStudio 작업 영역 레코드 유형 또는 관리할 권한이 있는 다른 모든 작업 영역의 레코드 유형에 수동으로 연결할 수 있습니다.
+   * 제품
+   * 페르소나
+
+* 브랜드는 다른 모든 GenStudio 작업 영역 레코드 유형 또는 관리할 권한이 있는 다른 모든 작업 영역의 레코드 유형에 수동으로 연결할 수 있습니다.
+
+* Planning 또는 GenStudio 레코드 유형으로 브랜드를 연결한 후 레코드 유형과 연관된 요청 양식에 브랜드 연결 필드를 추가할 수 있습니다.
 
 ## 미리보기 환경
 

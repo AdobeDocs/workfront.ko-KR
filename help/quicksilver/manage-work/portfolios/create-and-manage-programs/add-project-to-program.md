@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: a454add7458fb8dc00de88ef685ede4e26383e35
 workflow-type: tm+mt
 source-wordcount: 676
 ht-degree: 2%
@@ -181,6 +181,15 @@ old:
       >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
       >
       >모든 Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 있는 것은 아닙니다.
+
+
+      <!--
+        For preview/ prod release: replace all bullets (i think!!) in the Note with this:
+        * You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
+        * You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
+        * You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
+        * When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
+        -->
 
    1. (선택 사항) 프로그램에 추가하지 않으려면 프로젝트 이름 옆에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭합니다.
 

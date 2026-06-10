@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 7941
+source-wordcount: 7980
 ht-degree: 1%
 
 ---
@@ -303,7 +303,9 @@ Old:
       <p><b>참고</b></p>
       <ul>
       <li>프로젝트에 포트폴리오를 추가하거나 제거하려면 관리 권한이 있어야 합니다.</li>
-      <li>조직에서 기존 Workfront 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 서로 다른 스토리지 유형을 사용하는 프로젝트 간에 작업을 복사할 수 없습니다. Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.</li></ul> 
+      <li>조직에서 기존 Workfront 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 서로 다른 스토리지 유형을 사용하는 프로젝트 간에 작업을 복사할 수 없습니다. </li>
+      <li>레거시 스토리지 프로젝트를 Adobe 클라우드 스토리지 포트폴리오 또는 프로그램으로 이동하거나 Adobe 클라우드 스토리지 프로젝트를 레거시 포트폴리오 또는 프로그램으로 이동할 수 없습니다.</li>
+      </ul> <p>Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.</p>
       자세한 내용은 <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">프로젝트 및 관련 개체에 대한 문서 관리 개요</a>를 참조하십시오. 
       </td> 
       </tr> 

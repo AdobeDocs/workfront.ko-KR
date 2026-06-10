@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
 source-wordcount: 1257
 ht-degree: 3%
@@ -122,6 +122,10 @@ Old:
      >
      >Workfront 인스턴스가 두 가지 유형의 문서 스토리지 모두에 액세스하지 못할 수 있습니다.
 
+     <!--
+     For preview/ prod - rewrite the last bullet in the note: 
+     * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
+     -->
 * 모든 하위 작업 및 문제의 상태 및 완료율이 유지됩니다.
 * 작업 할당자와 작업을 프로젝트로 전환하는 사용자는 프로젝트에서 공유 사용자가 됩니다.
 * 프로젝트 시작 일자가 작업의 시작 일자로 설정됩니다.
