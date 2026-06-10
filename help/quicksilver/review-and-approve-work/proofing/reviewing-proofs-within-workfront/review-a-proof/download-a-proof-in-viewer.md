@@ -7,18 +7,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
 TQID: https://experienceleague.adobe.com/F-dmG4OLmu1-22fjkkF0HYSeEmOfzD2Jrb4aUA-KFHg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 784f376722301da9d450a4021d1d24ffc21f3165
 workflow-type: tm+mt
-source-wordcount: 171
-ht-degree: 12%
+source-wordcount: 244
+ht-degree: 8%
 
 ---
 
@@ -70,3 +66,7 @@ ht-degree: 12%
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
 1. 파일 시스템에서 증명을 다운로드할 위치로 이동한 다음 **저장**&#x200B;을 클릭합니다.
+
+   >[!NOTE]
+   >
+   >증명에 여러 파일이 포함되어 있으면 Workfront에서 .zip 파일을 생성합니다. 증명에 있는 두 개 이상의 파일이 동일한 파일 이름을 공유하는 경우 .zip에는 해당 파일의 사본이 하나만 포함됩니다. 따라서 .zip에 있는 파일 수가 증명 뷰어에 표시된 파일 수보다 적을 수 있습니다. 예를 들어, 이름이 `document.pdf`인 파일이 5개인 증명은 4개의 파일이 포함된 .zip을 생성합니다.
