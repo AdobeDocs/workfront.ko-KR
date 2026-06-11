@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
+source-git-commit: 58777d63eff116855191281d09c6c2d19f1aa2ee
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1848'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 2%
 * [문서 개선 사항](#documents-enhancements)
 * [향상된 Financial Management](#financial-management-enhancements)
 * [홈 개선 사항](#home-enhancements)
+* [프로젝트 개선 사항](#project-enhancements)
 * [보고 개선 사항](#reporting-enhancements)
 * [요청 개선 사항](#requesting-enhancements)
 * [기타 개선 사항](#other-enhancements)
@@ -55,6 +56,26 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront 개체에 대한 변경 기록 보기</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>하나의 중앙 목록에서 발생한 변경 사항을 더 쉽게 확인할 수 있도록 변경 기록 목록을 만들었습니다. 이 목록에는 객체, 작업 및 변경 소스(예: 사용자 또는 Workfront 시스템)와 같은 정보가 표시됩니다.</p>
+            </td>
+            <td><p>2026년 6월 11일</p></td>
+            <td><p>2026년 6월 11일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+        </tr>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">서식 있는 필드 형식으로 텍스트를 바꾸는 서식 있는 텍스트</a>
@@ -193,6 +214,43 @@ ht-degree: 2%
     </tbody>
 </table>
 
+<!--
+
+### Project enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Use a legacy storage template to create an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in some scenarios.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+-->
+
 ### 보고 개선 사항
 
 <table>
@@ -205,6 +263,24 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">데이터 연결 범위에 한 번에 여러 Power BI IP 주소 추가</a> <p>[!BADGE 해제 일정]{type=Neutral}
+                <p>이제 Microsoft Power BI을 Workfront Data Connect에 연결하는 Workfront 관리자는 전체 지역의 Azure IP 주소 범위 세트를 허용 목록에 추가하다 IP에 한 번에 추가할 수 있습니다.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 6월 11일</p></td>
+            <td><p>2026년 6월 11일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드 목록 정렬</a> 
+                <p>이제 이름, 설명, 작성자 또는 날짜 만들기 열을 기준으로 캔버스 대시보드 목록을 정렬할 수 있습니다. 열 머리글을 클릭하여 해당 열을 기준으로 목록을 정렬한 다음, 동일한 머리글을 다시 클릭하여 정렬 방향을 반대로 바꿉니다. 기본적으로 목록은 A에서 Z로 이름별로 정렬됩니다. 캔버스 대시보드 목록의 탭 간을 전환하면 정렬 순서가 유지됩니다.</p>
+            </td>
+            <td><p>2026년 6월 11일</p></td>
+            <td><p>2026년 7월 15일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">사용자 지정 수식의 실제 시간 변경</a> <p>[!BADGE 해제 일정]{type=Neutral}</p>
@@ -280,6 +356,15 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터 업데이트</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>Workfront MCP 커넥터를 업데이트했습니다.<ul><li>Claude는 이제 MCP 커넥터에 연결할 수 있습니다.</li><li>이제 EU의 인스턴스 또는 AWS을 사용하지 않는 인스턴스에서 MCP 커넥터를 사용할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 6월 11일</p></td>
+            <td><p>2026년 6월 11일</p></td>
+            <td><p>2026년 6월 11일</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">댓글 알림 전자 메일에 대한 모양과 느낌을 업데이트했습니다</a><p>[!BADGE 해제 일정]{type=Neutral}</p>

@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 3129
+source-wordcount: 3158
 ht-degree: 0%
 
 ---
@@ -233,7 +233,7 @@ Old:
 
    * 한 필드의 기존 값을 하나 또는 여러 개 복사한 다음 다른 레코드의 같은 유형의 필드에 붙여 넣습니다.
    * 열의 열 헤더를 클릭하여 선택하고 복사한 다음 다른 열의 열 헤더를 클릭하고 복사한 열의 내용을 붙여넣습니다. 열에는 유사한 필드 유형이 포함되어야 합니다.
-   * Shift 키를 누른 상태에서 을 클릭하여 테이블의 여러 행을 선택하고 선택한 행의 정보를 복사한 다음 다른 행을 클릭하고 선택한 정보를 새 행 및 그 다음 행에 붙여넣습니다. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * Shift 키를 누른 상태에서 을 클릭하여 테이블의 여러 행을 선택하고 선택한 행의 정보를 복사한 다음 다른 행을 클릭하고 선택한 정보를 새 행 및 그 다음 행에 붙여넣습니다. <span class="preview">미리 보기 환경에서는 사용할 수 없습니다.</span>
    * 한 셀에서 정보를 복사한 다음 여러 셀을 선택하고 동일한 정보를 여러 셀에 붙여넣습니다. 여러 셀을 선택하고 인접한 행과 열의 여러 셀에 동일한 정보를 붙여 넣을 수 있습니다.
    * 복사할 정보가 들어 있는 기존 셀의 오른쪽 아래 모서리를 선택한 다음 동일한 정보를 붙여넣을 인접한 셀에 끌어서 놓습니다. 모든 셀에는 동일한 유형의 정보가 포함되어야 합니다.
 
@@ -241,8 +241,9 @@ Old:
 
    * 외부 소스(예: Excel 파일)에서 하나 이상의 셀을 복사한 다음 다음 필드 유형 중 하나에 붙여넣습니다.
 
-      * Workfront Planning 연결 필드.\
-        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+      * Workfront Planning 연결 필드.
+
+        <span class="preview">미리 보기 환경에서는 사용할 수 없습니다.</span>
       * 사람 필드. 값이 한 개인 필드만 지원됩니다.
       * 텍스트 필드.
       * 필드를 선택합니다.
@@ -276,12 +277,12 @@ Old:
 
 1. (선택 사항) 레코드 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭하고 다음 옵션 중에서 선택합니다.
 
-   * **보기** <!--or <span class="preview"Open in new tab</span>-->: 레코드 페이지가 열립니다.
+   * **보기** 또는 <span class="preview">**새 탭에서 열기**</span>: 레코드 페이지가 열립니다.
    * **링크 복사**: 레코드의 페이지에 링크를 복사하려면
    * **축소판 편집**: 레코드에 축소판을 추가하려면
 자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
    * **복제**: 레코드의 동일한 복제가 만들어집니다.
-   * **위에 레코드 삽입/아래에 레코드 삽입**: 새 레코드를 추가할 수 있도록 새 행을 추가합니다. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * **위에 레코드 삽입/아래에 레코드 삽입**: 새 레코드를 추가할 수 있도록 새 행을 추가합니다. <span class="preview">미리 보기 환경에서는 사용할 수 없습니다.</span>
    * **삭제**: 레코드를 삭제합니다. 삭제된 레코드는 최대 30일 동안 [최근에 삭제됨] 상자에 저장됩니다.
 
 
@@ -475,4 +476,5 @@ Status 라는 단일 선택 필드에 New 및 Closed 라는 선택 사항이 있
    새 선택 항목이 단일 선택 필드에 즉시 추가됩니다.
 
    각 선택 항목에 새 선택 값도 추가됩니다. API 호출 또는 기타 통합에서 선택 값을 사용할 수 있습니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
+
 

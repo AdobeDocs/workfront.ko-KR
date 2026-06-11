@@ -1,0 +1,120 @@
+---
+content-type: reference
+product-area: workfront-integrations
+navigation-topic: workfront-integrations-navigation-topic
+title: Adobe Express 및 Frame.io 통합 시작
+description: Adobe Express 및 Frame.io 통합 시작
+author: Courtney
+feature: Workfront Integrations and Apps, Digital Content and Documents
+recommendations: noDisplay, noCatalog
+source-git-commit: 0545810c13045444e7ac38eeda4ed439d74e405b
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 2%
+
+---
+
+
+# Frame.io 통합으로 Adobe Express 및 Workfront 시작하기
+
+Adobe Express과 함께 Workfront을 사용하여
+
+* 크리에이티브, 법률 및 규정 준수 팀 간의 협업을 간소화하여 게시 시간을 단축하고 감독 유지
+
+* 드로잉 마크업, 주석 및 Frame.io 뷰어로 주석 달기를 사용하여 심도 있는 검토를 수행합니다
+
+* 전자 서명 및 전체 감사 로그를 통해 기업 규정 준수 표준 충족
+
+* Express 브랜드 템플릿의 모든 재혼합 파일에 대한 승인 필요
+
+* Workfront의 통합 승인 템플릿을 사용하여 Express 템플릿을 여러 단계 검토 및 승인 워크플로우에 매핑
+
+## 액세스 요구 사항
+
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+ <tr> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> 
+   <p>Any</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> 
+   <p>표준 </p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">추가 제품</td> 
+   <td> 
+   <p> Adobe Express이 있어야 하며 Admin Console의 사용자로 제품에 추가되어 있어야 합니다. </p> </td> 
+  </tr>
+ </tbody> 
+</table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
+
+## 통합 요구 사항
+
+* Workfront Standard 라이선스가 있는 Adobe Express 및 하나 이상의 Workfront 환경에 액세스할 수 있는 권한이 있어야 합니다.
+
+
+## Workfront에서 승인 워크플로 설정
+
+사용자가 빠른 템플릿에 승인 작업 과정을 추가하려면 먼저 표준 라이선스를 가진 사용자가 Workfront에서 승인 작업 과정 템플릿을 만들어야 합니다.
+
+자세한 내용은 [문서에 대한 승인 워크플로 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)를 참조하십시오.
+
+## Express 템플릿에 승인 워크플로우 추가
+
+Workfront에서 승인 워크플로 템플릿이 생성되면 Express Enterprise Premium 라이센스가 있는 디자이너는 이를 Adobe Express 내에서 직접 Express 템플릿에 할당할 수 있습니다.
+
+빠른 템플릿이 다시 혼합되면 게시하기 전에 승인이 필요합니다. 즉, 사전 구성된 승인 워크플로가 자동으로 트리거됩니다.
+
+Adobe Express에서 승인을 요청하려면 사용자에게 Standard Workfront 라이선스가 있어야 합니다.
+
+[승인 요청에 대한 빠른 도움말 문서에 대한 링크 필요]
+
+<!--
+Learn how to [get approval on designs](https://helpx.adobe.com/kr/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
+-->
+
+## 빠른 템플릿을 리믹스하여 검토 및 승인을 위해 전송
+
+Adobe Express 사용자는 자신의 요구 사항에 맞게 Express 템플릿을 리믹스할 수 있습니다. 게시하기 전에 지정된 승인자에게 승인을 요청해야 합니다.
+
+콘텐츠 제작, 검토 및 승인 프로세스 전체에서 사용자는
+
+* 파일을 연 사용자 확인
+* 모든 참가자의 결정 상태 보기
+* 댓글 읽기
+* 외
+
+### 승인 요청 시 Workfront 프로젝트 선택
+
+리믹스 익스프레스 템플릿에 대한 승인을 요청할 때 사용자는 에셋을 전송할 Workfront 프로젝트를 선택할 수 있습니다. 이렇게 하면 모든 관련 에셋과 증명이 동일한 프로젝트 내에 체계적으로 정리될 수 있습니다.
+
+프로젝트를 선택하지 않으면 에셋이 기본적으로 Express 관련 프로젝트로 전환됩니다.
+
+[승인 요청에 대한 빠른 도움말 문서에 대한 링크 필요]
+
+<!--
+For more information, see [Send templates for review and approval](https://helpx.adobe.com/kr/express/web/invite-collaborate/request-approval.html).
+-->
+
+## Frame.io를 사용하여 리믹스된 Express 파일을 검토하고 승인합니다.
+
+이해 당사자는 Frame.io 뷰어에서 마크업 도구와 주석을 사용하여 자신의 전문 지식(예: 복사, 법률 또는 브랜드)과 관련된 피드백을 제공할 수 있습니다.
+
+또한 컨텐츠를 게시할 수 있도록 승인하는 최종 결정을 내릴 책임이 있습니다.
+
+검토하고 결정하려면 사용자에게 최소 Collaborator Workfront 라이선스가 있어야 합니다.
+
+Frame.io 뷰어 사용에 대한 자세한 내용은 [미디어에 주석 달기](https://help.frame.io/en/articles/9105251-commenting-on-your-media)를 참조하십시오.

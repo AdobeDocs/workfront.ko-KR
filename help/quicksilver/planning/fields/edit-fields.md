@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
 source-wordcount: 1087
 ht-degree: 0%
@@ -244,8 +244,12 @@ Status 라는 단일 선택 필드에 New 및 Closed 라는 선택 사항이 있
 레코드를 편집할 때 기존 선택 필드에 새 선택을 추가하려면 다음을 수행합니다.
 
 1. 레코드 유형 페이지로 이동하여 테이블 보기를 엽니다.
-1. 선택 사항을 추가할 단일 또는 다중 선택 필드를 테이블 보기에 새 열로 추가합니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
+1. 선택 사항을 추가할 단일 또는 다중 선택 필드를 테이블 보기에 새 열로 추가합니다.
+
+   자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
+
 1. 필드의 셀을 두 번 클릭하여 인라인 필드 편집을 시작합니다.
+
 1. 추가할 선택 항목의 이름을 입력한 다음 **선택 항목 추가**&#x200B;를 클릭합니다.
 
    ![테이블 보기의 단일 선택 필드에 선택 항목 추가](assets/add-choice-in-table-view-for-single-select-field.png)

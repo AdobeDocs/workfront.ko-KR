@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 2592
+source-wordcount: 2603
 ht-degree: 1%
 
 ---
@@ -254,11 +254,12 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >  <div class="preview">
    >
-   >   * 레코드를 아직 만들지 않고 요청이 승인 대기 중인 경우에만 요청을 편집할 수 있습니다.
-   >   * 일부 필드는 읽기 전용이므로 편집할 수 없습니다.
-   >  * 레코드를 만든 후에는 더 이상 요청을 편집할 수 없습니다.
+   >* 레코드를 아직 만들지 않고 요청이 승인 대기 중인 경우에만 요청을 편집할 수 있습니다.
+   >* 일부 필드는 읽기 전용이므로 편집할 수 없습니다.
+   >* 레코드를 만든 후에는 더 이상 요청을 편집할 수 없습니다.
    >
    >  </div>
+1. <span class="preview">(선택 사항) 요청을 편집한 후 **변경 내용 제출**.</span>을 클릭합니다.
 1. (조건부) 요청 양식이 승인과 연결되어 있지 않거나 요청이 승인된 경우 요청 이름을 클릭한 다음 **만들어진 개체** 필드에서 레코드 이름을 클릭합니다.
 
    레코드의 페이지가 Workfront Planning에 열립니다.
@@ -268,6 +269,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >* 레코드의 기본 필드가 요청 양식에서 업데이트되지 않으면 요청의 레코드 필드에 있는 레코드 이름이 **제목 없음**&#x200B;으로 표시됩니다.
    >
    >* 요청 양식이 승인과 연결된 경우 요청 페이지에서 레코드에 액세스하려면 승인을 받아야 합니다. 승인은 승인될 때까지 레코드가 생성되지 않습니다.
+   >  요청 승인에 대한 자세한 내용은 [Adobe Workfront Planning에서 요청 승인](/help/quicksilver/planning/requests/approve-request.md)을 참조하십시오.
 
 1. (선택 사항) **레코드 종류**&#x200B;의 이름을 클릭합니다.
 
