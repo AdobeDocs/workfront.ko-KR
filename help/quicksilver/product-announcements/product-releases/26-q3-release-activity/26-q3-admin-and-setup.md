@@ -4,9 +4,9 @@ description: 2026년 3분기 관리자 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cc0067cb2f64eae79647881ab30355b6832073d1
+source-git-commit: 34ec779f648db8c3f1a1fe2a76f5b7fda83679a6
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -27,35 +27,26 @@ ht-degree: 0%
 
 이전에는 감사 로그를 사용할 수 있었지만 개체를 다루지는 않았습니다.
 
-<!--
+자세한 내용은 [변경 내용 보기 및 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)를 참조하세요.
 
-For more information see [View and manage change history](help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
-
--->
-
-<!--
-
-## New system preference to convert legacy storage portfolios to Adobe cloud storage
+## 레거시 스토리지 포트폴리오를 Adobe 클라우드 스토리지로 변환하는 새로운 시스템 환경 설정
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production for everyone: June 11, 2026
+>미리 보기: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 6월 11일
 
-Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.
+Workfront 관리자는 이제 시스템 환경 설정에서 직접 레거시 스토리지 포트폴리오를 Adobe 클라우드 스토리지로 변환할 수 있습니다. 포트폴리오를 변환하려면 새 엔터프라이즈 스토리지로 변환할 포트폴리오 선택 필드에서 해당 포트폴리오를 선택하고 페이지를 저장합니다.
 
-When a portfolio is converted to Adobe cloud storage:
+포트폴리오를 Adobe 클라우드 스토리지로 변환할 때:
 
-* You can no longer move projects that use legacy Workfront storage to this portfolio
-* All new projects created in this portfolio use Adobe cloud storage
-* Frame.io is the viewer for documents using Adobe cloud storage
-* Child objects using legacy Workfront storage stay on legacy storage
+* 더 이상 기존 Workfront 스토리지를 사용하는 프로젝트를 이 포트폴리오로 이동할 수 없습니다
+* 이 포트폴리오에서 생성된 모든 새 프로젝트는 Adobe 클라우드 스토리지를 사용합니다.
+* Frame.io는 Adobe 클라우드 스토리지를 사용하는 문서의 뷰어입니다
+* 기존 Workfront 스토리지를 사용하는 하위 객체는 기존 스토리지에 남음
 
-Previously, adding an Adobe cloud storage project to a Legacy storage portfolio automatically converted the portfolio to Adobe cloud storage.
+이전에는 기존 스토리지 포트폴리오에 Adobe 클라우드 스토리지 프로젝트를 추가하면 포트폴리오가 Adobe 클라우드 스토리지로 자동 변환되었습니다.
 
-For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
--->
+자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
 
 ## 서식 있는 텍스트가 서식 있는 필드 유형으로 텍스트 바꾸기
 
