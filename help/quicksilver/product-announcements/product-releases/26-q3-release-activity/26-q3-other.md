@@ -4,9 +4,9 @@ description: 2026년 3분기 릴리스 기간 동안의 기타 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a678a987703240680368b34c4095637b59a8bb60
+source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Workfront MCP 커넥터에 대해 다음과 같이 업데이트되었습니다.
 
-* AWS에 없는 EU 및 미국 인스턴스에서 사용할 수 있도록 MCP 서버를 확장했습니다. 각 MCP 서버는 하나의 인스턴스에만 연결할 수 있지만 더 이상 AWS의 미국 인스턴스에만 연결할 수 없습니다.
+* EU<!-- and US instances that are not on AWS. Each MCP server can only connect to one instance, but are no longer limited to US instances on AWS-->의 인스턴스와 작동하도록 MCP 서버를 확장했습니다.
 * Workfront MCP 커넥터의 유연성을 확장하기 위해 Claude를 연결하는 기능을 추가했습니다. 이제 Claude의 커넥터 목록에서 Workfront을 찾거나 URL을 사용하여 직접 연결할 수 있습니다.
 
 자세한 내용 및 지침은 [Adobe Workfront MCP 서버 구성](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)을 참조하세요.
