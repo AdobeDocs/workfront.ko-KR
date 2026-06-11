@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1919'
 ht-degree: 0%
 
 ---
@@ -30,41 +30,34 @@ There are no features released during the Third Quarter Release for 2026. When f
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
 
-<!--
-
-## Interface improvements in the table view
+## 테이블 보기의 인터페이스 개선 사항
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>미리 보기: 2026년 6월 11일>프로덕션 빠른 릴리스: 2026년 7월 15일>모두를 위한 프로덕션: 2026년 7월 16일
 
-We have updated the look and feel of the table view for the following areas in Workfront Planning: 
+Workfront Planning의 다음 영역에 대한 테이블 보기의 모양과 느낌을 업데이트했습니다.
 
-* All record type pages 
+* 모든 레코드 유형 페이지
 
-* All connected record type pages, except for Projects 
+* 프로젝트를 제외한 연결된 모든 레코드 유형 페이지
 
-In addition to some navigation changes and design improvements, the following are some improvements included with this update: 
+일부 탐색 변경 및 디자인 개선 사항 외에도 이 업데이트에서는 다음과 같은 사항이 개선되었습니다.
 
-* The addition of an aggregation row at the bottom of the table that summarizes number, currency, percentage, and formula fields formatted as numbers. The following aggregators are now available: SUM, AVG, MAX, MIN. 
+* 날짜 필드를 추가할 때 형식 유형이 줄어들고 더 간단한 날짜 형식입니다.
 
-* A simpler date format with fewer format types when adding a Date field. 
+* 날짜 필드를 추가할 때 프로필의 시간대에 관계없이 모든 사용자가 볼 수 있는 시간대를 선택하는 기능.
 
-* Ability to select a time zone visible to all users regardless of their profile's time zone, when adding a Date field. 
+* 깔끔한 디자인을 위해 행 번호 지정 제거
 
-* Removal of row numbering for a cleaner look 
+* 마우스로 행을 가리키면 표시되는 대신 영구 행 선택 상자
 
-* Persistent row selection box, instead of visible only when hovering on the row 
+* 가독성을 높이기 위한 지속적인 열 구분선
 
-* Persistent column separator lines for better readability 
+* 열 헤더에서 정렬할 때 보다 간단한 정렬 환경
 
-* A simpler sorting experience when sorting from a column header  
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
-For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).  
-
--->
 
 ## 이제 GenStudio for Performance Marketing 브랜드를 Planning 요청 양식에 추가할 수 있습니다.
 
