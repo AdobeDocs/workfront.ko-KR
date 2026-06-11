@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 6aae88e6030fea5c3a9ea6dd05e666de6af9f59f
+source-git-commit: ea8b2a57504ffdbedcfeb56c47b9907647db6787
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1902'
 ht-degree: 2%
 
 ---
@@ -357,7 +357,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터 업데이트</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
-                <p>Workfront MCP 커넥터를 업데이트했습니다.<ul><li>Claude는 이제 MCP 커넥터에 연결할 수 있습니다.</li><li>이제 EU 또는 <!-- from instances that do not use AWS-->의 인스턴스에서 MCP 커넥터를 사용할 수 있습니다.</p>
+                <p>Workfront MCP 커넥터를 업데이트했습니다.<ul><li>Claude는 이제 MCP 커넥터에 연결할 수 있습니다.</li><li>이제 EU <!--or from instances that do not use AWS-->의 인스턴스에서 MCP 커넥터를 사용할 수 있습니다.</p>
             </td>
             <td><p>2026년 6월 11일</p></td>
             <td><p>2026년 6월 11일</p></td>
