@@ -4,9 +4,9 @@ description: 2026년 3분기 릴리스 기간 동안의 기타 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
+source-git-commit: a678a987703240680368b34c4095637b59a8bb60
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,15 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 3분기 릴리스의 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)를 참조하십시오.
+
+## Workfront MCP 커넥터 업데이트
+
+Workfront MCP 커넥터에 대해 다음과 같이 업데이트되었습니다.
+
+* AWS에 없는 EU 및 미국 인스턴스에서 사용할 수 있도록 MCP 서버를 확장했습니다. 각 MCP 서버는 하나의 인스턴스에만 연결할 수 있지만 더 이상 AWS의 미국 인스턴스에만 연결할 수 없습니다.
+* Workfront MCP 커넥터의 유연성을 확장하기 위해 Claude를 연결하는 기능을 추가했습니다. 이제 Claude의 커넥터 목록에서 Workfront을 찾거나 URL을 사용하여 직접 연결할 수 있습니다.
+
+자세한 내용 및 지침은 [Adobe Workfront MCP 서버 구성](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)을 참조하세요.
 
 
 ## 댓글 알림 이메일에 대한 모양과 느낌을 업데이트했습니다.

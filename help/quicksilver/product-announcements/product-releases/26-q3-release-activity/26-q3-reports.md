@@ -4,9 +4,9 @@ description: 2026년 3분기 보고 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
+source-git-commit: a678a987703240680368b34c4095637b59a8bb60
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,31 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 3분기 릴리스의 보고 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)를 참조하십시오.
+
+## 여러 Power BI IP 주소 범위를 Data Connect에 한 번에 추가합니다
+
+>[!NOTE]
+>
+>미리 보기: 해당 사항 없음>프로덕션 빠른 릴리스: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
+
+이제 Microsoft Power BI을 Workfront Data Connect에 연결하는 Workfront 관리자는 전체 지역의 Azure IP 주소 범위 세트를 허용 목록에 추가하다 IP에 한 번에 추가할 수 있습니다. 이제 **데이터 연결**&#x200B;의 **IP 범위** 탭에서 **새 IP 주소** 단추에 **Power BI IP 주소 블록 추가** 옵션이 포함되어 있습니다. 이 옵션은 Microsoft에서 게시한 Azure IP 범위 및 서비스 태그 JSON 파일의 Power BI 서비스 태그 항목을 붙여넣을 수 있는 대화 상자를 엽니다.
+
+이 기능은 각 Power BI CIDR 블록을 한 번에 하나씩 추가하는 이전 워크플로우를 대체합니다. 이 작업은 수십 개의 주소 접두사를 게시하는 지역에서는 시간이 오래 걸립니다.
+
+자세한 내용은 [Workfront Data Connect에 연결 설정](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)을 참조하십시오.
+
+
+## 캔버스 대시보드 목록 정렬
+
+>[!NOTE]
+>
+>미리 보기: 2026년 6월 11일>프로덕션 빠른 릴리스: 2026년 7월 15일>모두를 위한 프로덕션: 2026년 7월 16일
+>
+>Canvas Dashboards는 현재 베타 버전입니다.
+
+이제 **이름**, **설명**, **만든 사람** 또는 **만든 날짜** 열을 기준으로 캔버스 대시보드 목록을 정렬할 수 있습니다. 열 머리글을 클릭하여 해당 열을 기준으로 목록을 정렬한 다음, 동일한 머리글을 다시 클릭하여 정렬 방향을 반대로 바꿉니다. 기본적으로 목록은 A부터 Z까지 **이름**&#x200B;별로 정렬됩니다. 캔버스 대시보드 목록의 탭 간을 전환하면 정렬 순서가 유지됩니다.
+
+자세한 내용은 [캔버스 대시보드 사용](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)을 참조하세요.
 
 ## 사용자 정의 공식의 실제 시간 변경
 
