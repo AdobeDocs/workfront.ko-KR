@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: 422
 ht-degree: 5%
 
 ---
@@ -101,7 +101,7 @@ Old:
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **시스템 > 감사 로그**&#x200B;를 클릭합니다.
+1. 왼쪽 패널에서 **변경 내용 추적 > 감사 로그**&#x200B;를 클릭합니다.
 1. **작업 유형** 드롭다운에서 보려는 감사 유형을 선택합니다.
 
    >[!NOTE]
@@ -129,7 +129,7 @@ Old:
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **시스템** > **감사 로그**&#x200B;를 클릭합니다.
+1. 왼쪽 패널에서 **변경 내용 추적** > **감사 로그**&#x200B;를 클릭합니다.
 
 1. **로그 유형** 드롭다운 메뉴에서 감사 로그를 선택합니다.
 

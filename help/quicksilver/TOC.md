@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
+source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
 workflow-type: tm+mt
-source-wordcount: '14170'
+source-wordcount: '14175'
 ht-degree: 2%
 
 ---
@@ -807,6 +807,7 @@ ht-degree: 2%
       * [템플릿에서 비율 카드 가져오기](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
       * [프로젝트에 대한 푸시 비율 변경](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
       * [요금 카드 공유](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
+      * [변경 내역 보기 및 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
    * 통합 구성 {#configure-integrations}
       * [통합 구성](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront 통합](administration-and-setup/configure-integrations/workfront-integrations-1.md)
