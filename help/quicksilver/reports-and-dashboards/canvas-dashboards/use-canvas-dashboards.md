@@ -16,14 +16,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 889f77efd9472cd2da5de1e5ec602aea63b2ce0b
 workflow-type: tm+mt
-source-wordcount: 480
+source-wordcount: 572
 ht-degree: 1%
 
 ---
 
 # 캔버스 대시보드 사용
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -48,6 +50,33 @@ ht-degree: 1%
 1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭합니다.
 1. 기존 대시보드 이름을 클릭하여 엽니다.
    ![대시보드 열기](assets/open-dashboard.png)
+
+<div class="preview">
+
+## 미리 보기에서 캔버스 대시보드 목록 정렬
+
+다음 열 중 하나를 기준으로 캔버스 대시보드 목록을 정렬할 수 있습니다.
+
+* 이름
+* 설명
+* 생성한 사람
+* 제작 일자
+
+목록을 정렬하려면:
+
+1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭합니다.
+1. 열 머리글을 클릭하여 해당 열을 기준으로 목록을 정렬합니다. 정렬 방향을 반대로 바꾸려면 동일한 헤더를 다시 클릭합니다.
+
+   기본적으로 목록은 A부터 Z까지 **Name** 열을 기준으로 정렬됩니다.
+
+   ![캔버스 대시보드 목록 정렬](assets/sort-canvas-dashboards-list.png)
+
+>[!NOTE]
+>
+>* 캔버스 대시보드 목록의 탭 간을 전환하면 정렬 순서가 유지됩니다.
+
+
+</div>
 
 <!--
 ## Navigating the Dashboard
