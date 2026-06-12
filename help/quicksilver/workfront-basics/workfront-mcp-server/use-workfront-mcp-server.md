@@ -5,9 +5,9 @@ title: Adobe Workfront MCP 서버 사용
 description: Adobe Workfront MCP 서버를 사용하여 AI 에이전트 플랫폼에서 자연어 대화를 통해 Workfront 항목을 검색, 생성, 업데이트 및 관리합니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
+source-git-commit: c58007a9e72a9a2c04f04d3df83876b80ef1d12b
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,10 @@ Workfront 항목을 제거하려면 다음 작업을 수행하십시오.
 * *현재 문서의 승인자로 Sarah Chen과 Miguel Alvarez를 추가하십시오.*
 * *응답하지 않은 자산 &quot;봄 캠페인 비디오&quot;의 승인자에게 미리 알림을 보냅니다.*
 * *자산 &quot;봄 캠페인 비디오&quot;에 &quot;마케팅 시작&quot; 승인 템플릿을 적용하세요.*
-* *이 프로젝트의 모든 승인에서 Anna Jones를 제거하고 Sione Carter로 대체합니다.*
+
+<!--
+* *Remove Anna Jones from all approvals in this project, and replace with Sione Carter.*
+-->
 
 
 ### Planning 레코드 작업
