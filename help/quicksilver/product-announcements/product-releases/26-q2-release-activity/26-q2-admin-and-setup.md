@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: 573
 ht-degree: 0%
 
 ---
@@ -43,6 +43,18 @@ ht-degree: 0%
 현재 콘텐츠 검토는 AI 공동 작업자만 사용할 수 있습니다. 향후 더 많은 AI Collaborator 기능을 사용할 수 있습니다.
 
 자세한 내용은 [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)을 참조하십시오.
+
+## 업데이트된 시간대 이름
+
+>[!NOTE]
+>
+>미리 보기: 2026년 3월 27일>프로덕션 빠른 릴리스: 2026년 3월 27일>모두를 위한 프로덕션: 2026년 3월 27일
+
+IANA 표준을 따르도록 Workfront에서 사용할 수 있는 시간대를 업데이트했습니다. 이를 통해 다른 시스템과의 호환성과 시간 경과에 따른 정확성을 보장할 수 있다.
+
+이 변경 사항의 일부로, 이전에 Workfront에서 사용할 수 있었던 일부 시간대가 표준 IANA 시간대로 대체되었습니다.
+
+이러한 변경 사항의 목록은 [업데이트된 시간대 이름](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)을 참조하십시오.
 
 ## 이제 사용자 정의 분기를 설정에서 별도의 페이지로 사용할 수 있습니다.
 
