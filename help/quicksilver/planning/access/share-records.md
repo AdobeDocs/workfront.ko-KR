@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 1690
+source-wordcount: 1713
 ht-degree: 2%
 
 ---
@@ -120,6 +120,10 @@ maybe use the Share record types as example here and touch on the same points: h
 <!--checking on the below with Lilit-->
 
 * 사람, 그룹, 팀, 회사 또는 작업 역할과 같은 엔티티와 레코드를 공유할 수 있습니다.
+* 다음과 같은 제한 사항이 있습니다.
+
+   * 한 번에 100개 이상의 레코드를 공유할 수 없습니다.
+   * 100개 이상의 엔터티와 레코드를 공유할 수 없습니다.
 * 레코드에 대한 권한을 제한하면 사용자는 더 이상 해당 레코드가 표시되는 시스템의 어느 곳에서든 해당 레코드와 조회 필드 값을 볼 수 없습니다.
 * Workfront은 최대 5개의 레코드 깊이에 있는 연결에서 레코드 권한을 확인하므로 사용자가 공유된 레코드만 볼 수 있습니다.
 * 레코드에 다음 수준의 권한을 부여할 수 있습니다.
