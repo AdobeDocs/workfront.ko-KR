@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: be4cbcd40353960ea65a1ca38a8b6b1e21fd2ad4
+source-git-commit: 744be221844b2e24fb738cab5403f581a83b6c16
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 `help/_includes/snippets.md`을(를) 읽고 가용성별로 선택:
 
 | 가용성 | 코드 조각 |
-|---|---|
+| --- | --- |
 | 미리 보기 전용 — 강조 표시된 컨텐츠는 그렇지 않은 GA 문서의 새로운 기능입니다. | `{{highlighted-preview}}` |
 | 미리 보기 전용 — 전체 문서가 새로워졌습니다. | `{{highlighted-preview-article-level}}` |
 | 미리보기 + 빠른 릴리스 고객, 일반 | `{{preview-fast-release-general}}` |
@@ -104,6 +104,38 @@ ht-degree: 0%
 ### &#x200B;5. 각 문서 이후
 
 다음 문서로 이동할지, 현재 문서를 중지, 건너뛰지 또는 다시 방문할지 여부를 묻습니다.
+
+### &#x200B;6. 세션 종료 — 릴리스 노트 복사/붙여넣기
+
+사용자가 세션에 대해 래핑(&quot;완료&quot;, &quot;다름&quot;, &quot;중지&quot; 또는 다음 문서로 이어지지 않음)할 때 다음과 같이 질문합니다.
+
+> &quot;개선 페이지에 대한 복사/붙여넣기 릴리스 노트 항목을 원하십니까?&quot;
+
+그렇다면 1단계의 기능 컨텍스트와 이 세션에서 업데이트된 기본 도움말 문서를 사용하여 초안 항목을 생성합니다. **파일에 쓰지 않음** — 복사/붙여넣기 텍스트로만 제공하십시오.
+
+**release-notes-formatter** 스킬에서 제품 영역 페이지 구조와 일치하도록 항목의 형식을 지정하십시오.
+
+```markdown
+## {Feature name}
+
+>[!NOTE]
+>
+>Preview: {date or TBD}
+>Production fast release: {date or TBD}
+>Production for everyone: {date or TBD}
+
+{1–3 sentences describing what changed and why it helps users. Lead with the benefit, not the UI action.}
+
+For more information, see [{Primary article title}](/help/quicksilver/{path-to-article}.md).
+```
+
+규칙:
+
+- 아직 알 수 없는 날짜에 `TBD`을(를) 사용하십시오. 사용자에게 날짜가 있는지 문의하십시오.
+- 기능 이름은 문장입니다(첫 단어와 고유 명사만 대문자로 표시).
+- 설명은 구현 세부 사항이 아니라 사용자가 이제 수행할 수 있는 작업에 중점을 두어야 합니다.
+- 개요 페이지가 아닌 업데이트된 가장 구체적인 방법 문서에 대한 링크입니다.
+- 모든 날짜를 알 수 없고 사용자가 자리 표시자를 원하지 않는 경우 `>[!NOTE]` 날짜 블록을 포함하지 마십시오. 생략하고 나중에 추가해야 합니다.
 
 ## 콘텐츠 규칙
 
