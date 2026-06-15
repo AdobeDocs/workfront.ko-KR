@@ -104,4 +104,4 @@ ht-degree: 0%
 
 ## 참조
 
-- **[Workfront 설명서 스타일](https://experienceleague.adobe.com/)** 및 저장소 규칙(사용자가 커밋하는 경우 커밋/PR 규칙)과 일치합니다.
+- **[Workfront 설명서 스타일](https://experienceleague.adobe.com/ko)** 및 저장소 규칙(사용자가 커밋하는 경우 커밋/PR 규칙)과 일치합니다.
