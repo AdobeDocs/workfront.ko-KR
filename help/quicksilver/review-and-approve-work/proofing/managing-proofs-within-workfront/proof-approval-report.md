@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a2241fa21f51f8146c1f3725d2ba2235f8458ab4
 workflow-type: tm+mt
-source-wordcount: 249
-ht-degree: 7%
+source-wordcount: 310
+ht-degree: 6%
 
 ---
 
@@ -85,5 +85,9 @@ ht-degree: 7%
    * 증명이 승인 보류 중입니다.
 
 * **증명 기한**: 증명 기한을 표시합니다. 이 필드를 채우려면 모든 단계에 기한이 할당되어야 합니다. 필드에는 가장 최근에 활성화된 단계의 기한이 표시됩니다.
+
+## 승인자 결정 필드 정보
+
+승인자 결정 필드에는 증명에 대한 수신자의 결정이 표시됩니다. 경우에 따라 이 필드에 결정 값 대신 하이픈(-)이 표시되는데, 이는 수신자가 증명에서 더 이상 결정 역할에 있지 않음을 나타냅니다. 자세한 내용은 증명 승인 보고서에서 [승인자 결정에 하이픈이 표시됨](../tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)을 참조하세요.
 
  

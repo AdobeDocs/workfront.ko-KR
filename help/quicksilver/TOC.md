@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 5fc376d5e3fe8ab6e137d87f3ad0f57c06874d3d
+source-git-commit: 7f03904aef23f47b84d085877ffa9153c1d69786
 workflow-type: tm+mt
-source-wordcount: '14184'
+source-wordcount: '14194'
 ht-degree: 2%
 
 ---
@@ -2037,6 +2037,7 @@ ht-degree: 2%
          * [업로드 후 문서 이름이 변경되었으며 잘못된 문자가 포함되어 있습니다.](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [포함된 비디오로 PowerPoint 증명](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [대화형 증명이 새 버전으로 추가되면 증명 버전을 다운로드하거나 미리 볼 수 없음](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
+      * [승인자 결정 시 증명 승인 보고서에 하이픈이 표시됨](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
    * 기본 통합 {#native-integrations}
       * [기본 통합 검토 및 승인: 문서 색인](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
       * {hide-from-toc}[GenStudio for Performance Marketing 및 Frame.io 통합 시작](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
