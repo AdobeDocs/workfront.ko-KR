@@ -1,9 +1,9 @@
 ---
 name: remove-preview-highlighting
 description: ""
-source-git-commit: 377568941333b399585a70ee023f30a23618b624
+source-git-commit: 08e47dac1dcd856a2e74e2368e71d57eef8a8278
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 1. 사용자가 이 워크플로우를 호출했습니다(예: **&quot;미리 보기 강조 표시 제거&quot;** 또는 명확히 동일한 의도).
 2. Markdown 파일의 경로에 **`product-announcements`**&#x200B;이(가) 포함되어 있지 **않습니다**(릴리스 정보, 베타, `help/quicksilver/product-announcements/` 아래의 공지 등 전체 폴더 트리 제외).
 3. Markdown 파일이 아래 **[제외된 경로](#excluded-paths)**&#x200B;에 **나열되지 않음**&#x200B;입니다.
-4. Markdown 파일은 Courtney가 사용자 지정 날짜 범위 내에서 커밋한 것으로 `git log`에 표시됩니다(인벤토리 단계 참조).
+4. Markdown 파일은 사용자가 지정한 날짜 범위 내에 현재 git 사용자가 미리 보기 콘텐츠 **추가 또는 수정**&#x200B;한 것으로 `git log`에 표시됩니다(인벤토리 단계 참조).
 5. 문서에 **하나 이상의**&#x200B;이(가) 있습니다.
    - 본문 산문 또는 실제 코드 조각의 미리 보기 환경 **언어**(일반적인 패턴: &quot;강조 표시된 정보&quot;, &quot;미리 보기 환경&quot;, &quot;아직 일반적으로 사용할 수 없음&quot;, 빠른 릴리스 정보)—**없음** 목차/색인 페이지의 **텍스트만 연결**&#x200B;과(와) 일치(아래 참조) 또는
    - **`class="preview"`**&#x200B;이(가) 있는 모든 HTML 요소(예: `<span class="preview">`, `<div class="preview">`) 또는
@@ -46,17 +46,26 @@ ht-degree: 0%
    - **target** 분기별 릴리스 `--until`의 **프로덕션 릴리스 →**.
    - 분기별 릴리스는 &quot;분기별 릴리스 이름&quot; 열(예: 2026.01, 2026.04, 2026.07, 2026.10)로 식별됩니다.
    - **현재 날짜가 4분기(10월~12월)인 경우:** 현재 연도의 일정을 가져온 후 사용자에게 다음 해의 릴리스 일정에 대한 URL을 제공하도록 요청한 다음 필요한 모든 분기별 프로덕션 날짜를 사용할 수 있도록 해당 URL도 가져오십시오.
-c. 단계 b의 프로덕션 릴리스 일자를 사용하여 다음을 실행합니다.
+c. 현재 git 사용자를 결정한 후 b 단계의 프로덕션 릴리스 날짜를 사용하여 다음을 실행합니다.
 
-   ```
+   ```bash
+   GIT_USER=$(git config user.name)
    git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
-     --author="Courtney" --name-only --pretty=format: \
-     -- "help/quicksilver/**/*.md" | sort -u
+     --author="$GIT_USER" --name-only --pretty=format: \
+     -- "help/quicksilver/**/*.md" | sort -u | grep -v '^$'
    ```
 
+   d. 이러한 결과에서 **현재 사용자의 커밋이 실제로 추가되거나 수정된 날짜 범위에 있는 파일로 필터링**&#x200B;합니다. 각 후보 파일에 대해 사용자가 도입된 미리 보기 마커를 커밋하는지 확인합니다.
 
-   d. 이러한 결과에서 **다음 중 하나 이상을 포함하는 파일로 필터링**: `class="preview"`, `{{highlighted-preview` 또는 미리 보기 표준 산문 — `highlighted information\|Preview environment\|not yet generally available`의 grep.\
-   e. **위의 TOC 규칙에 따라&#x200B;**`product-announcements`**아래의 모든 경로,**&#x200B;[&#x200B;제외된 경로&#x200B;](#excluded-paths)**및** TOC/index **페이지를 생략합니다**.\
+   ```bash
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="$GIT_USER" -p -- "<file>" | \
+   grep -q '^\+.*class="preview"\|^\+.*{{highlighted-preview\|^\+.*highlighted information\|^\+.*not yet generally available'
+   ```
+
+   이 grep이 일치하는 경우에만 파일을 포함합니다(종료 코드 0). 이렇게 하면 다른 사용자가 미리보기 강조 표시가 추가된 파일을 사용자가 관련 없이 편집한 긍정 오류(false positive)가 방지됩니다.
+
+   e. **위의 TOC 규칙에 따라&#x200B;**`product-announcements`**아래의 모든 경로,**[&#x200B;제외된 경로&#x200B;](#excluded-paths)**및** TOC/index **페이지를 생략합니다**.\
    f. 정렬된 결과 목록을 표시합니다. 나열된 파일에 미리보기 강조 표시가 없다고 하면 실행에서 제거하고 강제로 편집하지 않고 기준을 강화합니다.
 
 2. **시작**\
@@ -101,7 +110,7 @@ c. 단계 b의 프로덕션 릴리스 일자를 사용하여 다음을 실행합
 
 ### 주석 처리된 섹션(HTML 주석)
 
-- 사용자가 명시적으로 **할 내용을 말하지 않는 경우(예: 전체 댓글 삭제, 댓글 내의 미리 보기 클래스 삭제, GA에 대한 댓글 삭제 등)**&#x200B;삭제, 줄바꿈 또는 다른 방식으로 **수정** HTML 댓글 **을(를) 수행하지 마십시오.**&#x200B;**`<!-- … -->`**
+- 사용자가 명시적으로 **할 내용을 말하지 않는 경우(예: 전체 댓글 삭제, 댓글 내의 미리 보기 클래스 삭제, GA에 대한 댓글 삭제 등)**&#x200B;삭제, 줄바꿈 또는 다른 방식으로 **수정** HTML 댓글 **을(를) 수행하지 마십시오.****`<!-- … -->`**
 - 미리 보기 관련 콘텐츠 또는 **`class="preview"`**&#x200B;이(가) 댓글에 **만** 표시되는 경우 문서를 검토할 때 **이를 호출하십시오**: 댓글에 있는 내용을 말하고 **수행할 작업을 묻기**. **기본값: 주석 섹션을 변경하지 않고 둡니다.**
 
 ### 하지 말아야 할 일
@@ -109,7 +118,7 @@ c. 단계 b의 프로덕션 릴리스 일자를 사용하여 다음을 실행합
 - **`product-announcements`**&#x200B;의 경로(릴리스 정보 및 관련)에서 이 워크플로우를 실행하지 마십시오. 인벤토리에서 제외해야 합니다.
 - 사용자가 명시적으로 경로를 포함하도록 요청하지 않는 한 **[제외된 경로](#excluded-paths)**&#x200B;에 나열된 경로는 인벤토리를 작성하거나 편집하지 마십시오.
 - **자동으로**&#x200B;주석 처리된&#x200B;**(`<!-- … -->`) 블록을 제거하거나 편집하지 마십시오**. 위의 **주석 처리된 섹션**&#x200B;을(를) 따르십시오.
-- 이 기능 가용성 패턴(예: 관련 없는 컨텍스트에서 **제품 이름**(으)로 [샌드박스 환경 미리 보기] (·))가 **not**&#x200B;인 경우 &quot;미리 보기&quot;를 제거하지 마십시오. 확실하지 않은 경우 판단을 사용하여 문의하십시오.
+- 이 기능 가용성 패턴(예: 관련 없는 컨텍스트에서 **제품 이름**(으)로 [샌드박스 환경 미리 보기](·))가 **not**&#x200B;인 경우 &quot;미리 보기&quot;를 제거하지 마십시오. 확실하지 않은 경우 판단을 사용하여 문의하십시오.
 - 사용자가 요청하지 않는 한 `author:` 또는 관련 없는 Frontmatter를 변경하지 마십시오.
 - **표시 → 승인** 단계를 건너뛰지 마십시오.
 
@@ -121,4 +130,4 @@ c. 단계 b의 프로덕션 릴리스 일자를 사용하여 다음을 실행합
 
 ## 참조
 
-- **[Workfront 설명서 스타일](https://experienceleague.adobe.com/ko)** 및 저장소 규칙(사용자가 커밋하는 경우 커밋/PR 규칙)과 일치합니다.
+- **[Workfront 설명서 스타일](https://experienceleague.adobe.com/)** 및 저장소 규칙(사용자가 커밋하는 경우 커밋/PR 규칙)과 일치합니다.
