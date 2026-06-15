@@ -1,9 +1,9 @@
 ---
 name: remove-preview-highlighting
 description: ""
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 377568941333b399585a70ee023f30a23618b624
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 1. 사용자가 이 워크플로우를 호출했습니다(예: **&quot;미리 보기 강조 표시 제거&quot;** 또는 명확히 동일한 의도).
 2. Markdown 파일의 경로에 **`product-announcements`**&#x200B;이(가) 포함되어 있지 **않습니다**(릴리스 정보, 베타, `help/quicksilver/product-announcements/` 아래의 공지 등 전체 폴더 트리 제외).
 3. Markdown 파일이 아래 **[제외된 경로](#excluded-paths)**&#x200B;에 **나열되지 않음**&#x200B;입니다.
-4. Markdown 파일의 앞줄에 `author:` 줄의 **`Courtney`**&#x200B;이(가) 포함되어 있습니다(단독 작성자 또는 공동 작성자).
+4. Markdown 파일은 Courtney가 사용자 지정 날짜 범위 내에서 커밋한 것으로 `git log`에 표시됩니다(인벤토리 단계 참조).
 5. 문서에 **하나 이상의**&#x200B;이(가) 있습니다.
    - 본문 산문 또는 실제 코드 조각의 미리 보기 환경 **언어**(일반적인 패턴: &quot;강조 표시된 정보&quot;, &quot;미리 보기 환경&quot;, &quot;아직 일반적으로 사용할 수 없음&quot;, 빠른 릴리스 정보)—**없음** 목차/색인 페이지의 **텍스트만 연결**&#x200B;과(와) 일치(아래 참조) 또는
    - **`class="preview"`**&#x200B;이(가) 있는 모든 HTML 요소(예: `<span class="preview">`, `<div class="preview">`) 또는
@@ -40,7 +40,24 @@ ht-degree: 0%
 승인 없이 리포지토리를 **not** 일괄 편집하지 마십시오.
 
 1. **인벤토리**\
-   위의 범위 규칙을 충족하는 정렬된 경로 목록을 빌드합니다(저장소를 검색하고 `help/` 트리를 선호함). **생략** **`product-announcements`**&#x200B;에 있는 모든 경로, **[제외된 경로](#excluded-paths)**&#x200B;에 있는 모든 경로 및 **TOC/인덱스 페이지**&#x200B;와(과) 일치하는 **TOC/인덱스** 페이지를 범위 아래에 추가합니다. 나열된 파일에 미리보기 강조 표시가 없다고 하면 실행에서 제거하고 강제로 편집하지 않고 기준을 강화합니다.
+   a. **사용자에게 분기별 릴리스를 묻기** 미리 보기 강조 표시를 제거하고 있습니다(예: &quot;Q3 2026&quot; 또는 &quot;2026.07&quot;).\
+   b. **adobe-wiki MCP 도구를 사용하여 `https://wiki.corp.adobe.com/spaces/AWF/pages/3631617814/2026+Monthly+Release+Calendar`에서 릴리스 일정을 가져오기**. 찾기:
+   - **이전** 분기별 릴리스 `--since`의 **프로덕션 릴리스 →**.
+   - **target** 분기별 릴리스 `--until`의 **프로덕션 릴리스 →**.
+   - 분기별 릴리스는 &quot;분기별 릴리스 이름&quot; 열(예: 2026.01, 2026.04, 2026.07, 2026.10)로 식별됩니다.
+   - **현재 날짜가 4분기(10월~12월)인 경우:** 현재 연도의 일정을 가져온 후 사용자에게 다음 해의 릴리스 일정에 대한 URL을 제공하도록 요청한 다음 필요한 모든 분기별 프로덕션 날짜를 사용할 수 있도록 해당 URL도 가져오십시오.
+c. 단계 b의 프로덕션 릴리스 일자를 사용하여 다음을 실행합니다.
+
+   ```
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="Courtney" --name-only --pretty=format: \
+     -- "help/quicksilver/**/*.md" | sort -u
+   ```
+
+
+   d. 이러한 결과에서 **다음 중 하나 이상을 포함하는 파일로 필터링**: `class="preview"`, `{{highlighted-preview` 또는 미리 보기 표준 산문 — `highlighted information\|Preview environment\|not yet generally available`의 grep.\
+   e. **위의 TOC 규칙에 따라&#x200B;**`product-announcements`**아래의 모든 경로,**&#x200B;[&#x200B;제외된 경로&#x200B;](#excluded-paths)**및** TOC/index **페이지를 생략합니다**.\
+   f. 정렬된 결과 목록을 표시합니다. 나열된 파일에 미리보기 강조 표시가 없다고 하면 실행에서 제거하고 강제로 편집하지 않고 기준을 강화합니다.
 
 2. **시작**\
    목록의 **first** 문서(또는 사용자 이름 경로)로 시작할지 여부를 묻습니다.
