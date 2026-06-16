@@ -5,7 +5,7 @@ title: Adobe Workfront MCP 서버 구성
 description: 자연어 대화를 통해 Workfront과 작업할 수 있도록 Workfront 인스턴스 및 AI 아젠틱 플랫폼을 구성합니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 0445376ea187b589040c8fdc56ea0d11f44b0b37
+source-git-commit: f47b9ade625541cd095ee4fd7abb14b9295c4a9c
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 0%
@@ -290,3 +290,6 @@ Workfront 관리자와 AI 에이전트 플랫폼의 관리자 모두. Workfront 
 아니요. Workfront MCP 서버를 사용하려면 Adobe Identity Management System(IMS)에서 Workfront 인스턴스를 활성화해야 합니다. 인스턴스가 IMS에서 활성화되었는지 확실하지 않은 경우 Workfront 관리자에게 문의하십시오.
 
 +++ 
+
+
+
