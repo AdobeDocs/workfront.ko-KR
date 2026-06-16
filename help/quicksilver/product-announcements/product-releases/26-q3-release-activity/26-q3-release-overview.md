@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f348be922cc5d3e231621e09b67644492b0c80fb
+source-git-commit: 2ad27645345f35de1f6e4e10a6b9836a9f8bf6ce
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '2015'
 ht-degree: 2%
 
 ---
@@ -212,42 +212,41 @@ ht-degree: 2%
     </tbody>
 </table>
 
-<!--
 
-### Project enhancements
+
+### 프로젝트 개선 사항
 
 <table>
     <col style="width: 50%;" />
     <col style="width: 25%;" />
     <tbody>
         <tr>
-            <td><strong>Feature</strong>
+            <td><strong>기능</strong>
             </td>
-            <td><strong>Preview</strong></td>
-            <td><strong>Fast release</strong></td>
-            <td><strong>Quarterly</strong></td>
+            <td><strong>미리보기</strong></td>
+            <td><strong>빠른 릴리스</strong></td>
+            <td><strong>분기별</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
-                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">레거시 저장소 작업을 Adobe 클라우드 저장소 프로젝트로 전환</a><p><p>[!BADGE 해제 일정]{type=Neutral}</p></p>
+                <p>조직에서 레거시 Workfront 스토리지 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 이제 레거시 스토리지 작업을 Adobe 클라우드 스토리지 프로젝트로 전환할 수 있습니다.</p>
             </td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 12, 2026</p></td>
-            <td><p>June 12, 2026</p></td>
+            <td><p>2026년 6월 11일</p></td>
+            <td><p>2026년 6월 12일</p></td>
+            <td><p>2026년 6월 12일</p></td>
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Use a legacy storage template to create an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
-                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in some scenarios.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">레거시 저장소 템플릿을 사용하여 Adobe 클라우드 저장소 프로젝트를 만드십시오</a><p><p>[!BADGE 해제 일정]{type=Neutral}</p></p>
+                <p>조직에서 레거시 Workfront 스토리지 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 이제 레거시 스토리지 템플릿을 사용하여 일부 시나리오에서 Adobe 클라우드 스토리지 프로젝트를 생성할 수 있습니다.</p>
             </td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
+            <td><p>2026년 6월 11일</p></td>
+            <td><p>2026년 6월 11일</p></td>
+            <td><p>2026년 6월 11일</p></td>
         </tr>
     </tbody>
 </table>
 
--->
 
 ### 보고 개선 사항
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 1fa2eeee7a4acba12ca57781023878dee50f7035
+source-git-commit: 2ad27645345f35de1f6e4e10a6b9836a9f8bf6ce
 workflow-type: tm+mt
-source-wordcount: '14189'
+source-wordcount: '14203'
 ht-degree: 2%
 
 ---
@@ -474,6 +474,7 @@ ht-degree: 2%
          * [사용자 정의 영역 활성화](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [조직의 빠른 릴리스 활성화 또는 비활성화](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [조직에 Adobe 클라우드 스토리지 활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+         * [레거시 포트폴리오를 Adobe 클라우드 스토리지로 변환](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
          * [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [사용자 정의 현지화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
          * [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)

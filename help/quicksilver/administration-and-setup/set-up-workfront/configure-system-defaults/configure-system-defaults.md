@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
 workflow-type: tm+mt
-source-wordcount: 120
-ht-degree: 20%
+source-wordcount: 127
+ht-degree: 18%
 
 ---
 
@@ -48,4 +48,5 @@ ht-degree: 20%
 * [조직의 빠른 릴리스 활성화 또는 비활성화](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
 * [사용자 정의 현지화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
 * [조직에 Adobe 클라우드 스토리지 활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+* [레거시 포트폴리오를 Adobe 클라우드 스토리지로 변환](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
 * [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
