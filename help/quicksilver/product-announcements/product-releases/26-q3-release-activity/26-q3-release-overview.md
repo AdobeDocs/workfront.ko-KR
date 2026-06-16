@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: ea8b2a57504ffdbedcfeb56c47b9907647db6787
+source-git-commit: f348be922cc5d3e231621e09b67644492b0c80fb
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1901'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 >
 >| 월별 릴리스 | 분기별 릴리스 |
 >|----|----|
->| <ul><li>26.5 (2026년 5월 14일)</li><li>26.6 (2026년 6월 11일)</li><li>26.7 (2026년 7월 16일)</li></ul> | <ul><li>26.7 (2026년 7월 16일 15)</li></ul> |
+>| <ul><li>26.5 (2026년 5월 14일)</li><li>26.6 (2026년 6월 11일)</li><li>26.7 (2026년 7월 15일)</li></ul> | <ul><li>26.7 (2026년 7월 16일)</li></ul> |
 >
 >각 분기의 최종 릴리스(이번 분기 26.7)의 경우 빠른 릴리스 일정을 사용 중인 사용자는 하루 전(2026년 7월 15일)에 릴리스를 받게 됩니다.
 >
