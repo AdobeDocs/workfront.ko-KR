@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: 674
 ht-degree: 2%
 
 ---
@@ -189,20 +189,14 @@ Old:
    >조직에서 문서에 레거시 Workfront 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 다음과 같은 시나리오가 있습니다.
    >
    >
-   >* 기존 Adobe 스토리지 포트폴리오에 Workfront 클라우드 스토리지 프로젝트를 추가하고 포트폴리오에 첨부된 문서가 없으면 포트폴리오가 Adobe 클라우드 스토리지 포트폴리오로 변환됩니다.
-   >* 기존 Adobe 스토리지 포트폴리오에 Workfront 클라우드 스토리지 프로젝트를 추가하고 포트폴리오에 문서가 첨부되어 있으면 포트폴리오 문서 스토리지는 Workfront 스토리지에 유지됩니다. 그러나 기존 Workfront 저장소 아이콘 ![기존 Workfront 저장소 아이콘](assets/legacy-storage-project-icon.png)이(가) 포트폴리오에서 제거되었습니다.
-   >* 기존 Workfront 스토리지 프로젝트를 Adobe 클라우드 스토리지 포트폴리오에 추가할 수 없습니다.
+   >* 레거시 스토리지 프로젝트를 Adobe 클라우드 스토리지 포트폴리오에 추가하거나 Adobe 클라우드 스토리지 프로젝트를 레거시 스토리지 포트폴리오에 추가할 수 없습니다.
+   >* 레거시 스토리지 포트폴리오의 Adobe 클라우드 스토리지 템플릿에서 프로젝트를 생성할 수 없습니다.
+   >* Adobe 클라우드 스토리지 포트폴리오의 레거시 스토리지 템플릿에서 프로젝트를 만들 수 있지만 템플릿의 문서 및 폴더는 새 프로젝트에 추가되지 않습니다. 프로젝트는 Adobe 클라우드 스토리지를 받습니다.
    >
    >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
    >
    >모든 Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 있는 것은 아닙니다.
 
-   <!--
-    For preview/ prod release: replace all bullets (i think!!) in the Note with this:
-    * You cannot add a Legacy storage project to an Adobe cloud storage portfolio, or an Adobe cloud storage project to a Legacy storage portfolio. 
-    * You cannot create a project from an Adobe cloud storage template in a Legacy storage portfolio. 
-    * You can create a project from a Legacy storage template in an Adobe cloud storage portfolio, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
-    -->
 
 1. (선택 사항) 포트폴리오에 추가하지 않으려면 프로젝트 이름 오른쪽에 있는 **X** 아이콘을 클릭하여 목록에서 제거합니다.
 

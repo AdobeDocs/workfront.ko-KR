@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a454add7458fb8dc00de88ef685ede4e26383e35
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: 640
 ht-degree: 2%
 
 ---
@@ -174,22 +174,16 @@ old:
       >조직에서 문서에 레거시 Workfront 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 다음과 같은 시나리오가 있습니다.
       >
       >
-      >* Adobe 클라우드 스토리지 프로젝트를 레거시 Workfront 스토리지 프로그램에 추가하고 프로그램에 문서가 첨부되지 않은 경우 프로그램 및 해당 포트폴리오는 Adobe 클라우드 스토리지 개체로 변환됩니다.
-      >* 기존 Adobe 스토리지 프로그램에 Workfront 클라우드 스토리지 프로젝트를 추가하고 프로그램 또는 포트폴리오에 문서가 첨부되어 있으면 프로그램 또는 포트폴리오 문서 스토리지가 Workfront 스토리지에 유지됩니다. 그러나 레거시 Workfront 저장소 아이콘 ![레거시 Workfront 저장소 아이콘](assets/legacy-storage-project-icon.png)은(는) 프로그램 또는 포트폴리오(프로젝트를 이동하기 전에 문서가 첨부된 어느 것이든)에서 제거됩니다.
-      >* 기존 Workfront 스토리지 프로젝트를 Adobe 클라우드 스토리지 프로그램에 추가할 수 없습니다.
+      >* Adobe 클라우드 스토리지 프로그램에 레거시 스토리지 프로젝트를 추가하거나 레거시 스토리지 프로그램에 Adobe 클라우드 스토리지 프로젝트를 추가할 수 없습니다.
+      >* 레거시 스토리지 프로그램의 Adobe 클라우드 스토리지 템플릿에서 프로젝트를 생성할 수 없습니다.
+      >* Adobe 클라우드 스토리지 프로그램의 레거시 스토리지 템플릿에서 프로젝트를 만들 수 있지만 템플릿의 문서 및 폴더는 새 프로젝트에 추가되지 않습니다. 프로젝트는 Adobe 클라우드 스토리지를 받습니다.
       >
       >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
       >
       >모든 Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 있는 것은 아닙니다.
 
 
-      <!--
-        For preview/ prod release: replace all bullets (i think!!) in the Note with this:
-        * You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
-        * You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
-        * You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
-        * When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
-        -->
+
 
    1. (선택 사항) 프로그램에 추가하지 않으려면 프로젝트 이름 옆에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭합니다.
 

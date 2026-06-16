@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 3%
+source-wordcount: 289
+ht-degree: 4%
 
 ---
 
@@ -99,21 +99,10 @@ Old:
 
 >[!NOTE]
 >
->조직에서 문서에 레거시 Workfront 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 다음과 같은 시나리오가 있습니다.
->
->
->* 기존 Adobe 스토리지 포트폴리오에 Workfront 클라우드 스토리지 프로그램을 추가하고 포트폴리오에 첨부된 문서가 없으면 포트폴리오가 Adobe 클라우드 스토리지로 변환됩니다.
->* 기존 Adobe 스토리지 포트폴리오에 Workfront 클라우드 스토리지 프로그램을 추가하고 포트폴리오에 문서가 첨부되어 있으면 포트폴리오 문서 스토리지는 Workfront 스토리지에 유지됩니다. 그러나 기존 Workfront 저장소 아이콘 ![기존 Workfront 저장소 아이콘](assets/legacy-storage-project-icon.png)이(가) 포트폴리오에서 제거되었습니다.
->* 기존 Workfront 스토리지 프로그램을 Adobe 클라우드 스토리지 포트폴리오에 추가할 수 없습니다.
->
+>조직에서 문서에 레거시 Workfront 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 Adobe 클라우드 스토리지 프로그램을 레거시 스토리지 포트폴리오에 추가하거나 레거시 프로그램을 Adobe 클라우드 스토리지 포트폴리오에 추가할 수 없습니다.
+>Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
 >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 >
->모든 Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 있는 것은 아닙니다.
-
-<!--
-For preview/ Prod. release, rewrite the bullets above:
-* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
--->
 
 기존 프로그램을 다른 포트폴리오에 추가하려면 다음 작업을 수행하십시오.
 
