@@ -5,9 +5,9 @@ title: Adobe Workfront MCP 서버 구성
 description: 자연어 대화를 통해 Workfront과 작업할 수 있도록 Workfront 인스턴스 및 AI 아젠틱 플랫폼을 구성합니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f47b9ade625541cd095ee4fd7abb14b9295c4a9c
+source-git-commit: 3f59326d26a8c9ccd88f14d7d6459e486fcfe8c9
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1747'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ MCP 서버 액세스는 두 명의 별도 관리자에 의해 제어됩니다.
 
 >[!IMPORTANT]
 >
->현재 Claude Connector는 미국 지역의 Workfront MCP 서버로의 연결만 지원합니다.  EU 지역의 Workfront 인스턴스에 연결하려면 이 문서에서 [URL을 사용하여 클라우드 데스크톱에 연결](#connect-to-claude-desktop-with-a-url)을 참조하십시오.
+>현재 Claude Connector는 미국 지역의 Workfront MCP 서버로의 연결만 지원합니다.  EU 지역의 Workfront 인스턴스에 연결하려면 이 문서에서 [URL로 클라우드에 연결](#connect-to-claude-with-a-url)을 참조하십시오.
 
 +++ 를 확장하여 Workfront을 [!DNL Claude]에 연결하는 단계별 지침을 봅니다.
 
