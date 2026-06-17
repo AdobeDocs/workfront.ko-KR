@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1f811e3467e8efa7c048bdc148792c4b6f03416c
 workflow-type: tm+mt
-source-wordcount: 1792
-ht-degree: 1%
+source-wordcount: 1828
+ht-degree: 0%
 
 ---
 
@@ -77,6 +77,10 @@ ht-degree: 1%
 ## 사용자 정의 새로 고침 샌드박스 새로 고침
 
 사용자 정의 새로 고침 샌드박스에는 실제 프로덕션 데이터가 포함되어 있으며 이를 예약하기 전까지 새로 고쳐지지 않습니다. 언제든지 편리하게 일주일에 한 번처럼 자주 새로 고침을 예약할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>사용자 정의 샌드박스 환경 새로 고침은 프로덕션 환경에서만 새로 고쳐집니다. 샌드박스 환경에 대해 시점 복원을 수행하는 프로세스는 없습니다. 샌드박스 데이터를 업데이트하려면 프로덕션에서 표준 새로 고침을 예약하십시오.
 
 >[!NOTE]
 >
