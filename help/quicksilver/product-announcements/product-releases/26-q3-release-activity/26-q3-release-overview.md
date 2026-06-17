@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 2ad27645345f35de1f6e4e10a6b9836a9f8bf6ce
+source-git-commit: 17d081a7a071444416e8c7b6e9df16f173b23edc
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2095'
 ht-degree: 2%
 
 ---
@@ -125,6 +125,15 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Workfront 및 Frame.io를 사용하여 Adobe Express 템플릿에 대한 승인 요청</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>Frame.io 통합이 포함된 Adobe Express 및 Workfront은 Adobe Express에서 만들어진 콘텐츠에 구조화된 검토 및 승인을 제공합니다. 디자이너는 Workfront 승인 워크플로 템플릿을 Express 템플릿에 매핑할 수 있으므로 템플릿이 다시 혼합되면 게시 전에 자동으로 승인이 필요하므로 사전 구성된 Workfront 워크플로 및 Frame.io 뷰어를 통해 자산을 라우팅할 수 있습니다.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 6월 15일</p></td>
+            <td><p>2026년 6월 15일</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">새 문서 영역의 문서에 대한 요약 인쇄</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
