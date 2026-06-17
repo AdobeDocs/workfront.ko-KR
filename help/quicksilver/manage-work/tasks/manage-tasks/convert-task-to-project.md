@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
-source-wordcount: 1257
+source-wordcount: 1266
 ht-degree: 3%
 
 ---
@@ -114,7 +114,7 @@ Old:
    * 기존 Workfront 스토리지 작업은 기존 Workfront 스토리지 프로젝트를 만듭니다.
    * Adobe 클라우드 스토리지 작업은 Adobe 클라우드 스토리지 프로젝트를 만듭니다.
    * 기존 Workfront 스토리지 템플릿을 사용하여 Adobe 클라우드 스토리지 작업을 전환하면 Adobe 클라우드 스토리지 프로젝트가 만들어집니다.
-   * Adobe 클라우드 스토리지 템플릿을 사용하여 기존 Workfront 스토리지 작업을 전환하면 기존 Workfront 스토리지 프로젝트가 만들어집니다.
+   * Adobe 클라우드 스토리지 템플릿을 사용하여 기존 Workfront 스토리지 작업을 전환하면 Adobe 클라우드 스토리지 프로젝트가 만들어집니다. 문서와 해당 승인이 현재 프로젝트에 남아 있습니다.
 
      자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
@@ -122,10 +122,7 @@ Old:
      >
      >Workfront 인스턴스가 두 가지 유형의 문서 스토리지 모두에 액세스하지 못할 수 있습니다.
 
-     <!--
-     For preview/ prod - rewrite the last bullet in the note: 
-     * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
-     -->
+
 * 모든 하위 작업 및 문제의 상태 및 완료율이 유지됩니다.
 * 작업 할당자와 작업을 프로젝트로 전환하는 사용자는 프로젝트에서 공유 사용자가 됩니다.
 * 프로젝트 시작 일자가 작업의 시작 일자로 설정됩니다.

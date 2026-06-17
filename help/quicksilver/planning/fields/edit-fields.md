@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
 source-wordcount: 1087
 ht-degree: 0%
@@ -152,7 +152,8 @@ Old:
 * 필드를 저장한 후 다음 필드 요소의 구성을 편집할 수 있습니다.
 
    * 모든 필드의 이름 또는 설명
-   * 단일 선택 또는 다중 선택 필드의 옵션
+   * 단일 선택 또는 다중 선택 필드 <!--<span class="preview">and their default choices</span>-->의 옵션입니다.
+     <!--* <span class="preview">The default choices of a People field.</span>-->
    * 공식 필드의 표현식.
 
   >[!WARNING]
