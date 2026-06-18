@@ -9,7 +9,8 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
+autotag-review: '2026-06-18T17:43:58.800Z'
+TQID: 'https://experienceleague.adobe.com/qZvXwTMlCd5p08duYVqbyHpkML4oXtbijHuCzlukywg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 feature_v2:
@@ -23,10 +24,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 3340
+source-wordcount: 3361
 ht-degree: 0%
 
 ---
@@ -63,17 +65,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 >
 >작업에 사용자를 할당할 때 예약에 따라 가용성이 작업 및 문제의 계획 및 예상 일자에 영향을 줍니다. 일정에 대한 자세한 내용은 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
 
-## 고급 할당을 수행할 수 있는 Adobe Workfront 영역
-
-이 문서에서는 작업 또는 문제 헤더의 고급 할당에 액세스하는 방법에 대해 설명합니다.
-
-또한 Workfront의 다음 영역에서 고급 할당을 수행할 수 있습니다.
-
-* 목록 및 보고서에서 할당 필드가 보기에 표시됩니다.
-* 작업을 편집할 때 할당 섹션에서 다음을 수행합니다. 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하십시오. <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
-* 작업 또는 문제 헤더의 할당 영역에서 다음을 수행합니다.
-* 업무 균형자에서. 자세한 내용은 [업무 균형자를 사용하여 수동으로 작업 할당](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)을 참조하십시오.
-
 ## 액세스 요구 사항
 
 +++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
@@ -107,14 +98,27 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-## 고급 할당 만들기 - Workflow Ultimate 패키지
+## 고급 할당을 수행할 수 있는 Adobe Workfront 영역
 
-이 고급 할당 레이아웃은 작업에만 적용됩니다. 문제에 대해서는 [고급 할당 만들기 - 다른 모든 패키지](#create-advanced-assignments--all-other-packages)를 참조하십시오.
+이 문서에서는 작업 또는 문제 헤더의 고급 할당에 액세스하는 방법에 대해 설명합니다.
+
+또한 Workfront의 다음 영역에서 고급 할당을 수행할 수 있습니다.
+
+* 목록 및 보고서에서 할당 필드가 보기에 표시됩니다.
+* 작업을 편집할 때 할당 섹션에서 다음을 수행합니다. 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하십시오. <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
+* 작업 또는 문제 헤더의 할당 영역에서 다음을 수행합니다.
+* 업무 균형자에서. 자세한 내용은 [업무 균형자를 사용하여 수동으로 작업 할당](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)을 참조하십시오.
+
+고급 할당 만들기는 조직이 구매한 Workfront 패키지에 따라 다릅니다.
+
+## 워크플로우 Ultimate 패키지에 대한 고급 할당 만들기
+
+이 고급 할당 레이아웃은 작업에만 적용됩니다. 문제에 대해서는 이 문서의 [다른 모든 패키지에 대한 고급 할당 만들기](#create-advanced-assignments-for-all-other-packages) 섹션을 참조하십시오.
 
 >[!NOTE]
 >
 >이전의 고급 할당 경험은 기본값입니다. 고급 지정 창의 오른쪽 상단에 있는 버튼을 사용하여 새 경험을 수동으로 켜야 합니다.
->이전 경험에 대한 자세한 내용은 아래의 [고급 할당 만들기 - 기타 모든 패키지](#create-advanced-assignments--all-other-packages)를 참조하십시오.
+>이전 경험에 대한 자세한 내용은 이 문서의 [다른 모든 패키지에 대한 고급 할당 만들기](#create-advanced-assignments-for-all-other-packages) 섹션을 참조하십시오.
 
 1. 작업을 할당할 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **작업** 또는 **문제**&#x200B;를 클릭한 다음 목록에서 작업 이름을 클릭합니다.
@@ -134,7 +138,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    ![고급 클릭](assets/assignments-from-task-header-0825.png)
 
-   고급 지정 창이 나타납니다.
+   고급 지정 창이 열립니다.
 
    ![고급 할당 창](assets/advanced-assignments-031826.png)
 
@@ -330,7 +334,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    데이터 검토를 마쳤으면 왼쪽 상단의 화살표를 눌러 고급 지정 창으로 돌아갑니다.
 
-## 고급 할당 만들기 - 기타 모든 패키지
+## 다른 모든 패키지에 대한 고급 할당 만들기
 
 이 고급 할당 레이아웃은 작업과 문제 모두에 적용됩니다.
 

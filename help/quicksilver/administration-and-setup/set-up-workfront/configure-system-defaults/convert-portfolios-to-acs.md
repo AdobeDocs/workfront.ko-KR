@@ -7,7 +7,7 @@ description: 시스템 환경 설정의 스토리지 환경 설정 영역에서 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 # 레거시 포트폴리오를 Adobe 클라우드 스토리지로 변환
 
-Workfront 관리자는 시스템 환경 설정의 저장소 환경 설정 영역에서 기존 Workfront 스토리지 포트폴리오를 Adobe 클라우드 스토리지로 변환할 수 있습니다. 포트폴리오가 전환되면 다른 Adobe 클라우드 스토리지 포트폴리오와 동일하게 작동합니다.
+Workfront 관리자는 시스템 환경 설정의 스토리지 환경 설정 영역에서 기존 기존 Workfront 스토리지 포트폴리오를 Adobe 클라우드 스토리지로 변환할 수 있습니다. 포트폴리오가 전환되면 다른 Adobe 클라우드 스토리지 포트폴리오와 동일하게 작동합니다.
 
 변환된 포트폴리오의 동작 방식과 자식 개체가 영향을 받는 방법에 대한 자세한 내용은 [Adobe 클라우드 저장소의 Workfront으로 이동](/help/quicksilver/review-and-approve-work/workfront-storage.md)에서 [개체 이동성](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability)을(를) 참조하십시오.
 
@@ -52,6 +52,7 @@ Workfront 관리자는 시스템 환경 설정의 저장소 환경 설정 영역
 기존 Workfront 스토리지 포트폴리오를 변환하기 전에 다음 사항을 고려하십시오.
 
 * 전환은 포트폴리오 자체에만 영향을 줍니다. 기존 Workfront 스토리지를 사용하는 하위 프로젝트 및 프로그램은 기존 스토리지에 유지됩니다.
+
   >[!NOTE]
   >
   >하위 레거시 프로그램은 Adobe 클라우드 스토리지 프로젝트를 수동으로 추가하는 경우에만 Adobe 클라우드 스토리지로 자동으로 변환됩니다.
