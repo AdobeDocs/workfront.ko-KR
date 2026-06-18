@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,17 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
+## 선택 및 사용자 유형 필드에 대한 기본 선택 항목 추가
+
+>[!NOTE]
+>
+>미리 보기: 2026년 6월 18일>프로덕션 빠른 릴리스: 2026년 7월 15일>모두를 위한 프로덕션: 2026년 7월 16일
+
+이제 단일, 다중 선택 필드 또는 사람 유형 필드를 만들 때 이러한 필드의 기본값을 표시할 수 있습니다. 필드가 레코드에 표시될 때 기본값이 항상 적용됩니다.
+
+필드를 저장한 후 필드의 기본 설정을 변경할 수 있습니다. 레코드 작업 시 필드의 기본값을 바꿀 수 있습니다.
+
+자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 
 ## 테이블 보기의 인터페이스 개선 사항
 

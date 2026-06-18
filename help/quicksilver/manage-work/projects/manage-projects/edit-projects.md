@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: a3db8ef0f43743232324a55f3e6968a26ce61404
 workflow-type: tm+mt
-source-wordcount: 7980
+source-wordcount: 7995
 ht-degree: 1%
 
 ---
@@ -169,11 +169,12 @@ Old:
    >
    >Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정한 방법에 따라 프로젝트 세부 정보 영역의 필드가 재배열되거나 표시되지 않을 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오.
 
-   세부 정보 섹션에서 정보를 편집하려면 다음 작업을 수행하십시오.
+   **세부 정보** 섹션의 정보를 편집하려면 다음을 수행하십시오.
 
    1. (선택 사항) 모든 영역을 축소하려면 오른쪽 상단의 **모두 축소** 아이콘 ![모두 축소](assets/collapse-icon.png)을 클릭합니다.
-   1. (선택 사항 및 조건부) 영역이 축소되면 각 영역 옆에 있는 **오른쪽 방향 화살표** ![오른쪽 방향 화살표](assets/right-pointing-arrow.png)를 클릭하여 편집할 영역을 확장합니다.
-   1. 프로젝트 세부 정보 탭에서 정보를 편집하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
+   1. (선택 사항 및 조건부) 영역이 축소되면 각 영역 옆에 있는 **오른쪽 방향 화살표** ![오른쪽 방향 화살표](assets/right-pointing-arrow.png)를 클릭하여 편집할 영역을 확장합니다. 또는 오른쪽 상단의 **오른쪽 방향 화살표**&#x200B;를 클릭하여 모든 영역을 확장합니다.
+
+      프로젝트 세부 정보 탭에서 정보를 편집하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
       * [프로젝트 개요 영역의 정보를 관리합니다](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [프로젝트 재무 영역에서 정보 관리](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
