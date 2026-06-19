@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
@@ -130,14 +130,21 @@ Workfront Planning API 사양은 [Workfront Planning API](https://developer.adob
 >
 >미리 보기: 2026년 5월 28일>프로덕션 빠른 릴리스: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
 
+
 이제 개별 레코드 권한을 조정하여 레코드 종류 내에서 관리할 수 있는 사용자를 제어할 수 있습니다.
 
-사용자는 기본적으로 작업 영역 및 레코드 유형에서 레코드 권한을 상속합니다. 레코드 유형 권한이 있는 선택 사용자만 특정 레코드에만 권한을 관리하려면 선택 레코드에 대해 상속된 권한을 비활성화하고 해당 사용자만 해당 레코드에 대한 관리 액세스 권한을 부여할 수 있습니다. 하나의 레코드에 대한 권한 또는 여러 레코드에 대한 권한을 동시에 일괄 조정할 수 있습니다.
+기본적으로 사용자는 작업 영역 및 레코드 유형에서 레코드 권한을 상속합니다. 이제 특정 레코드에 대해 상속된 권한을 재정의하여 사용자 하위 집합에 대한 보기 또는 관리 액세스 권한을 부여할 수 있습니다. 권한 무시는 개별 레코드에 적용되거나 여러 레코드에서 일괄적으로 업데이트될 수 있습니다.
 
-사용자에게 다음과 같은 권한 수준을 부여할 수 있습니다.
+<!-- 
+Laurel asked for this to be replaced with the above: 
 
-* 보기
-* 관리
+Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
+
+You can give users the following permissions levels: 
+
+* View 
+* Manage 
+-->
 
 >[!NOTE]
 >
