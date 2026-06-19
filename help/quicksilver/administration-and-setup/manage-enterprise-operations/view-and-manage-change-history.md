@@ -7,21 +7,27 @@ description: 변경 기록을 사용하면 Workfront 객체에 대한 변경 사
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
+source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 6%
+source-wordcount: '403'
+ht-degree: 4%
 
 ---
 
 # 변경 내역 보기 및 관리
 
-변경 기록을 사용하면 다음과 같은 속성을 포함하여 Workfront 객체에 대한 변경 사항 로그를 볼 수 있습니다.
+설정의 변경 추적 영역에서 감사 로그를 포함한 변경 내역을 볼 수 있습니다.
 
-* 오브젝트
-* 오브젝트 유형
-* 변경 유형(작업)
-* 특정 사용자, API, Workfront Fusion, AI LLM 또는 Workfront 시스템과 같은 변경 사항의 Source
+* **감사 로그**는 사용자가 트리거한 변경 사항입니다.
+감사 로그 및 감사 로그 영역에 대한 자세한 내용은 [감사 로그 개요](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)를 참조하십시오.
+* **구성**은(는) 변경 내용 목록에 대해 추적 중인 필드를 표시합니다.
+구성은 현재 정보로만 사용할 수 있으며 변경할 수 없습니다. 추적되는 필드를 변경할 수 있는 기능은 가까운 시일 내에 제공될 예정입니다.
+* 변경 내역 목록을 사용하면 다음과 같은 속성을 포함하여 Workfront 객체에 대한 변경 사항 로그를 볼 수 있습니다.
+
+   * 오브젝트
+   * 오브젝트 유형
+   * 변경 유형(작업)
+   * 특정 사용자, API, Workfront Fusion, AI LLM 또는 Workfront 시스템과 같은 변경 사항의 Source
 
 ## 액세스 요구 사항
 
@@ -41,7 +47,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td>액세스 수준 구성</td> 
-   <td>[!UICONTROL 등급 카드]에 대한 액세스 편집</td> 
+   <td>변경 기록을 보려면 Workfront 관리자여야 합니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,9 +56,28 @@ ht-degree: 6%
 
 +++
 
+## 감사 로그 보기 및 관리
 
+감사 로그를 보고 관리하려면 [감사 로그 보기 및 내보내기](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)를 참조하세요.
 
-## 변경 내역 보기
+## 변경 내용 추적을 위한 구성 영역 보기
+
+>[!NOTE]
+>
+>구성은 현재 정보로만 사용할 수 있으며 변경할 수 없습니다. 추적되는 필드를 변경할 수 있는 기능은 가까운 시일 내에 제공될 예정입니다.
+
+추적되는 변경 유형을 보려면 다음과 같이 하십시오.
+
+{{step-1-to-setup}}
+
+1. 왼쪽 패널에서 **변경 내용 추적** ![변경 내용 아이콘](assets/change-history-icon.png)을 클릭합니다.
+1. **구성**&#x200B;을 클릭합니다.
+
+   필드는 오브젝트 유형별로 그룹화되어 표시됩니다.
+
+1. 특정 개체 아래에 필드를 표시하려면 개체 유형 옆에 있는 드롭다운 화살표를 클릭합니다.
+
+## 변경 내역 목록 보기
 
 Workfront 관리자는 설정 영역에서 변경 내용을 볼 수 있습니다.
 
@@ -74,16 +99,6 @@ Workfront 관리자는 설정 영역에서 변경 내용을 볼 수 있습니다
 1. 열을 추가하거나 제거하려면 향상된 목록 사용 문서에서 [열 관리자로 열 추가 및 제거](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)를 참조하십시오.
 1. 행 높이를 조정하려면 향상된 목록 사용 문서에서 [보기에서 행 높이 변경](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view)을 참조하십시오.
 
-## 사용 가능한 변경 유형 보기
-
-추적되는 변경 유형을 보려면 다음과 같이 하십시오.
-
-{{step-1-to-setup}}
-
-1. 왼쪽 패널에서 **변경 내용 추적** ![변경 내용 아이콘](assets/change-history-icon.png)을 클릭합니다.
-1. **구성**&#x200B;을 클릭합니다.
-
-   필드는 객체별로 그룹화되어 표시됩니다.
 
 
 
