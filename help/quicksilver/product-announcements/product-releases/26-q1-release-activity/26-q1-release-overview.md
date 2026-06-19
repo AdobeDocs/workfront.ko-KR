@@ -24,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 705031456bf63cdc25a56bd7faaf95b2501d63bb
 workflow-type: tm+mt
 source-wordcount: 3163
 ht-degree: 11%
@@ -596,7 +596,7 @@ Workfront API 버전 21은 2025년 10월 23일에 릴리스되었습니다. API 
 >
 >이 API 버전 변경은 기존 API 호출에 영향을 줄 수 있는 획기적인 변경 기능을 제공합니다. 이는 API 버전 21이 이벤트 구독 버전 2를 사용한다는 사실에 기인합니다.
 >
-> 다중 선택 필드의 경우, 이벤트 구독 버전 2는 항상 배열로 전송합니다. 두 개 이상의 값을 선택한 경우 버전 1에서 배열을 전송했습니다. 값을 하나만 선택한 경우 문자열을 보냈습니다.
+> 다중 선택 필드의 경우, 이벤트 구독 버전 2는 항상 배열로 전송됩니다. 두 개 이상의 값을 선택한 경우 버전 1에서 배열을 전송했습니다. 값을 하나만 선택한 경우 문자열을 보냈습니다.
 
 새로운 기능 및 업데이트 내용은 [API 버전 21의 새로운 기능](/help/quicksilver/wf-api/api/new-api-version-21.md)을 참조하세요.
 
