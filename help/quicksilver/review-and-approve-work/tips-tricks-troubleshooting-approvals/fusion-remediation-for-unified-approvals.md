@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >이제 Adobe Workfront Fusion에서 Workfront 통합 검토 및 승인 커넥터를 사용할 수 있습니다. Adobe 클라우드 스토리지와 Fusion을 사용할 때 보다 간단하고 안정적인 시나리오를 위해서는 이 커넥터를 사용하는 것이 좋습니다.
 >
->자세한 내용 및 지침은 Adobe Workfront Fusion 설명서의 [Workfront 통합 검토 및 승인 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)을 참조하십시오.
+>자세한 내용 및 지침은 Adobe Workfront Fusion 설명서의 [Workfront 통합 검토 및 승인 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)을 참조하십시오.
 
 이 문서를 사용하여 시나리오를 인벤터리하고 분류하여 Adobe 클라우드 스토리지를 고려하여 Fusion 시나리오를 업그레이드하는 최상의 방법을 이해합니다.
 
