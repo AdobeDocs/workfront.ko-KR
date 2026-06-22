@@ -9,11 +9,16 @@ exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/L-D5-cS3SHl0X-4Dv2QfDju016zQKD52MHU5r3PZqvM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 855
@@ -239,7 +244,7 @@ Old:
 
 1. (선택 사항) 썸네일을 저장하기 전에 제거하려면 이미지 오른쪽에 있는 **제거** 아이콘 ![이미지 제거 아이콘](assets/remove-image-icon.png)을 클릭합니다.
 
-1. **이미지 사용**을 클릭하여 이미지를 축소판으로 추가합니다.
+1. **이미지 사용**&#x200B;을 클릭하여 이미지를 축소판으로 추가합니다.
 **레코드 썸네일** 상자가 닫힙니다.
 썸네일은 레코드가 표시되는 Workfront Planning 영역에 표시됩니다.
 
