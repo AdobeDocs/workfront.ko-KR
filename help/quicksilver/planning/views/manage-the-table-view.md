@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: 6148
+source-wordcount: 6307
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 # 표 보기 관리
 
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
@@ -745,16 +745,20 @@ To sort grouped records:
    1. (선택 사항) 일치 항목이 두 개 이상 있는 경우 검색 키워드 오른쪽에 있는 위쪽 및 아래쪽 화살표를 클릭하여 테이블에서 모든 일치 항목을 찾습니다.
 
    1. 검색 키워드를 지우려면 검색 상자에서 **x** 아이콘을 클릭합니다.
-<!--    
-1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-    * **MIN**: Displays the lowest value from all the cells in the column. 
-    * **MAX**: Displays the highest value from all the cells in the column. 
-    * **AVG**: Displays the average value of all the cells in the column. 
+1. 이러한 필드 유형으로 형식이 지정된 숫자, 통화, 백분율 및 공식 필드의 경우 열 하단의 집계 드롭다운 메뉴를 확장하고 다음 옵션 중에서 선택합니다.
 
-    The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
--->
+   * **SUM**: 열에 있는 모든 셀의 합계를 표시합니다. 이것이 기본 선택입니다.
+   * **MIN**: 열의 모든 셀에서 가장 낮은 값을 표시합니다.
+   * **MAX**: 열의 모든 셀에서 가장 높은 값을 표시합니다.
+   * **AVG**: 열에 있는 모든 셀의 평균 값을 표시합니다.
+
+   집계자를 사용할 때는 다음 사항을 고려하십시오.
+
+   * 열의 집계 행이 동결되고 보기 설정의 일부입니다.
+   * 보기 관리자는 합계를 선택할 수 있으며, 이 합계는 다른 사용자와 보기를 공유할 때 보기와 공유됩니다.
+   * 뷰어는 집계를 수정할 수 있지만 보기와 함께 저장되지는 않습니다.
+   * 공용 공유 보기는 수정할 수 없는 저장된 집계자와 공유됩니다.
 
 ### 행(또는 레코드) 추가 {#add-rows-1}
 
