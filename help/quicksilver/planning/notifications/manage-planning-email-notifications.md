@@ -9,18 +9,12 @@ exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/4MvX3EX6KfcXwk5lrq6bRU7HC6gzAI1Zgi49TMZbP7M
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 611
 ht-degree: 0%
@@ -30,7 +24,7 @@ ht-degree: 0%
 # Adobe Workfront Planning 이메일 알림 관리
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -156,7 +150,7 @@ OLD:
 
 ## 다른 사용자가 귀하를 댓글에 태그 지정할 때 이메일 알림 관리
 
-1. (조건부 및 선택 사항) 다른 사용자가 귀하 또는 귀하의 팀에 레코드에 대한 댓글에 태그를 지정한 후 태그 및 댓글을 알리는 이메일 알림으로 이동합니다. 이메일 발신자는 Adobe Experience Cloud입니다.
+1. (조건부 및 선택 사항) 다른 사용자가 귀하 또는 귀하의 팀에 레코드에 대한 댓글에 태그를 지정한 후 태그 및 댓글을 알리는 이메일 알림으로 이동합니다. 이메일을 보낸 사람은 Adobe Experience Cloud입니다.
 
    ![전자 메일 알림 예](assets/email-notification-example.png)
 
@@ -169,13 +163,13 @@ Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe 
 
 ## 권한 요청 및 부여 시 이메일 알림 관리
 
-1. (조건부 및 선택 사항) 누군가가 Planning 객체에 대한 액세스 권한을 요청하거나 부여한 후 권한 요청을 알리는 이메일로 이동합니다. 이메일 발신자는 Adobe Experience Cloud입니다.
+1. (조건부 및 선택 사항) 누군가가 Planning 객체에 대한 액세스 권한을 요청하거나 부여한 후 권한 요청을 알리는 이메일로 이동합니다. 이메일을 보낸 사람은 Adobe Experience Cloud입니다.
 
 1. (선택 사항) 전자 메일 내부의 **Workfront** 상자에 있는 메시지를 클릭합니다.
 
    권한을 요청한 개체가 Workfront에서 열립니다.
 
-1. (조건부) 사용 가능한 경우 **모든 알림 보기**&#x200B;를 클릭합니다.
+1. (조건부) 사용 가능한 경우 **모든 알림 보기**를 클릭합니다.
 Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
 
 

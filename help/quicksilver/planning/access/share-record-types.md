@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 # 레코드 유형 공유
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -194,7 +194,7 @@ Old:
 
    **공유** 상자가 열립니다.
 
-   ![&#128279;](assets/permissions-for-record-types-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드 형식에 대한 사용 권한
+   ](assets/permissions-for-record-types-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드 형식에 대한 ![사용 권한
 
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다.  작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자는 레코드 유형을 볼 수 있습니다.
 
