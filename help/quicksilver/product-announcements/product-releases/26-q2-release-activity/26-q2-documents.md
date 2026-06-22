@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Content Advisor를 사용하여 다음과 같은 작업을 수행할 수 있습�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
-## AI 공동 작업자를 지원하기 위해 GenStudio Foundations 프로비저닝 활성화됨
+## AI 공동 작업자를 지원하기 위해 GenStudio Foundation 프로비저닝 활성화됨
 
 >[!NOTE]
 >

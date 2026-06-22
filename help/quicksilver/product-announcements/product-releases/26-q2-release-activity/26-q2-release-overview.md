@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b18e58368da31806fa917ad688e7b8f3c7d0d91e
+source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
 workflow-type: tm+mt
 source-wordcount: 2620
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 3%
     </tr>
    <tr>
         <td>
-            AI 공동 작업자 </a>을(를) 지원하기 위해 <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundations 프로비저닝을 사용하도록 설정했습니다.<p></p>
+            AI 공동 작업자 </a>을(를) 지원하도록 <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundation 프로비저닝을 사용하도록 설정했습니다.<p></p>
             <p>2026년 3월 31일에 모든 Workfront 고객이 GenStudio Foundation에 대해 프로비저닝되었으며, Admin Console 시스템 관리자는 이 추가 기능을 알리는 이메일을 받게 됩니다. 이 제품은 Workfront 고객이 AI 공동 작업자 릴리스에 필요한 경우 브랜드에 Workfront 고객에 대한 액세스 권한을 부여할 수 있도록 만 제공됩니다. 제품 자체는 브랜드 를 위한 액세스 메커니즘일 뿐이며 GenStudio Foundation 제품에서 사용할 수 있는 추가 기능은 없습니다.</p><p>고객은 이 신제품에 대해 요금을 받지 않습니다.</p>
         </td>
         <td><p>2026년 3월 31일</p></td>
