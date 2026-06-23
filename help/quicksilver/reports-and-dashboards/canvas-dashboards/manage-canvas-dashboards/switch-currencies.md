@@ -5,25 +5,31 @@ title: 캔버스 대시보드의 통화 필드 사용
 description: 캔버스 대시보드의 통화 필드를 사용할 수 있습니다.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
+exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '551'
 ht-degree: 4%
 
 ---
-
 
 # 캔버스 대시보드의 통화 필드 사용
 
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원 팀에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하십시오.<br>
 >다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
 >* Azure
 >* Google Cloud 플랫폼
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ## 액세스 요구 사항
 
@@ -38,7 +44,7 @@ ht-degree: 4%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>임의 </p> 
+<p>Any </p> 
    </td> 
 <tr> 
  <tr> 
@@ -125,7 +131,7 @@ ht-degree: 4%
 
 ## 제한 사항
 
-다음 표에서는 [설정]의 [환율] 영역에 통화가 정의된 경우의 제한 사항에 대해 설명합니다.
+다음 표에서는 [설정]의 [환율] 영역에서 통화가 정의되는 경우의 제한 사항을 설명합니다.
 
 <table> 
 <tr>
@@ -146,7 +152,7 @@ ht-degree: 4%
 <li>대시보드에 기본 통화 할당(생성 시 또는 대시보드 편집 시)</li>
 <li>대시보드 수준 통화 토글을 확인하고 사용하십시오.</li>
 <li>캔버스 차트, KPI 또는 테이블 보고서에서 보기에 대한 특정 통화 잠금</li>
-<li>캔버스 차트, KPI 및 테이블 보고서에서 Planning 통화 필드를 사용합니다.</li>
+<li>캔버스 차트, KPI 및 테이블 보고서에서 Planning 통화 필드를 사용합니다. <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td> 
 </tr>
@@ -164,12 +170,7 @@ ht-degree: 4%
 </td>
 <td><ul>
   <li>캔버스 차트, KPI 및 테이블 보고서에서 사용자 지정 데이터 통화 필드를 사용합니다.</li>
-  <li>캔버스 차트, KPI 및 테이블 보고서에서 Planning 통화 필드를 사용합니다.</li>
+  <li>캔버스 차트, KPI 및 테이블 보고서에서 Planning 통화 필드를 사용합니다. <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td>
 </tr></table>
-
-
-
-
-

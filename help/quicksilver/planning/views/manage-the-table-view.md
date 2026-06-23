@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: 6307
+source-wordcount: 6353
 ht-degree: 1%
 
 ---
@@ -622,7 +622,7 @@ To sort grouped records:
 
 <div class="preview">
 
-## 미리보기 환경에서 목록 보기 관리
+## 미리보기 환경에서 테이블 보기 관리
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
@@ -946,17 +946,15 @@ To sort grouped records:
 
 ### 행 색상 추가
 
-1. (선택 사항) **행 색**&#x200B;을 클릭하여 조건을 정의하고 표 행에 다른 색 구성을 선택합니다.
+1. (선택 사항) **행 색**&#x200B;을 클릭하여 조건을 정의하고 표 행에 다른 색을 구성합니다.
 
-1. **색상 추가**&#x200B;를 클릭한 다음 필드를 검색하여 목록에 표시되면 선택합니다. 행의 색상을 정의할 값이 있는 필드입니다.
+1. **색상 추가**&#x200B;를 클릭한 다음 필드를 검색하여 목록에 표시되면 선택합니다. 행 또는 기본 필드의 색상을 정의할 값이 있는 필드입니다.
 
    예를 들어 상태가 활성인 캠페인을 녹색으로 표시하려면 **상태**&#x200B;를 선택한 다음 필드에 대한 수정자와 값을 선택합니다.
 
-   ![활성 상태 및 기본 색상 선택을 가진 행 색상 상자](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
 1. 선택한 조건의 왼쪽 위 모서리에 있는 색상 피커에 대한 드롭다운 메뉴를 클릭하여 조건에 대한 색상을 선택한 다음 색상 피커 상자 외부를 클릭하여 닫습니다.
 
-   ![행 색 상자의 드롭다운 색 선택 메뉴 강조 표시](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![활성 상태 및 기본 색상 선택을 가진 행 색상 상자](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. (선택 사항) **조건 추가**&#x200B;를 클릭하여 첫 번째 조건 집합에 더 많은 필드와 값을 추가합니다
 
@@ -966,16 +964,27 @@ To sort grouped records:
 
    예를 들어 새 조건 세트를 정의하여 캠페인을 계획 상태에서 노란색으로 표시할 수 있습니다.
 
-   ![활성 및 계획 상태 사용자 지정 색이 있는 행 색 상자](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   ![활성 및 계획 상태 사용자 지정 색이 있는 행 색 상자](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+
+   >[!TIP]
+   >
+   >두 개의 다른 필드를 선택한 경우 행에 적용할 색상에 대해 마지막 규칙이 먼저 적용됩니다.
+
 
 1. (선택 사항) **행 색** 상자의 오른쪽 위 모서리에 있는 **전체 행에 적용** 설정을 켭니다. 조건이 충족되는 전체 행이 선택한 색상으로 자동으로 표시됩니다.
 
    >[!NOTE]
    >
-   >**전체 행에 적용** 설정이 꺼지면 기본 필드 셀의 배경만 선택한 색으로 표시됩니다. 이 설정은 기본적으로 꺼져 있습니다.
+   >* **전체 행에 적용** 설정이 꺼지면 기본 필드 셀의 배경만 선택한 색으로 표시됩니다. 이 설정은 기본적으로 꺼져 있습니다.
    >
+   >* 테이블에 그룹화를 적용하면 전체 행에 적용 설정이 흐리게 표시됩니다.
 
 1. **행 색** 상자 바깥쪽을 클릭하여 닫습니다. 색상이 자동으로 적용됩니다.
+
+   >[!TIP]
+   >
+   >셀에만 색상을 적용하도록 선택한 경우 기본 필드만 강조 표시됩니다.
+
 
 ### 실시간 현재 상태 표시기 활성화
 

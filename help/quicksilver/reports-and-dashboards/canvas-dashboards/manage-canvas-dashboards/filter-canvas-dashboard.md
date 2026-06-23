@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: 807
 ht-degree: 2%
 
 ---
@@ -36,6 +36,12 @@ ht-degree: 2%
 >* Amazon Web Services에 대한 자체 키 가져오기
 >* Azure
 >* Google Cloud 플랫폼
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 프롬프트가 포함된 캔버스 대시보드에 필터를 적용할 수 있습니다. 프롬프트는 추가 필터링 기준을 적용하는 필터 수정자 역할을 하므로 결과를 더 좁힐 수 있습니다. 이러한 프롬프트는 필터를 적용할 때마다 수정될 수 있으므로 대시보드나 각 개별 보고서의 기본 필터 기준을 편집할 필요 없이 표시된 결과를 조정할 수 있습니다.
@@ -117,7 +123,7 @@ ht-degree: 2%
 
 1. 대시보드 세부 정보 페이지의 왼쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다. 필터 사이드 패널이 열립니다.
 
-1. **필터 편집**&#x200B;을 선택합니다. **대시보드 필터** 대화 상자가 열립니다.
+1. &#x200B;<!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>--> 클릭 **필터 편집**. **대시보드 필터** 대화 상자가 열립니다.
 
 1. (선택 사항) 규칙을 추가하려면 아래 단계를 수행합니다.
 
@@ -126,7 +132,7 @@ ht-degree: 2%
       ![편집 아이콘](assets/edit-icon.png)
 
    1. **조건 추가**&#x200B;를 클릭한 후 다음 정보를 추가하십시오.
-      * 필터링 기준으로 사용할 필드를 선택합니다.
+      * 필터링할 필드를 선택하려면 **필드 선택**&#x200B;을 클릭하세요.
       * 옵션(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
 
    1. (선택 사항) 다른 필터링 기준 집합을 추가하려면 **필터 그룹 추가**&#x200B;를 클릭합니다. 세트 사이의 기본 연산자는 AND입니다. 연산자를 클릭하여 OR로 변경합니다.
@@ -144,7 +150,7 @@ ht-degree: 2%
 
 1. 프롬프트를 추가하려면 아래 단계를 수행합니다.
 
-   1. **프롬프트 추가**&#x200B;를 선택합니다. 새 필드가 화면 오른쪽에 나타납니다.
+   1. **프롬프트 추가**&#x200B;를 클릭합니다. 새 필드가 화면 오른쪽에 나타납니다.
 
    1. **레이블 사용자 지정** 필드에 레이블을 입력합니다.
 
@@ -170,6 +176,19 @@ ht-degree: 2%
    1. (선택 사항) 다른 필터링 기준 집합을 추가하려면 **필터 그룹 추가**&#x200B;를 클릭합니다. 세트 사이의 기본 연산자는 AND입니다. 연산자를 클릭하여 OR로 변경합니다.
 
 1. 대시보드에 필터를 적용하려면 **저장**&#x200B;을 클릭하세요.
+
+   <!--
+    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
+        <div class="preview">
+        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
+            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
+        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
+            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
+            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
+        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
+        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
+        </div> 
+    -->
 
 1. [파트3: 대시보드 프롬프트 적용](#step-3-apply-a-dashboard-prompt)으로 진행합니다.
 

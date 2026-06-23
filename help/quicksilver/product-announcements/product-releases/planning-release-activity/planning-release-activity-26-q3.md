@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2038'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,16 @@ There are no features released during the Third Quarter Release for 2026. When f
 이 문서에서는 2026년 3분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 행 색상 컨트롤 인터페이스 개선
+
+>[!NOTE]
+>
+>미리 보기: 2026년 6월 22일>프로덕션 빠른 릴리스: 2026년 7월 15일>모두를 위한 프로덕션: 2026년 7월 16일
+
+표 보기에서 행 색상 컨트롤의 모양과 느낌을 업데이트했습니다.
+
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
 ## 선택 및 사용자 유형 필드에 대한 기본 선택 항목 추가
 

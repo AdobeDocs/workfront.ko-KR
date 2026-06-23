@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 1301
+source-wordcount: 1299
 ht-degree: 7%
 
 ---
@@ -221,8 +221,8 @@ KPI 보고서 예제에 대한 자세한 내용은 [검토 및 승인을 위한 
 
 **KPI 작성** 섹션의 **섹션** 드롭다운은 테이블 보고서를 작성할 때 개체를 더 쉽게 찾을 수 있도록 필드 선택기의 선택 범위를 좁히도록 설계되었습니다. 시작하려면 기본 엔티티 객체를 선택합니다.
 
-* **모든 섹션**: Workfront Workflow 및 Workfront Planning의 모든 개체 유형.
-* **Workfront 개체**: 기본 Workfront 워크플로 개체.
+* **모든 섹션**: Workfront 및 Workfront Planning의 모든 개체 유형.
+* **Workfront 개체**: 기본 Workfront 개체.
 * **계획 레코드 종류**: Workfront Planning에 정의된 사용자 지정 레코드 종류.
 
 ![섹션 드롭다운](assets/sections-dropdown.png)
