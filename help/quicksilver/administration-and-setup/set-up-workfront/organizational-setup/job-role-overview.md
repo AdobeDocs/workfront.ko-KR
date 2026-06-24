@@ -22,9 +22,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: 440
 ht-degree: 3%
 
 ---
@@ -75,6 +75,4 @@ ht-degree: 3%
   >사용자에게 사용자 프로필에 레이아웃 템플릿이 할당된 경우 해당 템플릿은 기본 작업 역할에 할당된 템플릿보다 우선합니다. 자세한 내용은 [레이아웃 템플릿에 사용자 할당](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
 
 * [!DNL Adobe Workfront Scenario Planner]을(를) 사용할 때 리소스의 가용성을 관리하기 위해 계획 및 이니셔티브에 작업 역할을 할당할 수 있습니다. [!DNL Scenario Planner]에 대한 추가 라이선스가 필요합니다. 자세한 내용은 [시작하기 [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md)를 참조하십시오.
-* 다른 국가의 자원으로 작업할 때 유효 일자 작업 역할 비율에 대한 통화를 변경할 수 있습니다. 이를 통해 작업 항목에 대한 보다 정확한 비용 및 수익 금액을 얻을 수 있습니다.
 
-  자세한 내용은 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
