@@ -7,13 +7,11 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
 TQID: https://experienceleague.adobe.com/LMlcsu55ylObbTjdopGzptkfOJ73DDdlc8qKsVGPOWM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
 workflow-type: tm+mt
-source-wordcount: 184
+source-wordcount: 174
 ht-degree: 1%
 
 ---
@@ -43,10 +41,16 @@ Beta에서 사용할 수 있는 기능은 일부 고객에게는 제공되지 �
 
   자세한 내용은 [Workfront 콘텐츠 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)을 참조하세요.
 
-* Adobe Workfront Planning Designer은 폐쇄된 Beta에서 사용할 수 있습니다. 이 프로그램에 대한 액세스를 요청하기 위해 이메일을 보낼 수 있습니다.
+* Adobe Workfront Planning Designer은 폐쇄된 Beta에서 사용할 수 있습니다.
 
   자세한 내용은 [Adobe Workfront Planning Designer 시작](/help/quicksilver/planning/general/planning-ai-designer.md)을 참조하십시오.
 
+<!--
+
+* Adobe Workfront Planning with Catalyze is available in Closed beta.
+
+    For information, see [Get started with Adobe Workfront Planning with Catalyze](LINK HERE)
+-->
 
 <!--
 
@@ -55,7 +59,7 @@ drafted for later when we start releasing features for the commenting experience
 The features described in this page are currently available as part of beta programs. Features that are available in beta might not be available to all customers. 
 
 
-## New commenting exprience Beta
+## New commenting experience Beta
 
 * [New commenting experience](../betas/new-commenting-experience-beta/unified-commenting-experience.md)
 * [New commenting experience beta release activity](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
