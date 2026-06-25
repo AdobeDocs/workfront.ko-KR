@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 3d4ba795c0f6098e71ee5510680d4d20ca2c9e1d
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1434'
 ht-degree: 1%
 
 ---
 
 # 등급 카드 관리
+
+{{highlighted-preview}}
 
 요금 카드는 작업을 완료할 작업 역할에 대해 시간당 요금이 정의된 고객과의 계약 계약을 나타냅니다. 요금 카드에서 에이전시, 위치 또는 비용 부서와 같은 속성을 기준으로 작업 역할당 여러 청구 요금을 정의할 수 있습니다. 고유 비율 속성은 설정 영역에서 구성됩니다. 자세한 내용은 [비율 특성 정의](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)를 참조하십시오.
 
@@ -139,6 +141,14 @@ ht-degree: 1%
    >[!NOTE]
    >
    >각 비율은 역할 및 속성의 조합과 연결되어 고유 비율을 만들기 때문에 비율을 편집할 때 역할 및 속성을 변경할 수 없습니다.
+
+<div class="preview">
+
+1. 유효일자 환율 목록의 특정 위치에 환율을 추가하려면 환율 위로 마우스를 가져간 후 환율 이름의 오른쪽에 있는 **자세히** 메뉴를 선택하십시오. 그런 다음 **위에 행 삽입** 또는 **아래에 행 삽입**&#x200B;을 선택합니다.
+
+   새 청구 요금에 대한 라인이 배치된 위치에 추가된 청구 요금 편집 상자가 나타납니다. 위 또는 아래에 행을 추가하기 위해 선택한 속도는 파란색 선으로 강조 표시됩니다. 새 청구 요금을 추가하고 필요에 따라 기존 청구 요금의 유효 날짜를 조정한 다음 **저장**&#x200B;을 클릭합니다.
+
+</div>
 
 1. 요금 카드에서 청구 요금을 삭제하려면 요금 옆에 있는 확인란을 선택하고 작업 표시줄에서 [!UICONTROL **삭제**]&#x200B;를 클릭합니다.
 1. 비율을 잠그려면 비율 옆에 있는 확인란을 선택하고 작업 표시줄에서 [!UICONTROL **잠금**]&#x200B;을 클릭합니다.
