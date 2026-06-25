@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0ae6286f0c76f638358839603fba1301d5557d83
 workflow-type: tm+mt
-source-wordcount: 126
+source-wordcount: 133
 ht-degree: 0%
 
 ---
@@ -43,4 +43,5 @@ ht-degree: 0%
 * [프로젝트 템플릿 공유](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [프로젝트에서 템플릿 정보 제거](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
 * [프로젝트 템플릿 삭제](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)
+* [템플릿에 요금 카드 첨부](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
 * [템플릿의 시작 및 완료 일수 개요](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)

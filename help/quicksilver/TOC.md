@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 5f122486d3d448cfcee066b18fce73c914e47f56
 workflow-type: tm+mt
-source-wordcount: '14214'
+source-wordcount: '14221'
 ht-degree: 2%
 
 ---
@@ -1312,6 +1312,7 @@ ht-degree: 2%
          * [프로젝트 템플릿 공유](manage-work/projects/create-and-manage-templates/share-project-template.md)
          * [프로젝트 템플릿 삭제](manage-work/projects/create-and-manage-templates/delete-templates.md)
          * [프로젝트에서 템플릿 정보 제거](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+         * [템플릿에 요금 카드 첨부](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
          * [템플릿의 시작 및 완료 일수 개요](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [프로젝트에 템플릿 첨부 개요](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * 비즈니스 사례 정의 {#define-business-case}
