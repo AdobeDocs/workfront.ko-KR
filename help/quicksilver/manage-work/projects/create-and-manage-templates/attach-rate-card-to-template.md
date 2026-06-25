@@ -6,7 +6,7 @@ title: 템플릿에 요금 카드 첨부
 description: 템플릿에 요금 카드를 할당하면 요금 카드가 템플릿에서 만든 모든 프로젝트에 첨부됩니다.
 author: Lisa
 feature: Work Management
-source-git-commit: ca2effb6674caf3a1b44f675a23758f734332a01
+source-git-commit: 28a1c1cf30c2b4addbcc1b40f5fd65f99685c75c
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 3%
@@ -118,5 +118,6 @@ ht-degree: 3%
    템플릿으로 저장 상자의 옵션 섹션에서 **요금 카드** 항목을 선택하여 요금 카드를 템플릿에 추가할 수 있습니다. 비율 카드를 템플릿으로 전송할 수 없도록 하려면 확인란 선택을 취소합니다.
 
    자세한 내용은 [프로젝트를 템플릿으로 저장](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)을 참조하십시오.
+
 
 
