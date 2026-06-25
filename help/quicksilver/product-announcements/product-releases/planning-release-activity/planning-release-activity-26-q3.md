@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2087'
 ht-degree: 0%
 
 ---
@@ -29,22 +29,18 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
-<!--
-## Support for currency Planning fields in Canvas Dashboards
+
+## 캔버스 대시보드의 통화 계획 필드 지원
 
 >[!NOTE]
 >
->Preview: June 25, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>미리 보기: 2026년 6월 25일>프로덕션 빠른 릴리스: 2026년 7월 15일>모두를 위한 프로덕션: 2026년 7월 16일
 
-You can now include currency Planning fields, in table, KPI, and chart reports in Canvas Dashboards.  
+이제 캔버스 대시보드의 테이블, KPI 및 차트 보고서에 통화 계획 필드를 포함할 수 있습니다.
 
-Prior to this enhancement, currency fields were not supported in Canvas Dashboards.  
+이 개선 이전에는 통화 필드가 캔버스 대시보드에서 지원되지 않았습니다.
 
-For information, see [Use currency fields in Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md). 
-
--->
+자세한 내용은 [캔버스 대시보드의 통화 필드 사용](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)을 참조하세요.
 
 ## 행 색상 컨트롤 인터페이스 개선
 
