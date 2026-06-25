@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
 source-wordcount: 1057
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
 >* Google Cloud 플랫폼
 
 <!--
-take Preview and production mentions out at release
+Take Preview and production mentions out at release
 -->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
