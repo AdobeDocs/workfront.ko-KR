@@ -4,9 +4,9 @@ description: 2026년 3분기 보고 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a678a987703240680368b34c4095637b59a8bb60
+source-git-commit: c1ffa06ddca88f8679cf3886ce5c90f69984f30b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 3분기 릴리스의 보고 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)를 참조하십시오.
+
+## 캔버스 대시보드 프롬프트 기본값 및 사용자 환경 설정 지속성
+
+>[!NOTE]
+>
+>미리 보기: 2026년 6월 25일>프로덕션 빠른 릴리스: 2026년 7월 15일>모두를 위한 프로덕션: 2026년 7월 16일
+
+작업 필터 상태를 유지하여 대시보드와 레코드 간을 이동하는 사용자의 효율성을 개선하기 위해 대시보드 관리자는 이제 캔버스 대시보드에 대한 기본 프롬프트 값을 정의할 수 있습니다. 이러한 기본값은 모든 대시보드 뷰어에 자동으로 적용됩니다.
+
+사용자가 프롬프트를 업데이트할 때 선택 사항이 저장되고 새로 고침, 다시 열기 또는 레코드로 이동한 후 복원됩니다.
+
+관리자는 언제든지 대시보드의 기본 상태를 재설정할 수 있습니다. 세 점 메뉴를 통해 빠르게 기본값으로 되돌릴 수도 있습니다.
+
+이 개선 이전에는 대시보드 프롬프트에 프롬프트 상태에 대한 구성 가능한 기본값이나 저장된 사용자 기본 설정이 없었습니다.
+
+자세한 내용은 [캔버스 대시보드 필터링](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)을 참조하십시오.
 
 ## 여러 Power BI IP 주소 범위를 Data Connect에 한 번에 추가합니다
 

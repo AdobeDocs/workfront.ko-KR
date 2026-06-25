@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
+source-git-commit: 864c3858a7cbfcc09268b8f0fa10b99509aebb08
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2312'
 ht-degree: 4%
 
 ---
@@ -29,9 +29,10 @@ ht-degree: 4%
 >|----|----|
 >| <ul><li>26.5 (2026년 5월 14일)</li><li>26.6 (2026년 6월 11일)</li><li>26.7 (2026년 7월 15일)</li></ul> | <ul><li>26.7 (2026년 7월 16일)</li></ul> |
 >
->각 분기의 최종 릴리스(이번 분기 26.7)의 경우 빠른 릴리스 일정을 사용 중인 사용자는 하루 전(2026년 7월 15일)에 릴리스를 받게 됩니다.
+>* 각 분기의 최종 릴리스(이번 분기 26.7)의 경우 빠른 릴리스 일정을 사용 중인 사용자는 하루 전(2026년 7월 15일)에 릴리스를 받게 됩니다.
 >
->빠른 릴리스 프로세스에 대한 자세한 내용은 [빠른 릴리스 프로세스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하십시오.
+>   빠른 릴리스 프로세스에 대한 자세한 내용은 [빠른 릴리스 프로세스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하십시오.
+>* 26.7 릴리스(2026년 7월)의 경우 미리보기 환경에 기능이 표시될 수 있는 마지막 날짜는 7월 7일입니다.
 
 ## Adobe Workfront 개선 사항
 
@@ -48,8 +49,6 @@ ht-degree: 4%
 ### AI 개선 사항
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>기능</strong>
@@ -82,8 +81,6 @@ ht-degree: 4%
 ### 관리자 개선 사항
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>기능</strong>
@@ -151,8 +148,6 @@ ht-degree: 4%
 ### 문서 개선 사항
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>기능</strong>
@@ -160,6 +155,17 @@ ht-degree: 4%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>June 26, 2026</p></td>
+            <td><p>June 26, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Workfront 및 Frame.io를 사용하여 Adobe Express 템플릿에 대한 승인 요청</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
@@ -211,8 +217,6 @@ ht-degree: 4%
 ### 향상된 Financial Management
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>기능</strong>
@@ -220,6 +224,24 @@ ht-degree: 4%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">서식 파일에 요금 카드 추가</a><p>[!BADGE 워크플로우 Ultimate]{type=Informative}</p>
+                <p>이제 등급 카드를 선택하여 템플릿에 추가한 다음 템플릿에서 만든 모든 프로젝트에 자동으로 첨부할 수 있습니다. 비율 카드가 프로젝트의 기본값이 되지만 필요한 경우 재정의할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 6월 25일</p></td>
+            <td><p>2026년 7월 15일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">요금 카드의 기존 요금 사이에 청구 요금 추가</a><p>[!BADGE 워크플로우 Ultimate]{type=Informative}</p>
+                <p>이제 목록의 특정 위치에 새 요금을 추가하여 요금 카드의 유효 일자 청구 요금 목록을 보다 신속하게 조정할 수 있습니다. 기존 속도 옆의 <b>자세히</b> 메뉴를 선택하여 해당 속도 위 또는 아래에 행을 삽입합니다.</p>
+            </td>
+            <td><p>2026년 6월 25일</p></td>
+            <td><p>2026년 7월 15일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">속도 특성을 비율로 사용한 후에는 편집할 수 없습니다.</a><p>[!BADGE 해제 일정]{type=Neutral}</p><p>[!BADGE 워크플로우 Ultimate]{type=Informative}</p>
@@ -235,8 +257,6 @@ ht-degree: 4%
 ### 홈 개선 사항
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>기능</strong>
@@ -261,8 +281,6 @@ ht-degree: 4%
 ### 프로젝트 개선 사항
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>기능</strong>
@@ -295,8 +313,6 @@ ht-degree: 4%
 ### 보고 개선 사항
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>기능</strong>
@@ -304,6 +320,15 @@ ht-degree: 4%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드 프롬프트 기본값 및 사용자 환경 설정 지속성</a>
+                <p>이제 대시보드 관리자는 모든 뷰어에 자동으로 적용되는 캔버스 대시보드의 기본 프롬프트 값을 정의할 수 있습니다. 사용자가 프롬프트를 업데이트할 때 선택 사항이 저장되고 새로 고침, 다시 열기 또는 레코드로 이동한 후 복원됩니다.</p>
+            </td>
+            <td><p>2026년 6월 25일</p></td>
+            <td><p>2026년 7월 15일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">데이터 연결 범위에 한 번에 여러 Power BI IP 주소 추가</a> <p>[!BADGE 해제 일정]{type=Neutral}
@@ -355,8 +380,6 @@ ht-degree: 4%
 ### 요청 개선 사항
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>기능</strong>
@@ -388,8 +411,6 @@ ht-degree: 4%
 ### 기타 개선 사항
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>기능</strong>
