@@ -5,8 +5,10 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: 승인자 결정 시 증명 승인 보고서에 하이픈이 표시됨
 description: 증명 승인 보고서의 승인자 결정 필드에 하이픈이 있으면 수신자가 더 이상 증명에서 의사 결정 역할에 있지 않음을 나타냅니다.
 author: Courtney
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: 287
