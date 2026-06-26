@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6ac07e6f0d4a8faf7ef61755a4ec335e195a1b51
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2369'
 ht-degree: 4%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 4%
 * [프로젝트 개선 사항](#project-enhancements)
 * [보고 개선 사항](#reporting-enhancements)
 * [요청 개선 사항](#requesting-enhancements)
+* [향상된 리소스 관리 기능](#resource-management-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
 ### AI 개선 사항
@@ -404,6 +405,28 @@ ht-degree: 4%
             <td><p>2026년 4월 23일</p></td>
             <td><p>2026년 4월 23일</p></td>
             <td><p>2026년 4월 23일</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### 향상된 리소스 관리 기능
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>기능</strong>
+            </td>
+            <td><strong>미리보기</strong></td>
+            <td><strong>빠른 릴리스</strong></td>
+            <td><strong>분기별</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">업무 균형자에서 일괄 할당 작업을 간소화했습니다</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p><strong>리소스 바꾸기</strong> 작업에 결합된 사용자 할당 및 사용자 바꾸기 작업을 통해 업무 균형자에서 일괄 할당이 간소화되었습니다.</p>
+            </td>
+            <td><p>2026년 6월 19일</p></td>
+            <td><p>2026년 6월 19일</p></td>
+            <td><p>2026년 6월 19일</p></td>
         </tr>
     </tbody>
 </table>
