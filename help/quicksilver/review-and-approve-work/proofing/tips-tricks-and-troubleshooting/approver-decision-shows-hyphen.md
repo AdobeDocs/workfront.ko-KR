@@ -9,7 +9,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 9c6e8d04c1faa2902cab870a03a68f0cb14da3aa
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: 287
 ht-degree: 0%
@@ -39,5 +39,6 @@ ht-degree: 0%
 결정 날짜 필드에는 수신자의 가장 최근 결정 활동의 날짜가 여전히 표시되지만, 더 이상 수신자의 결정이 보고서에 계산되지 않습니다.
 
 증명 승인 보고서를 만들고 사용하는 방법에 대한 자세한 내용은 [증명 승인 보고서 사용](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)을 참조하세요.
+
 
 
