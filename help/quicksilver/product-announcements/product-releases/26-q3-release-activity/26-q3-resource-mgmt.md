@@ -4,7 +4,7 @@ description: 2026년 3분기 리소스 관리 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b62fc2a213d9e7bc58a34d48166be61699908d0c
+source-git-commit: 4008f50a332371ac468cc8abb79b4e7a24541067
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 6월 19일프로덕션 빠른 릴리스: 2026년 6월 19일모두를 위한 프로덕션: 2026년 6월 19일일정 해제&rbrack;{type=Neutral}
+>미리 보기: 2026년 6월 19일프로덕션 빠른 릴리스: 2026년 6월 19일모두를 위한 프로덕션: 2026년 6월 19일일정 해제]{type=Neutral}
 
 **리소스 바꾸기** 작업에 결합된 사용자 할당 및 사용자 바꾸기 작업을 통해 업무 균형자에서 일괄 할당이 간소화되었습니다.
 
@@ -33,4 +33,5 @@ ht-degree: 0%
 * 사용자가 있는 역할
 
 자세한 내용은 [업무 균형자 사용 일괄 작업 할당](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)을 참조하십시오.
+
 
