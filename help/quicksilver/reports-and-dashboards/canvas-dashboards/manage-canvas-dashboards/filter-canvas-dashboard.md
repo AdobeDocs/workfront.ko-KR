@@ -9,18 +9,13 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
 workflow-type: tm+mt
-source-wordcount: 1057
+source-wordcount: 1194
 ht-degree: 1%
 
 ---
@@ -29,9 +24,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원 팀에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하십시오.<br>
->다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하세요.다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
 >* Azure
@@ -186,6 +179,11 @@ Take Preview and production mentions out at release
    1. (선택 사항) **기타** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭한 다음 **기본 프롬프트로 저장**&#x200B;을 클릭합니다.
 
       프롬프트 필터는 보기 이상의 권한이 있는 모든 사용자에 대해 대시보드가 로드될 때마다 적용됩니다.
+
+      >[!TIP]
+      >
+      >프롬프트를 작성하지 않았으며 해당 필드에 대한 액세스 권한이 없는 경우 필드 이름이 표시되지 않습니다. 프롬프트를 수정하여 보고서를 채웁니다.
+
    1. (조건부) 기본 프롬프트가 적용된 대시보드에 액세스하면 필터를 수정할 수 있으며 수정 사항은 개인 환경 설정으로 저장됩니다. 다음과 같은 시나리오가 있습니다.
 
       * 대시보드에 대한 관리 권한이 있는 경우 **기본 프롬프트로 저장**&#x200B;을 클릭하여 수정 내용을 기본 필터로 저장합니다. 이렇게 하면 원래 기본값이 대체됩니다.
@@ -211,8 +209,7 @@ Take Preview and production mentions out at release
 
 1. 대시보드 세부 정보 페이지의 왼쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다. 필터 사이드 패널이 열립니다.
 
-1. **레코드 표시 위치...** 섹션에서 표시된 하나 또는 모든 프롬프트에 대한 조건을 선택합니다. 프롬프트가 적용되고 보고서 위젯의 모서리에 **대시보드 프롬프트가 적용됨** 태그가 나타납니다.
-   ![조건 선택](assets/prompts-list.png)
+1. **레코드 표시 위치...** 섹션에서 표시된 하나 또는 모든 프롬프트에 대한 조건을 선택합니다. 프롬프트가 적용되고 **대시보드 프롬프트가 적용됨** 태그가 보고서 위젯의 모서리에 나타납니다.   ![조건 선택](assets/prompts-list.png)
 
 1. 패널을 숨기려면 오른쪽 상단의 **닫기** 아이콘 ![닫기 아이콘](assets/close-icon.png)을 클릭합니다.
 
