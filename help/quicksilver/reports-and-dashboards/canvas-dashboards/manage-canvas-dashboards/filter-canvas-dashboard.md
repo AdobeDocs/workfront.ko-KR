@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: 1194
 ht-degree: 1%
@@ -217,6 +217,7 @@ Take Preview and production mentions out at release
 1. **레코드 표시 위치...** 섹션에서 표시된 하나 또는 모든 프롬프트에 대한 조건을 선택합니다. 프롬프트가 적용되고 **대시보드 프롬프트가 적용됨** 태그가 보고서 위젯의 모서리에 나타납니다.   ![조건 선택](assets/prompts-list.png)
 
 1. 패널을 숨기려면 오른쪽 상단의 **닫기** 아이콘 ![닫기 아이콘](assets/close-icon.png)을 클릭합니다.
+
 
 
 
