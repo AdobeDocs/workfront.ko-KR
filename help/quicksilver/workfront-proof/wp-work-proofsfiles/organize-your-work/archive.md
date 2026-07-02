@@ -45,7 +45,7 @@ ht-degree: 0%
 
 아카이빙 프로세스가 완료되기까지 최대 24 시간이 소요될 수 있습니다.
 
-1. 대시보드 또는 목록 보기에서 보관하려는 각 증명에 대한 확인란을 선택합니다(목록 보기에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리 참조).
+1. 대시보드 또는 목록 보기에서 보관하려는 각 증명에 대한 확인란을 선택합니다(목록 보기에 대한 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리 참조).
 
 1. **[!UICONTROL 자세히]** > **[!UICONTROL 보관]**&#x200B;을 선택합니다.\
    [!UICONTROL 증명 보관] 메시지 상자가 나타납니다.
