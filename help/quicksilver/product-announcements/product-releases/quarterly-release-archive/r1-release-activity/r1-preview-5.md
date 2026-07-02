@@ -9,8 +9,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 13%
+source-wordcount: '1301'
+ht-degree: 12%
 
 ---
 
@@ -82,7 +82,7 @@ Workfront에서 개체를 복원하는 방법에 대한 자세한 내용은 [삭
 
 이제 이메일 설정 영역에 있는 이벤트 알림의 조직 헤더가 사용자 프로필 설정 영역에서 사용되는 섹션 헤더와 일치합니다.
 
-이벤트 알림에 대한 자세한 내용은  [시스템의 모든 사용자에 대한 이벤트 알림을 구성합니다](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+이벤트 알림에 대한 자세한 내용은 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)을 참조하십시오.
 
 ## 인스턴트 알림 옵트아웃: 컨텍스트 내 다이제스트 구성
 

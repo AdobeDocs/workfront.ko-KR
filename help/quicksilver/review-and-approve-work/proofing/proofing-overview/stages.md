@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ ht-degree: 0%
 
 **예:** 예를 들어 검토자가 4명인 증명을 만드는 경우:
 
-* Olivia와 Tony 검토자의 경우 지금부터 며칠 후 14:00에 마감일을 지정합니다.
-* Aaron과 Amy의 경우 며칠 후 17:00으로 기한을 지정하십시오.
+* Olivia와 Tony 검토자의 경우 지금부터 며칠 후 14:00에 대한 기한을 지정합니다.
+* Aaron과 Amy의 경우 며칠 후 17:00에 대한 기한을 지정하십시오.
 * 마감일은 지정하지 않습니다.
 
 시스템은 다음 세 개의 검토자 &quot;그룹&quot; 각각에 대한 단계를 생성합니다.
