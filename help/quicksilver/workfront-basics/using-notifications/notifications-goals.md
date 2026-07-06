@@ -9,20 +9,14 @@ exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kIc-y3DRa7mDVX14gA5jDbIzZveHH1MNIghGpQP7hc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 425
 ht-degree: 5%
 
 ---
@@ -81,7 +75,8 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->[!DNL Goals]에 대한 인스턴트 알림은 기본적으로 비활성화되어 있습니다. 일별 알림을 활성화하거나 비활성화할 수 없으며 이 범주의 이벤트에 대한 일별 요약 이메일을 받지 않습니다. [!DNL Goals] 범주에 대해 개별 인스턴트 알림을 활성화하거나 비활성화할 수 있습니다.
+>* [!DNL Goals]에 대한 인스턴트 알림은 기본적으로 비활성화되어 있습니다. 일별 알림을 활성화하거나 비활성화할 수 없으며 이 범주의 이벤트에 대한 일별 요약 이메일을 받지 않습니다. [!DNL Goals] 범주에 대해 개별 인스턴트 알림을 활성화하거나 비활성화할 수 있습니다.
+>* 액세스 수준의 목표에 대한 액세스 권한이 없더라도 목표 업데이트에 대한 이메일을 계속 받을 수 있지만, 누군가 사용자에게 목표, 결과 또는 활동이나 할당된 목표에 대한 주석을 할당합니다.
 
 [이벤트 알림](../../workfront-basics/using-notifications/event-notifications.md)도 참조하세요.
 
