@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: '14233'
+source-wordcount: '14243'
 ht-degree: 2%
 
 ---
@@ -2157,14 +2157,16 @@ ht-degree: 2%
       * [Adobe Workfront Planning 시작](planning/general/planning-overview.md)
       * [Adobe Workfront Planning 구현 권장 사항](planning/general/planning-best-practices.md)
       * [Adobe Workfront Planning API 기본 사항](planning/general/planning-api-basics.md)
-      * {hide-from-toc}[Workfront Planning용 Workfront Data Connect](planning/general/planning-in-data-connect.md)
       * [Adobe Workfront Planning AI Assistant 개요](planning/general/planning-ai-assistant-overview.md)
       * [Adobe Workfront Planning Designer 시작](planning/general/planning-ai-designer.md)
       * [Adobe Workfront 2024년 릴리스 활동 계획](planning/general/release-activity.md)
       * [Adobe Workfront 2023년 릴리스 활동 계획](planning/general/release-activity-archives-2023.md)
       * [Adobe Workfront Planning 객체 제한 사항 개요](planning/general/limitations-overview.md)
       * [Adobe Workfront Planning 무료 평가판 시작](planning/general/trial-workfront-planning.md)
-      * [보고서에서 Workfront Planning 정보 보기](planning/general/planning-information-in-reports.md)
+   * Adobe Workfront Planning 보고 {#adobe-workfront-planning-reporting}
+      * [Adobe Workfront Planning 보고: 문서 색인](planning/reporting/reporting-in-planning-article-index.md)
+      * [보고서에서 Workfront Planning 정보 보기](planning/reporting/planning-information-in-reports.md)
+      * {hide-from-toc}[Workfront Planning용 Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
    * Adobe Workfront 계획 모범 사례 {#adobe-workfront-planning-best-practices}
       * [Adobe Workfront 우수 사례: 문서 색인](planning/best-practices.md/best-practices-article-index.md)
       * [전략적인 홈 구축: 30일 런치패드](planning/best-practices.md/30-day-launchpad.md)

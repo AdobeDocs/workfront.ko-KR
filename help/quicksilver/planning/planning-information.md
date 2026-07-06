@@ -26,9 +26,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 706
 ht-degree: 10%
 
 ---
@@ -116,7 +116,7 @@ Adobe Workfront Planning에 대한 일반적인 정보 및 용어 이해는 [Ado
 
 * [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합: 문서 인덱스](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): Workfront Planning의 GenStudio 작업 영역에서 GenStudio for Performance Marketing의 레코드를 관리할 수 있습니다.
 
-* **Workfront Planning 보고 기능**: Workfront 캔버스 대시보드를 사용하여 보고서에서 Workfront Planning 정보를 볼 수 있습니다. 자세한 내용은 [캔버스 대시보드 개요](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)를 참조하십시오.
+* **Workfront Planning 보고 기능**: Workfront 캔버스 대시보드를 사용하여 보고서에서 Workfront Planning 정보를 보거나 Snowflake 기술을 사용하는 Workfront Data Connect에서 볼 수 있습니다. 자세한 내용은 [Adobe Workfront Planning 보고: 문서 색인](/help/quicksilver/planning/reporting/reporting-in-planning-article-index.md)을 참조하십시오.
 
 * [Adobe Workfront Planning 모범 사례: 문서 색인](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md): 안전을 우선시하고 중단을 최소화하며 빠른 성공을 제공하는 전략을 사용하여 조직에서 Adobe Workfront Planning을 배포하는 방법에 대한 팁을 알아봅니다.
 
