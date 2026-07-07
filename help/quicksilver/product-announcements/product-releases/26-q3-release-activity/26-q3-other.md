@@ -4,9 +4,9 @@ description: 2026년 3분기 릴리스 기간 동안의 기타 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
+source-git-commit: 69e4091dcb139d4a11dad768fe78cb8e75721f3f
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 0%
 
 2026년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)를 참조하십시오.
 
+## 전역 탐색 아이콘에 대한 인터페이스 업데이트
+
+>[!NOTE]
+>
+>미리 보기: 2026년 7월 7일프로덕션 빠른 릴리스: 2026년 7월 15일모두를 위한 프로덕션: 2026년 7월 16일
+
+메인 메뉴 및 탐색 막대 아이콘을 포함하여 Workfront의 일반 탐색 아이콘의 모양과 느낌을 업데이트하여 현대적인 디자인과 다른 Adobe 애플리케이션과의 일관된 경험을 제공합니다. 또한 클릭 수를 줄일 수 있도록 고정된 페이지를 추가하거나 제거하는 경험이 간소화되었습니다.
+
+자세한 내용은 [위쪽 탐색 모음 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md) 및 [페이지 고정](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md)을 참조하세요.
 
 ## 댓글 알림 이메일에 대한 모양과 느낌을 업데이트했습니다.
 
@@ -42,7 +51,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 5월 28일>프로덕션 빠른 릴리스: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
+>미리 보기: 2026년 5월 28일프로덕션 빠른 릴리스: 2026년 6월 11일모두를 위한 프로덕션: 2026년 7월 16일
 
 향상된 목록의 여러 필드 유형이 키보드 탐색 및 기타 향상된 기능을 포함하도록 업데이트되었습니다.
 

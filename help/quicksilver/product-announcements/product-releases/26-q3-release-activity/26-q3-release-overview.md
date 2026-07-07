@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
 workflow-type: tm+mt
-source-wordcount: '2369'
-ht-degree: 4%
+source-wordcount: '2620'
+ht-degree: 3%
 
 ---
 
@@ -60,6 +60,15 @@ ht-degree: 4%
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터에서 사용할 수 있는 새 도구</a>
+                <p>Workfront MCP 커넥터의 기능을 확장하기 위해 8개의 새 도구가 추가되었으며 검색 개체 및 해결 필드 이름 도구가 더 이상 사용되지 않습니다.</p>
+            </td>
+            <td><p>2026년 7월 7일</p></td>
+            <td><p>2026년 7월 15일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터 업데이트</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
                 <p>Workfront MCP 커넥터를 업데이트했습니다.<ul><li>Claude는 이제 MCP 커넥터에 연결할 수 있습니다.</li><li>이제 EU <!--or from instances that do not use AWS-->의 인스턴스에서 MCP 커넥터를 사용할 수 있습니다.</p>
             </td>
@@ -89,6 +98,54 @@ ht-degree: 4%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">통합 검토 및 승인을 위한 변경 추적</a>
+                <p>이제 변경 내역 페이지에서 통합 검토 및 승인 워크플로 전반의 활동을 캡처하여 관리자에게 승인, 단계 및 참가자 작업에 대한 완전한 거버넌스 추적을 제공합니다.</p>
+            </td>
+            <td><p>2026년 7월 7일</p></td>
+            <td><p>2026년 7월 15일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+        </tr>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Internal lookup field replacing Typeahead field type</a>
+                <p>The new Internal lookup field type in custom forms provides dynamic filtering, multi-select support, and improved performance for large datasets. It is replacing the Typeahead field type.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Default value logic supported on native reference fields</a><p>[!BADGE Workflow Prime]{type=Informative}</p>
+                <p>In custom forms, native reference fields now allow you to add default value logic. This logic type is available only in the user interface and not in the Workfront API.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to native field filtering in custom forms</a>
+                <p>System filters on native fields are now visible to administrators in custom forms, and dynamic filtering is now available on native reference fields.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Protect field names from accidental renaming</a>
+                <p>Field names in the custom form field settings panel are now read-only by default, requiring an explicit confirmation step to rename. The Name field has been updated to API Name.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront 개체에 대한 변경 기록 보기</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
@@ -156,6 +213,15 @@ ht-degree: 4%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">이제 통합 승인을 위해 병렬 승인 경로를 사용할 수 있음</a>
+                <p>이제 문서에 대한 승인 워크플로가 병렬 경로를 지원하므로 팀이 단일 승인으로 최대 100단계의 독립적인 검토 트랙을 최대 30개까지 실행할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 7월 7일</p></td>
+            <td><p>2026년 7월 15일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+        </tr>
         <!--
         <tr>
             <td>
@@ -163,8 +229,8 @@ ht-degree: 4%
                 <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
             </td>
             <td><p>N/A</p></td>
-            <td><p>June 26, 2026</p></td>
-            <td><p>June 26, 2026</p></td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 7, 2026</p></td>
         </tr>
         -->
         <tr>
@@ -323,6 +389,24 @@ ht-degree: 4%
             <td><strong>분기별</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Snowflake에서 Workfront Planning에 대한 자동 액세스 제어</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>이 릴리스에서는 Workfront Data Connect의 일부로 Snowflake의 Workfront Planning 데이터에 대한 권한 기반의 자동 액세스 관리를 도입했습니다.  </p>
+            </td>
+            <td><p>2026년 7월 16일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+            <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">새 개체에 대한 사용자 지정 데이터 지원 추가</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>2026년 2분기 중에 Workfront의 엔터프라이즈 작업 개선 사항을 지원하는 새 개체를 추가했습니다.</p>
+            </td>
+            <td><p>2026년 7월 7일</p></td>
+            <td><p>2026년 7월 7일</p></td>
+            <td><p>2026년 7월 7일</p></td>
+        </tr>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드 프롬프트 기본값 및 사용자 환경 설정 지속성</a>
                 <p>이제 대시보드 관리자는 모든 뷰어에 자동으로 적용되는 캔버스 대시보드의 기본 프롬프트 값을 정의할 수 있습니다. 사용자가 프롬프트를 업데이트할 때 선택 사항이 저장되고 새로 고침, 다시 열기 또는 레코드로 이동한 후 복원됩니다.</p>
             </td>
@@ -441,6 +525,15 @@ ht-degree: 4%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">전역 탐색 아이콘에 대한 인터페이스 업데이트</a>
+                <p>다른 Adobe 애플리케이션과 일관된 최신 디자인을 제공하기 위해 메인 메뉴 및 탐색 막대 아이콘을 포함하여 Workfront의 일반 탐색 아이콘의 모양과 느낌을 업데이트했습니다.</p>
+            </td>
+            <td><p>2026년 7월 7일</p></td>
+            <td><p>2026년 7월 15일</p></td>
+            <td><p>2026년 7월 16일</p></td>
         </tr>
         <tr>
             <td>
