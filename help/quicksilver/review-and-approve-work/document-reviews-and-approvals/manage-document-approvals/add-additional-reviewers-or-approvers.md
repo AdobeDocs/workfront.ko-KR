@@ -20,14 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 532
-ht-degree: 3%
+source-wordcount: 1130
+ht-degree: 1%
 
 ---
 
 # 문서 승인 워크플로에 추가 승인자 또는 검토자 추가
+
+{{highlighted-preview}}
 
 이미 보류 중인 승인이 있는 문서 승인 워크플로에 추가 승인자 또는 검토자를 추가할 수 있습니다.
 
@@ -71,7 +73,7 @@ ht-degree: 3%
 
 
 
-## 기존 문서 영역의 문서 요약에서 승인자 또는 검토자를 추가합니다.
+## 프로덕션의 레거시 문서 영역에 승인자 또는 검토자를 추가합니다.
 
 조직이 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. Workfront 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소와 레거시 Workfront 저장소 간의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)을 참조하십시오.
 
@@ -93,12 +95,42 @@ ht-degree: 3%
 
    ![승인자 또는 검토자 드롭다운](assets/choose-approver-or-reviewer.png)
 
-1. 5-6단계를 반복하여 승인자 또는 검토자를 추가합니다.
-저장하면 추가된 참가자에게 문서에 대한 승인 또는 검토가 필요하다는 이메일 알림이 전송됩니다.
+1. 5-6단계를 반복하여 승인자 또는 검토자를 추가합니다.저장하면 추가된 참가자에게 문서에 대한 승인 또는 검토가 필요하다는 이메일 알림이 전송됩니다.
 
+<div class="preview">
 
+## 미리보기의 기존 문서 영역에 승인자 또는 검토자를 추가합니다.
 
-## 새 문서 영역의 문서 요약에서 승인자 또는 검토자를 추가합니다.
+조직이 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. Workfront 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소와 레거시 Workfront 저장소 간의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)을 참조하십시오.
+
+문서 요약에서 승인자 또는 검토자를 추가하려면
+
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 왼쪽 패널에서 **문서**&#x200B;을(를) 선택합니다.
+
+1. 필요한 문서를 클릭합니다. 해당 문서에 대한 문서 요약 패널이 열립니다.
+
+1. 버전 드롭다운 메뉴에서 승인자 또는 검토자를 추가하려는 문서 버전을 선택합니다. 기본적으로 최신 버전이 선택됩니다.
+
+1. **승인** 섹션까지 아래로 스크롤한 다음 **워크플로 편집**&#x200B;을 클릭합니다. 승인이 마지막으로 저장된 모드(단일 단계 승인의 경우 기본, 병렬 경로가 있는 다단계 승인 및 승인의 경우 고급)로 승인 요청 대화 상자가 열립니다.
+
+1. 사용자, 팀 또는 이메일 추가:
+
+   * 기본 모드에서 **이름 또는 전자 메일 추가** 필드에 이름 또는 전자 메일을 입력합니다.
+   * 고급 모드에서 업데이트할 단계를 포함하는 경로를 선택한 다음 단계의 **이름 또는 전자 메일 추가** 필드에 이름 또는 전자 메일을 입력합니다.
+
+1. 추가한 각 사용자에 대해 승인자인지 검토자인지 선택합니다.
+
+   ![승인자 또는 검토자 드롭다운](assets/choose-reviewer-or-approver.png)
+
+1. **저장**&#x200B;을 클릭합니다. 추가한 참가자에게는 문서에 대한 승인 또는 검토가 필요하다는 이메일 알림이 전송됩니다.
+
+>[!TIP]
+>
+>기본 모드 승인을 다중 단계 또는 다중 경로 승인으로 다시 구성하려면 오른쪽 상단의 **고급으로 이동**&#x200B;을 클릭합니다. 기존 참가자는 경로 1, 단계 1로 유지됩니다. 저장한 후에는 다시 기본 모드로 전환할 수 없습니다. 자세한 내용은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
+
+</div>
+
+## 프로덕션의 새 문서 영역에 추가 승인자 또는 검토자 추가
 
 조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
@@ -118,35 +150,37 @@ ht-degree: 3%
 
    ![승인자 또는 검토자 드롭다운](assets/choose-approver-or-reviewer.png)
 
-1. 5-6단계를 반복하여 승인자 또는 검토자를 추가합니다.
-저장하면 추가된 참가자에게 문서에 대한 승인 또는 검토가 필요하다는 이메일 알림이 전송됩니다.
+1. 5-6단계를 반복하여 승인자 또는 검토자를 추가합니다.저장하면 추가된 참가자에게 문서에 대한 승인 또는 검토가 필요하다는 이메일 알림이 전송됩니다.
 
+<div class="preview">
 
+## 미리보기의 새 문서 영역에 있는 문서 요약에서 승인자 또는 검토자를 추가합니다.
 
+조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
+문서 요약에서 승인자 또는 검토자를 추가하려면
 
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 왼쪽 패널에서 **문서**&#x200B;을(를) 선택합니다.
 
+1. 문서를 클릭한 다음 페이지 오른쪽의 **승인** 아이콘을 클릭합니다.
 
-<!--
-## Add additional approvers or reviewers from Home
+   ![문서 요약에 승인자 추가](assets/approvals-icon-new.png)
 
-1. Click the **Home** icon ![Home icon](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. **워크플로 편집**&#x200B;을 클릭합니다. 승인이 마지막으로 저장된 모드(단일 단계 승인의 경우 기본, 병렬 경로가 있는 다단계 승인 및 승인의 경우 고급)로 승인 요청 대화 상자가 열립니다.
 
-   >[!NOTE]
-   >
-   >Your Workfront administrator might make the following changes to the Home icon in your environment:
-   >
-   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+1. 사용자, 팀 또는 이메일 추가:
 
-1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
+   * 기본 모드에서 **이름 또는 전자 메일 추가** 필드에 이름 또는 전자 메일을 입력합니다.
+   * 고급 모드에서 업데이트할 단계를 포함하는 경로를 선택한 다음 단계의 **이름 또는 전자 메일 추가** 필드에 이름 또는 전자 메일을 입력합니다.
 
-1. Select a **Document** approval.  
+1. 추가한 각 사용자에 대해 승인자인지 검토자인지 선택합니다.
 
-1. Click **Manage Approvals**&nbsp;in the upper-right corner of the right panel.
-1. In the **Have someone approve this document** box, type the name of the approver.
+   ![승인자 또는 검토자 드롭다운](assets/choose-reviewer-or-approver.png)
 
-   If your Adobe Workfront administrator has enabled the capability to collaborate with people who don't use Workfront, as described in [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), you can type their email addresses to include them.
+1. **저장**&#x200B;을 클릭합니다. 추가한 참가자에게는 문서에 대한 승인 또는 검토가 필요하다는 이메일 알림이 전송됩니다.
 
-1. Click **Save**.
--->
+>[!TIP]
+>
+>기본 모드 승인을 다중 단계 또는 다중 경로 승인으로 다시 구성하려면 오른쪽 상단의 **고급으로 이동**&#x200B;을 클릭합니다. 기존 참가자는 경로 1, 단계 1로 유지됩니다. 저장한 후에는 다시 기본 모드로 전환할 수 없습니다. 자세한 내용은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
+
+</div>
