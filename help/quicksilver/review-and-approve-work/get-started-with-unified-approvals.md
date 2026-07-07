@@ -8,15 +8,16 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 34861693e7671c3e485668ab7887a4cd05ae6e99
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
 
 # 통합 검토 및 승인 시작
 
+{{highlighted-preview}}
 
 통합된 검토 및 승인은 Adobe Workfront과 Adobe Frame.io를 긴밀하게 연결된 하나의 경험으로 통합하여 마케팅 관리, 크리에이티브 검토 및 콘텐츠 전달 간의 차이를 해결합니다. 프로젝트 코디네이터는 크리에이티브, 마케터 및 이해 당사자가 연결되지 않은 도구 간에 파일을 이동하지 않고도 전문가 수준의 Frame.io 뷰어에서 자산을 검토하고 승인하는 동안 Workfront에서 작업을 관리합니다.
 
@@ -63,11 +64,11 @@ Frame.io의 Adobe 클라우드 저장소 또는 프로젝트에 대한 자세한
 
 검토자와 승인자를 일회용 승인 워크플로 또는 재사용 가능한 승인 템플릿에 추가할 수 있습니다.
 
-* **단일 사용 승인**: 에셋이 있는 프로젝트 또는 작업에서 프로젝트 코디네이터는 검토자와 승인자를 할당하고 완료 기한을 설정할 수 있습니다. 검토자와 승인자는 기한 72시간 전, 기한 24시간 전, 그리고 기한 자체에 이메일로 알림을 받습니다.
+* **단일 사용 승인**: 에셋이 있는 프로젝트 또는 작업에서 프로젝트 코디네이터는 검토자와 승인자를 할당하고 완료 기한을 설정할 수 있습니다. 검토자와 승인자는 기한 72시간 전, 기한 24시간 전, 그리고 기한 자체에 이메일로 알림을 받습니다. <span class="preview">미리 보기에서 여러 검토 트랙이 동시에 실행되도록 다단계 승인 및 병렬 경로를 구성할 수도 있습니다.</span>
 
   자세한 내용은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area)를 참조하십시오.
 
-* **승인 템플릿**: Workfront 설정 영역에서 프로젝트 코디네이터는 재사용 가능한 승인 템플릿을 만들 수 있습니다. 템플릿 내에서 검토자와 승인자를 추가하고 완료 기간을 지정할 수 있습니다. 승인 템플릿이 에셋에 적용되면 기한은 지정된 시간대에서 계산됩니다.
+* **승인 템플릿**: Workfront 설정 영역에서 프로젝트 코디네이터는 재사용 가능한 승인 템플릿을 만들 수 있습니다. 템플릿 내에서 검토자와 승인자를 추가하고 완료 기간을 지정할 수 있습니다. 승인 템플릿이 에셋에 적용되면 기한은 지정된 시간대에서 계산됩니다. <span class="preview">미리 보기에서 승인 템플릿은 다중 단계 승인 및 병렬 경로를 지원하며, 단일 사용 승인에서 사용할 수 있는 구성 옵션과 일치합니다.</span>
 
   템플릿이 생성되면 자산에 적용하여 Workfront에서 공식 검토 및 승인 프로세스를 시작할 수 있습니다.
 

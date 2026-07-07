@@ -9,25 +9,21 @@ exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/grwYgMUQc-Ft08jC1Fb1n7y18cLi1HNcXvJ3wPX0URg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 664
-ht-degree: 3%
+source-wordcount: 1196
+ht-degree: 1%
 
 ---
 
 # 새 문서 버전 업로드 및 승인 요청
+
+{{highlighted-preview}}
 
 이전 검토에서 문서가 &quot;작업 필요&quot;로 표시되어 있는 경우, 원본 문서에 새 버전을 업로드하고 다른 버전의 승인을 시작할 수 있습니다. 새 버전의 문서를 업로드하면 이전 버전이 잠깁니다.
 
@@ -76,7 +72,7 @@ ht-degree: 3%
 
 
 
-## 드래그 앤 드롭을 사용하여 이전 문서 영역에 새 버전을 추가합니다.
+## 드래그 앤 드롭을 사용하여 프로덕션의 레거시 문서 영역에 새 버전을 추가하십시오.
 
 조직이 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. Workfront 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소와 레거시 Workfront 저장소 간의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)을 참조하십시오.
 
@@ -95,7 +91,6 @@ ht-degree: 3%
 1. 이전 문서 위에 새 파일을 끌어다 놓습니다. 이렇게 하면 새 버전이 자동으로 만들어집니다.
 
 1. 문서 업로드가 완료되면 문서를 선택하여 문서 요약 패널을 엽니다. 여기에서는 패널 상단에 버전 번호가 표시됩니다.
-   ![문서 세부 정보 페이지 열기](assets/open-doc-details.png)
 
 
 1. 아래로 스크롤하여 **승인** 섹션으로 이동합니다.
@@ -141,5 +136,69 @@ ht-degree: 3%
 
    승인 워크플로가 시작되고 승인자는 새 문서 버전에 대한 승인이 필요하다는 알림을 받습니다. 이전 문서 버전이 잠기고 이전 버전에서 미결 승인이 철회됩니다.
 
-   ![승인 요청](assets/request-approval.png)
+   ![승인 요청
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+
+<div class="preview">
+
+## 드래그 앤 드롭을 사용하여 미리보기의 기존 문서 영역에 새 버전을 추가합니다.
+
+조직이 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. Workfront 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소와 레거시 Workfront 저장소 간의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)을 참조하십시오.
+
+>[!NOTE]
+>
+>드래그 앤 드롭은 Internet Explorer에서 작동하지 않습니다.
+
+문서에 대한 또 다른 검토 및 승인이 필요한 경우 Workfront에서 새 문서 버전을 만들 수 있습니다. 이전 참여자, 새 참여자 또는 두 가지 모두를 혼합하여 추가할 수 있습니다. 문서 세부 정보 페이지에서 이전 버전 및 참여자에 대한 정보를 볼 수 있습니다.
+
+단일 단계 승인의 경우 기본적으로 요청 승인 대화 상자가 기본 모드로 열립니다. 고급 모드로 전환하여 다단계 승인 또는 병렬 경로를 구성합니다.
+
+새 버전을 추가하고 승인을 요청하려면:
+
+1. Workfront의 문서로 이동합니다.
+
+1. 이전 문서 위에 새 파일을 끌어다 놓습니다. Workfront은 자동으로 새 버전을 만듭니다.
+
+1. 문서 업로드가 완료되면 문서를 선택하여 문서 요약 패널을 엽니다. 버전 번호가 패널 맨 위에 나타납니다.
+
+1. **승인** 섹션까지 아래로 스크롤한 다음 **워크플로 만들기**&#x200B;를 클릭합니다. **승인 요청** 대화 상자가 기본 모드에서 열립니다.
+
+1. 승인 워크플로를 구성합니다. 필드 설명, 고급 모드 전환 및 병렬 경로 흐름은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
+
+1. **승인 요청**&#x200B;을 클릭합니다.
+
+   승인 워크플로가 시작되고 승인자는 새 문서 버전에 대한 승인이 필요하다는 알림을 받습니다. 이전 문서 버전이 잠기고 이전 버전에서 미결 승인이 철회됩니다.
+
+## 드래그 앤 드롭을 사용하여 미리 보기의 새 문서 영역에 새 버전을 추가합니다.
+
+조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+
+>[!NOTE]
+>
+>드래그 앤 드롭은 Internet Explorer에서 작동하지 않습니다.
+
+문서에 대한 또 다른 검토 및 승인이 필요한 경우 Workfront에서 새 문서 버전을 만들 수 있습니다. 문서의 새 버전에 승인 워크플로를 추가할 수 있습니다.
+
+<!--
+the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page.
+-->
+
+단일 단계 승인의 경우 기본적으로 요청 승인 대화 상자가 기본 모드로 열립니다. 고급 모드로 전환하여 다단계 승인 또는 병렬 경로를 구성합니다.
+
+새 버전을 추가하고 승인을 요청하려면:
+
+1. Workfront의 문서로 이동합니다.
+
+1. 이전 문서 위에 새 파일을 끌어다 놓습니다. Workfront은 자동으로 새 버전을 만듭니다.
+
+1. 문서 업로드가 완료되면 문서를 선택하여 요약 패널을 엽니다. 기본적으로 최신 버전의 문서가 선택되어 있습니다.
+
+1. **승인** 섹션까지 아래로 스크롤한 다음 **워크플로 만들기**&#x200B;를 클릭합니다. **승인 요청** 대화 상자가 기본 모드에서 열립니다.
+
+1. 승인 워크플로를 구성합니다. 필드 설명, 고급 모드 전환 및 병렬 경로 흐름은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
+
+1. **승인 요청**&#x200B;을 클릭합니다.
+
+   승인 워크플로가 시작되고 승인자는 새 문서 버전에 대한 승인이 필요하다는 알림을 받습니다. 이전 문서 버전이 잠기고 이전 버전에서 미결 승인이 철회됩니다.
+
+</div>
