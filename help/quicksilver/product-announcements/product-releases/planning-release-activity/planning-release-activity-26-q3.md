@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: '2659'
+source-wordcount: '2809'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,29 @@ There are no features released during the Third Quarter Release for 2026. When f
 이 문서에서는 2026년 3분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## Snowflake에서 Workfront Planning에 대한 자동 액세스 제어
+
+>[!IMPORTANT]
+>
+>모든 고객을 위한 미리보기 및 프로덕션: 2026년 7월 16일일정 해제&rbrack;{type=Neutral}
+
+
+이 릴리스에서는 Workfront Data Connect의 일부로 Snowflake의 Workfront Planning 데이터에 대한 권한 기반의 자동 액세스 관리를 도입했습니다.
+
+보안 뷰 생성을 계획 테이블로 확장하여 다운스트림 액세스 제어에 필요한 기반을 구축하고 권한 기반 부여를 가능하게 합니다.
+
+이를 기반으로 하는 리더 계정 프로비저닝은 이제 생성 시 TMS 권한을 확인하고 Planning 데이터베이스에 자동으로 부여를 적용 또는 보류하여 정확한지 확인합니다.
+
+이 개선 사항 이전에는 Workfront에서만 사용할 수 있었습니다.
+
+업데이트에는 다음 기능이 포함됩니다.
+
+* 자동화된 일별 작업은 기존 고객에 대한 자격 변경 사항을 감지합니다.
+* 새 작업은 권한을 기반으로 액세스 권한을 부여, 취소 또는 보존합니다.
+* 프로비저닝, 계정 생성 및 지속적인 자격 변경 전반에 걸친 전체 라이프사이클 적용 범위.
+
+[Workfront Data Connect 데이터 사전](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) 문서는 릴리스 날짜 이후에 업데이트됩니다.
 
 
 ## 레코드에 대한 기본 권한 설정

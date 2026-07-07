@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1355
+source-wordcount: 1382
 ht-degree: 1%
 
 ---
@@ -165,7 +165,7 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
   </tr> 
   <tr> 
    <td role="rowheader"><strong>시스템 전체에 표시</strong></td> 
-   <td> <p>이 개체는 검색에서 찾을 수 있으며 Workfront 계정이 있는 사용자가 볼 수 있습니다.</p><p><b>참고</b>: 기여자 또는 요청자 라이선스가 있는 사용자는 이 설정이 사용되더라도 프로젝트를 볼 수 없습니다. </td> 
+   <td> <p>이 개체는 검색에서 찾을 수 있으며 Workfront 계정이 있는 사용자가 볼 수 있습니다.</p><p><b>참고</b>: 기여자 또는 요청자 라이선스가 있는 사용자는 이 설정이 활성화되어 있더라도 프로젝트, 필터, 보기, 그룹화 또는 시스템 전체에서 공유되는 개체를 볼 수 없습니다. 기여자 또는 요청자가 볼 수 있도록 이러한 오브젝트를 개별적으로 공유할 수 있습니다. </td> 
   </tr> 
  </tbody> 
 </table>
