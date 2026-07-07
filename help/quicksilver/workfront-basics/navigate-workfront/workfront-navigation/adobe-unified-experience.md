@@ -136,7 +136,7 @@ Adobe Admin Console의 사용자 관리에 대한 자세한 내용은 문서 [Ad
 
 [!DNL Adobe]에서 암호를 관리하는 경우 Adobe 계정에서 암호를 변경할 수 있습니다.
 
-[Adobe 암호 변경에 대해서는 이 문서 를 참조하십시오.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[Adobe 암호 변경에 대해서는 이 문서 를 참조하십시오.](https://helpx.adobe.com/kr/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 암호 변경에 대한 자세한 내용은 관리자에게 문의하십시오.
 
