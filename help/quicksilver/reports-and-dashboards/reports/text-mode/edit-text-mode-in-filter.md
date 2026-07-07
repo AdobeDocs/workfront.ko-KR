@@ -19,7 +19,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5c41388d904b9d9bb7fba7302e9356fe8771fd06
+source-git-commit: 7340868a00ca643c5eb537d242eaf9f805efe927
 workflow-type: tm+mt
 source-wordcount: 1047
 ht-degree: 3%
@@ -191,6 +191,11 @@ ht-degree: 3%
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
+
+
+1. 텍스트 모드 변경 내용을 저장하고 보고서 또는 필터를 계속 편집하려면 **적용** 또는 **완료**&#x200B;를 클릭하십시오.
+1. **저장 + 닫기**&#x200B;를 클릭하여 보고서를 저장하거나 **필터 저장**&#x200B;을 클릭하여 필터를 목록에 저장합니다.
+
 <!--
 
 If this text is needed for July 7 release, add the snippet at the top of the article!
@@ -204,8 +209,3 @@ If this text is needed for July 7 release, add the snippet at the top of the art
    For example, when you use `?portfolioID={portfolio}.{ID}` in a Project field filter and a Portfolio native field is on the custom form, the Project field shows only projects that are in the selected portfolio. If the Portfolio field is left blank, then all projects are available in the Project field.
 
 -->
-
-1. 텍스트 모드 변경 내용을 저장하고 보고서 또는 필터를 계속 편집하려면 **적용** 또는 **완료**&#x200B;를 클릭하십시오.
-1. **저장 + 닫기**&#x200B;를 클릭하여 보고서를 저장하거나 **필터 저장**&#x200B;을 클릭하여 필터를 목록에 저장합니다.
-
-
