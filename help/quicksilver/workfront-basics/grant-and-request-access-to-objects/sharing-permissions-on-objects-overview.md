@@ -7,22 +7,14 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
 TQID: https://experienceleague.adobe.com/1qu77g6G1MGEEHPki6hVXfP5PG2TMD0xg5Gg3PC5G2Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1355
+source-wordcount: 1382
 ht-degree: 1%
 
 ---
@@ -165,7 +157,7 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
   </tr> 
   <tr> 
    <td role="rowheader"><strong>시스템 전체에 표시</strong></td> 
-   <td> <p>이 개체는 검색에서 찾을 수 있으며 Workfront 계정이 있는 사용자가 볼 수 있습니다.</p><p><b>참고</b>: 기여자 또는 요청자 라이선스가 있는 사용자는 이 설정이 사용되더라도 프로젝트를 볼 수 없습니다. </td> 
+   <td> <p>이 개체는 검색에서 찾을 수 있으며 Workfront 계정이 있는 사용자가 볼 수 있습니다.</p><p><b>참고</b>: 기여자 또는 요청자 라이선스가 있는 사용자는 이 설정이 활성화되어 있더라도 프로젝트, 필터, 보기, 그룹화 또는 시스템 전체에서 공유되는 개체를 볼 수 없습니다. 기여자 또는 요청자가 볼 수 있도록 이러한 오브젝트를 개별적으로 공유할 수 있습니다. </td> 
   </tr> 
  </tbody> 
 </table>
