@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
+source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2761'
 ht-degree: 3%
 
 ---
@@ -99,53 +99,53 @@ ht-degree: 3%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">통합 검토 및 승인을 위한 변경 추적</a>
-                <p>이제 변경 내역 페이지에서 통합 검토 및 승인 워크플로 전반의 활동을 캡처하여 관리자에게 승인, 단계 및 참가자 작업에 대한 완전한 거버넌스 추적을 제공합니다.</p>
-            </td>
-            <td><p>2026년 7월 7일</p></td>
-            <td><p>2026년 7월 15일</p></td>
-            <td><p>2026년 7월 16일</p></td>
-        </tr>
         <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Internal lookup field replacing Typeahead field type</a>
-                <p>The new Internal lookup field type in custom forms provides dynamic filtering, multi-select support, and improved performance for large datasets. It is replacing the Typeahead field type.</p>
-            </td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Default value logic supported on native reference fields</a><p>[!BADGE Workflow Prime]{type=Informative}</p>
-                <p>In custom forms, native reference fields now allow you to add default value logic. This logic type is available only in the user interface and not in the Workfront API.</p>
-            </td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to native field filtering in custom forms</a>
-                <p>System filters on native fields are now visible to administrators in custom forms, and dynamic filtering is now available on native reference fields.</p>
-            </td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Protect field names from accidental renaming</a>
-                <p>Field names in the custom form field settings panel are now read-only by default, requiring an explicit confirmation step to rename. The Name field has been updated to API Name.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Change tracking for unified review and approval</a>
+                <p>The Change History page now captures activity across unified review and approval workflows, giving administrators a complete governance trail for approval, stage, and participant actions.</p>
             </td>
             <td><p>July 7, 2026</p></td>
             <td><p>July 15, 2026</p></td>
             <td><p>July 16, 2026</p></td>
         </tr>
         -->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Typeahead 필드 형식을 바꾸는 내부 조회 필드</a>
+                <p>사용자 정의 양식의 새로운 내부 조회 필드 유형은 동적 필터링, 다중 선택 지원 및 대용량 데이터 세트에 대한 향상된 성능을 제공합니다. 자동 완성 필드 유형을 바꾸는 중입니다.</p>
+            </td>
+            <td><p>2026년 7월 7일</p></td>
+            <td><p>2026년 7월 15일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">기본 참조 필드에서 기본 값 논리가 지원됨</a><p>[!BADGE 워크플로우 Prime]{type=Informative}</p>
+                <p>이제 사용자 정의 양식의 기본 참조 필드를 사용하여 기본값 논리를 추가할 수 있습니다. 이 논리 유형은 Workfront API가 아닌 사용자 인터페이스에서만 사용할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 7월 7일</p></td>
+            <td><p>2026년 7월 15일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">사용자 정의 양식의 기본 필드 필터링에 대한 업데이트</a>
+                <p>이제 기본 필드에 대한 시스템 필터는 사용자 정의 양식에서 관리자가 볼 수 있으며, 동적 필터링은 기본 참조 필드에서 사용할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 7월 7일</p></td>
+            <td><p>2026년 7월 15일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">실수로 이름이 바뀌지 않도록 필드 이름 보호</a>
+                <p>이제 사용자 정의 양식 필드 설정 패널의 필드 이름은 기본적으로 읽기 전용이므로 이름을 변경하려면 명시적인 확인 단계가 필요합니다. 이름 필드가 API 이름으로 업데이트되었습니다.</p>
+            </td>
+            <td><p>2026년 7월 7일</p></td>
+            <td><p>2026년 7월 15일</p></td>
+            <td><p>2026년 7월 16일</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront 개체에 대한 변경 기록 보기</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
