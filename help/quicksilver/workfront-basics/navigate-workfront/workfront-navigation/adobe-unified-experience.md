@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: 711
 ht-degree: 3%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 3%
 # [!DNL Workfront]에 대한 [!DNL Adobe Unified Experience]
 
 <!--Audited: 10/2024-->
+
+{{highlighted-preview}}
 
 [!DNL Adobe CX Enterprise]을(를) 통해 [!DNL Workfront]에 액세스하면 모든 [!DNL Adobe] 응용 프로그램을 관리할 수 있는 원활하고 통합된 환경을 얻을 수 있습니다. 단일 ID 관리를 사용하면 여러 URL이나 로그인 ID 없이 한 곳에서 로그인할 수 있습니다.
 
@@ -98,6 +100,10 @@ Adobe Admin Console의 사용자 관리에 대한 자세한 내용은 문서 [Ad
 * **레이아웃 템플릿 구성**: [!DNL Workfront] 관리자가 레이아웃 템플릿에서 [!UICONTROL 주 메뉴]를 수정하는 방법에 대해 알아보려면 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴] 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하세요.
 * **라이선스 유형**: 다른 라이선스 유형에 대한 기본 구성을 알아보려면 [Light] 라이선스 사용자의 탐색 이해(/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) 또는 [[!UICONTROL 작업] 라이선스 사용자의 탐색 이해](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)를 참조하십시오.
 
+미리 보기 환경의 <span class="preview">샘플 이미지:</span>
+![주 메뉴](assets/main-menu-options-2026.png)
+
+프로덕션 환경의 샘플 이미지:
 ![주 메뉴](assets/main-menu-options-left-nav.png)
 
 ## 프로필 및 환경 설정 액세스

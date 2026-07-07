@@ -21,14 +21,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: 481
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 작업] 라이선스 사용자의 탐색 이해
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront] 관리자가 귀하에게 할당한 액세스 수준에 따라 [!UICONTROL 주 메뉴]가 변경됩니다. 기본적으로 액세스 수준에서 허용하는 기능을 포함하는 영역에만 액세스할 수 있습니다. 각 액세스 수준의 기본 레이아웃의 구성 요소를 이해하려면 [기본 정보 [!DNL Adobe Workfront] 레이아웃](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)을 참조하세요.
 
@@ -66,6 +68,10 @@ ht-degree: 0%
 
 * **[!UICONTROL 보드]**: 수행할 작업을 반영하는 열과 카드가 포함된 공유 보드를 사용하여 팀 구성원과 융통성 있게 작업하고 공동 작업합니다. 자세한 내용은 [게시판 시작: 문서 색인](../../../agile/get-started-with-boards/get-started-with-boards.md)을 참조하세요.
 
+미리 보기 환경의 <span class="preview">샘플 이미지:</span>
+![작업자 기본 메뉴](assets/worker-main-menu-070626.png)
+
+프로덕션 환경의 샘플 이미지:
 ![작업자 주 메뉴](assets/worker-main-menu-2026.png)
 
 ## 기본 [!UICONTROL 기본 메뉴] 사용자 지정

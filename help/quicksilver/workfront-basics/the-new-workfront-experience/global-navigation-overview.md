@@ -5,19 +5,25 @@ description: ' [!DNL Adobe Workfront] 의 화면 맨 위에 표시되는 위쪽 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 201a4430cfaa10bb99ef63ec96ecdccd3b07b0f1
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # 상단 탐색 막대 개요
 
+{{highlighted-preview}}
+
 <!--Audited: 01/2024-->
 
 [!DNL Adobe Workfront]의 화면 맨 위에 표시되는 위쪽 탐색 막대를 사용하면 플랫폼의 다른 영역을 쉽게 찾아 탐색할 수 있습니다.
 
+미리 보기 환경의 <span class="preview">샘플 이미지:</span>
+![위쪽 탐색 모음](assets/wf-top-navigation-070626.png)
+
+프로덕션 환경의 샘플 이미지:
 ![위쪽 탐색 모음](assets/wf-top-navigation-2026.png)
 
 ## [!UICONTROL 홈] 아이콘

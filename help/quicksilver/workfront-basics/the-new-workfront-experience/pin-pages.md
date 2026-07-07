@@ -14,14 +14,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
 workflow-type: tm+mt
-source-wordcount: 401
-ht-degree: 4%
+source-wordcount: 531
+ht-degree: 3%
 
 ---
 
 # 페이지를 고정하여 작업 영역 사용자 지정
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -62,6 +64,10 @@ ht-degree: 4%
 
 1. 페이지의 왼쪽 상단 모서리에서 **[!UICONTROL 현재 페이지 고정]**&#x200B;을 클릭합니다. 이제 고정된 페이지에 [!DNL Workfront]의 모든 페이지 맨 위에서 액세스할 수 있습니다.
 
+   미리 보기 환경의 <span class="preview">샘플 이미지:
+   ![현재 페이지 고정](assets/pin-current-page-button-2026.png)
+
+   프로덕션 환경의 샘플 이미지:
    ![현재 페이지 고정](assets/pin-current-page-button.png)
 
 ## 고정된 페이지에 액세스
@@ -76,9 +82,32 @@ ht-degree: 4%
 
    고정된 페이지가 많으면 **[!UICONTROL 자세히]** 아이콘을 클릭하세요. ![자세히 아이콘을 클릭하세요.](assets/more-icon.png) 고정된 페이지를 더 볼 수 있습니다.
 
+   미리 보기 환경의 <span class="preview">샘플 이미지:
+   ![현재 페이지 고정](assets/display-pinned-pages-2026.png)
+
+   프로덕션 환경의 샘플 이미지:
    ![고정된 추가 페이지 보기](assets/display-pinned-pages.png)
 
    고정된 페이지가 표시됩니다.
+
+<div class="preview">
+
+## 고정 항목 관리
+
+한 위치에서 고정된 페이지의 이름을 바꾸고, 순서를 변경하고, 제거할 수 있습니다.
+
+1. 고정 항목 행에서 **[!UICONTROL 자세히]** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭하고 **고정 항목 관리**&#x200B;를 선택합니다.
+1. **고정 항목 관리** 상자에서 다음 중 하나 이상을 실행하십시오.
+
+   * 고정된 페이지의 이름을 바꾸려면 **편집** 아이콘을 클릭하십시오. 새 이름을 입력하고 확인 표시 아이콘을 클릭하여 확인합니다.
+   * 고정된 페이지를 표시할 순서대로 끌어서 놓습니다.
+   * 목록에서 고정된 페이지를 제거하려면 **삭제** 아이콘을 클릭하십시오.
+
+   ![고정 항목 관리](assets/manage-pins.png)
+
+1. 고정 항목 편집이 끝나면 **닫기**&#x200B;를 클릭합니다.
+
+</div>
 
 ## 고정된 페이지 이름 바꾸기
 
@@ -90,7 +119,6 @@ ht-degree: 4%
 1. 새 핀 이름을 입력한 다음 **저장**&#x200B;을 클릭합니다.
 
    ![확인 표시를 클릭하여 핀 이름을 변경합니다](assets/rename-pin-dialog-box.png)
-
 
 ## 고정된 페이지 순서 바꾸기
 
