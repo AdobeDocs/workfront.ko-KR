@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
 title: 변경 기록
-description: 변경 기록을 사용하면 Workfront 객체에 대한 변경 사항 로그를 볼 수 있습니다
-author: Becky
+description: 변경 기록을 사용하면 Workfront 객체에 대한 변경 사항 로그를 볼 수 있습니다.
+author: Lisa and Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '452'
 ht-degree: 4%
 
 ---
@@ -18,10 +18,8 @@ ht-degree: 4%
 
 설정의 변경 추적 영역에서 감사 로그를 포함한 변경 내역을 볼 수 있습니다.
 
-* **감사 로그**&#x200B;는 사용자가 트리거한 변경 사항입니다.
-감사 로그 및 감사 로그 영역에 대한 자세한 내용은 [감사 로그 개요](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)를 참조하십시오.
-* **구성**&#x200B;은(는) 변경 내용 목록에 대해 추적 중인 필드를 표시합니다.
-구성은 현재 정보로만 사용할 수 있으며 변경할 수 없습니다. 추적되는 필드를 변경할 수 있는 기능은 가까운 시일 내에 제공될 예정입니다.
+* **감사 로그**&#x200B;는 사용자가 트리거한 변경 사항입니다.감사 로그 및 감사 로그 영역에 대한 자세한 내용은 [감사 로그 개요](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)를 참조하십시오.
+* **구성**&#x200B;은(는) 변경 내용 목록에 대해 추적 중인 필드를 표시합니다.구성은 현재 정보로만 사용할 수 있으며 변경할 수 없습니다. 추적되는 필드를 변경할 수 있는 기능은 가까운 시일 내에 제공될 예정입니다.
 * 변경 내역 목록을 사용하면 다음과 같은 속성을 포함하여 Workfront 객체에 대한 변경 사항 로그를 볼 수 있습니다.
 
    * 오브젝트
@@ -39,7 +37,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 패키지</td> 
-   <td>워크플로 얼티밋</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 라이센스</td> 
