@@ -5,9 +5,12 @@ title: Adobe Cloud Drive 설치
 description: Adobe Cloud Drive를 Mac 또는 Windows 컴퓨터에 설치하여 Finder 또는 File Explorer에서 직접 Adobe 클라우드 저장소 프로젝트를 사용할 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 44bf6f571c35bd9a2f44fc23b2a5eaa3eb2d763b
 workflow-type: tm+mt
 source-wordcount: 532

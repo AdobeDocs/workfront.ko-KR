@@ -5,9 +5,12 @@ title: Adobe 클라우드 드라이브 사용
 description: Adobe Cloud Drive를 사용하여 Finder 또는 파일 탐색기에서 직접 Adobe 클라우드 스토리지 프로젝트로 작업합니다. 모든 응용 프로그램에서 파일을 열고 편집하고, 오프라인으로 작업하고, 충돌을 해결합니다.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: d5dd769447e81d5d95b4907f8a01016b118f2322
 workflow-type: tm+mt
 source-wordcount: 1723
