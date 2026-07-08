@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
-source-wordcount: '14248'
+source-wordcount: '14272'
 ht-degree: 2%
 
 ---
@@ -1198,6 +1198,12 @@ ht-degree: 2%
       * [문서 구성](documents/organizing-documents/organize-documents.md)
       * [문서 폴더 만들기](documents/organizing-documents/create-documents-folder.md)
       * [스마트 폴더 만들기 및 관리](documents/organizing-documents/create-manage-smart-folders.md)
+   * Adobe 클라우드 드라이브 {#adobe-cloud-drive}
+      * [Adobe Cloud Drive: 문서 색인](documents/adobe-cloud-drive/adobe-cloud-drive.md)
+      * [Adobe Cloud Drive 개요](documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)
+      * [Adobe Cloud Drive 설치](documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
+      * [Adobe 클라우드 드라이브 사용](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
+      * [Adobe 클라우드 드라이브 문제 해결](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
    * Workfront 및 Experience Manager Assets 통합 {#wf-aem-integrations}
       * [Workfront 및 Experience Manager Assets 통합](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Workfront for Experience Manager 강화 커넥터 {#wf-aem-enhanced-connector}

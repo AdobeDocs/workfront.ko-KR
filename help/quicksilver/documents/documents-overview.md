@@ -15,9 +15,9 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5e63d7e8c5c282cf4d0cc588b59733b2d790b457
 workflow-type: tm+mt
-source-wordcount: 72
+source-wordcount: 85
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 0%
 
 문서 작업에 대한 자세한 내용은 다음 하위 섹션의 문서를 참조하십시오.
 
-* [Adobe Workfront에 새 문서 추가](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
-* [문서 관리](../documents/managing-documents/manage-documents.md)
-* [문서 구성](../documents/organizing-documents/organize-documents.md)
-* [Workfront 및 Experience Manager Assets 통합](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [Adobe Workfront에 새 문서 추가: 문서 인덱스](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
+* [문서 관리: 문서 인덱스](../documents/managing-documents/manage-documents.md)
+* [문서 구성: 문서 인덱스](../documents/organizing-documents/organize-documents.md)
+* [Adobe Cloud Drive: 문서 색인](../documents/adobe-cloud-drive/adobe-cloud-drive.md)
+* [Workfront 및 Experience Manager Assets 통합: 문서 색인](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
