@@ -162,7 +162,7 @@ Adobe Cloud Drive 사용에 대한 자세한 내용은 [Adobe Cloud Drive 사용
 
 라이선스 질문, 프로젝트 액세스 문제 또는 조직별 구성은 Workfront 관리자에게 문의하십시오.
 
-Adobe 지원 팀과 로그를 공유하려면 [Adobe 로그 수집기 도구 실행](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)의 단계를 따르십시오.
+Adobe 지원 팀과 로그를 공유하려면 [Adobe 로그 수집기 도구 실행](https://helpx.adobe.com/kr/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)의 단계를 따르십시오.
 
 ## 모범 사례
 
