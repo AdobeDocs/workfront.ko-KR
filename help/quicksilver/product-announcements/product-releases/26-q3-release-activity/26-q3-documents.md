@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: c2e1da665d483552b2b91c74768ce3b77457d268
+source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기: 해당 사항 없음프로덕션 빠른 릴리스: 2026년 7월 8일모두를 위한 프로덕션: 2026년 7월 8일이 기능은 Adobe 클라우드 스토리지가 활성화된 Workflow Ultimate 패키지의 조직만 사용할 수 있습니다.
+>미리보기: 해당 사항 없음프로덕션 빠른 릴리스: 2026년 7월 8일모두를 위한 프로덕션: 2026년 7월 8일일정 해제이 기능은 Adobe 클라우드 스토리지가 활성화된 Workflow Ultimate 패키지의 조직만 사용할 수 있습니다.
 
 이제 Adobe Cloud Drive를 Adobe 클라우드 저장소를 지원하는 Workfront 버전을 사용하는 조직에서 사용할 수 있습니다. Adobe Cloud Drive는 Adobe 클라우드 저장소 프로젝트를 Mac 또는 Windows 컴퓨터의 드라이브로 마운트하는 데스크탑 애플리케이션이므로 Finder 또는 파일 탐색기에서 직접 모든 애플리케이션에서 파일을 열고, 편집하고, 저장할 수 있습니다. 변경 사항은 Adobe 클라우드 스토리지에 자동으로 동기화되며 Workfront 및 Frame.io에서 팀에서 사용할 수 있습니다.
 
