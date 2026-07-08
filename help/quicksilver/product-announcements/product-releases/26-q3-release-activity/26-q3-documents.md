@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 6e0b4b17c927accc45846dc0affbf7a9425cca80
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -52,11 +52,9 @@ For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documen
 
 -->
 
-## Workfront 및 Frame.io를 사용하여 Adobe Express 템플릿에 대한 승인 요청
-
 >[!NOTE]
 >
->미리보기: 해당 사항 없음프로덕션 빠른 릴리스: 2026년 6월 15일모두를 위한 프로덕션: 2026년 6월 15일일정 해제&rbrack;{type=Neutral}
+>미리보기: 해당 사항 없음프로덕션 빠른 릴리스: 2026년 6월 15일모두를 위한 프로덕션: 2026년 6월 15일일정 해제]{type=Neutral}
 
 Frame.io 통합이 포함된 Adobe Express 및 Workfront은 Adobe Express에서 만들어진 콘텐츠에 구조화된 검토 및 승인을 제공합니다. 디자이너는 Workfront 승인 워크플로 템플릿을 Express 템플릿에 매핑할 수 있으므로 템플릿이 다시 혼합되면 게시 전에 자동으로 승인이 필요하므로 사전 구성된 Workfront 워크플로 및 Frame.io 뷰어를 통해 자산을 라우팅할 수 있습니다.
 

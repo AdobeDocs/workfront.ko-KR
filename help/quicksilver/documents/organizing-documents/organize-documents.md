@@ -2,25 +2,23 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: 문서 구성
+title: '문서 구성: 문서 색인'
 description: 폴더로 문서를 구성할 수 있습니다. 일반 폴더 또는 스마트 폴더를 만들 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: db1887a0-3644-44a7-bb2b-f48ac61c1e38
 TQID: https://experienceleague.adobe.com/FCLnwj3l224CGHcgkJKL6p0iK1vLnxANhKBUGDE5AL4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 507718ad95931f2d2a7698620dd7b5e79c3c0105
 workflow-type: tm+mt
-source-wordcount: 46
+source-wordcount: 50
 ht-degree: 0%
 
 ---
 
-# 문서 구성
+# 문서 구성: 문서 색인
 
 폴더로 문서를 구성할 수 있습니다. 일반 폴더 또는 스마트 폴더를 만들 수 있습니다.
 
