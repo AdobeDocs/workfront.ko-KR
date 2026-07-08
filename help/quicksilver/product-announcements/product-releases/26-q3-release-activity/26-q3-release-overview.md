@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a7a94a89b0d1f626658ef97f0f32a0e62e44da6b
+source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
 workflow-type: tm+mt
-source-wordcount: '2822'
+source-wordcount: '2824'
 ht-degree: 3%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">기본 참조 필드에서 기본 값 논리가 지원됨</a><p>[!BADGE 워크플로우 Prime]{type=Informative}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">기본 참조 필드에서 기본 값 논리가 지원됨</a><p>[!BADGE 워크플로우 Prime 이상]{type=Informative}</p>
                 <p>이제 사용자 정의 양식의 기본 참조 필드를 사용하여 기본값 논리를 추가할 수 있습니다. 이 논리 유형은 Workfront API가 아닌 사용자 인터페이스에서만 사용할 수 있습니다.</p>
             </td>
             <td><p>2026년 7월 7일</p></td>
