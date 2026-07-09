@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '2824'
+source-wordcount: '2920'
 ht-degree: 3%
 
 ---
@@ -522,6 +522,15 @@ ht-degree: 3%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">댓글 보관 최적화</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>현재 업데이트 영역을 표시하는 모든 Workfront 개체에 대해 1년 이상 지난 댓글에 대한 댓글 보관을 최적화하고 있습니다. 이는 내부적인 작업이며 업데이트 영역에 대한 경험에 영향을 주지 않습니다. 개체 유형에 대한 업데이트 영역은 시각적으로 변경되지 않으며 이 업데이트에서는 기능이 변경되지 않습니다. 모든 주석 은 모든 객체 유형에 대해 계속 표시됩니다.</p>
+            </td>
+            <td><p>2026년 7월 7일부터 단계적으로 롤아웃</p></td>
+            <td><p>2026년 7월 7일부터 단계적으로 롤아웃</p></td>
+            <td><p>2026년 7월 7일부터 단계적으로 롤아웃</p></td>
         </tr>
         <tr>
             <td>

@@ -4,9 +4,9 @@ description: 2026년 3분기 릴리스 기간 동안의 기타 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 69e4091dcb139d4a11dad768fe78cb8e75721f3f
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,17 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 3분기 릴리스의 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)를 참조하십시오.
+
+## 댓글 보관 최적화
+
+
+>[!NOTE]
+>
+>모든 고객을 위한 미리보기 및 프로덕션: 2026년 7월 7일부터일정 해제&rbrack;{type=Neutral}
+
+현재 업데이트 영역을 표시하는 모든 Workfront 개체에 대해 1년 이상 지난 댓글에 대한 댓글 보관을 최적화하고 있습니다. 이는 내부적인 작업이며 업데이트 영역에 대한 경험에 영향을 주지 않습니다. 개체 유형에 대한 업데이트 영역은 시각적으로 변경되지 않으며 이 업데이트에서는 기능이 변경되지 않습니다. 모든 주석 은 모든 객체 유형에 대해 계속 표시됩니다.
+
+자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
 ## 전역 탐색 아이콘에 대한 인터페이스 업데이트
 
