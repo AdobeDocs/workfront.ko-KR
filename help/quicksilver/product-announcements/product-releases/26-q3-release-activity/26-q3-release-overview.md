@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
+source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
 workflow-type: tm+mt
 source-wordcount: '2920'
 ht-degree: 3%
@@ -61,7 +61,7 @@ ht-degree: 3%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터에서 사용할 수 있는 새 도구</a>
-                <p>Workfront MCP 커넥터의 기능을 확장하기 위해 8개의 새 도구가 추가되었으며 검색 개체 및 해결 필드 이름 도구가 더 이상 사용되지 않습니다.</p>
+                <p>Workfront MCP 커넥터의 기능을 확장하기 위해 몇 가지 새로운 도구를 추가하고 검색 개체 및 필드 이름 해결 도구를 더 이상 사용하지 않습니다.</p>
             </td>
             <td><p>2026년 7월 7일</p></td>
             <td><p>2026년 7월 15일</p></td>
