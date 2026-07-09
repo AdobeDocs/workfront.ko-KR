@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
+source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
 workflow-type: tm+mt
 source-wordcount: '2920'
 ht-degree: 3%
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 2026년 3분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 이 페이지가 추가 개선 사항으로 업데이트됩니다.
 
-라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/ko/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
+라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/en/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
 
 >[!IMPORTANT]
 >
@@ -61,7 +61,7 @@ ht-degree: 3%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터에서 사용할 수 있는 새 도구</a>
-                <p>Workfront MCP 커넥터의 기능을 확장하기 위해 8개의 새 도구가 추가되었으며 검색 개체 및 해결 필드 이름 도구가 더 이상 사용되지 않습니다.</p>
+                <p>Workfront MCP 커넥터의 기능을 확장하기 위해 몇 가지 새로운 도구를 추가하고 검색 개체 및 필드 이름 해결 도구를 더 이상 사용하지 않습니다.</p>
             </td>
             <td><p>2026년 7월 7일</p></td>
             <td><p>2026년 7월 15일</p></td>
@@ -634,12 +634,12 @@ Workfront 계획 심리는 2026년 5월 15일에 종료됩니다.
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
 
