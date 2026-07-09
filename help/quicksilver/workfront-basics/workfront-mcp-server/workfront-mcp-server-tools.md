@@ -5,9 +5,9 @@ title: Adobe Workfront MCP 서버 도구
 description: Workfront 영역별로 그룹화된 Adobe Workfront MCP 서버를 통해 사용할 수 있는 도구의 참조 목록입니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
+source-git-commit: 1b90f291995f636b1eecdf1af6a02fed7f01e9a4
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1768'
 ht-degree: 5%
 
 ---
@@ -214,6 +214,8 @@ Insights tools retrieve information about Workfront objects.
 ## 워크플로 도구
 
 워크플로 도구는 AI 아젠틱 플랫폼이 Workfront 개체(프로젝트, 작업, 문제, 시간, 과제, 프로그램, 포트폴리오 등)와 작업하는 데 사용하는 일반적인 목적의 작업입니다.
+
+### 오브젝트 및 필드
 
 | 제목 | 도구 이름 | 기능 | 액션 |
 | --- | --- | --- | --- |
