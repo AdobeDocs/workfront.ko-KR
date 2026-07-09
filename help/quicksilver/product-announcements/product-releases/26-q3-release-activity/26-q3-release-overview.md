@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
+source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
 workflow-type: tm+mt
 source-wordcount: '2920'
 ht-degree: 3%
@@ -357,9 +357,9 @@ ht-degree: 3%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">레거시 저장소 작업을 Adobe 클라우드 저장소 프로젝트로 전환</a><p><p>[!BADGE 해제 일정]{type=Neutral}</p></p>
                 <p>조직에서 레거시 Workfront 스토리지 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 이제 레거시 스토리지 작업을 Adobe 클라우드 스토리지 프로젝트로 전환할 수 있습니다.</p>
             </td>
-            <td><p>2026년 6월 11일</p></td>
-            <td><p>2026년 6월 12일</p></td>
-            <td><p>2026년 6월 12일</p></td>
+            <td><p>2026년 7월 9일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 10월 15일</p></td>
         </tr>
         <tr>
             <td>
