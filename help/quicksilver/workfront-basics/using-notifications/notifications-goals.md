@@ -9,20 +9,14 @@ exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kIc-y3DRa7mDVX14gA5jDbIzZveHH1MNIghGpQP7hc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c3131cb38ac6f71cdd98149c8d49177d59b7accf
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: 403
 ht-degree: 5%
 
 ---
@@ -32,10 +26,6 @@ ht-degree: 5%
 프로필의 [!DNL Adobe Workfront Goals]에서 발생하는 이벤트에 대해 이메일 알림을 활성화할 수 있습니다. [!UICONTROL 플랜] 라이선스가 있는 사용자는 다른 사용자에 대해서도 활성화할 수 있습니다. 자세한 내용은 [[!DNL Adobe Workfront] 알림](../../workfront-basics/using-notifications/wf-notifications.md)을 참조하세요.
 
 ## 액세스 요구 사항
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
--->
 
 +++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
@@ -68,10 +58,14 @@ ht-degree: 5%
 
 +++
 
-## 전제 조건
+<!--
+Support asked for this to be removed: issue ref number 29111956
 
-* 업데이트하려는 [!DNL Goals] 알림의 사용자에게는 [!UICONTROL 기본 메뉴]의 [!DNL Goals] 영역을 포함하는 레이아웃 템플릿이 있어야 합니다.
+## Prerequisites
 
+* The user whose [!DNL Goals] notifications you want to update must have a Layout Template that includes the [!DNL Goals] area in the [!UICONTROL Main Menu].
+
+-->
 
 ## [!UICONTROL 사용자 프로필] 영역의 [!DNL Goals]개 알림
 
