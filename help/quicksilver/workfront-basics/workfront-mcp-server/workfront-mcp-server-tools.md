@@ -5,15 +5,17 @@ title: Adobe Workfront MCP 서버 도구
 description: Workfront 영역별로 그룹화된 Adobe Workfront MCP 서버를 통해 사용할 수 있는 도구의 참조 목록입니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 4a2b9ae2e6f1519edbeab72814950b3ebdbb09ac
+source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1788'
 ht-degree: 5%
 
 ---
 
 
 # Adobe Workfront MCP 서버 도구
+
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 이 문서에서는 [!DNL Adobe Workfront] MCP 서버가 연결된 AI 에이전트 플랫폼에 노출하는 도구를 나열합니다. 플랫폼은 사용자가 Workfront 항목을 검색, 생성, 업데이트 또는 삭제하도록 요청하면 사용자를 대신하여 이러한 도구를 호출합니다.
 
