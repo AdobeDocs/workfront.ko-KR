@@ -7,19 +7,14 @@ author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
 TQID: https://experienceleague.adobe.com/Hegf4kJc65Le5-PttBh6pLzyR8zvydUbbjidxrK0se0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9f74d7a567a77128b5d6d6cfa1d4a8d559998a0f
 workflow-type: tm+mt
-source-wordcount: 903
-ht-degree: 8%
+source-wordcount: 1040
+ht-degree: 7%
 
 ---
 
@@ -29,8 +24,7 @@ Workfront Fusion을 통해 프로젝트를 생성하고 프로젝트에 Adobe Ex
 
 >[!NOTE]
 >
->워크플로우는 Adobe Experience Manager as a Cloud Service 통합에서만 사용할 수 있습니다. Adobe Experience Manager Assets Essentials와의 통합에서는 사용할 수 없습니다.<br>
->이 기능은 새 문서 영역에서 사용할 수 없습니다.
+>워크플로우는 Adobe Experience Manager as a Cloud Service 통합에서만 사용할 수 있습니다. Adobe Experience Manager Assets Essentials와의 통합에서는 사용할 수 없습니다.이 기능은 새 문서 영역에서 사용할 수 없습니다.
 
 
 ## 액세스 요구 사항
@@ -93,7 +87,7 @@ Workfront Fusion에서 Adobe Experience Manager 워크플로가 포함된 프로
 1. 시나리오에 **Workfront** > **기타 작업** 모듈을 추가합니다.
 1. **연결** 필드에서 이 모듈에서 사용할 계정에 연결하는 Workfront 연결을 선택합니다.
 
-   연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.
+   연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.
 
    클라이언트 ID 및 클라이언트 암호를 만드는 방법에 대한 지침은 이 문서에서 [OAuth 응용 프로그램 만들기](#create-an-oauth-application)를 참조하십시오.
 
@@ -175,4 +169,52 @@ Workfront Fusion에서 Adobe Experience Manager 워크플로가 포함된 프로
 
 Fusion에서 모듈의 연결을 구성할 때 이 클라이언트 ID와 클라이언트 암호를 사용합니다.
 
-연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.
+연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.
+
+## 문제 해결
+
+**문제**: 사용자 정의 양식이 Fusion에서 만든 프로젝트에 예기치 않게 첨부되었습니다.
+
+**해결 방법**:
+
+`categoryID`을(를) 고급 프로젝트 JSON에서 `project_new.categoryID`(Fusion UI의 구조화된 필드 사용)로 이동합니다.
+
+구체적으로 매퍼를 다음과 같이 변경합니다.
+
+```
+// project_new — set just this one field via the structured UI
+{
+    "categoryID": "5d3a292300b69eb5d80c37e8ce6269d3"
+}
+```
+
+```
+// project (advanced JSON) — remove categoryID from here
+{
+    "aemNativeFolderTreeIDs": ["693c40280e09eb1bd4085a5e"],
+    "aemNativeFolderWorkflowEnabled": "true",
+    "name": "{{1.name}}",
+    "templateID": "{{if(...)}}",
+    "ownerID": "{{1.ownerID}}",
+    "sponsorID": "{{1.ownerID}}",
+    "priority": "2",
+    "programID": "{{ifempty(7.ID; null)}}",
+    "description": "test",
+    "portfolioID": "{{ifempty(8.ID; null)}}",
+    "scheduleMode": "S",
+    "completionType": "AUT"
+}
+```
+
+**작동 이유**:
+
+1. 이제 `isCtgyIDsGive`n에 `project_new.categoryID = "5d3a292300b69eb5d80c37e8ce6269d3"`이(가) → `temp.isCtgyIDsGiven = true`→(를) 반환합니다.
+2. 단계(`getAttachedAndAttachableCategoryID`s)를 건너뛰었습니다. 해당 조건은 `!temp.isCtgyIDsGiven`입니다.
+3. 대신 이 단계가 실행됩니다. `ctgyIds = split(parameters.project_new.categoryID, ',')` → [&quot;5d3a292300b69eb5d80c37e8ce6269d3&quot;]
+4. `prepareMiscActionData`은(는) 여전히 모든 AEM 관련 필드(`project_new`보다 우선함)에 대해 고급 프로젝트 JSON을 사용한 다음 `objectCategories: [{ categoryID: "5d3a292300b69eb5d80c37e8ce6269d3" }]`을(를) 오버레이합니다. 의도한 양식만 오버레이합니다. 예기치 않은 양식은 없습니다
+5. 원본 OPTASK에서 새 프로젝트로 사용자 지정 필드 값을 복사하는 단계는 `isCopyCustomData: true`에서 예상대로 실행됩니다.
+
+AEM 필드(`aemNativeFolderTreeIDs`, `aemNativeFolderWorkflowEnabled`)는 영향을 받지 않고 고급 필드에 남아 있습니다. 이 프로세스는 `categoryID`이(가) 있는 위치만 변경합니다.
+
+
+
