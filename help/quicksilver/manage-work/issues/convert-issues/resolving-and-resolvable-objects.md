@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 71bea9d8e8a1987c5a1ee23d25402f784d2e22c8
 workflow-type: tm+mt
-source-wordcount: 1755
+source-wordcount: 1809
 ht-degree: 1%
 
 ---
@@ -189,11 +189,15 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 * 프로젝트 또는 작업의 사용자 정의 상태에 문제 사용자 정의 상태와 동일한 세 글자로 된 코드가 있습니다.
 
-문제와 프로젝트 또는 작업 모두에 대해 동일한 키로 사용자 정의 상태를 생성할 수 있습니다. 프로젝트 또는 작업(해결 중 오브젝트)이 사용자 지정 상태로 변경되면 변경 사항도 문제 상태에 반영됩니다. 상태 키는 문제 및 프로젝트 또는 작업 상태에 대해 동일해야 합니다.
+다음 사항을 고려하십시오.
 
-예를 들어, 세 글자로 된 코드 LCD를 사용하여 시작됨이라는 프로젝트 사용자 정의 상태를 만들어 현재 와 동일하다고 가정해 보겠습니다. 다음으로, Project Launched라는 사용자 정의 상태와 문자 코드 LCD를 함께 만들고( In Progress 와 같음). 프로젝트를 시작됨으로 표시하면 문제가 자동으로 상태를 프로젝트 시작됨으로 변경합니다. 해결 중 오브젝트 변경 상태 설정이 활성화되지 않았을 때 해결 가능한 문제 자동 업데이트 설정이 활성화되면 문제 상태가 대신 진행 중으로 변경됩니다.
+* 문제와 프로젝트 또는 작업 모두에 대해 동일한 키로 사용자 정의 상태를 생성할 수 있습니다. 프로젝트 또는 작업(해결 중 오브젝트)이 사용자 지정 상태로 변경되면 변경 사항도 문제 상태에 반영됩니다. 상태 키는 문제 및 프로젝트 또는 작업 상태에 대해 동일해야 합니다.
 
-사용자 지정 상태 만들기에 대한 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)을 참조하세요.
+  예를 들어, 3자 코드 LCD를 사용하여 이름이 Launched인 프로젝트 사용자 정의 상태를 만들 수 있습니다. 이 상태는 Current와 동일합니다. 다음으로, Project Launched라는 사용자 정의 상태와 문자 코드 LCD를 함께 만들고( In Progress 와 같음). 프로젝트를 시작됨으로 표시하면 문제가 자동으로 상태를 프로젝트 시작됨으로 변경합니다. 해결 중 오브젝트 변경 상태 설정이 활성화되지 않았을 때 해결 가능한 문제 자동 업데이트 설정이 활성화되면 문제 상태가 대신 진행 중으로 변경됩니다.
+
+* 해결 중 오브젝트가 완료 상태로 매핑되는 시스템 상태로 설정되면 해결 가능한 문제가 해당 상태에 대한 자체 그룹의 기본 상태로 설정됩니다. 세 글자로 된 상태 키 일치는 사용자 지정 상태 경로에만 적용되며 Workfront에서 구성한 시스템 상태에는 적용되지 않습니다.
+
+  사용자 지정 상태 만들기에 대한 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)을 참조하세요.
 
 ## 해결 중 오브젝트의 완료율을 해결 중 오브젝트의 완료율과 동기화
 
