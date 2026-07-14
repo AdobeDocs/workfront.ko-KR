@@ -9,20 +9,14 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
 workflow-type: tm+mt
-source-wordcount: 3158
+source-wordcount: 3175
 ht-degree: 0%
 
 ---
@@ -202,7 +196,19 @@ Old:
 1. (조건부) 테이블 보기를 만들려면 표 보기의 탭을 클릭하거나 **+ 보기**&#x200B;를 클릭합니다. 마지막으로 액세스할 때 다른 유형의 보기에서 레코드 유형을 보지 않은 경우 테이블 보기는 기본 보기여야 합니다.
 
    선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
+
 1. (선택 사항) 검색 상자를 클릭하고 키워드를 추가하여 편집할 레코드를 찾습니다.
+
+   <!--
+    >[!TIP]
+    >
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for records:
+    >
+    >* CTRL+K for Windows
+    >* ⌘+K for Mac
+    >
+    >![Global search box](assets/global-search-box.png)
+    -->
 
 1. 레코드 행 내부를 클릭하여 인라인 레코드에 대한 정보 편집을 시작합니다.
 
@@ -279,8 +285,7 @@ Old:
 
    * **보기** 또는 <span class="preview">**새 탭에서 열기**</span>: 레코드 페이지가 열립니다.
    * **링크 복사**: 레코드의 페이지에 링크를 복사하려면
-   * **축소판 편집**: 레코드에 축소판을 추가하려면
-자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
+   * **축소판 편집**: 레코드에 축소판을 추가하려면자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
    * **복제**: 레코드의 동일한 복제가 만들어집니다.
    * **위에 레코드 삽입/아래에 레코드 삽입**: 새 레코드를 추가할 수 있도록 새 행을 추가합니다. <span class="preview">미리 보기 환경에서는 사용할 수 없습니다.</span>
    * **삭제**: 레코드를 삭제합니다. 삭제된 레코드는 최대 30일 동안 [최근에 삭제됨] 상자에 저장됩니다.
