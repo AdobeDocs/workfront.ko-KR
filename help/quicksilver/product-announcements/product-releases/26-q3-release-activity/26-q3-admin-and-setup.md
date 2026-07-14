@@ -121,7 +121,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->미리 보기: 2026년 6월 11일모두를 위한 프로덕션: 2026년 6월 11일일정 해제]{type=Neutral}
+>미리 보기: 2026년 6월 11일모두를 위한 프로덕션: 2026년 6월 11일일정 해제&rbrack;{type=Neutral}
 
 Workfront 관리자는 이제 시스템 환경 설정에서 직접 레거시 스토리지 포트폴리오를 Adobe 클라우드 스토리지로 변환할 수 있습니다. 포트폴리오를 변환하려면 새 엔터프라이즈 스토리지로 변환할 포트폴리오 선택 필드에서 해당 포트폴리오를 선택하고 페이지를 저장합니다.
 
