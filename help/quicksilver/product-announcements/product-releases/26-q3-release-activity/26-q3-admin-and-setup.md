@@ -4,9 +4,9 @@ description: 2026년 3분기 관리자 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1334'
 ht-degree: 4%
 
 ---
@@ -121,7 +121,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->미리 보기: 2026년 6월 11일모두를 위한 프로덕션: 2026년 6월 11일
+>미리 보기: 2026년 6월 11일모두를 위한 프로덕션: 2026년 6월 11일일정 해제]{type=Neutral}
 
 Workfront 관리자는 이제 시스템 환경 설정에서 직접 레거시 스토리지 포트폴리오를 Adobe 클라우드 스토리지로 변환할 수 있습니다. 포트폴리오를 변환하려면 새 엔터프라이즈 스토리지로 변환할 포트폴리오 선택 필드에서 해당 포트폴리오를 선택하고 페이지를 저장합니다.
 
