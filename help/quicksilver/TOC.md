@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
+source-git-commit: cf5c324a5dd527d498b5ccc32e1eb81ab3ea638f
 workflow-type: tm+mt
-source-wordcount: '14283'
+source-wordcount: '14293'
 ht-degree: 2%
 
 ---
@@ -1203,6 +1203,7 @@ ht-degree: 2%
       * [Adobe Cloud Drive 개요](documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)
       * [Adobe Cloud Drive 설치](documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
       * [Adobe 클라우드 드라이브 사용](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
+      * [Adobe 클라우드 드라이브 설정 및 관리](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
       * [Adobe 클라우드 드라이브 문제 해결](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
    * Workfront 및 Experience Manager Assets 통합 {#wf-aem-integrations}
       * [Workfront 및 Experience Manager Assets 통합](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
