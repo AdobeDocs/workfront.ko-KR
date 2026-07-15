@@ -7,14 +7,11 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 608
 ht-degree: 0%
 
 ---
@@ -87,3 +84,24 @@ No longer the case - they match now:
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * Workfront Planning 인스턴스에 만들 수 있는 작업 영역 객체의 수에 제한이 있습니다. 자세한 내용은 [Adobe Workfront Planning 개체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md)를 참조하십시오.
+
+## 글로벌 검색 개요
+
+Planning 랜딩 페이지에서 글로벌 검색 상자를 사용하여 다음 Planning 객체를 검색할 수 있습니다.
+
+* 작업 영역
+* 레코드 유형
+* 보기 횟수
+
+![글로벌 검색 상자](assets/global-search-box.png)
+
+글로벌 검색 사용에 대한 다음 사항을 고려하십시오.
+
+* Planning 랜딩 페이지 또는 모든 Planning 페이지에서 다음 키보드 조합을 눌러 검색에 액세스할 수 있습니다.
+
+   * Windows의 경우 CTRL+K
+   * Mac의 경우 ⌘+K
+* 각 객체의 마지막 7개 결과가 검색 상자에 표시됩니다.
+* 일반 검색을 수행하거나 객체를 선택하고 개별 목록을 검색할 수 있습니다.
+
+
