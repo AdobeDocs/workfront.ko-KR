@@ -10,11 +10,9 @@ exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/k4qFA-R7MGSh5NBTbJCeOEac5Z30PVxzO8rxLRJi23Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 474
 ht-degree: 1%
@@ -22,8 +20,6 @@ ht-degree: 1%
 ---
 
 # 문서 세부 정보 개요
-
-{{highlighted-preview}}
 
 문서 세부 정보 페이지에서는 Adobe Workfront 객체에 첨부된 문서의 속성을 보고, 전달하고, 관리할 수 있습니다.
 
@@ -112,8 +108,6 @@ ht-degree: 1%
    ![문서 세부 정보](assets/doc-details.png)
 
 
-<div class="preview">
-
 ### 새 문서 영역에서 인쇄 요약 보기
 
 문서에 승인이 있으면 Frame.io 주석 인쇄 페이지를 열어 인쇄 가능한 형식으로 에셋 미리보기, 주석 및 승인 결정을 볼 수 있습니다.
@@ -130,5 +124,3 @@ ht-degree: 1%
 >
 >인쇄 요약 링크는 문서에 승인이 추가된 후에만 나타납니다.
 
-
-</div>

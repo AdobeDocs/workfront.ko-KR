@@ -11,19 +11,12 @@ exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
 last-update: 2026-04-29T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/4536sfZCe8ugbGGuFUQeyFXnNNifG0e5MZ4npIlH1iI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 766
 ht-degree: 4%
@@ -31,8 +24,6 @@ ht-degree: 4%
 ---
 
 # 시스템 기본 정보 구성하기
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -84,7 +75,7 @@ Adobe Workfront 시스템 구성의 일부로, 고객 정보 페이지의 기본
    | 섹션 | 추가 정보 |
    |---------|-----------------|
    | **기본 정보** | Workfront에서 기본 정보를 구성하는 방법에 대한 자세한 내용은 [기본 정보 구성](#configure-basic-info)을 참조하십시오. |
-   | <span class="preview">**저장소 개요**</span> | <span class="preview">문서 저장소 사용 및 할당량 확인에 대한 자세한 내용은 [문서 저장소 제한 확인](../../documents/managing-documents/check-document-storage.md).</span>을 참조하세요. |
+   | **저장소 개요** | 문서 저장소 사용 및 할당량 확인에 대한 자세한 내용은 [문서 저장소 제한 확인](../../documents/managing-documents/check-document-storage.md)을 참조하세요. |
    | **API 키 설정** | API 키 설정에 대한 자세한 내용은 [API 키 관리](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)를 참조하십시오. |
    | **IP 허용 목록** | 사용자가 Workfront에 액세스할 수 있는 IP 주소를 허용 목록에 추가하는 방법에 대한 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오. |
    | **전자 메일 허용 목록** | 전자 메일을 허용 목록에 추가하다에 추가하는 방법에 대한 자세한 내용은 [전자 메일 구성](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)을 참조하십시오. |
