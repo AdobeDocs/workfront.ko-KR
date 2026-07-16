@@ -10,22 +10,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
 TQID: https://experienceleague.adobe.com/DP4cAQiJdCpE59ppP-EvU3UcJomEd9TUxza6DIB1cDg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
 workflow-type: tm+mt
-source-wordcount: 1018
+source-wordcount: 1070
 ht-degree: 1%
 
 ---
@@ -58,20 +50,22 @@ Workfront 설명서 방법 문서에는 해당 절차에 필요한 액세스 및
   <p>조직에서 이러한 영역 중 하나 이상에서 Workfront 패키지를 구매했을 수 있습니다.</p>
   <p>이전에는 Workfront에서 워크플로, 계획, 자동화 및 통합을 구분하지 않고 Workfront Select, Workfront Prime 및 Workfront Ultimate 패키지를 제공했습니다. 조직은 이러한 레거시 패키지 중 하나에 있을 수 있습니다. 
    <ul><li>조직이 현재 또는 레거시 패키징 모델인지 여부를 포함하여 조직이 사용하는 Adobe Workfront 패키지를 확인하려면 Workfront 관리자에게 문의하십시오.</li>
-   <li>Workfront 관리자가 조직의 Workfront 패키지를 찾는 방법에 대한 지침은 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">조직의 클러스터 및 Workfront 패키지 보기</a>를 참조하십시오.</li><li>Workfront 패키지에 대한 자세한 내용은 <a href="https://business.adobe.com/kr/products/workfront/pricing.html">Adobe Workfront 가격 및 패키징</a>을 참조하십시오.</li></ul> </td> 
+   <li>Workfront 관리자가 조직의 Workfront 패키지를 찾는 방법에 대한 지침은 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">조직의 클러스터 및 Workfront 패키지 보기</a>를 참조하십시오.</li><li>Workfront 패키지에 대한 자세한 내용은 <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront 가격 및 패키징</a>을 참조하십시오.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> Adobe Workfront 라이선스는 사용자에게 할당된 라이선스에 포함된 Workfront 기능 집합을 가리킵니다. 예를 들어 한 명의 사용자는 완료 작업 항목 표시 및 로깅 시간을 포함하는 라이선스를 보유하고 있는 반면 다른 사용자는 에셋을 승인하거나 요청을 제출할 수만 있는 라이선스를 보유하고 있습니다. <p> 
+   <p>Adobe Workfront 라이선스는 다음 유형의 라이선스를 의미할 수 있습니다.</p>
+   <ul><li>Workfront Workflow 라이선스</li>
+  <li>Workfront Planning 라이선스</li></ul>
+
+<p>할당된 라이선스를 확인하려면 Workfront 관리자에게 문의하십시오.</p>
+   <p>라이센스에 대한 자세한 내용은 다음을 참조하십시오.</p>
    <ul>
-   <li>할당된 라이선스를 확인하려면 Workfront 관리자에게 문의하십시오.</li>
-   <li>라이센스에 대한 자세한 내용은 다음을 참조하십시오.
-   <ul>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md">사용자 정의 액세스 수준 만들기 및 수정</a></li>
    <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">새 라이선스 개요</a></li>
-   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">라이선스 개요</a></li></ul></li>
-   <li>올바른 액세스 수준을 가지고 있지만 여전히 액세스 권한이 없는 경우 Workfront 관리자가 액세스 수준에서 추가 제한을 설정하는지 확인하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.
-   </ul>
-      </p> </td> 
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">라이선스 개요</a></li></ul>
+   <p>올바른 액세스 수준을 가지고 있지만 여전히 액세스 권한이 없는 경우 Workfront 관리자가 액세스 수준에서 추가 제한을 설정하는지 확인하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
@@ -109,7 +103,7 @@ Workfront 설명서 방법 문서에는 해당 절차에 필요한 액세스 및
    <ul><li>현재 라이선스 모델은 수행된 작업의 수를 기반으로 하며, 조직에서 수행할 수 있는 작업에 대한 제한은 없습니다. </li>
    <li>레거시 라이선스는 시나리오가 서드파티 애플리케이션에 연결할 수 있는지 또는 시나리오가 Workfront 자동화에만 사용되는지 여부를 기반으로 합니다. </li>
    </ul>
-   Fusion 라이선스에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion 라이선스</a>를 참조하십시오.
+   Fusion 라이선스에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion 라이선스</a>를 참조하십시오.
    </td> 
   </tr> 
  </tbody> 
