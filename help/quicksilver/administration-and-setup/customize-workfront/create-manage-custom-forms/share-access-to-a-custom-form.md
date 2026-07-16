@@ -9,17 +9,12 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 TQID: https://experienceleague.adobe.com/gpJQedqcdtjaxvhVuWKgJVpfAPAT2ICSgO6nRFLvimM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
 source-wordcount: 967
 ht-degree: 2%
@@ -169,14 +164,14 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
     </tbody> 
    </table>
 
-1. (선택 사항) 5-6단계를 반복하여 목록에 다른 이름을 추가하고 해당 옵션을 구성합니다.
+1. (선택 사항) 4-5단계를 반복하여 목록에 다른 이름을 추가하고 해당 옵션을 구성합니다.
 1. (선택 사항) 이전 단계에서 지정한 사용자 정의 양식에 대한 액세스를 제한하려면 **액세스 권한이 있는 사용자**&#x200B;의 드롭다운 화살표를 클릭한 다음 **초대된 사용자만 액세스할 수 있음**&#x200B;을 선택합니다.
 
    마음이 바뀌면 **시스템의 모든 사용자가 볼 수 있음**&#x200B;을 선택할 수 있습니다.
 
    >[!NOTE]
    >
-   >* 사용자 정의 양식을 시스템 전체에 표시할 때 사용자는 다른 오브젝트에 첨부하지 않고 할당된 오브젝트에 대해서만 보고 채울 수 있습니다. 6단계에서 설명한 &quot;사용자 정의 데이터에 첨부&quot; 옵션을 사용하여 사용자 정의 양식을 오브젝트에 첨부할 수 있는 기능을 부여할 수 있습니다.
+   >* 사용자 정의 양식을 시스템 전체에 표시할 때 사용자는 다른 오브젝트에 첨부하지 않고 할당된 오브젝트에 대해서만 보고 채울 수 있습니다. 5단계에서 설명한 &quot;사용자 정의 데이터에 첨부&quot; 옵션을 사용하여 사용자 정의 양식을 오브젝트에 첨부할 수 있는 기능을 부여할 수 있습니다.
    >* 대부분의 조직에서는 시스템에서 작업 중인 오브젝트에 사용자 정의 양식을 첨부하고 보고서에서 해당 데이터를 볼 때 모든 사용자가 사용자 정의 양식을 작성할 수 있도록 하고자 합니다. 조직에 대해 true인 경우 **시스템의 모든 사용자가 볼 수 있음**&#x200B;을 사용하는 것이 좋습니다.
    >* **시스템의 모든 사용자가 보고 첨부할 수 있습니다**&#x200B;를 선택하면 모든 사용자가 양식을 다른 개체에 첨부할 수 있습니다.
    >
