@@ -8,29 +8,19 @@ author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
 TQID: https://experienceleague.adobe.com/3VM5YoTkx242vVP-xMPVF06pBnnlJ843fXLQv8zW13c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: c549503a-6440-4802-9525-ceb73a00feff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: c549503a-6440-4802-9525-ceb73a00feffid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: 466
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 작업] 라이선스 사용자의 탐색 이해
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] 관리자가 귀하에게 할당한 액세스 수준에 따라 [!UICONTROL 주 메뉴]가 변경됩니다. 기본적으로 액세스 수준에서 허용하는 기능을 포함하는 영역에만 액세스할 수 있습니다. 각 액세스 수준의 기본 레이아웃의 구성 요소를 이해하려면 [기본 정보 [!DNL Adobe Workfront] 레이아웃](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)을 참조하세요.
 
@@ -68,11 +58,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 보드]**: 수행할 작업을 반영하는 열과 카드가 포함된 공유 보드를 사용하여 팀 구성원과 융통성 있게 작업하고 공동 작업합니다. 자세한 내용은 [게시판 시작: 문서 색인](../../../agile/get-started-with-boards/get-started-with-boards.md)을 참조하세요.
 
-미리 보기 환경의 <span class="preview">샘플 이미지:</span>
-![작업자 기본 메뉴](assets/worker-main-menu-070626.png)
-
-프로덕션 환경의 샘플 이미지:
-![작업자 주 메뉴](assets/worker-main-menu-2026.png)
+![작업자 주 메뉴](assets/worker-main-menu-070626.png)
 
 ## 기본 [!UICONTROL 기본 메뉴] 사용자 지정
 
