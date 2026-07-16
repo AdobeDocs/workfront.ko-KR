@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -78,4 +78,3 @@ Adobe Workfront에서 관리하는 것과 유사한 방식으로 Adobe Workfront
    * 목록의 팀 이름을 마우스로 가리킨 다음 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png) > **팀 삭제**&#x200B;를 클릭합니다
    * 목록에서 팀을 선택한 다음 페이지 하단의 파란색 도구 모음에서 **팀 삭제**&#x200B;를 클릭합니다
 1. 확인하려면 **예, 삭제**&#x200B;를 클릭하세요.
-

@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Workfront Planning을 독립형 제품으로 사용하면 Planning 전용 기능
   자세한 내용은 [독립 실행형 제품으로 Adobe Workfront Planning 인스턴스 관리](/help/quicksilver/planning/planning-sta/manage-planning-sta-instance.md)를 참조하십시오.
 * Fusion에서 Workfront Planning 커넥터 사용
 
-  자세한 내용은 [Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)을 참조하세요.
+  자세한 내용은 [Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)을 참조하세요.
 * 조직에서 GenStudio for Performance Marketing도 구입한 경우 Adobe GenStudio for Performance Marketing 작업 영역을 관리합니다.
 
   자세한 내용은 [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
@@ -147,12 +147,6 @@ Workfront Planning을 독립형 제품으로 사용하는 것은 워크플로우
 독립형 Workfront Planning 패키지에는 Workfront 객체 유형 및 함수에 대한 연결 없이 통합 버전과 동일한 기능이 포함되어 있습니다.
 
 자세한 내용은 [Adobe Workfront 계획 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하세요.
-
-
-
-
-
-
 
 
 

@@ -4,7 +4,7 @@ description: 이 문서에서는 조직에서 를 독립 실행형 제품으로 
 author: Alina
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -109,6 +109,4 @@ Workfront Planning을 독립 실행형 제품 구현으로 수행하는 동안 �
 Workfront Planning 시스템 환경설정을 구성하는 것은 Workfront에서 구성하는 것과 유사합니다.
 
 자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
-
-
 
