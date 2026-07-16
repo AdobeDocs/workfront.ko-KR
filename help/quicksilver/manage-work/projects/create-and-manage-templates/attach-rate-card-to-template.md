@@ -6,16 +6,14 @@ title: 템플릿에 요금 카드 첨부
 description: 템플릿에 요금 카드를 할당하면 요금 카드가 템플릿에서 만든 모든 프로젝트에 첨부됩니다.
 author: Lisa
 feature: Work Management
-source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '644'
 ht-degree: 3%
 
 ---
 
 # 템플릿에 요금 카드 첨부
-
-{{highlighted-preview-article-level}}
 
 템플릿에 요금 카드를 할당하면 요금 카드가 템플릿에서 만든 모든 프로젝트에 첨부됩니다. 비율 카드가 프로젝트의 기본값이 되지만 필요한 경우 재정의할 수 있습니다.
 
