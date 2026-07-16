@@ -8,26 +8,19 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
 workflow-type: tm+mt
-source-wordcount: 3124
+source-wordcount: 3142
 ht-degree: 1%
 
 ---
 
 # 향상된 목록 사용
-
-{{preview-fast-release-general}}
 
 고급 목록은 Adobe Workfront의 일부 영역에서 사용할 수 있습니다. 이러한 목록은 목록 항목을 표시하기 위해 표 형식을 사용하며 표준 목록과는 다른 모양과 느낌을 가집니다. 필터링, 그룹화, 열 관리 및 검색을 포함한 보기 관리도 향상되었습니다.
 
@@ -101,21 +94,17 @@ ht-degree: 1%
    * 통화: 앞에 통화 기호가 있는 숫자 형식으로 정보를 입력해야 합니다.
    * 날짜: 달력을 사용하여 날짜를 선택합니다.
    * 날짜 및 시간: 달력을 사용하여 날짜 및 시간을 선택합니다.
-   * 단일 또는 다중 선택 드롭다운: 드롭다운 메뉴에서 하나 이상의 옵션을 선택합니다. <span class="preview">목록에서 지원되는 경우 결과가 없을 때 드롭다운에서 바로 새 옵션을 만들 수 있습니다.</span>
+   * 단일 또는 다중 선택 드롭다운: 드롭다운 메뉴에서 하나 이상의 옵션을 선택합니다. 목록에서 지원되는 경우 결과를 찾을 수 없을 때 드롭다운에서 직접 새 옵션을 만들 수 있습니다.
    * 자동 완성: 기존 개체의 이름(예: 그룹 또는 프로젝트 이름)을 입력하고 제안 목록에서 이름을 선택합니다.
    * 단락: 영숫자 정보를 여러 줄 입력할 수 있습니다.
    * 할당자(하나 또는 여러 사용자): 목록 항목의 할당자로 한 명 이상의 사용자를 선택합니다.
    * 색상 선택기: 선택기에서 색상을 선택하거나 Hex 또는 RGB과 같은 코드를 입력합니다.
-
-   <div class="preview">
 
    할당자, 단일 선택 드롭다운 및 다중 선택 드롭다운 필드는 다음 키보드 명령을 지원합니다.
 
    * 키보드의 위쪽 및 아래쪽 화살표를 사용하여 항목 목록을 이동합니다.
    * 스페이스 바를 눌러 항목을 선택합니다.
    * Delete 키를 눌러 선택한 항목을 제거합니다.
-
-   </div>
 
    >[!NOTE]
    >
