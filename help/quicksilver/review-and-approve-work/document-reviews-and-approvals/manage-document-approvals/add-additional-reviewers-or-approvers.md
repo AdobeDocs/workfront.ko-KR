@@ -9,27 +9,19 @@ exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jo3N878hmvHRqo6kCepxPDk2-zlalLvqQbMjHHB8aGE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 1130
-ht-degree: 1%
+source-wordcount: 746
+ht-degree: 2%
 
 ---
 
 # 문서 승인 워크플로에 추가 승인자 또는 검토자 추가
-
-{{highlighted-preview}}
 
 이미 보류 중인 승인이 있는 문서 승인 워크플로에 추가 승인자 또는 검토자를 추가할 수 있습니다.
 
@@ -73,33 +65,34 @@ ht-degree: 1%
 
 
 
-## 프로덕션의 레거시 문서 영역에 승인자 또는 검토자를 추가합니다.
+<!--
+## Add additional approvers or reviewers in the legacy documents area in Production
 
-조직이 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. Workfront 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소와 레거시 Workfront 저장소 간의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)을 참조하십시오.
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
-문서 요약에서 승인자 또는 검토자를 추가하려면
+To add additional approvers or reviewers from the Document Summary:
 
-1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 왼쪽 패널에서 **문서**&#x200B;을(를) 선택합니다.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. 필요한 문서를 클릭하면 해당 문서에 대한 문서 요약 패널이 열립니다.
+1. Click on the document you need and the Document Summary panel for that document will open.
 
-1. 버전 드롭다운 메뉴에서 승인자 또는 검토자를 추가하려는 문서 버전을 선택합니다. 기본적으로 최신 버전이 선택됩니다.
+1. Select the version of the document you would like to add an approver or reviewer to in the version drop-down menu. The latest version is selected by default.
 
-1. **승인** 섹션까지 아래로 스크롤한 다음 **워크플로 편집**&#x200B;을 클릭합니다.
+1. Scroll down to the **Approvals** section, then click **Edit workflow**.
 
-   ![승인 워크플로 편집](assets/edit-approval-in-legacy.png)
+   ![edit approval workflow](assets/edit-approval-in-legacy.png)
 
-1. 승인자 또는 검토자를 추가할 단계를 찾은 다음 텍스트 상자에 사용자 이름 또는 이메일을 추가합니다. 필요한 경우 전체 팀을 추가할 수도 있습니다.
+1. Locate the stage you would like to add approvers or reviewers to, then add the user's name or email in the text box. You can also add an entire team if needed. 
 
-1. 해당 이름이 추가되면 승인자 또는 검토자인지 여부를 선택합니다.
+1. Once their name is added, choose if they are an approver or reviewer. 
 
-   ![승인자 또는 검토자 드롭다운](assets/choose-approver-or-reviewer.png)
+   ![approver or reviewer drop-down](assets/choose-approver-or-reviewer.png)
 
-1. 5-6단계를 반복하여 승인자 또는 검토자를 추가합니다.저장하면 추가된 참가자에게 문서에 대한 승인 또는 검토가 필요하다는 이메일 알림이 전송됩니다.
+1. Repeat steps 5-6 to add additional approvers or reviewers.
+ Once you save, the participants added receive an email notification that their approval or review is needed on the document.
+-->
 
-<div class="preview">
-
-## 미리보기의 기존 문서 영역에 승인자 또는 검토자를 추가합니다.
+## 기존 문서 영역에 승인자 또는 검토자 추가
 
 조직이 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. Workfront 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소와 레거시 Workfront 저장소 간의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)을 참조하십시오.
 
@@ -128,33 +121,32 @@ ht-degree: 1%
 >
 >기본 모드 승인을 다중 단계 또는 다중 경로 승인으로 다시 구성하려면 오른쪽 상단의 **고급으로 이동**&#x200B;을 클릭합니다. 기존 참가자는 경로 1, 단계 1로 유지됩니다. 저장한 후에는 다시 기본 모드로 전환할 수 없습니다. 자세한 내용은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
 
-</div>
+<!--
+## Add additional approvers or reviewers in the new Documents area in Production
 
-## 프로덕션의 새 문서 영역에 추가 승인자 또는 검토자 추가
-
-조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
-
-
-1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 왼쪽 패널에서 **문서**&#x200B;을(를) 선택합니다.
-
-1. 문서를 클릭한 다음 페이지 오른쪽의 **승인** 아이콘을 클릭합니다.
-
-   ![문서 요약에 승인자 추가](assets/approvals-icon-new.png)
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 
-1. **워크플로 편집**&#x200B;을 클릭합니다.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. 승인자 또는 검토자를 추가할 단계를 찾은 다음 텍스트 상자에 사용자 이름 또는 이메일을 추가합니다. 필요한 경우 전체 팀을 추가할 수도 있습니다.
+1. Click on the document, then click the **Approvals** icon on the right side of the page. 
 
-1. 해당 이름이 추가되면 승인자 또는 검토자인지 여부를 선택합니다.
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
 
-   ![승인자 또는 검토자 드롭다운](assets/choose-approver-or-reviewer.png)
 
-1. 5-6단계를 반복하여 승인자 또는 검토자를 추가합니다.저장하면 추가된 참가자에게 문서에 대한 승인 또는 검토가 필요하다는 이메일 알림이 전송됩니다.
+1. Click **Edit workflow**.
 
-<div class="preview">
+1. Locate the stage you would like to add approvers or reviewers to, then add the user's name or email in the text box. You can also add an entire team if needed. 
 
-## 미리보기의 새 문서 영역에 있는 문서 요약에서 승인자 또는 검토자를 추가합니다.
+1. Once their name is added, choose if they are an approver or reviewer. 
+
+   ![approver or reviewer drop-down](assets/choose-approver-or-reviewer.png)
+
+1. Repeat steps 5-6 to add additional approvers or reviewers.
+ Once you save, the participants added receive an email notification that their approval or review is needed on the document.
+-->
+
+## 새 문서 영역의 문서 요약에서 승인자 또는 검토자를 추가합니다.
 
 조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
@@ -182,5 +174,3 @@ ht-degree: 1%
 >[!TIP]
 >
 >기본 모드 승인을 다중 단계 또는 다중 경로 승인으로 다시 구성하려면 오른쪽 상단의 **고급으로 이동**&#x200B;을 클릭합니다. 기존 참가자는 경로 1, 단계 1로 유지됩니다. 저장한 후에는 다시 기본 모드로 전환할 수 없습니다. 자세한 내용은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
-
-</div>
