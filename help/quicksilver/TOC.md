@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: cf5c324a5dd527d498b5ccc32e1eb81ab3ea638f
+source-git-commit: 5d8ac684791c11607947de1ea3d1309ee0dfcaab
 workflow-type: tm+mt
-source-wordcount: '14293'
+source-wordcount: '14340'
 ht-degree: 2%
 
 ---
@@ -2272,9 +2272,13 @@ ht-degree: 2%
       * [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합 시작](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [Adobe Workfront Planning에서 GenStudio 작업 공간 관리](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * {hide-from-toc}[Workfront Planning 작업 영역을 GenStudio으로 승격](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
-   * Adobe Workfront Planning Standalone {#planning-standalone}
-      * {hide-from-toc}[Adobe Workfront Planning Standalone: 문서 색인](planning/planning-sta/planning-sta-article-index.md)
-      * {hide-from-toc}[Adobe Workfront Planning Standlone 시작](planning/planning-sta/get-started-with-planning-sta.md)
+   * 독립형 제품으로서의 Adobe Workfront Planning {#planning-standalone}
+      * [독립형 제품으로서의 Adobe Workfront Planning: 문서 색인](planning/planning-sta/planning-sta-article-index.md)
+      * [독립 실행형 제품으로 Adobe Workfront Planning 시작하기](planning/planning-sta/planning-sta-overview.md)
+      * [독립 실행형 제품으로서 Adobe Workfront Planning에 필요한 액세스](planning/planning-sta/access-needed-for-planning-sta.md)
+      * [Adobe Workfront Planning 인스턴스를 독립 실행형 제품으로 관리](planning/planning-sta/manage-planning-sta-instance.md)
+      * [Adobe Workfront Planning에서 사용자를 독립 실행형 제품으로 관리](planning/planning-sta/manage-users-in-planning-sta.md)
+      * [Adobe Workfront Planning에서 팀을 독립 실행형 제품으로 관리](planning/planning-sta/manage-teams-in-planning-sta.md)
 * Adobe Workfront 통합 {#adobe-workfront-integrations}
    * [Adobe Workfront 통합](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront 기본 제공 통합 개요](workfront-integrations-and-apps/built-in-integrations-non-admin.md)

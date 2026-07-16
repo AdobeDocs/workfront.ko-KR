@@ -14,16 +14,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 3%
+source-wordcount: 348
+ht-degree: 5%
 
 ---
 
 # 페이지를 고정하여 작업 영역 사용자 지정
-
-{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -64,11 +62,7 @@ ht-degree: 3%
 
 1. 페이지의 왼쪽 상단 모서리에서 **[!UICONTROL 현재 페이지 고정]**&#x200B;을 클릭합니다. 이제 고정된 페이지에 [!DNL Workfront]의 모든 페이지 맨 위에서 액세스할 수 있습니다.
 
-   미리 보기 환경의 <span class="preview">샘플 이미지:
    ![현재 페이지 고정](assets/pin-current-page-button-2026.png)
-
-   프로덕션 환경의 샘플 이미지:
-   ![현재 페이지 고정](assets/pin-current-page-button.png)
 
 ## 고정된 페이지에 액세스
 
@@ -82,15 +76,9 @@ ht-degree: 3%
 
    고정된 페이지가 많으면 **[!UICONTROL 자세히]** 아이콘을 클릭하세요. ![자세히 아이콘을 클릭하세요.](assets/more-icon.png) 고정된 페이지를 더 볼 수 있습니다.
 
-   미리 보기 환경의 <span class="preview">샘플 이미지:
    ![현재 페이지 고정](assets/display-pinned-pages-2026.png)
 
-   프로덕션 환경의 샘플 이미지:
-   ![고정된 추가 페이지 보기](assets/display-pinned-pages.png)
-
    고정된 페이지가 표시됩니다.
-
-<div class="preview">
 
 ## 고정 항목 관리
 
@@ -107,36 +95,35 @@ ht-degree: 3%
 
 1. 고정 항목 편집이 끝나면 **닫기**&#x200B;를 클릭합니다.
 
-</div>
+<!--
+## Rename a pinned page
 
-## 고정된 페이지 이름 바꾸기
+1. Hover over the pinned page in the top navigation.
+1. Click the **More** icon ![More icon](assets/more-icon.png) that appears next to the pin name and select **[!UICONTROL Rename pin]**.
 
-1. 위쪽 탐색에서 고정된 페이지 위로 마우스를 가져갑니다.
-1. 핀 이름 옆에 나타나는 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭하고 **[!UICONTROL 핀 이름 바꾸기]**&#x200B;를 선택합니다.
+   ![Rename pin](assets/pin-menu.png)
 
-   ![핀 이름 바꾸기](assets/pin-menu.png)
+1. Type the new pin name, then click **Save**.
 
-1. 새 핀 이름을 입력한 다음 **저장**&#x200B;을 클릭합니다.
+   ![Click the check mark to rename pin](assets/rename-pin-dialog-box.png)
 
-   ![확인 표시를 클릭하여 핀 이름을 변경합니다](assets/rename-pin-dialog-box.png)
+## Reorder pinned pages
 
-## 고정된 페이지 순서 바꾸기
+You can rearrange the order that pinned pages appear.
 
-고정된 페이지가 나타나는 순서를 재정렬할 수 있습니다.
+1. Hover over the pinned page you want to move, then click the **More** icon ![More icon](assets/more-icon.png).
+1. Choose **Move left** or **Move right** to move your pin. 
+1. (Optional) Choose **Move to front** to move your pin to the far-left position of the pin bar. 
 
-1. 이동할 고정된 페이지 위로 마우스를 가져간 다음 **자세히** 아이콘 ![추가 아이콘](assets/more-icon.png)을 클릭합니다.
-1. 핀을 이동하려면 **왼쪽으로 이동** 또는 **오른쪽으로 이동**&#x200B;을 선택하십시오.
-1. (선택 사항) 핀을 핀 막대의 맨 왼쪽 위치로 이동하려면 **앞쪽으로 이동**&#x200B;을 선택합니다.
+   ![move pins](assets/pin-menu.png)
 
-   ![고정 항목 이동](assets/pin-menu.png)
+   Your changes automatically save and are remembered the next time you access Workfront.
 
-   변경 사항은 자동으로 저장되고 다음에 Workfront에 액세스할 때 기억됩니다.
+## Remove a pinned page
 
-## 고정된 페이지 제거
+1. Click the **More** icon ![](assets/more-icon.png) next to the pin you want to remove.
+1. Click **Remove pin**. The page is no longer accessible from the top of any page in [!DNL Workfront].
 
-1. 제거할 핀 옆에 있는 **자세히** 아이콘 ![](assets/more-icon.png)을(를) 클릭합니다.
-1. **핀 제거**&#x200B;를 클릭합니다. [!DNL Workfront]의 페이지 맨 위에서 페이지에 더 이상 액세스할 수 없습니다.
-
-   ![핀 제거](assets/pin-menu.png)
-
+   ![Remove pin](assets/pin-menu.png)
+-->
 

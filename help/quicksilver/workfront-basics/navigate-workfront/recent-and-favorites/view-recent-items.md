@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
 source-wordcount: 206
 ht-degree: 8%
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 ## 최근 항목 보기
 
-1. 페이지의 오른쪽 상단에 있는 **[!UICONTROL 최근 항목]** 아이콘 ![[!UICONTROL 최근 항목]](assets/recents-icon-40x43.png)을 클릭합니다.
+1. 페이지의 오른쪽 상단에 있는 **[!UICONTROL 최근 항목]** 아이콘 ![[!UICONTROL 최근 항목]](assets/recents-icon.png)을 클릭합니다.
 
    ![최근 항목 목록](assets/recents-list.png)
 

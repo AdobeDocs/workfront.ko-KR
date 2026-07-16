@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 747
-ht-degree: 4%
+source-wordcount: 770
+ht-degree: 5%
 
 ---
 
@@ -47,6 +47,13 @@ ht-degree: 4%
 * 반복
 * 경비
 * 과금 기록
+* 팀
+
+Workflow Ultimate 패키지를 사용하는 경우 다음과 같은 추가 오브젝트에 사용자 정의 양식을 첨부할 수 있습니다.
+
+* 작업 역할
+* 요율 카드
+* 할당
 
 사용자 정의 양식은 양식을 만든 객체 유형에만 추가할 수 있습니다.
 

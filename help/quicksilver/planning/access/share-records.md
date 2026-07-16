@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
 workflow-type: tm+mt
-source-wordcount: 1713
+source-wordcount: 1742
 ht-degree: 2%
 
 ---
@@ -86,9 +86,9 @@ at GA, check that the Workfront plans article linked below has Planning info
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 Planning 패키지</p> 
+<p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p> 
 또는
-<p>모든 워크플로우 및 계획 패키지</p> 
+<p>모든 Workfront Planning을 독립 실행형 제품 패키지로</p> 
  </tr>
 
 <tr> 

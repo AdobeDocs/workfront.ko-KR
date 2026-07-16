@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: 523
 ht-degree: 7%
 
 ---
@@ -82,7 +82,9 @@ ht-degree: 7%
 {{step1-to-priorities}}
 
 1. 작업 목록 맨 위에 있는 **달력** 아이콘을 클릭합니다.
+
    ![달력 아이콘](assets/calendar-tab.png)
+
 1. 하나 이상의 필터를 선택하여 작업 항목 범위를 좁힙니다.
 
    +++를 확장하여 사용 가능한 필터에 대한 자세한 정보 보기
@@ -162,11 +164,13 @@ ht-degree: 7%
 {{step1-to-priorities}}
 
 1. 작업 목록 맨 위에 있는 **달력** 아이콘을 클릭합니다.
+
    ![달력 아이콘](assets/calendar-tab.png)
+
 1. 캘린더의 오른쪽 모서리에 있는 **설정** 아이콘을 클릭합니다.
 
 1. **표시줄 스타일** 탭에서 달력의 작업 항목 표시줄에 표시할 필드를 최대 5개까지 선택하십시오.
    ![샘플 막대](assets/sample-task-for-field-config.png)
 
-1. **색상** 탭에서 작업 항목을 표시할 방법을 선택합니다. 예를 들어 **프로젝트**&#x200B;를 선택하면 작업 목록에서 프로젝트에 할당된 색상에 따라 작업 항목이 표시됩니다.
+1. **색상** 탭에서 작업 항목을 표시할 방법을 선택합니다. 예를 들어 **프로젝트**&#x200B;을(를) 선택하면 작업 목록에서 프로젝트에 할당된 색상에 따라 작업 항목이 표시됩니다.
    ![샘플 색상 프로젝트](assets/sample-calendar-projects.png)

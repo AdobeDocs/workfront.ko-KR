@@ -18,9 +18,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 1493
+source-wordcount: 1495
 ht-degree: 3%
 
 ---
@@ -289,7 +289,7 @@ Workfront 필드 유형은 지정된 필드를 자동으로 채울 수 있는지
 <li>라디오 버튼</li>
 <li>단일 및 다중 선택 드롭다운</li>
 <li>외부 조회</li>
-<!--<li>Internal lookup THIS FIELD TYPE IS NOT GA YET SO COMMENTING OUT - from Lisa</li>-->
+<li>내부 조회</li>
 <li>참조</li>
 <li>Workfront Planning 포함 필드</li>
 </ul>

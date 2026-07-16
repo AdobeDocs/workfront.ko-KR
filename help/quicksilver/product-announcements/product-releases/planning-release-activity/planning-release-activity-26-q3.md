@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
+source-git-commit: 847c38fe006ca5f1170e4b28c9b0a2c61c5c77fa
 workflow-type: tm+mt
-source-wordcount: '2883'
+source-wordcount: '3109'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,38 @@ There are no features released during the Third Quarter Release for 2026. When f
 이 문서에서는 2026년 3분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+
+## 액세스 수준에 대한 새 라이선스 유형 필드
+
+>[!NOTE]
+>
+>모든 고객을 위한 미리보기 및 프로덕션: 2026년 7월 16일
+>[!BADGE 일정 해제]{type=Neutral}
+
+
+액세스 수준 상자에서 다음과 같은 필드를 변경했습니다.
+
+* 액세스 수준 상자의 라이선스 유형 필드 이름을 워크플로 라이선스 유형으로 변경했습니다. 이 레이블 재지정에는 기능 변경 사항이 없습니다.
+
+  자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
+
+* Workfront Planning 패키지도 구입한 고객의 경우 Workfront Planning에 사용자 라이센스를 설명하기 위해 새 Planning 라이센스 유형 필드를 추가했습니다.
+동일한 수의 Workflow 및 Planning 라이선스를 구입한 고객은 다음 라이선스 유형을 사용할 수 있습니다.
+
+   * 계획 수립 표준
+   * 계획 수립 참여자
+   * 없음
+
+>[!NOTE]
+>
+>Workflow와 Planning 간에 혼합된 라이센스 조합을 사용자에게 지정할 수 있지만 Planning Standard 라이센스를 얻으려면 사용자에게 유료 Workflow 라이센스가 있어야 합니다.
+>
+>예를 들어 Planning Standard 라이선스는 Workflow Contributor 사용자에게 할당할 수 없습니다. 이제 Workflow Light 라이선스가 있는 사용자에게 Planning에 표준 라이선스를 부여하여 작업 공간 및 콘텐츠를 관리할 수 있습니다. 이전에는 Planning 데이터에 대한 보기 전용 액세스 권한만 가질 수 있었습니다.
+>
+>신규 고객은 Planning 및 Workflow 라이센스를 다른 수량으로 구매하여 모든 조합과 함께 사용할 수 있습니다. 이 시나리오에서는 계획 기여자 라이선스 유형을 사용할 수 없습니다.
+
+자세한 내용은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
 ## Snowflake에서 Workfront Planning에 대한 자동 액세스 제어
 

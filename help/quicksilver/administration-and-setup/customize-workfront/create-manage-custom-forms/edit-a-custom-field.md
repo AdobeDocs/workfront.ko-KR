@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 사용자 정의 필드, 섹션 구분 또는 위젯 추가 또는 편집
-description: Adobe Workfront 인스턴스의 사용자 정의 양식에 사용되는 사용자 정의 필드, 섹션 구분 또는 위젯의 속성을 편집할 수 있습니다. 여기에는 항목의 레이블, 이름, 지침 등이 포함됩니다.
+description: Adobe Workfront 인스턴스의 사용자 정의 양식에 사용되는 사용자 정의 필드, 섹션 구분 또는 위젯의 속성을 편집할 수 있습니다.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: 400
 ht-degree: 5%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 5%
 
 사용자 정의 양식을 열어 필드를 만들지 않고도 Workfront의 필드 영역에서 직접 새 사용자 정의 필드 또는 위젯을 추가할 수 있습니다.
 
-사용자 정의 양식에 사용되는 사용자 정의 필드, 섹션 구분 또는 위젯의 속성을 편집할 수도 있습니다. 여기에는 항목의 레이블, 이름, 지침 등이 포함됩니다.
+사용자 정의 양식에 사용되는 사용자 정의 필드, 섹션 구분 또는 위젯의 속성을 편집할 수도 있습니다. 여기에는 항목의 레이블, API 이름, 지침 등이 포함됩니다.
 
 사용자 정의 필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 필드를 더 이상 사용할 수 없습니다. 모든 새 필드는 기본적으로 활성으로 설정됩니다.
 

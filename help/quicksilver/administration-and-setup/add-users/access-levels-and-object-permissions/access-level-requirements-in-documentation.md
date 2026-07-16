@@ -23,9 +23,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
 workflow-type: tm+mt
-source-wordcount: 1018
+source-wordcount: 1070
 ht-degree: 1%
 
 ---
@@ -63,15 +63,17 @@ Workfront 설명서 방법 문서에는 해당 절차에 필요한 액세스 및
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> Adobe Workfront 라이선스는 사용자에게 할당된 라이선스에 포함된 Workfront 기능 집합을 가리킵니다. 예를 들어 한 명의 사용자는 완료 작업 항목 표시 및 로깅 시간을 포함하는 라이선스를 보유하고 있는 반면 다른 사용자는 에셋을 승인하거나 요청을 제출할 수만 있는 라이선스를 보유하고 있습니다. <p> 
+   <p>Adobe Workfront 라이선스는 다음 유형의 라이선스를 의미할 수 있습니다.</p>
+   <ul><li>Workfront Workflow 라이선스</li>
+  <li>Workfront Planning 라이선스</li></ul>
+
+<p>할당된 라이선스를 확인하려면 Workfront 관리자에게 문의하십시오.</p>
+   <p>라이센스에 대한 자세한 내용은 다음을 참조하십시오.</p>
    <ul>
-   <li>할당된 라이선스를 확인하려면 Workfront 관리자에게 문의하십시오.</li>
-   <li>라이센스에 대한 자세한 내용은 다음을 참조하십시오.
-   <ul>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md">사용자 정의 액세스 수준 만들기 및 수정</a></li>
    <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">새 라이선스 개요</a></li>
-   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">라이선스 개요</a></li></ul></li>
-   <li>올바른 액세스 수준을 가지고 있지만 여전히 액세스 권한이 없는 경우 Workfront 관리자가 액세스 수준에서 추가 제한을 설정하는지 확인하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.
-   </ul>
-      </p> </td> 
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">라이선스 개요</a></li></ul>
+   <p>올바른 액세스 수준을 가지고 있지만 여전히 액세스 권한이 없는 경우 Workfront 관리자가 액세스 수준에서 추가 제한을 설정하는지 확인하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 

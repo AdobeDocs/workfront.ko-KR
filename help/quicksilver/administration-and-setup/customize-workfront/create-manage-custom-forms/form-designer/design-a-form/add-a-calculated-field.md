@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 2647
+source-wordcount: 2721
 ht-degree: 1%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">레이블</td> 
-      <td>필드에 대한 레이블을 입력합니다. 이는 사용자가 사용자 정의 양식을 사용할 때 표시되는 것입니다. 보고서에서 Workfront에 의해 자동으로 채워지는 필드 <b>Name</b>이(가) 참조됩니다.</td> 
+      <td>필드에 대한 레이블을 입력합니다. 이는 사용자가 사용자 정의 양식을 사용할 때 표시되는 것입니다. 보고서에서 Workfront에 의해 자동으로 채워지는 필드 <b>API 이름</b>이(가) 참조됩니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">지침</td> 

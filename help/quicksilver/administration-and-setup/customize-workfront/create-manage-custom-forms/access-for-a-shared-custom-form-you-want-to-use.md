@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: 404
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
    <td> <p>사용자 정의 양식에 필드를 추가하는 경우:</p> 
     <ul> 
      <li>표시 논리, 양식의 다른 필드 순서, 양식의 필수 필드인지 여부, 양식에서 제거할 수 있는 기능 등 필드에 대한 양식 관련 설정을 편집할 수 있습니다.</li> 
-     <li>레이블, 이름 및 유형과 같은 필드 관련 설정은 편집할 수 없습니다.</li> 
+     <li>레이블, API 이름 및 유형과 같은 필드 관련 설정은 편집할 수 없습니다.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ ht-degree: 0%
      <li>관리</li> 
      <li>시스템 전체에서 편집 가능</li> 
     </ul> </td> 
-   <td>사용자 정의 양식에 필드를 추가하고 레이블, 이름 및 유형과 같은 필드 관련 설정을 편집할 수 있습니다.</td> 
+   <td>사용자 정의 양식에 필드를 추가하고 레이블, API 이름 및 유형과 같은 필드 관련 설정을 편집할 수 있습니다.</td> 
   </tr> 
   <tr> 
    <td> 

@@ -5,26 +5,20 @@ description: ' [!DNL Adobe Workfront] 의 화면 맨 위에 표시되는 위쪽 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
 
 # 상단 탐색 막대 개요
 
-{{highlighted-preview}}
-
 <!--Audited: 01/2024-->
 
 [!DNL Adobe Workfront]의 화면 맨 위에 표시되는 위쪽 탐색 막대를 사용하면 플랫폼의 다른 영역을 쉽게 찾아 탐색할 수 있습니다.
 
-미리 보기 환경의 <span class="preview">샘플 이미지:</span>
 ![위쪽 탐색 모음](assets/wf-top-navigation-070626.png)
-
-프로덕션 환경의 샘플 이미지:
-![위쪽 탐색 모음](assets/wf-top-navigation-2026.png)
 
 ## [!UICONTROL 홈] 아이콘
 
@@ -132,13 +126,13 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
 
 ## [!UICONTROL 즐겨찾기] 메뉴
 
-**[!UICONTROL 즐겨찾기]** 아이콘 ![즐겨찾기](assets/favorites-icon-62x55.png)을(를) 사용하면 즐겨찾기로 표시한 시스템의 페이지 목록이 열립니다. 이 메뉴 내에서 현재 사용 중인 페이지를 추가할 수 있습니다.
+**[!UICONTROL 즐겨찾기]** 아이콘 ![즐겨찾기](assets/favorites-icon.png)을(를) 사용하면 즐겨찾기로 표시한 시스템의 페이지 목록이 열립니다. 이 메뉴 내에서 현재 사용 중인 페이지를 추가할 수 있습니다.
 
 즐겨찾기에 대해 자세히 알아보려면 [즐겨찾기 보기 및 관리](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)를 참조하세요.
 
 ## [!UICONTROL 최근 항목] 메뉴
 
-**[!UICONTROL 최근 항목]** 아이콘 ![[!UICONTROL 최근 항목]](assets/recents-icon-40x43.png)에서 최근에 방문한 페이지 목록이 열립니다.
+**[!UICONTROL 최근 항목]** 아이콘 ![[!UICONTROL 최근 항목]](assets/recents-icon.png)에서 최근에 방문한 페이지 목록이 열립니다.
 
 최근 항목에 대한 자세한 내용은 [최근 항목 보기](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)를 참조하세요.
 

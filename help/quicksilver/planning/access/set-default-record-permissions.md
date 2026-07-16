@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '733'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,9 @@ at GA, check that the Workfront plans article linked below has Planning info
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p>
+<p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p> 
+또는
+<p>모든 Workfront Planning을 독립 실행형 제품 패키지로</p>
 
 </tr>
 

@@ -20,16 +20,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+source-git-commit: 66a134507a06c0ce0b4fd78bfa5e32bd95f8f08c
 workflow-type: tm+mt
-source-wordcount: 1196
-ht-degree: 1%
+source-wordcount: 798
+ht-degree: 2%
 
 ---
 
 # 새 문서 버전 업로드 및 승인 요청
-
-{{highlighted-preview}}
 
 이전 검토에서 문서가 &quot;작업 필요&quot;로 표시되어 있는 경우, 원본 문서에 새 버전을 업로드하고 다른 버전의 승인을 시작할 수 있습니다. 새 버전의 문서를 업로드하면 이전 버전이 잠깁니다.
 
@@ -78,76 +76,77 @@ ht-degree: 1%
 
 
 
-## 드래그 앤 드롭을 사용하여 프로덕션의 레거시 문서 영역에 새 버전을 추가하십시오.
+<!--
+## Use drag-and-drop to add a new version in the legacy documents area in Production
 
-조직이 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. Workfront 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소와 레거시 Workfront 저장소 간의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)을 참조하십시오.
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
->드래그 앤 드롭은 Internet Explorer에서 작동하지 않습니다.
+>Drag-and-drop does not work with Internet Explorer.
 
 
-문서에 대한 또 다른 검토 및 승인이 필요한 경우 Workfront에서 새 문서 버전을 만들 수 있습니다.
+If you need another round of review and approval on a document, you can create a new document version in Workfront.
 
-이전 참여자, 새 참여자 또는 두 가지 모두를 혼합하여 추가할 수 있습니다. 문서 세부 정보 페이지에서 이전 버전 및 참여자에 대한 정보를 볼 수 있습니다.
+You can add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page. 
 
-새 버전을 추가하려면 다음을 수행하십시오.
+To add a new version:
 
-1. Workfront의 문서로 이동합니다.
-1. 이전 문서 위에 새 파일을 끌어다 놓습니다. 이렇게 하면 새 버전이 자동으로 만들어집니다.
+1. Navigate to the document in Workfront.
+1. Drag and drop the new file on top of the previous document. This automatically creates a new version. 
 
-1. 문서 업로드가 완료되면 문서를 선택하여 문서 요약 패널을 엽니다. 여기에서는 패널 상단에 버전 번호가 표시됩니다.
+1. Once the document finishes uploading, select the document to open the Document Summary panel. Here you'll see the version number at the top of the panel.
 
 
-1. 아래로 스크롤하여 **승인** 섹션으로 이동합니다.
+1. Scroll down to the **Approvals** section.
 
-1. **워크플로 만들기**&#x200B;를 클릭한 후 다음 세부 정보를 입력하십시오.
+1. Click **Create workflow**, then fill in the following details:
 
    <table>
    <tr>
-   <td><strong>단계 이름</strong></td>
-   <td>단계 이름을 추가합니다. <em>초기 검토</em> 또는 <em>최종 승인</em>과 같이 이름을 좀 더 설명적인 이름으로 변경할 수 있습니다.</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>이름 또는 이메일 추가</strong></td>
-   <td>승인자 또는 검토자로 추가할 사용자 또는 팀 이름을 입력하십시오. 검토자만 있는 경우 알림을 받고 검토를 완료할 수 있는 옵션이 있지만 결정이 필요하거나 수행되지 않습니다.</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>한 가지 결정 필요(선택 사항)</strong></td>
-   <td>가장 먼저 결정을 내리는 사람이 단계를 완료합니다.</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>기한(선택 사항)</strong></td>
-   <td>승인에 대한 기한을 설정하십시오. 사용자와 팀은 지정된 기한으로부터 24시간 전에 이메일로 72시간 전에 알림을 받습니다.</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. (선택 사항) 이전 단계를 반복하여 필요에 따라 단계를 더 추가합니다.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >여러 단계를 추가하면 승인 워크플로가 단계가 나열된 순서로 진행됩니다. 필요한 모든 결정이 이루어지면 다음 단계가 시작되고 이전 단계가 잠깁니다.
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
 
 
-1. (선택 사항) 기존 승인 템플릿을 추가하려면 대화 상자의 왼쪽에서 템플릿을 선택합니다.
+1. (Optional) To add an existing approval template, select a template from the left side of the dialog.
 
    >[!TIP]
    >
-   >   표준 라이선스가 있는 사용자는 설정 영역에서 재사용 가능한 승인 템플릿을 만들 수 있습니다. 자세한 내용은 [문서에 대한 승인 워크플로 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)를 참조하십시오.
+   >   Users with a Standard license can create reusable Approval Templates from the Setup area. For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 
 
-1. 필요한 단계 및 참가자를 모두 추가했으면 **승인 요청**&#x200B;을 클릭합니다.
+1. Once you have added all the stages and participants you need, click **Request approval**.
 
-   승인 워크플로가 시작되고 승인자는 새 문서 버전에 대한 승인이 필요하다는 알림을 받습니다. 이전 문서 버전이 잠기고 이전 버전에서 미결 승인이 철회됩니다.
+   The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
 
-   !&lbrack;승인 요청
-   <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+    ![request approval](assets/request-approval.png)
+-->
 
-<div class="preview">
+<!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
 
-## 드래그 앤 드롭을 사용하여 미리보기의 기존 문서 영역에 새 버전을 추가합니다.
+## 드래그 앤 드롭을 사용하여 이전 문서 영역에 새 버전을 추가합니다.
 
 조직이 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. Workfront 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소와 레거시 Workfront 저장소 간의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)을 참조하십시오.
 
@@ -171,11 +170,12 @@ ht-degree: 1%
 
 1. 승인 워크플로를 구성합니다. 필드 설명, 고급 모드 전환 및 병렬 경로 흐름은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
 
+1. 이전 문서 버전에서 동일한 검토자와 승인자를 복사하려면 **복사**&#x200B;를 클릭합니다.
 1. **승인 요청**&#x200B;을 클릭합니다.
 
    승인 워크플로가 시작되고 승인자는 새 문서 버전에 대한 승인이 필요하다는 알림을 받습니다. 이전 문서 버전이 잠기고 이전 버전에서 미결 승인이 철회됩니다.
 
-## 드래그 앤 드롭을 사용하여 미리 보기의 새 문서 영역에 새 버전을 추가합니다.
+## 드래그 앤 드롭을 사용하여 새 문서 영역에 새 버전을 추가합니다.
 
 조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
@@ -203,8 +203,7 @@ the previous participants, new participants, or a mix of both. You can view info
 
 1. 승인 워크플로를 구성합니다. 필드 설명, 고급 모드 전환 및 병렬 경로 흐름은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
 
+1. 이전 문서 버전에서 동일한 검토자와 승인자를 복사하려면 **복사**&#x200B;를 클릭합니다.
 1. **승인 요청**&#x200B;을 클릭합니다.
 
    승인 워크플로가 시작되고 승인자는 새 문서 버전에 대한 승인이 필요하다는 알림을 받습니다. 이전 문서 버전이 잠기고 이전 버전에서 미결 승인이 철회됩니다.
-
-</div>

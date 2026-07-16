@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9025c23900c031594d1a4b875826fc35f1d5bf6c
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 9%
+source-wordcount: 624
+ht-degree: 8%
 
 ---
 
@@ -175,7 +175,7 @@ Old:
   | 숫자 형식의 한 줄 텍스트 | 숫자 |
   | 통화 형식의 한 줄 텍스트 | 통화 |
   | 단락 | 단락 |
-  | 서식 포함 텍스트 | 단락 |
+  | 서식 있는 서식 있는 텍스트/텍스트 | 단락 |
   | 단일 선택 드롭다운 | 단일 선택 |
   | 다중 선택 드롭다운 | 다중 선택 |
   | 사용자 자동 완성 필터는 지원되지 않습니다. | 사람 |

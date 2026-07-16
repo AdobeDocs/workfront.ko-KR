@@ -11,24 +11,18 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 362
+source-wordcount: 334
 ht-degree: 0%
 
 ---
 
 # 탐색 표시 개요
 
-{{highlighted-preview}}
-
 탐색 표시에는 모든 객체 유형에 대한 전체 탐색 계층 구조가 표시됩니다. 이동 경로의 각 객체에는 객체 유형을 표시하는 레이블이 있습니다. 현재 사용 중인 페이지는 페이지 헤더와 이동 경로 끝에 모두 기울임꼴로 표시됩니다. 아래 예에서는 &quot;[!UICONTROL 브랜드 팀과 공유]&quot; 작업입니다.
 
-미리 보기 환경의 <span class="preview">샘플 이미지:</span>
 ![축소된 이동 경로](assets/collapsed-breadcrumb-2026.png)
-
-프로덕션 환경의 샘플 이미지:
-![축소된 이동 경로](assets/NWE-collapsed-breadcrumb.png)
 
 이동 경로 경로에 오브젝트가 너무 많거나 화면 너비로 인해 전체 탐색 계층 구조가 표시되지 않으면 이 경로는 이동 경로 중 일부를 축소하고 이동 경로 시작 부분에서 이 오브젝트를 그룹화합니다. 이동 경로 경로에 항상 프로젝트와 현재 개체 페이지가 표시됩니다.
 
@@ -36,11 +30,7 @@ ht-degree: 0%
 
 &quot;[!UICONTROL 자세히]&quot;을(를) 클릭하면 전체 계층 구조를 확장할 수 있습니다. 이동 경로 경로를 다시 축소하려면 &quot;[!UICONTROL 간단히]&quot;를 클릭할 수 있습니다.
 
-미리 보기 환경의 <span class="preview">샘플 이미지:</span>
 ![축소된 이동 경로](assets/expanded-breadcrumb-2026.png)
-
-프로덕션 환경의 샘플 이미지:
-![확장된 이동 경로](assets/NWE-expanded-breadcrumb.png)
 
 다음 키를 사용하여 탐색 표시를 탐색할 수도 있습니다.
 

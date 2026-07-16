@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
-source-wordcount: 176
+source-wordcount: 177
 ht-degree: 13%
 
 ---
@@ -58,8 +58,10 @@ Workfront의 AI Assistant를 통해 제공되는 Catch me up에는 업데이트,
 
 {{step1-to-priorities}}
 
-1. 페이지 맨 위에서 **다시 걸기**&#x200B;를 클릭합니다.
+1. 페이지 맨 위에서 **다시 걸기** 단추를 클릭합니다.
+
    ![따라오기 단추](assets/catch-me-up-button.png)
+
 1. 원하는 기간을 선택합니다.
    * **지난 24시간 요약**
    * **지난 3일 요약**

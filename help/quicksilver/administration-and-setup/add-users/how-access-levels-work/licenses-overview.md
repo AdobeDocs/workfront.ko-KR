@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
 workflow-type: tm+mt
-source-wordcount: 369
+source-wordcount: 381
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 이 표와 다이어그램은 Workfront에 대한 주요 액세스 수준을 보여 줍니다.
 
-| 라이선스 | 연계된 액세스 수준 |
+| 워크플로 라이선스 | 연계된 액세스 수준 |
 |--- |--- |
 | 표준 | 시스템 관리자, Standard |
 | 라이트 | 라이트 |
@@ -65,9 +65,9 @@ ht-degree: 2%
 
 ## 라이선스 수
 
-사용자에게 액세스 수준을 할당하면 사용 가능한 라이선스 수가 1개 줄어듭니다.
+라이센스와 연결된 액세스 수준을 사용자에게 할당하면 사용 가능한 라이센스 수가 1씩 줄어듭니다.
 
-예를 들어 사용자에게 표준 액세스 수준을 할당하면 사용 가능한 표준 라이선스의 수가 1개 줄어듭니다.
+예를 들어 Standard의 워크플로 라이선스와 연결된 표준 액세스 수준을 사용자에게 할당하면 사용 가능한 Standard 라이선스의 수가 1개 줄어듭니다.
 
 사용자에게 할당된 라이선스 및 액세스 수준을 볼 수 있습니다. 자세한 내용은 [사용자의 액세스 수준 및 라이선스 나열](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)을 참조하세요.
 
