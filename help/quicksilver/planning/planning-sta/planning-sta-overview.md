@@ -107,7 +107,7 @@ Workfront Planning을 독립형 제품으로 사용하면 Planning 전용 기능
   자세한 내용은 [독립 실행형 제품으로 Adobe Workfront Planning 인스턴스 관리](/help/quicksilver/planning/planning-sta/manage-planning-sta-instance.md)를 참조하십시오.
 * Fusion에서 Workfront Planning 커넥터 사용
 
-  자세한 내용은 [Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)을 참조하세요.
+  자세한 내용은 [Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)을 참조하세요.
 * 조직에서 GenStudio for Performance Marketing도 구입한 경우 Adobe GenStudio for Performance Marketing 작업 영역을 관리합니다.
 
   자세한 내용은 [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
