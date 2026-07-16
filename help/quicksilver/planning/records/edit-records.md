@@ -9,30 +9,25 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3175
+source-wordcount: 3103
 ht-degree: 0%
 
 ---
 
 # 레코드 편집
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -72,7 +67,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역, 레코드 종류 및 <span class="preview">레코드에 대한 권한 관리</span>에 대한 권한 이상 제공 </p>  
+   <td>   <p>작업 공간, 레코드 유형 및 레코드에 대한 권한 관리에 대해 또는 그 이상의 권한 기여</p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> </td> 
   </tr>   
 </tbody> 
@@ -245,7 +240,7 @@ Old:
 
    * 한 필드의 기존 값을 하나 또는 여러 개 복사한 다음 다른 레코드의 같은 유형의 필드에 붙여 넣습니다.
    * 열의 열 헤더를 클릭하여 선택하고 복사한 다음 다른 열의 열 헤더를 클릭하고 복사한 열의 내용을 붙여넣습니다. 열에는 유사한 필드 유형이 포함되어야 합니다.
-   * Shift 키를 누른 상태에서 을 클릭하여 테이블의 여러 행을 선택하고 선택한 행의 정보를 복사한 다음 다른 행을 클릭하고 선택한 정보를 새 행 및 그 다음 행에 붙여넣습니다. <span class="preview">미리 보기 환경에서는 사용할 수 없습니다.</span>
+   * Shift 키를 누른 상태에서 을 클릭하여 테이블의 여러 행을 선택하고 선택한 행의 정보를 복사한 다음 다른 행을 클릭하고 선택한 정보를 새 행 및 그 다음 행에 붙여넣습니다. 미리보기 환경에서는 이 작업을 수행할 수 없습니다.
    * 한 셀에서 정보를 복사한 다음 여러 셀을 선택하고 동일한 정보를 여러 셀에 붙여넣습니다. 여러 셀을 선택하고 인접한 행과 열의 여러 셀에 동일한 정보를 붙여 넣을 수 있습니다.
    * 복사할 정보가 들어 있는 기존 셀의 오른쪽 아래 모서리를 선택한 다음 동일한 정보를 붙여넣을 인접한 셀에 끌어서 놓습니다. 모든 셀에는 동일한 유형의 정보가 포함되어야 합니다.
 
@@ -253,15 +248,18 @@ Old:
 
    * 외부 소스(예: Excel 파일)에서 하나 이상의 셀을 복사한 다음 다음 필드 유형 중 하나에 붙여넣습니다.
 
-      * Workfront Planning 연결 필드.
-
-        <span class="preview">미리 보기 환경에서는 사용할 수 없습니다.</span>
       * 사람 필드. 값이 한 개인 필드만 지원됩니다.
       * 텍스트 필드.
       * 필드를 선택합니다.
       * 숫자, 백분율 및 통화 필드.
 
-     외부 소스에서 정보를 복사하여 Workfront 또는 다른 애플리케이션의 연결 필드를 포함한 다른 필드 유형에 붙여넣을 수 없습니다.
+   외부 소스에서 정보를 복사하여 Workfront 또는 다른 애플리케이션의 연결 필드를 포함한 다른 필드 유형에 붙여넣을 수 없습니다.
+
+   <!--
+    * Workfront Planning connection fields.  
+        This is not possible in the Preview environment.
+    -->
+
 
    >[!NOTE]
    >
@@ -289,11 +287,12 @@ Old:
 
 1. (선택 사항) 레코드 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭하고 다음 옵션 중에서 선택합니다.
 
-   * **보기** 또는 <span class="preview">**새 탭에서 열기**</span>: 레코드 페이지가 열립니다.
+   * **보기** 또는 **새 탭에서 열기**: 레코드 페이지가 열립니다.
    * **링크 복사**: 레코드의 페이지에 링크를 복사하려면
-   * **축소판 편집**: 레코드에 축소판을 추가하려면자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
+   * **축소판 편집**: 레코드에 축소판을 추가하려면
+자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
    * **복제**: 레코드의 동일한 복제가 만들어집니다.
-   * **위에 레코드 삽입/아래에 레코드 삽입**: 새 레코드를 추가할 수 있도록 새 행을 추가합니다. <span class="preview">미리 보기 환경에서는 사용할 수 없습니다.</span>
+   * **위에 레코드 삽입/아래에 레코드 삽입**: 새 레코드를 추가할 수 있도록 새 행을 추가합니다. 미리보기 환경에서는 이 작업을 수행할 수 없습니다.
    * **삭제**: 레코드를 삭제합니다. 삭제된 레코드는 최대 30일 동안 [최근에 삭제됨] 상자에 저장됩니다.
 
 
@@ -352,8 +351,6 @@ Old:
 
    테이블 보기에서 첫째 열의 테이블 이름 필드에 있는 **세부 정보 열기** 아이콘 ![세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다. 레코드의 미리보기가 보기에서 열립니다.
 
-   <!--update screenshot for new details views preview-->
-
    ![세부 정보 상자](assets/details-box.png)
 
 1. (선택 사항) 레코드 제목 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **이름 바꾸기**&#x200B;를 클릭합니다. 레코드의 제목으로 표시되는 필드가 업데이트됩니다.
@@ -408,8 +405,6 @@ Old:
      ![레코드 행의 상황에 맞는 메뉴](assets/contextual-menu-for-record-row.png)
 
      레코드 페이지가 열립니다.
-
-     <!--update screenshot for new details views preview-->
 
      ![세부 정보 페이지](assets/details-page.png)
 

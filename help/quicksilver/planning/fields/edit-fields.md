@@ -9,22 +9,15 @@ exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/chdwrI5WTrdmeuqsWI5WydiLLzcp5Rq-hDsILudO-P0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1098
-ht-degree: 0%
+source-wordcount: 1038
+ht-degree: 1%
 
 ---
 
@@ -32,10 +25,11 @@ ht-degree: 0%
 
 <!--leave the choice value information in yellow till January 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -152,8 +146,8 @@ Old:
 * 필드를 저장한 후 다음 필드 요소의 구성을 편집할 수 있습니다.
 
    * 모든 필드의 이름 또는 설명
-   * 단일 선택 또는 다중 선택 필드 <span class="preview">의 옵션 및 기본 선택</span>입니다.
-   * <span class="preview">사람 필드의 기본 선택 항목입니다.</span>
+   * 단일 선택 또는 다중 선택 필드의 옵션 및 기본 선택 사항.
+   * 사람 필드의 기본 선택 사항입니다.
    * 공식 필드의 표현식.
 
   >[!WARNING]
@@ -209,14 +203,10 @@ this is not yet true, but it might come later:
    >
    >* 필드 구성(필드 옵션 또는 수식 표현식)을 수정하면 수정된 필드에 이미 정보가 들어 있는 레코드가 해당 값을 실시간으로 업데이트합니다. 필드 구성 변경에 의해 트리거된 값 변경에 대한 경고 및 감사 로그가 없습니다. 필드를 보는 모든 사용자는 수정 사항이 적용된 새 값을 즉시 볼 수 있습니다.
 
-1. <span class="preview">(조건부) 업데이트하려는 필드가 요청 양식의 일부인 경우 **필드 변경 사항 검토** 상자가 표시되어 변경 사항의 영향을 받을 양식을 나타냅니다. 다음 중 하나를 실행하십시오.</span>
-
-   <div class="preview">
+1. (조건부) 업데이트하려는 필드가 요청 양식의 일부인 경우 **필드 변경 내용 검토** 상자가 표시되어 변경 내용의 영향을 받을 양식을 나타냅니다. 다음 중 하나를 수행하십시오.
 
    * 오른쪽 화살표를 클릭하여 변경의 영향을 받는 양식을 표시한 다음, 양식 이름을 클릭하여 양식을 새 탭에서 열고 필드를 양식에 유지할지 또는 양식을 추가로 변경할지 결정합니다.
    * 표시되는 모든 영역의 필드를 업데이트하려면 **변경 내용 유지**&#x200B;를 클릭하십시오.
-
-   </div>
 
    필드 정보는 작업 영역을 볼 수 있는 액세스 권한이 있는 모든 사용자에 대해 업데이트됩니다.
 

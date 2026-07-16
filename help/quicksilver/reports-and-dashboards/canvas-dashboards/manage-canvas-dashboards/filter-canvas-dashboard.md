@@ -9,19 +9,14 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1194
-ht-degree: 1%
+source-wordcount: 1107
+ht-degree: 2%
 
 ---
 
@@ -29,7 +24,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하세요.다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하세요.<br>
+>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
 >* Azure
@@ -39,9 +36,11 @@ ht-degree: 1%
 Take Preview and production mentions out at release
 -->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 프롬프트가 포함된 캔버스 대시보드에 필터를 적용할 수 있습니다. 프롬프트는 추가 필터링 기준을 적용하는 필터 수정자 역할을 하므로 결과를 더 좁힐 수 있습니다. 이러한 프롬프트는 필터를 적용할 때마다 수정될 수 있으므로 대시보드나 각 개별 보고서의 기본 필터 기준을 편집할 필요 없이 표시된 결과를 조정할 수 있습니다.
 
@@ -122,7 +121,7 @@ Take Preview and production mentions out at release
 
 1. 대시보드 세부 정보 페이지의 왼쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다. 필터 사이드 패널이 열립니다.
 
-1. (Conditionalt) 프로덕션 환경에서 **필터 편집**&#x200B;을 클릭하거나 미리 보기 환경에서 <span class="preview">기타&#x200B;**메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭한 다음 </span>을 클릭합니다** **필터 편집**. **대시보드 필터** 대화 상자가 열립니다.
+1. **기타** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭한 다음 **필터 편집**&#x200B;을 클릭합니다. **대시보드 필터** 대화 상자가 열립니다.
 
 1. (선택 사항) 규칙을 추가하려면 아래 단계를 수행합니다.
 
@@ -177,9 +176,7 @@ Take Preview and production mentions out at release
 1. 대시보드에 필터를 적용하려면 **저장**&#x200B;을 클릭하세요.
 
 
-1. <span class="preview">프롬프트를 기본으로 저장하려면 프롬프트를 저장한 후 다음을 수행하십시오. </span>
-
-   <div class="preview">
+1. 프롬프트를 기본값으로 저장하려면 프롬프트를 저장한 후 다음을 수행합니다.
 
    1. (선택 사항) **기타** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭한 다음 **기본 프롬프트로 저장**&#x200B;을 클릭합니다.
 
@@ -197,8 +194,6 @@ Take Preview and production mentions out at release
    1. (조건부) 기본 프롬프트의 설정을 수정한 경우 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **대시보드 기본값 적용**&#x200B;을 클릭하여 기본 필터 결과로 돌아갑니다.
    1. (선택 사항) **기본값 재설정**&#x200B;을 클릭하여 원래 기본 설정을 수정 내용으로 바꿉니다. 이 옵션은 대시보드 관리자만 사용할 수 있습니다.
 
-   </div>
-
 
 1. [파트3: 대시보드 프롬프트 적용](#step-3-apply-a-dashboard-prompt)으로 진행합니다.
 
@@ -214,7 +209,8 @@ Take Preview and production mentions out at release
 
 1. 대시보드 세부 정보 페이지의 왼쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다. 필터 사이드 패널이 열립니다.
 
-1. **레코드 표시 위치...** 섹션에서 표시된 하나 또는 모든 프롬프트에 대한 조건을 선택합니다. 프롬프트가 적용되고 **대시보드 프롬프트가 적용됨** 태그가 보고서 위젯의 모서리에 나타납니다.   ![조건 선택](assets/prompts-list.png)
+1. **레코드 표시 위치...** 섹션에서 표시된 하나 또는 모든 프롬프트에 대한 조건을 선택합니다. 프롬프트가 적용되고 **대시보드 프롬프트가 적용됨** 태그가 보고서 위젯의 모서리에 나타납니다.
+   ![조건 선택](assets/prompts-list.png)
 
 1. 패널을 숨기려면 오른쪽 상단의 **닫기** 아이콘 ![닫기 아이콘](assets/close-icon.png)을 클릭합니다.
 

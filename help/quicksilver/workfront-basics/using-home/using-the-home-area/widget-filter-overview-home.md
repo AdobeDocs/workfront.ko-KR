@@ -9,29 +9,25 @@ exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/1VkGz7LgrE1uBZ4uSwcTNLn3VpSMB-VI3o5HhpBG2XA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1084
-ht-degree: 11%
+source-wordcount: 881
+ht-degree: 13%
 
 ---
 
 # 홈 위젯 필터 개요
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 다음 위젯에서 필터를 사용하여 작업을 찾고 구성할 수 있습니다.
 
@@ -262,53 +258,53 @@ ht-degree: 11%
 
 ## 내 요청
 
-프로덕션 환경에서:
+내 요청 위젯에는 사용자 정의 가능한 필터가 있어 위젯에 표시되는 요청을 제어할 수 있습니다. 다양한 필드 및 값에 대해 이 필터를 구성하고 AND 및 OR를 사용하여 조건을 스택할 수 있습니다.
+
+내 요청 위젯에서 필터를 구성하는 방법에 대한 지침은 내 요청 위젯 사용 문서에서 [필터 요청](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests)을 참조하십시오.
+
+<!--
+In the Production environment:
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">모두</td> 
-      <td>상태 또는 요청 제출자에 관계없이 제출된 모든 요청을 표시합니다.</td> 
+      <td role="rowheader">All</td> 
+      <td>Displays all submitted requests, regardless of status or who submitted them.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">열기</td> 
-      <td> <p>제출된 모든 요청 표시 
+      <td role="rowheader">Open</td> 
+      <td> <p>Displays all submitted requests 
       <ul>
-      <li>누가 제출했는지에 상관없이 현재 열려 있습니다. 직접 제출하지 않은 경우 적어도 볼 수 있는 권한이 있는 요청만 여기에 표시됩니다.</li>
-      <li>실제 완료 일자가 없거나 해결 객체에 실제 완료 일자가 없는 경우 열기 하위 탭에 나열됩니다.</li> 
+      <li>That are currently open, regardless of who submitted them. Only requests you have at least permissions to view display here if you did not submit them yourself.</li>
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the Open subtab.</li> 
       </ul>
-      <p><b>참고</b> 
-      Closed와 동일하지 않은 모든 상태에 있는 요청은 Open으로 간주됩니다.</p> 
+      <p><b>NOTE</b> 
+      Requests that are in any status that does not equate with Closed are considered open.</p> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">내 요청</td> 
-      <td>상태에 관계없이 제출한 요청을 표시합니다. </td> 
+      <td role="rowheader">My Requests</td> 
+      <td>Displays requests you submitted regardless of their status. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">내 진행 중 요청</td> 
-      <td> <p>요청 표시 
+      <td role="rowheader">My Open Requests</td> 
+      <td> <p>Displays requests 
       <ul>
-      <li>을(를) 제출했으며 아직 열려 있습니다. </li> 
-      <li>실제 완료 일자가 없거나 해결 객체에 실제 완료 일자가 없는 경우 [내 진행 요청] 하위 탭에 나열됩니다.  </li> 
+      <li>That you submitted and are still open. </li> 
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the My Open Requests subtab.  </li> 
       </ul>
-      <p><b>참고</b> 
-      Closed와 동등한 상태가 아닌 요청은 Open으로 간주됩니다.</p> </td> 
+      <p><b>NOTE</b> 
+      Requests that are not in a status that equates with Closed are considered open.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-<div class="preview">
 
-미리보기 환경에서:
 
-내 요청 위젯에는 사용자 정의 가능한 필터가 있어 위젯에 표시되는 요청을 제어할 수 있습니다. 다양한 필드 및 값에 대해 이 필터를 구성하고 AND 및 OR를 사용하여 조건을 스택할 수 있습니다.
-
-내 요청 위젯에서 필터를 구성하는 방법에 대한 지침은 내 요청 위젯 사용 문서에서 [필터 요청](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests)을 참조하십시오.
-
-</div>
+In the Preview environment:
+-->
 
 ## 내 작업
 

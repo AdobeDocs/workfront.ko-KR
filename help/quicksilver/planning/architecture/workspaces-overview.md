@@ -7,23 +7,22 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 608
-ht-degree: 0%
+source-wordcount: 566
+ht-degree: 1%
 
 ---
 
 # 작업 공간 개요
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -53,11 +52,14 @@ ht-degree: 0%
 
    * **내가 있는 작업 영역**: 사용자가 만든 작업 영역 또는 사용자와 공유된 작업 영역을 표시합니다.
    * **다른 작업 영역**: 시스템의 다른 작업 영역을 모두 표시합니다. 이 기능은 시스템 관리자만 사용할 수 있습니다.
-   * <span class="preview">**샘플 작업 영역**: 모범 사례 작업 영역의 기본 제공 예제를 표시합니다. 작업 공간, 레코드 종류를 편집하거나 레코드 또는 필드를 추가할 수 없지만 다른 사용자와 추가, 편집 및 공유할 수 있습니다.</span>
+   * **샘플 작업 영역**: 모범 사례 작업 영역의 기본 제공 예제를 표시합니다. 작업 공간, 레코드 유형을 편집하거나 레코드 또는 필드를 추가할 수는 없지만 다른 사용자와 추가, 편집 및 공유할 수는 있습니다.
 
   >[!NOTE]
   >
-  ><span class="preview">샘플 작업 영역을 편집하지 않고 대신 참조로 사용하여 직접 만드는 것이 좋습니다. 다중 작업 영역 템플릿 번들을 사용하여 샘플 작업 영역 탭에 나열된 작업 영역과 동일한 작업 영역을 생성합니다. 자세한 내용은 문서 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)의 &quot;모범 사례 다중 작업 영역 템플릿 번들을 사용하여 여러 작업 영역 만들기&quot; 섹션을 참조하십시오. </span>
+  >샘플 작업 영역은 편집하지 않고 대신 참조로 사용하여 직접 만드는 것이 좋습니다. 다중 작업 영역 템플릿 번들을 사용하여 샘플 작업 영역 탭에 나열된 작업 영역과 동일한 작업 영역을 생성합니다.
+  >
+  >Prime 또는 Ultimate Planning 패키지를 구매한 고객만 샘플 작업 공간 탭을 볼 수 있습니다.
+  >자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md) 문서의 &quot;모범 사례 다중 작업 영역 템플릿 번들을 사용하여 여러 작업 영역 만들기&quot; 섹션을 참조하십시오.
 
 <!--
 No longer the case - they match now: 
