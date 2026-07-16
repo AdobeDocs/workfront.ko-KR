@@ -9,11 +9,16 @@ exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/vEseGrhKdhmMJCdM0q0PwzR9Gqjdj42djlpc-NfFXaQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 523
@@ -167,5 +172,5 @@ ht-degree: 7%
 1. **표시줄 스타일** 탭에서 달력의 작업 항목 표시줄에 표시할 필드를 최대 5개까지 선택하십시오.
    ![샘플 막대](assets/sample-task-for-field-config.png)
 
-1. **색상** 탭에서 작업 항목을 표시할 방법을 선택합니다. 예를 들어 **프로젝트**을(를) 선택하면 작업 목록에서 프로젝트에 할당된 색상에 따라 작업 항목이 표시됩니다.
+1. **색상** 탭에서 작업 항목을 표시할 방법을 선택합니다. 예를 들어 **프로젝트**&#x200B;을(를) 선택하면 작업 목록에서 프로젝트에 할당된 색상에 따라 작업 항목이 표시됩니다.
    ![샘플 색상 프로젝트](assets/sample-calendar-projects.png)
