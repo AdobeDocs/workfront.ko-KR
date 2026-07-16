@@ -9,19 +9,14 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: caf889d6-08a3-4186-9d9c-3cea3a0e4548
 TQID: https://experienceleague.adobe.com/cco-UwmTpDJ4bc6KvTM2BgRmvudLZveRY5WmpbhsnqM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: 745
 ht-degree: 2%
 
 ---
@@ -68,7 +63,7 @@ ht-degree: 2%
 
 사용자가 사용자 정의 양식을 작성할 때 논리가 적용된 필드가 정의된 유효성 검사 조건을 충족하면 필드가 강조 표시되고 오류 메시지가 표시됩니다.
 
-한 줄 텍스트, 단락, 단일 선택 드롭다운, 다중 선택 드롭다운, 외부 조회, 자동 완성, 날짜, 확인란 그룹 및 라디오 버튼과 같은 필드 유형에 유효성 검사 논리를 적용할 수 있습니다.
+한 줄 텍스트, 단락, 단일 선택 드롭다운, 다중 선택 드롭다운, 외부 조회, 내부 조회, 날짜, 확인란 그룹 및 라디오 버튼과 같은 필드 유형에 유효성 검사 논리를 적용할 수 있습니다.
 
 ### 프로젝트 소유자만 &quot;Rush&quot; SLA을 선택할 수 있음
 
@@ -134,9 +129,9 @@ IF({ownerID}!=$$USER,IF(ISBLANK({ownerID}),"Project Owner will provide this.",CO
 
 ![Claire Stevens만 이 필드를 편집할 수 있습니다](assets/only-project-owner-can-edit.png)
 
-### 자동 완성 다른 필드 값을 기준으로 값을 허용하거나 거부합니다.
+### 내부 조회는 다른 필드 값을 기준으로 값을 허용하거나 거부합니다
 
-이 예제에서 자동 완성 필드는 양식의 다른 필드에 입력한 값을 기반으로 값을 동적으로 허용하거나 거부합니다.
+이 예에서 내부 조회 필드는 양식의 다른 필드에 입력한 값을 기반으로 값을 동적으로 허용하거나 거부합니다.
 
 유효성 검사 표현식:
 
@@ -146,7 +141,7 @@ IF({DE:DV - Text - Budget}>"10000",
 )
 ```
 
-예산 필드의 값이 $10,000 이상인 경우 자동 완성 구성에서 활성화된 역할 필터가 없더라도 자동 완성 기능에서 디렉터 역할이 있는 사용자만 선택할 수 있습니다.
+예산 필드의 값이 $10,000보다 크면 내부 조회 구성에서 활성화된 역할 필터가 없더라도 내부 조회에서 디렉터 역할이 있는 사용자만 선택할 수 있습니다.
 
 ![예산 금액에 디렉터 승인이 필요합니다](assets/budget-director.png)
 

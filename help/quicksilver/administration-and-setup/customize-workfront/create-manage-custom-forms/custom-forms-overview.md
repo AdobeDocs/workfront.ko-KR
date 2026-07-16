@@ -9,19 +9,14 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
 TQID: https://experienceleague.adobe.com/wy8z0JmR-SV8cX-1opkDx6dTubPGsOS9R7MWIqvhdtk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: 395
 ht-degree: 13%
 
 ---
@@ -54,12 +49,12 @@ Workfront에서 다음 유형의 사용자 정의 필드를 사용자 정의 양
 
 * 한 줄 텍스트
 * 단락
-* 서식 포함 텍스트
+* 리치 텍스트
 * 단일 선택 드롭다운
 * 다중 선택 드롭다운
 * 외부 조회
+* 내부 조회
 * 기본 필드 참조
-* 타이프 어헤드
 * 계획 필드 연결
 * 계산됨
 * 일자
@@ -97,6 +92,7 @@ Workfront에서 다음 유형의 사용자 정의 필드를 사용자 정의 양
 * 반복
 * 청구 기록
 * 요율 카드
+* 할당
 
 개체에 사용자 정의 양식을 첨부하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
 

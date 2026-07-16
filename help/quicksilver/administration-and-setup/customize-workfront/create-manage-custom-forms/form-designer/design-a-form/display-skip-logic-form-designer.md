@@ -9,27 +9,19 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 TQID: https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e3c91351ad38d0585747df4adfd8818dfcea3530
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 3610
+source-wordcount: 3613
 ht-degree: 0%
 
 ---
 
 # 사용자 정의 양식 및 필드에 논리 규칙 추가
-
-{{highlighted-preview}}
 
 논리 규칙을 사용하면 양식의 필드를 추가로 사용자 지정할 수 있습니다.
 
@@ -97,7 +89,8 @@ ht-degree: 0%
 
 ## 디스플레이 논리 및 건너뛰기 논리 사용에 대한 고려 사항
 
-* 사용자 지정 필드, 위젯 또는 섹션 구분에 표시 논리를 추가하려면 적어도 하나의 다중 선택 필드(라디오 버튼, 드롭다운 또는 확인란)를 양식에서 그 앞에 배치해야 합니다.사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+* 사용자 지정 필드, 위젯 또는 섹션 구분에 표시 논리를 추가하려면 적어도 하나의 다중 선택 필드(라디오 버튼, 드롭다운 또는 확인란)를 양식에서 그 앞에 배치해야 합니다.
+사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 * 위젯 또는 섹션 구분에 건너뛰기 논리를 추가할 수 없습니다. 다중 선택 필드(라디오 단추, 드롭다운 또는 확인란)에만 추가할 수 있습니다.
 * 다중 옵션 필드의 선택 사항을 표시하거나 숨기려면 표시 또는 건너뛰기 논리를 적용할 수 없습니다. 예를 들어 다른 필드의 표시 또는 건너뛰기 논리에 따라 드롭다운, 확인란 그룹 또는 라디오 버튼 필드에 대해 표시되는 선택 사항을 제한할 수 없습니다.
 * 사용자 정의 필드에 대해 다음 내용이 모두 참인 경우 표시 논리와 건너뛰기 논리를 모두 사용자 정의 필드에 추가할 수 있습니다.
@@ -150,7 +143,7 @@ ht-degree: 0%
 
 ## 사용자 정의 양식에 고급 표시 논리 추가
 
-사용자 정의 양식 필드에 대한 고급 표시 논리를 사용하면 공식을 사용하여 복잡한 논리를 작성할 수 있습니다. 이 논리는 한 줄 텍스트, 단락, 서식이 있는 텍스트, 단일 선택 드롭다운, 다중 선택 드롭다운, 외부 조회, 다중 선택 외부 조회, 기본 필드 참조, 자동 완성, 계산된 날짜, 확인란 그룹 및 라디오 버튼과 같은 필드 유형에 적용할 수 있습니다.
+사용자 정의 양식 필드에 대한 고급 표시 논리를 사용하면 공식을 사용하여 복잡한 논리를 작성할 수 있습니다. 이 논리는 한 줄 텍스트, 단락, 서식 있는 텍스트, 단일 선택 드롭다운, 다중 선택 드롭다운, 외부 조회, 다중 선택 외부 조회, 기본 필드 참조, 내부 조회, 계산됨, 날짜, 확인란 그룹 및 라디오 버튼과 같은 필드 유형에 적용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -239,7 +232,7 @@ ht-degree: 0%
 
 기본값 논리를 사용하면 공식을 사용하여 사용자 정의 양식 필드에 대한 기본값을 구성할 수 있습니다. 정의된 조건이 충족되면 기본값이 표시됩니다. 기본값은 개체 내의 다른 필드를 참조하는 정적 값 또는 동적 값일 수 있습니다. 기본값은 다른 필드를 참조할 수 있지만 양식의 다른 필드가 변경되어도 변경되지 않습니다.
 
-한 줄 텍스트, 단락, 단일 선택 드롭다운, 다중 선택 드롭다운, 외부 조회, 다중 선택 외부 조회, <span class="preview">기본 필드 참조</span>, 자동 완성, 확인란 그룹 및 라디오 단추와 같은 필드 유형에 고급 기본값 논리를 적용할 수 있습니다.
+고급 기본값 논리를 한 줄 텍스트, 단락, 단일 선택 드롭다운, 다중 선택 드롭다운, 외부 조회, 다중 선택 외부 조회, 기본 필드 참조, 내부 조회, 확인란 그룹 및 라디오 버튼과 같은 필드 유형에 적용할 수 있습니다.
 
 >[!TIP]
 >
@@ -249,7 +242,7 @@ ht-degree: 0%
 >
 >양식 디자이너의 표준 기본값 논리는 여전히 존재합니다. 두 유형이 동일한 필드에 적용되는 경우 고급 논리가 우선합니다. 표준 기본값 논리에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에서 [라디오 단추, 확인란 그룹 및 드롭다운 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)를 참조하십시오.
 >
-><span class="preview">기본 참조 필드의 경우 기본 값 논리는 사용자 인터페이스에서만 사용할 수 있으며 Workfront API에서는 사용할 수 없습니다.</span>
+>기본 참조 필드의 경우, 기본값 논리는 사용자 인터페이스에서만 사용할 수 있고 Workfront API에서는 사용할 수 없습니다.
 
 ### 예
 
@@ -289,7 +282,7 @@ IF({status} = 'PLN', ARRAY({description}, ','))
 
 사용자가 사용자 정의 양식을 작성할 때 논리가 적용된 필드가 정의된 유효성 검사 조건을 충족하면 필드가 강조 표시되고 오류 메시지가 표시됩니다.
 
-한 줄 텍스트, 단락, 단일 선택 드롭다운, 다중 선택 드롭다운, 외부 조회, 다중 선택 외부 조회, 자동 완성, 날짜, 확인란 그룹 및 라디오 버튼과 같은 필드 유형에 유효성 검사 논리를 적용할 수 있습니다.
+한 줄 텍스트, 단락, 단일 선택 드롭다운, 다중 선택 드롭다운, 외부 조회, 다중 선택 외부 조회, 내부 조회, 날짜, 확인란 그룹 및 라디오 버튼과 같은 필드 유형에 유효성 검사 논리를 적용할 수 있습니다.
 
 ### 예
 
@@ -336,7 +329,7 @@ IF({DE:Budget Field} < 0,
 
 서식 논리는 정의된 조건을 충족하면 필드 값을 강조 표시합니다. 적용된 서식은 여러 필드에서 한 번에 작동합니다.
 
-한 줄 텍스트, 단락, 단일 선택 드롭다운, 다중 선택 드롭다운, 외부 조회, 다중 선택 외부 조회, 자동 완성, 계산, 날짜, 확인란 그룹 및 라디오 버튼과 같은 필드 유형에 서식 로직을 적용할 수 있습니다.
+한 줄 텍스트, 단락, 단일 선택 드롭다운, 다중 선택 드롭다운, 외부 조회, 다중 선택 외부 조회, 내부 조회, 계산됨, 날짜, 확인란 그룹 및 라디오 버튼과 같은 필드 유형에 서식 로직을 적용할 수 있습니다.
 
 사용자 정의 양식에 적용되는 서식은 목록 및 보고서에 적용되는 서식과 별개입니다. 보고서 서식에 대한 자세한 내용은 [보기에서 조건부 서식 사용](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)을 참조하십시오.
 
@@ -399,7 +392,7 @@ IF(
 
 편집 논리는 사용자 정의 양식 필드를 편집할 수 있는지 또는 읽기 전용인지 여부를 결정합니다. 이 논리는 공식을 사용하여 작성되며 필드가 정의된 조건을 충족하면 편집 가능 또는 읽기 전용으로 설정할 수 있습니다.
 
-한 줄 텍스트, 단락, 서식이 있는 텍스트, 단일 선택 드롭다운, 다중 선택 드롭다운, 외부 조회, 다중 선택 외부 조회, 자동 완성, 날짜, 확인란 그룹 및 라디오 버튼과 같은 필드 유형에 편집 논리를 적용할 수 있습니다.
+한 줄 텍스트, 단락, 서식 있는 텍스트, 단일 선택 드롭다운, 다중 선택 드롭다운, 외부 조회, 다중 선택 외부 조회, 내부 조회, 날짜, 확인란 그룹 및 라디오 버튼과 같은 필드 유형에 편집 논리를 적용할 수 있습니다.
 
 ### 예
 

@@ -9,21 +9,14 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 2647
+source-wordcount: 2721
 ht-degree: 1%
 
 ---
@@ -162,7 +155,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">레이블</td> 
-      <td>필드에 대한 레이블을 입력합니다. 이는 사용자가 사용자 정의 양식을 사용할 때 표시되는 것입니다. 보고서에서 Workfront에 의해 자동으로 채워지는 필드 <b>Name</b>이(가) 참조됩니다.</td> 
+      <td>필드에 대한 레이블을 입력합니다. 이는 사용자가 사용자 정의 양식을 사용할 때 표시되는 것입니다. 보고서에서 Workfront에 의해 자동으로 채워지는 필드 <b>API 이름</b>이(가) 참조됩니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">지침</td> 
@@ -202,7 +195,7 @@ ht-degree: 1%
    </table>
 
 1. **계산** 상자에서 계산 빌드를 시작합니다.
-   1. **최대화**&#x200B;를 클릭하여 계산 편집기를 열고 계산을 빌드합니다.
+   1. **최대화**를 클릭하여 계산 편집기를 열고 계산을 빌드합니다.
 일반적으로 계산은 표현식으로 시작하며, 그 뒤에는 사용자 정의 양식을 오브젝트에 첨부할 때 참조할 필드를 포함하는 괄호가 옵니다.
 
       각 필드는 중괄호로 묶어야 합니다. 필드 이름을 입력할 때 시스템에서 제안을 하며 이를 선택하여 계산에 삽입할 수 있습니다.

@@ -9,26 +9,19 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 TQID: https://experienceleague.adobe.com/gpJQedqcdtjaxvhVuWKgJVpfAPAT2ICSgO6nRFLvimM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
 workflow-type: tm+mt
-source-wordcount: 980
+source-wordcount: 967
 ht-degree: 2%
 
 ---
 
 # 사용자 정의 양식 공유
-
-{{preview-fast-release-general}}
 
 사용자 정의 양식에 대한 액세스 권한을 구성하여 개인, 역할, 그룹, 팀, 회사, 비즈니스 프로필 등 해당 양식을 보고, 공유하고, 편집할 수 있는 사용자를 제어할 수 있습니다.
 
@@ -64,9 +57,9 @@ ht-degree: 2%
 
 기본적으로 새 사용자 정의 양식을 만들어 다른 사용자가 오브젝트에 첨부하면 해당 오브젝트에 할당된 모든 사용자가 양식을 보고 작성할 수 있습니다. 여기에는 기여자 또는 요청 라이선스를 가진 사용자와 외부 사용자가 포함됩니다.
 
-그러나 사용자 정의 양식이 아직 첨부되지 않은 객체에서는 다음 중 하나가 참이 아닌 경우 사용자가 사용자 정의 Forms 드롭다운 메뉴에서 첨부할 수 없습니다(플래너 액세스 수준이 있는 경우에도).
+하지만 사용자 정의 양식이 아직 첨부되지 않은 객체에서는 다음 중 하나가 참이 아니면 사용자가 사용자 정의 Forms 드롭다운 메뉴에서 첨부할 수 없습니다(표준 또는 플래너 액세스 수준이 있는 경우에도).
 
-* <span class="preview">누군가 사용자 정의 양식을 &quot;시스템의 모든 사용자가 보고 첨부할 수 있음&quot;으로 공유했습니다</span>
+* 누군가 사용자 정의 양식을 &quot;시스템의 모든 사용자가 보고 첨부할 수 있음&quot;으로 공유했습니다.
 * 누군가 사용자 정의 데이터에 첨부 가 선택된 상태로 보기 이상의 권한을 부여한 사용자 또는 해당 팀, 작업 역할, 그룹, 회사 또는 비즈니스 프로필과 사용자 정의 양식을 공유했습니다
 * 사용자는 Standard 또는 Plan 라이선스를 보유하고 있으며 액세스 수준을 통해 사용자 정의 양식에 대한 관리자 액세스 권한을 부여받습니다
 
@@ -180,13 +173,9 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
    >
    >* 사용자 정의 양식을 시스템 전체에 표시할 때 사용자는 다른 오브젝트에 첨부하지 않고 할당된 오브젝트에 대해서만 보고 채울 수 있습니다. 6단계에서 설명한 &quot;사용자 정의 데이터에 첨부&quot; 옵션을 사용하여 사용자 정의 양식을 오브젝트에 첨부할 수 있는 기능을 부여할 수 있습니다.
    >* 대부분의 조직에서는 시스템에서 작업 중인 오브젝트에 사용자 정의 양식을 첨부하고 보고서에서 해당 데이터를 볼 때 모든 사용자가 사용자 정의 양식을 작성할 수 있도록 하고자 합니다. 조직에 대해 true인 경우 **시스템의 모든 사용자가 볼 수 있음**&#x200B;을 사용하는 것이 좋습니다.
-   >* <span class="preview">**시스템의 모든 사용자가 보고 연결할 수 있음**&#x200B;을 선택하면 모든 사용자가 다른 개체에 양식을 첨부할 수 있습니다.</span>
+   >* **시스템의 모든 사용자가 보고 첨부할 수 있습니다**&#x200B;를 선택하면 모든 사용자가 양식을 다른 개체에 첨부할 수 있습니다.
    >
-   ><span class="preview">미리 보기 환경의 샘플 이미지:</span>
    >![사용자 정의 양식 공유](assets/share-custom-forms-all-can-attach.png)
-   >   
-   >프로덕션 환경의 샘플 이미지:
-   >![사용자 정의 양식 공유](assets/share-custom-form-in-designer.png)
    >   
    >사용자 정의 양식을 특정 개체에 첨부할 때 사용자가 중요한 데이터를 입력할 수 있는 경우 양식 자체에 대한 액세스를 제한하는 것보다 해당 *개체*&#x200B;에 대한 공유를 제한하는 것이 더 효과적일 수 있습니다.
 
