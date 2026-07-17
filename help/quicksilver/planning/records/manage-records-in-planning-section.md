@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: 1777
 ht-degree: 1%
 
 ---
@@ -30,10 +30,11 @@ ht-degree: 1%
 
 # Workfront 개체에서 레코드 연결 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -80,7 +81,7 @@ ht-degree: 1%
    <p>Workfront Planning에서:</p>
    <ul><li>작업 공간 및 레코드 유형에 대한 권한을 보고 연결된 레코드를 볼 수 있습니다 </li>
    또는
-   <li> 작업 영역 및 레코드 형식에 대한 또는 그 이상의 권한을 제공하고 레코드를 연결하거나 연결을 끊으려면 <span class="preview">레코드에 대한 권한을 관리합니다</span></a></li></ul> 
+   <li> 작업 공간 및 레코드 유형에 대한 또는 더 높은 권한을 제공하고 레코드에 대한 권한을 관리하여 레코드를 연결하거나 연결을 끊습니다.</a></li></ul> 
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 Workfront Planning 작업 영역에 대한 권한을 가집니다</p> 
   </td>
   </tr>   

@@ -26,9 +26,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 706
+source-wordcount: 675
 ht-degree: 10%
 
 ---
@@ -38,10 +38,11 @@ ht-degree: 10%
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -62,7 +63,7 @@ Adobe Workfront Planning에 대한 일반적인 정보 및 용어 이해는 [Ado
    * 보기 공유
    * 작업 공간(레코드 및 필드) 공유
    * 레코드 유형(레코드 및 필드) 공유
-   * <span class="preview">레코드 공유</span>
+   * 레코드 공유
 
 * [아키텍처: 문서 인덱스](/help/quicksilver/planning/architecture/architecture-information.md)에는 다음 정보가 포함되어 있습니다.
 
@@ -127,3 +128,7 @@ Adobe Workfront Planning에 대한 일반적인 정보 및 용어 이해는 [Ado
 Workfront Planning에 대한 새로운 기능을 정기적으로 릴리스하고 있습니다.
 
 릴리스된 기능의 최신 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 독립형 제품으로서의 Workfront Planning
+
+고객은 워크플로우 라이선스를 구매하지 않고도 Workfront Planning을 구매할 수 있습니다. 자세한 내용은 [독립 실행형 제품으로 Adobe Workfront Planning 시작하기](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)를 참조하십시오.

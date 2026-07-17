@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 847c38fe006ca5f1170e4b28c9b0a2c61c5c77fa
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%
@@ -16,7 +16,9 @@ ht-degree: 0%
 # 독립 실행형 제품으로 Adobe Workfront Planning 시작하기
 
 <!--
+
 This is linked from the "planning-important-intro" snippet and many other Planning integrated articles
+
 -->
 
 <!--
@@ -145,12 +147,6 @@ Workfront Planning을 독립형 제품으로 사용하는 것은 워크플로우
 독립형 Workfront Planning 패키지에는 Workfront 객체 유형 및 함수에 대한 연결 없이 통합 버전과 동일한 기능이 포함되어 있습니다.
 
 자세한 내용은 [Adobe Workfront 계획 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하세요.
-
-
-
-
-
-
 
 
 

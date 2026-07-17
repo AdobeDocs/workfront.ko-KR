@@ -20,7 +20,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
 workflow-type: tm+mt
 source-wordcount: 96
 ht-degree: 0%
@@ -41,4 +41,4 @@ ht-degree: 0%
 
 날짜 환경 설정은 Adobe Unified Shell에 설정된 언어 환경 설정에 따라 제어됩니다. 기본 언어 설정과 기본 날짜 설정은 `en-US`입니다.
 
-자세한 내용은 [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences)을 참조하세요.
+자세한 내용은 [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#access-your-profile-and-preferences)을 참조하세요.

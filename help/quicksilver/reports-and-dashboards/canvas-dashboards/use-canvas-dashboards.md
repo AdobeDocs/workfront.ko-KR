@@ -16,16 +16,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 889f77efd9472cd2da5de1e5ec602aea63b2ce0b
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
-source-wordcount: 572
+source-wordcount: 570
 ht-degree: 1%
 
 ---
 
 # 캔버스 대시보드 사용
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -51,9 +49,7 @@ ht-degree: 1%
 1. 기존 대시보드 이름을 클릭하여 엽니다.
    ![대시보드 열기](assets/open-dashboard.png)
 
-<div class="preview">
-
-## 미리 보기에서 캔버스 대시보드 목록 정렬
+## 캔버스 대시보드 목록 정렬
 
 다음 열 중 하나를 기준으로 캔버스 대시보드 목록을 정렬할 수 있습니다.
 
@@ -75,8 +71,6 @@ ht-degree: 1%
 >
 >* 캔버스 대시보드 목록의 탭 간을 전환하면 정렬 순서가 유지됩니다.
 
-
-</div>
 
 <!--
 ## Navigating the Dashboard

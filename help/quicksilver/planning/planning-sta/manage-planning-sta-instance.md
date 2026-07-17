@@ -4,7 +4,7 @@ description: 이 문서에서는 조직에서 를 독립 실행형 제품으로 
 author: Alina
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: 6aefd5ceb0e650275ae959ce8f31d4e2aea24f63
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -15,7 +15,9 @@ ht-degree: 3%
 # Adobe Workfront Planning 인스턴스를 독립 실행형 제품으로 관리
 
 <!--
+
 Add to this article the  "Administrator experience" section in this document, after Lilit proof it: https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B0EC828A2-7D86-42B5-B262-C79017BCF02A%7D&file=Without%20pricing_WFP_Standalone_Documentation.docx&action=default&mobileredirect=true
+
 -->
 
 >[!IMPORTANT]
@@ -107,6 +109,4 @@ Workfront Planning을 독립 실행형 제품 구현으로 수행하는 동안 �
 Workfront Planning 시스템 환경설정을 구성하는 것은 Workfront에서 구성하는 것과 유사합니다.
 
 자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
-
-
 

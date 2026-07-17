@@ -21,18 +21,20 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1311
+source-wordcount: 1252
 ht-degree: 1%
 
 ---
 
 # 작업 공간 만들기
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -277,7 +279,6 @@ Old:
 
       1. 각 작업 영역 템플릿에 대해 **미리 보기** 상자를 연 후 **뒤로**&#x200B;를 클릭하여 **작업 영역 만들기** 상자로 돌아가거나 **템플릿 사용**&#x200B;을 클릭하여 번들에 포함된 템플릿을 사용하고 작업 영역을 만듭니다.
 
-   <div class="preview">
 
    * **샘플 작업 공간** 탭을 클릭한 다음 다음 다음 단계를 수행합니다.
 
@@ -289,8 +290,6 @@ Old:
          >
          >템플릿에서 레코드 유형 카드를 클릭하면 오른쪽 패널에 레코드 유형의 필드가 표시됩니다.
       1. **템플릿 사용**&#x200B;을 클릭합니다.
-
-   </div>
 
    6개의 작업 공간이 만들어지고 시스템 관리자를 위한 **내가 있는 작업 공간** 및 **모든 작업 공간** 탭에 표시됩니다. 모든 Standard License 사용자는 시스템 관리자가 작업 공간을 만들고 새 작업 공간을 공유하면 작업 공간 영역에서 작업 공간을 볼 수 있습니다.
 

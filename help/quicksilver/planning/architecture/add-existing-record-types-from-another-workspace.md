@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 793
+source-wordcount: 765
 ht-degree: 1%
 
 ---
@@ -31,11 +31,11 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 작업 영역 관리자는 다른 작업 영역에 있는 레코드 유형을 Adobe Workfront Planning에서 관리하는 작업 영역에 추가할 수 있습니다.
 
@@ -149,25 +149,25 @@ And
 1. **계속**&#x200B;을 클릭합니다.
 1. (조건부) **레코드 종류 선택** 상자에서 기존 작업 영역에서 추가할 레코드 종류의 카드를 클릭한 다음 **추가**&#x200B;를 클릭합니다.
 
-   <span class="preview">미리 보기 환경을 사용하는 경우 클릭하여 여러 레코드 종류를 선택한 다음 **추가**&#x200B;를 클릭합니다. 사용 가능한 모든 작업 영역의 모든 글로벌 레코드 형식이 목록에 표시됩니다.</span>
+미리 보기 환경을 사용하는 경우 클릭하여 여러 레코드 유형을 선택한 다음 **추가**&#x200B;를 클릭합니다. 사용할 수 있는 모든 작업 영역의 모든 글로벌 레코드 유형이 목록에 표시됩니다.
 
-   선택한 보조 작업 영역에 레코드 유형이 추가되고 보조 작업 영역의 **글로벌 레코드 유형** 아이콘 ![글로벌 레코드 아이콘](assets/global-icon-secondary-workspace.png)이 레코드 유형의 카드에 표시됩니다.
+선택한 보조 작업 영역에 레코드 유형이 추가되고 보조 작업 영역의 **글로벌 레코드 유형** 아이콘 ![글로벌 레코드 아이콘](assets/global-icon-secondary-workspace.png)이 레코드 유형의 카드에 표시됩니다.
 글로벌 레코드 유형 아이콘은 보조 작업 공간의 레코드 유형에 표시될 때 레코드 유형이 기존 레코드 유형에서 추가되었음을 나타내는 화살표를 포함합니다.
 
-   다음과 같은 상황이 발생합니다.
+다음과 같은 상황이 발생합니다.
 
-   * 기존 글로벌 레코드 유형에서도 다음 정보가 추가됩니다.
+* 기존 글로벌 레코드 유형에서도 다음 정보가 추가됩니다.
 
-      * 모든 원본 필드
-      * 모든 레코드 연결
-   * 보조 작업공간에서는 레코드 유형의 원본 작업공간에서 추가된 레코드를 볼 수 없습니다.
-   * 해당 작업 영역에 대해 적어도 보기 권한이 있는 경우 해당 작업 영역에서 레코드 유형의 원래 작업 영역에서 추가된 레코드를 원래 작업 영역에서만 볼 수 있습니다.
-   * 읽기 전용 **Workspace** 필드가 새 레코드 형식 테이블 보기에 추가되었습니다. 필드에는 각 레코드가 생성된 작업 공간이 표시됩니다.
+   * 모든 원본 필드
+   * 모든 레코드 연결
+* 보조 작업공간에서는 레코드 유형의 원본 작업공간에서 추가된 레코드를 볼 수 없습니다.
+* 해당 작업 영역에 대해 적어도 보기 권한이 있는 경우 해당 작업 영역에서 레코드 유형의 원래 작업 영역에서 추가된 레코드를 원래 작업 영역에서만 볼 수 있습니다.
+* 읽기 전용 **Workspace** 필드가 새 레코드 형식 테이블 보기에 추가되었습니다. 필드에는 각 레코드가 생성된 작업 공간이 표시됩니다.
 
-     >[!NOTE]
-     >
-     >새 레코드 종류의 모양, 추가 설정 또는 원본 필드는 편집할 수 없습니다. 원본 작업공간에서만 레코드 종류 및 원본 필드와 설정을 편집할 수 있습니다.
-     >
+  >[!NOTE]
+  >
+  >새 레코드 종류의 모양, 추가 설정 또는 원본 필드는 편집할 수 없습니다. 원본 작업공간에서만 레코드 종류 및 원본 필드와 설정을 편집할 수 있습니다.
+  >
 
 1. (선택 사항) 보조 작업 영역의 글로벌 레코드 유형 아이콘 ![글로벌 레코드 아이콘](assets/global-icon-secondary-workspace.png) 위로 마우스를 가져가면 레코드 유형이 추가된 원래 작업 영역의 이름을 볼 수 있습니다.
 1. (선택 사항) 을 클릭한 다음, 새로 추가된 레코드 유형을 작업 공간 내의 임의의 섹션으로 끌어다 놓습니다.

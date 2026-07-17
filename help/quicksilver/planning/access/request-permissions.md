@@ -18,20 +18,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 574
+source-wordcount: 514
 ht-degree: 3%
 
 ---
 
 # 보기 또는 작업 영역에 대한 권한 요청
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!-- 
 no longer needed: 
@@ -89,7 +89,7 @@ no longer needed:
    <ul><li><p>보기에 대한 보기 또는 관리</p></li>
    <li><p>작업 공간에 대한 보기, 기여 또는 관리</p></li>
    <li><p>레코드 종류에 대한 보기, 기여 또는 관리</p></li>
-   <li><p><span class="preview">레코드에 대한 보기 또는 관리</span></p></li>
+   <li><p>레코드에 대한 보기 또는 관리</p></li>
    </ul>  
    <p>작업 공간 및 보기에 대한 관리 권한이 있는 사용자만 보기를 공개적으로 공유할 수 있습니다.</p></td> 
   </tr> 
@@ -175,9 +175,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## 권한 요청
 
-보기에 대한 권한을 요청하는 것은 작업 영역, 레코드 종류 또는 <span class="preview">레코드</span>에 대한 권한을 요청하는 것과 비슷합니다.
+보기에 대한 권한을 요청하는 것은 작업 영역, 레코드 유형 또는 레코드에 대한 권한을 요청하는 것과 비슷합니다.
 
-다른 사용자가 작업 영역, 레코드 종류, <span class="preview">레코드</span> 또는 액세스 권한이 없는 보기에 대한 링크를 귀하와 공유하는 경우:
+다른 사용자가 액세스 권한이 없는 작업 영역, 레코드 유형, 레코드 또는 보기에 대한 링크를 귀하와 공유하는 경우:
 
 1. 보기 또는 작업 공간에 대해 사용자와 공유되는 링크를 클릭합니다.
 
@@ -187,7 +187,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!NOTE]
    >
-   >레코드 종류 또는 <span class="preview">레코드</span>에 대한 액세스 권한이 없는 경우 페이지에 대한 액세스 권한이 없으면 작업 영역에 대한 액세스 권한이 있어야 합니다.
+   >레코드 유형 또는 레코드에 대한 액세스 권한이 없는 경우 페이지에 대한 액세스 권한이 없음에 따라 작업 영역에 대한 액세스 권한이 있어야 합니다.
 
 
 1. (조건부) 공유 링크가 액세스 권한이 있는 작업 영역의 보기용인 경우 **기존 보기로 열기**&#x200B;를 클릭합니다. 작업공간에 액세스할 수 있는 권한이 있는 경우 기본 보기에서 레코드 유형 페이지가 열립니다.

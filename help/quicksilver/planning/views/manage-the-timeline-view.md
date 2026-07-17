@@ -19,20 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 4341
-ht-degree: 1%
+source-wordcount: 4300
+ht-degree: 2%
 
 ---
 
 # 타임라인 보기 관리
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -268,7 +268,7 @@ Old:
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [필터](#add-filters)
    * [그룹화](#add-grouping)
-   * &lbrack;설정
+   * [설정](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### 필터 추가
@@ -378,21 +378,22 @@ Old:
 1. 왼쪽에 있는 다음 연산자를 클릭하여 필터 조건을 결합하고 적용해야 하는 방법을 나타냅니다.
 
    * **AND**: 지정한 조건을 모두 충족해야 합니다.
-   * **OR**: 지정한 조건을 모두 충족해야 합니다.기본 옵션입니다.
+   * **OR**: 지정한 조건을 모두 충족해야 합니다.
+기본 옵션입니다.
 
 1. (선택 사항) 필터 그룹화를 추가하고 **AND** 또는 **OR** 연산자로 결합하십시오.
 
-   레코드 목록은 필터 조건에 따라 자동으로 필터링됩니다.  
+   레코드 목록은 필터 조건에 따라 자동으로 필터링됩니다.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (선택 사항) 필터 조건을 제거하려면 **x** 아이콘을 클릭하십시오.
-1. <span class="preview">(선택 사항 및 조건부) 타임라인 보기에 분류 구조를 추가한 경우 다음 드롭다운에서 레코드 유형을 확장하고 위와 동일한 단계를 반복하여 분류에 포함된 레코드 유형에 대한 필터를 추가합니다. </span>
+1. (선택 사항 및 조건부) 타임라인 보기에 분류 구조를 추가한 경우 다음 드롭다운에서 레코드 유형을 확장하고 위와 동일한 단계를 반복하여 분류에 포함된 레코드 유형에 대한 필터를 추가합니다.
 
-   <span class="preview"> 분류에 있는 모든 레코드 형식에 대해 반복합니다.</span>
+   분류에 있는 모든 레코드 유형에 대해 이 작업을 반복합니다.
 
    ![타임라인 보기에 대한 분류가 있는 다중 계층 필터](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-   <span class="preview">타임라인 보기에서만 분류 레코드 종류를 필터링할 수 있습니다.</span>
+   타임라인 보기에서만 분류 레코드 유형을 필터링할 수 있습니다.
 1. (선택 사항) **필터** 또는 페이지의 다른 위치를 클릭하여 필터 상자를 닫습니다. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -405,7 +406,8 @@ Old:
 타임라인 보기에서 그룹화를 사용하여 작업할 때 다음 사항을 고려하십시오.
 
 * 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
-* 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.&lt;!—!—* API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —현재 이 항목을 확인하고 있습니다—>
+* 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
+&lt;!—!—* API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —현재 이 항목을 확인하고 있습니다—>
 * 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
 * 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
@@ -443,9 +445,7 @@ Old:
 
 1. **레코드 그룹화 기준** 상자에서 그룹화를 올바른 순서로 끌어서 놓습니다.
 
-1. <span class="preview"> **레코드 그룹화 기준** 상자의 **레이아웃** 영역에서 다음 옵션 중 하나를 선택합니다.</span>
-
-   <div class="preview">
+1. **레코드 그룹화 기준** 상자의 **레이아웃** 영역에서 다음 옵션 중 하나를 선택합니다.
 
    * **스택**: 그룹화가 고정된 왼쪽 열 없이 표시되고 해당 항목의 타임라인의 너비에 맞습니다.
 
@@ -609,7 +609,8 @@ this is not possible right now; if this is the same functionality as the table v
   예를 들어 작업은 Workfront의 프로젝트에 연결됩니다. 분류 기능을 사용하면 Planning의 캠페인에 연결되어 있지만 Workfront의 프로젝트에 연결된 작업은 아닌 프로젝트를 표시할 수 있습니다.
 
   Workfront Planning 레코드 유형의 타임라인 보기에 포트폴리오와 프로젝트를 모두 표시하려면 포트폴리오와 프로젝트가 모두 Planning 레코드나 관리하는 Planning 레코드의 타임라인 보기에 연결된 레코드에 연결되어 있어야 합니다.
-* Planning 레코드 유형에 연결된 Adobe GenStudio 브랜드를 표시할 수 없습니다.자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+* Planning 레코드 유형에 연결된 Adobe GenStudio 브랜드를 표시할 수 없습니다.
+자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 * 두 개 이상의 날짜 필드와 연결된 레코드 유형만 표시할 수 있습니다.
 * 타임라인 보기에 표시할 레코드 종류의 날짜 필드는 선택한 레코드 종류의 표 보기에서 조회 필드로 표시되어야 합니다.
 * 타임라인 보기에 표시할 레코드 종류의 시작 날짜와 종료 날짜는 시간 순서대로 표시되어야 합니다. 예를 들어 레코드에 시작 날짜가 1월 31일이고 종료 날짜가 1월 1일인 경우 타임라인 보기에 표시되지 않습니다. 자세한 내용은 이 문서의 [타임라인 보기 관리](#manage-a-timeline-view) 섹션을 참조하십시오.

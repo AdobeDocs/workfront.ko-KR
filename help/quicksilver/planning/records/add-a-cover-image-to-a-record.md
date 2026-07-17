@@ -20,19 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 679
 ht-degree: 1%
 
 ---
 
-# 레코드에 표지 이미지 추가
+# 추가
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -70,7 +71,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역, 레코드 종류 및 <span class="preview">레코드에 대한 권한 관리</span>에 대한 권한 이상 제공 </p>  
+   <td>   <p>작업 공간, 레코드 유형 및 레코드에 대한 권한 관리에 대해 또는 그 이상의 권한 기여 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> </td> 
   </tr>   
 </tbody> 
@@ -187,16 +188,12 @@ Old:
 
    레코드의 미리보기가 보기에서 열립니다.
 
-   <!--update screen shot for new details views preview-->
-
    ![세부 정보 미리 보기 상자](assets/details-box.png)
 
 
 1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 열기](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
    레코드 페이지가 열립니다.
-
-   <!--update screen shot for new details views preview-->
 
    ![세부 정보 페이지](assets/details-page.png)
 
@@ -220,8 +217,6 @@ Old:
 1. **이미지 사용**&#x200B;을 클릭합니다.
 
    이미지는 레코드 미리 보기 또는 세부 사항 페이지의 맨 위에 업로드되고 변경 사항이 자동으로 저장됩니다.
-
-   <!--update screen shot for new details views preview-->
 
    ![표지 이미지로 페이지 기록](assets/record-page-with-cover-image.png)
 

@@ -38,9 +38,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
+source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
 workflow-type: tm+mt
-source-wordcount: 21586
+source-wordcount: 22015
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ ht-degree: 0%
       <!--
       Resource Estimates or a
       -->
-     프로젝트(재무 데이터) 보고서를 작성하고 [!UICONTROL 할당 날짜]에 대한 매트릭스 그룹화를 추가한 다음 가장 정확한 데이터에 대해 주간, 월간, 분기별 또는 연별로 결과를 그룹화합니다.<br>매트릭스 그룹화 구축에 대한 자세한 내용은 문서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">매트릭스 보고서 만들기</a>를 참조하십시오.</p> </li>
+     프로젝트(재무 데이터) 보고서를 작성하고 [!UICONTROL 할당 날짜]에 대한 매트릭스 그룹화를 추가한 다음 가장 정확한 데이터에 대해 주별, 월별, 분기별 또는 연도별 결과를 그룹화합니다.<br>매트릭스 그룹화에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">매트릭스 보고서 만들기</a> 문서를 참조하십시오.</p> </li>
     </ul> <p>재무 정보는 [!UICONTROL 프로젝트(재무 데이터)] 보고서와 관련된 데이터가 5년 미만인 경우에만 표시됩니다. 예를 들어 작업 역할이 2015년 1월에 작업에 할당되었고 오늘이 2021년 9월인 경우 작업 역할에 대한 [!UICONTROL 할당 날짜]와 같은 재무 필드가 [!UICONTROL 프로젝트(재무 데이터)] 보고서에 채워지지 않습니다. </p> 
     <div> 
      <p>[!UICONTROL 예산 시간] 보고서의 경우:</p> 
@@ -2598,7 +2598,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>시스템은 이 숫자를 사용하여 실제 프로젝트 관련 작업에 대한 사용자의 가용성을 계산합니다. </p>
    <p> 일정 예외 및 휴무는 사용자 용량에도 영향을 줄 수 있습니다. </p>
    <p>Workfront에서 일정을 만드는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">일정 만들기</a>를 참조하십시오. </p>
-    <p>Workfront은 [!UICONTROL 설정] 영역의 리소스 관리 기본 설정에 따라 사용자의 가용성을 계산합니다. 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">리소스 관리 환경 설정 구성</a>을 참조하십시오. </p> 
+    <p>Workfront은 [!UICONTROL 설정] 영역의 리소스 관리 기본 설정에 따라 사용자의 가용성을 계산합니다. 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">리소스 관리 환경 설정 구성</a>을 참조하십시오. </p> 
    <p>사용자를 편집하거나 만들 때 사용자의 [!UICONTROL Work Time]을 업데이트할 수 있습니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">사용자 프로필 편집</a>을 참조하세요.</p> 
    <b>팁</b> 
    <p>[!UICONTROL Work Time] 값을 1로 설정하여 사용자가 프로젝트 관련 작업에 해당하는 전체 시간을 사용할 수 있음을 나타냅니다.</p> 

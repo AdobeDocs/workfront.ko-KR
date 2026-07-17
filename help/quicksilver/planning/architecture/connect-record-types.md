@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3118
+source-wordcount: 3058
 ht-degree: 1%
 
 ---
@@ -33,10 +33,12 @@ ht-degree: 1%
 
 # 레코드 유형 연결
 
+<!--
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -359,7 +361,7 @@ Old:
    >
    >* 이름 및 설명과 같은 시스템 필드 외에도 다른 응용 프로그램의 개체 유형에서 다음 유형의 필드를 조회 필드로 추가할 수 있습니다.
    >   * Workfront 프로젝트의 프로젝트 소유자 또는 스폰서와 같은 사용자 필드.
-   >   * <span class="preview">Workfront 프로젝트의 프로젝트 그룹 또는 프로젝트 회사와 같은 참조 필드입니다. </span>
+   >   * Workfront 프로젝트의 프로젝트 그룹 또는 프로젝트 회사와 같은 참조 필드.
    >* AEM 콘텐츠 조각에는 다음 필드만 지원됩니다. <!--this information is also in "Connect record types overview"-->
    >   * 작성자 및 작성일
    >   * 수정자 및 수정된 위치

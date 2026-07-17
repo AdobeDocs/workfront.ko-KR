@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 09dff59503604894e61f2a62af7ae1c2e8a39068
 workflow-type: tm+mt
 source-wordcount: 491
 ht-degree: 3%
@@ -25,8 +25,6 @@ ht-degree: 3%
 ---
 
 # 문서 저장 공간 제한 확인
-
-{{highlighted-preview}}
 
 사용자가 Workfront 인스턴스에 업로드할 수 있는 개별 파일의 유형과 크기에는 제한이 없지만 Workfront 플랜에는 총 스토리지 할당량이 포함됩니다. Workfront 관리자는 고객 정보 페이지의 설정 영역에서 사용량 및 할당량을 모니터링합니다.
 
@@ -62,7 +60,7 @@ ht-degree: 3%
 
 +++
 
-## 기존 Workfront 스토리지
+## 이전 Workfront 스토리지
 
 조직에서 기존 Workfront 스토리지를 사용하는 경우 고객 정보 페이지에 Workfront에 직접 업로드한 문서에 대한 단일 스토리지 할당량이 표시됩니다.
 
@@ -78,8 +76,6 @@ ht-degree: 3%
 >[!NOTE]
 >
 >이 제한은 다른 타사 서비스 공급자(SharePoint, Google 드라이브, Webdam, Box, Dropbox 또는 기타 문서 에셋 관리 공급자)로부터 Workfront에 연결하는 문서에는 적용되지 않습니다.
-
-<div class="preview">
 
 ## Adobe 클라우드 스토리지
 
@@ -107,5 +103,3 @@ Adobe 클라우드 스토리지에서 문서를 확인하려면:
 ### 관리자용 이메일 알림
 
 사용량이 스토리지 할당량의 75%, 90% 또는 100%를 초과하면 Workfront에서 시스템 관리자에게 이메일 알림을 보냅니다.
-
-</div>

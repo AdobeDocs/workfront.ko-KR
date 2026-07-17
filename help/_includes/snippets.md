@@ -1,5 +1,5 @@
 ---
-source-git-commit: cc78767fd0cc3090f5de71f44c64c9696ce6a36b
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: '2292'
 ht-degree: 2%
@@ -302,6 +302,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 >Workfront Planning에 대한 일반적인 정보는 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
 > 
 >독립 실행형 제품으로서의 Workfront Planning에 대한 자세한 내용은 [독립 실행형 제품으로서의 Adobe Workfront Planning 시작](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)을 참조하십시오.
+>
 
 <!--
 Old - before Oct. 15, 2025:
