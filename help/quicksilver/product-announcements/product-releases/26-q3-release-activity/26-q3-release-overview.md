@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 29d86cd2aa730d5bebe14fb2bd3cb1a59e00852a
+source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
 workflow-type: tm+mt
-source-wordcount: '3150'
+source-wordcount: '3159'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 2026년 3분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 이 페이지가 추가 개선 사항으로 업데이트됩니다.
 
-라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/ko/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
+라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/en/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
 
 >[!IMPORTANT]
 >
@@ -584,7 +584,10 @@ Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이
 New features in Workfront Planning are available in Production.
 -->
 
-최신 기능에 대한 자세한 내용은 [Adobe Workfront Planning의 2026년 3분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)을 참조하십시오.
+최신 기능에 대한 자세한 내용은 다음을 참조하십시오.
+
+* [Adobe Workfront Planning의 2026년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+* [Adobe Workfront Planning의 2026년 3분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md).
 
 
 ### 기타 Workfront 개선 사항
@@ -668,12 +671,12 @@ Workfront 계획 심리는 2026년 5월 15일에 종료됩니다.
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
 
