@@ -5,9 +5,9 @@ title: Adobe Workfront MCP 서버 사용
 description: Adobe Workfront MCP 서버를 사용하여 AI 에이전트 플랫폼에서 자연어 대화를 통해 Workfront 항목을 검색, 생성, 업데이트 및 관리합니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e009d9d52ddb478759c11a20967d48049f797d97
+source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1775'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 # Adobe Workfront MCP 서버 사용
 
 [!DNL Adobe Workfront] MCP 서버를 사용하면 자연어로 AI 에이전트 플랫폼에 요청하여 Workfront 항목을 찾고, 만들고, 업데이트하고, 관리할 수 있습니다. 플랫폼은 호출할 Workfront 작업을 결정하고 Workfront과의 대화를 처리합니다.
-
->[!IMPORTANT]
->
->현재 Workfront MCP 서버는 AWS을 사용하는 고객만 사용할 수 있습니다.
 
 ## 전제 조건
 

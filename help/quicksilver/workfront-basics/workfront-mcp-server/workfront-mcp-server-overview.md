@@ -5,9 +5,9 @@ title: Adobe Workfront MCP 서버 개요
 description: Adobe Workfront MCP 서버가 수행하는 작업과 AI 아젠틱 플랫폼에서 자연어 대화를 통해 Workfront과 작업할 수 있는 방법을 알아봅니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5146c143611cead05def80e3279e03bee6224ba8
+source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 0%
 * *응답하지 않은 자산 &quot;봄 캠페인 비디오&quot;의 승인자에게 미리 알림을 보냅니다.*
 
 Workfront API 또는 Workfront MCP 서버를 사용하기 위해 MCP 서버가 작동하는 방식을 알 필요가 없습니다.
-
->[!IMPORTANT]
->
->현재 Workfront MCP 서버는 AWS을 사용하는 고객만 사용할 수 있습니다.
 
 ## MCP 서버 소개
 
