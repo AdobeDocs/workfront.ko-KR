@@ -9,20 +9,14 @@ exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YZRzcl8ymUo85jplCgKOx-qI83Gqa4CUI6saxfijtec
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a8e45498cd25caf846015dc5e695a6018727528f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
 workflow-type: tm+mt
-source-wordcount: 1434
+source-wordcount: 1496
 ht-degree: 1%
 
 ---
@@ -107,10 +101,16 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >
    >Beta에서 Planning Designer을 사용하는 경우에는 AI 계약 동의가 필요하지 않습니다.
 
-1. **AI Beta 옵트인** 설정을 켭니다.
-1. **계획 Designer** 설정을 켭니다.
+1. 활성화되지 않은 경우 **AI 베타 옵트인** 설정을 켭니다.
+1. 활성화되지 않은 경우 **계획 Designer** 설정을 켭니다.
 
-   ![시스템 환경 설정에서 Planning Designer 설정](assets/ai-preferences-with-planning-designer-beta.png)
+   ![시스템 환경 설정에서 Planning Designer 설정](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png).
+
+   >[!TIP]
+   >
+   >**AI 베타 옵트인** 및 **Planning Designer** 옵션이 기본적으로 켜져 있지만 Planning Designer을 사용하려면 Beta 계약에 동의해야 합니다.
+
+1. (조건부 및 필수) Beta 계약에 동의하지 않은 경우 **Beta 계약 검토**&#x200B;를 클릭하고 계약을 읽은 다음 **동의**&#x200B;를 클릭합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -161,7 +161,7 @@ Beta 프로그램 중에 Planning Designer에 대한 피드백을 제출할 수 
    **계획 Designer** 창이 열립니다.
 
 1. 페이지 하단의 **여기에 피드백 제출**&#x200B;을 클릭합니다.
-1. 제공된 스페이스에 피드백을 추가한 다음 **제출**&#x200B;을 클릭합니다.
+1. 제공된 스페이스에 피드백을 추가한 다음 **제출**을 클릭합니다.
 귀하의 피드백은 엔지니어링 및 제품 팀에 제출됩니다.
 
 ## Planning Designer에 대한 고려 사항
