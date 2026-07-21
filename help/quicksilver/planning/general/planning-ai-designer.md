@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a8e45498cd25caf846015dc5e695a6018727528f
+source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
 workflow-type: tm+mt
-source-wordcount: 1434
+source-wordcount: 1496
 ht-degree: 1%
 
 ---
@@ -107,10 +107,16 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >
    >Beta에서 Planning Designer을 사용하는 경우에는 AI 계약 동의가 필요하지 않습니다.
 
-1. **AI Beta 옵트인** 설정을 켭니다.
-1. **계획 Designer** 설정을 켭니다.
+1. 활성화되지 않은 경우 **AI 베타 옵트인** 설정을 켭니다.
+1. 활성화되지 않은 경우 **계획 Designer** 설정을 켭니다.
 
-   ![시스템 환경 설정에서 Planning Designer 설정](assets/ai-preferences-with-planning-designer-beta.png)
+   ![시스템 환경 설정에서 Planning Designer 설정](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png).
+
+   >[!TIP]
+   >
+   >**AI 베타 옵트인** 및 **Planning Designer** 옵션이 기본적으로 켜져 있지만 Planning Designer을 사용하려면 Beta 계약에 동의해야 합니다.
+
+1. (조건부 및 필수) Beta 계약에 동의하지 않은 경우 **Beta 계약 검토**&#x200B;를 클릭하고 계약을 읽은 다음 **동의**&#x200B;를 클릭합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
