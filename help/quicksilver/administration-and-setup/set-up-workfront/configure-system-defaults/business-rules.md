@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d0b0499c10d0e7b032eeceb0d200b4594414e475
 workflow-type: tm+mt
-source-wordcount: 1808
+source-wordcount: 1857
 ht-degree: 3%
 
 ---
@@ -159,6 +159,10 @@ IF(
 >[!ENDSHADEBOX]
 
 사용자 지정 지역화에 대한 자세한 내용은 [사용자 지정 지역화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)을 참조하십시오.
+
+>[!NOTE]
+>
+>비즈니스 규칙은 기본 프로세스가 완료된 후 실행됩니다. 즉, 비즈니스 규칙은 기본 프로세스에서 아직 처리하지 않은 작업을 방지하기 위한 것입니다. 기본 실행 중에 발생한 예외를 재정의하거나 대체하지 않습니다. 프로세스의 맨 끝에서 실행됩니다.
 
 ## 비즈니스 규칙 자동화를 위한 시나리오
 
@@ -307,3 +311,4 @@ IF({status} = "APR", true)
 1. 규칙 목록에서 비즈니스 규칙을 선택하고 편집 아이콘을 클릭합니다.
 1. 비즈니스 규칙 대화 상자에서 **활성 상태임**&#x200B;에 대해 **예**&#x200B;를 선택합니다.
 1. **저장**&#x200B;을 클릭합니다.
+
