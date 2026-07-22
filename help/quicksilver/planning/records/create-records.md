@@ -1,6 +1,6 @@
 ---
 title: 레코드 만들기
-description: Adobe Workfront Planning을 사용할 때 레코드는 레코드 유형의 인스턴스입니다. 테이블 보기에 수동으로 추가하거나, 목록에서 가져오거나, 복제하거나, 다른 레코드에 연결할 때 만들어 Workfront Planning에서 각 레코드 유형에 대한 고유한 레코드를 만들 수 있습니다.
+description: Adobe Workfront Planning을 사용할 때 레코드는 레코드 유형의 인스턴스입니다. 테이블 보기에 수동으로 추가하거나, 목록에서 가져오거나, 복제하거나, 다른 레코드에 연결할 때 만들어 Workfront Planning에서 각 레코드 유형에 대한 고유한 레코드를 만들 수 있습니다. 각 레코드는 썸네일, 커버 이미지 및 고유한 색상과 연결될 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -9,20 +9,14 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
 workflow-type: tm+mt
-source-wordcount: 3224
+source-wordcount: 3239
 ht-degree: 0%
 
 ---
@@ -165,19 +159,30 @@ Old:
 
 * 추가되는 작업 공간에 따라 글로벌 레코드 유형에 추가된 레코드는 다음 유형의 사용자가 볼 수 있습니다.
 
-   * 글로벌 레코드 유형의 원본 작업 영역에 추가된 레코드는 원본 작업 영역에서 볼 수 있습니다.
-   * 글로벌 레코드 유형의 보조 작업 영역에 추가된 레코드는 해당 레코드가 생성된 작업 영역과 글로벌 레코드 유형의 원래 작업 영역에서만 볼 수 있습니다.
-자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
+  * 글로벌 레코드 유형의 원본 작업 영역에 추가된 레코드는 원본 작업 영역에서 볼 수 있습니다.
+  * 글로벌 레코드 유형의 보조 작업 영역에 추가된 레코드는 해당 레코드가 생성된 작업 영역과 글로벌 레코드 유형의 원래 작업 영역에서만 볼 수 있습니다.
+    자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
 * 작업 공간 및 레코드 유형에 대한 권한에 따라 사용자는 다음과 같은 방법으로 레코드를 만들 수 있습니다.
 
-   * 작업 공간 및 레코드 유형에 대한 보기 권한이 있는 사용자는 레코드 유형 페이지의 레코드 요청 버튼을 사용해야만 레코드를 만들 수 있습니다.
-   * 작업 공간 및 레코드 유형에 대한 기여 및 관리 권한이 있는 사용자는 레코드 유형 페이지의 새 레코드 단추를 사용하여 레코드를 만들 수 있습니다.
+  * 작업 공간 및 레코드 유형에 대한 보기 권한이 있는 사용자는 레코드 유형 페이지의 레코드 요청 버튼을 사용해야만 레코드를 만들 수 있습니다.
+  * 작업 공간 및 레코드 유형에 대한 기여 및 관리 권한이 있는 사용자는 레코드 유형 페이지의 새 레코드 단추를 사용하여 레코드를 만들 수 있습니다.
 
   >[!IMPORTANT]
   >
   >작업 영역 관리자는 보기 권한이 있는 사용자가 요청 양식을 사용하여 레코드를 추가할 수 있도록 레코드 유형에 대한 요청 양식을 만들어야 합니다. 그렇지 않으면 보기 권한 사용자가 레코드를 만들 수 없습니다.
 
+<!--
+add this bullet for July 23 release:
+
+<div class="preview">
+
+* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+
+    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+
+</div>
+-->
 
 ## 레코드 유형 보기에서 새 레코드 또는 레코드 요청 버튼을 사용하여 레코드 만들기
 
@@ -190,7 +195,7 @@ Old:
 1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
-선택한 유형의 모든 레코드가 뷰에 표시됩니다.
+   선택한 유형의 모든 레코드가 뷰에 표시됩니다.
 
 1. (조건부) 작업 공간 및 레코드 유형 권한에 따라 화면 오른쪽 상단의 다음 아이콘을 클릭합니다.
 
@@ -205,11 +210,11 @@ Old:
    1. 다음 방법 중 하나를 클릭하여 레코드를 만든 다음 **계속**&#x200B;을 클릭합니다.
 
       * **수동으로 추가**. 레코드의 미리보기 상자가 열립니다.\
-        이 문서의 레코드 유형 테이블 보기[&#128279;](#create-records-by-adding-them-inline-from-the-record-type-table-view) 섹션에서 인라인으로 추가하여 레코드 만들기&lbrace;6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
+        이 문서의 레코드 유형 테이블 보기](#create-records-by-adding-them-inline-from-the-record-type-table-view) 섹션에서 인라인으로 추가하여 [레코드 만들기{6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
       * **파일에서 업로드**
-문서 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)의 설명과 같이 레코드를 추가합니다. 6단계부터 시작합니다. <!--ensure this stays accurate-->
+        문서 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)의 설명과 같이 레코드를 추가합니다. 6단계부터 시작합니다. <!--ensure this stays accurate-->
       * **요청 제출**
-레코드 유형의 요청 양식이 열립니다.
+        레코드 유형의 요청 양식이 열립니다.
 
         작업 영역 관리자는 요청 양식을 사용하여 레코드를 추가할 수 있도록 요청 양식을 만들어야 합니다.
 
@@ -272,7 +277,7 @@ You can import records from other applications by linking them to existing recor
 1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
-선택한 유형의 레코드가 뷰에 표시됩니다.
+   선택한 유형의 레코드가 뷰에 표시됩니다.
 
 1. (조건부) 테이블 보기에서 다음 중 하나를 수행합니다.
 
@@ -374,9 +379,9 @@ You can import records from other applications by linking them to existing recor
 
      기본적으로 날짜 값은 타임라인 보기를 표시하는 방법에 따라 미리 선택됩니다. 다음과 같은 시나리오가 있습니다.
 
-      * **년**&#x200B;까지: 기록 시작 날짜와 종료 날짜가 한 달에 걸쳐 있습니다.
-      * **분기**&#x200B;까지: 기록 시작 날짜와 종료 날짜가 한 주에 걸쳐 있습니다.
-      * **개월**&#x200B;까지: 기록 시작 날짜와 종료 날짜가 3일에 걸쳐 있습니다.
+     * **년**&#x200B;까지: 기록 시작 날짜와 종료 날짜가 한 달에 걸쳐 있습니다.
+     * **분기**&#x200B;까지: 기록 시작 날짜와 종료 날짜가 한 주에 걸쳐 있습니다.
+     * **개월**&#x200B;까지: 기록 시작 날짜와 종료 날짜가 3일에 걸쳐 있습니다.
 
 1. (선택 사항) 다음 아이콘 중 하나를 클릭합니다.
 
@@ -441,8 +446,8 @@ You can import records from other applications by linking them to existing recor
 
      기본적으로 날짜 값은 달력 보기를 표시하는 방식에 따라 미리 선택됩니다. 다음과 같은 시나리오가 있습니다.
 
-      * **개월**&#x200B;까지: 기록 시작 날짜와 종료 날짜가 하루 걸칩니다.
-      * **주**&#x200B;까지: 레코드 시작 날짜와 종료 날짜가 2일에 걸쳐 있습니다.
+     * **개월**&#x200B;까지: 기록 시작 날짜와 종료 날짜가 하루 걸칩니다.
+     * **주**&#x200B;까지: 레코드 시작 날짜와 종료 날짜가 2일에 걸쳐 있습니다.
 
 1. (선택 사항) 다음 아이콘 중 하나를 클릭합니다.
 
@@ -524,8 +529,8 @@ You can import records from other applications by linking them to existing recor
 
    * Workfront Planning의 다음 영역에 있는 연결 필드:
 
-      * 테이블 보기
-      * 레코드의 세부 정보 페이지 또는 미리보기 상자
+     * 테이블 보기
+     * 레코드의 세부 정보 페이지 또는 미리보기 상자
 
    * Workfront에 있는 프로젝트, 포트폴리오 또는 프로그램의 계획 섹션에 있는 연결 필드입니다.
 
@@ -534,7 +539,7 @@ You can import records from other applications by linking them to existing recor
 1. (조건부) 연결을 시도할 때 레코드를 찾을 수 없으면 **+ 추가**&#x200B;를 클릭합니다
 
    또는
-이름을 입력한 다음 **+ 추가**&#x200B;를 클릭합니다. **+ 추가** 단추 다음에 연결 중인 레코드 형식의 이름이 옵니다. 예: 기존 캠페인에 브랜드를 추가할 때 &quot;브랜드 추가&quot; 입력한 이름도 [추가] 단추 다음에 표시됩니다.
+   이름을 입력한 다음 **+ 추가**&#x200B;를 클릭합니다. **+ 추가** 단추 다음에 연결 중인 레코드 형식의 이름이 옵니다. 예: 기존 캠페인에 브랜드를 추가할 때 &quot;브랜드 추가&quot; 입력한 이름도 [추가] 단추 다음에 표시됩니다.
 
    ![강조 표시된 컨텍스트에서 레코드를 만들기 위한 추가 단추](assets/add-button-to-create-records-in-context-highlighted.png)
 
@@ -584,5 +589,53 @@ Workfront Planning의 레코드 페이지에서 자동화를 구성하고 활성
 
 자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오.
 
+<!--
+For July 23
+Move to its own article after preview release in 07/2026:
 
+<div class="preview">
 
+## Color coding records
+
+All records are automatically associated with a color when they are created. 
+
+1. Create a record using one of the methods described in this article. 
+
+    The color is immediately applied to the new record in the following areas:
+
+    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
+    * As a circle, to the left of the record name in the record's **Details** page. 
+
+        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. (Conditional) To view the color of a record, do one of the following: 
+    
+    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+
+        ![Table view record color bar](assets/table-record-color-bar.png)
+
+        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+
+        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+
+        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
+    
+        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+
+        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+
+    The Color setting is turned off by default.
+
+1. To change the color associated with a record, do the following: 
+
+    1. From the table view, click the record color bar
+        Or 
+        From the record details preview or page, click the record color circle. 
+    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+
+        Once selected, the new color is applied immediately. 
+
+</div>
+
+-->

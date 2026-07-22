@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1813'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,17 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 Workfront Planning의 다음 영역에서 목록 보기에서 객체를 볼 수 있습니다.
 
-* 레코드의 세부 정보 영역 <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->에 있는 프로젝트에 대해 연결된 레코드 페이지
+* 레코드 세부 정보 영역의 프로젝트에 대해 연결된 레코드 페이지
 
   ![목록 보기의 연결된 레코드 페이지에 있는 프로젝트](assets/projects-on-connected-records-page-list-view.png)
 
@@ -86,17 +87,17 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 * 연결된 레코드 페이지 목록 보기에 대해 다음 사항을 고려하십시오.
 
-   * 레코드의 연결된 레코드 페이지에 있는 목록 보기에서만 프로젝트를 볼 수 있습니다. 연결된 레코드 페이지의 다른 개체나 레코드 종류에는 목록 보기를 사용할 수 없습니다.
+  * 레코드의 연결된 레코드 페이지에 있는 목록 보기에서만 프로젝트를 볼 수 있습니다. 연결된 레코드 페이지의 다른 개체나 레코드 종류에는 목록 보기를 사용할 수 없습니다.
 
   연결된 레코드 페이지를 만드는 방법에 대한 자세한 내용은 [레코드에 연결된 레코드 페이지 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 참조하십시오.
-   * 레코드의 연결된 레코드 페이지에서 목록 보기를 보려면 먼저 Workfront 프로젝트를 Planning 레코드 유형과 연결해야 합니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
-   * 레코드의 연결된 레코드 페이지에서 프로젝트에 대한 목록 보기를 여러 개 만들 수 있습니다.
+  * 레코드의 연결된 레코드 페이지에서 목록 보기를 보려면 먼저 Workfront 프로젝트를 Planning 레코드 유형과 연결해야 합니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+  * 레코드의 연결된 레코드 페이지에서 프로젝트에 대한 목록 보기를 여러 개 만들 수 있습니다.
 
 * 요청 양식 목록 보기에 대해 다음 사항을 고려하십시오.
 
-   * Planning 요청 양식에 대해 추가 목록 보기를 생성하거나 편집할 수 없습니다. Workfront은 요청 양식에 대해 하나의 목록 보기를 만듭니다. <!--this will change-->
+  * Planning 요청 양식에 대해 추가 목록 보기를 생성하거나 편집할 수 없습니다. Workfront은 요청 양식에 대해 하나의 목록 보기를 만듭니다. <!--this will change-->
 
-     요청 양식에 대한 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+    요청 양식에 대한 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 * 표시되는 위치에 따라 모든 목록 보기에 이 문서에 설명된 모든 요소가 있는 것은 아닙니다.
 
 ## 목록 보기 관리 {#manage-a-list-view}
@@ -186,10 +187,10 @@ Removed - more direct steps below:
       **열 관리자**&#x200B;가 열립니다.
 
       목록 보기에 기존 필드만 추가할 수 있습니다.
-첫 번째 열에 표시되는 목록 보기에서 기본 필드를 제거할 수 없습니다.
+      첫 번째 열에 표시되는 목록 보기에서 기본 필드를 제거할 수 없습니다.
 
    1. **셀 서식 지정** 아이콘 ![셀 서식 지정 아이콘](assets/format-cells-icon.png)을 클릭합니다. **서식** 상자가 열립니다. <!--change the name of the box when they update it-->
-다음을 수행합니다.
+      다음을 수행합니다.
 
       1. **조건 추가**&#x200B;를 클릭합니다.
       1. **If** 줄에서 필드를 선택하고 필드 값을 선택한 다음 수정자를 추가합니다. 수정자는 선택한 필드 유형에 따라 변경됩니다.
@@ -223,8 +224,8 @@ Removed - more direct steps below:
       1. **서식** 상자 바깥쪽을 클릭하여 닫습니다.
 
          이렇게 하면 목록 보기로 돌아갑니다.
-서식은 목록 보기에 즉시 적용됩니다.
-**셀 서식 지정** 아이콘 옆에 특수 서식이 적용되었음을 나타내는 파란색 점이 있습니다.
+         서식은 목록 보기에 즉시 적용됩니다.
+         **셀 서식 지정** 아이콘 옆에 특수 서식이 적용되었음을 나타내는 파란색 점이 있습니다.
 
    1. (선택 사항) 목록의 항목을 공통 필드로 그룹화하려면 **그룹화** 아이콘 ![그룹화 아이콘](assets/grouping-icon.png)을 클릭합니다. 옵션 중 하나를 선택하거나 검색 창을 사용하여 필드를 찾습니다.
 
@@ -254,9 +255,9 @@ Removed - more direct steps below:
 
 1. (조건부) 선택 유형 필드의 경우 키보드 화살표를 사용하여 옵션 목록을 탐색한 다음 스페이스바를 눌러 올바른 선택을 선택합니다.
 
-   <span class="preview">필드 형식 선택에서 **검색** 줄을 사용하여 올바른 옵션을 찾습니다.</span>
+   필드 형식 선택에서 **검색** 줄을 사용하여 올바른 옵션을 찾으십시오.
 
-   <span class="preview">결과가 없을 경우 필드 셀에서 직접 새 옵션을 추가할 수 있습니다. 이 기능은 일부 목록에서 사용할 수 없습니다.</span>
+   결과가 없을 때 필드 셀에서 직접 새 옵션을 추가할 수 있습니다. 이 기능은 일부 목록에서는 사용할 수 없습니다.
 
 1. 마우스로 목록의 항목 이름을 가리키고 **추가** 메뉴 [추가 메뉴](assets/more-menu.png)를 클릭한 다음 **보기**&#x200B;를 클릭하여 다른 탭에서 항목을 엽니다
 

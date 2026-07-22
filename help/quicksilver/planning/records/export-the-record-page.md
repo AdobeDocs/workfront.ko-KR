@@ -9,30 +9,26 @@ exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6mGLH9rvSZu9TEoVyuYHyrqPNr78Rruy97jxvayl1nc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: 362
 ht-degree: 1%
 
 ---
 
 # 레코드의 세부 사항 내보내기
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
-
-Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로 공동 작업하려면 레코드의 세부 사항 페이지를 Microsoft Word 파일로 내보내 공유할 수 있습니다.
+To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details page to a Microsoft Word file and share it with them. 
+-->
 
 ## 액세스 요구 사항
 
@@ -60,7 +56,7 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역, 레코드 종류 및 <span class="preview">레코드</span>에 대한 이상의 사용 권한 보기 </p>  
+   <td>   <p>작업 공간, 레코드 유형 및 레코드에 대한 보기 이상의 권한</p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> </td> 
   </tr> 
   </tr>
@@ -139,8 +135,8 @@ Old:
 
 * 레코드의 세부 사항을 다음 파일 형식으로 내보낼 수 있습니다.
 
-   * .docx Word
-   * .pdf
+  * .docx Word
+  * .pdf
 
 * 레코드 페이지 또는 미리 보기 영역의 세부 정보 탭만 내보낼 수 있습니다.
 

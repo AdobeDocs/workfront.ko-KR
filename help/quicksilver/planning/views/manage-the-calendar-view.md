@@ -9,17 +9,12 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r5i-iqQjF2cQtru6qxEAkrP6xkHGcAp7D8EYRav-7ls
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 5%
@@ -439,6 +434,10 @@ Old:
    * **레코드 종류**: 일정에서 레코드 막대의 색이 선택한 레코드 종류의 색과 일치합니다. 기본 옵션입니다.
    * **필드 값**: 레코드 색이 지정한 필드 색과 일치합니다.
    * **없음**: 레코드가 흰색 막대에 표시됩니다.
+
+   <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
 
 1. (조건부) 레코드 색으로 **필드 값**&#x200B;을(를) 선택한 경우 **레코드 색과 일치** 드롭다운 메뉴에서 필드를 선택합니다.
 
