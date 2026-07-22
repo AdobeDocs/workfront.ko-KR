@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 5%
@@ -157,9 +157,9 @@ Old:
   레코드 날짜 필드에서 선택하거나 연결된 레코드 또는 개체 유형에서 날짜 필드를 조회할 수 있습니다.
 * 다음과 같은 시나리오가 있습니다.
 
-   * 시작 날짜와 종료 날짜에 값이 없으면 레코드가 달력에 표시되지 않습니다
-   * 시작 또는 종료 날짜에 값이 없으면 레코드가 1일 이벤트로 표시됩니다
-   * 시작 날짜가 종료 날짜 이후인 경우 기록이 캘린더에 표시되지 않습니다.
+  * 시작 날짜와 종료 날짜에 값이 없으면 레코드가 달력에 표시되지 않습니다
+  * 시작 또는 종료 날짜에 값이 없으면 레코드가 1일 이벤트로 표시됩니다
+  * 시작 날짜가 종료 날짜 이후인 경우 기록이 캘린더에 표시되지 않습니다.
 
 달력 보기를 관리하려면:
 
@@ -176,12 +176,12 @@ Old:
    * 캘린더를 오늘 날짜로 맞추려면 오른쪽 상단의 **오늘**&#x200B;을 클릭하세요.
    * 시간 증가를 업데이트하려면 시간대 드롭다운 메뉴에서 다음 옵션 중 하나를 선택합니다.
 
-      * **월**: 월별 달력에 레코드가 표시됩니다.
+     * **월**: 월별 달력에 레코드가 표시됩니다.
 
-      * **주**: 다음 영역에 레코드가 표시됩니다.
+     * **주**: 다음 영역에 레코드가 표시됩니다.
 
-         * 여러 날에 걸친 레코드가 달력 맨 위에 표시됩니다.
-         * 하루나 그 이하로 지속되는 레코드는 달력 보기의 하반기에 표시됩니다. 시작 및 종료 일자의 시간을 표시하도록 선택한 경우 레코드가 발생한 날짜 내의 적절한 시간에 표시됩니다.
+       * 여러 날에 걸친 레코드가 달력 맨 위에 표시됩니다.
+       * 하루나 그 이하로 지속되는 레코드는 달력 보기의 하반기에 표시됩니다. 시작 및 종료 일자의 시간을 표시하도록 선택한 경우 레코드가 발생한 날짜 내의 적절한 시간에 표시됩니다.
 
 1. (선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면으로 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 사용하여 전체 화면을 종료합니다.
 
@@ -449,6 +449,15 @@ Old:
    예를 들어 다중 선택 또는 단일 선택 필드에는 색상으로 구분된 옵션이 있을 수 있습니다.
 
    선택한 레코드 유형에 대해 색상으로 구분된 옵션이 있는 필드가 없는 경우 이 옵션은 흐리게 표시됩니다.
+
+   <!--
+        For July 23: add this note after the last sentence here
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
 
 1. **저장**&#x200B;을 클릭합니다.

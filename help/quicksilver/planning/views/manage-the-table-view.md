@@ -19,19 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
+source-git-commit: ce4f0de26be9a0b239c2464c97a3b47038be9108
 workflow-type: tm+mt
-source-wordcount: 6353
-ht-degree: 1%
+source-wordcount: 3684
+ht-degree: 2%
 
 ---
 
 # 표 보기 관리
 
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -157,472 +158,6 @@ Old:
 표 보기에서 레코드를 편집하는 방법에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하십시오.
 
 ## 표 보기 관리 {#manage-a-table-view}
-
-<span class="preview">테이블 보기를 관리하는 방법은 액세스하는 환경에 따라 다릅니다. </span>
-
-## 프로덕션 환경에서 표 보기 관리
-
-테이블 뷰를 만들 때 선택한 유형의 모든 레코드가 테이블에 표시됩니다. 각 행은 고유한 레코드이며 각 열은 레코드 필드입니다. 기본적으로 모든 필드와 모든 레코드가 표시됩니다.
-
-테이블 뷰를 관리하려면 다음을 수행합니다.
-
-1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 테이블 보기를 만듭니다.
-
-   ![테이블 보기 예제](assets/table-view-example.png)
-
-1. (선택 사항) **행 높이**&#x200B;를 클릭한 후 다음 옵션 중에서 선택하여 테이블 행의 높이를 수정합니다.
-   * 짧음
-   * 표준
-   * 보통
-   * 높음
-
-1. (선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면으로 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 사용하여 전체 화면을 종료합니다.
-
-1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
-   * [열(또는 필드)](#add-columns-or-fields)
-   * [행(또는 레코드)](#add-rows-or-records)
-   * [필터](#add-filters)
-   * [정렬](#add-a-sort)
-   * [그룹화](#add-groupings)
-   * [행 색상](#add-row-colors)
-   * [실시간 존재 표시기](#enable-the-real-time-presence-indicator)
-
-
-### 열(또는 필드) 추가 {#add-columns}
-
-테이블 보기의 열 머리글에는 보기의 레코드와 관련된 필드가 표시됩니다. 표 보기에 표시되는 필드는 레코드의 세부 정보 섹션에도 표시됩니다.
-
-자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
-
-<!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
-
-보기에 열을 추가하는 것은 레코드 유형에 필드를 추가하는 것과 같습니다.
-
-테이블 보기에서 최대 500개의 필드(또는 열)를 추가할 수 있습니다.
-
-1. 레코드 유형 페이지로 이동하여 테이블 보기 탭을 클릭하거나 **+ 보기**&#x200B;를 클릭하여 새 보기를 추가한 다음 **테이블**&#x200B;을 선택합니다.
-
-1. [필드 만들기](/help/quicksilver/planning/fields/create-fields.md) 문서에 설명된 대로 필드(또는 열)를 추가하기 시작합니다.
-
-   추가하는 열은 레코드 유형에 액세스하고 레코드 페이지에서 새 필드로 추가되는 모든 사용자에게 표시됩니다.
-
-1. (선택 사항) 도구 모음에서 **필드** 아이콘 ![필드 아이콘](assets/fields-icon.png)을 클릭하고 필드를 검색한 다음 필드 이름의 오른쪽에 있는 토글을 선택 취소하여 필드를 숨깁니다.
-
-1. 다음 중 하나를 수행하여 테이블의 열 순서를 변경합니다.
-
-   * 열 머리글을 잡고 원하는 위치에 끌어서 놓습니다. 테이블을 다시 조정할 때까지 이동한 열이 파란색 배경에 잠시 표시됩니다.
-
-   * 표의 도구 모음에서 **필드**&#x200B;를 클릭한 다음 원하는 순서로 필드를 끌어다 놓은 다음 **필드 표시 및 순서** 상자 외부를 클릭하여 닫습니다.
-
-     ![필드 설정 테이블 보기 도구 모음 확장](assets/fields-setting-table-view-toolbar-expanded.png)
-
-     >[!TIP]
-     >
-     >* 이름 필드는 기본적으로 항상 테이블 보기의 첫 번째 필드입니다. 이는 기본 필드로 간주됩니다.
-     >
-     >* 다른 필드를 기본 필드로 지정하지 않는 한 이름 필드를 다른 위치로 이동할 수 없습니다. 자세한 내용을 보려면 4단계를 계속하십시오. <!--accurate?-->
-     >
-     >
-
-   * 기본 필드를 변경하여 첫 번째 열의 필드를 다른 필드로 바꿉니다. 자세한 내용은 4단계를 계속하십시오. <!--accurate?-->
-
-1. (선택 사항) 테이블의 첫 번째 열에 표시되지 않는 필드의 열 머리글에 있는 필드 이름을 마우스로 가리키고 필드 이름의 오른쪽에 있는 아래쪽 화살표를 클릭한 다음 **기본 필드로 설정**&#x200B;을 클릭합니다.
-
-   ![테이블 보기에서 기본 필드 옵션으로 설정](assets/set-as-primary-field-option-table-view.png)
-
-1. 확인하려면 **필드 설정**&#x200B;을 클릭하세요.
-
-   필드는 기본 필드가 되어 테이블 보기의 첫 번째 열로 표시됩니다. 이전 기본 필드가 두 번째 열로 이동합니다.
-
-   기본 필드는 레코드의 제목이 되어 레코드 페이지의 헤더 영역에 표시되고 레코드가 표시되는 모든 곳에 표시됩니다. 예를 들어 레코드 제목은 연결된 필드 및 모든 보기에 표시됩니다. 기본 필드에 대한 자세한 내용은 [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md)를 참조하십시오.
-
-1. 열 구분선을 클릭하고 드래그하여 원하는 위치에 놓아 열의 너비를 늘립니다.
-
-   >[!TIP]
-   >
-   >열 너비 및 순서에 대한 변경 사항은 영구적이며 레코드 유형에 액세스하는 모든 사용자에게 표시됩니다.
-
-1. 열 머리글 위로 마우스를 가져간 다음 아래쪽을 가리키는 화살표를 클릭한 다음 **필드 숨기기**&#x200B;를 클릭합니다
-
-   또는
-
-   표 도구 모음에서 **필드**&#x200B;를 클릭하고 숨길 필드와 연결된 토글을 비활성화합니다. **필드 표시 및 순서** 상자가 표시됩니다.
-
-   >[!TIP]
-   >
-   >도구 모음의 필드 아이콘 왼쪽에 숨겨진 필드 수가 표시됩니다.
-   >
-   >기본적으로 숨겨진 필드는 레코드의 **세부 정보** 미리 보기 상자에 표시되지 않습니다. 모든 필드가 레코드의 세부 정보 페이지에 표시됩니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
-
-
-1. **필드** 아이콘을 클릭하고 테이블의 열에 표시할 필드와 관련된 토글을 활성화합니다. 기본적으로 모든 필드가 표시됩니다.
-
-1. 키워드와 일치하는 레코드를 빠르게 찾으려면 다음을 수행하십시오.
-
-   1. **검색** 상자에서 ![검색 아이콘](assets/search-icon.png)을 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 항목 수가 표시되고 올바른 일치 항목이 있는 필드가 강조 표시됩니다.
-
-      ![테이블 보기에서 결과가 파란색으로 표시된 검색 상자](assets/search-box-with-results-blue-outline-table-view.png)
-
-      화면에 표시되는 모든 단어 또는 특수 문자를 사용할 수 있습니다.
-
-      테이블 보기에서 숨겨진 필드와 연결된 키워드는 사용할 수 없습니다.
-
-   1. 키보드에서 **Enter**&#x200B;를 눌러 다음 찾은 필드로 이동합니다.
-
-   1. (선택 사항) 일치 항목이 두 개 이상 있는 경우 검색 키워드 오른쪽에 있는 위쪽 및 아래쪽 화살표를 클릭하여 테이블에서 모든 일치 항목을 찾습니다.
-
-   1. 검색 키워드를 지우려면 검색 상자에서 **x** 아이콘을 클릭합니다.
-
-
-### 행(또는 레코드) 추가 {#add-rows}
-
-테이블 뷰의 행에는 선택한 레코드 유형의 개별 레코드가 표시됩니다.
-
-에 대해 최대 50,000개의 레코드(또는 행)를 가질 수 있습니다.
-
-1. 레코드 유형 페이지로 이동하여 테이블 보기 탭을 클릭하거나 **+ 보기**&#x200B;를 클릭하여 새 보기를 추가한 다음 **테이블**&#x200B;을 선택합니다.
-
-1. [레코드 만들기](/help/quicksilver/planning/records/create-records.md) 문서에 설명된 대로 레코드(또는 행)를 추가하기 시작합니다.
-
-   테이블 보기에서 추가하는 레코드는 즉시 저장되며 작업 공간에 대한 보기 이상의 권한이 있는 모든 사용자에게 표시됩니다.
-
-   썸네일 이미지가 레코드에도 추가됩니다.
-
-1. (선택 사항) 레코드 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **축소판 편집**&#x200B;을 클릭하여 새 레코드에 새 축소판을 추가합니다.
-
-1. 표 상단의 **필드**&#x200B;를 클릭한 다음 **썸네일** 필드에 대한 전환을 선택하여 기본 필드의 왼쪽에 표시합니다.
-
-   자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
-
-1. (선택 사항) 한 행에서 하나 이상의 레코드를 선택한 다음 레코드 왼쪽에 **handle** 아이콘 ![Handle 아이콘](assets/handle-icon.png)을(를) 끌어다 놓아 행 순서를 변경합니다.
-
-   >[!NOTE]
-   >
-   >테이블 뷰에 정렬을 하나 이상 적용하면 행 순서를 재정렬할 수 없습니다.
-   >
-   >행 순서에 대한 변경 내용은 레코드 유형에 액세스하는 모든 사용자에게 표시됩니다
-
-<!-- this section below links from the timeline view; consider splitting them if they become different-->
-
-### 필터 추가 {#add-filters}
-
-필터는 화면에 표시되는 정보의 양을 줄이는 데 도움이 됩니다.
-
-표 보기에서 필터를 사용하여 작업할 때는 다음 사항을 고려하십시오.
-
-<!-- this list is almost identical to the one for the table view - update both-->
-
-* 테이블 보기에 대해 만든 필터는 동일한 레코드 유형에 적용될 때 타임라인 보기의 필터와는 독립적으로 작동합니다.
-
-* 필터는 사용자가 선택한 보기에 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 필터가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 필터가 표시됩니다.
-
-* 테이블 보기에 빌드하고 적용하는 필터의 이름을 지정할 수 없습니다.
-
-* 필터를 제거하면 사용자와 동일한 레코드 유형에 액세스하는 모든 사람에서 필터가 제거되며 사용하는 것과 동일한 보기를 사용합니다.
-
-* 연결된 레코드 필드 또는 조회 필드를 기준으로 필터링할 수 있습니다.
-
-* 여러 값을 표시하는 조회 필드를 기준으로 필터링할 수 있습니다.
-
-* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어 활동 레코드 유형에 대한 필터를 만드는 경우 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우 활동 레코드 유형에 대해 만들고 있는 필터에서 프로젝트의 예산을 참조할 수 있습니다.
-
-테이블 보기에 필터를 추가하려면 다음 작업을 수행하십시오.
-
-1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형 페이지에 대한 테이블 보기를 만듭니다.
-1. 표 보기를 선택한 다음 표의 오른쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다.
-1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
-
-   * 필드를 검색하고 목록에 표시될 때 선택합니다.
-
-   * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
-
-     아래 표에는 각 필드 유형에 사용할 수 있는 수정자가 표시됩니다.
-
-     <table>
-        <thead>
-        <tr>
-            <th><b>필드 유형</b></th>
-            <th><b>수정자</b></th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>한 줄, 단락, 공식 </td>
-            <td><p>다음 포함</p>
-            <p>다음을 포함하지 않음</p>
-            <p>다음과 같음</p>
-            <p>다음이 아님</p>
-            <p>비어 있음</p>
-            <p>비어 있지 않음</p></td>
-        </tr>
-        <tr><td>단일 선택</td>
-            <td><p>다음과 같음</p>
-            <p>다음이 아님</p>
-            <p>다음 중 하나</p>
-            <p>다음에 해당하지 않음</p>
-            <p>비어 있음</p>
-            <p>비어 있지 않음</p></td>
-        </tr>
-        <tr>
-            <td>다중 선택, 사람</td>
-            <td><p>다음 중 하나 포함</p>
-            <p>다음을 모두 포함</p>
-            <p>다음이 정확함</p>
-            <p>다음 중 어느 것도 포함하지 않음</p>
-            <p>비어 있음</p>
-            <p>비어 있지 않음</p></td>
-        </tr>
-        <tr>
-            <td>숫자, 백분율, 통화</td>
-            <td><p>=</p>
-            <p>≠</p>
-            <p> &lt; </p>
-            <p>&gt;</p>
-            <p>≤</p>
-            <p>≥</p>
-            <p>비어 있음</p>
-            <p>비어 있지 않음</p></td>
-        </tr>
-        <tr>
-            <td>일자</td>
-            <td><p>다음과 같음</p>
-            <p>다음이 아님</p>
-            <p>다음 이후</p>
-            <p>다음 이전</p>
-            <p>다음 사이에 있음</p><p>다음 사이에 없음</p>
-            <p>비어 있음</p><p>비어 있지 않음</p></td>
-        </tr>
-
-     <tr>
-            <td>확인란</td>
-            <td><p>다음과 같음</p>
-        </tr>
-        </tbody>
-        </table>
-
-   * 선택한 필드의 값을 선택합니다.
-
-   ![UI 테이블 보기 필터링](assets/filter-ui-table-view.png)
-
-   추가할 수 있는 필터링 조건 수에는 제한이 없습니다.
-
-1. (선택 사항) 다른 필터링 옵션을 추가하고 위의 단계를 반복하려면 **조건 추가**&#x200B;를 클릭하십시오. 적용된 필터 수는 필터 아이콘 왼쪽에 표시됩니다.
-1. 다음 연산자를 클릭하여 필터 조건이 조인되고 적용되어야 하는 방식을 나타냅니다.
-
-   * **AND**: 지정한 조건을 모두 충족해야 합니다.
-   * **OR**: 지정한 조건을 모두 충족해야 합니다. 기본 옵션입니다.
-
-   1. (선택 사항) 여러 조건 그룹화 사이에 **AND** 또는 **OR** 연산자를 더 추가합니다.
-
-      ![보기의 다중 계층 필터](assets/multi-tiered-filters-in-views.png)
-
-   레코드 목록은 자동으로 필터링됩니다.  <!--at this time, you can't name and save the filter - but will this change?!-->
-   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
-
-1. (선택 사항) 필터 조건을 제거하려면 **x** 아이콘을 클릭하십시오.
-1. (선택 사항) 필터 상자를 닫으려면 **필터**&#x200B;를 클릭합니다. <!--right now you cannot "clear all" for filters, but this might come later-->
-
-### 정렬 추가 {#sort-information}
-
-정렬을 적용하여 주어진 순서로 정보를 구성할 수 있습니다.
-
-다음 정보를 정렬할 수 있습니다.
-
-* 테이블 보기의 모든 레코드. <!--or timeline view. ***********verify this is the case for the timeline view*********************-->
-  <!--* All groupings. - this is not available yet-->
-
-표 보기에서 레코드를 정렬할 때는 다음 사항을 고려하십시오.
-
-<!-- if this is available for the timeline view, update both when you update one-->
-
-* 정렬은 선택하는 보기에 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 정렬 기준이 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 정렬이 표시됩니다.
-
-* 작성하여 테이블 보기에 적용하는 정렬 이름은 지정할 수 없습니다.
-
-* 정렬은 이동할 때 유지됩니다.
-
-* 레코드 유형의 테이블 보기에 표시되는 수만큼 필드를 정렬할 수 있습니다.
-
-* 연결된 레코드 필드별로 정렬할 수는 없지만 연결된 레코드 유형에서 조회 필드별로 정렬할 수는 있습니다.
-
-* 집계기에 의해 요약되지 않은 여러 값이 있는 조회 필드를 기준으로 정렬하면 첫 번째 값이 정렬에 사용됩니다.
-
-* 정렬 기준을 제거하면 사용자와 동일한 레코드 유형에 액세스하는 모든 사람에서 정렬 기준이 제거되며 사용하는 것과 동일한 보기를 사용합니다.
-
-* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어 활동 레코드 유형에 대한 정렬을 생성하고 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우 활동 레코드 유형에 대해 생성 중인 정렬에서 프로젝트의 상태를 참조할 수 있습니다.
-
-<!--ungrouped (add this when sorting for groupings will be available-->개의 레코드를 정렬하려면 다음을 수행하십시오.
-
-1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 테이블 보기를 만듭니다.
-1. 표의 오른쪽 위 모서리에 있는 **정렬** 아이콘 ![정렬 아이콘](assets/sort-icon.png)을 클릭합니다
-
-   또는
-
-   테이블 보기의 열 이름 위에 마우스를 놓고 열 머리글 이름 오른쪽에 있는 아래쪽 화살표를 클릭한 다음 **이 필드별로 정렬**&#x200B;을 클릭합니다. 필드는 표 보기의 오른쪽 위 모서리에 있는 정렬 아이콘에서 정렬 선택 항목으로 추가됩니다.
-
-1. (조건부) **레코드 정렬 기준** 상자에서 제안된 필드 중 하나를 클릭하거나 **다른 필드를 선택하고**&#x200B;다른 필드를 검색하여 찾은 다음 목록에 표시될 때 클릭합니다.
-
-   정렬은 테이블 보기에 자동으로 적용되며 선택한 기준에 따라 정렬된 레코드가 표시됩니다.
-
-   <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
-
-1. (선택 사항) **조건 추가**&#x200B;를 클릭하고 위의 단계를 반복하여 추가 필드를 기준으로 정렬합니다.
-
-   정렬하려는 필드 수는 도구 모음의 오른쪽 위 모서리에 있는 정렬 아이콘 왼쪽에 표시됩니다. 테이블 뷰의 열에 표시되는 필드만 선택할 수 있습니다.
-
-1. (선택 사항) **레코드 정렬 기준** 상자에서 정렬 필드 오른쪽의 **x** 아이콘을 클릭하여 정렬을 제거합니다
-
-   또는
-
-   정렬에서 모든 필드를 제거하려면 **모두 지우기**&#x200B;를 클릭하십시오.
-
-1. 닫으려면 **레코드 정렬 기준** 상자 외부를 클릭합니다.
-
-   ![표 보기에서 정렬](assets/sorting-in-table-view.png)
-
-   표에 표시된 정보는 선택한 기준에 따라 정렬됩니다.
-
-   정렬하기 위해 선택한 필드에는 정렬 아이콘이 표시되고 그 뒤에 정렬이 적용되는 순서를 나타내는 숫자가 표시됩니다.
-
-### 그룹화 추가 {#add-groupings}
-
-<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
-
-보기에 그룹화를 적용할 때 유사한 정보별로 레코드를 그룹화할 수 있습니다.
-
-다음 사항을 고려하십시오.
-
-* 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
-* 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
-&lt;!—* API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —현재 이 그룹화를 확인—>
-* 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
-* 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
-* 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
-* 그룹화 아래에 나열된 레코드를 편집할 수 있습니다.
-* 연결된 레코드 필드 또는 조회 필드를 기준으로 그룹화할 수 있습니다.
-* 집계자가 요약하지 않은 여러 값이 있는 조회 필드를 기준으로 그룹화하면, 레코드는 각 필드 값의 고유한 조합으로 그룹화됩니다.
-* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형에 대한 그룹화를 만드는 중에 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우, 활동 레코드 유형에 대해 만들고 있는 그룹화에서 프로젝트의 상태를 참조할 수 있습니다.
-* 그룹화는 값의 알파벳 순서로 나열됩니다.
-<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
-<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
-
-그룹화를 추가하려면:
-
-1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
-1. 테이블 보기의 오른쪽 위 모서리에서 **그룹화**&#x200B;을 클릭합니다.
-
-   ![연결된 필드가 있는 그룹화 UI 테이블 보기](assets/grouping-ui-table-view-with-linked-fields.png)
-
-1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;을 클릭하고 다른 필드를 검색한 다음 목록에 표시될 때 해당 필드를 클릭합니다.
-
-   그룹화가 테이블에 자동으로 적용되며 그룹화 구분선 아래에 레코드가 표시됩니다.
-
-1. (선택 사항) **조건 추가**&#x200B;를 클릭하고 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
-
-   그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
-
-   ![테이블 보기에 적용된 그룹화](assets/grouping-applied-in-table-view.png)
-
-1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다.
-
-1. **레코드 그룹화 기준** 상자 바깥쪽을 클릭하여 닫습니다.
-1. (선택 사항) 그룹화 끝에 있는 **+ 새 레코드**&#x200B;을 클릭하여 새 레코드를 추가한 다음 페이지를 새로 고쳐 새 레코드를 적절한 그룹화에 추가합니다. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
-
-1. 그룹화를 확장하거나 축소하려면 다음 중 하나를 수행합니다.
-
-   1. **그룹화** 아이콘을 클릭한 다음 **모두 확장** 또는 **모두 축소**&#x200B;을 클릭합니다. 이렇게 하면 테이블 보기의 모든 그룹화 및 하위 그룹화가 확장됩니다.
-
-      ![그룹화 상자 테이블 보기의 모든 단추 확장 및 축소](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
-
-   1. 테이블 보기에서 그룹화 헤더를 마우스 오른쪽 단추로 클릭한 후 다음 옵션 중 하나를 클릭합니다.
-      * **그룹 확장**
-      * **그룹 축소**
-      * **모두 확장**
-      * **모두 축소**
-      * **하위 그룹 확장**
-      * **하위 그룹 축소**
-
-      보기에 적용되는 그룹화 수에 따라 일부 옵션을 사용할 수 없습니다.
-
-<!--
- this is not available yet: 
-
-To sort grouped records: 
-
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. ************************* add steps here for sorting grouped records****************
-
--->
-
-### 행 색상 추가
-
-1. (선택 사항) **행 색**&#x200B;을 클릭하여 조건을 정의하고 표 행에 다른 색 구성을 선택합니다.
-
-1. **색상 추가**&#x200B;를 클릭한 다음 필드를 검색하여 목록에 표시되면 선택합니다. 이것은 행의 색상을 결정할 값이 있는 필드입니다.
-
-   예를 들어 상태가 활성인 캠페인을 녹색으로 표시하려면 **상태**&#x200B;를 선택한 다음 필드에 대한 수정자와 값을 선택합니다.
-
-   ![활성 상태 및 기본 색상 선택을 가진 행 색상 상자](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
-1. 선택한 조건의 왼쪽 위 모서리에 있는 색상 피커에 대한 드롭다운 메뉴를 클릭하여 조건에 대한 색상을 선택한 다음 색상 피커 상자 외부를 클릭하여 닫습니다.
-
-   ![행 색 상자의 드롭다운 색 선택 메뉴 강조 표시](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
-
-1. (선택 사항) **조건 추가**&#x200B;를 클릭하여 첫 번째 조건 집합에 더 많은 필드와 값을 추가합니다
-
-   또는
-
-   새 조건 집합을 추가하고 새 색을 식별하려면 **색 추가**&#x200B;를 클릭하세요.
-
-   예를 들어 새 조건 세트를 정의하여 캠페인을 계획 상태에서 노란색으로 표시할 수 있습니다.
-
-   ![활성 및 계획 상태 사용자 정의 색상이 있는 행 색 상자](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
-
-1. (선택 사항) [행 색상] 상자의 오른쪽 위 모서리에 있는 **전체 행에 적용** 설정을 켭니다. 조건이 충족되는 전체 행이 선택한 색상으로 자동으로 표시됩니다.
-
-   >[!NOTE]
-   >
-   >* 전체 행에 적용 설정이 해제되어 있으면 기본 필드의 왼쪽에만 선택한 색상으로 좁은 색상 표시기가 표시됩니다. 이 설정은 기본적으로 꺼져 있습니다.
-   >
-   >* 테이블 보기에서 하나 이상의 그룹화를 선택한 경우 전체 행에 행 색상을 적용할 수 없습니다. 역할 색상은 표에 그룹화를 적용할 때 기본 필드 셀의 왼쪽에만 적용됩니다.
-
-1. **행 색** 상자 바깥쪽을 클릭하여 닫습니다. 색상이 자동으로 적용됩니다.
-
-### 실시간 현재 상태 표시기 활성화
-
-기본적으로 모든 레코드 보기의 오른쪽 위 모서리에 표시함과 동시에 레코드 정보를 편집하는 다른 사용자의 아바타입니다.
-
-표 보기를 표시할 때 레코드를 볼 때 다른 사용자가 편집하고 있는 필드를 볼 수도 있습니다.
-
-1. 레코드 유형 페이지로 이동하여 보기를 엽니다.
-1. (조건부) 선택한 유형의 레코드를 편집하는 다른 사용자가 동시에 있는 경우, 해당 아바타가 보기의 오른쪽 상단에 표시됩니다.
-1. 아바타 옆에 있는 드롭다운 메뉴를 클릭하여 **공동 작업자 표시** 설정을 켭니다. 이 설정은 기본적으로 켜져 있습니다.
-
-   ![공동 작업자 표시 전환](assets/show-collaborators-toggle-selected.png)
-
-   >[!TIP]
-   >
-   >모든 보기에서 **공동 작업자 표시** 전환을 선택할 수 있습니다. 현재 다른 사용자가 편집한 필드는 테이블 보기에서만 윤곽선이 표시됩니다.
-
-1. (조건부) 표 보기를 열면 다른 사람이 활발하게 편집하고 있는 필드가 표 보기에서 아바타의 윤곽에 해당하는 색으로 강조 표시됩니다.
-
-   아바타의 강조 색상이 회색이면 사용자는 30초 이상 전에 레코드 편집을 중지했습니다.
-
-   ![실시간 지표 테이블 필드 및 아바타 연결](assets/real-time-indicator-table-field-and-avatar-connection.png)
-
-   <!--maybe include a screen shot after release if they update the UI text in this list of users-->
-
-1. (선택 사항) 다른 사용자가 편집한 필드가 포함된 셀의 오른쪽 위 모서리에 있는 삼각형을 클릭합니다. 현재 필드를 편집하고 있는 사용자 목록이 표시됩니다.
-
->[!TIP]
->
->실시간 현재 상태 표시기에는 Workfront Planning의 아무 곳에서나 현재 필드를 편집하고 있는 사용자가 표시됩니다. 여기에는 레코드의 테이블 보기 또는 세부 정보 영역이 포함됩니다.
-
-
-
-<div class="preview">
-
-## 미리보기 환경에서 테이블 보기 관리
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
@@ -762,7 +297,7 @@ To sort grouped records:
 
 ### 행(또는 레코드) 추가 {#add-rows-1}
 
-테이블 뷰의 행에는 선택한 레코드 유형의 개별 레코드가 표시됩니다.
+테이블 뷰의 행에는 선택한 레코드 유형의 개별 레코드가 표시됩니다. 행을 추가하는 것은 레코드를 만드는 것과 같습니다.
 
 레코드 유형에 대해 최대 50,000개의 레코드(또는 행)를 가질 수 있습니다.
 
@@ -780,27 +315,133 @@ To sort grouped records:
    자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
 
 <!--
-******************** NOT POSSIBLE NOW **********
-
-1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
-
-    >[!NOTE]
-    >
-    >You cannot reorder rows if you apply at least one sort to the table view. 
-    >
-    >The changes you make to the row order are visible to all users who access the record type
-
-
-******************** NOT POSSIBLE ABOVE **************
+For July 23: you might need to add some spacing below:
+1. <span class="preview">(Optional) Click **Fields** at the top of the table, then click **Color** to display the color of a record to the left of its primary field. Colors are assigned randomly by default for each new record. The **Color** setting is deselected by default.</span>
+1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
+    <span class="preview">
+    ![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
+    </span>
 -->
 
 ### 필터 추가 {#add-filters-1}
 
 필터는 화면에 표시되는 정보의 양을 줄이는 데 도움이 됩니다.
 
-미리보기 환경의 테이블 보기에서 필터를 추가하는 것은 프로덕션 환경에서 필터를 추가하는 것과 동일합니다.
+필터는 화면에 표시되는 정보의 양을 줄이는 데 도움이 됩니다.
 
-자세한 내용은 이 문서의 [필터 추가](#add-filters) 섹션을 참조하십시오.
+표 보기에서 필터를 사용하여 작업할 때는 다음 사항을 고려하십시오.
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* 테이블 보기에 대해 만든 필터는 동일한 레코드 유형에 적용될 때 타임라인 보기의 필터와는 독립적으로 작동합니다.
+
+* 필터는 사용자가 선택한 보기에 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 필터가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 필터가 표시됩니다.
+
+* 테이블 보기에 빌드하고 적용하는 필터의 이름을 지정할 수 없습니다.
+
+* 필터를 제거하면 사용자와 동일한 레코드 유형에 액세스하는 모든 사람에서 필터가 제거되며 사용하는 것과 동일한 보기를 사용합니다.
+
+* 연결된 레코드 필드 또는 조회 필드를 기준으로 필터링할 수 있습니다.
+
+* 여러 값을 표시하는 조회 필드를 기준으로 필터링할 수 있습니다.
+
+* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어 활동 레코드 유형에 대한 필터를 만드는 경우 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우 활동 레코드 유형에 대해 만들고 있는 필터에서 프로젝트의 예산을 참조할 수 있습니다.
+
+테이블 보기에 필터를 추가하려면 다음 작업을 수행하십시오.
+
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형 페이지에 대한 테이블 보기를 만듭니다.
+1. 표 보기를 선택한 다음 표의 오른쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다.
+1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
+
+   * 필드를 검색하고 목록에 표시될 때 선택합니다.
+
+   * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
+
+     아래 표에는 각 필드 유형에 사용할 수 있는 수정자가 표시됩니다.
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>필드 유형</b></th>
+            <th><b>수정자</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>한 줄, 단락, 공식 </td>
+            <td><p>다음 포함</p>
+            <p>다음을 포함하지 않음</p>
+            <p>다음과 같음</p>
+            <p>다음이 아님</p>
+            <p>비어 있음</p>
+            <p>비어 있지 않음</p></td>
+        </tr>
+        <tr><td>단일 선택</td>
+            <td><p>다음과 같음</p>
+            <p>다음이 아님</p>
+            <p>다음 중 하나</p>
+            <p>다음에 해당하지 않음</p>
+            <p>비어 있음</p>
+            <p>비어 있지 않음</p></td>
+        </tr>
+        <tr>
+            <td>다중 선택, 사람</td>
+            <td><p>다음 중 하나 포함</p>
+            <p>다음을 모두 포함</p>
+            <p>다음이 정확함</p>
+            <p>다음 중 어느 것도 포함하지 않음</p>
+            <p>비어 있음</p>
+            <p>비어 있지 않음</p></td>
+        </tr>
+        <tr>
+            <td>숫자, 백분율, 통화</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>비어 있음</p>
+            <p>비어 있지 않음</p></td>
+        </tr>
+        <tr>
+            <td>일자</td>
+            <td><p>다음과 같음</p>
+            <p>다음이 아님</p>
+            <p>다음 이후</p>
+            <p>다음 이전</p>
+            <p>다음 사이에 있음</p><p>다음 사이에 없음</p>
+            <p>비어 있음</p><p>비어 있지 않음</p></td>
+        </tr>
+
+     <tr>
+            <td>확인란</td>
+            <td><p>다음과 같음</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * 선택한 필드의 값을 선택합니다.
+
+   ![UI 테이블 보기 필터링](assets/filter-ui-table-view.png)
+
+   추가할 수 있는 필터링 조건 수에는 제한이 없습니다.
+
+1. (선택 사항) 다른 필터링 옵션을 추가하고 위의 단계를 반복하려면 **조건 추가**&#x200B;를 클릭하십시오. 적용된 필터 수는 필터 아이콘 왼쪽에 표시됩니다.
+1. 다음 연산자를 클릭하여 필터 조건이 조인되고 적용되어야 하는 방식을 나타냅니다.
+
+   * **AND**: 지정한 조건을 모두 충족해야 합니다.
+   * **OR**: 지정한 조건을 모두 충족해야 합니다. 기본 옵션입니다.
+
+   1. (선택 사항) 여러 조건 그룹화 사이에 **AND** 또는 **OR** 연산자를 더 추가합니다.
+
+      ![보기의 다중 계층 필터](assets/multi-tiered-filters-in-views.png)
+
+   레코드 목록은 자동으로 필터링됩니다.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (선택 사항) 필터 조건을 제거하려면 **x** 아이콘을 클릭하십시오.
+1. (선택 사항) 필터 상자를 닫으려면 **필터**&#x200B;를 클릭합니다. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
 <!--***************** at production, paste here the information from the Production section above *******************-->
@@ -854,17 +495,17 @@ To sort grouped records:
    다음 선택 사항 중 하나를 선택합니다.
 
    * 날짜 필드:
-      * 가장 이른 날짜에서 가장 늦은 날짜
-      * 가장 최근에서 가장 이른 시간
+     * 가장 이른 날짜에서 가장 늦은 날짜
+     * 가장 최근에서 가장 이른 시간
    * 텍스트, 단락, 필드 선택, 사람, 레코드 ID:
-      * 알파벳 A에서 Z로
-      * 알파벳 Z에서 A로 바꾸기
+     * 알파벳 A에서 Z로
+     * 알파벳 Z에서 A로 바꾸기
    * 숫자, 백분율, 통화 필드:
-      * 0에서 9로 오름차순
-      * 내림차순 9-0
+     * 0에서 9로 오름차순
+     * 내림차순 9-0
    * 확인란 필드:
-      * 처음 선택됨
-      * 먼저 선택 해제됨
+     * 처음 선택됨
+     * 먼저 선택 해제됨
 
    필드가 표 상단의 **정렬** 아이콘에서 정렬 선택 항목으로 추가됩니다.
 
@@ -992,15 +633,494 @@ To sort grouped records:
 
 표 보기를 표시할 때 레코드를 볼 때 다른 사용자가 편집하고 있는 필드를 볼 수도 있습니다.
 
-미리보기 환경의 테이블 보기에서 실시간 현재 상태 표시기를 활성화하는 것은 프로덕션 환경에서 활성화하는 것과 동일합니다.
+1. 레코드 유형 페이지로 이동하여 보기를 엽니다.
+1. (조건부) 선택한 유형의 레코드를 편집하는 다른 사용자가 동시에 있는 경우, 해당 아바타가 보기의 오른쪽 상단에 표시됩니다.
+1. 아바타 옆에 있는 드롭다운 메뉴를 클릭하여 **공동 작업자 표시** 설정을 켭니다. 이 설정은 기본적으로 켜져 있습니다.
 
-자세한 내용은 이 문서의 [실시간 현재 상태 표시기 사용](#enable-the-real-time-presence-indicator) 섹션을 참조하십시오.
+   ![공동 작업자 표시 전환](assets/show-collaborators-toggle-selected.png)
+
+   >[!TIP]
+   >
+   >모든 보기에서 **공동 작업자 표시** 전환을 선택할 수 있습니다. 현재 다른 사용자가 편집한 필드는 테이블 보기에서만 윤곽선이 표시됩니다.
+
+1. (조건부) 표 보기를 열면 다른 사람이 활발하게 편집하고 있는 필드가 표 보기에서 아바타의 윤곽에 해당하는 색으로 강조 표시됩니다.
+
+   아바타의 강조 색상이 회색이면 사용자는 30초 이상 전에 레코드 편집을 중지했습니다.
+
+   ![실시간 지표 테이블 필드 및 아바타 연결](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   <!--maybe include a screen shot after release if they update the UI text in this list of users-->
+
+1. (선택 사항) 다른 사용자가 편집한 필드가 포함된 셀의 오른쪽 위 모서리에 있는 삼각형을 클릭합니다. 현재 필드를 편집하고 있는 사용자 목록이 표시됩니다.
+
+>[!TIP]
+>
+>실시간 현재 상태 표시기에는 Workfront Planning의 아무 곳에서나 현재 필드를 편집하고 있는 사용자가 표시됩니다. 여기에는 레코드의 테이블 보기 또는 세부 정보 영역이 포함됩니다.
 
 <!--*********** at production, paste here the information from the Production section above ****************-->
 
-</div>
+<!--
+Old information, before July 2026 when the table was replaced with the GTable/ list: 
+
+## Manage the table view in the Production environment
+
+When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
+
+To manage a table view: 
+
+1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+
+    ![Table view example](assets/table-view-example.png)
+
+1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
+    * Short
+    * Standard
+    * Medium
+    * Tall 
+
+1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
+
+1. Update the following view elements as described in the subsections below:
+    * [Columns (or fields)](#add-columns-or-fields)
+    * [Rows (or records)](#add-rows-or-records)
+    * [Filters](#add-filters) 
+    * [Sort](#add-a-sort) 
+    * [Grouping](#add-groupings)
+    * [Row colors](#add-row-colors)
+    * [Real-time presence indicator](#enable-the-real-time-presence-indicator)
 
 
+### Add columns (or fields) {#add-columns}
+
+The column headers of a table view display fields associated with the records in the view. Fields displayed in the table view also display in the Details section of a record. 
+
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+*************** this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.
+
+Adding columns to a view is identical to adding fields to a record type.  
+
+You can add up to 500 fields (or columns) in a table view. 
+
+1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
+
+1. Start adding fields (or columns), as described in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
+    The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
+
+1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, search for a field, then unselect the toggle to the right of the field name to hide the field. 
+   
+1. Do one of the following to reorder columns in the table:
+
+    * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
+
+    * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
+        
+        ![Fields setting table view toolbar expanded](assets/fields-setting-table-view-toolbar-expanded.png)
+
+        >[!TIP]
+        >
+        >* The Name field is always the first field in the table view, by default. This is considered a primary field. 
+        >
+        >* You cannot move the Name field to another position, unless you designate another field as the primary field. For more information, continue with Step 4. 
+        >
+        >
+ 
+    * Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. 
+
+1. (Optional) Hover over a field name in the column header of any field that does not display in the first column of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
+    
+    ![Set as primary field option in table view](assets/set-as-primary-field-option-table-view.png)
+
+1. Click **Set field** to confirm. 
+
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves to the second column.
+
+    Primary fields become the record's title and display in the header area of the record's page, and everywhere where the records display. For example, the record title displays in connected fields and all views. For more information about primary fields, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
+
+1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
+
+    >[!TIP]
+    >
+    >The changes you make to the column width and order are permanent and visible to all users who access the record type. 
+
+1. Hover over the column header, then click the downward-pointing arrow, then click **Hide field**
+
+    Or
+
+    Click **Fields** in the table toolbar and disable the toggle associated with the fields (or columns) you want to hide. The **Fields visibility and order** box displays.
+
+    >[!TIP]
+    >
+    >The number of hidden fields displays to the left of the Fields icon in the toolbar.
+    >
+    >By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+
+1. Click the **Fields** icon and enable the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
+
+1. Do the following to quickly find records that match a keyword:
+
+    1. In the **Search** box ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+
+        ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
+
+        You can use any word or special character that is visible on the screen. 
+    
+        You cannot use keywords that are associated with fields that are hidden in the table view. 
+
+    1. Press **Enter** on your keyboard to go to the next found field. 
+
+    1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
+
+    1. Click the **x** icon in the search box to clear the search keyword. 
+   
+
+### Add rows (or records) {#add-rows}
+
+The rows of a table view display individual records of the selected record type. 
+
+You can have up to 50,000 records (or rows) for . 
+
+1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
+
+1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+
+    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
+
+    A thumbnail image is also added to the record.
+
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name, then click **Edit thumbnail** to add a new thumbnail to the new record. 
+
+1. Click **Fields** at the top of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. 
+    
+    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
+
+    >[!NOTE]
+    >
+    >You cannot reorder rows if you apply at least one sort to the table view. 
+    >
+    >The changes you make to the row order are visible to all users who access the record type
+
+********* this section below links from the timeline view; consider splitting them if they become different
+
+### Add filters {#add-filters}
+
+Filters help you reduce the amount of information displayed on the screen.
+
+Consider the following when working with filters in the table view: 
+
+********** this list is almost identical to the one for the table view - update both
+
+* The filters you create for the table view work independently from the filters in the timeline view when applied to the same record type. 
+
+* The filters are unique to the view that you select. Two table views of the same record type can have different filters applied to them. Two users looking at the same table view see the same filter that is currently applied. 
+
+* You cannot name the filters you build and apply to a table view.
+
+* Removing filters removes them from anyone accessing the same record type as you and uses the same view as you use.
+
+* You can filter by connected record fields or lookup fields. 
+
+* You can filter by lookup fields that display multiple values. 
+
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a filter for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Budget in the filter you are creating for the Activity record type. 
+
+To add a filter to a table view: 
+
+1. Create a table view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Select a table view, then click **Filters** in the upper-right corner of the table.    
+1. Click **Add condition** and add the following information: 
+
+    * Search for a field and select it when it displays in the list.
+
+    * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
+
+        The table below displays the available modifiers for each type of field.
+
+        <table>
+        <thead>
+        <tr>
+            <th><b>Field type</b></th>
+            <th><b>Modifiers</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Single-line, Paragraph, Formula </td>
+            <td><p>Contains</p>
+            <p>Does not contain</p>
+            <p>Is</p>
+            <p>Is not</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr><td>Single-select</td>
+            <td><p>Is</p>
+            <p>Is not</p>
+            <p>Is any of</p>
+            <p>Is none of</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Multi-select, People</td>
+            <td><p>Has any of</p>
+            <p>Has all of</p>
+            <p>Is exactly</p>
+            <p>Has none of</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Number, Percentage, Currency</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> < </p>
+            <p>></p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td><p>Is</p>
+            <p>Is not</p>
+            <p>Is after</p>
+            <p>Is before</p>
+            <p>Is between</p><p>Is not between</p>
+            <p>Is empty</p><p>Is not empty</p></td>
+        </tr>
+
+        <tr>
+            <td>Checkbox</td>
+            <td><p>Is</p>
+        </tr>
+        </tbody>
+        </table> 
+
+    * Select a value for the field selected. 
+
+     ![Filter UI table view](assets/filter-ui-table-view.png)
+
+    There is no limit to how many filtering conditions you can add.
+
+1. (Optional) Click **Add condition** to add another filtering option and repeat the above steps. The number of filters applied displays to the left of the Filters icon. 
+1. Click the following operators to indicate how the filter conditions are joined and should be applied:
+
+    * **AND**: All specified conditions must be met. 
+    * **OR**: Any of the specified conditions must be met. This is the default option.
+
+    1. (Optional) Add additional **AND** or **OR** operators between multiple condition groupings.
+
+        ![Multi-tiered filters in views](assets/multi-tiered-filters-in-views.png)
+
+    The list of records is filtered automatically.  
+    ************at this time, you can't name and save the filter - but will this change?!
+    *********** asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!
+
+1. (Optional) Click the **x** icon to remove a filter condition.
+1. (Optional) Click **Filters** to close the filters box. ************right now you cannot "clear all" for filters, but this might come later
+
+### Add a sort {#sort-information} 
+
+By applying a sort, you can organize information in a given order. 
+
+You can sort the following information:
+
+* All records in a table view. *********or timeline view. ***********verify this is the case for the timeline view*********************
+*********** * All groupings. - this is not available yet
+
+Consider the following when sorting records in the table view: 
+
+******** if this is available for the timeline view, update both when you update one
+
+* Sorting is unique to the view that you select. Two table views of the same record type can have different sorting criteria applied to them. Two users looking at the same table view see the same sorting that is currently applied. 
+
+* You cannot name the sortings you build and apply to a table view.
+
+* The sorting you create is preserved when you navigate away.
+
+* You can sort by as many fields as you see displayed in the table view of a record type.
+
+* You cannot sort by connected record fields, but you can sort by lookup fields from connected record types. 
+
+* When you sort by lookup fields with multiple values (that have not been summarized by an aggregator), the first value is used for sorting. 
+
+* Removing sorting criteria removes them from anyone accessing the same record type as you and uses the same view as you use.
+
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a sort for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the sort you are creating for the Activity record type. 
+
+To sort *****ungrouped (add this when sorting for groupings will be available ************* records, do the following:
+
+1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+1. Click the **Sort** icon ![Sort icon](assets/sort-icon.png) in the upper-right corner of the table
+    
+    Or
+
+    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. The field is added as a sorting selection in the Sort icon in the upper-right corner of the table view.
+
+1. (Conditional) In the **Sort records by** box, click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
+
+    The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
+
+    *********** add a step that you can rearrange the sorting fields here, when this will be possible
+    
+1. (Optional) Click **Add condition**, and repeat the above steps to sort by additional fields.  
+
+    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view.
+
+1. (Optional) In the **Sort records by** box, click the **x** icon to the right of a sorting field to remove the sort
+
+    Or
+
+    Click **Clear all** to remove all fields from the sort. 
+
+1. Click outside the **Sort records by** box to close it. 
+
+    ![Sorting in table view](assets/sorting-in-table-view.png)
+
+    The information displayed in the table is sorted according to your selected criteria. 
+    
+    The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
+
+### Add groupings {#add-groupings}
+
+***********  this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced
+
+You can group records by similar information when applying  a grouping to a view.
+
+Consider the following:
+
+* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
+* You can apply 3 levels of grouping in a view. The records are grouped in the order of groupings that you select. 
+*********** * You can apply up to 4 levels of grouping when using the API. ********** checking on this one for now********** 
+* The groupings are unique to the view that you select. Two table views of the same record type can have different groupings applied to them. Two users looking at the same table view see the same grouping that is currently applied. 
+* You cannot name the groupings you build for a table view.
+* Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
+* You can edit records listed under a grouping. 
+* You can group by connected record fields or lookup fields. 
+* When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
+* Groupings are listed in the alphabetical order of their values. 
+********** checking into this: * You can apply up to 4 levels of grouping when using the API. 
+*********** checking also into this: * You cannot group by a Paragraph-type field.
+
+To add a grouping:
+
+1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Click **Grouping** in the upper-right corner of the table view.
+
+    ![Grouping UI table view with linked fields](assets/grouping-ui-table-view-with-linked-fields.png)
+
+1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list.
+
+    The grouping is applied automatically to the table and records display under the grouping separation line.
+    
+1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
+
+    The number of fields selected for the grouping displays next to the Grouping icon. 
+
+    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
+
+1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping.  
+
+1. Click outside the **Group records by** box to close it. 
+1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. ********* this might need to be changed when they add the Refresh button on the toolbar of the table view
+
+1. To expand or collapse groupings, do one of the following:
+
+    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+
+        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+
+    1. Right-click any of the grouping headers in the table view, then click one of the following options:
+        * **Expand group**
+        * **Collapse group**
+        * **Expand all**
+        * **Collapse all**
+        * **Expand subgroups**
+        * **Collapse subgroups**
+
+        Depending on the number of groupings you apply to the view, some options might not be available.
+   
+************ ************
+ this is not available yet: 
+
+To sort grouped records: 
+
+1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
+1. ************************* add steps here for sorting grouped records****************
+
+
+### Add row colors
+
+1. (Optional) Click **Row colors** to define conditions and choose configure diferent colors for table rows.
+
+1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to determine the color of a row.
+
+    For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
+
+    ![Row colors box with Active status selected and default color choice](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+
+1. Click the drop-down menu for the color picker in the upper-left corner of the condition you selected, to pick the color for the condition, then click outside the color picker box to close it. 
+
+    ![Drop-down color picker menu in Row colors box highlighted](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+
+1. (Optional) Click **Add condition** to add more fields and values to the first set of conditions 
+
+    Or
+
+    Click **Add color** to add a new set of conditions and identify a new color. 
+    
+    For example, you can display campaigns in a Planning status in yellow by defining a new set of conditions. 
+
+    ![Row colors box with Active and Planning status custom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+
+1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the Row colors box. The entire row where the condition is met automatically displays in the selected color. 
+
+    >[!NOTE]
+    >
+    >* If the Apply to the entire row setting is turned off, only the left side of the Primary field displays a narrow color indicator with the selected color. The setting is turned off by default.
+    >
+    >* You cannot apply row colors to an entire row when you have at least one grouping selected in the table view. The role color only applies to the left of the primary field cell when grouping are applied to the table. 
+
+1. Click outside the **Row colors** box to close it. The colors are applied automatically.
+
+### Enable the real-time presence indicator
+
+The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
+
+When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
+
+1. Go to a record type page and open any view.
+1. (Conditional) If there are other users editing the records of the selected type at the same time, their avatars display in the upper-right corner of the view. 
+1. Click the drop-down menu next to the avatars, the turn on the **Show collaborators** setting. The setting is on by default. 
+
+    ![Show collaborators toggle selected](assets/show-collaborators-toggle-selected.png)
+
+    >[!TIP]
+    >
+    >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
+
+1. (Conditional) Open a table view, and the field which another person is actively editing is highlighted in the color corresponding to the outline of their avatar in the table view. 
+
+    If the highlight color of the avatar is gray, the user stopped actively editing the record more than 30 seconds ago. 
+
+    ![Real-time indicator table field and avatar connection](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+    **** maybe include a screen shot after release if they update the UI text in this list of users
+
+1. (Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.
+
+>[!TIP]
+>
+>Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
+
+-->
 
 
 
