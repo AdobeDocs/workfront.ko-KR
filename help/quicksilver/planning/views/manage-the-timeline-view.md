@@ -9,19 +9,14 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
-source-wordcount: 4300
+source-wordcount: 4223
 ht-degree: 2%
 
 ---
@@ -154,14 +149,14 @@ Old:
 
   타임라인 보기를 작성할 때 다음 날짜 필드 중에서 선택할 수 있습니다.
 
-   * 날짜 기록
-   * 시스템 생성 필드 기록: 생성 날짜, 마지막 수정 날짜
-   * 연결된 레코드 또는 개체 유형에서 날짜를 조회합니다(레코드 또는 개체 유형을 연결했을 때 집계자를 추가한 경우에만).
+  * 날짜 기록
+  * 시스템 생성 필드 기록: 생성 날짜, 마지막 수정 날짜
+  * 연결된 레코드 또는 개체 유형에서 날짜를 조회합니다(레코드 또는 개체 유형을 연결했을 때 집계자를 추가한 경우에만).
 * 레코드와 연결된 날짜에 따라 다음 시나리오에서 일부 레코드는 타임라인 보기에 표시되지 않을 수 있습니다.
 
-   * 시작 및 종료 날짜에 값이 없는 경우
-   * 시작 또는 종료 날짜에 값이 없는 경우
-   * 시작 일자가 종료 일자 이후인 경우
+  * 시작 및 종료 날짜에 값이 없는 경우
+  * 시작 또는 종료 날짜에 값이 없는 경우
+  * 시작 일자가 종료 일자 이후인 경우
 
 타임라인 보기를 관리하려면 다음을 수행합니다.
 
@@ -214,9 +209,9 @@ Old:
    * 타임라인을 오늘 날짜로 맞추려면 오른쪽 상단의 **오늘**&#x200B;을 클릭하세요.
    * 시간 증분을 업데이트하고 보기를 업데이트하려면 시간대 드롭다운 메뉴에서 다음 옵션 중 하나를 선택합니다.
 
-      * **연도**: 연도 표시가 있는 분기와 월을 표시합니다.
-      * **분기**: 분기가 표시된 월과 주를 표시합니다.
-      * **월**: 주 및 일을 표시합니다.
+     * **연도**: 연도 표시가 있는 분기와 월을 표시합니다.
+     * **분기**: 분기가 표시된 월과 주를 표시합니다.
+     * **월**: 주 및 일을 표시합니다.
 
      >[!TIP]
      >
@@ -379,7 +374,7 @@ Old:
 
    * **AND**: 지정한 조건을 모두 충족해야 합니다.
    * **OR**: 지정한 조건을 모두 충족해야 합니다.
-기본 옵션입니다.
+     기본 옵션입니다.
 
 1. (선택 사항) 필터 그룹화를 추가하고 **AND** 또는 **OR** 연산자로 결합하십시오.
 
@@ -407,7 +402,7 @@ Old:
 
 * 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
 * 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
-&lt;!—!—* API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —현재 이 항목을 확인하고 있습니다—>
+&lt;!—* API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —현재 이 그룹화를 확인—>
 * 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
 * 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
@@ -553,8 +548,16 @@ this is not possible right now; if this is the same functionality as the table v
      >
      >    * 색상을 색상으로 구분된 옵션이 있는 필드에만 일치시킬 수 있습니다. 예를 들어 색상을 상태 필드 또는 색상과 연관된 옵션이 있는 필드와 일치시킬 수 있습니다.
      >    
-     >    * 연결된 레코드 또는 개체 유형의 조회 필드에 색상을 일치시킬 수 없습니다.
+     >    * 연결된 레코드 및 조회 필드에 색상을 일치시킬 수 없습니다.
 
+     <!--
+        For July 23: replace the note above with this note for the July 23 release:
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
    예를 들어 다중 선택 또는 단일 선택 필드에는 색상으로 구분된 옵션이 있을 수 있습니다.
 
@@ -570,6 +573,10 @@ this is not possible right now; if this is the same functionality as the table v
    * **필드 값**: 레코드 색이 지정한 필드 색과 일치합니다. 10단계를 계속합니다. <!--ensure this stays accurate-->
    * **그룹화**: 레코드 색이 그룹화에 지정한 색과 일치합니다. 타임라인 보기에 적용된 그룹화가 없으면 이 옵션은 흐리게 표시됩니다.
    * **없음**: 레코드가 흰색 막대에 표시됩니다.
+
+   <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
 
 1. (조건부) 레코드 색으로 **필드 값**&#x200B;을(를) 선택한 경우 **레코드 색과 일치** 드롭다운 메뉴에서 필드를 선택합니다.
 
@@ -598,11 +605,11 @@ this is not possible right now; if this is the same functionality as the table v
 * 타임라인 보기에서 선택한 레코드 유형의 레코드 아래에 연결된 레코드나 개체를 표시할 수 있습니다.
 * 표준 모드에서 레코드를 볼 때만 연결된 레코드를 타임라인 보기에 표시할 수 있습니다. 타임라인 보기의 압축 모드에서는 분류 옵션을 사용할 수 없습니다.
 * 분류 기능을 사용하여 타임라인 보기에 다음을 표시할 수 있습니다.
-   * 선택한 레코드 유형에 연결된 Workfront Planning 레코드입니다.
-   * 선택한 레코드 종류에 연결된 Workfront 또는 Experience Manager 개체 형식입니다.
-   * Workfront Planning은 선택한 레코드 유형에 연결된 레코드에 연결된 다른 응용 프로그램의 레코드 또는 객체를 표시합니다.
+  * 선택한 레코드 유형에 연결된 Workfront Planning 레코드입니다.
+  * 선택한 레코드 종류에 연결된 Workfront 또는 Experience Manager 개체 형식입니다.
+  * Workfront Planning은 선택한 레코드 유형에 연결된 레코드에 연결된 다른 응용 프로그램의 레코드 또는 객체를 표시합니다.
 
-     예를 들어 캠페인을 포트폴리오에 연결할 수 있습니다. 또한 다른 레코드 유형인 제품을 캠페인뿐만 아니라 프로젝트와 연결할 수도 있습니다. 캠페인 타임라인 보기를 작성할 때 포트폴리오, 제품 및 프로젝트별로 캠페인을 분류할 수 있습니다.
+    예를 들어 캠페인을 포트폴리오에 연결할 수 있습니다. 또한 다른 레코드 유형인 제품을 캠페인뿐만 아니라 프로젝트와 연결할 수도 있습니다. 캠페인 타임라인 보기를 작성할 때 포트폴리오, 제품 및 프로젝트별로 캠페인을 분류할 수 있습니다.
 
 * Workfront의 Workfront 개체에만 연결되어 있지만 Workfront Planning 레코드 유형에는 연결되어 있지 않은 개체 유형은 표시할 수 없습니다. Workfront Planning에서 연결된 객체 또는 레코드 유형만 표시할 수 있습니다.
 

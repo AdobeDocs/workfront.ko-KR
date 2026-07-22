@@ -10,16 +10,12 @@ exl-id: f2da081c-bdce-4012-9797-75be317079ef
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: edee967a5c19d86fd471c4571a0b458f72bf370e
 workflow-type: tm+mt
-source-wordcount: 921
+source-wordcount: 2201
 ht-degree: 0%
 
 ---
@@ -84,13 +80,13 @@ WHERE ExpandedProjectName is not null
 
 * `<data_type>`은(는) JSON 개체에서 반환되는 값을 필드에 적합한 데이터 형식으로 변환합니다. 반환되는 값에 대해 호환되지 않는 데이터 유형을 선택하면 데이터 유형 불일치 오류가 발생합니다. 가능한 데이터 유형은 다음과 같습니다.
 
-   * `text`
-   * `varchar`
-   * `int`
-   * `float`
-   * `number(len,precision)`(예: `Number(32,4)`은(는) 1234.0987을 반환합니다.)
-   * `date`
-   * `timestamp`
+  * `text`
+  * `varchar`
+  * `int`
+  * `float`
+  * `number(len,precision)`(예: `Number(32,4)`은(는) 1234.0987을 반환합니다.)
+  * `date`
+  * `timestamp`
 
 * `<column_name>`은(는) 각 사용자 지정 데이터 열에 대해 만드는 레이블입니다.
 
@@ -195,6 +191,207 @@ FROM
 >projects_event: 
 >`From projects_event p`>`Join <above query> c on c.projectid = p.projectid  `>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
+## Planning: 단일 레코드 유형 쿼리
+
+이 예에서는 Data Connect 데이터 레이크에 저장된 단일 레코드 유형에 대해 Workfront Planning 데이터를 쿼리하는 방법을 보여 줍니다.
+
+### 시나리오
+
+조직은 Workfront Planning을 사용하여 캠페인을 추적합니다. 각 캠페인 레코드에는 이름, 상태, 시작 날짜, 종료 날짜 및 소유자가 포함됩니다. 대시보드에서 사용할 모든 활성 캠페인과 주요 세부 정보 목록을 가져오려고 합니다.
+
+* Planning 레코드 유형 데이터는 PLANNINGRECORD_CURRENT 뷰에 저장됩니다.
+* 각 행은 단일 레코드를 나타내며 모든 필드 값은 FIELD_VALUES라는 JSON 열에 저장됩니다.
+* 레코드 종류는 RECORDTYPEID 열로 식별됩니다.
+* 레코드의 작업 영역은 WORKSPACEID 열(또는 사람이 읽을 수 있는 필터의 경우 WORKSPACENAME 열)로 식별됩니다.
+
+### 쿼리
+
+```sql
+SELECT
+  recordid,
+  FIELD_VALUES:"Name"::text AS campaign_name,
+  FIELD_VALUES:"Status"::text AS campaign_status,
+  FIELD_VALUES:"Start Date"::date AS start_date,
+  FIELD_VALUES:"End Date"::date AS end_date,
+  FIELD_VALUES:"Owner"::text AS owner
+FROM PLANNINGRECORD_CURRENT
+WHERE WORKSPACEID = '<your_campaign_workspace_id>'
+AND RECORDTYPEID = '<your_campaign_record_type_id>'
+AND FIELD_VALUES:"Status"::text = 'Active'
+ORDER BY start_date ASC
+```
+
+### 응답
+
+위의 쿼리는 다음 데이터를 반환합니다.
+
+* **recordid**: 캠페인에 대한 고유한 계획 레코드 ID입니다.
+* **campaign_name**: FIELD_VALUES JSON 개체에서 추출한 캠페인의 이름입니다.
+* **campaign_status**: 캠페인의 현재 상태입니다.
+* **start_date**: 날짜 데이터 형식으로 캐스팅된 캠페인의 시작 날짜입니다.
+* **end_date**: 날짜 데이터 형식으로 캐스팅되는 캠페인의 종료 날짜입니다.
+* **소유자**: 캠페인 소유자로 할당된 사용자 또는 팀의 이름입니다.
+
+### 설명
+
+Data Connect의 계획 레코드는 레코드 유형에 관계없이 단일 테이블 구조를 공유합니다. RECORDTYPEID 열은 쿼리를 특정 레코드 종류(이 경우 캠페인)로 범위를 지정하는 데 사용됩니다. `<your_campaign_record_type_id>`을(를) 쿼리할 레코드 형식의 ID로 바꾸십시오. ID는 Workfront Planning 레코드 형식 설정에서 또는 RECORDTYPE_CURRENT를 쿼리하여 찾을 수 있습니다.
+
+필드 값은 FIELD_VALUES 열에 JSON 개체로 저장되며 사용자 정의 양식 데이터에 사용된 것과 동일한 콜론 표기법 구문을 사용하여 액세스됩니다.
+
+```
+<field_column>:"<field_name>"::<data_type> AS <alias>
+```
+
+필드 이름 참조는 대문자, 간격 및 이모지를 포함하여 Planning 레코드 유형 필드 구성에 정의된 필드 이름과 정확히 일치해야 합니다.
+
+>[!NOTE]
+>
+>Planning 레코드 유형 ID는 Workfront Planning에서 레코드 유형을 볼 때 URL에서 찾을 수 있습니다. &quot;Rt...&quot;로 시작하는 URL의 경로입니다. 레코드 유형은 Data Connect 내에서 다음 SQL 호출을 통해서도 찾을 수 있습니다.
+>
+>
+>```sql
+>SELECT
+>ID AS recordtypeid,
+>DISPLAYNAME AS record_type_name,
+>WORKSPACEID
+>FROM RECORDTYPE_CURRENT
+>ORDER BY record_type_name ASC
+>```
+
+## Planning: 연결된 레코드 유형 쿼리
+
+이 예에서는 두 개의 연결된 Planning 레코드 유형(상위 레코드 유형 및 연결된 레코드 유형)에 걸쳐 데이터를 쿼리하는 방법을 보여 줍니다.
+
+### 시나리오
+
+조직은 Workfront Planning에서 캠페인 레코드를 Tactic 레코드에 연결합니다. 각 캠페인을 관련 전술의 주요 세부 사항과 함께 표시하는 보고서를 생성하려는 경우 특히 전술명, 전략 우선순위, 예산 배분을 제시해 리더십이 전술별로 구성된 캠페인 활동을 검토할 수 있게 하고자 한다.
+
+Data Connect에서 기본 Planning 레코드 유형 간의 연결은 PLANNINGRECORD_CURRENT의 FIELD_VALUES_RAW 열에 직접 저장됩니다. &quot;Tactics&quot;라는 참조 필드의 경우 값은 연결된 레코드의 RECORDID가 있는 ID 속성이 각각 포함된 연결된 레코드 개체의 JSON 배열입니다. Snowflake의 LATERAL FLATTEN을 사용하여 이 배열을 행으로 확장하고 연결된 레코드 유형에 연결합니다.
+
+### 쿼리
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  t.FIELD_VALUES:"Name"::text AS tactic_name,
+  t.FIELD_VALUES:"Strategic Priority"::text AS strategic_priority,
+  t.FIELD_VALUES:"Budget Allocation"::float AS budget_allocation
+FROM PLANNINGRECORD_CURRENT c,
+INNER JOIN REFERENCE_CURRENT R 
+ON r.FROM_REFERENCEID = c.REFERENCE_IDS:"Tactics"::text
+INNER JOIN PLANNINGRECORD_CURRENT t
+-- Join to the Tactic record using the connected record ID from the array
+ON t.RECORDID = r.TO_RECORDID
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+ORDER BY tactic_name, campaign_name
+```
+
+### 응답
+
+위의 쿼리는 다음 데이터를 반환합니다.
+
+* **campaign_id**: 캠페인에 대한 고유한 계획 레코드 ID입니다.
+* **campaign_name**: 캠페인 레코드의 이름.
+* **campaign_status**: 캠페인의 현재 상태입니다.
+* **tactic_name**: 연결된 전술 레코드의 이름입니다.
+* **strategic_priority**: 연결된 전술 레코드의 전략 우선 순위 필드 값입니다.
+* **budget_allocation**: 연결된 전술 레코드의 예산 할당 필드 값이 부동 소수점으로 캐스팅되었습니다.
+
+### 설명 - 수정된 KP
+
+기본 Planning 레코드 유형 간의 연결은 REFERENCE_CURRENT 조인 테이블에 저장됩니다.  REFERENCE_CURRENT 조인 테이블은 RecordType 간의 조인에 사용됩니다.   RecordType 사이에 조인할 때는 TO_RECORDID 필드를 사용해야 합니다.
+
+PLANNINGRECORD 뷰의 REFERENCE_ID 열에는 해당 계획 레코드에 적용할 수 있는 모든 REFERENCEID 필드 목록이 포함됩니다. field_value와 동일한 JSON 표기법을 활용하여 ID에 액세스할 수 있습니다.
+
+```
+<reference_ids>:"<reference_name>"::text
+```
+
+REFERENCE_CURRENT 보기에는 TO_RECORDID가 PLANNINGRECORD 보기의 다른 계획 `recordId` 필드를 가리키는 레코드가 하나 이상 _*.
+
+REFERENCE_CURRENT 및 PLANNINGRECORD에 대한 동일한 조인 패턴을 사용하여 다른 REFERENCE 필드를 추가 계획 레코드에 조인하려면 위의 _*에 뷰를 추가합니다.
+
+
+## Planning: Workfront Workflow 데이터 쿼리에 연결된 레코드 유형
+
+이 예에서는 REFERENCE_CURRENT 뷰에 외부 개체 참조를 저장하는 Planning의 기본 연결 기능을 사용하여 Workfront Planning 레코드 유형(이 경우 프로젝트)을 기본 Workfront Workflow 개체에 조인하는 방법을 보여 줍니다.
+
+### 시나리오
+
+조직은 Planning의 기본 연결 기능을 사용하여 Workfront Planning의 캠페인 레코드를 Workfront Projects에 연결합니다. 캠페인 관리자가 Planning 작업 공간 컨텍스트를 종료하지 않고 게재 진행률을 추적할 수 있도록 연결된 프로젝트(특히 프로젝트의 현재 완료율, 계획된 완료 일자 및 할당된 프로젝트 소유자)의 라이브 실행 데이터와 함께 캠페인 세부 사항을 표시하는 결합된 보고서를 생성하려고 합니다.
+
+### 쿼리
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  conn.TO_EXTERNALID AS linked_project_id,
+  p.name AS project_name,
+  p.percentcomplete AS project_percent_complete,
+  p.plannedcompletiondate AS project_planned_completion,
+  p.ownerid AS project_owner_id,
+  u.name AS project_owner_name
+FROM WORKFRONT.PLANNING.PLANNINGRECORD_CURRENT c
+-- Join to the references table to find Workfront Project connections
+INNER JOIN WORKFRONT.PLANNING.REFERENCE_CURRENT conn
+ON conn.REFERENCE_ID = c.REFERENCE_IDS:"ProjectId"::text
+-- Join to the Workfront Projects table on the external ID
+INNER JOIN WORKFRONT.WF.PROJECTS_CURRENT p
+ON p.projectid = conn.TO_EXTERNALID
+-- Join to Users to resolve the project owner name
+LEFT JOIN WORKFRONT.WF.USERS_CURRENT u
+ON u.userid = p.ownerid
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+AND p.completiontype != 'CPL' -- Exclude completed projects
+ORDER BY campaign_name
+```
+
+### 응답
+
+위의 쿼리는 다음 데이터를 반환합니다.
+
+* **campaign_id**: 캠페인에 대한 고유한 계획 레코드 ID입니다.
+* **campaign_name**: 캠페인 레코드의 이름.
+* **campaign_status**: Planning의 현재 캠페인 상태입니다.
+* **linked_project_id**: 연결된 Workfront 프로젝트를 식별하는 REFERENCE_CURRENT.TO_EXTERNALID의 Workfront 프로젝트 ID입니다.
+* **project_name**: PROJECTS_CURRENT의 기본 Workfront 프로젝트 이름입니다.
+* **project_percent_complete**: 프로젝트의 현재 완료율 값입니다.
+* **project_planned_completion**: 연결된 Workfront 프로젝트의 계획된 완료 날짜입니다.
+* **project_owner_id**: 프로젝트 소유자의 Workfront 사용자 ID.
+* **project_owner_name**: USERS_CURRENT에 가입하여 해결된 프로젝트 소유자의 표시 이름입니다.
+
+### 설명
+
+Planning 레코드 유형에서 기본 Workfront Workflow 객체로의 연결은 REFERENCE_CURRENT에 저장됩니다. 이 보기의 각 행은 하나의 방향 링크를 나타냅니다. TO_EXTERNALID에는 연결된 Workfront 객체의 ID가 저장됩니다. Workfront 연결을 나타내는 행은 `TO_EXTERNALCONNECTIONNAME = 'workfront'` 및 Workfront 개체 유형의 API 코드(예: PROJ for Projects)에 해당하는 TO_EXTERNALOBJECTNAME 값으로 식별됩니다.
+
+PLANNINGRECORD 테이블의 REFERENCE_ID 열에는 해당 레코드에 적용할 수 있는 모든 REFERENCEID 필드 목록이 포함되어 있습니다.  field_value와 동일한 JSON 표기법을 활용하여 ID에 액세스할 수 있습니다.\
+PLANNINGRECORD_CURRENT의 단일 REFERENCE_ID에는 REFERENCE_CURRENT 테이블에 하나 이상의 참조 링크가 포함되어 있을 수 있습니다. 이 링크는 Workfront 테이블에서 특정 객체 유형의 객체에 연결됩니다.
+
+```
+<reference_ids>:"<reference_name>"::text
+```
+
+Planning 뷰(PLANNINGRECORD_CURRENT, REFERENCE_CURRENT)는 WORKFRONT.PLANNING 스키마에 있는 반면 기본 Workfront Workflow 뷰(PROJECTS_CURRENT, USERS_CURRENT 등)는 Workfront.WF 스키마에 있습니다. 스키마 간 조인에는 정규화된 테이블 이름이 필요합니다.
+
+쿼리는 세 개의 조인을 수행합니다.
+
+1. **참조 테이블**&#x200B;에 대한 Planning 레코드: REFERENCE_CURRENT가 각 캠페인 레코드에서 시작된 모든 연결을 찾기 위해 `TO_RECORDID = c.RECORDID`에 결합됩니다. `TO_EXTERNALCONNECTIONNAME = 'workfront'` 및 `TO_EXTERNALOBJECTNAME = 'PROJ'`의 필터에서는 결과를 특별히 Workfront 프로젝트에 대한 연결을 나타내는 행으로 좁힙니다.
+1. **Workfront 프로젝트에 대한 참조 테이블:** TO_EXTERNALID에는 연결된 프로젝트에 대한 기본 Workfront projectid가 있습니다. 라이브 프로젝트 데이터를 검색하기 위해 `PROJECTS_CURRENT.projectid`에 직접 연결됩니다.
+1. **사용자에게 프로젝트:** USERS_CURRENT에 대한 LEFT JOIN은 프로젝트의 ownerid 외래 키를 사람이 읽을 수 있는 이름으로 확인합니다. 여기에 LEFT JOIN을 사용하여 할당된 소유자가 없는 프로젝트가 여전히 결과에 포함됩니다.
+
+>[!NOTE]
+>
+>Planning 외부 테이블에 조인할 때 쿼리에서 TO_RECORDID 필드를 사용하지 마십시오.  외부 테이블에 조인할 때는 필요하지 않습니다.
+>
+>이 패턴은 TO_EXTERNALOBJECTNAME 필터를 적절한 객체 API 코드(예: 포트폴리오의 경우 PORT 또는 프로그램의 경우 PRGM)로 변경하고 해당 WORKFRONT.WF 테이블에 가입하여 Planning에서 프로젝트, 포트폴리오 또는 프로그램 등 연결을 지원하는 모든 Workfront Workflow 객체에 적용할 수 있습니다. 각 오브젝트 유형에 대한 올바른 테이블 및 ID 열 이름은 Workfront Data Connect 데이터 사전을 참조하십시오.
+
+다른 REFERENCE 필드를 추가 외부 레코드에 연결하려면 REFERENCE_CURRENT 및 Workfront Workflow 뷰에 동일한 조인 패턴이 위의 쿼리에 추가됩니다.
+
+외부 및 Planningrecord 값은 REFERENCE_CURRENT 테이블에 여러 번 조인하고 적절한 조인 패턴을 사용하여 동일한 쿼리에서 조인할 수 있습니다.
 
 
 <!--
