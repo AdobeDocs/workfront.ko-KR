@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 398
 ht-degree: 1%
 
 ---
@@ -36,8 +36,8 @@ ht-degree: 1%
 * 누군가가 기록 댓글에서 귀하 또는 귀하의 팀에 태그를 지정합니다.
 
   레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
-* 누군가 보기 또는 작업 영역 <!--<span class="preview">or record</span>-->에 액세스할 수 있는 권한을 요청합니다.
-* 누군가 보기 또는 작업 영역 <!--<span class="preview">or record</span> Isk confirmed there is no notification for denying permissions - did not test-->에 대한 액세스 권한이 부여되었음을 확인합니다.
+* 누군가 보기, 작업 영역 또는 레코드에 액세스할 수 있는 권한을 요청합니다.
+* 누군가가 보기, 작업 영역 또는 레코드에 대한 액세스 권한이 부여되었음을 확인합니다.
 
 ## 액세스 요구 사항
 

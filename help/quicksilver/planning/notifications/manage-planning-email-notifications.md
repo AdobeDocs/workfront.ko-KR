@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 614
 ht-degree: 0%
 
 ---
@@ -42,8 +42,8 @@ ht-degree: 0%
 * 누군가가 기록 댓글에서 귀하 또는 귀하의 팀에 태그를 지정합니다.
 
   레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
-* 누군가 보기, 작업 영역 또는 레코드 종류 <!--or <span class="preview">or a record</span>-->에 액세스할 수 있는 권한을 요청했습니다.
-* 누군가가 보기, 작업 영역 또는 레코드 형식 <!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->에 대한 액세스 권한이 부여되었음을 확인합니다.
+* 누군가 보기, 작업 공간, 레코드 유형 또는 레코드에 액세스할 수 있는 권한을 요청합니다.
+* 누군가가 보기, 작업 공간, 레코드 유형 또는 레코드에 대한 액세스 권한이 부여되었음을 확인합니다.
 * Workfront Planning 요청을 제출합니다. 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 * 누군가가 귀하가 제출한 Workfront Planning 요청을 승인하거나 거부합니다. 자세한 내용은 [Adobe Workfront Planning에서 요청 승인](/help/quicksilver/planning/requests/approve-request.md)을 참조하십시오.
 * 제출한 Workfront Planning 요청의 상태가 변경됩니다.
