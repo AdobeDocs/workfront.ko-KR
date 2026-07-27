@@ -9,16 +9,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
 TQID: https://experienceleague.adobe.com/VegCU8Bt-m-loHvC41n5njkRi5TpqbJBLZlemtAaOnI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 550
 ht-degree: 0%
@@ -87,3 +82,4 @@ ht-degree: 0%
 1. 받은 유효성 검사 이메일에서 확인 링크를 클릭합니다.\
    이메일 변경 사항이 프로필에 저장됩니다. [!DNL Workfront Proof] [!UICONTROL 개인 설정] 페이지를 보고 있는 브라우저를 새로 고쳐 별칭 전자 메일로 확인되었는지 확인해야 합니다.
 1. (선택 사항) 새 전자 메일 주소를 [!DNL Workfront Proof]에서 기본 전자 메일 주소로 만들려면 주소의 맨 오른쪽에 있는 [!UICONTROL 자세히]&#x200B;(점 3개) 단추를 클릭한 다음 표시되는 메뉴에서 **[!UICONTROL 기본 전자 메일 만들기]**&#x200B;를 클릭합니다.
+

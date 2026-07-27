@@ -9,11 +9,9 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 582cdb22-fd7f-4872-b173-910471b8e745
 TQID: https://experienceleague.adobe.com/n2bbDNgKjdExrAzRAGW5I-rTtf1gw-1VNOWZHDeXVSE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 543
 ht-degree: 0%
@@ -63,5 +61,6 @@ ht-degree: 0%
 1. 프로젝트 관리자는 클라이언트의 검토와 결정에 대한 요약이 포함된 이메일을 수신합니다. 자세한 내용은 [전자 메일 알림 설정 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)을 참조하세요.
 1. 프로젝트 관리자는 디자이너에게 [!UICONTROL 댓글 인쇄]를 사용하여 변경 요청에 대해 알려 줍니다. 자세한 내용은 [댓글 인쇄 및 내보내기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)를 참조하십시오.
 1. 필요한 경우 디자이너가 파일을 수정하고 [!DNL Workfront Proof]에 업로드하면 프로젝트 관리자가 다른 증명 단계를 위해 새 버전을 만들 수 있습니다.
+
 
 

@@ -8,15 +8,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 53abbd88-7915-4d74-9bda-d75c59663463
 TQID: https://experienceleague.adobe.com/eCJhedBSQgqT9i4784HdrUFM-N61zC8O3wPJvuvXlKQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 437
 ht-degree: 2%
@@ -41,10 +37,10 @@ ht-degree: 2%
 * 증명 이미지의 썸네일
 * 다음 증명 세부 정보:
 
-   * 교정쇄 이름
-   * 버전 번호
-   * 폴더 이름(해당하는 경우)
-   * 검토자 목록 및 증명 진행 상황
+  * 교정쇄 이름
+  * 버전 번호
+  * 폴더 이름(해당하는 경우)
+  * 검토자 목록 및 증명 진행 상황
 
 다른 사용자와 공유된 여러 증명에 대해서도 미리 알릴 수 있습니다. 자세한 내용은 [검토자에게 Workfront Proof의 할당에 대해 알림](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)을 참조하세요.
 
@@ -75,3 +71,4 @@ ht-degree: 2%
      기본 메시지는 검토자에게 증명에 추가되었음을 알려주고 증명 기한을 포함합니다.
 
    * 사용자 지정 메시지를 만들려면 **[!UICONTROL 제목]** 및 **[!UICONTROL 메시지],**&#x200B;를 입력한 다음 **[!UICONTROL 보내기].**&#x200B;사용자 지정 미리 알림 전자 메일에는 기본 미리 알림 전자 메일과 동일한 정보가 포함되어 있지만 전자 메일 본문에 사용자 지정 제목 줄과 사용자 지정 메시지도 포함되어 있습니다.
+

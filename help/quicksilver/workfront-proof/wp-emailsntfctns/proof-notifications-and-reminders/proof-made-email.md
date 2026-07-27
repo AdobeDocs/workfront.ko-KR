@@ -9,15 +9,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a6bfe471-2032-4b74-8316-584f923e8651
 TQID: https://experienceleague.adobe.com/GmmKj5aqXNRDlKfo8BBcN7-6-jCtf2-8Dv4o2m1mPAY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 441
 ht-degree: 0%
@@ -66,3 +62,4 @@ ht-degree: 0%
 
 1. 자세한 지침은 [Workfront Proof에서 전자 메일 알림 설정 구성](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)을 참조하세요.
 1. [!UICONTROL 계정 설정]에서 전자 메일 알림을 기본값으로 사용하지 않도록 설정한 경우, 개인 설정에서 [!UICONTROL 증명 작성] 또는 [!UICONTROL 새 증명] 전자 메일을 받지 못합니다. [!UICONTROL 새 증명] 페이지에서 [!UICONTROL 전자 메일로 사람들에게 알림] 상자를 선택하더라도 증명의 작성자 또는 소유자는 해당 전자 메일을 받지 못합니다.
+

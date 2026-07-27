@@ -9,16 +9,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 139e9a6c-b9ed-4819-970b-d62f47ccd71b
 TQID: https://experienceleague.adobe.com/wpNboE2kWsutfFCy23Cm9gqzGSbHGTPMe9ZRe542biw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 444
 ht-degree: 0%
@@ -69,3 +64,4 @@ ht-degree: 0%
 | 클라이언트를 위한 향상된 워크플로 | 특정 클라이언트의 요구 사항에 맞게 증명 프로세스를 조정할 수 있습니다 |
 | 클라이언트는 Satellite 계정에서 증명을 업로드하고 당신과 공유할 수 있습니다 | 고객이 자신의 증명을 시작할 수 있음 |
 | 이전에 클라이언트와 공유한 모든 증명이 계정에 자동으로 표시됩니다 | 이전 증명을 다시 공유할 필요가 없음 |
+

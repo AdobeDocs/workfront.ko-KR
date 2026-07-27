@@ -9,13 +9,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 3b71baaf-8490-4479-bb95-da0b5d28ad15
 TQID: https://experienceleague.adobe.com/ANi6YHrHGou9XRM2ClrghBlFw6JOm54XJM8Mv44Sno8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 107
 ht-degree: 0%
@@ -31,3 +28,4 @@ ht-degree: 0%
 통합 문서 검토, 공동 작업 및 승인을 통해 혜택을 얻을 수 있는 고객을 보유한 개발자인 경우 [!DNL Workfront Proof]을(를) 애플리케이션에 쉽게 포함할 수 있습니다. [!DNL Workfront Proof] API를 사용하면 해당 기능을 사용하도록 설정하고 수백 시간을 절약할 수 있습니다.
 
 자세한 내용은 http://api.proofhq.com/에서 API 도움말 페이지를 참조하십시오.
+
