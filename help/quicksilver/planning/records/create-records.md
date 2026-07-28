@@ -9,32 +9,24 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3239
+source-wordcount: 3647
 ht-degree: 0%
 
 ---
 
 # 레코드 만들기
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -178,17 +170,14 @@ Old:
   >
   >작업 영역 관리자는 보기 권한이 있는 사용자가 요청 양식을 사용하여 레코드를 추가할 수 있도록 레코드 유형에 대한 요청 양식을 만들어야 합니다. 그렇지 않으면 보기 권한 사용자가 레코드를 만들 수 없습니다.
 
-<!--
-add this bullet for July 23 release:
-
 <div class="preview">
 
-* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+* 모든 레코드는 만들 때 만드는 데 사용하는 방법에 관계없이 자동으로 색상 코딩됩니다.
 
-    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+  자세한 내용은 이 문서의 [색상 코딩 레코드](#color-coding-records) 섹션을 참조하십시오.
 
 </div>
--->
+
 
 ## 레코드 유형 보기에서 새 레코드 또는 레코드 요청 버튼을 사용하여 레코드 만들기
 
@@ -216,7 +205,7 @@ add this bullet for July 23 release:
    1. 다음 방법 중 하나를 클릭하여 레코드를 만든 다음 **계속**&#x200B;을 클릭합니다.
 
       * **수동으로 추가**. 레코드의 미리보기 상자가 열립니다.\
-        이 문서의 레코드 유형 테이블 보기[&#128279;](#create-records-by-adding-them-inline-from-the-record-type-table-view) 섹션에서 인라인으로 추가하여 레코드 만들기&lbrace;6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
+        이 문서의 레코드 유형 테이블 보기](#create-records-by-adding-them-inline-from-the-record-type-table-view) 섹션에서 인라인으로 추가하여 [레코드 만들기{6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
       * **파일에서 업로드**
         문서 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)의 설명과 같이 레코드를 추가합니다. 6단계부터 시작합니다. <!--ensure this stays accurate-->
       * **요청 제출**
@@ -293,8 +282,8 @@ You can import records from other applications by linking them to existing recor
      >
      >그룹화 또는 하위 그룹화의 마지막 레코드 뒤에 새 레코드를 추가하면 Workfront이 그룹화에 포함된 필드를 자동으로 채웁니다. 필요한 경우 이러한 필드를 수동으로 편집할 수 있으며 그룹화에서 레코드가 제거될 수 있습니다.
 
-   * 표의 열 또는 행에서 키보드에서 **Shift + Enter**&#x200B;를 클릭합니다. 이렇게 하면 시작한 레코드 아래에 빈 행이 추가됩니다. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
-   * 레코드의 기본 필드 위에 마우스를 올려 놓고 필드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **위에 레코드 삽입** 또는 **아래에 레코드 삽입**&#x200B;을 클릭합니다. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * 표의 열 또는 행에서 키보드에서 **Shift + Enter**&#x200B;를 클릭합니다. 이렇게 하면 시작한 레코드 아래에 빈 행이 추가됩니다.
+   * 레코드의 기본 필드 위에 마우스를 가져다 대고 필드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **위에 레코드 삽입** 또는 **아래에 레코드 삽입**&#x200B;을 클릭합니다.
 
    ![테이블 행에 새 캠페인 추가](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -596,52 +585,50 @@ Workfront Planning의 레코드 페이지에서 자동화를 구성하고 활성
 자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오.
 
 <!--
-For July 23
-Move to its own article after preview release in 07/2026:
+Move to its own article after production release in 10/2026:
+-->
 
 <div class="preview">
 
-## Color coding records
+## 색상 코딩 레코드
 
-All records are automatically associated with a color when they are created. 
+모든 레코드는 만들 때 색상과 자동으로 연결됩니다.
 
-1. Create a record using one of the methods described in this article. 
+1. 이 문서에 설명된 방법 중 하나를 사용하여 레코드를 만듭니다.
 
-    The color is immediately applied to the new record in the following areas:
+   색상은 다음 영역의 새 레코드에 즉시 적용됩니다.
 
-    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
-    * As a circle, to the left of the record name in the record's **Details** page. 
+   * 테이블, 타임라인 및 달력 보기에서 레코드 이름 또는 기본 필드 왼쪽에 있는 막대로.
+   * 레코드의 **세부 정보** 페이지에서 레코드 이름 왼쪽에 원을 그립니다.
 
-        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
-1. (Conditional) To view the color of a record, do one of the following: 
-    
-    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+     자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
+1. (조건부) 레코드의 색상을 보려면 다음 중 하나를 수행합니다.
 
-        ![Table view record color bar](assets/table-record-color-bar.png)
+   * 표 보기에서 레코드 목록 상단의 도구 모음에 있는 **필드** 아이콘을 클릭한 다음 **색상** 설정을 켭니다. 레코드의 기본 필드 왼쪽에 막대가 추가됩니다.
 
-        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
-    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+     ![테이블 보기 레코드 색 막대](assets/table-record-color-bar.png)
 
-        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+     자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
+   * 타임라인 보기에서 **설정** > **막대 스타일**&#x200B;을 클릭한 다음 **색상** 설정을 켭니다. **레코드**&#x200B;로 막대에 색상을 지정하도록 선택하면 레코드 막대의 왼쪽 여백에 막대가 추가됩니다.
 
-        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
-    
-        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+     ![타임라인 보기 레코드 색 막대](assets/timeline-record-color-bar.png)
 
-        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+     자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
+   * 달력 보기에서 **설정** > **막대 스타일**&#x200B;을 클릭한 다음 **색상** 설정을 켭니다. **레코드**&#x200B;로 막대에 색상을 지정하도록 선택하면 레코드 색상과 일치하며 같은 색상의 어두운 음영이 레코드 막대의 왼쪽 여백에 추가됩니다.
 
-    The Color setting is turned off by default.
+     ![달력 보기 레코드 색 막대](assets/calendar-record-color-bar.png)
 
-1. To change the color associated with a record, do the following: 
+     자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
 
-    1. From the table view, click the record color bar
-        Or 
-        From the record details preview or page, click the record color circle. 
-    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+   색상 설정은 기본적으로 꺼져 있습니다.
 
-        Once selected, the new color is applied immediately. 
+1. 레코드와 연관된 색상을 변경하려면 다음을 수행합니다.
+
+   1. 표 보기에서 레코드 색상 막대를 클릭합니다
+      또는
+      레코드 세부 사항 미리 보기 또는 페이지에서 레코드 색상 원을 클릭합니다.
+   1. 새 색상을 선택하려면 **견본** 또는 **사용자 지정** 탭을 클릭하십시오.
+
+      선택하면 새 색상이 즉시 적용됩니다.
 
 </div>
-
--->

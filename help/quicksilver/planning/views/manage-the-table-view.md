@@ -9,30 +9,24 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ce4f0de26be9a0b239c2464c97a3b47038be9108
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3684
+source-wordcount: 3910
 ht-degree: 2%
 
 ---
 
 # 표 보기 관리
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 
 {{planning-important-intro}}
@@ -309,19 +303,31 @@ Old:
 
    기본 썸네일 이미지가 새 레코드에도 추가됩니다.
 
+1. (선택 사항) 하나 이상의 레코드 또는 행을 선택한 다음 **handle** 아이콘 ![Handle 아이콘](assets/handle-icon.png)을(를) 레코드의 왼쪽으로 끌어다 놓아 행 순서를 변경합니다.
+
+   >[!NOTE]
+   >
+   >테이블 뷰에 하나 이상의 정렬 또는 그룹화를 적용하는 경우 행 순서를 변경할 수 없습니다.
+   >
+   >행 순서에 대한 변경 내용은 동일한 보기의 레코드 유형에 액세스하는 모든 사용자에게 표시됩니다.
+
 1. (선택 사항) 레코드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **썸네일 편집**&#x200B;을 클릭하여 썸네일을 편집합니다.
 1. 표 상단의 **필드**&#x200B;를 클릭한 다음 **썸네일** 필드에 대한 전환을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다.
 
    자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
 
-<!--
-For July 23: you might need to add some spacing below:
-1. <span class="preview">(Optional) Click **Fields** at the top of the table, then click **Color** to display the color of a record to the left of its primary field. Colors are assigned randomly by default for each new record. The **Color** setting is deselected by default.</span>
-1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
-    <span class="preview">
-    ![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
-    </span>
--->
+1. <span class="preview">(선택 사항) 표 상단의 **필드**&#x200B;를 클릭한 다음 **색상**&#x200B;을 클릭하여 기본 필드 왼쪽에 레코드 색상을 표시합니다. 색상은 각 새 레코드에 대해 기본적으로 임의로 할당됩니다. **색상** 설정은 기본적으로 선택 해제되어 있습니다.</span>
+
+1. <span class="preview">(선택 사항 및 조건부) **색상** 설정을 켜면 레코드의 기본 필드 왼쪽에 있는 색상 막대를 클릭하고 **색상 견본** 또는 **사용자 지정** 탭에서 색상을 선택한 다음 상자 바깥쪽을 클릭하여 닫습니다. 색상이 즉시 적용됩니다.</span>
+
+   <div class="preview">
+
+   ![색상 코딩 색상 선택기 상자 기록](assets/color-picker-for-record-color-coding.png)
+
+   자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
+
+   </div>
+
 
 ### 필터 추가 {#add-filters-1}
 
@@ -535,7 +541,7 @@ For July 23: you might need to add some spacing below:
 
 * 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
 * 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
-&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —현재 이 그룹화를 &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—*************** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —현재 이 그룹화를 ******************—>
 * 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
 * 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.

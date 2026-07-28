@@ -9,30 +9,24 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 4223
+source-wordcount: 4315
 ht-degree: 2%
 
 ---
 
 # 타임라인 보기 관리
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 {{planning-important-intro}}
 
@@ -549,20 +543,12 @@ this is not possible right now; if this is the same functionality as the table v
    * **기본(회색)**: 그룹화의 색상이 회색으로 설정되어 있습니다. 이것이 기본값입니다.
    * **필드 값**: 그룹화의 색상은 그룹화하는 필드의 색과 일치합니다.
 
-     >[!NOTE]
-     >
-     >    * 색상을 색상으로 구분된 옵션이 있는 필드에만 일치시킬 수 있습니다. 예를 들어 색상을 상태 필드 또는 색상과 연관된 옵션이 있는 필드와 일치시킬 수 있습니다.
-     >    
-     >    * 연결된 레코드 및 조회 필드에 색상을 일치시킬 수 없습니다.
+   >[!NOTE]
+   >
+   >* 색상을 색상으로 구분된 옵션이 있는 필드에만 일치시킬 수 있습니다. 예를 들어 색상을 상태 필드 또는 색상과 연관된 옵션이 있는 필드와 일치시킬 수 있습니다.
+   >    
+   >* 프로덕션 환경에서는 연결된 레코드 또는 해당 조회 필드에 색상을 일치시킬 수 없습니다. <span class="preview">미리 보기 환경에서는 연결된 레코드에 색상을 일치시킬 수 있지만 조회 필드에는 색상을 일치시킬 수 없습니다. </span>
 
-     <!--
-        For July 23: replace the note above with this note for the July 23 release:
-        >[!NOTE]
-        >
-        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-        >    
-        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
-        -->
 
    예를 들어 다중 선택 또는 단일 선택 필드에는 색상으로 구분된 옵션이 있을 수 있습니다.
 
@@ -577,11 +563,7 @@ this is not possible right now; if this is the same functionality as the table v
    * **레코드 종류**: 레코드 색이 선택한 레코드 종류의 색과 일치합니다. 기본 옵션입니다.
    * **필드 값**: 레코드 색이 지정한 필드 색과 일치합니다. 10단계를 계속합니다. <!--ensure this stays accurate-->
    * **그룹화**: 레코드 색이 그룹화에 지정한 색과 일치합니다. 타임라인 보기에 적용된 그룹화가 없으면 이 옵션은 흐리게 표시됩니다.
-   * **없음**: 레코드가 흰색 막대에 표시됩니다.
-
-   <!--
-    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
-    -->
+   * **없음**: 레코드가 흰색 막대에 표시됩니다. <span class="preview">없음 옵션이 미리 보기 환경에서 제거되었습니다.</span>
 
 1. (조건부) 레코드 색으로 **필드 값**&#x200B;을(를) 선택한 경우 **레코드 색과 일치** 드롭다운 메뉴에서 필드를 선택합니다.
 
