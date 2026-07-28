@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 46
 ht-degree: 0%
@@ -38,3 +38,4 @@ ht-degree: 0%
 * [&#x200B; [!DNL Workfront Proof]에서 결제 방법 선택](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
 * [&#x200B; [!DNL Workfront Proof] 인보이스 다운로드 중](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
 * [&#x200B; [!DNL Workfront Proof] 계정 닫기](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+

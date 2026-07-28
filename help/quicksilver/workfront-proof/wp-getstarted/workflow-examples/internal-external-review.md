@@ -13,7 +13,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 625
 ht-degree: 0%
@@ -72,3 +72,4 @@ ht-degree: 0%
 1. **새 버전**(필요한 경우) - 디자이너가 파일을 수정하고 [!DNL Workfront Proof]에 새 버전으로 업로드합니다. 자세한 내용은 를 참조하십시오.
 
 증명이 승인될 때까지 이 프로세스를 반복할 수 있습니다.
+

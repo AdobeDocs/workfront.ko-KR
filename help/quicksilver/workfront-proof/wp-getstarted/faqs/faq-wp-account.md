@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 875
 ht-degree: 0%
@@ -90,3 +90,4 @@ ht-degree: 0%
 ## 내 [!DNL Workfront Proof] 구독에 대한 지불은 어떻게 해야 합니까?
 
 월별 구독료는 신용 카드로만 지불됩니다. 연간 가입은 신용 카드와 은행 송금 중 하나를 선택할 수 있습니다. <!--Visit the [Account Payment in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) help page for additional information.-->
+

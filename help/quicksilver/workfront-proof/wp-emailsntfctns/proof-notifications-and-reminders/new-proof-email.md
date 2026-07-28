@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 806
 ht-degree: 0%
@@ -50,18 +50,18 @@ ht-degree: 0%
 * 증명 이미지의 썸네일
 * 다음 증명 세부 정보:
 
-   * 교정쇄 이름
-   * 버전 번호
-   * 검토자 목록 및 증명 진행 상황
-   * 다른 사용자와 증명을 공유할 수 있는 링크
+  * 교정쇄 이름
+  * 버전 번호
+  * 검토자 목록 및 증명 진행 상황
+  * 다른 사용자와 증명을 공유할 수 있는 링크
 
-     이를 통해 원본 파일에 대한 증명 URL 및/또는 다운로드 링크를 공유할 수 있습니다. 이 경우 증명에 검토자를 명시적으로 추가할 수 없으며 공개 증명 URL만 공유하게 되고 수신자는 증명에 대한 읽기 전용 액세스 권한을 받게 됩니다.
+    이를 통해 원본 파일에 대한 증명 URL 및/또는 다운로드 링크를 공유할 수 있습니다. 이 경우 증명에 검토자를 명시적으로 추가할 수 없으며 공개 증명 URL만 공유하게 되고 수신자는 증명에 대한 읽기 전용 액세스 권한을 받게 됩니다.
 
-     자세한 내용은 [증명 공유 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)를 참조하십시오.
+    자세한 내용은 [증명 공유 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)를 참조하십시오.
 
-     이 링크가 받는 사람의 전자 메일에 표시되지 않도록 하려면 증명에서 [!UICONTROL 공개 공유] 설정을 사용하지 않도록 설정할 수 있습니다.
+    이 링크가 받는 사람의 전자 메일에 표시되지 않도록 하려면 증명에서 [!UICONTROL 공개 공유] 설정을 사용하지 않도록 설정할 수 있습니다.
 
-     원본 파일 및 공개 URL 다운로드). 자세한 내용은 [증명 세부 정보 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)를 참조하십시오.
+    원본 파일 및 공개 URL 다운로드). 자세한 내용은 [증명 세부 정보 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)를 참조하십시오.
 
 ## 활동 로그
 
@@ -116,3 +116,4 @@ ht-degree: 0%
 * 사용자 지정 메시지를 추가하도록 선택하면 상자가 확장되고 이메일 본문에 사용자 지정 제목 줄(4)과 사용자 지정 텍스트(5)를 넣을 수 있습니다. 링크 (6)을 클릭하여 사용자 지정 메시지를 삭제할 수도 있습니다.
 
 ![Proof_Details_page_3.png](assets/proof-details-page-3-350x258.png)
+

@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 51
 ht-degree: 0%
@@ -36,3 +36,4 @@ ht-degree: 0%
 * [스팸 필터를 사용하지 않도록  [!DNL Workfront Proof] 이메일 구성](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
 * [일반 이메일 클라이언트에 대한 스팸 설정 구성](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
 * [[!DNL Workfront Proof]개의 SPF 레코드](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
+

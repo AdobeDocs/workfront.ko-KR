@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 403
 ht-degree: 0%
@@ -59,3 +59,4 @@ ht-degree: 0%
   >증명 작성자는 생성된 각 증명에 대해 별도의 [!UICONTROL 증명 작성] 이메일을 받습니다. 자세한 내용은 [증명 [!UICONTROL 확인] 메일](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)을 참조하세요.
 
 * 사용자 또는 검토자가 예상 전자 메일 알림을 받지 못한 경우 [스팸 필터를 사용하지 않도록 전자 메일 구성 [!DNL Workfront Proof] 을 참조하세요](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).
+

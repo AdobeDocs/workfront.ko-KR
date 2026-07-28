@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 1127
 ht-degree: 0%
@@ -90,3 +90,4 @@ ht-degree: 0%
 ## 증명에 대한 모든 댓글 목록을 생성할 수 있습니까?
 
 예. 증명에 남아 있는 댓글의 *[!UICONTROL 인쇄 요약]*&#x200B;을(를) 생성할 수 있습니다. 이 문서는 단일 버전에 대해 또는 이 검토자와 공유된 모든 버전에 대해 생성할 수 있습니다. 증명에 대한 모든 주석, 마크업 및 결정 목록이 표시됩니다. 이 기능에 대한 자세한 내용은 [댓글 인쇄 및 내보내기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)를 참조하십시오.
+

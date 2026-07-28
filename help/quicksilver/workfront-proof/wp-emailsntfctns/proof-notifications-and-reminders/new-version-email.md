@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 93
 ht-degree: 0%
@@ -41,3 +41,4 @@ ht-degree: 0%
 >[!UICONTROL 계정 설정]에서 이메일 알림을 기본값으로 사용하지 않도록 설정한 경우 새 버전 페이지에서 [!UICONTROL 이메일로 사람들에게 알림] 상자를 선택하지 않으면 검토자는 [!UICONTROL 새 버전] 이메일을 받지 못합니다.
 
 ![New_Version_Email.png](assets/new-version-email-350x212.png)
+

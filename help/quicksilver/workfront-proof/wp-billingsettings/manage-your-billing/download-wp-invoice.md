@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 384
 ht-degree: 0%
@@ -71,3 +71,4 @@ ht-degree: 0%
 계정의 신용 카드 세부 사항을 변경하는 방법에 대한 자세한 내용은 [Workfront Proof에서 결제 방법 선택](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)을 참조하십시오.
 
 <!--For the detailed information on payments and invoicing, see [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md). -->
+

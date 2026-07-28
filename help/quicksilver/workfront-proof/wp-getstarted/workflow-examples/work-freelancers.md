@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 931
 ht-degree: 0%
@@ -85,3 +85,4 @@ ht-degree: 0%
 * [!UICONTROL 읽기 전용]과 같이 증명에 부여된 역할과 증명과 관련된 전자 메일 커뮤니케이션을 관리할 수도 있습니다. 자세한 내용은 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
 * 프리랜서가 검토 과정에 참여하지 않도록 하되 최종 결정을 통보 받도록 하려면 [!UICONTROL Dropzone] 설정 내에서 기본 증명 역할을 설정하고 모든 [!UICONTROL Dropzone] 제출자에 대한 이메일 알림을 각각 [에서 증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) 및 [에서 이메일 알림 설정을 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)할 수 있습니다. 자세한 내용은 [전자 메일 경고,](https://support.workfront.com/hc/en-us/sections/115000911867-Email-alerts) [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) 및 [전자 메일 알림 설정 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)을 참조하십시오.
 * 프리랜서가 검토 프로세스에 적극적으로 참여하도록 하려면, 증명 세부 정보 페이지에서 이러한 세부 정보를 인라인 편집하여 필요에 따라 증명 역할 및 이메일 경고 설정을 조정할 수 있습니다. 해당 페이지에 대한 자세한 내용은 [증명 세부 정보 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)를 참조하십시오.
+

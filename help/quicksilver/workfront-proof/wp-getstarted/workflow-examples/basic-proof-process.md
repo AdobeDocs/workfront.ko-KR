@@ -13,7 +13,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 205
 ht-degree: 0%
@@ -41,5 +41,6 @@ ht-degree: 0%
 * **전자 메일 경고**: 디자이너 또는 프로젝트 관리자가 설정한 전자 메일 경고에 따라 클라이언트의 검토 요약이 포함된 전자 메일을 받습니다. 자세한 내용은 [전자 메일 알림 설정 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)을 참조하세요.
 
 * **새 버전**(필요한 경우): 디자이너 또는 프로젝트 관리자가 파일을 수정하고 [!DNL Workfront Proof]에 새 버전으로 업로드합니다.
+
 
 

@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 180
 ht-degree: 0%
@@ -45,3 +45,4 @@ ht-degree: 0%
 1. 증명 뷰어의 왼쪽 아래에 있는 [!UICONTROL 세부 정보 페이지] 아이콘을 클릭합니다. ![Details_page_btn.png](assets/details-page-btn.png)
 
 1. 표시되는 [!UICONTROL 증명 세부 정보] 페이지의 [!UICONTROL 워크플로] 섹션에서 **[!UICONTROL 전자 메일 경고]** 아래에 드롭다운 메뉴에서 원하는 옵션을 클릭합니다.
+

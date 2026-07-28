@@ -13,7 +13,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 52
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 * [&#x200B; [!DNL Workfront Proof]의 내부 검토 및 외부 검토](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
 * [&#x200B; [!DNL Workfront Proof]에서 디자이너 및 프로젝트 관리자 작업](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
 * [&#x200B; [!DNL Workfront Proof]에서 프리랜서와 함께 작업](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
+

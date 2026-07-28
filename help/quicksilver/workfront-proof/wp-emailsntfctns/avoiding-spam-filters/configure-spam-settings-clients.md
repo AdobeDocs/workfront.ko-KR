@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 1499
 ht-degree: 0%
@@ -235,3 +235,4 @@ Outlook의 수신 허용 - 보낸 사람 목록에 두 개의 [!DNL Workfront Pr
 1. **[!UICONTROL 보낸 사람 필터]** 필드에서 **[!UICONTROL 지정한 주소에서 메일 차단]**&#x200B;을 선택하고 차단된 주소 목록에 [!DNL Workfront Proof] 주소 또는 도메인 이름이 포함된 경우 목록에서 해당 주소를 각각 삭제하십시오.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+

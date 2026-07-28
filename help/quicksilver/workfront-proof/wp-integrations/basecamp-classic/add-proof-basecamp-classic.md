@@ -14,7 +14,7 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 667
 ht-degree: 0%
@@ -92,3 +92,4 @@ ht-degree: 0%
 > 다른 브라우저 창에서 열려 있는 [!DNL Basecamp Classic] 세션이 없는 경우 [!DNL Basecamp]에서 메시지를 보려면 먼저 [!DNL Basecamp Classic] 계정에 로그인해야 합니다.
 
 [증명 검토 [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)도 참조하세요.
+
