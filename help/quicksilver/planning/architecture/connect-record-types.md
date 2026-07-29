@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3058
+source-wordcount: 3068
 ht-degree: 1%
 
 ---
@@ -279,7 +279,7 @@ Old:
 
      선택한 레코드 또는 개체 유형에 대한 새 연결 탭이 열립니다.
 
-   * **Adobe GenStudio** 섹션에서 Adobe GenStudio for Performance Marketing의 **브랜드**
+   * **Adobe 응용 프로그램** 섹션에서 Adobe GenStudio for Performance Marketing의 **브랜드**
 
      ![GenStudio 브랜드 연결 선택](assets/brand-genstudio-connection-selection.png)
 
@@ -337,13 +337,18 @@ Old:
    >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 
-1. (조건부) Experience Manager, Workfront Planning 레코드 유형 또는 GenStudio Brand에 연결하도록 선택하는 경우 **모양 기록** 영역에서 다음 옵션 중 하나를 선택합니다.
+1. (선택 사항) **모양 기록** 영역에서 다음 옵션 중 하나를 선택합니다.
 
    * **이름 및 이미지**: 연결된 레코드의 이름과 축소판 그림 또는 아이콘이 모두 연결된 레코드 필드에 표시됩니다. 기본 옵션입니다.
    * **이름**: 연결된 레코드의 이름만 연결된 레코드 필드에 표시됩니다.
    * **이미지**: 연결된 레코드의 축소판이나 아이콘만 연결된 레코드 필드에 표시됩니다.
+   <div class="preview">
 
-   썸네일 이미지가 없는 레코드에는 레코드 유형 아이콘이 대신 표시됩니다. 연결된 레코드가 표시되는 방법의 예는 **레코드 모양** 영역에 표시됩니다.
+   * **색상 및 이름**: Planning 레코드를 연결하면 연결된 각 레코드의 색상이 레코드 이름 왼쪽에 원으로 표시됩니다. 다른 응용 프로그램의 객체 유형과 레코드 유형을 연결하는 경우에는 사용할 수 없습니다.
+
+   </div>
+
+   썸네일 이미지가 없는 레코드에는 레코드 유형 아이콘이 대신 표시됩니다.
 
    >[!NOTE]
    >
@@ -351,9 +356,9 @@ Old:
    >
    >* 레코드의 이름은 레코드의 기본 필드입니다. 자세한 내용은 [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md)를 참조하세요.
    >
-   >* Workfront 개체 유형을 선택할 때는 레코드 모양을 선택할 수 없습니다.
+   >* Workfront에서 오브젝트 유형을 선택할 때는 레코드 모양을 선택할 수 없습니다.
    >
-   >* 레코드 표시 영역에서 선택하는 내용은 모든 보기 및 세부 정보 페이지를 포함하여 시스템의 모든 위치에서 연결에 레코드가 표시되는 방식을 결정합니다.
+   >* **레코드 모양** 영역에서 선택한 항목에 따라 모든 보기 및 세부 정보 페이지를 포함하여 시스템의 모든 연결에서 레코드가 표시되는 방식이 결정됩니다.
 
 1. 연결 중인 레코드 형식에서 필드를 추가하려면 **조회 필드 선택**&#x200B;을 선택하십시오. 조회 필드는 연결 중인 레코드 또는 개체 유형과 관련된 필드입니다. 이 레코드들을 연결하면 연결하려는 레코드의 레코드나 개체에 있는 정보가 표시됩니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
@@ -368,7 +373,7 @@ Old:
    >
    >* Workfront 개체의 날짜 필드 정보는 Workfront에 표시되는 방식에 관계없이 Workfront Planning에서 24시간 형식으로 표시됩니다.
    >
-   >   예를 들어 프로젝트의 계획된 시작 일자가 Workfront에서 오후 3:00(으)로 표시되는 경우 가져온 조회 필드에서는 Workfront Planning에서 15:00(으)로 표시됩니다.
+   >   예를 들어 프로젝트의 계획된 시작 일자가 Workfront에서 오후 3시로 표시되는 경우 가져온 조회 필드에서는 Workfront Planning에서 15시로 표시됩니다.
 
 1. Click **Create**.
 
@@ -429,9 +434,9 @@ Old:
    * **SUM**: 연결된 레코드 필드에서 선택한 여러 레코드에서 얻은 모든 값의 합계를 표시합니다.
    * **AVG**: 연결된 레코드 필드에서 선택한 여러 레코드에서 얻은 모든 값의 평균을 표시합니다.
    * **UNIQUE**: 조회 필드 값에서 중복을 제거하고 고유 값만 표시합니다. 다음 필드 유형에는 사용할 수 없습니다.
-      * 단락
-      * 확인란
-      * 사람
+     * 단락
+     * 확인란
+     * 사람
 
    >[!NOTE]
    >

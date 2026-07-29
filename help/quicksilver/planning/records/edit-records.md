@@ -20,20 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3103
+source-wordcount: 3223
 ht-degree: 0%
 
 ---
 
 # 레코드 편집
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 {{planning-important-intro}}
 
@@ -145,17 +145,17 @@ Old:
 * 작업 영역에 대한 권한이 부여된 경우 직접 만든 레코드나 다른 사용자가 만든 레코드를 편집할 수 있습니다.
 * 다음 영역에서 레코드 필드를 편집할 수 있습니다.
 
-   * 레코드 보기의 레코드 미리 보기
-   * 레코드의 세부 정보 페이지
-   * 테이블 보기에서 인라인입니다.
-   * 레코드 크기 조정 또는 드래그 앤 드롭 시 표시되는 달력 및 타임라인 보기입니다. 레코드의 날짜가 업데이트됩니다.
+  * 레코드 보기의 레코드 미리 보기
+  * 레코드의 세부 정보 페이지
+  * 테이블 보기에서 인라인입니다.
+  * 레코드 크기 조정 또는 드래그 앤 드롭 시 표시되는 달력 및 타임라인 보기입니다. 레코드의 날짜가 업데이트됩니다.
 
 * 사용자가 보기에서 레코드를 편집하면 변경 내용이 모든 보기에서 즉시 표시되고 레코드 페이지가 다른 모든 사용자에게 표시됩니다.
 
 * 다음 유형의 필드는 자동으로 업데이트되며, 해당 값을 수동으로 편집할 수 없습니다.
-   * 다른 레코드의 연결된 필드
-   * 공식 유형 필드
-   * 시스템 필드 (작성자, 생성자, 마지막 수정자, 마지막 수정 날짜, 승인 날짜, 승인자 , 레코드 ID)
+  * 다른 레코드의 연결된 필드
+  * 공식 유형 필드
+  * 시스템 필드 (작성자, 생성자, 마지막 수정자, 마지막 수정 날짜, 승인 날짜, 승인자 , 레코드 ID)
 * 표시되는 레코드가 다른 레코드에 연결되어 있는 경우 편집 중인 레코드의 새 정보는 해당 레코드가 연결된 모든 작업 영역에서 연결된 레코드에 반영됩니다.
 * 레코드를 일괄적으로 편집할 수 없습니다. <!--this will probably change-->
 * URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다. .
@@ -167,8 +167,8 @@ Old:
 
   레코드의 날짜를 편집하려면 이 문서의 다음 섹션 중 하나를 참조하십시오.
 
-   * [레코드 유형의 달력 보기에서 레코드 편집](#edit-a-record-in-the-calendar-view-of-a-record-type)
-   * [레코드 유형의 타임라인 보기에서 레코드 편집](#edit-a-record-in-the-timeline-view-of-a-record-type)
+  * [레코드 유형의 달력 보기에서 레코드 편집](#edit-a-record-in-the-calendar-view-of-a-record-type)
+  * [레코드 유형의 타임라인 보기에서 레코드 편집](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
 
 ## 레코드 편집
@@ -254,10 +254,10 @@ Old:
 
    * 외부 소스(예: Excel 파일)에서 하나 이상의 셀을 복사한 다음 다음 필드 유형 중 하나에 붙여넣습니다.
 
-      * 사람 필드. 값이 한 개인 필드만 지원됩니다.
-      * 텍스트 필드.
-      * 필드를 선택합니다.
-      * 숫자, 백분율 및 통화 필드.
+     * 사람 필드. 값이 한 개인 필드만 지원됩니다.
+     * 텍스트 필드.
+     * 필드를 선택합니다.
+     * 숫자, 백분율 및 통화 필드.
 
    외부 소스에서 정보를 복사하여 Workfront 또는 다른 애플리케이션의 연결 필드를 포함한 다른 필드 유형에 붙여넣을 수 없습니다.
 
@@ -296,7 +296,7 @@ Old:
    * **보기** 또는 **새 탭에서 열기**: 레코드 페이지가 열립니다.
    * **링크 복사**: 레코드의 페이지에 링크를 복사하려면
    * **축소판 편집**: 레코드에 축소판을 추가하려면
-자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
+     자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
    * **복제**: 레코드의 동일한 복제가 만들어집니다.
    * **위에 레코드 삽입/아래에 레코드 삽입**: 새 레코드를 추가할 수 있도록 새 행을 추가합니다. 미리보기 환경에서는 이 작업을 수행할 수 없습니다.
    * **삭제**: 레코드를 삭제합니다. 삭제된 레코드는 최대 30일 동안 [최근에 삭제됨] 상자에 저장됩니다.
@@ -372,6 +372,9 @@ Old:
    >  * 레코드 종류를 연결하여 만든 다른 레코드에서 필드를 조회합니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
    >  * 생성자, 생성일, 마지막 수정자, 마지막 수정일, 공식 필드 유형의 필드.
 
+1. <span class="preview">(선택 사항) 레코드 색상을 변경하려면 레코드 이름 왼쪽에 있는 색상 원을 클릭합니다. </span>
+   <span class="preview">레코드를 만들 때 자동으로 색상이 할당됩니다. 새 색상을 선택하려면 **견본** 또는 **사용자 지정**&#x200B;을 클릭하세요.</span>
+
 1. (선택 사항) 레코드에 표지 이미지를 추가하려면 **표지 추가**&#x200B;를 클릭합니다. 자세한 내용은 [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)를 참조하십시오.
 
 1. (선택 사항) 썸네일 아이콘 위로 마우스를 가져간 다음 **자세히** ![추가 메뉴](assets/more-menu.png) > **썸네일 편집**&#x200B;을 클릭하여 썸네일 이미지를 추가합니다. 자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
@@ -428,6 +431,11 @@ Old:
    >  * 생성자, 생성일, 마지막 수정자, 마지막 수정일, 공식 필드 유형의 필드.
 
 1. (선택 사항) 필드에 대한 설명을 보려면 표시되는 필드 오른쪽에 있는 정보 아이콘을 클릭합니다.
+1. <span class="preview">(선택 사항) 레코드 색상을 변경하려면 레코드 이름 왼쪽에 있는 색상 원을 클릭합니다. </span>
+   <span class="preview">레코드를 만들 때 자동으로 색상이 할당됩니다. 새 색상을 선택하려면 **견본** 또는 **사용자 지정**&#x200B;을 클릭하세요.</span>
+
+   ![레코드 세부 정보 상자에 대한 색 선택 상자](assets/color-picker-box-for-record-color-in-details-page.png)
+
 1. (선택 사항) 레코드에 표지 이미지를 추가하려면 **표지 추가**&#x200B;를 클릭합니다
 
    또는

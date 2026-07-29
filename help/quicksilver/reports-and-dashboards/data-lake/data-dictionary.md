@@ -7,10 +7,10 @@ description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+source-git-commit: 0666f0bee54821051a95354c38e775c02e935fa1
 workflow-type: tm+mt
-source-wordcount: '11896'
-ht-degree: 7%
+source-wordcount: '11533'
+ht-degree: 8%
 
 ---
 
@@ -8898,194 +8898,114 @@ Workfront Planning 레코드 유형에 구성된 모든 필드의 현재 정의�
         <td>관련 필드</td>
     </tr>
     <tr>
-        <td>`ID`</td>
-        <td>Varchar</td>
-        <td>필드 정의에 대한 고유 식별자입니다. 이 보기에 대한 기본 키입니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'RECORDTYPEID'</td>
-        <td>Varchar</td>
-        <td>이 필드가 속한 레코드 종류의 고유 식별자입니다. 레코드 유형 세부 정보를 조회하려면 RECORDTYPE\_CURRENT와 함께 사용합니다.</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>'DISPLAYNAME'</td>
-        <td>Varchar</td>
-        <td>Planning 인터페이스에 표시된 필드의 표시 이름입니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`ALIASNAME`</td>
+        <td>별칭</td>
         <td>Varchar</td>
         <td>시스템 수준 식별 및 API 액세스에 사용되는 URL이 안전한 소문자 필드 표시 이름 버전(예: "종료 날짜"가 'end_date'가 되고, "완료율"이 'percent_complete'가 됨).</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`설명`</td>
-        <td>Varchar</td>
-        <td>필드의 목적에 대한 사용자 제공 설명.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'필드 유형'</td>
-        <td>Varchar</td>
-        <td>데이터 유형 또는 필드 범주. 가능한 값에는 '텍스트', '긴 텍스트', '숫자', '백분율', '통화', '날짜', '부울', '단일 선택', '다중 선택', '참조', '조회', '공식', '사용자', '작성자' 및 '작성자' 등이 포함됩니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'HASERROR'</td>
-        <td>Varchar</td>
-        <td>필드에 현재 구성 또는 동기화 오류가 있는지 여부를 나타냅니다. 값은 'true' 또는 'false' 문자열입니다. 값이 'true'이면 필드가 오류 상태이고 데이터가 올바르게 반환되지 않을 수 있습니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'LINKEDFIELD'</td>
-        <td>변형</td>
-        <td>이 필드가 연결된 소스 필드의 전체 필드 정의가 포함된 JSON 개체입니다. '참조' 및 '조회' 필드 유형에 대해 표시됩니다. '별칭', 'displayName', 'fieldType' 및 'createdAt'와 같은 속성이 포함됩니다. 연결되지 않은 필드의 경우 Null.</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>'옵션'</td>
-        <td>변형</td>
-        <td>'single-select' 및 'multi-select' 필드에 대한 선택 개체의 JSON 배열입니다. 각 선택 객체에는 'color'(명명된 색상 레이블), 'displayName'(UI에 표시된 레이블) 및 'name'(내부 API 이름)이 포함됩니다. 선택하지 않은 필드 유형의 경우 Null.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`DATEOPTIONS`</td>
-        <td>변형</td>
-        <td>'날짜' 필드에 대한 날짜별 표시 구성이 포함된 JSON 개체. 'dateFormat'(예: 'locale') 및 'timeFormat'(시간이 표시되지 않는 경우 null)을 포함합니다. 일자가 아닌 필드 유형의 경우 Null.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FORMULAOPTIONS`</td>
-        <td>변형</td>
-        <td>'수식' 필드에 대한 수식 구성이 포함된 JSON 개체입니다. 'formula'(사람이 읽을 수 있는 formula 표현식), 'returnType'(예: '백분율', '숫자'), 'numberOptions'(정밀도, 시각화) 및 'dateOptions'를 포함합니다. 비공식 필드의 경우 Null.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`REFERENCEOPTIONS`</td>
-        <td>변형</td>
-        <td>다른 Planning 레코드 유형에 연결되는 '참조' 필드에 대한 연결 구성이 포함된 JSON 개체입니다. 'backField'(연결된 레코드 유형의 역방향 참조 필드 정의) 및 'linkedRecordTypeId'가 포함됩니다. 비참조 필드의 경우 Null.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'조회 옵션'</td>
-        <td>변형</td>
-        <td>연결된 레코드 유형에서 값을 가져오는 '조회' 필드에 대한 조회 구성이 포함된 JSON 개체입니다. 'referenceFieldId'(조회를 실행하는 참조 필드의 ID), '롤업'(집계 방법 또는 롤업 없음의 경우 null) 및 'sourceField'(조회 중인 필드의 'id'가 있는 개체)가 포함됩니다. 비조회 필드의 경우 Null.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'NUMBEROPTIONS'</td>
-        <td>변형</td>
-        <td>'숫자', '백분율' 및 '통화' 필드에 대한 숫자 형식 옵션이 포함된 JSON 개체입니다. 'allowNegatives'(부울), 'currency'(통화 코드 또는 null), 'precision'(소수점 이하 자리) 및 'visualizationType'(표시 스타일 또는 일반 텍스트의 null)이 포함됩니다. 숫자가 아닌 필드 유형의 경우 Null.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'EXTERNALOPTIONS'</td>
-        <td>변형</td>
-        <td>Planning 외부의 외부 시스템에 연결된 필드에 대한 구성이 포함된 JSON 개체입니다. 일반적으로 기본적으로 생성된 필드의 경우 null입니다. 외부에 연결된 레코드 유형의 필드에 대해 채워집니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`CREATEDAT`</td>
-        <td>Timestamp\_NTZ</td>
-        <td>이 필드가 만들어진 시점의 타임스탬프(시간대 없음).</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'작성자'</td>
-        <td>Varchar</td>
-        <td>이 필드를 만든 사용자의 식별자입니다.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`UPDATEDAT`</td>
-        <td>Timestamp\_NTZ</td>
-        <td>이 필드가 마지막으로 업데이트된 시간의 타임스탬프(시간대 없음).</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'업데이트한 사람'</td>
-        <td>Varchar</td>
-        <td>이 필드를 마지막으로 업데이트한 사용자의 식별자입니다.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`USERID`</td>
-        <td>Varchar</td>
-        <td>이 필드와 연결된 사용자의 식별자(일반적으로 필드 소유자).</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>'생성됨'</td>
+        <td>생성됨</td>
         <td>숫자</td>
         <td>이 필드 레코드에 영향을 준 마지막 작업 유형을 나타내는 플래그입니다. 값이 1이면 가장 최근 데이터 새로 고침 주기에 레코드가 생성되었음을 나타내고, 0이면 레코드가 생성되지 않았음을 나타냅니다. 실제 생성 타임스탬프에 대해서는 CREATEDAT 를 참조하십시오.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'업데이트됨'</td>
-        <td>숫자</td>
-        <td>이 필드 레코드에 영향을 준 마지막 작업 유형을 나타내는 플래그입니다. 값이 1이면 가장 최근 데이터 새로 고침 주기에 레코드가 업데이트되었음을 나타내고, 0이면 레코드가 업데이트되지 않았음을 나타냅니다. 실제 마지막 업데이트 타임스탬프에 대해서는 UPDATEDAT를 참조하십시오.</td>
+        <td>CREATEDAT</td>
+        <td>Timestamp\_NTZ</td>
+        <td>이 필드가 만들어진 시점의 타임스탬프(시간대 없음).</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'삭제됨'</td>
+        <td>작성자</td>
+        <td>Varchar</td>
+        <td>이 필드를 만든 사용자의 식별자입니다.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+    </tr>
+    <tr>
+        <td>날짜 옵션</td>
+        <td>변형</td>
+        <td>'날짜' 필드에 대한 날짜별 표시 구성이 포함된 JSON 개체. 'dateFormat'(예: 'locale') 및 'timeFormat'(시간이 표시되지 않는 경우 null)을 포함합니다. 일자가 아닌 필드 유형의 경우 Null.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>삭제됨</td>
         <td>숫자</td>
         <td>이 필드가 소프트 삭제되었는지 여부를 나타내는 플래그입니다. 값이 1이면 삭제됨을 나타내고, 0이면 활성을 나타냅니다.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'복원됨'</td>
-        <td>숫자</td>
-        <td>이 필드가 일시 삭제된 후 복원되었는지 여부를 나타내는 플래그입니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'TRIGGEREDBYSERVICE'</td>
+        <td>설명</td>
         <td>Varchar</td>
-        <td>이 필드 레코드에 대한 마지막 수정을 트리거한 서비스 또는 통합의 이름입니다. 'Unknown' 값은 발신 서비스를 결정할 수 없음을 나타냅니다.</td>
+        <td>필드의 목적에 대한 사용자 제공 설명.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'ISFUSION'</td>
+        <td>DISPLAYNAME</td>
+        <td>Varchar</td>
+        <td>Planning 인터페이스에 표시된 필드의 표시 이름입니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Timestamp\_NTZ</td>
+        <td>이 필드 레코드를 데이터 레이크로 마지막으로 로드한 데이터 새로 고침 작업의 타임스탬프입니다. 각 데이터 새로 고침 주기 후에 업데이트됩니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>EXTERNALOPTIONS</td>
+        <td>변형</td>
+        <td>Planning 외부의 외부 시스템에 연결된 필드에 대한 구성이 포함된 JSON 개체입니다. 일반적으로 기본적으로 생성된 필드의 경우 null입니다. 외부에 연결된 레코드 유형의 필드에 대해 채워집니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>필드 유형</td>
+        <td>Varchar</td>
+        <td>데이터 유형 또는 필드 범주. 가능한 값에는 '텍스트', '긴 텍스트', '숫자', '백분율', '통화', '날짜', '부울', '단일 선택', '다중 선택', '참조', '조회', '공식', '사용자', '작성자' 및 '작성자' 등이 포함됩니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FORMULAOPTIONS</td>
+        <td>변형</td>
+        <td>'수식' 필드에 대한 수식 구성이 포함된 JSON 개체입니다. 'formula'(사람이 읽을 수 있는 formula 표현식), 'returnType'(예: '백분율', '숫자'), 'numberOptions'(정밀도, 시각화) 및 'dateOptions'를 포함합니다. 비공식 필드의 경우 Null.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>HASERROR</td>
+        <td>Varchar</td>
+        <td>필드에 현재 구성 또는 동기화 오류가 있는지 여부를 나타냅니다. 값은 true 또는 false 문자열입니다. 값이 true이면 필드가 오류 상태이므로 데이터를 올바르게 반환하지 않을 수 있습니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>Varchar</td>
+        <td>필드 정의에 대한 고유 식별자입니다. 이 보기에 대한 기본 키입니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>ISFUSION</td>
         <td>부울</td>
         <td>이 필드가 Workfront Fusion 통합을 통해 생성되었는지 또는 관리되었는지 보여 주는 플래그. 'true' 값은 Fusion Management를 나타내고 'false' 값은 기본적으로 생성되는 필드임을 나타냅니다.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'DL_LOAD_TIMESTAMP'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>이 필드 레코드를 데이터 레이크로 마지막으로 로드한 데이터 새로 고침 작업의 타임스탬프입니다. 각 데이터 새로 고침 주기 후에 업데이트됩니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
+        <td>LINKEDFIELD</td>
+        <td>변형</td>
+        <td>이 필드가 연결된 소스 필드의 전체 필드 정의가 포함된 JSON 개체입니다. '참조' 및 '조회' 필드 유형에 대해 표시됩니다. '별칭', 'displayName', 'fieldType' 및 'createdAt'와 같은 속성이 포함됩니다. 연결되지 않은 경우 Null
 </table>
 
 ### PLANNINGRECORD\_CURRENT
@@ -9101,149 +9021,149 @@ Workfront Planning 레코드 유형에 구성된 모든 필드의 현재 정의�
         <td>관련 필드</td>
     </tr>
     <tr>
-        <td>'RECORDID'</td>
-        <td>Varchar</td>
-        <td>Planning 레코드에 대한 고유 식별자. 이 보기에 대한 기본 키입니다.</td>
-        <td>WF.PLANNINGRECORDS\_CURRENT</td>
-        <td>레코드 ID</td>
-    </tr>
-    <tr>
-        <td>`WORKSPACEID`</td>
-        <td>Varchar</td>
-        <td>이 레코드가 포함된 Planning 작업 영역의 고유 식별자입니다.</td>
-        <td>WORKSPACE\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`WORKSPACENAME`</td>
-        <td>Varchar</td>
-        <td>이 레코드가 포함된 Planning 작업 영역의 표시 이름입니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'RECORDTYPEID'</td>
-        <td>Varchar</td>
-        <td>이 레코드가 속하는 레코드 종류(예: 캠페인, 이니셔티브)에 대한 고유 식별자입니다.</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>'RECORDTYPENAME'</td>
-        <td>Varchar</td>
-        <td>이 레코드가 속한 레코드 종류의 표시 이름입니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELD_IDS'</td>
-        <td>변형</td>
-        <td>각 필드의 표시 이름을 해당 필드 ID에 매핑하는 JSON 개체(예: "{"Status": "F69bc...", "End Date": "F69bc..."}"). 사람이 읽을 수 있는 필드 이름을 FIELDID\_VALUES 및 FIELDID\_VALUES\_RAW에 사용되는 ID에 매핑할 때 사용합니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELD_VALUES_RAW'</td>
-        <td>변형</td>
-        <td>각 필드의 표시 이름을 원시(포맷되지 않은) 값에 매핑하는 JSON 개체입니다. 참조 필드의 경우 이 값은 연결된 레코드 개체의 배열입니다. 숫자 및 공식 필드의 경우 이 값은 일반 숫자 값입니다. 긴 텍스트 필드의 경우 이 값은 리치 텍스트 콘텐츠 개체입니다. 필드 표시 이름별로 처리되며, FIELD\_IDS와 일치합니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELD_VALUES'</td>
-        <td>변형</td>
-        <td>각 필드의 표시 이름을 표시 형식의 문자열 값에 매핑하는 JSON 개체입니다. 필드 표시 이름별로 처리되며, FIELD\_IDS와 일치합니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELD_TYPES`</td>
-        <td>변형</td>
-        <td>각 필드의 표시 이름을 해당 필드 유형 문자열에 매핑하는 JSON 개체(예: '텍스트', '숫자', '날짜', '단일 선택', '참조', '공식'). 필드 표시 이름별로 처리되며, FIELD\_IDS와 일치합니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELDID_VALUES'</td>
-        <td>변형</td>
-        <td>각 필드 ID를 표시 형식 값에 매핑하는 JSON 개체입니다. 단순 필드 유형의 경우 값은 문자열 또는 숫자이고, 긴 텍스트 필드의 경우 'content'(일반 텍스트) 및 'contentHTML'(HTML 형식) 속성이 모두 포함된 객체입니다. FIELD\_IDS 를 사용하여 각 필드 ID에 대한 표시 이름을 조회합니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELDID_VALUES_RAW'</td>
-        <td>변형</td>
-        <td>각 필드 ID를 원시(포맷되지 않은) 값에 매핑하는 JSON 개체입니다. 대부분의 필드 유형에서 값은 일반 문자열, 숫자 또는 에포크 밀리초 타임스탬프입니다. 긴 텍스트 필드는 일반 텍스트 콘텐츠를 문자열로 반환합니다. FIELD\_IDS 를 사용하여 각 필드 ID에 대한 표시 이름을 조회합니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELDID_FIELDID'</td>
-        <td>변형</td>
-        <td>이 레코드에 있는 모든 필드 ID를 자체 매핑으로 나열하는 JSON 개체(각 필드 ID가 자신에게 매핑됨). 특정 레코드에 채워지는 필드를 열거하거나 FIELD\_CURRENT로 상호 참조할 수 있습니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`REFERENCE_IDS`</td>
-        <td>변형</td>
-        <td>각 참조 필드의 표시 이름을 연결 레코드의 ID에 매핑하는 JSON 개체(예: '{"Project": "Ref8b471aa..."}'). 이 레코드에 대해 연결된 외부 개체를 해결하려면 REFERENCE\_CURRENT와 함께 를 사용합니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'생성됨'</td>
+        <td>생성됨</td>
         <td>숫자</td>
         <td>이 레코드에 영향을 준 마지막 작업 유형을 나타내는 플래그입니다. 값이 1이면 가장 최근 데이터 새로 고침 주기에 레코드가 생성되었음을 나타내고, 0이면 레코드가 생성되지 않았음을 나타냅니다. 실제 생성 타임스탬프에 대해서는 CREATEDAT 를 참조하십시오.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'업데이트됨'</td>
-        <td>숫자</td>
-        <td>이 레코드에 영향을 준 마지막 작업 유형을 나타내는 플래그입니다. 값이 1이면 가장 최근 데이터 새로 고침 주기에 레코드가 업데이트되었음을 나타내고, 0이면 레코드가 업데이트되지 않았음을 나타냅니다. 실제 마지막 업데이트 타임스탬프에 대해서는 UPDATEDAT를 참조하십시오.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'삭제됨'</td>
-        <td>숫자</td>
-        <td>이 레코드가 일시 삭제되었는지 여부를 나타내는 플래그. 값이 1이면 레코드가 삭제되고 0이면 레코드가 활성 상태임을 나타냅니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`CREATEDAT`</td>
+        <td>CREATEDAT</td>
         <td>Timestamp\_NTZ</td>
         <td>이 레코드가 생성된 시간의 타임스탬프(시간대 없음)입니다.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'작성자'</td>
+        <td>작성자</td>
         <td>Varchar</td>
         <td>해당 레코드를 만든 사용자의 식별자입니다.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`UPDATEDAT`</td>
+        <td>삭제됨</td>
+        <td>숫자</td>
+        <td>이 레코드가 일시 삭제되었는지 여부를 나타내는 플래그. 값이 1이면 레코드가 삭제되고 0이면 레코드가 활성 상태임을 나타냅니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Timestamp\_NTZ</td>
+        <td>이 레코드를 데이터 레이크에 마지막으로 로드한 데이터 새로 고침 작업의 타임스탬프입니다. 각 데이터 새로 고침 주기 후에 업데이트됩니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_IDS</td>
+        <td>변형</td>
+        <td>각 필드의 표시 이름을 해당 필드 ID에 매핑하는 JSON 개체(예: "{"Status": "F69bc...", "End Date": "F69bc..."}"). 사람이 읽을 수 있는 필드 이름을 FIELDID\_VALUES 및 FIELDID\_VALUES\_RAW에 사용되는 ID에 매핑할 때 사용합니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_TYPE</td>
+        <td>변형</td>
+        <td>각 필드의 표시 이름을 해당 필드 유형 문자열에 매핑하는 JSON 개체(예: '텍스트', '숫자', '날짜', '단일 선택', '참조', '공식'). 필드 표시 이름별로 처리되며, FIELD\_IDS와 일치합니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_VALUE</td>
+        <td>변형</td>
+        <td>각 필드의 표시 이름을 표시 형식의 문자열 값에 매핑하는 JSON 개체입니다. 필드 표시 이름별로 처리되며, FIELD\_IDS와 일치합니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_VALUE_RAW</td>
+        <td>변형</td>
+        <td>각 필드의 표시 이름을 원시(포맷되지 않은) 값에 매핑하는 JSON 개체입니다. 참조 필드의 경우 이 값은 연결된 레코드 개체의 배열입니다. 숫자 및 공식 필드의 경우 이 값은 일반 숫자 값입니다. 긴 텍스트 필드의 경우 이 값은 리치 텍스트 콘텐츠 개체입니다. 필드 표시 이름별로 처리되며, FIELD\_IDS와 일치합니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELDID_FIELDID</td>
+        <td>변형</td>
+        <td>이 레코드에 있는 모든 필드 ID를 자체 매핑으로 나열하는 JSON 개체(각 필드 ID가 자신에게 매핑됨). 특정 레코드에 채워지는 필드를 열거하거나 FIELD\_CURRENT로 상호 참조할 수 있습니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELID_VALUES</td>
+        <td>변형</td>
+        <td>각 필드 ID를 표시 형식 값에 매핑하는 JSON 개체입니다. 단순 필드 유형의 경우 값은 문자열 또는 숫자이고, 긴 텍스트 필드의 경우 'content'(일반 텍스트) 및 'contentHTML'(HTML 형식) 속성이 모두 포함된 객체입니다. FIELD\_IDS 를 사용하여 각 필드 ID에 대한 표시 이름을 조회합니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_VALUES_RAW</td>
+        <td>변형</td>
+        <td>각 필드 ID를 원시(포맷되지 않은) 값에 매핑하는 JSON 개체입니다. 대부분의 필드 유형에서 값은 일반 문자열, 숫자 또는 에포크 밀리초 타임스탬프입니다. 긴 텍스트 필드는 일반 텍스트 콘텐츠를 문자열로 반환합니다. FIELD\_IDS 를 사용하여 각 필드 ID에 대한 표시 이름을 조회합니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>레코드 ID</td>
+        <td>Varchar</td>
+        <td>Planning 레코드에 대한 고유 식별자. 이 보기에 대한 기본 키입니다.</td>
+        <td>WF.PLANNINGRECORDS\_CURRENT</td>
+        <td>레코드 ID</td>
+    </tr>
+    <tr>
+        <td>RECORDTYPEID</td>
+        <td>Varchar</td>
+        <td>이 레코드가 속하는 레코드 종류(예: 캠페인, 이니셔티브)에 대한 고유 식별자입니다.</td>
+        <td>RECORDTYPE\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>RECORDTYPENAME</td>
+        <td>Varchar</td>
+        <td>이 레코드가 속한 레코드 종류의 표시 이름입니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>REFERENCE_IDS</td>
+        <td>변형</td>
+        <td>각 참조 필드의 표시 이름을 연결 레코드의 ID에 매핑하는 JSON 개체(예: '{"Project": "Ref8b471aa..."}'). 이 레코드에 대해 연결된 외부 개체를 해결하려면 REFERENCE\_CURRENT와 함께 를 사용합니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>업데이트됨</td>
+        <td>숫자</td>
+        <td>이 레코드에 영향을 준 마지막 작업 유형을 나타내는 플래그입니다. 값이 1이면 가장 최근 데이터 새로 고침 주기에 레코드가 업데이트되었음을 나타내고, 0이면 레코드가 업데이트되지 않았음을 나타냅니다. 실제 마지막 업데이트 타임스탬프에 대해서는 UPDATEDAT를 참조하십시오.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>UPDATEDAT</td>
         <td>Timestamp\_NTZ</td>
         <td>이 레코드가 마지막으로 업데이트된 시간의 타임스탬프(시간대 없음)입니다.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'업데이트한 사람'</td>
+        <td>업데이트한 사람</td>
         <td>Varchar</td>
         <td>이 레코드를 마지막으로 업데이트한 사용자의 식별자입니다.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>'DL_LOAD_TIMESTAMP'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>이 레코드를 데이터 레이크에 마지막으로 로드한 데이터 새로 고침 작업의 타임스탬프입니다. 각 데이터 새로 고침 주기 후에 업데이트됩니다.</td>
+        <td>WORKSPACEID</td>
+        <td>Varchar</td>
+        <td>이 레코드가 포함된 Planning 작업 영역의 고유 식별자입니다.</td>
+        <td>WORKSPACE\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>작업 영역 이름</td>
+        <td>Varchar</td>
+        <td>이 레코드가 포함된 Planning 작업 영역의 표시 이름입니다.</td>
         <td>—</td>
         <td>—</td>
     </tr>
@@ -9268,293 +9188,7 @@ Workfront Planning 작업 영역에 구성된 모든 레코드 유형의 현재 
         <td></td>
     </tr>
     <tr>
-        <td>`ID`</td>
-        <td>Varchar</td>
-        <td>레코드 종류에 대한 고유 식별자. 이 보기에 대한 기본 키입니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'생성됨'</td>
-        <td>숫자</td>
-        <td>이 레코드 종류에 영향을 준 마지막 작업 형식을 나타내는 플래그입니다. 값 1은 레코드 유형이 가장 최근 데이터 새로 고침 주기에 생성되었음을 나타내고 0은 그렇지 않음을 나타냅니다. 실제 생성 타임스탬프에 대해서는 CREATEDAT 를 참조하십시오.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'업데이트됨'</td>
-        <td>숫자</td>
-        <td>이 레코드 종류에 영향을 준 마지막 작업 형식을 나타내는 플래그입니다. 값이 1이면 레코드 종류가 가장 최근 데이터 새로 고침 주기에 업데이트되었음을 나타내고, 0이면 그렇지 않음을 나타냅니다. 실제 마지막 업데이트 타임스탬프에 대해서는 UPDATEDAT를 참조하십시오.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'삭제됨'</td>
-        <td>숫자</td>
-        <td>이 레코드 종류가 소프트 삭제되었는지 여부를 나타내는 플래그입니다. 값이 1이면 삭제됨을 나타내고, 0이면 활성을 나타냅니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'DL_LOAD_TIMESTAMP'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>이 레코드 유형을 데이터 레이크에 마지막으로 로드한 데이터 새로 고침 작업의 타임스탬프입니다. 각 데이터 새로 고침 주기 후에 업데이트됩니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'작성자'</td>
-        <td>Varchar</td>
-        <td>해당 레코드 종류를 만든 사용자의 식별자입니다.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`CREATEDAT`</td>
-        <td>Timestamp\_NTZ</td>
-        <td>이 레코드 유형이 생성된 시간의 타임스탬프(시간대 없음)입니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'업데이트한 사람'</td>
-        <td>Varchar</td>
-        <td>해당 레코드 종류를 마지막으로 업데이트한 사용자의 식별자입니다.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`UPDATEDAT`</td>
-        <td>Timestamp\_NTZ</td>
-        <td>이 레코드 종류가 마지막으로 업데이트된 시간의 타임스탬프(시간대 없음)입니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`USERID`</td>
-        <td>Varchar</td>
-        <td>해당 레코드 유형과 연관된 사용자의 식별자(일반적으로 소유자).</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`WORKSPACEID`</td>
-        <td>Varchar</td>
-        <td>해당 레코드 종류가 속한 작업 영역의 고유 식별자입니다. Workspace\_CURRENT와 함께 사용하여 작업 공간 세부 사항을 조회합니다.</td>
-        <td>WORKSPACE\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'DISPLAYNAME'</td>
-        <td>Varchar</td>
-        <td>Planning 인터페이스에 표시된 레코드 유형의 표시 이름(예: "Campaign", "Initiative").</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`설명`</td>
-        <td>Varchar</td>
-        <td>레코드 유형의 용도에 대한 사용자 제공 설명입니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'색상'</td>
-        <td>Varchar</td>
-        <td>Planning 인터페이스의 해당 레코드 유형과 연관된 이름이 지정된 색상 레이블(예: '파란색', '녹색', '자주색', '자홍색', 'chartreuse', '진한 회색'). 16진수 코드가 아닙니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'권한'</td>
-        <td>Varchar</td>
-        <td>해당 레코드 유형(예: '보기', '기여', '관리')에 액세스하도록 구성된 권한 수준. 설정된 사용자 지정 권한이 없으면 비어 있을 수 있습니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'PRIMARYFIELDID'</td>
-        <td>Varchar</td>
-        <td>해당 레코드 종류의 기본(제목) 필드로 지정된 필드의 식별자입니다. FIELD\_CURRENT.ID에 대한 외래 키.</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`ISTAXONOMY`</td>
-        <td>Varchar</td>
-        <td>다른 레코드를 구성하고 분류하는 데 사용되는 분류 유형으로 이 레코드 유형이 분류되는지 여부를 나타냅니다. 'true' 값은 분류 유형을 나타냅니다. 비분류 레코드 유형의 경우 비어 있을 수 있습니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'권한'</td>
-        <td>Varchar</td>
-        <td>해당 레코드 유형(예: '보기', '기여', '관리')에 액세스하도록 구성된 권한 수준. 설정된 사용자 지정 권한이 없으면 비어 있을 수 있습니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td>'PRIMARYFIELDID'</td>
-        <td>Varchar</td>
-        <td>해당 레코드 종류의 기본(제목) 필드로 지정된 필드의 식별자입니다. FIELD\_CURRENT.ID에 대한 외래 키.</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`ISTAXONOMY`</td>
-        <td>Varchar</td>
-        <td>다른 레코드를 구성하고 분류하는 데 사용되는 분류 유형으로 이 레코드 유형이 분류되는지 여부를 나타냅니다. 'true' 값은 분류 유형을 나타냅니다. 비분류 레코드 유형의 경우 비어 있을 수 있습니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`ISEXTERNAL`</td>
-        <td>부울</td>
-        <td>이 레코드 유형이 기본 Planning 레코드가 아닌 외부 연결 객체 유형을 나타내는지 여부를 나타내는 플래그입니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'EXTERNALOPTIONS'</td>
-        <td>변형</td>
-        <td>외부 시스템에 연결된 레코드 유형에 대한 구성 세부 정보가 포함된 JSON 개체입니다. 'connectionName'(예: 'workfront'), 'objectName'(Workfront API 개체 코드 예: 'PROJ') 및 'fields'(동기화된 필드에 대한 Planning 필드 ID에 대한 표준 필드 별칭 맵)가 포함됩니다. 기본적으로 생성된 레코드 유형의 경우 Null입니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'복원됨'</td>
-        <td>숫자</td>
-        <td>이 레코드 종류가 일시 삭제된 후 복원되었는지 보여 주는 플래그.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'별칭'</td>
+        <td>별칭</td>
         <td>Varchar</td>
         <td>시스템 수준 식별 및 API 액세스에 사용되는 레코드 종류의 내부 별칭입니다. 별칭이 할당되지 않은 레코드 종류의 경우 비어 있을 수 있습니다.</td>
         <td>—</td>
@@ -9567,9 +9201,9 @@ Workfront Planning 작업 영역에 구성된 모든 레코드 유형의 현재 
         <td></td>
     </tr>
     <tr>
-        <td>'TRIGGEREDBYSERVICE'</td>
+        <td>색상</td>
         <td>Varchar</td>
-        <td>이 레코드 종류에 대한 마지막 수정을 트리거한 서비스 또는 통합의 이름입니다. 'Unknown' 값은 발신 서비스를 결정할 수 없음을 나타냅니다.</td>
+        <td>Planning 인터페이스의 해당 레코드 유형과 연관된 이름이 지정된 색상 레이블(예: '파란색', '녹색', '자주색', '자홍색', 'chartreuse', '진한 회색'). 16진수 코드가 아닙니다.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9580,9 +9214,9 @@ Workfront Planning 작업 영역에 구성된 모든 레코드 유형의 현재 
         <td></td>
     </tr>
     <tr>
-        <td>'ISFUSION'</td>
-        <td>부울</td>
-        <td>이 레코드 유형이 Workfront Fusion 통합을 통해 생성되었는지 또는 관리되었는지 보여 주는 플래그. 값이 'true'이면 Fusion Management가 표시되고, 값이 'false'이면 기본적으로 생성되는 레코드 유형이 표시됩니다.</td>
+        <td>생성됨</td>
+        <td>숫자</td>
+        <td>이 레코드 종류에 영향을 준 마지막 작업 형식을 나타내는 플래그입니다. 값 1은 레코드 유형이 가장 최근 데이터 새로 고침 주기에 생성되었음을 나타내고 0은 그렇지 않음을 나타냅니다. 실제 생성 타임스탬프에 대해서는 CREATEDAT 를 참조하십시오.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9593,150 +9227,7 @@ Workfront Planning 작업 영역에 구성된 모든 레코드 유형의 현재 
         <td></td>
     </tr>
     <tr>
-        <td>`CREATEDAT`</td>
-        <td>Timestamp\_NTZ</td>
-        <td>이 레코드 유형이 생성된 시간의 타임스탬프(시간대 없음)입니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'작성자'</td>
-        <td>Varchar</td>
-        <td>해당 레코드 종류를 만든 사용자의 식별자입니다.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`UPDATEDAT`</td>
-        <td>Timestamp\_NTZ</td>
-        <td>이 레코드 종류가 마지막으로 업데이트된 시간의 타임스탬프(시간대 없음)입니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'업데이트한 사람'</td>
-        <td>Varchar</td>
-        <td>해당 레코드 종류를 마지막으로 업데이트한 사용자의 식별자입니다.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`USERID`</td>
-        <td>Varchar</td>
-        <td>해당 레코드 유형과 연관된 사용자의 식별자(일반적으로 소유자).</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'TO_RECORDID'</td>
-        <td>Varchar</td>
-        <td>이 참조 연결을 담당하는 Planning 레코드의 고유 식별자입니다. PLANNINGRECORD\_CURRENT.RECORDID의 외래 키.</td>
-        <td>PLANNINGRECORD\_CURRENT</td>
-        <td>레코드 ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`TO_EXTERNALID`</td>
-        <td>Varchar</td>
-        <td>참조되는 외부 개체의 고유 식별자입니다(예: Workfront 프로젝트 ID, 작업 ID 또는 기타 연결된 개체 ID).</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'TO_EXTERNALCONNECTIONNAME'</td>
-        <td>Varchar</td>
-        <td>참조된 개체가 연결된 외부 연결의 이름(예: Planning에 구성된 Workfront 연결의 이름).</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'TO_EXTERNALOBJECTNAME'</td>
-        <td>Varchar</td>
-        <td>참조 중인 외부 개체 유형에 대한 Workfront API 개체 코드(예: 프로젝트의 'PROJ', 작업의 'TASK', Portfolio의 'PORT'). 이 옵션을 사용하여 참조된 개체를 조회할 때 결합할 Workfront 테이블을 결정합니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'RECORDTYPEID'</td>
-        <td>Varchar</td>
-        <td>이 참조를 소유하는 레코드와 연결된 Planning 레코드 유형의 고유 식별자입니다. PLANNINGRECORD\_CURRENT.RECORDTYPEID의 외래 키.</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`REFERENCEVALUE`</td>
-        <td>Varchar</td>
-        <td>마지막 데이터 새로 고침 시 참조된 외부 객체의 표시 이름(예: "Beta" 또는 "캔버스 대시보드 프로젝트"와 같은 Workfront 프로젝트 이름). 이 값은 새로 고침 시 객체의 이름을 반영하며 객체 이름이 바뀌면 부실해질 수 있습니다.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'생성됨'</td>
+        <td>생성됨</td>
         <td>숫자</td>
         <td>이 참조 레코드에 영향을 준 마지막 작업 유형을 나타내는 플래그입니다. 값이 1이면 가장 최근 데이터 새로 고침 주기에 참조가 만들어졌음을 나타내고, 0이면 참조가 만들어지지 않았음을 나타냅니다.</td>
         <td>—</td>
@@ -9749,9 +9240,9 @@ Workfront Planning 작업 영역에 구성된 모든 레코드 유형의 현재 
         <td></td>
     </tr>
     <tr>
-        <td>'업데이트됨'</td>
-        <td>숫자</td>
-        <td>이 참조 레코드에 영향을 준 마지막 작업 유형을 나타내는 플래그입니다. 값이 1이면 참조가 가장 최근 데이터 새로 고침 주기에 업데이트되었음을 나타내고, 0이면 참조가 업데이트되지 않았음을 나타냅니다.</td>
+        <td>CREATEDAT</td>
+        <td>Timestamp\_NTZ</td>
+        <td>이 레코드 유형이 생성된 시간의 타임스탬프(시간대 없음)입니다.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9762,7 +9253,59 @@ Workfront Planning 작업 영역에 구성된 모든 레코드 유형의 현재 
         <td></td>
     </tr>
     <tr>
-        <td>'삭제됨'</td>
+        <td>CREATEDAT</td>
+        <td>Timestamp\_NTZ</td>
+        <td>이 레코드 유형이 생성된 시간의 타임스탬프(시간대 없음)입니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>작성자</td>
+        <td>Varchar</td>
+        <td>해당 레코드 종류를 만든 사용자의 식별자입니다.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>작성자</td>
+        <td>Varchar</td>
+        <td>해당 레코드 종류를 만든 사용자의 식별자입니다.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>삭제됨</td>
+        <td>숫자</td>
+        <td>이 레코드 종류가 소프트 삭제되었는지 여부를 나타내는 플래그입니다. 값이 1이면 삭제됨을 나타내고, 0이면 활성을 나타냅니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>삭제됨</td>
         <td>숫자</td>
         <td>이 참조 연결이 소프트 삭제되었는지 여부를 나타내는 플래그입니다. 값이 1이면 참조가 삭제되었음을 나타내고, 0이면 참조가 활성화되었음을 나타냅니다.</td>
         <td>—</td>
@@ -9775,11 +9318,388 @@ Workfront Planning 작업 영역에 구성된 모든 레코드 유형의 현재 
         <td></td>
     </tr>
     <tr>
-        <td>'DL_LOAD_TIMESTAMP'</td>
+        <td>설명</td>
+        <td>Varchar</td>
+        <td>레코드 유형의 용도에 대한 사용자 제공 설명입니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DISPLAYNAME</td>
+        <td>Varchar</td>
+        <td>Planning 인터페이스에 표시된 레코드 유형의 표시 이름(예: "Campaign", "Initiative").</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Timestamp\_NTZ</td>
+        <td>이 레코드 유형을 데이터 레이크에 마지막으로 로드한 데이터 새로 고침 작업의 타임스탬프입니다. 각 데이터 새로 고침 주기 후에 업데이트됩니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
         <td>Timestamp\_NTZ</td>
         <td>이 참조 레코드를 데이터 레이크로 마지막으로 로드한 데이터 새로 고침 작업의 타임스탬프입니다. 각 데이터 새로 고침 주기 후에 업데이트됩니다.</td>
         <td>—</td>
         <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>EXTERNALOPTIONS</td>
+        <td>변형</td>
+        <td>외부 시스템에 연결된 레코드 유형에 대한 구성 세부 정보가 포함된 JSON 개체입니다. 'connectionName'(예: 'workfront'), 'objectName'(Workfront API 개체 코드 예: 'PROJ') 및 'fields'(동기화된 필드에 대한 Planning 필드 ID에 대한 표준 필드 별칭 맵)가 포함됩니다. 기본적으로 생성된 레코드 유형의 경우 Null입니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>Varchar</td>
+        <td>레코드 종류에 대한 고유 식별자. 이 보기에 대한 기본 키입니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISEXTERNAL</td>
+        <td>부울</td>
+        <td>이 레코드 유형이 기본 Planning 레코드가 아닌 외부 연결 객체 유형을 나타내는지 여부를 나타내는 플래그입니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISFUSION</td>
+        <td>부울</td>
+        <td>이 레코드 유형이 Workfront Fusion 통합을 통해 생성되었는지 또는 관리되었는지 보여 주는 플래그. 값이 'true'이면 Fusion Management가 표시되고, 값이 'false'이면 기본적으로 생성되는 레코드 유형이 표시됩니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>이스타손학</td>
+        <td>Varchar</td>
+        <td>다른 레코드를 구성하고 분류하는 데 사용되는 분류 유형으로 이 레코드 유형이 분류되는지 여부를 나타냅니다. 'true' 값은 분류 유형을 나타냅니다. 비분류 레코드 유형의 경우 비어 있을 수 있습니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>이스타손학</td>
+        <td>Varchar</td>
+        <td>다른 레코드를 구성하고 분류하는 데 사용되는 분류 유형으로 이 레코드 유형이 분류되는지 여부를 나타냅니다. 'true' 값은 분류 유형을 나타냅니다. 비분류 레코드 유형의 경우 비어 있을 수 있습니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>권한</td>
+        <td>Varchar</td>
+        <td>해당 레코드 유형(예: '보기', '기여', '관리')에 액세스하도록 구성된 권한 수준. 설정된 사용자 지정 권한이 없으면 비어 있을 수 있습니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>권한</td>
+        <td>Varchar</td>
+        <td>해당 레코드 유형(예: '보기', '기여', '관리')에 액세스하도록 구성된 권한 수준. 설정된 사용자 지정 권한이 없으면 비어 있을 수 있습니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td>PRIMARYFIELDID</td>
+        <td>Varchar</td>
+        <td>해당 레코드 종류의 기본(제목) 필드로 지정된 필드의 식별자입니다. FIELD\_CURRENT.ID에 대한 외래 키.</td>
+        <td>FIELD\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>PRIMARYFIELDID</td>
+        <td>Varchar</td>
+        <td>해당 레코드 종류의 기본(제목) 필드로 지정된 필드의 식별자입니다. FIELD\_CURRENT.ID에 대한 외래 키.</td>
+        <td>FIELD\_CURRENT</td>
+        <td>ID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>RECORDTYPEID</td>
+        <td>Varchar</td>
+        <td>이 참조를 소유하는 레코드와 연결된 Planning 레코드 유형의 고유 식별자입니다. PLANNINGRECORD\_CURRENT.RECORDTYPEID의 외래 키.</td>
+        <td>RECORDTYPE\_CURRENT</td>
+        <td>ID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>참조 값</td>
+        <td>Varchar</td>
+        <td>마지막 데이터 새로 고침 시 참조된 외부 객체의 표시 이름(예: "Beta" 또는 "캔버스 대시보드 프로젝트"와 같은 Workfront 프로젝트 이름). 이 값은 새로 고침 시 객체의 이름을 반영하며 객체 이름이 바뀌면 부실해질 수 있습니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>복원됨</td>
+        <td>숫자</td>
+        <td>이 레코드 종류가 일시 삭제된 후 복원되었는지 보여 주는 플래그.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALCONNECTIONNAME</td>
+        <td>Varchar</td>
+        <td>참조된 개체가 연결된 외부 연결의 이름(예: Planning에 구성된 Workfront 연결의 이름).</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALID</td>
+        <td>Varchar</td>
+        <td>참조되는 외부 개체의 고유 식별자입니다(예: Workfront 프로젝트 ID, 작업 ID 또는 기타 연결된 개체 ID).</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALOBJECTNAME</td>
+        <td>Varchar</td>
+        <td>참조 중인 외부 개체 유형에 대한 Workfront API 개체 코드(예: 프로젝트의 'PROJ', 작업의 'TASK', Portfolio의 'PORT'). 이 옵션을 사용하여 참조된 개체를 조회할 때 결합할 Workfront 테이블을 결정합니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_RECORDID</td>
+        <td>Varchar</td>
+        <td>이 참조 연결을 담당하는 Planning 레코드의 고유 식별자입니다. PLANNINGRECORD\_CURRENT.RECORDID의 외래 키.</td>
+        <td>PLANNINGRECORD\_CURRENT</td>
+        <td>레코드 ID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TRIGGEREDBYSERVICE</td>
+        <td>Varchar</td>
+        <td>이 레코드 종류에 대한 마지막 수정을 트리거한 서비스 또는 통합의 이름입니다. 'Unknown' 값은 발신 서비스를 결정할 수 없음을 나타냅니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>업데이트됨</td>
+        <td>숫자</td>
+        <td>이 레코드 종류에 영향을 준 마지막 작업 형식을 나타내는 플래그입니다. 값이 1이면 레코드 종류가 가장 최근 데이터 새로 고침 주기에 업데이트되었음을 나타내고, 0이면 그렇지 않음을 나타냅니다. 실제 마지막 업데이트 타임스탬프에 대해서는 UPDATEDAT를 참조하십시오.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>업데이트됨</td>
+        <td>숫자</td>
+        <td>이 참조 레코드에 영향을 준 마지막 작업 유형을 나타내는 플래그입니다. 값이 1이면 참조가 가장 최근 데이터 새로 고침 주기에 업데이트되었음을 나타내고, 0이면 참조가 업데이트되지 않았음을 나타냅니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>UPDATEDAT</td>
+        <td>Timestamp\_NTZ</td>
+        <td>이 레코드 종류가 마지막으로 업데이트된 시간의 타임스탬프(시간대 없음)입니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>UPDATEDAT</td>
+        <td>Timestamp\_NTZ</td>
+        <td>이 레코드 종류가 마지막으로 업데이트된 시간의 타임스탬프(시간대 없음)입니다.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>업데이트한 사람</td>
+        <td>Varchar</td>
+        <td>해당 레코드 종류를 마지막으로 업데이트한 사용자의 식별자입니다.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>업데이트한 사람</td>
+        <td>Varchar</td>
+        <td>해당 레코드 종류를 마지막으로 업데이트한 사용자의 식별자입니다.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>사용자 ID</td>
+        <td>Varchar</td>
+        <td>해당 레코드 유형과 연관된 사용자의 식별자(일반적으로 소유자).</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>사용자 ID</td>
+        <td>Varchar</td>
+        <td>해당 레코드 유형과 연관된 사용자의 식별자(일반적으로 소유자).</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>WORKSPACEID</td>
+        <td>Varchar</td>
+        <td>해당 레코드 종류가 속한 작업 영역의 고유 식별자입니다. Workspace\_CURRENT와 함께 사용하여 작업 공간 세부 사항을 조회합니다.</td>
+        <td>WORKSPACE\_CURRENT</td>
+        <td>ID</td>
         <td></td>
         <td></td>
         <td></td>
@@ -9802,108 +9722,108 @@ Workfront Planning 작업 영역에 구성된 모든 레코드 유형의 현재 
         <td>관련 필드</td>
     </tr>
     <tr>
-        <td>`ID`</td>
-        <td>Varchar</td>
-        <td>Planning 작업 공간에 대한 고유 식별자입니다. 이 보기에 대한 기본 키입니다.</td>
-        <td>WF.WORKSPACES\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>'생성됨'</td>
+        <td>생성됨</td>
         <td>숫자</td>
         <td>이 작업 영역 레코드에 영향을 준 마지막 작업 유형을 나타내는 플래그입니다. 값이 1이면 작업 영역이 가장 최근 데이터 새로 고침 주기에 작성되었음을 나타내고, 0이면 작업 영역이 작성되지 않았음을 나타냅니다. 실제 생성 타임스탬프에 대해서는 CREATEDAT 를 참조하십시오.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'업데이트됨'</td>
-        <td>숫자</td>
-        <td>이 작업 영역 레코드에 영향을 준 마지막 작업 유형을 나타내는 플래그입니다. 값이 1이면 작업 영역이 가장 최근 데이터 새로 고침 주기에 업데이트되었음을 나타내고, 0이면 작업 영역이 업데이트되지 않았음을 나타냅니다. 실제 마지막 업데이트 타임스탬프에 대해서는 UPDATEDAT를 참조하십시오.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'삭제됨'</td>
-        <td>숫자</td>
-        <td>이 작업 영역이 일시 삭제되었는지 여부를 나타내는 플래그입니다. 값이 1이면 삭제됨을 나타내고, 0이면 활성을 나타냅니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'DL_LOAD_TIMESTAMP'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>이 작업 영역 레코드를 데이터 레이크로 마지막으로 로드한 데이터 새로 고침 작업의 타임스탬프입니다. 각 데이터 새로 고침 주기 후에 업데이트됩니다.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'작성자'</td>
-        <td>Varchar</td>
-        <td>해당 작업 영역을 만든 사용자의 식별자입니다.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`CREATEDAT`</td>
+        <td>CREATEDAT</td>
         <td>Timestamp\_NTZ</td>
         <td>이 작업 영역이 만들어진 시점의 타임스탬프(시간대 없음).</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'업데이트한 사람'</td>
+        <td>작성자</td>
         <td>Varchar</td>
-        <td>이 작업 영역을 마지막으로 업데이트한 사용자의 식별자입니다.</td>
+        <td>해당 작업 영역을 만든 사용자의 식별자입니다.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`UPDATEDAT`</td>
+        <td>삭제됨</td>
+        <td>숫자</td>
+        <td>이 작업 영역이 일시 삭제되었는지 여부를 나타내는 플래그입니다. 값이 1이면 삭제됨을 나타내고, 0이면 활성을 나타냅니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
         <td>Timestamp\_NTZ</td>
-        <td>이 작업 영역이 마지막으로 업데이트된 시간의 타임스탬프(시간대 없음)입니다.</td>
+        <td>이 작업 영역 레코드를 데이터 레이크로 마지막으로 로드한 데이터 새로 고침 작업의 타임스탬프입니다. 각 데이터 새로 고침 주기 후에 업데이트됩니다.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`USERID`</td>
+        <td>ID</td>
         <td>Varchar</td>
-        <td>해당 작업 영역과 연관된 사용자의 식별자(일반적으로 작업 영역 소유자).</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
+        <td>Planning 작업 공간에 대한 고유 식별자입니다. 이 보기에 대한 기본 키입니다.</td>
+        <td>WF.WORKSPACES\_CURRENT</td>
+        <td>ID</td>
     </tr>
     <tr>
-        <td>`이름`</td>
+        <td>ISFUSION</td>
+        <td>부울</td>
+        <td>이 작업 영역이 Workfront Fusion 통합을 통해 생성되었는지 또는 관리되었는지 나타내는 플래그입니다. 값이 'true'이면 Fusion Management가 표시되고, 값이 'false'이면 기본적으로 생성된 작업 영역이 표시됩니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>이름</td>
         <td>Varchar</td>
         <td>Planning 인터페이스에 표시된 작업 공간의 표시 이름입니다.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'PARENTID'</td>
+        <td>괄호 ID</td>
         <td>Varchar</td>
         <td>이 작업 영역이 작업 영역 계층 구조 내에 중첩된 경우 상위 작업 영역의 식별자입니다. 이 작업 공간에 상위 항목이 없으면(즉, 최상위 작업 공간이면) 비어 있습니다.</td>
         <td>WORKSPACE\_CURRENT</td>
         <td>ID</td>
     </tr>
     <tr>
-        <td>'복원됨'</td>
+        <td>복원됨</td>
         <td>숫자</td>
         <td>이 작업 영역이 일시 삭제된 후 복원되었는지 보여 주는 플래그.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'TRIGGEREDBYSERVICE'</td>
+        <td>TRIGGEREDBYSERVICE</td>
         <td>Varchar</td>
         <td>이 작업 영역 레코드에 대한 마지막 수정을 트리거한 서비스 또는 통합의 이름입니다. 'Unknown' 값은 발신 서비스를 결정할 수 없음을 나타냅니다.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'ISFUSION'</td>
-        <td>부울</td>
-        <td>이 작업 영역이 Workfront Fusion 통합을 통해 생성되었는지 또는 관리되었는지 나타내는 플래그입니다. 값이 'true'이면 Fusion Management가 표시되고, 값이 'false'이면 기본적으로 생성된 작업 영역이 표시됩니다.</td>
+        <td>업데이트됨</td>
+        <td>숫자</td>
+        <td>이 작업 영역 레코드에 영향을 준 마지막 작업 유형을 나타내는 플래그입니다. 값이 1이면 작업 영역이 가장 최근 데이터 새로 고침 주기에 업데이트되었음을 나타내고, 0이면 작업 영역이 업데이트되지 않았음을 나타냅니다. 실제 마지막 업데이트 타임스탬프에 대해서는 UPDATEDAT를 참조하십시오.</td>
         <td>—</td>
         <td>—</td>
+    </tr>
+    <tr>
+        <td>UPDATEDAT</td>
+        <td>Timestamp\_NTZ</td>
+        <td>이 작업 영역이 마지막으로 업데이트된 시간의 타임스탬프(시간대 없음)입니다.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>업데이트한 사람</td>
+        <td>Varchar</td>
+        <td>이 작업 영역을 마지막으로 업데이트한 사용자의 식별자입니다.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+    </tr>
+    <tr>
+        <td>사용자 ID</td>
+        <td>Varchar</td>
+        <td>해당 작업 영역과 연관된 사용자의 식별자(일반적으로 작업 영역 소유자).</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
     </tr>
 </table>
