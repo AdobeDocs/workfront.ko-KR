@@ -91,7 +91,7 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
 * [[!UICONTROL 리소스 조달] 영역의 기본 섹션](#default-sections-in-the-resourcing-area)
 * [[!UICONTROL 프로젝트] 영역의 기본 섹션](#default-sections-in-the-projects-area)
 * [[!UICONTROL 타임시트] 영역의 기본 섹션](#default-sections-in-the-timesheets-area)
-* [ [!DNL Goals] 영역의 기본 섹션](#default-sections-in-the-goals-area)
+* [&#x200B; [!DNL Goals] 영역의 기본 섹션](#default-sections-in-the-goals-area)
 
 ### [!UICONTROL 대시보드] 영역의 기본 섹션
 
