@@ -5,15 +5,17 @@ title: Adobe Workfront MCP 서버 도구
 description: Workfront 영역별로 그룹화된 Adobe Workfront MCP 서버를 통해 사용할 수 있는 도구의 참조 목록입니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
+source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '2140'
 ht-degree: 5%
 
 ---
 
 
 # Adobe Workfront MCP 서버 도구
+
+{{preview-fast-release-general}}
 
 이 문서에서는 [!DNL Adobe Workfront] MCP 서버가 연결된 AI 에이전트 플랫폼에 노출하는 도구를 나열합니다. 플랫폼은 사용자가 Workfront 항목을 검색, 생성, 업데이트 또는 삭제하도록 요청하면 사용자를 대신하여 이러한 도구를 호출합니다.
 
@@ -66,10 +68,15 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 
 | 제목 | 도구 이름 | 기능 | 액션 |
 | --- | --- | --- | --- |
-| 승인 워크플로 정보 가져오기 | `approvals_get_approval_info` | 문서 버전에 대한 현재 승인 워크플로(단계, 참가자, 상태)를 반환합니다. | 읽기 |
-| 승인 워크플로우 만들기 또는 업데이트 | `approvals_create_or_update_approval_workflow` | 문서 버전에 대한 승인 워크플로 단계를 만들거나 업데이트합니다. 선형 및 병렬(그래프) 스테이지 종속성을 지원합니다. | 쓰기 |
-| 템플릿에서 승인 만들기 | `approvals_create_approval_from_template` | 기존 템플릿을 사용하여 문서에 대한 승인 워크플로를 만듭니다. | 쓰기 |
+| 승인 워크플로 정보 가져오기 | `approvals_get_approval_info` | 문서 버전에 대한 현재 승인 워크플로(단계, 참가자, 상태)를 반환합니다. <span class="preview">여러 경로가 있는 승인의 경우 각 경로와 해당 단계를 표시합니다.</span> | 읽기 |
+| 승인 워크플로우 만들기 또는 업데이트 | `approvals_create_or_update_approval_workflow` | 문서 버전에 대한 승인 워크플로 단계를 만들거나 업데이트합니다. <span class="preview">단일 단계 추적 또는 여러 병렬 검토 경로를 지원합니다.</span> | 쓰기 |
+| 템플릿에서 승인 만들기 | `approvals_create_approval_from_template` | 여러 병렬 경로를 정의하는 템플릿을 포함하여 기존 템플릿 <span class="preview">을(를) 사용하여 문서에 대한 승인 워크플로를 만듭니다.</span> | 쓰기 |
 | 승인 단계 삭제 | `approvals_delete_approval_stage` | 승인 워크플로에서 이름 또는 위치별로 단일 단계를 삭제합니다. 시작되지 않은 단계만 삭제할 수 있습니다. | 쓰기 |
+| <span class="preview">승인에 경로 추가</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">기존 승인 워크플로에 새 병렬 검토 경로를 추가하여 문서 버전에서 동시에 여러 검토 트랙을 실행합니다.</span> | <span class="preview">쓰기</span> |
+| <span class="preview">승인에서 경로 제거</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">승인 워크플로에서 병렬 경로를 제거합니다. 첫 번째 경로는 제거할 수 없으며 완료 또는 잠긴 단계가 포함된 경로는 보호됩니다.</span> | <span class="preview">쓰기</span> |
+| <span class="preview">경로에 단계 추가</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">병렬 승인 작업 과정 내의 특정 경로 끝에 검토 단계를 추가합니다.</span> | <span class="preview">쓰기</span> |
+| <span class="preview">경로에서 단계 제거</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">동시 승인 워크플로의 특정 경로에서 시작되지 않은 단계를 제거합니다. 각 경로는 하나 이상의 단계를 유지해야 합니다.</span> | <span class="preview">쓰기</span> |
+| <span class="preview">경로에서 단계 순서 바꾸기</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">병렬 승인 워크플로의 단일 경로 내에서 단계 순서를 변경합니다.</span> | <span class="preview">쓰기</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
