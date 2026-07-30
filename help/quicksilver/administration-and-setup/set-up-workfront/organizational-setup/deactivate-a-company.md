@@ -17,9 +17,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 3d0cbbd0fe1cb1ec707df4cd50a3862fcf8767f3
 workflow-type: tm+mt
-source-wordcount: 335
+source-wordcount: 333
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 5%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **[!UICONTROL 회사]** ![회사 아이콘](assets/companies-icon-left-panel.png)을 클릭합니다.
+1. 왼쪽 패널에서 **[!UICONTROL 회사]**&#x200B;를 클릭합니다.
 
 1. 비활성화하거나 다시 활성화할 회사를 하나 이상 선택하십시오.
 1. **[!UICONTROL 편집]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">(Conditional) In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>--> 클릭

@@ -23,14 +23,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 1356
+source-wordcount: 1372
 ht-degree: 2%
 
 ---
 
 # 양식 구성 및 미리 보기
+
+{{preview-fast-release-general}}
 
 양식 디자이너를 사용하여 사용자 정의 양식을 구성하고 미리 보기하여 제대로 설정되었는지 확인할 수 있습니다.
 
@@ -191,6 +193,8 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >고급 논리는 양식 디자이너 미리 보기 모드에서 지원되지 않습니다.
+   >프로덕션 환경에서는 양식 디자이너 미리 보기 모드에서 고급 논리가 지원되지 않습니다.
+   >
+   ><span class="preview">미리 보기 환경에서 모든 논리 형식을 미리 보기 모드에서 사용할 수 있습니다.</span>
 
 

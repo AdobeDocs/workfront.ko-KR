@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 3912
+source-wordcount: 3939
 ht-degree: 2%
 
 ---
@@ -308,13 +308,11 @@ Old:
 
    기본 썸네일 이미지 <span class="preview">과(와) 색상</span>도 새 레코드에 추가됩니다.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
-    >
-    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">레코드에 읽지 않은 댓글이 있으면 **새 댓글** 표시기가 레코드의 기본 필드의 오른쪽 위에 표시됩니다.</span>
+   >
+   >![테이블 보기의 새 주석 아이콘](assets/new-comment-icon-in-table-view-highlighted.png)
 
 1. (선택 사항) 하나 이상의 레코드 또는 행을 선택한 다음 **handle** 아이콘 ![Handle 아이콘](assets/handle-icon.png)을(를) 레코드의 왼쪽으로 끌어다 놓아 행 순서를 변경합니다.
 

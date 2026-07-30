@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1332'
 ht-degree: 1%
 
 ---
@@ -110,6 +110,12 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * 소스 필드의 값이 변경되면 종속 필드가 잘못된 상태로 남아 있지 않고 자동으로 지워져 일치하지 않는 조합이 지속되지 않습니다.
 
   종속 필드가 지워진 이유를 설명하는 인라인 또는 알림 메시지가 표시됩니다.
+
+* 각 종속 필드는 최대 3개의 직접 제어 필드를 가질 수 있습니다.
+
+* 종속성 수준은 6개의 연결로 제한됩니다. 즉, 최대 7개의 레코드 종류를 연결할 수 있습니다.
+
+* 종속성 체인이 작동하려면 모든 종속 필드가 동일한 레코드 유형에 동시에 존재해야 합니다.
 
 ## 종속 연결 만들기
 
