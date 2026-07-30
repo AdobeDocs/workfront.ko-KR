@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: 4230
+source-wordcount: 4323
 ht-degree: 0%
 
 ---
@@ -96,6 +92,12 @@ Frame.io 뷰어는 모든 Workfront 검토 및 승인 워크플로의 기본 뷰
 조직에서 Frame.io의 프로젝트에 직접 에셋을 업로드하는 등 이 통합에서 사용할 수 있는 추가 Frame.io 기능을 활용하려는 경우 Frame.io Enterprise 라이선스를 구입할 수 있습니다. 데모 일정을 예약하고 전체 Frame.io 솔루션의 이점을 살펴보려면 Adobe 계정 담당자에게 문의하십시오.
 
 이 통합에서는 Workfront 증명 기능을 사용할 수 없습니다.
+
+## 감사 추적 완료
+
+<span class="preview">통합 검토 및 승인에는 Workfront 및 Frame.io에서 완전한 거버넌스 추적을 만드는 포괄적인 감사 로깅이 포함됩니다. 변경 추적 로그는 Frame.io 뷰어 및 문서 라이프사이클에서 수행한 승인 결정을 캡처합니다. 각 로그 항목에는 표준 Workfront 감사 필드(날짜 및 시간, 로그 유형, 사용자 이름, 작업 및 개체 이름)와 함께 소스 시스템 속성(Workfront 또는 Frame.io)이 포함됩니다. Frame.io 뷰어 댓글이 감사 로그에 포함되어 있지 않습니다.</span>
+
+<span class="preview">변경 내용 추적 로그가 Workfront의 설정 영역에 표시되며 내보낼 수 있습니다. 자세한 내용은 [변경 기록 보기 및 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>를 참조하십시오.
 
 ## Workfront의 강력한 프로젝트 관리
 
