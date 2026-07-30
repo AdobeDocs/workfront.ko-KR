@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 4149
+source-wordcount: 4230
 ht-degree: 0%
 
 ---
@@ -212,7 +208,7 @@ Adobe Cloud Drive를 사용하여 Mac 또는 Windows 데스크톱에서 동일�
 
 * Adobe 클라우드 스토리지를 지원하는 Workfront 버전을 사용하는 경우 Adobe Professional Services에서 조직에 대한 통합을 구성합니다.
 
-   * Adobe 계정 담당자가 누구인지 확실하지 않은 경우 Adobe 지원 포털을 통해 연락하거나 Experience League에서 연락처 옵션을 확인할 수 있습니다.
+  * Adobe 계정 담당자가 누구인지 확실하지 않은 경우 Adobe 지원 포털을 통해 연락하거나 Experience League에서 연락처 옵션을 확인할 수 있습니다.
 
 +++
 
@@ -360,6 +356,14 @@ Frame.io 뷰어에는 자유 형식 드로잉과 원형, 화살표, 사각형 �
 **Workfront에 액세스할 수 없는 이해 당사자와 외부에서 자산을 공유할 수 있습니까?**
 
 예. Assets은 외부에서 공유할 수 있습니다. 외부 사용자는 이메일을 통해 알림을 받으며 뷰어에 액세스하고 검토에 참여할 수 있도록 Frame.io 로그인을 만들라는 메시지가 표시됩니다.
+
+**Workfront에서 문서에 있는 댓글에 이미지를 첨부할 수 있습니까?**
+
+조직에서 통합 검토 및 승인의 일부로 Adobe 클라우드 스토리지를 사용하는 경우 문서에 대한 주석에 이미지 파일을 직접 첨부할 수 있습니다. 첨부된 이미지는 Adobe 클라우드 저장소에 저장되며 모든 미디어 유형 이미지 파일 형식이 지원됩니다.
+
+이러한 주석은 Workfront 기반이며 Frame.io 뷰어의 주석과는 별개입니다. 주석에 첨부된 이미지는 Frame.io에서 액세스할 수 없으며 이미지를 첨부해도 자산에 마크업이 추가되거나 자산에 라우팅되어 승인을 받지 않습니다. 이미지 형식이 아닌 파일 형식은 댓글에 첨부할 수 없습니다.
+
+자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**

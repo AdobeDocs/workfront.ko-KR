@@ -11,18 +11,14 @@ exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/67OfYPIrN7Tzciapa37YHviFI4uptaGgkWkMMREgw-k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 8%
+source-wordcount: 291
+ht-degree: 7%
 
 ---
 
@@ -96,13 +92,13 @@ Old:
 >
 >* 업데이트에 저장된 이미지는 문서 저장 용량 한도에 포함됩니다. 자세한 내용은 [문서 저장소 제한 확인](../../../documents/managing-documents/check-document-storage.md)을 참조하세요.
 >* 이미지는 개체의 [!UICONTROL 업데이트] 탭을 통해 액세스할 수 있으며 [!UICONTROL 기본 메뉴]의 [!UICONTROL 문서] 영역에서도 사용할 수 있습니다.
->
+>* 이 환경 설정은 사용자가 Adobe 클라우드 스토리지를 사용하여 오브젝트의 댓글에 이미지를 첨부할 수 있는지도 제어합니다. 첨부된 이미지는 Adobe 클라우드 저장소에 저장됩니다.
 
 1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 1. 왼쪽 패널에서 **[!UICONTROL 인터페이스]** > **[!UICONTROL 피드 업데이트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 환경 설정]** 탭을 선택합니다.
 
-   ![업데이트 피드에 대한 사용자 환경 설정](assets/updatefeeds-preferences-350x137.png)
+<!--![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->
 
 1. **[!UICONTROL 사용자가 업데이트에 이미지를 추가하도록 허용]** 확인란을 선택합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.

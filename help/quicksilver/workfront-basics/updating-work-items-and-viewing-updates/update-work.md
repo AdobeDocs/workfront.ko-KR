@@ -9,21 +9,14 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/y6gIjeP-4NXrR-itk9Ohr8h6LVutIN7AH0Kr1RJBfTA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 3164
+source-wordcount: 3225
 ht-degree: 1%
 
 ---
@@ -179,21 +172,21 @@ Old:
 
 * Workfront의 다음 영역에서 프로젝트, 작업 및 문제에 대한 업데이트를 추가할 수 있습니다.
 
-   * Workfront 개체의 업데이트 섹션(프로젝트, 작업 및 문제의 경우)에서
-   * 홈 영역에서(작업 및 문제의 경우)
+  * Workfront 개체의 업데이트 섹션(프로젝트, 작업 및 문제의 경우)에서
+  * 홈 영역에서(작업 및 문제의 경우)
 
-     자세한 내용은 [내 작업 위젯으로 작업 관리](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md)를 참조하십시오.
-   * 다음 영역(작업, 문제 및 문서의 경우)의 요약 패널에서
+    자세한 내용은 [내 작업 위젯으로 작업 관리](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md)를 참조하십시오.
+  * 다음 영역(작업, 문제 및 문서의 경우)의 요약 패널에서
 
-      * 오브젝트 목록
-      * 타임시트
-      * 홈
-      * 업무 균형자
+    * 오브젝트 목록
+    * 타임시트
+    * 홈
+    * 업무 균형자
 
-     자세한 내용은 다음 문서를 참조하십시오.
+    자세한 내용은 다음 문서를 참조하십시오.
 
-      * [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-      * [요약을 사용하여 업무 균형자에서 작업 항목 업데이트](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+    * [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+    * [요약을 사용하여 업무 균형자에서 작업 항목 업데이트](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
@@ -290,7 +283,7 @@ You can add updates to the following objects:
 이 문서에서는 프로젝트, 작업 또는 문제를 업데이트하는 방법에 대해 설명합니다. 대부분의 다른 객체를 업데이트하는 것도 유사합니다.
 
 1. 주석을 추가할 개체를 찾은 다음 해당 이름을 클릭하여 개체 페이지를 엽니다.
-1. 왼쪽 패널에서 **업데이트**&#x200B;를 클릭합니다.
+1. 왼쪽 패널에서 **업데이트**를 클릭합니다.
 기본적으로 **댓글** 탭이 선택되어 있습니다.
 
 1. **새 댓글** 상자에 댓글을 입력하세요.
@@ -451,7 +444,6 @@ You can add updates to the following objects:
 
    >[!IMPORTANT]
    >
-   >
    >* 보드에서 목표 또는 임시 카드에 이미지를 추가할 수 없습니다.
    >
    >* 이미지 또는 첨부 파일 추가 아이콘을 보려면 Workfront 관리자가 Workfront 인터페이스 영역의 피드 업데이트 환경 설정 섹션에서 이미지 추가를 활성화해야 합니다. 자세한 내용은 [사용자 업데이트에 대한 환경 설정 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)을 참조하십시오.
@@ -462,6 +454,8 @@ You can add updates to the following objects:
    >* 텍스트가 아닌 이미지로 업데이트를 보낼 수 있습니다.
    >* 이미지가 포함된 댓글을 삭제하면 해당 이미지는 업데이트 섹션과 문서 영역에서 제거됩니다. 댓글을 편집하고 이미지를 삭제하면 문서 영역에서도 이미지가 삭제됩니다.
    >* 누군가 문서 영역에서 댓글에 첨부된 이미지를 삭제하면 해당 이미지도 댓글에서 제거됩니다.
+   >* 조직에서 통합 검토 및 승인의 일부로 Adobe 클라우드 스토리지를 사용하는 경우 Workfront 관리자가 동일한 환경 설정을 활성화하여 댓글에 이미지를 첨부할 수 있습니다. 모든 표준 이미지 형식이 지원되며, 첨부된 이미지는 Adobe 클라우드 저장소에 저장됩니다.
+   >* Adobe 클라우드 스토리지를 사용하는 오브젝트의 댓글에 첨부된 이미지는 Frame.io 뷰어에서 액세스할 수 없습니다.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 
@@ -657,10 +651,10 @@ Workfront 객체의 업데이트 섹션에는 두 가지 유형의 정보가 표
 
   다음 개체에는 시스템 생성 업데이트가 없습니다.
 
-   * 팀
-   * 템플릿
-   * 템플릿 작업
-   * 보드의 Ad Hoc 카드
+  * 팀
+  * 템플릿
+  * 템플릿 작업
+  * 보드의 Ad Hoc 카드
 
 사용자 및 시스템 업데이트와 Workfront 개체의 업데이트 섹션에 표시되는 방법에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
