@@ -9,21 +9,14 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
 TQID: https://experienceleague.adobe.com/BRL1-glICVWSXkdA8HYkbXVfCfEKafHjLBOSrfiVRXM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: c549503a-6440-4802-9525-ceb73a00feff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: c549503a-6440-4802-9525-ceb73a00feffid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ccb057b73391f6b1899f1f14efdce1ae0ca7775
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 456
 ht-degree: 4%
 
 ---
@@ -61,6 +54,12 @@ ht-degree: 4%
    <td>✓</td> 
    <td>✓*</td> 
    <td>✓*</td> 
+  </tr> 
+  <tr> 
+   <td>비즈니스 프로필 만들기, 편집 및 삭제</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>하위 그룹 만들기 및 관리</td>
@@ -248,7 +247,7 @@ ht-degree: 4%
 * 워크플로우 Prime 이상
 * Workfront Prime 이상
 
-패키지에 대한 자세한 내용은 [Adobe Workfront 가격 및 패키징 페이지](https://business.adobe.com/kr/products/workfront/pricing.html)를 참조하세요.
+패키지에 대한 자세한 내용은 [Adobe Workfront 가격 및 패키징 페이지](https://business.adobe.com/products/workfront/pricing.html)를 참조하세요.
 
 고급 엔터프라이즈 제어 기능:
 
