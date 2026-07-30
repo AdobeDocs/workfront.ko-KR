@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 223aa6944cb6a1e2b03f782673f6de89f2ffbab2
+source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -45,11 +45,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 * 레코드 유형을 연결할 때 새 연결 탭에 새 연결 설정 섹션을 추가했습니다
 * 이 연결에 종속되도록 하기 설정을 새 섹션에 추가했습니다
 
-<!--
 
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.
 
--->
 
 
 
