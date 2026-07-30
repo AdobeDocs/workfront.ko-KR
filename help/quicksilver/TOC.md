@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 69d930d5fa6272329e3d7f99fdf78ccd823857df
 workflow-type: tm+mt
-source-wordcount: '14352'
+source-wordcount: '14396'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,15 @@ ht-degree: 2%
     * [제품 릴리스 개요](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront 릴리스 일정 및 프로세스](product-announcements/product-releases/workfront-release-schedule.md)
     * [Adobe Workfront 분기 릴리스 준비](product-announcements/product-releases/release-readiness.md)
+    * 2026년 4분기 릴리스 {#release-26-q4}
+      * [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+      * [2026년 4분기 AI 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
+      * [2026년 4분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [2026년 4분기 문서 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
+      * [2026년 4분기 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
+      * [2026년 4분기 보고 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [2026년 4분기 리소스 관리 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
+      * [2026년 4분기 기타 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * 2026년 3분기 릴리스 {#release-26-q3}
       * [2026년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
       * [2026년 3분기 AI 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md)
@@ -258,7 +267,7 @@ ht-degree: 2%
     * Adobe Workfront 제한된 가용성 릴리스 활동{#limited-availability-release-activity}
       * {hide-from-toc}[Adobe Workfront의 제한된 가용성 기능 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
       * {hide-from-toc}[Adobe Workfront의 제한된 가용성 기능에 대한 2026년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
-      * {hide-from-toc}[Adobe Workfront의 제한된 가용성 기능에 대한 2026년 2분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * Adobe Workfront의 제한된 가용성 기능에 대한 {hide-from-toc}[2026년 2분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
     * Adobe Workfront Scenario Planner 릴리스 활동 {#scenario-planner-release}
       * [Adobe Workfront Scenario Planner 릴리스 활동](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [21.3 릴리스의 Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -1027,7 +1036,7 @@ ht-degree: 2%
       * [Adobe Workfront에서 로그아웃](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
       * {hide-from-toc}[향상된 인증으로 사용자 암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
       * [이메일 초대 수신 및 Adobe Workfront 암호 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
-      * [&#x200B; [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
+      * [ [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
       * [암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
   * 모바일 앱 {#mobile-apps}
     * [모바일 앱](workfront-basics/mobile-apps/mobile-apps.md)
@@ -2301,7 +2310,7 @@ ht-degree: 2%
       * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
       * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
     * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-      * {hide-from-toc}[문서 및 증명을  [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud] (으)로 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+      * {hide-from-toc}[문서 및 증명을  [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)(으)로 업로드
       * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
       * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
       * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2309,8 +2318,8 @@ ht-degree: 2%
       * [XD 아트보드를 Workfront에 문서로 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
       * [InDesign에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
       * [InDesign에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-      * [&#x200B; [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-      * [&#x200B; [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+      * [ [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+      * [ [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
     * Illustrator 및 InDesign용 Workfront 확장 {#workfront-for-illustrator-indesign}
       * [Illustrator 및 InDesign용 Workfront 확장 사용](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
   * Adobe Workfront for Jira {#workfront-for-jira}
@@ -2570,7 +2579,7 @@ ht-degree: 2%
       * {hide-from-toc}[Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
       * {hide-from-toc}[태블릿용 Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
     * Workfront Proof 모바일 앱에 대한 팁, 요령 및 문제 해결 {#ttt-wf-proof-mobile-apps}
-      * {hide-from-toc}[Workfront Proof 모바일 앱에 대한 팁, 요령 및 문제 해결](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
+      * Workfront Proof 모바일 앱에 대한 {hide-from-toc}[팁, 요령 및 문제 해결](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
       * {hide-from-toc}[Workfront Proof 모바일 앱에 로그인할 수 없음](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
   * Workfront Proof 기술 코너 {#wf-proof-tech-corner}
     * [Workfront Proof 기술 코너](workfront-proof/wp-tech-corner/tech-corner.md)
@@ -2708,7 +2717,7 @@ ht-degree: 2%
   * [Adobe Exchange에서 앱 획득 및 설치](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Adobe App Builder을 사용하여 Workfront에 대한 맞춤형 애플리케이션 만들기](/help/quicksilver/app-builder/app-builder.md)
 * {hide-from-toc}[숨겨진 테스트 문서](hidden-test.md)
-* {hide-from-toc}[2 숨기기](hidden-test-2.md)
+* {hide-from-toc}[2](hidden-test-2.md) 숨기기
 
 
 
