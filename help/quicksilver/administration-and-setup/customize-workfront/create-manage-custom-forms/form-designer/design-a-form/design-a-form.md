@@ -11,22 +11,14 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 7956
+source-wordcount: 7922
 ht-degree: 4%
 
 ---
@@ -177,17 +169,17 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 
 * 다음 특수 문자는 사용자 지정 필드 레이블 및 API 이름에서 지원되지 않습니다.
 
-   * \t
-   * \n
-   * \r
-   * \f
-   * `[`
-   * `]`
-   * (
-   * )
-   * :
-   * `{`
-   * `}`
+  * \t
+  * \n
+  * \r
+  * \f
+  * `[`
+  * `]`
+  * (
+  * )
+  * :
+  * `{`
+  * `}`
 
 ### 텍스트 필드 추가
 
@@ -807,12 +799,12 @@ To add typeahead and date fields:
       <td role="rowheader">JSON 경로</td>
       <td><p>API에 대한 JSON 경로를 입력하거나 붙여넣습니다.</p> <p>이 옵션을 사용하면 API URL에서 반환되는 JSON에서 데이터를 추출할 수 있습니다. JSON 내에서 드롭다운 옵션에 표시할 값을 선택하는 데 사용됩니다.</p><p>예를 들어 API URL이 다음 형식으로 JSON을 반환하는 경우 "$.data[*].name"을 사용하여 미국과 캐나다를 드롭다운 옵션으로 선택할 수 있습니다.</br>
       <pre>
-      &lbrace;
-       데이터: &lbrace;
+      {
+       데이터: {
          { name: "미국"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>JSON 경로와 올바른 JSON 경로를 작성하는 방법에 대한 자세한 내용은 <a href="https://jsonpath.com/">https://jsonpath.com/</a>을(를) 참조하십시오.</p></td>
@@ -1050,7 +1042,7 @@ The Workfront Mobile app
 
 ### Workfront 기본 필드 추가
 
-사용자 정의 양식에 Workfront 기본 필드를 추가할 수 있습니다. 사용자 정의 양식을 오브젝트에 첨부하면 필드가 오브젝트 데이터에서 채워집니다. 예를 들어 프로젝트에 첨부된 사용자 정의 양식의 설명 필드는 프로젝트 설명을 가져옵니다. (데이터가 없는 경우 필드에 &quot;N/A&quot;가 표시될 수 있습니다.)
+사용자 정의 양식에 Workfront 기본 필드를 추가할 수 있습니다. 사용자 정의 양식을 오브젝트에 첨부하면 필드가 오브젝트 데이터에서 채워집니다. 예를 들어 사용자 정의 필드가 설명 필드를 참조하고 프로젝트에 첨부된 사용자 정의 양식에 있는 경우 프로젝트 설명을 가져옵니다. (데이터가 없는 경우 필드에 &quot;N/A&quot;가 표시될 수 있습니다.)
 
 +++ 를 확장하면 지원되는 기본 필드 목록이 표시됩니다.
 

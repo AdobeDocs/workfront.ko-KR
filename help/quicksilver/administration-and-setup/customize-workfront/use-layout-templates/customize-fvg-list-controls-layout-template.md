@@ -9,24 +9,20 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 TQID: https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 851
 ht-degree: 2%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 맞춤화
+
+{{preview-fast-release-general}}
 
 Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 드롭다운 메뉴에 나타나는 목록 컨트롤을 지정할 수 있습니다. 이러한 메뉴는 프로젝트의 작업 목록과 같은 Workfront 전체의 목록 위에 표시됩니다.
 
@@ -97,6 +93,8 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 필터, 보�
    >* 프로젝트 영역 헤더의 헤더에서 다음을 수행합니다.
    >   
    >  ![필터 사용 안 함 단추](assets/disable-filter-pills.png)
+
+   <span class="preview">일부 향상된 목록을 선택할 수 있습니다. 이러한 목록 컨트롤 옆에는 &quot;새 경험&quot; 레이블이 있습니다. 향상된 목록에 대한 자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).</span>을 참조하세요.
 
 1. (선택 사항) 레이아웃 템플릿에 대한 기본 필터, 보기 또는 그룹화를 변경하려면 필터, 보기 또는 그룹화를 마우스로 가리킨 다음 **기본값으로 설정**&#x200B;을 클릭합니다.
 
