@@ -11,15 +11,11 @@ exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/67OfYPIrN7Tzciapa37YHviFI4uptaGgkWkMMREgw-k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8468e4e9daa5000e721ee8fb78f45064ab105e28
 workflow-type: tm+mt
 source-wordcount: 291
 ht-degree: 7%
@@ -102,9 +98,10 @@ Old:
 1. 왼쪽 패널에서 **[!UICONTROL 인터페이스]** > **[!UICONTROL 피드 업데이트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 환경 설정]** 탭을 선택합니다.
 
-<!--![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->
-
 1. **[!UICONTROL 사용자가 업데이트에 이미지를 추가하도록 허용]** 확인란을 선택합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
    이 환경 설정을 활성화하면 언제든지 비활성화할 수 있습니다. 업데이트에 이미 게시된 모든 이미지는 개체의 [!UICONTROL 업데이트] 영역에 남아 있습니다.
+
+
+<!--Note from Lisa: This image is old so I hid it. Was after step 3 (select the Prefs tab) but it broke the numbering when I commented it out. ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->
