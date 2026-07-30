@@ -20,9 +20,9 @@ ht-degree: 2%
 
 설정의 변경 추적 영역에서 감사 로그를 포함한 변경 내역을 볼 수 있습니다.
 
-* **감사 로그**는 사용자가 트리거한 변경 사항입니다.
+* **감사 로그**&#x200B;는 사용자가 트리거한 변경 사항입니다.
 감사 로그 및 감사 로그 영역에 대한 자세한 내용은 [감사 로그 개요](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md) 및 [감사 로그 보기 및 내보내기](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)를 참조하십시오.
-* **구성**은(는) 변경 내용 목록에 대해 추적 중인 필드를 표시합니다.
+* **구성**&#x200B;은(는) 변경 내용 목록에 대해 추적 중인 필드를 표시합니다.
   <span class="preview">Workfront 관리자는 Workfront에서 추적하는 개체 필드와 작업을 구성할 수 있습니다. 예를 들어 Workfront에서 사용자가 시스템 전체에서 문제 이름에 적용한 모든 변경 사항을 추적할 수 있습니다. 문제 이름이 변경되면 변경 기록 로그에 항목으로 나타납니다.</span>
 
 * **변경 기록 목록**&#x200B;을 통해 다음과 같은 특성을 포함하여 Workfront 개체에 대한 변경 사항 로그를 볼 수 있습니다.
