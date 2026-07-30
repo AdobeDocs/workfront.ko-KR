@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: 807
 ht-degree: 0%
 
 ---
@@ -166,8 +166,8 @@ Old:
 
 * 레코드에 업데이트를 추가하고 Workfront Planning의 다음 영역에서 변경 내역을 검토할 수 있습니다.
 
-   * 레코드 세부 정보 페이지에서.
-   * 보기에서 레코드 세부 정보 상자의
+  * 레코드 세부 정보 페이지에서.
+  * 보기에서 레코드 세부 정보 상자의
 
 ### 레코드에 대한 댓글 관리
 
@@ -206,11 +206,23 @@ Old:
    >
    >레코드 주석에 이미지를 추가할 수 없습니다.
 
-
 1. 레코드에 주석을 계속 추가합니다.
 
    Workfront Planning 레코드를 포함하여 개체를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
 
+1. 댓글을 기록하려면 **제출**&#x200B;을 클릭하세요.
+
+   메시지를 태그 지정한 사용자는 새 메시지가 있다는 알림을 받습니다.
+
+   <!--
+   <div class="preview">
+
+   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+
+      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   </div>
+   -->
 1. (선택 사항) 댓글의 오른쪽 상단에 있는 **자세히** 아이콘 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭하여 댓글을 삭제합니다.
 1. (선택 사항) **댓글 숨기기** 아이콘 ![댓글 숨기기 아이콘](assets/hide-comments-icon.png)을 클릭하여 오른쪽 패널을 닫습니다.
 

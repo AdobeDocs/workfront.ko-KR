@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3068
+source-wordcount: 3092
 ht-degree: 1%
 
 ---
@@ -90,14 +90,19 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <td> 
 <p>동일한 작업 영역에서 레코드 유형을 연결하려면 다음을 수행합니다. </p>
 <ul> 
-<li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-<li><p>모든 워크플로우 및 모든 Planning 패키지</li></ul>
+<li><p>모든 Planning 패키지가 있는 모든 Workfront 또는 워크플로우 패키지</p></li>
+<p>또는</p>
+<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li>
+</ul>
 
 <p>다른 작업 공간의 레코드 유형을 연결하려면 다음을 수행합니다.</p>
 
-<ul> 
-<li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
+<ul>
+
+<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li>
+<p>또는</p>
+<li><p>독립형 제품으로 구입할 경우 모든 Planning Prime 또는 Ultimate 패키지</p></li>
+</ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
 <tr> 
@@ -208,7 +213,7 @@ Old:
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
 1. 테이블 보기의 오른쪽 위 모서리에 있는 **+** 아이콘을 클릭한 다음 **새 연결** 탭을 클릭합니다.
 
-   ![Workfront, AEM 및 GenStudio 브랜드와 새로운 연결 탭](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+   ![Workfront, AEM 및 GenStudio 브랜드의 새 연결 탭](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
 
    <!--
     Old shot:
@@ -299,7 +304,15 @@ Old:
    * **다중 선택**: 현재 레코드 종류의 한 레코드를 연결 레코드 종류의 여러 레코드와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
    * **단일 선택**: 현재 레코드 종류의 레코드 한 개를 연결 레코드 종류의 레코드 한 개와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
 
-1. **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 선택하십시오. 선택하면 현재 레코드 유형에 추가된 연결 필드 외에 연결 중인 레코드 유형에도 연결 필드가 만들어집니다. 이 기능은 기본적으로 비활성화되어 있습니다.
+1. **연결 형식** 섹션 <!--<span class="preview">, when connecting all object types but not Planning record types</span>-->에서 **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 선택하십시오.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
+    -->
+
+   선택하면 현재 레코드 유형에 추가된 연결 필드 외에 연결 중인 레코드 유형에도 연결 필드가 만들어집니다. 이 기능은 기본적으로 비활성화되어 있습니다.
 
    >[!TIP]
    >
@@ -311,7 +324,7 @@ Old:
    >   * Planning 레코드에 연결된 Workfront 객체에 대해 생성된 필드가 없습니다.
    >   * GenStudio 작업 영역의 레코드 유형에 연결되어 있는 경우 Planning 레코드 유형에 대해 생성된 필드가 없습니다.
 
-1. (조건부) **연결된 레코드 종류에 해당 필드 만들기**&#x200B;를 사용하도록 설정한 경우 사용자가 연결할 수 있는 레코드 수를 나타내려면 다음 옵션 중에서 선택하십시오.
+1. (조건부) **연결 형식** 섹션에서 **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 사용하도록 설정한 경우 다음 옵션 중에서 선택하여 사용자가 연결할 수 있는 레코드 수를 나타냅니다.
 
    * 다대다
    * 일대다

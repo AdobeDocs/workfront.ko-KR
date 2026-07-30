@@ -14,7 +14,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 2%
@@ -84,8 +84,9 @@ ht-degree: 2%
 
    * 다른 모든 알림은 연결된 작업 항목의 유형을 제안하는 아이콘으로 표시됩니다.
 
-     ![알림 아이콘](assets/ntfcntype&icon-350x330.png)
-파란색 점 오른쪽에 있는 아이콘은 다음 중 하나를 표시합니다.
+     ![알림 아이콘](assets/ntfcntypeicon-350x330.png)
+
+   파란색 점 오른쪽에 있는 아이콘은 다음 중 하나를 표시합니다.
 
    * 정보를 입력한 사람의 프로필 사진(일반적으로 작업 중인 [!DNL Workfront] 개체에 대한 업데이트)입니다.
    * 알림이 시스템 알림인 경우 [!DNL Workfront] 로고.
