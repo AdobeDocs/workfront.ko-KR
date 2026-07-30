@@ -4,9 +4,9 @@ description: 2026년 4분기 문서 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b04780c710368bf1154661b14b7bf27364a19a5
+source-git-commit: c7370c767ac521cea7e262ba9cca9270139fd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -29,20 +29,14 @@ ht-degree: 0%
 
 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
-<!--
-
-## Link content and folders from Experience Manager Assets with Adobe cloud storage
+## Experience Manager Assets의 컨텐츠 및 폴더를 Adobe 클라우드 스토리지와 연결
 
 >[!NOTE]
 >
->Preview: July 30, 2026
->Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>미리 보기: 2026년 7월 30일>프로덕션 빠른 릴리스: 2026년 8월 13일>모두를 위한 프로덕션: 2026년 10월 15일
 
-If your organization uses Adobe cloud storage, you can link individual assets or entire folders from Experience Manager Assets to any Workfront object that supports documents. Linked content stays in sync automatically: changes made in Experience Manager Assets appear in Workfront, and you can pull in new asset versions without leaving Workfront.
+조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Experience Manager Assets의 개별 에셋 또는 전체 폴더를 문서를 지원하는 모든 Workfront 개체에 연결할 수 있습니다. 연결된 컨텐츠는 자동으로 동기화 상태를 유지합니다. Experience Manager Assets에서 변경한 사항이 Workfront에 표시되며, Workfront에서 나가지 않고 새 에셋 버전을 가져올 수 있습니다.
 
-Linking is powered by Content Advisor, so you also get AI Search, smart suggestions, campaign brief analysis and more while selecting content.
+연결은 콘텐츠 관리자를 통해 제공되므로 콘텐츠를 선택하는 동안 AI 검색, 스마트 제안, 캠페인 개요 분석 등을 받을 수도 있습니다.
 
-For more information, see [Link content and folders from Experience Manager Assets with Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
-
--->
+<!-- For more information, see [Link content and folders from Experience Manager Assets with Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md). -->
