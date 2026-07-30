@@ -6,26 +6,21 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
 TQID: https://experienceleague.adobe.com/1nXA0NxLQW3tiIrhCKAd5EMfqBjQW68GHNN42dQmptQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 714
 ht-degree: 5%
 
 ---
 
 # 사용자에게 특정 영역에 대한 관리 액세스 권한 부여
+
+{{preview-fast-release-general}}
 
 <!--Linked in several places, do not rename or change URL.-->
 
@@ -84,6 +79,11 @@ Adobe Workfront 관리자는 액세스 수준을 사용하여 표준 또는 플�
      <tr> 
       <td role="rowheader">승인 프로세스</td> 
       <td><p>시스템 전체에서 그리고 특정 그룹에 사용할 승인 프로세스를 만들고 관리합니다.</p><p>이 액세스 권한이 없으면 사용자는 관리 액세스 권한이 있는 항목에 대해 임시 승인 프로세스만 만들 수 있습니다.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">변경 기록</span></td> 
+      <td><p><span class="preview">설정 &gt; 변경 내용 추적 &gt; 변경 내용 목록에서 Workfront 변경 내용 로그를 봅니다.</span></p>
+      <p><span class="preview">이 액세스 권한이 없으면 사용자는 설정 영역에서 이 옵션을 사용할 수 없습니다.</span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">회사</td> 
