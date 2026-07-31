@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: 4149
+source-wordcount: 4323
 ht-degree: 0%
 
 ---
@@ -96,6 +96,12 @@ Frame.io 뷰어는 모든 Workfront 검토 및 승인 워크플로의 기본 뷰
 조직에서 Frame.io의 프로젝트에 직접 에셋을 업로드하는 등 이 통합에서 사용할 수 있는 추가 Frame.io 기능을 활용하려는 경우 Frame.io Enterprise 라이선스를 구입할 수 있습니다. 데모 일정을 예약하고 전체 Frame.io 솔루션의 이점을 살펴보려면 Adobe 계정 담당자에게 문의하십시오.
 
 이 통합에서는 Workfront 증명 기능을 사용할 수 없습니다.
+
+## 감사 추적 완료
+
+<span class="preview">통합 검토 및 승인에는 Workfront 및 Frame.io에서 완전한 거버넌스 추적을 만드는 포괄적인 감사 로깅이 포함됩니다. 변경 추적 로그는 Frame.io 뷰어 및 문서 라이프사이클에서 수행한 승인 결정을 캡처합니다. 각 로그 항목에는 표준 Workfront 감사 필드(날짜 및 시간, 로그 유형, 사용자 이름, 작업 및 개체 이름)와 함께 소스 시스템 속성(Workfront 또는 Frame.io)이 포함됩니다. Frame.io 뷰어 댓글이 감사 로그에 포함되어 있지 않습니다.</span>
+
+<span class="preview">변경 내용 추적 로그가 Workfront의 설정 영역에 표시되며 내보낼 수 있습니다. 자세한 내용은 [변경 기록 보기 및 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>를 참조하십시오.
 
 ## Workfront의 강력한 프로젝트 관리
 
@@ -212,7 +218,7 @@ Adobe Cloud Drive를 사용하여 Mac 또는 Windows 데스크톱에서 동일�
 
 * Adobe 클라우드 스토리지를 지원하는 Workfront 버전을 사용하는 경우 Adobe Professional Services에서 조직에 대한 통합을 구성합니다.
 
-   * Adobe 계정 담당자가 누구인지 확실하지 않은 경우 Adobe 지원 포털을 통해 연락하거나 Experience League에서 연락처 옵션을 확인할 수 있습니다.
+  * Adobe 계정 담당자가 누구인지 확실하지 않은 경우 Adobe 지원 포털을 통해 연락하거나 Experience League에서 연락처 옵션을 확인할 수 있습니다.
 
 +++
 
@@ -360,6 +366,14 @@ Frame.io 뷰어에는 자유 형식 드로잉과 원형, 화살표, 사각형 �
 **Workfront에 액세스할 수 없는 이해 당사자와 외부에서 자산을 공유할 수 있습니까?**
 
 예. Assets은 외부에서 공유할 수 있습니다. 외부 사용자는 이메일을 통해 알림을 받으며 뷰어에 액세스하고 검토에 참여할 수 있도록 Frame.io 로그인을 만들라는 메시지가 표시됩니다.
+
+**Workfront에서 문서에 있는 댓글에 이미지를 첨부할 수 있습니까?**
+
+조직에서 통합 검토 및 승인의 일부로 Adobe 클라우드 스토리지를 사용하는 경우 문서에 대한 주석에 이미지 파일을 직접 첨부할 수 있습니다. 첨부된 이미지는 Adobe 클라우드 저장소에 저장되며 모든 미디어 유형 이미지 파일 형식이 지원됩니다.
+
+이러한 주석은 Workfront 기반이며 Frame.io 뷰어의 주석과는 별개입니다. 주석에 첨부된 이미지는 Frame.io에서 액세스할 수 없으며 이미지를 첨부해도 자산에 마크업이 추가되거나 자산에 라우팅되어 승인을 받지 않습니다. 이미지 형식이 아닌 파일 형식은 댓글에 첨부할 수 없습니다.
+
+자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**

@@ -11,9 +11,9 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+source-git-commit: 5b445284b2d7445ae2119c546244a45ac17d8c97
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: 412
 ht-degree: 0%
 
 ---
@@ -84,3 +84,20 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
    개체 페이지가 열립니다.
 
    Workfront Planning의 객체(예: 캠페인)에 연결된 프로젝트를 보고 있는 경우 이동 경로에서 Planning 및 Workfront 객체 유형 간을 모두 전환할 수 있습니다. 자세한 내용은 [계층 구조 및 이동 경로 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)를 참조하십시오.
+
+<div class="preview">
+
+## 이동 경로에서 이름 및 링크 복사
+
+{{highlighted-preview}}
+
+이동 경로 경로에서 한 번의 작업으로 오브젝트의 이름과 링크를 복사할 수 있습니다.
+
+1. 이동 경로의 모든 개체 위로 마우스를 가져갑니다.
+1. 개체 이름 옆에 나타나는 **[!UICONTROL 링크 복사]** 아이콘을 클릭합니다.
+
+   이동 경로의 ![링크 복사](assets/copy-breadcrumbs.png)
+
+   객체의 이름과 링크가 함께 복사됩니다. 복사한 정보를 붙여넣으면 객체 이름이 링크 텍스트로 표시된 클릭 가능한 링크로 표시됩니다.
+
+</div>
