@@ -48,7 +48,7 @@ Experience League 페이지 트래픽의 원시 Adobe Analytics 자유 형식 �
 
 각 나머지 행에 대해 URL에서 `/using`을(를) 찾고 `/using`을(를) 포함하여 `/`의 다음 부분만 삭제합니다.
 
-예: `https://experienceleague.adobe.com/en/docs/workfront/using/home` → `/home`
+예: `https://experienceleague.adobe.com/ko/docs/workfront/using/home` → `/home`
 
 `/using`이(가) Workfront 행의 URL에 없는 경우 해당 URL을 그대로 두고 추측하는 대신 사용자를 위해 플래그를 지정합니다.
 
