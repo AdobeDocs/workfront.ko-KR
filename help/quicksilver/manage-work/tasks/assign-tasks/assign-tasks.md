@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 작업 할당
-description: 작업을 사용자, 역할 또는 팀에 할당하여 작업 완료를 담당하는 사람을 표시할 수 있습니다. 한 번에 두 개 이상의 리소스에 작업을 할당할 수 있습니다.
+description: 작업을 사용자, 역할, 팀 또는 작업 공동 작업자에게 할당하여 작업 완료를 담당하는 사람을 표시할 수 있습니다. 한 번에 두 개 이상의 리소스에 작업을 할당할 수 있습니다.
 author: Lisa
 feature: Work Management, Tasks
 role: User
@@ -10,21 +10,14 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r3jT-ief9Sfqh7RgQRWJ77fgHR9tkgTBBuo-iEok9lE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: eebfa7db6b4aa256a47aa881ff151e3b84a21742
 workflow-type: tm+mt
-source-wordcount: 1623
+source-wordcount: 1616
 ht-degree: 3%
 
 ---
@@ -45,7 +38,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-작업을 사용자, 작업 역할 또는 팀에 할당하여 작업 완료를 담당하는 사람을 표시할 수 있습니다. 한 번에 두 개 이상의 리소스에 작업을 할당할 수 있습니다.
+작업을 사용자, 작업 역할, 팀 또는 작업 공동 작업자에게 할당하여 작업 완료를 담당하는 사람을 표시할 수 있습니다. 한 번에 두 개 이상의 리소스에 작업을 할당할 수 있습니다.
 
 >[!TIP]
 >
@@ -65,6 +58,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 * [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [스마트 할당 만들기](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [작업 공동 작업자 사용](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
 * [작업 목록에서 여러 사용자 할당 수정](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [프로젝트 개요 계획](../../../manage-work/projects/planning-a-project/plan-project.md)
@@ -173,7 +167,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 할당하려는 사용자, 작업 역할 또는 팀의 이름을 입력한 다음 목록에 나타나면 클릭합니다.
+   * 할당할 사용자, 작업 역할, 팀 또는 작업 공동 작업자의 이름을 입력한 다음 목록에 나타나면 클릭합니다.
 
      >[!TIP]
      >
@@ -202,7 +196,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 |---|---|
 | **할당 대상** | 사용자 1명 할당 |
 | **할당됨** | 사용자 1명 할당 |
-| **할당** | 사용자, 작업 역할 또는 팀 할당 |
+| **할당** | 사용자, 작업 역할, 팀 또는 작업 공동 작업자 할당 |
 
 목록에서 작업을 할당하려면 다음을 수행합니다.
 
@@ -220,7 +214,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 1. 작업을 할당하려면 다음 중 하나를 수행합니다.
 
    * **할당 대상** 또는 **할당 대상** 필드 내부를 클릭하고 작업에 할당할 활성 사용자 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
-   * **할당** 필드 내부를 클릭하고 작업에 할당할 활성 사용자, 작업 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+   * **할당** 필드 내부를 클릭하고 작업에 할당할 활성 사용자, 작업 역할, 팀 또는 작업 공동 작업자 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
      >[!TIP]
      >
@@ -255,7 +249,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
    **작업 편집** 상자가 열립니다.
 
-1. **할당** 영역에서 제공된 **사람, 역할 또는 팀 검색** 필드에 사용자, 팀 또는 역할 이름을 입력한 다음 목록에 표시될 때 클릭합니다
+1. **할당** 영역에서 제공된 **사람, 역할 또는 팀 검색** 필드에 사용자, 팀, 역할 또는 작업 공동 작업자 이름을 입력한 다음 목록에 표시될 때 클릭합니다
 
    >[!IMPORTANT]
    >
