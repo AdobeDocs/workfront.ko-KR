@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
+source-git-commit: 308cbff62c648ba47a1a714446cffef40e5b4991
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1305'
 ht-degree: 2%
 
 ---
@@ -53,6 +53,15 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront의 작업에 AI 작업 공동 작업자 할당</a>
+                <p>작업 공동 작업자는 작업에 직접 할당하여 작업 수준 작업을 완료할 수 있는 AI 공동 작업자입니다.</p>
+            </td>
+            <td><p>2026년 7월 31일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 10월 15일</p></td>
         </tr>
         <tr>
             <td>

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 69d930d5fa6272329e3d7f99fdf78ccd823857df
+source-git-commit: 541f736ffb051e1a7d5e0a277e12353c40bf885c
 workflow-type: tm+mt
-source-wordcount: '14396'
+source-wordcount: '14399'
 ht-degree: 2%
 
 ---
@@ -1420,6 +1420,7 @@ ht-degree: 2%
       * [작업 할당](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [작업 할당](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [고급 할당 만들기](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+      * [작업 공동 작업자 사용](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [스마트 할당 개요](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [작업 할당 수정 개요](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [작업 목록에서 여러 사용자 할당 수정](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
