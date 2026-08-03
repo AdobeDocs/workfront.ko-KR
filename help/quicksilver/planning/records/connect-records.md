@@ -9,22 +9,14 @@ exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2-X5FtwdWU0s-yJInRRPkiNgIsgHQuvXgPBtSusmyeY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 3723
+source-wordcount: 3643
 ht-degree: 1%
 
 ---
@@ -59,27 +51,27 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
   다음 응용 프로그램에서 아래 나열된 유형의 개체와 레코드를 연결할 수 있습니다.
 
-   * Adobe Workfront
+  * Adobe Workfront
 
-      * 프로젝트
-      * 포트폴리오
-      * 프로그램
-      * 회사
-      * 그룹
+    * 프로젝트
+    * 포트폴리오
+    * 프로그램
+    * 회사
+    * 그룹
 
-   * Adobe Experience Manager
+  * Adobe Experience Manager
 
-      * 자산
+    * 자산
 
-        Workfront Planning에서 다음 유형의 자산을 연결할 수 있습니다.
+      Workfront Planning에서 다음 유형의 자산을 연결할 수 있습니다.
 
-         * 이미지 파일
-         * 폴더
-      * 콘텐츠 조각
+      * 이미지 파일
+      * 폴더
+    * 콘텐츠 조각
 
 * Adobe GenStudio for Performance Marketing
 
-   * 브랜드
+  * 브랜드
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -111,18 +103,27 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    <ul><li><p>AEM 에셋 또는 콘텐츠 조각을 Planning 레코드 유형과 연결하기 위한 Adobe Experience Manager 및 Workfront 간의 통합 및 Adobe Experience Manager 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 기록 유형을 Adobe GenStudio for Performance Marketing 브랜드에 연결하거나 GenStudio 작업 공간에 액세스할 수 있는 GenStudio 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
-   </td> 
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+<p><b>메모</b></p>
+<p>Planning 레코드를 Workfront 오브젝트와 연결하려면 Workfront Workflow 패키지를 구매해야 합니다. </p>
+
+</td> 
   </tr>   
 <tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td><p>워크플로우 표준</p>
    </td> 
   </tr> 
-   <tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p> 
    <p>Workfront 및 AEM Assets에서 연결하려는 오브젝트의 오브젝트 유형에 대한 액세스 권한 이상을 볼 수 있습니다. </p>  
 </td> 
   </tr>
@@ -214,15 +215,15 @@ Old:
 
 * 레코드를 다른 레코드나 개체와 연결하려면 다음이 필요합니다.
 
-   * 하나 이상의 작업 공간, 레코드 유형 및 레코드.
+  * 하나 이상의 작업 공간, 레코드 유형 및 레코드.
 
-     자세한 내용은 다음 문서를 참조하십시오.
+    자세한 내용은 다음 문서를 참조하십시오.
 
-      * [작업 공간 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [레코드 만들기](/help/quicksilver/planning/records/create-records.md)
+    * [작업 공간 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)
+    * [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md)
+    * [레코드 만들기](/help/quicksilver/planning/records/create-records.md)
 
-   * 레코드 유형 간 또는 레코드 유형과 다른 응용 프로그램의 개체 간 연결입니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+  * 레코드 유형 간 또는 레코드 유형과 다른 응용 프로그램의 개체 간 연결입니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
 * 하나 또는 여러 개의 레코드나 개체를 서로 연결할 수 있습니다. 레코드 또는 개체 유형을 연결할 때 선택한 연결 유형에 따라 다릅니다. 자세한 내용은 [레코드 종류 연결 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
 
@@ -305,7 +306,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
    >
    >* Workfront 개체의 날짜 필드 정보는 Workfront에 표시되는 방식에 관계없이 Workfront Planning에서 24시간 형식으로 표시됩니다.
    >
-   >   예를 들어 프로젝트의 계획된 시작 일자가 Workfront에서 오후 3:00(으)로 표시되는 경우 가져온 조회 필드에서는 Workfront Planning에서 15:00(으)로 표시됩니다.
+   >   예를 들어 프로젝트의 계획된 시작 일자가 Workfront에서 오후 3시로 표시되는 경우 가져온 조회 필드에서는 Workfront Planning에서 15시로 표시됩니다.
 
 1. (선택 사항) 레코드 유형 페이지를 닫고 선택한 작업 영역으로 이동합니다.
 1. 연결한 레코드 종류의 카드를 클릭합니다.
@@ -423,8 +424,8 @@ No longer needed to specify:
 
 >[!NOTE]
 >
->Workfront 관리자가 Experience Manager Assets과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront에서 Planning 레코드 및 해당 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
->Planning의 GenStudio 작업 영역에서 AEM 객체(자산 및 컨텐츠 조각)로 레코드를 연결하면 AEM의 AEM 객체에 GenStudio 정보가 자동으로 표시됩니다. Workfront Planning에서 연결할 때 추가된 조회 필드에 GenStudio 레코드에 대한 AEM 정보가 표시됩니다. 자세한 내용은 [Adobe Workfront Planning에서 GenStudio 작업 영역 관리](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)를 참조하십시오.
+>Workfront 관리자가 Experience Manager Assets과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront에서 Planning 레코드 및 해당 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+>Planning의 GenStudio 작업 영역에서 AEM 개체(에셋 및 콘텐츠 조각)에 레코드를 연결하면 AEM의 AEM 개체에 GenStudio 정보가 자동으로 표시됩니다. Workfront Planning에서 연결할 때 추가된 조회 필드에 GenStudio 레코드에 대한 AEM 정보가 표시됩니다. 자세한 내용은 [Adobe Workfront Planning에서 GenStudio 작업 공간 관리](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)를 참조하십시오.
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
@@ -469,11 +470,11 @@ Adobe Experience Manager 개체와 레코드를 연결하려면 다음을 수행
    >[!IMPORTANT]
    >
    > Experience Manager에서 보기 위해 액세스할 수 있는 자산만 연결할 수 있습니다. 연결되면 모든 Workfront Planning 사용자는 Experience Manager Assets에서의 액세스 권한에 관계없이 Workfront Planning에서 에셋을 볼 수 있습니다.
-   > 콘텐츠 관리자에 대한 자세한 내용은 [콘텐츠 관리자를 사용하여 Adobe 응용 프로그램의 AEM 콘텐츠에 액세스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}를 참조하십시오.
+   > 콘텐츠 관리자에 대한 자세한 내용은 [콘텐츠 관리자를 사용하여 Adobe 응용 프로그램의 AEM 콘텐츠에 액세스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}를 참조하십시오.
 
 1. **콘텐츠 조각** 탭에서 연결된 레코드 필드에 추가할 콘텐츠 조각을 선택합니다.
 
-   콘텐츠 조각에 대한 자세한 내용은 [콘텐츠 관리자를 사용하여 Adobe 응용 프로그램의 AEM 콘텐츠에 액세스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}를 참조하십시오.
+   콘텐츠 조각에 대한 자세한 내용은 [콘텐츠 관리자를 사용하여 Adobe 응용 프로그램의 AEM 콘텐츠에 액세스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}를 참조하십시오.
 
 1. 에셋 또는 콘텐츠 조각 선택을 마치면 **선택**&#x200B;을 클릭합니다. <!-- we might change this to Connect-->
 
@@ -602,14 +603,14 @@ Workfront 객체에서 Workfront Planning 레코드를 연결하려면 다음이
 * 레코드 유형과 Workfront Planning에서 설정된 Workfront 객체 유형 간의 연결입니다.
 * Workfront 또는 그룹 관리자는 Workfront 개체 유형에 다음 중 하나를 추가해야 합니다.
 
-   * 레이아웃 템플릿의 Workfront 프로젝트, 포트폴리오 및 프로그램에 대한 계획 섹션입니다.
+  * 레이아웃 템플릿의 Workfront 프로젝트, 포트폴리오 및 프로그램에 대한 계획 섹션입니다.
 
-   * Planning은 다음 객체 중 하나에 대한 사용자 정의 양식에 사용자 정의 필드를 연결합니다.
+  * Planning은 다음 객체 중 하나에 대한 사용자 정의 양식에 사용자 정의 필드를 연결합니다.
 
-      * 프로젝트
-      * 포트폴리오
-      * 프로그램
-      * 그룹
-      * 회사
+    * 프로젝트
+    * 포트폴리오
+    * 프로그램
+    * 그룹
+    * 회사
 
   자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.

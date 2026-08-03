@@ -9,20 +9,15 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Ct6I5wnivCVr3V86Zj4F7stm2IVUJVH50yvTRyWFuUA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 0%
+source-wordcount: 711
+ht-degree: 1%
 
 ---
 
@@ -54,9 +49,9 @@ ht-degree: 0%
 
   자세한 내용은 다음 문서를 참조하십시오.
 
-   * [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)
+  * [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [레코드 유형 공유](/help/quicksilver/planning/access/share-record-types.md)
+  * [레코드 유형 공유](/help/quicksilver/planning/access/share-record-types.md)
 
 * 작업 영역 또는 레코드 유형과 레코드를 공유할 때 상속된 권한을 해제하여 개인 레코드를 사람, 팀, 역할, 그룹 또는 회사와 공유할 수 있습니다.
 
@@ -79,13 +74,28 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p> <p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+<ul> 
+<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
+또는
+<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
    </td> 
   <tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>기여자 이상</p>
+   <td><p>워크플로우 기여자 이상</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 기여자 이상</p>
+   <p><b>메모</b></p>
+   <p>모든 고객에게 Planning Contributor 라이센스가 있는 것은 아닙니다.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
@@ -147,7 +157,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

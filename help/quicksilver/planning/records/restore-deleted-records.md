@@ -9,20 +9,14 @@ exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6F-GarlW1gY0gHEZIC-CgSiN75EMd2RcZZUGgyOgqxU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: 418
 ht-degree: 1%
 
 ---
@@ -57,13 +51,25 @@ Adobe Workfront Planning의 최근에 삭제된 영역에서 삭제된 레코드
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p> <p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+<ul> 
+<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
+또는
+<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td><p>워크플로우 표준</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
@@ -124,7 +130,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -143,10 +149,10 @@ Old:
 * 삭제된 레코드가 다른 레코드와 연결된 경우 연결된 레코드는 삭제되지 않지만 삭제된 레코드의 정보도 삭제됩니다. 삭제된 레코드를 복원하면 연결된 레코드에서 정보가 복원됩니다.
 * 레코드를 대량으로 복원할 수 있습니다.
 * 레코드가 삭제되면 다음 정보가 최근에 삭제된 BIN에 저장됩니다.
-   * **이름**: 레코드의 기본 필드에 있는 정보입니다. 레코드 기본 필드에 대한 자세한 내용은 [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md)를 참조하세요.
-   * **삭제된 날짜**: 레코드가 삭제된 시간과 날짜입니다.
-   * **최근 삭제된 시간**: 레코드가 삭제된 이후 시간입니다. 현재 날짜보다 30일 이상 전에 삭제된 레코드는 최근에 삭제된 BIN에 표시되지 않습니다.
-   * **삭제자**: 레코드를 삭제한 사용자의 이름입니다.
+  * **이름**: 레코드의 기본 필드에 있는 정보입니다. 레코드 기본 필드에 대한 자세한 내용은 [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md)를 참조하세요.
+  * **삭제된 날짜**: 레코드가 삭제된 시간과 날짜입니다.
+  * **최근 삭제된 시간**: 레코드가 삭제된 이후 시간입니다. 현재 날짜보다 30일 이상 전에 삭제된 레코드는 최근에 삭제된 BIN에 표시되지 않습니다.
+  * **삭제자**: 레코드를 삭제한 사용자의 이름입니다.
 
 ## 삭제된 레코드 복원
 

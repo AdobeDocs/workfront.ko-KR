@@ -9,20 +9,14 @@ exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YZRzcl8ymUo85jplCgKOx-qI83Gqa4CUI6saxfijtec
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: 1528
 ht-degree: 1%
 
 ---
@@ -52,7 +46,7 @@ Workfront Planning에 대한 자세한 내용은 다음 문서를 참조하십�
 * [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)
 
 
-## 액세스 요구 사항 <!--edit theses??-->
+## 액세스 요구 사항
 
 +++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
@@ -66,20 +60,25 @@ Workfront Planning에 대한 자세한 내용은 다음 문서를 참조하십�
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우 패키지</p>
-<p>모든 Planning을 독립 실행형 제품 패키지로</p>
+<p>독립 실행형 제품으로 구입할 경우 모든 Planning</p>
    </td> </tr>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Workfront 라이선스</p></td> 
-   <td><p>표준</p> 
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
+   <td><p>워크플로우 표준</p> 
    <p>Workfront 관리자는 조직에 대해 Planning Designer을 활성화해야 합니다</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Planning 라이선스</p></td> 
-   <td><p>표준</p> 
+   <td><p>계획 수립 표준</p> 
    <p>Workfront 관리자는 조직에 대해 Planning Designer을 활성화해야 합니다</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
@@ -167,7 +166,7 @@ Beta 프로그램 중에 Planning Designer에 대한 피드백을 제출할 수 
    **계획 Designer** 창이 열립니다.
 
 1. 페이지 하단의 **여기에 피드백 제출**&#x200B;을 클릭합니다.
-1. 제공된 스페이스에 피드백을 추가한 다음 **제출**&#x200B;을 클릭합니다.
+1. 제공된 스페이스에 피드백을 추가한 다음 **제출**을 클릭합니다.
 귀하의 피드백은 엔지니어링 및 제품 팀에 제출됩니다.
 
 ## Planning Designer에 대한 고려 사항

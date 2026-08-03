@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2551
+source-wordcount: 2547
 ht-degree: 1%
 
 ---
@@ -67,15 +60,24 @@ Workspace 관리자는 사용자 또는 외부 사용자로 사용하여 Plannin
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 또는 워크플로우 패키지</p>
-<p>모든 Workfront Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오.</p>
-   </td> </tr>
-  </tr> 
+<p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p> 
+또는
+<p>독립 실행형 제품으로 구입할 경우 모든 Workfront Planning</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>Any</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>Any</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
@@ -94,21 +96,21 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
 * Workfront Planning에는 다음이 있어야 합니다.
 
-   * 작업 영역
-   * 레코드 유형
-   * 레코드 유형과 연결된 요청 양식입니다.
+  * 작업 영역
+  * 레코드 유형
+  * 레코드 유형과 연결된 요청 양식입니다.
 
-     자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+    자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 * 액세스 가능한 방식으로 요청 양식을 공유해야 합니다. 다음과 같은 시나리오가 있습니다.
 
-   * 내부적으로 작업 영역에 대한 보기 이상의 권한이 있는 사용자와 양식을 공유해야 합니다.
+  * 내부적으로 작업 영역에 대한 보기 이상의 권한이 있는 사용자와 양식을 공유해야 합니다.
 
-     Workfront 사용자는 링크에서 양식에 액세스하거나 Workfront의 요청 영역에서 요청 양식을 찾을 수 있습니다.
+    Workfront 사용자는 링크에서 양식에 액세스하거나 Workfront의 요청 영역에서 요청 양식을 찾을 수 있습니다.
 
-   * 외부에서 Workfront 계정이 없는 외부 사용자와 레코드 양식에 대한 링크를 공유합니다.
+  * 외부에서 Workfront 계정이 없는 외부 사용자와 레코드 양식에 대한 링크를 공유합니다.
 
-     Workfront 사용자는 외부 사용자와 공유되는 링크에 액세스할 수도 있습니다.
+    Workfront 사용자는 외부 사용자와 공유되는 링크에 액세스할 수도 있습니다.
 
 * 링크와 공유하는 경우 양식에 대한 링크가 만료되지 않아야 합니다.
 
@@ -121,9 +123,9 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
   자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 * 요청 양식을 제출하여 생성된 레코드는 원래 요청에 연결됩니다. 이 연결을 제거할 수 없습니다.
 * 다음 영역에서 생성된 레코드와 레코드 만들기에 사용된 요청을 모두 볼 수 있습니다.
-   * Workfront의 요청 영역입니다.
-   * 요청을 연결된 레코드로 추가할 때 Workfront Planning에서 레코드 유형 페이지의 연결된 필드에서.
-   * 요청을 연결된 레코드로 추가할 때 Workfront Planning에 있는 레코드 세부 사항 영역의 연결된 필드에서.
+  * Workfront의 요청 영역입니다.
+  * 요청을 연결된 레코드로 추가할 때 Workfront Planning에서 레코드 유형 페이지의 연결된 필드에서.
+  * 요청을 연결된 레코드로 추가할 때 Workfront Planning에 있는 레코드 세부 사항 영역의 연결된 필드에서.
 
   >[!TIP]
   >
@@ -188,12 +190,12 @@ Not sure how to change the request status, but dev also said: Changing the names
 
      다음 필드에는 요청 영역의 요청 및 레코드 정보와 홈의 내 요청 위젯이 표시됩니다.
 
-      * **제목**: 요청 영역에 추가된 원래 요청의 이름입니다. 요청 목록에서 **제목** 필드를 숨기거나 제거할 수 없습니다. 이름에는 Planning에서 요청 페이지를 여는 링크가 있습니다.
-      * **만들어진 개체**: Planning에 표시되는 요청에서 만들어진 레코드의 이름. 작성된 개체 이름에는 요청에서 작성된 레코드를 여는 링크가 있습니다.
-      * **개체 형식**: Planning의 요청에서 레코드를 만든 작업 영역의 이름 및 레코드 형식입니다.
-      * **상태**: 요청 개체의 상태입니다. 요청 상태에 대한 자세한 내용은 [제출된 요청 보기](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)를 참조하십시오.
-      * **요청 양식**: Planning의 레코드 유형과 연결된 요청 양식의 이름입니다.
-      * **만들어진 개체 상태**: 만들어진 레코드의 상태입니다.
+     * **제목**: 요청 영역에 추가된 원래 요청의 이름입니다. 요청 목록에서 **제목** 필드를 숨기거나 제거할 수 없습니다. 이름에는 Planning에서 요청 페이지를 여는 링크가 있습니다.
+     * **만들어진 개체**: Planning에 표시되는 요청에서 만들어진 레코드의 이름. 작성된 개체 이름에는 요청에서 작성된 레코드를 여는 링크가 있습니다.
+     * **개체 형식**: Planning의 요청에서 레코드를 만든 작업 영역의 이름 및 레코드 형식입니다.
+     * **상태**: 요청 개체의 상태입니다. 요청 상태에 대한 자세한 내용은 [제출된 요청 보기](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)를 참조하십시오.
+     * **요청 양식**: Planning의 레코드 유형과 연결된 요청 양식의 이름입니다.
+     * **만들어진 개체 상태**: 만들어진 레코드의 상태입니다.
 
    * 요청 양식이 승인과 연결된 경우 요청이 Workfront 요청 영역의 요청 목록 및 내 요청 위젯에 **검토 보류 중** 상태로 추가됩니다. 새 레코드는 승인자가 승인한 후에만 레코드 유형 페이지에 추가됩니다.
 

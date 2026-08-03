@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,7 @@ Workfront Planning의 다음 영역에서 목록 보기에서 객체를 볼 수 
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -60,15 +61,29 @@ Workfront Planning의 다음 영역에서 목록 보기에서 객체를 볼 수 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p>
-<p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
+또는
+<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p> 보기를 만들고 삭제하는 표준</p>
-   <p>기여자 이상: 보기 요소 업데이트</p>
+   <td><p>워크플로 라이트 이상</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p> 보기를 만들고 삭제하는 Planning Standard</p>
+   <p>뷰 요소를 업데이트할 계획 기여자 이상</p>
+   <p><b>메모</b><p>
+   <p>모든 고객에게 Planning Contributor 라이센스가 있는 것은 아닙니다.</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 

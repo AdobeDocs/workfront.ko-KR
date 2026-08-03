@@ -9,20 +9,14 @@ exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/4MvX3EX6KfcXwk5lrq6bRU7HC6gzAI1Zgi49TMZbP7M
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: 646
 ht-degree: 0%
 
 ---
@@ -64,13 +58,24 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p> <p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+<p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p> <p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>밝거나 높음</p>
+   <td><p>워크플로 라이트 이상</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 기여자 이상</p>
+<p><b>메모</b></p>
+<p>모든 고객에게 기여자 라이센스가 있는 것은 아닙니다</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
@@ -133,7 +138,7 @@ OLD:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -175,7 +180,7 @@ Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe 
 
    권한을 요청한 개체가 Workfront에서 열립니다.
 
-1. (조건부) 사용 가능한 경우 **모든 알림 보기**&#x200B;를 클릭합니다.
+1. (조건부) 사용 가능한 경우 **모든 알림 보기**를 클릭합니다.
 Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
 
 

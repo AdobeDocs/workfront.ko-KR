@@ -9,18 +9,13 @@ exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/FvXVCMMz-PfaT-QAaMq0c5qUruR1MJoMv6etcrAstXA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 514
+source-wordcount: 533
 ht-degree: 3%
 
 ---
@@ -41,6 +36,8 @@ no longer needed:
 >
 >For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
 -->
+
+{{planning-important-intro}}
 
 다른 사용자가 액세스 권한이 없는 보기 또는 작업 영역에 대한 링크를 사용자와 공유하는 경우 보기 또는 작업 영역에 대한 권한을 요청할 수 있습니다.
 
@@ -63,26 +60,32 @@ no longer needed:
 </col> 
 <col> 
 </col> 
-<tbody> 
-    <tr> 
+<tbody>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p> 
 또는
-<p>모든 Workfront Planning을 독립 실행형 제품 패키지로</p> 
- </tr>
-
-<tr> 
+<p>독립 실행형 제품으로 구입할 경우 모든 Workfront Planning</p> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>Any</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>   
-</td> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>Any</p> 
+  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
+  </tr>
+
+
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>  <p>권한 요청이 부여되면 다음 권한을 얻을 수 있습니다.</p>
@@ -150,7 +153,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

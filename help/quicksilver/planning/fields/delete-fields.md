@@ -9,21 +9,15 @@ exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/EusoK7-jmYJHg9nqyvvQamsfVeUy802p36EyDmLGwik
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 673
-ht-degree: 1%
+source-wordcount: 708
+ht-degree: 2%
 
 ---
 
@@ -60,23 +54,33 @@ Workfront Planning에서 사용자 정의 필드를 만드는 방법에 대한 �
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <ul> 
-<li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
+<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
 또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
+<li><p>독립형 패키지로 구입할 경우 모든 Planning 패키지</p></li></ul>
 
 <p>글로벌 레코드 유형에서 필드를 삭제하려면</p>
 <ul><li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
 또는
-<li><p>모든 워크플로우 및 Planning Prime 및 Ultimate 패키지</p></li></ul>
-
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+<li><p>모든 워크플로우 및 Planning Prime 및 Ultimate 패키지</p></li>
+또는
+<li>독립 실행형 제품으로 구입할 경우 모든 Planning Primar 및 Ultimate 패키지</li>
+</ul>
    </td> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td><p>워크플로우 표준</p>
    </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
+  </tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 공간에 대한 권한 관리</p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
@@ -136,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -157,9 +161,9 @@ Old:
 
   예를 들어, Campaigns를 Product라는 다른 레코드 유형에 연결하고 Campaign에서 Product connected 필드 및 Product의 Status 조회 필드를 삭제하면 다음 항목이 삭제됩니다.
 
-   * 캠페인의 제품 연결 필드
-   * 캠페인의 제품 상태 조회 필드
-   * 제품의 Campaign 연결 필드
+  * 캠페인의 제품 연결 필드
+  * 캠페인의 제품 상태 조회 필드
+  * 제품의 Campaign 연결 필드
 
   자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 

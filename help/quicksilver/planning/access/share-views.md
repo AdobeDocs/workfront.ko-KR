@@ -9,20 +9,14 @@ exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/PTCSU18oqb-nFiNWaJB57FgtBkNOpeN5yuLP3Rrp-08
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1997
+source-wordcount: 2015
 ht-degree: 1%
 
 ---
@@ -75,16 +69,20 @@ This article describes how you can share a view with others. For information abo
 <p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p> 
 또는
 <p>모든 Workfront Planning을 독립 실행형 제품 패키지로</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>Any</p> 
   </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>Any</p> 
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>   
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
 </td> 
   </tr> 
 <tr> 
@@ -150,7 +148,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -167,10 +165,10 @@ Old:
 
 * 다음과 같은 방법으로 보기를 공유할 수 있습니다.
 
-   * 내부적으로 Workfront 사용자, 그룹, 팀, 회사 및 작업 역할 사용
-   * 공개적으로, Workfront 외부의 사용자 포함
-   * 링크를 복사한 다음 보기에 공유
-   * Excel 또는 CSV 파일로 내보내기. 테이블 뷰만 파일로 내보낼 수 있습니다. 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
+  * 내부적으로 Workfront 사용자, 그룹, 팀, 회사 및 작업 역할 사용
+  * 공개적으로, Workfront 외부의 사용자 포함
+  * 링크를 복사한 다음 보기에 공유
+  * Excel 또는 CSV 파일로 내보내기. 테이블 뷰만 파일로 내보낼 수 있습니다. 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
 * Workfront Planning에서 개체 공유에 대한 일반적인 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 * 내부 Workfront 사용자에게 보기에 대한 보기 또는 관리 권한을 부여할 수 있습니다.

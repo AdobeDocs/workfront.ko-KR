@@ -9,19 +9,14 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r5i-iqQjF2cQtru6qxEAkrP6xkHGcAp7D8EYRav-7ls
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1896
+source-wordcount: 1917
 ht-degree: 5%
 
 ---
@@ -54,15 +49,29 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p>
-<p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
+또는
+<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p> 보기를 만들고 삭제하는 표준</p>
-   <p>기여자 이상: 보기 요소 업데이트</p>
+   <td><p>워크플로 라이트 이상</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p> 보기를 만들고 삭제하는 Planning Standard</p>
+   <p>뷰 요소를 업데이트할 계획 기여자 이상</p>
+   <p><b>메모</b><p>
+   <p>모든 고객에게 Planning Contributor 라이센스가 있는 것은 아닙니다.</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
@@ -71,9 +80,8 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
   </tr>
 
 </tbody> 
-</table>
-
-Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+</table> 
+Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++ 
 
@@ -124,7 +132,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

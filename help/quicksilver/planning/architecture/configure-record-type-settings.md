@@ -9,21 +9,15 @@ exl-id: 4674d539-7a16-4d51-a564-e79dc9b4afca
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/d4nAXZ-yoVbPEpInRnGOsLGVILCLa4qT3P8HFcVO-LM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 3%
+source-wordcount: 445
+ht-degree: 4%
 
 ---
 
@@ -67,30 +61,39 @@ ht-degree: 3%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 Planning 패키지</p>
-<p>모든 워크플로우 및 계획 패키지</p>
+<p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p>
+또는 
+<p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p>
 
 <p><b>메모</b></p>
 
 <p>연결 가능한 레코드 유형을 구성하려면:</p>
 
 <ul> 
-<li><p>모든 Workfront 및 Planning 패키지</p></li>
+<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li>
 또는
-<li><p>모든 워크플로우 패키지 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
+<li>독립형 제품으로 구입할 경우 Planning Prime 또는 Ultimate 패키지</li>
+</ul>
 
 <p>글로벌 레코드 유형을 구성하려면 다음을 수행합니다.</p>
 
 <ul> 
 <li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
 또는
-<li><p>모든 워크플로우 패키지 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p>
+<li><p>모든 워크플로우 패키지 및 Planning Prime 또는 Ultimate 패키지</p></li>
+또는
+<li>독립형 제품으로 구입할 경우 Planning Prime 또는 독립형 패키지 </li>
 
-</td> </tr>
+</ul>
+  </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td><p>워크플로우 표준</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
    </td> 
   </tr> 
   <tr> 
@@ -153,7 +156,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

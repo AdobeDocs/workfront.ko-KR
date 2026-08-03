@@ -9,21 +9,14 @@ exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Sch9ArKRfEiy9KYoo-wny1j4-WyWcpHW86CuWP-qEV0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: 1616
 ht-degree: 1%
 
 ---
@@ -53,18 +46,18 @@ ht-degree: 1%
 
 * 연결된 레코드 페이지에 표시하는 개체 또는 레코드 유형에 따라 다음 보기를 사용하여 표시할 수 있습니다.
 
-   * 연결된 Planning 레코드를 다음 유형의 뷰에 표시할 수 있습니다.
-      * 테이블
-      * 타임라인
-      * 캘린더
-   * 연결된 Workfront 프로젝트를 목록 보기로 표시할 수 있습니다.
+  * 연결된 Planning 레코드를 다음 유형의 뷰에 표시할 수 있습니다.
+    * 테이블
+    * 타임라인
+    * 캘린더
+  * 연결된 Workfront 프로젝트를 목록 보기로 표시할 수 있습니다.
 
 * 다음과 같은 연결된 레코드 또는 객체 유형에 대해 연결된 레코드 페이지를 추가할 수 있습니다.
 
-   * Workfront Planning 레코드 유형
-   * Workfront 프로젝트
+  * Workfront Planning 레코드 유형
+  * Workfront 프로젝트
 
-     Workfront에서 액세스할 수 있는 권한이 없는 경우에도 연결된 Workfront 프로젝트를 볼 수 있습니다.
+    Workfront에서 액세스할 수 있는 권한이 없는 경우에도 연결된 Workfront 프로젝트를 볼 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -82,10 +75,10 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p>
-<p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
-   </td> 
+<p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p>
+또는
+<p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p>
+</td> 
 <tr>
 <td> 
    <p> 추가 제품</p> </td> 
@@ -94,14 +87,26 @@ ht-degree: 1%
    <ul><li><p>AEM 개체를 Planning 레코드 유형과 연결하기 위한 Adobe Experience Manager 및 Workfront 간의 통합 및 Adobe Experience Manager 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
-   </td> 
-  </tr>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+<p><b>메모</b></p>
+   Planning 패키지를 독립형 제품으로 구매한 경우 Planning 레코드 유형을 Workfront 객체 유형과 연결하기 위해 Workflow 패키지도 구매해야 합니다</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
+   <td><p>워크플로우 표준</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   </tr> 
   <tr>
    <td role="rowheader"><p>개체 권한</p></td>
@@ -161,9 +166,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. (조건부) 연결된 레코드 페이지에 표시할 레코드 유형에 따라 다음 중 하나를 수행합니다.
 
    * 계획 레코드 관리
-자세한 내용은 이 문서의 [Planning 레코드에 대한 연결된 레코드 관리](#manage-the-connected-records-page-for-planning-records) 섹션을 참조하십시오.
+     자세한 내용은 이 문서의 [Planning 레코드에 대한 연결된 레코드 관리](#manage-the-connected-records-page-for-planning-records) 섹션을 참조하십시오.
    * Workfront 프로젝트 관리
-자세한 내용은 이 문서의 [Workfront 프로젝트에 대해 연결된 레코드 관리](#manage-the-connected-records-page-for-workfront-projects) 섹션을 참조하십시오.
+     자세한 내용은 이 문서의 [Workfront 프로젝트에 대해 연결된 레코드 관리](#manage-the-connected-records-page-for-workfront-projects) 섹션을 참조하십시오.
 
 1. (선택 사항) **연결된 레코드 페이지** 탭의 이름을 두 번 클릭합니다
 
@@ -283,16 +288,16 @@ When you create a connected records page for connected Planning records in the P
    1. **보기 유형** 영역에서 다음 보기 유형 중 하나를 선택합니다.
 
       * 테이블
-자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하세요.
+        자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하세요.
       * 타임라인
-자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
+        자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
       * 캘린더
-자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
+        자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
 
         자세한 내용은 이 문서의 [연결된 레코드 페이지에서 다중 보기 관리](#manage-multiple-views-from-the-connected-records-page) 섹션을 참조하십시오.
 
-   1. Click **Create**.
-새 보기가 보기 드롭다운 메뉴에 추가됩니다.
+   1. **만들기**를 클릭합니다.
+      새 보기가 보기 드롭다운 메뉴에 추가됩니다.
 
    1. (선택 사항) 만든 보기의 이름 위에 마우스를 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 옵션 중 하나를 클릭합니다.
 
@@ -303,7 +308,7 @@ When you create a connected records page for connected Planning records in the P
       * **내보내기**
 
       * **삭제**
-자세한 내용은 [레코드 보기 삭제](/help/quicksilver/planning/views/delete-record-views.md)를 참조하십시오.
+        자세한 내용은 [레코드 보기 삭제](/help/quicksilver/planning/views/delete-record-views.md)를 참조하십시오.
 
         ![연결된 레코드 페이지에서 추가 메뉴 보기](assets/view-more-menu-projects-connected-records-page.png)
 

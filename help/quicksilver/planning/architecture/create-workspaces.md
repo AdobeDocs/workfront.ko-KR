@@ -9,21 +9,14 @@ exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: 1279
 ht-degree: 1%
 
 ---
@@ -60,16 +53,28 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 또는 워크플로우 패키지</p> 
-<p>모든 Workfront Planning 패키지</p>
+<p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우 패키지</p> 
+<p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p>
+
+<p><b>메모</b></p>
 <p>한 번에 여러 작업 공간을 만들 수 있는 Workfront Planning Prime 이상 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
-   </td> 
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td><p>워크플로우 표준</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
    <p>시스템 관리자가 모범 사례 템플릿 번들을 사용하여 한 번에 여러 작업 공간을 만들 수 있음</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
@@ -131,7 +136,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -261,35 +266,35 @@ Old:
 
    * **작업 영역 만들기**&#x200B;를 클릭한 후 다음 단계를 수행합니다.
 
-      1. 작업 공간 만들기 상자가 표시됩니다. 작업공간을 처음부터 만들거나 사용 가능한 템플릿 중 하나를 사용하여 만들 수 있습니다.
+     1. 작업 공간 만들기 상자가 표시됩니다. 작업공간을 처음부터 만들거나 사용 가능한 템플릿 중 하나를 사용하여 만들 수 있습니다.
 
-      1. **여기에서 시작(권장)** 영역에서 **작업 영역 설정 검토**&#x200B;를 클릭합니다.
-      1. (선택 사항) 미리 정의된 다음 작업 영역 템플릿 내에서 **미리 보기**&#x200B;를 클릭하여 각 템플릿에 대한 미리 보기 상자를 엽니다.
+     1. **여기에서 시작(권장)** 영역에서 **작업 영역 설정 검토**&#x200B;를 클릭합니다.
+     1. (선택 사항) 미리 정의된 다음 작업 영역 템플릿 내에서 **미리 보기**&#x200B;를 클릭하여 각 템플릿에 대한 미리 보기 상자를 엽니다.
 
-         * &#x200B;1. 글로벌 분류 및 분류
+        * &#x200B;1. 글로벌 분류 및 분류
 
-           전역 분류 및 분류 템플릿에는 Workfront Planning의 성공적인 구현을 위해 사용자 환경에서 생성하는 것이 권장되는 모든 레코드 유형 및 필드가 포함되어 있습니다.
+          전역 분류 및 분류 템플릿에는 Workfront Planning의 성공적인 구현을 위해 사용자 환경에서 생성하는 것이 권장되는 모든 레코드 유형 및 필드가 포함되어 있습니다.
 
-           나중에 사용자가 만든 다른 작업 영역에서 이 템플릿의 레코드 유형을 연결하거나 가져올 수 있습니다.
-         * &#x200B;2. Fréscopa 글로벌 마케팅
-         * 3.Fréscopa 소셜 마케팅
-         * 4.Fréscopa 미디어 및 홍보
-         * 5.Fréscopa 글로벌 이벤트
-         * 6.Fréscopa 경영진 리더십
+          나중에 사용자가 만든 다른 작업 영역에서 이 템플릿의 레코드 유형을 연결하거나 가져올 수 있습니다.
+        * &#x200B;2. Fréscopa 글로벌 마케팅
+        * 3.Fréscopa 소셜 마케팅
+        * 4.Fréscopa 미디어 및 홍보
+        * 5.Fréscopa 글로벌 이벤트
+        * 6.Fréscopa 경영진 리더십
 
-      1. 각 작업 영역 템플릿에 대해 **미리 보기** 상자를 연 후 **뒤로**&#x200B;를 클릭하여 **작업 영역 만들기** 상자로 돌아가거나 **템플릿 사용**&#x200B;을 클릭하여 번들에 포함된 템플릿을 사용하고 작업 영역을 만듭니다.
+     1. 각 작업 영역 템플릿에 대해 **미리 보기** 상자를 연 후 **뒤로**&#x200B;를 클릭하여 **작업 영역 만들기** 상자로 돌아가거나 **템플릿 사용**&#x200B;을 클릭하여 번들에 포함된 템플릿을 사용하고 작업 영역을 만듭니다.
 
 
    * **샘플 작업 공간** 탭을 클릭한 다음 다음 다음 단계를 수행합니다.
 
-      1. 탭에서 작업 공간 템플릿 중 하나를 클릭하여 각 템플릿의 레코드 유형 및 필드를 검토합니다. **샘플 작업 영역** 탭의 템플릿은 읽기 전용입니다.
-      1. 템플릿의 오른쪽 상단에서 **템플릿으로 만들기**&#x200B;를 클릭합니다.
-      1. (선택 사항) 모든 템플릿에서 **미리 보기**&#x200B;를 클릭하여 레코드 종류 및 해당 필드를 봅니다.
+     1. 탭에서 작업 공간 템플릿 중 하나를 클릭하여 각 템플릿의 레코드 유형 및 필드를 검토합니다. **샘플 작업 영역** 탭의 템플릿은 읽기 전용입니다.
+     1. 템플릿의 오른쪽 상단에서 **템플릿으로 만들기**&#x200B;를 클릭합니다.
+     1. (선택 사항) 모든 템플릿에서 **미리 보기**&#x200B;를 클릭하여 레코드 종류 및 해당 필드를 봅니다.
 
-         >[!TIP]
-         >
-         >템플릿에서 레코드 유형 카드를 클릭하면 오른쪽 패널에 레코드 유형의 필드가 표시됩니다.
-      1. **템플릿 사용**&#x200B;을 클릭합니다.
+        >[!TIP]
+        >
+        >템플릿에서 레코드 유형 카드를 클릭하면 오른쪽 패널에 레코드 유형의 필드가 표시됩니다.
+     1. **템플릿 사용**&#x200B;을 클릭합니다.
 
    6개의 작업 공간이 만들어지고 시스템 관리자를 위한 **내가 있는 작업 공간** 및 **모든 작업 공간** 탭에 표시됩니다. 모든 Standard License 사용자는 시스템 관리자가 작업 공간을 만들고 새 작업 공간을 공유하면 작업 공간 영역에서 작업 공간을 볼 수 있습니다.
 

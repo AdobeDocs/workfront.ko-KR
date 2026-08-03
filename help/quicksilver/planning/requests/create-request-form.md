@@ -9,22 +9,14 @@ exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/j4ZFzyPot9XkML8u1-kmO6x4lRR3X2SGBwfthepmir0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2948
+source-wordcount: 2968
 ht-degree: 1%
 
 ---
@@ -62,18 +54,26 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 패키지 및 모든 Planning 패키지</p>
+<ul> 
+<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
 또는
-<p>모든 워크플로우 패키지 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오.</p>
+<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
    </td> </tr>
-
-</tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p> 
-  </td> 
+   <td><p>워크플로우 표준</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 영역 또는 레코드 형식에 대한 권한 관리</a> </p>  
@@ -94,27 +94,27 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 * 다음은 특정 필드가 요청 양식, 요청 양식에서 만든 레코드 또는 요청 세부 정보 페이지에 표시되는 방식에 대한 제한 사항입니다.
 
-   * 다음 유형의 필드를 요청 양식에 추가할 수 없습니다.
+  * 다음 유형의 필드를 요청 양식에 추가할 수 없습니다.
 
-      * 작성자, 마지막 수정자, 승인자
-      * 생성 날짜, 마지막 수정 날짜, 승인 날짜
-      * 레코드 ID
-      * Workfront 개체의 조회 필드
-      * Workfront Planning 연결된 레코드의 조회 필드
+    * 작성자, 마지막 수정자, 승인자
+    * 생성 날짜, 마지막 수정 날짜, 승인 날짜
+    * 레코드 ID
+    * Workfront 개체의 조회 필드
+    * Workfront Planning 연결된 레코드의 조회 필드
 
 * 다음은 요청 양식 빌더에 필드 형식이 표시되는 방식과 레코드 또는 요청 세부 정보 페이지에서 필드 값의 형식이 지정되는 방식의 차이점입니다.
 
-   * 통화, 숫자 및 백분율 필드는 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
+  * 통화, 숫자 및 백분율 필드는 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 
-     그러나 필드 형식은 유지되고 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 통화, 숫자 및 백분율로 필드 값이 표시됩니다.
+    그러나 필드 형식은 유지되고 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 통화, 숫자 및 백분율로 필드 값이 표시됩니다.
 
 * 다음은 요청 양식 및 요청 세부 정보 페이지에 일부 필드 값이 표시되는 방식을 설명합니다.
 
-   * 통화, 숫자 및 백분율 필드에 대한 특수 서식은 유지되지 않습니다. 예를 들어, 이러한 영역의 이러한 필드 값에 대한 소수점 이하 자리수는 유지되지 않습니다.
-   * 사람 필드 값은 ID로 표시됩니다.
-   * 다른 필드 또는 계산을 참조하지 않는 수식 필드에는 값이 표시되지 않습니다. 예를 들어 `STRING` 수식이 있는 필드는 &quot;N/A&quot; 값을 표시합니다.
-   * 통화 필드를 참조하는 공식 필드에는 환율을 계산하지 않고 값이 표시됩니다.
-   * 단락 필드의 값은 요청 양식에 &quot;N/A&quot; 값을 표시하며, 요청 세부 정보 페이지의 서식 있는 텍스트 대신 html 태그를 표시합니다.
+  * 통화, 숫자 및 백분율 필드에 대한 특수 서식은 유지되지 않습니다. 예를 들어, 이러한 영역의 이러한 필드 값에 대한 소수점 이하 자리수는 유지되지 않습니다.
+  * 사람 필드 값은 ID로 표시됩니다.
+  * 다른 필드 또는 계산을 참조하지 않는 수식 필드에는 값이 표시되지 않습니다. 예를 들어 `STRING` 수식이 있는 필드는 &quot;N/A&quot; 값을 표시합니다.
+  * 통화 필드를 참조하는 공식 필드에는 환율을 계산하지 않고 값이 표시됩니다.
+  * 단락 필드의 값은 요청 양식에 &quot;N/A&quot; 값을 표시하며, 요청 세부 정보 페이지의 서식 있는 텍스트 대신 html 태그를 표시합니다.
 
 ## 요청 양식 만들기
 

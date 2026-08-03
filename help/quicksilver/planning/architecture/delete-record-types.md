@@ -9,20 +9,14 @@ exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/v1IRcsFil5-ba26LoUX6IgD5gG-9h2344Tfs-qRvvPU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: 1134
 ht-degree: 1%
 
 ---
@@ -64,22 +58,33 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <ul> 
-<li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
+<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우 패키지</p></li>
 또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
+<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
 
 <p>글로벌 레코드 유형을 삭제하려면</p>
 <ul><li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
 또는
-<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
-
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li>
+또는
+<li>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</li>
+</ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td><p>워크플로우 표준</p>
    </td> 
   </tr> 
+</tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 공간에 대한 권한 관리</p>  
@@ -139,7 +144,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -159,9 +164,9 @@ Old:
 * 관리 권한이 있는 작업 공간에서는 레코드 유형만 삭제할 수 있습니다.
 * 레코드 유형을 삭제하면 레코드 유형과 관련된 다음 정보가 제거됩니다.
 
-   * 해당 유형의 모든 레코드.
-   * 레코드 유형과 연결된 모든 필드.
-   * 레코드 종류의 모든 보기(필터, 그룹화 및 정렬 기준 포함).
+  * 해당 유형의 모든 레코드.
+  * 레코드 유형과 연결된 모든 필드.
+  * 레코드 종류의 모든 보기(필터, 그룹화 및 정렬 기준 포함).
 * 기록 유형은 작업 영역에 액세스하는 모든 사용자에서 제거됩니다.
 * 삭제된 레코드 종류 또는 해당 정보는 복구할 수 없습니다.
 * 삭제하기 전에 다른 레코드 유형에서 삭제하려는 레코드 유형과 연관된 레코드 및 필드를 다시 만드는 것이 좋습니다.
@@ -244,7 +249,7 @@ Old:
 
 * 보조 작업 영역에서 글로벌 레코드 유형을 삭제하면 다음 항목도 삭제됩니다.
 
-   * 보조 작업공간에서 추가된 레코드는 보조 작업공간과 원래 작업공간에서 삭제되며 복구할 수 없습니다.
+  * 보조 작업공간에서 추가된 레코드는 보조 작업공간과 원래 작업공간에서 삭제되며 복구할 수 없습니다.
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 

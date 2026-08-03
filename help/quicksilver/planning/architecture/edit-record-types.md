@@ -9,20 +9,14 @@ exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/PNC5GvQItDhcmQ0TSup8vbJJ3uWn2k-v-lKBZJBhakw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 648
 ht-degree: 3%
 
 ---
@@ -55,29 +49,37 @@ ht-degree: 3%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 Planning 패키지</p>
-<p>모든 Workfront 및 Planning 패키지</p>
+<p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p>
+<p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p>
 <p><b>메모</b></p>
 <p>연결 가능한 레코드 유형을 구성하려면: </p>
 <ul> 
 <li><p>모든 Workfront 패키지 및 모든 Planning 패키지</p></li>
 또는
-<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
-
+<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li>
+또는
+<li>모든 Planning Prime 및 Ultimate 패키지</li>
+</ul>
 
 <p>글로벌 레코드 유형을 구성하려면 다음을 수행합니다.</p>
 
 <ul> 
-<li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
+<li><p>Planning Plus 패키지가 있는 모든 Workfront 패키지</p></li>
 또는
-<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p>
-
-</td> </tr>
+<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li>
+또는
+<li>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</li>
+</ul>
+   </td> </tr>
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
-   </td> 
+   <td role="rowheader"><p>Adobe Workfront 및 Planning 라이선스</p></td> 
+   <td><p>Any</p> 
+  </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
@@ -138,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -162,22 +164,22 @@ Old:
 1. 다음 중 하나를 수행하십시오.
 
    * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집** 또는 **설정을 클릭합니다**
-또는
+     또는
    * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 열고 레코드 유형 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **편집** 또는 **설정**&#x200B;을 클릭합니다.
 
    ![설정이 있는 레코드 종류 카드의 추가 메뉴 옵션](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
 1. **레코드 종류 편집** 상자에서 기본적으로 **모양** 탭이 열립니다.
 
-   ![레코드 종류 상자 모양 편집 탭 &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![레코드 종류 상자 모양 편집 탭 ](assets/edit-record-type-box-appearance-tab.png)
 
    **모양** 탭에서 다음 정보를 업데이트합니다.
 
    * 필요한 경우 레코드 유형 이름을 편집합니다. <!--did they add a field label for this?-->
    * **설명**: 레코드 형식에 대한 자세한 내용을 포함하여 설명을 편집하거나 추가합니다.
    * 레코드 종류와 관련된 아이콘의 색 및 모양을 편집합니다. 다음을 수행합니다.
-      * 레코드 유형을 식별할 색상을 선택합니다. 레코드 유형 아이콘의 색상입니다.
-      * 목록에서 아이콘을 선택하거나 아이콘 이름을 입력하여 아이콘이 나타내는 내용을 설명한 다음 표시될 때 선택합니다. 레코드 유형의 아이콘입니다. 기본적으로 파일 아이콘이 선택되어 있습니다.
+     * 레코드 유형을 식별할 색상을 선택합니다. 레코드 유형 아이콘의 색상입니다.
+     * 목록에서 아이콘을 선택하거나 아이콘 이름을 입력하여 아이콘이 나타내는 내용을 설명한 다음 표시될 때 선택합니다. 레코드 유형의 아이콘입니다. 기본적으로 파일 아이콘이 선택되어 있습니다.
 
 1. (선택 사항 및 조건부) 시스템 관리자인 경우 **작업 영역 간 설정** 탭을 클릭하고 레코드 유형의 작업 영역 간 기능에 대한 정보를 업데이트합니다.
 

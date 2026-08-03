@@ -9,22 +9,15 @@ exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uyoOkZ9Yd48O9Sur9YMal4cBZD9e45bTbwc6TQ2fAds
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9025c23900c031594d1a4b875826fc35f1d5bf6c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 8%
+source-wordcount: 622
+ht-degree: 9%
 
 ---
 
@@ -60,14 +53,26 @@ ht-degree: 8%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p> <p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+<ul> 
+<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
+또는
+<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td><p>워크플로우 표준</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 공간에 대한 권한 관리</p>  
@@ -128,7 +133,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -147,24 +152,24 @@ Old:
 * Workfront 필드를 가져오면 동일한 필드의 복사본이 만들어지고 Workfront Planning에서 필드 이름이 유지됩니다. 이러한 필드는 Workfront Planning에 복사되면 원래 Workfront 필드와 독립적이며 정보를 공유하지 않습니다.
 <!--check this: * You do not need permissions or access to Workfront objects to be able to add their fields to Workfront Planning. -->
 * 다음 Workfront 개체에서 기본 또는 사용자 지정 필드를 추가할 수 있습니다.
-   * 포트폴리오
-   * 프로그램
-   * 프로젝트
-   * 작업
-   * 문제
-   * 문서
-   * 회사
-   * 그룹
-   * 사용자
-   * 작업 역할
-   * 할당
-   * 시간
-   * 청구 기록
-     <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
-   * 경비
-   * 반복
-     <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
-     <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
+  * 포트폴리오
+  * 프로그램
+  * 프로젝트
+  * 작업
+  * 문제
+  * 문서
+  * 회사
+  * 그룹
+  * 사용자
+  * 작업 역할
+  * 할당
+  * 시간
+  * 청구 기록
+    <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
+  * 경비
+  * 반복
+    <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+    <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
 * Workfront 필드를 Workfront Planning에서 가져온 후 필드 유형이 유지되지 않을 수 있습니다.
 
   아래 표는 Workfront 필드 유형과 해당 Workfront Planning 필드 유형을 보여 줍니다.
@@ -185,7 +190,7 @@ Old:
   | 라디오 단추 | 다중 선택 |
 
   *계산된 필드는 나중에 사용할 수 있습니다.
-다른 모든 Workfront 필드 유형은 Workfront Planning에서 지원되지 않습니다.
+  다른 모든 Workfront 필드 유형은 Workfront Planning에서 지원되지 않습니다.
 
 
 ## Workfront에서 필드 가져오기
@@ -221,7 +226,7 @@ Old:
 
    * 오브젝트 유형: 가져올 필드의 Workfront 오브젝트 유형을 선택합니다.
    * 사용자 정의 양식: Workfront에서 하나 또는 여러 사용자 정의 양식을 선택합니다. 먼저 오브젝트 유형을 선택하지 않고 사용자 정의 양식을 선택할 수 있습니다.
-1. **+**&#x200B;을 클릭한 다음 **필드 추가**&#x200B;를 클릭합니다.
+1. **+**&#x200B;을 클릭한 다음 **필드 추가**를 클릭합니다.
 필드는 표 보기 및 레코드의 세부 사항 페이지에 추가됩니다.
 
    >[!IMPORTANT]

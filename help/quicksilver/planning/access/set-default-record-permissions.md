@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '706'
 ht-degree: 3%
 
 ---
@@ -42,21 +42,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p> 
 또는
-<p>모든 Workfront Planning을 독립 실행형 제품 패키지로</p>
-
-</tr>
+<p>모든 Workfront Planning을 독립 실행형 제품 패키지로</p> 
+ </tr>
 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>Any</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>Any</p> 
    <p><b>메모</b></p>
-   <p>Standard 라이선스가 있는 사람에게만 레코드에 대한 관리 권한을 부여할 수 있습니다. 다른 모든 라이센스는 보기 권한만 가질 수 있으며, 해당 라이센스에 대한 관리 옵션은 흐리게 표시됩니다.</p>
+   <p>Planning Standard 라이센스가 있는 사용자만 레코드에 대한 관리 권한을 부여할 수 있습니다. 다른 모든 라이센스는 보기 권한만 가질 수 있으며, 해당 라이센스에 대한 관리 옵션은 흐리게 표시됩니다.</p>
+  </td> 
+  </tr> 
+<td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td>   
   </td> 
   </tr> 
   <tr> 

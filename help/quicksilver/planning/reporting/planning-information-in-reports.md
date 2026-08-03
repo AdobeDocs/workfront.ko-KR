@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 6%
 
 ---
@@ -19,11 +19,12 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다.다음 클라우드 공급자에서는 Beta를 사용할 수 없습니다.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다.
+>다음 클라우드 공급자에서 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
 >* Azure
->* Google Cloud 플랫폼자세한 내용은 [캔버스 대시보드 관리: 문서 인덱스](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)를 참조하십시오.
+>* Google Cloud Platform> 자세한 내용은 [캔버스 대시보드 관리: 문서 인덱스](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -38,24 +39,33 @@ ht-degree: 6%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 또는 워크플로우 패키지</p>
-<p>모든 Planning 패키지</p>
+<p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p>
+<p><b>메모</b></p>
+<p>Workfront Planning을 독립형 제품으로 구입한 고객은 보고서를 사용할 수 없습니다</p>
    </td> </tr>
 
 </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p> 
+   <td><p>워크플로우 표준</p> 
   </td> 
   </tr>
-   <tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p> 
+  </td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
    <td><p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p>
   </td> 
   </tr>  
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td><p>작업 영역 </a>에 대한 권한 보기 </p>  
+   <td>
+   <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+   <p>작업 영역 </a>에 대한 권한 보기 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  
    </td> 
   </tr>  

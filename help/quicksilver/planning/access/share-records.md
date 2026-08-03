@@ -9,20 +9,14 @@ exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1693
 ht-degree: 2%
 
 ---
@@ -50,9 +44,9 @@ Adobe Workfront Planning에서 레코드 유형의 개별 레코드에 대한 �
 
   자세한 내용은 다음 문서를 참조하십시오.
 
-   * [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)
+  * [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [레코드 유형 공유](/help/quicksilver/planning/access/share-record-types.md)
+  * [레코드 유형 공유](/help/quicksilver/planning/access/share-record-types.md)
 
 * **공유** 옵션을 사용하여 개별 레코드를 공유하거나 여러 레코드를 일괄적으로 공유합니다.
 
@@ -79,21 +73,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p> 
 또는
 <p>모든 Workfront Planning을 독립 실행형 제품 패키지로</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>Any</p> 
-   <p><b>메모</b></p>
-   <p>Standard 라이선스가 있는 사람에게만 레코드에 대한 관리 권한을 부여할 수 있습니다. 다른 모든 라이센스는 보기 권한만 가질 수 있으며, 해당 라이센스에 대한 관리 옵션은 흐리게 표시됩니다.</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>Any</p> 
+<p><b>메모</b></p>
+   <p>Planning Standard 라이센스가 있는 사용자만 레코드에 대한 관리 권한을 부여할 수 있습니다. 다른 모든 라이센스는 보기 권한만 가질 수 있으며, 해당 라이센스에 대한 관리 옵션은 흐리게 표시됩니다.</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>  
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
@@ -119,14 +123,14 @@ maybe use the Share record types as example here and touch on the same points: h
 * 사람, 그룹, 팀, 회사 또는 작업 역할과 같은 엔티티와 레코드를 공유할 수 있습니다.
 * 다음과 같은 제한 사항이 있습니다.
 
-   * 한 번에 100개 이상의 레코드를 공유할 수 없습니다.
-   * 100개 이상의 엔터티와 레코드를 공유할 수 없습니다.
+  * 한 번에 100개 이상의 레코드를 공유할 수 없습니다.
+  * 100개 이상의 엔터티와 레코드를 공유할 수 없습니다.
 * 레코드에 대한 권한을 제한하면 사용자는 더 이상 해당 레코드가 표시되는 시스템의 어느 곳에서든 해당 레코드와 조회 필드 값을 볼 수 없습니다.
 * Workfront은 최대 5개의 레코드 깊이에 있는 연결에서 레코드 권한을 확인하므로 사용자가 공유된 레코드만 볼 수 있습니다.
 * 레코드에 다음 수준의 권한을 부여할 수 있습니다.
 
-   * 보기
-   * 관리
+  * 보기
+  * 관리
 * 사용자와 작업 공간 및 레코드 유형을 공유하면 기본적으로 작업 공간의 레코드에 대해 동일한 권한을 받습니다.
 사용자가 작업 영역 또는 레코드 유형에 대한 기여 권한을 가지고 있으면 해당 레코드 유형의 레코드에 대한 관리 권한을 받습니다.
 * 작업 영역에서 엔티티를 제거하면 모든 공유 권한이 레코드 유형 및 그 안의 모든 레코드에서 제거됩니다.
@@ -135,13 +139,13 @@ maybe use the Share record types as example here and touch on the same points: h
   작업 영역에 없는 사람과 레코드를 공유하는 경우 해당 레코드가 작업 영역에 자동으로 추가됩니다.
 * 사용자의 레코드에 대한 액세스는 다음 3가지 설정의 조합을 통해 결정됩니다.
 
-   * 레코드 유형 및 작업 영역에서 상속된 권한
-   * 레코드 공유 상자에 개별적으로 추가된 권한
-   * 작업 영역의 모든 사용자가 볼 수 있음&#x200B;**설정.**
+  * 레코드 유형 및 작업 영역에서 상속된 권한
+  * 레코드 공유 상자에 개별적으로 추가된 권한
+  * 작업 영역의 모든 사용자가 볼 수 있음&#x200B;**설정.**
 
-     이렇게 하면 작업 공간의 모든 사용자가 레코드를 볼 수 있습니다
+    이렇게 하면 작업 공간의 모든 사용자가 레코드를 볼 수 있습니다
 
-     <!--
+    <!--
       Cannot do this on a record: 
       * **Only invited people can access**: This is selected by default and allows restricting access to the record to specific people. 
       -->
@@ -150,8 +154,8 @@ maybe use the Share record types as example here and touch on the same points: h
 
   예:
 
-   * 레코드 유형에 대한 보기 권한이 있는 경우 레코드에 대한 보기 권한을 갖게 됩니다
-   * 레코드 유형에 대한 기여 또는 관리 권한이 있는 경우 레코드에 대한 관리 권한을 얻습니다
+  * 레코드 유형에 대한 보기 권한이 있는 경우 레코드에 대한 보기 권한을 갖게 됩니다
+  * 레코드 유형에 대한 기여 또는 관리 권한이 있는 경우 레코드에 대한 관리 권한을 얻습니다
 
 * 사용자가 작업 공간 및 레코드 유형에 대한 관리 또는 기여 권한을 가지고 있고 이를 레코드 권한에 추가하면 보기 권한이 흐리게 표시됩니다. 레코드 유형에 대한 권한과 동일한 권한을 보유하며, 레코드에 대해 더 낮은 권한을 부여할 수 없습니다.
 
@@ -210,7 +214,7 @@ Lilit is checking on this, it is not working correctly
 
    **공유** 상자가 열립니다.
 
-   ![&#128279;](assets/permissions-for-records-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드에 대한 사용 권한
+   ](assets/permissions-for-records-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드에 대한 ![사용 권한
 
    >[!WARNING]
    >
