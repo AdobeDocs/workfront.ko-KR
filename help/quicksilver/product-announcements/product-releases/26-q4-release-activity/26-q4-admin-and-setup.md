@@ -4,9 +4,9 @@ description: 2026년 4분기 관리자 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 각 항목에는 날짜 및 시간, 작업, 사용자 이름(또는 &quot;시스템 생성&quot;), 객체 이름 등 추적되는 표준 필드가 포함됩니다. MCP 활동은 LLM(예: Claude)이 업데이트를 수행한 것을 포함하여 캡처됩니다. Frame.io 뷰어 주석은 포함되지 않습니다.
 
-자세한 내용은 [변경 내용 보기 및 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)를 참조하십시오.
+자세한 내용은 [변경 내용 보기 및 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)를 참조하십시오.
 
 ## 레이아웃 템플릿에서 사용자 정의 애플리케이션을 랜딩 페이지로 정의
 
@@ -107,7 +107,7 @@ Workfront 전체에서 특정 오브젝트 유형에 대해 추적할 필드를 
 
 이전에는 추적된 필드를 정의하는 구성 화면이 보기 전용이었습니다.
 
-자세한 내용은 [변경 내용 보기 및 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)를 참조하십시오.
+자세한 내용은 [변경 내역에서 추적할 필드 구성](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)을 참조하십시오.
 
 ## 변경 내역에 대한 관리 액세스 권한이 액세스 수준에 추가됨
 
@@ -117,6 +117,6 @@ Workfront 전체에서 특정 오브젝트 유형에 대해 추적할 필드를 
 
 이제 표준 액세스 수준에서 해당 수준의 사용자가 변경 내용 목록에 액세스할 수 있어야 하는지 여부를 정의할 수 있습니다. 액세스 수준의 **관리 액세스 허용** 섹션에서 **기록 변경** 옵션을 사용할 수 있습니다.
 
-자세한 내용은 [특정 영역에 대한 관리자 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) 및 [변경 기록 보기 및 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)를 참조하십시오.
+자세한 내용은 [특정 영역에 대한 관리자 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) 및 [변경 기록 보기 및 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)를 참조하십시오.
 
 
