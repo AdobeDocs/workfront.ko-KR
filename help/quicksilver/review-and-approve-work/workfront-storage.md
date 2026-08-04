@@ -6,9 +6,9 @@ description: Adobe 클라우드 스토리지에서 Workfront 롤아웃을 계획
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4821a7db4014b2a73c0466726ba3d239c318d5f0
+source-git-commit: 6bfa9fd95de0301fea5f15885cc1aafbb2d14dbb
 workflow-type: tm+mt
-source-wordcount: '2702'
+source-wordcount: '2967'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,27 @@ ht-degree: 0%
 
 Adobe 클라우드 스토리지의 Workfront을 사용하면 Frame.io 뷰어의 검토, 강력한 승인 워크플로, 자산에 대한 제품 간 가시성 등과 같은 전체 통합 검토 및 승인 경험을 사용할 수 있습니다.
 
-기존 오브젝트는 오늘날과 같은 방식으로 계속 작동합니다. 새 문서 영역, Frame.io 뷰어 및 기타 Adobe 클라우드 스토리지 동작은 Adobe 클라우드 스토리지를 사용하는 객체에만 적용됩니다.
+이 문서에 설명된 새 문서 영역, Frame.io 뷰어 및 기타 Adobe 클라우드 스토리지 동작은 Adobe 클라우드 스토리지를 사용하는 객체에만 적용됩니다.
 
 이 문서는 Adobe 클라우드 스토리지에서 Workfront을 롤아웃하려는 Workfront 관리자를 위한 것입니다. 이 섹션에서는 사용자를 위해 Adobe 클라우드 스토리지를 활성화하기 전에 Adobe 클라우드 스토리지 개체에 대한 주요 차이점, 롤아웃 유형을 선택하는 방법 및 고려해야 할 사항에 대해 다룹니다.
 
 >[!IMPORTANT]
 >
->Adobe 클라우드 스토리지를 지원하는 Workfront 버전을 사용해야 합니다. 조직이 이미 지원되는 버전을 사용하고 있지 않은 경우 Adobe 계정 담당자에게 문의하십시오.
+>* Adobe 클라우드 스토리지를 지원하는 Workfront 버전을 사용해야 합니다. 조직이 이미 지원되는 버전을 사용하고 있지 않은 경우 Adobe 계정 담당자에게 문의하십시오.
+>* Adobe 클라우드 저장소를 지원하는 Workfront 버전으로 이동하면 기존 승인 워크플로가 기존 문서 승인에서 통합 승인으로 *모두*&#x200B;됩니다. 자세한 내용은 [통합 승인이 저장소 모델에 관계없이 적용됨](#unified-approvals-applies-regardless-of-storage-model)을 참조하십시오.
 
+## 스토리지 모델에 관계없이 통합 승인 적용
 
+Adobe 클라우드 스토리지를 지원하는 Workfront 버전으로 이동하면 기존 Workfront 스토리지에 남아 있든 Adobe 클라우드 스토리지로 이동하든 상관없이 모든 오브젝트에 대해 기존 승인 워크플로가 기존 문서 승인에서 통합 승인으로 *모두*&#x200B;이동합니다. 이는 [Adobe 클라우드 저장소 롤아웃 방법 선택](#choose-how-adobe-cloud-storage-rolls-out)에 설명된 저장소 롤아웃 선택 사항과 다릅니다. 이러한 선택 사항은 승인 워크플로가 통합 승인으로 이동하는지 여부가 아니라 새 개체가 사용하는 저장소 모델을 제어합니다. 이 변경에는 파일럿 그룹이나 점진적인 옵션이 없으며, 지원되는 버전을 사용하는 즉시 조직 전체에 적용됩니다.
+
+Adobe 클라우드 스토리지를 롤아웃하기 전에 승인을 관리하는 사람이 예상되는 내용을 알고 있는지 확인하십시오.
+
+* **새로운 승인 경험** 검토자와 승인자가 기존 문서 승인 경험에서 다단계 승인, 병렬 검토 경로 등을 추가하는 통합 승인으로 이동합니다. 자세한 내용은 다음 문서를 참조하십시오.
+
+  * [통합 검토 및 승인 시작](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+  * [문서 승인에 사용 가능한 기능](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+* **새 보고 위치** 통합 승인 워크플로 데이터 및 보고가 캔버스 대시보드로 이동합니다. 기존 레거시 승인 보고서는 자동으로 이월되지 않습니다. 자세한 내용은 [검토 및 승인을 위한 보고서 대시보드 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)를 참조하세요.
+* **가능한 Fusion 시나리오 업데이트** 레거시 문서 승인을 기반으로 구축된 기존 Fusion 시나리오를 편집하거나, 다시 빌드하거나, 폐기하여 통합 승인을 사용해야 할 수 있습니다. 자세한 내용은 [통합 검토 및 승인을 위해 Workfront Fusion 시나리오 업데이트](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)를 참조하십시오.
 
 ## 기존 Workfront 스토리지 및 Adobe 클라우드 스토리지 이해
 

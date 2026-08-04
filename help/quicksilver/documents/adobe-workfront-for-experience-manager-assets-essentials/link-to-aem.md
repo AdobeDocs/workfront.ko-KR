@@ -7,19 +7,13 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
 TQID: https://experienceleague.adobe.com/0qWQcRcAeOK7SfQTqHfSrxvyTf2h9piCwwJ9Tg2rCWQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: 1435
+source-wordcount: 1467
 ht-degree: 1%
 
 ---
@@ -81,7 +75,7 @@ Content Advisor는 상황에 맞는 지능적인 검색 기능을 Workfront에 �
 
 * Workfront 관리자는 Experience Manager 통합을 구성해야 합니다. 자세한 내용은 [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)을 참조하십시오.
 
-* 스마트 제안 또는 Campaign Brief 기능을 사용하려면 GenAI 라이더에 서명해야 합니다. 자세한 내용은 [콘텐츠 관리자를 사용하여 Adobe 응용 프로그램의 AEM 콘텐츠에 액세스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search)를 참조하십시오.
+* 스마트 제안 또는 Campaign Brief 기능을 사용하려면 GenAI 라이더에 서명해야 합니다. 자세한 내용은 [콘텐츠 관리자를 사용하여 Adobe 응용 프로그램의 AEM 콘텐츠에 액세스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search)를 참조하십시오.
 
 
 
@@ -105,46 +99,54 @@ Content Advisor는 상황에 맞는 지능적인 검색 기능을 Workfront에 �
    <tbody>
       <tr>
          <td><strong>AI 검색을 사용하여 자산을 검색합니다.</strong> 쿼리의 의미와 의도를 이해하고 여러 언어, 오타 및 동의어를 지원하는 AI 기반 검색을 사용합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">스마트 자산 검색용 AI 검색</a>를 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">스마트 자산 검색용 AI 검색</a>를 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>컨텍스트 및 의도를 기반으로 스마트 제안을 봅니다.</strong> 호스트 Adobe 애플리케이션의 컨텍스트 인식 권장 사항을 사용하여 콘텐츠 요구 사항에 맞는 에셋을 검색합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">컨텍스트 및 의도에 따른 스마트 제안</a>을 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">컨텍스트 및 의도에 따른 스마트 제안</a>을 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>관련 에셋을 검색하려면 캠페인 개요를 업로드하십시오.</strong> PDF, DOCX 또는 TXT 캠페인 개요 문서를 업로드하여 Content Advisor가 이를 분석하고 관련 에셋을 추천할 수 있도록 합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">관련 자산을 검색하는 캠페인 개요</a>를 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">관련 자산을 검색하는 캠페인 개요</a>를 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>Dynamic Media 에셋 렌디션을 보고 선택합니다.</strong> 이미지 사전 설정, 스마트 자르기 및 형식 유형을 포함하여 채널에 최적화된 렌디션을 찾아보고 Dynamic Media 수정자를 적용하여 조정을 실시간으로 미리 볼 수 있습니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">사용할 수 있는 Dynamic Media 에셋 렌디션</a>을 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">사용할 수 있는 Dynamic Media 에셋 렌디션</a>을 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>변환에 Dynamic Media 수정자를 적용합니다.</strong> 수정자를 추가하여 자산 렌디션을 실시간으로 변형하고 호스트 애플리케이션의 렌디션을 선택하기 전에 결과를 미리 봅니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">사용할 수 있는 Dynamic Media 에셋 렌디션</a>을 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">사용할 수 있는 Dynamic Media 에셋 렌디션</a>을 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>콘텐츠 조각 검색 및 찾아보기</strong> 콘텐츠 조각을 검색하고, 라이브 썸네일 미리보기를 확인하고, 상태(초안, 수정됨 또는 게시됨)를 확인하고, 세부 속성, 참조 및 변형을 검사할 수 있습니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">콘텐츠 조각 검색</a>을 참조하세요.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">콘텐츠 조각 검색</a>을 참조하세요.</td>
       </tr>
       <tr>
          <td><strong>자산 메타데이터에 액세스합니다.</strong> Assets 보기와 일치하는 제목, 설명, 형식, 크기 및 기타 메타데이터 탭(제품, 캠페인, 태그)과 같은 자산 속성을 검토합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Assets 보기와 일치하는 자산 메타데이터에 액세스</a>를 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Assets 보기와 일치하는 자산 메타데이터에 액세스</a>를 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>미리 정의된 필터를 사용하여 자산을 필터링합니다.</strong> 파일 유형, 파일 형식, 에셋 상태, 파일 크기, 이미지 너비, 이미지 높이, 수정한 날짜 및 만든 날짜와 같은 필터를 사용하여 에셋 결과를 구체화합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Assets 보기와 일치하는 필터에 액세스</a>를 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Assets 보기와 일치하는 필터에 액세스</a>를 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>검색을 저장하고 다시 사용합니다.</strong> 검색어와 필터 옵션을 지정하여 저장된 검색을 작성한 다음 Experience Manager Assets 및 기타 Adobe 애플리케이션에서 재사용합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">최근 검색 및 저장된 검색 다시 사용</a>을 참조하세요.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">최근 검색 및 저장된 검색 다시 사용</a>을 참조하세요.</td>
       </tr>
       <tr>
          <td><strong>컬렉션 간 및 컬렉션 내 자산을 검색합니다.</strong> 모든 컬렉션에서 에셋 또는 컬렉션을 검색하거나 특정 컬렉션으로 검색을 제한합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">컬렉션 간 및 컬렉션 내 자산 검색</a>을 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">컬렉션 간 및 컬렉션 내 자산 검색</a>을 참조하십시오.</td>
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >콘텐츠 권고자의 권장 콘텐츠는 다음 데이터를 사용하여 Workfront에서 권장되는 콘텐츠를 결정합니다.
+   >
+   >* Workfront 개체 이름 및 설명 필드
+   >* 필수 항목으로 표시된 사용자 정의 양식 필드
+   >* 첨부된 문서의 데이터
 
 
 ### Experience Manager Assets에서 콘텐츠 관리자를 사용하여 새 버전 연결

@@ -10,21 +10,15 @@ exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 4%
+source-wordcount: 627
+ht-degree: 3%
 
 ---
 
@@ -69,7 +63,7 @@ ht-degree: 4%
 * Workfront 인스턴스에는 통합 승인이 활성화되어 있어야 합니다.
 
 * 조직에 GenStudio Foundation이 있어야 합니다.
-   * Workfront의 컨텐츠 검토자는 자산 검토 및 승인 워크플로에 GenStudio Foundation에서 사용할 수 있는 기능을 제공합니다. 작업을 완료하기 위해 GenStudio Foundation에 직접 액세스할 필요는 없습니다. 콘텐츠 검토자를 통해 GenStudio Foundation 기능에 대한 액세스는 Workfront 계약 조건에 해당됩니다.
+  * Workfront의 컨텐츠 검토자는 자산 검토 및 승인 워크플로에 GenStudio Foundation에서 사용할 수 있는 기능을 제공합니다. 작업을 완료하기 위해 GenStudio Foundation에 직접 액세스할 필요는 없습니다. 콘텐츠 검토자를 통해 GenStudio Foundation 기능에 대한 액세스는 Workfront 계약 조건에 해당됩니다.
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
 계약 서명에 대한 자세한 내용은 [Adobe Gen AI 계약 서명](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)을 참조하십시오.
 
@@ -86,7 +80,7 @@ ht-degree: 4%
 1. 왼쪽 패널에서 **검토 및 승인** > **브랜드**(으)로 이동합니다.
 1. 화면 오른쪽 상단에서 **브랜드 추가**&#x200B;를 클릭합니다.
 1. 브랜드 이름을 지정합니다.
-1. 브랜드 파일을 업로드하려면 **PDF 업로드**&#x200B;를 클릭하세요.
+1. 브랜드 파일을 업로드하려면 **PDF 업로드**를 클릭하세요.
    ![브랜드 pdf 업로드](assets/upload-PDF.png)
 1. **계속**&#x200B;을 클릭합니다.
 1. 브랜드 가이드라인이 포함된 PDF 파일을 하나 이상 업로드한 다음 **브랜드 추가**&#x200B;를 클릭합니다.
@@ -142,6 +136,8 @@ ht-degree: 4%
 
 
 ## 브랜드 지침 작성에 대한 우수 사례
+
+지침을 작성하기 전에 이미지 및 브랜드 음성 지침 유형에 대해 [콘텐츠 검토자가 평가하는 내용](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates)을 검토하십시오. 이러한 평가 영역 이외의 지침은 점수를 매기지 않습니다.
 
 *  측정 가능한 기준을 설명하는 브랜드 지침을 작성하십시오. 콘텐츠 검토자는 콘텐츠를 문자 그대로 평가하므로 객관적인 규칙이 주관적인 규칙보다 더 일관된 점수를 생성합니다.
 
