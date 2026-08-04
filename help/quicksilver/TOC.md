@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 541f736ffb051e1a7d5e0a277e12353c40bf885c
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '14399'
+source-wordcount: '14406'
 ht-degree: 2%
 
 ---
@@ -543,6 +543,8 @@ ht-degree: 2%
       * [사용자 삭제](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
       * [감사 로그 개요](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
       * [감사 로그 보기 및 내보내기](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
+      * [변경 내역 보기 및 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
+      * [변경 내역에서 추적할 필드 구성](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
       * [사용자 로그인 정보 보기](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Adobe Admin Console에서 사용자 관리](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [비즈니스 프로필 개요](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
@@ -821,7 +823,6 @@ ht-degree: 2%
     * [템플릿에서 비율 카드 가져오기](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
     * [프로젝트에 대한 푸시 비율 변경](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
     * [요금 카드 공유](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
-    * [변경 내역 보기 및 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
   * 통합 구성 {#configure-integrations}
     * [통합 구성](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Adobe Workfront 통합](administration-and-setup/configure-integrations/workfront-integrations-1.md)

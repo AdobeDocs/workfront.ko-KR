@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9025c23900c031594d1a4b875826fc35f1d5bf6c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 8%
+source-wordcount: 622
+ht-degree: 9%
 
 ---
 
@@ -60,14 +60,26 @@ ht-degree: 8%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p> <p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+<ul> 
+<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
+또는
+<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td><p>워크플로우 표준</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 공간에 대한 권한 관리</p>  
@@ -128,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -147,24 +159,24 @@ Old:
 * Workfront 필드를 가져오면 동일한 필드의 복사본이 만들어지고 Workfront Planning에서 필드 이름이 유지됩니다. 이러한 필드는 Workfront Planning에 복사되면 원래 Workfront 필드와 독립적이며 정보를 공유하지 않습니다.
 <!--check this: * You do not need permissions or access to Workfront objects to be able to add their fields to Workfront Planning. -->
 * 다음 Workfront 개체에서 기본 또는 사용자 지정 필드를 추가할 수 있습니다.
-   * 포트폴리오
-   * 프로그램
-   * 프로젝트
-   * 작업
-   * 문제
-   * 문서
-   * 회사
-   * 그룹
-   * 사용자
-   * 작업 역할
-   * 할당
-   * 시간
-   * 청구 기록
-     <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
-   * 경비
-   * 반복
-     <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
-     <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
+  * 포트폴리오
+  * 프로그램
+  * 프로젝트
+  * 작업
+  * 문제
+  * 문서
+  * 회사
+  * 그룹
+  * 사용자
+  * 작업 역할
+  * 할당
+  * 시간
+  * 청구 기록
+    <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
+  * 경비
+  * 반복
+    <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+    <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
 * Workfront 필드를 Workfront Planning에서 가져온 후 필드 유형이 유지되지 않을 수 있습니다.
 
   아래 표는 Workfront 필드 유형과 해당 Workfront Planning 필드 유형을 보여 줍니다.
@@ -185,7 +197,7 @@ Old:
   | 라디오 단추 | 다중 선택 |
 
   *계산된 필드는 나중에 사용할 수 있습니다.
-다른 모든 Workfront 필드 유형은 Workfront Planning에서 지원되지 않습니다.
+  다른 모든 Workfront 필드 유형은 Workfront Planning에서 지원되지 않습니다.
 
 
 ## Workfront에서 필드 가져오기

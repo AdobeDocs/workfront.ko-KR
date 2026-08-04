@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 839
+source-wordcount: 861
 ht-degree: 1%
 
 ---
@@ -57,16 +57,26 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p> <p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+<p>모든 Workfront 또는 워크플로 및 Planning 패키지</p> 
+또는
+<p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td><p>워크플로우 표준</p>
    </td> 
   </tr>
-
-<tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
+   </td> 
+  </tr>
+ <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td> <p>레코드를 가져오는 작업 영역 및 레코드 유형에 대한 또는 그 이상의 권한을 제공하십시오. </p>
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
@@ -127,7 +137,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect them from new records  </p>  
 </td> 
   </tr> 
@@ -149,21 +159,21 @@ Old:
 * 각 시트의 각 행은 연결된 고유한 레코드가 됩니다.
 * Excel 파일에 둘 이상의 시트가 포함되어 있는 경우 가져오는 과정에서 선택한 한 시트의 정보만 가져옵니다.
 * 파일은 다음을 초과할 수 없습니다.
-   * 25,000행
-   * 500열
+  * 25,000행
+  * 500열
 * 파일은 5MB보다 크지 않아야 합니다.
 * 빈 시트는 지원되지 않습니다.
 * 다음 유형의 필드는 지원되지 않으며 가져오기 시트의 필드에 매핑할 수 없습니다.
 
-   * Workfront 및 Adobe Experience Manager 개체 유형에 대한 연결 필드입니다. 연결 필드만 Planning 레코드 유형에 매핑할 수 있습니다.
-   * 연결된 Planning 레코드 또는 Workfront 및 Adobe Experience Manager 개체의 조회 필드
-   * 공식 필드
-   * 만든 날짜, 만든 사람
-   * 마지막 수정 날짜, 마지막 수정자
-   * 승인 일자, 승인자
-   * 사람
-   * 레코드 ID
-   * 다중 또는 단일 선택 필드를 가져오고 Planning의 유사한 필드보다 더 많은 선택 사항이 있는 경우 가져오는 동안 추가 옵션이 생성됩니다. 작업 영역에 대한 관리 권한이 있는 사용자만 새 선택 사항을 가져올 수 있습니다.
+  * Workfront 및 Adobe Experience Manager 개체 유형에 대한 연결 필드입니다. 연결 필드만 Planning 레코드 유형에 매핑할 수 있습니다.
+  * 연결된 Planning 레코드 또는 Workfront 및 Adobe Experience Manager 개체의 조회 필드
+  * 공식 필드
+  * 만든 날짜, 만든 사람
+  * 마지막 수정 날짜, 마지막 수정자
+  * 승인 일자, 승인자
+  * 사람
+  * 레코드 ID
+  * 다중 또는 단일 선택 필드를 가져오고 Planning의 유사한 필드보다 더 많은 선택 사항이 있는 경우 가져오는 동안 추가 옵션이 생성됩니다. 작업 영역에 대한 관리 권한이 있는 사용자만 새 선택 사항을 가져올 수 있습니다.
 
 ## CSV 또는 Excel 파일을 가져와서 레코드 만들기
 

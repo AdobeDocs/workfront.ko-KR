@@ -4,7 +4,7 @@ description: 2026년 3분기 관리자 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8300e424d36a438ebb8e5ce0cad85ea63614bd8d
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 4%
@@ -36,7 +36,7 @@ ht-degree: 4%
 
 이 변경 추적 단계는 MCP 이벤트를 포함하지 않습니다. 향후 릴리스의 일부가 될 예정입니다.
 
-자세한 내용은 [변경 내용 보기 및 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)를 참조하십시오.
+자세한 내용은 [변경 내용 보기 및 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)를 참조하십시오.
 
 -->
 
@@ -142,7 +142,7 @@ ht-degree: 4%
 
 이전에는 감사 로그를 사용할 수 있었지만 개체를 다루지는 않았습니다.
 
-자세한 내용은 [변경 내용 보기 및 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)를 참조하십시오.
+자세한 내용은 [변경 내용 보기 및 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)를 참조하십시오.
 
 ## 레거시 스토리지 포트폴리오를 Adobe 클라우드 스토리지로 변환하는 새로운 시스템 환경 설정
 

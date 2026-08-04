@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1360
+source-wordcount: 1394
 ht-degree: 2%
 
 ---
@@ -67,8 +67,8 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 해당 �
 
   자세한 내용은 다음 문서를 참조하십시오.
 
-   * [레코드에 연결된 레코드 페이지 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
-   * [목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)
+  * [레코드에 연결된 레코드 페이지 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+  * [목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 이 문서에서는 레코드 보기에 대한 다음 정보를 설명합니다.
 
@@ -99,15 +99,29 @@ Workfront Planning 레코드 보기 관리에 대한 자세한 내용은 다음 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p>
-<p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
+또는
+<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p> 보기를 만들고 삭제하는 표준</p>
-   <p>기여자 이상: 보기 요소 업데이트</p>
+   <td><p>워크플로 라이트 이상</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p> 보기를 만들고 삭제하는 Planning Standard</p>
+   <p>뷰 요소를 업데이트할 계획 기여자 이상</p>
+   <p><b>메모</b><p>
+   <p>모든 고객에게 Planning Contributor 라이센스가 있는 것은 아닙니다.</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
@@ -171,7 +185,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -197,14 +211,14 @@ Old:
 * 각 사용자는 최대 100개의 보기를 만들 수 있습니다. 레코드 유형에 대해 100개 이상의 보기를 표시할 수 있지만 한 사용자가 100개의 보기만 만들 수 있습니다.
 * 일부 보기 요소는 동일한 레코드에 대한 여러 보기에 적용할 수 있지만 각 레코드 보기에 대해 고유합니다.
 
-   * 필터
-   * 정렬(표 보기)
-   * 행 색상(표 보기용)
-   * 필드(테이블 보기용)
-   * 분류 (타임라인 보기의 경우)
-   * 그룹화(테이블 및 타임라인 보기)
-   * 막대 모양(타임라인 및 달력 보기의 경우)
-   * 행 높이(표 및 월별 달력 보기의 경우)
+  * 필터
+  * 정렬(표 보기)
+  * 행 색상(표 보기용)
+  * 필드(테이블 보기용)
+  * 분류 (타임라인 보기의 경우)
+  * 그룹화(테이블 및 타임라인 보기)
+  * 막대 모양(타임라인 및 달력 보기의 경우)
+  * 행 높이(표 및 월별 달력 보기의 경우)
 
   예를 들어, 테이블 보기에서 필터를 만들 때 선택한 보기(테이블 보기)에서만 필터 결과가 표시되고 레코드 유형과 연관된 모든 보기에서는 표시되지 않습니다.
 

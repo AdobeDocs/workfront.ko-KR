@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: 1465
 ht-degree: 1%
 
 ---
@@ -79,22 +79,23 @@ Adobe Workfront Planning에서 여러 작업 영역에서 작동하도록 레코
    <td> 
 <p>연결 가능한 레코드 유형을 구성하려면: </p>
 <ul> 
-<li><p>모든 Workfront 패키지 및 모든 Planning 패키지</p></li>
+<li>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li>
 또는
-<li>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
-
+<li>Workfront Planning Prime 또는 Ultimate 패키지를 독립 실행형 제품으로 사용</li>
+</ul>
 
 <p>글로벌 레코드 유형을 구성하려면 다음을 수행합니다.</p>
 
 <ul> 
-<li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
+<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li>
+
 또는
-<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p>
+<li>독립형 제품으로 구입할 경우 Planning Prime 또는 Ultimate 패키지 </li>
+</ul>
 
 </td> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 및 Planning 라이선스</p></td> 
    <td>
    <!--
    <p>In the Production environment: </p>
@@ -105,15 +106,17 @@ Adobe Workfront Planning에서 여러 작업 영역에서 작동하도록 레코
    -->
 
 <p>레코드를 글로벌로 만들려면:</p>
-   <ul><li>표준 이상</li></ul>
+   <ul><li>Workfront 및 Planning Standard 이상</li></ul>
    <p>레코드를 연결 가능하게 만들려면:</p>
 
-<ul><li>특정 작업 영역에서 연결할 수 있는 레코드를 만드는 표준</li>
+<ul><li>특정 작업 영역에서 연결할 수 있는 레코드를 만드는 Workfront 및 Planning Standard</li>
    <li>모든 작업 영역에서 연결할 수 있는 레코드를 만드는 시스템 관리자</li></ul>
-
 
 </td> 
   </tr> 
+  <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 공간에 대한 권한 관리</p>  

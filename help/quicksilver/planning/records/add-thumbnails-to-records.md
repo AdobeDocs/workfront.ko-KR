@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 820
+source-wordcount: 818
 ht-degree: 1%
 
 ---
@@ -59,14 +59,26 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p> <p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+<ul> 
+<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
+또는
+<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td><p>워크플로우 표준</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 공간, 레코드 유형 및 레코드에 대한 권한 관리에 대해 또는 그 이상의 권한 기여 </p>  
@@ -127,7 +139,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -153,9 +165,9 @@ Old:
 * Workfront은 레코드를 만들 때마다 썸네일 이미지를 자동으로 업로드합니다. 나중에 이 이미지를 수정할 수 있습니다.
 * 축소판은 레코드 정보에 속하며 레코드가 표시되는 영역에 표시됩니다. 예를 들어 축소판은 다음 영역의 레코드 정보와 함께 표시됩니다.
 
-   * 테이블 보기에서 레코드의 기본 필드
-   * 타임라인 보기의 레코드 모음
-   * 레코드의 세부 사항 미리 보기 및 페이지.
+  * 테이블 보기에서 레코드의 기본 필드
+  * 타임라인 보기의 레코드 모음
+  * 레코드의 세부 사항 미리 보기 및 페이지.
 
 ## 레코드에 썸네일 추가
 
@@ -246,7 +258,7 @@ Old:
 1. (선택 사항) 썸네일을 저장하기 전에 제거하려면 이미지 오른쪽에 있는 **제거** 아이콘 ![이미지 제거 아이콘](assets/remove-image-icon.png)을 클릭합니다.
 
 1. **이미지 사용**&#x200B;을 클릭하여 이미지를 축소판으로 추가합니다.
-**Record thumbnail** 상자를 닫습니다.
+**레코드 썸네일** 상자가 닫힙니다.
 썸네일은 레코드가 표시되는 Workfront Planning 영역에 표시됩니다.
 
    >[!TIP]

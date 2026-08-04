@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1777
+source-wordcount: 1740
 ht-degree: 1%
 
 ---
@@ -59,19 +59,24 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p>
-<p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+<p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p>
+또는
+<p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td><p>워크플로우 표준</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
+   </td> 
+  </tr>
   <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>프로젝트, 프로그램 및 포트폴리오 보기 또는 상위 액세스</p>  
-   <p>Workfront Planning에 대한 액세스 수준 구성이 없습니다. </p>
+   <td><p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p> 
+   <p>프로젝트, 프로그램 및 포트폴리오 보기 또는 상위 액세스</p> 
 </td>
   </tr>
 <tr>
@@ -185,8 +190,8 @@ Workfront 객체의 계획 섹션에서 Workfront Planning 레코드를 볼 때�
 
   자세한 내용은 다음 문서를 참조하십시오.
 
-   * [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [기록 연결](/help/quicksilver/planning/records/connect-records.md)
+  * [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [기록 연결](/help/quicksilver/planning/records/connect-records.md)
 * Workfront 객체와 연관된 레코드가 없는 경우에도 Workfront 객체에서 계획 섹션을 볼 수 있습니다.
 * 두 레코드 유형 간에 연결을 만들 때 연결된 레코드 유형 설정에서 해당 필드 만들기 를 활성화한 경우에만 레코드 유형이 Workfront 개체의 계획 영역에 표시됩니다.
 
@@ -218,9 +223,9 @@ Workfront 객체의 계획 섹션에서 Workfront Planning 레코드를 볼 때�
    계획 섹션에는 다음 정보가 표시됩니다.
 
    * 연결된 레코드는 다음 정보가 포함된 개별 카드에 표시됩니다.
-      * 레코드 이름
-      * 레코드 썸네일
-      * Workfront Planning에 표시되는 연결된 레코드 필드의 이름.
+     * 레코드 이름
+     * 레코드 썸네일
+     * Workfront Planning에 표시되는 연결된 레코드 필드의 이름.
    * 레코드는 해당 작업 공간 및 레코드 유형 아래에 표시됩니다.
 
    ![프로젝트의 계획 섹션](assets/planning-section-on-project.png)
@@ -253,11 +258,11 @@ Planning 연결 사용자 정의 필드를 생성할 때 Workfront 객체에 대
 
 * Planning 연결 필드는 연결이 설정된 후 필드가 다음 Workfront 객체의 양식에 첨부된 경우 Planning 레코드를 표시합니다.
 
-   * 프로젝트
-   * 포트폴리오
-   * 프로그램
-   * 그룹
-   * 회사
+  * 프로젝트
+  * 포트폴리오
+  * 프로그램
+  * 그룹
+  * 회사
 
 자세한 내용은 [양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
@@ -267,8 +272,8 @@ Workfront 객체의 Planning 연결 필드에서 Workfront Planning 레코드를
 
 * Planning 레코드가 Workfront 객체에 연결된 후 Planning 연결 필드가 Workfront 객체의 사용자 정의 양식에 다음과 같이 표시됩니다.
 
-   * 연결된 레코드의 기본 필드만 선택한 경우, 연결에 의해 여러 레코드가 연결될 수 있는 경우 Planning 연결 필드는 여러 값이 있는 필드로 표시됩니다. 자세한 내용은 [레코드 종류 연결 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
-   * Workfront 또는 그룹 관리자가 사용자 정의 양식에 연결된 레코드에서 추가 조회 필드를 추가한 경우 Planning 연결 필드가 표로 표시됩니다. Planning 연결 필드에 대해 최대 7개의 필드를 선택할 수 있습니다. 테이블 보기는 읽기 전용입니다.
+  * 연결된 레코드의 기본 필드만 선택한 경우, 연결에 의해 여러 레코드가 연결될 수 있는 경우 Planning 연결 필드는 여러 값이 있는 필드로 표시됩니다. 자세한 내용은 [레코드 종류 연결 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
+  * Workfront 또는 그룹 관리자가 사용자 정의 양식에 연결된 레코드에서 추가 조회 필드를 추가한 경우 Planning 연결 필드가 표로 표시됩니다. Planning 연결 필드에 대해 최대 7개의 필드를 선택할 수 있습니다. 테이블 보기는 읽기 전용입니다.
 
 * 하나의 레코드 유형만 하나의 Planning 연결 필드에 연결할 수 있습니다. 양식에 있는 Planning 연결 필드 수에는 제한이 없습니다.
 * Planning 연결 사용자 정의 필드가 있는 사용자 정의 양식을 Workfront 객체에 첨부하려면 객체, 레코드 및 Workfront Planning에 대한 올바른 액세스 및 권한이 있어야 합니다.

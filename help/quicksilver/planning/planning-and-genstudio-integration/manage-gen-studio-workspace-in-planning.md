@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1769
+source-wordcount: 1794
 ht-degree: 2%
 
 ---
@@ -78,10 +78,11 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p>
-<p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
-   </td> 
+<p>모든 Workfront 또는 워크플로 및 모든 Planning 패키지</p> 
+또는
+<p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p>
+
+</td> 
    <tr> 
 <td> 
    <p> 추가 제품</p> </td> 
@@ -90,10 +91,21 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
   </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td><p>워크플로우 표준</p>
    </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront 액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 Workfront 액세스 수준에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>정품 인증에 액세스하기 위한 GenStudio System Manager <!--and Events--></li></ul>
@@ -122,7 +134,66 @@ Adobe Workfront Planning 액세스에 대한 자세한 내용은 [Adobe Workfron
 
 Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
 
-+++   
++++ 
+
+<!--
+
+Old, before Planning STA: 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+   <tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+   <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+   <li>GenSudio System Manager to access Activations </li></ul>
+   For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   </p>
+  </td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Manage permissions to the GenStudio workspace to add new fields or record types to the GenStudio workspace</p></li>
+   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio workspace</p> </li>  
+   </ul>
+   <p>No users can remove GenStudio for Performance Marketing record types or fields from the GenStudio workspace in Workfront Planning</p>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
+   </td>  
+</tbody> 
+</table> 
+
+-->
+
 
 <!--
 Old:
@@ -309,18 +380,18 @@ Workfront Planning 기본 페이지가 열립니다.
 1. 보기 또는 레코드 유형을 공유하려면 다음을 수행하십시오.
 
    * 레코드 종류 페이지의 오른쪽 상단에서 **공유**&#x200B;를 클릭한 후 다음 중 하나를 클릭합니다.
-      * **레코드 종류 공유**
-자세한 내용은 [레코드 종류 공유](/help/quicksilver/planning/access/share-record-types.md)를 참조하십시오.
-      * **현재 보기 공유**
-자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하십시오.
-      * **보기 링크 복사**
-보기에 대한 링크가 클립보드에 복사됩니다.
-      * **현재 보기 내보내기**
-자세한 내용은 [테이블 보기에서 레코드 내보내기](/help/quicksilver/planning/records/export-records-from-the-table-view.md)를 참조하십시오.
+     * **레코드 종류 공유**
+       자세한 내용은 [레코드 종류 공유](/help/quicksilver/planning/access/share-record-types.md)를 참조하십시오.
+     * **현재 보기 공유**
+       자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하십시오.
+     * **보기 링크 복사**
+       보기에 대한 링크가 클립보드에 복사됩니다.
+     * **현재 보기 내보내기**
+       자세한 내용은 [테이블 보기에서 레코드 내보내기](/help/quicksilver/planning/records/export-records-from-the-table-view.md)를 참조하십시오.
 
-        >[!NOTE]
-        >
-        >해당 작업 영역 또는 레코드 유형을 GenStudio 작업 영역과 공유한 후에는 GenStudio 사용자를 레코드 유형에서 제거할 수 없습니다.
+       >[!NOTE]
+       >
+       >해당 작업 영역 또는 레코드 유형을 GenStudio 작업 영역과 공유한 후에는 GenStudio 사용자를 레코드 유형에서 제거할 수 없습니다.
 
 1. 레코드 유형 보기를 관리하려면 다음을 수행합니다.
 
@@ -386,9 +457,9 @@ Workfront Planning 기본 페이지가 열립니다.
 
      GenStudio 작업 영역에서 생성된 필드는 다음 영역에 표시됩니다.
 
-      * Workfront Planning의 Workfront Planning 보기
-      * Workfront Planning의 Workfront Planning 레코드 세부 정보
-      * GenStudio for Performance Marketing의 GenStudio 레코드 세부 정보
+     * Workfront Planning의 Workfront Planning 보기
+     * Workfront Planning의 Workfront Planning 레코드 세부 정보
+     * GenStudio for Performance Marketing의 GenStudio 레코드 세부 정보
 
      >[!NOTE]
      >
@@ -407,13 +478,13 @@ Workfront Planning 기본 페이지가 열립니다.
    1. 오른쪽 패널에서 **Campaign** 탭을 클릭하여 선택합니다.
 
       **Campaign** 필드의 자산 표시에 연결된 캠페인의 이름입니다. 읽기 전용 필드입니다.
-자산이 Planning의 GenStudio 작업 영역에서 **Region**, **Persona**, **Product** 또는 **Channel**&#x200B;에도 연결되어 있는 경우 이러한 레코드 유형의 각 필드는 읽기 전용 모드로 자산의 **Campaign** 탭에 해당 이름을 표시합니다.
+      자산이 Planning의 GenStudio 작업 영역에서 **Region**, **Persona**, **Product** 또는 **Channel**&#x200B;에도 연결되어 있는 경우 이러한 레코드 유형의 각 필드는 읽기 전용 모드로 자산의 **Campaign** 탭에 해당 이름을 표시합니다.
    1. (조건부) Planning의 GenStudio 작업 영역에 있는 연결된 AEM 컨텐츠 조각에서 컨텐츠 조각의 이름을 클릭한 다음 **AEM에서 열기** 아이콘 ![AEM에서 열기 아이콘](assets/open-in-aem-icon.png)을 클릭하여 AEM에서 컨텐츠 조각을 엽니다.
    1. **홈** 아이콘 ![AEM의 홈 아이콘](assets/home-icon-in-aem.png)을 클릭하여 콘텐츠 조각 목록으로 이동한 다음 콘텐츠 조각 이름 오른쪽에 있는 **정보** 아이콘 ![AEM의 정보 아이콘](assets/info-icon-in-aem.png)을 클릭합니다.
    1. 오른쪽 패널에서 **메타데이터** 탭을 클릭합니다.
 
       콘텐츠 조각에 연결된 캠페인 이름이 **xdm: campaignName** 필드에 표시됩니다. 읽기 전용 필드입니다. <!--tried to log a bug to rename this field-->
-자산이 Planning의 GenStudio 작업 영역에서 **지역**, **페르소나**, **제품** 또는 **채널**&#x200B;에도 연결된 경우 이러한 레코드 유형의 각 필드는 읽기 전용 모드로 콘텐츠 조각의 **메타데이터** 탭에 해당 이름을 표시합니다.
+      자산이 Planning의 GenStudio 작업 영역에서 **지역**, **페르소나**, **제품** 또는 **채널**&#x200B;에도 연결된 경우 이러한 레코드 유형의 각 필드는 읽기 전용 모드로 콘텐츠 조각의 **메타데이터** 탭에 해당 이름을 표시합니다.
 
 1. 테이블 보기의 필드 위로 마우스를 가져간 다음 드롭다운 메뉴를 클릭하여 다음 중 하나를 수행합니다.
 

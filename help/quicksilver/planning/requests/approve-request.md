@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 999
+source-wordcount: 1016
 ht-degree: 1%
 
 ---
@@ -52,18 +52,6 @@ ht-degree: 1%
 * [Adobe Workfront Planning 요청을 제출하여 레코드 생성](/help/quicksilver/planning/requests/submit-requests.md)
 * [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
-## 요청 승인에 대한 고려 사항
-
-* 제출된 요청은 Workfront의 요청 영역에 다음 요청 상태 중 하나로 표시됩니다.
-
-   * **검토 보류 중**: 승인자가 요청 개체를 열지 않은 경우 이 상태가 표시됩니다.
-   * **검토 중**: 하나 이상의 승인자가 요청 개체를 열면 **검토 보류 중** 상태가 **검토 중**(으)로 변경됩니다. 모든 승인자가 요청을 승인할 때까지 요청의 상태가 **검토 중** 상태로 유지됩니다.
-   * **승인됨**: 승인자가 요청 개체를 승인하면 개별 상태는 **승인됨**&#x200B;이 되지만, 전체 요청 개체 상태는 모든 승인자가 결정을 내릴 때까지 **검토 중**&#x200B;으로 유지됩니다. 모든 승인자가 요청을 승인하면 요청 상태는 **승인됨**&#x200B;이 됩니다.
-   * **완료**: 모든 승인자가 요청 개체를 승인하면 상태가 **완료**(으)로 변경되거나 요청에 승인이 필요하지 않은 경우.
-   * **거부됨**: 승인자가 요청 개체를 거부하면 상태는 **거부됨**&#x200B;이 됩니다. 레코드가 만들어지지 않으며 레코드를 만들려면 새 요청을 제출해야 합니다.
-
-* 승인자 및 승인 일자 필드에 요청 양식을 실행하여 생성된 레코드에 승인 정보를 표시할 수 있습니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
-
 ## 액세스 요구 사항
 
 +++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
@@ -77,17 +65,24 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 패키지 및 모든 Planning 패키지</p>
+<p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p> 
 또는
-<p>모든 워크플로우 패키지 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오.</p>
-   </td> </tr>
-
-</tr> 
+<p>독립 실행형 제품으로 구입할 경우 모든 Workfront Planning</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>Any</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>Any</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
@@ -100,6 +95,18 @@ ht-degree: 1%
 Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+## 요청 승인에 대한 고려 사항
+
+* 제출된 요청은 Workfront의 요청 영역에 다음 요청 상태 중 하나로 표시됩니다.
+
+  * **검토 보류 중**: 승인자가 요청 개체를 열지 않은 경우 이 상태가 표시됩니다.
+  * **검토 중**: 하나 이상의 승인자가 요청 개체를 열면 **검토 보류 중** 상태가 **검토 중**(으)로 변경됩니다. 모든 승인자가 요청을 승인할 때까지 요청의 상태가 **검토 중** 상태로 유지됩니다.
+  * **승인됨**: 승인자가 요청 개체를 승인하면 개별 상태는 **승인됨**&#x200B;이 되지만, 전체 요청 개체 상태는 모든 승인자가 결정을 내릴 때까지 **검토 중**&#x200B;으로 유지됩니다. 모든 승인자가 요청을 승인하면 요청 상태는 **승인됨**&#x200B;이 됩니다.
+  * **완료**: 모든 승인자가 요청 개체를 승인하면 상태가 **완료**(으)로 변경되거나 요청에 승인이 필요하지 않은 경우.
+  * **거부됨**: 승인자가 요청 개체를 거부하면 상태는 **거부됨**&#x200B;이 됩니다. 레코드가 만들어지지 않으며 레코드를 만들려면 새 요청을 제출해야 합니다.
+
+* 승인자 및 승인 일자 필드에 요청 양식을 실행하여 생성된 레코드에 승인 정보를 표시할 수 있습니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 
 ## 레코드 작성을 위한 Planning 요청 승인
 

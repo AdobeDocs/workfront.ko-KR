@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 626
+source-wordcount: 621
 ht-degree: 2%
 
 ---
@@ -55,12 +55,19 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p> <p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+<ul> 
+<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
+또는
+<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td><p>워크플로우 표준</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
    </td> 
   </tr> 
   <tr> 
@@ -123,7 +130,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -173,7 +180,7 @@ Old:
 1. 레코드 이름의 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭한 다음 다시 **삭제**&#x200B;를 클릭하여 확인합니다.
 
    ![레코드 세부 정보 페이지의 추가 메뉴 옵션](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-레코드가 삭제되었습니다.
+   레코드가 삭제되었습니다.
 1. (선택 사항) 레코드 페이지의 테이블 보기로 이동한 다음, 보기의 오른쪽 상단에 있는 **실행 취소** 아이콘 ![실행 취소 아이콘](assets/undo-icon.png)을 클릭한 다음, **최근에 삭제됨**&#x200B;을 클릭하여 삭제된 레코드를 복구합니다.
 
 삭제된 레코드 복구에 대한 자세한 내용은 [삭제된 레코드 복구](/help/quicksilver/planning/records/restore-deleted-records.md)를 참조하십시오.
@@ -208,8 +215,8 @@ Old:
    * **실행 취소** 아이콘 ![실행 취소 아이콘](assets/undo-icon.png)을 클릭한 다음 **최근에 삭제됨**&#x200B;을 클릭하여 삭제된 레코드를 복구합니다. 삭제된 레코드 복구에 대한 자세한 내용은 [삭제된 레코드 복구](/help/quicksilver/planning/records/restore-deleted-records.md)를 참조하십시오.
    * 다음 키보드 단축키를 사용하여 레코드 삭제를 실행 취소하거나 재실행할 수 있습니다.
 
-      * 레코드 삭제를 취소하려면 CTRL + Z(⌘ + Z, Mac)
-      * 레코드 삭제를 다시 실행하려면 CTRL + Shift + Z(⌘ + Shift + Z)
+     * 레코드 삭제를 취소하려면 CTRL + Z(⌘ + Z, Mac)
+     * 레코드 삭제를 다시 실행하려면 CTRL + Shift + Z(⌘ + Shift + Z)
 
 
 

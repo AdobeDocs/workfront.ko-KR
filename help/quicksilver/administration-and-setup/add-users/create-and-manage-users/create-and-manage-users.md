@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: 114
+source-wordcount: 126
 ht-degree: 0%
 
 ---
@@ -48,6 +48,8 @@ ht-degree: 0%
 * [사용자 삭제](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
 * [감사 로그 개요](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [감사 로그 보기 및 내보내기](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
+* [변경 내역 보기 및 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
+* [변경 내역에서 추적할 필드 구성](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
 * [사용자 로그인 정보 보기](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [Adobe Admin Console에서 사용자 관리](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
 * [비즈니스 프로필 개요](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)

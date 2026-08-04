@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1179
+source-wordcount: 1193
 ht-degree: 2%
 
 ---
@@ -61,29 +61,37 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 Planning 패키지</p>
-<p>모든 워크플로우 및 계획 패키지</p>
+<p>모든 Workfront 또는 워크플로 및 Planning 패키지</p>
+또는
+<p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p>
 <p><b>메모</b></p>
 <p>연결 가능한 레코드 유형을 구성하려면: </p>
 <ul> 
-<li><p>모든 Workfront 패키지 및 모든 Planning 패키지</p></li>
+<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li>
 또는
-<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
+<li>독립형 제품으로 구입할 경우 Planning Prime 또는 Ultimate 패키지</li>
+</ul>
 
 <p>글로벌 레코드 유형을 구성하려면 다음을 수행합니다.</p>
 
 <ul> 
 <li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
 또는
-<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p>
-
-</td> </tr>
+<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li>
+또는 
+<li>독립형 제품으로 구입할 경우 Planning Prime 또는 Ultimate 패키지</li>
+</ul>
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>표준</p>
    </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 수립 표준</p>
+   </td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 공간에 대한 권한 관리</p>  
@@ -143,7 +151,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -159,27 +167,27 @@ Old:
 
 * 다음과 같은 방법으로 작업 영역에서 레코드 유형을 만들 수 있습니다.
 
-   * 자동:
-      * 템플릿을 사용하여 작업 공간을 만드는 경우.
+  * 자동:
+    * 템플릿을 사용하여 작업 공간을 만드는 경우.
 
-        자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
+      자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
-      * CSV 또는 Excel 파일을 사용하여 가져올 때.
+    * CSV 또는 Excel 파일을 사용하여 가져올 때.
 
-        자세한 내용은 이 문서의 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 형식 만들기](#create-record-types-by-importing-information-from-a-csv-or-excel-file) 섹션을 참조하십시오.
+      자세한 내용은 이 문서의 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 형식 만들기](#create-record-types-by-importing-information-from-a-csv-or-excel-file) 섹션을 참조하십시오.
 
-     >[!TIP]
-     >
-     >CSV 또는 Excel 파일에서 레코드 유형을 가져올 때 레코드와 필드도 가져올 수 있습니다.
+    >[!TIP]
+    >
+    >CSV 또는 Excel 파일에서 레코드 유형을 가져올 때 레코드와 필드도 가져올 수 있습니다.
 
-   * 수동:
+  * 수동:
 
-      * 처음부터.
+    * 처음부터.
 
-        이 문서에서는 처음부터 레코드 유형을 만드는 방법을 설명합니다.
+      이 문서에서는 처음부터 레코드 유형을 만드는 방법을 설명합니다.
 
-      * 다른 작업 영역에서 추가
-자세한 내용은 이 문서에서 [다른 작업 영역에서 기존 레코드 형식을 추가하여 레코드 형식 만들기](#create-record-types-by-adding-existing-ones-from-another-workspace) 섹션을 참조하십시오.
+    * 다른 작업 영역에서 추가
+      자세한 내용은 이 문서에서 [다른 작업 영역에서 기존 레코드 형식을 추가하여 레코드 형식 만들기](#create-record-types-by-adding-existing-ones-from-another-workspace) 섹션을 참조하십시오.
 
 
 * 한 섹션 내에서 또는 작업 영역의 한 섹션에서 다른 섹션으로 레코드 유형을 이동할 수 있습니다. 한 작업 영역에서 다른 작업 영역으로 레코드 유형을 이동할 수 없습니다.
@@ -230,8 +238,8 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    * &quot;제목 없는 레코드 유형&quot;을 이후 레코드 유형의 이름으로 바꿉니다. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **설명**: 레코드 형식에 대한 정보를 더 추가합니다.
    * 레코드 유형과 연관된 아이콘의 색과 모양을 선택합니다. 다음을 수행합니다.
-      * 색상을 선택하여 새 레코드 유형을 식별합니다. 레코드 유형 아이콘의 색상입니다. 기본적으로 회색이 선택되어 있습니다.
-      * 목록에서 아이콘을 선택하거나 검색 필드에 아이콘 이름을 입력하여 상징하는 것을 설명한 다음 표시될 때 선택합니다. 레코드 유형의 아이콘입니다. 기본적으로 파일 아이콘이 선택되어 있습니다.
+     * 색상을 선택하여 새 레코드 유형을 식별합니다. 레코드 유형 아이콘의 색상입니다. 기본적으로 회색이 선택되어 있습니다.
+     * 목록에서 아이콘을 선택하거나 검색 필드에 아이콘 이름을 입력하여 상징하는 것을 설명한 다음 표시될 때 선택합니다. 레코드 유형의 아이콘입니다. 기본적으로 파일 아이콘이 선택되어 있습니다.
 
 1. (선택 사항 및 조건부) 시스템 관리자인 경우 **작업 영역 간 설정** 탭을 클릭하고 레코드 유형의 작업 영역 간 기능에 대한 정보를 업데이트합니다.
 
@@ -242,7 +250,7 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 1. **저장**&#x200B;을 클릭합니다.
 
    레코드 유형 카드가 선택한 섹션 및 작업 영역에 추가됩니다.
-레코드 유형의 설명이 카드에 표시됩니다.
+   레코드 유형의 설명이 카드에 표시됩니다.
 
    ![설명이 있는 레코드 형식 카드](assets/record-type-card-with-description.png)
 

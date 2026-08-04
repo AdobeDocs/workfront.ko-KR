@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: 4323
 ht-degree: 0%
@@ -101,7 +101,7 @@ Frame.io 뷰어는 모든 Workfront 검토 및 승인 워크플로의 기본 뷰
 
 <span class="preview">통합 검토 및 승인에는 Workfront 및 Frame.io에서 완전한 거버넌스 추적을 만드는 포괄적인 감사 로깅이 포함됩니다. 변경 추적 로그는 Frame.io 뷰어 및 문서 라이프사이클에서 수행한 승인 결정을 캡처합니다. 각 로그 항목에는 표준 Workfront 감사 필드(날짜 및 시간, 로그 유형, 사용자 이름, 작업 및 개체 이름)와 함께 소스 시스템 속성(Workfront 또는 Frame.io)이 포함됩니다. Frame.io 뷰어 댓글이 감사 로그에 포함되어 있지 않습니다.</span>
 
-<span class="preview">변경 내용 추적 로그가 Workfront의 설정 영역에 표시되며 내보낼 수 있습니다. 자세한 내용은 [변경 기록 보기 및 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>를 참조하십시오.
+<span class="preview">변경 내용 추적 로그가 Workfront의 설정 영역에 표시되며 내보낼 수 있습니다. 자세한 내용은 [변경 기록 보기 및 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).</span>를 참조하십시오.
 
 ## Workfront의 강력한 프로젝트 관리
 

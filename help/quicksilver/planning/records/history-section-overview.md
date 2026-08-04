@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 555
+source-wordcount: 588
 ht-degree: 4%
 
 ---
@@ -59,13 +59,26 @@ ht-degree: 4%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Workfront 및 모든 Planning 패키지</p> <p>모든 워크플로우 및 모든 Planning 패키지</p>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+<p>모든 Workfront 또는 워크플로 및 Planning 패키지</p> 
+또는
+<p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>기여자 이상</p>
+   <td><p>워크플로 조명 이상</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>계획 기여자 이상</p>
+   <p><b>메모</b></p>
+   <p>모든 고객에게 Planning Contributor 라이센스가 있는 것은 아닙니다.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
@@ -128,7 +141,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -172,29 +185,29 @@ Old:
 
 * Workfront Planning은 내역 섹션에 다음 정보를 기록합니다.
 
-   * 모든 필드 변경 사항
+  * 모든 필드 변경 사항
 
-   * 값이 변경될 때 필드의 이전 값과 새 값. 이전 값은 취소선 형식으로 표시됩니다.
+  * 값이 변경될 때 필드의 이전 값과 새 값. 이전 값은 취소선 형식으로 표시됩니다.
 
-   * 변경한 사용자의 전체 이름
+  * 변경한 사용자의 전체 이름
 
-   * 변경이 발생한 날짜 및 시간 기록.
+  * 변경이 발생한 날짜 및 시간 기록.
 
 * 다음 유형의 필드에는 항상 이전 값(취소선 형식)과 새 값이 표시됩니다.
 
-   * 텍스트
-   * 단락
-   * 통화
-   * 일자
-   * 숫자
-   * 백분율
-   * 단일 선택
+  * 텍스트
+  * 단락
+  * 통화
+  * 일자
+  * 숫자
+  * 백분율
+  * 단일 선택
 
 * 다음 유형의 필드에는 여러 값 중 하나 이상이 제거된 경우에만 이전 값이 취소선 형식으로 표시됩니다.
 
-   * 다중 선택
-   * 연결된 레코드 필드
-   * 사람
+  * 다중 선택
+  * 연결된 레코드 필드
+  * 사람
 
   변경 사항이 필드에 값을 추가하기만 하면 이전 값은 표시되지 않고 새 필드 값만 표시됩니다.
 
@@ -204,11 +217,11 @@ Old:
 
 * 다음 유형의 필드에 대한 변경 사항은 기록 섹션에 표시되지 않습니다.
 
-   * 연결된(조회) 필드
-   * 공식
-   * 생성한 사람
-   * 만든 날짜
-   * 마지막 수정자
-   * 마지막 수정일
+  * 연결된(조회) 필드
+  * 공식
+  * 생성한 사람
+  * 만든 날짜
+  * 마지막 수정자
+  * 마지막 수정일
 
 * 시스템에서 필드를 제거하면 해당 필드에 대한 업데이트가 기록 섹션에 남아 있습니다. 레코드의 내역 섹션에 필드가 제거되었다는 표시가 없습니다.

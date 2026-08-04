@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 >[!IMPORTANT]
 >
 >작업 영역에 대한 액세스 권한이 있는 사용자는 작업 영역의 모든 레코드 유형에 대해 적어도 보기 권한을 자동으로 부여받습니다.
->보기를 공유해도 사용자에게 레코드 유형에 대한 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 유형에 대한 권한을 부여할 수 있습니다.
+>보기를 공유해도 사용자에게 레코드 형식에 대한 사용 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 유형에 대한 권한을 부여할 수 있습니다.
 >
 >* Workfront Planning에서 개체 공유에 대한 일반적인 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 >* 자세한 내용은 이 문서의 [레코드 종류 공유 시 고려 사항](#considerations-when-sharing-record-types) 섹션을 참조하십시오.
@@ -59,13 +59,22 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 <p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p> 
 또는
 <p>모든 Workfront Planning을 독립 실행형 제품 패키지로</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>Any</p> 
   </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
+   <td><p>Any</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>  <p>작업 공간 및 레코드 유형에 대한 권한 관리</p>  
@@ -129,7 +138,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -154,17 +163,17 @@ Old:
 
 * 현재 레코드 유형을 공유할 때 다음을 수행할 수 있습니다.
 
-   * 기록 유형을 처음 공유하지만 작업 공간에 대한 권한이 없는 경우, 사용자에게 작업 공간에 대한 보기 권한을 부여합니다.
+  * 기록 유형을 처음 공유하지만 작업 공간에 대한 권한이 없는 경우, 사용자에게 작업 공간에 대한 보기 권한을 부여합니다.
 
-     또한 작업 영역의 모든 레코드 유형에 대해 보기 권한을 부여합니다.
+    또한 작업 영역의 모든 레코드 유형에 대해 보기 권한을 부여합니다.
 
-     레코드 유형에 대한 권한을 부여하면 공유 상자에 해당 레코드 또한 작업 공간에 추가된다는 표시가 나타납니다.
-   * 상속된 권한을 비활성화할 때는 작업 영역의 모든 사용자(작업 영역 관리자는 제외)에 대해 레코드 유형을 보기 전용으로 만듭니다.
+    레코드 유형에 대한 권한을 부여하면 공유 상자에 해당 레코드 또한 작업 공간에 추가된다는 표시가 나타납니다.
+  * 상속된 권한을 비활성화할 때는 작업 영역의 모든 사용자(작업 영역 관리자는 제외)에 대해 레코드 유형을 보기 전용으로 만듭니다.
 
-     작업 영역에 대한 관리 권한이 있는 사람은 레코드 유형에 대해 상속된 권한을 해제할 때에도 항상 레코드 유형에 대한 관리 권한을 갖습니다.
-   * 레코드 유형에 대한 사용자의 사용 권한을 낮춥니다. 작업 공간에 있는 레코드 유형에서 다른 사람의 레코드 유형 권한을 늘릴 수 없습니다.
+    작업 영역에 대한 관리 권한이 있는 사람은 레코드 유형에 대해 상속된 권한을 해제할 때에도 항상 레코드 유형에 대한 관리 권한을 갖습니다.
+  * 레코드 유형에 대한 사용자의 사용 권한을 낮춥니다. 작업 공간에 있는 레코드 유형에서 다른 사람의 레코드 유형 권한을 늘릴 수 없습니다.
 
-     예를 들어 작업 영역에 대한 기여 권한이 있는 사용자가 자신의 권한을 특정 레코드 유형으로 [보기]로 변경할 수 있습니다. 그러나 작업 영역에 대한 보기 권한이 있는 경우 레코드 유형에 Contribute 권한을 부여할 수 없습니다.
+    예를 들어 작업 영역에 대한 기여 권한이 있는 사용자가 자신의 권한을 특정 레코드 유형으로 [보기]로 변경할 수 있습니다. 그러나 작업 영역에 대한 보기 권한이 있는 경우 레코드 유형에 Contribute 권한을 부여할 수 없습니다.
 
 * 작업 영역의 사용자에 대한 레코드 종류에 대한 액세스 권한을 제거할 수 없습니다. 작업 영역에 대해 적어도 보기 권한이 있는 경우 모든 사용자는 항상 모든 레코드 유형에 대해 적어도 보기 권한을 갖습니다.
 
@@ -238,7 +247,7 @@ Old:
 1. **저장**&#x200B;을 클릭합니다.
 
    이제 레코드 유형이 다른 사용자와 공유됩니다.
-와 레코드 유형을 공유한 사용자는 다음 엔티티에 대한 권한 부여에 대한 인앱 및 이메일 알림을 모두 수신합니다.
+   와 레코드 유형을 공유한 사용자는 다음 엔티티에 대한 권한 부여에 대한 인앱 및 이메일 알림을 모두 수신합니다.
 
    * 레코드 유형
    * 기록 유형을 작업 영역과 공유하기 전에 작업 영역에 대한 권한이 없었던 경우 작업 영역입니다.
