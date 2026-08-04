@@ -1,6 +1,6 @@
 ---
 title: Adobe Workfront에서 필드 가져오기
-description: Adobe Workfront Planning에서 각 레코드 유형에 대한 사용자 정의 필드를 만들 수 있습니다. 그런 다음 필드를 Workfront Planning 레코드와 연결할 수 있습니다.
+description: Adobe Workfront Planning에서는 Adobe Workfront에서 기존 필드를 추가할 수 있습니다. 그런 다음 Planning 레코드와 연결할 수 있습니다. 조직에서 Planning을 독립형 제품으로 구입한 경우 Workfront 기존 필드를 가져올 수 없습니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -9,22 +9,15 @@ exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uyoOkZ9Yd48O9Sur9YMal4cBZD9e45bTbwc6TQ2fAds
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 622
-ht-degree: 9%
+source-wordcount: 640
+ht-degree: 8%
 
 ---
 
@@ -41,8 +34,11 @@ ht-degree: 9%
 
 {{planning-important-intro}}
 
-기존 Workfront 필드의 복사본을 가져올 수 있습니다. Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 대한 각 필드의 사본이 만들어집니다.
+기존 Adobe Workfront 필드의 복사본을 가져올 수 있습니다. Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 대한 각 필드의 사본이 만들어집니다.
 
+>[!IMPORTANT]
+>
+>Planning을 독립형 제품으로 구입한 고객은 Workfront에서 가져와 필드를 생성할 수 없습니다.
 
 ## 액세스 요구 사항
 
@@ -59,11 +55,9 @@ ht-degree: 9%
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
-   <td> 
-<ul> 
-<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
-또는
-<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
+   <td>
+
+<p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
@@ -74,13 +68,9 @@ ht-degree: 9%
    <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
    <td><p>계획 수립 표준</p>
    </td> 
-  </tr> 
+  </tr>
+
 <tr> 
-   <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td> <p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   
-</td> 
-  </tr>  
-  <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 공간에 대한 권한 관리</p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
@@ -233,7 +223,7 @@ Old:
 
    * 오브젝트 유형: 가져올 필드의 Workfront 오브젝트 유형을 선택합니다.
    * 사용자 정의 양식: Workfront에서 하나 또는 여러 사용자 정의 양식을 선택합니다. 먼저 오브젝트 유형을 선택하지 않고 사용자 정의 양식을 선택할 수 있습니다.
-1. **+**&#x200B;을 클릭한 다음 **필드 추가**&#x200B;를 클릭합니다.
+1. **+**&#x200B;을 클릭한 다음 **필드 추가**를 클릭합니다.
 필드는 표 보기 및 레코드의 세부 사항 페이지에 추가됩니다.
 
    >[!IMPORTANT]
