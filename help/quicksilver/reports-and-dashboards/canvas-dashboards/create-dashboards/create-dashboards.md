@@ -9,19 +9,14 @@ exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-s26q39f6l5lix-8JuSaHvvdpqeqpw3ve5Gn2ZNnHfM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 384
-ht-degree: 7%
+source-wordcount: 542
+ht-degree: 5%
 
 ---
 
@@ -30,7 +25,7 @@ ht-degree: 7%
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원 팀에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하십시오.<br>
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하세요.<br>
 >다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
@@ -88,9 +83,7 @@ Canvas Dashboards를 사용하면 사용자 정의 가능한 대시보드에 보
 
 1. 오른쪽 상단 모서리에서 **새 대시보드**&#x200B;를 클릭합니다.
 
-1. **대시보드 만들기** 상자에서
-
-1. 다음을 지정합니다.
+1. **대시보드 만들기** 상자에서 다음을 지정합니다.
 
    <table style="table-layout:auto">
     <col>
@@ -106,8 +99,9 @@ Canvas Dashboards를 사용하면 사용자 정의 가능한 대시보드에 보
      </tr>
       <tr>
       <td role="rowheader"><strong>통화</strong></td>
-      <td>대시보드에 대한 기본 통화 유형을 선택합니다. <br>
-      <br>대시보드를 필터링할 때 사용자가 다른 통화 유형을 전환할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">통화 유형별로 대시보드 필터링</a>을 참조하십시오.</td>
+      <td><p>대시보드에 대한 기본 통화 유형을 선택합니다.</p>
+      <p>대시보드를 필터링할 때 서로 다른 통화 유형 간에 전환할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">통화 유형별로 대시보드 필터링</a>을 참조하십시오.</p>
+      <p><strong>참고:</strong> Workfront 인스턴스에 통화가 하나만 정의되어 있으면 대시보드를 만들 때 통화 필드가 표시되지 않습니다.</p></td>
      </tr>
     </tbody>
    </table>
