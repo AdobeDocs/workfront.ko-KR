@@ -6,9 +6,9 @@ description: Adobe 클라우드 스토리지에서 Workfront 롤아웃을 계획
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 6bfa9fd95de0301fea5f15885cc1aafbb2d14dbb
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2967'
+source-wordcount: '2936'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,20 @@ Adobe 클라우드 스토리지의 Workfront을 사용하면 Frame.io 뷰어의 
 
 이 문서는 Adobe 클라우드 스토리지에서 Workfront을 롤아웃하려는 Workfront 관리자를 위한 것입니다. 이 섹션에서는 사용자를 위해 Adobe 클라우드 스토리지를 활성화하기 전에 Adobe 클라우드 스토리지 개체에 대한 주요 차이점, 롤아웃 유형을 선택하는 방법 및 고려해야 할 사항에 대해 다룹니다.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >* Adobe 클라우드 스토리지를 지원하는 Workfront 버전을 사용해야 합니다. 조직이 이미 지원되는 버전을 사용하고 있지 않은 경우 Adobe 계정 담당자에게 문의하십시오.
->* Adobe 클라우드 저장소를 지원하는 Workfront 버전으로 이동하면 기존 승인 워크플로가 기존 문서 승인에서 통합 승인으로 *모두*&#x200B;됩니다. 자세한 내용은 [통합 승인이 저장소 모델에 관계없이 적용됨](#unified-approvals-applies-regardless-of-storage-model)을 참조하십시오.
 
 ## 스토리지 모델에 관계없이 통합 승인 적용
 
-Adobe 클라우드 스토리지를 지원하는 Workfront 버전으로 이동하면 기존 Workfront 스토리지에 남아 있든 Adobe 클라우드 스토리지로 이동하든 상관없이 모든 오브젝트에 대해 기존 승인 워크플로가 기존 문서 승인에서 통합 승인으로 *모두*&#x200B;이동합니다. 이는 [Adobe 클라우드 저장소 롤아웃 방법 선택](#choose-how-adobe-cloud-storage-rolls-out)에 설명된 저장소 롤아웃 선택 사항과 다릅니다. 이러한 선택 사항은 승인 워크플로가 통합 승인으로 이동하는지 여부가 아니라 새 개체가 사용하는 저장소 모델을 제어합니다. 이 변경에는 파일럿 그룹이나 점진적인 옵션이 없으며, 지원되는 버전을 사용하는 즉시 조직 전체에 적용됩니다.
+Adobe 클라우드 스토리지를 지원하는 Workfront 버전으로 이동하면 기존 Workfront 스토리지에 남아 있든 Adobe 클라우드 스토리지로 이동하든 상관없이 모든 오브젝트에 대해 기존 승인 워크플로가 기존 문서 승인에서 통합 승인으로 *모두*&#x200B;이동합니다.
+
+
+>[!IMPORTANT]
+>
+>이는 [Adobe 클라우드 저장소 롤아웃 방법 선택](#choose-how-adobe-cloud-storage-rolls-out)에 설명된 저장소 롤아웃 선택 사항과 다릅니다. 이러한 선택 사항은 승인 워크플로가 통합 승인으로 이동하는지 여부가 아니라 새 개체가 사용하는 저장소 모델을 제어합니다.<br>
+>이 변경에는 파일럿 그룹이나 점진적인 옵션이 없으며, 지원되는 버전을 사용하는 즉시 조직 전체에 적용됩니다.
+
 
 Adobe 클라우드 스토리지를 롤아웃하기 전에 승인을 관리하는 사람이 예상되는 내용을 알고 있는지 확인하십시오.
 
@@ -242,11 +248,13 @@ Adobe 클라우드 스토리지가 사용자에게 표시되는 방식을 결정
 
 단계별 지침은 [조직에 Adobe 클라우드 저장소 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하십시오.
 
+
+### 구성 옵션
+
 * **Adobe 클라우드 저장소만**: 새 프로젝트는 기본적으로 Adobe 클라우드 저장소를 사용합니다. 사용자가 레거시 프로젝트를 만들 수 없습니다.
 * **Adobe 클라우드 저장소 및 레거시 Workfront 저장소**: 사용자가 프로젝트를 만들 때 Adobe 클라우드 저장소(&quot;새 프로젝트&quot;로 표시)와 레거시 Workfront 저장소(&quot;레거시 저장소&quot;로 표시) 중에서 선택합니다.
 
   ![프로젝트 형식 선택](assets/choose-project-type.png)
-
 
 
 >[!TIP]

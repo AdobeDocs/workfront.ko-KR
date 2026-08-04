@@ -10,9 +10,9 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '462'
 ht-degree: 4%
 
 ---
@@ -74,11 +74,15 @@ Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 �
    - **전체 조직**: 이 옵션은 기본 저장소 공급자를 전체 Workfront 환경에 적용합니다. 사용자가 새 프로젝트를 만들 때마다 기본 저장소 공급자가 사용됩니다.
    - **특정 그룹**: 이 옵션은 조직 내의 특정 그룹에만 기본 저장소 공급자를 적용합니다. 지정된 그룹의 사용자가 새 프로젝트를 만들 때마다 기본 저장소 공급자가 사용됩니다.
 
+   ![저장소 환경 설정 그룹](assets/configure-storage-preference.png)
+
 1. **저장**&#x200B;을 클릭합니다.
 
    >[!NOTE]
    >
    >기존 프로젝트는 생성된 스토리지 모델을 유지합니다. 예를 들어 Adobe 클라우드 스토리지를 사용하는 프로젝트는 기본 스토리지 환경 설정을 변경한 후에도 Adobe 클라우드 스토리지를 계속 사용합니다.
+
+
 
 ## 샌드박스 환경의 Adobe 클라우드 스토리지
 
