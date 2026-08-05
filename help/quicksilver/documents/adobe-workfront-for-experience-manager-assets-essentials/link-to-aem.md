@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: 1435
+source-wordcount: 1467
 ht-degree: 1%
 
 ---
@@ -145,6 +145,14 @@ Content Advisor는 상황에 맞는 지능적인 검색 기능을 Workfront에 �
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >콘텐츠 권고자의 권장 콘텐츠는 다음 데이터를 사용하여 Workfront에서 권장되는 콘텐츠를 결정합니다.
+   >
+   >* Workfront 개체 이름 및 설명 필드
+   >* 필수 항목으로 표시된 사용자 정의 양식 필드
+   >* 첨부된 문서의 데이터
 
 
 ### Experience Manager Assets에서 콘텐츠 관리자를 사용하여 새 버전 연결

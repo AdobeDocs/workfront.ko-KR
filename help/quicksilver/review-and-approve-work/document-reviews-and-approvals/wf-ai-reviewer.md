@@ -20,10 +20,10 @@ subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 4%
+source-wordcount: 960
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ Workfront에서 컨텐츠 검토자를 설정하려면 시스템 관리자여야
 
 * Workfront 인스턴스에는 통합 승인이 활성화되어 있어야 합니다.
 * 조직에 GenStudio Foundation이 있어야 합니다.
-   * Workfront의 컨텐츠 검토자는 자산 검토 및 승인 워크플로에 GenStudio Foundation에서 사용할 수 있는 기능을 제공합니다. 작업을 완료하기 위해 GenStudio Foundation에 직접 액세스할 필요는 없습니다. 콘텐츠 검토자를 통해 GenStudio Foundation 기능에 대한 액세스는 Workfront 계약 조건에 해당됩니다.
+  * Workfront의 컨텐츠 검토자는 자산 검토 및 승인 워크플로에 GenStudio Foundation에서 사용할 수 있는 기능을 제공합니다. 작업을 완료하기 위해 GenStudio Foundation에 직접 액세스할 필요는 없습니다. 콘텐츠 검토자를 통해 GenStudio Foundation 기능에 대한 액세스는 Workfront 계약 조건에 해당됩니다.
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
 계약 서명에 대한 자세한 내용은 [Adobe Gen AI 계약 서명](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)을 참조하십시오.
 * 샌드박스 환경에서는 콘텐츠 검토자를 사용할 수 없습니다.
@@ -83,12 +83,46 @@ Workfront 콘텐츠 검토자는 콘텐츠를 검토할 때 브랜드 지침을 
 하나 이상의 브랜드가 설정되면 Workfront 관리자는 설정 영역에서 콘텐츠 검토자 생성을 시작할 수 있습니다. 다양한 지침에 초점을 맞춘 여러 콘텐츠 검토자를 만들 수 있습니다.
 
 * **이미지**: 이 콘텐츠 검토자는 Workfront에서 설정한 이미지 브랜드 지침에 따라 자산을 검토합니다. [!BADGE Beta]{type=Positive tooltip="이 기능은 현재 베타 버전입니다."}
-   * 시스템 관리자는 이 기능을 사용하려면 Beta 계약서에 서명해야 합니다.
+  * 시스템 관리자는 이 기능을 사용하려면 Beta 계약서에 서명해야 합니다.
 * **브랜드 음성**: 콘텐츠 검토자는 Workfront에서 설정한 브랜드 음성 지침에 따라 자산을 검토합니다.
 
 그런 다음 콘텐츠 검토자를 승인 템플릿과 개별 검토 및 승인 요청에 할당할 수 있습니다.
 
 자세한 내용은 [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)을 참조하십시오.
+
+## 콘텐츠 검토자가 평가하는 항목 {#what-content-reviewer-evaluates}
+
+콘텐츠 검토자는 지침 유형(이미지 또는 브랜드 음성)에 따라 콘텐츠를 다르게 평가합니다.
+
+### 이미지
+
+콘텐츠 검토자 평가:
+
+* **컴포지션**: 초점, 배경, 자르기, 크리에이티브 프레임 만들기
+* **조명 및 무드**: 빛, 활기, 낙관주의 사용
+* **다양성 및 포함**: 사람 표시(인종, 성별, 연령, 능력)
+
+콘텐츠 검토자는 다음을 평가하지 않습니다.
+
+* **로고 사용**: 배치, 지우기, 크기 조정, 올바른 로고 버전
+* **색상 팔레트**: 브랜드 색상 준수, 승인되지 않은 색상 회피
+* **타이포그래피**: 글꼴 모음, 두께, 간격, 정렬
+* **일러스트레이션 스타일**: 브랜드의 일러스트레이션 접근 방식과의 일관성
+* **접근성**: 대비 준수, 가독성
+
+### 브랜드 음성
+
+콘텐츠 검토자 평가:
+
+* **목소리 톤**: 대화, 명확하고, 사람, 브랜드 성격에 맞게 조정
+* **전문 용어/형식**: 유행어, 엘리트주의 또는 과도한 형식 사용 금지
+* **메시지**: 격려, 정직, 책임 있는 위치(예: AI 주제)
+
+콘텐츠 검토자는 다음을 평가하지 않습니다.
+
+* **법률/규정 준수**: 상표 사용, 면책조항, 현지화 규칙
+
+콘텐츠 검토자의 평가에 맞는 브랜드 지침을 작성하는 방법에 대한 지침은 [콘텐츠 검토자를 위한 브랜드 만들기 및 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)를 참조하십시오.
 
 ## 검토 및 승인 요청에 콘텐츠 검토자 추가
 

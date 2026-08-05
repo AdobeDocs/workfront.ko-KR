@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1340
+source-wordcount: 1364
 ht-degree: 2%
 
 ---
@@ -106,8 +106,16 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
 <li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
 또는
 <li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
+   </td>
+
+<tr> 
+   <td role="rowheader"><p>제품</p></td> 
+   <td><p>조직에서 Workfront Planning을 독립형 제품으로 구입한 경우 Planning에서 Workfront 객체를 생성하려면 워크플로우 패키지도 구입해야 합니다.</p>
    </td> 
-  <tr> 
+  </tr>
+
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>워크플로우 표준</p>
    </td> 

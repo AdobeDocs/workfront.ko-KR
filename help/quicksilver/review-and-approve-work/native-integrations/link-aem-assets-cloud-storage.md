@@ -4,9 +4,9 @@ navigation-topic: native-integrations
 title: Experience Manager Assets의 컨텐츠 및 폴더를 Adobe 클라우드 스토리지와 연결
 description: 조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Experience Manager Assets의 컨텐츠 및 폴더를 문서를 지원하는 모든 Adobe Workfront 개체에 연결할 수 있습니다.
 author: Courtney
-source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '945'
 ht-degree: 2%
 
 ---
@@ -125,6 +125,14 @@ ht-degree: 2%
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >콘텐츠 권고자의 권장 콘텐츠는 다음 데이터를 사용하여 Workfront에서 권장되는 콘텐츠를 결정합니다.
+   >
+   >* Workfront 개체 이름 및 설명 필드
+   >* 필수 항목으로 표시된 사용자 정의 양식 필드
+   >* 첨부된 문서의 데이터
 
 <!--
 ### Link a new version from Experience Manager Assets

@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 3098
+source-wordcount: 3121
 ht-degree: 1%
 
 ---
@@ -48,6 +48,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 -->
 
 레코드 유형을 서로 연결하거나 다른 응용 프로그램의 개체 유형과 레코드 유형을 연결할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>Planning 레코드 유형을 다른 응용 프로그램의 객체 유형과 연결할 때 해당 응용 프로그램에 대한 라이센스 및 계정도 있어야 합니다.
 
 서로 영향을 주는 여러 유형의 작업 오브젝트가 있는 경우 레코드 유형 연결이 유용합니다. 예를 들어, 캠페인으로 작업하고 각 캠페인은 여러 브랜드를 지원할 수 있습니다. 이 관계를 나타내기 위해 캠페인을 브랜드에 연결할 수 있습니다. 이렇게 하면 Campaign 레코드의 브랜드에 대한 연결 필드가 만들어집니다.
 

@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 2563
+source-wordcount: 2584
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 0%
 1. **새 대시보드**&#x200B;를 클릭합니다.
 1. 대시보드 이름을 지정합니다.
 1. (선택 사항) 설명을 추가합니다.
+1. (선택 사항) Workfront 인스턴스에 여러 통화가 정의된 경우 대시보드에 대한 기본 통화를 선택할 수도 있습니다.
 1. Click **Create**.
    ![대시보드 이름 및 설명 추가](assets/create-a-dashboard.png)
 
