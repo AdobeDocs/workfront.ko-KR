@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: b4cc76f51dfd2a08ce8beb31ef6d2d91f55abbef
+source-git-commit: d875b7e182b5b1782b4fae9d9b609e357bf876a3
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1438'
 ht-degree: 1%
 
 ---
@@ -107,9 +107,11 @@ AI 공동 작업자는 프로젝트 및 작업에 AI 에이전트를 온보딩�
 
 ## 작업 공동 작업자 구성
 
-작업 공동 작업자는 Workfront의 작업에 할당할 수 있는 MCP 에이전트입니다. 이름, 액세스 수준 및 기타 세부 정보를 사용하여 작업 공동 작업자를 구성하고 사용자를 할당할 때처럼 작업 공동 작업자를 할당합니다.
+작업 공동 작업자는 Workfront의 작업에 할당할 수 있는 MCP 에이전트입니다. 이름, 액세스 수준 및 기타 세부 정보를 사용하여 작업 공동 작업자를 구성하고 사용자를 할당할 때처럼 작업에 할당합니다.
 
 작업 공동 작업자는 MCP 에이전트이므로 에이전트를 구성할 때 작업과 능력이 구성됩니다. 현재 작업 공동 작업자로 사용되는 에이전트는 Copilot Studio, Claude 또는 Writer에서 만들 수 있습니다.
+
+작업 공동 작업자는 작업에만 할당할 수 있으며 현재는 문제에 할당할 수 없습니다.
 
 작업 공동 작업자로 작업할 에이전트를 만드는 모범 사례 목록을 보려면 [작업 공동 작업자를 위한 에이전트 만들기 모범 사례](#best-practices-for-creating-an-agent-for-a-task-collaborator)를 참조하세요.
 
