@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: f27d4a7e48bbf1858642d99b2621d612f7ac54ad
+source-git-commit: b4cc76f51dfd2a08ce8beb31ef6d2d91f55abbef
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 2%
+source-wordcount: '1420'
+ht-degree: 1%
 
 ---
 
@@ -178,6 +178,10 @@ Workfront에서 작업 공동 작업자로 사용할 에이전트를 생성할 �
 +++
 -->
 +++ Writer
+
+>[!NOTE]
+>
+> 작성기 에이전트를 작업 공동 작업자로 사용할 수 있지만 작성기 플레이북은 작업 공동 작업자로 사용할 수 없습니다.
 
 Writer에서 작업 공동 작업자로 사용할 에이전트를 만들 때는 다음 워크플로를 사용하는 것이 좋습니다.
 
