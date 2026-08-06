@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
 workflow-type: tm+mt
-source-wordcount: 746
+source-wordcount: 745
 ht-degree: 2%
 
 ---
@@ -166,7 +166,7 @@ If your organization uses Adobe cloud storage, you will see the new Documents ar
 
 1. **워크플로 편집**&#x200B;을 클릭합니다. 승인이 마지막으로 저장된 모드(단일 단계 승인의 경우 기본, 병렬 경로가 있는 다단계 승인 및 승인의 경우 고급)로 승인 요청 대화 상자가 열립니다.
 
-1. 사용자, 팀 또는 이메일 추가:
+1. 사용자 또는 이메일 추가:
 
    * 기본 모드에서 **이름 또는 전자 메일 추가** 필드에 이름 또는 전자 메일을 입력합니다.
    * 고급 모드에서 업데이트할 단계를 포함하는 경로를 선택한 다음 단계의 **이름 또는 전자 메일 추가** 필드에 이름 또는 전자 메일을 입력합니다.

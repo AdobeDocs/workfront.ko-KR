@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: d875b7e182b5b1782b4fae9d9b609e357bf876a3
+source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 1%
@@ -46,7 +46,7 @@ AI 공동 작업자는 프로젝트 및 작업에 AI 에이전트를 온보딩�
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 패키지</td> 
-   <td><p>Standard, Prime 또는 Ultimate</p></td> 
+   <td><p>Select, Prime 또는 Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 라이센스</td> 

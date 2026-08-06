@@ -4,7 +4,7 @@ content-type: reference
 description: 작업 공동 작업자, Workfront 작업에 할당할 수 있는 AI 공동 작업자를 사용하는 방법에 대해 알아봅니다.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: f1bdb685cb7974c5c445377e0baa4f4b4e7dfa13
+source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Workfront에서 작업 공동 작업자를 만드는 방법에 대한 정보와 
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 패키지</td> 
-   <td><p>Standard, Prime 또는 Ultimate</p></td> 
+   <td><p>Select, Prime 또는 Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 라이센스</td> 
