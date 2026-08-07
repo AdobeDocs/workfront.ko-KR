@@ -9,19 +9,13 @@ exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/dGMumnZ4319rslUE2lhGfPr35yVRb0xk6VyefZbzlzk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1823
 ht-degree: 2%
 
 ---
@@ -142,7 +136,7 @@ ht-degree: 2%
 
    열에 표시되는 필드에 대한 자세한 내용은 [Adobe Workfront 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)를 참조하십시오.
 
-   ![열 자동 완성 추가](assets/nwe-add-column-typeahead-350x459.png)
+   ![열 추가](assets/nwe-add-column-typeahead-350x459.png)
 
 1. (선택 사항) **열 설정** 영역에서 **이 열을 기준으로 정렬**&#x200B;을 선택하여 내림차순 알파벳순으로 열의 값을 정렬한 다음 목록에서 이 열을 첫 번째 정렬로 사용할지 여부를 나타냅니다.
 

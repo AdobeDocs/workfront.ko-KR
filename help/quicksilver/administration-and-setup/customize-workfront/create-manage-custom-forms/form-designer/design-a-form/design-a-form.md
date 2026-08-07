@@ -11,22 +11,14 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 7922
+source-wordcount: 7962
 ht-degree: 4%
 
 ---
@@ -807,12 +799,12 @@ To add typeahead and date fields:
       <td role="rowheader">JSON 경로</td>
       <td><p>API에 대한 JSON 경로를 입력하거나 붙여넣습니다.</p> <p>이 옵션을 사용하면 API URL에서 반환되는 JSON에서 데이터를 추출할 수 있습니다. JSON 내에서 드롭다운 옵션에 표시할 값을 선택하는 데 사용됩니다.</p><p>예를 들어 API URL이 다음 형식으로 JSON을 반환하는 경우 "$.data[*].name"을 사용하여 미국과 캐나다를 드롭다운 옵션으로 선택할 수 있습니다.</br>
       <pre>
-      &lbrace;
-       데이터: &lbrace;
+      {
+       데이터: {
          { name: "미국"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>JSON 경로와 올바른 JSON 경로를 작성하는 방법에 대한 자세한 내용은 <a href="https://jsonpath.com/">https://jsonpath.com/</a>을(를) 참조하십시오.</p></td>
@@ -1163,7 +1155,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
        <p>동적 필터 구문을 사용하여 다른 필드의 값을 기준으로 이 필드의 항목 목록을 좁힐 수 있습니다. 예를 들어 프로젝트 필드 필터에서 <code>?portfolioID={portfolio}.{ID}</code>을(를) 사용하고 Portfolio 네이티브 필드가 사용자 지정 양식에 있는 경우 프로젝트 필드에는 선택한 포트폴리오에 있는 프로젝트만 표시됩니다. Portfolio 필드를 비워 두면 프로젝트 필드에서 모든 프로젝트를 사용할 수 있습니다.</p>
        <p><b>참고</b>:
        <ul> 
-        <li>필터 옵션은 Portfolio, 회사 또는 소유자와 같은 기본 자동 완성 필드 또는 내부 조회 필드를 참조하는 경우에만 사용할 수 있습니다.</li>
+        <li>필터 옵션은 Portfolio, 회사 또는 소유자와 같은 기본 내부 조회 또는 자동 검색 필드를 참조하는 경우에만 사용할 수 있습니다.</li>
         <li>기존 사용자 정의 양식을 편집하는 경우 기본 필드에 필터를 추가해도 사용자가 필드를 사용하여 이미 추가한 오브젝트(필터의 범위 밖)는 제거되지 않습니다.</li> 
         <li>모바일 장치에서는 이 필터를 사용할 수 없습니다. 기본 필드에 대한 필터를 사용하는 경우 필드는 필터의 영향을 받지 않는 사용자의 모바일 장치에 표시됩니다.</li> 
         </ul></p></td> 
