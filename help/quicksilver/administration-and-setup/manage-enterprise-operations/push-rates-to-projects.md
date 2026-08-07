@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
+source-git-commit: 22e8acb748ddc4768dc1724aaa2f515b863ab0cf
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 5%
+source-wordcount: '346'
+ht-degree: 4%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 5%
 요금 카드가 <!--or a staffing plan--> 프로젝트에 첨부된 경우에도 요금 카드의 요금을 조정할 수 있습니다. 그런 다음 선택적으로 요금 카드가 첨부된 프로젝트에 이러한 요금을 푸시할 수 있습니다. 새 비율을 푸시하지 않으면 원래 비율은 프로젝트에 유지됩니다.
 <!-- and staffing plans -->
 <!-- or staffing plan -->
+
+>[!NOTE]
+>
+>작업 역할 또는 사용자 청구 요금이 프로젝트 수준에서 수동으로 재정의된 경우 요금 카드 변경 사항이 프로젝트에 푸시될 때 해당 요금은 프로젝트에 남아 있습니다. 요금 카드에 연계된 요금만 업데이트됩니다.
 
 프로젝트에 요금 카드를 첨부하는 방법에 대한 자세한 내용은 [프로젝트에 요금 카드 첨부](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)를 참조하십시오.
 
