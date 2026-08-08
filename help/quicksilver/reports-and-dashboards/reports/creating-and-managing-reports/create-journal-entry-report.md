@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 2782
+source-wordcount: 2783
 ht-degree: 5%
 
 ---
@@ -430,7 +430,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">새 텍스트 값</p> </td> 
-      <td> <p>사용자 정의 필드의 현재 텍스트 값입니다.</p> <p>사용자 지정 필드가 자동 완성 필드인 경우 <strong>새 텍스트 값</strong> 열에 개체 ID가 표시됩니다.</p> </td> 
+      <td> <p>사용자 정의 필드의 현재 텍스트 값입니다.</p> <p>사용자 지정 필드가 내부 조회 필드인 경우 <strong>새 텍스트 값</strong> 열에 개체 ID가 표시됩니다.</p> </td> 
      </tr> 
     </tbody> 
    </table>

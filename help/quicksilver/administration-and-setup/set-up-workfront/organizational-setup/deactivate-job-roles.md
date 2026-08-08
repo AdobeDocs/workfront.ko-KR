@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 4%
+source-wordcount: 644
+ht-degree: 3%
 
 ---
 
@@ -34,8 +34,6 @@ ht-degree: 4%
 [!DNL Adobe Workfront] 관리자 또는 작업 역할에 대한 관리 액세스 권한이 있는 사용자는 시스템에서 더 이상 사용되지 않는 작업 역할을 비활성화할 수 있습니다. 작업 역할을 삭제하는 대신 비활성화하면 해당 역할과 관련된 모든 내역 정보를 유지할 수 있습니다.
 
 이전에 비활성화되었던 작업 역할을 다시 활성화할 수도 있습니다.
-
-## 액세스 요구 사항
 
 ## 액세스 요구 사항
 
@@ -78,7 +76,7 @@ ht-degree: 4%
   >사용자에게 새 역할을 추가할 때 비활성화된 작업 역할이 표시되지 않습니다. 그러나 사용자가 비활성화되기 전에 작업 역할과 연결된 경우 [!UICONTROL 기본 역할] 및 [!UICONTROL 다른 역할] 필드에 계속 표시됩니다.
 
 * 레이아웃 템플릿 할당을 포함하여 개체에 대한 [!UICONTROL 공유] 대화 상자
-* 사용자 정의 양식의 자동 완성 필드
+* 사용자 정의 양식의 내부 조회 및 자동 완성 필드
 * [!UICONTROL 리소스 풀]의 [!UICONTROL 풀 구성원] 필드
 * 사용자가 프로젝트에 대한 청구 요금을 오버라이드할 때 [!UICONTROL 청구 요금] 편집 화면의 [!UICONTROL 작업 역할] 필드
 * 프로젝트의 [!UICONTROL Kanban 보드에 할당 추가] 대화 상자
@@ -114,8 +112,8 @@ ht-degree: 4%
 
   승인 프로세스 및 절차순서 규칙 생성에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-   * [작업 항목을 위한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-   * [라우팅 규칙 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+  * [작업 항목을 위한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+  * [라우팅 규칙 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## 작업 역할 비활성화
 

@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1477
-ht-degree: 2%
+source-wordcount: 1467
+ht-degree: 1%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 2%
    * $$QUERY를 추가하여 최종 사용자에 대한 쿼리 필터링을 구현할 수 있습니다.
 
    **예**
-모든 국가 목록: <https://api.first.org/data/v1/countries>
+   모든 국가 목록: <https://api.first.org/data/v1/countries>
 
    사용자가 드롭다운 필드에서 국가를 검색할 수 있도록 허용합니다. <https://api.first.org/data/v1/countries?q=$$QUERY>
 

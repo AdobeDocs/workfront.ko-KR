@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 7922
+source-wordcount: 7962
 ht-degree: 4%
 
 ---
@@ -1163,7 +1163,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
        <p>동적 필터 구문을 사용하여 다른 필드의 값을 기준으로 이 필드의 항목 목록을 좁힐 수 있습니다. 예를 들어 프로젝트 필드 필터에서 <code>?portfolioID={portfolio}.{ID}</code>을(를) 사용하고 Portfolio 네이티브 필드가 사용자 지정 양식에 있는 경우 프로젝트 필드에는 선택한 포트폴리오에 있는 프로젝트만 표시됩니다. Portfolio 필드를 비워 두면 프로젝트 필드에서 모든 프로젝트를 사용할 수 있습니다.</p>
        <p><b>참고</b>:
        <ul> 
-        <li>필터 옵션은 Portfolio, 회사 또는 소유자와 같은 기본 자동 완성 필드 또는 내부 조회 필드를 참조하는 경우에만 사용할 수 있습니다.</li>
+        <li>필터 옵션은 Portfolio, 회사 또는 소유자와 같은 기본 내부 조회 또는 자동 검색 필드를 참조하는 경우에만 사용할 수 있습니다.</li>
         <li>기존 사용자 정의 양식을 편집하는 경우 기본 필드에 필터를 추가해도 사용자가 필드를 사용하여 이미 추가한 오브젝트(필터의 범위 밖)는 제거되지 않습니다.</li> 
         <li>모바일 장치에서는 이 필터를 사용할 수 없습니다. 기본 필드에 대한 필터를 사용하는 경우 필드는 필터의 영향을 받지 않는 사용자의 모바일 장치에 표시됩니다.</li> 
         </ul></p></td> 
