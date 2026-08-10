@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
+source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,29 @@ ht-degree: 0%
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
+## Workfront Planning 솔루션 설계자 스킬 소개
+
+>[!NOTE]
+>
+>미리 보기: 2026년 8월 10일
+>프로덕션: 2026년 8월 10일
+
+Cloud Planning에 대한 모범 사례 및 진행 지침을 직접 Workfront Planning에 제공하는 새로운 기술인 Workfront Planning 솔루션 설계자를 사용하고 있습니다. 이제 Claude 인터페이스에서 다음을 수행할 수 있습니다.
+
+* Workfront MCP 서버가 사용자 환경에서 설정을 실행하면서 비즈니스 요구 사항에 맞게 새 Planning 작업 영역을 구성합니다.
+* 규모에 맞게 패턴 방지에 대한 기존 구성을 감사합니다.
+* 권장 한도에 대해 사용량을 확인하십시오.
+* Planning에 대해 질문합니다.
+
+자세한 내용은 직접 설치에 사용할 수 있는 [기술](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)을 참조하세요.
+
 ## 테이블 보기에서 행 끌어서 놓기
 
 >[!NOTE]
 >
->미리 보기: 2026년 7월 30일>프로덕션 빠른 릴리스: 2026년 8월 13일>모두를 위한 프로덕션: 2026년 10월 15일
+>미리 보기: 2026년 7월 30일
+>프로덕션 빠른 릴리스: 2026년 8월 13일
+>전체 프로덕션: 2026년 10월 15일
 
 테이블 보기에서 행을 끌어서 놓는 경험이 시각적으로 개선되었습니다.
 
@@ -34,7 +52,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2026년 7월 30일>프로덕션 빠른 릴리스: 2026년 8월 13일>모두를 위한 프로덕션: 2026년 10월 15일
+>미리 보기: 2026년 7월 30일
+>프로덕션 빠른 릴리스: 2026년 8월 13일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
 이제 Workspace 관리자는 연결된 레코드 유형 간의 종속성을 정의할 수 있습니다. 예를 들어 지역 필드에 선택한 지역에 연결된 값만 표시됩니다. 이는 연결 필드 설정에서 직접 구성됩니다. 지역 레코드 유형에서 종속 레코드 유형(예: 지역)으로 연결을 추가할 때 작업 영역 관리자가 새 설정을 통해 해당 레코드 유형 간에 이미 설정된 관계를 사용하여 지역 레코드 유형에 종속된 것으로 표시할 수 있습니다.
 
@@ -55,7 +75,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2026년 7월 30일>프로덕션 빠른 릴리스: 2026년 8월 13일>모두를 위한 프로덕션: 2026년 10월 15일
+>미리 보기: 2026년 7월 30일
+>프로덕션 빠른 릴리스: 2026년 8월 13일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
 레코드에 읽지 않은 댓글이 있는 경우 표시하는 새 지표를 추가했습니다. 표시기는 표 보기에서 레코드의 기본 필드의 오른쪽 상단 모서리에 표시됩니다.
 
@@ -65,7 +87,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 > 
->미리 보기: 2026년 7월 23일>프로덕션 빠른 릴리스: 2026년 8월 13일>모두를 위한 프로덕션: 2026년 10월 15일
+>미리 보기: 2026년 7월 23일
+>프로덕션 빠른 릴리스: 2026년 8월 13일
+>전체 프로덕션: 2026년 10월 15일
 
 이제 레코드는 새 레코드에 자동으로 할당된 색상을 표준 또는 사용자 정의 색상으로 업데이트할 수 있는 사용자 정의 색상 팔레트를 지원합니다.
 
@@ -87,7 +111,8 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 ## 이제 Designer을 계획하려면 Beta 계약 동의가 필요합니다.
 
 >[!NOTE]
->모든 고객에게 미리 보기 및 프로덕션: 2026년 7월 20일>[!BADGE 일정 해제]{type=Neutral}
+>모든 고객에게 미리보기 및 프로덕션: 2026년 7월 20일
+>[!BADGE 일정 해제]{type=Neutral}
 
 이제 Planning Designer에서 사용하려면 승인된 Beta 계약이 필요합니다. 귀사는 AI 계약에 서명할 필요가 없습니다. 모든 고객이 이용할 수 있습니다.
 
