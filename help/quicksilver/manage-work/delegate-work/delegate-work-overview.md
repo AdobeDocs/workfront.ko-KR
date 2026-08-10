@@ -4,28 +4,19 @@ content-type: overview
 navigation-topic: delegate-work
 title: 작업 위임 개요
 description: 단기간 동안 부재 중일 경우 일시적으로 다른 사용자에게 작업을 위임하여 부재 상태가 작업을 완료하는 데 장애가 되지 않도록 할 수 있습니다.
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/O-G3HS2JWZB36Y-kSloHo6u4--Z3q40fwAgfcEuELi4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 906
 ht-degree: 1%
@@ -70,9 +61,9 @@ ht-degree: 1%
 * [!UICONTROL Home] 영역에서만 작업 및 문제를 위임할 수 있습니다.
 * 작업을 위임할 때 다음 라이선스 유형에 대한 예외가 있습니다.
 
-   * [!DNL Workfront]이(가) 작업을 추천하지 않지만 검토자 또는 요청자에게 작업을 위임할 수 있습니다.
-   * 검토자는 다른 사람에게 작업을 위임할 수 있습니다. [!UICONTROL Home] 영역에서 작업 항목을 볼 수 없습니다. 승인만 볼 수 있습니다.
-   * 요청자는 다른 사람에게 작업을 위임할 수 없습니다. [!UICONTROL Home] 영역에서 작업 항목을 볼 수 없습니다.
+  * [!DNL Workfront]이(가) 작업을 추천하지 않지만 검토자 또는 요청자에게 작업을 위임할 수 있습니다.
+  * 검토자는 다른 사람에게 작업을 위임할 수 있습니다. [!UICONTROL Home] 영역에서 작업 항목을 볼 수 없습니다. 승인만 볼 수 있습니다.
+  * 요청자는 다른 사람에게 작업을 위임할 수 없습니다. [!UICONTROL Home] 영역에서 작업 항목을 볼 수 없습니다.
 * 할당된 작업 및 문제만 위임할 수 있습니다. 다른 사용자, 팀 또는 작업 역할에 할당된 작업 및 문제를 위임할 수 없습니다.
 * 위임 시작일 이전에 완료되지 않은 작업 및 문제만 위임할 수 있습니다.
 * 작업 항목이 위임 기간 동안 완료되는 경우 해당 항목은 피위임자와 피할당자의 [홈] 영역에 2주 동안 유지되었다가 [!DNL Workfront]에서 자동으로 제거됩니다.
