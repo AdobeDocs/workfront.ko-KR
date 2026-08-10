@@ -4,10 +4,10 @@ content-type: reference
 description: 작업 공동 작업자, Workfront 작업에 할당할 수 있는 AI 공동 작업자를 사용하는 방법에 대해 알아봅니다.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
+source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 3%
+source-wordcount: '653'
+ht-degree: 2%
 
 ---
 
@@ -69,8 +69,28 @@ Workfront에서 작업 공동 작업자를 만드는 방법에 대한 정보와 
 >* Copilot Studio에서 에이전트를 구성할 때 보안을 **인증 안 함**(으)로 설정해야 합니다.
 >* Workfront에서 작업 공동 작업자를 만드는 방법에 대한 정보와 지침은 AI 공동 작업자 구성 문서에서 [작업 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)을 참조하십시오.
 
+## 작업 공동 작업자 시작 트리거
+
+작업 공동 작업자가 작업에 할당되면 다음 상황 중 하나가 충족되면 작업이 시작됩니다.
+
+* 작업 공동 작업자는 시작할 준비가 된 작업에 할당됩니다. (예를 들어 작업에 전임 작업이 있는 경우 해당 전임 작업은 완료됩니다.)
+* 작업 공동 작업자와 사용자가 작업에 할당되며 작업 공동 작업자가 먼저 할당됩니다.
+* 작업 공동 작업자가 이미 할당된 작업을 시작할 준비가 되었습니다. (예를 들어 작업에 전임 작업이 있는 경우 해당 전임 작업은 완료됩니다.)
+* 작업 공동 작업자와 사용자가 이미 할당된 작업을 시작할 준비가 되었습니다. (예를 들어 작업에 전임 작업이 있는 경우 해당 전임 작업은 완료됩니다.)
+* 사용자와 작업 공동 작업자가 작업에 할당되고 사용자가 제거됩니다.
+* 사용자와 작업 공동 작업자가 작업에 할당되고 작업 공동 작업자가 작업의 기본 할당자로 설정됩니다.
+
+다음과 같은 경우에는 작업 공동 작업자가 작업에 대한 작업을 시작하지 않습니다.
+
+* 작업 공동 작업자는 이미 할당된 사용자가 있는 작업에 할당됩니다.
+* 작업 공동 작업자가 작업에 @mentioned.
+* 작업 공동 작업자는 이미 작업 공동 작업자가 할당된 작업에 할당됩니다. 이 경우 처음 할당된 작업 공동 작업자만 작업에 대한 작업을 시작합니다.
+* 시작할 준비가 되지 않은 작업에 작업 공동 작업자가 할당됩니다. (예를 들어 작업에 전임 작업이 있는 경우 해당 전임 작업은 아직 완료되지 않았습니다.)
+
 ## 작업에 작업 협력자 할당
 
 작업 공동 작업자는 사용자가 할당된 것과 동일한 방식으로 작업에 할당됩니다.
+
+사용 가능한 할당자 목록에서 Task Collaborator를 검색하는 경우 Task Collaborator의 이름은 이름만 됩니다.
 
 지침은 [작업 할당](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)을 참조하세요.
