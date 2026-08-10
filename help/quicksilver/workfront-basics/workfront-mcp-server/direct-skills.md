@@ -5,9 +5,10 @@ title: 직접 설치에 사용할 수 있는 기술
 description: Workfront에서는 LLM에 직접 설치할 수 있는 몇 가지 기술을 제공합니다.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+recommendations: noDisplay, noCatalog
+source-git-commit: 7fd4c07f2ea1e47e7abb7d3dd78638a6a01d0f47
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -15,16 +16,20 @@ ht-degree: 0%
 
 # 직접 설치에 사용할 수 있는 기술
 
-Workfront에서는 LLM에 직접 설치할 수 있는 몇 가지 기술을 제공합니다. 스킬은 해당 도구를 특정 작업에 사용하는 방법에 대해 안내하며, 올바른 단계는 이미 내장되어 있습니다.
+Adobe Workfront에서는 LLM에 직접 설치할 수 있는 몇 가지 기술을 제공합니다. 스킬은 해당 도구를 특정 작업에 사용하는 방법에 대해 안내하며, 올바른 단계는 이미 내장되어 있습니다.
 
-이러한 기술은 Adobe 기술 GitHub 리포지토리에서 찾을 수 있습니다.
+이러한 기술은 Adobe 기술 GitHub 리포지토리에서 파일로 찾을 수 있습니다. 이 저장소에는 다양한 Adobe 제품에 대한 파일이 있습니다. 이러한 파일을 다운로드하여 Claude에 복사하면 Claude는 파일에 설명된 기술을 사용할 수 있습니다.
+
+예를 들어 Cloud는 계획 솔루션 설계자 기술을 통해 Workfront Planning에 대한 질문에 답변하고 일부 작업을 수행할 수 있습니다.
+
+이러한 스킬이 LLM에 복사된 후에는 호출하거나 트리거할 필요가 없습니다. 대신 LLM과 평소와 같이 자연어로 질문하고 상호 작용할 수 있으며, LLM은 대화에 적합한 스킬에 설명된 정보와 작업을 사용합니다.
 
 >[!NOTE]
 >
 >현재 이러한 스킬은 클로드만 사용할 수 있습니다.
 >Adobe으로 Cloud를 설정하는 방법에 대한 지침은 Adobe Developer 설명서에서 [시작하기](https://developer.adobe.com/adobe-for-creativity/getting-started/)를 참조하십시오.
 
-## Workfront GitHub 리포지토리에서 Claude에 스킬을 설치합니다.
+## Workfront GitHub 리포지토리에서 Claude에 스킬 설치
 
 1. GitHub의 [Adobe Workfront 기술 저장소](https://github.com/adobe/skills/tree/main/plugins/workfront)&#x200B;(으)로 이동합니다.
 1. 사용할 스킬 폴더를 다운로드합니다.
