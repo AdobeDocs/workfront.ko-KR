@@ -1,9 +1,9 @@
 ---
 name: clean-el-traffic-csv
 description: 페이지 보기 횟수별로 정렬된 Workfront 전용 페이지로의 원시 Experience League/Adobe Analytics 트래픽 CSV 내보내기를 정리합니다. 사용자가 Experience League 페이지 트래픽 CSV("페이지 URL 일반", "고유 방문자 수", "방문 횟수", "페이지 보기 수")를 제공하고 정리하거나, 필터링하거나, 처리할 것을 요청하거나, "문서 추적" / "가장 많이 본 문서" 스프레드시트를 언급한 경우 사용합니다.
-source-git-commit: 3c5f28f5656fec574cb1ca9d3853703b6b900fdb
+source-git-commit: e22d43e9962b2b00793577fd14ac00587e8a2a6d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Experience League 트래픽 CSV 정리
 
-Experience League 페이지 트래픽의 원시 Adobe Analytics 자유 형식 테이블 내보내기를 페이지 보기별로 정렬된 깔끔한 Workfront 전용 중복 제거 CSV로 변환하여 원본 파일을 덮어씁니다.
+Experience League 페이지 트래픽의 원시 Adobe Analytics 자유 형식 테이블 내보내기를 페이지 보기별로 정렬된 깔끔한 Workfront 전용 중복 제거 CSV로 변환하여 원본 파일을 덮어쓰고 오래된 복사본도 데스크탑에 저장합니다.
 
 ## 입력 모양
 
@@ -79,6 +79,18 @@ Experience League 페이지 트래픽의 원시 Adobe Analytics 자유 형식 �
 ### 8단계: 저장
 
 원래 입력 파일을 정리가 완료된 결과로 덮어씁니다.
+
+### 9단계: 날짜가 기입된 사본을 데스크톱에 저장(0단계에서 날짜 범위가 캡처된 경우 원시 내보내기만)
+
+파일 이름이 안전한 날짜 범위 버전을 빌드합니다. 쉼표를 제거하고 `\ / : * ? " < > |`을(를) `-`(으)로 바꿉니다(이 문자는 Windows 파일 이름에서 유효하지 않으며 내보내기 로캘/형식에 따라 날짜 범위에 나타날 수 있음).
+
+정리된 CSV의 추가 복사본(8단계와 동일한 콘텐츠)을 현재 사용자의 데스크탑에 저장합니다. 이름은 다음과 같습니다.
+
+`Documentation tracking report <filename-safe date range>.csv`
+
+예: 캡처된 `Apr 1, 2026 - Apr 30, 2026` 범위는 `Documentation tracking report Apr 1 2026 - Apr 30 2026.csv`이(가) 됩니다.
+
+사용자가 날짜 범위를 별도로 제공하지 않는 한 이미 정리된 CSV(도형 2)에 대해서는 이 단계를 건너뜁니다.
 
 ## 범위를 벗어남
 
@@ -157,6 +169,11 @@ $outLines += $newHeader
 $outLines += $sorted | ForEach-Object { "$($_.URL),$($_.UV),$($_.Visits),$($_.PV)" }
 
 Set-Content -Path $path -Value $outLines -Encoding UTF8
+
+# Step 9: also save a dated copy to the Desktop
+$safeDateRange = ($dateRange -replace ',', '') -replace '[\\/:*?"<>|]', '-'
+$desktopPath = Join-Path ([Environment]::GetFolderPath('Desktop')) "Documentation tracking report $safeDateRange.csv"
+Set-Content -Path $desktopPath -Value $outLines -Encoding UTF8
 ```
 
-이미 정리된 CSV(입력 모양 2)의 경우 헤더 재배치 및 날짜 범위 논리를 건너뜁니다. 기존 헤더/행에서 2-6단계와 8단계를 그대로 실행하기만 하면 됩니다.
+이미 정리된 CSV(입력 모양 2)의 경우 헤더 재배치, 날짜 범위 논리 및 9단계를 건너뜁니다. 기존 헤더/행에서 2-6단계와 8단계를 그대로 실행하기만 하면 됩니다.
