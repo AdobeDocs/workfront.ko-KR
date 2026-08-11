@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: 문제를 프로젝트로 전환
 description: 문제가 제출된 후 문제를 완료하기 위해 추가 작업을 수행해야 하는 경우, Adobe Workfront에서 문제를 프로젝트로 전환할 수 있습니다.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 2%
@@ -108,12 +109,12 @@ Old:
 
 * 문제를 프로젝트로 전환할 때는 5분 처리 제한이 있습니다. 문제에 많은 문서가 첨부되어 있고 전환하지 못하는 경우, 일부 문서를 제거하고 다시 시도해야 할 수 있습니다.
 * 조직에서 문서에 레거시 Workfront 및 Adobe 클라우드 저장소를 모두 사용하는 경우 문제를 프로젝트로 전환할 때 다음과 같은 시나리오가 존재합니다. <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
-   * 이전 Workfront 스토리지 문제로 이전 Workfront 스토리지 프로젝트가 생성되었습니다.
-   * Adobe 클라우드 스토리지 문제로 Adobe 클라우드 스토리지 프로젝트가 생성되었습니다.
-   * 기존 Workfront 스토리지 템플릿을 사용하여 Adobe 클라우드 스토리지 문제를 전환하면 Adobe 클라우드 스토리지 프로젝트가 생성됩니다.
-   * Adobe 클라우드 스토리지 템플릿을 사용하여 기존 Workfront 스토리지 문제를 전환하면 기존 Workfront 스토리지 프로젝트가 만들어집니다.
+  * 이전 Workfront 스토리지 문제로 이전 Workfront 스토리지 프로젝트가 생성되었습니다.
+  * Adobe 클라우드 스토리지 문제로 Adobe 클라우드 스토리지 프로젝트가 생성되었습니다.
+  * 기존 Workfront 스토리지 템플릿을 사용하여 Adobe 클라우드 스토리지 문제를 전환하면 Adobe 클라우드 스토리지 프로젝트가 생성됩니다.
+  * Adobe 클라우드 스토리지 템플릿을 사용하여 기존 Workfront 스토리지 문제를 전환하면 기존 Workfront 스토리지 프로젝트가 만들어집니다.
 
-     자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
+    자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
 ## 문제를 프로젝트로 전환
 

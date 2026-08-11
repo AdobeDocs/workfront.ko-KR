@@ -4,6 +4,7 @@ navigation-topic: use-the-gantt-chart
 title: '[!UICONTROL 간트 차트]에서 리소스 레벨링'
 description: 동일한 자원이 두 개의 서로 다른 작업에 할당된 경우 리소스 레벨링을 사용하여 작업의 타임라인을 조정하면 동시에 작업이 발생하지 않습니다. 이 문서에서는 간트 차트에서 리소스를 레벨링하는 방법에 대한 정보를 제공합니다.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
 last-update: 2026-04-01T18:03:50.000Z
@@ -20,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 623
 ht-degree: 3%

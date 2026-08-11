@@ -3,6 +3,7 @@ navigation-topic: use-the-gantt-chart
 title: 간트 차트를 PDF으로 내보내기
 description: 간트 차트를 PDF으로 내보낼 수 있습니다. 이후에 인쇄하거나 이메일에 첨부하여 다른 사용자와 공유할 수 있습니다.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
 last-update: 2026-04-01T18:03:50.000Z
@@ -20,9 +21,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 968
+source-wordcount: 983
 ht-degree: 3%
 
 ---
@@ -119,18 +120,18 @@ Old:
 
      다음 옵션 중에서 선택합니다.
 
-      * 실제 일자
-      * 할당
-      * 기준선
-      * 커밋 일자
-      * % 완료
-      * 중요 경로
-      * 마일스톤 다이아몬드
-      * 마일스톤 라인
-      * 전임 작업
-      * 진행 상태
-      * (조건부) 계획된 일자
-      * (조건부) 예상 일자
+     * 실제 일자
+     * 할당
+     * 기준선
+     * 커밋 일자
+     * % 완료
+     * 중요 경로
+     * 마일스톤 다이아몬드
+     * 마일스톤 라인
+     * 전임 작업
+     * 진행 상태
+     * (조건부) 계획된 일자
+     * (조건부) 예상 일자
 
      자세한 내용은 [정보가 [!UICONTROL 간트 차트에 표시되는 방식 구성]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)을 참조하십시오.
 

@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 890
+source-wordcount: 902
 ht-degree: 2%
 
 ---
@@ -112,10 +112,10 @@ Old:
 
 * 다음과 같은 방법으로 Workfront Planning에서 포트폴리오를 추가합니다.
 
-   * Workfront Planning의 레코드 유형에서 연결할 때
+  * Workfront Planning의 레코드 유형에서 연결할 때
 
   포트폴리오를 레코드에 추가하여 만드는 방법에 대한 자세한 내용은 문서 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)의 &quot;연결할 때 레코드 만들기&quot; 섹션을 참조하십시오.
-   * Workfront Planning 자동화 사용.
+  * Workfront Planning 자동화 사용.
 
   자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오.
 
@@ -145,17 +145,19 @@ Old:
 
      포트폴리오가 만들어지고 기본 이름은 Workfront이 문서에 사용하는 스토리지에 따라 다음과 같은 패턴을 따릅니다.
 
-      * 기존 Workfront 저장소 포트폴리오의 `Untitled Portfolio`.
+     * 기존 Workfront 저장소 포트폴리오의 `Untitled Portfolio`.
 
-        기존 Workfront 저장소 포트폴리오는 이름 옆에 **기존 Workfront 저장소** 아이콘 ![기존 저장소 포트폴리오 아이콘](assets/legacy-storage-project-icon.png)을 표시합니다.
+       기존 Workfront 저장소 포트폴리오는 이름 옆에 **기존 Workfront 저장소** 아이콘 ![기존 저장소 포트폴리오 아이콘](assets/legacy-storage-project-icon.png)을 표시합니다.
 
-      * Adobe 클라우드 스토리지 포트폴리오용 `Untitled Portfolio - < Month day, year hour.minute.second >`
+     * Adobe 클라우드 스토리지 포트폴리오용 `Untitled Portfolio - < Month day, year hour.minute.second >`
 
-        >[!IMPORTANT]
-        >
-        >Adobe 클라우드 스토리지를 사용하는 포트폴리오의 이름은 고유해야 합니다.
+       >[!IMPORTANT]
+       >
+       >Adobe 클라우드 스토리지를 사용하는 포트폴리오의 이름은 고유해야 합니다.
 
      Adobe 클라우드 스토리지 포트폴리오의 경우 포트폴리오와 동일한 이름의 새 문서 폴더가 문서 영역에 자동으로 만들어집니다.
+
+     자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
 1. 포트폴리오 헤더에서 포트폴리오의 이름을 새 이름으로 바꿉니다.
 

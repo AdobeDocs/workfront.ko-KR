@@ -4,6 +4,7 @@ navigation-topic: use-the-gantt-chart
 title: '[!UICONTROL 간트] 차트 시작'
 description: Adobe Workfront의 간트 차트는 작업 또는 프로젝트 목록의 타임라인을 시각적으로 보여 줍니다.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
 last-update: 2026-04-01T18:03:50.000Z
@@ -18,7 +19,7 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 538
 ht-degree: 1%
@@ -41,10 +42,10 @@ Adobe Workfront의 간트 차트는 작업 또는 프로젝트 목록의 타임�
 ## 간트 차트에 대한 고려 사항
 
 * 다음 [!UICONTROL 간트 차트]에서 정보를 편집할 수 있습니다.
-   * 작업 목록
+  * 작업 목록
 * 다음 [!UICONTROL 간트 차트]에서 정보를 편집할 수 없습니다.
-   * 템플릿 작업 목록
-   * 프로젝트 목록
+  * 템플릿 작업 목록
+  * 프로젝트 목록
 * 템플릿 목록에 대한 [!UICONTROL 간트 차트] 옵션이 없습니다.
 * 작업 목록 [!UICONTROL 간트 차트] 및 프로젝트 목록 [!UICONTROL 간트 차트]에 표시할 정보를 구성할 수 있습니다.
 * [!UICONTROL 간트 차트] 정보가 표시되는 색상이나 글꼴을 구성할 수 없습니다.

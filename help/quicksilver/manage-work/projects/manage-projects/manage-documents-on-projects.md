@@ -6,9 +6,9 @@ description: Workfront 관리자가 스토리지 환경 설정 기본값을 선�
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: '2037'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Workfront 관리자는 다음 중 하나를 수행할 수 있습니다.
 * 두 스토리지 옵션 중 하나를 조직의 기본값으로 선택합니다.
 * 다음 객체 중 하나를 생성할 때 사용할 저장소를 선택할 수 있습니다.
 
-   * 프로젝트
-   * 포트폴리오
-   * 템플릿
+  * 프로젝트
+  * 포트폴리오
+  * 템플릿
 
 Workfront의 저장소 환경 설정 지정에 대한 자세한 내용은 [조직에 Adobe 클라우드 저장소 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하세요.
 
@@ -106,12 +106,12 @@ Not sure we need these since this became an overview article:
 * Adobe 클라우드 스토리지만. 시스템 환경 설정 의 스토리지 환경 설정 영역이 없습니다.
 * Workfront 스토리지 및 Adobe 클라우드 스토리지 둘 다. Workfront 관리자는 다음 중 하나를 선택할 수 있습니다.
 
-   * 향후 문서 처리 방법에 대한 기본 스토리지 환경을 선택합니다.
-   * 사용자가 다음 객체를 생성할 때 선택할 스토리지를 선택할 수 있습니다.
+  * 향후 문서 처리 방법에 대한 기본 스토리지 환경을 선택합니다.
+  * 사용자가 다음 객체를 생성할 때 선택할 스토리지를 선택할 수 있습니다.
 
-      * 프로젝트
-      * 포트폴리오
-      * 템플릿
+    * 프로젝트
+    * 포트폴리오
+    * 템플릿
 
   >[!NOTE]
   >
@@ -144,12 +144,19 @@ Workfront 스토리지의 객체에 저장된 문서는 Adobe 클라우드 스�
 
 * Adobe 클라우드 스토리지 포트폴리오를 만들면 Workfront은 포트폴리오의 문서 섹션에 문서를 저장할 폴더를 만듭니다. 폴더 이름은 포트폴리오와 동일한 이름입니다. 폴더를 삭제하거나 수동으로 이름을 바꿀 수 없습니다. 포트폴리오의 새 이름과 일치하도록 포트폴리오의 이름을 변경하면 폴더의 이름이 변경됩니다.
 
-* 기존 Adobe 스토리지 포트폴리오에 Workfront 클라우드 스토리지 프로젝트를 추가하고 포트폴리오에 첨부된 문서가 없으면 포트폴리오가 Adobe 클라우드 스토리지 포트폴리오로 변환됩니다.
-* 기존 Adobe 스토리지 포트폴리오에 Workfront 클라우드 스토리지 프로젝트를 추가하고 포트폴리오에 문서가 첨부되어 있으면 포트폴리오 문서 스토리지는 Workfront 스토리지에 유지됩니다. 그러나 포트폴리오 ![레거시 Workfront 저장소 아이콘](assets/legacy-storage-project-icon.png)에 대한 레거시 포트폴리오 저장소 아이콘이 포트폴리오에서 제거되었습니다.
+<!--
+This is not possible anymore: 
+* When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has no documents attached to it, the portfolio is converted to an Adobe cloud storage portfolio. 
+* When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has documents attached to it, the portfolio documents storage remains on Workfront storage. However, the legacy Workfront storage icon for the portfolio ![Legacy portfolio storage icon](assets/legacy-storage-project-icon.png) is removed from the portfolio. 
+-->
 * Adobe 클라우드 스토리지 프로젝트를 레거시 스토리지 포트폴리오에 추가하거나 레거시 스토리지 프로젝트를 Adobe 스토리지 포트폴리오에 추가할 수 없습니다.
 * 관리자는 설정의 시스템 환경 설정 영역에서 레거시 스토리지 포트폴리오를 Adobe 클라우드 스토리지로 변환할 수 있습니다. 모든 하위 개체(프로그램, 프로젝트 및 문서)는 기존 저장소에 남아 있습니다. 새 프로젝트는 Adobe 클라우드 스토리지를 사용합니다. 포트폴리오에 추가된 새 문서는 레거시 스토리지에 계속 저장됩니다.
 자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
+* &#x200B;<!-- this point also repeats for programs below-->포트폴리오가 레거시에서 Adobe 클라우드 스토리지로 변환되고 프로그램에 레거시 스토리지가 있는 경우 프로그램의 프로젝트에서도 레거시 스토리지를 사용하고 있습니다.
 
+  더 이상 기존 레거시 스토리지 프로젝트를 이 포트폴리오에 추가할 수 없습니다.
+
+  이제 포트폴리오에서 Adobe 클라우드 스토리지를 사용하므로 모든 새 프로젝트는 Adobe 클라우드 스토리지를 사용해야 합니다. 프로그램에 대해 이러한 Adobe 클라우드 스토리지 프로젝트가 하나 생성되면 프로그램은 레거시에서 Adobe 클라우드 스토리지로 자동 변환되며 그 시점부터 더 이상 레거시 스토리지 프로젝트를 추가할 수 없습니다.
 * Workfront Planning 자동화를 사용하여 포트폴리오를 생성하는 경우 Workfront에서는 포트폴리오에 대한 시스템의 기본 스토리지 환경 설정을 사용합니다. Workfront Planning에 액세스하려면 Planning 패키지를 구매해야 합니다.
 
 
@@ -164,6 +171,11 @@ Workfront 스토리지의 객체에 저장된 문서는 Adobe 클라우드 스�
 * Adobe 클라우드 스토리지 프로그램을 레거시 스토리지 포트폴리오에 추가하거나 레거시 프로그램을 Adobe 클라우드 스토리지 포트폴리오에 추가할 수 없습니다.
 * 레거시 스토리지 프로그램의 Adobe 클라우드 스토리지 템플릿에서 프로젝트를 생성할 수 없습니다.
 * Adobe 클라우드 스토리지 프로그램의 레거시 스토리지 템플릿에서 프로젝트를 만들 수 있지만 템플릿의 문서 및 폴더는 새 프로젝트에 추가되지 않습니다. 프로젝트는 Adobe 클라우드 스토리지를 받습니다.
+* &#x200B;<!-- this point also repeats for portfolios above-->포트폴리오가 레거시에서 Adobe 클라우드 스토리지로 변환되고 프로그램에 레거시 스토리지가 있는 경우 프로그램의 프로젝트에서도 레거시 스토리지를 사용하고 있습니다.
+
+  더 이상 기존 레거시 스토리지 프로젝트를 이 포트폴리오에 추가할 수 없습니다.
+
+  이제 포트폴리오에서 Adobe 클라우드 스토리지를 사용하므로 모든 새 프로젝트는 Adobe 클라우드 스토리지를 사용해야 합니다. 프로그램에 대해 이러한 Adobe 클라우드 스토리지 프로젝트가 하나 생성되면 프로그램은 레거시에서 Adobe 클라우드 스토리지로 자동 변환되며 그 시점부터 더 이상 레거시 스토리지 프로젝트를 추가할 수 없습니다.
 * Workfront Planning 자동화를 사용하여 프로그램을 생성하는 경우 Workfront에서는 해당 프로그램에 대한 시스템의 기본 스토리지 기본 설정을 사용합니다. Workfront Planning에 액세스하려면 Planning 패키지를 구매해야 합니다.
 
 ### 작업을 위한 문서 관리
@@ -176,10 +188,10 @@ Workfront 스토리지의 객체에 저장된 문서는 Adobe 클라우드 스�
 * Adobe 클라우드 스토리지 프로젝트의 경우 작업의 문서 폴더가 프로젝트에 대해 자동으로 생성된 문서 폴더의 하위 폴더로 표시됩니다.
 * 기존 Workfront 스토리지 프로젝트에서 Adobe 클라우드 스토리지 프로젝트로 작업을 복사하거나 이동할 수 없습니다. 그 반대도 불가능합니다.
 * 작업을 프로젝트로 전환할 때 다음과 같은 시나리오가 존재합니다. <!--this info also duplicated in Convert tasks to projects-->
-   * 기존 Workfront 스토리지 작업은 기존 Workfront 스토리지 프로젝트를 만듭니다.
-   * Adobe 클라우드 스토리지 작업은 Adobe 클라우드 스토리지 프로젝트를 만듭니다.
-   * 기존 Workfront 스토리지 템플릿을 사용하여 Adobe 클라우드 스토리지 작업을 전환하면 Adobe 클라우드 스토리지 프로젝트가 만들어집니다.
-   * Adobe 클라우드 스토리지 템플릿을 사용하여 기존 Workfront 스토리지 작업을 전환하면 기존 Workfront 스토리지 프로젝트가 만들어집니다.
+  * 기존 Workfront 스토리지 작업은 기존 Workfront 스토리지 프로젝트를 만듭니다.
+  * Adobe 클라우드 스토리지 작업은 Adobe 클라우드 스토리지 프로젝트를 만듭니다.
+  * 기존 Workfront 스토리지 템플릿을 사용하여 Adobe 클라우드 스토리지 작업을 전환하면 Adobe 클라우드 스토리지 프로젝트가 만들어집니다.
+  * Adobe 클라우드 스토리지 템플릿을 사용하여 기존 Workfront 스토리지 작업을 전환하면 기존 Workfront 스토리지 프로젝트가 만들어집니다.
 * 요약 패널에서 Adobe 클라우드 스토리지 작업에 문서를 추가할 수 없습니다.
 
 ### 문제에 대한 문서 관리
@@ -192,10 +204,10 @@ Workfront 스토리지의 객체에 저장된 문서는 Adobe 클라우드 스�
 * Adobe 클라우드 스토리지 프로젝트의 경우 문제에 있는 문서 폴더가 프로젝트에 대해 자동으로 생성된 문서 폴더의 하위 폴더로 표시됩니다.
 * 기존 Workfront 스토리지 프로젝트에서 Adobe 클라우드 스토리지 프로젝트로 문제를 복사하거나 이동할 수 없습니다. 그 반대도 불가능합니다.
 * 문제를 프로젝트로 전환할 때 다음과 같은 시나리오가 존재합니다. <!--this info also duplicated in Convert an issue to a project-->
-   * 이전 Workfront 스토리지 문제로 이전 Workfront 스토리지 프로젝트가 생성되었습니다.
-   * Adobe 클라우드 스토리지 문제로 Adobe 클라우드 스토리지 프로젝트가 생성되었습니다.
-   * 기존 Workfront 스토리지 템플릿을 사용하여 Adobe 클라우드 스토리지 문제를 전환하면 Adobe 클라우드 스토리지 프로젝트가 생성됩니다.
-   * Adobe 클라우드 스토리지 템플릿을 사용하여 기존 Workfront 스토리지 문제를 전환하면 기존 Workfront 스토리지 프로젝트가 만들어집니다.
+  * 이전 Workfront 스토리지 문제로 이전 Workfront 스토리지 프로젝트가 생성되었습니다.
+  * Adobe 클라우드 스토리지 문제로 Adobe 클라우드 스토리지 프로젝트가 생성되었습니다.
+  * 기존 Workfront 스토리지 템플릿을 사용하여 Adobe 클라우드 스토리지 문제를 전환하면 Adobe 클라우드 스토리지 프로젝트가 생성됩니다.
+  * Adobe 클라우드 스토리지 템플릿을 사용하여 기존 Workfront 스토리지 문제를 전환하면 기존 Workfront 스토리지 프로젝트가 만들어집니다.
 * 요약 패널에서 Adobe 클라우드 스토리지 문제에 문서를 추가할 수 없습니다.
 
 ### 요청에 대한 문서 관리
@@ -211,8 +223,8 @@ Workfront 스토리지의 객체에 저장된 문서는 Adobe 클라우드 스�
 * 레거시 Workfront 스토리지 템플릿을 사용하여 레거시 Workfront 스토리지 프로젝트를 생성할 수 있습니다. Adobe 클라우드 스토리지 템플릿을 사용하여 Adobe 클라우드 스토리지 프로젝트를 생성할 수 있습니다.
 
 * 포트폴리오 또는 프로그램의 템플릿을 사용하여 프로젝트를 만들 때 다음과 같은 시나리오가 있습니다.
-   * 레거시 Workfront 스토리지 포트폴리오 또는 프로그램의 Adobe 클라우드 스토리지 템플릿을 사용하여 프로젝트를 생성할 수는 없습니다.
-   * 레거시 스토리지 템플릿을 사용하여 Adobe 스토리지 포트폴리오나 프로그램에 대한 Adobe 클라우드 스토리지 프로젝트를 생성할 수 있습니다. 템플릿 문서 및 폴더는 새 프로젝트에 첨부되지 않습니다.
+  * 레거시 Workfront 스토리지 포트폴리오 또는 프로그램의 Adobe 클라우드 스토리지 템플릿을 사용하여 프로젝트를 생성할 수는 없습니다.
+  * 레거시 스토리지 템플릿을 사용하여 Adobe 스토리지 포트폴리오나 프로그램에 대한 Adobe 클라우드 스토리지 프로젝트를 생성할 수 있습니다. 템플릿 문서 및 폴더는 새 프로젝트에 첨부되지 않습니다.
 
 * 레거시 Workfront 스토리지 템플릿을 Adobe 클라우드 스토리지 프로젝트에 첨부할 수 있으며, 프로젝트에 있는 문서의 스토리지 위치는 변경되지 않습니다.
 * Adobe 클라우드 스토리지 템플릿을 기존 Workfront 스토리지 프로젝트에 첨부할 수 있으며, 이 경우 프로젝트에 있는 문서의 스토리지 위치는 변경되지 않습니다. 템플릿에 대한 Adobe 클라우드 스토리지 폴더의 문서는 폴더 없이 프로젝트에 직접 추가되지만 템플릿 작업 폴더의 문서는 작업의 문서 섹션에서 프로젝트의 작업에 첨부된 폴더에 추가됩니다.

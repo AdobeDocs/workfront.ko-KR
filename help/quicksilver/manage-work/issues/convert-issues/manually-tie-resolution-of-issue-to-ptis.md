@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: 문제 해결을 다른 문제, 작업 또는 프로젝트에 수동으로 연결
 description: 문제를 전환하지 않고도 문제 해결을 프로젝트, 작업 또는 문제의 해결과 수동으로 연결할 수 있습니다. 이 문제는 사용자가 선택한 프로젝트, 작업 또는 문제의 해결 가능한 개체 중 하나가 됩니다. 이렇게 하면 프로젝트, 작업 또는 문제의 상태가 변경되면 원래 문제의 상태가 변경됩니다.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 518
 ht-degree: 4%

@@ -4,6 +4,7 @@ navigation-topic: use-the-gantt-chart
 title: 작업 목록 간트 차트에서 정보 업데이트
 description: Adobe Workfront 작업 목록의 간트 차트는 프로젝트 또는 템플릿에 있는 작업에 대한 세부 정보를 보여 줍니다.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 1010
 ht-degree: 3%

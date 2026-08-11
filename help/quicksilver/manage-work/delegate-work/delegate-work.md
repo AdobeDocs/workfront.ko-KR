@@ -4,7 +4,7 @@ content-type: reference
 navigation-topic: projects-navigation-topic
 title: 작업 위임
 description: 단기간 동안 부재 중일 경우 일시적으로 다른 사용자에게 작업을 위임하여 부재 상태가 작업을 완료하는 데 장애가 되지 않도록 할 수 있습니다. 이 섹션의 문서에는 일시적으로 부재 중일 때 작업을 위임할 수 있는 방법에 대한 정보가 포함되어 있습니다.
-author: Becky
+author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: e449366e-3bfa-4710-a597-91de404112d4
@@ -19,7 +19,7 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 3%

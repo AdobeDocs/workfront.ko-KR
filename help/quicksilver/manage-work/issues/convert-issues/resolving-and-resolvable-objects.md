@@ -5,6 +5,7 @@ navigation-topic: convert-issues
 title: 해결 및 해결 가능한 객체 개요
 description: 해결 가능한 오브젝트는 해결 방법이 해결 중인 오브젝트와 연결되어 있는 문제입니다. 해결 중 오브젝트는 프로젝트, 작업 또는 다른 문제입니다.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
 last-update: 2026-04-01T18:03:50.000Z
@@ -23,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 71bea9d8e8a1987c5a1ee23d25402f784d2e22c8
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 1809
 ht-degree: 1%
