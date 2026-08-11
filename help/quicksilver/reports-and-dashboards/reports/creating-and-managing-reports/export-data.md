@@ -9,20 +9,14 @@ exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uQNAYGgSYY6--5tGVwmcr29NwFZKrp63QZTzNnvvp94
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9b272b27e030332325bdd7f75b9f1b947bd6118d
 workflow-type: tm+mt
-source-wordcount: 2258
+source-wordcount: 2259
 ht-degree: 1%
 
 ---
@@ -105,6 +99,7 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
 * PDF(가로 또는 세로)
 * Excel
 * Excel (.xlsx)
+* CSV로 내보내기
 * 탭으로 구분됨
 
 >[!NOTE]
@@ -122,9 +117,9 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 * **50,000개 셀:** Excel 파일에 대한 보고서 내보내기에 허용되는 최대 셀 수입니다.
 * **50,000개 행:** PDF 및 탭으로 구분된 파일에 대한 보고서 내보내기에 허용되는 데이터 행 수입니다.
 
-   * Excel 파일의 경우 이 제한은 **65,000행**&#x200B;입니다.
-   * Excel(.xlsx) 파일의 경우 이 제한은 **100,000개 행**&#x200B;입니다.
-   * 이러한 제한은 열 머리글과 보고서에서 그룹화를 위한 행을 제외합니다. 예를 들어 보고서에 6개의 그룹화가 있고 50,000개의 데이터 행이 있는 경우 내보낸 파일의 행은 50,000개가 됩니다.
+  * Excel 파일의 경우 이 제한은 **65,000행**&#x200B;입니다.
+  * Excel(.xlsx) 파일의 경우 이 제한은 **100,000개 행**&#x200B;입니다.
+  * 이러한 제한은 열 머리글과 보고서에서 그룹화를 위한 행을 제외합니다. 예를 들어 보고서에 6개의 그룹화가 있고 50,000개의 데이터 행이 있는 경우 내보낸 파일의 행은 50,000개가 됩니다.
 
   >[!IMPORTANT]
   >
@@ -142,20 +137,20 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
 * 이러한 제한은 다음 경우에 적용됩니다.
 
-   * 보고서의 수동 내보내기.
-   * 예약된 보고서.
-   * API 통합을 통한 내보내기.
-   * 킥스타트를 통해 내보낸 데이터.
+  * 보고서의 수동 내보내기.
+  * 예약된 보고서.
+  * API 통합을 통한 내보내기.
+  * 킥스타트를 통해 내보낸 데이터.
 
-     킥스타트를 통해 데이터를 내보내는 방법에 대한 자세한 내용은 [킥스타트를 통해 Adobe Workfront에서 데이터 내보내기](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)를 참조하십시오.
+    킥스타트를 통해 데이터를 내보내는 방법에 대한 자세한 내용은 [킥스타트를 통해 Adobe Workfront에서 데이터 내보내기](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)를 참조하십시오.
 
-     >[!NOTE]
-     >
-     >Excel 형식 파일로만 데이터를 내보낼 수 있지만 킥스타트 파일에서 50,000개의 행을 내보낼 수 있습니다.
+    >[!NOTE]
+    >
+    >Excel 형식 파일로만 데이터를 내보낼 수 있지만 킥스타트 파일에서 50,000개의 행을 내보낼 수 있습니다.
 
-   * 프로젝트에 대한 활용성 정보를 내보내는 중입니다.
+  * 프로젝트에 대한 활용성 정보를 내보내는 중입니다.
 
-     프로젝트의 사용률 정보를 내보내는 방법에 대한 자세한 내용은 [리소스 사용률 보고서 개요](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project)를 참조하십시오.
+    프로젝트의 사용률 정보를 내보내는 방법에 대한 자세한 내용은 [리소스 사용률 보고서 개요](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project)를 참조하십시오.
 
 * **10MB 파일 크기:** 배달 예약된 내보낸 보고서에 대한 파일 크기 제한입니다. 이메일에 첨부된 내보낸 파일이 5MB보다 큰 경우 첨부된 내보낸 보고서 대신 파일을 다운로드할 수 있는 링크가 이메일로 전송됩니다.
 * **65,530개의 하이퍼링크:** Excel에서 65,530개가 넘는 하이퍼링크가 포함된 문서에 적용한 제한입니다. 이러한 문서는 수동으로 내보내거나 게재된 보고서에서 전송할 때 열 수 없습니다. Excel 문서에는 200개의 데이터 행만 있을 수 있지만 문서 내에 65,530개가 넘는 링크가 있으면 문서가 열리지 않습니다. 이 제한은 지원되는 다른 형식이 아닌 Excel 파일에만 적용됩니다.
@@ -240,13 +235,13 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
 * 프로젝트에서 작업 및 문제 목록을 내보낼 때:
 
-   * *The_project_name_Exported_Tasks*(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
-   * *The_project_name_Exported_Issues*(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
+  * *The_project_name_Exported_Tasks*(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
+  * *The_project_name_Exported_Issues*(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
 
 * 작업(하위 작업)에서 작업 및 문제 목록을 내보낼 때:
 
-   * **The_project_name_the_task_name_Exported_Tasks**(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
-   * **The_project_name_the_task_name_Exported_Issues**(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
+  * **The_project_name_the_task_name_Exported_Tasks**(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
+  * **The_project_name_the_task_name_Exported_Issues**(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
 
 프로젝트의 다른 객체 목록을 PDF 파일로 내보낼 때 내보낸 문서의 파일 이름은 내보낸 객체의 유형을 나타냅니다.\
 예를 들어 파일 이름은 다음과 같을 수 있습니다.
