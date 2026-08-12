@@ -4,10 +4,10 @@ content-type: reference
 description: 작업 공동 작업자, Workfront 작업에 할당할 수 있는 AI 공동 작업자를 사용하는 방법에 대해 알아봅니다.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
+source-git-commit: 294abde1460326cd43eb30ac1aac134882cd2ee3
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 2%
+source-wordcount: '867'
+ht-degree: 1%
 
 ---
 
@@ -94,3 +94,19 @@ Workfront에서 작업 공동 작업자를 만드는 방법에 대한 정보와 
 사용 가능한 할당자 목록에서 Task Collaborator를 검색하는 경우 Task Collaborator의 이름은 이름만 됩니다.
 
 지침은 [작업 할당](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)을 참조하세요.
+
+## 작업 공동 작업자 문제 해결
+
+작업 공동 작업자가 응답이나 출력을 반환하지 않는 경우 다음을 확인하십시오.
+
+* 에이전트가 AI 플랫폼 공급자측에 게시되었는지 확인합니다.
+* 에이전트의 플랫폼에 충분한 AI 크레딧이 있는지 확인하십시오.
+* 작업에 수행된 작업에 특정 액세스 수준이 필요하지 않은지 확인하십시오.
+* Copilot을 에이전트 공급자로 사용하는 경우 &quot;인증 없음&quot; 설정을 사용하고 있는지 확인합니다.
+* Copilot을 사용하는 경우 에이전트가 글로벌 환경에 구성되어 있는지 확인하십시오. 작업 Collaborator 기능은 현재 Copilot Studio의 지역 버전을 지원하지 않습니다.
+* 공동 작업자가 작업에 대한 기본 할당자인지 확인합니다.
+* 작업 공동 작업자가 할당된 작업이 시작 가능 상태인지 확인합니다. 예를 들어 해당 작업에 대한 모든 작업 전임 작업이 완료되었는지 확인합니다.
+
+>[!TIP]
+>
+>에이전트 공급자 플랫폼으로 이동하여 플랫폼 내에서 작업을 수행하도록 에이전트에게 요청할 수도 있습니다. 에이전트가 플랫폼 내에서 작업을 수행할 수 없는 경우 작업 공동 작업자도 Workfront에서 문제가 발생합니다.
