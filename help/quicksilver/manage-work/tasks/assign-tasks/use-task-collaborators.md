@@ -4,9 +4,9 @@ content-type: reference
 description: 작업 공동 작업자, Workfront 작업에 할당할 수 있는 AI 공동 작업자를 사용하는 방법에 대해 알아봅니다.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 294abde1460326cd43eb30ac1aac134882cd2ee3
+source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -94,6 +94,10 @@ Workfront에서 작업 공동 작업자를 만드는 방법에 대한 정보와 
 사용 가능한 할당자 목록에서 Task Collaborator를 검색하는 경우 Task Collaborator의 이름은 이름만 됩니다.
 
 지침은 [작업 할당](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)을 참조하세요.
+
+>[!NOTE]
+>
+>작업 공동 작업자에게 문서를 검토하거나 승인하도록 할당할 수 없습니다.
 
 ## 작업 공동 작업자 문제 해결
 
