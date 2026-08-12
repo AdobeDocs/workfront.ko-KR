@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+source-git-commit: 560297cc7e4d7e4b4df5917c1710411454b4c9cb
 workflow-type: tm+mt
-source-wordcount: '14415'
+source-wordcount: '14417'
 ht-degree: 2%
 
 ---
@@ -490,6 +490,7 @@ ht-degree: 2%
       * [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [사용자 정의 현지화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
       * [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
+      * {hide-from-toc}[AI 공동 작업자](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/ai-collaborators-overview.md)
     * 일정 및 타임시트 환경 설정 구성 {#configure-timesheets-schedules}
       * [일정 및 타임시트 환경 설정 구성](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
       * [일정 개요](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
