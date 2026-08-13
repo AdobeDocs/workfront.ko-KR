@@ -7,10 +7,10 @@ description: Adobe Workfront 관리자는 AI 공동 작업자를 구성하고 �
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: cd2f35687330dc8662b52e930ee8a118c90b6c49
+source-git-commit: 8ba03024e1c2ef0da755a6da3da13debb2f4e696
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '84'
+ht-degree: 4%
 
 ---
 
@@ -23,3 +23,5 @@ AI 공동 작업자는 사용자를 할당하는 것과 같은 방식으로 작�
 AI 공동 작업자가 Workfront에서 작업을 선택하고 완료하는 방법을 살펴봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3497105/?quality=12&learn=on)
+
+AI 공동 작업자에 대한 자세한 내용은 [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)을 참조하십시오.
