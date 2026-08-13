@@ -4,9 +4,9 @@ description: 2026년 4분기 보고 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,43 @@ ht-degree: 0%
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
 
+## 예약된 보고서에 대한 종료 일자 적용
+
+>[!NOTE]
+>
+>미리 보기: 2026년 8월 13일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 예약된 보고서를 무기한 게재하지 않도록 하려면 종료 날짜가 필요합니다. 종료 날짜가 지난 일정은 자동으로 비활성화됩니다.
+
+기존 일정은 종료 날짜를 업데이트해 신뢰성을 높이고 불필요한 시스템 사용량을 줄였다. 또한 Workfront에서는 종료 날짜가 가까워지면 보고서 예약 주기를 관리하는 데 도움이 되는 추가 가시성 및 경고를 제공합니다.
+
+자세한 내용은 [자동 보고서 배달 예약](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)을 참조하세요.
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
+
 ## 기본 참조 필드는 목록 및 보고서에 사용할 수 있습니다
 
 >[!NOTE]
 >
->미리 보기: 2026년 7월 30일>프로덕션 빠른 릴리스: 2026년 8월 13일>모두를 위한 프로덕션: 2026년 10월 15일
+>미리 보기: 2026년 7월 30일
+>프로덕션 빠른 릴리스: 2026년 8월 13일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
 이제 Workfront의 목록 및 보고서에 네이티브 참조 필드를 추가할 수 있습니다.
 
@@ -34,7 +66,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 7월 30일>프로덕션 빠른 릴리스: 2026년 8월 13일>모두를 위한 프로덕션: 2026년 10월 15일
+>미리 보기: 2026년 7월 30일
+>프로덕션 빠른 릴리스: 2026년 8월 13일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
 이제 다중 선택 사용자 정의 필드에 대해 선택한 옵션이 레거시 목록 및 보고서에 일관되고 예측 가능한 순서로 표시됩니다. 필드 순서는 사용자 정의 양식에서 필드를 정렬하는 방법에 따라 결정됩니다.
 

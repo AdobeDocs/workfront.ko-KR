@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 308cbff62c648ba47a1a714446cffef40e5b4991
+source-git-commit: da78c3043f1b168d3e589fe98f67629c063c2715
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1388'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 이 페이지는 2026년 4분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 추가 개선 사항으로 업데이트됩니다.
 
-라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/ko/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
+라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/en/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
 
 >[!IMPORTANT]
 >
@@ -35,54 +35,13 @@ ht-degree: 2%
 
 ## Adobe Workfront 개선 사항
 
-* [AI 개선 사항](#ai-enhancements)
 * [관리자 개선 사항](#administrator-enhancements)
+* [AI 개선 사항](#ai-enhancements)
 * [문서 개선 사항](#documents-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
 * [보고 개선 사항](#reporting-enhancements)
 * [향상된 리소스 관리 기능](#resource-management-enhancements)
 * [기타 개선 사항](#other-enhancements)
-
-### AI 개선 사항
-
-<table>
-    <tbody>
-        <tr>
-            <td><strong>기능</strong>
-            </td>
-            <td><strong>미리보기</strong></td>
-            <td><strong>빠른 릴리스</strong></td>
-            <td><strong>분기별</strong></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront의 작업에 AI 작업 공동 작업자 할당</a>
-                <p>작업 공동 작업자는 작업에 직접 할당하여 작업 수준 작업을 완료할 수 있는 AI 공동 작업자입니다.</p>
-            </td>
-            <td><p>2026년 7월 31일</p></td>
-            <td><p>2026년 8월 13일</p></td>
-            <td><p>2026년 10월 15일</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터에서 사용할 수 있는 새로운 승인 도구</a>
-                <p>Workfront MCP 커넥터의 기능을 확장하기 위해 승인 경로를 관리하는 새로운 도구를 추가하고 병렬 승인 경로를 지원하는 기존 도구를 확장했습니다.</p>
-            </td>
-            <td><p>2026년 7월 30일</p></td>
-            <td><p>2026년 8월 13일</p></td>
-            <td><p>2026년 10월 15일</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터에서 사용할 수 있는 보드 도구</a>
-                <p>Workfront MCP 커넥터의 기능을 확장하기 위해 보드, 카드, 체크리스트 항목 및 열 작업을 위한 도구를 추가했습니다.</p>
-            </td>
-            <td><p>2026년 7월 30일</p></td>
-            <td><p>2026년 8월 13일</p></td>
-            <td><p>2026년 10월 15일</p></td>
-        </tr>
-    </tbody>
-</table>
 
 ### 관리자 개선 사항
 
@@ -95,7 +54,18 @@ ht-degree: 2%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
+<!--
         <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Interface improvements to the Actions list</a>
+                <p>The Actions list in the Update Feeds section of the Setup area has an updated look and feel.</p>
+            </td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+ -->  
+      <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">그룹 관리자가 비즈니스 프로필을 관리할 수 있음</a>
                 <p>이제 그룹 관리자는 시스템 관리자에 액세스하지 않고도 관리하는 그룹의 비즈니스 프로필을 생성, 편집 및 삭제할 수 있습니다.</p>
@@ -170,6 +140,56 @@ ht-degree: 2%
     </tbody>
 </table>
 
+### AI 개선 사항
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>기능</strong>
+            </td>
+            <td><strong>미리보기</strong></td>
+            <td><strong>빠른 릴리스</strong></td>
+            <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터에서 사용할 수 있는 새 사용자 검색 도구</a>
+                <p>새로운 사용자 검색 도구를 사용하면 Workfront 인스턴스에서 더 빠르게 사람들을 찾을 수 있습니다. 6개의 이전 조회 도구가 더 이상 사용되지 않으며, 이 도구와 기존 찾기/조회 도구가 더 이상 사용되지 않습니다.</p>
+            </td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront의 작업에 AI 작업 공동 작업자 할당</a>
+                <p>작업 공동 작업자는 작업에 직접 할당하여 작업 수준 작업을 완료할 수 있는 AI 공동 작업자입니다.</p>
+            </td>
+            <td><p>2026년 7월 31일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터에서 사용할 수 있는 새로운 승인 도구</a>
+                <p>Workfront MCP 커넥터의 기능을 확장하기 위해 승인 경로를 관리하는 새로운 도구를 추가하고 병렬 승인 경로를 지원하는 기존 도구를 확장했습니다.</p>
+            </td>
+            <td><p>2026년 7월 30일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터에서 사용할 수 있는 보드 도구</a>
+                <p>Workfront MCP 커넥터의 기능을 확장하기 위해 보드, 카드, 체크리스트 항목 및 열 작업을 위한 도구를 추가했습니다.</p>
+            </td>
+            <td><p>2026년 7월 30일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+    </tbody>
+</table>
+
 ### 문서 개선 사항
 
 <table>
@@ -236,6 +256,26 @@ ht-degree: 2%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">예약된 보고서에 대한 종료 날짜를 적용하는 중</a>
+                <p>이제 예약된 보고서를 사용하려면 무기한 게재를 방지하기 위해 종료 날짜가 필요합니다. 예약 종료 날짜가 지나면 자동으로 비활성화됩니다.</p>
+            </td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 9월 17일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Updated column headers for dependent connected record fields</a>
+                <p>Visual improvements have been made to the column headers for a dependent connected record field in the table view.</p>
+            </td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">목록 및 보고서에 네이티브 참조 필드를 사용할 수 있습니다</a>
@@ -335,8 +375,8 @@ ht-degree: 2%
 
 이 변경 사항은 2026년 4월 Workfront 릴리스 정보에서 처음 발표되었으며, 기한 전에 알려 주는 최종 알림입니다. 영향을 받는 모든 리더 사용자가 2026년 8월 8일 이전에 MFA를 활성화하여 액세스 중단을 방지해야 합니다.
 
-자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/ko/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
+자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
