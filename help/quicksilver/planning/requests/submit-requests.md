@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 2547
+source-wordcount: 2778
 ht-degree: 1%
 
 ---
@@ -144,6 +144,28 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 * 특정 필드 유형이 요청 양식 또는 양식 제출 후 요청 세부 정보 페이지에 표시되는 방법에는 제한이 있습니다.
 
   자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+
+<!--
+
+* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+
+   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
+  
+   * In the Production environment:
+   
+      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+
+   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
+   
+      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
+      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
+      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
+ 
+   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
+-->
+
+
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
@@ -282,6 +304,40 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
    * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
 -->
 
+## 레코드 유형 페이지에서 Planning 요청 제출
+
+레코드 유형 페이지에서 새 레코드를 추가할 때 요청을 제출할 수 있습니다.
+
+{{step1-to-planning}}
+
+1. 작업 공간에 대한 카드를 클릭한 다음 레코드를 만들 수 있는 액세스 권한이 있는 레코드 유형에 대한 카드를 클릭합니다.
+1. 레코드 종류 페이지의 모든 보기에서 새 레코드를 클릭한 다음 **요청 제출**&#x200B;을 클릭합니다.
+
+   >[!TIP]
+   >
+   >**요청 제출** 옵션이 **새 레코드** 기능에 추가되기 전에 요청 양식을 만들고 게시해야 합니다.
+
+1. **계속**&#x200B;을 클릭합니다.
+
+1. (조건부) 레코드 종류에 요청 양식이 두 개 이상 있는 경우 **새 요청** 상자에서 사용할 요청 양식을 클릭합니다.
+
+   요청 양식이 열립니다.
+1. 사용 가능한 모든 필드에 모든 정보 입력을 시작합니다.
+
+   또는 AI가 양식을 작성하도록 하려면 **양식 채우기**&#x200B;를 클릭하세요.
+1. **요청 제출**&#x200B;을 클릭합니다.
+
+   요청이 제출되었습니다.
+
+1. (선택 사항) 다음 중 하나를 클릭합니다.
+
+   * 새 양식을 열려면 **다른 요청을 제출**&#x200B;하십시오.
+   * 새 요청을 열려면 **요청을 봅니다**.
+   * 레코드 유형 페이지로 돌아가려면 상자의 오른쪽 상단에 있는 **X** 아이콘을 사용하십시오.
+
+   요청과 연결된 승인이 없으면 2단계에서 선택한 레코드 형식에 레코드가 추가되었습니다. <!--accurate??-->
+
+
 ## 공유 링크에서 요청 양식으로 Workfront Planning에 요청 제출
 
 이 섹션의 정보는 공유 링크에서 요청을 제출하고 Workfront 계정이 없을 수 있는 사용자에게만 적용됩니다.
@@ -323,13 +379,13 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 
 1. (선택 사항) Workfront에서 요청을 열려면 **요청 보기**&#x200B;를 클릭합니다.
 
-또는
+   또는
 
-[다른 요청 제출](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)을 클릭하여 요청 양식을 열고 새 요청을 추가합니다.
+   [다른 요청 제출](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)을 클릭하여 요청 양식을 열고 새 요청을 추가합니다.
 
-요청 세부 정보 페이지가 열립니다.
+   요청 세부 정보 페이지가 열립니다.
 
-![댓글이 있는 요청 페이지](assets/new-request-page-with-comment.png)
+   ![댓글이 있는 요청 페이지](assets/new-request-page-with-comment.png)
 
 1. (선택 사항) **댓글** 영역에 댓글을 입력합니다.
 1. (조건부) 요청 양식이 승인과 연결되어 있지 않거나 요청이 승인된 경우 요청 이름을 클릭한 다음 **만들어진 개체** 필드에서 레코드 이름을 클릭합니다.
@@ -382,7 +438,7 @@ Planning 요청을 삭제하면 다음과 같은 일이 발생합니다.
 
 1. 요청 목록에서 해당 이름을 클릭하여 Planning 요청을 엽니다.
 1. 요청 이름 오른쪽의 **자세히** 아이콘 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
-1. 확인하려면 **영구적으로 삭제** 상자에서 D **e** lete를 클릭하십시오.
+1. **영구적으로 삭제** 상자에서 **삭제**&#x200B;을(를) 클릭하여 확인합니다.
 
    요청이 삭제되어 복구할 수 없습니다.
 

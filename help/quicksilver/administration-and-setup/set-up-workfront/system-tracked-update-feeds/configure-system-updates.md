@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 902
-ht-degree: 10%
+source-wordcount: 956
+ht-degree: 9%
 
 ---
 
@@ -163,7 +163,7 @@ Old:
    >[!DNL Workfront]이(가) 이미 필드를 추적하는 중이면 목록에서 두 번 추가할 수 없습니다.
 
 1. [!DNL Workfront]에서 추적할 모든 필드를 추가한 후 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-추가한 기본 제공 필드는 **[!UICONTROL 기본 제공 필드]** 하위 탭에 표시되고 사용자 정의 필드는 **[!UICONTROL 사용자 정의 필드]** 하위 탭에 표시됩니다.
+추가한 기본 제공 필드는 **[!UICONTROL 기본 제공 필드]** 하위 탭에 표시되고 사용자 지정 필드는 **[!UICONTROL 사용자 지정 필드]** 하위 탭에 표시됩니다.
 **[!UICONTROL 모든 필드]** 하위 탭에는 [!DNL Workfront]에서 추적하는 기본 제공 필드와 사용자 지정 필드가 모두 표시됩니다.
 
 ### 추적하지 않을 필드 제거 {#remove-fields-you-don-t-want-tracked}
@@ -190,6 +190,8 @@ Old:
 
 그러면 작업 또는 문제에 대한 [!UICONTROL 업데이트] 영역에 변경 내용이 시스템 업데이트로 나타납니다.
 
+작업을 사용하지 않도록 설정하면 해당 작업에 대해 이전에 기록된 모든 업데이트가 기록된 [!UICONTROL 업데이트] 영역에 유지됩니다. [!DNL Workfront]이(가) 비활성화된 작업에 대한 새 업데이트 기록을 중지합니다.
+
 다음 표에서는 [!DNL Workfront]의 개체에서 추적할 수 있는 작업을 설명합니다.
 
 <table style="table-layout:auto"> 
@@ -199,7 +201,7 @@ Old:
  <thead> 
   <tr> 
    <th><strong>작업</strong> </th> 
-   <th><strong>오브젝트</strong> </th> 
+   <th><strong>작업이 적용되는 개체</strong> </th> 
    <th><strong>기본 상태</strong> </th> 
   </tr> 
  </thead> 
@@ -268,4 +270,6 @@ Old:
 1. 작업의 확인란을 선택하여 활성화하거나 선택 해제하여 비활성화합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   작업을 사용하지 않도록 설정하면 해당 작업에 대해 이전에 기록된 모든 업데이트가 기록된 [!UICONTROL 업데이트] 영역에 유지됩니다. [!DNL Workfront]이(가) 비활성화된 작업에 대한 새 업데이트 기록을 중지합니다.
+   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+
+

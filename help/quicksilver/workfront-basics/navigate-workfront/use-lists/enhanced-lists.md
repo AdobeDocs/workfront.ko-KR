@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 3184
+source-wordcount: 3202
 ht-degree: 1%
 
 ---
@@ -83,6 +83,10 @@ ht-degree: 1%
 | 작업에 대한 새 고급 할당 | 작업 > 지정 > 고급 |
 | 게시판 관리자 보기 | 게시판 > 관리자 보기 |
 | Adobe 클라우드 스토리지에 대한 문서 | 프로젝트, 작업, 문제, 포트폴리오, 프로그램, 템플릿, 템플릿 작업 > 문서 |
+<!--
+Add this BEFORE a list of reports in the table above:
+| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+-->
 
 ## 향상된 목록에 항목 추가
 
