@@ -5,9 +5,9 @@ title: Adobe Workfront MCP 서버 도구
 description: Workfront 영역별로 그룹화된 Adobe Workfront MCP 서버를 통해 사용할 수 있는 도구의 참조 목록입니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: bea4b02589b7b4d88c86246ce489155e5921a508
+source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
 workflow-type: tm+mt
-source-wordcount: '2633'
+source-wordcount: '2581'
 ht-degree: 4%
 
 ---
@@ -48,10 +48,10 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 | --- | --- | --- | --- |
 | 이름별 문서 버전 찾기 | `approvals_find_document_version_by_name` | 파일 이름별로 문서의 현재 버전 ID를 조회합니다. 부분 일치를 지원합니다. | 읽기 |
 | 버전 ID로 문서 가져오기 | `approvals_get_document_by_version_id` | 알려진 문서 버전 ID에 대한 문서 세부 정보(이름, 크기, 업로드 날짜, 업로더)를 가져옵니다. | 읽기 |
-| 프로젝트별 문서 가져오기 | `approvals_get_documents_by_project` | 각 문서의 현재 버전 ID를 사용하여 Workfront 프로젝트 내의 문서를 나열합니다. | 읽기 |
 | 문서 범위 해결 | `approvals_resolve_document_scope` | 프로젝트 또는 폴더를 포함된 문서 버전 ID 목록으로 확장합니다. 프로젝트, 폴더 및 이름별 폴더 범위를 지원합니다. | 읽기 |
+| 범위별 문서 가져오기 | `approvals_get_documents_by_scope` | 프로젝트 또는 폴더 내에 문서를 나열합니다. | 읽기 |
+| AEM 연결 폴더 나열* | `approvals_list_aem_linked_folders` | Adobe Experience Manager에 연결된 Workfront 문서 폴더를 나열합니다. | 읽기 |
 | 문서 찾기 | `approvals_find_document` | 파일 이름 또는 문서 버전 ID로 문서 조회 | 읽기 |
-| 범위별 문서 가져오기 | approvals_get_documents_by_scope | 프로젝트 또는 폴더 내에 문서를 나열합니다. | 읽기 |
 | AEM 폴더로 문서 보내기* | `approvals_send_documents_to_aem_folder` | 하나 이상의 Workfront 문서를 AEM 연결 폴더로 이동합니다. | 쓰기 |
 
 *이 도구를 사용하려면 Workfront 인스턴스에 기본 [!DNL Adobe Experience Manager] 통합이 구성되어 있어야 합니다. 자세한 내용은 [Adobe Experience Manager Assets 통합 개요](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)를 참조하십시오.
@@ -110,13 +110,8 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 
 | 제목 | 도구 이름 | 기능 | 액션 |
 | --- | --- | --- | --- |
-| 현재 사용자 가져오기 | `approvals_get_current_user` | 이름, 사용자 ID, 홈 팀 이름 및 홈 팀 ID를 포함하여 호출하는 사용자의 Workfront ID를 반환합니다. | 읽기 |
-| 이름으로 사용자 찾기 | `approvals_find_user_by_name` | 이름으로 Workfront 사용자의 ID를 조회합니다(유사 항목 또는 부분 일치). 이름, ID, 이메일, 제목 및 아바타 URL을 반환합니다. | 읽기 |
-| 이름으로 팀 찾기 | `approvals_find_team_by_name` | 이름으로 Workfront 팀의 ID를 조회합니다(유사 항목 또는 부분 일치). | 읽기 |
 | 이름으로 프로젝트 찾기 | `approvals_find_project_by_name` | 시스템 전체에서 부분 이름 일치로 Workfront 프로젝트를 조회합니다. | 읽기 |
 | 소유자별 프로젝트 가져오기 | `approvals_get_projects_by_owner` | 호출 사용자가 소유자인 Workfront 프로젝트를 나열합니다. | 읽기 |
-| 프로젝트 찾기 | approvals_찾기_projects | 선택적으로 이름으로 필터링되거나 및/또는 호출 사용자가 소유한 프로젝트로 제한된 Workfront 프로젝트를 조회합니다. | 읽기 |
-
 
 ## 계획 도구
 
@@ -299,6 +294,7 @@ Insights 도구는 Workfront 개체에 대한 정보를 검색합니다.
 | Workfront 데이터 찾기 | `insights_find_workfront_data` | Workfront 데이터를 찾고, 필터링하고, 계산하고, 정렬하고, 집계합니다. 기본 쿼리 및 보고서 도구입니다. | 읽기 |
 | 오브젝트 요약 | `insights_summarize_object` | ID별로 단일 Workfront 개체를 가져와서 요약합니다. | 읽기 |
 | 엔티티 나열 | `insights_list_entities` | 쿼리에 사용할 수 있는 모든 Workfront 오브젝트 유형을 나열합니다. | 읽기 |
+| 사용자 검색 | `insights_search_users` | Workfront 인스턴스에서 이름별로 사람을 찾습니다. 전체 또는 일부 이름을 입력하고 일치하는 상위 사용자를 다시 가져옵니다. 여기에는 일반 사용자와 함께 AI 공동 작업자 &quot;보트&quot;를 선택적으로 포함할 수도 있습니다. | 읽기 |
 
 
 
