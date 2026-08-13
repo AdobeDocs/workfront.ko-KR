@@ -5,10 +5,10 @@ title: Adobe Workfront MCP 서버 도구
 description: Workfront 영역별로 그룹화된 Adobe Workfront MCP 서버를 통해 사용할 수 있는 도구의 참조 목록입니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
+source-git-commit: bea4b02589b7b4d88c86246ce489155e5921a508
 workflow-type: tm+mt
-source-wordcount: '2140'
-ht-degree: 5%
+source-wordcount: '2633'
+ht-degree: 4%
 
 ---
 
@@ -52,16 +52,16 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 | 문서 범위 해결 | `approvals_resolve_document_scope` | 프로젝트 또는 폴더를 포함된 문서 버전 ID 목록으로 확장합니다. 프로젝트, 폴더 및 이름별 폴더 범위를 지원합니다. | 읽기 |
 | 문서 찾기 | `approvals_find_document` | 파일 이름 또는 문서 버전 ID로 문서 조회 | 읽기 |
 | 범위별 문서 가져오기 | approvals_get_documents_by_scope | 프로젝트 또는 폴더 내에 문서를 나열합니다. | 읽기 |
+| AEM 폴더로 문서 보내기* | `approvals_send_documents_to_aem_folder` | 하나 이상의 Workfront 문서를 AEM 연결 폴더로 이동합니다. | 쓰기 |
+
+*이 도구를 사용하려면 Workfront 인스턴스에 기본 [!DNL Adobe Experience Manager] 통합이 구성되어 있어야 합니다. 자세한 내용은 [Adobe Experience Manager Assets 통합 개요](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)를 참조하십시오.
+
+
+*AEM 폴더로 문서를 보내는 것은 Adobe 클라우드 스토리지의 프로젝트에 대해 아직 지원되지 않습니다. 향후 릴리스에서 지원이 예상됩니다.
+
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
-| Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
-
-*You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
-
-
-*Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
-
 -->
 
 ### 승인 작업 과정
@@ -211,11 +211,65 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 | 제목 | 도구 이름 | 기능 | 액션 |
 | --- | --- | --- | --- |
 | 오브젝트 검색 | `workflow_search_any_object` | 유연한 필터 매개 변수, 순서 지정 및 페이지 매김을 사용하여 Workfront 개체를 검색합니다. | 읽기 |
-| 개체 만들기 | `workflow_create_any_object` | 프로젝트, 작업, 문제, 시간, 할당, 프로그램 또는 포트폴리오와 같은 새 Workfront 개체를 만듭니다. | 쓰기 |
-| 개체 업데이트 | `workflow_update_any_object` | 기존 Workfront 개체의 필드를 업데이트합니다. | 쓰기 |
+| 오브젝트 만들기 | `workflow_create_any_object` | 프로젝트, 작업, 문제, 시간, 할당, 프로그램 또는 포트폴리오와 같은 새 Workfront 개체를 만듭니다. | 쓰기 |
+| 개체 업데이트 | `workflow_update_any_object` | 기존 개체의 필드를 업데이트합니다. 또한 작업 또는 문제를 다른 프로젝트로 이동, 작업 또는 문제를 새 프로젝트(또는 문제를 작업으로 변환) 및 작업 전임 작업(종속성) 설정을 지원합니다. | 쓰기 |
 | 오브젝트 삭제 | `workflow_delete_any_object` | ID별로 Workfront 개체를 삭제합니다. 작업을 수행하기 전에 명시적인 사용자 확인이 필요합니다. | 쓰기 |
 | 필드 이름 확인 | `workflow_resolve_field_names_any_object` | 사용자가 제공한 필드 이름이나 레이블을 기본 Workfront API 필드 이름으로 변환하여 AI 에이전트 플랫폼이 정확한 요청을 작성할 수 있도록 합니다. | 읽기 |
 | 워크플로우 문서 읽기 | `workflow_read_workflow_docs` | 도구 사용 안내서 및 개체별 작업 플레이북이 포함된 Workfront Workflow 설명서를 로드합니다. 워크플로 작업을 수행하기 전에 필요한 첫 번째 단계입니다. | 읽기 |
+
+### 개체 도구 기능 업데이트
+
+개체 업데이트 도구는 필드 값을 변경하는 것 이상을 수행합니다. 또한 프로젝트 간 작업을 재배치하고 작업 항목을 새 객체로 승격하며 작업 종속성을 연결할 수 있습니다.
+
+#### 작업 또는 문제를 다른 프로젝트로 이동
+
+이동하면 작업 항목이 제자리에 고정됩니다. 개체는 ID와 링크를 유지하며, 다른 프로젝트 또는 상위 작업에 있습니다.
+
+>[!NOTE]
+>
+>일반 필드 업데이트에서 프로젝트 필드를 설정해도 작업 또는 문제는 이동하지 않습니다. 대신 이동 기능을 사용하십시오.
+
+* **작업 이동**: 작업을 대상 프로젝트로 이동하고 선택적으로 대상 상위 작업 아래로 이동합니다.
+* **문제 이동**: 문제(요청)를 대상 프로젝트로 이동합니다.
+
+프롬프트 예:
+
+* &quot;*와이어프레임* 작업을 *모바일 앱 다시 디자인* 프로젝트로 이동합니다.&quot;
+* &quot;*Q4 시작* 프로젝트 아래로 이 요청을 이동합니다.&quot;
+
+#### 문제 또는 작업을 프로젝트로 전환
+
+>[!NOTE]
+>
+>를 변환하면 새 개체가 생성됩니다. 소스 항목이 프로세스에서 사용됩니다.
+
+* **작업을 프로젝트로 변환**: 작업에서 새 프로젝트를 만듭니다. 필요에 따라 작업의 사용자 지정 데이터를 복사하고 프로젝트 템플릿을 기반으로 새 프로젝트를 만들 수 있습니다.
+* **문제(요청)를 프로젝트로 전환**: 문제에서 새 프로젝트를 만듭니다. 필요한 경우 문제의 사용자 지정 데이터를 복사하고, 기본 필드 값을 복사하고, 프로젝트 템플릿을 적용할 수 있습니다.
+* **문제(요청)를 작업으로 변환**: 문제에서 기존 프로젝트에 작업을 만듭니다.
+
+각 변환은 링크가 포함된 새로 만든 개체를 반환하므로 Workfront에서 직접 열 수 있습니다.
+
+프롬프트 예:
+
+* &quot;표준 템플릿을 사용하여 *웹 사이트 새로 고침* 작업을 *웹 사이트 새로 고침 2026*&#x200B;이라는 프로젝트로 전환하십시오.&quot;
+* &quot;이 요청을 프로젝트로 전환하고 사용자 정의 필드를 복사합니다.&quot;
+
+#### 작업 전임 작업(종속성) 설정
+
+작업의 전임 작업을 정의할 수 있습니다. 전임 작업은 다음 종속성 유형과 선택적 지연 시간을 지원합니다.
+
+* **완료-시작(FS)**: 전임 작업이 완료되면 작업이 시작됩니다. (기본값)
+* **시작-시작(SS)**: 전임 작업이 시작되면 시작됩니다.
+* **마침-마침(FF)**: 전임 작업이 완료되면 작업이 완료됩니다.
+* **시작-마침(SF)**: 전임 작업이 시작되면 끝납니다.
+
+작업일에 지연(지연) 또는 리드(음수 지연)를 추가하고, 단일 작업에 여러 전임 작업을 연결하며, 다른 프로젝트의 작업을 참조할 수 있습니다.
+
+프롬프트 예:
+
+* &quot;*디자인*&#x200B;이 완료된 후 *개발*&#x200B;을(를) 시작하세요.&quot;
+* &quot;*개발*&#x200B;이 시작될 때 *QA*&#x200B;을(를) 시작하도록 설정합니다(2일 지연).&quot;
+* &quot;작업 #3 및 작업 #5를 *Launch*&#x200B;의 전임 작업으로 추가하십시오.&quot;
 
 ### 댓글
 
