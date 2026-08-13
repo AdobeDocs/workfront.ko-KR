@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,66 @@ ht-degree: 0%
 이 문서에서는 2026년 4분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 여러 행을 끌어다 놓을 때 표 보기 개선 사항
+
+>[!NOTE]
+>
+>미리 보기: 2026년 8월 13일
+>프로덕션 빠른 릴리스: 2026년 8월 13일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+테이블 보기에서 여러 행을 끌어다 놓을 때 새로운 시각적 표시기가 있습니다. 이제 더 눈에 띄는 더하기 기호와 숫자 표시기에 끌어서 놓기 작업에 대해 선택한 행 수가 표시됩니다.
+
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
+
+<!--
+
+## Collapse and expand all groupings in the timeline view
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
+
+For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+-->
+
+## 글로벌 레코드 유형을 사용할 때 제출된 요청 개체를 올바른 작업 영역으로 라우팅합니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 8월 13일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+요청 양식을 제출하여 글로벌 레코드 유형에 대해 생성된 레코드는 이제 제출된 작업공간으로 자동으로 라우팅됩니다.
+
+글로벌 레코드 유형의 보조 작업 공간에서 요청을 제출하여 생성된 레코드는 해당 보조 작업 공간에 추가됩니다. 원래 작업 영역 또는 기본 요청 영역에서 요청을 제출하여 생성된 레코드는 원래 작업 영역에 추가됩니다.
+
+접수 양식에 Workspace 필드가 포함되어 있고 사용자가 제출하기 전에 작업 영역을 선택하면 양식 시작 위치에 관계없이 요청이 선택한 작업 영역으로 라우팅됩니다. 이렇게 하면 레코드가 만들어지는 순간부터 의도한 작업 영역에 정리됩니다.
+
+자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
 
 ## Workfront Planning 솔루션 설계자 스킬 소개
 

@@ -16,20 +16,18 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 1765
+source-wordcount: 1892
 ht-degree: 0%
 
 ---
 
 # 작업 영역 간 레코드 유형 개요
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
 {{planning-important-intro}}
 
@@ -199,10 +197,9 @@ These two capabilities will come later - and edit some of the bullets below afte
   * 자동화 제작 및 관리
   * 요청 양식 만들기 및 관리
 
-    <!--
-        <span class="preview">You can create records for a secondary record type using a request form from the secondary record type page or by specifically indicating which workspace the record should be saved to when filling out a request form created for the primary global record type and updating the Workspace field. 
-        For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span>
-        -->
+    <span class="preview">보조 레코드 종류 페이지에서 요청 양식을 사용하거나 기본 글로벌 레코드 종류에 대해 만든 요청 양식을 작성하고 Workspace 필드를 업데이트할 때 레코드를 저장할 작업 영역을 구체적으로 표시하여 보조 레코드 종류에 대한 레코드를 만들 수 있습니다.
+    자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md).</span>을 참조하십시오.
+
 
 * 보조 작업 영역에 추가된 레코드는 이러한 작업 영역에 대한 보기 이상의 권한이 있는 경우 다음 작업 영역에서 볼 수 있습니다.
 

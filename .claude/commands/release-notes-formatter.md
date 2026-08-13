@@ -1,9 +1,9 @@
 ---
 name: release-notes-formatter
 description: Workfront 릴리스 정보의 일관성, 올바른 구조 및 적절한 링크에 대한 형식과 유효성을 검사합니다. 제품 릴리스 디렉토리의 릴리스 노트 파일에 대해서만 사용하거나 사용자가 릴리스 노트, 제품 릴리스 또는 분기별 릴리스에 대해 언급할 때만 사용합니다. 방법 문서 또는 일반 설명서에는 적용되지 않습니다.
-source-git-commit: fa39320af72acf6d2ceaf201480baf78a07ae76e
+source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2183'
 ht-degree: 2%
 
 ---
@@ -135,7 +135,24 @@ exl-id: <existing UUID — never generate or change>
 | 제품 영역 페이지의 HTML | Markdown으로 유지(HTML은 개요 테이블에만 해당) |
 | `exl-id` 누락 | 제외합니다. 생성하지 마십시오. |
 
-### 6단계: TOC 업데이트
+### 6단계: 개요 페이지 동기화
+
+제품 영역 페이지에 **새 기능**&#x200B;을 추가할 때마다 동일한 변경 내용으로 해당 분기의 `{YY}-q{N}-release-overview.md`에 일치하는 행을 추가하거나 업데이트합니다. 제품 영역 페이지에만 있고 개요 테이블에는 없는 기능은 릴리스 개요 색인에서 보이지 않게 됩니다.
+
+- 해당 제품 영역(예: `### Reporting enhancements`)에 대한 H3 섹션을 찾아 테이블의 **top**(머리글 행 뒤)에 기존 행 형식과 일치하는 새 `<tr>` 행을 추가합니다(.#overview-feature-table 참조).
+- 이 행의 날짜는 해당 기능에 대한 제품 영역 페이지의 `>[!NOTE]` 블록과 일치해야 합니다(4단계).
+- 기능이 다른 제품 영역으로 다시 그룹화된 경우(예: 보고에서 관리자로 이동) 해당 행을 새 영역의 H3 섹션으로 이동합니다. 이전 섹션에 오래된 복사본을 남겨두지 마십시오.
+- Planning 전용 기능은 개요 테이블에 추가되지 않습니다. Planning에는 &quot;다른 영역에 대한 릴리스 정보&quot; 아래에 한 번 연결된 고유한 릴리스 활동 페이지가 있습니다(기능별 행이 필요 없음).
+
+기능에 이미 행이 있고 컨텐츠/날짜가 변경되지 않은 경우 개요 페이지를 터치하지 마십시오.
+
+피해야 할 일반적인 실수:
+
+- 개요 테이블에 일치하는 행을 추가하지 않고 기능의 H2를 제품 영역 페이지에 추가합니다.
+- 콘텐츠를 다른 영역의 페이지로 이동한 후 이전 제품 영역 섹션에 오래된 개요 행을 남깁니다.
+- 제품 영역 페이지의 `>[!NOTE]` 블록과 일치하지 않는 개요 행 날짜입니다.
+
+### 7단계: TOC 업데이트
 
 **새** 릴리스 정보 페이지(개요 또는 제품 영역)를 만들 때마다 동일한 변경 내용으로 `help/quicksilver/TOC.md`에 추가하십시오. 개요 테이블의 링크가 TOC를 가리키더라도 TOC에 없는 페이지는 게시된 탐색에 표시되지 않습니다.
 
@@ -161,7 +178,7 @@ exl-id: <existing UUID — never generate or change>
 - 새 제품 영역 페이지에서 다른 분기 개요에 연결 (3단계).
 - 이전 분기의 제목 아래에 새 분기의 페이지를 삽입합니다.
 
-### 7단계: 홈 페이지 업데이트
+### 8단계: 홈 페이지 업데이트
 
 **새 분기의 개요 페이지**&#x200B;을(를) 만들 때마다(즉, 기존 분기에 추가된 새 제품 영역 페이지뿐만 아니라 새 분기의 첫 페이지임) `help/quicksilver/home.md`을(를) 동일한 변경 내용으로 업데이트합니다.
 
@@ -175,6 +192,33 @@ exl-id: <existing UUID — never generate or change>
 
 - `home.md`의 &quot;최신 릴리스&quot; 탭을 업데이트하지 않고 새 분기의 개요 페이지를 만듭니다. 이전 분기를 계속 가리킵니다.
 - 새 분기도 현재 연도 탭 목록에 추가하는 것을 잊었습니다.
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 업스트림 업데이트됨
+
+### 8단계: 제품 릴리스 색인 페이지 업데이트
+=======
+
+### 9단계: 제품 릴리스 색인 페이지 업데이트
+&#x200B;>>>>>>>>>>저장된 변경 사항
+> 
+>**새 분기의 개요 페이지**&#x200B;를 만들 때마다 `help/quicksilver/product-announcements/product-releases/product-releases.md`도 동일한 변경 내용으로 업데이트됩니다.
+
+- &quot;Workfront 릴리스&quot; 열에서 현재 연도의 `<p>Releases in {year}</p>` 블록을 찾으십시오.
+- 기존 항목과 동일한 형식으로 새 분기의 개요 페이지에 연결된 해당 연도 목록의 **top**&#x200B;에 새 `<li>`을(를) 추가합니다.
+
+  ```html
+  <li><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Fourth Quarter 2026 release overview</a></li>
+  ```
+
+- 새 분기의 Planning 릴리스 활동 페이지(`planning-release-activity-{YY}-q{N}.md`)가 있는 경우 동일한 행의 &quot;기타 제품 릴리스&quot; 열 맨 위에 일치하는 `<li>`도 추가하십시오.
+- 현재 연도에 아직 행이 없는 경우(새 연도의 첫 분기) 기존 행 구조를 따라 이전 연도의 행 위에 새 `<tr data-mc-conditions="">`을(를) 추가합니다.
+
+이미 개요 페이지가 나열된 분기에 제품 영역 페이지를 추가할 때만 `product-releases.md`을(를) 터치하지 마십시오.
+
+피해야 할 일반적인 실수:
+
+- `product-releases.md`에 추가하지 않고 새 분기의 개요 페이지를 만듭니다. 이 페이지는 이전 분기만 계속 표시됩니다.
+- 개요 링크를 추가하지만 해당 Planning 릴리스-활동 링크를 무시합니다.
 
 ## 파일 이름 지정 규칙
 
@@ -247,6 +291,7 @@ Source: &quot;2026 월별 릴리스 일정&quot;(Adobe corp wiki, AWF 공간 —
 - [ ] 기능은 가장 최신 순으로 정렬됩니다(제품 영역 페이지와 개요 테이블 모두).
 - [ ]개의 새 릴리스 정보 페이지가 올바른 분기 아래의 `help/quicksilver/TOC.md`에 나열되며, 개요는 첫 번째 및 제품 영역을 알파벳순으로(기타 마지막) 나열합니다.
 - [ ] 새 분기의 개요 페이지가 만들어지면 `help/quicksilver/home.md` &quot;최신 릴리스&quot; 탭과 현재 연도 탭이 해당 페이지를 가리킵니다
+- [ ] 새 분기의 개요 페이지가 만들어지면 `help/quicksilver/product-announcements/product-releases/product-releases.md`에서 현재 연도의 &quot;Workfront 릴리스&quot; 목록 맨 위에 이를 나열합니다(존재하는 경우 계획 링크도 포함)
 
 ## 추가 리소스
 

@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 2778
+source-wordcount: 3070
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 1%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 {{planning-important-intro}}
 
@@ -145,26 +145,21 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
   자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
-<!--
+* 글로벌 레코드 유형에서 레코드를 생성하도록 요청 양식을 실행하면 새 레코드가 제출하는 위치에 따라 기본 레코드 유형이나 보조 레코드 유형에 저장됩니다.
 
-* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+  요청을 제출하고 레코드를 생성하는 데 사용하는 환경에 따라 글로벌 레코드 유형과 연관된 요청 양식에 대한 양식을 제출할 때 다음과 같은 시나리오가 있습니다.
 
-   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
-  
-   * In the Production environment:
-   
-      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+  * 프로덕션 환경에서:
 
-   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
-   
-      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
-      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
-      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
- 
-   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+    * 이 문서에 설명된 방법을 사용하여 글로벌 레코드 유형과 연관된 요청 양식을 제출하는 경우 기본 레코드 유형의 페이지에 레코드가 표시됩니다.
 
--->
+  * <span class="preview"> 미리 보기 환경에 다음 시나리오가 있습니다. </span>
 
+    * <span class="preview">보조 글로벌 레코드 종류의 페이지에서 요청 양식을 제출하면 레코드가 보조 레코드 종류 페이지에 표시됩니다. 보조 작업 영역을 볼 수 있는 액세스 권한이 있는 경우 기본 레코드 유형의 페이지에도 새 레코드가 표시됩니다. </span>
+    * <span class="preview">기본 레코드 형식 페이지에서 요청 양식을 제출하거나 이 문서에 설명된 다른 방법을 사용하면 레코드가 기본 레코드 형식 페이지에 표시됩니다.</span>
+    * <span class="preview">요청 양식에서 **Workspace** 필드를 사용할 수 있고 사용자가 레코드를 추가할 특정 작업 영역을 수동으로 선택한 경우 기본 또는 보조 레코드 유형 페이지에서 양식을 선택했는지 여부에 관계없이 레코드가 해당 공간에 저장됩니다.</span>
+
+  자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
 
 <!--

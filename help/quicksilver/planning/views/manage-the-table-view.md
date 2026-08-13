@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 4011
+source-wordcount: 4030
 ht-degree: 2%
 
 ---
@@ -337,7 +337,7 @@ Old:
    >
    >행 순서에 대한 변경 내용은 동일한 보기의 레코드 유형에 액세스하는 모든 사용자에게 표시됩니다.
    >
-   ><!--<span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>-->
+   ><span class="preview">끌어서 놓기 줄에서 선택한 레코드 수가 두 개 이상인 경우 숫자 표시기가 표시됩니다. </span>
 
 1. (선택 사항) 레코드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **썸네일 편집**&#x200B;을 클릭하여 썸네일을 편집합니다.
 1. 표 상단의 **필드**&#x200B;를 클릭한 다음 **썸네일** 필드에 대한 전환을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다.
