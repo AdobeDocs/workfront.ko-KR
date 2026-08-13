@@ -83,7 +83,7 @@ exl-id: <existing UUID — never generate or change>
 >Production for everyone: {Month Day, Year}
 ```
 
-5. **본문**: 기능 설명, 도움말 설명서 링크
+&#x200B;5. **본문**: 기능 설명, 도움말 설명서 링크
 
 #### 개요 페이지
 
@@ -100,10 +100,10 @@ exl-id: <existing UUID — never generate or change>
 * [Document enhancements](#document-enhancements)
 ```
 
-5. HTML 기능 테이블이 포함된 **제품 영역당 H3**(.claude/commands/_release-notes-formatter-reference.md#overview-feature-table 참조)
+&#x200B;5. HTML 기능 테이블이 포함된 **제품 영역당 H3**(.claude/commands/_release-notes-formatter-reference.md#overview-feature-table 참조)
    - 각 테이블 내에서 **최신 기능 먼저** — 가장 최근 행이 테이블의 맨 위(머리글 행 뒤)에 나타납니다.
 
-6. **후행 섹션**(H2): 다른 영역에 대한 릴리스 정보, 바탕 화면 교정 뷰어 업데이트, 알림, API 버전, 유지 관리 업데이트, 교육 업데이트
+&#x200B;6. **후행 섹션**(H2): 다른 영역에 대한 릴리스 정보, 바탕 화면 교정 뷰어 업데이트, 알림, API 버전, 유지 관리 업데이트, 교육 업데이트
 
 ### 3단계: 링크 유효성 검사
 
@@ -194,12 +194,14 @@ exl-id: <existing UUID — never generate or change>
 - 새 분기도 현재 연도 탭 목록에 추가하는 것을 잊었습니다.
 
 &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 업스트림 업데이트됨
+
 ### 8단계: 제품 릴리스 색인 페이지 업데이트
 =======
+
 ### 9단계: 제품 릴리스 색인 페이지 업데이트
->>>>>>>>>>저장된 변경 사항
+&#x200B;>>>>>>>>>>저장된 변경 사항
 > 
-**새 분기의 개요 페이지**&#x200B;를 만들 때마다 `help/quicksilver/product-announcements/product-releases/product-releases.md`도 동일한 변경 내용으로 업데이트됩니다.
+>**새 분기의 개요 페이지**&#x200B;를 만들 때마다 `help/quicksilver/product-announcements/product-releases/product-releases.md`도 동일한 변경 내용으로 업데이트됩니다.
 
 - &quot;Workfront 릴리스&quot; 열에서 현재 연도의 `<p>Releases in {year}</p>` 블록을 찾으십시오.
 - 기존 항목과 동일한 형식으로 새 분기의 개요 페이지에 연결된 해당 연도 목록의 **top**&#x200B;에 새 `<li>`을(를) 추가합니다.
