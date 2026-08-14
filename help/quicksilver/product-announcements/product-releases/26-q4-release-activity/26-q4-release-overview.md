@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: da78c3043f1b168d3e589fe98f67629c063c2715
+source-git-commit: abcd2a6063f9768c160f179a7240cf10a7cc62df
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1435'
 ht-degree: 2%
 
 ---
@@ -159,6 +159,15 @@ ht-degree: 2%
             <td><p>2026년 8월 13일</p></td>
             <td><p>2026년 8월 13일</p></td>
             <td><p>2026년 8월 13일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager MCP 서버를 사용하여 승인을 위해 자산을 Workfront에 보내고 사용자 지정 메시지를 추가합니다</a>
+                <p>새로운 MCP 커넥터 도구를 사용하면 AEM 연결 폴더로 문서를 보내고 사용자 지정 메시지로 문서 승인을 요청할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 8월 12일</p></td>
+            <td><p>2026년 8월 12일</p></td>
+            <td><p>2026년 8월 12일</p></td>
         </tr>
         <tr>
             <td>
