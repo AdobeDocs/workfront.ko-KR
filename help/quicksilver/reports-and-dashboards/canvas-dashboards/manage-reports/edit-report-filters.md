@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 53f6405b765424450cf929afc991278625bb33cb
 workflow-type: tm+mt
-source-wordcount: 987
-ht-degree: 11%
+source-wordcount: 1229
+ht-degree: 9%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 11%
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원 팀에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하십시오.<br>
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하세요.<br>
 >다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
@@ -190,6 +190,18 @@ ht-degree: 11%
 * 문서 승인 단계 > 문서 승인 단계 참가자
 
 위에 나열된 상위-하위 관계를 활용하는 경우 상위 객체에 연결된 각 하위 레코드에 대한 행이 테이블에 표시됩니다.
+
+### 캔버스 대시보드 보고서에서 개인 프로젝트, 작업 및 봇 사용자 제외
+
+>[!NOTE]
+>
+>캔버스 대시보드 보고서가 유사한 클래식 보고서와 비교하여 예상한 것보다 더 많은 결과를 반환하는 경우 기본적으로 개인 프로젝트, 개인 작업 또는 봇 사용자가 포함될 수 있습니다. 제외할 필터 조건을 추가합니다.
+
+캔버스 대시보드 프로젝트 및 작업 보고서에서 `isPersonal` 필터가 자동으로 적용되지 않으므로 기본적으로 개인 프로젝트 및 개인 작업이 결과에 포함됩니다. 제외하려면 `isPersonal=false`과(와) 같은 필터 조건을 추가하십시오.
+
+마찬가지로 캔버스 대시보드 사용자 보고서에는 AI 공동 작업자(봇 사용자)를 비롯한 모든 사용자가 기본적으로 포함됩니다. 봇 사용자를 제외하려면 `isBot=false`과(와) 같은 필터 조건을 추가하십시오.
+
+클래식 프로젝트 및 작업 보고서는 개인 프로젝트와 개인 작업을 자동으로 제외하며 클래식 사용자 보고서는 보트 사용자를 자동으로 제외합니다. 대신 클래식 보고서에 포함하려면 `isPersonal=true`(개인 항목만) 또는 `isPersonal_Mod=notnull`(개인 항목 및 비개인 항목)과 같은 필터 조건을 추가하십시오.
 
 ### 필드 유형별 필드 연산자
 
