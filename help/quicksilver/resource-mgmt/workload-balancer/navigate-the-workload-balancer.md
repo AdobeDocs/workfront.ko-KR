@@ -9,19 +9,12 @@ exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/8bwTS-3UaNbMLtyx8yEmH7zF5vMYaWP1nedWaGP4UJE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
 source-wordcount: 4457
 ht-degree: 0%
@@ -36,7 +29,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 업무 균형자 는 Adobe Workfront의 여러 영역에서 사용할 수 있습니다. 탐색하는 것은 모든 영역에서 유사합니다.
 
-업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)를 참조하십시오.
+업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -118,8 +111,8 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 업무 균형자 를 사용한 리소스 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [업무 균형자에서 작업 할당 개요](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [업무 균형자에서 사용자 할당 관리](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [업무 균형자에서 작업 할당 개요](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [업무 균형자에서 사용자 할당 관리](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## 리소스 조달 영역에서 여러 프로젝트에 대한 업무 균형자 탐색
 
@@ -139,7 +132,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다.
 
-   ![워크로드 밸런서](assets/nwe-balancer-global.png)
+   ![워크로드 밸런서](assets/wb-in-res-mgmt.png)
 
    업무 균형자에 현재 주부터 시작되는 작업 할당 정보가 다음 두 영역에 표시됩니다.
 
@@ -503,7 +496,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
    사용자의 업무 균형자 가 표시됩니다.
 
-   ![사용자용 업무 균형자](assets/workload-balancer-user.png)
+   ![사용자의 업무 균형자](assets/workload-balancer-user.png)
 
    사용자의 업무 균형자 는 기본적으로 다음 정보를 표시합니다.
 
