@@ -10,17 +10,12 @@ exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wpqLg8-2NszOeqT--4RxDP0pZEEnYyPW7UzQeqaLJIo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
 source-wordcount: 1056
 ht-degree: 1%
@@ -45,7 +40,7 @@ ht-degree: 1%
 
 타임시트에 시간을 기록하는 방법에 대한 자세한 내용은 [시간 기록](../../timesheets/create-and-manage-timesheets/log-time.md)을 참조하세요.
 
-![타임시트 레이아웃](assets/timesheet-layout-unshimmed.png)
+![타임시트 레이아웃](assets/timesheet-layout-leftnav-updated.png)
 
 다음은 타임시트의 영역입니다.
 
@@ -71,8 +66,8 @@ ht-degree: 1%
 
 * 타임시트의 시간.
 * 다음을 포함하는 작업 영역:
-   * 별 아이콘을 사용하여 즐겨찾기 목록에 타임시트를 추가합니다.
-   * 자세히 아이콘 및 삭제 옵션이 있으며 타임시트를 삭제할 수 있습니다.
+  * 별 아이콘을 사용하여 즐겨찾기 목록에 타임시트를 추가합니다.
+  * 자세히 아이콘 및 삭제 옵션이 있으며 타임시트를 삭제할 수 있습니다.
 * 타임시트 소유자의 이름입니다.
 * 타임시트에 표시되는 항목에 대해 기록된 총 시간 수입니다.
 * 초과 작업 시간 수. 수동 입력이며 타임시트에서 **초과** 설정을 사용하도록 설정한 경우에만 표시됩니다. 자세한 내용은 [타임시트 정보 편집](../create-and-manage-timesheets/edit-timesheets.md)을 참조하세요.

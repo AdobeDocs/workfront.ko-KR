@@ -9,19 +9,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 TQID: https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: 847
 ht-degree: 2%
 
 ---
@@ -81,9 +75,6 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 필터, 보�
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
 1. **사용자에게 표시되는 항목 사용자 지정**&#x200B;에서 아래쪽 화살표 ![아래쪽 화살표](assets/down-arrow-blue.png)를 클릭한 다음 표시되는 드롭다운 메뉴에서 **목록**&#x200B;을 클릭합니다.
-
-   ![사용자에게 표시되는 항목 사용자 지정](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
-
 1. **사용자 지정할 목록 선택** 아래의 아래쪽 화살표 ![아래쪽 화살표](assets/down-arrow-blue.png)를 클릭한 다음 필터, 보기 및 그룹화 목록 컨트롤을 사용자 지정할 Workfront 개체 유형을 선택합니다.
 
    ![사용자 지정할 목록 선택](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)

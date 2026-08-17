@@ -10,19 +10,14 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9X3rS1inVMen909T07aYLhn3tD1HiwKvzx-uSu8FVN4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 4087
+source-wordcount: 4246
 ht-degree: 1%
 
 ---
@@ -125,8 +120,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 {{step1-click-main-menu}}
 
 1. [!UICONTROL **타임시트**]를 클릭합니다. 현재 타임시트가 기본적으로 표시됩니다.
-   ![타임시트](assets/timesheet-redesigned-nwe.png)
-
+   ![타임시트](assets/timesheet-layout-leftnav-updated.png)
 
 1. (선택 사항) **전체 화면** 아이콘 ![](assets/full-screen.png)을(를) 클릭하여 타임시트를 전체 화면 모드로 표시한 다음 **전체 화면 종료** ![](assets/exit-full-screen.png) 아이콘을 클릭하여 타임시트로 돌아갑니다.
 
@@ -153,9 +147,9 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 1. (조건부) 한 번에 50개 이상의 항목을 추가하는 경우 타임시트에 추가된 항목 수를 표시하는 확인 메시지가 표시됩니다.
 
-   모든 항목을 추가하려면 **모두 추가**&#x200B;를 클릭하십시오.
-또는
-선택한 항목의 추가를 중지하려면 **취소**&#x200B;를 클릭하고 항목 목록을 닫으려면 **취소**&#x200B;를 클릭하십시오.
+   모든 항목을 추가하려면 **모두 추가**를 클릭하십시오.
+   또는
+   선택한 항목의 추가를 중지하려면 **취소**&#x200B;를 클릭하고 항목 목록을 닫으려면 **취소**&#x200B;를 클릭하십시오.
 
    작업 및 문제는 프로젝트 이름 아래에 나열됩니다.
 
@@ -288,7 +282,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 1. (선택 사항) 왼쪽 패널에서 [!UICONTROL **업데이트**]&#x200B;를 클릭한 다음 타임시트에 업데이트를 추가합니다. Workfront 업데이트에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
-   ![다시 디자인된 타임시트 왼쪽 패널 업데이트 입력](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+   ![다시 디자인된 타임시트 왼쪽 패널 업데이트 입력](assets/timesheet-updates-with-all-tab.png)
 
 1. (선택 사항) 타임시트를 닫거나 제출하려면 **타임시트** 영역으로 돌아갑니다.
 
@@ -526,19 +520,19 @@ Workfront 모바일 앱에서 시간을 기록할 수 있습니다.
 
 * 프로젝트별 시간을 편집할 때:
 
-   * 시간 수
-   * 시간 유형. 시간 유형 을 프로젝트별 유형으로만 변경할 수 있습니다.
-   * 작업 역할 할당. [설정]에서 작업 역할 지정을 활성화한 경우에만 변경할 수 있습니다. 자세한 내용은 [타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하세요.
-   * 시간 항목에 대한 설명.
+  * 시간 수
+  * 시간 유형. 시간 유형 을 프로젝트별 유형으로만 변경할 수 있습니다.
+  * 작업 역할 할당. [설정]에서 작업 역할 지정을 활성화한 경우에만 변경할 수 있습니다. 자세한 내용은 [타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하세요.
+  * 시간 항목에 대한 설명.
 
 
   ![](assets/edit-hour-box-project-hour-type.png)
 
 * 일반 시간을 편집할 때:
 
-   * 시간 수.
-   * 시간 유형. 시간 유형은 일반 유형으로만 변경할 수 있습니다.
-   * 시간 항목에 대한 설명.
+  * 시간 수.
+  * 시간 유형. 시간 유형은 일반 유형으로만 변경할 수 있습니다.
+  * 시간 항목에 대한 설명.
 
 >[!TIP]
 >
@@ -551,8 +545,8 @@ Workfront 모바일 앱에서 시간을 기록할 수 있습니다.
 
 * 일반 시간과 프로젝트별 시간의 혼합을 일괄 편집할 때:
 
-   * 시간 수.
-   * 시간 항목에 대한 설명.
+  * 시간 수.
+  * 시간 항목에 대한 설명.
 
 >[!TIP]
 >
@@ -585,6 +579,6 @@ Workfront 모바일 앱에서 시간을 기록할 수 있습니다.
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
    시간 항목 정보가 업데이트됩니다.
-두 개 이상의 시간 항목을 선택하고 시간 필드를 수정한 경우 선택한 모든 시간 항목에 동일한 시간이 할당됩니다. 원래 시간은 선택한 모든 시간 항목에 대한 새 값으로 대체됩니다.
+   두 개 이상의 시간 항목을 선택하고 시간 필드를 수정한 경우 선택한 모든 시간 항목에 동일한 시간이 할당됩니다. 원래 시간은 선택한 모든 시간 항목에 대한 새 값으로 대체됩니다.
 
 
