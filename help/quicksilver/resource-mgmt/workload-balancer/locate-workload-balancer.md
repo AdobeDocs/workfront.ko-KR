@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: 851
 ht-degree: 2%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다.
 
-   ![워크로드 밸런서](assets/nwe-balancer-global.png)
+   ![워크로드 밸런서](assets/wb-in-res-mgmt.png)
 
    업무 균형자 는 기본적으로 다음 정보를 리소스 조달 영역에 표시합니다.
 
@@ -118,7 +118,7 @@ Workfront의 팀에 대한 자세한 내용은 [팀 개요](/help/quicksilver/pe
 
 1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다.
 
-   ![팀용 업무 균형자](assets/nwe-balancer-team-350x172.png)
+   ![팀의 업무 균형자](assets/wb-on-team.png)
 
    팀의 업무 균형자 에는 기본적으로 다음 정보가 표시됩니다.
 
@@ -138,7 +138,7 @@ Workfront의 팀에 대한 자세한 내용은 [팀 개요](/help/quicksilver/pe
 
    프로젝트에 대한 업무 균형자 가 표시됩니다.
 
-   ![프로젝트에 대한 업무 균형자](assets/nwe-balancer-project-350x152.png)
+   ![프로젝트의 업무 균형자](assets/wb-on-project.png)
 
    프로젝트의 업무 균형자 에는 기본적으로 다음 정보가 표시됩니다.
 
@@ -161,7 +161,7 @@ Workfront의 팀에 대한 자세한 내용은 [팀 개요](/help/quicksilver/pe
 
    사용자의 업무 균형자 가 표시됩니다.
 
-   ![사용자용 업무 균형자](assets/workload-balancer-user.png)
+   ![사용자의 업무 균형자](assets/workload-balancer-user.png)
 
    사용자의 업무 균형자 는 기본적으로 다음 정보를 표시합니다.
 

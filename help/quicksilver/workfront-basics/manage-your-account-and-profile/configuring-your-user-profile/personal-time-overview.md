@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6a375beb066df9c13cb6197f335fcf3a2dbc6e87
 workflow-type: tm+mt
 source-wordcount: 425
 ht-degree: 4%
@@ -94,7 +94,7 @@ ht-degree: 4%
 1. 왼쪽 패널에서 **[!UICONTROL 휴무]**&#x200B;를 클릭합니다.
 1. 개인 휴무에 대해 원하는 날짜를 선택합니다.
 
-   ![개인 휴무 일정](assets/personal-time-off-calendar-0925.png)
+   ![개인 휴무 일정](assets/personal-time-off-calendar-2026.png)
 
    <!--
    Sample image in the Production environment:
