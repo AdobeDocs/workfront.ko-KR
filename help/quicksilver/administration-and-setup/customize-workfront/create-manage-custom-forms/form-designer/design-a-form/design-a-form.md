@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
 workflow-type: tm+mt
-source-wordcount: 7962
+source-wordcount: 8071
 ht-degree: 4%
 
 ---
@@ -852,8 +852,6 @@ To add typeahead and date fields:
 >* 재시도 사이의 대기 기간: 500ms
 >* 예상 응답 상태: 2xx
 
-
-
 ### 내부 조회 필드 추가
 
 내부 조회 필드를 사용하면 Workfront에 있는 개체의 이름을 입력할 수 있습니다. 사용자가 입력을 시작하면 제안 목록이 나타납니다. 예를 들어, 사용자가 사용자 이름을 입력하는 경우 일치하는 이름 목록이 나타납니다. 내부 조회 필드 유형은 다음 개체에서 지원됩니다.
@@ -871,6 +869,12 @@ To add typeahead and date fields:
 * 문제
 * 문서
 * 위치
+
+>[!NOTE]
+>
+>자동 완성 필드를 더 이상 사용자 정의 양식에 추가할 수 없습니다. 오른쪽의 필드 옵션에서 버튼을 클릭하여 기존 자동 완성 기능을 내부 조회로 변환할 수 있습니다. 변환할 때 내역 데이터는 필드에 남아 있으며 보고서에서 동일한 방식으로 사용됩니다.
+> 
+>또한 자동 완성 필드가 환경 프로모션 패키지에 포함된 경우 프로모션이 발생할 때 필드가 자동으로 내부 조회로 변환됩니다. 환경 프로모션에 대한 자세한 내용은 [Workfront 환경 간 개체 이동 개요(환경 프로모션)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)를 참조하십시오.
 
 내부 조회를 추가하려면:
 
