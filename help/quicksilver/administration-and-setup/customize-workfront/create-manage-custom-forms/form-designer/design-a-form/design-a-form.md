@@ -11,22 +11,14 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f491bb9e116067344d2b397cb4be5181b18e8ab4
 workflow-type: tm+mt
-source-wordcount: 8071
+source-wordcount: 8056
 ht-degree: 4%
 
 ---
@@ -165,11 +157,11 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 
 * 각 사용자 정의 필드 API 이름은 조직의 Workfront 인스턴스에서 고유해야 합니다. 이렇게 하면 다른 사용자 정의 양식에 대해 이미 만들어진 파일을 다시 사용할 수 있습니다.
 
-* 그렇게 할 수도 있지만 본인이나 다른 사용자가 Workfront에서 사용자 정의 양식을 사용하기 시작한 후에는 이 API 이름을 변경하지 않는 것이 좋습니다. 이 필드를 선택하면 이제 Workfront의 다른 영역에서 참조될 수 있는 사용자 지정 필드가 시스템에서 더 이상 인식되지 않습니다.
+* API 이름은 기본적으로 읽기 전용입니다. 그렇게 할 수도 있지만 Workfront에서 사용자 정의 양식을 사용한 후에는 이 API 이름을 변경하지 않는 것이 좋습니다. 이 필드를 선택하면 이제 Workfront의 다른 영역에서 참조될 수 있는 사용자 지정 필드가 시스템에서 더 이상 인식되지 않습니다.
 
   예를 들어 사용자 정의 필드를 보고서에 추가하고 나중에 해당 API 이름을 변경하면 Workfront은 보고서에서 이를 인식하지 못하며 새 이름을 사용하여 보고서에 다시 추가하지 않으면 제대로 작동하지 않습니다.
 
-* API 이름은 기본적으로 읽기 전용입니다. API 이름을 편집할 수 있게 하려면 **API 이름** 옆에 있는 **편집** 아이콘을 클릭합니다. 그런 다음 확인 상자에 **confirm**&#x200B;을 입력하고 **필드 이름 바꾸기**&#x200B;를 클릭합니다.
+  필드의 API 이름에 의존하는 기존 통합 및 계산을 중단할 수도 있습니다.
 
 * 기본 제공 Workfront 필드에 이미 사용된 API 이름은 입력하지 않는 것이 좋습니다.
 
@@ -807,12 +799,12 @@ To add typeahead and date fields:
       <td role="rowheader">JSON 경로</td>
       <td><p>API에 대한 JSON 경로를 입력하거나 붙여넣습니다.</p> <p>이 옵션을 사용하면 API URL에서 반환되는 JSON에서 데이터를 추출할 수 있습니다. JSON 내에서 드롭다운 옵션에 표시할 값을 선택하는 데 사용됩니다.</p><p>예를 들어 API URL이 다음 형식으로 JSON을 반환하는 경우 "$.data[*].name"을 사용하여 미국과 캐나다를 드롭다운 옵션으로 선택할 수 있습니다.</br>
       <pre>
-      &lbrace;
-       데이터: &lbrace;
+      {
+       데이터: {
          { name: "미국"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>JSON 경로와 올바른 JSON 경로를 작성하는 방법에 대한 자세한 내용은 <a href="https://jsonpath.com/">https://jsonpath.com/</a>을(를) 참조하십시오.</p></td>
