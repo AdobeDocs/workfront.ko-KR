@@ -8,18 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
+source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 1%
+source-wordcount: '1416'
+ht-degree: 2%
 
 ---
 
 # AI 공동 작업자 구성
-
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
-
 
 AI 공동 작업자는 프로젝트 및 작업에 AI 에이전트를 온보딩하는 방법입니다. AI 공동 작업자를 구성한 다음 사용자와 마찬가지로 할당할 수 있습니다.
 
@@ -73,24 +69,20 @@ AI 공동 작업자는 프로젝트 및 작업에 AI 에이전트를 온보딩�
 * 검토자 유형 AI 공동 작업자에 사용하려면 먼저 Workfront에서 브랜드를 구성해야 합니다.
 
   지침은 [콘텐츠 검토자를 위한 브랜드 만들기 및 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)를 참조하십시오.
-* 검토자 AI 공동 작업자에 Adobe Brand Intelligence를 사용하려면 조직에서 Workfront의 통합된 검토 및 승인 경험을 사용해야 합니다. </span>
+* 검토자 AI 공동 작업자에 Adobe Brand Intelligence를 사용하려면 조직에서 Workfront의 통합된 검토 및 승인 경험을 사용해야 합니다.
 
-  자세한 내용은 [통합 검토 및 승인 시작](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)을 참조하십시오. </span>
-
-<div class="preview">
+  자세한 내용은 [통합 검토 및 승인 시작](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)을 참조하세요.
 
 ### 작업 공동 작업자용
 
 작업 공동 작업자로 사용하려면 먼저 Claude, Copilot Studio 또는 Writer에서 에이전트를 구성해야 합니다.
-
-</div>
 
 ## 새 검토자 유형 AI 공동 작업자 만들기
 
 검토자 AI 공동 작업자는 Workfront 브랜드 또는 Adobe Brand Intelligence를 사용하도록 구성할 수 있습니다.
 
 * **브랜드**: 브랜드는 Workfront에서 만들어집니다. 브랜드 지침이 포함된 PDF 파일을 업로드하거나 브랜드 요소를 수동으로 입력하여 Workfront에서 브랜드를 만들 수 있습니다.
-* **Adobe Brand Intelligence**: AI 공동 작업자가 Adobe Brand Intelligence를 사용하여 에셋을 검토할 때 Frame.io에서 검토자가 작성한 댓글을 볼 수 있습니다.  </span>
+* **Adobe Brand Intelligence**: AI 공동 작업자가 Adobe Brand Intelligence를 사용하여 에셋을 검토할 때 Frame.io에서 검토자가 작성한 댓글을 볼 수 있습니다.
 
 
 {{step-1-to-setup}}
@@ -102,8 +94,6 @@ AI 공동 작업자는 프로젝트 및 작업에 AI 에이전트를 온보딩�
 1. 공동 작업자가 검토에 브랜드를 사용할지 Adobe Brand Intelligence를 사용할지 선택합니다.
 1. (조건부) AI 공동 작업자가 브랜드를 사용하는 경우 사용할 브랜드 및 브랜드 지침을 선택합니다.
 1. **저장**&#x200B;을 클릭합니다.
-
-<div class="preview">
 
 ## 작업 공동 작업자 구성
 
@@ -202,8 +192,6 @@ Writer에서 작업 공동 작업자로 사용할 에이전트를 만들 때는 
 1. 작업 공동 작업자를 Workfront 작업에 할당합니다. 공동 작업자는 작업의 전임 작업이 모두 완료되면 작업을 시작합니다.
 
 +++
-
-</div>
 
 ## AI 공동 작업자 관리
 

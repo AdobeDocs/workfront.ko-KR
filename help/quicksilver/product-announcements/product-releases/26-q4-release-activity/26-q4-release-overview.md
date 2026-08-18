@@ -4,7 +4,7 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: abcd2a6063f9768c160f179a7240cf10a7cc62df
+source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 2%
@@ -176,7 +176,7 @@ ht-degree: 2%
             </td>
             <td><p>2026년 7월 31일</p></td>
             <td><p>2026년 8월 13일</p></td>
-            <td><p>2026년 10월 15일</p></td>
+            <td><p>2026년 8월 13일</p></td>
         </tr>
         <tr>
             <td>

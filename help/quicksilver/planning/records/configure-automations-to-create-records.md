@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 7c21ccc7fb345de3d227eb3dcf7f543670f486f8
 workflow-type: tm+mt
-source-wordcount: 1780
+source-wordcount: 1884
 ht-degree: 4%
 
 ---
@@ -212,9 +212,14 @@ Old:
 
       ![필드 값 변경 트리거가 선택됨](assets/field-value-change-trigger-selected.png)
 
-      >[!TIP]
+      >[!IMPORTANT]
       >
-      >각 조건의 수정자는 선택한 필드 유형에 따라 변경됩니다.
+      >* 각 조건의 수정자는 선택한 필드 유형에 따라 변경됩니다.
+      >* 필드에 여러 개의 선택된 값이 있는 경우 각 조건이 두 개 이상의 필터를 제공할 수 있습니다. 조건의 총 필터 수는 5를 초과할 수 없으며 필터 그룹을 중첩할 수 없습니다. 구성이 이 제한을 초과하는 경우 해당 조건 아래에 인라인 오류가 표시되며, 선택한 옵션 또는 조건의 수를 줄일 때까지 자동화를 저장할 수 없습니다.
+      >
+      >   제한보다 더 많은 조건이 필요한 경우 작업을 두 개의 개별 자동화로 분할합니다.
+      >
+      >   자세한 내용은 *이벤트 구독*&#x200B;에서 [필터 그룹 사용](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)을 참조하세요.
 
 1. **작업** 섹션에서 다음 필드를 업데이트합니다. <!--submitted bugs for these fields - see if they need changing here-->
    * **작업**: 자동화를 트리거할 때 Workfront에서 수행할 작업을 선택합니다. 필수 필드입니다.

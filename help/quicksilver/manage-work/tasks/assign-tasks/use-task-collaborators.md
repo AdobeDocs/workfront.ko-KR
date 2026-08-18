@@ -4,16 +4,14 @@ content-type: reference
 description: 작업 공동 작업자, Workfront 작업에 할당할 수 있는 AI 공동 작업자를 사용하는 방법에 대해 알아봅니다.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
+source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
 
 # 작업 공동 작업자 사용
-
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
 작업 공동 작업자는 문서 및 에셋 검토에 사용되는 기존 검토자 유형의 AI 공동 작업자 외에도 Workfront 작업에 직접 할당할 수 있는 AI 공동 작업자입니다. 다른 AI 공동 작업자와 마찬가지로 작업 공동 작업자도 설정 영역에서 구성되어 사용자와 마찬가지로 작업에 할당됩니다.
 
