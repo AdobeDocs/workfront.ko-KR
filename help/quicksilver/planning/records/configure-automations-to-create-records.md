@@ -9,18 +9,13 @@ exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GgrkobfJEMRxHMsZF8mXAuH2xEoe-i4GTArk3S8O6fE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c21ccc7fb345de3d227eb3dcf7f543670f486f8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 13c240ad1b51b30dd410a1bf8f49678375ab2e93
 workflow-type: tm+mt
-source-wordcount: 1884
+source-wordcount: 1900
 ht-degree: 4%
 
 ---
@@ -180,7 +175,7 @@ Old:
 
    * **제목 없는 자동화**&#x200B;를 자동화 단추에 표시할 텍스트로 바꿉니다. 자동화를 사용하여 Workfront 개체 또는 Planning 레코드를 만들 때 이 단추를 클릭합니다.
    * **설명**: 자동화의 목적을 식별하려면 설명을 추가하십시오.
-1. **저장**&#x200B;을 클릭합니다.
+1. **저장**을 클릭합니다.
 자동화 세부 정보 페이지가 열립니다.
 
 1. 자동화의 세부 정보 페이지에서 **트리거** 섹션의 다음 옵션 중 하나를 선택하십시오.
@@ -215,11 +210,11 @@ Old:
       >[!IMPORTANT]
       >
       >* 각 조건의 수정자는 선택한 필드 유형에 따라 변경됩니다.
-      >* 필드에 여러 개의 선택된 값이 있는 경우 각 조건이 두 개 이상의 필터를 제공할 수 있습니다. 조건의 총 필터 수는 5를 초과할 수 없으며 필터 그룹을 중첩할 수 없습니다. 구성이 이 제한을 초과하는 경우 해당 조건 아래에 인라인 오류가 표시되며, 선택한 옵션 또는 조건의 수를 줄일 때까지 자동화를 저장할 수 없습니다.
+      >* 각 조건은 하나 이상의 값을 참조할 수 있습니다. 만드는 조건 수에 관계없이 모든 조건에서 최대 5개의 총 값을 참조할 수 있습니다. 예를 들어 6개의 값을 총괄하여 참조하는 3개의 조건이 있는 구성이 제한을 초과합니다. 조건을 중첩할 수 없습니다. 구성이 5값 제한을 초과하는 경우 인라인 오류가 조건 아래에 나타나며 참조된 값의 수를 줄일 때까지 자동화를 저장할 수 없습니다.
       >
       >   제한보다 더 많은 조건이 필요한 경우 작업을 두 개의 개별 자동화로 분할합니다.
       >
-      >   자세한 내용은 *이벤트 구독*&#x200B;에서 [필터 그룹 사용](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)을 참조하세요.
+      >   자세한 내용은 이벤트 구독 문서에서 [필터 그룹 사용](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)을 참조하십시오.
 
 1. **작업** 섹션에서 다음 필드를 업데이트합니다. <!--submitted bugs for these fields - see if they need changing here-->
    * **작업**: 자동화를 트리거할 때 Workfront에서 수행할 작업을 선택합니다. 필수 필드입니다.
