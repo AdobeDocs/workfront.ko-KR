@@ -10,11 +10,9 @@ exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/o8vr8UGlRZJu3PA-8uyJtzYfpq-nvQmQWdl8Q-yp6tY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 755
 ht-degree: 1%
@@ -40,11 +38,11 @@ Old:
 >
 >* For the new plan and license structure:
 >
->   * The Ultimate Workfront plan 
+>   * The Ultimate Workfront package 
 >    
 >* For the current plan and license structure: 
 >
->   * A Pro or higher Workfront plan
+>   * A Pro or higher Workfront package
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
@@ -69,8 +67,8 @@ Old:
 
 * 역할에 따라 다른 종류의 목표를 업데이트해야 합니다. 예:
 
-   * 개별 기여자로서 팀, 그룹 및 회사 수준의 목표에 맞게 조정해야 하는 자신의 목표에 기여하는 것이 좋습니다. 목표를 업데이트하면 다른 모든 상위 목표에 대한 진행률이 업데이트되어야 합니다.
-   * CEO 또는 비즈니스 관리자로서 목표에 기여하고 팀, 그룹 및 회사에 할당된 목표를 업데이트하는 것이 좋습니다.
+  * 개별 기여자로서 팀, 그룹 및 회사 수준의 목표에 맞게 조정해야 하는 자신의 목표에 기여하는 것이 좋습니다. 목표를 업데이트하면 다른 모든 상위 목표에 대한 진행률이 업데이트되어야 합니다.
+  * CEO 또는 비즈니스 관리자로서 목표에 기여하고 팀, 그룹 및 회사에 할당된 목표를 업데이트하는 것이 좋습니다.
 
 ## 목표 정렬 유형
 
