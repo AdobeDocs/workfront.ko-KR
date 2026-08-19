@@ -23,16 +23,14 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b3170f61af451136f8a2b0d7f196bfd379ed952a
+source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
 workflow-type: tm+mt
-source-wordcount: 1247
+source-wordcount: 1230
 ht-degree: 2%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 정의
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -40,11 +38,7 @@ ht-degree: 2%
 
 예를 들어 사용자가 프로젝트를 볼 때 왼쪽 패널에 표시되는 항목 중 하나를 결정할 수 있습니다.
 
-미리 보기 환경의 <span class="preview">샘플 이미지:</span>
 ![프로젝트의 왼쪽 패널](assets/left-panel-in-project-072326.png)
-
-프로덕션 환경의 샘플 이미지:
-![프로젝트의 왼쪽 패널](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >

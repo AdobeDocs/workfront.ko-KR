@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 0b1e8b85625d7fd34f64b7c82eb40e1134adfcd6
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1377'
 ht-degree: 2%
 
 ---
@@ -201,5 +201,4 @@ Writer에서 작업 공동 작업자로 사용할 에이전트를 만들 때는 
 
 1. 왼쪽 탐색에서 **AI 공동 작업자**&#x200B;를 클릭합니다.
 1. (조건부) Collaborator를 편집하려면 편집할 Collaborator의 이름을 클릭하고 Collaborator 편집 창에서 편집한 다음 **저장**&#x200B;을 클릭합니다.
-1. (조건부) Collaborator를 복사하려면 복사할 AI Collaborator 행에서 복사 아이콘 ![복사 아이콘](assets/copy-ai-collaborator.png)을 클릭하고 복사 이름을 클릭한 다음 Collaborator 편집 창에서 편집을 수행하고 **저장**&#x200B;을 클릭합니다.
 1. (조건부) Collaborator를 삭제하려면 삭제하려는 AI Collaborator 행에서 삭제 아이콘 ![삭제 아이콘](assets/delete-collaborator-icon.png)을 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
