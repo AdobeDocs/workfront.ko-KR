@@ -4,9 +4,9 @@ content-type: reference
 description: 작업 공동 작업자, Workfront 작업에 할당할 수 있는 AI 공동 작업자를 사용하는 방법에 대해 알아봅니다.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 73ca5de2dbc9ef698d3c8fa3098b783168c1c6b2
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,24 @@ Workfront에서 작업 공동 작업자를 만드는 방법에 대한 정보와 
 >* 작업 공동 작업자는 현재 Copilot Studio, Claude 및 Writer.ai에서 생성된 에이전트를 지원합니다.
 >* Copilot Studio에서 에이전트를 구성할 때 보안을 **인증 안 함**(으)로 설정해야 합니다.
 >* Workfront에서 작업 공동 작업자를 만드는 방법에 대한 정보와 지침은 AI 공동 작업자 구성 문서에서 [작업 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)을 참조하십시오.
+
+## 작업 공동 작업자가 읽는 정보
+
+작업 공동 작업자가 작업에 대한 작업을 시작하면 다음 작업 정보를 컨텍스트로 자동으로 읽습니다.
+
+* 작업 제목
+* 작업 설명
+* 작업의 업데이트 스트림에 있는 댓글
+* 작업에 첨부된 모든 사용자 정의 양식의 정보
+
+이 정보는 항상 읽히며 Workfront 설정으로 구성할 수 없습니다.
+
+>[!TIP]
+>
+>최상의 결과를 얻으려면 다음을 권장합니다.
+>
+>* 에이전트가 작업 설명 또는 관련 사용자 정의 양식 필드에 직접 사용할 배경 정보를 포함합니다.
+>* 에이전트에서 지시한 것과 작업이 일치하는지 확인합니다. 예를 들어 에이전트에서 텍스트를 영어에서 프랑스어로 번역하라는 지시가 있으면 번역할 텍스트를 작업 설명에 포함합니다.
 
 ## 작업 공동 작업자 시작 트리거
 
