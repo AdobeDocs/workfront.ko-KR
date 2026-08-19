@@ -6,7 +6,7 @@ description: 조직이 통합 승인을 지원하는 Workfront 버전으로 이�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: b612a50b7445732f90b7de2a216f4bca499fd96b
+source-git-commit: 8f3c5ed32c6496a13703a5dce771a84462aa7f05
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
@@ -34,8 +34,6 @@ Adobe 클라우드 스토리지를 지원하는 Workfront 버전으로 이동하
 | 검토 및 마크업 | 증명 뷰어 | 기존 Workfront 저장소 개체의 [증명 뷰어](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) 또는 Adobe 클라우드 저장소 개체의 [Frame.io 뷰어](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) |
 | AI 지원 검토 | 사용할 수 없음 | [콘텐츠 검토자](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)를 통한 자동 브랜드 준수 확인 |
 | 보고 | 이전 보고 | 홈 KPI 위젯 및 [캔버스 대시보드](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
-
-
 
 ### 이미 진행 중인 승인에 나타나는 결과
 
