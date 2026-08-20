@@ -6,9 +6,9 @@ description: Adobe 클라우드 스토리지에서 Workfront 롤아웃을 계획
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
+source-git-commit: 719cce365a8279b46c849b92f0cd31c6bc4021a8
 workflow-type: tm+mt
-source-wordcount: '2936'
+source-wordcount: '2966'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Adobe 클라우드 스토리지를 지원하는 Workfront 버전으로 이동하
 
 Adobe 클라우드 스토리지를 롤아웃하기 전에 승인을 관리하는 사람이 예상되는 내용을 알고 있는지 확인하십시오.
 
+* **기존 승인에 나타나는 결과** 기존 레거시 승인 워크플로가 진행 중인지 또는 완료되었는지에 관계없이 이 변경의 영향을 받습니다. 자세한 내용은 [기존 문서 승인에서 통합 승인으로 이동](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)을 참조하십시오.
 * **새로운 승인 경험** 검토자와 승인자가 기존 문서 승인 경험에서 다단계 승인, 병렬 검토 경로 등을 추가하는 통합 승인으로 이동합니다. 자세한 내용은 다음 문서를 참조하십시오.
 
   * [통합 검토 및 승인 시작](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)

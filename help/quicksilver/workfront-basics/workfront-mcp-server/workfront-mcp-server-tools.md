@@ -5,9 +5,9 @@ title: Adobe Workfront MCP 서버 도구
 description: Workfront 영역별로 그룹화된 Adobe Workfront MCP 서버를 통해 사용할 수 있는 도구의 참조 목록입니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
+source-git-commit: 2de2dd8d79af0929f010cda304f8d1e008deb553
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2705'
 ht-degree: 4%
 
 ---
@@ -49,9 +49,9 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 | 이름별 문서 버전 찾기 | `approvals_find_document_version_by_name` | 파일 이름별로 문서의 현재 버전 ID를 조회합니다. 부분 일치를 지원합니다. | 읽기 |
 | 버전 ID로 문서 가져오기 | `approvals_get_document_by_version_id` | 알려진 문서 버전 ID에 대한 문서 세부 정보(이름, 크기, 업로드 날짜, 업로더)를 가져옵니다. | 읽기 |
 | 문서 범위 해결 | `approvals_resolve_document_scope` | 프로젝트 또는 폴더를 포함된 문서 버전 ID 목록으로 확장합니다. 프로젝트, 폴더 및 이름별 폴더 범위를 지원합니다. | 읽기 |
-| 범위별 문서 가져오기 | `approvals_get_documents_by_scope` | 프로젝트 또는 폴더 내에 문서를 나열합니다. | 읽기 |
+| 범위별 문서 가져오기 | `approvals_get_documents_by_scope` | 사용하지 않음. 대신 `insights_find_workfront_data`을(를) 사용합니다. 이 도구는 프로젝트 또는 폴더 내의 문서를 나열했습니다. | 읽기 |
 | AEM 연결 폴더 나열* | `approvals_list_aem_linked_folders` | Adobe Experience Manager에 연결된 Workfront 문서 폴더를 나열합니다. | 읽기 |
-| 문서 찾기 | `approvals_find_document` | 파일 이름 또는 문서 버전 ID로 문서 조회 | 읽기 |
+| 문서 찾기 | `approvals_find_document` | 사용하지 않음. 대신 `insights_find_workfront_data`을(를) 사용합니다. 이 도구는 파일 이름 또는 문서 버전 ID로 문서를 조회했습니다. | 읽기 |
 | AEM 폴더로 문서 보내기* | `approvals_send_documents_to_aem_folder` | 하나 이상의 Workfront 문서를 AEM 연결 폴더로 이동합니다. | 쓰기 |
 
 *이 도구를 사용하려면 Workfront 인스턴스에 기본 [!DNL Adobe Experience Manager] 통합이 구성되어 있어야 합니다. 자세한 내용은 [Adobe Experience Manager Assets 통합 개요](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)를 참조하십시오.
@@ -112,6 +112,10 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 | --- | --- | --- | --- |
 | 이름으로 프로젝트 찾기 | `approvals_find_project_by_name` | 시스템 전체에서 부분 이름 일치로 Workfront 프로젝트를 조회합니다. | 읽기 |
 | 소유자별 프로젝트 가져오기 | `approvals_get_projects_by_owner` | 호출 사용자가 소유자인 Workfront 프로젝트를 나열합니다. | 읽기 |
+| 현재 사용자 가져오기 | `approvals_get_current_user` | 2026년 8월 13일이 제거되었습니다. 이 도구는 이름, 사용자 ID, 홈 팀 이름 및 홈 팀 ID를 포함하여 호출하는 사용자의 Workfront ID를 반환했습니다. 유사한 기능은 Insights 도구의 [현재 사용자 가져오기](#insights-tools)를 참조하십시오. | 읽기 |
+| 이름으로 사용자 찾기 | `approvals_find_user_by_name` | 사용하지 않음. 대신 `insights_search_users`을(를) 사용합니다. 이 도구는 Workfront 사용자의 ID를 이름(유사 항목 또는 부분 일치), 반환 이름, ID, 이메일, 제목 및 아바타 URL로 조회합니다. | 읽기 |
+| 이름으로 팀 찾기 | `approvals_find_team_by_name` | 사용하지 않음. 대신 `insights_find_id_by_name`을(를) 사용합니다. 이 도구는 이름으로 Workfront 팀의 ID를 조회했습니다(유사 항목 또는 부분 일치). | 읽기 |
+| 프로젝트 찾기 | `approvals_find_projects` | 사용하지 않음. 대신 `insights_find_workfront_data`을(를) 사용합니다. 이 도구는 필요에 따라 이름으로 필터링되고/되거나 호출 사용자가 소유한 프로젝트로 제한된 Workfront 프로젝트를 조회했습니다. | 읽기 |
 
 ## 계획 도구
 
