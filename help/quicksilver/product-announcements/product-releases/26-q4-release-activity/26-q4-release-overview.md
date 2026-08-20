@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 26c7853f4ce663deda6ed98484acc69b02ec5bad
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1430'
 ht-degree: 2%
 
 ---
@@ -60,12 +60,12 @@ ht-degree: 2%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Interface improvements to the Actions list</a>
                 <p>The Actions list in the Update Feeds section of the Setup area has an updated look and feel.</p>
             </td>
-            <td><p>August 13, 2026</p></td>
+            <td><p>August 20, 2026</p></td>
             <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
- -->  
-      <tr>
+-->
+        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">그룹 관리자가 비즈니스 프로필을 관리할 수 있음</a>
                 <p>이제 그룹 관리자는 시스템 관리자에 액세스하지 않고도 관리하는 그룹의 비즈니스 프로필을 생성, 편집 및 삭제할 수 있습니다.</p>
@@ -221,8 +221,8 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets의 컨텐츠 및 폴더를 Adobe 클라우드 저장소와 연결</a>
-                <p>조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Experience Manager Assets의 개별 에셋 또는 전체 폴더를 문서를 지원하는 모든 Workfront 개체에 연결할 수 있습니다.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets에서 Adobe 클라우드 스토리지와 자산 연결</a>
+                <p>조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Experience Manager Assets의 개별 에셋을 문서를 지원하는 모든 Workfront 개체에 연결할 수 있습니다.</p>
             </td>
             <td><p>2026년 7월 30일</p></td>
             <td><p>2026년 8월 13일</p></td>
@@ -274,17 +274,6 @@ ht-degree: 2%
             <td><p>2026년 9월 17일</p></td>
             <td><p>2026년 10월 15일</p></td>
         </tr>
-<!--
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Updated column headers for dependent connected record fields</a>
-                <p>Visual improvements have been made to the column headers for a dependent connected record field in the table view.</p>
-            </td>
-            <td><p>August 13, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">목록 및 보고서에 네이티브 참조 필드를 사용할 수 있습니다</a>

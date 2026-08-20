@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 8ba03024e1c2ef0da755a6da3da13debb2f4e696
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '14417'
+source-wordcount: '14427'
 ht-degree: 2%
 
 ---
@@ -2069,6 +2069,7 @@ ht-degree: 2%
     * [증명 및 Creative Cloud Express 시작](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [증명 및 GenStudio for Performance Marketing 통합 시작](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
     * [Frame.io 통합과 함께 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+    * [Experience Manager Assets의 자산을 Adobe 클라우드 스토리지와 연결](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
     * [Frame.io 통합으로 Adobe Express 및 Workfront 시작하기](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * 승인을 위한 팁, 요령 및 문제 해결 {#ttt-approvals}
     * [승인을 위한 팁, 요령 및 문제 해결: 문서 색인](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)

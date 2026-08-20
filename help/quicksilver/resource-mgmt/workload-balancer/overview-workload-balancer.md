@@ -22,9 +22,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1202
+source-wordcount: 1256
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->업무 균형자 를 사용하여 사용자에게 실제 작업(작업 및 문제)을 할당할 수 있습니다.
+>업무 균형자 를 사용하여 사용자와 작업 공동 작업자에게 실제 작업(작업 및 문제)을 할당할 수 있습니다.
 >
 >높은 수준에서 프로젝트의 작업 역할 할당을 예측하려면 업무 균형자가 아닌 리소스 플래너를 사용해야 합니다. 리소스 플래너에 대한 자세한 내용은 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.
 
@@ -114,28 +114,25 @@ ht-degree: 2%
 
 * 관리하려는 워크로드의 사용자는 가용성 및 스킬에 대한 정보가 정확하도록 다음 기준을 충족해야 합니다.
 
-   * 일정 및 작업 역할이 프로필과 연결되어 있습니다.
+  * 일정 및 작업 역할이 프로필과 연결되어 있습니다.
 
-     일정 및 작업 역할을 사용자와 연결하는 방법에 대한 자세한 내용은 [사용자 추가](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
-   * 사용자가 일정과 연결되어 있지 않으면 리소스 관리를 위해 Workfront 시스템의 기본 일정이 기본적으로 사용자와 연결되어 있습니다.
-   * 스케줄에서 스케줄 예외를 갱신합니다.
+    일정 및 작업 역할을 사용자와 연결하는 방법에 대한 자세한 내용은 [사용자 추가](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
+  * 사용자가 일정과 연결되어 있지 않으면 리소스 관리를 위해 Workfront 시스템의 기본 일정이 기본적으로 사용자와 연결되어 있습니다.
+  * 스케줄에서 스케줄 예외를 갱신합니다.
 
-     일정 만들기에 대한 자세한 내용은 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하세요.
+    일정 만들기에 대한 자세한 내용은 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하세요.
 
-   * 프로필에서 휴무 캘린더를 업데이트했습니다.
+  * 프로필에서 휴무 캘린더를 업데이트했습니다.
 
-     사용자의 휴무 일정 업데이트에 대한 자세한 내용은 [개인 휴무 구성](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)을 참조하세요.
-
-     <!--   
-     <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <p>(NOTE: Add another bullet for Costs, when this becomes available:</p>   
-     <p>If you want to budget your resources by Cost, you must associate Job Roles with Cost/ Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.For more information about associating job roles with rates, see the article Creating and Managing Job Roles in the new Adobe Workfront experience.For more information about calculating Budgeted Labor Cost, see the article Calculating Budgeted Labor Cost in the new Adobe Workfront experience.For more information about calculating Budgeted Cost, see the article Calculating Budgeted Cost in .) </p>   
-     </div>   
-     -->
+    사용자의 휴무 일정 업데이트에 대한 자세한 내용은 [개인 휴무 구성](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)을 참조하세요.
 
 * Workfront 관리자는 Workfront이 사용자 가용성을 계산하는 방법을 결정해야 합니다. 관리자는 Workfront의 설정 영역에서 리소스 관리 기본 설정을 조정하여 Workfront이 시스템 기본 일정을 사용할지 또는 사용자의 일정을 사용하여 사용자가 작업할 수 있는 시간을 계산할지 결정할 수 있습니다.
 
   자세한 내용은 [리소스 관리 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)을 참조하십시오.
+
+* 사용자에게 작업을 할당하는 것과 동일한 모든 방법으로 작업 공동 작업자에게 작업을 할당할 수 있습니다. 작업 공동 작업자가 작업에 할당되려면 먼저 Workfront에 있어야 합니다.
+
+  작업 공동 작업자 생성에 대한 자세한 내용은 문서 [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)에서 [작업 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)을 참조하십시오.
 
 ### 작업 및 문제 설정에 대한 우수 사례 {#best-practices-for-setting-up-tasks-and-issues}
 
@@ -143,7 +140,6 @@ ht-degree: 2%
 
 * 상위 작업이 사용자 또는 역할에 할당되지 않았습니다. 상위 작업이 업무 균형자에 표시되지 않습니다.
 * 작업 및 문제의 계획된 시간 값이 0보다 큽니다.
-
 * 작업 및 문제의 기간 값이 0보다 큽니다.
 * 문제의 계획된 일자는 프로젝트의 타임라인 내에 있습니다.
 
@@ -151,12 +147,12 @@ ht-degree: 2%
 
 * 업무 균형자 사용을 시작하기 전에 다음 문서를 검토하십시오.
 
-   * 이 문서에서는 다음 작업을 수행하기 위해 업무 균형자 탐색 방법을 안내합니다. [업무 균형자 탐색](../workload-balancer/navigate-the-workload-balancer.md).
+  * 이 문서에서는 다음 작업을 수행하기 위해 업무 균형자 탐색 방법을 안내합니다. [업무 균형자 탐색](../workload-balancer/navigate-the-workload-balancer.md).
 
-   * 다음 문서에서는 작업을 할당하고 사용자 할당을 관리하는 방법을 안내합니다.
+  * 다음 문서에서는 작업을 할당하고 사용자 할당을 관리하는 방법을 안내합니다.
 
-      * [업무 균형자에서 작업 할당 개요](../workload-balancer/assign-work-in-workload-balancer.md).
-      * [업무 균형자에서 사용자 할당을 관리합니다](../workload-balancer/manage-user-allocations-workload-balancer.md).
+    * [업무 균형자에서 작업 할당 개요](../workload-balancer/assign-work-in-workload-balancer.md).
+    * [업무 균형자에서 사용자 할당을 관리합니다](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
 * 업무 균형자 는 Workfront의 여러 다른 영역에서 찾을 수 있습니다. 업무 균형자를 찾을 수 있는 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)를 참조하십시오.
 

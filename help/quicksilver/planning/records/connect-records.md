@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 9e4b8593c559dd68f7c0948c58c3f796af1c22fd
 workflow-type: tm+mt
-source-wordcount: 3643
+source-wordcount: 3743
 ht-degree: 1%
 
 ---
@@ -433,7 +433,7 @@ No longer needed to specify:
 >[!NOTE]
 >
 >Workfront 관리자가 Experience Manager Assets과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront에서 Planning 레코드 및 해당 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
->Planning의 GenStudio 작업 영역에서 AEM 개체(에셋 및 콘텐츠 조각)에 레코드를 연결하면 AEM의 AEM 개체에 GenStudio 정보가 자동으로 표시됩니다. Workfront Planning에서 연결할 때 추가된 조회 필드에 GenStudio 레코드에 대한 AEM 정보가 표시됩니다. 자세한 내용은 [Adobe Workfront Planning에서 GenStudio 작업 공간 관리](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)를 참조하십시오.
+>Planning의 GenStudio 작업 영역에서 AEM 객체(자산 및 컨텐츠 조각)로 레코드를 연결하면 AEM의 AEM 객체에 GenStudio 정보가 자동으로 표시됩니다. Workfront Planning에서 연결할 때 추가된 조회 필드에 GenStudio 레코드에 대한 AEM 정보가 표시됩니다. 자세한 내용은 [Adobe Workfront Planning에서 GenStudio 작업 영역 관리](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)를 참조하십시오.
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
@@ -596,13 +596,17 @@ Adobe Experience Manager 개체와 레코드를 연결하려면 다음을 수행
    >
    >연결된 레코드를 연결된 레코드 페이지에서 보려면 연결된 레코드를 현재 레코드에 추가해야 합니다.
 
-1. 레코드 목록에서 **연결**&#x200B;을 클릭하거나 프로젝트 목록에서 **레코드 연결**&#x200B;을 클릭하여 기존 레코드 또는 프로젝트를 추가하거나 제거합니다.
+1. 연결된 레코드 페이지의 오른쪽 상단에서 **레코드 연결**&#x200B;을 클릭하여 기존 레코드 또는 프로젝트를 추가하거나 제거합니다.
 
-   ![연결된 레코드 세부 정보 탭에서 강조 표시된 연결 단추](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+   <!--
+    this is gone:
+    ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+    -->
 
    자세한 내용은 [레코드에 연결된 레코드 페이지 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 참조하십시오.
-1. 템플릿 없이 프로젝트를 만들려면 프로젝트 목록에서 **새 행**&#x200B;을 클릭하십시오. 새 프로젝트는 현재 레코드에 자동으로 연결됩니다.
 1. (선택 사항) 연결된 레코드를 찾을 수 없는 경우 **+ 추가**&#x200B;를 클릭하여 레코드를 만들고 연결합니다.
+1. 레코드를 만들려면 **새 행**&#x200B;을 클릭합니다. 새 레코드는 현재 레코드에 자동으로 연결됩니다.
+
 
 ## Workfront 개체에서 레코드 연결
 

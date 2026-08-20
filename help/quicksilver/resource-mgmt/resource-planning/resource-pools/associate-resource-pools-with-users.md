@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: 440
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 5%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: The info about how to add resource pools to users, are duplicated from the articles listed in those sections (Creating Users, etc). I decided to keep the steps here because those articles are too long to rummage through for updating just this one field.)</p>
 -->
 
-리소스 풀은 Adobe Workfront에서 리소스를 관리하는 데 도움이 되는 사용자의 컬렉션입니다.
+리소스 풀은 Adobe Workfront에서 리소스를 관리하는 데 도움이 되는 사용자 컬렉션입니다.
 
 리소스 풀을 사용자와 연결하려면 먼저 리소스 풀을 만들어야 합니다.
 
@@ -77,11 +77,11 @@ ht-degree: 5%
 
 {{step-1-to-users}}
 
-1. 목록에서 사용자 이름 옆에 있는 상자를 선택한 다음 **편집**&#x200B;을 클릭합니다.
+1. 목록의 사용자 이름 옆에 있는 확인란을 선택한 다음 **편집**&#x200B;을 클릭합니다.
 1. **리소스 계획**&#x200B;을 클릭합니다.
 1. **리소스 풀** 필드에 사용자와 연결할 리소스 풀의 이름을 입력한 다음 목록이 나타나면 목록에서 선택하십시오.\
    여러 리소스 풀을 한 명의 사용자와 연결할 수 있습니다.\
-   ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)
+   ![사용자에게 리소스 풀 추가](assets/add-resource-pool-to-user.png)
 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 

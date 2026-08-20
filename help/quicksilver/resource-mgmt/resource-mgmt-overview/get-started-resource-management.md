@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0d4726c4aacc316063bb9a47b590165202ca3ac0
 workflow-type: tm+mt
-source-wordcount: 1204
+source-wordcount: 1227
 ht-degree: 0%
 
 ---
@@ -50,23 +50,23 @@ Workfront에는 리소스를 관리하는 데 사용되는 몇 가지 도구 세
 
 * 프로젝트에 대한 실제 작업이 시작되기 전에 리소스가 더 높은 수준에서 할당되는 방법을 계획하려면 다음 도구를 사용하십시오.
 
-   * **리소스 플래너**: 리소스 관리의 첫 번째 단계에서 리소스 플래너를 사용하여 예약된 가용성에 따라 리소스에 대한 프로젝트 시간을 예약할 수 있습니다. 리소스 계획 단계에서 리소스 풀의 사용자를 구성하고 프로젝트에 여러 리소스 풀을 할당할 수 있습니다.
+  * **리소스 플래너**: 리소스 관리의 첫 번째 단계에서 리소스 플래너를 사용하여 예약된 가용성에 따라 리소스에 대한 프로젝트 시간을 예약할 수 있습니다. 리소스 계획 단계에서 리소스 풀의 사용자를 구성하고 프로젝트에 여러 리소스 풀을 할당할 수 있습니다.
 
-     리소스 계획에 대한 자세한 내용은 [리소스 계획: 문서 색인](../../resource-mgmt/resource-planning/resource-planning-overview.md)을 참조하세요.
+    리소스 계획에 대한 자세한 내용은 [리소스 계획: 문서 색인](../../resource-mgmt/resource-planning/resource-planning-overview.md)을 참조하세요.
 
-   * **시나리오 플래너**: 1년, 3년 또는 5년 계획을 포괄하고 여러 프로젝트를 포함할 수 있는 여러 이니셔티브에서 이를 관리할 수 있는 상위 수준의 리소스 계획입니다. 가용성과 예산을 최대한 활용하기 위해 최상의 시나리오를 사용할 수 있습니다.
+  * **시나리오 플래너**: 1년, 3년 또는 5년 계획을 포괄하고 여러 프로젝트를 포함할 수 있는 여러 이니셔티브에서 이를 관리할 수 있는 상위 수준의 리소스 계획입니다. 가용성과 예산을 최대한 활용하기 위해 최상의 시나리오를 사용할 수 있습니다.
 
-     시나리오 플래너에는 Workfront 라이센스 외에 별도의 라이센스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../scenario-planner/scenario-planner-overview.md)를 참조하십시오.
+    시나리오 플래너에는 Workfront 라이센스 외에 별도의 라이센스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../scenario-planner/scenario-planner-overview.md)를 참조하십시오.
 
-     <!--   
+    <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
      -->
 
 * 실제 작업(작업 및 문제)에 리소스를 예약하거나 할당하려면 다음 도구를 사용합니다.
 
-   * **업무 균형자**: 이 단계는 리소스 관리의 하위 수준 단계에 속하며, 이를 완료하는 데 필요한 시간과 사용 가능한 시간을 기준으로 리소스를 완료해야 하는 실제 작업(작업 및 문제)에 할당할 수 있습니다. 업무 균형자 를 사용하여 현재 할당 해제되거나 작업 역할에 할당된 실제 작업에 사용자를 할당할 수 있습니다.
+  * **업무 균형자**: 이 단계는 리소스 관리의 하위 수준 단계에 속하며, 이를 완료하는 데 필요한 시간과 사용 가능한 시간을 기준으로 리소스를 완료해야 하는 실제 작업(작업 및 문제)에 할당할 수 있습니다. 업무 균형자 를 사용하여 사용자 또는 작업 공동 작업자를 현재 할당 해제되거나 작업 역할에 할당된 실제 작업에 할당할 수 있습니다.
 
-     Workfront 업무 균형자에 대한 자세한 내용은 [업무 균형자: 문서 인덱스](../../resource-mgmt/workload-balancer/workload-balancer.md)를 참조하십시오.
+    Workfront 업무 균형자에 대한 자세한 내용은 [업무 균형자: 문서 인덱스](../../resource-mgmt/workload-balancer/workload-balancer.md)를 참조하십시오.
 
 <!--
 
@@ -88,9 +88,9 @@ Workfront에는 리소스를 관리하는 데 사용되는 몇 가지 도구 세
 -->
 * 여러 프로젝트에서 예산, 계획 및 실제 할당을 분석하려면 다음 도구를 사용합니다.
 
-   * **사용률 보고서**: 이 보고서를 사용하여 프로젝트의 리소스 사용률을 볼 수 있습니다. 프로젝트에 대한 예산, 계획 및 실제 할당과 프로젝트의 비용 및 매출에 미치는 영향을 비교할 수 있습니다.
+  * **사용률 보고서**: 이 보고서를 사용하여 프로젝트의 리소스 사용률을 볼 수 있습니다. 프로젝트에 대한 예산, 계획 및 실제 할당과 프로젝트의 비용 및 매출에 미치는 영향을 비교할 수 있습니다.
 
-     사용률 보고서에 대한 자세한 내용은 [리소스 사용률 정보 보기](../../resource-mgmt/resource-utilization/view-utilization-information.md)를 참조하십시오.
+    사용률 보고서에 대한 자세한 내용은 [리소스 사용률 정보 보기](../../resource-mgmt/resource-utilization/view-utilization-information.md)를 참조하십시오.
 
 ## 리소스 관리 프로세스의 구성 요소
 
@@ -103,40 +103,43 @@ Workfront에서 리소스를 관리하는 프로세스에는 다음 단계가 �
 * **구성**: 시스템 관리자, 리소스 관리자 또는 프로젝트 소유자는 리소스를 관리하기 전에 Workfront 인스턴스에서 특정 필드 및 개체를 구성해야 합니다. Workfront에서 리소스 관리를 시작하는 데 필요한 필수 구성 요소에 대한 자세한 내용은 이 문서의 [정확한 리소스 관리를 위한 필수 구성 요소](#prerequisites-for-accurate-resource-management) 섹션을 참조하십시오.\
   작업 항목이 있는 프로젝트가 있을 뿐만 아니라 Workfront에서 다음 항목을 구성해야 합니다.
 
-   * 사용자\
-     사용자 만들기에 대한 자세한 내용은 문서 [사용자 추가](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
+  * 사용자\
+    사용자 만들기에 대한 자세한 내용은 문서 [사용자 추가](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
 
-   * 작업 역할\
-     작업 역할 만들기에 대한 자세한 내용은 문서 [작업 역할 만들기 및 관리](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
+  * 작업 역할\
+    작업 역할 만들기에 대한 자세한 내용은 문서 [작업 역할 만들기 및 관리](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
 
-   * 일정\
-     일정 만들기에 대한 자세한 내용은 문서 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하세요.
+  * 작업 공동 작업자
+    작업 공동 작업자 생성에 대한 자세한 내용은 문서 [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)에서 [작업 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)을 참조하십시오.
 
-   * 프로젝트 환경 설정
+  * 일정\
+    일정 만들기에 대한 자세한 내용은 문서 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하세요.
 
-     >[!TIP]
-     >
-     >시스템 또는 그룹 관리자만 시스템 또는 그룹의 프로젝트 환경 설정을 수정할 수 있습니다.
+  * 프로젝트 환경 설정
 
-     프로젝트 환경 설정 정의에 대한 자세한 내용은 문서 [시스템 전체 프로젝트 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
+    >[!TIP]
+    >
+    >시스템 또는 그룹 관리자만 시스템 또는 그룹의 프로젝트 환경 설정을 수정할 수 있습니다.
 
-   * 리소스 풀
+    프로젝트 환경 설정 정의에 대한 자세한 내용은 문서 [시스템 전체 프로젝트 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 
-     리소스 풀 만들기에 대한 자세한 내용은 [리소스 풀 만들기](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)를 참조하십시오.
+  * 리소스 풀
 
-   * 리소스 관리 환경 설정
+    리소스 풀 만들기에 대한 자세한 내용은 [리소스 풀 만들기](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)를 참조하십시오.
 
-     시스템의 경우, 사용자의 일정이나 시스템의 기본 일정을 사용하든 간에 Workfront이 시스템 수준에서 사용자 가용성을 계산하는 방법을 결정해야 합니다.
+  * 리소스 관리 환경 설정
 
-     자세한 내용은 [리소스 관리 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)을 참조하십시오.
+    시스템의 경우, 사용자의 일정이나 시스템의 기본 일정을 사용하든 간에 Workfront이 시스템 수준에서 사용자 가용성을 계산하는 방법을 결정해야 합니다.
+
+    자세한 내용은 [리소스 관리 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)을 참조하십시오.
 
 * **리소스 할당**: 리소스 관리자 또는 프로젝트 소유자는 프로젝트에 대한 리소스 할당을 정의하고 작업을 할당할 수 있습니다. 이 단계에서는 리소스 플래너 또는 시나리오 플래너를 사용하여 리소스 할당 예측을 관리하고 업무 균형자에서 사용자에게 실제 작업을 할당할 수 있습니다.
 
   리소스 계획 및 할당 작업에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
-   * [리소스 계획: 문서 색인](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [[!DNL Adobe Workfront Scenario Planner]: 문서 인덱스](../../scenario-planner/scenario-planning.md)
-   * [업무 균형자: 문서 색인](../../resource-mgmt/workload-balancer/workload-balancer.md)
+  * [리소스 계획: 문서 색인](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  * [[!DNL Adobe Workfront Scenario Planner]: 문서 인덱스](../../scenario-planner/scenario-planning.md)
+  * [업무 균형자: 문서 색인](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
@@ -159,9 +162,9 @@ Workfront에서 리소스를 관리하는 프로세스에는 다음 단계가 �
 
   특정 리소스 관리 도구를 사용하려면 작업 이상의 라이선스(또는 표준 라이선스)가 있을 뿐 아니라 다음과 같은 것이 있어야 합니다.
 
-   * 리소스 관리에 대한 액세스 편집(업무 균형자에서 할당할 필요가 없음)
-   * 비용 요금 보기 또는 편집 및 일반 재무 보기 또는 편집 액세스 권한이 포함된 재무 데이터에 대한 액세스 권한을 편집하여 리소스 플래너에 비용 정보를 표시합니다.
-   * 원가율 조회 또는 편집 및 일반 재무 조회에 대한 액세스를 포함하는 재무 데이터에 대한 액세스를 조회하여 활용성 보고서에서 원가 및 수익 정보를 조회합니다(계획 또는 표준 라이센스가 있는 사용자만).
+  * 리소스 관리에 대한 액세스 편집(업무 균형자에서 할당할 필요가 없음)
+  * 비용 요금 보기 또는 편집 및 일반 재무 보기 또는 편집 액세스 권한이 포함된 재무 데이터에 대한 액세스 권한을 편집하여 리소스 플래너에 비용 정보를 표시합니다.
+  * 원가율 조회 또는 편집 및 일반 재무 조회에 대한 액세스를 포함하는 재무 데이터에 대한 액세스를 조회하여 활용성 보고서에서 원가 및 수익 정보를 조회합니다(계획 또는 표준 라이센스가 있는 사용자만).
 
 * 리소스를 관리할 프로젝트에 대한 할당 만들기를 포함하는 기여 또는 상위 권한
 

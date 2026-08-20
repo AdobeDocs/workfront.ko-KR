@@ -17,9 +17,9 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1e41c376fb0028a8d9a3e3bcf2033cebd6193849
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: 108
+source-wordcount: 106
 ht-degree: 0%
 
 ---
@@ -35,6 +35,6 @@ ht-degree: 0%
 * [증명 및 Creative Cloud Express 시작](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
 * [통합 검토 및 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [Frame.io 통합과 함께 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
-* [Experience Manager Assets의 컨텐츠 및 폴더를 Adobe 클라우드 스토리지와 연결](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
+* [Experience Manager Assets의 자산을 Adobe 클라우드 스토리지와 연결](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
 * [Frame.io 통합으로 Adobe Express 및 Workfront 시작하기](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
 

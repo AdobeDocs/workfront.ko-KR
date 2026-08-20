@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 423
 ht-degree: 6%
 
 ---
 
 # 요약을 사용하여 업무 균형자에서 작업 항목 업데이트
 
-작업 또는 문제의 요약 패널을 사용하여 해당 항목에 대한 중요한 정보를 업데이트할 수 있습니다. 업무 균형자에서.
+작업 또는 문제의 요약 패널을 사용하여 업무 균형자에서 해당 항목에 대한 중요한 정보를 업데이트할 수 있습니다.
 
 요약 패널은 업무 균형자의 할당된 작업 영역과 할당되지 않은 작업 영역 모두에서 작업 및 문제에 사용할 수 있습니다.
 
@@ -96,7 +96,7 @@ ht-degree: 6%
 
    ![요약 패널](assets/summary-panel-task-wb-new-comments.png)
 
-1. 작업 항목에 대한 필드 수를 수정하거나, 업데이트를 입력하거나, 여기에서 Workfront의 다른 영역으로 이동하여 작업 항목에 문서 또는 기타 정보를 추가합니다.
+1. 작업 항목에 대한 여러 필드를 수정하거나, 업데이트를 입력하거나, 여기에서 Workfront의 다른 영역으로 이동하여 작업 항목에 문서 또는 기타 정보를 추가하십시오.
 
    >[!CAUTION]
    >

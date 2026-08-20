@@ -1,23 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: native-integrations
-title: Experience Manager Assets의 컨텐츠 및 폴더를 Adobe 클라우드 스토리지와 연결
-description: 조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Experience Manager Assets의 컨텐츠 및 폴더를 문서를 지원하는 모든 Adobe Workfront 개체에 연결할 수 있습니다.
+title: Experience Manager Assets의 자산을 Adobe 클라우드 스토리지와 연결
+description: 조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Experience Manager Assets의 자산을 문서를 지원하는 모든 Adobe Workfront 개체에 연결할 수 있습니다.
 author: Courtney
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
 
-# Experience Manager Assets의 컨텐츠 및 폴더를 Adobe 클라우드 스토리지와 연결
+# Experience Manager Assets의 자산을 Adobe 클라우드 스토리지와 연결
 
-조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Experience Manager Assets에서 Workfront으로 컨텐츠 및 폴더를 연결할 수 있습니다. 연결되면 Workfront에서 컨텐츠를 보고 관리할 수 있으며, Experience Manager Assets의 컨텐츠에 대한 모든 변경 사항이 Workfront에 반영됩니다.
+조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Experience Manager Assets의 자산을 Workfront에 연결할 수 있습니다. 연결되면 Workfront에서 에셋을 보고 관리할 수 있으며, Experience Manager Assets의 에셋에 대한 모든 변경 사항이 Workfront에 반영됩니다.
 
 >[!IMPORTANT]
 >
->조직에서 GenAI 라이더 계약에 서명하는 것을 거부하는 경우 Content Advisor를 사용하여 Experience Manager Assets에서 에셋 및 폴더를 선택할 수는 있지만 AI 검색, 스마트 제안 또는 캠페인 개요 분석과 같은 AI 기반 기능에 액세스할 수는 없습니다.
+>조직에서 GenAI 라이더 계약에 서명하는 것을 거부하는 경우 Content Advisor를 사용하여 Experience Manager Assets에서 자산을 선택할 수는 있지만 AI 검색, 스마트 제안 또는 캠페인 개요 분석과 같은 AI 기반 기능에 액세스할 수는 없습니다.
 
 ## 액세스 요구 사항
 
