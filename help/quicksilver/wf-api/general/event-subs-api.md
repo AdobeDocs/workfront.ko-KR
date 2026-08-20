@@ -10,17 +10,12 @@ exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
 workflow-type: tm+mt
-source-wordcount: 3146
+source-wordcount: 3308
 ht-degree: 5%
 
 ---
@@ -118,13 +113,13 @@ ht-degree: 5%
 
 * objId (선택 사항)
 
-   * **문자열** - 이벤트가 실행되는 지정된 objCode의 개체 ID입니다. 이 필드가 지정되지 않으면 사용자는 지정된 유형의 모든 객체에 대한 이벤트를 수신합니다.
+  * **문자열** - 이벤트가 실행되는 지정된 objCode의 개체 ID입니다. 이 필드가 지정되지 않으면 사용자는 지정된 유형의 모든 객체에 대한 이벤트를 수신합니다.
 
 * objCode(필수)
 
-   * **문자열** - 변경 내용을 구독하는 개체의 objCode입니다. 아래 표에는 objCode에 대해 가능한 값이 나열되어 있습니다.
+  * **문자열** - 변경 내용을 구독하는 개체의 objCode입니다. 아래 표에는 objCode에 대해 가능한 값이 나열되어 있습니다.
 
-     <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -263,19 +258,23 @@ ht-degree: 5%
 
 * eventType(필수)
 
-   * **문자열** - 개체가 구독한 이벤트 유형을 나타내는 값입니다. 사용 가능한 이벤트 유형은 다음과 같습니다.
+  * **문자열** - 개체가 구독한 이벤트 유형을 나타내는 값입니다. 사용 가능한 이벤트 유형은 다음과 같습니다.
 
-      * 만들기
-      * DELETE
-      * 업데이트
+    * 만들기
+    * DELETE
+    * 업데이트
 
 * url(필수)
 
-   * **문자열** - HTTP를 통해 구독 이벤트 페이로드가 전송되는 끝점의 URL입니다.
+  * **문자열** - HTTP를 통해 구독 이벤트 페이로드가 전송되는 끝점의 URL입니다.
 
-* authToken(필수)
+* authToken(만들 때 필요)
 
-   * **문자열** - &quot;URL&quot; 필드에 지정된 URL로 인증하는 데 사용되는 OAuth2 전달자 토큰입니다.
+  * **문자열** - &quot;URL&quot; 필드에 지정된 URL로 인증하는 데 사용되는 OAuth2 전달자 토큰입니다. 구독 생성 응답에는 이 필드가 전혀 포함되지 않으며 이 필드를 포함하는 모든 이후 응답은 마지막 4자만 마스킹되어 표시됩니다. 제출한 후에는 전체 값이 반환되지 않으므로 전송한 항목의 복사본을 보관하는 것이 좋습니다.
+
+>[!NOTE]
+>
+>`authToken`은(는) 항상 응답에서 마스킹되어 최대 4자까지 표시됩니다(예: `****1234`). 토큰이 8자 이하이면 대신 완전히 마스킹됩니다. 따라서 마스킹에서 짧은 토큰의 절반 이상을 표시하지 않습니다. 더 이상 사용되지 않는 목록 끝점을 포함하여 구독 세부 정보를 반환하는 모든 끝점에 적용됩니다.
 
 ## 이벤트 구독 API 요청 만들기
 
@@ -430,7 +429,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -504,7 +503,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -631,10 +630,10 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 * 여러 이벤트 구독이 단일 개체에 할당되면 해당 개체와 연결된 모든 이벤트 구독이 단일 끝점에 반환될 수 있습니다. 이 연습은 필터 매개 변수를 사용하여 설정할 수 없는 논리 연산자 **OR**&#x200B;에 대한 동등한 대용으로 사용할 수 있습니다.
 * 다음 필드는 필터링할 수 없습니다.
 
-   * DOCU.groups
-   * RECORD.data
-   * RECORD_TYPE.data
-   * RECORD_TYPE.fields
+  * DOCU.groups
+  * RECORD.data
+  * RECORD_TYPE.data
+  * RECORD_TYPE.fields
 
 ### 비교 연산자 사용
 
@@ -866,7 +865,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >지정된 필터가 있는 아래 구독은 `oldState`에서 작업 이름이 `again`인 메시지만 반환합니다. 이 메시지는 작업에 대한 업데이트가 이루어지기 전입니다.
->이 사용 사례는 한 항목에서 다른 항목으로 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
+>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
 
 ```
 {
@@ -1031,8 +1030,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
    * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * 이 그룹은 두 개의 내부 필터를 평가합니다.
 
-      * 먼저 작업 상태가 &quot;현재&quot;(현재)와 같은지 확인합니다.
-      * 두 번째는 우선 순위가 &quot;1&quot;(높은 우선 순위)인지 확인합니다.
+     * 먼저 작업 상태가 &quot;현재&quot;(현재)와 같은지 확인합니다.
+     * 두 번째는 우선 순위가 &quot;1&quot;(높은 우선 순위)인지 확인합니다.
    * 커넥터가 &quot;OR&quot;이므로 두 조건 중 하나가 true이면 이 그룹이 전달됩니다.
 
 1. 최상위 커넥터(filterConnector: AND):
@@ -1370,7 +1369,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "TASK",
                 "url": "http://test.test.net/test/1234",
                 "event_type": "UPDATE",
-                "auth_token": "auth_token"
+                "auth_token": "****oken"
                 },
                 {
                 "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
@@ -1379,7 +1378,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "PROJ",
                 "url": "http://requestb.in/ua5hi2ua",
                 "event_type": "UPDATE",
-                "auth_token": "authTokenWorkfrontRocks1234_"
+                "auth_token": "****234_"
                 }                
                 ]
 ```
