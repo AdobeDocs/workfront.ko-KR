@@ -9,18 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: b0e81d76-5227-4fda-9a58-68fbce3f5b94
 TQID: https://experienceleague.adobe.com/jJA7M34HwNyM-906Poo9-uTVmB4kQnXMv8iBWminjjg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 354
-ht-degree: 5%
+source-wordcount: 352
+ht-degree: 4%
 
 ---
 
@@ -29,8 +25,6 @@ ht-degree: 5%
 조직에서 더 이상 사용하지 않는 작업 역할을 삭제할 수 있습니다. 작업 역할이 과거에 작업 항목과 연결된 경우에는 삭제하지 않는 것이 좋습니다.
 
 작업 할당에 대한 모든 내역 정보를 유지하려면 더 이상 사용되지 않는 역할을 삭제하는 대신 비활성화하는 것이 좋습니다. 역할 비활성화에 대한 자세한 내용은 [작업 역할 비활성화](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)를 참조하십시오.
-
-## 액세스 요구 사항
 
 ## 액세스 요구 사항
 

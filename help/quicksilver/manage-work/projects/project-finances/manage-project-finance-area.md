@@ -7,21 +7,14 @@ author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
 TQID: https://experienceleague.adobe.com/ax957eBrqej3uH8M4mZkSuY-heCNGWTiiwbBZTcH7VE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 1282
+source-wordcount: 1277
 ht-degree: 4%
 
 ---
@@ -81,7 +74,7 @@ ht-degree: 4%
 1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭합니다.
 1. 세부 정보 섹션의 오른쪽 상단에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 **재무**&#x200B;을 클릭합니다.
 
-   ![세부 정보 보기의 재무 영역](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![세부 정보 보기의 재무 영역](assets/finance-area-in-details-view.png)
 
    >[!NOTE]
    >
@@ -147,15 +140,15 @@ ht-degree: 4%
 
 ## 프로젝트의 재무 정보 편집
 
-프로젝트 소유자는 프로젝트의 재무 하위 탭에 있는 정보를 편집할 수 있습니다.
+프로젝트 소유자는 프로젝트의 재무 영역에서 정보를 편집할 수 있습니다.
 
-Project Finance 하위 탭의 정보를 편집하려면
+Project Finance 영역에서 정보를 편집하려면 다음을 수행합니다.
 
-1. 자신이 소유자인 프로젝트로 이동합니다.
+1. 소유한 프로젝트로 이동합니다.
 
    >[!NOTE]
    >
-   >다음 단계를 수행하려면 프로젝트에 대한 관리 권한이 필요합니다. 또한 프로젝트 소유자만 프로젝트의 재무 하위 탭을 변경하는 것이 좋습니다.
+   >다음 단계를 수행하려면 프로젝트에 대한 관리 권한이 필요합니다. 또한 프로젝트 소유자만 프로젝트의 재무 영역을 변경하는 것이 좋습니다.
 
 1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭합니다.
 1. 세부 정보 섹션의 오른쪽 상단에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 **재무**&#x200B;을 클릭합니다. 편집을 위해 재무 영역이 열립니다.
@@ -165,9 +158,7 @@ Project Finance 하위 탭의 정보를 편집하려면
    >
    >Workfront에서 필드를 자동으로 계산하거나 편집 권한이 없는 경우 편집할 수 없습니다.
 
-   ![재무 영역 편집](assets/edit-finance-area-in-project-details-nwe-350x275.png)
-
-1. 아래 필드를 업데이트합니다.
+1. 아래 나열된 필드를 업데이트합니다.
 
    >[!NOTE]
    >
