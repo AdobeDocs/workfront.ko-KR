@@ -4,7 +4,7 @@ description: 2026년 4분기 보고 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
+source-git-commit: a86f0169f804520be2828983a737c8c8d151792d
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -30,22 +30,6 @@ ht-degree: 0%
 기존 일정은 종료 날짜를 업데이트해 신뢰성을 높이고 불필요한 시스템 사용량을 줄였다. 또한 Workfront에서는 종료 날짜가 가까워지면 보고서 예약 주기를 관리하는 데 도움이 되는 추가 가시성 및 경고를 제공합니다.
 
 자세한 내용은 [자동 보고서 배달 예약](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)을 참조하세요.
-
-<!--
-
-## Updated column headers for dependent connected record fields
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-We've made visual improvements to the column headers for a dependent connected record field in the table view.
-
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
--->
 
 ## 기본 참조 필드는 목록 및 보고서에 사용할 수 있습니다
 

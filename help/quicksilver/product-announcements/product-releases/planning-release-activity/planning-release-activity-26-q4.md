@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
+source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,18 @@ ht-degree: 0%
 이 문서에서는 2026년 4분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 종속적으로 연결된 레코드 필드에 대한 열 헤더가 업데이트되었습니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 8월 20일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+테이블 보기에서 종속적으로 연결된 레코드 필드의 열 머리글을 시각적으로 개선했습니다.
+
+자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.
 
 ## 여러 행을 끌어다 놓을 때 표 보기 개선 사항
 
@@ -63,22 +75,6 @@ For more information, see [Manage the timeline view](/help/quicksilver/planning/
 
 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
-<!--
-
-## Updated column headers for dependent connected record fields
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-We've made visual improvements to the column headers for a dependent connected record field in the table view.
-
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
--->
-
 ## Workfront Planning 솔루션 설계자 스킬 소개
 
 >[!NOTE]
@@ -86,12 +82,14 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 >미리 보기: 2026년 8월 10일
 >프로덕션: 2026년 8월 10일
 
-Cloud Planning에 대한 모범 사례 및 진행 지침을 직접 Workfront Planning에 제공하는 새로운 기술인 Workfront Planning 솔루션 설계자를 사용하고 있습니다. 이제 Claude 인터페이스에서 다음을 수행할 수 있습니다.
+Workfront Planning에 대한 간결한 모범 사례 지침을 Claude에 직접 제공하는 새로운 기술인 Workfront Planning 솔루션 설계자를 출시합니다.
 
-* Workfront MCP 서버가 사용자 환경에서 설정을 실행하면서 비즈니스 요구 사항에 맞게 새 Planning 작업 영역을 구성합니다.
-* 규모에 맞게 패턴 방지에 대한 기존 구성을 감사합니다.
-* 권장 한도에 대해 사용량을 확인하십시오.
-* Planning에 대해 질문합니다.
+* Workfront MCP 서버가 사용자 환경에서 설정을 실행하여 지정할 새 계획 작업 영역을 **구성**&#x200B;합니다.
+* 규모에 맞게 반대 패턴에 대한 기존 구성을 **감사**&#x200B;합니다.
+* 권장 제한(레코드, 연결, 계층 구조 깊이)에 대해 **사용량을 확인**&#x200B;합니다.
+* 언제든지 Planning에 대해 **질문하기**.
+
+초기 설정 외에도 이 기술은 마찰을 일으키기 전에 구성 변화를 포착하고, 차단기가 되기 전에 접근 제한에 도달하며, 구성 주체에 관계없이 모든 작업 영역에서 일관된 표준을 적용하고, 전문가를 기다리지 않고 팀원의 누구에게나 정확한 답변을 제공함으로써 지속적인 거버넌스를 지원합니다. 이를 통해 작업 영역을 올바로 설정하고 사용량이 증가할 때 그러한 방식으로 유지하는 전체 라이프사이클을 다룹니다.
 
 자세한 내용은 직접 설치에 사용할 수 있는 [기술](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)을 참조하세요.
 
