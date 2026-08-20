@@ -7,27 +7,21 @@ author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
 TQID: https://experienceleague.adobe.com/AREKzNODjF60azs3tXIndVE9QuXXw-14Qlv2nUl9Po4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 382
+source-wordcount: 387
 ht-degree: 7%
 
 ---
 
 # 업무 균형자에서 작업 할당 해제
 
-Adobe Workfront 업무 균형자 의 할당된 작업 영역에서 작업 항목에서 사용자 할당을 해제하거나 다른 사용자, 역할 또는 팀에 재할당할 수 있습니다.
+Adobe Workfront 업무 균형자 의 할당된 작업 영역에서 사용자 할당을 해제하거나 다른 사용자, 작업 공동 작업자, 역할 또는 팀에 재할당할 수 있습니다.
 
 사용자를 수동으로 끌어다 놓거나 일괄적으로 지정하여 작업 항목에서 할당 해제할 수 있습니다. 이 문서에서는 사용자를 수동으로 할당 해제하는 방법을 설명합니다.
 
@@ -75,7 +69,7 @@ Adobe Workfront 업무 균형자 의 할당된 작업 영역에서 작업 항목
 
 ## 업무 균형자에서 작업 항목 할당 해제
 
-사용자의 항목 할당을 해제하고 할당 해제된 작업 영역으로 이동하거나 다른 사용자에게 재할당할 수 있습니다.
+사용자의 항목 할당을 해제하고 할당 해제된 작업 영역으로 이동하거나 다른 사용자 또는 작업 공동 작업자에게 재할당할 수 있습니다.
 
 사용자로부터 작업 항목 할당을 취소하려면 다음을 수행합니다.
 

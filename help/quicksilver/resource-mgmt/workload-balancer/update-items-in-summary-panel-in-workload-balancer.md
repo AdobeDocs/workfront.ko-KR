@@ -7,27 +7,21 @@ author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 TQID: https://experienceleague.adobe.com/eO2UAKzj1TjLfpJKNZ5jewp-S3aNVgxucSUJdu7jaC0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 423
 ht-degree: 6%
 
 ---
 
 # 요약을 사용하여 업무 균형자에서 작업 항목 업데이트
 
-작업 또는 문제의 요약 패널을 사용하여 해당 항목에 대한 중요한 정보를 업데이트할 수 있습니다. 업무 균형자에서.
+작업 또는 문제의 요약 패널을 사용하여 업무 균형자에서 해당 항목에 대한 중요한 정보를 업데이트할 수 있습니다.
 
 요약 패널은 업무 균형자의 할당된 작업 영역과 할당되지 않은 작업 영역 모두에서 작업 및 문제에 사용할 수 있습니다.
 
@@ -96,7 +90,7 @@ ht-degree: 6%
 
    ![요약 패널](assets/summary-panel-task-wb-new-comments.png)
 
-1. 작업 항목에 대한 필드 수를 수정하거나, 업데이트를 입력하거나, 여기에서 Workfront의 다른 영역으로 이동하여 작업 항목에 문서 또는 기타 정보를 추가합니다.
+1. 작업 항목에 대한 여러 필드를 수정하거나, 업데이트를 입력하거나, 여기에서 Workfront의 다른 영역으로 이동하여 작업 항목에 문서 또는 기타 정보를 추가하십시오.
 
    >[!CAUTION]
    >

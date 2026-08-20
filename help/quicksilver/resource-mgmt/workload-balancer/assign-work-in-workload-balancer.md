@@ -7,21 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 TQID: https://experienceleague.adobe.com/V48Ew1abmm8Qkf2qwpO-9aERwltZq-3L0l2EEsNa8do
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1104
 ht-degree: 1%
 
 ---
@@ -30,7 +23,7 @@ ht-degree: 1%
 
 <!-- Audited: 5/2025 -->
 
-리소스 관리자는 Adobe Workfront 업무 균형자 를 사용하여 사용자에게 아직 할당되지 않은 작업 항목을 보고 사용자에게 할당할 수 있습니다.
+리소스 관리자는 Adobe Workfront 업무 균형자 를 사용하여 사용자 및 작업 공동 작업자에게 아직 할당되지 않은 작업 항목을 보고 할당할 수 있습니다.
 
 업무 균형자에 대한 일반적인 정보는 [업무 균형자 개요](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)를 참조하십시오.
 
@@ -51,10 +44,10 @@ Workfront은 다음 정보를 사용하여 업무 균형자에서 사용자의 �
 
 * 리소스 관리 기본 설정. Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나를 사용하도록 선택하여 시스템에 대한 사용 가능 시간이 계산되는 방법을 결정합니다.
 
-   * Workfront 시스템 및 사용자 FTE의 기본 일정.
-   * 사용자 프로필 영역에 표시된 사용자의 일정입니다.
+  * Workfront 시스템 및 사용자 FTE의 기본 일정.
+  * 사용자 프로필 영역에 표시된 사용자의 일정입니다.
 
-     사용자의 일별 및 주별 가용성을 계산합니다. 선택한 일정에 대한 모든 일정 예외는 업무 균형자에서 사용자의 용량에 반영됩니다.
+    사용자의 일별 및 주별 가용성을 계산합니다. 선택한 일정에 대한 모든 일정 예외는 업무 균형자에서 사용자의 용량에 반영됩니다.
 
   자세한 내용은 [리소스 관리 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)을 참조하십시오.
 
@@ -172,9 +165,9 @@ Workfront은 다음 정보를 사용하여 업무 균형자에서 사용자의 �
 * 작업 또는 문제는 일반적으로 하나 이상의 작업 역할이나 팀에 먼저 할당됩니다. 프로젝트를 시작할 준비가 되면 사용자에게 할당해야 할 수도 있습니다.\
   작업 또는 문제가 하나 이상의 역할에 할당된 다음 사용자도 할당하는 경우, Adobe Workfront은 다음 규칙에 따라 추가 사용자와 연결할 작업 역할(있는 경우)을 결정합니다.
 
-   * 할당된 작업 역할이 하나뿐이고 사용자의 기본 역할과 일치하는 경우 작업 또는 문제는 기본 역할을 수행하는 사용자에게만 할당됩니다.
-   * 여러 개의 역할이 할당되고 하나 이상의 역할이 사용자의 보조 역할과 일치하는 경우 작업 또는 문제는 다른 역할(여러 개의 일치하는 역할이 있는 경우 Workfront에서 임의로 선택) 중 하나를 이행하는 사용자와 할당된 추가 역할에 할당됩니다.
-   * 하나 이상의 작업 역할이 할당되고 사용자의 역할에 일치하는 항목이 없는 경우 작업 또는 문제는 사용자뿐만 아니라 역할이나 역할 모두에 할당됩니다.
+  * 할당된 작업 역할이 하나뿐이고 사용자의 기본 역할과 일치하는 경우 작업 또는 문제는 기본 역할을 수행하는 사용자에게만 할당됩니다.
+  * 여러 개의 역할이 할당되고 하나 이상의 역할이 사용자의 보조 역할과 일치하는 경우 작업 또는 문제는 다른 역할(여러 개의 일치하는 역할이 있는 경우 Workfront에서 임의로 선택) 중 하나를 이행하는 사용자와 할당된 추가 역할에 할당됩니다.
+  * 하나 이상의 작업 역할이 할당되고 사용자의 역할에 일치하는 항목이 없는 경우 작업 또는 문제는 사용자뿐만 아니라 역할이나 역할 모두에 할당됩니다.
 
 * 작업 또는 문제가 팀에 할당되고 사용자도 할당되면 작업 또는 문제는 팀과 사용자 모두에게 할당된 상태로 유지됩니다.
 

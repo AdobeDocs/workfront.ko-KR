@@ -7,19 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 TQID: https://experienceleague.adobe.com/jNdb4450a6iY7-mkcBOCBOVD-JH6tRUb-LrqwpD2mQE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 515
-ht-degree: 13%
+source-wordcount: 544
+ht-degree: 12%
 
 ---
 
@@ -89,7 +84,7 @@ ht-degree: 13%
      </tr>
      <tr>
       <td role="rowheader"><strong>풀 멤버</strong></td>
-      <td><p> 리소스 풀에 개별적으로 사용자를 추가하세요.<br>또는 <br>리소스 풀에 한 번에 많은 사용자를 추가하세요. 사용자 또는 사용자 컬렉션과 연결된 다음 엔티티 중 하나를 추가할 수 있습니다.
+      <td><p> 리소스 풀에 개별적으로 사용자를 추가합니다.<br>또는 <br>한 번에 많은 사용자를 리소스 풀에 추가합니다. 사용자 또는 사용자 컬렉션과 연결된 다음 엔티티 중 하나를 추가할 수 있습니다.
         <ul>
          <li><strong>팀</strong>: 팀의 모든 구성원이 리소스 풀에 추가됩니다.</li>
          <li><strong>그룹</strong>: 그룹의 모든 구성원이 리소스 풀에 추가됩니다.</li>

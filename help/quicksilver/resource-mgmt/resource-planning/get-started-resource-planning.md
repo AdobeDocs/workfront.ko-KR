@@ -8,18 +8,13 @@ author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
 TQID: https://experienceleague.adobe.com/a1BAY-ZUWgGlg96Cq7RKPbg3m-OfT-c106ttm2goj-k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 559
 ht-degree: 0%
 
 ---
@@ -55,7 +50,7 @@ Adobe Workfront 리소스 관리 도구를 사용하여 리소스 할당을 예�
 
 * 단일 프로젝트에 대한 예산 배정: 프로젝트의 비즈니스 사례에서 리소스 예산 책정 영역에 있는 프로젝트 수준 리소스 플래너를 사용합니다. 한 프로젝트의 리소스 예산 편성에 대한 자세한 내용은 [비즈니스 사례의 리소스 예산](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md) 문서를 참조하십시오.
 
-  사용자를 관리하고 공통 기술 또는 부서 구조를 기반으로 풀에 구성한 다음 할당된 프로젝트에 대한 할당을 관리하려면 리소스 풀을 생성해야 합니다. 리소스 풀 만들기에 대한 자세한 내용은 [리소스 풀 만들기](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)를 참조하십시오.
+  사용자를 관리하려면 공통 기술 또는 부서 구조를 기반으로 풀에 사용자를 구성한 다음 할당된 프로젝트에 대한 할당을 관리하려면 리소스 풀을 만들어야 합니다. 리소스 풀 만들기에 대한 자세한 내용은 [리소스 풀 만들기](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)를 참조하십시오.
 
   >[!TIP]
   >
@@ -69,9 +64,9 @@ Adobe Workfront 리소스 관리 도구를 사용하여 리소스 할당을 예�
 
 * 리소스 플래너를 사용하여 다음을 수행할 수 있습니다.
 
-   * 프로젝트의 우선 순위를 지정하여 리소스를 먼저 받을 프로젝트를 결정하십시오. (리소스 플래너에서만)
-   * 사용자의 일정에 따라 리소스의 가용성을 이해합니다.
-   * 할당된 프로젝트의 리소스(사용자 및 작업 역할)에 대한 예산 시간, FTE 또는 비용 할당.
+  * 프로젝트의 우선 순위를 지정하여 리소스를 먼저 받을 프로젝트를 결정하십시오. (리소스 플래너에서만)
+  * 사용자의 일정에 따라 리소스의 가용성을 이해합니다.
+  * 할당된 프로젝트의 리소스(사용자 및 작업 역할)에 대한 예산 시간, FTE 또는 비용 할당.
 
   리소스 플래너에서의 작업에 대한 자세한 내용은 문서 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.
 
