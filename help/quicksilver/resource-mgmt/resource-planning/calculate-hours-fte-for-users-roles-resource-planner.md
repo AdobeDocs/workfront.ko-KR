@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
 source-wordcount: 1325
 ht-degree: 0%
@@ -60,7 +60,7 @@ Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나
 * 시스템 및 사용자 FTE의 기본 일정입니다.
 * 사용자의 일정입니다.
 
-![사용자 일정에 대한 시스템 설정](assets/setup-resource-mgmt.png)
+![사용자 일정에 대한 시스템 설정](assets/resource-management-preferences-section-in-setup.png)
 
 >[!NOTE]
 >
@@ -70,31 +70,31 @@ Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나
 
 * **기본 일정**: 시스템의 기본 일정과 사용자 FTE를 사용하여 리소스 플래너에서 사용자의 사용 가능한 시간과 FTE 값을 결정합니다. 사용자의 일정이 무시됩니다. 이 경우:
 
-   * 리소스 플래너의 사용 가능 시간은 다음 공식을 사용하여 계산됩니다.
+  * 리소스 플래너의 사용 가능 시간은 다음 공식을 사용하여 계산됩니다.
 
-     `User Available Hours = Default Schedule Hours * User FTE value`
+    `User Available Hours = Default Schedule Hours * User FTE value`
 
-     예를 들어 기본 일정에 일주일에 40시간을 사용할 수 있고 사용자 FTE가 0.5인 경우 리소스 플래너에서 일주일에 20시간 동안 작업할 수 있습니다.
+    예를 들어 기본 일정에 일주일에 40시간을 사용할 수 있고 사용자 FTE가 0.5인 경우 리소스 플래너에서 일주일에 20시간 동안 작업할 수 있습니다.
 
-     기본 일정을 포함하여 일정에 대한 자세한 내용은 [일정 만들기](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
+    기본 일정을 포함하여 일정에 대한 자세한 내용은 [일정 만들기](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
 
-   * 리소스 플래너의 사용자에 대해 사용 가능한 FTE는 사용자 설정에 지정된 사용자 FTE와 동일합니다.
+  * 리소스 플래너의 사용자에 대해 사용 가능한 FTE는 사용자 설정에 지정된 사용자 FTE와 동일합니다.
 
-     예를 들어 사용자 설정에서 사용자 FTE가 0.5이면 리소스 플래너에서 사용자의 사용 가능한 FTE는 0.5입니다. 사용자 설정에 표시되는 사용자 FTE의 값에 대한 자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.
+    예를 들어 사용자 설정에서 사용자 FTE가 0.5이면 리소스 플래너에서 사용자의 사용 가능한 FTE는 0.5입니다. 사용자 설정에 표시되는 사용자 FTE의 값에 대한 자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.
 
 * **사용자 일정**: 사용자 일정은 리소스 플래너에서 사용자의 사용 가능 여부를 확인하는 데 사용됩니다. 사용자 FTE의 값은 무시됩니다. 이 경우:
 
-   * 리소스 플래너의 사용 가능한 시간은 사용자 일정의 시간과 동일합니다.
+  * 리소스 플래너의 사용 가능한 시간은 사용자 일정의 시간과 동일합니다.
 
-     예를 들어 사용자의 일정에 일주일에 40시간을 작업할 수 있는 경우 리소스 플래너에서 일주일에 40시간 동안 작업할 수 있습니다.
+    예를 들어 사용자의 일정에 일주일에 40시간을 작업할 수 있는 경우 리소스 플래너에서 일주일에 40시간 동안 작업할 수 있습니다.
 
-   * 리소스 플래너의 사용 가능한 FTE는 다음 수식으로 계산됩니다.
+  * 리소스 플래너의 사용 가능한 FTE는 다음 수식으로 계산됩니다.
 
-     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+    `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-     예를 들어 사용자의 일정에 20시간을 사용할 수 있고 Workfront의 기본 일정에 40시간을 사용할 수 있는 경우 사용자의 FTE는 0.5입니다.
+    예를 들어 사용자의 일정에 20시간을 사용할 수 있고 Workfront의 기본 일정에 40시간을 사용할 수 있는 경우 사용자의 FTE는 0.5입니다.
 
-     기본 일정을 포함하여 일정에 대한 자세한 내용은 [일정 만들기](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
+    기본 일정을 포함하여 일정에 대한 자세한 내용은 [일정 만들기](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -104,8 +104,9 @@ Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나
 
 먼저 사용자 가용성을 계산한 다음 각 작업 역할의 가용성을 계산할 수 있습니다.
 
-리소스 플래너에서 작업 역할의 가용성은 사용자의 총 가용성과 사용자의 각 역할과 연관된 FTE 가용성의 백분율을 고려합니다.\
-![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
+리소스 플래너에서 작업 역할의 가용성은 사용자의 총 가용성과 사용자의 각 역할과 연관된 FTE 가용성의 백분율을 고려합니다.
+
+![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level.png)
 
 사용자의 작업 역할과 FTE 가용성 비율 값을 연결하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.
 

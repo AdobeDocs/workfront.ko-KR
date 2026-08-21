@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
+source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
 workflow-type: tm+mt
-source-wordcount: '14427'
+source-wordcount: '14435'
 ht-degree: 2%
 
 ---
@@ -1931,6 +1931,7 @@ ht-degree: 2%
     * [Workfront 콘텐츠 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Adobe 클라우드 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Adobe 클라우드 스토리지 모델에 대한 개체 권한 및 액세스 수준 개요](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+    * [기존 문서 승인에서 통합 승인으로 이동](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * 자산 및 문서 승인 설정 및 관리 {#manage-asset-review-and-approval}
       * [통합 승인 설정 및 관리: 문서 색인](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [콘텐츠 검토자를 위한 브랜드 만들기 및 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)

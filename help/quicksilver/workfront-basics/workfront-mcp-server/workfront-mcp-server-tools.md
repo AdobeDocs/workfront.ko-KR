@@ -5,9 +5,9 @@ title: Adobe Workfront MCP 서버 도구
 description: Workfront 영역별로 그룹화된 Adobe Workfront MCP 서버를 통해 사용할 수 있는 도구의 참조 목록입니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2de2dd8d79af0929f010cda304f8d1e008deb553
+source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
 workflow-type: tm+mt
-source-wordcount: '2705'
+source-wordcount: '2721'
 ht-degree: 4%
 
 ---
@@ -110,8 +110,8 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 
 | 제목 | 도구 이름 | 기능 | 액션 |
 | --- | --- | --- | --- |
-| 이름으로 프로젝트 찾기 | `approvals_find_project_by_name` | 시스템 전체에서 부분 이름 일치로 Workfront 프로젝트를 조회합니다. | 읽기 |
-| 소유자별 프로젝트 가져오기 | `approvals_get_projects_by_owner` | 호출 사용자가 소유자인 Workfront 프로젝트를 나열합니다. | 읽기 |
+| 이름으로 프로젝트 찾기 | `approvals_find_project_by_name` | 2026년 8월 13일이 제거되었습니다. 대신 `insights_find_id_by_name`을(를) 사용합니다. 이 도구는 시스템 전체에서 부분 이름 일치를 기준으로 Workfront 프로젝트를 조회했습니다. | 읽기 |
+| 소유자별 프로젝트 가져오기 | `approvals_get_projects_by_owner` | 2026년 8월 13일이 제거되었습니다. 대신 `insights_find_workfront_data`을(를) 사용합니다. 이 도구는 호출 사용자가 소유자였던 Workfront 프로젝트를 나열했습니다. | 읽기 |
 | 현재 사용자 가져오기 | `approvals_get_current_user` | 2026년 8월 13일이 제거되었습니다. 이 도구는 이름, 사용자 ID, 홈 팀 이름 및 홈 팀 ID를 포함하여 호출하는 사용자의 Workfront ID를 반환했습니다. 유사한 기능은 Insights 도구의 [현재 사용자 가져오기](#insights-tools)를 참조하십시오. | 읽기 |
 | 이름으로 사용자 찾기 | `approvals_find_user_by_name` | 사용하지 않음. 대신 `insights_search_users`을(를) 사용합니다. 이 도구는 Workfront 사용자의 ID를 이름(유사 항목 또는 부분 일치), 반환 이름, ID, 이메일, 제목 및 아바타 URL로 조회합니다. | 읽기 |
 | 이름으로 팀 찾기 | `approvals_find_team_by_name` | 사용하지 않음. 대신 `insights_find_id_by_name`을(를) 사용합니다. 이 도구는 이름으로 Workfront 팀의 ID를 조회했습니다(유사 항목 또는 부분 일치). | 읽기 |

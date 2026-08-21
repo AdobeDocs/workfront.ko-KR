@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 647
 ht-degree: 3%
 
 ---
@@ -120,12 +120,12 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **[!UICONTROL &#x200B;작업 역할].**&#x200B;을 클릭합니다.
-1. (선택 사항) **[!UICONTROL 필터]** 드롭다운 메뉴에서 **[!UICONTROL 활성]**&#x200B;을(를) 선택하여 활성 작업 역할만 표시합니다.
-1. 비활성화할 작업 역할의 이름을 클릭합니다.
-1. **[!UICONTROL 활성 상태임]** 드롭다운 메뉴에서 **[!UICONTROL 아니요]**&#x200B;를 선택합니다.
+1. (선택 사항) **[!UICONTROL 필터]** 목록에서 **[!UICONTROL 활성]**&#x200B;을 선택하여 활성 작업 역할만 표시합니다.
+1. 비활성화하려는 작업 역할 옆의 확인란을 선택하고 [!UICONTROL **편집**] 아이콘 [편집 아이콘](assets/edit-icon.png)을 클릭합니다.
+1. **[!UICONTROL 활성 상태]** 필드에 대해 **[!UICONTROL 아니요]**&#x200B;를 선택합니다.
 
-   ![작업 역할 비활성화](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![작업 역할 비활성화](assets/edit-job-role.png)
 
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    작업 역할이 비활성화되어 레이아웃 템플릿과 연결된 작업 등에 더 이상 할당할 수 없습니다. [!DNL Workfront]의 모든 작업 역할 사용에 대한 자세한 내용은 [작업 역할 개요](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)를 참조하십시오.

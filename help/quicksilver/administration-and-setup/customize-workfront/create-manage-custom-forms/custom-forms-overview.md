@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: 396
 ht-degree: 13%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 13%
 
 예를 들어 프로젝트의 사용자가 프로젝트에 대한 마케팅 콘텐츠를 요청할 수 있도록 &quot;마케팅 콘텐츠 리서치&quot;라는 사용자 정의 양식을 프로젝트에 첨부할 수 있습니다.
 
-![세부 정보 페이지](assets/see-image-details-page.png)
+![프로젝트 세부 정보 페이지](assets/see-image-details-page.png)
 
 ## 사용자 정의 양식을 만드는 방법
 
