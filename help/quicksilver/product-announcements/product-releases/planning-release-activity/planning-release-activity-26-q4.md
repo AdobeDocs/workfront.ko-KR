@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
+source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 >미리 보기: 2026년 8월 13일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
 >모두를 위한 프로덕션: 2026년 10월 15일
+>[!BADGE 일정 해제]{type=Neutral}
 
 테이블 보기에서 여러 행을 끌어다 놓을 때 새로운 시각적 표시기가 있습니다. 이제 더 눈에 띄는 더하기 기호와 숫자 표시기에 끌어서 놓기 작업에 대해 선택한 행 수가 표시됩니다.
 
