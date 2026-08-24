@@ -20,9 +20,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 0f2e9311d94714a3561dfdd9807e4267513e0426
 workflow-type: tm+mt
-source-wordcount: 1558
+source-wordcount: 1576
 ht-degree: 5%
 
 ---
@@ -358,6 +358,14 @@ Workfront 관리자는 만든 사람에 관계없이 시스템의 모든 개체�
    <td>시스템: 환경 설정</td> 
    <td>전체 액세스 권한</td> 
    <td>액세스 권한 없음</td> 
+  <tr> 
+   <td>변경 내용 추적: 구성</td> 
+   <td>전체 액세스 권한</td> 
+   <td>액세스 권한 없음</td> 
+  <tr> 
+   <td>변경 내용 추적: 변경 내용 목록</td> 
+   <td>전체 액세스 권한</td> 
+   <td>전체 액세스 권한</td> 
   </tr> 
  </tbody> 
 </table>
@@ -372,7 +380,7 @@ Workfront 관리자는 만든 사람에 관계없이 시스템의 모든 개체�
   <tr> 
    <th>영역/개체</th> 
    <th>Workfront 관리자 </th> 
-   <th>플랜 라이선스 및 일부 관리 권한이 있는 사용자</th> 
+   <th>표준 또는 플랜 라이선스와 일부 관리 권한이 있는 사용자</th> 
   </tr> 
  </thead> 
  <tbody> 
