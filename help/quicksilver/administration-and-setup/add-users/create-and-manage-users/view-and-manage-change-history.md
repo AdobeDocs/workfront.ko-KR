@@ -6,9 +6,9 @@ description: 변경 기록을 사용하면 Workfront 오브젝트 및 필드에 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 100b900bd7419d78a3135358026ec5e27755fdeb
+source-git-commit: 1e06115eb5688271e2a6f4c8a41647eb644d8292
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '523'
 ht-degree: 3%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 3%
 
 {{preview-fast-release-general}}
 
-변경 기록을 사용하면 Adobe Workfront의 오브젝트 및 특정 필드에 대한 변경 사항을 구성하고 추적할 수 있습니다. 유연한 구성을 통해 추적할 오브젝트 및 필드를 설정할 수 있습니다.
+변경 사항 기록을 사용하면 시스템 관리자가 Adobe Workfront의 오브젝트 및 특정 필드에 대한 변경 사항을 구성하고 추적할 수 있습니다. 관리자는 유연한 구성을 통해 추적할 오브젝트 및 필드를 설정할 수 있습니다.
 
-변경 기록은 사용자가 정의하는 다음 유형의 데이터를 추적할 수 있습니다.
+변경 기록은 다음 유형의 정의된 데이터를 추적할 수 있습니다.
 
 * 액세스 수준 또는 작업 역할 생성 또는 삭제와 같은 설정 영역의 활동
 * 프로젝트 설명 편집 또는 사용자의 레이아웃 템플릿 변경과 같은 필드 수준 업데이트
@@ -35,6 +35,11 @@ ht-degree: 3%
 * 변경 유형(작업)
 * 변경 날짜 및 시간
 * 특정 사용자, API, Workfront Fusion, AI LLM 또는 Workfront 시스템과 같은 변경 사항의 Source
+
+>[!NOTE]
+>
+>변경 내역에 액세스하면 볼 수 있는 권한이 있는 필드에 대해서만 추적된 변경 내용이 표시됩니다.
+>예를 들어 재무 데이터가 프로젝트에서 추적되고 재무 데이터에 대한 액세스 권한이 없는 경우 변경 내역 목록에 재무 필드가 표시되지 않습니다.
 
 ## 액세스 요구 사항
 
@@ -62,25 +67,6 @@ ht-degree: 3%
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
-
-<!--
-## View the Configuration area for change tracking
-
->[!NOTE]
->
->In the Production environment, Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
-
-To view the types of changes that are tracked: 
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Change Tracking > Configuration**.
-   
-   Fields are displayed grouped by object type.
-
-1. To display fields under a specific object, click the dropdown arrow next to the object type.
--->
-
 
 ## 변경 내역 목록 보기
 
