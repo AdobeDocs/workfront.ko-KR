@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
 source-wordcount: 1593
 ht-degree: 3%
@@ -69,14 +69,6 @@ ht-degree: 3%
 +++
 
 ## 타임시트 프로필 만들기 또는 편집
-
-<!--
-Old info: 
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
-<p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
-</div>
--->
 
 >[!IMPORTANT]
 >
@@ -131,9 +123,9 @@ Old info:
 
      드롭다운 메뉴를 사용하여 타임시트에 대한 승인자를 선택합니다(승인자가 필요한 경우). 다음 옵션 중에서 선택할 수 있습니다.
 
-      * **없음**: 타임시트를 승인할 필요가 없습니다.
-      * **관리자**: 시스템이 설정한 기본 승인자입니다. 이 경우 관리자로 지정된 사용자가 승인을 위해 제출한 타임시트를 승인합니다.
-      * **특정 직원**: 이름으로 특정 사용자를 타임시트 승인자로 지정할 수 있습니다. 타임시트에 여러 승인자가 있을 수 있습니다. 이 경우 승인자 중 한 명이 타임시트를 승인하면 타임시트가 **마감됨**(으)로 표시되고 나머지 모든 승인자의 타임시트 승인 목록에서 사라집니다.
+     * **없음**: 타임시트를 승인할 필요가 없습니다.
+     * **관리자**: 시스템이 설정한 기본 승인자입니다. 이 경우 관리자로 지정된 사용자가 승인을 위해 제출한 타임시트를 승인합니다.
+     * **특정 직원**: 이름으로 특정 사용자를 타임시트 승인자로 지정할 수 있습니다. 타임시트에 여러 승인자가 있을 수 있습니다. 이 경우 승인자 중 한 명이 타임시트를 승인하면 타임시트가 **마감됨**(으)로 표시되고 나머지 모든 승인자의 타임시트 승인 목록에서 사라집니다.
 
    * **시간을 편집할 수 있음**: 승인자가 타임시트의 시간을 편집할 수 있도록 하려면 이 옵션을 선택하십시오.
 
@@ -143,14 +135,14 @@ Old info:
 
      **타임시트 편집을 소유자 및 관리자로 제한** 옵션이 활성화된 경우:
 
-      * 승인자는 시간 편집 가능 의 활성화 여부에 관계없이 타임시트만 승인하고 거부할 수 있습니다.
-      * 타임시트 소유자의 관리자는 부하 직원의 타임시트만 볼 수 있습니다.
+     * 승인자는 시간 편집 가능 의 활성화 여부에 관계없이 타임시트만 승인하고 거부할 수 있습니다.
+     * 타임시트 소유자의 관리자는 부하 직원의 타임시트만 볼 수 있습니다.
 
      **타임시트 편집을 소유자 및 관리자로 제한** 옵션이 비활성화된 경우:
 
-      * **시간을 편집할 수 있음**&#x200B;이 활성화되면 승인자는 타임시트를 제출하거나 다시 열거나 닫을 수 있고 시간을 편집할 수 있습니다.
-      * **시간을 편집할 수 있음**&#x200B;이 비활성화되면 승인자는 타임시트를 제출하거나 다시 열거나 닫을 수 없으며 시간을 편집할 수 없습니다. 승인자는 타임시트만 승인하거나 거부할 수 있습니다.
-      * 타임시트 소유자의 관리자는 부하 직원의 타임시트를 제출, 회수, 다시 열고 편집할 수 있습니다.
+     * **시간을 편집할 수 있음**&#x200B;이 활성화되면 승인자는 타임시트를 제출하거나 다시 열거나 닫을 수 있고 시간을 편집할 수 있습니다.
+     * **시간을 편집할 수 있음**&#x200B;이 비활성화되면 승인자는 타임시트를 제출하거나 다시 열거나 닫을 수 없으며 시간을 편집할 수 없습니다. 승인자는 타임시트만 승인하거나 거부할 수 있습니다.
+     * 타임시트 소유자의 관리자는 부하 직원의 타임시트를 제출, 회수, 다시 열고 편집할 수 있습니다.
 
      >[!NOTE]
      >

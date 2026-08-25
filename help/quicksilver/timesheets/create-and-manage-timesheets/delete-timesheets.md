@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: 742
 ht-degree: 3%
 
 ---
@@ -77,11 +77,11 @@ Adobe Workfront 관리자 또는 그룹 관리자는 시스템의 모든 사용�
 
 ## 목록에서 타임시트 삭제
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+{{step1-to-timesheets}}
 
-1. **타임시트**&#x200B;를 클릭합니다. **모두** 필터는 기본적으로 선택되어 있으며 보기 액세스 권한이 있는 모든 타임시트를 표시합니다.
+**모두** 필터는 기본적으로 선택되어 있으며 보기 액세스 권한이 있는 모든 타임시트를 표시합니다.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+타임시트가 하나 선택된 ![타임시트 목록](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (선택 사항) 다음 중 하나를 수행하여 타임시트 목록의 필터를 업데이트합니다.
 
@@ -93,21 +93,15 @@ Adobe Workfront 관리자 또는 그룹 관리자는 시스템의 모든 사용�
 
      내 타임시트 승인 또는 내 타임시트 필터가 타임시트 목록에 적용됩니다.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![타임시트 목록 페이지의 내 타임시트 필터 단추](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 필터 아이콘 ![](assets/filter-nwepng.png)을(를) 클릭하여 다른 필터를 적용하거나 새 필터를 만듭니다. 필터 만들기 또는 업데이트에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
+   * 필터 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭하여 다른 필터를 적용하거나 새 필터를 만듭니다. 필터 만들기 또는 업데이트에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
 
    >[!NOTE]
    >
-   >Workfront 관리자 또는 그룹 관리자가 설정 영역의 목록 컨트롤 또는 레이아웃 템플릿에서 내 타임시트 승인 및 내 타임시트 필터를 제거한 경우 내 타임시트 승인 및 내 타임시트 옵션이 타임시트 목록 맨 위나 필터 목록에 표시되지 않습니다. 자세한 내용은 다음 문서를 참조하십시오.
-   >
-   >   
-   >   
-   >   * [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Workfront 관리자 또는 그룹 관리자가 설정 영역의 목록 컨트롤 또는 레이아웃 템플릿에서 이러한 필터를 제거한 경우 내 타임시트 승인 및 내 타임시트 옵션이 타임시트 목록 맨 위나 필터 목록에 표시되지 않습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)을 참조하십시오.
 
-1. (선택 사항) **보기** ![](assets/view-icon.png) 또는 **그룹화** ![](assets/grouping.png) 아이콘을 클릭하여 다른 보기 또는 그룹화를 적용하거나 새 보기 또는 그룹화를 만듭니다.
+1. (선택 사항) **보기** ![보기 아이콘](assets/view-icon.png) 또는 **그룹화** ![그룹화 아이콘](assets/grouping.png) 아이콘을 클릭하여 다른 보기 또는 그룹화를 적용하거나 새 보기를 만듭니다.
 
    필터, 보기 또는 그룹화 만들기에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -115,7 +109,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 시스템의 모든 사용�
    * [Adobe Workfront에서 보기 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Adobe Workfront에서 그룹화 만들기](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 삭제할 타임시트를 하나 이상 선택하고 타임시트 목록 맨 위에 있는 **삭제** ![](assets/delete.png) 아이콘을 클릭합니다.
+1. 삭제할 타임시트를 하나 이상 선택하고 타임시트 목록 맨 위에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다.
 
 1. **삭제**&#x200B;를 클릭합니다.
 
@@ -131,9 +125,10 @@ Adobe Workfront 관리자 또는 그룹 관리자는 시스템의 모든 사용�
 
 ## 타임시트 페이지에서 타임시트 삭제
 
-1. Adobe Workfront 오른쪽 상단의 [!UICONTROL **주 메뉴**] 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+{{step1-to-timesheets}}
+
 1. 삭제할 타임시트를 클릭하여 엽니다.
-1. 타임시트 이름 오른쪽에 있는 [!UICONTROL **자세히**] 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+1. 타임시트 이름 오른쪽에 있는 [!UICONTROL **자세히**] 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
    ![타임시트 페이지에서 타임시트 삭제](assets/delete-timesheet-from-timesheet-page.png)
 1. 확인하려면 [!UICONTROL **삭제**]&#x200B;를 클릭하세요.

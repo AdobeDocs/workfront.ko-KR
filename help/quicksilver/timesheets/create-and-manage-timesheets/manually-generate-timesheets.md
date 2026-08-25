@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 405
 ht-degree: 4%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 4%
 
 설정의 타임시트 및 시간 영역에서 시스템 수준 또는 그룹 수준 타임시트를 수동으로 생성할 수 있습니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 시스템 전체에서 사용 중인 타임시트를 생성하는 경우 **타임시트 및 시간을 클릭합니다.**
 
@@ -79,7 +79,7 @@ ht-degree: 4%
    특정 그룹에서 사용하는 타임시트를 생성하는 경우 **그룹**&#x200B;을 클릭한 다음 그룹 이름을 클릭합니다.
 
 1. **타임시트 프로필**&#x200B;을 클릭합니다.
-1. 기타 아이콘 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **타임시트 생성**&#x200B;을 클릭합니다.
+1. **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **타임시트 생성**&#x200B;을 클릭합니다.
 
 1. 타임시트 프로필 목록의 맨 위에서 시스템 수준 타임시트 프로필의 경우 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png), 그룹 타임시트 프로필의 경우 **자세히**&#x200B;를 클릭한 다음 **타임시트 생성**&#x200B;을 클릭합니다.
 
@@ -89,9 +89,8 @@ ht-degree: 4%
 
 설정의 진단 영역에서 시스템 수준 타임시트를 수동으로 생성할 수 있습니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **시스템**&#x200B;을 확장한 다음 **진단**&#x200B;을 클릭합니다.
-
 1. **진단 수행**&#x200B;을 클릭합니다.
 1. **타임시트 생성**&#x200B;을 클릭합니다.

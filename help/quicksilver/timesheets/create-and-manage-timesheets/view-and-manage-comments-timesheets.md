@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: 831
 ht-degree: 2%
 
 ---
@@ -97,9 +97,8 @@ ht-degree: 2%
 
 타임시트에 대한 일반적인 설명을 할 수 있습니다. 전체 타임시트에 댓글을 다는 것은 다른 오브젝트에 댓글을 다는 것과 비슷합니다.
 
-1. 사용 가능한 경우 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png) 또는 왼쪽 상단의 **주 메뉴** 아이콘 ![줄 주 메뉴](assets/lines-main-menu.png)를 클릭합니다.
+{{step1-to-timesheets}}
 
-1. **타임시트**&#x200B;를 클릭합니다.
 1. 댓글을 달려는 타임시트로 이동합니다.
 1. 왼쪽 패널에서 **업데이트**&#x200B;를 클릭한 다음 **댓글** 탭을 클릭합니다.
 1. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)에 설명된 대로 새 댓글을 추가하거나 기존 댓글에 회신합니다.
@@ -129,9 +128,8 @@ ht-degree: 2%
 
 ### 타임시트의 개별 시간 항목에 주석 달기 {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Adobe Workfront 오른쪽 위 모서리에 있는 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
+{{step1-to-timesheets}}
 
-1. **타임시트**&#x200B;를 클릭합니다.
 1. 댓글을 달 타임시트로 이동하여 왼쪽 패널에서 **타임시트**&#x200B;를 클릭합니다.
 1. 댓글을 달 시간 입력 필드를 클릭하고 **댓글**&#x200B;을 클릭하여 시간 입력에 대한 댓글을 추가합니다.
 
@@ -168,8 +166,8 @@ ht-degree: 2%
 
 타임시트의 작업 및 문제에만 댓글을 달 수 있습니다. 프로젝트 또는 일반 시간에 대해 댓글을 달 수 없습니다.
 
-1. Adobe Workfront 오른쪽 위 모서리에 있는 [!UICONTROL **주 메뉴**] 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
-1. [!UICONTROL **타임시트**]&#x200B;를 클릭합니다.
+{{step1-to-timesheets}}
+
 1. 댓글을 달려는 타임시트로 이동하여 왼쪽 패널에서 [!UICONTROL **타임시트**]&#x200B;를 클릭합니다.
 1. 작업 또는 문제의 행을 클릭한 다음 [!UICONTROL **요약 열기**]&#x200B;를 클릭합니다.
 1. 요약 패널의 [!UICONTROL **업데이트**] 영역에서 업데이트를 입력한 다음 [!UICONTROL **제출**]을 클릭합니다.

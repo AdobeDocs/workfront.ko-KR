@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: 689
 ht-degree: 3%
 
 ---
@@ -95,17 +95,13 @@ Adobe Workfront은 이 영역에서 지원할 타임시트 승인을 구성하�
 
    타임시트 목록 맨 위에서 **내 타임시트 승인** 필터를 선택합니다.
 
-   ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+   ![타임시트 목록 페이지의 내 타임시트 필터 단추](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    >[!NOTE]
    >
-   >Workfront 관리자 또는 그룹 관리자가 설정 영역의 목록 컨트롤 또는 레이아웃 템플릿에서 내 타임시트 승인 필터를 제거한 경우 내 타임시트 승인 옵션이 타임시트 목록 맨 위나 필터 목록에 표시되지 않습니다.
-   >
-   >자세한 내용은 [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)을 참조하십시오.
-   >   
-   >
+   >Workfront 관리자 또는 그룹 관리자가 설정 영역의 목록 컨트롤 또는 레이아웃 템플릿에서 이러한 필터를 제거한 경우 내 타임시트 승인 및 내 타임시트 옵션이 타임시트 목록 맨 위나 필터 목록에 표시되지 않습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)을 참조하십시오.
 
-1. (선택 사항) 타임시트 목록 맨 위에 있는 **검색** 아이콘 ![](assets/search-icon.png)을(를) 클릭하고 키워드를 입력하여 특정 타임시트를 찾습니다. 일정, 소유자 또는 승인자의 이름을 검색할 수 있습니다.
+1. (선택 사항) 타임시트 목록 맨 위에 있는 **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하고 키워드를 입력하여 특정 타임시트를 찾습니다. 일정, 소유자 또는 승인자의 이름을 검색할 수 있습니다.
 1. 승인할 타임시트의 시간대를 클릭합니다. 타임시트가 열립니다.
 
    >[!TIP]

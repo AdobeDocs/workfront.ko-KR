@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 4246
+source-wordcount: 4292
 ht-degree: 1%
 
 ---
@@ -122,12 +122,12 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 타임시트에 시간을 기록하려면 다음을 수행하십시오.
 
-{{step1-click-main-menu}}
+{{step1-to-timesheets}}
 
-1. [!UICONTROL **타임시트**]를 클릭합니다. 현재 타임시트가 기본적으로 표시됩니다.
-   ![타임시트](assets/timesheet-layout-leftnav-updated.png)
+현재 타임시트가 기본적으로 표시됩니다.
+![타임시트](assets/timesheet-layout-leftnav-updated.png)
 
-1. (선택 사항) **전체 화면** 아이콘 ![](assets/full-screen.png)을(를) 클릭하여 타임시트를 전체 화면 모드로 표시한 다음 **전체 화면 종료** ![](assets/exit-full-screen.png) 아이콘을 클릭하여 타임시트로 돌아갑니다.
+1. (선택 사항) **전체 화면** 아이콘 ![전체 화면 아이콘](assets/full-screen.png)을 클릭하여 타임시트를 전체 화면 모드로 표시한 다음 **전체 화면 종료** ![전체 화면 종료 아이콘](assets/exit-full-screen.png) 아이콘을 클릭하여 타임시트로 돌아갑니다.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
@@ -164,7 +164,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
    <!--(ensure this stays accurate)-->
 
-1. (선택 사항) 프로젝트 이름 옆에 있는 **축소** ![](assets/collapse-icon.png) 또는 **확장** ![](assets/expand-icon.png) 아이콘을 클릭하여 프로젝트의 작업 및 문제 목록을 표시하거나 숨깁니다.
+1. (선택 사항) 프로젝트 이름 옆에 있는 **축소** ![축소 아이콘](assets/collapse-icon.png) 또는 **확장** ![확장 아이콘](assets/expand-icon.png) 아이콘을 클릭하여 프로젝트의 작업 및 문제 목록을 표시하거나 숨깁니다.
 
 
    >[!TIP]
@@ -178,7 +178,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >     * Mac 컴퓨터의 Shift + Option + 아래쪽 화살표
 
 
-1. (선택 사항) 타임시트에 표시되는 항목을 수동으로 고정하려면 항목 이름 위로 마우스를 가져간 다음 **고정** 아이콘 ![](assets/empty-pin-icon.png)을 클릭합니다.
+1. (선택 사항) 타임시트에 표시되는 항목을 수동으로 고정하려면 항목 이름을 마우스로 가리킨 다음 **고정** 아이콘 ![고정 아이콘](assets/empty-pin-icon.png)을 클릭합니다.
 
    >[!TIP]
    >
@@ -186,7 +186,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >   * Windows 및 Mac 컴퓨터 모두에 대해 Option + P입니다.
 
 
-1. (선택 사항) 검색 아이콘 ![](assets/search-icon.png)을(를) 클릭하고 키워드 입력을 시작하여 타임시트에서 프로젝트, 작업 또는 문제를 찾습니다.
+1. (선택 사항) 검색 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하고 키워드를 입력하여 타임시트에서 프로젝트, 작업 또는 문제를 찾습니다.
 
 1. (조건부) Workfront 또는 그룹 관리자가 **시간 항목에 수동으로 작업 역할 할당** 설정을 활성화한 경우 드롭다운 메뉴에서 작업 역할을 선택합니다. 작업 항목에 할당할 때 지정된 역할이 기본적으로 표시됩니다. 오브젝트에 역할이 할당되지 않은 경우 기본 역할이 기본값으로 표시됩니다. 이 설정에 대한 자세한 내용은 문서 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하십시오.
 
@@ -214,7 +214,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >
    >에 대해 추가 시간을 기록할 작업 항목에 대해 새 라인을 추가하고, 비활성화된 시간 유형을 이전 기록된 시간과 연관시켜 유지하려면 새 시간 유형을 선택하는 것이 좋습니다.
 
-1. 작업 역할 옆의 **삭제** 아이콘 ![](assets/delete.png)을(를) 클릭하여 제거합니다. 역할에 대해 기록된 시간도 모두 제거됩니다.
+1. 작업 역할 옆에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭하여 제거합니다. 역할에 대해 기록된 시간도 모두 제거됩니다.
 
    >[!TIP]
    >
@@ -249,7 +249,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 1. (선택 사항) 시간 항목에 대한 댓글을 추가하려면 **댓글**&#x200B;을 클릭하세요.
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![다시 디자인된 타임시트의 시간 로그에 주석 단추](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -352,7 +352,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 1. **Home** 영역으로 이동합니다.
 1. **내 작업** 위젯을 홈에 추가합니다.
 1. (선택 사항) 목록에서 작업, 문제 또는 요청을 선택한 다음 **처리**&#x200B;를 클릭합니다.
-1. 시간을 기록할 작업 또는 문제를 마우스로 가리킨 다음 작업 정보 오른쪽에 있는 **시간 기록** 아이콘 ![](assets/log-time-icon-in-new-home.png)을(를) 클릭합니다.
+1. 시간을 기록할 작업 또는 문제를 마우스로 가리킨 다음 작업 정보 오른쪽에 있는 **로그 시간** 아이콘 ![로그 시간 아이콘](assets/log-time-icon-in-new-home.png)을 클릭합니다.
 
    **로그 시간** 상자가 표시됩니다.
 
@@ -487,7 +487,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 요약 패널에서 작업 및 문제에 대한 시간을 기록할 수 있습니다.
 자세한 내용은 [요약 개요](../../workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하세요.
 
-![](assets/summary-hour-log.png)
+![요약 패널](assets/summary-hour-log.png)
 
 ### 보드 {#boards}
 
@@ -531,7 +531,7 @@ Workfront 모바일 앱에서 시간을 기록할 수 있습니다.
   * 시간 항목에 대한 설명.
 
 
-  ![](assets/edit-hour-box-project-hour-type.png)
+  ![프로젝트 시간 편집 상자](assets/edit-hour-box-project-hour-type.png)
 
 * 일반 시간을 편집할 때:
 
@@ -545,7 +545,7 @@ Workfront 모바일 앱에서 시간을 기록할 수 있습니다.
 
 <!--update the screen shot at production - we should not see the job role field for general hours-->
 
-![](assets/edit-hour-box-general-overhead-hour-type.png)
+![일반 시간 편집 상자](assets/edit-hour-box-general-overhead-hour-type.png)
 
 
 * 일반 시간과 프로젝트별 시간의 혼합을 일괄 편집할 때:
@@ -561,13 +561,13 @@ Workfront 모바일 앱에서 시간을 기록할 수 있습니다.
 
 <!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
 
-![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+![혼합 시간 편집 상자](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
 
 시간 보고서 또는 목록에서 시간 유형을 편집하려면 다음을 수행합니다.
 
 1. 시간 목록 또는 보고서로 이동합니다.
 1. 하나 이상의 시간 항목 왼쪽에 있는 상자를 클릭하여 선택합니다.
-1. 목록 맨 위에 있는 **편집 아이콘** ![](assets/edit-icon.png)을 클릭합니다.
+1. 목록 맨 위에 있는 **편집 아이콘** ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
    **시간 편집** 또는 **시간 편집** 상자가 열립니다.
 1. 사용 가능한 다음 필드 중 하나를 업데이트합니다.

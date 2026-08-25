@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: 757
 ht-degree: 3%
 
 ---
@@ -68,13 +68,13 @@ ht-degree: 3%
 
 ## 타임시트 편집
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **타임시트**&#x200B;를 클릭합니다.
+{{step1-to-timesheets}}
 
-   보기 액세스 권한이 있는 모든 타임시트를 표시하는 **모두** 필터가 기본적으로 선택됩니다.
+보기 액세스 권한이 있는 모든 타임시트를 표시하는 **모두** 필터가 기본적으로 선택됩니다.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+타임시트가 하나 선택된 ![타임시트 목록](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (선택 사항) **검색** 아이콘 ![](assets/search-icon.png)을(를) 클릭하고 키워드를 입력한 다음 특정 타임시트를 검색합니다. 예를 들어 타임시트 시간대 또는 소유자 이름을 검색할 수 있습니다.
+1. (선택 사항) **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하고 키워드를 입력한 다음 특정 타임시트를 검색합니다. 예를 들어 타임시트 시간대 또는 소유자 이름을 검색할 수 있습니다.
 
 1. (선택 사항) 다음 중 하나를 수행하여 타임시트 목록의 필터를 업데이트합니다.
 
@@ -86,21 +86,15 @@ ht-degree: 3%
 
      내 타임시트 승인 또는 내 타임시트 필터가 타임시트 목록에 적용됩니다.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![타임시트 목록 페이지의 내 타임시트 필터 단추](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 필터 아이콘 ![](assets/filter-nwepng.png)을(를) 클릭하여 다른 필터를 적용하거나 새 필터를 만듭니다. 필터 만들기 또는 업데이트에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
+   * 필터 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭하여 다른 필터를 적용하거나 새 필터를 만듭니다. 필터 만들기 또는 업데이트에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
 
    >[!NOTE]
    >
-   >Workfront 관리자 또는 그룹 관리자가 설정 영역의 목록 컨트롤 또는 레이아웃 템플릿에서 내 타임시트 승인 및 내 타임시트 필터를 제거한 경우 내 타임시트 승인 및 내 타임시트 옵션이 타임시트 목록 맨 위나 필터 목록에 표시되지 않습니다. 자세한 내용은 다음 문서를 참조하십시오.
-   >
-   >   
-   >   
-   >   * [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Workfront 관리자 또는 그룹 관리자가 설정 영역의 목록 컨트롤 또는 레이아웃 템플릿에서 이러한 필터를 제거한 경우 내 타임시트 승인 및 내 타임시트 옵션이 타임시트 목록 맨 위나 필터 목록에 표시되지 않습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)을 참조하십시오.
 
-1. (선택 사항) **보기** ![](assets/view-icon.png) 또는 **그룹화** ![](assets/grouping.png) 아이콘을 클릭하여 다른 보기 또는 그룹화를 적용하거나 새 보기 또는 그룹화를 만듭니다.
+1. (선택 사항)**보기** ![보기 아이콘](assets/view-icon.png) 또는 **그룹화** ![그룹화 아이콘](assets/grouping.png) 아이콘을 클릭하여 다른 보기 또는 그룹화를 적용하거나 새 보기를 만듭니다.
 
    필터, 보기 또는 그룹화 만들기에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -108,7 +102,7 @@ ht-degree: 3%
    * [Adobe Workfront에서 보기 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Adobe Workfront에서 그룹화 만들기](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 하나 이상의 타임시트를 선택한 다음 타임시트 목록 맨 위에 있는 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 하나 이상의 타임시트를 선택한 다음 타임시트 목록 맨 위에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 1. 다음 정보를 보거나 지정합니다.
 
    <table style="table-layout:auto"> 
@@ -146,7 +140,7 @@ ht-degree: 3%
       <td> <p>승인자가 타임시트의 시간을 편집할 수 있도록 하려면 이 옵션을 선택합니다.</p> <p>여러 타임시트를 선택하는 경우에는 이 옵션을 사용할 수 없습니다. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">초과 작업 시간</span> </td> 
+      <td role="rowheader"><strong>초과 작업 시간</strong> </td> 
       <td> <p>타임시트에서 초과 작업 시간 상자를 숨기도록 선택할 수 있습니다.</p> <p>이 옵션은 기본적으로 비활성화되어 있습니다.</p> </td> 
      </tr> 
     </tbody> 
