@@ -7,22 +7,14 @@ author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 TQID: https://experienceleague.adobe.com/--QshuygnTfcEJtt6-Tx-2QtNT-5p9TrTWaQTMBZNAg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: 767
 ht-degree: 3%
 
 ---
@@ -68,13 +60,13 @@ ht-degree: 3%
 
 ## 타임시트 편집
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **타임시트**&#x200B;를 클릭합니다.
+{{step1-to-timesheets}}
 
-   보기 액세스 권한이 있는 모든 타임시트를 표시하는 **모두** 필터가 기본적으로 선택됩니다.
+보기 액세스 권한이 있는 모든 타임시트를 표시하는 **모두** 필터가 기본적으로 선택됩니다.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+타임시트가 하나 선택된 ![타임시트 목록](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (선택 사항) **검색** 아이콘 ![](assets/search-icon.png)을(를) 클릭하고 키워드를 입력한 다음 특정 타임시트를 검색합니다. 예를 들어 타임시트 시간대 또는 소유자 이름을 검색할 수 있습니다.
+1. (선택 사항) **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하고 키워드를 입력한 다음 특정 타임시트를 검색합니다. 예를 들어 타임시트 시간대 또는 소유자 이름을 검색할 수 있습니다.
 
 1. (선택 사항) 다음 중 하나를 수행하여 타임시트 목록의 필터를 업데이트합니다.
 
@@ -86,9 +78,9 @@ ht-degree: 3%
 
      내 타임시트 승인 또는 내 타임시트 필터가 타임시트 목록에 적용됩니다.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![타임시트 목록 페이지의 내 타임시트 필터 단추](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 필터 아이콘 ![](assets/filter-nwepng.png)을(를) 클릭하여 다른 필터를 적용하거나 새 필터를 만듭니다. 필터 만들기 또는 업데이트에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
+   * 필터 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭하여 다른 필터를 적용하거나 새 필터를 만듭니다. 필터 만들기 또는 업데이트에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
 
    >[!NOTE]
    >
@@ -100,7 +92,7 @@ ht-degree: 3%
    >   
    >
 
-1. (선택 사항) **보기** ![](assets/view-icon.png) 또는 **그룹화** ![](assets/grouping.png) 아이콘을 클릭하여 다른 보기 또는 그룹화를 적용하거나 새 보기 또는 그룹화를 만듭니다.
+1. (선택 사항)**보기** ![보기 아이콘](assets/view-icon.png) 또는 **그룹화** ![그룹화 아이콘](assets/grouping.png) 아이콘을 클릭하여 다른 보기 또는 그룹화를 적용하거나 새 보기를 만듭니다.
 
    필터, 보기 또는 그룹화 만들기에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -108,7 +100,7 @@ ht-degree: 3%
    * [Adobe Workfront에서 보기 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Adobe Workfront에서 그룹화 만들기](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 하나 이상의 타임시트를 선택한 다음 타임시트 목록 맨 위에 있는 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 하나 이상의 타임시트를 선택한 다음 타임시트 목록 맨 위에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 1. 다음 정보를 보거나 지정합니다.
 
    <table style="table-layout:auto"> 

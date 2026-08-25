@@ -7,22 +7,14 @@ author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 828
 ht-degree: 2%
 
 ---
@@ -80,7 +72,7 @@ ht-degree: 2%
 1. [로그 시간](../../timesheets/create-and-manage-timesheets/log-time.md)에 설명된 대로 로그 시간입니다.
 1. 타임시트 승인 프로세스를 시작하려면 **승인을 위해 제출**&#x200B;을 클릭하십시오.
 
-   ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![승인을 위해 제출 단추](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
    **승인을 위해 제출** 단추가 **승인**, **거부** 및 **회수** 단추로 바뀝니다. 타임시트의 상태가 **제출됨**(으)로 변경됩니다.
 
@@ -101,10 +93,11 @@ Workfront 관리자가 사용자에 대한 타임시트 승인 및 사용자 이
 
 타임시트의 상태를 보려면 다음 작업을 수행하십시오.
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
-1. **타임시트**&#x200B;를 클릭합니다. 기본적으로 **모두** 필터가 선택되어 있습니다.
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+기본적으로 **모두** 필터가 선택되어 있습니다.
+
+타임시트가 하나 선택된 ![타임시트 목록](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (선택 사항) 다음 중 하나를 수행하여 타임시트 목록의 필터를 업데이트합니다.
 
@@ -116,19 +109,13 @@ Workfront 관리자가 사용자에 대한 타임시트 승인 및 사용자 이
 
      내 타임시트 승인 또는 내 타임시트 필터가 타임시트 목록에 적용됩니다.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![타임시트 목록 페이지의 내 타임시트 필터 단추](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 필터 아이콘 ![](assets/filter-nwepng.png)을(를) 클릭하여 다른 필터를 적용하거나 새 필터를 만듭니다. 필터 만들기 또는 업데이트에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
+   * 필터 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭하여 다른 필터를 적용하거나 새 필터를 만듭니다. 필터 만들기 또는 업데이트에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
 
    >[!NOTE]
    >
-   >Workfront 관리자 또는 그룹 관리자가 설정 영역의 목록 컨트롤 또는 레이아웃 템플릿에서 내 타임시트 승인 및 내 타임시트 필터를 제거한 경우 내 타임시트 승인 및 내 타임시트 옵션이 타임시트 목록 맨 위나 필터 목록에 표시되지 않습니다. 자세한 내용은 다음 문서를 참조하십시오.
-   >
-   >   
-   >   
-   >   * [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Workfront 관리자 또는 그룹 관리자가 설정 영역의 목록 컨트롤 또는 레이아웃 템플릿에서 이러한 필터를 제거한 경우 내 타임시트 승인 및 내 타임시트 옵션이 타임시트 목록 맨 위나 필터 목록에 표시되지 않습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)을 참조하십시오.
 
 1. (조건부) **내 타임시트**&#x200B;를 선택한 경우 **표준** 보기가 적용되었는지 확인하고 **상태** 열을 확인합니다.
 
@@ -167,10 +154,9 @@ Workfront 관리자가 사용자에 대한 타임시트 승인 및 사용자 이
 
 타임시트를 회수하려면:
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+{{step1-to-timesheets}}
 
-1. **타임시트**&#x200B;를 클릭합니다.
-1. 화면 오른쪽 상단의 **내 타임시트**&#x200B;를 클릭하거나 **필터** ![](assets/filter-nwepng.png) 드롭다운 메뉴에서 **내 타임시트**&#x200B;을(를) 선택합니다.
+1. 화면 오른쪽 상단의 **내 타임시트**&#x200B;를 클릭하거나 **필터** ![필터 아이콘](assets/filter-nwepng.png) 드롭다운 메뉴에서 **내 타임시트**&#x200B;을(를) 선택합니다.
 1. 상태가 **제출됨**&#x200B;인 타임시트의 시간대를 클릭합니다.
 1. **회수**&#x200B;를 클릭합니다.
 
