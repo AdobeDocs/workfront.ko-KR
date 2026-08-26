@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
+source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
 workflow-type: tm+mt
-source-wordcount: '14435'
+source-wordcount: '14452'
 ht-degree: 2%
 
 ---
@@ -2210,6 +2210,7 @@ ht-degree: 2%
     * [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 유형 만들기](planning/architecture/import-file-to-create-record-types.md)
     * [작업 영역 간 레코드 유형 개요](planning/architecture/cross-workspace-record-types-overview.md)
     * [레코드 유형에 대한 작업 영역 간 기능 구성](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * {hide-from-toc}[레코드 종류 비즈니스 규칙 구성](planning/architecture/configure-business-rules.md)
     * [레코드 종류의 설정 영역 구성](planning/architecture/configure-record-type-settings.md)
     * [다른 작업 영역에서 기존 레코드 유형 추가](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [레코드 유형 연결 개요](planning/architecture/connect-record-types-overview.md)
@@ -2239,6 +2240,7 @@ ht-degree: 2%
     * [레코드 유형 공유](planning/access/share-record-types.md)
     * [보기 공유](planning/access/share-views.md)
     * [레코드 공유](planning/access/share-records.md)
+    * {hide-from-toc}[Workfront 계획 필드 공유](planning/access/share-fields.md)
     * [레코드에 대한 기본 권한 설정](planning/access/set-default-record-permissions.md)
     * [보기 또는 작업 영역에 대한 권한 요청](planning/access/request-permissions.md)
   * Adobe Workfront 계획 레코드 {#adobe-workfront-planning-records}
@@ -2723,6 +2725,7 @@ ht-degree: 2%
   * [App Builder: 문서 색인](/help/quicksilver/app-builder/app-builder-toc.md)
   * [Adobe Exchange에서 앱 획득 및 설치](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Adobe App Builder을 사용하여 Workfront에 대한 맞춤형 애플리케이션 만들기](/help/quicksilver/app-builder/app-builder.md)
+  * {hide-from-toc}[클라우드 코드 기술을 사용하여 App Builder 앱 빌드](/help/quicksilver/app-builder/build-apps-with-claude-code-skills.md)
 * {hide-from-toc}[숨겨진 테스트 문서](hidden-test.md)
 * {hide-from-toc}[2 숨기기](hidden-test-2.md)
 

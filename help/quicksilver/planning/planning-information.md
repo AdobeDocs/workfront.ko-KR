@@ -26,9 +26,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 722
 ht-degree: 10%
 
 ---
@@ -58,52 +58,52 @@ Adobe Workfront Planning에 대한 일반적인 정보 및 용어 이해는 [Ado
 
 * [액세스 및 권한 정보: 문서 인덱스](/help/quicksilver/planning/access/access-information.md)에는 다음 정보가 포함되어 있습니다.
 
-   * Workfront 라이선스 및 Planning 권한
-   * 공유 권한 계획
-   * 보기 공유
-   * 작업 공간(레코드 및 필드) 공유
-   * 레코드 유형(레코드 및 필드) 공유
-   * 레코드 공유
+  * Workfront 라이선스 및 Planning 권한
+  * 공유 권한 계획
+  * 보기 공유
+  * 작업 공간(레코드 및 필드) 공유
+  * 레코드 유형(레코드 및 필드) 공유
+  * 레코드 공유
 
 * [아키텍처: 문서 인덱스](/help/quicksilver/planning/architecture/architecture-information.md)에는 다음 정보가 포함되어 있습니다.
 
-   * 작업 영역 만들기, 편집, 삭제
-   * 레코드 유형 만들기, 편집, 삭제
-   * 글로벌 레코드 유형 만들기
-   * 레코드 유형 및 레코드 유형 연결의 예
-   * Workspace 템플릿
+  * 작업 영역 만들기, 편집, 삭제
+  * 레코드 유형 만들기, 편집, 삭제
+  * 글로벌 레코드 유형 만들기
+  * 레코드 유형 및 레코드 유형 연결의 예
+  * Workspace 템플릿
 
 * [필드: 문서 인덱스](/help/quicksilver/planning/fields/fields-information.md)에는 다음 정보가 포함되어 있습니다.
 
-   * 필드 만들기, 편집 및 삭제
-   * 공식 필드
-   * 기본 필드
+  * 필드 만들기, 편집 및 삭제
+  * 공식 필드
+  * 기본 필드
 
 * [레코드: 문서 인덱스](/help/quicksilver/planning/records/records-information.md)에 다음 정보가 포함되어 있습니다.
 
-   * 레코드 만들기, 편집 및 삭제
-   * 기록 연결
-   * 레코드에 표지 이미지 또는 썸네일 추가
-   * 레코드 페이지의 레이아웃 관리
-   * 댓글 및 기록 섹션 기록
-   * 레코드 공유
-   * Workfront에서 Workfront Planning 레코드 관리
+  * 레코드 만들기, 편집 및 삭제
+  * 기록 연결
+  * 레코드에 표지 이미지 또는 썸네일 추가
+  * 레코드 페이지의 레이아웃 관리
+  * 댓글 및 기록 섹션 기록
+  * 레코드 공유
+  * Workfront에서 Workfront Planning 레코드 관리
 
 * [Adobe Workfront Planning 요청: 문서 인덱스](/help/quicksilver/planning/requests/requests-article-index.md)에는 다음 정보가 포함되어 있습니다.
 
-   * 레코드 종류에 대한 요청 양식을 만드는 방법.
-   * 사용자가 레코드 유형 요청 양식에 요청을 제출하고 레코드를 만드는 방법입니다.
+  * 레코드 종류에 대한 요청 양식을 만드는 방법.
+  * 사용자가 레코드 유형 요청 양식에 요청을 제출하고 레코드를 만드는 방법입니다.
 
 * [보기 수: 문서 인덱스](/help/quicksilver/planning/views/views-information.md)에는 다음 정보가 포함되어 있습니다.
 
-   * 레코드 보기 만들기
-   * 테이블, 타임라인 및 달력 보기 관리
+  * 레코드 보기 만들기
+  * 테이블, 타임라인 및 달력 보기 관리
 
 * [알림: 문서 인덱스](/help/quicksilver/planning/notifications/notifications-information.md)에는 다음 정보가 포함되어 있습니다.
 
-   * 알림 환경 설정 관리
-   * Planning 인앱 알림
-   * 이메일 알림 계획
+  * 알림 환경 설정 관리
+  * Planning 인앱 알림
+  * 이메일 알림 계획
 
 ## Workfront Planning에 사용할 수 있는 추가 기능
 
@@ -112,6 +112,8 @@ Adobe Workfront Planning에 대한 일반적인 정보 및 용어 이해는 [Ado
 * [Workfront Fusion용 Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Adobe Workfront 계획 모듈을 사용하면 Workfront Planning에서 이벤트가 발생할 때 시나리오를 트리거할 수 있습니다. 레코드를 생성, 읽기, 업데이트 및 삭제하거나 Adobe Workfront Planning 계정에 대한 사용자 정의 API 호출을 수행할 수도 있습니다.
 
 * [Adobe Workfront Planning AI Assistant 개요](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront Planning AI Assistant를 사용하여 명령을 사용하여 레코드를 검색하거나, 레코드를 생성, 업데이트 및 삭제할 수 있으며, 이를 통해 Assistant가 작업을 수행하도록 할 수 있습니다.
+
+* [계획 개체에 Workfront MCP 서버 사용](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md): Adobe Workfront MCP 서버를 사용하면 자연어로 AI 에이전트 플랫폼에 요청하여 Workfront 항목을 찾고, 만들고, 업데이트하고, 관리할 수 있습니다. 플랫폼은 호출할 Workfront 작업을 결정하고 Workfront과의 대화를 처리합니다.
 
 * [Adobe Workfront Planning 자동화 구성](/help/quicksilver/planning/records/configure-automations-to-create-records.md): 활성화되면 Planning 레코드에서 트리거될 때 Workfront에서 개체를 만들거나 Workfront Planning에서 레코드를 만드는 자동화를 Adobe Workfront Planning에서 구성할 수 있습니다.
 

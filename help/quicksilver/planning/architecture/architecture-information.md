@@ -12,7 +12,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
 workflow-type: tm+mt
 source-wordcount: 238
 ht-degree: 9%
@@ -46,6 +46,17 @@ Workfront Planning을 사용하면 조직에서 사용하는 개체 유형(또�
 * [레코드 유형 삭제](/help/quicksilver/planning/architecture/delete-record-types.md)
 * [작업 영역 간 레코드 유형 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [레코드 유형에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+
+<!--
+
+<div class="preview">
+
+* [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
+
+</div>
+
+-->
+
 * [다른 작업 영역에서 기존 레코드 유형 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [레코드 종류의 설정 영역 구성](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [계층 구조 및 이동 경로 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
