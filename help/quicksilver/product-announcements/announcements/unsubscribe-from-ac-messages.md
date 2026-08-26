@@ -7,17 +7,13 @@ author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
 TQID: https://experienceleague.adobe.com/2bKYtYhiGw8dEAx07-yHofb-jxx-dLlP6IjuHsukRQA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3a1bfdf05bd64586fb4274995075031065a0b5da
 workflow-type: tm+mt
-source-wordcount: 244
+source-wordcount: 240
 ht-degree: 0%
 
 ---
@@ -34,16 +30,19 @@ Announcement Center 메시지는 Adobe Workfront에서 Workfront 고객 기반�
 
 알림 센터 메시지 수신을 취소하려면 다음 작업을 수행하십시오.
 
-1. Workfront의 오른쪽 위 모서리에 있는 번호 매기기 아이콘 ![알림 아이콘](assets/notifications-icon-jewel.jpg)을 클릭하여 알림 목록을 엽니다.
-1. 목록 맨 아래에 있는 **모든 공지**&#x200B;를 클릭합니다.
+1. Workfront의 오른쪽 위 모서리에 있는 번호 매기기 아이콘을 클릭하여 알림 목록을 연 다음 목록 맨 아래에 있는 **모든 공지**&#x200B;를 클릭합니다.
 
-   모든 공지가 나열된 **공지** 페이지가 나타납니다.
+   ![알림 아이콘](assets/notifications-icon-jewel.png)
 
-   ![공지 페이지](assets/announcements-page-qs-350x210.png)
 
-1. 공지 페이지의 오른쪽 위 모서리에서 **설정**&#x200B;을 클릭한 다음, 더 이상 받지 않을 공지 유형에 따라 **새 릴리스** 또는 **교육**&#x200B;을 선택하십시오.
+1. 공지 페이지의 오른쪽 위 모서리에 있는 **설정**&#x200B;을 클릭합니다.
 
-   ![알림 센터 설정](assets/announcementcenter-settings-350x187.png)
+   ![공지 페이지](assets/ac-page.png)
+
+
+1. **알림 센터 설정** 대화 상자에서 구독을 취소하려는 알림 센터 메시지 유형의 확인란을 선택 취소합니다.
+
+   ![알림 센터 설정](assets/ac-settings.png)
 
 1. **설정 저장**&#x200B;을 클릭합니다.
 
