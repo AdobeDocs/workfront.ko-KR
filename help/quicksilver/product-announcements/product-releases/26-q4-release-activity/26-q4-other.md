@@ -4,9 +4,9 @@ description: 2026년 4분기 릴리스 기간 동안의 기타 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: 723c5ce69f0e457dfd8e3d230e451a41b655603e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,23 @@ ht-degree: 0%
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
 
+## C2PA 메타데이터는 파일에 보존됩니다
+
+>[!NOTE]
+>
+>모두를 위한 프로덕션: 2026년 8월 26일
+
+Adobe Workfront은 사용자가 업로드, 저장 및 다운로드하는 문서에 C2PA 메타데이터를 수정하지 않고 유지합니다.
+
+자세한 내용은 Adobe Workfront의 [C2PA 메타데이터](/help/quicksilver/documents/c2pa-metadata-overview.md)를 참조하십시오.
+
 ## 왼쪽 탐색 패널 아이콘에 대한 인터페이스 업데이트
 
 >[!NOTE]
 >
->미리 보기: 2026년 7월 30일>모두를 위한 프로덕션: 2026년 8월 13일>[!BADGE 일정 해제]{type=Neutral}
+>미리 보기: 2026년 7월 30일
+>모두를 위한 프로덕션: 2026년 8월 13일
+>[!BADGE 일정 해제]{type=Neutral}
 
 최신 디자인과 다른 Adobe 애플리케이션과의 일관된 경험을 제공하기 위해 Workfront에서 왼쪽 탐색 패널 아이콘의 모양과 느낌을 업데이트했습니다. 변경된 기능이 없습니다.
 
@@ -33,7 +45,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 7월 30일>프로덕션 빠른 릴리스: 2026년 8월 13일>모두를 위한 프로덕션: 2026년 10월 15일
+>미리 보기: 2026년 7월 30일
+>프로덕션 빠른 릴리스: 2026년 8월 13일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
 향상된 목록이 여러 번 업데이트되었습니다.
 
@@ -46,7 +60,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 7월 30일>프로덕션 빠른 릴리스: 2026년 8월 13일>모두를 위한 프로덕션: 2026년 10월 15일
+>미리 보기: 2026년 7월 30일
+>프로덕션 빠른 릴리스: 2026년 8월 13일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
 이제 오브젝트의 이동 경로를 마우스로 가리키면 해당 이름을 복사하여 한 번의 작업으로 함께 연결할 수 있습니다. 이렇게 하면 이름과 URL을 별도로 복사하지 않고도 Slack, 이메일 또는 기타 도구에서 오브젝트를 더 빠르게 공유할 수 있습니다.
 
