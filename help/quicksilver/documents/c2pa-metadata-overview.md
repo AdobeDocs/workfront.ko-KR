@@ -6,9 +6,12 @@ description: C2PA 메타데이터의 의미와 사용자가 업로드, 저장 �
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 3510218fb179a0852ad22abe2a753ccdb261205a
 workflow-type: tm+mt
 source-wordcount: 215
