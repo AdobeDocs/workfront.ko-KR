@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 0f4e08bb-20f1-49f5-ad8a-fb0c42c0e2be
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ in January 2022
 Adobe Workfront 상단 탐색 막대를 몇 가지 개선했습니다.
 
 * 이제 즐겨찾기 및 최근 항목에 상단 탐색 모음에 별도의 아이콘이 있습니다. 각 페이지에는 여전히 동일한 컨텐츠(즐겨찾기로 표시한 페이지 및 최근 방문한 페이지)가 표시되며, 동일한 방식으로 즐겨찾기 페이지를 계속 추가 및 제거할 수 있습니다.
-* 핀과 메인 메뉴의 모양과 느낌이 모두 색상 및 글꼴을 포함한 Adobe 디자인 기준으로 업데이트되었습니다. 주 메뉴에서 액세스 권한이 있는 영역 및 핀을 추가하거나 제거하는 방법은 변경되지 않았습니다.
+* 핀과 메인 메뉴의 모양과 느낌이 모두 색상 및 글꼴을 포함한 Adobe 디자인 표준으로 업데이트되었습니다. 주 메뉴에서 액세스 권한이 있는 영역 및 핀을 추가하거나 제거하는 방법은 변경되지 않았습니다.
 * 상단 탐색 막대 오른쪽에 있는 아이콘은 보다 직관적으로 순서가 변경되었습니다. 아이콘 순서는 다음과 같습니다. 도움말 링크, 알림, 즐겨찾기, 최근 항목, 검색, 기본 메뉴.
 
 자세한 내용은 [위쪽 탐색 모음 개요](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)를 참조하십시오.
