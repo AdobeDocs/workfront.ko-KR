@@ -8,22 +8,14 @@ author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
 TQID: https://experienceleague.adobe.com/R38RC6-vr-nRp4R7W4WDdJk2KkAuegb6yOfmNLdn7Dc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 704
 ht-degree: 6%
 
 ---
@@ -38,6 +30,8 @@ ht-degree: 6%
 
 프로젝트 계획을 세울 때 프로젝트에 대한 작업의 시퀀스 및 시간대에 대해 결정을 내립니다. 작업은 작업 순서와 관계없이 작동할 수 있지만 프로젝트 타임라인에 영향을 줄 수 있습니다. 작업 제한 사항을 사용하면 프로젝트 관리자가 프로젝트에서 특정 작업을 시작하거나 완료할 수 있는 시기를 계획할 수 있습니다.
 
+작업 제한은 프로젝트 작업 및 템플릿 작업에 동일하게 적용됩니다.
+
 사용하는 제한 사항에 따라 작업에 대해 계획된 시작 일자, 계획된 완료 일자 또는 두 가지 모두를 지정해야 할 수 있습니다.
 
 정의된 날짜가 필요한 제한 유형은 전임 작업 관계에 영향을 줍니다.
@@ -46,7 +40,9 @@ ht-degree: 6%
 >
 >작업 간에 전임 작업 관계를 사용하는 경우 특정 날짜가 필요하지 않은 제한 유형을 사용하는 것이 좋습니다.
 
-다음 표에는 각 제약 조건과 그 약어가 나와 있습니다. 약어는 작업 목록 및 킥스타트 가져오기 파일을 만들 때 사용됩니다. 해당 제한 유형에 대한 자세한 내용을 보려면 각 작업 제한 사항의 연결된 제목을 클릭하십시오.
+다음 표에는 각 제약 조건과 그 약어가 나와 있습니다.
+
+약어는 작업 목록 및 킥스타트 가져오기 파일을 만들 때 사용됩니다. 해당 제한 유형에 대한 자세한 내용을 보려면 각 작업 제한 사항의 연결된 제목을 클릭하십시오.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
