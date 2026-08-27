@@ -9,19 +9,14 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 4418
+source-wordcount: 4518
 ht-degree: 1%
 
 ---
@@ -465,12 +460,16 @@ Old:
    * **스택**: 그룹화가 고정된 왼쪽 열 없이 표시되고 해당 항목의 타임라인의 너비에 맞습니다.
 
      ![타임라인 보기의 스택 그룹화](assets/stacked-grouping-in-timeline-view.png)
-   * **Swimlane**: 그룹화가 그룹화된 항목을 나열하는 고정된 왼쪽 머리글 열과 함께 표시되고 그룹화는 타임라인 보기의 너비에 맞습니다.
+   * **Swimlane**: 그룹화가 그룹화된 항목을 나열하는 고정된 왼쪽 패널이 표시되고 그룹화가 타임라인 보기의 너비에 맞게 표시됩니다.
 
      ![타임라인 보기의 수영선 그룹화](assets/swimlane-grouping-in-timeline-view.png)
-   <!--
-    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
-    -->
+
+   그룹화가 즉시 적용됩니다.
+
+1. <span class="preview">(선택 사항) 도구 모음에서 **그룹화** 아이콘 ![그룹화 아이콘](assets/grouping-icon.png)을 클릭하여 **레코드 그룹화 기준** 상자를 연 다음 **모두 확장**&#x200B;을 클릭하여 모든 그룹화를 확장하거나 **모두 축소**&#x200B;를 클릭하여 모든 그룹화를 축소하고 필요한 항목만 수동으로 축소합니다. </span>
+1. <span class="preview">(선택 사항 및 조건부) 스윔레인 디스플레이에서 왼쪽 패널 구분 기호를 드래그하여 놓아 너비를 조정합니다. 각 사용자의 패널 너비는 세션 간에 저장되며 처음 사용하는 사용자의 기본 너비는 다음과 같습니다.</span>
+1. <span class="preview">(선택 사항) 긴 그룹화 이름의 경우 마우스를 그룹화 줄 위로 가져가면 도구 설명에 그룹화의 전체 이름을 볼 수 있습니다.</span>
+
 1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
 
    또는

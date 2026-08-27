@@ -9,20 +9,15 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r5i-iqQjF2cQtru6qxEAkrP6xkHGcAp7D8EYRav-7ls
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 1917
-ht-degree: 5%
+source-wordcount: 2002
+ht-degree: 4%
 
 ---
 
@@ -192,6 +187,10 @@ Old:
 
        * 여러 날에 걸친 레코드가 달력 맨 위에 표시됩니다.
        * 하루나 그 이하로 지속되는 레코드는 달력 보기의 하반기에 표시됩니다. 시작 및 종료 일자의 시간을 표시하도록 선택한 경우 레코드가 발생한 날짜 내의 적절한 시간에 표시됩니다.
+
+         <span class="preview">달력에는 주별 보기의 두 영역에 대해 이전, 현재, 다음 주에 걸쳐 최대 1,000개의 레코드가 표시됩니다.</span>
+
+1. <span class="preview">(선택 사항 및 조건부) 1,000개가 넘는 레코드가 있고 주별로 달력을 볼 때 기본적으로 일부 레코드가 표시되지 않는 경우 달력 맨 아래에 있는 **추가 로드**&#x200B;를 클릭합니다.</span>
 
 1. (선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면으로 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 사용하여 전체 화면을 종료합니다.
 
@@ -448,7 +447,7 @@ Old:
 
    * **레코드 종류**: 일정에서 레코드 막대의 색이 선택한 레코드 종류의 색과 일치합니다. 기본 옵션입니다.
    * **필드 값**: 레코드 색이 지정한 필드 색과 일치합니다.
-   * **없음**: 레코드가 흰색 막대에 표시됩니다. <span class="preview">없음 옵션이 미리 보기 환경에서 제거되었습니다.</span>
+   * **없음**: 레코드가 흰색 막대에 표시됩니다. <span class="preview">미리 보기 환경에서 **없음** 옵션이 제거되었습니다.</span>
 
 
 
