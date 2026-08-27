@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
+source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
 workflow-type: tm+mt
-source-wordcount: '14452'
+source-wordcount: '14457'
 ht-degree: 2%
 
 ---
@@ -1249,6 +1249,7 @@ ht-degree: 2%
     * [Adobe Experience Manager 레거시 커넥터를 사용하여 Workfront 제거](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
     * [Workfront with Adobe Experience Manager 강화 커넥터 제거](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
     * [연결된 폴더 및 문서 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
+  * [Adobe Workfront의 C2PA 메타데이터](documents/c2pa-metadata-overview.md)
 * 작업 관리 {#manage-work}
   * [작업 관리](manage-work/manage-work.md)
   * 프로젝트 {#projects}

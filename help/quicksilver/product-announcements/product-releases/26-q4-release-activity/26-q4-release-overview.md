@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 26c7853f4ce663deda6ed98484acc69b02ec5bad
+source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1464'
 ht-degree: 2%
 
 ---
@@ -327,6 +327,15 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+           <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">C2PA 메타데이터가 파일에 보존됩니다</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>Adobe Workfront은 사용자가 업로드, 저장 및 다운로드하는 문서에 C2PA 메타데이터를 수정하지 않고 유지합니다.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 8월 26일</p></td>
         </tr>
         <tr>
             <td>
