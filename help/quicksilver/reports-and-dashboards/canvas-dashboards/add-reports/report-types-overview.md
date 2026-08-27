@@ -11,9 +11,9 @@ hide: true
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,6 @@ ht-degree: 0%
 * 차트 보고서(막대, 열, 선 및 원형 차트 포함)
 * KPI 보고서
 * 테이블 보고서
+* 피벗 테이블 보고서
 * 보류 중인 승인 보고서
+
