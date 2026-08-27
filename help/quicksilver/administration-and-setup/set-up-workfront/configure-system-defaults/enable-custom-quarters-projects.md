@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 914f1f8a25aa5b9e1045d2f940ed15061301c21b
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: 376
 ht-degree: 4%
 
 ---
@@ -44,6 +44,13 @@ ht-degree: 4%
 * [!DNL Workfront]만 구입한 고객은 [!DNL Adobe Workfront] 시스템에 대해 최대 8개의 사용자 정의 분기를 구성할 수 있습니다.
 * [!DNL Workfront] 및 [!DNL Workfront Planning]을(를) 구매한 고객은 [!DNL Planning]에서도 사용할 수 있는 [!DNL Workfront] 시스템에 대해 최대 100분기를 구성할 수 있습니다.
 
+<!--
+<div class="preview">
+* Customers who purchased [!DNL Workfront] and [!DNL Workfront Planning], can configure custom weeks for each custom quarter which are visible in the [!DNL Planning] timeline views. 
+</div>
+-->
+
+
 ## 액세스 요구 사항
 
 +++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
@@ -58,8 +65,8 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 라이센스</td> 
-   <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL 계획]</p></td>
+   <td><p>[!UICONTROL Workflow Standard] 또는 [!UICONTROL Workfront Plan] 라이선스</p>
+       <p></p></td>
   </tr> 
   <tr> 
    <td>액세스 수준 구성</td> 
@@ -72,7 +79,61 @@ ht-degree: 4%
 
 +++
 
+<!--
+When we release fiscal weeks, replace the table above with this:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td>
+   <ul>
+   <li><p>To configure custom quarters:</p>
+   <p>Any Workfront or Workflow package</p></li>
+   <li>
+   <div class="preview">
+   <p>To configure custom weeks:</p>
+   <p>Any Planning package, including Planning as a standalone product</p>
+   </div>
+   </li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>[!DNL Adobe Workfront] license</td> 
+   <td>
+   
+   <ul>
+   <li><p>To configure custom quarters:</p>
+   <p>[!UICONTROL Workflow Standard] or [!UICONTROL Workfront Plan] license</p></li>
+   <li>
+   <div class="preview">
+   <p>To configure custom weeks:</p>
+   <p>A [!UICONTROL Planning Standard] license, in addition to a Workfront or a Workflow license</p>
+   </div>
+   </li>
+   </ul>
+    </td>
+  </tr> 
+  <tr> 
+   <td>Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
+
+
 ## [!DNL Workfront] 시스템에 대한 사용자 정의 영역 설정
+
+<!--
+Setting up custom quarters differs depending on which environment you use. 
+
+### Set up custom quarters for your [!DNL Workfront] system in the Production environment
+-->
 
 {{step-1-to-setup}}
 
@@ -106,3 +167,49 @@ ht-degree: 4%
    필터 만들기에 대한 자세한 내용은 [필터 만들기 또는 편집 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
 1. (선택 사항 및 조건부) 회사에서 Workfront Planning을 구입하고 [!DNL Workfront Planning]에 대한 액세스 권한이 있는 경우 레코드 유형 페이지로 이동하여 타임라인 보기를 엽니다. 보기에 새 사용자 정의 분기가 표시됩니다.
 자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
+
+<!--
+<div class="preview">
+
+### Set up custom quarters for your [!DNL Workfront] system in the Preview environment
+
+>[!NOTE]
+>
+>If your organization purchased a Planning package in addition to a Workflow package, or if they purchased  Workfront Planning as a standalone package, you can configure custom quarters as well as custom weeks. 
+
+
+{{step-1-to-setup}}
+
+1. Click **[!UICONTROL Custom Quarters]**.
+
+1. Select **[!UICONTROL Enable Custom Quarters]**.
+
+1. Type a name for the custom quarter, such as "Fiscal Q1 2021."
+1. Select start and end dates for the custom quarter.
+
+1. (Optional) Select the **Starts a new custom week sequence** option
+
+1. (Optional) Click **[!UICONTROL Add Custom Quarter]** to add additional custom quarters to the system.
+
+      >[!IMPORTANT]
+      >
+      > If your company purchased [!DNL Workfront Planning], you cannot save your custom quarters if there are gaps or overlaps between the quarters. 
+      >![Custom quarters with overlap warning](assets/custom-quarters-with-overlap-warning.png)
+      >Gaps and overlaps between the quarters are allowed for [!DNL Workfront] only customers. 
+
+1. (Optional and conditional) If your company purchased only [!DNL Workfront], without [!DNL Workfront Planning], create a reporting element that refers to the fiscal quarters.
+
+   **Example:** Create a filter for a [!UICONTROL project] list and include the Planned Completion Date of a project referencing the custom quarters.
+
+   ![Project filter with custom quarters](assets/example-of-project-filter-with-custom-quarters.png)
+
+   The references to "This Quarter", "Next Quarter", and "Last Quarter" are replaced with new references to the custom quarters.
+
+   For information about reporting elements, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+
+   For information about creating filters, see [Create or edit filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+1. (Optional and conditional) If your company purchased Workfront Planning and you have access to [!DNL Workfront Planning], go to a record type page and open a timeline view. The view displays the new custom quarters. 
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
+
+</div>
+-->

@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: 1236
-ht-degree: 8%
+source-wordcount: 1343
+ht-degree: 7%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 8%
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원 팀에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하십시오.<br>
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하세요.<br>
 >다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
@@ -80,7 +80,7 @@ ht-degree: 8%
 
 ## 전제 조건
 
-테이블 보고서를 작성하려면 먼저 대시보드를 만들어야 합니다.
+테이블 보고서를 작성하려면 먼저 대시보드를 만들어야 합니다. 자세한 내용은 [캔버스 대시보드 만들기](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)를 참조하세요.
 
 
 ## 캔버스 대시보드에서 표 보고서 작성
@@ -89,13 +89,9 @@ ht-degree: 8%
 
 {{step1-to-dashboards}}
 
-1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭합니다.
+1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭한 다음 보고서를 추가할 대시보드 이름을 클릭합니다.
 
-1. 오른쪽 상단의 **새 대시보드**&#x200B;를 클릭합니다.
-
-1. **대시보드 만들기** 상자에 대시보드의 **이름** 및 **설명**&#x200B;을 입력하십시오.
-
-1. Click **Create**.
+1. 페이지의 오른쪽 상단에 있는 **보고서 추가**&#x200B;를 클릭합니다.
 
 1. **보고서 추가** 상자에서 **보고서 만들기**&#x200B;를 선택합니다.
 
@@ -151,13 +147,9 @@ ht-degree: 8%
 
 {{step1-to-dashboards}}
 
-1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭합니다.
+1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭한 다음 보고서를 추가할 대시보드 이름을 클릭합니다.
 
-1. 오른쪽 상단의 **새 대시보드**&#x200B;를 클릭합니다.
-
-1. **대시보드 만들기** 상자에 대시보드의 **이름** 및 **설명**&#x200B;을 입력하십시오.
-
-1. Click **Create**.
+1. 페이지의 오른쪽 상단에 있는 **보고서 추가**&#x200B;를 클릭합니다.
 
 1. **보고서 추가** 상자에서 **보고서 만들기**&#x200B;를 선택합니다.
 
@@ -232,7 +224,7 @@ ht-degree: 8%
 * 재무 데이터를 보는 사용자는 이미 볼 수 있는 권한이 있는 레코드(프로젝트, 작업, 문제 등)로 제한됩니다. 액세스할 수 없는 레코드에 대한 재무 값이 표시되지 않습니다.
 * 보고서 작성자는 대시보드에 재무 데이터를 포함할 때 주의해야 하며 의도하지 않은 액세스를 방지하기 위해 대시보드를 공유하는 사용자를 염두에 두어야 합니다.
 
-이는 알려진 한계이며, 가능한 한 빨리 해결할 계획이다.
+이는 알려진 제한이며 향후 이를 해결할 계획입니다.
 
 ### 필드 선택기 활용
 
@@ -263,3 +255,4 @@ ht-degree: 8%
 * 문서 승인 단계 > 문서 승인 단계 참가자
 
 위에 나열된 상위-하위 관계를 활용하는 경우 상위 객체에 연결된 각 하위 레코드에 대한 행이 테이블에 표시됩니다.
+

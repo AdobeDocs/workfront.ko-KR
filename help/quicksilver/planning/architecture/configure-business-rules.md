@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 159b845c7b755117197d18f8474c01d4b19d53b8
+source-git-commit: 914f1f8a25aa5b9e1045d2f940ed15061301c21b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 4%
+source-wordcount: '298'
+ht-degree: 3%
 
 ---
 
@@ -75,7 +75,10 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## 비즈니스 규칙 구성 시 고려 사항
 
-* 레코드를 편집하거나 삭제할 수 있는 시기에 대한 규칙을 구성할 수 있습니다.
+* 정의한 조건에 따라 레코드를 편집하거나 삭제할 수 있는 시기에 대한 규칙을 구성할 수 있습니다.
+
+  예를 들어 특정 필드에 값이 있어야 한다는 조건을 만들 수 있습니다. 해당 필드에서 값이 누락된 경우 사용자가 해당 레코드를 편집하거나 삭제할 수 없습니다.
+* 기본 또는 보조 작업 영역의 글로벌 레코드 유형에 비즈니스 규칙을 추가할 수 없습니다.
 * 레코드가 생성되는 시기에 대한 규칙을 구성할 수 없습니다. 레코드 유형에 대한 관리 권한이 있는 모든 사용자는 레코드를 만들 수 있습니다.
 * 다음을 제외한 모든 필드 유형을 참조하는 비즈니스 규칙에 대한 조건을 만들 수 있습니다.
   * 공식 필드

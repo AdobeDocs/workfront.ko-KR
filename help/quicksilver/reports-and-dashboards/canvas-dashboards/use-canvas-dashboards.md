@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: 674
 ht-degree: 1%
 
 ---
@@ -106,6 +106,24 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
    >
    >이러한 변경 사항은 현재 세션에만 적용되며 원래 보고서 구성에는 영향을 주지 않습니다. 이러한 변경 사항을 영구적으로 적용하려면 보고서를 편집해야 합니다.
 
+<div class="preview">
+
+### 미리 보기에서 피벗 테이블 데이터로 드릴다운
+
+피벗 테이블 보고서에서 값을 클릭하여 드릴다운하고 해당 집계된 값을 구성하는 개별 레코드를 볼 수 있습니다.
+
+{{step1-to-dashboards}}
+
+1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭합니다.
+1. 기존 대시보드 이름을 클릭하여 엽니다.
+   ![대시보드 열기](assets/open-dashboard.png)
+1. 보려는 피벗 테이블 보고서를 찾습니다.
+1. 피벗 테이블에서 값을 클릭하여 드릴다운 테이블을 엽니다.
+
+   드릴다운 테이블에는 보고서 작성자가 드릴다운 열 설정에서 구성한 열이 표시됩니다. 자세한 내용은 [캔버스 대시보드에 피벗 테이블 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)을 참조하세요.
+
+</div>
+
 
 <!--
 
@@ -157,3 +175,4 @@ For more detailed instructions on creating, managing, and customizing Canvas Das
 열 헤더를 클릭하여 각 그룹 내의 데이터를 정렬할 수 있습니다. 그룹화 필드와 다른 필드를 기준으로 정렬하면 그룹 순서가 변경되지 않습니다.
 
 하지만 보고서를 그룹화한 필드와 같은 필드를 기준으로 정렬하면 그룹 순서가 변경될 수 있습니다. 예를 들어, 일반적으로 A-Z를 실행하는 텍스트 기반 그룹화는 Z-A로 전환할 수 있다.
+

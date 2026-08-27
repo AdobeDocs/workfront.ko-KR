@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1501'
 ht-degree: 2%
 
 ---
@@ -264,6 +264,15 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 피벗 테이블 보고서</a>
+                <p>캔버스 대시보드의 새로운 피벗 테이블 보고서 유형은 기본 레코드로 드릴다운하여 정확하고 완전한 롤업으로 데이터를 집계합니다.</p>
+            </td>
+            <td><p>2026년 8월 27일</p></td>
+            <td><p>2026년 9월 17일</p></td>
+            <td><p>2026년 10월 15일</p></td>
         </tr>
         <tr>
             <td>

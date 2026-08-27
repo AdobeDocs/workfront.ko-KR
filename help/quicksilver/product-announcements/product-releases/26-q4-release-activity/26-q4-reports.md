@@ -4,9 +4,9 @@ description: 2026년 4분기 보고 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a86f0169f804520be2828983a737c8c8d151792d
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,18 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 4분기 릴리스의 보고 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
+
+## 캔버스 대시보드의 피벗 테이블 보고서
+
+>[!NOTE]
+>
+>미리 보기: 2026년 8월 27일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+캔버스 대시보드의 새로운 피벗 테이블 보고서 유형은 정확하고 완전한 롤업으로 데이터를 집계합니다. 카운트, 합계 및 평균과 같은 지표를 대시보드에서 직접 작성한 다음 모든 합계 뒤의 기본 레코드를 드릴다운할 수 있습니다.
+
+자세한 내용은 [캔버스 대시보드에 피벗 테이블 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)을 참조하세요.
 
 ## 예약된 보고서에 대한 종료 일자 적용
 
