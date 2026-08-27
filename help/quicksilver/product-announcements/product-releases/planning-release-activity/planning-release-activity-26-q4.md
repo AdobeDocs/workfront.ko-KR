@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
+source-git-commit: f2a7d09bbf25685395dc97f67bfde87a5d006aea
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,44 @@ ht-degree: 0%
 이 문서에서는 2026년 4분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 타임라인 보기에서 모든 그룹화 축소 및 확장
+
+>[!NOTE]
+>
+>미리 보기: 2026년 8월 27일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 타임라인 보기에는 그룹화된 타임라인에 대한 모두 축소 및 모두 확장 옵션이 포함됩니다. 이렇게 하면 큰 로드맵 보기를 더 쉽게 탐색할 수 있습니다. 보기를 그룹화 제목으로 빠르게 줄인 다음 검토할 섹션만 확장할 수 있습니다.
+
+자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
+
+## 전체 그룹 이름을 보고 타임라인 보기에서 그룹화 패널 크기를 조정합니다
+
+>[!NOTE]
+>
+>미리 보기: 2026년 8월 27일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+타임라인 보기에서 잘린 그룹 레이블 위로 마우스를 가져가면 이제 도구 설명에 전체 텍스트가 [스윔레인] 및 [스택 그룹화] 표시에 모두 표시됩니다. 잘리지 않은 레이블에는 툴팁이 표시되지 않습니다.
+
+이제 구분선을 드래그하여 스윔레인 디스플레이의 그룹화 왼쪽 패널의 크기를 조정할 수 있습니다. 보기가 실시간으로 업데이트되며, 이는 테이블 보기와 일치합니다. 각 사용자의 패널 너비는 세션 간에 저장되며 처음 사용하는 사용자의 기본 너비는 입니다.
+
+자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
+
+## 주 보기에서 큰 레코드 집합에 대한 일정 성능이 개선되었습니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 8월 27일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 주별 보기에는 표시되는 주 기간 동안 처음 1,000개의 레코드만 표시됩니다. 레코드가 더 있으면 캘린더 하단에 추가 레코드를 사용할 수 있다는 메시지가 표시됩니다. &quot;레코드가 더 있습니다. 추가 로드.&quot;
+
+자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
 
 ## 종속적으로 연결된 레코드 필드에 대한 열 헤더가 업데이트되었습니다.
 
@@ -43,22 +81,6 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 테이블 보기에서 여러 행을 끌어다 놓을 때 새로운 시각적 표시기가 있습니다. 이제 더 눈에 띄는 더하기 기호와 숫자 표시기에 끌어서 놓기 작업에 대해 선택한 행 수가 표시됩니다.
 
 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
-
-<!--
-
-## Collapse and expand all groupings in the timeline view
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
-
-For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-
--->
 
 ## 글로벌 레코드 유형을 사용할 때 제출된 요청 개체를 올바른 작업 영역으로 라우팅합니다.
 
