@@ -8,23 +8,27 @@ feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
 TQID: https://experienceleague.adobe.com/G8mttRndZ2pCn-2YM86VrIFDCIsY091eh3zSO23qFI8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: 783
 ht-degree: 0%
 
 ---
 
 # 인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용
+
+>[!IMPORTANT]
+>
+>사용자 정의 OAuth2 애플리케이션은 더 이상 사용되지 않습니다. 다음 날짜를 참고하십시오.
+>
+>* 2026년 11월 1일: 더 이상 새 사용자 지정 OAuth2 애플리케이션을 만들 수 없습니다.
+>* 2027년 2월 1일: 기존 사용자 지정 OAuth2 애플리케이션은 더 이상 작동하지 않습니다.
+>
+>자세한 내용은 [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)을 참조하십시오.
 
 Workfront과 통합하고 클라이언트 앱이 사용자를 대신하여 Workfront과 통신할 수 있도록 하려면 다음을 수행해야 합니다.
 

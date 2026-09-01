@@ -9,19 +9,14 @@ role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
 TQID: https://experienceleague.adobe.com/nN-7cw-IwnuQ-7wjyjyp3wUifEvk2eNmo9zqyHDjfV0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 644
-ht-degree: 3%
+source-wordcount: 697
+ht-degree: 2%
 
 ---
 
@@ -29,9 +24,17 @@ ht-degree: 3%
 
 [!DNL Adobe Workfront] 관리자는 [!DNL Workfront] 인스턴스에 대한 OAuth2 응용 프로그램을 보고 관리할 수 있으며, 이를 통해 다른 응용 프로그램에서 [!UICONTROL Workfront]에 액세스할 수 있습니다.
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>* 사용자 정의 OAuth2 애플리케이션은 더 이상 사용되지 않습니다. 다음 날짜를 참고하십시오.
+>
+>   * 2026년 11월 1일: 더 이상 새 사용자 지정 OAuth2 애플리케이션을 만들 수 없습니다.
+>   * 2027년 2월 1일: 기존 사용자 지정 OAuth2 애플리케이션은 더 이상 작동하지 않습니다.
+>
+>   자세한 내용은 [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)을 참조하십시오.
 >
 >* OAuth2의 컨텍스트에서 &quot;Oauth2 애플리케이션&quot;은 앱과 서버(예: [!DNL Workfront]) 간의 이러한 종류의 액세스 링크를 참조합니다. 자세한 내용은 [통합을 위한 OAuth2 응용 프로그램 만들기 [!DNL Workfront] 통합](../../administration-and-setup/configure-integrations/create-oauth-application.md)을 참조하십시오.
+>
 >* 한 번에 최대 10개의 OAuth2 애플리케이션을 보유할 수 있습니다.
 
 * 사용자 지정 OAuth2 응용 프로그램 만들기에 대한 정보, 지침 및 자세한 내용은 [통합을 위한 OAuth2 응용 프로그램 만들기 [!DNL Workfront] 통합](../../administration-and-setup/configure-integrations/create-oauth-application.md)을 참조하십시오.

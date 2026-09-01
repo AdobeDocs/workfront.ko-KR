@@ -8,23 +8,27 @@ feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
 TQID: https://experienceleague.adobe.com/uxF82lsimZlGpWRe8BEt80-9wb0rnwz7uhBHCI8nAig
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: 554
 ht-degree: 0%
 
 ---
 
 # JWT 플로우를 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용
+
+>[!IMPORTANT]
+>
+>사용자 정의 OAuth2 애플리케이션은 더 이상 사용되지 않습니다. 다음 날짜를 참고하십시오.
+>
+>* 2026년 11월 1일: 더 이상 새 사용자 지정 OAuth2 애플리케이션을 만들 수 없습니다.
+>* 2027년 2월 1일: 기존 사용자 지정 OAuth2 애플리케이션은 더 이상 작동하지 않습니다.
+>
+>자세한 내용은 [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)을 참조하십시오.
 
 Workfront과 통합하고 클라이언트 앱이 사용자를 대신하여 Workfront과 통신할 수 있도록 하려면 다음을 수행해야 합니다.
 
@@ -69,7 +73,7 @@ OAuth2 애플리케이션 만들기에 대한 지침은 [Workfront 통합을 위
  <tbody> 
   <tr> 
    <td role="rowheader">만료</td> 
-   <td> <p>필수. 만료 매개 변수는 01/01/1970 GMT 이후의 절대 시간을 측정하는 필수 매개 변수입니다. 만료 시간이 문제 시간 이후인지 확인해야 합니다. 이 시간이 지나면 JWT는 더 이상 유효하지 않습니다. </p> <p>참고: 매우 짧은 수명 토큰(몇 분)이 있으므로 액세스 토큰으로 교환된 직후 만료되도록 하는 것이 좋습니다. 새로운 액세스 토큰이 필요할 때마다 하나의 JWT에 서명하고 교환합니다. 이는 보다 안전한 접근 방식입니다. 필요에 따라 액세스 토큰을 얻기 위해 다시 사용되는 장기 토큰은 사용하지 않는 것이 좋습니다.</p> </td> 
+   <td> <p>필수 여부. 만료 매개 변수는 01/01/1970 GMT 이후의 절대 시간을 측정하는 필수 매개 변수입니다. 만료 시간이 문제 시간 이후인지 확인해야 합니다. 이 시간이 지나면 JWT는 더 이상 유효하지 않습니다. </p> <p>참고: 매우 짧은 수명 토큰(몇 분)이 있으므로 액세스 토큰으로 교환된 직후 만료되도록 하는 것이 좋습니다. 새로운 액세스 토큰이 필요할 때마다 하나의 JWT에 서명하고 교환합니다. 이는 보다 안전한 접근 방식입니다. 필요에 따라 액세스 토큰을 얻기 위해 다시 사용되는 장기 토큰은 사용하지 않는 것이 좋습니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">iss</td> 

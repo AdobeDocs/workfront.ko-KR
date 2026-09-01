@@ -11,20 +11,13 @@ exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2018
 ht-degree: 5%
 
 ---
@@ -35,9 +28,16 @@ ht-degree: 5%
 
 [!UICONTROL OAuth2] 응용 프로그램을 만들 때 클라이언트 ID 및 클라이언트 암호를 생성합니다. 그런 다음 사용자는 API 호출에서 클라이언트 ID를 사용하여 만든 애플리케이션과 통합할 수 있습니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->OAuth2의 컨텍스트에서 &quot;앱 만들기&quot;는 앱과 서버(예: [!DNL Workfront]) 간에 이러한 종류의 액세스 링크를 만드는 프로세스를 의미합니다.
+>* 사용자 정의 OAuth2 애플리케이션은 더 이상 사용되지 않습니다. 다음 날짜를 참고하십시오.
+>
+>   * 2026년 11월 1일: 더 이상 새 사용자 지정 OAuth2 애플리케이션을 만들 수 없습니다.
+>   * 2027년 2월 1일: 기존 사용자 지정 OAuth2 애플리케이션은 더 이상 작동하지 않습니다.
+>
+>   자세한 내용은 [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)을 참조하십시오.
+>
+>* OAuth2의 컨텍스트에서 &quot;앱 만들기&quot;는 앱과 서버(예: [!DNL Workfront]) 간에 이러한 종류의 액세스 링크를 만드는 프로세스를 의미합니다.
 
 * 사용자 자격 증명(인증 코드 흐름)을 사용하여 OAuth2 응용 프로그램을 구성하고 사용하는 방법에 대한 지침은 [인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth2 응용 프로그램 구성 및 사용](../../wf-api/api/oauth-app-code-token-flow.md)을 참조하십시오.
 * 서버 인증(JWT 흐름)을 사용하여 OAuth2 애플리케이션을 구성하고 사용하는 방법에 대한 지침은 [JWT 흐름을 사용하여 조직의 사용자 지정 OAuth2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-jwt-flow.md)을 참조하십시오.
@@ -140,8 +140,8 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
 {{step-1-to-setup}}
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth2 응용 프로그램]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 앱 통합 만들기]**&#x200B;를 클릭합니다.
-**새 OAuth2 애플리케이션** 상자가 표시됩니다.
+1. **[!UICONTROL 앱 통합 만들기]**를 클릭합니다.
+**새 OAuth2 응용 프로그램** 상자가 표시됩니다.
 1. **새 OAuth2 응용 프로그램** 상자에서 **[!UICONTROL 컴퓨터 대 컴퓨터 응용 프로그램]**&#x200B;을 선택합니다.
 1. 새 응용 프로그램의 이름을 입력하십시오(예: &quot;[!DNL Workfront] for ClientApp&quot;).
 1. Click **[!UICONTROL Create]**.
@@ -225,7 +225,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 리디렉션 URL]</td> 
-      <td>사용자가 [!DNL Workfront] (으)로 인증되면 이 경로로 리디렉션됩니다.</td> 
+      <td>사용자가 [!DNL Workfront](으)로 인증되면 이 경로로 리디렉션됩니다.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 새로 고침 토큰 순환]</td> 
