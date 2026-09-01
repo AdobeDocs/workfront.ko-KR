@@ -10,18 +10,12 @@ exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mo2xl9ElZiaehjY1KH6ykvqO-PaO126rw0GAOFLJ0sg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 26b9239894d071fa5a3a0e185f935091e9e7ad13
 workflow-type: tm+mt
 source-wordcount: 1705
 ht-degree: 1%
@@ -209,6 +203,9 @@ Old:
 
    ![프로젝트 아이콘 및 마지막으로 게시한 날짜](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
+   <!--
+    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
+    -->
 1. (선택 사항 및 조건부) 기존 플랜에서 게시하려면 플랜의 오른쪽 상단에 있는 **[!UICONTROL 필터]** 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭하고 다음 옵션 중 하나를 선택합니다.
 
    <table style="table-layout:auto"> 
@@ -302,7 +299,7 @@ Old:
      >   
      >   
      >   * 레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 섹션에서 영역을 추가하거나 제거하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 보기 사용자 지정](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오.
-     >   * [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL 개요] 영역에서 정보를 보는 방법에 대한 자세한 내용은 프로젝트 [!UICONTROL 개요] 영역[&#128279;](../manage-work/projects/manage-projects/understand-project-overview-area.md)에서 [!UICONTROL 관리] 정보를 참조하십시오.
+     >   * [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL 개요] 영역에서 정보를 보는 방법에 대한 자세한 내용은 프로젝트 [!UICONTROL 개요] 영역](../manage-work/projects/manage-projects/understand-project-overview-area.md)에서 [[!UICONTROL 관리] 정보를 참조하십시오.
      >   
      >
 
@@ -316,7 +313,7 @@ Old:
 
    * **프로젝트의 [!UICONTROL 비즈니스 사례]에 있는 [!UICONTROL 리소스 예산 편성] 영역**: [!DNL Scenario Planner] 정보를 사용하여 프로젝트 리소스를 관리하는 새로운 옵션이 프로젝트의 [!UICONTROL 비즈니스 사례]에 있는 [!UICONTROL 리소스 예산 편성] 영역에 추가되었습니다.
 
-     자세한 내용은  [!DNL Scenario Planner][&#128279;](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)을(를) 사용하여 [!UICONTROL 비즈니스 사례]의 예산 리소스를 참조하십시오.
+     자세한 내용은  [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)을(를) 사용하여 [!UICONTROL 비즈니스 사례]의 [예산 리소스를 참조하십시오.
 
      ![비즈니스 사례의 시나리오 플래너](assets/sp-in-business-case-selected-350x110.png)
 
