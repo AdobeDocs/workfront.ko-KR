@@ -9,20 +9,14 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/y0YxGD8b6EflLQ2HyUM2I5Te-vwicjZmO3bsbXJx0LM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: 1193
+source-wordcount: 1203
 ht-degree: 2%
 
 ---
@@ -293,12 +287,18 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
    변경 사항은 자동으로 저장됩니다.
 
-   레코드 추가, 레코드 유형 삭제 또는 편집, 레코드 유형 페이지의 보기 업데이트에 대한 자세한 내용은 다음 문서를 참조하십시오.
+   레코드 추가, 레코드 형식 삭제 또는 편집, <!--<span class="preview">creating business rules</span>--> 또는 레코드 형식 페이지에서 보기 업데이트에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
    * [레코드 만들기](/help/quicksilver/planning/records/create-records.md)
    * [레코드 유형 삭제](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [레코드 유형 편집](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)
+
+   <!--  
+    <div class="preview">
+    * [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
+    </div>
+    -->
 
 ## CSV 또는 Excel 파일에서 정보를 가져와서 레코드 유형 만들기
 
