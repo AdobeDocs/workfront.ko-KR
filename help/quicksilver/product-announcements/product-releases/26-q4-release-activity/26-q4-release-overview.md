@@ -4,10 +4,10 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: 549e1bd0fd0910d8285552487115fdeaae5facc7
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 2%
+source-wordcount: '1579'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 이 페이지는 2026년 4분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 추가 개선 사항으로 업데이트됩니다.
 
-라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/ko/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
+라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/en/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
 
 >[!IMPORTANT]
 >
@@ -267,6 +267,24 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 승인 유형 필드</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>이제 승인 엔티티에 승인 유형 필드가 포함되어 있습니다. 이 필드를 통해 사용자는 증명 승인, 문서 버전 승인, 접수 승인 및 기타 승인 유형을 구별할 수 있습니다.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 8월 28일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 승인 용어 업데이트</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>보다 명확하게 하기 위해 문서 및 작업 승인을 위해 캔버스 대시보드에 사용된 여러 필드 이름의 이름이 변경되었습니다.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 8월 28일</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 피벗 테이블 보고서</a>
                 <p>캔버스 대시보드의 새로운 피벗 테이블 보고서 유형은 기본 레코드로 드릴다운하여 정확하고 완전한 롤업으로 데이터를 집계합니다.</p>
             </td>
@@ -391,8 +409,8 @@ ht-degree: 2%
 
 이 변경 사항은 2026년 4월 Workfront 릴리스 정보에서 처음 발표되었으며, 기한 전에 알려 주는 최종 알림입니다. 영향을 받는 모든 리더 사용자가 2026년 8월 8일 이전에 MFA를 활성화하여 액세스 중단을 방지해야 합니다.
 
-자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/ko/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
+자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
