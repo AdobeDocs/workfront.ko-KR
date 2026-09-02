@@ -10,17 +10,12 @@ exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0c334e47aaf59a02ec235776505076e5aa808a89
 workflow-type: tm+mt
-source-wordcount: 3308
+source-wordcount: 3545
 ht-degree: 5%
 
 ---
@@ -67,7 +62,10 @@ ht-degree: 5%
 * 승인 단계
 * 승인 단계 참가자
 * 할당
+* 예약
 * 회사
+* 사용자 정의 필드
+* 사용자 정의 양식
 * 대시보드
 * 문서
 * 문서 버전
@@ -75,6 +73,8 @@ ht-degree: 5%
 * 필드
 * 시간
 * 문제
+* 비인적 범주
+* 비노동 리소스
 * 메모
 * 포트폴리오
 * 프로그램
@@ -90,6 +90,8 @@ ht-degree: 5%
 * 스태핑 계획 자원 속성 값 세트
 * 스태핑 계획 자원 매개변수 값
 * 작업
+* 팀
+* 팀원
 * 템플릿
 * 타임시트
 * 사용자
@@ -151,8 +153,20 @@ ht-degree: 5%
         <td scope="col"><p>ASSIGN</p></td> 
        </tr> 
        <tr> 
+        <td scope="col">예약</td> 
+        <td scope="col"><p>예약</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col">회사 </td> 
         <td scope="col"><p>지저분해</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">사용자 정의 필드</td> 
+        <td scope="col"><p>매개 변수</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">사용자 정의 양식</td> 
+        <td scope="col"><p>CTGY</p></td> 
        </tr> 
        <tr> 
         <td scope="col">대시보드</td> 
@@ -181,6 +195,14 @@ ht-degree: 5%
        <tr> 
         <td scope="col">문제</td> 
         <td scope="col"><p>OPTASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">비인적 범주</td> 
+        <td scope="col"><p>NLBRCY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">비노동 리소스</td> 
+        <td scope="col"><p>NLBR</p></td> 
        </tr> 
        <tr> 
         <td scope="col">메모</td> 
@@ -241,6 +263,14 @@ ht-degree: 5%
        <tr> 
         <td scope="col"><p>작업</p></td> 
         <td scope="col"><p>작업</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">팀</td> 
+        <td scope="col"><p>TEAOB</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">팀원</td> 
+        <td scope="col"><p>TEAMMB</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>템플릿</p></td> 
@@ -768,6 +798,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 이 필터를 사용하면 발생한 변경 내용에 필터에 `fieldValue`이(가) 포함된 경우 메시지를 보낼 수 있습니다. `fieldValue` 값은 대/소문자를 구분합니다.
 
+`fieldName`이(가) 개체 배열(예: `tags`)을 참조하는 경우 `fieldValue`은(는) 개체가 될 수 있습니다. 배열의 요소에 지정한 키와 일치하는 값이 있으면 필터가 일치합니다. 해당 요소의 다른 필드는 고려되지 않습니다. 전체 개체에서 전체 필드가 아닌 부분 일치입니다.
+
 ```
 {
     "objCode": "TASK",
@@ -783,6 +815,33 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
     ]
 }
 ```
+
+**예: 개체 배열 필드 필터링**
+
+```
+{
+    "objCode": "NOTE",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedNotes",
+    "filters": [
+        {
+            "fieldName": "tags",
+            "fieldValue": {
+                "objID": "6229be410016986cfc6eb4b37c618a17"
+            },
+            "state": "newState",
+            "comparison": "contains"
+        }
+    ]
+}
+```
+
+이 필터는 해당 태그의 `objCode` 또는 다른 필드에 관계없이, `tags` 배열에 `objID`이(가) `6229be410016986cfc6eb4b37c618a17`과(와) 같은 태그가 하나 이상 포함된 NOTE 이벤트와 일치합니다.
+
+>[!NOTE]
+>
+>`contains` 또는 `notContains`(으)로 개체 배열 필드(예: `tags`)를 필터링할 때 `fieldValue`에는 관심 있는 키만 포함하면 됩니다. 예를 들어 `{"objID": "abc123"}`은(는) 다른 필드(예: `objCode`)와 관계없이 해당 ID를 가진 태그와 일치합니다. 전체 객체 같음 검사가 아닙니다. `containsOnly`은(는) 현재 개체 배열 필드를 지원하지 않습니다.
 
 #### containsOnly
 
@@ -817,6 +876,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 이 필터를 사용하면 지정된 필드(`fieldName`)에 지정된 값(`fieldValue`)이 포함되지 않은 경우에만 메시지를 보낼 수 있습니다.
 
+개체 배열과 함께 사용할 경우 지정된 키와 일치하는 요소가 없는 경우에만 true를 반환합니다.
+
 >[!NOTE]
 >
 >배열 유형(다중 선택) 또는 문자열 필드에 사용됩니다. 필드가 문자열이면 지정된 값이 문자열에 포함되지 않았는지(예: &quot;New&quot;는 &quot;Project - Updated&quot; 문자열에 없음) 확인합니다. 필드가 배열이고 지정된 필드 값이 문자열 또는 정수인 경우 배열에 지정된 값이 없는지 확인합니다(예: [&quot;Choice 2&quot;, &quot;Choice 3&quot;]에 없는 &quot;Choice 1&quot;). 아래 예제 구독에서는 `groups` 필드에 문자열 &quot;Group 2&quot;가 포함되지 않은 경우에만 메시지를 보낼 수 있습니다.
@@ -837,6 +898,10 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
     ]
 }
 ```
+
+>[!NOTE]
+>
+>`contains` 또는 `notContains`(으)로 개체 배열 필드(예: `tags`)를 필터링할 때 `fieldValue`에는 관심 있는 키만 포함하면 됩니다. 예를 들어 `{"objID": "abc123"}`은(는) 다른 필드(예: `objCode`)와 관계없이 해당 ID를 가진 태그와 일치합니다. 전체 객체 같음 검사가 아닙니다. `containsOnly`은(는) 현재 개체 배열 필드를 지원하지 않습니다.
 
 #### 변경
 
