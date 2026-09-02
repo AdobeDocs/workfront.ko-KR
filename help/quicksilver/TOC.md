@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 14dd7192daab6bdb49ebb0964ef6e042fe7612f8
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: '14466'
+source-wordcount: '14474'
 ht-degree: 2%
 
 ---
@@ -839,6 +839,7 @@ ht-degree: 2%
     * [Adobe Admin Console에서 사용자를 위한 Adobe Workfront Creative Cloud 패키지 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
     * [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](administration-and-setup/configure-integrations/create-oauth-application.md)
     * [사용자 정의 OAuth2 애플리케이션 보기 및 관리](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
+    * [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)
     * [JumpSeat 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
   * 블루프린트 {#blueprints}
     * [블루프린트](administration-and-setup/blueprints/blueprints.md)

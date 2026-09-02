@@ -4,10 +4,10 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: 549e1bd0fd0910d8285552487115fdeaae5facc7
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 2%
+source-wordcount: '1579'
+ht-degree: 3%
 
 ---
 
@@ -264,6 +264,24 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 승인 유형 필드</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>이제 승인 엔티티에 승인 유형 필드가 포함되어 있습니다. 이 필드를 통해 사용자는 증명 승인, 문서 버전 승인, 접수 승인 및 기타 승인 유형을 구별할 수 있습니다.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 8월 28일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 승인 용어 업데이트</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>보다 명확하게 하기 위해 문서 및 작업 승인을 위해 캔버스 대시보드에 사용된 여러 필드 이름의 이름이 변경되었습니다.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 8월 28일</p></td>
         </tr>
         <tr>
             <td>

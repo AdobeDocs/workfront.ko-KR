@@ -1,14 +1,14 @@
 ---
 title: 레코드 유형 비즈니스 규칙 구성
-description: Adobe Workfront Planning에서 해당 유형의 레코드를 관리하는 방법을 정의하는 레코드 유형 비즈니스 규칙을 구성할 수 있습니다.
+description: 필드 값에 따라 레코드에 특정 작업을 적용할 수 있는 레코드 유형 비즈니스 규칙을 구성할 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 5%
+source-wordcount: '1038'
+ht-degree: 1%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 5%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-해당 유형의 레코드를 관리하는 방법을 정의하는 Adobe Workfront Planning 레코드 유형에 대한 비즈니스 규칙을 구성할 수 있습니다.
+Adobe Workfront Planning 레코드 유형에 대한 비즈니스 규칙을 구성하여 해당 유형의 레코드에 대한 작업이 허용되거나 금지되기 전에 특정 필드가 필요함을 나타낼 수 있습니다.
 
-정의된 비즈니스 규칙이 충족되는 경우 레코드에 대해 다음 작업을 허용할 수 있습니다.
+규칙 작성 방법에 따라 정의된 비즈니스 규칙이 충족되는 경우 레코드에 대해 다음 작업을 허용할 수 있습니다.
 
-* 레코드 편집
-* 레코드 삭제
+* 레코드 편집 또는 편집 안 함
+* 레코드 삭제 또는 삭제 안 함
 
 ## 액세스 요구 사항
 
@@ -80,25 +80,87 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## 비즈니스 규칙 구성 시 고려 사항
 
-* 레코드를 편집하거나 삭제할 수 있는 시기를 나타내는 규칙을 구성할 수 있습니다.
+* 비즈니스 규칙은 필드 변경 또는 레코드 삭제에 조건을 첨부합니다. 규칙은 필드가 규칙에서 구성하는 필드 값으로 변경되려고 할 때라는 한 가지 특정 의도적인 순간에만 실행됩니다.
 
-  예를 들어 특정 필드에 값이 있어야 한다는 조건을 만들 수 있습니다. 해당 필드에서 값이 누락된 경우 사용자가 해당 레코드를 편집하거나 삭제할 수 없습니다.
+* 규칙은 일반 언어로 다음과 같습니다. &quot;이 레코드를 편집하려면 먼저 캠페인 요약 필드에 값이 있어야 합니다.&quot;
+
+  필드가 비어 있으면 레코드 편집이 차단되고 앞으로 진행하기 전에 해결해야 하는 사항을 설명하는 명확한 메시지가 표시됩니다. 필수 필드를 업데이트하고 다시 시도하면 변경이 허용됩니다.
+
+* 규칙은 기록 생성을 차단하지 않습니다. 사용자는 여전히 레코드를 만들 수 있지만 필수 필드가 비어 있거나 지정된 값이 포함되어 있지 않은지 확인해야 합니다.
+* 규칙은 레코드를 자동으로 편집하거나 삭제하지 않습니다. 변경은 사용자가 신중하고 트리거해야 합니다.
+* 규칙은 소급 적용되지 않습니다. 이전 레코드는 영향을 받지 않습니다. 규칙 검사는 다음에 누군가가 레코드를 편집하거나 삭제하려고 할 때만 실행됩니다.
 * 기본 또는 보조 작업 영역의 글로벌 레코드 유형에 비즈니스 규칙을 추가할 수 없습니다.
-* 레코드가 생성되는 시기에 대한 규칙을 구성할 수 없습니다. 레코드 유형에 대한 관리 권한이 있는 모든 사용자는 레코드를 만들 수 있습니다.
 * 다음을 제외한 모든 필드 유형을 참조하는 비즈니스 규칙에 대한 조건을 만들 수 있습니다.
   * 공식 필드
   * 조회 필드
   * 참조 필드
+* 규칙은 레코드를 편집하거나 삭제할 수 있는 모든 사용자에게 적용됩니다.
+* 레코드 유형에 대해 둘 이상의 비즈니스 규칙을 가질 수 있습니다.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+
+  모든 규칙이 동시에 확인되며 오류 메시지에 한 명령문에서 누락된 모든 필드가 표시됩니다.
 
 ## 비즈니스 규칙 구성
 
-1. 레코드 유형으로 이동합니다.
-1. 레코드 종류 이름의 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **비즈니스 규칙**&#x200B;을 클릭합니다.
+1. 레코드 유형 페이지로 이동합니다.
+1. 모든 보기에서 레코드 종류 이름의 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **비즈니스 규칙**&#x200B;을 클릭합니다.
 
    비즈니스 규칙 페이지가 열립니다.
 1. **새 비즈니스 규칙**&#x200B;을 클릭합니다.
-1. 새 비즈니스 규칙 상자의 사용 가능한 첫 번째 필드에 비즈니스 규칙의 이름을 추가합니다. 필수 필드입니다.
-1. (선택 사항) 비즈니스 규칙을 정의하는 설명을 추가합니다.
+1. **새 비즈니스** 규칙 상자에서 사용 가능한 첫 번째 필드에 비즈니스 규칙의 이름을 추가합니다. 필수 필드입니다.
+1. (선택 사항) 비즈니스 규칙을 정의하는 설명을 추가한 다음 **저장**&#x200B;을 클릭합니다.
+1. 비즈니스 규칙 설정 양식의 **If** 섹션에서 특정 규칙에 따라 제한하거나 허용할 작업을 선택합니다. 다음 중 선택: <!--check UI text-->
+   * **레코드 편집**: 이 규칙에 정의된 조건이 충족되면 사용자는 레코드를 편집하거나 편집할 수 없습니다.
+   * **레코드 삭제**: 이 규칙에 정의된 조건이 충족되면 사용자는 레코드를 삭제하거나 삭제하지 않을 수 있습니다.
+     <!--add screen shot when UI text is final-->
+1. **수식 필드**&#x200B;에서 비즈니스 규칙을 추가합니다. 오른쪽 패널의 **수식 표현식** 섹션에서 규칙에 대한 연산자를 선택하십시오.
+
+   예를 들어 **기타** 필드 섹션에서 **IF**&#x200B;을(를) 선택하거나 &quot;IF&quot;를 입력한 다음 제안 목록에 표시될 때 클릭할 수 있습니다.
+
+   >[!TIP]
+   >
+   >규칙 구문을 올바르게 유지하려면 제안 목록에서 필드와 연산자를 선택하는 것이 좋습니다.
+1. 이 레코드 유형의 레코드를 편집하거나 삭제할 수 있도록 필수로 지정할 및 필드를 선택합니다.
+
+   예를 들어 다음 문을 입력하여 **캠페인 요약** 필드를 필수 항목으로 만들 수 있습니다.
+
+   ```
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+   ```
+
+   >[!IMPORTANT]
+   >
+   >사용자가 레코드에서 수행하려는 작업이 허용되지 않는 경우를 사용자가 쉽게 이해할 수 있도록 다음 정보를 규칙 공식에 포함하는 것이 좋습니다.
+   >
+   >* 규칙이 설정된 정확한 필드.
+   >* 규칙이 충족되지 않는 경우의 정확한 결과.
+
+   필드 또는 식이 잘못된 경우 **수식** 필드에 표시기가 있습니다.  <!--add screen shot?-->
+
+   비즈니스 규칙의 **Then** 섹션에서 규칙의 기능에 대한 설명을 볼 수 있습니다.
+
+1. 이 레코드 종류에 대해 규칙을 활성화하려면 **활성화**&#x200B;를 클릭한 다음 **저장**&#x200B;을 클릭합니다.
+
+   규칙은 활성화 즉시 적용되며 선택한 레코드 유형의 레코드를 편집하거나 삭제할 권한이 있는 모든 사용자가 따라야 합니다.
+1. (선택 사항 및 권장) 페이지 헤더의 **비즈니스 규칙** 왼쪽에 있는 뒤로 화살표를 클릭하여 레코드 유형 페이지를 표시하고 테이블 보기로 이동하거나 레코드의 페이지를 연 다음 레코드를 편집하거나 삭제하여 방금 만든 규칙을 테스트합니다.
+
+## 비즈니스 규칙 관리
+
+기존 비즈니스 규칙을 편집, 삭제 또는 비활성화할 수 있습니다.
+
+기존 규칙을 편집해도 기존 레코드는 변경되지 않습니다. 편집된 규칙은 누군가 기존 레코드를 편집하거나 삭제하려고 할 때만 적용됩니다.
+
+1. 레코드 종류의 **비즈니스 규칙** 구성 페이지로 돌아갑니다.
+1. 변경할 규칙을 찾습니다.
+1. 규칙 이름 위로 마우스를 가져간 후 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 옵션 중 하나를 클릭하십시오.
+
+   * **편집**: 비즈니스 규칙 설정 페이지가 열리고 비즈니스 규칙에 대한 정보를 편집할 수 있습니다.
+   * **Deactivate**: <!--check this in the UI: right now, it says Disable--> 이렇게 하면 규칙이 트리거되는 것을 중지하지만 필요한 경우 나중에 계속 유지됩니다.
+   * **삭제**: 규칙에 대한 모든 정보가 삭제됩니다. 삭제된 규칙은 복구할 수 없습니다.
+
+   편집된 규칙 또는 규칙의 비활성화는 미래 기록에 대해서만 적용되며 소급 적용되지 않습니다.
+
+   <!--add screen shot if UI is fixed with Deactivate-->
+
 
 <!--
 
@@ -117,18 +179,9 @@ If the field is empty, the status change is blocked and the person gets a clear 
 
 A few important things this is *not*:
 
-* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today.
+* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today. 
 * **It doesn't auto-fill anything or auto-change statuses.** A person always has to make the status change themselves.
 * **It doesn't retroactively flag old records.** Records that are already sitting in the target status aren't affected — the check only runs the next time someone tries to move a record *into* that status.
-
-
-
-### Before you start
-
-A couple of things need to be true before you can configure rules:
-
-1. **The feature has to be turned on for your organization.** This is done on Adobe's side (via a feature flag), not something you enable yourself. If you don't see the business rules section described below, check with your Adobe contact to confirm it's been enabled for your tenant.
-2. **You need admin or workspace-configurator permissions.** Regular planners can't create or edit rules — only people managing the workspace setup can.
 
 ### Step 1: Open the business rules configuration area
 
@@ -141,8 +194,6 @@ Business rules live alongside your other admin setup — you won't need to hunt 
 ### Step 2: Choose the record type
 
 Rules are configured per record type, so pick the one you want to add a rule to. For example, if you want to make sure every Materials record has key fields filled in before execution, select **Materials**.
-
-
 
 ### Step 3: Create a new rule
 

@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0e2544a99ea6aee353649286407be4781934c34e
 workflow-type: tm+mt
-source-wordcount: 977
-ht-degree: 0%
+source-wordcount: 1031
+ht-degree: 1%
 
 ---
 
@@ -55,9 +55,16 @@ Workfront의 내장 통합은 주로 개인 생산성 및 공동 작업에 중�
 
 Adobe [!DNL Workfront] 관리자는 [!DNL Workfront] 인스턴스에 대한 OAuth2 응용 프로그램을 만들 수 있으며, 이를 통해 다른 응용 프로그램에서 [!DNL Workfront]에 액세스할 수 있습니다. 그런 다음 사용자는 다른 응용 프로그램에 [!DNL Workfront] 데이터에 액세스할 수 있는 권한을 부여할 수 있습니다. 이러한 방식으로 Workfront을 사내 애플리케이션을 포함하여 원하는 애플리케이션과 통합할 수 있습니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->OAuth2의 컨텍스트에서 &quot;앱 만들기&quot;는 앱과 서버(예: Workfront) 간에 이러한 종류의 액세스 링크를 만드는 프로세스를 말합니다.
+>* 사용자 정의 OAuth2 애플리케이션은 더 이상 사용되지 않습니다. 다음 날짜를 참고하십시오.
+>
+>   * 2026년 11월 1일: 더 이상 새 사용자 지정 OAuth2 애플리케이션을 만들 수 없습니다.
+>   * 2027년 2월 1일: 기존 사용자 지정 OAuth2 애플리케이션은 더 이상 작동하지 않습니다.
+>
+>   자세한 내용은 [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)을 참조하십시오.
+>
+>* OAuth2의 컨텍스트에서 &quot;앱 만들기&quot;는 앱과 서버(예: Workfront) 간에 이러한 종류의 액세스 링크를 만드는 프로세스를 말합니다.
 
 [!UICONTROL OAuth2] 응용 프로그램을 만들 때 얻을 수 있는 이점은 다음과 같습니다.
 
