@@ -9,24 +9,21 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4518
+source-wordcount: 4584
 ht-degree: 1%
 
 ---
 
 # 타임라인 보기 관리
+
+<!--remove Production and Preview references at release-->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
@@ -233,19 +230,13 @@ Old:
 
      >[!TIP]
      >
-     >타임라인 보기에는 기본 분기에 따라 회계 주만 표시됩니다. Workfront 관리자가 설정 영역에서 사용자 정의 분기를 켜면 주 정보가 타임라인 보기에 표시되지 않습니다.
+     >타임라인 보기에 액세스하는 데 사용 중인 환경에 따라 다음과 같은 시나리오가 있습니다.
+     >
+     >* 프로덕션 환경에서는 타임라인 보기에 클래식 분기에 따른 사용자 지정 주만 표시됩니다. Workfront 관리자가 설정 영역에서 사용자 정의 분기를 켜면 주 정보가 타임라인 보기에 표시되지 않습니다.
+     >
+     >* <span class="preview">미리 보기 환경에서 타임라인 보기는 기본적으로 기본 분기에 따라 사용자 지정 주를 표시합니다. Workfront 관리자가 설정 영역에서 사용자 정의 분기 및 사용자 정의 주를 켜면 타임라인 보기에 분기 및 월에 사용자 정의 분기 및 주가 표시됩니다. </span>
+     >
 
-     <!--
-        When we release custom weeks, replace the tip above with this:
-        >[!TIP]
-        >
-        >Depending on which environment you are using to access the timeline view, the following scenarios exist:
-        >
-        >* In the Production environment, the timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
-        >
-        >* <span class="preview">In the Preview environment, the timeline view displays fiscal weeks according to classic quarters, by default. If your Workfront administrator turns on Custom Quarters and Custom weeks in the Setup area, the timeline view displays the custom quarters and weeks in the Quarter and Month displays. </span>
-        >
-        -->
 
 1. (선택 사항) 날짜가 같은 줄에 겹치지 않는 레코드를 표시하려면 **작게 보기로 전환**&#x200B;을 클릭합니다. <!--check to see if they updated the name of the setting here-->
 1. (조건부) 모드를 **작게**(으)로 변경한 경우 **표준 보기로 전환** 보기를 클릭하여 레코드를 별도의 줄로 표시합니다. **표준** 옵션이 기본값입니다.  <!--check to see if they updated the name of the setting here-->

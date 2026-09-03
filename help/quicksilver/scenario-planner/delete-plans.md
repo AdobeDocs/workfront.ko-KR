@@ -8,14 +8,18 @@ feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 4%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
 # [!DNL Scenario Planner]에서 플랜 삭제
+
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 생성한 계획을 삭제할 수 있습니다. 공유된 플랜은 삭제할 수 없습니다.
 
@@ -126,6 +130,11 @@ Old:
 
 1. 계획명을 눌러 계획을 엽니다.
 1. 플랜 이름 오른쪽에 있는 **[!UICONTROL 추가 메뉴]** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **[!UICONTROL 삭제]** > **[!UICONTROL 예, 삭제]**&#x200B;를 클릭합니다.
+
+   >[!TIP]
+   >
+   ><span class="preview">목록에서 플랜을 선택한 다음 목록 하단의 **삭제**&#x200B;를 클릭하여 삭제할 수도 있습니다.</span>
+
 
    플랜이 삭제되고 플랜 목록으로 돌아갑니다.
 

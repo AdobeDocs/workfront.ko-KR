@@ -7,14 +7,11 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
 TQID: https://experienceleague.adobe.com/EQBOcWZ90EDMHab3XDXJDwNN97-b019ciwr2srvCvrQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 238
+source-wordcount: 243
 ht-degree: 9%
 
 ---
@@ -47,16 +44,6 @@ Workfront Planning을 사용하면 조직에서 사용하는 개체 유형(또�
 * [작업 영역 간 레코드 유형 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [레코드 유형에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
-<!--
-
-<div class="preview">
-
-* [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
-
-</div>
-
--->
-
 * [다른 작업 영역에서 기존 레코드 유형 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [레코드 종류의 설정 영역 구성](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [계층 구조 및 이동 경로 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
@@ -65,5 +52,6 @@ Workfront Planning을 사용하면 조직에서 사용하는 개체 유형(또�
 <div class="preview">
 
 * [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)
+* [레코드 유형 비즈니스 규칙 구성](/help/quicksilver/planning/architecture/configure-business-rules.md)
 
 </div>

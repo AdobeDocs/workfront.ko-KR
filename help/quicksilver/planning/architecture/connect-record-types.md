@@ -9,22 +9,14 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jyRdImgjr0238JzddL88QZYMyaX3E5zj65R8-s1VuMA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 3121
+source-wordcount: 3273
 ht-degree: 1%
 
 ---
@@ -33,12 +25,10 @@ ht-degree: 1%
 
 # 레코드 유형 연결
 
-<!--
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 
 {{planning-important-intro}}
@@ -117,7 +107,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>AEM 에셋을 Planning 레코드 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -308,18 +298,15 @@ Old:
 
    ![다른 작업 영역의 레코드 형식에 대한 새 연결](assets/new-connection-allow-multiple-records-box.png)
 
-1. (조건부) 동일한 작업 공간의 레코드 유형 또는 Planning 레코드 유형과 Workfront 객체 유형을 연결하는 경우 다음 중 하나를 선택합니다.
+1. <span class="preview">이 연결 필드와 연결된 레코드 종류에 만들어진 필드 사이에 종속성을 추가하려면 **이 연결을 종속되게 만들기**&#x200B;를 선택하십시오. </span>
 
-   * **다중 선택**: 현재 레코드 종류의 한 레코드를 연결 레코드 종류의 여러 레코드와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
-   * **단일 선택**: 현재 레코드 종류의 레코드 한 개를 연결 레코드 종류의 레코드 한 개와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
+   <span class="preview">자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md).</span>를 참조하십시오.
 
-1. **연결 형식** 섹션 <!--<span class="preview">, when connecting all object types but not Planning record types</span>-->에서 **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 선택하십시오.
+1. **연결 형식** 섹션에서 **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 선택합니다.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">Planning 레코드 형식을 연결할 때 **연결 형식** 섹션이 **연결 설정** 섹션으로 대체되었습니다. </span>
 
    선택하면 현재 레코드 유형에 추가된 연결 필드 외에 연결 중인 레코드 유형에도 연결 필드가 만들어집니다. 이 기능은 기본적으로 비활성화되어 있습니다.
 
@@ -332,6 +319,10 @@ Old:
    >* 연결된 레코드 필드는 해당 응용 프로그램의 다른 응용 프로그램 객체에 대해서는 생성되지 않습니다. 예:
    >   * Planning 레코드에 연결된 Workfront 객체에 대해 생성된 필드가 없습니다.
    >   * GenStudio 작업 영역의 레코드 유형에 연결되어 있는 경우 Planning 레코드 유형에 대해 생성된 필드가 없습니다.
+1. (조건부) 동일한 작업 공간의 레코드 유형 또는 Planning 레코드 유형과 Workfront 객체 유형을 연결하는 경우 다음 중 하나를 선택합니다.
+
+   * **다중 선택**: 현재 레코드 종류의 한 레코드를 연결 레코드 종류의 여러 레코드와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
+   * **단일 선택**: 현재 레코드 종류의 레코드 한 개를 연결 레코드 종류의 레코드 한 개와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
 
 1. (조건부) **연결 형식** 섹션에서 **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 사용하도록 설정한 경우 다음 옵션 중에서 선택하여 사용자가 연결할 수 있는 레코드 수를 나타냅니다.
 
@@ -356,9 +347,11 @@ Old:
 
    >[!NOTE]
    >
-   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
+1. <span class="preview">(선택 사항 및 조건부) **이 연결에 종속되도록 설정**&#x200B;을 선택한 경우 **레코드 필터링 규칙**&#x200B;을(를) 클릭하여 연결된 두 레코드 필드가 동일한 레코드 유형에 표시될 때 연결된 필드 값의 값을 제한하는 필터를 만듭니다. </span>
 
+   <span class="preview">자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오. </span>
 1. (선택 사항) **모양 기록** 영역에서 다음 옵션 중 하나를 선택합니다.
 
    * **이름 및 이미지**: 연결된 레코드의 이름과 축소판 그림 또는 아이콘이 모두 연결된 레코드 필드에 표시됩니다. 기본 옵션입니다.
@@ -382,7 +375,9 @@ Old:
    >
    >* **레코드 모양** 영역에서 선택한 항목에 따라 모든 보기 및 세부 정보 페이지를 포함하여 시스템의 모든 연결에서 레코드가 표시되는 방식이 결정됩니다.
 
-1. 연결 중인 레코드 형식에서 필드를 추가하려면 **조회 필드 선택**&#x200B;을 선택하십시오. 조회 필드는 연결 중인 레코드 또는 개체 유형과 관련된 필드입니다. 이 레코드들을 연결하면 연결하려는 레코드의 레코드나 개체에 있는 정보가 표시됩니다. 이 옵션은 기본적으로 선택되어 있습니다.
+1. **조회 필드 선택** 또는 <span class="preview">연결 중인 레코드 형식에서 필드를 선택하고 추가하려면 **조회 필드** 메뉴</span>를 클릭하십시오.
+
+   조회 필드는 연결 중인 레코드 또는 개체 유형과 연결된 필드입니다. 이 레코드들을 연결하면 연결하려는 레코드의 레코드나 개체에 있는 정보가 표시됩니다. <!--No more: This is selected by default.-->
 
    >[!NOTE]
    >

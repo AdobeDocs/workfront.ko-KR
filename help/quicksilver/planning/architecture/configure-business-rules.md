@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,9 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 Adobe Workfront Planning 레코드 유형에 대한 비즈니스 규칙을 구성하여 해당 유형의 레코드에 대한 작업이 허용되거나 금지되기 전에 특정 필드가 필요함을 나타낼 수 있습니다.
 
@@ -95,7 +93,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
   * 조회 필드
   * 참조 필드
 * 규칙은 레코드를 편집하거나 삭제할 수 있는 모든 사용자에게 적용됩니다.
-* 레코드 유형에 대해 둘 이상의 비즈니스 규칙을 가질 수 있습니다.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+* 레코드 유형에 대해 둘 이상의 비즈니스 규칙을 가질 수 있습니다.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU; I also logged a bug for this because it released with more than one per action - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/6a99add600001e9aa90435ec181dec3e/overview-->
 
   모든 규칙이 동시에 확인되며 오류 메시지에 한 명령문에서 누락된 모든 필드가 표시됩니다.
 
@@ -104,10 +102,15 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. 레코드 유형 페이지로 이동합니다.
 1. 모든 보기에서 레코드 종류 이름의 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **비즈니스 규칙**&#x200B;을 클릭합니다.
 
-   비즈니스 규칙 페이지가 열립니다.
+   비즈니스 규칙 테이블 페이지가 열립니다.
 1. **새 비즈니스 규칙**&#x200B;을 클릭합니다.
 1. **새 비즈니스** 규칙 상자에서 사용 가능한 첫 번째 필드에 비즈니스 규칙의 이름을 추가합니다. 필수 필드입니다.
 1. (선택 사항) 비즈니스 규칙을 정의하는 설명을 추가한 다음 **저장**&#x200B;을 클릭합니다.
+
+   비즈니스 규칙 설정 양식이 열립니다.
+
+   ![비즈니스 규칙 설정 양식](assets/business-rule-setup-form.png)
+
 1. 비즈니스 규칙 설정 양식의 **If** 섹션에서 특정 규칙에 따라 제한하거나 허용할 작업을 선택합니다. 다음 중 선택: <!--check UI text-->
    * **레코드 편집**: 이 규칙에 정의된 조건이 충족되면 사용자는 레코드를 편집하거나 편집할 수 없습니다.
    * **레코드 삭제**: 이 규칙에 정의된 조건이 충족되면 사용자는 레코드를 삭제하거나 삭제하지 않을 수 있습니다.
@@ -124,7 +127,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    예를 들어 다음 문을 입력하여 **캠페인 요약** 필드를 필수 항목으로 만들 수 있습니다.
 
    ```
-      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
    >[!IMPORTANT]
@@ -149,7 +152,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 기존 규칙을 편집해도 기존 레코드는 변경되지 않습니다. 편집된 규칙은 누군가 기존 레코드를 편집하거나 삭제하려고 할 때만 적용됩니다.
 
-1. 레코드 종류의 **비즈니스 규칙** 구성 페이지로 돌아갑니다.
+1. 레코드 종류의 **비즈니스 규칙** 테이블 페이지로 돌아갑니다.
 1. 변경할 규칙을 찾습니다.
 1. 규칙 이름 위로 마우스를 가져간 후 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 옵션 중 하나를 클릭하십시오.
 
@@ -159,8 +162,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    편집된 규칙 또는 규칙의 비활성화는 미래 기록에 대해서만 적용되며 소급 적용되지 않습니다.
 
-   <!--add screen shot if UI is fixed with Deactivate-->
+   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
 
+   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
 
 <!--
 
