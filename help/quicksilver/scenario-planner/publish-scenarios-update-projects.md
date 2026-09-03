@@ -10,25 +10,23 @@ exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mo2xl9ElZiaehjY1KH6ykvqO-PaO126rw0GAOFLJ0sg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 26b9239894d071fa5a3a0e185f935091e9e7ad13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1705
+source-wordcount: 1817
 ht-degree: 1%
 
 ---
 
 # [!DNL Scenario Planner]에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기
+
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 [!DNL Adobe Workfront Scenario Planner]에서 시나리오를 게시하면 다음과 같은 작업이 수행됩니다.
 
@@ -195,24 +193,24 @@ Old:
    이니셔티브 만들기에 대한 자세한 내용은 [이니셔티브 만들기 및 편집 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)을 참조하십시오.
 
 1. **[!UICONTROL 플랜 저장]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 초기 시나리오]** 드롭다운 메뉴에서 게시할 시나리오를 선택한 다음 오른쪽 상단의 **[!UICONTROL 게시로 이동]** ![게시로 이동](assets/go-to-publish-button-icon.png)을 클릭합니다.
+1. **[!UICONTROL 초기 시나리오]** 드롭다운 메뉴에서 게시할 시나리오를 선택한 다음 오른쪽 상단의 **[!UICONTROL 게시로 이동]**&#x200B;을 클릭합니다.
 
    또는
 
-   **[!UICONTROL 시나리오 비교]**&#x200B;를 클릭하고 게시할 시나리오 카드 위로 마우스를 가져간 다음 **[!UICONTROL 게시로 이동]** ![게시로 이동](assets/go-to-publish-button-icon.png)을 클릭합니다.
+   **[!UICONTROL 시나리오 비교]**&#x200B;를 클릭하고 게시할 시나리오 카드 위로 마우스를 가져간 다음 **[!UICONTROL 게시로 이동]**&#x200B;을 클릭합니다.
 
-   시나리오의 모든 이니셔티브 목록을 표시하는 [!UICONTROL 이니셔티브 게시] 페이지가 표시됩니다. 이니셔티브가 이전에 게시된 경우 프로젝트 아이콘 ![프로젝트 아이콘](assets/project-icon-sp.png)이(가) 이름 뒤에 표시되고 **[!UICONTROL 마지막으로 게시됨]** 날짜가 목록에 채워집니다.
+   시나리오의 모든 이니셔티브 목록을 표시하는 [!UICONTROL **이니셔티브 게시**] 페이지가 표시됩니다. <span class="preview">이니셔티브가 이전에 게시된 경우 프로젝트 아이콘 ![프로젝트 아이콘](assets/project-icon-sp.png)이(가) 이름 뒤에 표시되고 **[!UICONTROL 마지막으로 게시됨]** 날짜가 목록에 채워집니다.</span>
 
    >[!TIP]
    >
-   >프로젝트를 가져와서 만든 이니셔티브의 이름 오른쪽에는 프로젝트 아이콘 ![프로젝트 아이콘](assets/project-icon-sp.png)도 표시됩니다
+   >프로덕션 환경에서 프로젝트를 가져와서 만든 이니셔티브의 이름 오른쪽에는 프로젝트 아이콘 ![프로젝트 아이콘](assets/project-icon-sp.png)도 표시됩니다
 
    ![프로젝트 아이콘 및 마지막으로 게시한 날짜](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-   <!--
-    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
-    -->
-1. (선택 사항 및 조건부) 기존 플랜에서 게시하려면 플랜의 오른쪽 상단에 있는 **[!UICONTROL 필터]** 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭하고 다음 옵션 중 하나를 선택합니다.
+
+1. <span class="preview">(선택 사항) **이니셔티브 게시** 페이지에서 프로젝트 이름을 마우스로 가리킨 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png) > **프로젝트 열기**&#x200B;를 클릭합니다. 프로젝트가 새 브라우저 탭에서 열립니다.</span>
+
+1. (선택 사항 및 조건부) 기존 플랜에서 게시하려면 플랜 <span class="preview">의 오른쪽 상단에 있는 **[!UICONTROL 필터]** 아이콘 또는 왼쪽 상단에 있는 테이블 아이콘</span>을 클릭하고 다음 옵션 중 하나를 선택합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -244,16 +242,20 @@ Old:
    >
    >새 프로젝트의 이름이 게시된 이니셔티브와 동일합니다.
 
-1. (조건부) 다음 중 하나를 수행합니다.
+1. (조건부) 이니셔티브가 게시된 후 확인 메시지에서 다음 중 하나를 클릭합니다.
 
    * 이니셔티브 하나를 게시한 경우 **[!UICONTROL 관련 프로젝트 보기]**&#x200B;를 클릭하여 이니셔티브에서 만들거나 업데이트한 프로젝트를 엽니다.
-   * 두 개 이상의 이니셔티브를 게시한 경우 **[!UICONTROL 관련 프로젝트 보기]**&#x200B;를 클릭하여 이니셔티브에서 게시된 프로젝트 목록을 엽니다. [!DNL Workfront]은(는) 기본적으로 [!DNL Scenario Planner] 프로젝트 필터를 프로젝트 목록에 적용합니다. 가장 최근에 게시된 프로젝트가 목록 맨 위에 표시됩니다.
+   * 두 개 이상의 이니셔티브를 게시한 경우 **[!UICONTROL 관련 프로젝트 보기]**&#x200B;를 클릭하여 이니셔티브에서 게시된 프로젝트 목록을 엽니다.
 
-     ![이니셔티브 게시 후 시나리오 플래너](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+   이렇게 하면 프로젝트 영역이 열리고 [!DNL Scenario Planner] 프로젝트 필터가 기본적으로 프로젝트 목록에 적용됩니다.
+
+   가장 최근에 게시된 프로젝트가 목록 맨 위에 표시됩니다.
+
+   ![이니셔티브 게시 후 시나리오 플래너](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. 프로젝트에 대한 이니셔티브 정보를 보려면 다음 영역으로 이동하십시오.
 
-   * **[!UICONTROL 업데이트] 섹션**: 프로젝트가 이니셔티브에서 만들어졌거나 업데이트되었음을 나타내는 업데이트가 게시됩니다. 업데이트에는 프로젝트를 만들거나 업데이트한 이니셔티브의 이름과 이니셔티브가 포함된 플랜의 연결된 이름이 포함됩니다. 업데이트에서 플랜 이름을 클릭하여 [!DNL Scenario Planner]에서 플랜을 열 수 있습니다.
+   * **[!UICONTROL 업데이트] 섹션**: 프로젝트가 이니셔티브에서 만들어졌거나 업데이트되었음을 나타내는 업데이트가 **시스템 활동** 탭에 게시됩니다. 업데이트에는 프로젝트를 만들거나 업데이트한 이니셔티브의 이름과 이니셔티브가 포함된 플랜의 연결된 이름이 포함됩니다. 업데이트에서 플랜 이름을 클릭하여 [!DNL Scenario Planner]에서 플랜을 열 수 있습니다.
 
      ![게시의 스트림 확인 업데이트](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
@@ -298,6 +300,8 @@ Old:
       </tbody> 
      </table>
 
+     <!-- for the above table - I am not seeing the job role information on the Overview of the project anymore- bug??-->
+
      >[!NOTE]
      >
      >프로젝트에 대한 [!UICONTROL 보기] 액세스 권한이 있는 모든 사용자는 [!UICONTROL 개요] 영역에서 [!DNL Scenario Planner] 섹션을 볼 수 있습니다. 레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 섹션에 이 영역을 표시할지 여부를 제어할 수 있습니다. 사용자에게 연결된 레이아웃 템플릿이 없는 경우 기본적으로 이 영역이 표시됩니다.
@@ -305,7 +309,7 @@ Old:
      >   
      >   
      >   * 레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 섹션에서 영역을 추가하거나 제거하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 보기 사용자 지정](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오.
-     >   * [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL 개요] 영역에서 정보를 보는 방법에 대한 자세한 내용은 프로젝트 [!UICONTROL 개요] 영역[&#128279;](../manage-work/projects/manage-projects/understand-project-overview-area.md)에서 [!UICONTROL 관리] 정보를 참조하십시오.
+     >   * [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL 개요] 영역에서 정보를 보는 방법에 대한 자세한 내용은 프로젝트 [!UICONTROL 개요] 영역](../manage-work/projects/manage-projects/understand-project-overview-area.md)에서 [[!UICONTROL 관리] 정보를 참조하십시오.
      >   
      >
 
@@ -319,7 +323,7 @@ Old:
 
    * **프로젝트의 [!UICONTROL 비즈니스 사례]에 있는 [!UICONTROL 리소스 예산 편성] 영역**: [!DNL Scenario Planner] 정보를 사용하여 프로젝트 리소스를 관리하는 새로운 옵션이 프로젝트의 [!UICONTROL 비즈니스 사례]에 있는 [!UICONTROL 리소스 예산 편성] 영역에 추가되었습니다.
 
-     자세한 내용은  [!DNL Scenario Planner]&#x200B;[&#128279;](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)을(를) 사용하여 [!UICONTROL 비즈니스 사례]의 예산 리소스를 참조하십시오.
+     자세한 내용은  [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)을(를) 사용하여 [!UICONTROL 비즈니스 사례]의 [예산 리소스를 참조하십시오.
 
      ![비즈니스 사례의 시나리오 플래너](assets/sp-in-business-case-selected-350x110.png)
 

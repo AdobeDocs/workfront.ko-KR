@@ -9,19 +9,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 TQID: https://experienceleague.adobe.com/KwUrEyHt6dqTcmP3JrTObsfvkcjP9q7O6-msiBuZVP4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: 646
 ht-degree: 5%
 
 ---
@@ -31,6 +25,12 @@ ht-degree: 5%
 <!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+<!--remove preview and production references-->
+
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 Adobe Workfront에는 작업의 승인 전에 잠재적인 장애 요소를 식별하기 위해 계획 단계에서 프로젝트와 연결할 수 있는 여러 가지 기본 위험 유형이 있습니다.
 
@@ -94,7 +94,7 @@ Workfront 인스턴스의 위험 유형 수를 개선하기 위해 다음을 수
 
 1. **[!UICONTROL 위험 유형]**&#x200B;을 클릭하세요.
 1. 편집할 위험 유형을 선택합니다.
-1. **[!UICONTROL 편집]** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
+1. **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 
    [!UICONTROL **위험 유형 편집**] 상자가 열립니다.
 
@@ -110,18 +110,29 @@ Workfront 인스턴스의 위험 유형 수를 개선하기 위해 다음을 수
 
 1. **[!UICONTROL 변경 내용 저장].** 클릭
 
-1. (선택 사항) 위험 유형을 삭제하려면 목록에서 위험 유형을 선택한 다음 [!UICONTROL **삭제**] 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭하고 [!UICONTROL **예, 삭제**]&#x200B;를 클릭합니다. 위험 유형이 삭제되며 복구할 수 없습니다.
+1. (선택 사항) 위험 유형을 삭제하려면 목록에서 위험 유형을 선택한 다음 [!UICONTROL **삭제**] 아이콘을 클릭한 다음 [!UICONTROL **예, 삭제**]&#x200B;를 클릭합니다. 위험 유형이 삭제되며 복구할 수 없습니다.
 
-1. (선택 사항) 위험 유형 목록을 내보내려면 [!UICONTROL **내보내기**] 아이콘 ![내보내기 아이콘](assets/export-icon.png)을 클릭합니다. 다음 파일 유형으로 내보낼 수 있습니다.
+1. (선택 사항) 위험 유형 목록을 내보내려면 [!UICONTROL **내보내기**] 아이콘을 클릭합니다. 다음 파일 유형으로 내보낼 수 있습니다.
 
-   * PDF
-   * Excel
-   * Excel(xlsx)
-   * 탭으로 구분됨
+   * 프로덕션 환경에서:
+
+     * PDF
+     * Excel
+     * Excel(xlsx)
+     * 탭으로 구분됨
+     * CSV로 내보내기
+
+   <div class="preview">
+
+   * 미리보기 환경에서:
+
+     * CSV로 내보내기
+     * XLSX
+   </div>
 
    >[!TIP]
    >
-   >   먼저 제한된 수의 위험 유형을 선택한 다음 더 작은 목록으로 내보낼 수 있습니다.
+   >   프로덕션 환경에서는 먼저 제한된 수의 위험 유형을 선택한 다음 더 작은 목록으로 내보낼 수 있습니다. <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### 위험 유형 만들기 {#create-risk-types}
 

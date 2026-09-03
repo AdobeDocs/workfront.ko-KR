@@ -9,23 +9,14 @@ exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Ue8QlqaB8O8dJ6mVw9t660r82Xl4K6jGgVPWW6L0YNc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1266
+source-wordcount: 1278
 ht-degree: 3%
 
 ---
@@ -33,13 +24,9 @@ ht-degree: 3%
 # 작업을 프로젝트로 전환
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 프로젝트의 작업을 완료하는 데 원래 계획보다 많은 노력이 필요한 경우 프로젝트로 전환할 수 있습니다.
@@ -111,16 +98,16 @@ Old:
 * 문서, 문서 버전 및 증명이 새 프로젝트로 이동됩니다.
 * 작업을 프로젝트로 전환할 때는 5분 처리 제한이 있습니다. 작업에 많은 문서가 첨부되어 있고 변환하지 못하는 경우 일부 문서를 제거하고 다시 시도해야 할 수 있습니다.
 * 조직에서 문서에 레거시 Workfront 및 Adobe 클라우드 저장소를 모두 사용하는 경우 작업을 프로젝트로 전환할 때 다음과 같은 시나리오가 존재합니다. <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * 기존 Workfront 스토리지 작업은 기존 Workfront 스토리지 프로젝트를 만듭니다.
-   * Adobe 클라우드 스토리지 작업은 Adobe 클라우드 스토리지 프로젝트를 만듭니다.
-   * 기존 Workfront 스토리지 템플릿을 사용하여 Adobe 클라우드 스토리지 작업을 전환하면 Adobe 클라우드 스토리지 프로젝트가 만들어집니다.
-   * Adobe 클라우드 스토리지 템플릿을 사용하여 기존 Workfront 스토리지 작업을 전환하면 Adobe 클라우드 스토리지 프로젝트가 만들어집니다. 문서와 해당 승인이 현재 프로젝트에 남아 있습니다.
+  * 기존 Workfront 스토리지 작업은 기존 Workfront 스토리지 프로젝트를 만듭니다.
+  * Adobe 클라우드 스토리지 작업은 Adobe 클라우드 스토리지 프로젝트를 만듭니다.
+  * 기존 Workfront 스토리지 템플릿을 사용하여 Adobe 클라우드 스토리지 작업을 전환하면 Adobe 클라우드 스토리지 프로젝트가 만들어집니다.
+  * Adobe 클라우드 스토리지 템플릿을 사용하여 기존 Workfront 스토리지 작업을 전환하면 Adobe 클라우드 스토리지 프로젝트가 만들어집니다. 문서와 해당 승인이 현재 프로젝트에 남아 있습니다.
 
-     자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
+    자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
-     >[!TIP]
-     >
-     >Workfront 인스턴스가 두 가지 유형의 문서 스토리지 모두에 액세스하지 못할 수 있습니다.
+    >[!TIP]
+    >
+    >Workfront 인스턴스가 두 가지 유형의 문서 스토리지 모두에 액세스하지 못할 수 있습니다.
 
 
 * 모든 하위 작업 및 문제의 상태 및 완료율이 유지됩니다.

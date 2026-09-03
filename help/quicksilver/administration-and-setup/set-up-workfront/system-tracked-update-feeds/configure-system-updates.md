@@ -11,20 +11,15 @@ exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/xucBhD4dm4gA-BJt-mqb3Lstxgc5NFGd49rJhX1MGRk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 956
-ht-degree: 9%
+source-wordcount: 1030
+ht-degree: 8%
 
 ---
 
@@ -32,16 +27,10 @@ ht-degree: 9%
 
 <!-- Audited: 08/2025 -->
 
-<!--
 
-<div class="preview">
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 [!DNL Adobe Workfront]은(는) 다음 이벤트를 기록하기 위해 개체의 [!UICONTROL 업데이트] 영역에서 자동 시스템 업데이트를 생성합니다.
 
@@ -162,7 +151,7 @@ Old:
    >
    >[!DNL Workfront]이(가) 이미 필드를 추적하는 중이면 목록에서 두 번 추가할 수 없습니다.
 
-1. [!DNL Workfront]에서 추적할 모든 필드를 추가한 후 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. [!DNL Workfront]에서 추적할 모든 필드를 추가한 후 **[!UICONTROL 추가]**를 클릭합니다.
 추가한 기본 제공 필드는 **[!UICONTROL 기본 제공 필드]** 하위 탭에 표시되고 사용자 지정 필드는 **[!UICONTROL 사용자 지정 필드]** 하위 탭에 표시됩니다.
 **[!UICONTROL 모든 필드]** 하위 탭에는 [!DNL Workfront]에서 추적하는 기본 제공 필드와 사용자 지정 필드가 모두 표시됩니다.
 
@@ -270,6 +259,6 @@ Old:
 1. 작업의 확인란을 선택하여 활성화하거나 선택 해제하여 비활성화합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+   <span class="preview">미리 보기 환경에서 **저장** 단추가 제거되었으며 변경 사항은 자동으로 저장됩니다. </span>
 
 
