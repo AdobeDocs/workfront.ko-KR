@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d94576b5841f3ce7b76714b835c592e095b003a
+source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1770'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 >모두를 위한 프로덕션: 2026년 10월 15일
 
 이제 표 보기에서 기본 필드 열을 편집할 때 레코드의 썸네일과 색상의 가시성을 관리할 수 있습니다.
+
+이 업데이트를 적용하면 테이블 보기의 도구 모음에 있는 필드 아이콘에서 축소판 및 색상 설정이 제거됩니다.
 
 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
