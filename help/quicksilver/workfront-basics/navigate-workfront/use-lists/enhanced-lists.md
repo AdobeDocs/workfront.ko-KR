@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
 workflow-type: tm+mt
-source-wordcount: 3202
+source-wordcount: 3318
 ht-degree: 1%
 
 ---
@@ -74,18 +74,31 @@ ht-degree: 1%
 | --- | --- |
 | 우선순위 | <ul><li>홈 > 왼쪽 메뉴에서 우선 순위 아이콘 선택</li><li>메인 메뉴 > 우선 순위</li></ul> |
 | 요청 목록 | <ul><li>요청(새 경험만 해당)</li><li>홈의 내 요청 위젯</li></ul> |
-| 설정 상태, 우선 순위, 심각도 및 환율 목록 | <ul><li>설정 > 프로젝트 환경 설정 > 상태</li><li>설정 > 프로젝트 환경 설정 > 우선 순위</li><li>설정 > 프로젝트 환경 설정 > 심각도</li><li>설정 > 프로젝트 환경 설정 > 환율</li></ul> |
-| 보고서 목록 | 보고서(**공유 가능한 폴더 사용**&#x200B;을(를) 설정해야 함) |
+| 설정의 상태, 우선 순위, 심각도, <span class="preview">조건</span> 및 환율 목록 | <ul><li>설정 > 프로젝트 환경 설정 > 상태</li><li>설정 > 프로젝트 환경 설정 > 우선 순위</li><li>설정 > 프로젝트 환경 설정 > 심각도</li><li><span class="preview">설정 > 프로젝트 환경 설정 > 조건</span></li><li>설정 > 프로젝트 환경 설정 > 환율</li></ul> |
+| <span class="preview">업데이트 피드의 작업 및 추적된 필드 목록</span> | <ul><li><span class="preview">설정 > 인터페이스 > 피드 업데이트 > 추적된 필드 탭</span></li> <li><span class="preview">설정 > 인터페이스 > 피드 업데이트 > 작업 탭</span></li></ul> |
+| <span class="preview">스코어카드 목록</span> | <span class="preview">설정 > 스코어카드</span> |
+| <span class="preview">위험 유형 목록</span> | <span class="preview">설정 > 위험 유형</span> |
 | 비율 카드의 작업 역할 및 비율 목록 | 설정 > 비율 카드 > 비율 카드 선택 > 작업 역할 및 비율 |
+| <span class="preview">위치 목록</span> | <span class="preview">설정 > 위치</span> |
 | 번역 목록 | 설정 > 로컬라이제이션 |
+| <span class="preview">통합 목록 </span> | <ul><li><span class="preview">설정 > 문서 > SharePoint 통합</span></li><li><span class="preview">설정 > 문서 > 사용자 지정 통합</span></li></ul> |
+| 보고서 목록 | 보고서(**공유 가능한 폴더 사용**&#x200B;을(를) 설정해야 함) |
 | 스냅샷 목록 | 프로젝트 > 스냅샷 |
 | 청구 리소스 목록 | 프로젝트 > 청구용 리소스 |
 | 작업에 대한 새 고급 할당 | 작업 > 지정 > 고급 |
+| <span class="preview">문서의 모든 버전 보기</span> | <span class="preview">프로젝트 > 문서 > 문서 세부 정보 > 모든 버전</span> |
 | 게시판 관리자 보기 | 게시판 > 관리자 보기 |
 | Adobe 클라우드 스토리지에 대한 문서 | 프로젝트, 작업, 문제, 포트폴리오, 프로그램, 템플릿, 템플릿 작업 > 문서 |
+| <span class="preview">시나리오 계획 및 이니셔티브 목록</span> | <span class="preview">주 메뉴 > 시나리오</span> |
+| <span class="preview">목표 및 진행률 지표 목록</span> | <ul><li><span class="preview">주 메뉴 > 목표</span></li><li><span class="preview">주 메뉴 > 목표 > 진행 표시기</span></li></ul> |
+
 <!--
-Add this BEFORE a list of reports in the table above:
-| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+
+Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+
+Under Locations?
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
 -->
 
 ## 향상된 목록에 항목 추가
@@ -164,9 +177,16 @@ Add this BEFORE a list of reports in the table above:
 
 1. 목록 위에 있는 **열**&#x200B;을 클릭합니다.
 
+   프로덕션 환경의 샘플 이미지:
    ![열 표시 예](assets/glist-display-move-columns.png)
 
+   미리 보기 환경의 <span class="preview">샘플 이미지:</span>
+   ![열 표시 예](assets/display-columns-090126.png)
+
 1. 토글을 사용하여 목록에 열을 표시하거나 숨깁니다.
+
+<span class="preview">검색 상자에서 열을 검색할 수 있습니다.</span>
+
 1. 열 순서를 바꾸려면 **끌기** 아이콘 ![끌기 아이콘](assets/drag-icon.png)을 클릭하고 열을 원하는 위치로 이동합니다. 열을 이동하면 목록이 자동으로 변경됩니다.
 
    >[!NOTE]

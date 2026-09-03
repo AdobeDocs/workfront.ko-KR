@@ -4,10 +4,10 @@ description: 2026년 4분기 보고 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 0%
+source-wordcount: '611'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,58 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 4분기 릴리스의 보고 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
+
+<!--
+
+## Duplicate dashboards in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+
+When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+
+Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+
+Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
+
+For more information, see 
+
+-->
+
+## 캔버스 대시보드의 승인 유형 필드
+
+>[!NOTE]
+>
+>모두를 위한 프로덕션: 2026년 8월 28일
+>[!BADGE 일정 해제]{type=Neutral}
+
+이제 승인 엔터티에 **승인 유형** 필드가 포함되어 있으므로 사용자가 증명 승인, 문서 버전 승인, 접수 승인 및 기타 승인 종류를 구분할 수 있습니다.
+
+## 캔버스 대시보드의 승인 용어 업데이트
+
+>[!NOTE]
+>
+>모두를 위한 프로덕션: 2026년 8월 28일
+>[!BADGE 일정 해제]{type=Neutral}
+
+보다 명확하게 하기 위해 문서 및 작업 승인을 위해 캔버스 대시보드에 사용된 다음 필드 이름의 이름이 변경되었습니다.
+
+| 이전 이름 | 새 이름 |
+| --- | --- |
+| 문서 승인 | 승인 |
+| 문서 승인 단계 | 승인 단계 |
+| 문서 승인 단계 참가자 | 승인 단계 참가자 |
+| 승인 진행 | 작업 승인 프로세스 |
+| 승인 단계 | 작업 승인 단계 |
+| 승인자 상태 | 작업 승인자 상태 |
+| 승인 대기 중 | 작업 승인 대기 중 |
+
+이 변경 사항은 현재 보고서의 작동 방식에 영향을 주지 않습니다.
 
 ## 캔버스 대시보드의 피벗 테이블 보고서
 

@@ -21,14 +21,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: 1184
 ht-degree: 4%
 
 ---
 
 # 문서 통합 구성
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -97,14 +99,14 @@ ht-degree: 4%
 
 * 타사 클라우드 문서 공급자:
 
-   * [!DNL Box]
-   * [!DNL Dropbox]
-   * [!DNL Dropbox Business]
-   * [!DNL WebDAM]
-   * [!DNL Microsoft OneDrive]
-   * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Google 드라이브]
-   * Quip
+  * [!DNL Box]
+  * [!DNL Dropbox]
+  * [!DNL Dropbox Business]
+  * [!DNL WebDAM]
+  * [!DNL Microsoft OneDrive]
+  * [!DNL Microsoft SharePoint]
+  * [!UICONTROL Google 드라이브]
+  * Quip
 
   >[!TIP]
   >
@@ -206,6 +208,8 @@ ht-degree: 4%
 
    [!DNL Workfront]은(는) 이 API 키를 사용하여 문서 공급자에 대해 승인된 API를 호출합니다.
 
+1. <span class="preview">(선택 사항) 대용량 파일 지원을 사용하려면 **[!UICONTROL 대용량 파일 지원]** 섹션에서 **[!UICONTROL 대용량 파일에 대한 청크 업로드 사용]**&#x200B;을 선택한 다음 **[!UICONTROL 청크 업로드 임계값(MB)]** 필드에 최대 청크 크기(MB)를 입력하십시오. 이 필드는 최대 100MB의 값을 허용합니다. 사용하도록 설정하면 25MB가 넘는 파일이 단일 요청이 아닌 이 크기의 청크로 업로드됩니다.</span>
+
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 통합을 만듭니다.
 
 ## 문서 통합 사용
@@ -266,9 +270,9 @@ ht-degree: 4%
 ### Google 드라이브 통합
 
 * 연결된 폴더가 Workfront에 추가되면 폴더의 파일이 더 이상 자동으로 추가되지 않습니다.
-   * 파일 없이 Google 폴더를 Workfront에 추가한 다음 개별 파일을 Workfront에 추가할 수 있습니다. 파일은 Workfront의 Google 폴더에 자동으로 추가됩니다.
-또는
-   * Workfront에서 문서 폴더를 만든 다음 Google 폴더에서 모든 파일을 선택하고 Workfront 폴더에 추가할 수 있습니다.
+  * 파일 없이 Google 폴더를 Workfront에 추가한 다음 개별 파일을 Workfront에 추가할 수 있습니다. 파일은 Workfront의 Google 폴더에 자동으로 추가됩니다.
+    또는
+  * Workfront에서 문서 폴더를 만든 다음 Google 폴더에서 모든 파일을 선택하고 Workfront 폴더에 추가할 수 있습니다.
 
 
 * Google 드라이브 문서 통합은 Google 드라이브의 내 드라이브 영역에서 파일 추가를 지원합니다. 공유 드라이브에서는 폴더나 이미지를 추가할 수 없습니다. [Google 공유 드라이브](https://support.google.com/a/users/answer/7212025?hl=en)에 대해 자세히 알아보세요.

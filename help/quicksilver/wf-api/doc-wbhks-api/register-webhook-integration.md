@@ -17,14 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 9%
+source-wordcount: 409
+ht-degree: 7%
 
 ---
 
 # Webhook 통합 등록
+
+{{highlighted-preview}}
 
 Adobe Workfront 관리자는 Workfront 내의 설정 > 문서 > 사용자 정의 통합으로 이동하여 회사에 대해 사용자 정의 웹후크 통합을 추가할 수 있습니다. 관리자는 설정 내의 사용자 정의 통합 페이지에서 기존 문서 Webhook 통합 목록을 볼 수 있습니다. 이 페이지에서 통합을 추가, 편집, 활성화 및 비활성화할 수 있습니다.
 
@@ -56,7 +58,7 @@ Adobe Workfront 관리자는 Workfront 내의 설정 > 문서 > 사용자 정의
   </tr> 
   <tr> 
    <td>요청 매개 변수</td> 
-   <td> <p>모든 API 호출의 querystring에 추가할 선택 값. 예, access_type=offline. </p> </td> 
+   <td> <p>모든 API 호출의 쿼리 문자열에 추가할 선택적 값입니다. 예: access_type=offline. </p> </td> 
   </tr> 
   <tr> 
    <td>인증 유형</td> 
@@ -85,6 +87,14 @@ Adobe Workfront 관리자는 Workfront 내의 설정 > 문서 > 사용자 정의
   <tr> 
    <td>API 키</td> 
    <td> <p>(ApiKey만 해당) Webhook 공급자에 대해 승인된 API 호출을 수행하는 데 사용됩니다. Webhook 공급자가 발급한 API 키.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>대용량 파일에 대해 청크 업로드 활성화</td> 
+   <td> <p>25MB가 넘는 파일에 대한 다중 부분(청크) 업로드를 활성화하려면 이 확인란을 선택하십시오. 선택하지 않으면 크기에 관계없이 파일이 단일 요청으로 업로드됩니다.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>청크 업로드 임계값(MB)</td> 
+   <td> <p>업로드를 위해 큰 파일을 분할할 때 각 청크의 최대 크기(MB)입니다. 최대 100MB의 값을 허용합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -16,14 +16,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
 workflow-type: tm+mt
-source-wordcount: 1559
+source-wordcount: 1647
 ht-degree: 2%
 
 ---
 
 # Adobe Admin Console에서 사용자 관리
+
+{{highlighted-preview}}
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -185,6 +187,8 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
 1. **이 제품 프로필에 사용자 추가** 상자에서 추가하려는 사용자의 이메일 주소 또는 이름을 입력한 다음 **저장**&#x200B;을 선택합니다.
 
    사용자는 조직의 Workfront 패키지에 따라 Workfront에서 요청자 또는 기여자 액세스 수준으로 만들어집니다.
+
+   <span class="preview">Workfront 관리자가 Admin Console에서 만든 사용자의 기본 액세스 수준을 설정한 경우 해당 액세스 수준으로 사용자가 만들어집니다. 자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).</span>을 참조하십시오.
 
    >[!IMPORTANT]
    >

@@ -4,9 +4,9 @@ description: 2026년 4분기 관리자 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: db296d9043cb793e1af74bca38197de682f54cb8
+source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1267'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,60 @@ The following enhancements are included:
 For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 -->
+
+## Adobe Admin Console에서 프로비저닝된 사용자의 기본 액세스 수준 설정
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 Adobe Admin Console을 통해 Workfront에서 프로비저닝된 사용자의 기본 액세스 수준을 설정할 수 있습니다. Workfront 관리자는 시스템 기본 설정에서 이 기본값을 구성할 수 있습니다.
+
+이전에는 Workfront에서 사용자에게 기여자 또는 요청자 액세스 수준을 할당했습니다.
+
+자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
+
+## Workfront Planning 고객을 위한 사용자 정의 분기 외에 사용자 정의 주
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+조직이 Workflow 패키지 외에 Planning 패키지를 구매한 경우, 이제 Workfront 관리자로서 사용자 정의 분기를 구성하는 것과 동일한 방식으로 사용자 정의 주를 구성할 수 있습니다.
+
+사용자 정의 주가 Workfront에 표시되지 않습니다. 이 보고서는 Workfront Planning 타임라인 보기에서만 볼 수 있습니다.
+
+자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
+
+## 메인 메뉴에서 사용자 정의 응용 프로그램 순서 바꾸기
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 레이아웃 템플릿에서 작업할 때 기본 Workfront 메뉴 옵션을 사용하여 사용자 정의 애플리케이션을 임의의 순서로 재배치할 수 있습니다. 이를 통해 각 애플리케이션을 가장 관련성이 높은 위치에 배치할 수 있습니다.
+
+이전에는 사용자 지정 응용 프로그램이 레이아웃 템플릿의 기본 메뉴 옵션에서 항상 마지막 항목이어서 위치를 변경할 수 없었습니다.
+
+사용자 지정 응용 프로그램을 주 메뉴에 추가하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 주 메뉴 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하십시오.
+
+## 사용자 정의 문서 통합을 위한 대용량 파일 지원
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 사용자 정의 문서 통합은 대용량 파일에 대한 청크 업로드를 지원합니다. 활성화되면 25MB가 넘는 파일은 더 작은 청크로 분할되고 병렬로 업로드되므로 대용량 파일을 더 빠르고 안정적으로 업로드할 수 있습니다. 관리자는 이 기능을 켜고 통합당 최대 청크 크기(최대 100MB)를 설정할 수 있습니다.
+
+자세한 내용은 [문서 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md)을 참조하십시오.
 
 ## 그룹 관리자는 비즈니스 프로필을 관리할 수 있습니다.
 
