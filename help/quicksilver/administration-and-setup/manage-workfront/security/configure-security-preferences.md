@@ -11,29 +11,21 @@ exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1318
 ht-degree: 8%
 
 ---
 
 # 시스템 환경 설정 구성
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -150,6 +142,10 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
      <tr>
       <td>벌크 편집에서 항상 필수 필드 적용</td>
       <td><p>오브젝트를 벌크 편집할 때 사용자가 필수 필드에 정보를 입력하도록 할지 여부를 선택할 수 있습니다.</p> <p>이 옵션을 선택한 경우 벌크 편집 모드로 저장하기 전에 필수 필드에 값이 있어야 합니다. 필수 필드에 벌크로 선택된 하나 이상의 객체에 대한 값이 없으면 저장할 수 없습니다.</p> <p>이 옵션을 선택하지 않으면 사용자가 필드를 수정할 때만 필수 필드가 적용됩니다. 필드가 수정되지 않으면 선택 사항으로 처리되고 확인되지 않습니다.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Admin Console에서 생성된 사용자의 액세스 수준</span></td>
+      <td><span class="preview">Adobe Admin Console을 통해 Workfront에서 만든 사용자에게 자동으로 할당할 기본 액세스 수준을 선택할 수 있습니다. 기본값을 설정하지 않으면 이러한 사용자는 기여자 또는 요청자 액세스 수준을 계속 받습니다. 시스템 관리자 및 외부 사용자 액세스 수준은 기본값으로 사용할 수 없으며, 이 설정은 Workfront Planning을 독립 실행형 제품으로 사용하는 조직에서는 사용할 수 없습니다.<p><b>참고</b>: 이 기본값으로 설정된 동안에는 액세스 수준을 삭제할 수 없습니다. 기본 액세스 수준을 삭제하려면 먼저 다른 기본 액세스 수준을 선택합니다.</p></span></td>
      </tr>
      <tr> 
       <td role="rowheader">스토리지 환경 설정 </td> 
