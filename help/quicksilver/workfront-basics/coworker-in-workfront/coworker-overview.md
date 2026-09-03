@@ -29,7 +29,7 @@ CX Coworker Chat 은 작업 완료를 위한 대화 인터페이스입니다. �
 
 Workfront에서 CX Coworker 사용에 대한 자세한 내용은 [Workfront에서 CX Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)을 참조하십시오.
 
-Coworker 및 해당 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker Chat 개요](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)를 참조하십시오.
+Coworker 및 해당 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker Chat 개요](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/chat/overview)를 참조하십시오.
 
 Workfront의 Coworker에서 사용할 수 있는 기술은 [CX Coworker 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)을 참조하십시오.
 

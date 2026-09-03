@@ -28,7 +28,7 @@ Workfront에서 Coworker를 사용할 때 다음과 같은 정보 및 개체로 
 
 Coworker는 대규모 Adobe CX 엔터프라이즈 에코시스템의 일부이므로 Coworker를 사용하여 Workfront의 오른쪽 레일에서 다른 Adobe 제품의 정보 및 개체로 작업하거나 Workfront에서 Adobe CX Coworker 인터페이스로 이동할 수 있습니다.
 
-Workfront 외부의 Coworker 및 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker 채팅 개요](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)를 참조하십시오.
+Workfront 외부의 Coworker 및 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker 채팅 개요](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/chat/overview)를 참조하십시오.
 
 
 ## 액세스 요구 사항
@@ -78,14 +78,14 @@ Workfront 외부의 Coworker 및 기능에 대한 자세한 내용은 [Adobe CX 
    * **마이크**: 음성 입력으로 메시지를 받아쓰십시오. 레코딩을 중단하려면 다시 선택하십시오.
    * **보내기**: 메시지를 보냅니다. Coworker Chat이 응답하는 동안 이 옵션은 중단하는 데 사용할 수 있는 Stop 컨트롤이 됩니다.
 
-   이러한 작업에 대한 자세한 내용은 Adobe CX 동료 설명서의 [채팅 입력 상자](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box)를 참조하십시오.
+   이러한 작업에 대한 자세한 내용은 Adobe CX 동료 설명서의 [채팅 입력 상자](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box)를 참조하십시오.
 
 1. 이전 채팅을 보고 관리하려면 CX Coworker 패널에서 채트 아이콘 ![채트 아이콘](assets/ai-icon.png)을 클릭하십시오.
 
-   채팅에 대한 자세한 내용은 Adobe CX Coworker 설명서에서 [채팅 관리](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)를 참조하십시오.
+   채팅에 대한 자세한 내용은 Adobe CX Coworker 설명서에서 [채팅 관리](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)를 참조하십시오.
 1. 출력 목록과 같은 채팅 아티팩트를 보고 관리하려면 아티팩트 아이콘 ![아티팩트 아이콘](assets/artifacts-icon.png)을 클릭하세요.
 
-   CX Coworker의 아티팩트에 대한 자세한 내용은 Adobe CX Coworker 설명서에서 [아티팩트](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts)를 참조하십시오.
+   CX Coworker의 아티팩트에 대한 자세한 내용은 Adobe CX Coworker 설명서에서 [아티팩트](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts)를 참조하십시오.
 1. Coworker의 설정을 관리하려면 설정 아이콘 ![설정](assets/coworker-settings-icon.png)을 클릭하세요.
 1. Coworker 패널을 확장하려면 확장 아이콘 ![확장 아이콘](assets/coworker-expand-icon.png)을 클릭합니다.
 1. Adobe CX Coworker 인터페이스로 이동하려면 페이지 오른쪽 상단에 있는 앱 아이콘 ![앱 아이콘](assets/apps-icon.png)을 클릭하고 사용 가능한 앱 목록에서 Coworker를 선택합니다.
