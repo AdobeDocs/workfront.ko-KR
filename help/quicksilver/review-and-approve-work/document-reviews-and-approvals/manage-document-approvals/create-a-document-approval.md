@@ -9,25 +9,21 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
-source-wordcount: 2227
+source-wordcount: 2406
 ht-degree: 1%
 
 ---
 
 # 문서 승인 워크플로 만들기
+
+{{highlighted-preview}}
 
 Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 요청하거나 승인할 필요 없이 문서를 검토하도록 요청할 수 있습니다.
 
@@ -291,6 +287,30 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 1. (선택 사항) 모든 경로와 단계를 지우고 다시 시작하려면 오른쪽 상단의 **재설정**&#x200B;을 클릭합니다.
 
 1. **승인 요청**&#x200B;을 클릭합니다.
+
+<div class="preview">
+
+## 미리보기의 새 문서 영역에서 이전 버전에 대한 승인 워크플로 보기
+
+조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+
+승인 패널에는 승인 워크플로가 있는 문서 버전만 나열됩니다.
+
+이전 버전에 대한 승인 워크플로를 보려면 다음을 수행하십시오.
+
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 왼쪽 패널에서 **문서**&#x200B;을(를) 선택합니다.
+1. 문서를 클릭한 다음 페이지 오른쪽의 **승인** 아이콘을 클릭합니다.
+
+   ![문서 요약에 승인자 추가](assets/approvals-icon-new.png)
+
+1. 버전을 클릭하여 확장합니다. 단계, 각 승인자의 결정, 단계의 결정 규칙(예를 들어 단계를 완료하는 데 하나의 결정만 필요한지 여부) 및 기한을 볼 수 있습니다.
+1. 다른 버전을 클릭하여 패널을 종료하지 않고 승인 워크플로를 확장합니다.
+
+   >[!NOTE]
+   >
+   >새 버전의 승인이 요청되었기 때문에 버전의 승인 워크플로가 철회된 경우 목록에 유지되면서 축소되므로 이전 결정을 계속 검토할 수 있습니다.
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version
