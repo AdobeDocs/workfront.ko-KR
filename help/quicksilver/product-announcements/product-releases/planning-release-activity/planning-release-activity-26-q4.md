@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f2a7d09bbf25685395dc97f67bfde87a5d006aea
+source-git-commit: 7d94576b5841f3ce7b76714b835c592e095b003a
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1749'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,77 @@ ht-degree: 0%
 이 문서에서는 2026년 4분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 표 보기의 기본 필드 열에서 레코드의 썸네일 및 색상의 가시성을 관리합니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 표 보기에서 기본 필드 열을 편집할 때 레코드의 썸네일과 색상의 가시성을 관리할 수 있습니다.
+
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
+
+## 레코드 유형에 대한 비즈니스 규칙 만들기
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 작업 공간 관리자는 해당 유형의 레코드가 관리되는 방식을 나중에 반영하는 레코드 유형에 대한 비즈니스 규칙을 설정할 수 있습니다. 특정 조건이 충족되거나 특정 필드가 채워지는 경우에만 사용자가 레코드를 편집하거나 삭제할 수 있도록 허용하는 규칙을 정의할 수 있습니다.
+
+다음을 제외한 모든 필드 유형을 참조하는 비즈니스 규칙에 대한 조건을 만들 수 있습니다.
+
+* 공식 필드
+* 조회 필드
+* 참조 필드
+
+글로벌 레코드 유형에 비즈니스 규칙을 추가할 수 없습니다.
+
+자세한 내용은 [레코드 종류 비즈니스 규칙 구성](/help/quicksilver/planning/architecture/configure-business-rules.md)을 참조하십시오.
+
+>[!NOTE]
+>
+>이 업데이트로 레코드 유형의 기타 메뉴에서 다음 메뉴 옵션도 업데이트되었습니다.
+>
+>* **요청 양식 만들기** 및 **요청 양식 관리**&#x200B;가 **요청 양식**(으)로 변경되었습니다.
+>* **자동화 관리**&#x200B;가 **자동화**(으)로 변경되었습니다.
+
+## 타임라인 보기에 대한 사용자 지정 주 소개
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 Workfront 관리자는 사용자 정의 분기 외에 사용자 정의 주를 구성할 수 있습니다. 사용자 지정 주 및 분기는 Workfront Planning 타임라인 보기에서 볼 수 있습니다. Workfront은 사용자 지정 분기 1의 시작 요일 1부터 순차적 주를 생성합니다.
+
+타임라인 보기에 표시되는 주 레이블을 사용자 지정할 수 있습니다. 미리 정의된 형식을 선택하거나 사용자 지정 형식을 입력할 수 있습니다.
+
+사용자 정의 주가 Workfront에 표시되지 않습니다. 이 보고서는 Workfront Planning 타임라인 보기에서만 볼 수 있습니다.
+
+자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
+
+## 종속적으로 연결된 레코드 필드에 대한 필터
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 Planning에서 종속 연결을 추가할 때 필터 기준을 충족하는 특정 레코드 유형을 필터링할 수 있습니다.
+
+종속적으로 연결된 필드에서 모든 레코드 유형을 사용할 수 있는 대신 필터링 기준을 충족하는 레코드만 표시됩니다.
+
+이 기능을 위해 레코드 유형을 연결할 때 새 연결 탭에 새 레코드 필터링 규칙 옵션을 추가했습니다.
+
+자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.
 
 ## 타임라인 보기에서 모든 그룹화 축소 및 확장
 
