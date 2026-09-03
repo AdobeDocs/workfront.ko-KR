@@ -9,20 +9,14 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
 workflow-type: tm+mt
-source-wordcount: 2406
+source-wordcount: 2662
 ht-degree: 1%
 
 ---
@@ -101,6 +95,11 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
    <td><strong>이름 또는 이메일 추가</strong></td>
    <td>승인자 또는 검토자로 추가할 사용자 또는 팀 이름을 입력하십시오. 검토자만 있는 경우 알림을 받고 검토를 완료할 수 있는 옵션이 있지만 결정이 필요하거나 수행되지 않습니다.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>미리 보기에 사람 또는 팀 추가</strong></span></td>
+   <td><span class="preview">사용자 이름, 팀 또는 이메일 주소를 입력하세요. 팀은 기본적으로 단일 승인자 또는 검토로 추가되지만 각 팀원을 개별 참가자로 추가하도록 선택할 수 있습니다. <br>
+   참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다.</span></td>
+   </tr>
    <tr>
    <td><strong>필요한 결정은 단 하나입니다(선택 사항).</strong></td>
    <td>가장 먼저 결정을 내리는 사람이 단계를 완료합니다.</td>
@@ -120,6 +119,10 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 1. **승인 요청**&#x200B;을 클릭합니다.
 
    ![기본 모드에서 승인 요청](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
 
 ### 고급 승인 작업 과정 만들기
 
@@ -154,6 +157,11 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
    <td><strong>이름 또는 이메일 추가</strong></td>
    <td>승인자 또는 검토자로 추가할 사용자 또는 팀 이름을 입력하십시오. 검토자만 있는 경우 알림을 받고 검토를 완료할 수 있는 옵션이 있지만 결정이 필요하거나 수행되지 않습니다.<p>참고: 검토자 또는 승인자는 동일한 에셋에서 한 번에 하나의 진행 단계에만 할당할 수 있습니다. 여러 병렬 단계가 동시에 열려 있는 경우 동일한 사람을 둘 이상의 단계에 추가할 수 없습니다.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>미리 보기에 사람 또는 팀 추가</strong></span></td>
+   <td><span class="preview">사용자 이름, 팀 또는 이메일 주소를 입력하세요. 팀은 기본적으로 단일 승인자 또는 검토로 추가되지만 각 팀원을 개별 참가자로 추가하도록 선택할 수 있습니다. <br>
+   참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다. 또한 참가자는 동일한 에셋에서 한 번에 하나의 진행 단계에만 할당할 수 있습니다.</span></td>
+   </tr>
    <tr>
    <td><strong>필요한 결정은 단 하나입니다(선택 사항).</strong></td>
    <td>가장 먼저 결정을 내리는 사람이 단계를 완료합니다.</td>
@@ -175,6 +183,10 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 1. (선택 사항) 경로를 제거하려면 경로 레이블을 마우스로 가리키고 휴지통 아이콘을 클릭합니다. **경로 1**&#x200B;을(를) 제거할 수 없으며 경로의 순서를 변경할 수 없습니다. 경로 내의 스테이지가 잠겨 있지 않거나 완료된 경우에만 다른 경로를 제거할 수 있습니다.
 
    ![병렬 경로가 있는 고급 모드](assets/request-approval-parallel-paths.jpeg)
+
+<!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. (선택 사항) 모든 경로와 단계를 지우고 다시 시작하려면 오른쪽 상단의 **재설정**&#x200B;을 클릭합니다.
 
@@ -210,6 +222,11 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
    <td><strong>이름 또는 이메일 추가</strong></td>
    <td>승인자 또는 검토자로 추가할 사용자 이름 또는 이메일을 입력하십시오. 검토자만 있는 경우 알림을 받고 검토를 완료할 수 있는 옵션이 있지만 결정이 필요하거나 수행되지 않습니다.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>미리 보기에 사람 또는 팀 추가</strong></span></td>
+   <td><span class="preview">사용자 이름, 팀 또는 전자 메일 주소를 입력한 다음 <strong>승인자</strong> 또는 <strong>검토자</strong>인지 선택하세요. Workfront은 팀의 각 활성 멤버를 개별적으로 추가합니다. <br>
+   참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다.</span></td>
+   </tr>
    <tr>
    <td><strong>필요한 결정은 단 하나입니다(선택 사항).</strong></td>
    <td>가장 먼저 결정을 내리는 사람이 단계를 완료합니다.</td>
@@ -227,6 +244,12 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 1. **승인 요청**&#x200B;을 클릭합니다.
 
    ![기본 모드에서 승인 요청](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
+
+
 
 >[!NOTE]
 >
@@ -267,6 +290,11 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
    <td><strong>이름 또는 이메일 추가</strong></td>
    <td>승인자 또는 검토자로 추가할 사용자 이름 또는 이메일을 입력하십시오. 검토자만 있는 경우 알림을 받고 검토를 완료할 수 있는 옵션이 있지만 결정이 필요하거나 수행되지 않습니다.<p>참고: 검토자 또는 승인자는 동일한 에셋에서 한 번에 하나의 진행 단계에만 할당할 수 있습니다. 여러 병렬 단계가 동시에 열려 있는 경우 동일한 사람을 둘 이상의 단계에 추가할 수 없습니다.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>미리 보기에 사람 또는 팀 추가</strong></span></td>
+   <td><span class="preview">사용자 이름, 팀 또는 전자 메일 주소를 입력한 다음 <strong>승인자</strong> 또는 <strong>검토자</strong>인지 선택하세요. Workfront은 팀의 각 활성 멤버를 개별적으로 추가합니다. <br>
+   참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다. 또한 참가자는 동일한 에셋에서 한 번에 하나의 진행 단계에만 할당할 수 있습니다.</span></td>
+   </tr>
    <tr>
    <td><strong>필요한 결정은 단 하나입니다(선택 사항).</strong></td>
    <td>가장 먼저 결정을 내리는 사람이 단계를 완료합니다.</td>
@@ -289,6 +317,10 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 1. (선택 사항) 경로를 제거하려면 경로 레이블을 마우스로 가리키고 휴지통 아이콘을 클릭합니다. **경로 1**&#x200B;을(를) 제거할 수 없으며 경로의 순서를 변경할 수 없습니다. 경로 내의 스테이지가 잠겨 있지 않거나 완료된 경우에만 다른 경로를 제거할 수 있습니다.
 
    ![병렬 경로가 있는 고급 모드](assets/request-approval-advanced.jpeg)
+
+   <!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+   -->
 
 1. (선택 사항) 모든 경로와 단계를 지우고 다시 시작하려면 오른쪽 상단의 **재설정**&#x200B;을 클릭합니다.
 
