@@ -6,18 +6,20 @@ author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
 TQID: https://experienceleague.adobe.com/FTfet4al9-gwRXHYFzVlC3qrDfW8HUJA22sHN00eKOM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 771
 ht-degree: 4%
 
 ---
 
 # AI Assistant 프롬프트 및 우수 사례
+
+>[!IMPORTANT]
+>
+>2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Coworker로 전환됩니다. CX Coworker에 대한 자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
 Workfront의 AI Assistant는 계정 데이터 및 특정 객체 유형에 대한 유용한 정보를 제공하여 작업을 보다 효과적으로 완수할 수 있는 강력한 도구입니다.
 

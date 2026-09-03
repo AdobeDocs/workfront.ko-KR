@@ -6,18 +6,13 @@ author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 TQID: https://experienceleague.adobe.com/JKswbVxwKRxGdUpn7GlLRNwu7lDLxGOL3l-ZD4SffKE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 2065
+source-wordcount: 2100
 ht-degree: 2%
 
 ---
@@ -26,7 +21,8 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->프로젝트 상태 기능은 현재 Beta 단계에 참여하는 사용자만 사용할 수 있습니다.
+>* 2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Coworker로 전환됩니다. CX Coworker에 대한 자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
+>* 프로젝트 상태 기능은 현재 Beta 단계에 참여하는 사용자만 사용할 수 있습니다.
 
 Adobe Workfront의 프로젝트 상태 기능은 AI Assistant의 기능을 통해 프로젝트의 수행 방식, 관심을 기울여야 할 영역, 시간과 비용이 드는 문제를 방지하는 방법에 대한 평가를 즉시 제공합니다.
 
@@ -328,7 +324,7 @@ Workfront 관리자가 프로젝트 상태 구성을 만든 후 프로젝트에 
 
    >[!NOTE]
    >
-   >Workfront의 다른 페이지에서 AI Assistant에 액세스하는 경우 *프로젝트 상태 [프로젝트 이름]?* 또는 *프로그램 [프로그램 이름] 상태* <br>를 입력할 수 있습니다.
+   >Workfront의 다른 페이지에서 AI Assistant에 액세스하는 경우 *프로젝트 상태 [프로젝트 이름]을(를) 입력할 수 있습니다.* 또는 *프로그램 [프로그램 이름]의 상태는 어떻습니까?* <br>
    >입력할 수 있는 현재 프롬프트의 전체 목록은 이 문서의 [AI Assistant 프롬프트 목록](#ai-assistant-prompts-list) 섹션을 참조하십시오.
 
 1. **보내기** 아이콘 ![보내기 아이콘](assets/send-icon.png)을 클릭합니다. 프로젝트 상태 평가 가 생성되어 패널에 표시됩니다. 각 프로젝트 상태 평가의 맨 위에 프로젝트의 현재 상태를 반영하는 배지가 표시됩니다.
