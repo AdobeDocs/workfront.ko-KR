@@ -9,19 +9,12 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bf611a79078eac9cf8f78a20ddc83079b36a7de5
 workflow-type: tm+mt
 source-wordcount: 1184
 ht-degree: 4%
@@ -208,7 +201,7 @@ ht-degree: 4%
 
    [!DNL Workfront]은(는) 이 API 키를 사용하여 문서 공급자에 대해 승인된 API를 호출합니다.
 
-1. <span class="preview">(선택 사항) 대용량 파일 지원을 사용하려면 **[!UICONTROL 대용량 파일 지원]** 섹션에서 **[!UICONTROL 대용량 파일에 대한 청크 업로드 사용]**&#x200B;을 선택한 다음 **[!UICONTROL 청크 업로드 임계값(MB)]** 필드에 최대 청크 크기(MB)를 입력하십시오. 이 필드는 최대 100MB의 값을 허용합니다. 사용하도록 설정하면 25MB가 넘는 파일이 단일 요청이 아닌 이 크기의 청크로 업로드됩니다.</span>
+1. (선택 사항) <span class="preview">큰 파일 지원을 사용하려면 **[!UICONTROL 큰 파일 지원]** 섹션에서 **[!UICONTROL 큰 파일에 대해 청크 업로드 사용]**&#x200B;을 선택한 다음 **[!UICONTROL 청크 업로드 임계값(MB)]** 필드에 최대 청크 크기(MB)를 입력하십시오. 이 필드는 최대 100MB의 값을 허용합니다. 사용하도록 설정하면 25MB가 넘는 파일이 단일 요청이 아닌 이 크기의 청크로 업로드됩니다.</span>
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 통합을 만듭니다.
 
@@ -218,7 +211,7 @@ ht-degree: 4%
 
 사용자가 서드파티 문서 통합을 구성한 후 이를 사용할 수 있는 방법에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
-### [!UICONTROL [!DNL Workfront] DAM] (으)로 메타데이터를 보내도록 [!DNL Workfront] 구성 {#configure-workfront-to-send-metadata-to-workfront-dam}
+### [!UICONTROL [!DNL Workfront] DAM](으)로 메타데이터를 보내도록 [!DNL Workfront] 구성 {#configure-workfront-to-send-metadata-to-workfront-dam}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **) </p>
