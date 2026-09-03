@@ -9,19 +9,12 @@ exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/FnHU08XS4oFb81ho0EOy1ymzulaVVIX10Jd%2D%2D%2D%2DHu4o
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5d51290f1181ea1abfc6ac918721e803da049790
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bde3551443641024b87397e35064ebf4577179eb
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 1%
@@ -239,6 +232,7 @@ Old:
    프로젝트와 더 잘 일치하도록 미리 채워진 값을 편집합니다.
 
    자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
+
 1. **프로젝트 만들기**&#x200B;를 클릭합니다.
 
    이전 단계에서 변경하지 않은 경우 템플릿에 정의된 모든 세부 정보가 새로 생성된 프로젝트와 자동으로 연결됩니다.
@@ -273,6 +267,7 @@ Old:
    템플릿에 필드가 이미 채워져 있으면 **새 프로젝트** 상자에서 필드가 미리 채워집니다. 프로젝트와 더 잘 일치하도록 미리 채워진 값을 편집할 수 있습니다.
 
    자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
+
 
 1. **프로젝트 만들기**&#x200B;를 클릭합니다.
 
