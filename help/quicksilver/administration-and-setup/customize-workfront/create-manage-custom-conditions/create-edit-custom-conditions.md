@@ -11,17 +11,11 @@ exl-id: 5c950862-4358-4aab-997b-223972662150
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/3GEaVitQ5ATF7lE4cNeuSqbL6vMVg-WGKOeh8T66T8w
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
 source-wordcount: 676
 ht-degree: 4%
@@ -82,7 +76,7 @@ Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작
    프로덕션 환경의 샘플 이미지:
    ![사용자 지정 조건 편집](assets/custom-conditions-0825.png)
 
-   미리보기 환경의 샘플 이미지:
+   미리 보기 환경의 <span class="preview">샘플 이미지:</span>
    ![사용자 지정 조건 편집](assets/edit-conditions-082526.png)
 
 1. 다음 옵션을 사용하여 사용자 지정 조건을 구성합니다.
