@@ -10,22 +10,20 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 4323
+source-wordcount: 4442
 ht-degree: 0%
 
 ---
 
 # 통합 검토 및 승인 개요
+
+{{highlighted-preview}}
 
 통합된 검토 및 승인은 Adobe Workfront 및 Adobe Frame.io를 긴밀하게 연결된 하나의 경험으로 통합하여 마케팅 관리, 크리에이티브 검토 및 콘텐츠 전달 간의 차이를 해결합니다.
 프로젝트 코디네이터는 크리에이티브, 마케터 및 이해 당사자가 연결되지 않은 도구 간에 파일을 이동하지 않고도 전문가 수준의 Frame.io 뷰어에서 자산을 검토하고 승인하는 동안 Workfront에서 작업을 관리합니다.
@@ -348,6 +346,18 @@ Frame.io 뷰어에는 자유 형식 드로잉과 원형, 화살표, 사각형 �
 **Frame.io 뷰어에서 작성한 댓글이 Workfront 프로젝트에 표시됩니까?**
 
 주석 및 주석은 Frame.io 뷰어에 유지되므로 타임스탬프 및 시각적 마크업을 비롯한 전체 컨텍스트를 유지합니다. 이는 향후 릴리스에서 발전할 수 있습니다.
+
+<span class="preview">
+
+미리 보기에서 Workfront의 [주석] 패널에는 Frame.io.</span>에서 새 주석을 사용할 수 있을 때를 알려주는 메시지가 표시됩니다.
+
+<div class="preview">
+
+**Workfront에서 Frame.io 주석 표시기를 볼 수 있는 사람은 누구입니까?**
+
+Frame.io에서 해당 주석을 이미 볼 수 있었던 사용자만 표시기를 볼 수 있습니다. Frame.io Enterprise 라이센스가 있으면 문서에 있는 모든 주석에 대해 이 라이센스가 표시됩니다. Frame.io Enterprise 라이선스가 없는 경우 문서에 대한 승인이 존재하는 경우에만 표시됩니다. 승인은 문서에 대한 모든 이전 주석을 귀하에게도 표시할 수 있도록 합니다.
+
+</div>
 
 **다운로드한 에셋 버전(예: PDF)에 주석을 추가할 수 있습니까?**
 
