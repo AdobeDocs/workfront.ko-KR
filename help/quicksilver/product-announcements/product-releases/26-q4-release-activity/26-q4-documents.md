@@ -4,9 +4,9 @@ description: 2026년 4분기 문서 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
+source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -34,23 +34,19 @@ For more information, see [Manage approval templates](/help/quicksilver/review-a
 
 -->
 
-<!--
-
-## Frame comment visibility in Workfront
+## Workfront의 프레임 주석 가시성
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
-When an approval workflow is created for a document, users can leave comments and make annotations in the Frame.io viewer. These comments are not displayed in the Workfront Comments panel, but you can view them in the Frame.io viewer.
+문서에 대한 승인 워크플로가 만들어지면 사용자는 Frame.io 뷰어에 주석을 달고 댓글을 달 수 있습니다. 이러한 주석은 Workfront 주석 패널에 표시되지 않지만 Frame.io 뷰어에서 볼 수 있습니다.
 
-Now, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.
+이제 Workfront의 [주석] 패널에 Frame.io에서 새 주석을 사용할 수 있을 때를 알려주는 메시지가 표시됩니다.
 
-For more information, see [Add an update to a document](/help/quicksilver/documents/managing-documents/add-update-documents.md).
-
--->
+자세한 내용은 [문서에 업데이트 추가](/help/quicksilver/documents/managing-documents/add-update-documents.md)를 참조하십시오.
 
 ## 승인 이메일 링크에서 직접 증명 액세스
 
