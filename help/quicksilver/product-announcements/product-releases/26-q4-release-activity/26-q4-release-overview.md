@@ -470,7 +470,7 @@ ht-degree: 1%
     &lt;p>문서 및 작업 승인을 위해 캔버스 대시보드에 사용되는 여러 필드 이름이 명확성을 위해 변경되었습니다.&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
-    &lt;p>N/A&lt;/p>{1> 28, 2026&lt;/p>&lt;/td>
+    &lt;p>N/A&lt;/p>&lbrace;1> 28, 2026&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;tr>
     &lt;td>
@@ -486,7 +486,7 @@ ht-degree: 1%
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>예약된 보고서에 대한 종료 날짜 적용&lt;/a>
     &lt;p>예약된 보고서에 대해서는 이제 종료 날짜가 필요합니다. 자동 비활성화로 일정에 대한 종료 날짜가 지나간 후에 무기한 전달을 방지할 수 있습니다.&lt;/p>
     &lt;/td>
-    &lt;td>&lt;p>2026&lt;/p>&lt;/td>{3> 2026년 9월 17일&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026&lt;/p>&lt;/td>&lbrace;3> 2026년 9월 17일&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;tr>
@@ -501,7 +501,7 @@ ht-degree: 1%
     &lt;tr>
     &lt;td>
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>이전 목록 및 보고서의 다중 선택 필드 값에 대한 일관성 있는 순서&lt;/a>
-    &lt;p>다중 선택 사용자 지정 필드에 대해 선택한 옵션&lt;/td50}&lt;3/p>
+    &lt;p>다중 선택 사용자 지정 필드에 대해 선택한 옵션&lt;/td50&rbrace;&lt;3/p>
      2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026년 8월 13일&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
