@@ -25,27 +25,25 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: 96cf04616582ac0208a9365d0f10f2403ebd317c
 workflow-type: tm+mt
-source-wordcount: 5111
+source-wordcount: 5223
 ht-degree: 3%
 
 ---
 
 # 프로젝트 템플릿 편집
 
+{{highlighted-preview}}
+
 <!-- Audited: 7/2025 -->
 
 <!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 -->
 
@@ -253,6 +251,15 @@ Old:
       <tr> 
       <td role="rowheader"><strong>회사</strong></td> 
       <td><p>템플릿에 연결할 회사를 지정합니다. 활성 회사만 목록에 표시됩니다.</p></td> 
+      </tr> 
+      <tr>
+      <td role="rowheader"><span class="preview"><strong>Frame.io 작업 영역(조건부)</strong></span></td>
+      <td><span class="preview">
+      <p>Adobe 클라우드 스토리지 프로젝트에서 이 템플릿으로 만든 프로젝트를 사용할 Frame.io 작업 영역을 선택합니다. 조직에 여러 Frame.io 작업 공간이 있는 경우 연결된 Frame.io 프로젝트가 만들어지는 작업 공간이 결정됩니다.</p>
+      <p>목록에는 프로젝트를 할당할 수 있는 권한이 있는 Frame.io 작업 영역만 포함됩니다. 선택한 작업공간이나 사용 가능한 작업공간이 없을 때 사용되는 기본 작업공간입니다.</p>
+      <p>언제든지 템플릿에서 이 필드를 변경할 수 있습니다. 변경 사항은 변경 후 생성된 프로젝트에만 적용됩니다. 템플릿에서 이미 생성된 프로젝트는 기존 Frame.io 작업 영역을 유지합니다.</p>
+      <p>참고: Frame.io 작업 영역 필드를 사용하려면 Frame.io enterprise가 있어야 합니다.</p>
+      </span></td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>템플릿 소유자</strong></td> 
@@ -772,8 +779,8 @@ To edit templates in bulk:
 
   프로젝트 또는 템플릿에 주제 그룹 및 대기열 주제를 추가하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-   * [주제 그룹 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [대기열 주제 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+  * [주제 그룹 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+  * [대기열 주제 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 템플릿의 작업에 다음 항목을 추가할 수 있습니다.
 

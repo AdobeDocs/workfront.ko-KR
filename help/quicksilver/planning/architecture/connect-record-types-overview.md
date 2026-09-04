@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2329
+source-wordcount: 2440
 ht-degree: 1%
 
 ---
@@ -30,11 +30,10 @@ ht-degree: 1%
 
 # 연결된 레코드 유형 개요
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+
 
 {{planning-important-intro}}
 
@@ -193,6 +192,13 @@ ht-degree: 1%
 
   * Workfront Planning에서 계층을 생성하려면 레코드 유형을 연결해야 합니다. 레코드 유형 연결이 없으면 계층 구조를 만들 때 자동으로 만들어집니다. 자세한 내용은 [작업 영역 계층 만들기](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)를 참조하십시오.
 
+  <div class="preview">
+
+  * 연결된 레코드 종류에서 연결된 해당 필드에 종속되는 연결 필드를 만들 수 있습니다. 두 필드가 세 번째 레코드 유형에 표시되는 경우 한 필드에 사용할 수 있는 선택 사항은 다른 필드의 선택 사항에 따라 달라집니다.
+
+    자세한 내용 및 추가 고려 사항은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.
+
+  </div>
 
 ## 연결 유형
 

@@ -24,14 +24,16 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
 workflow-type: tm+mt
-source-wordcount: 1382
+source-wordcount: 1429
 ht-degree: 5%
 
 ---
 
 # 프로젝트 개요 영역에서 정보 관리
+
+{{highlighted-preview}}
 
 <!--
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -228,6 +230,7 @@ Old:
    | 마지막 업데이트 날짜 | 프로젝트를 마지막으로 업데이트한 날짜 및 시간입니다. |
    | 마지막으로 업데이트한 사람 | 프로젝트를 마지막으로 업데이트한 사용자의 이름입니다. |
    | 템플릿 |  |
+   | Frame.io 작업 영역 | <span class="preview">Frame.io 작업 영역을 만드는 데 사용된 템플릿에서 상속됩니다. 프로젝트를 만든 후에는 이 필드를 변경할 수 없습니다.</span> |
 
 
 1. 회사에서 Adobe Workfront 시나리오 플래너에 대한 추가 라이선스를 구매했는데 프로젝트에 연결된 이니셔티브에서 게시된 정보가 있는 경우 시나리오 플래너 영역에서 다음 이니셔티브 정보를 검토하십시오.

@@ -19,15 +19,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4047
+source-wordcount: 4041
 ht-degree: 2%
 
 ---
 
 # 표 보기 관리
 
+<!-- remove Production and Preview references at release-->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
@@ -190,7 +191,7 @@ Old:
 <!--
 <div class="preview">
 
-* 500 records upload automaticall. Additional records display as you scroll the view. 
+* 500 records upload automatically. Additional records display as you scroll the view. 
 
 </div>
 -->
@@ -244,6 +245,8 @@ Old:
    * 열 머리글을 잡고 원하는 위치에 끌어서 놓습니다. 테이블을 다시 조정할 때까지 이동한 열이 파란색 배경에 잠시 표시됩니다.
 
    * 표의 도구 모음에서 **필드**&#x200B;를 클릭한 다음 원하는 순서로 필드를 끌어다 놓은 다음 **필드 표시 및 순서** 상자 외부를 클릭하여 닫습니다.
+
+     <!--update the screen shot without Thumbnail at Production release-->
 
      ![필드 설정 테이블 보기 도구 모음 확장](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -360,26 +363,31 @@ Old:
    ><span class="preview">끌어서 놓기 줄에서 선택한 레코드 수가 두 개 이상인 경우 숫자 표시기가 표시됩니다. </span>
 
 1. (선택 사항) 레코드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **썸네일 편집**&#x200B;을 클릭하여 썸네일을 편집합니다.
-1. 표 상단의 **필드**&#x200B;를 클릭한 다음 **썸네일** 필드에 대한 전환을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다.
+1. 프로덕션 환경에서 표 상단의 **필드**&#x200B;를 클릭합니다
+
+   또는
+
+   <span class="preview">기본 필드 머리글</span> 위로 마우스를 가져간 다음 **썸네일** 필드에 대한 토글을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다.
 
    자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
 
-1. <span class="preview">(선택 사항) 표 상단의 **필드**&#x200B;를 클릭한 다음 **색상**&#x200B;을 클릭하여 기본 필드 왼쪽에 레코드 색상을 표시합니다. 색상은 각 새 레코드에 대해 기본적으로 임의로 할당됩니다. **색상** 설정은 기본적으로 선택 해제되어 있습니다.</span>
+1. <span class="preview">표 상단의 **필드**&#x200B;를 클릭합니다</span>
+
+   또는
+   <span class="preview">기본 필드 머리글 위로 마우스를 가져간 다음 **색상** 필드에 대한 토글을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다. </span>
 
 1. <span class="preview">(선택 사항 및 조건부) **색상** 설정을 켜면 레코드의 기본 필드 왼쪽에 있는 색상 막대를 클릭하고 **색상 견본** 또는 **사용자 지정** 탭에서 색상을 선택한 다음 상자 바깥쪽을 클릭하여 닫습니다. 색상이 즉시 적용됩니다.</span>
 
-   <div class="preview">
+<div class="preview">
 
-   ![색상 코딩 색상 선택기 상자 기록](assets/color-picker-for-record-color-coding.png)
+![색상 코딩 색상 선택기 상자 기록](assets/color-picker-for-record-color-coding.png)
 
-   자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
+자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
-   </div>
+</div>
 
 
 ### 필터 추가 {#add-filters-1}
-
-필터는 화면에 표시되는 정보의 양을 줄이는 데 도움이 됩니다.
 
 필터는 화면에 표시되는 정보의 양을 줄이는 데 도움이 됩니다.
 

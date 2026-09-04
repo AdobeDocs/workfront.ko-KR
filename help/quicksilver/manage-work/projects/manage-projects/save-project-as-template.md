@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 473
+source-wordcount: 491
 ht-degree: 5%
 
 ---
@@ -37,13 +37,9 @@ ht-degree: 5%
 -->
 
 <!--
-<div class="preview">
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 프로젝트가 나중에 다시 시작될 경우 기존 프로젝트에서 템플릿을 만들 수 있습니다. 그런 다음 템플릿을 다시 사용하여 유사한 정보를 포함하거나 기존 프로젝트와 동일한 타임라인 또는 할당을 공유할 수 있는 향후 프로젝트를 만들 수 있습니다.
@@ -209,7 +205,7 @@ Saving a project as a template differs in the Production and the Preview environ
 1. 양식을 제거하거나 순서를 변경하려면 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
 
    양식 순서를 변경하려면 올바른 순서로 양식 순서를 끌어서 놓습니다.
-양식을 제거하려면 양식을 선택한 다음 **제거**&#x200B;를 클릭합니다. 선택한 양식을 제거하려면 **취소**&#x200B;를 클릭하십시오.
+   양식을 제거하려면 양식을 선택한 다음 **제거**&#x200B;를 클릭합니다. 선택한 양식을 제거하려면 **취소**&#x200B;를 클릭하십시오.
 
    ![템플릿으로 저장 상자의 사용자 정의 양식 영역](assets/custom-forms-ara-in-save-as-template-box.png)
 

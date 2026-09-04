@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: e01b63c81bf085651195a5649bf3799e5168b550
 workflow-type: tm+mt
-source-wordcount: 212
-ht-degree: 59%
+source-wordcount: 215
+ht-degree: 58%
 
 ---
 
@@ -52,4 +52,5 @@ Adobe Workfront의 기본적인 내용을 파악하고 홈이나 우선순위 �
 * [모바일 앱](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Workfront의 AI 지원](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Workfront 서버](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
+* [Workfront의 동료](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
 * [Adobe Workfront 기본 사항에 대한 팁, 요령 및 문제 해결](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

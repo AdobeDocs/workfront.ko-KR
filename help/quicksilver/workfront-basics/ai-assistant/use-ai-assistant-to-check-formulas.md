@@ -12,9 +12,9 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 46
+source-wordcount: 73
 ht-degree: 0%
 
 ---
@@ -23,7 +23,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->AI Assistant를 사용하여 공식을 생성하는 기능이 Adobe Workfront에서 제거되었습니다.
+>* 2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Coworker로 전환됩니다. CX Coworker에 대한 자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
+>* AI Assistant를 사용하여 공식을 생성하는 기능이 Adobe Workfront에서 제거되었습니다.
 
 
 <!--

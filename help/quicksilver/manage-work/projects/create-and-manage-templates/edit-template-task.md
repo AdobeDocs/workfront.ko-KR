@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 3074
+source-wordcount: 3125
 ht-degree: 6%
 
 ---
@@ -39,13 +39,9 @@ ht-degree: 6%
 <!--take out production and preview references and new/ old experiences at release-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 템플릿을 만든 후 템플릿 작업의 정보를 편집할 수 있습니다. 템플릿을 사용하여 프로젝트를 만들거나 템플릿을 프로젝트에 첨부한 후에는 템플릿 작업에 대해 업데이트하는 정보가 프로젝트 작업과 연결됩니다.
@@ -150,10 +146,10 @@ Old:
       * **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 아래 영역 중 하나를 선택하거나 **모두 편집**&#x200B;을 클릭하여 모든 영역의 정보를 편집합니다.
 
 
-         * 개요
-         * 사용자 정의 양식
-템플릿 작업에 첨부된 사용자 정의 양식이 있는 경우에만 사용자 정의 양식 이름이 표시됩니다.
-         * 재무
+        * 개요
+        * 사용자 정의 양식
+          템플릿 작업에 첨부된 사용자 정의 양식이 있는 경우에만 사용자 정의 양식 이름이 표시됩니다.
+        * 재무
 
         >[!TIP]
         >
@@ -506,12 +502,12 @@ Old:
 1. 템플릿 작업과 연결할 사용자 정의 양식을 선택합니다.
 
    이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다.
-활성 사용자 정의 양식만 목록에 표시됩니다.
+   활성 사용자 정의 양식만 목록에 표시됩니다.
 
    사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
    템플릿 작업에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
-양식은 템플릿에서 만든 작업에 자동으로 추가됩니다.
+   양식은 템플릿에서 만든 작업에 자동으로 추가됩니다.
 1. (조건부 및 선택 사항) 사용자 정의 양식을 템플릿 작업에 첨부한 경우 양식의 모든 필드를 편집합니다. 템플릿 작업을 저장하려면 모든 필수 필드를 지정해야 합니다.
 
    >[!NOTE]

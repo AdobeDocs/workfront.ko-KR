@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
+source-git-commit: bf611a79078eac9cf8f78a20ddc83079b36a7de5
 workflow-type: tm+mt
 source-wordcount: 1184
 ht-degree: 4%
@@ -208,7 +208,7 @@ ht-degree: 4%
 
    [!DNL Workfront]은(는) 이 API 키를 사용하여 문서 공급자에 대해 승인된 API를 호출합니다.
 
-1. <span class="preview">(선택 사항) 대용량 파일 지원을 사용하려면 **[!UICONTROL 대용량 파일 지원]** 섹션에서 **[!UICONTROL 대용량 파일에 대한 청크 업로드 사용]**&#x200B;을 선택한 다음 **[!UICONTROL 청크 업로드 임계값(MB)]** 필드에 최대 청크 크기(MB)를 입력하십시오. 이 필드는 최대 100MB의 값을 허용합니다. 사용하도록 설정하면 25MB가 넘는 파일이 단일 요청이 아닌 이 크기의 청크로 업로드됩니다.</span>
+1. (선택 사항) <span class="preview">큰 파일 지원을 사용하려면 **[!UICONTROL 큰 파일 지원]** 섹션에서 **[!UICONTROL 큰 파일에 대해 청크 업로드 사용]**&#x200B;을 선택한 다음 **[!UICONTROL 청크 업로드 임계값(MB)]** 필드에 최대 청크 크기(MB)를 입력하십시오. 이 필드는 최대 100MB의 값을 허용합니다. 사용하도록 설정하면 25MB가 넘는 파일이 단일 요청이 아닌 이 크기의 청크로 업로드됩니다.</span>
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 통합을 만듭니다.
 

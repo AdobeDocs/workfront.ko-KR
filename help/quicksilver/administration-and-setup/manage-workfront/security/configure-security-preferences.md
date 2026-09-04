@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
 source-wordcount: 1318
 ht-degree: 8%
@@ -182,17 +182,17 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
       <td role="rowheader">요청 양식의 지능형 자동 완성 </td> 
       <td>이전 요청 데이터를 기반으로 요청 양식을 자동 완성하는 기능을 활성화하도록 선택할 수 있습니다. 양식 자동 완성에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">이전 데이터의 요청 자동 채우기</a>를 참조하십시오.</td> 
      </tr>
+     <tr> 
+      <td role="rowheader">AI Beta 참여 </td> 
+      <td>현재 Beta에 있는 AI 기능을 활성화하도록 선택할 수 있습니다. 이 옵션을 활성화하면 활성화할 AI Beta 기능을 선택할 수 있습니다. 각 AI Beta 기능에 대한 자세한 내용을 보려면 해당 기능 옆에 있는 정보 아이콘을 클릭합니다
     <tr> 
       <td role="rowheader">계획 수립 디자이너</td> 
       <td>Workfront Planning 패키지를 구입한 고객에게만 제공됩니다. 이 설정을 켜면 사용자가 Planning Designer을 사용하여 작업 공간을 만들고 편집할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Adobe Workfront Planning Designer 시작</a>을 참조하십시오.</td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">AI Beta 참여 </td> 
-      <td>현재 Beta에 있는 AI 기능을 활성화하도록 선택할 수 있습니다. 이 옵션을 활성화하면 활성화할 AI Beta 기능을 선택할 수 있습니다. 각 AI Beta 기능에 대한 자세한 내용을 보려면 해당 기능 옆에 있는 정보 아이콘을 클릭합니다.</td> 
+     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">읽기 전용 MCP 도구</span></td> 
-      <td><span class="preview">Workfront MCP 서버가 프로젝트, 작업 또는 기타 항목을 찾거나 나열하는 등 Workfront 데이터에 대한 읽기 작업을 수행할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다.<p>Workfront MCP 서버에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Adobe Workfront MCP 서버 구성</a>을 참조하십시오.</p></span></td> 
+      <td><span class="preview">Workfront MCP 서버가 프로젝트, 작업 또는 기타 항목을 찾거나 나열하는 등의 Workfront 데이터에 대한 읽기 작업을 수행할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다.<p>Workfront MCP 서버에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Adobe Workfront MCP 서버 구성</a>을 참조하십시오.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">MCP 도구 작성</span></td> 

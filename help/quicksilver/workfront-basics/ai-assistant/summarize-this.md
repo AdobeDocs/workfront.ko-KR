@@ -14,14 +14,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: 425
 ht-degree: 5%
 
 ---
 
 # AI Assistant를 사용하여 요약
+
+>[!IMPORTANT]
+>
+>2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Coworker로 전환됩니다. CX Coworker에 대한 자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
 Workfront의 AI Assistant는 일부 객체를 요약할 수 있으므로 객체의 의도 또는 세부 사항을 세부적으로 파악할 수 있습니다.
 

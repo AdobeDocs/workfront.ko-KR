@@ -4,9 +4,9 @@ description: 2026년 4분기 문서 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
+source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -45,29 +45,25 @@ For more information, see [Add an update to a document](/help/quicksilver/docume
 
 문서에 증명이 첨부되면 이제 승인 이메일의 &quot;검토로 이동&quot; 링크에 증명 뷰어가 직접 열리므로 검토자와 승인자는 즉시 검토를 시작할 수 있습니다. 문서에 증명이 없는 경우 이전과 마찬가지로 링크가 문서의 승인 섹션을 계속 엽니다.
 
-<!--
-
-## Add teams to approvals for objects using Adobe cloud storage
+## Adobe 클라우드 스토리지를 사용하여 오브젝트 승인에 팀 추가
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
-You can now add a Workfront Team as an approver or reviewer on a document approval or approval template, instead of adding each person individually:
+이제 각 사용자를 개별적으로 추가하는 대신 문서 승인 또는 승인 템플릿에서 Workfront 팀을 승인자 또는 검토자로 추가할 수 있습니다.
 
-* Objects on Adobe cloud storage: Workfront adds each active team member individually, so the approver list always reflects who's currently on the team.
-* Objects using legacy Workfront storage: The team is added as a single participant by default, but you can now choose to add each team member as an individual participant.
-* In approval templates, Workfront stores a reference to the team and expands it into active members when you apply the template to a document, not when you save the template.
+* Adobe 클라우드 스토리지의 오브젝트: Workfront은 각 활성 팀 구성원을 개별적으로 추가하므로 승인자 목록은 항상 현재 팀에 있는 사람을 반영합니다.
+* 기존 Workfront 저장소를 사용하는 개체: 기본적으로 팀이 단일 참가자로 추가되지만, 이제 각 팀 구성원을 개별 참가자로 추가하도록 선택할 수 있습니다.
+* 승인 템플릿에서 Workfront은 팀에 대한 참조를 저장하고 템플릿을 저장할 때가 아니라 문서에 템플릿을 적용할 때 이를 활성 멤버로 확장합니다.
 
-For more information, see:
+자세한 내용은 다음 문서를 참조하십시오.
 
-* [Create an approval workflow in the new Documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-new-documents-area)
-* [Create an approval workflow in the legacy documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-legacy-documents-area)
-* [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-
--->
+* [새 문서 영역에 승인 작업 과정 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-new-documents-area)
+* [기존 문서 영역에 승인 작업 과정 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-legacy-documents-area)
+* [문서에 대한 승인 워크플로 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
 ## 프로젝트 템플릿에서 Frame.io 작업 공간 설정
 
@@ -124,45 +120,41 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 
 자세한 내용은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
 
-<!--
-
-## Redesigned Versions panel in the new documents area
+## 새 문서 영역에 다시 디자인된 버전 패널
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
-If your organization uses Adobe cloud storage, the Versions panel in the new Documents area has a new design:
+조직에서 Adobe 클라우드 스토리지를 사용하는 경우 새 문서 영역의 버전 패널에 새로운 디자인이 제공됩니다.
 
-* Versions are labeled V1, V2, and so on to drive consistency with Frame.io.
-* Each version shows its approval status, such as "Approved" or "Withdrawn", directly in the list.
-* The panel now lists only Version history — there's no longer a separate "latest file" entry at the top.
+* 버전은 Frame.io와의 일관성을 유지하기 위해 V1, V2 등으로 레이블이 지정됩니다.
+* 각 버전은 &quot;승인됨&quot; 또는 &quot;철회됨&quot;과 같은 승인 상태를 목록에 바로 표시합니다.
+* 이제 패널에 버전 기록만 나열됩니다. 맨 위에는 더 이상 별도의 &quot;최신 파일&quot; 항목이 없습니다.
 
-Previously, versions were timestamped instead of numbered.
+이전에는 번호가 매겨지지 않고 버전이 타임스탬프로 표시되었습니다.
 
-For more information, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md).
+자세한 내용은 [문서 버전 관리](/help/quicksilver/documents/managing-documents/manage-document-versions.md)를 참조하십시오.
 
-## Redesigned Approvals panel in the new documents area
+## 새 문서 영역에서 다시 디자인된 승인 패널
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
-If your organization uses Adobe cloud storage, the Approvals panel in the new Documents area now shows approval history across versions:
+조직에서 Adobe 클라우드 스토리지를 사용하는 경우 이제 새 문서 영역의 승인 패널에 버전 간 승인 내역이 표시됩니다.
 
-* The panel lists the approval workflow for every version that has one, not just the current version.
-* Withdrawn workflows stay in the list, so you can still review their prior decisions.
-* Expand any version to see its stages, approver decisions, decision rule, and due dates without leaving the panel.
+* 패널에는 현재 버전뿐만 아니라 버전이 하나씩인 모든 버전에 대한 승인 워크플로가 나열됩니다.
+* 철회된 워크플로우는 목록에 유지되므로 이전 결정을 검토할 수 있습니다.
+* 버전을 확장하여 패널을 종료하지 않고 단계, 승인자 결정, 결정 규칙 및 기한을 확인합니다.
 
-Previously, the Approvals panel only showed the current version's workflow.
+이전에는 승인 패널에만 현재 버전의 워크플로가 표시되었습니다.
 
-For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
--->
+자세한 내용은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
 
 ## Adobe 클라우드 스토리지 개체의 댓글에 이미지 첨부
 

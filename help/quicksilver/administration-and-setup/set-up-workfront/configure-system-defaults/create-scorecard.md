@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 스코어카드 만들기
 description: 스코어카드는 프로젝트가 이전에 설정한 포트폴리오 기준에 얼마나 잘 부합하는지 측정합니다. 스코어카드는 종종 조직의 임무, 가치 및 전략적 목표를 반영합니다.Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정의하여 프로젝트 우선 순위 지정 및 선택 시 의미 있고 가치 있는 질문이 되도록 합니다.  [!DNL Adobe Workfront] 관리자가 포트폴리오 관리자의 권장 사항을 기반으로 스코어카드를 작성합니다.
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 3%
+source-wordcount: 846
+ht-degree: 2%
 
 ---
 
@@ -32,11 +32,12 @@ ht-degree: 3%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
+
 
 스코어카드는 프로젝트가 이전에 설정한 포트폴리오 기준에 얼마나 잘 부합하는지 측정합니다. 스코어카드는 종종 조직의 임무, 가치 및 전략적 목표를 반영합니다.
 
@@ -128,6 +129,11 @@ ht-degree: 3%
 
    이렇게 하면 스코어카드가 만들어지고 프로젝트 관리자는 이제 스코어카드를 프로젝트 비즈니스 사례에 첨부할 수 있습니다.
 
+
+1. <span class="preview">(선택 사항) 스코어카드를 편집하려면 스코어카드 목록에서 해당 스코어카드를 선택한 다음 목록 하단의 **편집** ![스코어카드 편집](assets/edit-scorecard-icon.png)을(를) 클릭합니다. </span>
+
+1. <span class="preview">(선택 사항) 스코어카드를 삭제하려면 스코어카드 목록에서 스코어카드를 선택한 다음 목록 맨 아래에 있는 **삭제** ![스코어카드 삭제](assets/delete-scorecard-icon.png)를 클릭합니다. </span>
+
 ## 기존 스코어카드 복사
 
 기존 스코어카드를 복사하고 편집하여 스코어카드를 만들 수 있습니다.
@@ -135,11 +141,15 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **[!UICONTROL 스코어카드]**&#x200B;를 클릭합니다.
-1. 목록에서 스코어카드를 선택한 다음 스코어카드 목록 맨 위에 있는 **복사** 아이콘 ![스코어카드 복사 아이콘](assets/copy-scorecard-icon.png)을 클릭합니다.
+1. 목록에서 스코어카드를 선택한 다음 스코어카드 목록 <span class="preview">의 맨 위에 있는 **복사** 또는 목록 맨 아래에 있는 **복사** ![스코어카드 복사 아이콘](assets/copy-scorecard-icon.png)을 클릭합니다</span>.
 
-   **스코어카드 복사** 상자가 열립니다.
+   **복사** 스코어카드가 열립니다.
 
    ![스코어카드 상자 복사](assets/copy-scorecard-box.png)
+
+   >[!TIP]
+   >
+   >스코어카드의 이름이 상자의 제목에 표시됩니다.
 
 1. 다음 정보를 지정합니다.
 

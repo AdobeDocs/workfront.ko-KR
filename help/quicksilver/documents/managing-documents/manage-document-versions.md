@@ -16,16 +16,18 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
-source-wordcount: 634
-ht-degree: 3%
+source-wordcount: 1077
+ht-degree: 1%
 
 ---
 
 # 문서 버전 관리
 
 <!-- Audited: 5/2025 -->
+
+{{highlighted-preview}}
 
 Workfront에서 여러 버전의 문서를 관리할 수 있습니다.
 
@@ -70,7 +72,9 @@ Workfront에서 여러 버전의 문서를 관리할 수 있습니다.
 
   새 버전의 문서를 Workfront에 업로드하는 방법에 대한 자세한 내용은 [새 버전의 문서 업로드](../../documents/managing-documents/upload-new-document-version.md)를 참조하십시오.
 
-## 문서의 모든 버전 목록 보기
+## 기존 문서 영역에서 문서 버전 관리
+
+### 문서의 모든 버전 목록 보기
 
 {{step1-to-documents}}
 
@@ -80,7 +84,7 @@ Workfront에서 여러 버전의 문서를 관리할 수 있습니다.
 
 1. **버전** 섹션까지 아래로 스크롤하여 모든 문서 버전을 봅니다.
 
-## 이전 문서 버전에 대한 세부 정보 보기 및 관리
+### 이전 문서 버전에 대한 세부 정보 보기 및 관리
 
 {{step1-to-documents}}
 
@@ -92,7 +96,7 @@ Workfront에서 여러 버전의 문서를 관리할 수 있습니다.
 
    버전의 세부 사항을 볼 수 있을 뿐만 아니라 이름, 메타데이터 및 증명 설정(문서 증명인 경우)과 같은 버전을 변경할 수도 있습니다.
 
-## 단일 문서 버전 다운로드
+### 단일 문서 버전 다운로드
 
 {{step1-to-documents}}
 
@@ -104,7 +108,7 @@ Workfront에서 여러 버전의 문서를 관리할 수 있습니다.
 
    ![단일 문서 다운로드](assets/more-versions-350x143.png)
 
-## 문서의 모든 버전 다운로드
+### 문서의 모든 버전 다운로드
 
 {{step1-to-documents}}
 
@@ -114,7 +118,7 @@ Workfront에서 여러 버전의 문서를 관리할 수 있습니다.
 
 1. **버전** 섹션까지 아래로 스크롤한 다음 **모두 다운로드**&#x200B;를 클릭합니다.
 
-## 문서 버전 삭제
+### 문서 버전 삭제
 
 실수로 문서 버전을 업로드하거나 더 이상 버전이 필요하지 않으면 버전을 삭제하고 원본 문서를 유지할 수 있습니다.
 
@@ -149,3 +153,82 @@ Workfront에서 여러 버전의 문서를 관리할 수 있습니다.
    >* 문서가 외부 소스에 연결된 경우 해당 링크가 삭제되고 Workfront을 통해 문서에 더 이상 액세스할 수 없습니다.
 
    ![문서 버전 삭제](assets/more-versions-350x143.png)
+
+<div class="preview">
+
+## 미리보기의 새 문서 영역에서 문서 버전 관리
+
+조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+
+Workfront은 Frame.io의 버전 번호와 일치하도록 업로드한 순서대로 각 버전에 번호를 매깁니다(예: V1, V2, V3).
+
+### 문서의 모든 버전 목록 보기
+
+{{step1-to-documents}}
+
+1. **문서** 페이지에서 목록에서 문서를 선택합니다.
+
+1. 페이지 오른쪽의 **버전** 아이콘 ![버전 아이콘](assets/versions-icon.png)을 클릭합니다. 버전(Versions) 패널이 열리고 버전 기록(Version history) 아래에 문서의 모든 버전이 나열됩니다.
+
+   >[!NOTE]
+   >
+   >버전에 승인 워크플로가 있는 경우 그 상태(예: &quot;승인됨&quot; 또는 &quot;철회됨&quot;)가 옆에 표시됩니다. 승인 워크플로가 없는 버전은 상태가 표시되지 않습니다.
+
+### 버전에 대한 승인 요청
+
+{{step1-to-documents}}
+
+1. **문서** 페이지에서 목록에서 문서를 선택합니다.
+1. 페이지 오른쪽의 **버전** 아이콘 ![버전 아이콘](assets/versions-icon.png)을 클릭합니다.
+1. 버전 옆의 **자세히** 메뉴를 클릭한 다음 **승인 요청**&#x200B;을 클릭합니다.
+1. 승인 워크플로를 구성합니다. 자세한 내용은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
+
+   >[!NOTE]
+   >
+   >이전 버전에 이미 승인 워크플로가 열려 있는 경우 이 버전에 대한 승인을 요청하면 취소됩니다. 이전 버전은 버전 번호와 승인 내역이 유지되지만 상태는 &quot;철회됨&quot;으로 변경됩니다.
+
+### 이전 문서 버전에 대한 세부 정보 보기 및 관리
+
+{{step1-to-documents}}
+
+1. **문서** 페이지에서 목록에서 문서를 선택합니다.
+1. 페이지 오른쪽의 **버전** 아이콘 ![버전 아이콘](assets/versions-icon.png)을 클릭합니다.
+1. 버전 옆의 **자세히** 메뉴를 클릭한 다음 **세부 정보 보기**&#x200B;를 클릭합니다.
+
+### 단일 문서 버전 다운로드
+
+{{step1-to-documents}}
+
+1. **문서** 페이지에서 목록에서 문서를 선택합니다.
+
+1. 페이지 오른쪽의 **버전** 아이콘 ![버전 아이콘](assets/versions-icon.png)을 클릭합니다.
+
+1. 버전 옆의 **자세히** 메뉴를 클릭한 다음 **다운로드**&#x200B;를 클릭합니다.
+
+### 문서의 모든 버전 다운로드
+
+{{step1-to-documents}}
+
+1. **문서** 페이지에서 목록에서 문서를 선택합니다.
+
+1. 페이지 오른쪽의 **버전** 아이콘 ![버전 아이콘](assets/versions-icon.png)을 클릭합니다.
+
+1. [버전] 패널의 맨 위에서 **모두 다운로드**&#x200B;를 클릭합니다.
+
+   ![문서의 모든 버전 다운로드](assets/download-all-versions.png)
+
+### 문서 버전 삭제
+
+{{step1-to-documents}}
+
+1. **문서** 페이지에서 목록에서 문서를 선택합니다.
+
+1. 페이지 오른쪽의 **버전** 아이콘 ![버전 아이콘](assets/versions-icon.png)을 클릭합니다.
+
+1. 버전 옆의 **자세히** 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+
+   >[!NOTE]
+   >
+   >버전을 삭제해도 다른 버전의 번호는 변경되지 않습니다. 예를 들어 버전 V1에서 V5까지의 문서에서 V3을 삭제하면 나머지 버전은 원래 번호를 유지하고 이후에 V3이 없습니다. 업로드하는 다음 버전은 V6이 됩니다.
+
+</div>

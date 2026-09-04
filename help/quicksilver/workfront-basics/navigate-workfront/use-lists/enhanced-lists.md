@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 3318
+source-wordcount: 3304
 ht-degree: 1%
 
 ---
@@ -90,7 +90,6 @@ ht-degree: 1%
 | 게시판 관리자 보기 | 게시판 > 관리자 보기 |
 | Adobe 클라우드 스토리지에 대한 문서 | 프로젝트, 작업, 문제, 포트폴리오, 프로그램, 템플릿, 템플릿 작업 > 문서 |
 | <span class="preview">시나리오 계획 및 이니셔티브 목록</span> | <span class="preview">주 메뉴 > 시나리오</span> |
-| <span class="preview">목표 및 진행률 지표 목록</span> | <ul><li><span class="preview">주 메뉴 > 목표</span></li><li><span class="preview">주 메뉴 > 목표 > 진행 표시기</span></li></ul> |
 
 <!--
 
@@ -98,6 +97,9 @@ Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documen
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+Last, under Scenario Planner
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
 
 -->
 
@@ -185,7 +187,7 @@ Under Locations?
 
 1. 토글을 사용하여 목록에 열을 표시하거나 숨깁니다.
 
-<span class="preview">검색 상자에서 열을 검색할 수 있습니다.</span>
+   <span class="preview">검색 상자에서 열을 검색할 수 있습니다.</span>
 
 1. 열 순서를 바꾸려면 **끌기** 아이콘 ![끌기 아이콘](assets/drag-icon.png)을 클릭하고 열을 원하는 위치로 이동합니다. 열을 이동하면 목록이 자동으로 변경됩니다.
 

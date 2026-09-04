@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: cf7c7dd6276940be9cd49b7c255ab71656740f1f
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
-source-wordcount: '14480'
+source-wordcount: '14501'
 ht-degree: 2%
 
 ---
@@ -970,6 +970,11 @@ ht-degree: 2%
     * [Adobe Workfront MCP 서버 사용](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Adobe Workfront MCP 서버 도구](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [직접 설치에 사용할 수 있는 기술](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
+  * Workfront의 CX 동료 {#coworker-in-workfront}
+    * [Workfront의 CX 동료: 문서 인덱스](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX 동료 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Workfront에서 CX Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * 작업 항목 업데이트 및 업데이트 보기 {#update-work-items-view-updates}
     * [작업 항목 업데이트 및 업데이트 보기: 문서 색인](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [업데이트 섹션 개요](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2214,7 +2219,7 @@ ht-degree: 2%
     * [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 유형 만들기](planning/architecture/import-file-to-create-record-types.md)
     * [작업 영역 간 레코드 유형 개요](planning/architecture/cross-workspace-record-types-overview.md)
     * [레코드 유형에 대한 작업 영역 간 기능 구성](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-    * {hide-from-toc}[레코드 종류 비즈니스 규칙 구성](planning/architecture/configure-business-rules.md)
+    * [레코드 유형 비즈니스 규칙 구성](planning/architecture/configure-business-rules.md)
     * [레코드 종류의 설정 영역 구성](planning/architecture/configure-record-type-settings.md)
     * [다른 작업 영역에서 기존 레코드 유형 추가](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [레코드 유형 연결 개요](planning/architecture/connect-record-types-overview.md)

@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 1373
 ht-degree: 1%
@@ -35,13 +35,9 @@ ht-degree: 1%
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 마일스톤 보기를 프로젝트 목록 또는 보고서에 적용할 수 있습니다. 마일스톤 보기를 사용하여 보고 있는 프로젝트 내에서 작업과 관련된 모든 마일스톤을 볼 수 있습니다.
@@ -123,9 +119,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   Workfront은 첫 번째 섹션의 프로젝트를 다음 기준에 따라 이 순서로 정렬합니다.
 
-   1. 마일스톤 경로 ID. 마일스톤 경로 보고서에서 마일스톤 경로 ID를 볼 수 있습니다.
+  1. 마일스톤 경로 ID. 마일스톤 경로 보고서에서 마일스톤 경로 ID를 볼 수 있습니다.
 
-   2. 마일스톤 보기를 선택하기 전에 프로젝트 목록에 이전에 적용된 보기에서 프로젝트 목록의 첫 번째 정렬 필드로 선택된 필드입니다.
+  2. 마일스톤 보기를 선택하기 전에 프로젝트 목록에 이전에 적용된 보기에서 프로젝트 목록의 첫 번째 정렬 필드로 선택된 필드입니다.
 
 * 마일스톤 경로와 연관되지 않은 프로젝트가 미할당 섹션 옆에 표시됩니다. Workfront은 마일스톤 보기를 선택하기 전에 프로젝트 목록에 이전에 적용된 보기에서 프로젝트 목록의 첫 번째 정렬 필드로 선택된 필드를 기준으로 미할당 섹션의 프로젝트를 정렬합니다.
 
@@ -140,9 +136,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   계획된 일자를 보고 프로젝트에 대한 관리 액세스 권한도 있는 경우 마일스톤 보기에서 직접 다음 일자를 편집할 수 있습니다.
 
-   * **프로젝트 시작 날짜:** 프로젝트가 시작 날짜부터 예약된 경우 프로젝트의 계획된 시작 날짜를 수동으로 변경할 수 있으며 계획된 완료 날짜가 계산됩니다.
-   * **프로젝트 완료 일자:** 프로젝트가 계획된 완료 일자부터 예약된 경우 프로젝트의 계획된 완료 일자를 수동으로 변경할 수 있으며 계획된 시작 일자가 계산됩니다.
-   * **작업 완료 날짜:** 마일스톤 보기에서 직접 작업의 계획된 완료 날짜를 수동으로 업데이트할 수 있습니다.
+  * **프로젝트 시작 날짜:** 프로젝트가 시작 날짜부터 예약된 경우 프로젝트의 계획된 시작 날짜를 수동으로 변경할 수 있으며 계획된 완료 날짜가 계산됩니다.
+  * **프로젝트 완료 일자:** 프로젝트가 계획된 완료 일자부터 예약된 경우 프로젝트의 계획된 완료 일자를 수동으로 변경할 수 있으며 계획된 시작 일자가 계산됩니다.
+  * **작업 완료 날짜:** 마일스톤 보기에서 직접 작업의 계획된 완료 날짜를 수동으로 업데이트할 수 있습니다.
 
 * **완료율:** 각 작업 및 프로젝트의 완료율을 표시합니다.
 
@@ -152,10 +148,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 * **작업 진행 상태 아이콘:** 작업의 진행 상태를 나타내는 아이콘은 다음과 같습니다.
 
-   * 설정 시간 - 녹색
-   * 뒤에 - 노란색
-   * 위험 상태 - 파란색
-   * 지연 - 빨간색
+  * 설정 시간 - 녹색
+  * 뒤에 - 노란색
+  * 위험 상태 - 파란색
+  * 지연 - 빨간색
 
   <!--
    * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
@@ -177,33 +173,33 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 * **완료된 작업에 대한 작업 상태 음영**: 작업이 완료로 표시된 후 작업이 정시에 완료되었는지 또는 늦게 완료되었는지 여부를 나타내는 마일스톤 보기에서 작업 배경이 음영으로 표시됩니다.
 
-   * **작업 열의 빨간색 음영**: 진행 상태가 **지연**&#x200B;인 경우 작업 배경이 빨간색입니다.
+  * **작업 열의 빨간색 음영**: 진행 상태가 **지연**&#x200B;인 경우 작업 배경이 빨간색입니다.
 
-   * **작업 열의 녹색 음영**: 진행 상태가 **설정 시간**&#x200B;일 때 작업 배경이 녹색입니다.
+  * **작업 열의 녹색 음영**: 진행 상태가 **설정 시간**&#x200B;일 때 작업 배경이 녹색입니다.
 
 * **프로젝트 시작 및 완료 열에 대한 프로젝트 상태 음영**:
 
-   * **프로젝트 시작 열**: 실제 시작 날짜가 채워진 경우에만 프로젝트 시작 열의 배경이 빨간색 또는 녹색입니다.
+  * **프로젝트 시작 열**: 실제 시작 날짜가 채워진 경우에만 프로젝트 시작 열의 배경이 빨간색 또는 녹색입니다.
 
-      * **프로젝트 시작 열의 빨간색 음영**: 프로젝트의 진행 상태가 **지연**&#x200B;인 경우 프로젝트 시작 열의 배경이 빨간색입니다.
+    * **프로젝트 시작 열의 빨간색 음영**: 프로젝트의 진행 상태가 **지연**&#x200B;인 경우 프로젝트 시작 열의 배경이 빨간색입니다.
 
-      * **프로젝트 시작 열의 녹색 음영**: 프로젝트의 진행 상태가 **설정 시간**&#x200B;일 때 프로젝트 시작 열의 배경이 녹색입니다.
+    * **프로젝트 시작 열의 녹색 음영**: 프로젝트의 진행 상태가 **설정 시간**&#x200B;일 때 프로젝트 시작 열의 배경이 녹색입니다.
 
-     >[!TIP]
-     >
-     >프로젝트의 실제 시작 일자를 보려면 프로젝트 세부 정보 페이지로 이동해야 합니다.
+    >[!TIP]
+    >
+    >프로젝트의 실제 시작 일자를 보려면 프로젝트 세부 정보 페이지로 이동해야 합니다.
 
-   * **프로젝트 완료 열**: 실제 완료 날짜가 채워진 경우에만 프로젝트 완료 열의 배경이 빨간색 또는 녹색으로 표시됩니다.
+  * **프로젝트 완료 열**: 실제 완료 날짜가 채워진 경우에만 프로젝트 완료 열의 배경이 빨간색 또는 녹색으로 표시됩니다.
 
-      * **프로젝트 완료 열의 빨간색 음영**: 프로젝트의 진행 상태가 **지연**&#x200B;인 경우 프로젝트 완료 열의 배경이 빨간색입니다.
+    * **프로젝트 완료 열의 빨간색 음영**: 프로젝트의 진행 상태가 **지연**&#x200B;인 경우 프로젝트 완료 열의 배경이 빨간색입니다.
 
-      * **프로젝트 완료 열의 녹색 음영**: 프로젝트의 진행 상태가 **설정 시간**&#x200B;일 때 프로젝트 완료 열의 배경이 녹색입니다.
+    * **프로젝트 완료 열의 녹색 음영**: 프로젝트의 진행 상태가 **설정 시간**&#x200B;일 때 프로젝트 완료 열의 배경이 녹색입니다.
 
-     >[!TIP]
-     >
-     >프로젝트의 실제 완료 일자를 보려면 프로젝트 세부 정보 페이지로 이동해야 합니다.
+    >[!TIP]
+    >
+    >프로젝트의 실제 완료 일자를 보려면 프로젝트 세부 정보 페이지로 이동해야 합니다.
 
-   * 작업의 진행 상태가 위험 또는 지연이면 시작 및 완료 열에 색상 음영이 할당되지 않습니다.
+  * 작업의 진행 상태가 위험 또는 지연이면 시작 및 완료 열에 색상 음영이 할당되지 않습니다.
 
   <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
 
@@ -212,9 +208,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * **프로젝트 이름**: 프로젝트 이름이 프로젝트에 대한 링크와 함께 표시됩니다.
 * **프로젝트 상태 아이콘**: 다음 지표는 프로젝트 상태를 보여 줍니다.
 
-   * 대상 - 녹색
-   * 위험 상태 - 노란색
-   * 문제 발생 - 빨간색
+  * 대상 - 녹색
+  * 위험 상태 - 노란색
+  * 문제 발생 - 빨간색
 
   <!--
    * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:

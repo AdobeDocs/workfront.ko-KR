@@ -21,7 +21,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
 source-wordcount: 676
 ht-degree: 4%
@@ -82,7 +82,7 @@ Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작
    프로덕션 환경의 샘플 이미지:
    ![사용자 지정 조건 편집](assets/custom-conditions-0825.png)
 
-   미리보기 환경의 샘플 이미지:
+   미리 보기 환경의 <span class="preview">샘플 이미지:</span>
    ![사용자 지정 조건 편집](assets/edit-conditions-082526.png)
 
 1. 다음 옵션을 사용하여 사용자 지정 조건을 구성합니다.

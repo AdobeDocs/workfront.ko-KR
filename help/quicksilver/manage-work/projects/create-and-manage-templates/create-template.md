@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 790
 ht-degree: 6%
@@ -37,13 +37,9 @@ ht-degree: 6%
 <!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 템플릿 영역에서 템플릿을 만들고 삭제할 수 있습니다. 새 템플릿을 작성할 때 모든 작업 및 향후 프로젝트 설정에 대한 정보를 입력할 수 있습니다. 그런 다음 이 정보는 템플릿에서 만드는 모든 프로젝트로 전송됩니다.
@@ -140,15 +136,15 @@ Old:
 
      템플릿은 만들어지며 기본 이름은 Workfront에서 문서에 사용하는 스토리지에 따라 다음과 같은 패턴을 따릅니다.
 
-      * Worfront-storage 템플릿에 대한 **제목 없는 템플릿**.
+     * Worfront-storage 템플릿에 대한 **제목 없는 템플릿**.
 
-        기존 Workfront 저장소 템플릿은 이름 옆에 **기존 Workfront 저장소** 아이콘 ![기존 저장소 프로젝트 아이콘](assets/legacy-storage-project-icon.png)을 표시합니다.
+       기존 Workfront 저장소 템플릿은 이름 옆에 **기존 Workfront 저장소** 아이콘 ![기존 저장소 프로젝트 아이콘](assets/legacy-storage-project-icon.png)을 표시합니다.
 
-      * **제목 없는 템플릿 - Adobe 클라우드 저장소 템플릿의 경우 &lt; Month day, year hour.minute.second >**
+     * **제목 없는 템플릿 - Adobe 클라우드 저장소 템플릿의 경우 &lt; Month day, year hour.minute.second >**
 
-        >[!IMPORTANT]
-        >
-        >Adobe 저장소를 사용하는 템플릿의 이름은 고유해야 합니다.
+       >[!IMPORTANT]
+       >
+       >Adobe 저장소를 사용하는 템플릿의 이름은 고유해야 합니다.
 
    ![새 템플릿](assets/create-template-nwe-2022-350x102.png)
 

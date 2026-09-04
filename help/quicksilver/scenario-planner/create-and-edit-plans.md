@@ -20,16 +20,21 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2407
+source-wordcount: 2467
 ht-degree: 1%
 
 ---
 
 # [!DNL Scenario Planner]에서 계획 만들기 및 편집
 
-회사의 상위 수준 전략에 우선 순위를 지정할 때 [!DNL Workfront Scenario Planner]을(를) 사용하는 과정에서 계획을 만들 수 있습니다. 플랜에 대한 자세한 내용은  [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)에서 플랜 개요를 참조하십시오.
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
+
+회사의 상위 수준 전략에 우선 순위를 지정할 때 [!DNL Workfront Scenario Planner]을(를) 사용하는 과정에서 계획을 만들 수 있습니다. 플랜에 대한 자세한 내용은  [!DNL Scenario Planner]&#x200B;[&#128279;](../scenario-planner/plans-overview.md)에서 플랜 개요를 참조하십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -126,7 +131,7 @@ Old:
 
 이 문서에서는 처음부터 계획을 작성하거나 기존 계획을 편집하는 방법에 대해 설명합니다.
 
-플랜에 사용할 수 있는 정보를 포함하여 플랜에 대한 모든 고려 사항은  [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)에서 플랜 개요를 참조하십시오.
+플랜에 사용할 수 있는 정보를 포함하여 플랜에 대한 모든 고려 사항은  [!DNL Scenario Planner]&#x200B;[&#128279;](../scenario-planner/plans-overview.md)에서 플랜 개요를 참조하십시오.
 
 플랜 삭제에 대한 자세한 내용은 [다음에서 플랜 삭제 [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)를 참조하십시오.
 
@@ -136,7 +141,7 @@ Old:
 
 생성한 기존 계획 목록이 [!DNL Workfront Scenario Planner]에 표시됩니다.
 
-1. (선택 사항) 계획 목록의 오른쪽 상단에 있는 **[!UICONTROL 필터]** 아이콘 ![필터 아이콘](assets/filter-icon-34x37.png)을 클릭하고 다음 중에서 선택합니다.
+1. (선택 사항) 목록 맨 위에 있는 **[!UICONTROL 필터]** 아이콘 ![필터 아이콘](assets/filter-icon-34x37.png), <span class="preview"> 또는 **테이블** 아이콘 ![테이블 아이콘](assets/table-icon.png)</span>을 클릭하고 다음 중에서 선택합니다.
 
    | 필터 | 설명 |
    |---|---|
@@ -148,23 +153,13 @@ Old:
 
 1. (선택 사항) **[!UICONTROL 검색]** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하여 키워드를 입력하고 목록에서 계획을 빠르게 찾습니다.
 
-1. 기존 계획의 이름을 클릭하여 편집하고 7단계로 진행합니다.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate) </p>
-   -->
+1. 기존 플랜의 이름을 클릭하여 편집하고 7단계를 계속합니다.<!--is the step still accurate)-->
 
    또는
 
-   왼쪽 상단의 **[!UICONTROL 새 계획]**&#x200B;을 클릭하여 계획을 만들고 5단계를 계속합니다.
+   왼쪽 상단 모서리에서 **[!UICONTROL 새 계획]**&#x200B;을 클릭하여 계획을 만들고 5단계를 계속합니다. <!--is the step still accurate-->
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
-   -->
-
-   ![새 플랜 단추](assets/new-plan-button.png)
-
-   [!UICONTROL 새 플랜] 상자가 표시됩니다.
+   [!UICONTROL **새 플랜**] 상자가 표시됩니다.
 
    ![새 플랜 상자](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
@@ -209,7 +204,7 @@ Old:
     </tbody> 
    </table>
 
-<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
+   <!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. (조건부) **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 

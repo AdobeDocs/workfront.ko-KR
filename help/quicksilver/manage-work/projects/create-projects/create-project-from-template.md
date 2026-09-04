@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5d51290f1181ea1abfc6ac918721e803da049790
+source-git-commit: bde3551443641024b87397e35064ebf4577179eb
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 1%
@@ -239,6 +239,7 @@ Old:
    프로젝트와 더 잘 일치하도록 미리 채워진 값을 편집합니다.
 
    자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
+
 1. **프로젝트 만들기**&#x200B;를 클릭합니다.
 
    이전 단계에서 변경하지 않은 경우 템플릿에 정의된 모든 세부 정보가 새로 생성된 프로젝트와 자동으로 연결됩니다.
@@ -273,6 +274,7 @@ Old:
    템플릿에 필드가 이미 채워져 있으면 **새 프로젝트** 상자에서 필드가 미리 채워집니다. 프로젝트와 더 잘 일치하도록 미리 채워진 값을 편집할 수 있습니다.
 
    자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
+
 
 1. **프로젝트 만들기**&#x200B;를 클릭합니다.
 
