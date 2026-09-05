@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
 source-wordcount: 3273
 ht-degree: 1%
@@ -281,6 +281,8 @@ Old:
      >자세한 내용은 다음 문서를 참조하십시오.
      >* [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)
      >* [레코드를 만들 수 있도록 Adobe Workfront Planning 요청을 제출](/help/quicksilver/planning/requests/submit-requests.md).
+
+     <!--see if they fixed the UI here and update the screen shot-->
 
      ![원래 요청 연결 선택](assets/original-request-connection-selection.png)
 

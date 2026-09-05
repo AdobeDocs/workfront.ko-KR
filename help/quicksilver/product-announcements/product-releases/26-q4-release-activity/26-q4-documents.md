@@ -4,9 +4,9 @@ description: 2026년 4분기 문서 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
+source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -19,21 +19,34 @@ ht-degree: 0%
 
 <!--
 
-## Frame comment visibility in Workfront
+## System Administrators full access to approval templates
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Preview: September 4, 2026
+>Production fast release: September 4, 2026
+>Production for everyone: September 4, 2026
+>[!BADGE Off schedule]{type=Neutral}
 
-When an approval workflow is created for a document, users can leave comments and make annotations in the Frame.io viewer. These comments are not displayed in the Workfront Comments panel, but you can view them in the Frame.io viewer.
+System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
 
-Now, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.
-
-For more information, see [Add an update to a document](/help/quicksilver/documents/managing-documents/add-update-documents.md).
+For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 -->
+
+## Workfront의 프레임 주석 가시성
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+문서에 대한 승인 워크플로가 만들어지면 사용자는 Frame.io 뷰어에 주석을 달고 댓글을 달 수 있습니다. 이러한 주석은 Workfront 주석 패널에 표시되지 않지만 Frame.io 뷰어에서 볼 수 있습니다.
+
+이제 Workfront의 [주석] 패널에 Frame.io에서 새 주석을 사용할 수 있을 때를 알려주는 메시지가 표시됩니다.
+
+자세한 내용은 [문서에 업데이트 추가](/help/quicksilver/documents/managing-documents/add-update-documents.md)를 참조하십시오.
 
 ## 승인 이메일 링크에서 직접 증명 액세스
 
@@ -184,3 +197,23 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 연결은 콘텐츠 관리자를 통해 제공되므로 콘텐츠를 선택하는 동안 AI 검색, 스마트 제안, 캠페인 개요 분석 등을 받을 수도 있습니다.
 
 자세한 내용은 [Experience Manager Assets의 콘텐츠를 Adobe 클라우드 저장소와 연결](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)을 참조하십시오.
+
+<!--
+
+## Approval workflow templates are private by default
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 15, 2026
+
+Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
+
+For more information, see:
+
+* [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Manage approval templates
+* [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+-->
+

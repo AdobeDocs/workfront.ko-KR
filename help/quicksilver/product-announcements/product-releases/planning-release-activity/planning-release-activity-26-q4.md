@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
+source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
 workflow-type: tm+mt
-source-wordcount: '1770'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
@@ -218,6 +218,7 @@ Workfront Planning에 대한 간결한 모범 사례 지침을 Claude에 직접 
 
 * 레코드 유형을 연결할 때 새 연결 탭에 새 연결 설정 섹션을 추가했습니다
 * 이 연결에 종속되도록 하기 설정을 새 섹션에 추가했습니다
+* 연결에 조회 필드를 추가하는 방법을 변경했습니다.
 
 
 자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.

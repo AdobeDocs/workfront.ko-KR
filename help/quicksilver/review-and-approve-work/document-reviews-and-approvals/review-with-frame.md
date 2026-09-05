@@ -17,14 +17,16 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 626
 ht-degree: 3%
 
 ---
 
 # Frame.io 뷰어로 검토 및 승인
+
+{{highlighted-preview}}
 
 Frame.io 뷰어를 사용하여 Workfront에서 문서를 검토하고 승인할 수 있습니다.
 
@@ -87,7 +89,7 @@ Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검
    >홈 페이지에 내 승인 위젯을 추가해야 할 수 있습니다. 자세한 내용은 [홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)를 참조하세요.
 
 1. Frame.io에서 댓글 달기 도구를 사용하여 피드백을 남기거나 질문합니다.
-주석 및 자산 마크업은 Frame.io 뷰어에서만 볼 수 있습니다. 주석은 Workfront에 표시되지 않습니다. Frame.io 뷰어 사용에 대한 자세한 내용은 [미디어에 주석 달기](https://help.frame.io/en/articles/9105251-commenting-on-your-media)를 참조하십시오.
+주석 및 자산 마크업은 Frame.io 뷰어에서만 볼 수 있습니다. 주석은 Workfront에 표시되지 않습니다. <span class="preview">그러나 Workfront의 문서에 대한 설명 패널에는 이러한 설명 수가 포함된 설명선(개수 사용 가능한 경우)과 Frame.io 뷰어를 열고 읽을 수 있는 링크가 표시됩니다.</span> Frame.io 뷰어 사용에 대한 자세한 내용은 [미디어에 주석 달기](https://help.frame.io/en/articles/9105251-commenting-on-your-media)를 참조하십시오.
 1. 문서가 만족스러우면 Workfront의 문서 세부 정보 페이지로 다시 이동하여 검토를 완료로 표시하십시오.
 
    ![검토 완료 표시](assets/mark-review-complete.png)
@@ -110,6 +112,12 @@ Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검
 
 
 1. Frame.io에서 댓글 달기 도구를 사용하여 피드백을 남기거나 질문합니다. 주석 및 에셋 마크업은 Frame.io 뷰어에서만 볼 수 있습니다. Frame.io 뷰어 사용에 대한 자세한 내용은 [미디어에 주석 달기](https://help.frame.io/en/articles/9105251-commenting-on-your-media)를 참조하십시오.
+
+   >[!NOTE]
+   >
+   > <span class="preview">미리 보기에서 Workfront의 [주석] 패널에 새 주석을 Frame.io에서 사용할 수 있게 되면 사용자에게 알리는 메시지가 표시됩니다.</span>
+
+
 1. 문서에 만족하면 Frame.io 뷰어에서 다음 결정 중 하나를 선택할 수 있습니다.
 
    * **승인**: 자산은 변경할 필요가 없으며 사용할 준비가 되었습니다.

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
+source-git-commit: 29141ebc3913ad66e05ee10e53dcaea646ca2526
 workflow-type: tm+mt
-source-wordcount: '14501'
+source-wordcount: '14505'
 ht-degree: 2%
 
 ---
@@ -1639,6 +1639,7 @@ ht-degree: 2%
       * [캔버스 대시보드의 통화 필드 사용](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
       * [캔버스 대시보드 필터링](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
       * [캔버스 대시보드의 이름 또는 설명 변경](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+      * [캔버스 대시보드 복제](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
       * [캔버스 대시보드 삭제](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
       * [레이아웃 템플릿에 캔버스 대시보드 추가](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
     * 보고서 관리 {#manage-reports}

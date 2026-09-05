@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 2440
+source-wordcount: 2498
 ht-degree: 1%
 
 ---
@@ -191,6 +191,13 @@ ht-degree: 1%
       >예를 들어 프로젝트의 계획된 시작 일자가 Workfront에서 오후 3시로 표시되는 경우 가져온 조회 필드에서는 Workfront Planning에서 15시로 표시됩니다.
 
   * Workfront Planning에서 계층을 생성하려면 레코드 유형을 연결해야 합니다. 레코드 유형 연결이 없으면 계층 구조를 만들 때 자동으로 만들어집니다. 자세한 내용은 [작업 영역 계층 만들기](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)를 참조하십시오.
+
+  * 조직에서 Adobe GenStudio for Performance Marketing 패키지를 구입한 경우 다음 시나리오가 존재합니다.
+
+    * Planning 레코드 유형에서 GenStudio 레코드 유형에 연결할 수 없습니다.
+    * GenStudio 작업 영역에서 GenStudio 레코드 유형을 연결할 수 있습니다.
+    * GenStudio 레코드 유형 및 Planning 레코드 유형에서 GenStudio 브랜드를 연결할 수 있습니다.
+    * 계층에 GenStudio 브랜드를 포함할 수 없습니다.
 
   <div class="preview">
 
