@@ -14,9 +14,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1108
 ht-degree: 0%
 
 ---
@@ -83,6 +83,12 @@ ht-degree: 0%
   * 연결된 레코드 유형이 계층의 일부인 경우 하위 레코드 유형에서 하나의 레코드를 상위 레코드 유형에서 최대 10개의 레코드까지 연결할 수 있습니다.
 
     예를 들어 상위 캠페인과 하위 레코드 담당자간에 계층 구조를 만드는 경우 동일한 담당자를 최대 10개의 캠페인에 연결할 수 있습니다.
+  * 조직에서 Adobe GenStudio for Performance Marketing 패키지를 구입한 경우 다음 시나리오가 존재합니다.
+
+    * Planning 레코드 유형에서 GenStudio 레코드 유형에 연결할 수 없습니다.
+    * GenStudio 작업 영역에서 GenStudio 레코드 유형을 연결할 수 있습니다.
+    * GenStudio 브랜드를 GenStudio 레코드 유형 및 Planning 레코드 유형에 연결할 수 있습니다.
+    * 계층에 GenStudio 브랜드를 포함할 수 없습니다.
 
 ## 이동 경로를 볼 때 고려 사항
 
