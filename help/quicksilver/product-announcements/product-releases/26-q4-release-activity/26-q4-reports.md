@@ -4,10 +4,10 @@ description: 2026년 4분기 보고 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
+source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 3%
+source-wordcount: '783'
+ht-degree: 4%
 
 ---
 
@@ -17,27 +17,21 @@ ht-degree: 3%
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
 
-<!--
-
-## Duplicate dashboards in Canvas Dashboards
+## 캔버스 대시보드의 대시보드 복사
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
-You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+이제 새 **대시보드 복사** 작업을 사용하여 캔버스 대시보드를 복사할 수 있습니다. 이 작업은 복사 중인 특정 대시보드에 대한 보기 액세스만 있는 경우에도 액세스 수준이 대시보드에 대한 편집 또는 만들기 권한을 부여하는 모든 사용자가 사용할 수 있습니다. 대시보드에 대한 편집 또는 만들기 권한이 없는 사용자에게는 이 작업이 표시되지 않습니다.
 
-When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+대시보드를 복사할 때 대시보드 이름을 바꾸고 설명 및 통화를 업데이트하며 복사본으로 전달할 위젯, 대시보드 필터 및 대시보드 프롬프트를 선택할 수 있습니다.
 
-Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+위젯의 사용자 구성으로 실행은 지정된 사용자 또는 시스템 관리자인 경우에만 유지됩니다. 공유 환경 설정은 새 대시보드에 복사되지 않으며, 복사가 완료되면 새 대시보드에 대한 링크가 있는 확인 메시지가 표시됩니다.
 
-Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
-
-For more information, see 
-
--->
+이전에는 대시보드를 복사할 방법이 없었습니다. 사용자는 대상별 변형을 작성하기 위해 대시보드를 처음부터 다시 빌드해야 했습니다.
 
 ## 캔버스 대시보드의 승인 유형 필드
 
@@ -62,7 +56,7 @@ For more information, see
 | 문서 승인 | 승인 |
 | 문서 승인 단계 | 승인 단계 |
 | 문서 승인 단계 참가자 | 승인 단계 참가자 |
-| 승인 진행 | 작업 승인 프로세스 |
+| 승인 진행 | 작업 승인 진행 |
 | 승인 단계 | 작업 승인 단계 |
 | 승인자 상태 | 작업 승인자 상태 |
 | 승인 대기 중 | 작업 승인 대기 중 |

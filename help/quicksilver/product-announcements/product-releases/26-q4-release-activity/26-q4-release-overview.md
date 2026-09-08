@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2709'
 ht-degree: 1%
 
 ---
@@ -244,6 +244,15 @@ ht-degree: 1%
     &lt;td>&lt;p>2026년 8월 13일&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
     &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXxref&quot; xrefformat=&quot;{para}>새로운 공유 피드백 도구&lt;/a>
+    &lt;p 도구를 통해 Workfront 및 대화 중 발생한 사항을 보고할 수 있으므로 감정 MCP 도구를 개선할 수 있습니다.&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>2026년 9월 3일&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026년 9월 17일&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
+    &lt;/tr>
     &lt;/tbody>
 
     </table>
@@ -443,17 +452,15 @@ ht-degree: 1%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Duplicate dashboards in Canvas Dashboards</a>
-                <p>You can now duplicate a Canvas Dashboard using the new Duplicate dashboard action, and choose what to carry over to the copy.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 대시보드 복사</a>
+                <p>이제 새로운 대시보드 복사 작업을 사용하여 캔버스 대시보드를 복사하고 복사본으로 전달할 항목을 선택할 수 있습니다.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>2026년 9월 3일</p></td>
+            <td><p>2026년 9월 17일</p></td>
+            <td><p>2026년 10월 15일</p></td>
         </tr>
--->
 
     &lt;tr>
     &lt;td>
