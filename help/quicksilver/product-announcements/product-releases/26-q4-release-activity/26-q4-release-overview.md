@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2709'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 이 페이지는 2026년 4분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 추가 개선 사항으로 업데이트됩니다.
 
-라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/ko/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
+라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/en/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
 
 >[!IMPORTANT]
 >
@@ -244,6 +244,15 @@ ht-degree: 1%
     &lt;td>&lt;p>2026년 8월 13일&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
     &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXxref&quot; xrefformat=&quot;{para}>새로운 공유 피드백 도구&lt;/a>
+    &lt;p 도구를 통해 Workfront 및 대화 중 발생한 사항을 보고할 수 있으므로 감정 MCP 도구를 개선할 수 있습니다.&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>2026년 9월 3일&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026년 9월 17일&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
+    &lt;/tr>
     &lt;/tbody>
 
     </table>
@@ -443,17 +452,15 @@ ht-degree: 1%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Duplicate dashboards in Canvas Dashboards</a>
-                <p>You can now duplicate a Canvas Dashboard using the new Duplicate dashboard action, and choose what to carry over to the copy.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 대시보드 복사</a>
+                <p>이제 새로운 대시보드 복사 작업을 사용하여 캔버스 대시보드를 복사하고 복사본으로 전달할 항목을 선택할 수 있습니다.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>2026년 9월 3일</p></td>
+            <td><p>2026년 9월 17일</p></td>
+            <td><p>2026년 10월 15일</p></td>
         </tr>
--->
 
     &lt;tr>
     &lt;td>
@@ -470,7 +477,7 @@ ht-degree: 1%
     &lt;p>문서 및 작업 승인을 위해 캔버스 대시보드에 사용되는 여러 필드 이름이 명확성을 위해 변경되었습니다.&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
-    &lt;p>N/A&lt;/p>&lbrace;1> 28, 2026&lt;/p>&lt;/td>
+    &lt;p>N/A&lt;/p>{1> 28, 2026&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;tr>
     &lt;td>
@@ -486,7 +493,7 @@ ht-degree: 1%
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>예약된 보고서에 대한 종료 날짜 적용&lt;/a>
     &lt;p>예약된 보고서에 대해서는 이제 종료 날짜가 필요합니다. 자동 비활성화로 일정에 대한 종료 날짜가 지나간 후에 무기한 전달을 방지할 수 있습니다.&lt;/p>
     &lt;/td>
-    &lt;td>&lt;p>2026&lt;/p>&lt;/td>&lbrace;3> 2026년 9월 17일&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026&lt;/p>&lt;/td>{3> 2026년 9월 17일&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;tr>
@@ -501,7 +508,7 @@ ht-degree: 1%
     &lt;tr>
     &lt;td>
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>이전 목록 및 보고서의 다중 선택 필드 값에 대한 일관성 있는 순서&lt;/a>
-    &lt;p>다중 선택 사용자 지정 필드에 대해 선택한 옵션&lt;/td50&rbrace;&lt;3/p>
+    &lt;p>다중 선택 사용자 지정 필드에 대해 선택한 옵션&lt;/td50}&lt;3/p>
      2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026년 8월 13일&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
@@ -617,8 +624,8 @@ ht-degree: 1%
 
 이 변경 사항은 2026년 4월 Workfront 릴리스 정보에서 처음 발표되었으며, 기한 전에 알려 주는 최종 알림입니다. 영향을 받는 모든 리더 사용자가 2026년 8월 8일 이전에 MFA를 활성화하여 액세스 중단을 방지해야 합니다.
 
-자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/ko/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
+자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
