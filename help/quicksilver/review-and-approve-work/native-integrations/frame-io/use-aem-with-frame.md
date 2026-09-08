@@ -138,7 +138,7 @@ ht-degree: 1%
 
 메타데이터 필드를 구성하려면:
 
-1. [Adobe과(와)  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) 간의 에셋 메타데이터 매핑 구성 [!DNL Workfront] 에 설명된 대로 [!DNL Experience Manager Assets]에서 메타데이터 스키마를 구성합니다.
+1. [Adobe과(와)  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) 간의 에셋 메타데이터 매핑 구성 [!DNL Workfront] 에 설명된 대로 [!DNL Experience Manager Assets]에서 메타데이터 스키마를 구성합니다.
 
 
 1. Workfront에서 사용자 정의 양식 필드를 구성합니다. [!DNL Workfront]에 사용할 수 있는 기본 제공 사용자 지정 필드가 많습니다. 그러나 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 필드를 만들 수도 있습니다.
@@ -168,7 +168,7 @@ Workfront 지원 필드를 Experience Manager Assets의 태그에 매핑할 수 
 
 Experience Manager Assets에서 태그를 만들면 메타데이터 섹션의 태그 드롭다운 아래에 태그가 표시됩니다. 필드를 태그에 연결하려면 메타데이터 매핑 영역의 Experience Manager Assets 필드 드롭다운에서 `xcm:keywords`을(를) 선택합니다.
 
-태그를 만들고 관리하는 방법을 포함하여 Experience Manager Assets의 태그에 대한 자세한 내용은 [태그 관리](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)를 참조하십시오.
+태그를 만들고 관리하는 방법을 포함하여 Experience Manager Assets의 태그에 대한 자세한 내용은 [태그 관리](https://experienceleague.adobe.com/ko/docs/experience-manager-64/administering/contentmanagement/tags)를 참조하십시오.
 
 **Experience Manager Assets 사용자 지정 메타데이터 스키마 필드**
 
@@ -283,45 +283,45 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials로 문서를 
    <tbody>
       <tr>
          <td><strong>AI 검색을 사용하여 자산을 검색합니다.</strong> 쿼리의 의미와 의도를 이해하고 여러 언어, 오타 및 동의어를 지원하는 AI 기반 검색을 사용합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">스마트 자산 검색용 AI 검색</a>를 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">스마트 자산 검색용 AI 검색</a>를 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>컨텍스트 및 의도를 기반으로 스마트 제안을 봅니다.</strong> 호스트 Adobe 애플리케이션의 컨텍스트 인식 권장 사항을 사용하여 콘텐츠 요구 사항에 맞는 에셋을 검색합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">컨텍스트 및 의도에 따른 스마트 제안</a>을 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">컨텍스트 및 의도에 따른 스마트 제안</a>을 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>관련 에셋을 검색하려면 캠페인 개요를 업로드하십시오.</strong> PDF, DOCX 또는 TXT 캠페인 개요 문서를 업로드하여 Content Advisor가 이를 분석하고 관련 에셋을 추천할 수 있도록 합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">관련 자산을 검색하는 캠페인 개요</a>를 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">관련 자산을 검색하는 캠페인 개요</a>를 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>Dynamic Media 에셋 렌디션을 보고 선택합니다.</strong> 이미지 사전 설정, 스마트 자르기 및 형식 유형을 포함하여 채널에 최적화된 렌디션을 찾아보고 Dynamic Media 수정자를 적용하여 조정을 실시간으로 미리 볼 수 있습니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">사용할 수 있는 Dynamic Media 에셋 렌디션</a>을 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">사용할 수 있는 Dynamic Media 에셋 렌디션</a>을 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>변환에 Dynamic Media 수정자를 적용합니다.</strong> 수정자를 추가하여 자산 렌디션을 실시간으로 변형하고 호스트 애플리케이션의 렌디션을 선택하기 전에 결과를 미리 봅니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">사용할 수 있는 Dynamic Media 에셋 렌디션</a>을 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">사용할 수 있는 Dynamic Media 에셋 렌디션</a>을 참조하십시오.</td>
       </tr>
       <!--
       <tr>
          <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
-         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
       </tr>
       -->
       <tr>
          <td><strong>자산 메타데이터에 액세스합니다.</strong> Assets 보기와 일치하는 제목, 설명, 형식, 크기 및 기타 메타데이터 탭(제품, 캠페인, 태그)과 같은 자산 속성을 검토합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Assets 보기와 일치하는 자산 메타데이터에 액세스</a>를 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Assets 보기와 일치하는 자산 메타데이터에 액세스</a>를 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>미리 정의된 필터를 사용하여 자산을 필터링합니다.</strong> 파일 유형, 파일 형식, 에셋 상태, 파일 크기, 이미지 너비, 이미지 높이, 수정한 날짜 및 만든 날짜와 같은 필터를 사용하여 에셋 결과를 구체화합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Assets 보기와 일치하는 필터에 액세스</a>를 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Assets 보기와 일치하는 필터에 액세스</a>를 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>검색을 저장하고 다시 사용합니다.</strong> 검색어와 필터 옵션을 지정하여 저장된 검색을 작성한 다음 Experience Manager Assets 및 기타 Adobe 애플리케이션에서 재사용합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">최근 검색 및 저장된 검색 다시 사용</a>을 참조하세요.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">최근 검색 및 저장된 검색 다시 사용</a>을 참조하세요.</td>
       </tr>
       <tr>
          <td><strong>컬렉션 간 및 컬렉션 내 자산을 검색합니다.</strong> 모든 컬렉션에서 에셋 또는 컬렉션을 검색하거나 특정 컬렉션으로 검색을 제한합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">컬렉션 간 및 컬렉션 내 자산 검색</a>을 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">컬렉션 간 및 컬렉션 내 자산 검색</a>을 참조하십시오.</td>
       </tr>
    </tbody>
    </table>
