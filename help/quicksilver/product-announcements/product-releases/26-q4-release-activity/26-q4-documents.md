@@ -4,9 +4,9 @@ description: 2026년 4분기 문서 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,25 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 4분기 릴리스의 문서 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
+
+## 승인 템플릿을 보고 사용할 수 있는 사용자 제어
+
+>[!NOTE]
+>
+>미리 보기: 2026년 7월 30일
+>프로덕션 빠른 릴리스: 2026년 8월 13일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 승인 템플릿이 기본적으로 비공개입니다. 이전에는 모든 승인 요청자가 시스템의 모든 템플릿을 볼 수 있었으며, 이 경우 템플릿 목록이 길어서 탐색하기 어려웠습니다. 이제 작성자가 공유하지 않는 한 템플릿을 만든 사용자만 템플릿을 볼 수 있습니다.
+
+템플릿 작성자는 Workfront 설정의 승인 템플릿 목록에서 특정 사용자 또는 조직의 모든 사람과 템플릿을 공유할 수 있습니다. 승인을 요청할 때 사용자는 자신이 만들었거나 자신과 공유된 템플릿만 볼 수 있습니다.
+
+이 변경 사항은 새 템플릿과 기존 템플릿 모두에 적용되며, 액세스는 템플릿을 요청하는 방법에 관계없이 일관되게 적용됩니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* 문서에 대한 승인 워크플로 템플릿을 만들 때 [템플릿 공유](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template)
+* [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 
 <!--
 
