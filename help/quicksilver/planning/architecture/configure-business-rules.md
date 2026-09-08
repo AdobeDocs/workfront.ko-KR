@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cafe52c228520becb66e2fa9d8121127223a8f71
+source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1164'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Adobe Workfront Planning 레코드 유형에 대한 비즈니스 규칙을 구�
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>워크플로우 표준</p>
+   <td><p>워크플로우 기여자 이상</p>
    </td> 
   </tr> 
 <tr> 
@@ -144,6 +144,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. 이 레코드 종류에 대해 규칙을 활성화하려면 **활성화**&#x200B;를 클릭한 다음 **저장**&#x200B;을 클릭합니다.
 
    규칙은 활성화 즉시 적용되며 선택한 레코드 유형의 레코드를 편집하거나 삭제할 권한이 있는 모든 사용자가 따라야 합니다.
+1. (선택 사항) 페이지 헤더의 비즈니스 규칙 이름에 대한 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭하여 **규칙 세부 정보** 상자를 열고 비즈니스 규칙에 대한 정보를 업데이트합니다.
 1. (선택 사항 및 권장) 페이지 헤더의 **비즈니스 규칙** 왼쪽에 있는 뒤로 화살표를 클릭하여 레코드 유형 페이지를 표시하고 테이블 보기로 이동하거나 레코드의 페이지를 연 다음 레코드를 편집하거나 삭제하여 방금 만든 규칙을 테스트합니다.
 
 ## 비즈니스 규칙 관리
@@ -153,18 +154,22 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 기존 규칙을 편집해도 기존 레코드는 변경되지 않습니다. 편집된 규칙은 누군가 기존 레코드를 편집하거나 삭제하려고 할 때만 적용됩니다.
 
 1. 레코드 종류의 **비즈니스 규칙** 테이블 페이지로 돌아갑니다.
-1. 변경할 규칙을 찾습니다.
-1. 규칙 이름 위로 마우스를 가져간 후 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 옵션 중 하나를 클릭하십시오.
+1. 테이블 보기에서 변경할 규칙을 찾습니다.
+1. 활성 규칙의 이름 위로 마우스를 가져간 후 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 옵션 중 하나를 클릭하십시오.
 
    * **편집**: 비즈니스 규칙 설정 페이지가 열리고 비즈니스 규칙에 대한 정보를 편집할 수 있습니다.
-   * **Deactivate**: <!--check this in the UI: right now, it says Disable--> 이렇게 하면 규칙이 트리거되는 것을 중지하지만 필요한 경우 나중에 계속 유지됩니다.
+   * **비활성화**: 이렇게 하면 규칙이 트리거되는 것을 중지하지만 필요한 경우 나중에 계속 유지됩니다.
    * **삭제**: 규칙에 대한 모든 정보가 삭제됩니다. 삭제된 규칙은 복구할 수 없습니다.
 
+   ![비즈니스 규칙 추가 메뉴 확장](assets/business-rule-more-menu-in-table-expanded.png)
+
    편집된 규칙 또는 규칙의 비활성화는 미래 기록에 대해서만 적용되며 소급 적용되지 않습니다.
+1. (선택 사항 및 조건부) 테이블에서 비활성화된 비즈니스 규칙의 이름을 마우스로 가리킨 다음 **자세히** > **활성화**&#x200B;를 클릭하여 규칙을 활성화합니다.
 
-   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
+   규칙이 활성화됩니다.
 
-   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
+
+
 
 <!--
 
