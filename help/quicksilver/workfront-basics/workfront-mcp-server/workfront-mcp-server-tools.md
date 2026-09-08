@@ -5,9 +5,9 @@ title: Adobe Workfront MCP 서버 도구
 description: Workfront 영역별로 그룹화된 Adobe Workfront MCP 서버를 통해 사용할 수 있는 도구의 참조 목록입니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
+source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2785'
 ht-degree: 4%
 
 ---
@@ -300,6 +300,13 @@ Insights 도구는 Workfront 개체에 대한 정보를 검색합니다.
 | 엔티티 나열 | `insights_list_entities` | 쿼리에 사용할 수 있는 모든 Workfront 오브젝트 유형을 나열합니다. | 읽기 |
 | 사용자 검색 | `insights_search_users` | Workfront 인스턴스에서 이름별로 사람을 찾습니다. 전체 또는 일부 이름을 입력하고 일치하는 상위 사용자를 다시 가져옵니다. 여기에는 일반 사용자와 함께 AI 공동 작업자 &quot;보트&quot;를 선택적으로 포함할 수도 있습니다. | 읽기 |
 
+## 피드백 도구
+
+<span class="preview">피드백 도구를 사용하면 AI 에이전트 플랫폼에서 직접 Workfront MCP 서버에 대한 사용 경험을 보고할 수 있습니다.</span>
+
+| 제목 | 도구 이름 | 기능 | 액션 |
+| --- | --- | --- | --- |
+| <span class="preview">피드백 공유</span> | <span class="preview">`share_feedback`</span> | <span class="preview">보고된 감정 및 대화 중에 발생한 내용을 기록하여 Workfront의 MCP 도구를 개선할 수 있습니다. 명시적으로 피드백 공유를 요청할 때만 사용됩니다(예: &quot;피드백 공유&quot; 또는 &quot;버그 보고&quot;).</span> | <span class="preview">쓰기</span> |
 
 
 
