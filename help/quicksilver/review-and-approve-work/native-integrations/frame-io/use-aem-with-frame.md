@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Frame.io 통합과 함께 Adobe Experience Manager 사용
-description: Frame.io 통합과 함께 Adobe Experience Manager 사용
+title: Workfront 및 Adobe 클라우드 스토리지와 함께 Adobe Experience Manager 사용
+description: Workfront 및 Adobe 클라우드 스토리지와 함께 Adobe Experience Manager 사용
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -10,28 +10,19 @@ exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Riv4jrZbD1vLx6eLq9utk2TIMRJh6ekBxE5ZBVc7D9c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 1450
+source-wordcount: 2112
 ht-degree: 1%
 
 ---
 
-# Frame.io 통합과 함께 Adobe Experience Manager 사용
+# Workfront 및 Adobe 클라우드 스토리지와 함께 Adobe Experience Manager 사용
 
 [!DNL Experience Manager Assets]을(를) &#x200B; 사용하여 검토 및 승인 주기를 거친 디지털 에셋을 관리하고 저장할 수 있습니다&#x200B;. 이 통합을 통해 Adobe Experience Manager, Frame.io 및 Workfront의 기능을 활용하여 컨텐츠 관리 및 공동 작업 프로세스를 간소화할 수 있습니다.
 
@@ -138,7 +129,7 @@ ht-degree: 1%
 
 메타데이터 필드를 구성하려면:
 
-1. [Adobe과(와)  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) 간의 에셋 메타데이터 매핑 구성 [!DNL Workfront] 에 설명된 대로 [!DNL Experience Manager Assets]에서 메타데이터 스키마를 구성합니다.
+1. [Adobe과(와)  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) 간의 에셋 메타데이터 매핑 구성 [!DNL Workfront] 에 설명된 대로 [!DNL Experience Manager Assets]에서 메타데이터 스키마를 구성합니다.
 
 
 1. Workfront에서 사용자 정의 양식 필드를 구성합니다. [!DNL Workfront]에 사용할 수 있는 기본 제공 사용자 지정 필드가 많습니다. 그러나 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 필드를 만들 수도 있습니다.
@@ -168,7 +159,7 @@ Workfront 지원 필드를 Experience Manager Assets의 태그에 매핑할 수 
 
 Experience Manager Assets에서 태그를 만들면 메타데이터 섹션의 태그 드롭다운 아래에 태그가 표시됩니다. 필드를 태그에 연결하려면 메타데이터 매핑 영역의 Experience Manager Assets 필드 드롭다운에서 `xcm:keywords`을(를) 선택합니다.
 
-태그를 만들고 관리하는 방법을 포함하여 Experience Manager Assets의 태그에 대한 자세한 내용은 [태그 관리](https://experienceleague.adobe.com/ko/docs/experience-manager-64/administering/contentmanagement/tags)를 참조하십시오.
+태그를 만들고 관리하는 방법을 포함하여 Experience Manager Assets의 태그에 대한 자세한 내용은 [태그 관리](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)를 참조하십시오.
 
 **Experience Manager Assets 사용자 지정 메타데이터 스키마 필드**
 
@@ -268,6 +259,111 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials로 문서를 
 
 1. 에셋을 이동할 위치를 선택한 다음 **폴더 선택**&#x200B;을 클릭합니다.
 
+## Experience Manager Assets에서 컨텐츠 연결
+
+컨텐츠를 연결하려면 다음 작업을 수행하십시오.
+
+1. 콘텐츠를 연결하려는 Workfront 개체로 이동합니다.
+1. 왼쪽 패널에서 **문서** 섹션을 클릭합니다.
+1. 페이지 오른쪽에서 **새로 만들기**&#x200B;를 클릭한 다음 **AEM 파일**을 클릭하여 개별 자산을 연결합니다.
+   ![문서 영역에 AEM 파일 추가](assets/aem-files.png)
+
+1. Content Advisor를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
+
+   <table style="table-layout:auto">
+   <tbody>
+      <tr>
+         <td><strong>AI 검색을 사용하여 자산을 검색합니다.</strong> 쿼리의 의미와 의도를 이해하고 여러 언어, 오타 및 동의어를 지원하는 AI 기반 검색을 사용합니다.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">스마트 자산 검색용 AI 검색</a>를 참조하십시오.</td>
+      </tr>
+      <tr>
+         <td><strong>컨텍스트 및 의도를 기반으로 스마트 제안을 봅니다.</strong> 호스트 Adobe 애플리케이션의 컨텍스트 인식 권장 사항을 사용하여 콘텐츠 요구 사항에 맞는 에셋을 검색합니다.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">컨텍스트 및 의도에 따른 스마트 제안</a>을 참조하십시오.</td>
+      </tr>
+      <tr>
+         <td><strong>관련 에셋을 검색하려면 캠페인 개요를 업로드하십시오.</strong> PDF, DOCX 또는 TXT 캠페인 개요 문서를 업로드하여 Content Advisor가 이를 분석하고 관련 에셋을 추천할 수 있도록 합니다.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">관련 자산을 검색하는 캠페인 개요</a>를 참조하십시오.</td>
+      </tr>
+      <tr>
+         <td><strong>Dynamic Media 에셋 렌디션을 보고 선택합니다.</strong> 이미지 사전 설정, 스마트 자르기 및 형식 유형을 포함하여 채널에 최적화된 렌디션을 찾아보고 Dynamic Media 수정자를 적용하여 조정을 실시간으로 미리 볼 수 있습니다.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">사용할 수 있는 Dynamic Media 에셋 렌디션</a>을 참조하십시오.</td>
+      </tr>
+      <tr>
+         <td><strong>변환에 Dynamic Media 수정자를 적용합니다.</strong> 수정자를 추가하여 자산 렌디션을 실시간으로 변형하고 호스트 애플리케이션의 렌디션을 선택하기 전에 결과를 미리 봅니다.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">사용할 수 있는 Dynamic Media 에셋 렌디션</a>을 참조하십시오.</td>
+      </tr>
+      <!--
+      <tr>
+         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
+      </tr>
+      -->
+      <tr>
+         <td><strong>자산 메타데이터에 액세스합니다.</strong> Assets 보기와 일치하는 제목, 설명, 형식, 크기 및 기타 메타데이터 탭(제품, 캠페인, 태그)과 같은 자산 속성을 검토합니다.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Assets 보기와 일치하는 자산 메타데이터에 액세스</a>를 참조하십시오.</td>
+      </tr>
+      <tr>
+         <td><strong>미리 정의된 필터를 사용하여 자산을 필터링합니다.</strong> 파일 유형, 파일 형식, 에셋 상태, 파일 크기, 이미지 너비, 이미지 높이, 수정한 날짜 및 만든 날짜와 같은 필터를 사용하여 에셋 결과를 구체화합니다.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Assets 보기와 일치하는 필터에 액세스</a>를 참조하십시오.</td>
+      </tr>
+      <tr>
+         <td><strong>검색을 저장하고 다시 사용합니다.</strong> 검색어와 필터 옵션을 지정하여 저장된 검색을 작성한 다음 Experience Manager Assets 및 기타 Adobe 애플리케이션에서 재사용합니다.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">최근 검색 및 저장된 검색 다시 사용</a>을 참조하세요.</td>
+      </tr>
+      <tr>
+         <td><strong>컬렉션 간 및 컬렉션 내 자산을 검색합니다.</strong> 모든 컬렉션에서 에셋 또는 컬렉션을 검색하거나 특정 컬렉션으로 검색을 제한합니다.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">컬렉션 간 및 컬렉션 내 자산 검색</a>을 참조하십시오.</td>
+      </tr>
+   </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >콘텐츠 권고자의 권장 콘텐츠는 다음 데이터를 사용하여 Workfront에서 권장되는 콘텐츠를 결정합니다.
+   >
+   >* Workfront 개체 이름 및 설명 필드
+   >* 필수 항목으로 표시된 사용자 정의 양식 필드
+   >* 첨부된 문서의 데이터
+
+<!--
+### Link a new version from Experience Manager Assets
+
+You can pull new content over from Experience Manager Assets and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets, the new version appears automatically in Workfront.
+
+To link a new version:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder.
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
+
+   >[!NOTE]
+   >
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets.
+
+1. Select the content you want to link.
+1. Click **Select**.
+-->
+
+<!--
+## Link a folder from Experience Manager Assets
+
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets permissions.
+
+To link a folder:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Click **Assets** > **Files & Folders**.
+1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
+1. Select the folder you want to link.
+1. Click **Select**.
+-->
+
+## 고려 사항
+
+* 연결된 AEM 자산에 대해서는 검토 및 승인 워크플로가 지원되지 않습니다.
+* 메타데이터 필드는 자산을 Workfront에서 Experience Manager Assets으로 보낼 때 먼저 매핑됩니다. Workfront 관리자가 오브젝트 메타데이터 동기화를 활성화한 경우 두 애플리케이션에서 변경된 필드가 최신 상태로 유지됩니다.
 
 <!--
  not sure if this is in yet
