@@ -4,9 +4,9 @@ description: 2026년 4분기 문서 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
+source-git-commit: 0e7a5b94d189cdebb7ded6c0fab1a98eb8029cf7
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
@@ -36,22 +36,18 @@ ht-degree: 0%
 * 문서에 대한 승인 워크플로 템플릿을 만들 때 [템플릿 공유](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template)
 * [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 
-<!--
-
-## System Administrators full access to approval templates
+## 승인 템플릿에 대한 시스템 관리자 전체 액세스 권한
 
 >[!NOTE]
 >
->Preview: September 4, 2026
->Production fast release: September 4, 2026
->Production for everyone: September 4, 2026
->[!BADGE Off schedule]{type=Neutral}
+>미리 보기: 2026년 9월 8일
+>프로덕션 빠른 릴리스: 2026년 9월 8일
+>모두를 위한 프로덕션: 2026년 9월 8일
+>[!BADGE 일정 해제]{type=Neutral}
 
-System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+이제 시스템 관리자는 생성 또는 공유 대상에 상관없이 계정의 모든 승인 템플릿을 보고, 편집하고, 삭제하고, 대량 삭제할 수 있습니다. 이전에는 시스템 관리자가 다른 사용자와 동일한 공유 규칙을 적용받았으며, 자신이 만들었거나 사용자와 공유된 템플릿만 보거나 관리할 수 있었습니다.
 
-For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
-
--->
+자세한 내용은 [승인 템플릿 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)를 참조하십시오.
 
 ## Workfront의 프레임 주석 가시성
 
