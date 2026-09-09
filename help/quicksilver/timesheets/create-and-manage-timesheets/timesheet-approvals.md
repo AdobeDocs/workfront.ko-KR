@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: 728
 ht-degree: 3%
 
 ---
@@ -80,6 +80,7 @@ Adobe Workfront은 이 영역에서 지원할 타임시트 승인을 구성하�
 
 * Workfront 관리자가 사용자에 대한 타임시트 승인 및 사용자 이벤트 핸들러에 대한 타임시트 거부를 활성화했습니다. 이벤트 알림 활성화에 대한 자세한 내용은 [이벤트 알림 유형](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)을 참조하세요.
 * 내 타임시트 승인됨 개인 알림은 사용자의 프로필 페이지에서 활성화됩니다. 자세한 내용은 [전자 메일 알림 수정](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
+* 타임시트를 제출한 사용자는 Standard 라이선스를 보유하고 있습니다. 내 타임시트 승인 개인 알림이 프로필에서 활성화된 경우에도 라이트 라이선스 이하가 있는 사용자는 타임시트 승인 이메일 알림을 받지 않습니다.
 
 ### 타임시트 영역에서 타임시트 승인
 

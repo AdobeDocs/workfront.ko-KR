@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 3578c9c87c93aedd46f50fa660a54a73f5c574dc
 workflow-type: tm+mt
-source-wordcount: 620
-ht-degree: 4%
+source-wordcount: 683
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ Experience Manager Assets Essentials의 콘텐츠와 작업 연결&#x200B;:
 
 >[!NOTE]
 >
->여러 Experience Manager Assets 저장소를 조직 ID를 통해 하나의 Workfront 환경에 연결하거나 여러 Workfront 환경을 하나의 Experience Manager Assets 저장소에 연결할 수도 있습니다. 설정할 각 통합에 대해 이 문서의 구성 지침을 따르십시오.<br>
+>여러 Experience Manager Assets 저장소를 조직 ID를 통해 하나의 Workfront 환경에 연결하거나 여러 Workfront 환경을 하나의 Experience Manager Assets 저장소에 연결할 수도 있습니다. 설정하려는 각 통합에 대해 이 문서의 구성 지침을 따르십시오.<br>
 >이 기능은 새 문서 영역에서 사용할 수 없습니다.
 
 ## 액세스 요구 사항
@@ -86,7 +86,7 @@ Experience Manager Assets Essentials의 콘텐츠와 작업 연결&#x200B;:
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **문서** ![문서 아이콘](assets/document-icon.png)을 선택한 다음 **Experience Manager 통합**&#x200B;을 선택합니다.
+1. 왼쪽 패널에서 **문서** ![문서 아이콘](assets/document-icon.png)을 선택한 다음 **Experience Manager Assets**&#x200B;을 선택합니다.
 1. **Experience Manager 통합 추가**&#x200B;를 선택합니다.
 1. 다음을 지정합니다.
 

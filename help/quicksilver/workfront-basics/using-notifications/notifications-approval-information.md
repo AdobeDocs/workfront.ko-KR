@@ -13,9 +13,9 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 706
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 0%
    <td><strong>즉시</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>내 타임시트가 승인되었습니다</strong> </p> <p>타임시트가 승인되면 이메일 알림을 받게 됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 <em>[!UICONTROL 타임시트 승인됨]: &lt;타임시트 시작 날짜&gt; - &lt;타임시트 종료 날짜&gt;</em>입니다.</p> <p> <p>참고: 일별 요약 이메일에 대해 이 알림을 구성할 수 없습니다.</p> </p> </td> 
+   <td> <p><strong>내 타임시트가 승인되었습니다</strong> </p> <p>타임시트가 승인되면 이메일 알림을 받게 됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 <em>[!UICONTROL 타임시트 승인됨]: &lt;타임시트 시작 날짜&gt; - &lt;타임시트 종료 날짜&gt;</em>입니다.</p> <p> <p>참고: 일별 요약 이메일에 대해 이 알림을 구성할 수 없습니다.</p> </p> <p> <p>참고: 이 알림을 받으려면 표준 라이선스가 있어야 합니다. 라이트 라이선스 이하가 있는 사용자는 타임시트 승인 이메일 알림이 활성화된 경우에도 이를 수신하지 않습니다.</p> </p> </td> 
    <td> 타임시트를 승인한 사용자의 이름<br>타임시트가 승인된 날짜와 시간<br>타임시트의 상태([!UICONTROL 승인됨])<br>타임시트의 시작 날짜와 종료 날짜<br>타임시트에 기록된 총 시간<br>타임시트에 기록된 초과 작업 시간 </td> 
    <td><strong>즉시</strong> </td> 
   </tr> 
