@@ -7,20 +7,14 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
 TQID: https://experienceleague.adobe.com/4ZNz4MKc5hvipk8bFpnPZIuWMrDLHjH-UdNiaJuY5WA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3578c9c87c93aedd46f50fa660a54a73f5c574dc
 workflow-type: tm+mt
-source-wordcount: 620
-ht-degree: 4%
+source-wordcount: 683
+ht-degree: 3%
 
 ---
 
@@ -34,7 +28,7 @@ Experience Manager Assets Essentials의 콘텐츠와 작업 연결&#x200B;:
 
 >[!NOTE]
 >
->여러 Experience Manager Assets 저장소를 조직 ID를 통해 하나의 Workfront 환경에 연결하거나 여러 Workfront 환경을 하나의 Experience Manager Assets 저장소에 연결할 수도 있습니다. 설정할 각 통합에 대해 이 문서의 구성 지침을 따르십시오.<br>
+>여러 Experience Manager Assets 저장소를 조직 ID를 통해 하나의 Workfront 환경에 연결하거나 여러 Workfront 환경을 하나의 Experience Manager Assets 저장소에 연결할 수도 있습니다. 설정하려는 각 통합에 대해 이 문서의 구성 지침을 따르십시오.<br>
 >이 기능은 새 문서 영역에서 사용할 수 없습니다.
 
 ## 액세스 요구 사항
@@ -86,7 +80,7 @@ Experience Manager Assets Essentials의 콘텐츠와 작업 연결&#x200B;:
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **문서** ![문서 아이콘](assets/document-icon.png)을 선택한 다음 **Experience Manager 통합**&#x200B;을 선택합니다.
+1. 왼쪽 패널에서 **문서** ![문서 아이콘](assets/document-icon.png)을 선택한 다음 **Experience Manager Assets**&#x200B;을 선택합니다.
 1. **Experience Manager 통합 추가**&#x200B;를 선택합니다.
 1. 다음을 지정합니다.
 
@@ -125,7 +119,7 @@ Workfront 개체 데이터를 Experience Manager Assets의 에셋 미디어 필�
 
 시작하기 전에 다음을 수행해야 합니다
 
-* [Experience Manager Assets과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)에 설명된 대로 Adobe Workfront Essentials에서 메타데이터 스키마를 구성합니다.
+* [Experience Manager Assets과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)에 설명된 대로 Adobe Workfront Essentials에서 메타데이터 스키마를 구성합니다.
 * (선택 사항) Workfront에서 사용자 정의 양식 필드를 구성합니다. Workfront에는 사용할 수 있는 많은 내장 사용자 정의 필드가 있습니다. 하지만 자신만의 사용자 지정 필드를 만들 수도 있습니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## 지원되는 Workfront 및 Experience Manager Assets 필드
@@ -140,7 +134,7 @@ Workfront 지원 필드를 Experience Manager Assets Essentials의 키워드에 
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=ko).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 
