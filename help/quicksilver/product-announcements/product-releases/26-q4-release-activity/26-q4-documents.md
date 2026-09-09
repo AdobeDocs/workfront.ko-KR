@@ -4,9 +4,9 @@ description: 2026년 4분기 문서 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
@@ -17,22 +17,37 @@ ht-degree: 0%
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
 
-<!--
-
-## System Administrators full access to approval templates
+## 승인 템플릿을 보고 사용할 수 있는 사용자 제어
 
 >[!NOTE]
 >
->Preview: September 4, 2026
->Production fast release: September 4, 2026
->Production for everyone: September 4, 2026
->[!BADGE Off schedule]{type=Neutral}
+>미리 보기: 2026년 7월 30일
+>프로덕션 빠른 릴리스: 2026년 8월 13일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
-System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+이제 승인 템플릿이 기본적으로 비공개입니다. 이전에는 모든 승인 요청자가 시스템의 모든 템플릿을 볼 수 있었으며, 이 경우 템플릿 목록이 길어서 탐색하기 어려웠습니다. 이제 작성자가 공유하지 않는 한 템플릿을 만든 사용자만 템플릿을 볼 수 있습니다.
 
-For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+템플릿 작성자는 Workfront 설정의 승인 템플릿 목록에서 특정 사용자 또는 조직의 모든 사람과 템플릿을 공유할 수 있습니다. 승인을 요청할 때 사용자는 자신이 만들었거나 자신과 공유된 템플릿만 볼 수 있습니다.
 
--->
+이 변경 사항은 새 템플릿과 기존 템플릿 모두에 적용되며, 액세스는 템플릿을 요청하는 방법에 관계없이 일관되게 적용됩니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* 문서에 대한 승인 워크플로 템플릿을 만들 때 [템플릿 공유](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template)
+* [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+## 승인 템플릿에 대한 시스템 관리자 전체 액세스 권한
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 8일
+>프로덕션 빠른 릴리스: 2026년 9월 8일
+>모두를 위한 프로덕션: 2026년 9월 8일
+>[!BADGE 일정 해제]{type=Neutral}
+
+이제 시스템 관리자는 생성 또는 공유 대상에 상관없이 계정의 모든 승인 템플릿을 보고, 편집하고, 삭제하고, 대량 삭제할 수 있습니다. 이전에는 시스템 관리자가 다른 사용자와 동일한 공유 규칙을 적용받았으며, 자신이 만들었거나 사용자와 공유된 템플릿만 보거나 관리할 수 있었습니다.
+
+자세한 내용은 [승인 템플릿 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)를 참조하십시오.
 
 ## Workfront의 프레임 주석 가시성
 
@@ -196,7 +211,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 
 연결은 콘텐츠 관리자를 통해 제공되므로 콘텐츠를 선택하는 동안 AI 검색, 스마트 제안, 캠페인 개요 분석 등을 받을 수도 있습니다.
 
-자세한 내용은 [Experience Manager Assets의 콘텐츠를 Adobe 클라우드 저장소와 연결](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)을 참조하십시오.
+자세한 내용은 [Experience Manager Assets의 콘텐츠를 Adobe 클라우드 저장소와 연결](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets)을 참조하십시오.
 
 <!--
 

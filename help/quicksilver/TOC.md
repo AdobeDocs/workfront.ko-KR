@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 29141ebc3913ad66e05ee10e53dcaea646ca2526
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14499'
 ht-degree: 2%
 
 ---
@@ -1949,6 +1949,7 @@ ht-degree: 2%
       * [에셋 또는 문서에 추가 검토자 또는 승인자 추가](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [에셋 또는 문서에서 승인자 또는 검토자 제거](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [자산 및 문서에 대한 승인 템플릿 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+      * [승인 템플릿 관리](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)
       * [통합 승인 및 증명 함께 사용](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * [새 문서 버전 업로드 및 승인 요청](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * [검토 및 승인을 위한 보고서 대시보드 만들기](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
@@ -2079,8 +2080,7 @@ ht-degree: 2%
     * {hide-from-toc}[GenStudio for Performance Marketing 및 Frame.io 통합 시작](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
     * [증명 및 Creative Cloud Express 시작](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [증명 및 GenStudio for Performance Marketing 통합 시작](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-    * [Frame.io 통합과 함께 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
-    * [Experience Manager Assets의 자산을 Adobe 클라우드 스토리지와 연결](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
+    * [Workfront 및 Adobe 클라우드 스토리지와 함께 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
     * [Frame.io 통합으로 Adobe Express 및 Workfront 시작하기](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * 승인을 위한 팁, 요령 및 문제 해결 {#ttt-approvals}
     * [승인을 위한 팁, 요령 및 문제 해결: 문서 색인](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)

@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
+source-git-commit: 939939c9b07d554f71705782e5f6265f48e5335d
 workflow-type: tm+mt
-source-wordcount: '2709'
+source-wordcount: '2869'
 ht-degree: 1%
 
 ---
@@ -268,17 +268,15 @@ ht-degree: 1%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">System Administrators full access to approval templates</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">시스템 관리자가 승인 템플릿에 대한 전체 액세스</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>이제 시스템 관리자는 생성 또는 공유 대상에 상관없이 계정의 모든 승인 템플릿을 보고, 편집하고, 삭제하고, 대량 삭제할 수 있습니다.</p>
             </td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
+            <td><p>2026년 9월 8일</p></td>
+            <td><p>2026년 9월 8일</p></td>
+            <td><p>2026년 9월 8일</p></td>
         </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Workfront의 프레임 주석 표시</a>
@@ -351,6 +349,15 @@ ht-degree: 1%
             </td>
             <td><p>2026년 9월 3일</p></td>
             <td><p>2026년 9월 17일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">승인 템플릿을 보고 사용할 수 있는 사용자 제어</a>
+                <p>이제 승인 템플릿은 기본적으로 비공개이며, 작성자는 이를 특정 사용자 또는 조직의 모든 사람과 공유할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 7월 30일</p></td>
+            <td><p>2026년 8월 13일</p></td>
             <td><p>2026년 10월 15일</p></td>
         </tr>
         <tr>
@@ -613,6 +620,19 @@ ht-degree: 1%
 
 * [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Adobe Workfront Planning 2026년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+
+## 데스크톱 증명 뷰어 업데이트
+
+### 버전 2.1.59
+
+모든 고객을 위한 프로덕션 릴리스: 2026년 9월 9일
+
+Desktop Proofing Viewer가 버전 2.1.59로 업데이트되었습니다. 이 업데이트에는 다음 변경 사항이 포함됩니다.
+
+* 이제 Desktop Proofing Viewer를 Apple 실리콘이 포함된 Mac의 기본 빌드로 사용할 수 있습니다.
+* 기본 애플리케이션 프레임워크(Electron)가 최신 버전으로 업데이트되어 성능과 보안이 개선되었습니다.
+
+Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)를 참조하십시오.
 
 ## 공지
 

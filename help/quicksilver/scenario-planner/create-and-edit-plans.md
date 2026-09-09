@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
 workflow-type: tm+mt
-source-wordcount: 2467
+source-wordcount: 2462
 ht-degree: 1%
 
 ---
@@ -157,7 +157,7 @@ Old:
 
    또는
 
-   왼쪽 상단 모서리에서 **[!UICONTROL 새 계획]**&#x200B;을 클릭하여 계획을 만들고 5단계를 계속합니다. <!--is the step still accurate-->
+   **[!UICONTROL 새 계획]**&#x200B;을 클릭하여 계획을 만들고 5단계를 계속합니다. <!--is the step still accurate-->
 
    [!UICONTROL **새 플랜**] 상자가 표시됩니다.
 

@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 452
-ht-degree: 7%
+source-wordcount: 511
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ Experience Manager Assets Essentials의 에셋을 연결한 후에는 증명을 
 >[!NOTE]
 >
 >이 기능은 새 문서 영역에서 사용할 수 없습니다.<br>
->조직에서 Adobe 클라우드 저장소를 사용하는 경우 Workfront의 문서에 액세스하면 새 문서 영역이 표시됩니다. 거기에서 Experience Manager Assets의 에셋을 추가하고 Frame.io 뷰어로 검토하고 승인할 수 있습니다. 자세한 내용은 [Frame.io 통합에 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)을 참조하십시오.
+>조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 거기에서 Experience Manager Assets의 에셋을 추가하고 Frame.io 뷰어로 검토하고 승인할 수 있습니다. 자세한 내용은 [Workfront 및 Adobe 클라우드 저장소에서 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 

@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 4442
+source-wordcount: 4439
 ht-degree: 0%
 
 ---
@@ -511,7 +511,7 @@ Frame.io 뷰어 경험을 지원하는 통합은 현재 Adobe Express 및 GenStu
 
 예. 자산이 검토 및 승인 주기를 완료하면 최종 저장 및 배포를 위해 Adobe Experience Manager Assets으로 전송할 수 있습니다. 작업 관리를 위한 Workfront, 검토를 위한 Frame.io 및 디지털 에셋 관리를 위한 AEM을 통합 콘텐츠 supply chain으로 연결합니다.
 
-자세한 내용은 [Frame.io 통합에 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)을 참조하십시오.
+자세한 내용은 [Workfront 및 Adobe 클라우드 저장소에서 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)을 참조하십시오.
 
 **통합 검토 및 승인이 Adobe GenStudio에 어떻게 적합합니까?**
 

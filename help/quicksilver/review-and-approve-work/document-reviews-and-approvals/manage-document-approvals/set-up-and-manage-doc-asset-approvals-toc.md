@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 75b5d93d97458a71d206a7701f8773d309eeb834
 workflow-type: tm+mt
-source-wordcount: 97
+source-wordcount: 100
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 0%
 * [에셋 또는 문서에 추가 검토자 또는 승인자 추가](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [에셋 또는 문서에서 승인자 또는 검토자 제거](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [자산 및 문서에 대한 승인 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+* [승인 템플릿 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)
 * [통합 승인 및 증명 함께 사용](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [새 문서 버전 업로드 및 승인 요청](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
 * [검토 및 승인을 위한 보고서 대시보드 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)

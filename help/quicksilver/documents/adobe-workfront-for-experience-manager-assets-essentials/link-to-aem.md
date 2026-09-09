@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
 source-wordcount: 1467
 ht-degree: 1%
@@ -202,7 +202,7 @@ Experience Manager Assets 또는 Assets Essentials에서 새 콘텐츠를 가져
 
 ## 고려 사항
 
-* Adobe 클라우드 스토리지를 사용하는 객체에는 컨텐츠 권고자 기능을 사용할 수 없습니다. 조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Experience Manager Assets 또는 Assets Essentials의 에셋 및 폴더를 계속 연결할 수 있지만 AI 검색, 스마트 제안 또는 Dynamic Media 렌디션과 같은 Content Advisor 기능에 액세스할 수는 없습니다. 자세한 내용은 [Experience Manager Assets에서 Adobe 클라우드 저장소에 콘텐츠 및 폴더 연결](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)을 참조하십시오.
+* Adobe 클라우드 스토리지를 사용하는 객체에는 컨텐츠 권고자 기능을 사용할 수 없습니다. 조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Experience Manager Assets 또는 Assets Essentials의 에셋 및 폴더를 계속 연결할 수 있지만 AI 검색, 스마트 제안 또는 Dynamic Media 렌디션과 같은 Content Advisor 기능에 액세스할 수는 없습니다. 자세한 내용은 [Experience Manager Assets에서 Adobe 클라우드 저장소에 콘텐츠 및 폴더 연결](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets)을 참조하십시오.
 
 * Assets Essentials에는 콘텐츠 관리자 기능을 사용할 수 없습니다. Assets Essentials에서 에셋 및 폴더를 연결하려면 [Experience Manager Assets Essentials에서 에셋 및 폴더 연결](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)을 참조하십시오.
 
