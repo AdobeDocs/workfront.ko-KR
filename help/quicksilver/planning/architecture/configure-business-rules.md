@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1166'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Adobe Workfront Planning 레코드 유형에 대한 비즈니스 규칙을 구성하여 해당 유형의 레코드에 대한 작업이 허용되거나 금지되기 전에 특정 필드가 필요함을 나타낼 수 있습니다.
 
-규칙 작성 방법에 따라 정의된 비즈니스 규칙이 충족되는 경우 레코드에 대해 다음 작업을 허용할 수 있습니다.
+규칙 작성 방법에 따라 정의된 비즈니스 규칙이 충족되는 경우 레코드에 대해 다음 작업을 허용하거나 금지할 수 있습니다.
 
 * 레코드 편집 또는 편집 안 함
 * 레코드 삭제 또는 삭제 안 함
