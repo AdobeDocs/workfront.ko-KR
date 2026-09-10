@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 939939c9b07d554f71705782e5f6265f48e5335d
+source-git-commit: 807bafbd65f6f73593b0bb11345eb70cc763935c
 workflow-type: tm+mt
-source-wordcount: '2869'
+source-wordcount: '2906'
 ht-degree: 1%
 
 ---
@@ -188,17 +188,15 @@ ht-degree: 1%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Introducing CX Coworker in Workfront</a>
-                <p>CX Coworker is a new conversational interface for getting work done in Workfront and connected Adobe systems, replacing the current AI Assistant.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront에서 CX Coworker 사용 가능</a>
+                <p>CX Coworker는 Workfront 및 연결된 Adobe 시스템에서 작업을 수행하기 위한 새로운 대화 인터페이스로서 현재의 AI Assistant를 대체합니다.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>2026년 9월 3일</p></td>
+            <td><p>2026년 9월 17일</p></td>
+            <td><p>2026년 10월 15일</p></td>
         </tr>
--->
 
     &lt;tr>
     &lt;td>
