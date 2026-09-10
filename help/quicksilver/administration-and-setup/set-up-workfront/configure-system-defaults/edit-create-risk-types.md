@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: 646
-ht-degree: 5%
+source-wordcount: 645
+ht-degree: 4%
 
 ---
 
@@ -120,25 +120,30 @@ Workfront 인스턴스의 위험 유형 수를 개선하기 위해 다음을 수
 
 1. (선택 사항) 위험 유형 목록을 내보내려면 [!UICONTROL **내보내기**] 아이콘을 클릭합니다. 다음 파일 유형으로 내보낼 수 있습니다.
 
-   * 프로덕션 환경에서:
+   <!--* In the Production environment:-->
 
-     * PDF
-     * Excel
-     * Excel(xlsx)
-     * 탭으로 구분됨
-     * CSV로 내보내기
+   * PDF
+   * Excel
+   * Excel(xlsx)
+   * 탭으로 구분됨
+   * CSV로 내보내기
 
-   <div class="preview">
+   <!--
+    PM confirmed that these lists should be the same: https://workfront.slack.com/archives/C05DPT67BD3/p1788465805975249?thread_ts=1788436678.273019&cid=C05DPT67BD3 
+    <div class="preview">
 
-   * 미리보기 환경에서:
+    * In the Preview environment: 
 
-     * CSV로 내보내기
-     * XLSX
-   </div>
+      * CSV
+      * XLSX 
+    </div>
+    -->
 
    >[!TIP]
    >
-   >   프로덕션 환경에서는 먼저 제한된 수의 위험 유형을 선택한 다음 더 작은 목록으로 내보낼 수 있습니다. <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
+   >   프로덕션 환경에서는 먼저 제한된 수의 위험 유형을 선택한 다음 더 작은 목록으로 내보낼 수 있습니다.
+   >
+   > <span class="preview">이 기능은 미리 보기 환경에서 제거되었습니다.</span> <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### 위험 유형 만들기 {#create-risk-types}
 

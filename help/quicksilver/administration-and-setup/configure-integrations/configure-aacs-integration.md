@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 862924a86a71d982098dff8143cb047cdb301806
 workflow-type: tm+mt
-source-wordcount: 1733
+source-wordcount: 1751
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL [!DNL Experience Manager]통합]**&#x200B;을 선택합니다.
+1. 왼쪽 패널에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL [!DNL Experience Manager]Assets]**&#x200B;을 선택합니다.
 
    >[!NOTE]
    >
