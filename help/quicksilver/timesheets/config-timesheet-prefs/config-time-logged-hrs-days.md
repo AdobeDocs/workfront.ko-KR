@@ -19,7 +19,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
 workflow-type: tm+mt
 source-wordcount: 434
 ht-degree: 5%
@@ -87,6 +87,6 @@ Standard 또는 Plan 라이선스를 가진 사용자는 Adobe Workfront에서 �
    이 설정을 구성할 때는 다음 사항을 고려하십시오.
 
    * 시간을 시간 단위로 기록하도록 구성할 때는 이 옵션을 사용할 수 없습니다.
-   * 이 옵션은 시간을 기록하기 위한 목적으로만 사용됩니다. 이 옵션은 사용자를 편집할 때도 사용할 수 있는 **일정** 옵션과 관련이 없습니다. **일정** 옵션은 타임라인과 Workfront의 다른 영역에서 시간을 계산할 때 사용됩니다. **일정** 옵션 사용에 대한 자세한 내용은 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오. 
+   * 이 옵션은 시간을 기록하기 위한 목적으로만 사용됩니다. 이 옵션은 사용자를 편집할 때도 사용할 수 있는 **일정** 옵션과 관련이 없습니다. **일정** 옵션은 타임라인과 Workfront의 다른 영역에서 시간을 계산할 때 사용됩니다. **일정** 옵션 사용에 대한 자세한 내용은 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
