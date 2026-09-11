@@ -6,7 +6,7 @@ description: 조직에서 Workfront 클라우드 스토리지와 통합 검토 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: a3ef3b4ea00298e23ebc8b6196c951417e75eebe
+source-git-commit: 56ab4879af4046f6b2dcdc177b4b20aa476fa90c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
@@ -18,12 +18,6 @@ ht-degree: 0%
 기존 Workfront 증명을 기반으로 구축된 Workfront Fusion 시나리오는 Adobe 클라우드 스토리지 프로젝트에 대해 자동으로 작동하지 않습니다. 증명별 모듈, 웹후크 및 API 엔드포인트는 경우에 따라 직접적인 등가물을 가지며 다른 경우에는 상당한 변경을 가집니다. 이 문서는 이러한 시나리오에 의존하는 팀을 Adobe 클라우드 스토리지 롤아웃으로 가져오기 전에 영향을 받는 시나리오를 인벤터리하고, 분류하고, 수정 경로를 결정하는 데 도움이 됩니다.
 
 기존 Workfront 프로젝트에 범위가 지정된 시나리오는 오늘날과 같이 계속 작동합니다. 이 문서에 설명된 수정 작업은 Adobe 클라우드 스토리지 프로젝트에 대해 실행하려는 시나리오에 적용됩니다.
-
->[!IMPORTANT]
->
->이제 Adobe Workfront Fusion에서 Workfront 통합 검토 및 승인 커넥터를 사용할 수 있습니다. Adobe 클라우드 스토리지와 Fusion을 사용할 때 보다 간단하고 안정적인 시나리오를 위해서는 이 커넥터를 사용하는 것이 좋습니다.
->
->자세한 내용 및 지침은 Adobe Workfront Fusion 설명서의 [Workfront 통합 검토 및 승인 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)을 참조하십시오.
 
 이 문서를 사용하여 시나리오를 인벤터리하고 분류하여 Adobe 클라우드 스토리지를 고려하여 Fusion 시나리오를 업그레이드하는 최상의 방법을 이해합니다.
 
@@ -55,6 +49,12 @@ Workfront Proof을 기반으로 구축된 기존 Fusion 시나리오는 통합 �
 특정 비즈니스 논리에 따라 각 시나리오를 검토하여 해당 분류를 결정합니다.
 
 ## 교정 접근 방식
+
+>[!IMPORTANT]
+>
+>이제 Adobe Workfront Fusion에서 Workfront 통합 검토 및 승인 커넥터를 사용할 수 있습니다. Adobe 클라우드 스토리지와 Fusion을 사용할 때 보다 간단하고 안정적인 시나리오를 위해서는 이 커넥터를 사용하는 것이 좋습니다.
+>
+>자세한 내용 및 지침은 Adobe Workfront Fusion 설명서의 [Workfront 통합 검토 및 승인 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)을 참조하십시오.
 
 다음 접근 방식을 사용하여 Fusion 수정을 계획하고 실행합니다.
 

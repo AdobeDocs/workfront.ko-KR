@@ -24,9 +24,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+source-git-commit: 840211ef726bb638f75158d95f751c5833cc22bb
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: 2166
 ht-degree: 1%
 
 ---
@@ -301,12 +301,10 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials로 문서를 
          <td><strong>변환에 Dynamic Media 수정자를 적용합니다.</strong> 수정자를 추가하여 자산 렌디션을 실시간으로 변형하고 호스트 애플리케이션의 렌디션을 선택하기 전에 결과를 미리 봅니다.</td>
          <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">사용할 수 있는 Dynamic Media 에셋 렌디션</a>을 참조하십시오.</td>
       </tr>
-      <!--
       <tr>
-         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
-         <td>For more information, see <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
+         <td><strong>콘텐츠 조각 검색 및 찾아보기</strong> 콘텐츠 조각을 검색하고, 라이브 썸네일 미리보기를 확인하고, 상태(초안, 수정됨 또는 게시됨)를 확인하고, 세부 속성, 참조 및 변형을 검사할 수 있습니다.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">콘텐츠 조각 검색</a>을 참조하세요.</td>
       </tr>
-      -->
       <tr>
          <td><strong>자산 메타데이터에 액세스합니다.</strong> Assets 보기와 일치하는 제목, 설명, 형식, 크기 및 기타 메타데이터 탭(제품, 캠페인, 태그)과 같은 자산 속성을 검토합니다.</td>
          <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Assets 보기와 일치하는 자산 메타데이터에 액세스</a>를 참조하십시오.</td>
