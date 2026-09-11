@@ -181,10 +181,10 @@ Worth noting
 
 ## 추가 리소스
 
-* [Adobe Workfront 캠페인 계획](https://business.adobe.com/products/workfront/campaign-planning.html)
+* [Adobe Workfront 캠페인 계획](https://business.adobe.com/kr/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning 설명서](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio 개요](https://business.adobe.com/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio 개요](https://business.adobe.com/kr/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/kr/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--
