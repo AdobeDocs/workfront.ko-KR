@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 807bafbd65f6f73593b0bb11345eb70cc763935c
+source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
 workflow-type: tm+mt
-source-wordcount: '2906'
+source-wordcount: '2905'
 ht-degree: 1%
 
 ---
@@ -190,8 +190,8 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront에서 CX Coworker 사용 가능</a>
-                <p>CX Coworker는 Workfront 및 연결된 Adobe 시스템에서 작업을 수행하기 위한 새로운 대화 인터페이스로서 현재의 AI Assistant를 대체합니다.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">이제 Workfront에서 CX Coworker 사용 가능</a>
+                <p>CX Coworker은 현재의 AI Assistant를 대체하여 Workfront 및 연결된 Adobe 시스템에서 작업을 수행하기 위한 새로운 대화 인터페이스입니다.</p>
             </td>
             <td><p>2026년 9월 3일</p></td>
             <td><p>2026년 9월 17일</p></td>
@@ -277,10 +277,10 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Workfront의 프레임 주석 표시</a>
+                Workfront의 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Frame.io 주석 표시</a>
                 <p>이제 Workfront의 [주석] 패널에서 Frame.io 뷰어에서 새 주석을 사용할 수 있는 시기를 알 수 있습니다.</p>
             </td>
-            <td><p>2026년 9월 3일</p></td>
+            <td><p>N/A</p></td>
             <td><p>2026년 9월 17일</p></td>
             <td><p>2026년 10월 15일</p></td>
         </tr>

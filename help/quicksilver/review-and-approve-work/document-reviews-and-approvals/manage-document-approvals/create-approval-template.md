@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
+source-git-commit: 3eb7b5e0cca5245bc2fe8a733dcfd9a89c56d49f
 workflow-type: tm+mt
 source-wordcount: 800
 ht-degree: 2%
@@ -74,6 +74,9 @@ Workfront 설정 영역에서 Standard 라이선스를 가진 사용자는 재�
 1. 페이지 오른쪽에서 **새 템플릿**&#x200B;을 클릭합니다.
 
 1. **템플릿 이름**&#x200B;을(를) 추가합니다.
+<!--
+This field has a character limit of 255.
+-->
 
 1. 경로 1의 단계 1에 대한 세부 정보 입력:
 

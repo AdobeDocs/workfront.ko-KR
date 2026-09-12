@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
 workflow-type: tm+mt
-source-wordcount: '14499'
+source-wordcount: '14542'
 ht-degree: 2%
 
 ---
@@ -2309,6 +2309,13 @@ ht-degree: 2%
     * [Adobe Workfront Planning 인스턴스를 독립 실행형 제품으로 관리](planning/planning-sta/manage-planning-sta-instance.md)
     * [Adobe Workfront Planning에서 사용자를 독립 실행형 제품으로 관리](planning/planning-sta/manage-users-in-planning-sta.md)
     * [Adobe Workfront Planning에서 팀을 독립 실행형 제품으로 관리](planning/planning-sta/manage-teams-in-planning-sta.md)
+  * {hide-from-toc}Workfront Planning의 관념화 공간 {#ideation}
+    * {hide-from-toc}[Adobe Workfront Planning의 Ideation 공간: 문서 색인](planning/ideation/planning-ideation-article-index.md)
+    * {hide-from-toc}[Adobe Workfront Planning의 Ideation 공간 시작](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[Ideation 공간에 Brief 만들기](planning/ideation/create-briefs-in-ideation-space.md)
+    * {hide-from-toc}[Ideation Space Brief에서 계획 레코드를 만듭니다](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * {hide-from-toc}[다른 사용자와 관념화 공간 공유](planning/ideation/share-the-ideation-space.md)
+
 * Adobe Workfront 통합 {#adobe-workfront-integrations}
   * [Adobe Workfront 통합](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront 기본 제공 통합 개요](workfront-integrations-and-apps/built-in-integrations-non-admin.md)

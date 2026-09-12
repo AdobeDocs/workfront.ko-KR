@@ -4,9 +4,9 @@ description: 2026년 4분기 문서 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
+source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1333'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 자세한 내용은 [승인 템플릿 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)를 참조하십시오.
 
-## Workfront의 프레임 주석 가시성
+## Workfront의 Frame.io 주석 가시성
 
 >[!NOTE]
 >
->미리 보기: 2026년 9월 3일
+>미리보기: 해당 사항 없음
 >프로덕션 빠른 릴리스: 2026년 9월 17일
 >모두를 위한 프로덕션: 2026년 10월 15일
 

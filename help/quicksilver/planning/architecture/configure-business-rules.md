@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
+source-git-commit: 2ee576fa6d039bdbc4dcbf8bc27e4276790b0621
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1196'
 ht-degree: 1%
 
 ---
@@ -130,14 +130,19 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
       IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
+   >[!TIP]
+   >
+   >연결된 필드를 비즈니스 규칙에 추가할 수 있지만 필드 값이 아닌 배열을 찾는 문을 사용해야 합니다. 예를 들어 `ISBLANK` 대신 `ARRAYLENGTH(field)=0`을(를) 사용합니다.
+
+
+   필드 또는 식이 잘못된 경우 **수식** 필드에 표시기가 있습니다.  <!--add screen shot?-->
+
    >[!IMPORTANT]
    >
    >사용자가 레코드에서 수행하려는 작업이 허용되지 않는 경우를 사용자가 쉽게 이해할 수 있도록 다음 정보를 규칙 공식에 포함하는 것이 좋습니다.
    >
    >* 규칙이 설정된 정확한 필드.
    >* 규칙이 충족되지 않는 경우의 정확한 결과.
-
-   필드 또는 식이 잘못된 경우 **수식** 필드에 표시기가 있습니다.  <!--add screen shot?-->
 
    비즈니스 규칙의 **Then** 섹션에서 규칙의 기능에 대한 설명을 볼 수 있습니다.
 
