@@ -4,13 +4,11 @@ description: 2026년 4분기 관리자 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1280'
 ht-degree: 0%
-
 ---
-
 # 2026년 4분기 관리자 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 4분기 릴리스의 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -74,6 +72,8 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >미리 보기: 2026년 9월 3일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
 >모두를 위한 프로덕션: 2026년 10월 15일
+>
+>이 기능은 2026년 9월 14일에 미리보기 환경에서 일시적으로 제거되었습니다.
 
 이제 레이아웃 템플릿에서 작업할 때 기본 Workfront 메뉴 옵션을 사용하여 사용자 정의 애플리케이션을 임의의 순서로 재배치할 수 있습니다. 이를 통해 각 애플리케이션을 가장 관련성이 높은 위치에 배치할 수 있습니다.
 
