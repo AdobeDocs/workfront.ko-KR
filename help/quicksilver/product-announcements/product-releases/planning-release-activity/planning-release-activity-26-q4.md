@@ -6,13 +6,11 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
+source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1773'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
 
 이 문서에서는 2026년 4분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
@@ -76,7 +74,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
 
-## 종속적으로 연결된 레코드 필드에 대한 필터
+## 연결된 레코드 필드에 대한 필터
 
 >[!NOTE]
 >
@@ -84,9 +82,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 >프로덕션 빠른 릴리스: 2026년 9월 17일
 >모두를 위한 프로덕션: 2026년 10월 15일
 
-이제 Planning에서 종속 연결을 추가할 때 필터 기준을 충족하는 특정 레코드 유형을 필터링할 수 있습니다.
+이제 Planning에서 연결을 추가할 때 필터 기준을 충족하는 특정 레코드 유형을 필터링할 수 있습니다.
 
-종속적으로 연결된 필드에서 모든 레코드 유형을 사용할 수 있는 대신 필터링 기준을 충족하는 레코드만 표시됩니다.
+필터링 기준을 충족하는 레코드만 연결된 필드에 옵션으로 표시됩니다.
 
 이 기능을 위해 레코드 유형을 연결할 때 새 연결 탭에 새 레코드 필터링 규칙 옵션을 추가했습니다.
 
