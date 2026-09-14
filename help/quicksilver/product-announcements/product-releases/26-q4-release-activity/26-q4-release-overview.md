@@ -4,13 +4,11 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2919'
 ht-degree: 1%
-
 ---
-
 # 2026년 4분기 릴리스 개요
 
 이 페이지에서는 2026년 10월로 예정된 2026년 4분기 릴리스에 포함된 기능에 대한 정보를 제공합니다.
@@ -76,6 +74,7 @@ ht-degree: 1%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">주 메뉴에서 사용자 지정 응용 프로그램 순서 바꾸기</a>
+                <p><strong>참고:</strong> 이 기능은 2026년 9월 14일에 미리 보기 환경에서 일시적으로 제거되었습니다.</p>
                 <p>이제 레이아웃 템플릿의 기본 메뉴에서 사용자 정의 응용 프로그램을 항상 마지막에 나타나게 하는 대신 위치를 변경할 수 있습니다.</p>
             </td>
             <td><p>2026년 9월 3일</p></td>
