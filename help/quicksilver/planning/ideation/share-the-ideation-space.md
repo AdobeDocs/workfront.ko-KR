@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 1%
-
+source-wordcount: '557'
+ht-degree: 2%
 ---
-
 
 # 다른 사용자와 관념화 공간 공유
 
@@ -23,7 +21,9 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--ome of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article-->
+<!--
+Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
+-->
 
 Workfront Planning 레코드 권한은 레코드의 관념화 공간으로 전송됩니다.
 
@@ -59,18 +59,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
 또는
 <li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>추가 제품</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Adobe Workflow 라이선스</p></td> 
    <td><p>표준</p>
@@ -97,14 +96,16 @@ are there additional license restrictions or packages to be purchased to have ac
       <p>브리프를 만들 수 있는 편집 공간 권한</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
-   <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
-   <li>GenStudio System Manager를 사용하여 활성화 액세스 <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
-   </p>
-  </td> 
-  </tr> 
+  <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 

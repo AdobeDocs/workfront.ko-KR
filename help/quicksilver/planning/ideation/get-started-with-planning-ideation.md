@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: c969193e25b0f79082a8aa05bc5b449380cfe146
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 1%
-
+source-wordcount: '1001'
+ht-degree: 0%
 ---
-
 
 # Adobe Workfront Planning의 관념화 공간 시작
 
@@ -19,7 +17,8 @@ ht-degree: 1%
 Should we add a new Feature to ExL for "Strategic Ideation"?
 -->
 
-<!--information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
+<!--
+information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
 
 https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
 -->
@@ -31,42 +30,49 @@ https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.
 
 Adobe Ideation 공간은 Adobe Planning에 직접 내장된 Workfront의 AI 기반 전략적 ideation 기능입니다. 이는 마케팅 팀에게 캠페인 전략을 위한 구조화된 데이터 기반의 시작 지점을 제공하며, 수동 연구 및 추측 작업을 조직의 실제 성과 기록에서 기반으로 하는 AI 생성 브리핑으로 대체합니다.
 
-Workfront Planning에서만 액세스할 수 있는 아이디어 공간은 계획, 프로덕션 및 전달을 수행하기 전에 캠페인 라이프사이클의 맨 앞에 있으며 팀이 작업을 계획하고 실행하는 Workfront Planning 작업 공간으로 직접 유입됩니다.
+Workfront Planning 또는 Workfront 메인 메뉴에서만 액세스할 수 있는 관념화 공간은 계획, 프로덕션 및 게재를 수행하기 전에 캠페인 라이프사이클의 맨 앞에 있으며 팀이 작업을 계획하고 실행하는 Workfront Planning 작업 공간으로 직접 유입됩니다.
 
 ## 제품 가용성
 
 변경될 수 있는 관념화 공간에 대한 계획된 릴리스 타임라인에는 다음 이정표가 포함됩니다.
 
 * **마감된 Beta:** 적은 수의 고객이 있는 2026년 7월에 출시되었습니다.
-* **Beta 열기:**&#x200B;은(는) 2026년 9월을 목표로 합니다. 이는 고객이 옵션을 적극적으로 옵트아웃하지 않고 적극적으로 옵션을 켜고 구성해야 하는 옵트인 오퍼입니다.
+* **Beta 열기:** 2026년 10월을 타깃팅했습니다. 이는 고객이 옵션을 적극적으로 옵트아웃하지 않고 적극적으로 옵션을 켜고 구성해야 하는 옵트인 오퍼입니다.
 * **일반 가용성:** 2026년 하반기에 타깃팅됨.
 
 ## 제품 요구 사항
 
-조직과 동시에 다음 패키지에 액세스할 수 있는 경우 관념화 공간에 액세스할 수 있습니다.
+조직에서 사용자가 Ideation Space에 액세스할 때에 따라 다음 패키지에 액세스할 수 있는 경우 Ideation Space에 액세스할 수 있습니다.
 
-* Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
+* Beta 오픈 릴리스 동안 다음 항목이 있어야 합니다.
 
-  또는
+  * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
 
-  독립형 제품으로서의 Adobe Workfront Planning
+* GA 이후에는 다음 중 하나가 있을 수 있습니다.
 
-  >[!NOTE]
-  >
-  >관념화 공간은 Adobe Planning에서만 액세스할 수 있습니다. Ideation 공간에 액세스하려면 별도의 로그인이 필요하지 않습니다. Workfront Planning에 로그인할 수 있는 경우 즉시 사용할 수 있습니다.
+  * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
+  * 독립형 제품으로서의 Adobe Workfront Planning
 
-* Adobe GenStudio for Performance Marketing
+>[!NOTE]
+>
+>관념화 공간은 Adobe Workfront 주 메뉴 또는 Workfront Planning에서만 액세스할 수 있습니다. Ideation 공간에 액세스하려면 별도의 로그인이 필요하지 않습니다. Workfront에 로그인할 수 있으면 즉시 사용할 수 있습니다.
+
+<!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
 
 Ideation 공간을 사용하는 데 필요한 액세스에 대한 자세한 내용은 [Ideation 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)를 참조하십시오.
 
-위의 요구 사항 외에, 다음 기준도 충족해야 Closed Beta 프로그램에 참여할 수 있습니다.
+<!--
+No longer required or recommended, per Et:
 
-* 캠페인 추적 기능이 있는 활성 Adobe Customer Journey Analytics(CJA) 계정이 있음
-* 반복 가능한 계획 프로세스를 통해 멀티채널 캠페인 만들기
-* 마케팅 작업에 Workfront Planning을 적극적으로 사용
-* 기본 관념화 공간 사용자가 될 최소 한 명 이상의 식별된 전략가 또는 관념화 사용자가 있어야 합니다.
+In addition to above requirements, you must also meet the following criteria to participate in the Closed Beta program: 
+
+* Have an active Adobe Customer Journey Analytics (CJA) account with campaign tracking in place
+* Have multi-channel campaigns with a repeatable planning process
+* Actively use Workfront Planning for marketing operations
+* Have at least one identified strategist or ideation user who will be the primary Ideation space user
+-->
 
 ## 대상자 및 사용 사례
 
@@ -117,7 +123,7 @@ Too much:
 
 ## 관념화 공간 개요
 
-관념화 공간은 브랜드 및 제품 마케터가 더 강력한 캠페인을 더 빠르고 더 나은 팀 정렬로 구축할 수 있는 전략적 마케팅 관념화 도구입니다. 과거 브리프, 성과 데이터, 대상 통찰력, 브랜드 지침 및 기존 캠페인 자산과 같은 실제 마케팅 컨텍스트에서 AI 제안을 기반으로 하므로 결과는 일반적이지 않고 관련성이 있습니다.
+관념화 공간은 브랜드 및 제품 마케터가 더 강력한 캠페인을 더 빠르고 더 나은 팀 정렬로 구축할 수 있는 협업 전략 마케팅 관념화 도구입니다. 과거 브리프, 성과 데이터, 대상 통찰력, 브랜드 지침 및 기존 캠페인 자산과 같은 실제 마케팅 컨텍스트에서 AI 제안을 기반으로 하므로 결과는 일반적이지 않고 관련성이 있습니다.
 
 다음은 브리프를 만들 때 아이디어를 최대한 활용하는 방법에 대한 몇 가지 예입니다.
 
@@ -142,7 +148,7 @@ Too much:
 
 사용자는 후속 질문을 하고 일회성 결과를 얻기보다는 짧은 대화를 개선할 수 있습니다.
 
-개요 가 라이브 Workfront Planning 연결에 연결되면 Coworker는 기본 계획이 그대로 유지되도록 덮어쓰기를 보류합니다.
+개요 가 라이브 Workfront Planning 연결에 연결되면 Coworker는 기본 계획이 그대로 유지되도록 덮어쓰기를 보류합니다. <!--Et to check on this, it might be overwritten. -->
 
 <!--
 **************** CONSIDER INCLUDING THIS INFORMATION FROM JESH BARLOW ABOUT COWORKER IN CATALYZE?? - https://adobecorpdev.slack.com/archives/C091C0Y735W/p1788917610365089?thread_ts=1788917251.550099&cid=C091C0Y735W
@@ -181,10 +187,10 @@ Worth noting
 
 ## 추가 리소스
 
-* [Adobe Workfront 캠페인 계획](https://business.adobe.com/kr/products/workfront/campaign-planning.html)
+* [Adobe Workfront 캠페인 계획](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning 설명서](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio 개요](https://business.adobe.com/kr/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/kr/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio 개요](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--
