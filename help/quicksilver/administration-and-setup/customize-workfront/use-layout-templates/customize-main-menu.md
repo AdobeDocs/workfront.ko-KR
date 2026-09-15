@@ -11,24 +11,30 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 TQID: https://experienceleague.adobe.com/g6y6RsDNuEDBGZBrZXxhyFZ2-z1EUr5yflGDQQ7AhdQ
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: a3966028ce3c73c141f6f79bc25505cd707cae62
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: '682'
 ht-degree: 6%
-
 ---
-
 # 레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의
 
 <!--Audited: 01/2024-->
@@ -136,26 +142,19 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
      >
      > 사용자 정의 응용 프로그램은 별도로 만들어야 기본 메뉴 옵션으로 사용할 수 있습니다. 자세한 내용은 [Adobe App Builder을 사용하여 Workfront용 사용자 지정 응용 프로그램 만들기](/help/quicksilver/app-builder/app-builder.md)를 참조하십시오.
 
-미리보기 환경에서:
-
-1. **Native** 항목에 대해 다음 중 하나를 수행합니다.
+1. 다음 <!-- for the **Native** items-->을(를) 수행합니다.
 
    * 주 메뉴에 표시하지 않을 ![아이콘](assets/remove-icon---x-in-circle.png)을 숨깁니다.
    * 메인 메뉴에 표시할 ![아이콘](assets/add-icon-plus-in-circle.png)개 항목을 표시합니다.
    * ![Drag icon](assets/move-icon---dots.png) 항목을 끌어 놓아 기본 메뉴의 표시 순서를 변경합니다.
 
-1. **System** 항목에 대해 다음 중 하나를 수행합니다.
-
-   * 주 메뉴에 표시하지 않을 ![아이콘](assets/remove-icon---x-in-circle.png)을 숨깁니다.
-   * 메인 메뉴에 표시할 ![아이콘](assets/add-icon-plus-in-circle.png)개 항목을 표시합니다.
-
-   >[!NOTE]
-   >
-   >시스템 항목의 순서를 변경할 수 없습니다. 이러한 항목은 활성 상태일 때 항상 주 메뉴의 맨 아래에 표시됩니다.
+     >[!NOTE]
+     >
+     >시스템 항목의 순서를 변경할 수 없습니다. 이러한 항목은 활성 상태일 때 항상 주 메뉴의 맨 아래에 표시됩니다.
 
 1. **완료**&#x200B;를 클릭합니다.
 
-   변경 내용을 취소하려면 언제든지 **취소**&#x200B;를 클릭할 수도 있습니다.
+   언제든지 **취소**&#x200B;를 클릭하여 변경 내용을 취소할 수도 있습니다.
 
 1. 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.
 
@@ -164,3 +163,18 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
    사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.
 
 레이아웃 템플릿에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
+
+<!--
+
+MOVE TO LINE 151 or thereabouts:
+
+<div class="preview">
+
+1. Do any of the following for the **System** items:
+
+   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
+   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
+
+</div>
+
+-->
