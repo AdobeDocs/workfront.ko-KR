@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dc9caae8cc85543986eaefb1d3debdebfdf6ce96
+source-git-commit: 85ae49708acf2c472816ac848ce15429577b934e
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 7%
+source-wordcount: '1022'
+ht-degree: 9%
 ---
 # 캔버스 대시보드에 대한 보고서 필터 참조
 
@@ -212,26 +212,29 @@ ht-degree: 7%
 
 위에 나열된 상위-하위 관계를 활용하는 경우 상위 객체에 연결된 각 하위 레코드에 대한 행이 테이블에 표시됩니다.
 
+<!--
 <div class="preview">
 
-## 미리 보기에서 컬렉션 관계 필터링
+## Filter on collection relationships in Preview
 
-컬렉션은 단일 레코드가 아닌 관련 레코드 그룹에 연결되는 필드입니다. 예를 들어 프로젝트의 승인 단계에 있는 참여자는 컬렉션입니다. 필터를 빌드할 때는 텍스트 모드로 전환하지 않고 컬렉션을 직접 필터링할 수 있습니다.
+A collection is a field that links to a group of related records rather than to a single record. For example, the participants on a project's approval stages are a collection. When you build a filter, you can filter on collections directly, without switching to text mode.
 
-컬렉션을 필터링하려면 필드 선택 패널을 연 다음 컬렉션을 선택합니다. 이 섹션에는 컬렉션 관계만 나열됩니다. 단일 레코드 관계는 관계 아래에 유지됩니다.
+To filter on a collection, open the Select a field panel, then select Collections. This section lists only collection relationships. Single-record relationships stay under Relationships.
 
-![컬렉션 관계](assets/collections.png)
+![collection relationships](assets/collections.png)
 
-컬렉션을 선택한 후에는 다음 두 가지 작업을 수행할 수 있습니다.
+After you select a collection, you can do two things:
 
-* 컬렉션의 자체 필드를 필터링합니다. 예를 들어 포트폴리오의 프로젝트에서 프로젝트의 상태를 필터링할 수 있습니다.
-* 컬렉션에서 하나의 단일 레코드 관계를 따릅니다. 예를 들어 포트폴리오의 프로젝트에서 프로젝트 소유자에게 연결할 수 있습니다.
+* Filter on the collection's own fields. For example, from a portfolio's projects, you can filter on a project's status.
+* Follow one single-record relationship out of the collection. For example, from a portfolio's projects, you can reach the project owner.
 
-컬렉션은 더 깊은 탐색을 지원하지 않습니다. 다른 컬렉션 내부에 중첩된 컬렉션을 열거나, 둘 이상의 관계를 팔로우하거나, 시작한 위치로 돌아가는 관계를 선택할 수 없습니다.
+Collections don't support deeper navigation. You can't open a collection nested inside another collection, follow more than one relationship, or select the relationship that leads back to where you started.
 
-컬렉션 섹션은 필터를 빌드할 때만 나타납니다. 테이블 열, 그룹화 또는 차트 필드와 같은 다른 필드 선택기에는 표시되지 않습니다.
+The Collections section appears only when you build a filter. It doesn't appear in other field choosers, such as those for table columns, groupings, or chart fields.
 
 </div>
+
+-->
 
 ## 개인 프로젝트, 작업 및 봇 사용자 제외
 
