@@ -3,13 +3,11 @@ title: Ideation Space Brief에서 계획 레코드 생성
 description: Adobe Workfront Planning의 새로운 기능인 Ideation Space를 사용하여 브리핑을 Planning 레코드로 변환할 수 있습니다. 내보낸 브리프는 새 레코드를 만들거나 기존 레코드를 업데이트합니다. 이 문서에서는 관념화 공간을 사용하여 기존 Planning 레코드를 생성하거나 편집하는 방법에 대해 설명합니다.
 role: User, Admin
 author: Alina
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1166'
 ht-degree: 0%
-
 ---
-
 
 # Ideation Space Brief에서 계획 레코드 생성
 
@@ -60,18 +58,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
 또는
 <li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>추가 제품</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Adobe Workflow 라이선스</p></td> 
    <td><p>표준</p>
@@ -98,24 +95,26 @@ are there additional license restrictions or packages to be purchased to have ac
       <p>브리프를 만들 수 있는 편집 공간 권한</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
-   <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
-   <li>GenStudio System Manager를 사용하여 활성화 액세스 <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
-   </p>
-  </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 
 Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++  
++++   
 
 ## 관념화 공간을 사용하여 레코드 만들기에 대한 고려 사항
 
-* 레코드를 만들거나 편집할 때 Workfront Planning에서만 관념화 공간을 실행할 수 있습니다. 관념화 공간이 Workfront Planning 외부에 없습니다.
+* 레코드를 만들거나 편집할 때 Workfront Planning 또는 Workfront의 메인 메뉴에서만 관념화 공간을 시작할 수 있습니다. 관념화 공간이 Workfront 외부에 없습니다.
 * 관념화 공간에 액세스하려면 Workfront Planning에 작업 공간 및 레코드 유형이 있어야 합니다.
 * 새 레코드는 만드는 방법에 관계없이 항상 자리 표시자 콘텐츠로 시작합니다.
 * 관념화 요약에 연결된 계획 레코드를 삭제하면 요약이 관념화 공간에 남아 있으며 관념화 공간의 연결된 캔버스는 삭제되지 않습니다.
@@ -151,7 +150,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    레코드는 자리 표시자 텍스트로 즉시 만들어집니다.
 
-1. (선택 사항) 프롬프트 상자에서 **기존 개요 사용**&#x200B;을 클릭하여 Ideation 공간에서 개요 및 향후 레코드를 만드는 데 사용할 기존 문서를 검색하고 추가합니다.
+1. (선택 사항) 프롬프트 상자에서 **기존 개요 사용**&#x200B;을 클릭하여 Ideation 공간에서 개요 및 향후 레코드를 만드는 데 사용할 기존 문서를 검색하고 추가합니다. <!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
 
    ![빈 관념에 대한 프롬프트](assets/empty-ideation-prompt.png)
 
@@ -225,7 +224,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 
 
-<!-- this is from Claude, but rephrased and included most of this above: 
+<!-- 
+this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
 

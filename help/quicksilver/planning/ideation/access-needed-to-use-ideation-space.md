@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 1%
-
+source-wordcount: '655'
+ht-degree: 0%
 ---
-
 
 # 관념화 공간을 사용하는 데 필요한 액세스 권한
 
@@ -30,21 +28,43 @@ ht-degree: 1%
 
 ## 제품 요구 사항
 
-관념화 공간은 독립 실행형 제품이 아닙니다. Workfront Planning 패키지가 필요하며 Workfront Planning에서만 액세스할 수 있습니다. 추가 제품도 필요합니다.
 
-Ideation 공간에 액세스하려면 조직에서 다음 제품에 대한 패키지를 구매해야 합니다.
+관념화 공간은 독립 실행형 제품이 아니라 Adobe Workfront Planning의 추가 기능입니다.
 
-* Planning 패키지 외에 Adobe Workfront Workflow 패키지
+조직에서 사용자가 Ideation Space에 액세스할 때에 따라 다음 패키지에 액세스할 수 있는 경우 Ideation Space에 액세스할 수 있습니다.
 
-  또는
+* Beta 오픈 릴리스 동안 다음 항목이 있어야 합니다.
 
-  독립 실행형 제품으로 구입한 Adobe Workfront Planning.
-* Adobe GenStudio for Performance Marketing 라이선스
+  * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
 
-  >[!TIP]
-  >
-  >GenStudio for Performance Marketing은 올바른 글꼴 권한에 액세스할 수 있어야 합니다.
+* GA 이후에는 다음 중 하나가 있을 수 있습니다.
 
+  * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
+  * 독립형 제품으로서의 Adobe Workfront Planning
+
+Ideation Space의 릴리스 단계에 대한 자세한 내용은 [Adobe Workfront Planning의 Ideation Space 시작](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)을 참조하십시오.
+
+>[!NOTE]
+>
+>관념화 공간은 Adobe Workfront 주 메뉴 또는 Workfront Planning에서만 액세스할 수 있습니다. Ideation 공간에 액세스하려면 별도의 로그인이 필요하지 않습니다. Workfront에 로그인할 수 있으면 즉시 사용할 수 있습니다.
+
+<!--
+No longer the case: 
+
+Your organization must purchase a package for the following products to access the Ideation space: 
+
+* An Adobe Workfront Workflow package in addition to a Planning package
+
+    Or
+    
+    An Adobe Workfront Planning purchased as a standalone product. 
+* An Adobe GenStudio for Performance Marketing license
+
+    >[!TIP]
+    >
+    >GenStudio for Performance Marketing is needed to have access to the correct font entitlements. 
+
+-->
 
 <!--only required for closed beta:* An Adobe Customer Journey Analytics license that includes campaign tracking-->
 
@@ -99,7 +119,9 @@ Planning에서 레코드 유형에 대한 관리 권한이 있어야 Ideation Sp
 
 관념화 공간 공유에 대한 자세한 내용은 [관념화 공간 공유](/help/quicksilver/planning/ideation/share-the-ideation-space.md)를 참조하십시오.
 
-<!--there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users-->
+<!--
+there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users
+-->
 
 
 <!-- 

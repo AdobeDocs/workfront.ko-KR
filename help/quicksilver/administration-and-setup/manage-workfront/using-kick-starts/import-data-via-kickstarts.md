@@ -14,20 +14,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eDTZB36f13CgQ5HSrp5MGqHDnhMi-SVA9ygsfxRjh-M
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 62d9d350c2b233f657780ab540b709368e3e0bc9
 workflow-type: tm+mt
-source-wordcount: 2877
+source-wordcount: '2882'
 ht-degree: 7%
-
 ---
-
 # 킥스타트 템플릿을 사용하여 Workfront으로 데이터 가져오기
 
 <!--Audited: 12/2023-->
@@ -76,7 +79,9 @@ ht-degree: 7%
 
 * 이러한 방식으로 데이터를 가져오면 Workfront에 이미 존재하는 레코드에 대한 정보가 업데이트되지 않습니다.
 * 새 레코드와 해당 정보만 가져올 수 있습니다.
-* 가져오기가 시간 초과되지 않도록 한 번에 2,000개 이하의 레코드를 가져옵니다.
+* 킥스타트 가져오기는 백그라운드에서 실행되며 레코드 제한은 없습니다.
+
+<!--THIS IS OLD. The background run was added September 2026, can delete this text at the end of the year * Import no more than 2,000 records at a time to ensure that the import does not time out.-->
 
 ## 킥스타트 템플릿을 스프레드시트 파일로 내보내기
 
@@ -85,10 +90,6 @@ ht-degree: 7%
 킥스타트 템플릿을 내보내려면 다음을 수행하십시오.
 
 {{step-1-to-setup}}
-
-<!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
--->
 
 1. **시스템** > **데이터 가져오기(킥스타트)**&#x200B;를 클릭합니다.
 
@@ -331,9 +332,9 @@ ht-degree: 7%
    * 가져오려는 개체가 새 개체인 경우 **TRUE**&#x200B;를 입력하여 행의 데이터를 가져옵니다. 이 값은 대/소문자를 구분하므로 항상 모두 대문자로 입력해야 합니다.
    * 개체가 이미 Workfront에 있는 경우 **isNew** 열에 **FALSE**&#x200B;을(를) 입력하여 행을 무시합니다. 이 값은 대/소문자를 구분하므로 항상 모두 대문자로 입력해야 합니다.
 
-      * Workfront에 이미 존재하는 레코드는 업데이트되지 않습니다.
-      * Workfront의 데이터가 있는 템플릿을 다운로드한 경우 기존 개체가 이미 **FALSE**(으)로 표시되어 있습니다.
-      * 빈 템플릿을 다운로드한 경우에는 기존 객체에 대해 새 행을 추가할 필요가 없습니다.
+     * Workfront에 이미 존재하는 레코드는 업데이트되지 않습니다.
+     * Workfront의 데이터가 있는 템플릿을 다운로드한 경우 기존 개체가 이미 **FALSE**(으)로 표시되어 있습니다.
+     * 빈 템플릿을 다운로드한 경우에는 기존 객체에 대해 새 행을 추가할 필요가 없습니다.
 
 1. 다음 방법 중 하나로 **ID** 열에 정보를 추가하십시오.
 
@@ -353,13 +354,13 @@ ht-degree: 7%
 
    * 프로젝트를 가져올 때 그룹 ID를 표시해야 합니다.
 
-      * 그룹이 Workfront에 이미 있는 경우 프로젝트의 **setGroupID** 필드에 해당 고유 ID를 추가해야 합니다.
-      * 그룹이 Workfront에 없는 경우 가져오기 파일에 **그룹** 시트를 추가하고 그룹 시트의 **isNew** 필드를 **TRUE**(으)로 설정하고 **ID** 열에 새 그룹의 숫자 ID를 표시할 수 있습니다. 새 프로젝트의 **setGroupID** 필드는 새 그룹의 숫자 **ID**&#x200B;과(와) 일치해야 합니다.
+     * 그룹이 Workfront에 이미 있는 경우 프로젝트의 **setGroupID** 필드에 해당 고유 ID를 추가해야 합니다.
+     * 그룹이 Workfront에 없는 경우 가져오기 파일에 **그룹** 시트를 추가하고 그룹 시트의 **isNew** 필드를 **TRUE**(으)로 설정하고 **ID** 열에 새 그룹의 숫자 ID를 표시할 수 있습니다. 새 프로젝트의 **setGroupID** 필드는 새 그룹의 숫자 **ID**&#x200B;과(와) 일치해야 합니다.
 
      **예:** 프로젝트의 경우 **setGroupID** 열에 표시되는 값은 다음 중 하나여야 합니다.
 
-      * Workfront 인스턴스의 기존 그룹에 대한 GUID
-      * 가져오는 동안 새 그룹을 만드는 경우 **그룹** 시트의 ID 열에 있는 값(숫자)입니다
+     * Workfront 인스턴스의 기존 그룹에 대한 GUID
+     * 가져오는 동안 새 그룹을 만드는 경우 **그룹** 시트의 ID 열에 있는 값(숫자)입니다
 
 1. 가져오기 중에 채울 필수 필드 및 기타 필드의 입력 값.
 1. (선택 사항) 사용자 지정 데이터를 추가하려면:
@@ -391,7 +392,7 @@ Workfront은 시간 값도 날짜의 일부로 허용합니다.
 
 날짜에서 시간을 생략할 경우 Workfront은 다음 중 하나를 수행합니다.
 
-* 시간은 오전 12:00이라고 가정합니다. 예상 날짜 결과를 보려면 시스템 시간대가 사용자의 시간대와 일치해야 합니다.
+* 이 시간은 오전 12:00이라고 가정합니다. 예상 날짜 결과를 보려면 시스템 시간대가 사용자의 시간대와 일치해야 합니다.
 * 일정과 연관된 객체에 있는 경우 시간은 일정이 허용하는 가장 빠른 시간으로 지연됩니다.
 
 >[!NOTE]
@@ -461,13 +462,13 @@ Workfront은 시간 값도 날짜의 일부로 허용합니다.
 
   다음은 동일한 가져오기 파일에서 두 메서드를 모두 사용하는 방법입니다.
 
-   * 스프레드시트에서 **setRoleID** 열의 왼쪽에 열을 추가합니다.
-   * 새 열의 이름을 **#setRoleID역할 이름**(으)로 지정합니다.
-   * 기존 레코드에 역할을 할당하려면 **#setRoleID 역할 이름** 열에 역할 이름을 입력하십시오.
+  * 스프레드시트에서 **setRoleID** 열의 왼쪽에 열을 추가합니다.
+  * 새 열의 이름을 **#setRoleID역할 이름**(으)로 지정합니다.
+  * 기존 레코드에 역할을 할당하려면 **#setRoleID 역할 이름** 열에 역할 이름을 입력하십시오.
 
-     새 역할 레코드에 역할을 할당하려면 setRoleID의 역할 시트에 할당한 ID를 입력합니다.
+    새 역할 레코드에 역할을 할당하려면 setRoleID의 역할 시트에 할당한 ID를 입력합니다.
 
-     ![사용자의 역할 ID](assets/set-role-id.png)
+    ![사용자의 역할 ID](assets/set-role-id.png)
 
 ## 스프레드시트 데이터를 Workfront으로 가져오기
 
@@ -491,8 +492,6 @@ Excel 템플릿을 데이터로 채운 후 해당 데이터를 Workfront에 업�
 
 템플릿 스프레드시트 데이터를 Workfront으로 가져오려면 다음을 수행하십시오.
 
-<!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
-
 {{step-1-to-setup}}
 
 1. **시스템** > **데이터 가져오기(킥스타트)**&#x200B;를 클릭합니다.
@@ -501,7 +500,9 @@ Excel 템플릿을 데이터로 채운 후 해당 데이터를 Workfront에 업�
 
    파일이 자동으로 업로드되고 가져오기에 성공했다는 알림이 표시됩니다.
 
-   Excel 파일을 Workfront에 업로드하는 데 5분 이상 걸리는 경우 애플리케이션 시간이 초과되어 Workfront에서 파일을 업로드할 수 없습니다. 데이터를 더 작은 개체 배치로 가져오십시오.
+   <!--If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file. Try importing your data in smaller batches of objects.-->
+
+   가져오기가 백그라운드에서 실행되므로 시간 초과가 발생하지 않습니다. 다른 가져오기를 시작하거나 페이지에서 이동하기 전에 가져오기가 완료될 때까지 기다립니다. 가져오기가 너무 오래 걸리는 경우 취소할 수 있습니다.
 
 1. (조건부) 가져오기에 성공하지 못하면 문제가 무엇인지 알려주는 오류 메시지가 표시됩니다. 문제가 발생한 필드, 시트 및 행 번호를 식별하고 Excel 파일의 정보를 수정하십시오. 그런 다음 파일을 한 번 더 가져오십시오.
 1. (조건부) Workfront Fusion을 사용 중인 경우 이제 가져오기가 완료될 때 FLO 또는 시나리오를 설정할 수 있습니다.
