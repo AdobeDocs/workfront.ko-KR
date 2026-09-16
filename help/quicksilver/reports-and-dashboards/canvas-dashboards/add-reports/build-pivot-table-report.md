@@ -5,13 +5,11 @@ title: 캔버스 대시보드에서 피벗 테이블 보고서 작성
 description: 피벗 테이블 보고서를 캔버스 대시보드에 추가하여 데이터의 집계된 합계를 테이블 형식으로 볼 수 있습니다.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 5%
-
+source-wordcount: '1510'
+ht-degree: 6%
 ---
-
 # 캔버스 대시보드에서 피벗 테이블 보고서 작성
 
 >[!IMPORTANT]
@@ -132,15 +130,9 @@ ht-degree: 5%
 
    1. 위의 두 단계를 반복하여 최대 2개의 세그먼트를 추가합니다.
 
-1. **필터** 섹션을 구성하려면 아래 단계를 따르십시오.
+1. 왼쪽 패널에서 **필터** ![필터 아이콘](assets/filter-icon.png) 아이콘을 클릭한 다음 표시할 데이터를 결정하는 조건을 구성합니다.
 
-   1. 왼쪽 패널에서 **필터** ![필터 아이콘](assets/filter-icon.png) 아이콘을 클릭합니다.
-
-   1. **필터 편집**&#x200B;을 선택합니다.
-
-   1. **조건 추가**&#x200B;를 클릭한 다음 필터링할 필드와 필드가 충족해야 하는 조건 종류를 정의하는 수정자를 지정합니다.
-
-   1. (선택 사항) 다른 필터링 기준 집합을 추가하려면 **필터 그룹 추가**&#x200B;를 클릭합니다. 세트 사이의 기본 연산자는 AND입니다. 연산자를 클릭하여 OR로 변경합니다.
+   자세한 내용은 [캔버스 대시보드에서 보고서 필터링](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)을 참조하십시오.
 
 1. **드릴다운 열 설정** 섹션을 구성하려면 아래 단계를 따르십시오.
 

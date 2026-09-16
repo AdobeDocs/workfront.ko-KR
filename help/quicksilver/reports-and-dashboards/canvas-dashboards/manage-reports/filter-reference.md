@@ -1,0 +1,246 @@
+---
+product-area: Canvas Dashboards
+navigation-topic: report-types
+title: 캔버스 대시보드에 대한 보고서 필터 참조
+description: 캔버스 대시보드에서 보고서를 필터링할 때 사용할 수 있는 필드, 연산자, 와일드카드 및 특수 규칙에 대한 참조입니다.
+author: Courtney
+feature: Reports and Dashboards
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: dc9caae8cc85543986eaefb1d3debdebfdf6ce96
+workflow-type: tm+mt
+source-wordcount: '1210'
+ht-degree: 7%
+---
+# 캔버스 대시보드에 대한 보고서 필터 참조
+
+>[!IMPORTANT]
+>
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하세요.<br>
+>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>
+>* Amazon Web Services에 대한 자체 키 가져오기
+>* Azure
+>* Google Cloud 플랫폼
+
+이 문서에서는 보고서를 필터링할 때 사용할 수 있는 필드, 연산자, 와일드카드 및 특수 규칙에 대해 설명합니다. 필터를 빌드하거나 편집하는 단계는 [캔버스 대시보드에서 보고서 필터링](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)을 참조하십시오.
+
+## 필드 유형별 필드 연산자
+
++++ 를 확장하여 필드 유형별 필드 연산자 목록을 봅니다. 
+
+<table>
+    <tr>
+        <td><b>필드 유형</b></td>
+        <td><b>예</b></td>
+       <td><b>연산자</b></td>
+        <td><b>와일드카드</b></td>
+    </tr>
+    <tr>
+        <td>개체/참조 이름</td>
+        <td>모든 네이티브 이름 특성 또는 사용자 지정 조회</td>
+              <td><ul>
+        <li>Equal</li>
+        <li>같지 않음</li>
+        <li>다음 포함</li>
+          <li>다음을 포함하지 않음</li>
+            <li>Null임</li>
+              <li>Null이 아님</li>
+        </ul></td>
+        <td>사용자: 이름
+        <ul>
+        <li>나(로그인한 사용자)</li>
+        </ul>
+        그룹: 이름
+        <ul>
+          <li>내 홈 그룹(로그인한 사용자 그룹)</li>
+            <li>내 다른 그룹(로그인한 사용자 그룹)</li>
+          </ul>
+          팀: 이름
+                  <ul>
+          <li>내 기본 팀(로그인한 사용자 팀)</li>
+            <li>내 다른 팀(로그인한 사용자 팀)</li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>문자열/텍스트 입력 </td>
+                <td>프로젝트: 설명</td>
+                      <td><ul>
+             <li>Equal</li>
+        <li>같지 않음</li>
+        <li>다음 포함</li>
+          <li>다음을 포함하지 않음</li>
+            <li>Null임</li>
+              <li>Null이 아님</li>
+        </ul></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>정수 / 더블</td>
+             <td>프로젝트: 계획된 시간
+        <br>작업: 완료율</td>
+              <td><ul>
+        <li>Equal</li>
+        <li>같지 않음</li>
+        <li>보다 큼</li>
+          <li>크거나 같음</li>
+          <li>보다 작음</li>
+          <li>작거나 같음</li>
+            <li>Null임</li>
+              <li>Null이 아님</li>
+        </ul></td>
+        <td></td>
+    </tr>
+       <tr>
+        <td> 날짜 / 날짜 시간 </td>
+                    <td>프로젝트: 계획된 시작 일자
+        <br>시간: 시작 날짜</td>
+              <td><ul>
+        <li>Equal</li>
+        <li>같지 않음</li>
+        </ul></td>
+        <td><b>상대적 날짜 설정</b> 옵션을 전환하여 상대적 날짜 와일드카드를 적용하여 보고서를 보다 동적이고 일반적인 날짜 기간에 따라 자동으로 조정할 수 있습니다. 
+         <ul><li>$$오늘</li>
+         <li>$$NOW</li>
+         </ul>
+        </td>
+    </tr>
+       <tr>
+        <td>부울 </td>
+                  <td>프로젝트: 문서 있음
+        <br>작업: 중요
+        <br> 사용자: 활성 상태입니다.</td>
+        <td><ul>
+        <li>Equal</li>
+        <li>같지 않음</li>
+        </ul></td>
+        <td> </td>
+    </tr>
+   </table>
+
++++
+
+## 날짜 기반 와일드카드 필터 변수
+
+날짜 기반 와일드카드 옵션은 모든 날짜 필터 속성과 함께 사용할 수 있습니다. 보고서에 날짜 기반 와일드카드를 추가하는 방법에 대한 자세한 내용은 [날짜 기반 와일드카드를 사용하여 보고서 일반화](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)를 참조하십시오.
+
+>[!NOTE]
+>
+>시간 부분을 포함하지 않거나 날짜 와일드카드 $$TODAY 또는 $$NOW를 사용하는 날짜 및 시간 계산을 만드는 경우, 시스템은 현지 시간대가 아닌 UTC(협정 세계시) 시간대에 따라 날짜를 사용합니다. 이로 인해 예상치 못한 날짜 결과가 발생할 수 있습니다.
+
+다음 날짜 기반 와일드카드 중에서 선택할 수 있습니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr valign="top"> 
+   <td width="100" role="rowheader"> <p><strong>$$TODAY</strong> </p> </td> 
+   <td> <p>내일, 다음 주 또는 다음 달에 필터를 다시 빌드하지 않도록 이 와일드카드를 사용하여 날짜 구분 필터를 빌드하는 것이 좋습니다.</p> <p>예를 들어 오늘 전에 마감된 모든 작업을 표시하려는 경우 작업 필터에서 다음 규칙을 사용할 수 있습니다. <em>계획된 시작 일자가 $$TODAY보다 작음</em>.</p> <p>$$TODAY는 현재 날짜의 자정과 항상 같습니다.</p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
+   <td> <p>$$TODAY 와일드카드와 유사하지만 현재 날짜 및 시간을 포함합니다. $$NOW는 현재 날짜 및 시간과 같습니다.</p> <p>예를 들어 현재 시간까지 제공된 모든 시간 항목을 표시하려면 시간 필터에서 <em>계획된 시작 일자가 $$NOW</em>보다 작은 규칙을 사용하여 표시할 수 있습니다.</p> <p>참고: 이 와일드카드는 리소스 플래너에서 지원되지 않습니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+다양한 기간 및 다양한 시점(미래 또는 과거)을 나타내기 위해 위의 와일드카드를 다음과 결합할 수 있습니다.
+
+| 속성 |   |
+|---|---|
+| **q** | 달력 분기 |
+| **시간** | 시간 |
+| **d** | 일 |
+| **너비** | 주 |
+| **분** | 개월 |
+| **y** | 년 |
+
+{style="table-layout:auto"}
+
+| **한정자** |   |
+|---|---|
+| **b** | 기간의 시작(지정된 속성이 없음)은 기본적으로 주의 시작(일요일)으로 설정됩니다. |
+| **e** | 기간의 종료(지정된 속성이 없으면 기본값: 주의 종료: 토요일) |
+
+{style="table-layout:auto"}
+
+| **연산자** |   |
+|---|---|
+| **+** | 와일드카드 값에 값 추가 |
+| **-** | 와일드카드 값에서 값 빼기 |
+
+{style="table-layout:auto"}
+
+예를 들어 와일드카드 `$$TODAYb+2w`은(는) &quot;이번 주 초부터 2주&quot;를 참조합니다. 와일드카드 `$$NOW+2h`은(는) &quot;지금부터 2시간 후&quot;를 참조합니다.
+
+## 로그인한 사용자 와일드카드 필터 변수
+
+* 사용자 `name` 특성을 필터링하면 **내(로그인한 사용자)** 옵션이 표시됩니다.
+
+  ![사용자 이름 특성](assets/user-name-attribute.png)
+
+* `name` 그룹 특성을 필터링하면 필터 조건에 사용할 **내 홈 그룹(로그인한 사용자 그룹)** 및 **내 다른 그룹(로그인한 사용자 그룹)** 옵션이 표시됩니다.
+
+  ![그룹 이름 특성](assets/group-name-attribute.png)
+
+* `name` 팀 특성을 필터링하면 필터 조건에서 선택할 **내 기본 팀(로그인한 사용자 팀)** 및 **내 다른 팀(로그인한 사용자 팀)** 옵션이 표시됩니다.
+
+  ![팀 이름 특성](assets/team-name-attribute.png)
+
+## 자식 개체 참조
+
+추가 열, 필터 옵션 및 그룹화 속성에 대해 사용할 수 있는 관계는 일반적으로 Workfront 개체 계층 구조의 상위 개체로 제한되거나 보고서의 기본 엔티티 개체를 한 번만 선택합니다. 여기에는 다음과 같은 몇 가지 예외가 있습니다.
+
+* 프로젝트 > 작업
+* 문서 승인 > 문서 승인 단계
+* 문서 승인 단계 > 문서 승인 단계 참가자
+
+위에 나열된 상위-하위 관계를 활용하는 경우 상위 객체에 연결된 각 하위 레코드에 대한 행이 테이블에 표시됩니다.
+
+<div class="preview">
+
+## 미리 보기에서 컬렉션 관계 필터링
+
+컬렉션은 단일 레코드가 아닌 관련 레코드 그룹에 연결되는 필드입니다. 예를 들어 프로젝트의 승인 단계에 있는 참여자는 컬렉션입니다. 필터를 빌드할 때는 텍스트 모드로 전환하지 않고 컬렉션을 직접 필터링할 수 있습니다.
+
+컬렉션을 필터링하려면 필드 선택 패널을 연 다음 컬렉션을 선택합니다. 이 섹션에는 컬렉션 관계만 나열됩니다. 단일 레코드 관계는 관계 아래에 유지됩니다.
+
+![컬렉션 관계](assets/collections.png)
+
+컬렉션을 선택한 후에는 다음 두 가지 작업을 수행할 수 있습니다.
+
+* 컬렉션의 자체 필드를 필터링합니다. 예를 들어 포트폴리오의 프로젝트에서 프로젝트의 상태를 필터링할 수 있습니다.
+* 컬렉션에서 하나의 단일 레코드 관계를 따릅니다. 예를 들어 포트폴리오의 프로젝트에서 프로젝트 소유자에게 연결할 수 있습니다.
+
+컬렉션은 더 깊은 탐색을 지원하지 않습니다. 다른 컬렉션 내부에 중첩된 컬렉션을 열거나, 둘 이상의 관계를 팔로우하거나, 시작한 위치로 돌아가는 관계를 선택할 수 없습니다.
+
+컬렉션 섹션은 필터를 빌드할 때만 나타납니다. 테이블 열, 그룹화 또는 차트 필드와 같은 다른 필드 선택기에는 표시되지 않습니다.
+
+</div>
+
+## 개인 프로젝트, 작업 및 봇 사용자 제외
+
+>[!NOTE]
+>
+>캔버스 대시보드 보고서가 유사한 클래식 보고서와 비교하여 예상한 것보다 더 많은 결과를 반환하는 경우 기본적으로 개인 프로젝트, 개인 작업 또는 봇 사용자가 포함될 수 있습니다. 제외할 필터 조건을 추가합니다.
+
+캔버스 대시보드 프로젝트 및 작업 보고서에서 `isPersonal` 필터가 자동으로 적용되지 않으므로 기본적으로 개인 프로젝트 및 개인 작업이 결과에 포함됩니다. 제외하려면 `isPersonal=false`과(와) 같은 필터 조건을 추가하십시오.
+
+마찬가지로 캔버스 대시보드 사용자 보고서에는 AI 공동 작업자(봇 사용자)를 비롯한 모든 사용자가 기본적으로 포함됩니다. 봇 사용자를 제외하려면 `isBot=false`과(와) 같은 필터 조건을 추가하십시오.
+
+클래식 프로젝트 및 작업 보고서는 개인 프로젝트와 개인 작업을 자동으로 제외하며 클래식 사용자 보고서는 보트 사용자를 자동으로 제외합니다. 대신 클래식 보고서에 포함하려면 `isPersonal=true`(개인 항목만) 또는 `isPersonal_Mod=notnull`(개인 항목 및 비개인 항목)과 같은 필터 조건을 추가하십시오.

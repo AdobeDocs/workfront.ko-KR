@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1406
+source-wordcount: '1347'
 ht-degree: 6%
-
 ---
-
 # 캔버스 대시보드에서 KPI 보고서 작성
 
 >[!IMPORTANT]
@@ -121,17 +125,9 @@ KPI 보고서를 작성하는 데 사용할 수 있는 구성 옵션은 여러 �
 
    1. **집계 유형** 드롭다운에서 데이터를 롤업하여 KPI 출력을 생성하는 방법을 선택합니다. 이 필드의 옵션은 이전 단계에서 선택한 필드 유형에 따라 달라집니다.
 
-1. **필터** 섹션을 구성하려면 아래 단계를 따르십시오.
+1. 왼쪽 패널에서 **필터** ![필터 아이콘](assets/filter-icon.png) 아이콘을 클릭한 다음 표시할 데이터를 결정하는 조건을 구성합니다.
 
-   1. 왼쪽 패널에서 **필터** ![필터 아이콘](assets/filter-icon.png) 아이콘을 클릭합니다.
-
-   1. **필터 편집**&#x200B;을 선택합니다.
-
-   1. **조건 추가**&#x200B;를 클릭한 다음 필터링할 필드와 필드가 충족해야 하는 조건 종류를 정의하는 수정자를 지정합니다.
-
-   1. (선택 사항) 다른 필터링 기준 집합을 추가하려면 **필터 그룹 추가**&#x200B;를 클릭합니다. 세트 사이의 기본 연산자는 AND입니다. 연산자를 클릭하여 OR로 변경합니다.
-
-      필터에 대한 자세한 내용은 [캔버스 대시보드에서 보고서 필터 편집](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)을 참조하십시오.
+   자세한 내용은 [캔버스 대시보드에서 보고서 필터링](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)을 참조하십시오.
 
 1. **드릴다운 열 설정** 섹션을 구성하려면 아래 단계를 따르십시오.
 
@@ -141,11 +137,9 @@ KPI 보고서를 작성하는 데 사용할 수 있는 구성 옵션은 여러 �
 
    1. **열 추가**&#x200B;를 클릭한 다음 테이블에 열로 표시할 필드를 선택합니다. 추가할 각 열에 대해 이 프로세스를 반복합니다.
 
-1. **드릴다운 그룹 설정** 섹션을 구성하려면 아래 단계를 따르십시오.
+1. 왼쪽 패널에서 **드릴다운 그룹 설정** ![드릴다운 그룹 아이콘](assets/drilldown-group-icon.png) 아이콘을 클릭한 다음 드릴다운 테이블에 대한 그룹화를 추가합니다.
 
-   1. 왼쪽 패널에서 **그룹 설정** ![드릴다운 그룹 아이콘](assets/drilldown-group-icon.png) 아이콘을 클릭합니다.
-
-   1. **그룹화 추가** 단추를 클릭한 다음 그룹화로 만들 필드를 선택합니다.
+   자세한 내용은 [차트 및 KPI 보고서에서 드릴다운 그룹화 구성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)([캔버스 대시보드의 보고서 데이터 그룹화](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md))을 참조하십시오.
 
 1. 보고서를 만들고 대시보드에 추가하려면 **저장**&#x200B;을 클릭하세요.
 
