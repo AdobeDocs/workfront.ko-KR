@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
+source-git-commit: 10d95f7fc71d72edd5cbb292af69a348b648b4ba
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '2057'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
@@ -16,6 +16,61 @@ ht-degree: 0%
 이 문서에서는 2026년 4분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 이제 Workfront Planning에서 CX Coworker을 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 3일
+>프로덕션 빠른 릴리스: 2026년 9월 17일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 CX Coworker을 Workfront Planning 내에서 사용할 수 있습니다. 이제 Workfront Planning 전체에서 사용할 수 있는 패널에서 CX Coworker에 액세스할 수 있습니다.
+
+CX Coworker Chat 은 작업 완료를 위한 대화 인터페이스입니다. 목표를 일반 언어로 설명하면 동료가 작업을 계획하고 Workfront Planning 및 연결된 Adobe 시스템에서 작업을 실행하고 결과를 확인한 다음 완료된 작업을 다시 사용자에게 제출하여 승인을 받습니다.
+
+동료는 기본적으로 읽기 전용 액세스 권한을 가진 조직의 기존 액세스 제어를 준수하며 시스템 관리자는 사용자가 쓰기 액세스 권한을 받을 때 제어합니다.
+
+동료는 작업을 완료할 수 있는 보다 강력한 방법으로 현재 AI Assistant를 대체하고 있습니다. 동료는 Adobe 에코시스템의 일부이며 Workfront Planning에만 국한되지 않습니다.
+
+>[!IMPORTANT]
+>
+>CX Coworker 는 현재 의료 서비스, 금융 기관 또는 중요한 데이터가 있는 기타 업계 조직에서 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다.
+
+자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
+
+<!--
+
+## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+
+>[!NOTE]
+>
+>Preview: September 16, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+This change is available for customers who have the CX Coworker in Workfront.
+
+In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
+
+For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
+-->
+
+## 일대일 또는 일대다 연결 유형이 있는 연결된 필드가 있는 레코드를 복제할 때 경험이 개선되었습니다
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 17일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 일대일 또는 일대다 연결된 레코드가 있는 경우에도 레코드를 복제할 수 있습니다. 복제 후 사용자는 연결된 레코드를 원래 레코드에 유지하거나 새 레코드에 연결하도록 선택할 수 있습니다. 기본적으로 원본을 유지합니다.
+
+연결 충돌 해결 대화 상자가 업데이트되어 이 새로운 동작을 반영하고 연결된 레코드를 관리할 때 보다 유연하게 대처할 수 있습니다.
+
+자세한 내용은 [중복 레코드](/help/quicksilver/planning/records/copy-or-duplicate-records.md)을(를) 참조하십시오.
 
 ## 표 보기의 기본 필드 열에서 레코드의 썸네일 및 색상의 가시성을 관리합니다.
 
