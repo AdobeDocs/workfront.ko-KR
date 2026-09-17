@@ -11,24 +11,30 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/j4ZFzyPot9XkML8u1-kmO6x4lRR3X2SGBwfthepmir0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+    internal-label: Administration
+source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
 workflow-type: tm+mt
-source-wordcount: 3066
+source-wordcount: '3066'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront Planning에서 요청 양식 만들기 및 관리
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
@@ -237,6 +243,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 * 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다. 요청은 Workfront의 요청 영역에 남아 있습니다.
 * 두 명 이상의 승인자를 추가할 때 [하나의 결정만 필요] 옵션이 활성화되어 있지 않은 경우 요청이 승인 또는 거부되기 전에 모든 승인자가 결정을 내려야 합니다.
 * 팀이 승인자로 설정된 경우 팀에서 하나의 결정만 필요합니다.
+  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
 
 승인 추가에 대한 자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
 
@@ -255,11 +262,13 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
    ![기본 승인 규칙 영역](assets/default-approvers.png)
 
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
+
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. (선택 사항) 각 추가 승인 규칙에 대해 다음을 수행합니다.
 
-   1. **승인 규칙 추가** 클릭
+   1. **승인 규칙 추가**&#x200B;를 클릭합니다.
    1. 자리 표시자 제목 &quot;제목 없는 승인 규칙&quot;을 클릭하고 승인 규칙의 이름을 입력합니다.
    1. **필드 선택**&#x200B;을 클릭하고 규칙을 활성화할 필드를 선택합니다.
    1. 규칙에 대한 연산자를 선택합니다. 연산자는 필드 유형에 따라 다릅니다.
@@ -267,6 +276,8 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    1. (선택 사항) 조건 추가를 클릭하고 추가 조건을 구성하여 AND 또는 OR를 사용하여 조건을 더 추가합니다.
    1. 승인 규칙의 작업 영역의 **승인자** 필드에서 조건이 충족될 때 승인자에서 설정할 사용자 또는 팀을 하나 이상 추가합니다.
    1. (조건부) 승인자 중 한 명이 레코드를 승인한 후 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 선택합니다.
+
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
 
 1. (선택 사항) 라우팅 규칙을 재정렬하려면 규칙 왼쪽에 있는 드래그 핸들을 클릭하고 규칙을 원하는 위치로 드래그합니다.
 
