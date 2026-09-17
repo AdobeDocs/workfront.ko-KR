@@ -11,28 +11,32 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yk-q-wKrbIgyxw3WAz9un5HTNpwtdwFqaPFUQ6PzhT0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 2%
-
+source-wordcount: '714'
+ht-degree: 1%
 ---
-
 # 중복 레코드
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<!--Remove Prod and Preview references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 {{planning-important-intro}}
 
@@ -149,7 +153,7 @@ Old:
 -->
 
 
-## &#x200B;<!--in a record type table (I don't think you can create them elsewhere right now)--> 레코드 복제
+## <!--in a record type table (I don't think you can create them elsewhere right now)--> 레코드 복제
 
 기존 레코드를 복제하여 레코드 유형 페이지의 표 보기에서 레코드를 만들 수 있습니다. 기존 레코드와 동일한 레코드가 생성되어 원본 레코드 아래에 추가됩니다.
 
@@ -178,6 +182,11 @@ Old:
      ![테이블 보기의 도구 모음에 있는 중복 아이콘](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    원래 레코드 아래에 이름이 같은 동일한 레코드가 만들어집니다. 새 레코드의 모든 필드는 원래 레코드와 동일한 정보로 채워집니다.
+
+1. (조건부) 복제하려는 레코드가 일대다 또는 일대다 연결 유형의 레코드에 연결되어 있는 경우 사용 중인 환경에 따라 다음 중 하나를 클릭합니다.
+
+   * 프로덕션 환경에서 **연결**&#x200B;을 클릭하여 원본 레코드에서 연결된 레코드를 제거하고 중복된 레코드에 추가하거나, 레코드를 계속 복제하지 않으려면 **취소**&#x200B;를 클릭합니다.
+   * <span class="preview">미리 보기 환경에서 연결된 레코드를 새 레코드로 이동하려면 **새 레코드에 연결**&#x200B;을 클릭하고, 연결된 레코드를 원본 레코드로 유지하려면 **원본 레코드로 유지**&#x200B;를 클릭합니다. 복제된 레코드에는 해당 필드에 연결된 레코드가 없습니다.</span>
 
 1. (선택 사항) 테이블 보기에서 사용할 수 있는 필드에서 새 레코드에 대한 정보 업데이트를 시작하거나 레코드 미리 보기 또는 페이지에서 레코드 및 업데이트 정보를 클릭합니다.
 

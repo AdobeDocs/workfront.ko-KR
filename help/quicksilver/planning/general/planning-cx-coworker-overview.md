@@ -1,53 +1,31 @@
 ---
-title: Adobe Workfront Planning AI Assistant 개요
-description: AI 비서를 사용하여 현재 페이지 컨텍스트 및 레코드 구조를 기반으로 레코드를 생성, 업데이트 또는 제거할 수 있습니다. 사용자의 명령과 AI의 해당 명령 실행은 함께 작동하여 AI가 수행한 변경 사항이 환경에 정확하게 반영되도록 합니다.
+title: Adobe Workfront Planning CX Coworker 개요
+description: Workfront Planning의 CX Coworker을 사용하여 일반적으로 인터페이스에서 수행하는 Planning의 레코드 및 기타 객체와 유사한 작업을 수행할 수 있습니다. 사용자의 명령과 AI의 해당 명령 실행은 함께 작동하여 AI가 수행한 변경 사항이 환경에 정확하게 반영되도록 합니다.
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3I5y7eTZml-nkAiAYnBFuaw72DyXgNG12D-EVYVourA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-    internal-label: Administration
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-    internal-label: Get started
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
 source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '1007'
 ht-degree: 1%
 ---
-# Adobe Workfront Planning AI Assistant 개요
+
+# Adobe Workfront Planning CX Coworker 개요
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 
 {{planning-important-intro}}
 
-AI Assistant를 사용하여 현재 페이지 컨텍스트를 기반으로 Adobe Workfront Planning에서 레코드 및 기타 객체를 변경하거나 갱신할 수 있습니다.
+CX Coworker은 목표를 일반 언어로 설명한 다음 Adobe 및 연결된 시스템 전반에서 작업을 계획, 실행 및 확인한 다음 승인을 위해 다시 가져오는 대화 인터페이스입니다.
 
-사용자의 명령과 AI의 해당 명령 실행은 함께 작동하여 AI가 수행한 변경 사항이 환경에 정확하게 반영되도록 합니다.
+CX Coworker은 새로운 전체 화면 경험과 Workfront 오른쪽 레일 모두에서 강력한 엔드 투 엔드 기능을 추가하면서 현재 AI Assistant가 수행하는 모든 작업을 유지합니다.
+
+조직의 기존 제품 수준 액세스 제어 내에서 작동하므로 사용자는 기본적으로 읽기 전용 액세스 권한과 Workfront 관리자가 제어하는 쓰기 액세스 권한으로 Workfront에서 이미 허용된 작업만 수행할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -79,11 +57,10 @@ AI Assistant를 사용하여 현재 페이지 컨텍스트를 기반으로 Adobe
 <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
    <td>  
-     <p>관리자는 AI Assistant에 대한 액세스를 허용하려면 다음을 수행해야 합니다.</p>
+   <p>관리자는 Planning에서 CX Coworker에 대한 액세스를 허용하려면 다음을 수행해야 합니다.</p>
    <ul>
    <li><p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가합니다.</p></li>
-   <li><p>액세스 수준에서 Workfront AI Assistant 설정 비활성화를 선택 취소합니다</p></li></ul>
-
+   <li><p>액세스 수준에서 Workfront의 CX Coworker 패널 비활성화 설정을 선택 취소합니다. 기본적으로 선택되어 있습니다.</p></li></ul>
 </td> 
   </tr> 
   <tr> 
@@ -94,7 +71,7 @@ AI Assistant를 사용하여 현재 페이지 컨텍스트를 기반으로 Adobe
 
 <tr> 
    <td role="rowheader"><p>시스템 설정</p></td> 
-   <td>   <p>Workfront 관리자가 설정의 시스템 환경 설정 영역에서 AI 활성화 설정을 선택하고 AI에 서명하여 AI Assistant에 액세스해야 합니다</p>  
+   <td>   <p>Workfront 관리자는 [설정]의 [시스템 환경 설정] 영역에서 [읽기 전용] 및 [쓰기 전용] MCP 도구를 선택해야 합니다. 읽기 전용 MCP 도구는 기본적으로 선택됩니다.</p> 
     </td> 
   </tr> 
 </tbody> 
@@ -105,11 +82,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 +++
 
 
-## AI Assistant에 대한 고려 사항
+## CX Coworker에 대한 고려 사항
 
-* 귀사의 사용자가 AI Assistant를 사용할 수 있으려면 먼저 귀사에서 AI Assistant를 활성화해야 합니다.
+* 조직의 사용자가 CX Coworker을 사용하려면 먼저 귀사에서 활성화해야 합니다.
 
-  자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
+  자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
 * Workfront이 조직에 대해 에이전트를 활성화하면 기본 Workfront 관리자가 사용할 수 있습니다. 자세한 내용은 [시스템에 대한 기본 정보 구성](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)을 참조하십시오.
 
