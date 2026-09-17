@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bc90d9bf6c793baafc600e87d8e36570ee8fb58f
+source-git-commit: b6991b200d21445caa5ef4d29ad2e35a64aed304
 workflow-type: tm+mt
-source-wordcount: '2962'
+source-wordcount: '2841'
 ht-degree: 1%
 ---
 # 2026년 4분기 릴리스 개요
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 이 페이지는 2026년 4분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 추가 개선 사항으로 업데이트됩니다.
 
-라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/ko/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
+라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/en/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
 
 >[!IMPORTANT]
 >
@@ -190,7 +190,7 @@ ht-degree: 1%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">이제 Workfront에서 CX Coworker 사용 가능</a>
-                <p>CX Coworker은 현재의 AI Assistant를 대체하여 Workfront 및 연결된 Adobe 시스템에서 작업을 수행하기 위한 새로운 대화 인터페이스입니다.</p>
+                <p>CX Coworker는 Workfront 및 연결된 Adobe 시스템에서 작업을 수행하기 위한 새로운 대화 인터페이스로서 현재의 AI Assistant를 대체합니다.</p>
             </td>
             <td><p>2026년 9월 3일</p></td>
             <td><p>2026년 9월 17일</p></td>
@@ -481,7 +481,7 @@ ht-degree: 1%
     &lt;p>문서 및 작업 승인을 위해 캔버스 대시보드에 사용되는 여러 필드 이름이 명확성을 위해 변경되었습니다.&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
-    &lt;p>N/A&lt;/p>&lbrace;1> 28, 2026&lt;/p>&lt;/td>
+    &lt;p>N/A&lt;/p>{1> 28, 2026&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;tr>
     &lt;td>
@@ -497,7 +497,7 @@ ht-degree: 1%
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>예약된 보고서에 대한 종료 날짜 적용&lt;/a>
     &lt;p>예약된 보고서에 대해서는 이제 종료 날짜가 필요합니다. 자동 비활성화로 일정에 대한 종료 날짜가 지나간 후에 무기한 전달을 방지할 수 있습니다.&lt;/p>
     &lt;/td>
-    &lt;td>&lt;p>2026&lt;/p>&lt;/td>&lbrace;3> 2026년 9월 17일&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026&lt;/p>&lt;/td>{3> 2026년 9월 17일&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;tr>
@@ -512,7 +512,7 @@ ht-degree: 1%
     &lt;tr>
     &lt;td>
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>이전 목록 및 보고서의 다중 선택 필드 값에 대한 일관성 있는 순서&lt;/a>
-    &lt;p>다중 선택 사용자 지정 필드에 대해 선택한 옵션&lt;/td50&rbrace;&lt;3/p>
+    &lt;p>다중 선택 사용자 지정 필드에 대해 선택한 옵션&lt;/td50}&lt;3/p>
      2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026년 8월 13일&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
@@ -618,22 +618,24 @@ ht-degree: 1%
 * [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Adobe Workfront Planning 2026년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
-## 데스크톱 증명 뷰어 업데이트
+<!--
+## Desktop proofing viewer updates
 
-### 버전 2.2.1
+### Version 2.2.1
 
-모든 고객을 위한 프로덕션 릴리스: 2026년 9월 16일
+Production release for all customers: September 16, 2026
 
-Desktop Proofing Viewer가 버전 2.2.1로 업데이트되었습니다. 이 업데이트에는 다음 변경 사항이 포함됩니다.
+The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
 
-* 이제 전환할 때 다시 설치하지 않고 동일한 뷰어에서 모든 환경(프로덕션, 미리보기, 샌드박스 및 기타)에서 증명을 열 수 있습니다.
-* 미국이 아닌 지역의 URL에서 증명을 열 때 발생하는 문제를 해결했습니다.
-* 이제 뷰어에 10개의 최신 증명이 보관됩니다.
-* Workfront 로고를 현재 브랜딩으로 업데이트했습니다.
-* 문제 해결 속도를 높이기 위해 Workfront Proof 정보 화면에 자세한 내용을 추가했습니다.
-* 성능 및 보안 개선을 위한 기본 프레임워크(Electron)가 업데이트되었습니다.
+* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
+* Resolved an issue with opening proofs from a URL on non-US regions.
+* The viewer now keeps your 10 most recent proofs.
+* Updated the Workfront logo to the current branding.
+* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
+* Updated the underlying framework (Electron) for performance and security improvements.
 
-Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)를 참조하십시오.
+For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+-->
 
 ## 공지
 
@@ -645,8 +647,8 @@ Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용
 
 이 변경 사항은 2026년 4월 Workfront 릴리스 정보에서 처음 발표되었으며, 기한 전에 알려 주는 최종 알림입니다. 영향을 받는 모든 리더 사용자가 2026년 8월 8일 이전에 MFA를 활성화하여 액세스 중단을 방지해야 합니다.
 
-자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/ko/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
+자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
