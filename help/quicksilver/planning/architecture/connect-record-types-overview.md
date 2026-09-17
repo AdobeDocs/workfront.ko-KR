@@ -9,23 +9,29 @@ exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 2498
+source-wordcount: '2578'
 ht-degree: 1%
-
 ---
-
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # 연결된 레코드 유형 개요
@@ -206,6 +212,14 @@ ht-degree: 1%
     자세한 내용 및 추가 고려 사항은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.
 
   </div>
+
+* 일대일 또는 일대다 연결 유형의 연결된 레코드와 레코드를 복제하는 경우 다음과 같은 시나리오가 있습니다.
+
+  * 프로덕션 환경에서는 연결된 레코드가 복제된 레코드로 이동하거나, 레코드를 복제하기 전에 원본에서 수동으로 제거한 다음 다시 추가해야 합니다.
+  * <span class="preview">미리 보기 환경에서 연결된 레코드가 원본 레코드에 남아 있는지 아니면 중복된 레코드로 이동하는지 여부를 선택할 수 있습니다.</span>
+
+  자세한 내용은 [중복 레코드](/help/quicksilver/planning/records/copy-or-duplicate-records.md)를 참조하십시오.
+
 
 ## 연결 유형
 

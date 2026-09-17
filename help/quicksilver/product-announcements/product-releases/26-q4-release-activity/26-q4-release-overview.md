@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: bc90d9bf6c793baafc600e87d8e36570ee8fb58f
 workflow-type: tm+mt
-source-wordcount: '2919'
+source-wordcount: '2962'
 ht-degree: 1%
 ---
 # 2026년 4분기 릴리스 개요
@@ -620,14 +620,18 @@ ht-degree: 1%
 
 ## 데스크톱 증명 뷰어 업데이트
 
-### 버전 2.1.59
+### 버전 2.2.1
 
-모든 고객을 위한 프로덕션 릴리스: 2026년 9월 9일
+모든 고객을 위한 프로덕션 릴리스: 2026년 9월 16일
 
-Desktop Proofing Viewer가 버전 2.1.59로 업데이트되었습니다. 이 업데이트에는 다음 변경 사항이 포함됩니다.
+Desktop Proofing Viewer가 버전 2.2.1로 업데이트되었습니다. 이 업데이트에는 다음 변경 사항이 포함됩니다.
 
-* 이제 Desktop Proofing Viewer를 Apple 실리콘이 포함된 Mac의 기본 빌드로 사용할 수 있습니다.
-* 기본 애플리케이션 프레임워크(Electron)가 최신 버전으로 업데이트되어 성능과 보안이 개선되었습니다.
+* 이제 전환할 때 다시 설치하지 않고 동일한 뷰어에서 모든 환경(프로덕션, 미리보기, 샌드박스 및 기타)에서 증명을 열 수 있습니다.
+* 미국이 아닌 지역의 URL에서 증명을 열 때 발생하는 문제를 해결했습니다.
+* 이제 뷰어에 10개의 최신 증명이 보관됩니다.
+* Workfront 로고를 현재 브랜딩으로 업데이트했습니다.
+* 문제 해결 속도를 높이기 위해 Workfront Proof 정보 화면에 자세한 내용을 추가했습니다.
+* 성능 및 보안 개선을 위한 기본 프레임워크(Electron)가 업데이트되었습니다.
 
 Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)를 참조하십시오.
 
