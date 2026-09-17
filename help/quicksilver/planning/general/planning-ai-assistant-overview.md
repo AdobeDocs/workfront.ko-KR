@@ -28,19 +28,19 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '988'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning AI Assistant 개요
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 
 {{planning-important-intro}}
@@ -48,6 +48,10 @@ ht-degree: 1%
 AI Assistant를 사용하여 현재 페이지 컨텍스트를 기반으로 Adobe Workfront Planning에서 레코드 및 기타 객체를 변경하거나 갱신할 수 있습니다.
 
 사용자의 명령과 AI의 해당 명령 실행은 함께 작동하여 AI가 수행한 변경 사항이 환경에 정확하게 반영되도록 합니다.
+
+>[!IMPORTANT]
+>
+><span class="preview">일부 조직에서는 AI 도우미가 CX Coworker으로 대체되었습니다. 자세한 내용은 [Adobe Workfront Planning CX Coworker 개요](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -111,7 +115,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
   자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
 
-* Workfront이 조직에 대해 에이전트를 활성화하면 기본 Workfront 관리자가 사용할 수 있습니다. 자세한 내용은 [시스템에 대한 기본 정보 구성](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)을 참조하십시오.
+* Workfront이 조직에 대해 에이전트를 활성화하면 기본 Workfront 관리자가 사용할 수 있습니다. 자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
 
 * Workfront 관리자는 다른 모든 사용자에 대해 AI Assistant를 활성화해야 합니다. 자세한 내용은 [AI Assistant 사용 또는 사용 안 함](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)을 참조하십시오.
 
@@ -150,12 +154,17 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## Workfront Planning에서 AI Assistant 찾기
 
+>[!NOTE]
+>
+><span class="preview">조직에서 CX Coworker에 대한 액세스 권한을 받은 경우 CX Coworker을 찾는 것은 AI Assistant를 찾는 것과 비슷합니다. 자세한 내용은 [Adobe Workfront Planning CX Coworker 개요](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>를 참조하십시오.
+
+
 Workfront Planning의 다음 영역에서 AI Assistant를 찾을 수 있습니다.
 
 * 화면 오른쪽 상단의 기본 탐색 모음
 * 미리 보기에서 레코드를 연 후 또는 레코드의 페이지를 연 후 레코드의 세부 사항 영역 내에서.
 
-## 계획 영역에서 AI 지원에 액세스
+### 계획 영역에서 AI 지원에 액세스
 
 1. Workfront에 로그인한 다음 왼쪽 상단의 **주 메뉴** 아이콘 ![줄 주 메뉴](assets/lines-main-menu.png)를 클릭한 다음 **계획**&#x200B;을 클릭합니다.
 

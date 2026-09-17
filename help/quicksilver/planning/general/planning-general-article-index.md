@@ -11,16 +11,17 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IPvYru6al05HMWf7jLZ1XuGWD8Eq2P6s22NamtxqA4w
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b5b73103671c4a478d7e3a5f4eeb9672bac62de4
+    internal-label: Admin
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: 191
-ht-degree: 23%
-
+source-wordcount: '197'
+ht-degree: 22%
 ---
-
 # Adobe Workfront Planning 일반 정보: 문서 색인
 
 {{planning-important-intro}}
@@ -32,6 +33,13 @@ ht-degree: 23%
 * [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)
 * [Workfront Planning termonologi 개요](/help/quicksilver/planning/general/planning-terminology.md)
 * [Adobe Workfront Planning AI Assistant 개요](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
+
+<div class="preview">
+
+* [Adobe Workfront Planning CX Coworker 개요](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+
+</div>
+
 * [Adobe Workfront Planning API 기본 사항](/help/quicksilver/planning/general/planning-api-basics.md)
 * [Adobe Workfront Planning 객체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md)
 * [Adobe Workfront 2024년 릴리스 활동 계획](/help/quicksilver/planning/general/release-activity.md)
@@ -40,5 +48,6 @@ ht-degree: 23%
 * [Adobe Workfront Planning 구현 권장 사항](/help/quicksilver/planning/general/planning-best-practices.md)
 * [Adobe Workfront Planning Designer 시작](/help/quicksilver/planning/general/planning-ai-designer.md)
 * [Adobe Workfront Planning 무료 평가판 시작](/help/quicksilver/planning/general/trial-workfront-planning.md)
+
 
 
