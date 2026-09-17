@@ -11,20 +11,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9ZMHrzOvdpkdnbBapJ65HFLutu0lfYmSOCamto-AU0c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1971
-ht-degree: 4%
-
+source-wordcount: '1860'
+ht-degree: 5%
 ---
-
 # 캔버스 대시보드에서 차트 보고서 작성
 
 >[!IMPORTANT]
@@ -175,12 +178,9 @@ ht-degree: 4%
 
 ### 필터
 
-**필터** 섹션을 구성하려면 아래 단계를 따르십시오.
+왼쪽 패널에서 **필터** ![필터 아이콘](assets/filter-icon.png) 아이콘을 클릭한 다음 표시할 데이터를 결정하는 조건을 구성합니다.
 
-1. 왼쪽 패널에서 **필터**![&#x200B;필터 아이콘](assets/filter-icon.png) 아이콘을 클릭합니다.
-1. **필터 편집**&#x200B;을 선택합니다.
-1. **조건 추가**&#x200B;를 클릭한 다음 필터링할 필드와 필드가 충족해야 하는 조건 종류를 정의하는 수정자를 지정합니다.
-1. (선택 사항) 다른 필터링 기준 집합을 추가하려면 **필터 그룹 추가**&#x200B;를 클릭합니다. 세트 사이의 기본 연산자는 AND입니다. 연산자를 클릭하여 OR로 변경합니다.
+자세한 내용은 [캔버스 대시보드에서 보고서 필터링](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)을 참조하십시오.
 
 ### 드릴다운 설정
 
@@ -194,13 +194,11 @@ ht-degree: 4%
 
 ### 드릴다운 그룹 설정
 
-**드릴다운 그룹 설정** 섹션을 구성하려면 아래 단계를 따르십시오.
+왼쪽 패널에서 **드릴다운 그룹 설정** ![그룹 설정](assets/drilldown-group-icon.png) 아이콘을 클릭한 다음 드릴다운 테이블에 대한 그룹화를 추가합니다.
 
-1. 왼쪽 패널에서 **그룹 설정** ![그룹 설정](assets/drilldown-group-icon.png) 아이콘을 클릭합니다.
+자세한 내용은 [차트 및 KPI 보고서에서 드릴다운 그룹화 구성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)([캔버스 대시보드의 보고서 데이터 그룹화](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md))을 참조하십시오.
 
-1. **그룹화 추가** 단추를 클릭한 다음 그룹화로 만들 필드를 선택합니다.
-
-1. 보고서를 만들고 대시보드에 추가하려면 **저장**&#x200B;을 클릭하세요.
+보고서를 만들고 대시보드에 추가하려면 **저장**&#x200B;을 클릭하세요.
 
 ## 차트 보고서 예제 작성
 
@@ -266,7 +264,7 @@ ht-degree: 4%
 
    1. 평가기 필드에 *$$TODAY*&#x200B;을(를) 입력합니다.
 
-      와일드카드에 대한 자세한 내용은 [캔버스 대시보드의 보고서 필터 편집](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md) 문서에서 날짜 기반 와일드카드 필터 변수 섹션을 참조하십시오.
+      자세한 내용은 [캔버스 대시보드에 대한 보고서 필터 참조](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)의 [날짜 기반 와일드카드 필터 변수](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#date-based-wildcard-filter-variables)를 참조하십시오.
 
       ![평가기 필드](assets/add-condition.png)
 
@@ -326,10 +324,4 @@ ht-degree: 4%
 
 ### 자식 개체 참조
 
-추가 열, 필터 옵션 및 그룹화 속성에 대해 사용할 수 있는 관계는 일반적으로 Workfront 개체 계층 구조의 상위 개체로 제한되거나 보고서의 기본 엔티티 개체를 한 번만 선택합니다. 여기에는 다음과 같은 몇 가지 예외가 있습니다.
-
-* 프로젝트 > 작업
-* 문서 승인 > 문서 승인 단계
-* 문서 승인 단계 > 문서 승인 단계 참가자
-
-위에 나열된 상위-하위 관계를 활용하는 경우 상위 객체에 연결된 각 하위 레코드에 대한 행이 테이블에 표시됩니다.
+일부 상위-하위 관계는 열, 필터 및 그룹화에 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드에 대한 보고서 필터 참조](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)에서 [자식 개체 참조](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects)를 참조하십시오.

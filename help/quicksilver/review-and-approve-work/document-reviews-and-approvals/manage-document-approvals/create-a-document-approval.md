@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
+source-git-commit: bef848df8b263de89bfa90b7fec74b14734dfeff
 workflow-type: tm+mt
 source-wordcount: '2878'
 ht-degree: 1%
@@ -132,9 +132,9 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 
    ![기본 모드에서 승인 요청](assets/request-approval-basic.jpeg)
 
-   <!-- 
-   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
-   -->
+<!--
+preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+-->
 
 ### 고급 승인 작업 과정 만들기
 
@@ -204,7 +204,7 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 
    ![병렬 경로가 있는 고급 모드](assets/request-approval-parallel-paths.jpeg)
 
-<!-- 
+<!--
 preview screen
 ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
 -->
@@ -266,9 +266,9 @@ preview screen
 
    ![기본 모드에서 승인 요청](assets/request-approval-basic.jpeg)
 
-   <!-- 
-   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
-   -->
+<!--
+preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+-->
 
 
 
@@ -347,10 +347,10 @@ preview screen
 
    ![병렬 경로가 있는 고급 모드](assets/request-approval-advanced.jpeg)
 
-   <!-- 
-   preview screen
-   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
-   -->
+<!--
+preview screen
+![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. (선택 사항) 모든 경로와 단계를 지우고 다시 시작하려면 오른쪽 상단의 **재설정**&#x200B;을 클릭합니다.
 

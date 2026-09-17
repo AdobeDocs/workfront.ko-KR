@@ -3,13 +3,11 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: 4f6ce5b53e3c85225ad82cb88c699aa4871526cc
 workflow-type: tm+mt
-source-wordcount: '14542'
+source-wordcount: '14563'
 ht-degree: 2%
-
 ---
-
 # Workfront 안내서 {#using}
 
 * [Workfront 설명서](home.md)
@@ -1645,7 +1643,9 @@ ht-degree: 2%
     * 보고서 관리 {#manage-reports}
       * [보고서 관리: 문서 색인](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
       * [캔버스 대시보드에서 보고서 편집](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-      * [캔버스 대시보드에서 보고서 필터 편집](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+      * [캔버스 대시보드에서 보고서 필터링](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
+      * [캔버스 대시보드에 대한 보고서 필터 참조](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
+      * [캔버스 대시보드에서 보고서 데이터 그룹화](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
       * [캔버스 대시보드에서 보고서 복제](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [캔버스 대시보드에서 보고서 삭제](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * 보고서 {#reports}
@@ -1849,6 +1849,7 @@ ht-degree: 2%
     * [Snowflake에 대한 Reader 계정 또는 연결 만들기](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [Workfront Data Connect에 연결 설정](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront Data Connect 데이터 사전](reports-and-dashboards/data-lake/data-dictionary.md)
+    * {hide-from-toc}[Workfront Data Connect에 대한 비공개 목록 등록](reports-and-dashboards/data-lake/register-a-private-listing.md)
     * {hide-from-toc}[데이터 사전 테스트](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Workfront Data Connect 쿼리 예제](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Workfront Data Connect 사용 지표 보기](reports-and-dashboards/data-lake/view-usage-metrics.md)
