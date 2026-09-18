@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: ac94936cc4dc9dc4f2d56b3f1221f71a405c5c65
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1335'
 ht-degree: 2%
 ---
 
@@ -15,11 +15,10 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 Adobe Workfront Planning 레코드 필드를 다른 사용자와 공유하여 Workfront Planning 사용 시 공동 작업을 보장할 수 있습니다.
 
@@ -87,9 +86,15 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 * 필드에 대한 액세스는 다음 설정을 결합하여 가져옵니다.
 
   * **상속된 사용 권한**: 기본적으로 필드는 다른 사람이 레코드 형식에 대해 가지고 있는 동일한 액세스 권한을 상속합니다. 상속된 권한을 끄고 사용자에게 레코드 유형에 대한 액세스 권한보다 낮은 수준의 필드 액세스 권한을 부여할 수 있습니다.
-  * **작업 영역의 모든 사용자가 볼 수 있음** 또는 **초대된 사용자만 액세스**&#x200B;할 수 있습니다. 작업 영역에 대한 권한이 있는 모든 사람이 필드를 보도록 허용하거나 개별 엔터티에만 권한을 부여할 수 있습니다.
+  * **레코드 종류에 대한 액세스 권한이 있는 모든 사용자가 볼 수 있음** 또는 **초대된 사용자만 액세스**&#x200B;할 수 있습니다. 작업 영역에 대한 권한이 있는 모든 사람이 필드를 보도록 허용하거나 개별 엔터티에만 권한을 부여할 수 있습니다.
 
   동일한 사람에게 여러 개의 규칙이 적용되는 경우, 규칙 중 하나에서 사용자에게 사용 가능한 가장 높은 권한을 부여합니다.
+
+* 작업 영역의 모든 사용자에 대해 필드 보기 전용으로 만들려면 다음 설정이 있는지 확인하십시오.
+
+  * 상속된 권한 끄기
+  * 레코드 종류에 대한 액세스 권한이 있는 모든 사용자가 볼 수 있음&#x200B;**설정을 유지합니다.**
+  * 개별 엔티티를 추가하지 마십시오.
 
 * 레코드 유형 권한에 따라 사용자는 다음 필드 권한을 받을 수 있습니다.
 
@@ -158,7 +163,7 @@ For Global Record Types, field permissions are set once and apply to all seconda
 
    **공유** 상자가 열립니다.
 
-1. (선택 사항) **액세스 권한 부여** 영역에서 **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다. 작업 영역 및 레코드 유형에 대해 **보기** 이상의 권한이 있는 모든 사용자는 필드에 대해 동일한 권한을 가집니다.
+1. (선택 사항) **액세스 권한 부여** 영역에서 **레코드 종류에 대한 액세스 권한이 있는 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다. 작업 영역 및 레코드 유형에 대해 **보기** 이상의 권한이 있는 모든 사용자는 필드에 대해 동일한 권한을 가집니다.
 
 1. (선택 사항) 작업 영역에서 권한을 상속하는 사용자, 팀, 그룹, 회사 또는 작업 역할을 보려면 **다음에서 상속된 권한** 옵션 아래의 사용자 아바타를 클릭합니다.
 
@@ -177,6 +182,13 @@ For Global Record Types, field permissions are set once and apply to all seconda
       >[!TIP]
       >
       >Workspace 관리자는 레코드 종류 및 필드에 대한 관리 권한을 계속 갖게 됩니다.
+
+   1. (선택 사항) **레코드 종류에 대한 액세스 권한이 있는 모든 사람이 볼 수 있음** 드롭다운 메뉴를 클릭하고 **초대된 사람만 액세스할 수 있음**&#x200B;을 선택합니다.
+
+      >[!IMPORTANT]
+      >
+      >이 변경 사항은 **상속된 권한**&#x200B;을(를) 끄는 것과 함께 레코드 종류를 보고 지정된 사람에게만 액세스를 부여할 수 있는 모든 사람에 대한 액세스를 제거합니다. Workspace 관리자 및 관리자는 항상 모든 필드에 액세스할 수 있습니다.
+
 
    1. **액세스 권한 부여** 상자에서 작업 영역 또는 레코드 형식에 대해 다른 권한 수준을 부여할 사용자, 팀, 그룹, 회사 또는 작업 역할을 추가합니다.
 
