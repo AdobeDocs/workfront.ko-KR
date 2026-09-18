@@ -5,13 +5,12 @@ title: Adobe Workfront MCP 서버 도구
 description: Workfront 영역별로 그룹화된 Adobe Workfront MCP 서버를 통해 사용할 수 있는 도구의 참조 목록입니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
+source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2811'
 ht-degree: 4%
 
 ---
-
 
 # Adobe Workfront MCP 서버 도구
 
@@ -287,6 +286,10 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 ### Insights 도구
 
 Insights 도구는 Workfront 개체에 대한 정보를 검색합니다.
+
+>[!NOTE]
+>
+>인사이트 데이터는 거의 실시간으로, 최대 약 15분의 SLA이 제공됩니다. Workfront에서 변경한 사항이 Insights 결과에 바로 표시되지 않을 수 있습니다.
 
 | 제목 | 도구 이름 | 기능 | 액션 |
 | --- | --- | --- | --- |

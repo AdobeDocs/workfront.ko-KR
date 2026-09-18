@@ -5,13 +5,12 @@ title: Adobe Workfront MCP 서버 사용
 description: Adobe Workfront MCP 서버를 사용하여 AI 에이전트 플랫폼에서 자연어 대화를 통해 Workfront 항목을 검색, 생성, 업데이트 및 관리합니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
+source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront MCP 서버 사용
 
@@ -138,6 +137,12 @@ AI 에이전트 플랫폼에서 새로운 데이터를 가져오도록 하려면
 
 * *Workfront에서 최신 데이터를 가져옵니다. 캐시된 결과를 사용하지 마십시오.*
 
+### 인사이트 데이터는 실시간에 가깝고 즉각적이지 않습니다.
+
+Workfront 데이터를 검색, 필터링 및 보고하는 데 사용되는 Insights 도구는 약 15분의 service level agreement(SLA)을 통해 거의 실시간으로 변경 사항을 반영합니다. Workfront에서 변경 작업을 수행한 후 즉시 요청하면 응답이 해당 변경 사항을 반영하지 않을 수 있습니다.
+
+최근 변경 사항을 확인해야 하는 경우 몇 분 정도 기다린 후 다시 요청하거나 Workfront에서 바로 확인해 보십시오.
+
 ### Workfront MCP 서버 업데이트 확인
 
 최신 도구와 기능을 보유하기 위해 Workfront MCP 서버에 대한 연결을 주기적으로 새로 고치고 싶을 수 있습니다.
@@ -167,6 +172,7 @@ Workfront은 AI 아젠틱 플랫폼 공급자가 Workfront 데이터를 처리�
 | 문제 | 가능한 원인 | 고정 |
 | --- | --- | --- |
 | AI 에이전트 플랫폼은 오래된 정보를 제공합니다. | AI 아젠틱 플랫폼은 대화 초기의 데이터를 재사용하고 있다. | Workfront에서 새로운 데이터를 요청합니다. |
+| Workfront에서 방금 변경한 데이터가 아직 표시되지 않습니다. | 인사이트 데이터는 거의 실시간으로, 최대 약 15분의 SLA이 제공됩니다. | 몇 분 정도 기다린 후 다시 요청하거나 Workfront에서 직접 확인합니다. |
 | AI 에이전트 플랫폼이 잘못된 Workfront 항목에서 데이터를 반환했습니다. | AI 아젠틱 플랫폼이 모호한 문구를 바탕으로 잘못된 항목을 골랐다. | 더 구체적인 이름, ID 또는 필터를 사용하여 다시 질문합니다. |
 | 업데이트 또는 삭제가 Workfront에서 적용되지 않았습니다. | Workfront 관리자가 Workfront MCP 서버에 대한 쓰기 작업을 비활성화했거나 특정 항목에 대한 작업을 수행할 수 있는 권한이 없습니다. | 작업이 실행되었는지 AI 에이전트 플랫폼에 확인합니다. 그런 다음 Workfront MCP 서버에 대해 쓰기 작업이 활성화되어 있는지, 그리고 항목을 변경할 권한이 있는지 확인합니다. |
 

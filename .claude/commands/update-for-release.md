@@ -1,13 +1,6 @@
 ---
 name: update-for-release
-description: ""
-source-git-commit: 4c2305da7635694d9d7bc174b5837a0d57fb7ac0
-workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 0%
-
----
-
+description: '예정된 릴리스에 대한 새 Workfront 기능 문서화: 영향을 받는 도움말 문서를 식별하고, 올바른 미리 보기 코드 조각을 선택하고, 미리 보기 강조 표시로 새 콘텐츠를 표시(문서에 따라 적절한 섹션당 또는 라인당), 편집 내용을 적용하기 전에 명확한 승인/거부 프롬프트로 경계선 UI 수준 세부 정보를 표시합니다. 사용자가 배송 중인 기능에 대한 Workfront 도움말 문서를 업데이트(일반적으로 미리 보기 먼저)하거나, PRD 또는 예정된 릴리스를 언급하거나, 미리 보기 강조 표시에 대해 묻거나, 방법 또는 개요 문서에 "미리 보기 중" / "프로덕션 중" 섹션을 추가하는 데 도움이 필요한 경우 사용합니다.'---
 
 # 릴리스 업데이트(Workfront)
 
@@ -94,9 +87,9 @@ ht-degree: 0%
 
    각 &quot;검토 중&quot; 항목에 대해 한 문장의 근거를 제공합니다(&quot;초보자에게 더 긴 메시지를 계획하도록 도움&quot;, &quot;이후 단계에서 이를 보지 못하는 사용자가 이를 확장할 수 있도록 도움&quot;). 사용자가 선택하는 항목만 포함합니다. 기본 원칙은 &quot;사용자가 작업을 수행할 때 화면에서 볼 수 있는 경우 다시 기술하지 않음&quot;이지만 사용자가 최종 호출을 받습니다.
 
-   **버킷 중 하나에 대한 실제 문장을 작성할 때** 작성 시 `~/.cursor/skills/writing-quality/SKILL.md` 음성 및 톤 규칙을 적용하고(변경 로그 항목(&quot;제거됨&quot;, &quot;추가됨&quot;)이 아닌 일반 필드/동작 설명), 변경 사항을 다시 기술하지 말고 미리 보기 메모를 첨부하십시오. 나중에 신호음만 고정하지 말고 처음에 바로 잡아라.
+   **버킷 중 하나에 대한 실제 문장을 작성하기 전에****`writing-quality` 스킬(스킬 도구)을 호출하고**&#x200B;을(를) 쓸 때 음성과 톤 규칙을 적용합니다. 변경 로그 항목(&quot;제거됨&quot;, &quot;추가됨&quot;)이 아닌 일반 필드/동작 설명을 사용하고 미리 보기 메모를 첨부하기 위해 변경되지 않은 지침을 다시 작성하지 마십시오. 나중에 신호음만 고정하지 말고 처음에 바로 잡아라.
 
-5. 표시하기 전에 초안 텍스트에 대해 **최종 쓰기 품질 테스트를 수행합니다**. 이것은 안전망입니다. 이 규칙이 적용되는 처음이 아닙니다. 4단계에서 누락된 모든 항목(중복성, 톤, 주변 행과 음성 불일치)을 포착하십시오.
+5. **초안 텍스트에서 `writing-quality` 스킬(스킬 도구)을 최종 패스로 실행**&#x200B;한 후 표시합니다. 모든 문서에 필수이며 선택 사항이 아닙니다. 4단계에서 누락된 모든 항목(중복, 톤, 주변 행과 음성 불일치)을 다시 catch합니다.
 
 6. **편집 제안.** 문서에 대한 발췌 전/후(또는 집중된 다른 스타일의 설명)를 표시합니다. 적용: 코드 조각 배치, 제목 변경, 새 미리 보기 콘텐츠 및 위치, 스크린샷 참조, 인라인 `class="preview"` 랩.
 
@@ -217,12 +210,18 @@ For more information, see [{Primary article title}](/help/quicksilver/{path-to-a
 - 행별 복제: 원래 `<tr>`은(는) 바이트 단위로 변경되지 않습니다. 새 `<tr class="preview">`은(는) 두 셀이 모두 `<span class="preview">`에 래핑되었습니다. 레이블은 새 짧은 레이블 + 소문자 &quot;in preview&quot;(원래 레이블 + &quot;(미리보기)&quot; 아님)입니다. 모든 보조 메모는 중첩 `<p>`이(가) 아닌 `<br>` + `Note:` 인라인을 사용합니다.
 - 동일한 필드가 둘 이상의 절차 변형(Basic/Advanced, legacy/ESM)에 표시되는 경우, 각 새 행의 문구는 다른 변형에서 복사하여 붙여넣는 것이 아니라 해당 변형의 실제 동작과 일치합니다.
 - 새 미리보기 표시 산문은 변경 로그 항목이 아닌 일반 필드/동작 설명과 같이 읽으며 변경되지 않은 명령을 중복 진술하지 않습니다.
+- 이 문서의 초안 산문(두 버킷 모두)에서 `writing-quality` 스킬이 호출되었습니다.
 - `ReadLints`이(가) 편집된 파일에서 깨끗합니다.
 - 문서가 두 상태(미리보기 콘텐츠가 표시되고 숨겨짐)에서 올바르게 읽힙니다.
 
 ## 참조
 
-- Workfront 설명서 스타일: `~/.cursor/skills/writing-quality/SKILL.md`에서 **쓰기 품질** 스킬을 참조하세요.
+- Workfront 설명서 스타일: **스킬 도구(원본: `.cursor/skills/writing-quality/`)를 통해 `writing-quality` 스킬을 호출합니다**.
 - 문서 리포지토리의 코드 조각 카탈로그: `help/_includes/snippets.md`.
 - GA 정리(역워크플로우): `.cursor/skills/remove-preview-highlighting/SKILL.md`에서 **제거-미리 보기-강조 표시** 스킬을 참조하세요.
 - PRD용 Adobe Wiki MCP: 서버 `user-Adobe Wiki Confluence`, 도구 `get_wiki_content`.
+source-git-commit: 60f7b8b7fc731d649d4d10910b38acda1b1d6891
+workflow-type: tm+mt
+source-wordcount: 2118
+ht-degree: 0%
+---

@@ -5,14 +5,15 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1119'
 ht-degree: 1%
 ---
 
 # Adobe Workfront Planning CX Coworker 개요
 
+<!--replaced information from the AI Assistant for Planning article with CX Coworker-->
 
 <span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
@@ -21,11 +22,18 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-CX Coworker은 목표를 일반 언어로 설명한 다음 Adobe 및 연결된 시스템 전반에서 작업을 계획, 실행 및 확인한 다음 승인을 위해 다시 가져오는 대화 인터페이스입니다.
+CX Coworker은 목표를 일반 언어로 설명한 다음 Workfront Planning 및 기타 연결된 Adobe 시스템에서 작업을 계획, 실행 및 검증한 후 승인을 위해 다시 가져오는 대화 인터페이스입니다.
 
 CX Coworker은 새로운 전체 화면 경험과 Workfront 오른쪽 레일 모두에서 강력한 엔드 투 엔드 기능을 추가하면서 현재 AI Assistant가 수행하는 모든 작업을 유지합니다.
 
 조직의 기존 제품 수준 액세스 제어 내에서 작동하므로 사용자는 기본적으로 읽기 전용 액세스 권한과 Workfront 관리자가 제어하는 쓰기 액세스 권한으로 Workfront에서 이미 허용된 작업만 수행할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>CX Coworker 는 현재 의료 서비스, 금융 기관 또는 중요한 데이터가 있는 기타 업계 조직에서 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다.
+>
+>자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
+
 
 ## 액세스 요구 사항
 
@@ -81,87 +89,90 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 +++
 
-
 ## CX Coworker에 대한 고려 사항
 
 * 조직의 사용자가 CX Coworker을 사용하려면 먼저 귀사에서 활성화해야 합니다.
 
   자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
-* Workfront이 조직에 대해 에이전트를 활성화하면 기본 Workfront 관리자가 사용할 수 있습니다. 자세한 내용은 [시스템에 대한 기본 정보 구성](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)을 참조하십시오.
+* Workfront이 Workfront 인스턴스에 대해 에이전트를 활성화하면 기본 Workfront 관리자가 이를 사용할 수 있으며 조직에서 활성화할 수 있습니다. 자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
 
-* Workfront 관리자는 다른 모든 사용자에 대해 AI Assistant를 활성화해야 합니다. 자세한 내용은 [AI Assistant 사용 또는 사용 안 함](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)을 참조하십시오.
+* Workfront 관리자는 또한 액세스 수준에서 CX Coworker을 활성화해야 합니다. 자세한 내용은 [액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
 
-* AI 도우미는 각 페이지의 컨텍스트에서 작동합니다. AI Assistant에 대해 제출 중인 요청은 열려 있는 페이지에서 사용할 수 있는 기능을 참조해야 합니다.
+* CX Coworker은 Workfront 또는 Workfront Planning에 있고 사용자가 액세스할 수 있는 권한이 있는 정보 및 오브젝트와 함께 작동합니다. [계획] 오른쪽 레일에서 [동료] 패널은 사용자가 연 작업 공간, 레코드 유형 또는 레코드 페이지의 컨텍스트에서 작동합니다.
 
-* 계획 영역에서 AI 어시스턴트가 수행하는 작업은 Workfront 계획 권한 및 Workfront 액세스 수준의 컨텍스트에 있습니다. 자세한 내용은 다음 문서를 참조하십시오.
+* 계획 영역에서 CX Coworker이 수행하는 작업은 Workfront Planning 권한 및 Workfront 액세스 수준의 컨텍스트에 있습니다. 자세한 내용은 다음 문서를 참조하십시오.
 
   * [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/planning/access/license-type-overview.md)
 
-* 사용자를 대신하여 AI 어시스턴트가 변경한 내용은 레코드 기록 패널에서 추적됩니다.
+* 사용자를 대신하여 CX Coworker에서 수행한 변경 사항은 레코드의 내역 패널에서 추적됩니다.
 
-* AI 관리자가 수행하는 작업은 영구적이며 취소될 수 있습니다. 예를 들어 필드를 삭제하면 되돌릴 수 없습니다. AI 도우미가 제안한 모든 작업을 수락하기 전에 검토하십시오.
+* CX Coworker에서 수행한 작업은 영구적이며 취소가 불가능합니다. 예를 들어 필드를 삭제하면 되돌릴 수 없습니다. CX Coworker에서 제안한 모든 작업을 수락하기 전에 검토하십시오.
 
-* AI 어시스턴트를 통해 오브젝트를 생성, 업데이트, 삭제할 경우 AI 어시스턴트가 의도한 동작을 표시하고 확인을 요청한다. 그런 다음 작업을 확인하거나 취소할 수 있습니다.
+* CX Coworker을 통해 오브젝트를 만들거나, 업데이트하거나, 삭제할 때, CX Coworker은 의도한 작업을 표시하고 확인을 요청합니다. 그런 다음 작업을 확인하거나 취소할 수 있습니다.
 
-## 현재 AI Assistant에서 사용할 수 있는 기능
+## 현재 CX Coworker에서 사용할 수 있는 기능
 
-현재 Workfront의 계획 영역에서 다음 페이지에 AI Assistant를 사용할 수 있습니다.
+현재 CX Coworker은 Workfront의 계획 영역에서 사용할 수 있으며 일련의 기술을 사용하여 Planning 객체의 정보에 액세스하고 정보를 조작합니다. 자세한 내용은 [CX Coworker 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)을 참조하세요.
 
-* Workspace 페이지
-* 레코드 유형 페이지
-* 레코드 페이지
-
-현재 AI Assistant를 사용하여 다음 작업을 수행할 수 있습니다.
+CX Coworker을 사용하여 다음 작업을 수행할 수 있습니다.
 
 * 레코드를 검색합니다. 레코드 필드에 포함된 정보별로 검색할 수 있습니다.
 * 레코드를 만듭니다. 새 레코드에 대한 링크가 있는 ID는 레코드가 생성된 후에 표시됩니다. 생성 프로세스 중에 업데이트할 날짜 또는 설명 등의 필드를 지정할 수 있습니다.
-* 업로드한 문서를 기반으로 레코드를 만듭니다. Workfront은 AI Assistant에 대해 다음 문서 형식을 지원합니다.
+* 업로드한 문서를 기반으로 레코드를 만듭니다. Workfront은 CX Coworker에 대해 다음 문서 형식을 지원합니다.
 
   PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT 및 대부분의 이미지 형식
 * 화면에 표시되는 레코드의 필드를 업데이트합니다.
-* 레코드 삭제
-* 방금 삭제한 레코드 복원
+* 레코드 삭제, 복제 또는 복원
+* 다른 레코드에 레코드 연결
+* 레코드의 변경 내역 보기
 
 
-## Workfront Planning에서 AI Assistant 찾기
+## Workfront Planning에서 CX Coworker 찾기
 
-Workfront Planning의 다음 영역에서 AI Assistant를 찾을 수 있습니다.
+Workfront Planning의 다음 영역에서 CX Coworker을 찾을 수 있습니다.
 
 * 화면 오른쪽 상단의 기본 탐색 모음
-* 미리 보기에서 레코드를 연 후 또는 레코드의 페이지를 연 후 레코드의 세부 사항 영역 내에서.
+* 새 탭에서 레코드를 열 때 레코드의 세부 정보 영역 내부에 있습니다.
 
-## 계획 영역에서 AI 지원에 액세스
+## 계획 영역에서 CX Coworker 액세스
+
 
 1. Workfront에 로그인한 다음 왼쪽 상단의 **주 메뉴** 아이콘 ![줄 주 메뉴](assets/lines-main-menu.png)를 클릭한 다음 **계획**&#x200B;을 클릭합니다.
 
    계획 영역이 열립니다.
 
+   페이지 오른쪽 상단에서 **AI 아이콘** ![AI 아이콘](assets/ai-icon.png)을 찾거나 아래 단계를 계속 진행합니다.
+
 1. **작업 영역 카드**&#x200B;를 클릭합니다.
 
-1. (선택 사항) **레코드 종류 카드**&#x200B;를 클릭합니다.
+1. **레코드 종류 카드**&#x200B;를 클릭합니다.
 
-1. (선택 사항) **레코드**&#x200B;을(를) 클릭하여 레코드의 **세부 정보** 페이지를 엽니다.
+1. **레코드**&#x200B;을(를) 클릭하여 레코드의 **세부 정보** 페이지를 연 다음 여는 위치 를 클릭합니다.
 
-1. 전역 탐색 막대에서 화면 오른쪽 위 모서리나 레코드 미리 보기 또는 페이지의 오른쪽 위 모서리에 있는 **AI Assistant 아이콘**&#x200B;을 클릭합니다.
+1. 화면 오른쪽 상단의 **CX Coworker 아이콘**&#x200B;을 클릭합니다.
 
-   ![AI 길잡이 아이콘](assets/ai-assistant-icon-highlighted.png)
+1. 제공된 공백에서 CX Coworker에 대한 명령을 입력한 다음 완료되면 Enter 키를 누릅니다.
 
-1. 제공된 공간에서 AI Assistant에 대한 명령을 입력한 다음 완료되면 Enter 를 클릭합니다.
-
-   ![빈 명령 상자가 있는 AI 도우미 패널](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![빈 명령 상자가 있는 CX Coworker 패널](assets/cx-coworker-right-rail.png)
 
    예를 들어 다음 중 하나를 입력할 수 있습니다.
 
-   * 시작일이 7월 4일이고 종료일이 7월 30일인 캠페인 만들기
-   * 결정해야 하는 날짜로 여름 캠페인 레코드의 설명 필드를 업데이트합니다.
-   * 마지막 레코드 삭제
-   * 레코드 복원
+   * Summer Sale 2026이라는 새로운 캠페인 레코드 만들기
+   * 여름 캠페인 레코드의 예산 필드를 $75,000로 업데이트
+   * 이전 프로모션이라는 캠페인 레코드 삭제
+   * 내가 실수로 삭제한 캠페인 복원
 
-   AI 어시스턴트가 명령을 처리하는 동안 시각적 표시기가 표시돼 응답 시간에 대한 기대치를 설정할 수 있다.
+   >[!TIP]
+   >
+   >Workfront 관리자에게 개체에 대한 편집 작업을 수행하도록 요청하기 전에 시스템 환경 설정에서 CX Coworker 관리자가 쓰기 전용 MCP 도구를 활성화했는지 확인하십시오.
+
+   CX Coworker이 명령을 처리하는 동안 시각적 표시기가 표시되어 응답 시간에 대한 기대를 설정합니다.
 
    성공적인 응답을 받은 후 제공된 링크를 따르거나 왼쪽에 변경 사항을 확인합니다.
 
+
+1. (선택 사항) **전체 화면 확장** 아이콘 ![전체 화면 확장](assets/expand-full-screen-icon.png)을 클릭하여 전체 브라우저 탭에서 동료 대화 상자를 엽니다.
 
 

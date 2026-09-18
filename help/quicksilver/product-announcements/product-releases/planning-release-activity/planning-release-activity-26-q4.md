@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 10d95f7fc71d72edd5cbb292af69a348b648b4ba
+source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2210'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
@@ -21,9 +21,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2026년 9월 3일
->프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>미리 보기: 2026년 9월 3일부터 단계적으로 롤아웃
+>프로덕션 빠른 릴리스: 2026년 9월 17일부터 단계적으로 롤아웃
+>모두를 위한 프로덕션: 2026년 10월 15일부터 단계적으로 롤아웃
 
 이제 CX Coworker을 Workfront Planning 내에서 사용할 수 있습니다. 이제 Workfront Planning 전체에서 사용할 수 있는 패널에서 CX Coworker에 액세스할 수 있습니다.
 
@@ -35,28 +35,28 @@ CX Coworker Chat 은 작업 완료를 위한 대화 인터페이스입니다. �
 
 >[!IMPORTANT]
 >
->CX Coworker 는 현재 의료 서비스, 금융 기관 또는 중요한 데이터가 있는 기타 업계 조직에서 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다.
+>CX Coworker 는 현재 의료 서비스, 금융 기관 또는 중요한 데이터가 있는 기타 업계 조직에서 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 계속 사용할 수 있습니다.
 
 자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
-<!--
-
-## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+## CX Coworker 출시를 준비하면서 세부 사항 미리보기 상자에서 AI Assistant 아이콘을 제거했습니다
 
 >[!NOTE]
 >
->Preview: September 16, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
->[!BADGE Off schedule]{type=Neutral}
+>미리 보기: 2026년 9월 16일부터 단계적으로 롤아웃
+>프로덕션 빠른 릴리스: 2026년 9월 17일부터 단계적으로 롤아웃
+>모두를 위한 프로덕션: 2026년 10월 15일부터 단계적으로 롤아웃
+>[!BADGE 일정 해제]{type=Neutral}
 
-This change is available for customers who have the CX Coworker in Workfront.
+이 변경 사항은 Workfront에 CX Coworker이 있는 고객에게 제공됩니다.
 
-In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
+Workfront에서 Adobe CX Coworker이 출시될 준비를 위해 세부 정보 미리보기 페이지에서 AI Assistant 아이콘을 제거했습니다. 전체 화면으로 열면 아이콘이 세부 정보 페이지에 계속 표시됩니다. 클릭하면 CX Coworker이 열립니다.
 
-For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+>[!IMPORTANT]
+>
+>CX Coworker 는 현재 의료 서비스, 금융 기관 또는 중요한 데이터가 있는 기타 업계 조직에서 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 계속 사용할 수 있습니다.
 
--->
+자세한 내용은 Workfront의 [CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)를 참조하십시오.
 
 ## 일대일 또는 일대다 연결 유형이 있는 연결된 필드가 있는 레코드를 복제할 때 경험이 개선되었습니다
 
