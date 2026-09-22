@@ -11,20 +11,23 @@ exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
 TQID: https://experienceleague.adobe.com/QxKE6DZTT7NHafvJRPKXYQs05EWCqEOa8UUMJIopn7s
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 5de70fe4958126ab0491f173505113adc9edc36c
 workflow-type: tm+mt
-source-wordcount: 291
+source-wordcount: '303'
 ht-degree: 5%
-
 ---
-
 # 기본 증명 이메일 알림 설정 구성
 
 Adobe Workfront의 증명 사용자는 증명에 대한 댓글 또는 결정이 내려질 때 Workfront 및 Workfront Proof 모두에서 이메일 알림을 받을 수 있습니다. 사용자가 이미 Workfront Proof에서 이메일 알림을 받고 있는 경우, 알림 이메일이 중복되지 않도록 Workfront에서 전송된 알림을 비활성화하는 것이 좋습니다.
@@ -68,9 +71,9 @@ Workfront에서 전송되는 증명 이메일 알림 설정을 구성하려면:
 
 1. **전자 메일**&#x200B;을 확장한 다음 **검토 및 승인**&#x200B;을 클릭합니다.
 
-1. **Workfront의 증명 알림** 섹션에서 증명에 대한 댓글이 있을 때 Workfront에서 이메일 보내기 옵션을 활성화할지 여부를 결정합니다.
+1. **Workfront의 증명 알림** 섹션에서 옵션 **증명에 댓글이 달리면 Workfront에서 알림 보내기**&#x200B;를 사용할지 여부를 결정합니다.
 
-   * 이 설정을 활성화하면 증명에 댓글이 달릴 때 Workfront에서 이메일을 수신하게 됩니다.
-   * 이 설정을 사용하지 않으면 증명에 댓글이 달릴 때 Workfront에서 이메일을 받지 않습니다.
+   * 이 설정을 활성화하면 증명에 댓글이 달릴 때 Workfront에서 이메일을 수신하게 됩니다. Workfront 인앱 알림도 표시됩니다.
+   * 이 설정을 사용하지 않으면 증명에 대한 댓글이 있을 때 Workfront에서 이메일 또는 인앱 알림을 받지 못합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
