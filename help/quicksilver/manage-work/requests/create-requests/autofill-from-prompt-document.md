@@ -10,28 +10,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1495
-ht-degree: 3%
-
+source-wordcount: '1764'
+ht-degree: 2%
 ---
-
 # AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청 채우기
 
 >[!NOTE]
 >
 >이 기능을 사용하려면 조직이 Workfront AI Assistant를 사용하기 위한 요구 사항을 충족해야 합니다. 자세한 내용은 [AI Assistant의 필수 구성 요소](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)를 참조하십시오.
 
-AI 양식 채우기는 입력한 프롬프트에 따라 요청 필드를 자동 채우는 데 도움이 됩니다. 또한 전자 메일 또는 업로드된 문서와 같은 텍스트를 기반으로 필드를 채울 수도 있습니다. 요청을 제출하기 전에 이러한 제안을 승인하거나 거부할 수 있습니다.
+AI 양식 채우기는 입력한 프롬프트에 따라 요청 필드를 자동 채우는 데 도움이 됩니다. 또한 프롬프트에 추가하는 다음 정보를 기반으로 필드를 채울 수도 있습니다.
+
+* 이메일
+* 업로드된 문서
+* 프로젝트, 작업 또는 문제에 대한 링크입니다.
+
+요청을 제출하기 전에 이러한 제안을 승인하거나 거부할 수 있습니다.
 
 이 기능은 Workfront 요청 영역에서 Workfront 및 Workfront Planning 요청 모두에 대한 요청을 만들 때 사용할 수 있습니다.
 
@@ -155,6 +165,7 @@ AI 양식 채우기는 이메일과 같은 텍스트를 기반으로 필드 값�
    >[!NOTE]
    >
    >검토되지 않은 제안은 요청을 제출할 때 자동으로 수락됩니다.
+1. 요청을 제출하려면 **제출**&#x200B;을 클릭하세요.
 
 ### 텍스트 프롬프트 예
 
@@ -342,6 +353,43 @@ AI 양식 채우기에 문서를 업로드할 때 다음 사항을 고려하십�
    >[!NOTE]
    >
    >검토되지 않은 제안은 요청을 제출할 때 자동으로 수락됩니다.
+1. 요청을 제출하려면 **제출**&#x200B;을 클릭하세요.
+
+### 다른 오브젝트에 대한 링크를 추가하여 요청 자동 채우기
+
+전체 양식이나 양식의 단일 섹션에 적용할 프롬프트에 기존 프로젝트, 작업 또는 문제에 대한 링크를 추가할 수 있습니다.
+
+1. 새 요청에 포함할 정보가 있는 프로젝트, 작업 또는 문제로 이동하여 브라우저 주소 줄에서 클립보드로 오브젝트의 링크를 복사합니다.
+
+   프로젝트, 작업 또는 문제는 요청과 동일한 Workfront 인스턴스에 있어야 합니다.
+
+1. 요청 만들기를 시작합니다.
+
+   지침은 [요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)을 참조하세요.
+
+1. 연결된 개체의 정보를 전체 양식에 적용하려면 양식 이름 아래의 **AI 아이콘** ![AI 아이콘](assets/request-prompt-icon.png)을 클릭하십시오.
+
+   또는
+
+   단일 구역에 대해 연결된 개체의 정보를 적용하려면 구역 이름 옆에 있는 **AI 아이콘** ![AI 아이콘](assets/request-prompt-icon.png)을 클릭합니다.
+
+1. 프롬프트 추가를 시작한 다음 프로젝트, 작업 또는 문제에서 복사한 링크를 프롬프트 창에 붙여넣습니다.
+1. (조건부) **양식에 적용** 또는 **섹션에 적용**&#x200B;을 클릭합니다.
+1. **양식 채우기** 또는 **섹션 채우기**&#x200B;를 클릭합니다.
+
+   Workfront은 양식에 대한 제안을 생성합니다.
+1. 각 필드 제안에 대해 해당 필드에 대한 **제안 수락** 또는 **제안 거부** 아이콘을 클릭합니다.
+
+   ![제안 수락 또는 거부](assets/accept-reject-suggestion.png)
+
+   또는
+
+   모든 제안을 수락하거나 거부하려면 페이지 맨 위에서 **모두 수락** 또는 **모두 거부**&#x200B;를 선택하십시오.
+
+   >[!NOTE]
+   >
+   >검토되지 않은 제안은 요청을 제출할 때 자동으로 수락됩니다.
+1. 요청을 제출하려면 **제출**&#x200B;을 클릭하세요.
 
 ## 문제 해결
 

@@ -13,20 +13,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1528
+source-wordcount: '1550'
 ht-degree: 2%
-
 ---
-
 # 제출된 요청 보기
 
 <!--
@@ -58,6 +61,7 @@ Adobe Workfront의 다음 영역에서 제출된 요청을 찾을 수 있습니�
   >* 자신의 초안 요청만 볼 수 있습니다.
   >* 새 요청 경험에서 제출된 요청과 초안이 동일한 목록에 있습니다.
   >* 기존 경험에서 생성된 초안은 새 요청 경험에 표시되지 않습니다.
+  >* 새 요청 경험에서는 2025년 7월부터 현재까지 오래된 Workfront 요청만 볼 수 있습니다. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
 
 ## 액세스 요구 사항
 
@@ -166,8 +170,8 @@ Adobe Workfront의 다음 영역에서 제출된 요청을 찾을 수 있습니�
    * **검토 중**: (계획만 해당) 이 요청에는 승인자가 있으며 한 명 이상의 승인자가 요청을 열었지만 결정된 사항이 없습니다. 이 상태는 하드 코딩되어 있습니다.
    * **거부됨**: (Planning만 해당) 이 요청에는 승인자가 있으며 거부되었습니다. 이 요청은 레코드를 만들지 않습니다. 이 상태는 하드 코딩되어 있습니다.
    * **진행 중**:
-      * Workfront 요청: 요청이 전환되었으며 작업이 진행 중입니다.
-      * Workfront Planning 요청: 요청 완료는 특정 계획 필드에 매핑되며 필드 값이 아직 완료 값과 일치하지 않습니다.
+     * Workfront 요청: 요청이 전환되었으며 작업이 진행 중입니다.
+     * Workfront Planning 요청: 요청 완료는 특정 계획 필드에 매핑되며 필드 값이 아직 완료 값과 일치하지 않습니다.
    * **보류 중**: Workfront 요청에 사용할 수 있습니다. 사용자가 수동으로 설정할 수 있습니다.
    * **완료**: 요청을 완료하는 계획 레코드가 생성되었습니다. (Planning만 해당)
    <!--
