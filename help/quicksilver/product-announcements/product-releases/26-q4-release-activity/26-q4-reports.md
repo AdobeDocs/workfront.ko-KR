@@ -4,18 +4,34 @@ description: 2026년 4분기 보고 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
+source-git-commit: c94c1f3d662cee00a12c786063a4e4db2015361d
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 4%
-
 ---
-
 # 2026년 4분기 보고 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 4분기 릴리스의 보고 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
+
+<!--
+
+## Filter on collection relationships in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
+
+Previously, filtering on collection relationships required text mode.
+
+For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+
+-->
 
 ## 캔버스 대시보드의 대시보드 복사
 

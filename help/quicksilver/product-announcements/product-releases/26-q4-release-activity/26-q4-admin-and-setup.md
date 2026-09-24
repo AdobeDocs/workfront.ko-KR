@@ -4,9 +4,9 @@ description: 2026년 4분기 관리자 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: 64a18dc29c447ca4703fb25102663952942790ca
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1382'
 ht-degree: 0%
 ---
 # 2026년 4분기 관리자 개선 사항
@@ -14,6 +14,18 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 4분기 릴리스의 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
+
+## MCP 통합을 위한 승인된 리디렉션 URL 추가
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 22일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+Workfront MCP 서버를 조직에 보다 유연하고 사용자 정의할 수 있도록 사용자 지정 OAuth 콜백 URL을 추가하는 기능을 추가했습니다. Workfront 관리자는 이제 MCP 통합을 위해 신뢰할 수 있는 OAuth 콜백 URL의 자체 조직 허용 목록에 추가하다를 유지 관리할 수 있습니다. 이렇게 하면 Workfront이 기본적으로 지원하는 플랫폼을 넘어 OAuth 콜백 URL이 조직에 고유한 사용자 정의 AI 에이전트 플랫폼을 연결할 수 있습니다.
+
+자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)에서 [승인된 리디렉션 URL 추가 또는 제거](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url)를 참조하십시오.
 
 <!--
 
