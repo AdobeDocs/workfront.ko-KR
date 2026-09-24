@@ -13,26 +13,34 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
+    internal-label: Administration
+source-git-commit: 62a56dd910bed829e2f30752020cb014464aea4f
 workflow-type: tm+mt
-source-wordcount: 1318
-ht-degree: 8%
-
+source-wordcount: '1533'
+ht-degree: 7%
 ---
-
 # 시스템 환경 설정 구성
 
 {{highlighted-preview}}
@@ -199,6 +207,10 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
       <td><span class="preview">Workfront MCP 서버가 Workfront 데이터에 대한 만들기, 업데이트 및 삭제 작업을 수행할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.<p>Workfront MCP 서버에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Adobe Workfront MCP 서버 구성</a>을 참조하십시오.</p></span></td> 
      </tr>
      <tr> 
+      <td role="rowheader"><span class="preview">승인된 리디렉션 URL</span></td> 
+      <td><span class="preview">사용자 지정 AI 에이전트 플랫폼을 통해 연결하는 조직의 MCP 에이전트에 대한 로그인을 완료할 수 있는 콜백(리디렉션) URL을 제어합니다.<p>MCP 서버용 리디렉션 URL을 추가하는 방법에 대한 지침은 이 문서의 <a href="#add-or-remove-an-authorized-redirect-url">승인된 리디렉션 URL 추가 또는 제거</a>를 참조하십시오.</p></span></td> 
+     </tr>
+     <tr> 
       <td role="rowheader">테스트 환경</td> 
       <td>Workfront 테스트 환경에 액세스할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Adobe Workfront 미리 보기 샌드박스 환경</a>을 참조하십시오.</p></td> 
     </tbody> 
@@ -207,3 +219,30 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
 1. **저장**&#x200B;을 클릭합니다.
 
    여기에 저장한 변경 사항은 Workfront의 모든 사용자와 외부 사용자로서 시스템과 상호 작용하는 모든 사용자의 경험에 영향을 줍니다.
+
+## 승인된 리디렉션 URL 추가 또는 제거
+
+<div class="preview">
+
+승인된 리디렉션 URL을 사용하면 OAuth 콜백 URL이 조직에 고유한 사용자 정의 AI 에이전트 플랫폼(예: 연결 또는 테넌트 ID가 포함된 URL)에 연결할 수 있습니다. 필요한 시기에 대한 자세한 내용은 [Adobe Workfront MCP 서버 구성](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)에서 [OAuth와 연결](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth)을 참조하십시오.
+
++++ 를 확장하여 MCP에 대해 승인된 리디렉션 URL을 관리하는 단계별 지침을 봅니다.
+
+URL을 추가하려면:
+
+1. 시스템 환경 설정 페이지에 아직 없는 경우 Workfront의 왼쪽 상단에 있는 **기본 메뉴** 아이콘을 클릭하고 **설정**&#x200B;을 클릭한 다음 왼쪽 패널에서 **시스템** > **환경 설정**&#x200B;을 클릭합니다.
+1. **MCP 환경 설정** 영역의 **승인된 리디렉션 URL** 옆에 있는 **URL 관리**&#x200B;를 클릭합니다.
+1. 통합을 식별하려면 **레이블**&#x200B;을(를) 입력하십시오.
+1. 콜백 **URL**&#x200B;을(를) 입력하십시오.
+1. **추가를 클릭합니다**.
+1. **저장**&#x200B;을 클릭합니다.
+
+>[!IMPORTANT]
+>
+>콜백 URL은 정확히 일치해야 합니다. Workfront은 사용자 지정 콜백 URL에 대해 와일드카드 또는 접두사 일치를 지원하지 않습니다.
+
+URL을 제거하려면(예: 연결된 통합이 중단되거나 손상된 경우) **URL 관리**&#x200B;를 열고 항목을 제거한 다음 **저장**&#x200B;을 클릭합니다.
+
++++
+
+</div>

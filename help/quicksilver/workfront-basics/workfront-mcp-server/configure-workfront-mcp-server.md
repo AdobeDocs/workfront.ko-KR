@@ -5,13 +5,12 @@ title: Adobe Workfront MCP 서버 구성
 description: 자연어 대화를 통해 Workfront과 작업할 수 있도록 Workfront 인스턴스 및 AI 아젠틱 플랫폼을 구성합니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: dd1123c8803a7d3c8ef7b461fe0e01610e0dccc9
+source-git-commit: 62a56dd910bed829e2f30752020cb014464aea4f
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront MCP 서버 구성
 
@@ -53,6 +52,8 @@ MCP 서버 액세스는 두 명의 별도 관리자에 의해 제어됩니다.
   자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
 
 * 엔터프라이즈 버전의 AI 에이전트 플랫폼을 사용하는 경우 해당 플랫폼의 관리자는 조직의 [!DNL Adobe Workfront] 커넥터를 활성화하거나 Workfront MCP 서버에 연결할 수 있는 사용자 지정 URL 액세스 권한을 제공해야 합니다.
+
+* <span class="preview">사용자 지정 응용 프로그램 또는 에이전트 플랫폼에 고유한 고객별 OAuth 콜백 URL을 연결하는 경우 Workfront 관리자는 해당 URL을 **시스템 환경 설정 > MCP 환경 설정**&#x200B;의 **승인된 리디렉션 URL** 목록에 추가해야 합니다. 이 기능이 없으면 인증이 거부됩니다. 자세한 내용은 이 문서에서 [OAuth와 연결](#connect-with-oauth)을 참조하십시오.</span>
 
 
 ## Workfront을 클로드에 연결
@@ -106,7 +107,7 @@ URL을 사용하여 Workfront을 [!DNL Claude]에 연결하려면 다음을 수�
    https://mcp.workfront.adobe.com/mcp/v1/workfront
    ```
 
-1. **연결**&#x200B;을 클릭합니다.
+1. **연결**을 클릭합니다.
 Workfront 로그인 창이 나타납니다.
 1. Adobe ID 자격 증명을 사용하여 인증합니다.
 프로필 및 Workfront 인스턴스를 선택해야 할 수 있습니다. 선택하는 프로필에 따라 연결되는 작업 영역이 결정됩니다.
@@ -186,7 +187,7 @@ ChatGPT는 사용자 지정 GPT라는 사용자가 만든 도우미를 지원합
 Workfront MCP가 연결할 수 있는 사용자 지정 Copilot 에이전트를 빌드하려면 Copilot Studio를 사용합니다.
 
 1. Copilot Studio에서 **빈 에이전트 만들기**&#x200B;를 클릭합니다.
-1. 에이전트 이름을 지정하고 **만들기**&#x200B;를 클릭합니다.
+1. 에이전트 이름을 지정하고 **만들기**를 클릭합니다.
 에이전트 창이 열립니다.
 
 1. **지침** 필드에서 에이전트에서 수행할 작업을 설명합니다. 프로세스 및 Workfront 사용 방법과 같은 정보를 포함합니다. 세부 정보를 많이 제공하는 것이 좋습니다.
@@ -238,7 +239,33 @@ Workfront MCP가 연결할 수 있는 사용자 지정 Copilot 에이전트를 �
 
 ### OAuth와 연결
 
-사용자 정의 OAuth 통합에 대한 셀프서비스 지원은 Workfront에서 아직 사용할 수 없습니다.
+<div class="preview">
+
+연결하는 AI 에이전트 플랫폼 또는 사용자 정의 애플리케이션에 연결이나 테넌트 ID가 포함된 URL과 같은 고객별 고유한 OAuth 콜백(리디렉션) URL이 있는 경우 인증하기 전에 Workfront 관리자가 해당 URL을 조직의 승인된 리디렉션 URL 목록에 추가해야 합니다.
+
+>[!NOTE]
+>
+>이는 Claude 또는 Copilot과 같이 기본적으로 지원되는 플랫폼 중 하나가 아닌 통합에만 필요합니다. 기본적으로 지원되는 플랫폼을 사용하는 경우 이 문서의 해당 플랫폼에 대한 섹션을 참조하십시오.
+
+Workfront 관리자가 시스템 환경 설정에 승인된 리디렉션 URL을 추가합니다.
+
+MCP 서버용 리디렉션 URL을 추가하는 방법에 대한 지침은 [승인된 리디렉션 URL 추가 또는 제거](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url)를 참조하십시오.
+
+URL이 추가되면 사용자 정의 애플리케이션 또는 에이전트 플랫폼을 Workfront MCP 서버 URL에 연결할 수 있습니다.
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
+
+연결할 때 Adobe ID 자격 증명을 사용하여 인증하라는 메시지가 표시됩니다.
+
+>[!IMPORTANT]
+>
+>콜백 URL은 정확히 일치해야 합니다. Workfront은 사용자 지정 콜백 URL에 대해 와일드카드 또는 접두사 일치를 지원하지 않습니다. 이 목록에 있는 URL만 MCP 에이전트에 대한 로그인을 완료할 수 있습니다. 연결된 에이전트가 중단되거나 훼손된 경우 URL을 즉시 제거하십시오.
+
+콜백 URL이 목록에 없으면 인증 요청이 거부됩니다. Workfront 관리자에게 문의하여 통합에서 제공한 URL을 정확하게 입력했는지 확인하십시오.
+
+</div>
 
 ## 연결 확인
 
