@@ -11,28 +11,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6meiGiiAKIASHWC5a8p7WnQ9W1JY0xL71LsUqbAAukY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 2795
+source-wordcount: '2873'
 ht-degree: 1%
-
 ---
-
 # 요청 만들기 및 제출
 
 <!--Audited: 03/2026-->
@@ -216,6 +226,11 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
    >* 선택한 요청 대기열로 구성된 프로젝트에 대한 설명이 요청 대기열 이름의 오른쪽에 표시됩니다.
    >   
    >프로젝트를 도움말 요청 대기열로 게시하는 방법에 대한 자세한 내용은 문서 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
+
+1. (조건부) 새 요청 경험에서 요청을 제출하고 조직에서 AI에서 제공하는 **양식 채우기**&#x200B;를 허용하는 경우 문서, 전자 메일 또는 다른 개체(프로젝트, 작업 또는 문제)에 대한 링크를 프롬프트로 업로드할 수 있습니다. AI는 이러한 항목을 사용하여 양식을 채우며 요청을 제출하기 전에 AI 제안을 수락하거나 거부할 수 있습니다.
+
+
+   지침은 [AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청을 채우는 방법](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)을 참조하십시오.
 
 1. **새 요청** 양식에서 다음 중 하나를 수행합니다.
 
