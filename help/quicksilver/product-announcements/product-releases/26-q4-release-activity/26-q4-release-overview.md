@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b16738e5fbfa99fe2e9288adc059559fa3a725d3
+source-git-commit: c72b03eca291790dbda954c316fbf19d7021379e
 workflow-type: tm+mt
-source-wordcount: '2715'
+source-wordcount: '2835'
 ht-degree: 2%
 ---
 # 2026년 4분기 릴리스 개요
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 이 페이지는 2026년 4분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 추가 개선 사항으로 업데이트됩니다.
 
-라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/ko/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
+라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/en/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
 
 >[!IMPORTANT]
 >
@@ -406,8 +406,7 @@ ht-degree: 2%
             <td><p>October 15, 2026</p></td>
         </tr>
 -->
-
-    &lt;/tbody>
+    </tbody>
 </table>
 
 ### 향상된 Financial Management
@@ -682,24 +681,22 @@ ht-degree: 2%
 * [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Adobe Workfront Planning 2026년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
-<!--
-## Desktop proofing viewer updates
+## 데스크톱 증명 뷰어 업데이트
 
-### Version 2.2.1
+### 버전 2.2.1
 
-Production release for all customers: September 16, 2026
+모든 고객을 위한 프로덕션 릴리스: 2026년 9월 17일
 
-The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
+Desktop Proofing Viewer가 버전 2.2.1로 업데이트되었습니다. 이 업데이트에는 다음 변경 사항이 포함됩니다.
 
-* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
-* Resolved an issue with opening proofs from a URL on non-US regions.
-* The viewer now keeps your 10 most recent proofs.
-* Updated the Workfront logo to the current branding.
-* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
-* Updated the underlying framework (Electron) for performance and security improvements.
+* 이제 전환할 때 다시 설치하지 않고 동일한 뷰어에서 모든 환경(프로덕션, 미리보기, 샌드박스 및 기타)에서 증명을 열 수 있습니다.
+* 미국이 아닌 지역의 URL에서 증명을 열 때 발생하는 문제를 해결했습니다.
+* 이제 뷰어에 10개의 최신 증명이 보관됩니다.
+* Workfront 로고를 현재 브랜딩으로 업데이트했습니다.
+* 문제 해결 속도를 높이기 위해 Workfront Proof 정보 화면에 자세한 내용을 추가했습니다.
+* 성능 및 보안 개선을 위한 기본 프레임워크(Electron)가 업데이트되었습니다.
 
-For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
--->
+Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)를 참조하십시오.
 
 ## 공지
 
@@ -711,12 +708,14 @@ For information on downloading and updating the Desktop Proofing Viewer, see [Up
 
 보고서에서 대체물로 권장되는 텍스트 모드 코드를 사용할 수 있습니다(필요에 따라 `costRates` 또는 `billingRates` 사용).
 
+    &quot;
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates).lists
     type=iterate
     valueexpression=CONCAT({startDate},&quot; - &quot;,{endDate},&quot;: &quot;,{value})
     valueformat=HTML
+    &quot;
 
 비율을 관리하고 검토하려면 전용 비율 관리 환경을 사용하십시오.
 
@@ -736,8 +735,8 @@ For information on downloading and updating the Desktop Proofing Viewer, see [Up
 
 이 변경 사항은 2026년 4월 Workfront 릴리스 정보에서 처음 발표되었으며, 기한 전에 알려 주는 최종 알림입니다. 영향을 받는 모든 리더 사용자가 2026년 8월 8일 이전에 MFA를 활성화하여 액세스 중단을 방지해야 합니다.
 
-자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/ko/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
+자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
