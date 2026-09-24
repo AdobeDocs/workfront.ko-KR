@@ -5,12 +5,14 @@ title: 캔버스 대시보드에서 피벗 테이블 보고서 작성
 description: 피벗 테이블 보고서를 캔버스 대시보드에 추가하여 데이터의 집계된 합계를 테이블 형식으로 볼 수 있습니다.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
+source-git-commit: d318a3f44752e01494374472ea295fa22ec97fc8
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 6%
 ---
 # 캔버스 대시보드에서 피벗 테이블 보고서 작성
+
+{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >
