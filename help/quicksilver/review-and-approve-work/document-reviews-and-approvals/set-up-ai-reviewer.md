@@ -10,26 +10,35 @@ hide: true
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/sfM3OtA-DVqywr3Up8VGjcycLRs5WtF22dcpXzRlnvQ
+TQID: 'https://experienceleague.adobe.com/sfM3OtA-DVqywr3Up8VGjcycLRs5WtF22dcpXzRlnvQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 290
+source-wordcount: '289'
 ht-degree: 8%
-
 ---
-
 # AI 검토자 만들기
 
 >[!NOTE]
@@ -68,7 +77,7 @@ Workfront에 브랜드를 하나 이상 설정한 후에는 여러 AI 검토자�
 
 ## 전제 조건
 
-시작하기 전에 Workfront에서 이미지 브랜드 지침을 설정해야 합니다. 자세한 내용은 [콘텐츠 검토자를 위한 브랜드 만들기 및 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)를 참조하십시오.
+시작하기 전에 Workfront에서 이미지 브랜드 지침을 설정해야 합니다. 자세한 내용은 [AI 검토자를 위한 브랜드 만들기 및 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)를 참조하십시오.
 
 ## AI 검토자 추가
 
@@ -76,11 +85,11 @@ Workfront에 브랜드를 하나 이상 설정한 후에는 여러 AI 검토자�
 >
 >AI 검토자는 검토 및 승인 워크플로에서 의사 결정자가 되도록 설계되지 않았습니다. 지정된 브랜드 요구 사항에 맞게 에셋을 조정하기 위한 점수 및 권장 사항만 제공합니다.
 
-콘텐츠 검토자를 추가하려면 다음 작업을 수행하십시오.
+AI 검토자를 추가하려면:
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **검토 및 승인** > **AI 검토자**(으)로 이동합니다.
+1. 왼쪽 패널에서 **검토 및 승인** > **검토자**(으)로 이동합니다.
 1. **새로 추가**&#x200B;를 클릭합니다.
 1. 검토자 이름을 지정합니다.
 1. **브랜드**&#x200B;를 선택하십시오.

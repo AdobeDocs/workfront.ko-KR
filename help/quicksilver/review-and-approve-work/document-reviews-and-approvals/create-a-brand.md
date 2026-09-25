@@ -1,36 +1,44 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 콘텐츠 검토자를 위한 브랜드 만들기 및 관리
-description: 콘텐츠 검토자를 위한 브랜드 만들기 및 관리
+title: AI 검토자를 위한 브랜드 생성 및 관리
+description: AI 검토자를 위한 브랜드 생성 및 관리
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg
+TQID: 'https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: '627'
 ht-degree: 3%
-
 ---
+# AI 검토자를 위한 브랜드 생성 및 관리
 
-# 콘텐츠 검토자를 위한 브랜드 만들기 및 관리
-
-콘텐츠 검토자는 브랜드 지침을 사용하여 검토 프로세스 중에 콘텐츠를 평가합니다. 브랜드 지침이 포함된 PDF 파일을 업로드하거나 브랜드 요소를 수동으로 입력하여 Workfront에서 브랜드를 만들 수 있습니다.
+AI 검토자는 브랜드 가이드라인을 사용하여 검토 과정에서 콘텐츠를 평가합니다. 브랜드 지침이 포함된 PDF 파일을 업로드하거나 브랜드 요소를 수동으로 입력하여 Workfront에서 브랜드를 만들 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -69,7 +77,7 @@ ht-degree: 3%
 * Workfront 인스턴스에는 통합 승인이 활성화되어 있어야 합니다.
 
 * 조직에 GenStudio Foundation이 있어야 합니다.
-  * Workfront의 컨텐츠 검토자는 자산 검토 및 승인 워크플로에 GenStudio Foundation에서 사용할 수 있는 기능을 제공합니다. 작업을 완료하기 위해 GenStudio Foundation에 직접 액세스할 필요는 없습니다. 콘텐츠 검토자를 통해 GenStudio Foundation 기능에 대한 액세스는 Workfront 계약 조건에 해당됩니다.
+  * Workfront의 AI 검토자는 GenStudio Foundation에서 에셋 검토 및 승인 워크플로에 사용할 수 있는 기능을 제공합니다. 작업을 완료하기 위해 GenStudio Foundation에 직접 액세스할 필요는 없습니다. AI 검토자를 통해 GenStudio Foundation 기능에 대한 액세스는 Workfront 계약 조건에 해당됩니다.
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
 계약 서명에 대한 자세한 내용은 [Adobe Gen AI 계약 서명](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)을 참조하십시오.
 
@@ -86,7 +94,7 @@ ht-degree: 3%
 1. 왼쪽 패널에서 **검토 및 승인** > **브랜드**(으)로 이동합니다.
 1. 화면 오른쪽 상단에서 **브랜드 추가**&#x200B;를 클릭합니다.
 1. 브랜드 이름을 지정합니다.
-1. 브랜드 파일을 업로드하려면 **PDF 업로드**&#x200B;를 클릭하세요.
+1. 브랜드 파일을 업로드하려면 **PDF 업로드**를 클릭하세요.
    ![브랜드 pdf 업로드](assets/upload-PDF.png)
 1. **계속**&#x200B;을 클릭합니다.
 1. 브랜드 가이드라인이 포함된 PDF 파일을 하나 이상 업로드한 다음 **브랜드 추가**&#x200B;를 클릭합니다.
@@ -96,7 +104,7 @@ ht-degree: 3%
    >
    >지침은 파일과 생성 AI 기술을 사용하여 생성되며 정확하지 않을 수 있습니다. 이 브랜드를 게시하기 전에 누락되거나 잘못된 세부 정보에 대해 추출된 지침을 검토하고 편집하십시오.
 
-1. 완료되면 **게시**&#x200B;를 클릭하여 콘텐츠 검토자가 브랜드를 사용할 수 있도록 합니다.
+1. 완료되면 **게시**&#x200B;를 클릭하여 AI 검토자가 브랜드를 사용할 수 있도록 합니다.
 
 ## 수동으로 브랜드 만들기
 
@@ -138,14 +146,14 @@ ht-degree: 3%
    ![수동으로 브랜드 요소 추가](assets/brand-elements.png)
 
 
-1. 완료되면 **게시**&#x200B;를 클릭하여 콘텐츠 검토자가 브랜드를 사용할 수 있도록 합니다.
+1. 완료되면 **게시**&#x200B;를 클릭하여 AI 검토자가 브랜드를 사용할 수 있도록 합니다.
 
 
 ## 브랜드 지침 작성에 대한 우수 사례
 
-지침을 작성하기 전에 이미지 및 브랜드 음성 지침 유형에 대해 [콘텐츠 검토자가 평가하는 내용](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates)을 검토하십시오. 이러한 평가 영역 이외의 지침은 점수를 매기지 않습니다.
+지침을 작성하기 전에 이미지 및 브랜드 음성 지침 유형에 대해 [AI 검토자가 평가하는 내용](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-ai-reviewer-evaluates)을 검토하십시오. 이러한 평가 영역 이외의 지침은 점수를 매기지 않습니다.
 
-*  측정 가능한 기준을 설명하는 브랜드 지침을 작성하십시오. 콘텐츠 검토자는 콘텐츠를 문자 그대로 평가하므로 객관적인 규칙이 주관적인 규칙보다 더 일관된 점수를 생성합니다.
+*  측정 가능한 기준을 설명하는 브랜드 지침을 작성하십시오. AI 리뷰어는 콘텐츠를 문자 그대로 평가하므로 객관적인 규칙이 주관적인 점수보다 일관된 점수를 생성합니다.
 
 * 지침에서 &quot;회피&quot;, &quot;유지&quot; 또는 &quot;확인&quot;과 같은 단어를 찾습니다. 이는 종종 강화할 수 있는 규칙을 나타냅니다. 모호한 지침을 특정 단어, 형식 또는 제한 목록으로 바꿉니다. 예를 들어 &quot;일반적인 스키 클리셰를 피하십시오&quot;를 &quot;gnar,&#39; &#39;pow,&#39; 또는 &#39;shred&#39;를 사용하지 마십시오&quot;로 바꿉니다.
 
