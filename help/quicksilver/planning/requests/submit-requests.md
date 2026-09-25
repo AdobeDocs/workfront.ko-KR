@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '3070'
+source-wordcount: '3087'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning 요청을 제출하여 레코드 생성
@@ -160,21 +160,24 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
   * <span class="preview"> 미리 보기 환경에 다음 시나리오가 있습니다. </span>
 
-    * <span class="preview">보조 글로벌 레코드 종류의 페이지에서 요청 양식을 제출하면 레코드가 보조 레코드 종류 페이지에 표시됩니다. 보조 작업 영역을 볼 수 있는 액세스 권한이 있는 경우 기본 레코드 유형의 페이지에도 새 레코드가 표시됩니다. </span>
-    * <span class="preview">기본 레코드 형식 페이지에서 요청 양식을 제출하거나 이 문서에 설명된 다른 방법을 사용하면 레코드가 기본 레코드 형식 페이지에 표시됩니다.</span>
-    * <span class="preview">요청 양식에서 **Workspace** 필드를 사용할 수 있고 사용자가 레코드를 추가할 특정 작업 영역을 수동으로 선택한 경우 기본 또는 보조 레코드 유형 페이지에서 양식을 선택했는지 여부에 관계없이 레코드가 해당 공간에 저장됩니다.</span>
+    <div class="preview">
+
+    * 보조 글로벌 레코드 유형의 페이지에서 요청 양식을 제출하면 레코드가 보조 레코드 유형 페이지에 표시됩니다. 보조 작업 영역을 볼 수 있는 액세스 권한이 있는 경우 기본 레코드 유형의 페이지에도 새 레코드가 표시됩니다.
+    * 기본 레코드 유형 페이지에서 요청 양식을 실행하거나 이 문서에 설명된 다른 방법을 사용하면 레코드가 기본 레코드 유형 페이지에 표시됩니다.
+    * 요청 양식에서 **Workspace** 필드를 사용할 수 있고 사용자가 레코드를 추가할 특정 작업 영역을 수동으로 선택하는 경우 기본 또는 보조 레코드 유형 페이지에서 양식을 선택했는지 여부에 관계없이 레코드가 해당 공간에 저장됩니다.
+
+    </div>
 
   자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
-<!--
 <div class="preview">
 
-* You can share a request with others after it's been submitted. 
+* 요청이 제출되면 다른 사용자와 공유할 수 있습니다.
 
-   For information, see [Share Planning requests](/help/quicksilver/planning/requests/share-requests.md).
+  자세한 내용은 [계획 요청 공유](/help/quicksilver/planning/requests/share-requests.md)를 참조하십시오.
 
 </div>
--->
+
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.

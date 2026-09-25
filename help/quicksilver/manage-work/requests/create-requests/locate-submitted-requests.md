@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1646'
 ht-degree: 2%
 ---
 # 제출된 요청 보기
@@ -36,13 +36,11 @@ ht-degree: 2%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 귀하 또는 다른 사람이 제출한 요청 또는 시작했지만 제출하지 않은 요청을 볼 수 있습니다. 완료되지 않은 요청은 초안으로 저장됩니다.
 
@@ -61,7 +59,7 @@ Adobe Workfront의 다음 영역에서 제출된 요청을 찾을 수 있습니�
   >* 자신의 초안 요청만 볼 수 있습니다.
   >* 새 요청 경험에서 제출된 요청과 초안이 동일한 목록에 있습니다.
   >* 기존 경험에서 생성된 초안은 새 요청 경험에 표시되지 않습니다.
-  >* 새 요청 경험에서는 2025년 7월부터 현재까지 오래된 Workfront 요청만 볼 수 있습니다. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
+  >* 프로덕션 환경의 새 요청 환경에서는 2025년 7월부터 현재까지 제출된 Workfront 요청만 찾을 수 있습니다. <span class="preview">미리 보기 환경의 새 요청 환경에서는 2023년부터 현재까지 제출된 Workfront 요청만 확인할 수 있습니다. 기존 경험에서 모든 Workfront 요청을 볼 수 있습니다.</span>
 
 ## 액세스 요구 사항
 

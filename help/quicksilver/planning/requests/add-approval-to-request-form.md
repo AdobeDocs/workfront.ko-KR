@@ -30,20 +30,20 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
+source-wordcount: '1171'
+ht-degree: 1%
 ---
 # Adobe Workfront Planning에서 요청 양식에 승인 추가
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 {{planning-important-intro}}
 
@@ -104,12 +104,81 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## 요청 양식에 승인을 추가하는 것에 대한 고려 사항
 
-* 한 명 이상의 승인자를 요청 양식에 추가할 수 있습니다. 사용자와 팀을 승인자로 추가할 수 있습니다.
-* 승인자 및 승인 일자 필드에 요청 양식을 실행하여 생성된 레코드에 승인 정보를 표시할 수 있습니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
-* 요청 양식에 여러 승인자를 추가할 때, Workfront Planning에서 레코드가 생성되기 전에 모든 승인자가 요청을 수락해야 합니다.
-* 모든 승인자가 요청을 승인하면 요청 양식과 연결된 레코드 종류에 대한 레코드가 만들어집니다.
-* 최소 한 명 이상의 승인자가 요청을 거부하고 다른 모든 승인자가 요청을 승인하면 Workfront의 요청 영역에 대해 요청이 만들어지지만 요청 양식과 연결된 레코드 유형에 대해서는 레코드가 만들어지지 않습니다.
-* 요청 양식에 승인을 추가하는 것은 선택 사항입니다. Workfront Planning은 요청 양식이 승인과 연관되지 않은 경우 요청이 제출되면 즉시 레코드를 생성합니다.
+* 하나 이상의 승인자(사용자 또는 팀)를 요청 양식 또는 승인 규칙에 추가할 수 있습니다.
+* 승인 규칙은 제출된 요청의 필드 값에 따라 요청을 라우팅합니다(예: &quot;캠페인 유형&quot; 필드의 다른 값에 대해 다른 승인자).
+* 승인자 및 승인 일자 필드를 통해 생성된 레코드에 승인 정보를 표시할 수 있습니다. 필드 만들기를 참조하십시오.
+* 모든 승인자가 승인하면 요청 양식과 연결된 레코드 종류에 대한 레코드가 만들어집니다.
+* 최소 한 명 이상의 승인자가 거부할 경우 레코드 유형에 대한 레코드가 만들어지지 않습니다. 대신 요청이 Workfront의 요청 영역에 남아/도착합니다. (이 점은 두 섹션 모두에서 약간 다른 문장으로 나타났습니다. 여기에서 하나의 문장으로 병합되었습니다.)
+* 여러 승인자가 필요한 경우 하나의 결정만 필요합니다 옵션이 활성화되어 있지 않은 한 요청이 승인되거나 거부되기 전에 모든 승인자가 결정을 내려야 합니다.
+* 팀이 승인자로 설정된 경우 해당 팀의 구성원 중 한 명으로부터의 결정만 필요합니다.
+* 승인은 선택 사항입니다. 요청 양식에 승인이 첨부되지 않은 경우 Workfront Planning은 제출 시 즉시 레코드를 생성합니다.
+* <span class="preview">하나 이상의 단계를 승인에 추가할 수 있습니다.</span>
+
+## 요청 양식에 승인 규칙 추가
+
+승인 규칙은 제출된 요청의 필드 값을 기준으로 승인 프로세스를 정의합니다.
+
+예를 들어 요청 양식에 &quot;캠페인 유형&quot; 필드가 있는 경우, 필드에 &quot;디지털&quot; 값이 있을 경우 한 사람에게, &quot;인쇄&quot; 값이 있을 경우 다른 사람에게 요청을 보내는 규칙을 만들 수 있습니다.
+
+요청 양식에 대한 승인 규칙을 설정하려면 다음을 수행합니다.
+
+1. [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md) 문서에 설명된 대로 레코드 유형에 대한 요청 양식 만들기를 시작합니다.
+1. 요청 양식이 열리면 **설정**&#x200B;을 클릭합니다.
+
+   **설정** 탭이 열립니다.
+
+1. 승인 규칙 구성을 시작하려면 왼쪽 패널에서 **승인** ![승인 아이콘](assets/approvals-icon-on-form.png)을 클릭하세요.
+
+1. (선택 사항) 기본 승인 프로세스를 설정하려면 **기본 승인 규칙** 영역의 **승인자** 필드에 하나 이상의 사용자 또는 팀을 추가한 다음 기본 승인자 중 하나가 승인했을 때 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 클릭합니다.
+
+   ![기본 승인 규칙 영역](assets/default-approvers.png)
+
+1. (선택 사항) 승인 규칙 추가를 시작합니다. 각 사용자 지정 승인 규칙에 대해 다음 작업을 수행합니다.
+
+   1. **승인 규칙 추가**&#x200B;를 클릭합니다.
+   1. 자리 표시자 제목 **제목 없는 승인 규칙**&#x200B;을 클릭하고 승인 규칙의 이름을 입력합니다.
+   1. **필드 선택**&#x200B;을 클릭하고 규칙을 활성화할 필드를 선택합니다.
+   1. 규칙에 대한 연산자를 선택합니다. 연산자는 필드 유형에 따라 다릅니다.
+   1. 선택한 연산자에 값이 필요한 경우 더하기 아이콘을 클릭하고 값을 하나 이상 추가합니다.
+   1. (선택 사항) 조건을 더 추가하려면 **조건 추가**&#x200B;를 클릭하고 C-E단계와 같이 추가 조건을 구성하여 **And** 또는 **Or** 문을 통해 연결합니다.
+   1. 승인 규칙의 **작업** 영역의 **승인자** 필드에서 조건이 충족될 때 승인자로 설정할 사용자 또는 팀을 하나 이상 추가합니다.
+   1. (조건부 및 선택 사항) 승인자 중 한 명이 레코드를 승인한 후 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 선택하십시오. 그렇지 않으면 모든 승인자는 요청이 승인되거나 거부되기 전에 승인을 결정해야 합니다.
+
+   >[!NOTE]
+   >
+   >   승인 규칙을 추가할 때 다음 사항을 고려하십시오.
+   >
+   >   * 기본 규칙만 설정된 경우, 제출된 모든 요청에 적용됩니다.
+   >   * 사용자 지정 규칙이 충족되면 기본값이 요청 승인 워크플로에 적용되지 않습니다. 일치하는 사용자 지정 규칙만 승인에 적용되고 기본 규칙은 무시됩니다.
+   >   * 여러 사용자 지정 규칙이 충족되면 해당 순서의 첫 번째 규칙이 적용됩니다. 이 경우 기본 승인이 있는 경우 적용되지 않습니다.
+
+1. <span class="preview">(선택 사항) 다른 단계를 승인에 추가하려면 **단계 추가**&#x200B;를 클릭합니다.</span>
+
+1. **저장**&#x200B;을 클릭하여 승인 규칙을 저장합니다.
+
+1. <span class="preview">(선택 사항) 승인에 단계를 더 추가하려면 다음을 수행하십시오.</span>
+
+   1. <span class="preview">**단계 추가**&#x200B;를 클릭합니다.</span>
+
+      <span class="preview">다단계 승인&#x200B;**상자가 나타납니다.**&#x200B;기본 승인 작업을 이미 만든 경우 해당 승인자는 단계 1에 자동으로 추가됩니다.</span>
+
+   1. <span class="preview">**사람 또는 팀 추가** 필드에서 단계에 대한 승인자로 설정할 사용자 또는 팀을 하나 이상 추가하십시오.</span>
+   1. <span class="preview">(조건부 및 선택 사항) 승인자 중 한 명이 레코드를 승인한 후 다음 단계로 이동하려면 **한 개의 결정만 필요합니다** 확인란을 선택합니다. 그렇지 않으면 요청이 다음 단계로 이동하기 전에 모든 승인자가 승인을 결정해야 합니다.</span>
+   1. <span class="preview">**단계 추가**&#x200B;를 클릭하고 B단계부터 반복하여 승인에 단계를 더 추가합니다.</span>
+
+      <span class="preview">둘 이상의 단계가 있는 경우 **드래그** 아이콘 ![드래그 아이콘](assets/drag-icon.png)을 클릭하여 순서대로 드래그 앤 드롭할 수 있습니다.</span>
+
+      <span class="preview">승인에서 단계를 삭제하려면 **이 단계를 삭제**&#x200B;를 클릭하고, 단계의 승인자 목록에서 사용자 또는 팀을 삭제하려면 승인자 옆에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭하십시오.</span>
+
+      ![다단계 승인 상자](assets/planning-request-multi-stage-approval-box.png)
+
+   1. <span class="preview">승인 워크플로 작성을 마치면 **저장**&#x200B;을 클릭합니다.</span>
+
+      <span class="preview">승인 페이지에서 다단계 승인을 편집하거나 삭제할 수 있습니다.</span>
+
+1. (선택 사항) 요청 양식을 공유한 적이 없으면 **게시**&#x200B;를 클릭합니다.
+
+
 
 <!--
 
@@ -149,86 +218,4 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
 
--->
-
-## 요청 양식에 승인 규칙 추가
-
-승인 규칙은 제출된 요청의 필드 값을 기준으로 승인 프로세스를 정의합니다.
-
-예를 들어 요청 양식에 &quot;캠페인 유형&quot; 필드가 있는 경우, 필드에 &quot;디지털&quot; 값이 있을 경우 한 사람에게, &quot;인쇄&quot; 값이 있을 경우 다른 사람에게 요청을 보내는 규칙을 만들 수 있습니다.
-
-승인 규칙을 추가할 때 다음 사항을 고려하십시오.
-
-* 한 명 또는 여러 명의 승인자를 승인 규칙에 추가할 수 있습니다.
-* 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다. 요청은 Workfront의 요청 영역에 남아 있습니다.
-* 두 명 이상의 승인자를 추가할 때 [하나의 결정만 필요] 옵션이 활성화되어 있지 않은 경우 요청이 승인 또는 거부되기 전에 모든 승인자가 결정을 내려야 합니다.
-* 팀이 승인자로 설정된 경우 팀의 한 멤버로부터 하나의 결정만 필요합니다.
-
-요청 양식에 대한 승인 규칙을 설정하려면 다음을 수행합니다.
-
-1. [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md) 문서에 설명된 대로 레코드 유형에 대한 요청 양식 만들기를 시작합니다.
-1. 요청 양식이 열리면 **설정**&#x200B;을 클릭합니다.
-
-   **설정** 탭이 열립니다.
-
-1. 승인 규칙 구성을 시작하려면 왼쪽 패널에서 **승인** ![승인 아이콘](assets/approvals-icon-on-form.png)을 클릭하세요.
-
-1. (선택 사항) 기본 승인 프로세스를 설정하려면 **기본 승인 규칙** 영역의 **승인자** 필드에 하나 이상의 사용자 또는 팀을 추가한 다음 기본 승인자 중 하나가 승인했을 때 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 클릭합니다.
-
-   ![기본 승인 규칙 영역](assets/default-approvers.png)
-
-1. (선택 사항) 승인 규칙 추가를 시작합니다. 각 사용자 지정 승인 규칙에 대해 다음 작업을 수행합니다.
-
-   1. **승인 규칙 추가**&#x200B;를 클릭합니다.
-   1. 자리 표시자 제목 **제목 없는 승인 규칙**&#x200B;을 클릭하고 승인 규칙의 이름을 입력합니다.
-   1. **필드 선택**&#x200B;을 클릭하고 규칙을 활성화할 필드를 선택합니다.
-   1. 규칙에 대한 연산자를 선택합니다. 연산자는 필드 유형에 따라 다릅니다.
-   1. 선택한 연산자에 값이 필요한 경우 더하기 아이콘을 클릭하고 값을 하나 이상 추가합니다.
-   1. (선택 사항) 조건을 더 추가하려면 **조건 추가**&#x200B;를 클릭하고 C-E단계와 같이 추가 조건을 구성하여 **And** 또는 **Or** 문을 통해 연결합니다.
-   1. 승인 규칙의 **작업** 영역의 **승인자** 필드에서 조건이 충족될 때 승인자로 설정할 사용자 또는 팀을 하나 이상 추가합니다.
-   1. (조건부 및 선택 사항) 승인자 중 한 명이 레코드를 승인한 후 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 선택하십시오. 그렇지 않으면 모든 승인자는 요청이 승인되거나 거부되기 전에 승인을 결정해야 합니다.
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-   >[!NOTE]
-   >
-   >   승인 규칙을 추가할 때 다음 사항을 고려하십시오.
-   >
-   >   * 기본 규칙만 설정된 경우, 제출된 모든 요청에 적용됩니다.
-   >   * 사용자 지정 규칙이 충족되면 기본값이 요청 승인 워크플로에 적용되지 않습니다. 일치하는 사용자 지정 규칙만 승인에 적용되고 기본 규칙은 무시됩니다.
-   >   * 여러 사용자 지정 규칙이 충족되면 해당 순서의 첫 번째 규칙이 적용됩니다. 이 경우 기본 승인이 있는 경우 적용되지 않습니다.
-
-1. **저장**&#x200B;을 클릭하여 승인 규칙을 저장합니다.
-1. (선택 사항) 요청 양식을 공유한 적이 없으면 **게시**&#x200B;를 클릭합니다.
-
-
-
-
-<!--
-
-MOVE THIS SECTION UNDER LINE 172 FOR PREVIEW RELEASE
-
-<div class="preview">
-
-1. (Optional) To add more stages to the approval, do the following:
-
-   1. Click **Add stage**.
-   
-      The **Multi-stage approval** box appears. If you already created a default approval action, those approvers are automatically added to Stage 1.
-
-   1. In the **Add people or teams** field, add at least one user or team to be set as the approver for the stage.
-   1. (Conditional and optional) If you want the record to advance to the next stage after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request moves to the next stage.
-   1. Click **Add stage** and repeat from step B to add more stages to the approval.
-
-      When two or more stages exist, you can click the **Drag** icon ![Drag icon](assets/drag-icon.png) to drag and drop them in order.
-
-      Click **Delete this stage** to delete a stage from the approval, or click the **Delete** icon ![Delete icon](assets/delete.png) next to an approver to delete the user or team from the list of approvers in a stage.
-
-      ![Multi-stage approval box](assets/planning-request-multi-stage-approval-box.png)
-
-   1. When you are finished building the approval workflow, click **Save**.
-
-      You can edit or delete the multi-stage approval from the Approvals page.
-
-</div>
 -->
