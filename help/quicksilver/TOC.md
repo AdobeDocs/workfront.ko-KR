@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: 6f3bc007af7971e8c66fec24930ec12e6c96a915
 workflow-type: tm+mt
-source-wordcount: '14569'
+source-wordcount: '14574'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -19,12 +19,13 @@ ht-degree: 2%
     * [Adobe Workfront 분기 릴리스 준비](product-announcements/product-releases/release-readiness.md)
     * 2026년 4분기 릴리스 {#release-26-q4}
       * [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
-      * [2026년 4분기 AI 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [2026년 4분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [2026년 4분기 AI 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [2026년 4분기 문서 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
       * [2026년 4분기 재무 관리 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md)
       * [2026년 4분기 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
       * [2026년 4분기 보고 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [2026년 4분기 개선 요청](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md)
       * [2026년 4분기 리소스 관리 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
       * [2026년 4분기 기타 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * 2026년 3분기 릴리스 {#release-26-q3}
@@ -2252,7 +2253,7 @@ ht-degree: 2%
     * [레코드 유형 공유](planning/access/share-record-types.md)
     * [보기 공유](planning/access/share-views.md)
     * [레코드 공유](planning/access/share-records.md)
-    * {hide-from-toc}[Workfront 계획 필드 공유](planning/access/share-fields.md)
+    * [Workfront Planning 필드 공유](planning/access/share-fields.md)
     * [레코드에 대한 기본 권한 설정](planning/access/set-default-record-permissions.md)
     * [보기 또는 작업 영역에 대한 권한 요청](planning/access/request-permissions.md)
   * Adobe Workfront 계획 레코드 {#adobe-workfront-planning-records}

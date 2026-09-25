@@ -11,23 +11,24 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eXQq0xVpUr3-VGwwA-v8g2QbOk8hZ-xDFze58ofP240
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
+    internal-label: Admin
+source-git-commit: aed290357bb33e56f35a1a87259455655ae46e96
 workflow-type: tm+mt
-source-wordcount: 133
+source-wordcount: '197'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront Planning 액세스 정보: 문서 색인
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 {{planning-important-intro}}
 
@@ -45,10 +46,9 @@ Workfront 관리자는 Adobe Workfront Planning을 사용하려면 사용자에�
 * [레코드 공유](/help/quicksilver/planning/access/share-records.md)
 * [레코드에 대한 기본 권한 설정](/help/quicksilver/planning/access/set-default-record-permissions.md)
 
-<!--
 <div class="preview">
 
-* [Share Workfront Planning fields](/help/quicksilver/planning/access/share-fields.md)
+* [Workfront Planning 필드 공유](/help/quicksilver/planning/access/share-fields.md)
 
 </div>
--->
+

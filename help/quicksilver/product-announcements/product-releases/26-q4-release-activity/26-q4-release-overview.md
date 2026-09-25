@@ -4,10 +4,10 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
+source-git-commit: c72b03eca291790dbda954c316fbf19d7021379e
 workflow-type: tm+mt
-source-wordcount: '2853'
-ht-degree: 1%
+source-wordcount: '2835'
+ht-degree: 2%
 ---
 # 2026년 4분기 릴리스 개요
 
@@ -39,6 +39,7 @@ ht-degree: 1%
 * [향상된 Financial Management](#financial-management-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
 * [보고 개선 사항](#reporting-enhancements)
+* [요청 개선 사항](#requests-enhancements)
 * [향상된 리소스 관리 기능](#resource-management-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
@@ -52,6 +53,15 @@ ht-degree: 1%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">MCP 통합을 위한 승인된 리디렉션 URL 추가</a>
+                <p>이제 Workfront 관리자는 신뢰할 수 있는 OAuth 콜백 URL의 Workfront을 유지 관리할 수 있으므로 사용자 지정 AI 에이전트 플랫폼은 허용 목록에 추가하다 MCP 서버에 연결할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 9월 22일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
         </tr>
         <tr>
             <td>
@@ -189,70 +199,69 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront에서 CX Coworker 사용 가능</a>
-                <p>CX Coworker는 Workfront 및 연결된 Adobe 시스템에서 작업을 수행하기 위한 새로운 대화 인터페이스로서 현재의 AI Assistant를 대체합니다.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">이제 Workfront에서 CX Coworker 사용 가능</a>
+                <p>CX Coworker은 현재의 AI Assistant를 대체하여 Workfront 및 연결된 Adobe 시스템에서 작업을 수행하기 위한 새로운 대화 인터페이스입니다.</p>
             </td>
             <td><p>2026년 9월 3일부터 단계적으로 롤아웃</p></td>
             <td><p>2026년 9월 17일부터 단계적으로 롤아웃</p></td>
             <td><p>2026년 10월 15일부터 단계적으로 롤아웃</p></td>
         </tr>
-
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Workfront MCP 커넥터에서 사용할 수 있는 새 검색 사용자 도구&lt;/a>
-    &lt;p>새로운 검색 사용자 도구는 Workfront 인스턴스에서 사람들을 더 빨리 찾는 데 도움이 됩니다. 6개의 이전 조회 도구는 더 이상 사용되지 않으며 기존 찾기/조회 도구도 더 이상 사용되지 않습니다.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2026년 8월 13일&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026년 8월 13일&lt;/p>&lt;/td>
-    &lt;td>&lt;p>8월 13일, 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Workfront MCP 서버를 사용하여 Adobe Experience Manager에 에셋을 전송하고 승인을 위해 사용자 지정 메시지를 추가할 수 있습니다.&lt;/a>
-    &lt;p>새로운 MCP 커넥터 도구를 사용하면 AEM 연결 폴더로 문서를 전송하고 사용자 지정 메시지로 문서 승인을 요청할 수 있습니다.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2026년 8월 12일&lt;/p>&lt;/td>
-    &lt;td>&lt;p>8월 12일, 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026년 8월 12일&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Workfront의 작업에 AI 작업 공동 작업자를 할당&lt;/a>
-    &lt;p>작업 공동 작업자는 작업 수준 작업을 완료하기 위해 작업에 직접 할당할 수 있는 AI 공동 작업자입니다.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2022년 7월 31일&lt;/p> 13, 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Workfront MCP 커넥터에서 사용할 수 있는 새로운 승인 도구&lt;/a>
-    &lt;p>Workfront MCP 커넥터의 기능을 확장하기 위해 승인 경로를 관리하는 새로운 도구와 병렬 승인 경로를 지원하는 기존 도구를 확장했습니다.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>7월 3일 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026년 8월 13일&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Workfront MCP 커넥터에서 사용할 수 있는 보드 도구&lt;/a>
-    &lt;p>Workfront MCP 커넥터의 기능을 확장하기 위해 보드, 카드, 체크리스트 항목 및 열.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2026년 7월 30일&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026년 8월 13일&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXxref&quot; xrefformat=&quot;{para}>새로운 공유 피드백 도구&lt;/a>
-    &lt;p 도구를 통해 Workfront 및 대화 중 발생한 사항을 보고할 수 있으므로 감정 MCP 도구를 개선할 수 있습니다.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2026년 9월 3일&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026년 9월 17일&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;/tbody>
-
-    </table>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터에서 사용할 수 있는 새 사용자 검색 도구</a>
+                <p>새로운 사용자 검색 도구를 사용하면 Workfront 인스턴스에서 더 빠르게 사람들을 찾을 수 있습니다. 6개의 이전 조회 도구가 더 이상 사용되지 않으며, 이 도구와 기존 찾기/조회 도구가 더 이상 사용되지 않습니다.</p>
+            </td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager MCP 서버를 사용하여 승인을 위해 자산을 Workfront에 보내고 사용자 지정 메시지를 추가합니다</a>
+                <p>새로운 MCP 커넥터 도구를 사용하면 AEM 연결 폴더로 문서를 보내고 사용자 지정 메시지로 문서 승인을 요청할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 8월 12일</p></td>
+            <td><p>2026년 8월 12일</p></td>
+            <td><p>2026년 8월 12일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront의 작업에 AI 작업 공동 작업자 할당</a>
+                <p>작업 공동 작업자는 작업에 직접 할당하여 작업 수준 작업을 완료할 수 있는 AI 공동 작업자입니다.</p>
+            </td>
+            <td><p>2026년 7월 31일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터에서 사용할 수 있는 새로운 승인 도구</a>
+                <p>Workfront MCP 커넥터의 기능을 확장하기 위해 승인 경로를 관리하는 새로운 도구를 추가하고 병렬 승인 경로를 지원하는 기존 도구를 확장했습니다.</p>
+            </td>
+            <td><p>2026년 7월 30일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터에서 사용할 수 있는 보드 도구</a>
+                <p>Workfront MCP 커넥터의 기능을 확장하기 위해 보드, 카드, 체크리스트 항목 및 열 작업을 위한 도구를 추가했습니다.</p>
+            </td>
+            <td><p>2026년 7월 30일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 커넥터에서 사용할 수 있는 새 피드백 공유 도구</a>
+                <p>새로운 피드백 공유 도구를 사용하면 감정 및 대화 중에 발생한 사항을 보고할 수 있으므로 Workfront의 MCP 도구를 개선할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 9월 3일</p></td>
+            <td><p>2026년 9월 17일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### 문서 개선 사항
 
@@ -265,6 +274,17 @@ ht-degree: 1%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
+                <p>You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign using the Projects panel.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>[DATE]</p></td>
+            <td><p>[DATE]</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">시스템 관리자가 승인 템플릿에 대한 전체 액세스</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
@@ -386,8 +406,7 @@ ht-degree: 1%
             <td><p>October 15, 2026</p></td>
         </tr>
 -->
-
-    &lt;/tbody>
+    </tbody>
 </table>
 
 ### 향상된 Financial Management
@@ -456,6 +475,17 @@ ht-degree: 1%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Filter on collection relationships in Canvas Dashboards</a>
+                <p>You can now filter on collection relationships, which are fields that link to a group of related records rather than a single record.</p>
+            </td>
+            <td><p>September 24, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 대시보드 복사</a>
@@ -465,63 +495,96 @@ ht-degree: 1%
             <td><p>2026년 9월 17일</p></td>
             <td><p>2026년 10월 15일</p></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 승인 유형 필드</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>이제 승인 엔티티에 승인 유형 필드가 포함되어 있습니다. 이 필드를 통해 사용자는 증명 승인, 문서 버전 승인, 접수 승인 및 기타 승인 유형을 구별할 수 있습니다.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 8월 28일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 승인 용어 업데이트</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>보다 명확하게 하기 위해 문서 및 작업 승인을 위해 캔버스 대시보드에 사용된 여러 필드 이름의 이름이 변경되었습니다.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 8월 28일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 피벗 테이블 보고서</a>
+                <p>캔버스 대시보드의 새로운 피벗 테이블 보고서 유형은 기본 레코드로 드릴다운하여 정확하고 완전한 롤업으로 데이터를 집계합니다.</p>
+            </td>
+            <td><p>2026년 8월 27일</p></td>
+            <td><p>2026년 9월 17일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">예약된 보고서에 대한 종료 날짜를 적용하는 중</a>
+                <p>이제 예약된 보고서를 사용하려면 무기한 게재를 방지하기 위해 종료 날짜가 필요합니다. 예약 종료 날짜가 지나면 자동으로 비활성화됩니다.</p>
+            </td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 9월 17일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">목록 및 보고서에 네이티브 참조 필드를 사용할 수 있습니다</a>
+                <p>이제 Workfront의 목록 및 보고서에 네이티브 참조 필드를 추가할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 7월 30일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">기존 목록 및 보고서의 다중 선택 필드 값에 대해 일관된 순서 지정</a>
+                <p>다중 선택 사용자 정의 필드에 대해 선택한 옵션이 이제 기존 목록 및 보고서에 일관되고 예측 가능한 순서로 표시됩니다.</p>
+            </td>
+            <td><p>2026년 7월 30일</p></td>
+            <td><p>2026년 8월 13일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+    </tbody>
+</table>
 
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>캔버스 대시보드의 승인 유형 필드&lt;/a>&lt;p>[!BADGE 해제 일정]{type=Neutral}&lt;/p>
-    &lt;p>이제 승인 엔티티에는 사용자가 증명 승인, 문서 버전 승인, 접수 승인 및 기타 승인 종류를 구분할 수 있는 승인 유형 필드가 포함됩니다.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
-    &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
-    &lt;td>&lt;p>8월 28일, 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>캔버스 대시보드의 승인 용어 업데이트&lt;/a>&lt;p>[!BADGE Off schedule]{type=Neutral}&lt;/p>
-    &lt;p>문서 및 작업 승인을 위해 캔버스 대시보드에 사용되는 여러 필드 이름이 명확성을 위해 변경되었습니다.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
-    &lt;p>N/A&lt;/p>&lbrace;1> 28, 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>캔버스 대시보드의 피벗 테이블 보고서&lt;/a>
-    &lt;p>캔버스 대시보드의 새 피벗 테이블 보고서 유형은 기본 레코드로 드릴다운하여 정확하고 완전한 롤업으로 데이터를 집계합니다.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>9월 17일, 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>예약된 보고서에 대한 종료 날짜 적용&lt;/a>
-    &lt;p>예약된 보고서에 대해서는 이제 종료 날짜가 필요합니다. 자동 비활성화로 일정에 대한 종료 날짜가 지나간 후에 무기한 전달을 방지할 수 있습니다.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>2026&lt;/p>&lt;/td>&lbrace;3> 2026년 9월 17일&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}>기본 참조 필드를 목록 및 보고서에 사용할 수 있습니다&lt;/a>
-    &lt;p>이제 Workfront의 목록 및 보고서에 기본 참조 필드를 추가할 수 있습니다.&lt;/p>
-    &lt;/td>
-    &lt;td>&lt;p>7월 30일, 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026년 8월 13일&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>이전 목록 및 보고서의 다중 선택 필드 값에 대한 일관성 있는 순서&lt;/a>
-    &lt;p>다중 선택 사용자 지정 필드에 대해 선택한 옵션&lt;/td50&rbrace;&lt;3/p>
-     2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026년 8월 13일&lt;/p>&lt;/td>
-    &lt;td>&lt;p>2026년 10월 15일&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;/tbody>
+### 요청 개선 사항
 
-    
-    
-    </table>
+<table>
+    <tbody>
+        <tr>
+            <td><strong>기능</strong>
+            </td>
+            <td><strong>미리보기</strong></td>
+            <td><strong>빠른 릴리스</strong></td>
+            <td><strong>분기별</strong></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">View historical requests from up to 3 years in the new request experience</a>
+                <p>You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience.</p>
+            </td>
+            <td><p>September 24, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">AI 양식 채우기가 이제 링크로 참조된 레코드에서 데이터를 가져옵니다</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>이제 AI 양식 채우기는 해당 링크가 참조하는 Workfront 객체에서 필드 데이터를 직접 검색하고 양식을 채울 때 컨텍스트로 사용할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 9월 22일</p></td>
+            <td><p>2026년 9월 22일</p></td>
+            <td><p>2026년 9월 22일</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### 향상된 리소스 관리 기능
 
@@ -618,26 +681,51 @@ ht-degree: 1%
 * [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Adobe Workfront Planning 2026년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
-<!--
-## Desktop proofing viewer updates
+## 데스크톱 증명 뷰어 업데이트
 
-### Version 2.2.1
+### 버전 2.2.1
 
-Production release for all customers: September 16, 2026
+모든 고객을 위한 프로덕션 릴리스: 2026년 9월 17일
 
-The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
+Desktop Proofing Viewer가 버전 2.2.1로 업데이트되었습니다. 이 업데이트에는 다음 변경 사항이 포함됩니다.
 
-* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
-* Resolved an issue with opening proofs from a URL on non-US regions.
-* The viewer now keeps your 10 most recent proofs.
-* Updated the Workfront logo to the current branding.
-* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
-* Updated the underlying framework (Electron) for performance and security improvements.
+* 이제 전환할 때 다시 설치하지 않고 동일한 뷰어에서 모든 환경(프로덕션, 미리보기, 샌드박스 및 기타)에서 증명을 열 수 있습니다.
+* 미국이 아닌 지역의 URL에서 증명을 열 때 발생하는 문제를 해결했습니다.
+* 이제 뷰어에 10개의 최신 증명이 보관됩니다.
+* Workfront 로고를 현재 브랜딩으로 업데이트했습니다.
+* 문제 해결 속도를 높이기 위해 Workfront Proof 정보 화면에 자세한 내용을 추가했습니다.
+* 성능 및 보안 개선을 위한 기본 프레임워크(Electron)가 업데이트되었습니다.
 
-For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
--->
+Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)를 참조하십시오.
 
 ## 공지
+
+### 기존 청구 및 비용 요금 필드 사용 중단
+
+시간이 지남에 따라, Dell은 비율 정보를 보다 완벽하고 확장 가능한 방식으로 유지 관리할 수 있는 향상된 비율 관리 기능과 전담 작업 역할 경험을 도입했습니다. 따라서 등급 관리는 목록 기반 관리 워크플로보다는 이러한 전용 경험으로 이동하고 있습니다.
+
+2027년 1월 릴리스에서는 기존 필드 **시간당 청구** 및 **시간당 비용**&#x200B;을(를) 필터/보기/그룹화 구성(직접 참조 및 텍스트 모드 계산 열 모두)을 포함하여 Workfront API 또는 사용자 및 작업 역할 목록 보기에서 더 이상 사용할 수 없습니다.
+
+보고서에서 대체물로 권장되는 텍스트 모드 코드를 사용할 수 있습니다(필요에 따라 `costRates` 또는 `billingRates` 사용).
+
+    &quot;
+    displayname=Test
+    listdelimiter=&lt;br>
+    listmethod=nested(costRates).lists
+    type=iterate
+    valueexpression=CONCAT({startDate},&quot; - &quot;,{endDate},&quot;: &quot;,{value})
+    valueformat=HTML
+    &quot;
+
+비율을 관리하고 검토하려면 전용 비율 관리 환경을 사용하십시오.
+
+* 사용자 프로필에서 직접 사용자 비율에 액세스합니다.
+* [작업 역할] > [비율] 페이지에서 직접 작업 역할 비율에 액세스하고 관리합니다.
+* 비율 보고서를 사용하여 사용자 및 작업 역할 간의 비율 정보를 검토, 분석 및 보고할 수 있습니다.
+
+변경을 준비하는 데 필요한 작업은 없습니다. 그러나 현재 사용자 또는 작업 역할 목록 보기에 **시간당 청구** 및 **시간당 비용** 필드를 표시하는 관리자는 위에서 설명한 권장 요금 관리 경험을 사용하도록 워크플로우를 업데이트해야 합니다.
+
+작업 역할 및 사용자 비율에 대한 자세한 내용은 [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) 및 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.
 
 ### Data Connect 리더 사용자에 대한 암호 전용 인증은 2026년 8월 8일에 종료됩니다
 

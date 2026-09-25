@@ -11,27 +11,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: d45d85aecbcdabf2c02c347b80c7ee56b97efff0
 workflow-type: tm+mt
-source-wordcount: 1287
-ht-degree: 4%
-
+source-wordcount: '1502'
+ht-degree: 5%
 ---
-
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 <!--remove the Prod and Preview references when we release to Prod-->
 
 # Adobe Workfront Planning의 공유 권한 개요
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 {{planning-important-intro}}
 
@@ -49,36 +50,57 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
 
 * 작업 영역
 
-   * 조직 내의 다른 사용자와 작업 공간을 공유할 수 있습니다.
-   * 작업 영역을 공유하면 작업 영역과 연관된 모든 레코드 유형, 레코드 및 필드도 공유됩니다.
-   * 작업 영역을 공유하면 보기가 공유되지 않습니다. 뷰는 별도로 공유됩니다.
+  * 사용자, 그룹, 팀, 회사 및 작업 역할과 조직 내의 작업 공간을 공유할 수 있습니다.
+  * 작업 영역을 공유하면 작업 영역과 연관된 모든 레코드 유형, 레코드 및 필드도 공유됩니다.
+  * 작업 영역을 공유하면 보기가 공유되지 않습니다. 뷰는 별도로 공유됩니다.
 
   자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
 
 * 레코드 유형
 
-   * 조직 내의 직원과 레코드 유형을 공유할 수 있습니다.
-   * 작업 영역에 부여된 권한 수준은 레코드 유형에 대해 상속된 권한으로 표시됩니다.
-   * 작업 영역에서 사용자가 보유한 권한 수준보다 높은 권한 수준의 레코드 유형은 공유할 수 없습니다.
+  * 조직 내에서 사용자, 그룹, 팀, 회사 및 작업 역할과 레코드 유형을 공유할 수 있습니다.
+  * 작업 영역에 부여된 권한 수준은 레코드 유형에 대해 상속된 권한으로 표시됩니다.
+  * 작업 영역에서 사용자가 보유한 권한 수준보다 높은 권한 수준의 레코드 유형은 공유할 수 없습니다.
 
   자세한 내용은 [레코드 종류 공유](/help/quicksilver/planning/access/share-record-types.md)를 참조하세요.
 
 * 레코드
 
-   * 조직 내의 다른 사용자와 레코드를 공유할 수 있습니다.
-   * 사용자는 기본적으로 작업 영역 및 레코드 유형에서 권한을 상속합니다.
-   * 사용자가 레코드 유형에서 보유한 권한 수준보다 높거나 낮은 권한 수준의 레코드를 공유할 수 없습니다.
+  * 조직 내 사용자, 그룹, 팀, 회사 및 작업 역할과 레코드를 공유할 수 있습니다.
+  * 사용자는 기본적으로 작업 영역 및 레코드 유형에서 권한을 상속합니다.
+  * 사용자가 레코드 유형에서 보유한 권한 수준보다 높거나 낮은 권한 수준의 레코드를 공유할 수 없습니다.
 
   자세한 내용은 [레코드 공유](/help/quicksilver/planning/access/share-records.md)를 참조하세요.
 
+<!--
+* Fields
 
+    * In the Production environment, field permissions are inherited from record types. 
+
+    * Field permissions grant access to field values, and not to field settings. 
+    * You must have both permissions to a record and to a field to see the values of that field for a record. 
+
+    <div class="preview">
+
+    * In the Preview environment, consider the following: 
+
+        * You can share fields inside your organization, with users, groups, teams, companies, and job roles. 
+        * Access to a field comes from combining the following settings:
+
+            * **Inherited permissions**: By default, a field inherits the same access someone has on the record type. You can turn off Inherited permissions and give users a lower access to the field than they have for the record type. 
+            * The **Everyone with access to the record type can view** or **Only invited people can access** selection. You can either allow everyone with permissions to the workspace to view the field or give permissions only to individual entities. 
+    
+    For more information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). 
+
+    </div>
+-->
 
 * 보기 횟수
 
-   * 시스템 관리자를 포함한 사용자에게 작업 공간 액세스에 대한 권한과 별도로 보기에 액세스할 수 있는 권한을 부여해야 합니다.
-   * 보기를 공유할 때 필터, 그룹화, 정렬 또는 설정을 포함한 모든 보기 요소가 공유됩니다.
-   * 보기를 공유할 때 보기에 표시되는 레코드는 공유되지 않습니다. 작업 영역을 공유하여 레코드를 공유해야 합니다.
-   * 보기에 대한 공개 링크를 생성할 때 조직 외부의 사람들과 보기를 공개적으로 공유할 수 있습니다.공개 링크에서 레코드 페이지에 액세스하는 사용자는 연결된 레코드와 필드를 포함하여 모든 레코드와 해당 필드를 볼 수 있습니다.
+  * 시스템 관리자를 포함한 사용자에게 작업 공간 액세스에 대한 권한과 별도로 보기에 액세스할 수 있는 권한을 부여해야 합니다.
+  * 보기를 공유할 때 필터, 그룹화, 정렬 또는 설정을 포함한 모든 보기 요소가 공유됩니다.
+  * 보기를 공유할 때 보기에 표시되는 레코드는 공유되지 않습니다. 작업 영역을 공유하여 레코드를 공유해야 합니다.
+  * 보기에 대한 공개 링크를 생성할 때 조직 외부의 사람들과 보기를 공개적으로 공유할 수 있습니다. 공개 링크에서 레코드 페이지에 액세스하는 사용자는 연결된 레코드와 필드를 포함하여 모든 레코드와 해당 필드를 볼 수 있습니다.
 
   자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하세요.
 
@@ -95,21 +117,21 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
 
 * 다음과 같은 방법으로 Planning 객체를 공유할 수 있습니다.
 
-   * 내부적으로 Workfront Planning 객체를 다음 Workfront 엔티티와 공유할 수 있습니다.
+  * 내부적으로 Workfront Planning 객체를 다음 Workfront 엔티티와 공유할 수 있습니다.
 
-      * 사용자
-      * 그룹
-      * 팀
-      * 회사
-      * 작업 역할
+    * 사용자
+    * 그룹
+    * 팀
+    * 회사
+    * 작업 역할
 
-     Planning 객체를 객체당 최대 100개의 엔티티와 공유할 수 있습니다.
+    Planning 객체를 객체당 최대 100개의 엔티티와 공유할 수 있습니다.
 
-   * 내부적으로 다른 Planning 사용자와 작업 영역 또는 보기에 대한 링크를 공유합니다. 다음과 같은 시나리오가 있습니다.
+  * 내부적으로 다른 Planning 사용자와 작업 영역 또는 보기에 대한 링크를 공유합니다. 다음과 같은 시나리오가 있습니다.
 
-      * 작업 공간에 대한 링크를 받는 사용자는 활성 사용자여야 하며 작업 공간에 액세스하려면 Workfront에 로그인해야 합니다.
-      * 보기에 대한 내부 공유 링크를 받는 사용자는 활성 사용자여야 하며 보기에 액세스하려면 Workfront에 로그인해야 합니다.
-   * 외부에서, Workfront 계정이 없는 외부 사용자와 보기에 대한 공개 공유 링크를 공유합니다.
+    * 작업 공간에 대한 링크를 받는 사용자는 활성 사용자여야 하며 작업 공간에 액세스하려면 Workfront에 로그인해야 합니다.
+    * 보기에 대한 내부 공유 링크를 받는 사용자는 활성 사용자여야 하며 보기에 액세스하려면 Workfront에 로그인해야 합니다.
+  * 외부에서, Workfront 계정이 없는 외부 사용자와 보기에 대한 공개 공유 링크를 공유합니다.
 
 ## Adobe Workfront Planning 개체에 대한 권한 공유
 
@@ -143,6 +165,10 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
 | 공유 | ✓ |            |       |
 | 삭제 | ✓ |            |       |
 | 보기 | ✓ | ✓ | ✓ |
+
+<!--
+<span class="permissions">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
+-->
 
 ### 레코드 유형에 대한 권한
 
@@ -231,9 +257,13 @@ In the Production environment, the following are the levels of permissions for r
 
 ### 필드를 기록할 수 있는 권한
 
-작업 영역 및 레코드 유형에 권한을 부여하면 필드 권한은 레코드 유형에서 상속됩니다.
 
-다음 권한은 필드 자체를 참조하며 각 필드와 연결된 값은 참조하지 않습니다. 필드 값을 편집하려면 레코드를 편집할 권한이 있어야 합니다.
+#### 프로덕션 환경에서 필드를 기록할 수 있는 권한
+
+
+작업 영역 및 레코드 유형에 대한 권한을 부여하면 필드 설정을 편집할 수 있는 권한이 레코드 유형에서 상속됩니다.
+
+다음 권한은 필드 설정을 참조하며 각 필드와 연결된 값은 참조하지 않습니다. 필드 값을 편집하려면 레코드를 편집할 권한이 있어야 합니다.
 
 |        | 관리 | 참여 | 보기 |
 |--------|--------|------------|-------|
@@ -242,6 +272,38 @@ In the Production environment, the following are the levels of permissions for r
 | 편집 | ✓ |            |       |
 | 보기 | ✓ | ✓ | ✓ |
 
+
+<div class="preview">
+
+#### 미리보기 환경에서 필드를 기록할 수 있는 권한
+
+작업 공간 및 레코드 유형에 권한을 부여하면 필드 설정에 대한 권한은 레코드 유형에서 상속됩니다.
+
+다음 권한은 필드 설정을 참조하며 각 필드와 연결된 값은 참조하지 않습니다.
+
+|        | 관리 | 참여 | 보기 |
+|--------|--------|------------|-------|
+| 만들기 | ✓ |            |       |
+| 삭제 | ✓ |            |       |
+| 편집 | ✓ |            |       |
+| 보기 | ✓ | ✓ | ✓ |
+
+
+필드 값에 대한 권한은 레코드 유형에서 상속되며 레코드에 대한 권한과 함께 작동합니다.
+
+개별 필드 값에 대한 권한을 관리하고 기밀 정보가 포함될 수 있는 필드를 제한할 수 있습니다.
+
+필드를 공유하여 필드 값에 다음 권한을 부여할 수 있습니다.
+
+|        | 관리 | 보기 |
+|--------|--------|------|
+| 삭제 | ✓ |      |
+| 편집 | ✓ |      |
+| 보기 | ✓ | ✓ |
+
+필드에 액세스하려면 사용자에게 레코드 유형에 대한 보기 권한 이상이 있어야 합니다.
+
+</div>
 
 ### 보기에 대한 권한
 
