@@ -5,9 +5,23 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '592'
 ht-degree: 4%
 ---
 # Planning 요청 공유
@@ -86,6 +100,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 * 서로 다른 사용자와 팀이 동일한 요청에 대해 서로 다른 액세스 수준을 보유할 수 있습니다.
 * 여러 엔티티를 통해 권한을 할당할 수 있습니다. 사용자에게 요청에 대한 기여 권한이 있지만 그룹 또는 작업 역할에 보기 권한이 있는 경우 기여 권한에 대해 가장 높은 수준을 유지합니다.
+* 요청은 작업 공간 및 레코드 유형에서 권한을 상속합니다. Planning 요청에 대해 상속된 권한은 제거하거나 편집할 수 없습니다.
 
 ## 요청 공유
 
@@ -110,7 +125,14 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. (선택 사항) 각 권한 수준에 대해 세분화된 권한 아이콘을 클릭하고 **편집**, **댓글**, **공유** 또는 **삭제**&#x200B;와 같은 세분화된 권한을 선택하거나 선택 취소합니다.
 
    ![요청에 대한 세분화된 권한](assets/granular-permissions-on-requests.png)
+1. (선택 사항) 상속된 권한 라인을 확장하여 작업 공간 및 레코드 유형에서 권한을 부여받은 사용자를 확인합니다.
+
+   >[!TIP]
+   >
+   >Planning 요청에 대해 상속된 권한은 제거하거나 편집할 수 없습니다.
+
 1. **저장**&#x200B;을 클릭합니다.
+
 
    이 요청은 선택한 엔티티와 공유됩니다.
 

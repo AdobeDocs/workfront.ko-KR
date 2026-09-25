@@ -5,9 +5,23 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1128'
 ht-degree: 1%
 ---
 
@@ -138,20 +152,19 @@ Workfront Planning의 다음 영역에서 CX Coworker을 찾을 수 있습니다
 
 ## 계획 영역에서 CX Coworker 액세스
 
-
 1. Workfront에 로그인한 다음 왼쪽 상단의 **주 메뉴** 아이콘 ![줄 주 메뉴](assets/lines-main-menu.png)를 클릭한 다음 **계획**&#x200B;을 클릭합니다.
 
    계획 영역이 열립니다.
 
-   페이지 오른쪽 상단에서 **AI 아이콘** ![AI 아이콘](assets/ai-icon.png)을 찾거나 아래 단계를 계속 진행합니다.
+   페이지의 오른쪽 상단에 있는 **Coworker** 아이콘 ![Coworker 아이콘](assets/coworker-icon.png)을 찾거나 아래 단계를 계속 진행합니다.
 
 1. **작업 영역 카드**&#x200B;를 클릭합니다.
 
 1. **레코드 종류 카드**&#x200B;를 클릭합니다.
 
-1. **레코드**&#x200B;을(를) 클릭하여 레코드의 **세부 정보** 페이지를 연 다음 여는 위치 를 클릭합니다.
+1. **레코드**&#x200B;을(를) 클릭하여 레코드의 **세부 정보** 페이지를 연 다음 **새 탭에서 열기** 아이콘 ![새 탭에서 열기](assets/open-workspace-on-new-tab-icon.png)을(를) 클릭합니다.
 
-1. 화면 오른쪽 상단의 **CX Coworker 아이콘**&#x200B;을 클릭합니다.
+1. 화면 오른쪽 상단의 **CX Coworker 아이콘** ![Coworker 아이콘](assets/coworker-icon.png)을 클릭합니다.
 
 1. 제공된 공백에서 CX Coworker에 대한 명령을 입력한 다음 완료되면 Enter 키를 누릅니다.
 
