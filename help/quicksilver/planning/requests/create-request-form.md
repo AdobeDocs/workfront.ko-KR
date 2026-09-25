@@ -30,14 +30,16 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3cd7a6fe3c719c8eba3c907512f66b2e285484b0
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '3066'
-ht-degree: 1%
+source-wordcount: '3098'
+ht-degree: 2%
 ---
 # Adobe Workfront Planning에서 요청 양식 만들기 및 관리
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<!--this article needs to be re-built - the structure is odd; some of the information needs to move to other articles - like the approval information - there is a standalone approval article - move there-->
 
 <!--take Preview and Production references at Production time-->
 
@@ -70,7 +72,7 @@ ht-degree: 1%
    <td> 
 <ul> 
 <li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
-또는
+   또는
 <li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
    </td> </tr>
   <tr> 
@@ -90,7 +92,7 @@ ht-degree: 1%
   </tr>  
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역 또는 레코드 형식에 대한 권한 관리</a> </p>  
+   <td>   <p>작업 영역 또는 레코드 유형에 대한 권한 관리</p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
   </tr>  
 </tbody> 
@@ -202,14 +204,53 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    1. **x** 아이콘을 클릭하여 **기본 섹션**&#x200B;을(를) 제거합니다.
 1. 필드를 클릭한 다음 양식의 오른쪽 패널에 있는 컨트롤을 사용하여 해당 크기나 다음 정보 중 하나를 정의합니다.
 
+   * **크기**: 양식에서 필드가 차지하는 공간을 제어합니다. 일부 필드 유형에는 사용할 수 없습니다.
    * **레이블**: 요청 양식에 표시되는 필드 이름입니다. 레코드 필드의 이름은 변경되지 않습니다.
    * **지침**: 필드에 대한 정보를 더 추가합니다.
-   * **필수 필드 만들기**: 선택한 경우 필드에 값이 있어야 합니다. 그렇지 않으면 양식을 제출할 수 없습니다.
-   * **논리 추가**: 필드가 표시되거나 숨겨지기 위해 충족되어야 하는 조건을 정의합니다. <!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
+
+   <div class="preview">
+
+   * **선택 항목**: 선택한 필드에만 사용할 수 있습니다. 다음 중 하나를 수행하십시오.
+
+     * 자동으로 정렬하려면 **선택 항목 정렬 A-Z**&#x200B;을 클릭하세요.
+     * 선택 항목을 드래그 앤 드롭하거나 수동으로 정렬하십시오.
+     * **설정** 아이콘 ![설정 아이콘](assets/settings-icon.png)을 클릭한 다음 **기본적으로 선택**&#x200B;을 클릭하여 기본 옵션을 표시하거나 **선택 항목 숨기기**&#x200B;를 클릭하여 숨깁니다.
+
+   </div>
 
    >[!TIP]
    >
-   >각 필드의 필드 유형은 양식에서 필드를 선택한 후 오른쪽 패널 상단에 표시됩니다.
+   ><span class="preview">Planning 요청 양식에서 선택 항목의 이름을 바꾸거나 제거할 수 없습니다. 레코드 종류의 테이블 보기에서 필드 선택 사항을 편집해야 합니다.</span>
+
+
+1. **고급 설정** 영역에서 아래 나열된 옵션 중에서 선택합니다. 모든 필드 유형에 모든 옵션을 사용할 수 있는 것은 아닙니다.
+
+   * **필수 필드 만들기**: 선택한 경우 필드에 값이 있어야 합니다. 그렇지 않으면 양식을 제출할 수 없습니다.
+   * **논리 추가**: 필드가 표시되거나 숨겨지기 위해 충족되어야 하는 조건을 정의합니다. 논리 추가는 필드가 단일 및 다중 선택 필드이거나 그 앞에 오는 경우에만 사용할 수 있습니다. <span class="preview">일부 필드 형식에 유효성 검사 및 기본값 규칙을 사용할 수 없습니다.</span>
+
+     프로덕션 환경에서 다음 옵션 중 하나를 선택합니다.
+
+     * **표시 논리**: 선택한 필드 앞에는 다중 선택 또는 단일 선택 필드가 있어야 합니다.
+     * **건너뛰기 논리**: 사용자가 필드를 건너뛰고 비워 두어야 하는 경우에 대한 건너뛰기 규칙을 추가합니다.
+
+     <div class="preview">
+
+     미리보기 환경에서 다음 옵션 중 하나를 선택합니다.
+
+     * **디스플레이**
+     * **건너뛰기**
+     * **기본값**
+     * **유효성 검사**
+     * **서식 지정**
+     * **편집 가능성**
+
+     </div>
+
+     자세한 내용은 [사용자 정의 양식 및 필드에 논리 규칙 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)를 참조하십시오.
+
+     >[!TIP]
+     >
+     ><span class="preview">양식에서 필드를 선택하면 각 필드의 필드 유형이 오른쪽 패널 맨 위에 표시됩니다.</span>
 
 1. (선택 사항) 필드를 길게 클릭하여 양식의 다른 위치에 끌어다 놓습니다.
 1. (선택 사항) 양식 왼쪽에 있는 **콘텐츠 요소** 탭을 클릭하고 다음 요소를 추가합니다.
@@ -229,25 +270,19 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 ### 양식 설정 구성
 
-설정 탭에서 승인 규칙을 설정하고 이 양식에서 만든 요청이 완료됨으로 표시되는 시기를 구성할 수 있습니다.
+설정 탭에서 승인 규칙을 설정하고, 이 양식에서 만든 요청이 완료됨으로 표시될 시기를 구성하고, <span class="preview">양식을 사용하여 제출된 이후 요청과 상호 작용하는 사용자에게 기본 권한을 할당할 수 있습니다.</span>
 
 승인 규칙은 제출된 요청의 필드 값을 기준으로 승인 프로세스를 정의합니다.
 
 예를 들어 요청 양식에 &quot;캠페인 유형&quot; 필드가 있는 경우, 필드에 &quot;디지털&quot; 값이 있을 경우 한 사람에게, &quot;인쇄&quot; 값이 있을 경우 다른 사람에게 요청을 보내는 규칙을 만들 수 있습니다.
 
-승인 규칙을 추가할 때 다음 사항을 고려하십시오.
-
-* 규칙은 순서에 따라 우선 순위가 지정됩니다. 첫 번째 규칙 조건이 충족되면 목록 아래의 규칙에 대한 조건도 충족되는 경우에도 해당 규칙이 적용됩니다.
-* 조건이 충족되지 않으면 기본 규칙이 적용됩니다.
-* 한 명 또는 여러 명의 승인자를 승인 규칙에 추가할 수 있습니다.
-* 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다. 요청은 Workfront의 요청 영역에 남아 있습니다.
-* 두 명 이상의 승인자를 추가할 때 [하나의 결정만 필요] 옵션이 활성화되어 있지 않은 경우 요청이 승인 또는 거부되기 전에 모든 승인자가 결정을 내려야 합니다.
-* 팀이 승인자로 설정된 경우 팀에서 하나의 결정만 필요합니다.
-  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+<span class="preview">승인 프로세스에서 여러 단계가 지원됩니다. 단계에 필요한 모든 결정이 내려지면 다음 단계가 시작되고 새 단계의 승인자가 전자 메일 알림을 받습니다.</span>
 
 승인 추가에 대한 자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
 
 완료 옵션을 사용하면 요청된 개체를 만들 때 요청이 완료됨으로 표시되는지 또는 만들어진 개체가 완료되었을 때 요청이 완료됨으로 표시되는지 여부를 설정할 수 있습니다. 지정된 조건을 기반으로 개체가 완료되는 시기를 정의합니다.
+
+<span class="preview">요청 양식의 설정 영역에서 권한 섹션을 사용하여 양식을 사용하여 만든 요청에 대한 <!--and non-requestors--> 요청자의 기본 권한을 정의합니다.</span>
 
 양식 설정을 구성하려면:
 
@@ -256,35 +291,12 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
 1. (선택 사항) [양식 세부 정보 설정](#set-up-form-details)에 설명된 대로 양식 세부 정보를 설정합니다.
 
-1. 승인 규칙 구성을 시작하려면 왼쪽 탐색에서 승인 ![승인 아이콘](assets/approvals-icon-on-form.png)을 클릭하세요.
+1. 승인 규칙 구성을 시작하려면 왼쪽 탐색에서 **승인** ![승인 아이콘](assets/approvals-icon-on-form.png)을 클릭하세요.
 
-1. (선택 사항) 기본 승인 프로세스를 설정하려면 기본 승인 규칙 영역의 **승인자** 필드에 사용자 또는 팀을 한 명 이상 추가한 다음 기본 승인자 중 한 명이 승인한 후에 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 클릭합니다.
+   단일 <span class="preview"> 또는 여러 단계의 승인 규칙 </span>을(를) 만들고 사용자 또는 팀을 승인에 할당할 수 있습니다.
 
-   ![기본 승인 규칙 영역](assets/default-approvers.png)
+   승인 추가에 대한 자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
 
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
-
-1. (선택 사항) 각 추가 승인 규칙에 대해 다음을 수행합니다.
-
-   1. **승인 규칙 추가**&#x200B;를 클릭합니다.
-   1. 자리 표시자 제목 &quot;제목 없는 승인 규칙&quot;을 클릭하고 승인 규칙의 이름을 입력합니다.
-   1. **필드 선택**&#x200B;을 클릭하고 규칙을 활성화할 필드를 선택합니다.
-   1. 규칙에 대한 연산자를 선택합니다. 연산자는 필드 유형에 따라 다릅니다.
-   1. 선택한 연산자에 값이 필요한 경우 더하기 아이콘을 클릭하고 값을 하나 이상 추가합니다.
-   1. (선택 사항) 조건 추가를 클릭하고 추가 조건을 구성하여 AND 또는 OR를 사용하여 조건을 더 추가합니다.
-   1. 승인 규칙의 작업 영역의 **승인자** 필드에서 조건이 충족될 때 승인자에서 설정할 사용자 또는 팀을 하나 이상 추가합니다.
-   1. (조건부) 승인자 중 한 명이 레코드를 승인한 후 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 선택합니다.
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-1. (선택 사항) 라우팅 규칙을 재정렬하려면 규칙 왼쪽에 있는 드래그 핸들을 클릭하고 규칙을 원하는 위치로 드래그합니다.
-
-   기본 규칙은 순서를 변경할 수 없습니다.
-
-1. (선택 사항) 라우팅 규칙을 삭제하려면 규칙 오른쪽에 있는 **X**&#x200B;을(를) 클릭합니다.
-1. **저장**&#x200B;을 클릭하여 승인 규칙을 저장합니다.
 1. 왼쪽 패널에서 **완료 옵션 요청**&#x200B;을 클릭합니다.
 1. 다음 옵션 중에서 선택합니다.
 
@@ -293,27 +305,34 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
 
+1. <span class="preview">왼쪽 패널에서 **사용 권한**&#x200B;을 클릭합니다.</span>
+1. <span class="preview">다음 양식을 통해 요청을 제출하는 사용자의 권한 수준을 선택하십시오.</span>
 
-   <!--
-   1. <span class="preview">Click **Permissions** on the left panel.</span>
-   1. <span class="preview">Select the permission level for the users submitting requests through this form:</span>
-      <div class="preview">
-      * **View**: All requesters can comment on and share the form.
-      * **Contribute**: All requesters can comment on, share, and edit the form.
-      * **Manage**: All requesters can comment on, share, edit, and delete the form.
-      </div>
-   1. <span class="preview"> (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:</span>
-      <div class="preview">
-      * Comment
-      * Share
-      * Edit. Not available for View. 
-      * Delete. Not available for Contribute and View. 
-      </div>
-      >[!TIP]
-      >
-      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. </span>
-   1. <span class="preview">Click **Save**.</span>
-   -->
+   <div class="preview">
+
+   * **보기**: 모든 요청자가 양식에 댓글을 달고 공유할 수 있습니다.
+   * **참여**: 모든 요청자가 양식에 대해 댓글을 달고, 공유하고, 편집할 수 있습니다.
+   * **관리**: 모든 요청자는 양식에 대해 댓글 달기, 공유, 편집 및 삭제할 수 있습니다.
+
+   </div>
+
+1. <span class="preview">(선택 사항) 요청자가 다음 작업을 수행하지 못하도록 각 권한 수준에 대한 세분화된 권한을 선택 취소합니다.</span>
+
+   <div class="preview">
+
+   * 댓글
+   * 공유
+   * 편집. 보기에 사용할 수 없습니다.
+   * 삭제. Contribute 및 [보기]에는 사용할 수 없습니다.
+
+   </div>
+
+   >[!TIP]
+   >
+   ><span class="preview">요청을 요청 페이지의 해당 사용자와 공유할 때 여기에서 선택 해제한 세부 권한이 흐리게 표시됩니다. </span>
+
+1. <span class="preview">**저장**&#x200B;을 클릭합니다.</span>
+
 
 1. [양식 게시](#publish-form)를 계속합니다.
 
@@ -361,7 +380,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
    ![요청 양식에 대한 공유 상자](assets/share-box-for-request-form.png)
 
-1. (선택 사항) **링크 복사**&#x200B;를 클릭하여 양식에 액세스하고 요청을 제출할 수 있는 액세스 권한이 있는 사람과 양식에 대한 링크를 공유합니다. 링크가 클립보드에 복사되며 다른 사용자와 공유할 수 있습니다.
+1. (선택 사항) **링크 복사**&#x200B;를 클릭하여 양식에 대한 링크를 양식에 대한 액세스 권한이 있는 사람과 공유하고 요청을 제출합니다. 링크가 클립보드에 복사되며 다른 사용자와 공유할 수 있습니다.
 1. 양식을 공개적으로 공유하려면 **공개 공유** 탭을 선택한 다음 **공개 링크 만들기** 설정을 켭니다. 기본적으로 꺼져 있습니다.
 
    ![요청 양식에 대한 공개 공유](assets/share-request-form-publicly-tab.png)
@@ -438,6 +457,8 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 1. (선택 사항) Workfront의 **요청** 영역으로 이동하여 공유 양식을 찾아 요청을 제출합니다. 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
 <!--
+
+This information is for unified intake process: 
 
 <div class="preview">
 

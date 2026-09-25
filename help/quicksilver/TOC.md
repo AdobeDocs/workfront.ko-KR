@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 6f3bc007af7971e8c66fec24930ec12e6c96a915
+source-git-commit: 593889d180b39e3c0cd6409947f0ec29a83bfe74
 workflow-type: tm+mt
-source-wordcount: '14574'
+source-wordcount: '14588'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -268,6 +268,7 @@ ht-degree: 2%
       * {hide-from-toc}[Adobe Workfront의 제한된 가용성 기능 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
       * {hide-from-toc}[Adobe Workfront의 제한된 가용성 기능에 대한 2026년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
       * {hide-from-toc}[Adobe Workfront의 제한된 가용성 기능에 대한 2026년 2분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc}[Adobe Workfront의 제한된 가용성 기능에 대한 2026년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
     * Adobe Workfront Scenario Planner 릴리스 활동 {#scenario-planner-release}
       * [Adobe Workfront Scenario Planner 릴리스 활동](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [21.3 릴리스의 Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -2283,6 +2284,7 @@ ht-degree: 2%
     * [Adobe Workfront Planning 요청: 문서 색인](planning/requests/requests-article-index.md)
     * [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](planning/requests/create-request-form.md)
     * [Adobe Workfront Planning 요청을 제출하여 레코드 생성](planning/requests/submit-requests.md)
+    * [Planning 요청 공유](planning/requests/share-requests.md)
     * [Adobe Workfront Planning에서 요청 양식 게시 취소](planning/requests/unpublish-request-form.md)
     * [Adobe Workfront Planning에서 요청 양식에 승인 추가](planning/requests/add-approval-to-request-form.md)
     * [Adobe Workfront Planning에서 요청 승인](planning/requests/approve-request.md)

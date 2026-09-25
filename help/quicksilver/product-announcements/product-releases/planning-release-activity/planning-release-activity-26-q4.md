@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 41d3ddbe55b225c4a3a969d773378d6156de05f1
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2785'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
@@ -33,63 +33,59 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 자세한 내용은 [Workfront 계획 필드 공유](/help/quicksilver/planning/access/share-fields.md)를 참조하십시오.
 
-<!--
-
-## Share a Planning request
+## Planning 요청 공유
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>미리 보기: 2026년 9월 24일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
-You can now share a Planning request with others from the Requests area in the new request experience.
+이제 새 요청 경험에서 요청 영역의 다른 사용자와 Planning 요청을 공유할 수 있습니다.
 
-You can give others one of the following permissions to the request: View, Contribute, or Manage.
+요청에 대해 보기, 기여 또는 관리 중 한 가지 권한을 다른 사용자에게 부여할 수 있습니다.
 
-For information, see [Share Planning records](/help/quicksilver/planning/requests/share-requests.md).
+자세한 내용은 [계획 레코드 공유](/help/quicksilver/planning/requests/share-requests.md)를 참조하십시오.
 
-## Set up multi-stage approvals for Planning requests
-
->[!NOTE]
->
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
-
-Workspace administrators can now build single- or multi-stage approval processes for each Planning request form, assigning one or more approvers or teams to every stage and reusing existing approval templates to speed up setup. Requests advance automatically once all required approvers in a stage sign off, and each approver is notified when a request reaches their stage. Requesters and approvers can track which stage a request is in and see which approvals are still pending.
-
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-
-## Enhancements to display logic and field editing in Planning requests forms
+## Planning 요청에 대한 다단계 승인 설정
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>미리 보기: 2026년 9월 24일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
-You can now create advanced display logic in Planning request forms based on connection field values, so forms adapt to what requesters select. All Planning fields, including connection fields, are supported when building this logic.
+이제 Workspace 관리자는 각 Planning 요청 양식에 대해 단일 또는 다중 단계 승인 프로세스를 빌드하여 한 명 이상의 승인자 또는 팀을 모든 단계에 할당하고 기존 승인 템플릿을 재사용하여 설정 속도를 높일 수 있습니다. 단계 내 모든 필수 승인자가 승인 취소되면 요청이 자동으로 진행되며 요청이 해당 단계에 도달하면 각 승인자에게 알립니다. 요청자 및 승인자는 요청이 포함된 단계를 추적하고 아직 보류 중인 승인을 확인할 수 있습니다.
 
-In addition, you can now edit a field's options directly from the request form. For example, for select-field types, you can update the field choices, their order, and their default value from the request form. Previously, this capability was not available.
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
-For information, see [Create request form](/help/quicksilver/planning/requests/create-request-form.md).
-
-## Configure capabilities for each access tier per request form
+## Planning 요청 양식의 표시 논리 및 필드 편집 개선 사항
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>미리 보기: 2026년 9월 24일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
-Workfront and workspace administrators can now indicate the level of permissions a requester receives on their requests when they configure the request form.
+이제 연결 필드 값을 기반으로 Planning 요청 양식에서 고급 표시 논리를 생성할 수 있으므로 양식은 요청자가 선택하는 내용에 맞게 조정됩니다. 연결 필드를 포함한 모든 Planning 필드는 이 논리를 작성할 때 지원됩니다.
 
-Requesters can get the following permissions to a request they submitted: View, Contribute, or Manage. Users can comment, edit, share, or view a request, and the capabilities that are not shared with them are dimmed when viewing the sharing box from a request.
+또한 이제 요청 양식에서 직접 필드의 옵션을 편집할 수도 있습니다. 예를 들어, select 필드 유형의 경우 요청 양식에서 필드 선택 사항, 순서 및 기본값을 업데이트할 수 있습니다. 이전에는 이 기능을 사용할 수 없었습니다.
 
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+자세한 내용은 [요청 양식 만들기](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
--->
+## 요청 양식당 각 액세스 계층에 대한 기능 구성
+
+>[!NOTE]
+>
+>미리 보기: 2026년 9월 24일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 Workfront 및 작업 공간 관리자는 요청 양식을 구성할 때 요청자가 요청에서 받는 권한 수준을 나타낼 수 있습니다.
+
+요청자는 제출한 요청에 대해 보기, 기여 또는 관리 권한을 얻을 수 있습니다. 사용자는 요청에 대해 댓글 달기, 편집, 공유 또는 볼 수 있으며, 공유되지 않는 기능은 요청에서 공유 상자를 볼 때 흐리게 표시됩니다.
+
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 ## 이제 AI 양식 채우기가 링크로 참조된 레코드에서 데이터를 가져옵니다
 

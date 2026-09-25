@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 4분기 릴리스에 포함된 기�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c72b03eca291790dbda954c316fbf19d7021379e
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2877'
 ht-degree: 2%
 ---
 # 2026년 4분기 릴리스 개요
@@ -199,8 +199,8 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">이제 Workfront에서 CX Coworker 사용 가능</a>
-                <p>CX Coworker은 현재의 AI Assistant를 대체하여 Workfront 및 연결된 Adobe 시스템에서 작업을 수행하기 위한 새로운 대화 인터페이스입니다.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront에서 CX Coworker 사용 가능</a>
+                <p>CX Coworker는 Workfront 및 연결된 Adobe 시스템에서 작업을 수행하기 위한 새로운 대화 인터페이스로서 현재의 AI Assistant를 대체합니다.</p>
             </td>
             <td><p>2026년 9월 3일부터 단계적으로 롤아웃</p></td>
             <td><p>2026년 9월 17일부터 단계적으로 롤아웃</p></td>
@@ -563,17 +563,15 @@ ht-degree: 2%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">View historical requests from up to 3 years in the new request experience</a>
-                <p>You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">새 요청 경험에서 최대 3년의 내역 요청 보기</a>
+                <p>이제 새로운 요청 경험에서 2025년 7월 전 최대 3년까지 제출된 Workfront 문제 요청에 액세스할 수 있습니다.</p>
             </td>
-            <td><p>September 24, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>2026년 9월 24일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
         </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">AI 양식 채우기가 이제 링크로 참조된 레코드에서 데이터를 가져옵니다</a><p>[!BADGE 해제 일정]{type=Neutral}</p>

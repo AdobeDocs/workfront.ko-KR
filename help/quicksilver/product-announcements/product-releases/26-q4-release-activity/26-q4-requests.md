@@ -4,9 +4,9 @@ description: 2026년 4분기 요청 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d0feaa93676bdd96343454e419792f13a9eedaa0
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '227'
 ht-degree: 0%
 ---
 # 2026년 4분기 요청 개선 사항
@@ -15,21 +15,17 @@ ht-degree: 0%
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
 
-<!--
-
-## View historical requests from up to 3 years in the new request experience
+## 새 요청 경험에서 최대 3년의 내역 요청 보기
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>미리 보기: 2026년 9월 24일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
-You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience. Previously, you only had access to requests submitted after July 2025.
+이제 새로운 요청 경험에서 2025년 7월 전 최대 3년까지 제출된 Workfront 문제 요청에 액세스할 수 있습니다. 이전에는 2025년 7월 이후에 제출된 요청에만 액세스할 수 있었습니다.
 
-For information, see [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
-
--->
+자세한 내용은 [제출된 요청 보기](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)를 참조하십시오.
 
 ## 이제 AI 양식 채우기가 링크로 참조된 레코드에서 데이터를 가져옵니다
 
