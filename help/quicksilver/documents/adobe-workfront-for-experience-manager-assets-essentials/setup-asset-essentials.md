@@ -136,7 +136,7 @@ Workfront 개체 데이터를 Experience Manager Assets의 에셋 미디어 필�
 
 시작하기 전에 다음을 수행해야 합니다
 
-* [Experience Manager Assets과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)에 설명된 대로 Adobe Workfront Essentials에서 메타데이터 스키마를 구성합니다.
+* [Experience Manager Assets과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)에 설명된 대로 Adobe Workfront Essentials에서 메타데이터 스키마를 구성합니다.
 * (선택 사항) Workfront에서 사용자 정의 양식 필드를 구성합니다. Workfront에는 사용할 수 있는 많은 내장 사용자 정의 필드가 있습니다. 하지만 자신만의 사용자 지정 필드를 만들 수도 있습니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## 지원되는 Workfront 및 Experience Manager Assets 필드
@@ -151,7 +151,7 @@ Workfront 지원 필드를 Experience Manager Assets Essentials의 키워드에 
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=ko).
 -->
 
 

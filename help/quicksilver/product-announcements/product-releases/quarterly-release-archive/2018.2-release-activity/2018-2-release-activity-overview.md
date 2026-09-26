@@ -237,7 +237,7 @@ Workfront은 7월 18.2 제품 릴리스 이후 더 이상 추가 기능의 데�
 
 다음 리소스를 사용하여 Outlook용 Workfront에 대해 자세히 알아보고 시작하십시오.
 
-* [웹 사이트 및 비디오](https://business.adobe.com/products/workfront/integrations.html) 
+* [웹 사이트 및 비디오](https://business.adobe.com/kr/products/workfront/integrations.html) 
 * [Outlook에서 Workfront 사용](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)(도움말 문서)
 
 ### 이전 API 버전 제거 {#removing-old-api-versions}
