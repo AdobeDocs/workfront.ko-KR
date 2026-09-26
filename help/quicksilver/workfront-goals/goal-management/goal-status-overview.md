@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM
+TQID: 'https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 4%
-
 ---
-
 # Adobe Workfront 목표의 목표 상태 개요
 
 <!--Audited: 4/2025-->
@@ -69,10 +75,10 @@ Old:
 * 닫힌 목표를 열면 목표의 진행 상황도 업데이트됩니다.
 * 목표에 대해 수행하는 특정 작업도 해당 상태를 업데이트합니다. 목표 상태를 업데이트하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-   * [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md)
-   * [Adobe Workfront 목표에서 목표 활성화](../../workfront-goals/goal-management/activate-goals.md)
-   * [Adobe Workfront 목표에서 목표 삭제 및 비활성화](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
-   * [Adobe Workfront 목표의 목표 닫기 및 다시 열기](../../workfront-goals/goal-management/close-and-reopen-goals.md)
+  * [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md)
+  * [Adobe Workfront 목표에서 목표 활성화](../../workfront-goals/goal-management/activate-goals.md)
+  * [Adobe Workfront 목표에서 목표 삭제 및 비활성화](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
+  * [Adobe Workfront 목표의 목표 닫기 및 다시 열기](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Workfront 목표의 목표 상태 개요
 
@@ -96,8 +102,8 @@ Workfront 목표 만들기에 대한 자세한 내용은 [Adobe Workfront 목표
 * 초안 목표는 다른 목표의 진행 상황 계산에 기여하지 않으며 그래프에서 고려하지 않습니다.
 * 초안 목표는 다음 Workfront 목표 영역에 표시됩니다.
 
-   * 목표 목록
-   * 목표 정렬 섹션(정렬된 목표로만)
+  * 목표 목록
+  * 목표 정렬 섹션(정렬된 목표로만)
 
 
 >[!IMPORTANT]
@@ -111,9 +117,9 @@ Workfront 목표 만들기에 대한 자세한 내용은 [Adobe Workfront 목표
 * 활성 목표는 다른 목표의 진행률 계산에 기여하며, 그래프에서 고려됩니다.
 * 활성 목표는 Workfront 목표의 다음 영역에 표시됩니다.
 
-   * 목표 목록
-   * 목표 정렬 섹션
-   * 활성 목표의 진행 상태가 그래프로 표시됩니다
+  * 목표 목록
+  * 목표 정렬 섹션
+  * 활성 목표의 진행 상태가 그래프로 표시됩니다
 
 * 마감됨 또는 비활성 목표를 다시 활성화할 수 있습니다.
 
@@ -131,8 +137,8 @@ Workfront 목표 만들기에 대한 자세한 내용은 [Adobe Workfront 목표
 * 비활성 목표는 초안 목표와 달리 한 번 활성화되었기 때문에 진행 기록이 있습니다.
 * 비활성 목표는 Workfront 목표의 다음 영역에 표시됩니다.
 
-   * 목표 목록
-   * 목표 정렬 섹션(정렬된 목표로만)
+  * 목표 목록
+  * 목표 정렬 섹션(정렬된 목표로만)
 
 ### 마감됨 {#closed}
 
@@ -148,6 +154,6 @@ Workfront 목표 만들기에 대한 자세한 내용은 [Adobe Workfront 목표
 * 마감된 목표의 진행률은 업데이트할 수 없습니다.
 * 마감된 목표는 Workfront 목표의 다음 영역에 표시됩니다.
 
-   * 목표 목록
-   * 목표 정렬 섹션(정렬된 목표로만)
-   * 종료된 목표의 정보도 그래프 섹션에서 고려됩니다.
+  * 목표 목록
+  * 목표 정렬 섹션(정렬된 목표로만)
+  * 종료된 목표의 정보도 그래프 섹션에서 고려됩니다.

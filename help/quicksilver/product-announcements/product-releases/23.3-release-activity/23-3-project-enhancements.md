@@ -5,18 +5,24 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-TQID: https://experienceleague.adobe.com/ulNcq0pM3iF92IAHGiB0-zpPYiRoUkyG2idj-rtJoRg
+TQID: 'https://experienceleague.adobe.com/ulNcq0pM3iF92IAHGiB0-zpPYiRoUkyG2idj-rtJoRg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 208
+source-wordcount: '208'
 ht-degree: 0%
-
 ---
-
 # 23.3 프로젝트 개선 사항
 
 이 페이지에서는 23.3 릴리스의 모든 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2023년 7월 20일과 21일에 23.3 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
@@ -39,4 +45,4 @@ ht-degree: 0%
 
 공유 옵션을 더 직관적으로 공유하기 위해 프로젝트, 작업 및 문제에 대한 더 보기 메뉴에서 제거했습니다. 이제 [추가] 메뉴 바로 앞에 개체의 이름 옆에 새 공유 단추가 표시됩니다. 문서, 포트폴리오 및 프로그램 공유는 변경되지 않습니다.
 
-개체 공유에 대한 자세한 내용은 [개체 공유](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)를 참조하십시오.
+개체 공유에 대한 자세한 내용은 [개체 공유](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)를 참조하십시오.

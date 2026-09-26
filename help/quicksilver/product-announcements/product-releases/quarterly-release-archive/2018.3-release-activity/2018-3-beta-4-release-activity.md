@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b40eda2c-8ad4-4945-a7e3-cb28ed8a14db
-TQID: https://experienceleague.adobe.com/gGZEw-nwXhtOQFIJS9-pZtb6XIg180CP02wMLVTTMPk
+TQID: 'https://experienceleague.adobe.com/gGZEw-nwXhtOQFIJS9-pZtb6XIg180CP02wMLVTTMPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1134
+source-wordcount: '1134'
 ht-degree: 0%
-
 ---
-
 # 2018.3 Beta 4 릴리스 활동
 
 이 페이지에서는 2018.3 Beta 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 8월 30일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
@@ -35,7 +42,7 @@ ht-degree: 0%
 
 2018.3 Beta 4 릴리스에는 Workfront 관리자와 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1&rbrace;**
+관리자용 **1}**
 
 * [그룹 관리자로서 사용자 프로필의 보고 구조 업데이트](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
@@ -88,10 +95,10 @@ ht-degree: 0%
 * 마우스 오른쪽 버튼 클릭 기능 및 제공된 상황별 메뉴.\
   작업을 마우스 오른쪽 버튼으로 클릭하여 편집하는 대신 다음 작업을 수행할 수 있습니다.
 
-   * 이제 단일 작업을 선택할 때 이전 마우스 오른쪽 버튼 클릭 메뉴와 동일한 옵션으로 기타 메뉴를 사용할 수 있습니다.
-   * 여러 작업을 선택할 때 목록 상단의 아이콘을 사용하여 이전 마우스 오른쪽 버튼 클릭 메뉴에 포함된 작업을 수행할 수 있습니다.
+  * 이제 단일 작업을 선택할 때 이전 마우스 오른쪽 버튼 클릭 메뉴와 동일한 옵션으로 기타 메뉴를 사용할 수 있습니다.
+  * 여러 작업을 선택할 때 목록 상단의 아이콘을 사용하여 이전 마우스 오른쪽 버튼 클릭 메뉴에 포함된 작업을 수행할 수 있습니다.
 
-     모든 변경 사항은 프로젝트 내의 작업 목록과 작업 아래의 하위 작업 탭에 표시됩니다.
+    모든 변경 사항은 프로젝트 내의 작업 목록과 작업 아래의 하위 작업 탭에 표시됩니다.
 
 목록에서 작업하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)을 참조하세요.
 

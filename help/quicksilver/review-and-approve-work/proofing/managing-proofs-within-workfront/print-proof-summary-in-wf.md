@@ -6,22 +6,29 @@ description: 증명 요약을 인쇄하거나, PDF으로 저장하거나, Adobe 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-TQID: https://experienceleague.adobe.com/T9kZNcZIRr9-plzZqQip2SQhe3KLj0cojG4F1mAK-CE
+TQID: 'https://experienceleague.adobe.com/T9kZNcZIRr9-plzZqQip2SQhe3KLj0cojG4F1mAK-CE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: '674'
 ht-degree: 3%
-
 ---
-
 # Adobe Workfront 내에서 증명 요약 인쇄
 
 증명 요약을 인쇄하거나, PDF으로 저장하거나, Adobe Reader에 최적화된 XLS 파일 또는 PDF 파일로 내보낼 수 있습니다.

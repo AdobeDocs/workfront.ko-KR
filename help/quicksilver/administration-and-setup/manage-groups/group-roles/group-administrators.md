@@ -9,25 +9,33 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-TQID: https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA
+TQID: 'https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: '1063'
 ht-degree: 1%
-
 ---
-
 # 그룹 관리자
 
 <!-- Audited: 12/2023 -->
@@ -59,9 +67,9 @@ Workfront 관리자인 경우 사용자를 그룹 관리자로 지정하기 전�
 * 그룹 관리자가 다른 사용자로 로그인할 수 있게 할지, 관리하는 그룹의 사용자에 대한 암호를 재설정할지를 결정합니다. 이러한 작업을 수행하려면 [그룹 관리자에게 필요한 액세스](#access-needed-for-group-administrators)에서 설명한 대로 추가 액세스 권한이 필요합니다.
 * 더 나은 사용자 관리를 위해 다음 객체에 사용자 대신 그룹 또는 하위 그룹을 할당하는 것이 좋습니다.
 
-   * 레이아웃 템플릿
-   * 일정
-   * 타임시트 프로필
+  * 레이아웃 템플릿
+  * 일정
+  * 타임시트 프로필
 
 ## 그룹 관리자에 필요한 액세스 권한 {#access-needed-for-group-administrators}
 
@@ -130,8 +138,8 @@ Workfront 관리자인 경우 사용자를 그룹 관리자로 지정하기 전�
 
 * 시스템 전체에서 그룹에 대한 프로젝트 환경 설정, 작업 또는 문제 환경 설정, 타임시트 및 시간 환경 설정 잠금이 해제된 경우 관리하는 그룹에 대한 환경 설정을 편집합니다. 이러한 환경 설정은 프로젝트, 작업 및 문제 동작에 영향을 줍니다. 자세한 내용은 다음을 참조하십시오.
 
-   * [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
-   * [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
+  * [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+  * [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
 * 관리하는 그룹의 그룹 상태를 만들고 편집합니다. 자세한 내용은 [그룹 상태 만들기 또는 편집](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)을 참조하세요.
 * 관리하는 그룹에 대한 이벤트 알림을 구성합니다. Workfront 관리자가 시스템을 통해 그룹에 대한 이벤트 알림을 구성하는 기능의 잠금을 해제한 후에만 이 작업을 수행할 수 있습니다. 자세한 내용은 [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)을 참조하세요.

@@ -6,22 +6,26 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-TQID: https://experienceleague.adobe.com/nxv12H-Og-oKAiNQgTmw6KbT-yw3xyIKvlqjwSKtgqQ
+TQID: 'https://experienceleague.adobe.com/nxv12H-Og-oKAiNQgTmw6KbT-yw3xyIKvlqjwSKtgqQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: '1172'
 ht-degree: 3%
-
 ---
-
 # 작업 공유
 
 Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작업을 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 작업에 대한 액세스 권한 부여에 대한 자세한 내용은 [작업에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)를 참조하십시오.
@@ -74,9 +78,9 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작�
 
 * 작업에 다음 권한을 부여할 수 있습니다.
 
-   * 보기
-   * 관리
-   * 참여
+  * 보기
+  * 관리
+  * 참여
 * 작업을 공유할 때 기본적으로 사용자는 작업과 연결된 모든 하위 개체에 대해 동일한 권한을 상속합니다. 예를 들어, 하위 작업, 문제 및 작업에 첨부된 문서에 대한 동일한 권한을 상속합니다.\
   Workfront의 개체 계층 구조에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)를 참조하십시오.
 
@@ -93,10 +97,10 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작�
 
 * 다음을 수행하여 자동으로:
 
-   * 작업의 상위 개체(프로젝트, 프로그램 또는 포트폴리오)에 대한 권한을 지정합니다. 작업은 상위 개체에서 권한을 상속합니다. 개체에 상속된 사용 권한을 보는 방법에 대한 자세한 내용은 [개체에 상속된 사용 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)를 참조하십시오.
-   * 작업이 있는 프로젝트를 만드는 데 사용되는 템플릿에 대한 프로젝트 공유에 엔티티를 추가합니다. 템플릿에서 프로젝트를 공유하는 방법에 대한 자세한 내용은 [템플릿 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)를 참조하십시오.
+  * 작업의 상위 개체(프로젝트, 프로그램 또는 포트폴리오)에 대한 권한을 지정합니다. 작업은 상위 개체에서 권한을 상속합니다. 개체에 상속된 사용 권한을 보는 방법에 대한 자세한 내용은 [개체에 상속된 사용 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)를 참조하십시오.
+  * 작업이 있는 프로젝트를 만드는 데 사용되는 템플릿에 대한 프로젝트 공유에 엔티티를 추가합니다. 템플릿에서 프로젝트를 공유하는 방법에 대한 자세한 내용은 [템플릿 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)를 참조하십시오.
 
-   * 프로젝트를 편집할 때 프로젝트의 모든 작업에 대한 권한을 지정합니다.  프로젝트에 대한 사용자의 권한에 따라 프로젝트의 작업에 대한 액세스를 관리하는 방법에 대한 자세한 내용은 문서 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md)의 [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) 섹션을 참조하십시오.
+  * 프로젝트를 편집할 때 프로젝트의 모든 작업에 대한 권한을 지정합니다.  프로젝트에 대한 사용자의 권한에 따라 프로젝트의 작업에 대한 액세스를 관리하는 방법에 대한 자세한 내용은 문서 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md)의 [](../../manage-work/projects/manage-projects/edit-projects.md#access) 섹션을 참조하십시오.
 
   >[!TIP]
   >

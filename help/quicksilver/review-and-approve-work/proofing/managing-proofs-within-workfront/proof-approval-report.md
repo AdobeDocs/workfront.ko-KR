@@ -6,22 +6,29 @@ description: 증명 승인 보고서를 사용하여 환경에서 증명에 대�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-TQID: https://experienceleague.adobe.com/ZU6Ej5QhI7v9zoAxurBz1YsFVIuVIh2a8tR2h6vYL18
+TQID: 'https://experienceleague.adobe.com/ZU6Ej5QhI7v9zoAxurBz1YsFVIuVIh2a8tR2h6vYL18'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a2241fa21f51f8146c1f3725d2ba2235f8458ab4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 6%
-
 ---
-
 # 증명 승인 보고서 사용
 
 증명 승인 보고서를 사용하여 환경에서 증명에 대한 정보를 볼 수 있습니다.
@@ -80,9 +87,9 @@ ht-degree: 6%
 * **워크플로 템플릿**: 증명에 첨부된 모든 워크플로 템플릿을 표시합니다. 첨부된 템플릿이 없으면 열이 비어 있습니다.
 * **결정 대기 중**: 다음 조건이 참일 때 최신 버전에서 결정이 충족되지 않았음을 나타내기 위해 true를 표시합니다.
 
-   * 증명이 보관되지 않음
-   * 승인자가 진행 중인 단계가 활성 상태입니다.
-   * 증명이 승인 보류 중입니다.
+  * 증명이 보관되지 않음
+  * 승인자가 진행 중인 단계가 활성 상태입니다.
+  * 증명이 승인 보류 중입니다.
 
 * **증명 기한**: 증명 기한을 표시합니다. 이 필드를 채우려면 모든 단계에 기한이 할당되어야 합니다. 필드에는 가장 최근에 활성화된 단계의 기한이 표시됩니다.
 

@@ -5,13 +5,25 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%
-
 ---
-
 
 # 독립 실행형 제품으로 Adobe Workfront Planning 시작하기
 
@@ -75,11 +87,11 @@ Workfront Planning을 독립형 제품으로 사용하면 Planning 전용 기능
 
   자세한 내용은 다음 문서를 참조하십시오.
 
-   * [작업 공간 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)
-   * [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md)
-   * [레코드 만들기](/help/quicksilver/planning/records/create-records.md)
-   * [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)
-   * [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)
+  * [작업 공간 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)
+  * [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md)
+  * [레코드 만들기](/help/quicksilver/planning/records/create-records.md)
+  * [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)
+  * [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)
 * Planning 레코드를 생성하기 위한 자동 생성
 
   자세한 내용은 [Adobe Workfront Planning 자동화 구성](/help/quicksilver/planning/records/configure-automations-to-create-records.md)을 참조하십시오.
@@ -99,15 +111,15 @@ Workfront Planning을 독립형 제품으로 사용하면 Planning 전용 기능
 
   자세한 내용은 다음 문서를 참조하십시오.
 
-   * [Adobe Workfront Planning에서 사용자를 독립 실행형 제품으로 관리](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
-   * [Adobe Workfront Planning에서 팀을 독립 실행형 제품으로 관리](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [Adobe Workfront Planning에서 사용자를 독립 실행형 제품으로 관리](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [Adobe Workfront Planning에서 팀을 독립 실행형 제품으로 관리](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
 
 * 설정에서 고객 및 라이선스 세부 정보에 액세스
 
   자세한 내용은 [독립 실행형 제품으로 Adobe Workfront Planning 인스턴스 관리](/help/quicksilver/planning/planning-sta/manage-planning-sta-instance.md)를 참조하십시오.
 * Fusion에서 Workfront Planning 커넥터 사용
 
-  자세한 내용은 [Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)을 참조하세요.
+  자세한 내용은 [Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)을 참조하세요.
 * 조직에서 GenStudio for Performance Marketing도 구입한 경우 Adobe GenStudio for Performance Marketing 작업 영역을 관리합니다.
 
   자세한 내용은 [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.

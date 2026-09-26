@@ -6,22 +6,26 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 템�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-TQID: https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E
+TQID: 'https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: '596'
 ht-degree: 14%
-
 ---
-
 # 템플릿 공유
 
 Adobe Workfront 관리자는 액세스 수준을 할당할 때 템플릿을 보거나 편집할 수 있는 권한을 사용자에게 부여할 수 있습니다. 템플릿 편집에 액세스하려면 사용자에게 표준 또는 플랜 라이선스가 있어야 합니다.
@@ -42,18 +46,18 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 템플릿을 보�
 * 템플릿 작성자와 템플릿 소유자는 기본적으로 템플릿에 대한 관리 권한을 갖습니다. 사용자를 템플릿 소유자로 지정하는 방법에 대한 자세한 내용은 [프로젝트 템플릿 편집](../../manage-work/projects/create-and-manage-templates/edit-templates.md)을 참조하십시오.
 * 템플릿을 공유할 때 다음을 공유할 수 있습니다.
 
-   * 템플릿
+  * 템플릿
 
-     템플릿을 공유하는 방법에 대한 자세한 내용은 [프로젝트 템플릿 공유](../../manage-work/projects/create-and-manage-templates/share-project-template.md)를 참조하십시오.
+    템플릿을 공유하는 방법에 대한 자세한 내용은 [프로젝트 템플릿 공유](../../manage-work/projects/create-and-manage-templates/share-project-template.md)를 참조하십시오.
 
-     템플릿에 다음 권한을 부여할 수 있습니다.
+    템플릿에 다음 권한을 부여할 수 있습니다.
 
-      * 보기
-      * 관리
+    * 보기
+    * 관리
 
-   * 템플릿을 사용하여 만드는 향후 프로젝트입니다. 템플릿에서 만든 프로젝트에 개별 프로젝트와 동일한 수준의 권한을 부여할 수 있습니다.
+  * 템플릿을 사용하여 만드는 향후 프로젝트입니다. 템플릿에서 만든 프로젝트에 개별 프로젝트와 동일한 수준의 권한을 부여할 수 있습니다.
 
-     템플릿 수준에서 템플릿의 프로젝트를 공유하는 방법에 대한 자세한 내용은 [프로젝트 템플릿 공유](../../manage-work/projects/create-and-manage-templates/share-project-template.md)를 참조하십시오.
+    템플릿 수준에서 템플릿의 프로젝트를 공유하는 방법에 대한 자세한 내용은 [프로젝트 템플릿 공유](../../manage-work/projects/create-and-manage-templates/share-project-template.md)를 참조하십시오.
 
 * 템플릿이나 템플릿에서 만든 프로젝트를 공유할 때 기본적으로 사용자는 템플릿 또는 프로젝트와 관련된 모든 하위 개체에 대해 동일한 권한을 상속합니다.
 

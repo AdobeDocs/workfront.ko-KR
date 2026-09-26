@@ -8,23 +8,28 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
-TQID: https://experienceleague.adobe.com/08obyXZ-MxoG1JqSrG-skblpHIudRUTeCcZ3vsUocBs
+TQID: 'https://experienceleague.adobe.com/08obyXZ-MxoG1JqSrG-skblpHIudRUTeCcZ3vsUocBs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: '809'
 ht-degree: 0%
-
 ---
-
 # Webhook 연결 테스트
 
 문서 Webhook 구현이 올바르게 작동하는지 확인하려면 이 섹션에서 수동 테스트를 실행합니다. 이러한 단계는 Adobe Workfront 웹 인터페이스를 통과하여 Webhook 구현의 끝점을 간접적으로 공격합니다.

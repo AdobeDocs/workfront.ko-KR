@@ -7,34 +7,45 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
+TQID: 'https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+    internal-label: API Explorer
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b191c48f65bc489457112f8401654d1e4b66fabf
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 4561
+source-wordcount: '4561'
 ht-degree: 0%
-
 ---
-
 # API 기본 사항
 
 >[!NOTE]
 >
->이 문서의 예제에는 `<supported-version>`이(가) 포함됩니다. 이를 사용하려는 Workfront API 버전으로 바꿉니다.Workfront API 버전 관리 및 지원 일정은 [API 버전 관리 및 지원 일정](/help/quicksilver/wf-api/api/api-version-support-schedule.md)을 참조하십시오.
+>이 문서의 예제에는 `<supported-version>`이(가) 포함됩니다. 이를 사용하려는 Workfront API 버전으로 바꿉니다.
+>Workfront API 버전 관리 및 지원 일정은 [API 버전 관리 및 지원 일정](/help/quicksilver/wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
 Adobe Workfront API의 목표는 HTTP를 통해 작동하는 REST 풀 아키텍처를 도입하여 Workfront과의 통합 빌드를 간소화하는 것입니다. 이 문서에서는 사용자가 REST 및 JSON 응답에 익숙하다고 가정하고 Workfront API로 취한 접근 방식을 설명합니다.
 
@@ -245,7 +256,7 @@ GET /attask/api/<supported-version>/project/4c78821c0000d6fa8d5e52f07a1d54d0
 
 다음과 유사한 응답을 반환합니다.
 
-<pre>&lbrace;<br> "percentComplete": 0,<br> "status": "CUR",<br> "priority": 2,<br> "name": "새 프로젝트",<br> "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br></pre>
+<pre>{<br> "percentComplete": 0,<br> "status": "CUR",<br> "priority": 2,<br> "name": "새 프로젝트",<br> "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br></pre>
 
 
 다음 예와 같이 id 요청 매개 변수를 지정하고 쉼표로 구분된 ID 목록을 제공하여 동일한 요청에서 여러 개체를 검색할 수 있습니다.
@@ -319,7 +330,7 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 
 #### 필터 매개 변수 사용
 
-검색 필터에 URL 매개 변수를 사용할 때 발생할 수 있는 잠재적인 위험 중 하나는 Workfront이 다른 인증 방법(예: 사용자 이름, 암호, apiKey, 쿠키)을 확인하기 전에 특정 매개 변수를 구문 분석한다는 것입니다. 이런 경우 매개 변수는 호출에서 필터로 사용되지 않습니다.
+검색 필터에 URL 매개 변수를 사용할 때 발생할 수 있는 잠재적인 위험 중 하나는 Workfront이 다른 인증 방법(예: 사용자 이름, 암호, apiKey, 쿠키)을 확인하기 전에 특정 매개 변수를 구문 분석한다는 것입니다. 이런 경우 매개 변수는 호출에서 필터로 사용되지 않습니다. 
 
 이 문제를 방지하기 위해 JSON 형식을 사용하여 필터 매개 변수에 이러한 값을 배치할 수 있습니다. 예를 들어 사용자 이름을 필터링하려면 다음을 사용하지 않고 testuser를 필터링합니다 
 <pre>/attask/api/&lt;supported-version&gt;/user/search?username=testuser@workfront.com</pre>다음 예제와 같이 URL 매개 변수를 필터에 전달합니다.
@@ -329,7 +340,7 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 
 기본적으로 검색에서 반환되는 데이터는 JSON 배열입니다. 사용 사례에 따라 결과를 ID로 인덱싱된 JSON 개체로 가져오는 것이 더 효율적일 수 있습니다. 이 작업은 맵 요청 매개 변수를 사용하여 수행할 수 있습니다. 예: 요청 
 <pre>/attask/api/&lt;supported-version&gt;/task/search?map=true</pre>는 다음과 유사한 ID로 인덱싱된 응답을 반환합니다.
-<pre>&lbrace;<br> "data": {<br> "4c9a97db0000000f13ee444b9aead9b": {<br> "percentComplete": 0,<br> "status": "NEW",<br> "name": "first task",<br> "ID": "4c9a97db0000000f13ee446b9aead9b",<br> "taskNumber": 1 <br> },<br> "4ca28ba600002024cd49e75bd43cf601": {<br> "percentComplete": 0,<br> "status": "INP:A",<br> "name": "second task",<br> "ID": "4ca28ba600002024cd49e75bd43cf601",<br> "taskNumber": 2 <br> } <br> } <br></pre>
+<pre>{<br> "data": {<br> "4c9a97db0000000f13ee444b9aead9b": {<br> "percentComplete": 0,<br> "status": "NEW",<br> "name": "first task",<br> "ID": "4c9a97db0000000f13ee446b9aead9b",<br> "taskNumber": 1 <br> },<br> "4ca28ba600002024cd49e75bd43cf601": {<br> "percentComplete": 0,<br> "status": "INP:A",<br> "name": "second task",<br> "ID": "4ca28ba600002024cd49e75bd43cf601",<br> "taskNumber": 2 <br> } <br> } <br></pre>
 
 #### 필드 요청 매개 변수 사용
 
@@ -337,7 +348,7 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 
 필드 요청 매개 변수를 사용하여 쉼표로 구분된 특정 필드 목록이 반환되도록 지정할 수 있습니다. 예: 요청
 <pre>/attask/api/&lt;supported-version&gt;/task/search?fields=plannedStartDate,priority</pre>다음과 유사한 응답을 반환합니다.
-<pre>&lbrace;<br> "priority": 2,<br> "name": "first task",<br> "ID": "4c7c08fa0000002ff924e298ee148df4",<br> "plannedStartDate": "2010-08-30T09:00:00:000-0600" <br></pre>
+<pre>{<br> "priority": 2,<br> "name": "first task",<br> "ID": "4c7c08fa0000002ff924e298ee148df4",<br> "plannedStartDate": "2010-08-30T09:00:00:000-0600" <br></pre>
 
 >[!NOTE]
 >
@@ -350,7 +361,7 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 중첩된 객체를 검색할 수 있습니다. 기본적으로 중첩된 개체는 이름과 ID만 사용하여 반환됩니다. 예를 들어 소유자와 함께 모든 문제를 가져오려면 다음 요청을 사용하십시오.
 <pre>/attask/api/&lt;supported-version&gt;/issue/search?fields=owner</pre>추가 정보가 필요한 경우 콜론 구문을 사용하여 중첩된 필드를 요청할 수 있습니다. 예를 들어 다음 요청은 소유자 이름, ID, 제목 및 전화 번호와 함께 모든 문제를 검색합니다
 <pre>/attask/api/&lt;supported-version&gt;/issue/search?fields=owner:title,owner:phoneNumber</pre>및 는 다음을 반환합니다. 
-<pre>&lbrace;<br> "name": "중요한 문제",<br> "ID": "4c78285f00000908ea8cfd66e084939f",<br> "소유자": {<br> "title": "작업 전문가",<br> "phoneNumber": "555-1234",<br> "name": "관리자 사용자",<br> "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br> } <br></pre>
+<pre>{<br> "name": "중요한 문제",<br> "ID": "4c78285f00000908ea8cfd66e084939f",<br> "소유자": {<br> "title": "작업 전문가",<br> "phoneNumber": "555-1234",<br> "name": "관리자 사용자",<br> "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br> } <br></pre>
 
 #### 중첩된 컬렉션 검색
 
@@ -369,7 +380,7 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 <pre>/attask/api/&lt;supported-version&gt;/project/search?fields=DE:CustomText</pre>반환
 <pre>{<br> "name": "사용자 지정 데이터 프로젝트",<br> "ID": "4c9a954f0000001afad0687d7b1b4e43",<br> "DE:CustomText": "task b" <br>}</pre>parameterValues 필드를 요청하여 개체에 대한 모든 사용자 지정 데이터를 검색할 수도 있습니다. 예: 
 <pre>/attask/api/&lt;지원되는 버전&gt;/project/search?fields=parameterValues</pre>는 유사한 데이터를 다음과 반환합니다.
-<pre>&lbrace;<br> "name": "사용자 지정 데이터 프로젝트",<br> "ID": "4c9a954f0000001afad0687d7b1b4e43",<br> parameterValues: { <br> "DE:CustomText": "task b", <br> "DE:CustomNumber": 1.4, <br> "DE:CustomCheckBoxes": ["first", "second", "third"] <br> } <br></pre>
+<pre>{<br> "name": "사용자 지정 데이터 프로젝트",<br> "ID": "4c9a954f0000001afad0687d7b1b4e43",<br> parameterValues: { <br> "DE:CustomText": "task b", <br> "DE:CustomNumber": 1.4, <br> "DE:CustomCheckBoxes": ["first", "second", "third"] <br> } <br></pre>
 
 #### 명명된 쿼리 사용
 
@@ -386,8 +397,8 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 
 하나 이상의 그룹화를 사용하여 일부 필드의 집계만 원하는 보고서 요청을 수행할 수 있습니다. 다음 예에 표시된 대로 보고서 구문은 SOAP API의 구문과 동일합니다.
 <pre>GET /attask/api/&lt;supported-version&gt;/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>다음 결과를 반환합니다
-<pre>&lbrace;<br> "첫 번째 프로젝트": { <br> "sum_hours": 15 <br> }, <br> "두 번째 프로젝트": { <br> "sum_hours": 30 <br> } <br></pre>$$ROLLUP=true 매개 변수를 추가하면 각 그룹화 수준의 합계가 포함됩니다.
-<pre>&lbrace;<br> "첫 번째 프로젝트": { <br> "sum_hours": 15 <br> }, <br> "두 번째 프로젝트": { <br> "sum_hours": 30 <br> }, <br> "$$ROLLUP": { <br> "sum_hours": 45 <br> } <br></pre>
+<pre>{<br> "첫 번째 프로젝트": { <br> "sum_hours": 15 <br> }, <br> "두 번째 프로젝트": { <br> "sum_hours": 30 <br> } <br></pre>$$ROLLUP=true 매개 변수를 추가하면 각 그룹화 수준의 합계가 포함됩니다.
+<pre>{<br> "첫 번째 프로젝트": { <br> "sum_hours": 15 <br> }, <br> "두 번째 프로젝트": { <br> "sum_hours": 30 <br> }, <br> "$$ROLLUP": { <br> "sum_hours": 45 <br> } <br></pre>
 
 ### API에서 쿼리 결과 정렬
 
@@ -455,7 +466,7 @@ Workfront의 대부분의 필드에 적용됩니다.
 기본 결과 수 쿼리 제한을 무시하고 200개의 결과를 허용하려면 다음 예제와 같이 쿼리에 `$$LIMIT=200` 필터를 포함할 수 있습니다.
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$LIMIT=200</pre>
 
-시스템의 다른 테넌트에 대한 신뢰성과 성능을 보장하기 위해 쿼리당 허용되는 최대 결과 제한은 2000개입니다. 더 큰 제한을 지정하려고 하면 `IllegalArgumentException` 오류 메시지가 표시됩니다.
+시스템의 다른 테넌트에 대한 신뢰성과 성능을 보장하기 위해 쿼리당 허용되는 최대 결과 제한은 2000개입니다. 더 큰 제한을 지정하려고 하면 `IllegalArgumentException` 오류 메시지가 표시됩니다. 
 
 따라서 큰 데이터 세트에 대해 페이지 번호를 매긴 응답을 사용하는 것이 좋습니다. 반환해야 하는 첫 번째 결과를 지정하려면 `$$FIRST` 필터를 추가합니다. 예를 들어 다음 요청은 쿼리에 대한 결과 201-250을 반환합니다.
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
@@ -495,7 +506,7 @@ POST /attask/api/<supported-version>/project?copySourceID=4c7...&name=Copied Pro
 다음 API URL을 통해 문서를 업로드할 수 있습니다.
 <pre>POST /attask/api/&lt;supported-version&gt;/upload</pre>API에서는 콘텐츠 유형이 다중 부분/양식 데이터여야 합니다. 파일의 매개 변수 이름은 uploadedFile이어야 합니다. 서버가 다음 JSON 데이터를 반환합니다.
 <pre>{<br> "handle": "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>Workfront 문서를 만들 때 핸들을 사용하여 다음 URL에 게시할 수 있습니다.
-<pre>POST /attask/api/&lt;supported-version&gt;/document?updates=&lbrace;<br> name: aFileName,<br> handle: abc...123, (파일 업로드의 핸들)<br> docObjCode: PROJ, (또는 TASK, OPTASK 등)<br> objID: abc...123,<br> currentVersion:{version:v1.0,fileName:aFileName}<br></pre>
+<pre>POST /attask/api/&lt;supported-version&gt;/document?updates={<br> name: aFileName,<br> handle: abc...123, (파일 업로드의 핸들)<br> docObjCode: PROJ, (또는 TASK, OPTASK 등)<br> objID: abc...123,<br> currentVersion:{version:v1.0,fileName:aFileName}<br></pre>
 
 ## PUT 동작
 
@@ -516,14 +527,14 @@ PUT에 대한 응답은 GET과 동일합니다. 두 경우 모두 업데이트 �
 ### 중첩 업데이트 만들기
 
 일부 객체에는 업데이트할 수 있는 개인 소유 컬렉션이 있습니다. 예를 들어 다음 예에서는 주어진 작업에 대한 기존 할당을 덮어쓰는 방법을 보여 줍니다.
-<pre>/attask/api/&lt;supported-version&gt;/task/4c7...?updates= <br>&lbrace;<br> 할당: [ <br> { <br> assignedToID: "2222...54d0, <br> assignmentPercent: 50.0 <br> },{ <br> roleID: "1111...54d0"<br> } <br> ] <br></pre>
+<pre>/attask/api/&lt;supported-version&gt;/task/4c7...?updates= <br>{<br> 할당: [ <br> { <br> assignedToID: "2222...54d0, <br> assignmentPercent: 50.0 <br> },{ <br> roleID: "1111...54d0"<br> } <br> ] <br></pre>
 
 >[!NOTE]
 >
 >최상위 수준에 대한 업데이트는 스파스(sparse)이지만 컬렉션이나 중첩된 객체에 대한 업데이트는 기존 컬렉션을 완전히 대체합니다. 오브젝트에 영향을 주지 않고 작업에 대한 단일 할당을 편집하려면 작업이 아닌 할당에 PUT을 사용합니다.
 
 다음 예제에서는 프로젝트를 공용 헬프 데스크 대기열로 만듭니다. 기존 대기열 속성이 대체됩니다.
-<pre>PUT /attask/api/&lt;supported-version&gt;/project/4c7...?updates= <br>&lbrace; <br> queueDef: { <br> isPublic: 1 <br> } <br></pre>
+<pre>PUT /attask/api/&lt;supported-version&gt;/project/4c7...?updates= <br>{ <br> queueDef: { <br> isPublic: 1 <br> } <br></pre>
 
 ### 작업 요청 매개 변수 사용
 
@@ -534,7 +545,7 @@ PUT에 대한 응답은 GET과 동일합니다. 두 경우 모두 업데이트 �
 
 다음은 한 프로젝트에서 다른 프로젝트로 작업을 이동하는 구문을 보여 줍니다.
 <pre>/attask/api/&lt;supported-version&gt;/task/4c7.../move?projectID=5d8...</pre>각 작업 유형에 대한 예는 여기에 제공됩니다(??).
-<pre>PUT /attask/api/&lt;supported-version&gt;/project/1234/approveApproval<br><br>PUT /attask/api/&lt;supported-version&gt;/project/1234/calculateFinance<br><br>PUT /attask/api/&lt;supported-version&gt;/project/1234/calculateTimeline<br><br>PUT /attask/api/&lt;supported-version&gt;/project/1234/calculateDataExtension<br><br>PUT /attask/api/&lt;supported-version&gt;/project/1234/recallApproval<br><br>PUT /attask/api/&lt;5&rbrace;PUT /attask/api/&lt;supported-version&gt;/task/1234/move<br><br>PUT /attask/api/&lt;supported-version&gt;/workitem/1234/markViewed<br><br></pre>이동 작업만 수행하면 작업 항목을 이동할 프로젝트를 지정하는 추가 속성을 식별할 수 있습니다.
+<pre>PUT /attask/api/&lt;supported-version&gt;/project/1234/approveApproval<br><br>PUT /attask/api/&lt;supported-version&gt;/project/1234/calculateFinance<br><br>PUT /attask/api/&lt;supported-version&gt;/project/1234/calculateTimeline<br><br>PUT /attask/api/&lt;supported-version&gt;/project/1234/calculateDataExtension<br><br>PUT /attask/api/&lt;supported-version&gt;/project/1234/recallApproval<br><br>PUT /attask/api/&lt;5}PUT /attask/api/&lt;supported-version&gt;/task/1234/move<br><br>PUT /attask/api/&lt;supported-version&gt;/workitem/1234/markViewed<br><br></pre>이동 작업만 수행하면 작업 항목을 이동할 프로젝트를 지정하는 추가 속성을 식별할 수 있습니다.
 
 다음은 각 작업 유형의 예입니다. 
 <pre>PUT /attask/api/&lt;supported-version&gt;/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
@@ -555,9 +566,9 @@ DELETE은 개체를 제거합니다. 모든 경우에, URI는 서버가 지정�
 
 벌크 업데이트 문은 단일 API 호출 내에서 여러 개체를 동시에 업데이트합니다. 벌크 만들기 API 호출은 다음 예에 표시된 대로 일반 업데이트 호출과 유사하게 빌드됩니다.
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>또는 <pre>푸시 /attask/api/&lt;supported-version&gt;/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>그러면 다음과 유사한 결과가 발생합니다.
-<pre>데이터: [&lbrace;<br> ID: "53ff8d3d003b438b57a8a784df38f6b3",<br> 이름: "Test_Project_1",<br> objCode: "PROJ",<br> percentComplete: 0,<br> plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br> plannedStartDate: "2014-08-28 t11:00:00:000-0400",<br> 우선순위: 0,<br> projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br> 상태: "CUR"<br>,<br>&lbrace;<br> ID: "53ff8d49003b43a2562aa34eea3b6b10",<br> 이름: "Test_Project_2",<br> objCode: "7 percent" plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br> plannedStartDate: "2014-08-28T11:00:00:000-0400",<br> 우선 순위: 0,<br> projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br> 상태: "CUR"<br>]<br><br></pre>다음과 유사한 대량 업데이트를 수행할 수도 있습니다.
+<pre>데이터: [{<br> ID: "53ff8d3d003b438b57a8a784df38f6b3",<br> 이름: "Test_Project_1",<br> objCode: "PROJ",<br> percentComplete: 0,<br> plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br> plannedStartDate: "2014-08-28 t11:00:00:000-0400",<br> 우선순위: 0,<br> projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br> 상태: "CUR"<br>,<br>{<br> ID: "53ff8d49003b43a2562aa34eea3b6b10",<br> 이름: "Test_Project_2",<br> objCode: "7 percent" plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br> plannedStartDate: "2014-08-28T11:00:00:000-0400",<br> 우선 순위: 0,<br> projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br> 상태: "CUR"<br>]<br><br></pre>다음과 유사한 대량 업데이트를 수행할 수도 있습니다.
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>그러면 다음과 유사한 결과가 발생합니다.
-<pre>데이터: [ &lbrace;<br> ID: "53ff8e15003b461d4560f7f65a440078",<br> 이름: "Test_Project_1_Edit",<br> objCode: "PROJ",<br> percentComplete: 0,<br> 계획된 완료 날짜: "2014-08-28T11:00:00:000-0400",<br> 계획된 시작 날짜: "2014-08-28A t11:00:00:000-0400",<br> 우선 순위: 0,<br> projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br> 상태: "CUR"<br>,<br>&lbrace;<br> ID: "53ff8e19003b46238a58d303608de502",<br> 이름: "Test_Project_2_Edit",<br> Code: "PROJ planned",<br> "2014-08-28T11:00:00:000-0400",<br> plannedStartDate: "2014-08-28T11:00:00:000-0400",<br> 우선 순위: 0,<br> projectedCompletionDate: "2014-08-28T16:16:00:00-0400",<br> 상태: "CUR"<br>]<br></pre>모든 작업이 동일한 트랜잭션에서 발생하도록 하려면 일괄 처리 API 호출에 "atomic=true"를 요청 매개 변수로 추가하십시오. 이렇게 하면 작업 중 하나라도 실패하면 모든 작업이 롤백됩니다.
+<pre>데이터: [ {<br> ID: "53ff8e15003b461d4560f7f65a440078",<br> 이름: "Test_Project_1_Edit",<br> objCode: "PROJ",<br> percentComplete: 0,<br> 계획된 완료 날짜: "2014-08-28T11:00:00:000-0400",<br> 계획된 시작 날짜: "2014-08-28A t11:00:00:000-0400",<br> 우선 순위: 0,<br> projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br> 상태: "CUR"<br>,<br>{<br> ID: "53ff8e19003b46238a58d303608de502",<br> 이름: "Test_Project_2_Edit",<br> Code: "PROJ planned",<br> "2014-08-28T11:00:00:000-0400",<br> plannedStartDate: "2014-08-28T11:00:00:000-0400",<br> 우선 순위: 0,<br> projectedCompletionDate: "2014-08-28T16:16:00:00-0400",<br> 상태: "CUR"<br>]<br></pre>모든 작업이 동일한 트랜잭션에서 발생하도록 하려면 일괄 처리 API 호출에 "atomic=true"를 요청 매개 변수로 추가하십시오. 이렇게 하면 작업 중 하나라도 실패하면 모든 작업이 롤백됩니다.
 
 >[!NOTE]
 >

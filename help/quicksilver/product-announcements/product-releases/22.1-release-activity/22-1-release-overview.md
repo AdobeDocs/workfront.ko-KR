@@ -6,25 +6,33 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-TQID: https://experienceleague.adobe.com/ieutvnVZOYbQpqpUgAMx81QcoRXOUuwyB9Tq18b2p4Q
+TQID: 'https://experienceleague.adobe.com/ieutvnVZOYbQpqpUgAMx81QcoRXOUuwyB9Tq18b2p4Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 4991
+source-wordcount: '4991'
 ht-degree: 1%
-
 ---
-
 # 22.1 릴리스 개요
 
 이 페이지에서는 22.1 릴리스에 포함된 기능에 대한 정보를 제공합니다. 모든 기능은 새로운 Adobe Workfront 환경에서 사용할 수 있습니다. 일부 기능은 Adobe Workfront Classic에서도 사용할 수 있습니다. 그러나 [Workfront Classic은 2022년 3월에 중단되며](https://experienceleague.adobe.com/ko/docs/workfront/using/home), 곧 Workfront Classic의 사용 종료 날짜는 2022년 7월입니다.
@@ -60,8 +68,8 @@ These enhancements are currently available in the Preview environment and will b
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For specific release dates and times for each cluster, see the
-<a href="https://status.adobe.com/ko-kr/products/5943" target="_blank">Adobe Workfront status page</a> on
-<a href="http://status.adobe.com/ko-kr/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
+<a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on
+<a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
 </MadCap:conditionalText>
 -->
 
@@ -413,7 +421,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 ## 22.1 릴리스 웨비나
 
-Workfront 22.1 릴리스 웨비나는 2022년 1월 12일에 제공되었습니다. Workfront One[&#128279;](https://one.workfront.com/s/event)의 이벤트 페이지에서 웨비나 녹화를 볼 수 있습니다.
+Workfront 22.1 릴리스 웨비나는 2022년 1월 12일에 제공되었습니다. Workfront One](https://one.workfront.com/s/event)의 [이벤트 페이지에서 웨비나 녹화를 볼 수 있습니다.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

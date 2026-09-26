@@ -9,25 +9,33 @@ feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ
+TQID: 'https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 976
+source-wordcount: '976'
 ht-degree: 0%
-
 ---
-
 # 애자일 번다운 차트 개요
 
 번다운 차트는 스토리가 반복을 통해 진행되는 방식을 시각적으로 보여 줍니다. 실제 번다운 속도는 반복 타임라인에 대한 이상적인 번다운 속도에 대해 측정된다.
@@ -77,7 +85,7 @@ ht-degree: 0%
        <li> <p>수동으로 변경됨</p> </li> 
        <li> <p>스토리의 포인트 또는 시간이 업데이트됩니다.</p> </li> 
       </ul></li>  
-     <li>스토리의 상태가 [!UICONTROL Complete] (으)로 변경되었습니다.</li> 
+     <li>스토리의 상태가 [!UICONTROL Complete](으)로 변경되었습니다.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -95,9 +103,9 @@ ht-degree: 0%
 
   휴무일에 작업이 기록되는 경우:
 
-   * 팀이 어떤 작업도 하기로 예정되어 있지 않으므로 이상적인 번다운 계산에 기록된 모든 작업은 포함되지 않습니다.
-   * 번다운 차트에서 작업이 수행된 날이나 번다운 차트를 보고 있는 날(휴무일에 보는 경우)에 대한 이상적인 번다운 선(단색 파란색 선 및 파선 파란색 선)은 평면으로 표시됩니다.
-   * 예상 완료율 및 일별 평균 포인트 또는 시간 등 기타 번다운 통계를 계산할 때 기록된 작업이 포함됩니다.
+  * 팀이 어떤 작업도 하기로 예정되어 있지 않으므로 이상적인 번다운 계산에 기록된 모든 작업은 포함되지 않습니다.
+  * 번다운 차트에서 작업이 수행된 날이나 번다운 차트를 보고 있는 날(휴무일에 보는 경우)에 대한 이상적인 번다운 선(단색 파란색 선 및 파선 파란색 선)은 평면으로 표시됩니다.
+  * 예상 완료율 및 일별 평균 포인트 또는 시간 등 기타 번다운 통계를 계산할 때 기록된 작업이 포함됩니다.
 
 * 쉬는 날 번다운 차트를 보고 계시네요. (보고 있는 날짜가 번다운 차트에 표시됩니다.)
 * 휴무일 동안 반복에 대한 남은 총 작업을 완료합니다.

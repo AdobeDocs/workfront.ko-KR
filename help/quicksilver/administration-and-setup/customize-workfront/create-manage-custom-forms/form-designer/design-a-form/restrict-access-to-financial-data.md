@@ -8,13 +8,25 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3380cce6-8372-43c0-8520-473442ea0eb4
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '634'
 ht-degree: 6%
-
 ---
-
 # 사용자 정의 필드에서 재무 데이터에 대한 액세스 제한
 
 사용자 지정 필드를 만들 때 재무 데이터에 대한 액세스를 제한하는 선택적 설정을 정의할 수 있습니다. 이렇게 하면 액세스 수준에 설정된 특정 권한이 있는 사용자가 데이터를 볼 수 있으며 액세스 권한이 없어야 하는 재무 데이터를 볼 수 없습니다.

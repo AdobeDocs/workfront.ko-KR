@@ -8,26 +8,33 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-TQID: https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI
+TQID: 'https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: d6f15301-a604-47ff-897b-83a19659dedf
+    internal-label: Workfront Document Webhooks
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3699
+source-wordcount: '3700'
 ht-degree: 3%
-
 ---
-
 # 문서 웹후크 API
 
 <!-- Audited: 5/2025 -->
@@ -905,7 +912,7 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 
 아래 오류 처리 섹션에 지정된 대로 성공 또는 실패를 나타내는 JSON 문자열입니다. 실패 시(예: 상태 = &quot;failure&quot;) Workfront은 사용자에게 제공된 오류 메시지를 표시합니다.
 
-**예:** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**예:** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 응답
 
@@ -922,9 +929,9 @@ API 요청을 처리할 때 문제가 발생할 수 있습니다. 이 작업은 
 
 * 응답 헤더에 오류 코드를 포함합니다. 오류 코드는 다음과 같습니다.
 
-   * 403 - 사용할 수 없음. 요청 토큰이 누락되었거나 잘못되었거나 토큰과 연결된 자격 증명에 지정된 리소스에 대한 액세스 권한이 없음을 나타냅니다. OAuth 기반 웹후크 공급자의 경우 Workfront은 새 액세스 토큰 검색을 시도합니다.
-   * 404 - 찾을 수 없음. 지정한 파일 또는 폴더가 없음을 나타냅니다.
-   * 500 - 내부 서버 오류. 기타 모든 유형의 오류.
+  * 403 - 사용할 수 없음. 요청 토큰이 누락되었거나 잘못되었거나 토큰과 연결된 자격 증명에 지정된 리소스에 대한 액세스 권한이 없음을 나타냅니다. OAuth 기반 웹후크 공급자의 경우 Workfront은 새 액세스 토큰 검색을 시도합니다.
+  * 404 - 찾을 수 없음. 지정한 파일 또는 폴더가 없음을 나타냅니다.
+  * 500 - 내부 서버 오류. 기타 모든 유형의 오류.
 
 * 다음 형식을 사용하여 응답 본문의 오류를 설명합니다.
 
@@ -1047,13 +1054,13 @@ OAuth 기반 웹후크 공급자에 대한 인증 URL 및 토큰 끝점 URL을 �
 
 * 버전 1.0(릴리스 날짜 - 2015년 5월)
 
-   * 초기 사양
+  * 초기 사양
 
 * 버전 1.1(릴리스 날짜 - 2015년 6월)
 
-   * 업데이트된 /uploadInit - 추가된 documentId 및 documentVersionId
+  * 업데이트된 /uploadInit - 추가된 documentId 및 documentVersionId
 
 * 버전 1.2(릴리스 날짜 - 2015년 10월)
 
-   * /createFolder 추가됨
+  * /createFolder 추가됨
 

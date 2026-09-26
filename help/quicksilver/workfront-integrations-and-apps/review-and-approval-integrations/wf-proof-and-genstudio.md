@@ -8,26 +8,37 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-TQID: https://experienceleague.adobe.com/1UOceajaDUpiW1jweaaQQ0hXMFIkhKf1sb229irQRZg
+TQID: 'https://experienceleague.adobe.com/1UOceajaDUpiW1jweaaQQ0hXMFIkhKf1sb229irQRZg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '588'
 ht-degree: 3%
-
 ---
-
 # GenStudio for Performance Marketing 및 Workfront Proof 통합 시작
 
 GenStudio for Performance Marketing과 Workfront Proof 간의 통합을 통해 다음과 같은 작업을 수행할 수 있습니다
@@ -38,7 +49,7 @@ GenStudio for Performance Marketing과 Workfront Proof 간의 통합을 통해 �
 
 * 최종 승인 및 게시를 위한 GenStudio for Performance Marketing의 검토 결정 보기
 
-GenStudio for Performance Marketing의 검토 및 승인에 대한 자세한 내용은 [GenStudio for Performance Marketing과 Workfront Proof 통합](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)을 참조하십시오.
+GenStudio for Performance Marketing의 검토 및 승인에 대한 자세한 내용은 [GenStudio for Performance Marketing과 Workfront Proof 통합](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)을 참조하십시오.
 
 
 ## 액세스 요구 사항
@@ -93,7 +104,7 @@ GenStudio for Performance Marketing의 검토 및 승인에 대한 자세한 내
 
 1. 왼쪽 상단의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 1. 왼쪽 패널에서 **검토 및 승인** > **Adobe GenStudio**&#x200B;을 클릭합니다.
-1. **증명 승인 사용**&#x200B;을 사용하도록 설정합니다.
+1. **증명 승인 사용**을 사용하도록 설정합니다.
    ![GenStudio 설정에 대한 증명 사용](assets/enable-proofing-gs.png)
 
 ## Workfront 증명 템플릿을 사용하여 승인 워크플로 정의
@@ -113,7 +124,7 @@ Workfront에서 자동화된 워크플로우 및 템플릿을 만드는 방법�
 
 사용자가 GenStudio for Performance Marketing에서 검토를 시작할 때 필요한 템플릿을 선택하면 됩니다. 사용자는 언제든지 검토자와 단계를 추가하거나 제거하여 모든 증명 워크플로 템플릿을 쉽게 변경할 수 있습니다.
 
-자세한 내용은 [검토 및 승인 요청](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)을 참조하세요.
+자세한 내용은 [검토 및 승인 요청](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)을 참조하세요.
 
 ## Workfront 증명 뷰어에서 GenStudio for Performance Marketing 초안 콘텐츠 검토 및 승인
 
@@ -125,7 +136,7 @@ Workfront 증명 뷰어의 GenStudio for Performance Marketing에서 직접 초�
 * 초안을 마크업하여 변경해야 하는 항목 표시
 * 결정
 
-자세한 내용은 [콘텐츠 검토 및 편집](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)을 참조하세요.
+자세한 내용은 [콘텐츠 검토 및 편집](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)을 참조하세요.
 
 
 >[!IMPORTANT]
@@ -137,4 +148,4 @@ Workfront 증명 뷰어의 GenStudio for Performance Marketing에서 직접 초�
 
 자산이 검토 및 승인 프로세스를 거치고 나면 검토 결정을 보고 GenStudio for Performance Marketing에서 직접 콘텐츠를 게시할 수 있습니다.
 
-자세한 내용은 [승인된 콘텐츠 게시](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)를 참조하십시오.
+자세한 내용은 [승인된 콘텐츠 게시](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)를 참조하십시오.

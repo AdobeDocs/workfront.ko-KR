@@ -8,23 +8,30 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-TQID: https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0
+TQID: 'https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 2%
-
 ---
-
 # 그룹 비활성화 또는 재활성화
 
 더 이상 사용하지 않는 관리 그룹을 비활성화할 수 있습니다.
@@ -99,16 +106,16 @@ ht-degree: 2%
 
 * 그룹을 비활성화해도 다음 사항이 변경되지 않습니다.
 
-   * 객체에 대한 그룹의 연관입니다. 연관된 객체는 변경 없이 이전과 동일하게 계속 작동합니다.
+  * 객체에 대한 그룹의 연관입니다. 연관된 객체는 변경 없이 이전과 동일하게 계속 작동합니다.
 
-     예를 들어, 비활성화 중인 그룹과 프로젝트가 연결되어 있는 경우 프로젝트는 변경 없이 그룹의 환경 설정 및 상태를 계속 사용합니다.
+    예를 들어, 비활성화 중인 그룹과 프로젝트가 연결되어 있는 경우 프로젝트는 변경 없이 그룹의 환경 설정 및 상태를 계속 사용합니다.
 
-   * 설정의 그룹 페이지 내에서 승인, 팀 또는 회사와 같은 새 개체를 만들 수 있습니다. 기본적으로 새 객체는 비활성 그룹과 연결되어 있습니다.
-   * 필터 및 보고에서 그룹을 찾을 수 있는 관리자 권한.
+  * 설정의 그룹 페이지 내에서 승인, 팀 또는 회사와 같은 새 개체를 만들 수 있습니다. 기본적으로 새 객체는 비활성 그룹과 연결되어 있습니다.
+  * 필터 및 보고에서 그룹을 찾을 수 있는 관리자 권한.
 
-     설정 영역에서 그룹 설정을 관리할 그룹 유형 미리 필드에서도 찾을 수 있습니다. 여기에는 환경 설정, 이벤트 알림 및 시스템 라이선스 영역이 포함됩니다.
+    설정 영역에서 그룹 설정을 관리할 그룹 유형 미리 필드에서도 찾을 수 있습니다. 여기에는 환경 설정, 이벤트 알림 및 시스템 라이선스 영역이 포함됩니다.
 
-     예를 들어 설정 > 프로젝트 환경 설정 > 프로젝트 로 이동하여 옵션 위의 자동 완성 필드를 지우는 경우 비활성 그룹을 계속 찾아 해당 프로젝트 환경 설정을 구성할 수 있습니다.
+    예를 들어 설정 > 프로젝트 환경 설정 > 프로젝트 로 이동하여 옵션 위의 자동 완성 필드를 지우는 경우 비활성 그룹을 계속 찾아 해당 프로젝트 환경 설정을 구성할 수 있습니다.
 
 ## 비활성 상위 그룹 아래의 하위 그룹 다시 활성화 정보 {#about-reactivating-a-subgroup-below-an-inactive-parent-group}
 

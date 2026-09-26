@@ -3,29 +3,33 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 스코어카드 만들기
-description: 스코어카드는 프로젝트가 이전에 설정한 포트폴리오 기준에 얼마나 잘 부합하는지 측정합니다. 스코어카드는 종종 조직의 임무, 가치 및 전략적 목표를 반영합니다.Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정의하여 프로젝트 우선 순위 지정 및 선택 시 의미 있고 가치 있는 질문이 되도록 합니다.  [!DNL Adobe Workfront] 관리자가 포트폴리오 관리자의 권장 사항을 기반으로 스코어카드를 작성합니다.
+description: 스코어카드는 프로젝트가 이전에 설정한 포트폴리오 기준에 얼마나 잘 부합하는지 측정합니다. 스코어카드는 종종 조직의 임무, 가치 및 전략적 목표를 반영합니다.Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정의하여 프로젝트 우선 순위 지정 및 선택 시 의미 있고 가치 있는 질문이 되도록 합니다. [!DNL Adobe Workfront] 관리자는 포트폴리오 관리자의 권장 사항을 기반으로 스코어카드를 만듭니다.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Moddac2gKcXbmssSrzrMMcxuj-7al8Md76Vkjw-CSoY
+TQID: 'https://experienceleague.adobe.com/Moddac2gKcXbmssSrzrMMcxuj-7al8Md76Vkjw-CSoY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: '847'
 ht-degree: 2%
-
 ---
-
 # 스코어카드 만들기
 
 <!--Audited: 11/2025-->

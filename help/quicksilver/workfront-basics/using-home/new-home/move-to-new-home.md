@@ -7,24 +7,29 @@ author: Courtney
 hide: true
 feature: Get Started with Workfront
 exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
-TQID: https://experienceleague.adobe.com/Qs0ZW7b--KQ3vFSo2W-taevADl7iiRgQ416ZUl0sOXk
+TQID: 'https://experienceleague.adobe.com/Qs0ZW7b--KQ3vFSo2W-taevADl7iiRgQ416ZUl0sOXk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1667
+source-wordcount: '1667'
 ht-degree: 5%
-
 ---
-
 # 기존 홈에서 새 홈으로 이동
 
 레거시 홈은 4분기 릴리스를 통해 10월 17일에 Workfront에서 제거됩니다. 이 문서에서는 새 홈에서 사용할 수 있는 기능에 대한 정보와 사용자를 새 홈 환경으로 이동하는 Workfront 관리자를 위한 권장 사항을 제공합니다.
@@ -282,7 +287,7 @@ Workfront 관리자는 레이아웃 템플릿을 사용하여 새 홈에서 사�
 
 **교육**
 
-* [홈 자습서에서 위젯 제거, 추가 및 다시 정렬](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [홈 자습서에서 위젯 제거, 추가 및 다시 정렬](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Adobe Workfront의 노동자 기초](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

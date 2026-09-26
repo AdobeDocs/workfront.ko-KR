@@ -6,18 +6,21 @@ feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k
+TQID: 'https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 5b445284b2d7445ae2119c546244a45ac17d8c97
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 412
+source-wordcount: '412'
 ht-degree: 0%
-
 ---
-
 # 탐색 표시 개요
 
 탐색 표시에는 모든 객체 유형에 대한 전체 탐색 계층 구조가 표시됩니다. 이동 경로의 각 객체에는 객체 유형을 표시하는 레이블이 있습니다. 현재 사용 중인 페이지는 페이지 헤더와 이동 경로 끝에 모두 기울임꼴로 표시됩니다. 아래 예에서는 &quot;[!UICONTROL 브랜드 팀과 공유]&quot; 작업입니다.

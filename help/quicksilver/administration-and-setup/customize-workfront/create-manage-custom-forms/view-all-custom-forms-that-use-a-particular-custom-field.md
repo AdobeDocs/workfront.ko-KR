@@ -8,24 +8,29 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-TQID: https://experienceleague.adobe.com/aDc3yeQukT9pIRezV0OnfXuXkxfdDXE7WVZybDbPIVw
+TQID: 'https://experienceleague.adobe.com/aDc3yeQukT9pIRezV0OnfXuXkxfdDXE7WVZybDbPIVw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 360
+source-wordcount: '360'
 ht-degree: 5%
-
 ---
-
 # 특정 사용자 정의 필드 또는 위젯을 사용하는 모든 사용자 정의 양식 보기
 
 변경하거나 삭제하려는 사용자 정의 필드 또는 위젯을 사용하는 사용자 정의 양식을 확인할 수 있습니다. 이러한 사용자 정의 양식이 제대로 작동하도록 조정해야 하는지 또는 필드 또는 위젯을 변경하거나 삭제한 후 계속 유용하게 사용되도록 조정해야 하는지 여부를 평가하는 것이 중요합니다.

@@ -8,28 +8,39 @@ feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM
+TQID: 'https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1199
+source-wordcount: '1203'
 ht-degree: 1%
-
 ---
-
 # 승인 요청 위임
 
 부재 중 할당된 작업을 임시로 위임할 수 있습니다. 작업 및 문제 할당을 위임하거나 승인 요청을 위임할 수 있습니다. 이 문서에서는 승인 요청을 위임하는 방법에 대해 설명합니다. 작업 및 문제 할당 위임에 대한 자세한 내용은 [작업 및 문제 위임](../../manage-work/delegate-work/how-to-delegate-work.md)을 참조하세요.
@@ -135,11 +146,11 @@ ht-degree: 1%
 1. 내 승인 위임 섹션에 다음 정보를 지정합니다.
 
    * **이름**: 승인을 위임할 사용자의 이름을 입력한 다음 드롭다운 메뉴에 표시될 때 이름을 클릭합니다.
-   * **시작 날짜**: 전달할 승인 날짜를 선택하십시오. 선택한 날짜의 오전 12:00부터 전송이 시작됩니다.\
+   * **시작 날짜**: 전달할 승인 날짜를 선택하십시오. 선택한 날짜의 오전 12시에 전송이 시작됩니다.\
      시작 날짜는 현재 날짜이거나 미래 날짜여야 합니다.
    * **종료 날짜**: 다음 중 하나를 실행하십시오.
-      * 전달을 중지할 승인 날짜를 선택합니다. 선택한 날짜에 오후 11:59에 전달이 종료됩니다.
-      * **종료 날짜 없음**&#x200B;을(를) 선택하여 승인을 무기한 위임하도록 Workfront을 구성하십시오.
+     * 전달을 중지할 승인 날짜를 선택합니다. 선택한 날짜에 오후 11시 59분에 전달이 종료됩니다.
+     * **종료 날짜 없음**&#x200B;을(를) 선택하여 승인을 무기한 위임하도록 Workfront을 구성하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -155,18 +166,18 @@ ht-degree: 1%
 1. 내 승인 위임 섹션에 다음 정보를 지정합니다.
 
    * **이름**: 승인을 위임할 사용자의 이름을 입력한 다음 드롭다운 메뉴에 표시될 때 이름을 클릭합니다.
-   * **시작 날짜**: 전달할 승인 날짜를 선택하십시오. 선택한 날짜의 오전 12:00부터 전송이 시작됩니다.\
+   * **시작 날짜**: 전달할 승인 날짜를 선택하십시오. 선택한 날짜의 오전 12시에 전송이 시작됩니다.\
      시작 날짜는 현재 날짜이거나 미래 날짜여야 합니다.
    * **종료 날짜**: 다음 중 하나를 실행하십시오.
-      * 전달을 중지할 승인 날짜를 선택합니다. 선택한 날짜에 오후 11:59에 전달이 종료됩니다.
-      * **종료 날짜 없음**&#x200B;을(를) 선택하여 승인을 무기한 위임하도록 Workfront을 구성하십시오.
+     * 전달을 중지할 승인 날짜를 선택합니다. 선택한 날짜에 오후 11시 59분에 전달이 종료됩니다.
+     * **종료 날짜 없음**&#x200B;을(를) 선택하여 승인을 무기한 위임하도록 Workfront을 구성하십시오.
 
 ## 승인 위임 업데이트 또는 중지 {#update-or-stop-an-approval-delegation}
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 승인** 위젯을 추가합니다.
 
-1. 내 승인 위젯으로 이동한 다음 **위임 편집**&#x200B;을 클릭합니다.
+1. 내 승인 위젯으로 이동한 다음 **위임 편집**을 클릭합니다.
    ![위임 편집](assets/edit-delegations.png)
 <!--
    Or

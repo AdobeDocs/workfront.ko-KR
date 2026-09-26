@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: ' [!DNL Workfront] Proof에서 증명 구독'
+title: '[!DNL Workfront] 증명에서 증명 구독'
 description: 다른 사용자가 증명 URL을 열도록 보내어 브라우저에서 열면 증명 뷰어가 읽기 전용 모드로 실행됩니다. 증명을 작업하려면 먼저 구독하여 자신을 식별해야 합니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8f488839-efb5-44fb-9757-7e4d1c4aceef
-TQID: https://experienceleague.adobe.com/wCWD8rklFujwtuQamvtqo1oUCKwsMZVCVtjQSwAXC5U
+TQID: 'https://experienceleague.adobe.com/wCWD8rklFujwtuQamvtqo1oUCKwsMZVCVtjQSwAXC5U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '256'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 증명 구독
 
 >[!IMPORTANT]

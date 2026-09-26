@@ -9,13 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bee0117d-a15b-494a-833a-179a42ae4f74
-source-git-commit: 665b15170805feba2b55850faf1b73cdc0416305
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 6%
-
+source-wordcount: '352'
+ht-degree: 5%
 ---
-
 # 레이아웃 템플릿을 사용하여 기타 메뉴 사용자 지정
 
 레이아웃 템플릿을 사용하여 사용자가 Adobe Workfront에서 프로젝트, 작업, 문제, 포트폴리오 및 프로그램 개체를 볼 때 추가 메뉴(3점 메뉴)를 클릭할 때 표시되는 옵션을 결정할 수 있습니다.

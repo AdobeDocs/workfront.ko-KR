@@ -9,22 +9,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-TQID: https://experienceleague.adobe.com/PH8TceV6IjEjl79kM6EJ3caoaPmClrdKQucE8TwZDDY
+TQID: 'https://experienceleague.adobe.com/PH8TceV6IjEjl79kM6EJ3caoaPmClrdKQucE8TwZDDY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '361'
 ht-degree: 5%
-
 ---
-
 # 그룹의 레이아웃 템플릿 만들기 및 수정
 
 그룹 영역에서 관리하는 그룹을 볼 때 그룹의 관리자 또는 해당 하위 그룹 중 하나에 관리 액세스 권한이 있는 레이아웃 템플릿을 보고 작업할 수 있습니다.

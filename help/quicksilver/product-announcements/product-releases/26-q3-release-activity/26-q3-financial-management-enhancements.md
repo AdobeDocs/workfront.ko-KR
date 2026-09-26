@@ -4,13 +4,20 @@ description: 2026년 3분기 재무 관리 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '344'
 ht-degree: 0%
-
 ---
-
 # 2026년 3분기 재무 관리 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 3분기 릴리스의 Financial Management 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -21,7 +28,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 6월 25일>프로덕션 빠른 릴리스: 2026년 7월 15일>모두를 위한 프로덕션: 2026년 7월 16일>이 기능은 Workflow Ultimate 패키지의 조직에서만 사용할 수 있습니다.
+>미리 보기: 2026년 6월 25일
+>프로덕션 빠른 릴리스: 2026년 7월 15일
+>모두를 위한 프로덕션: 2026년 7월 16일
+>이 기능은 Workflow Ultimate 패키지의 조직에서만 사용할 수 있습니다.
 
 이제 등급 카드를 선택하여 템플릿에 추가한 다음 템플릿에서 만든 모든 프로젝트에 자동으로 첨부할 수 있습니다. 비율 카드가 프로젝트의 기본값이 되지만 필요한 경우 재정의할 수 있습니다.
 
@@ -31,7 +41,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 6월 25일>프로덕션 빠른 릴리스: 2026년 7월 15일>모두를 위한 프로덕션: 2026년 7월 16일>이 기능은 Workflow Ultimate 패키지의 조직에서만 사용할 수 있습니다.
+>미리 보기: 2026년 6월 25일
+>프로덕션 빠른 릴리스: 2026년 7월 15일
+>모두를 위한 프로덕션: 2026년 7월 16일
+>이 기능은 Workflow Ultimate 패키지의 조직에서만 사용할 수 있습니다.
 
 이제 목록의 특정 위치에 새 요금을 추가하여 요금 카드의 유효 일자 청구 요금 목록을 보다 신속하게 조정할 수 있습니다. 기존 속도 옆의 **자세히** 메뉴를 선택하여 해당 속도 위 또는 아래에 행을 삽입합니다.
 
@@ -43,7 +56,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 5월 21일>프로덕션 빠른 릴리스: 2026년 5월 21일>모두를 위한 프로덕션: 2026년 5월 21일>이 기능은 Workflow Ultimate 패키지의 조직에서만 사용할 수 있습니다.
+>미리 보기: 2026년 5월 21일
+>프로덕션 빠른 릴리스: 2026년 5월 21일
+>모두를 위한 프로덕션: 2026년 5월 21일
+>이 기능은 Workflow Ultimate 패키지의 조직에서만 사용할 수 있습니다.
 
 속성이 Workfront의 속도에 추가되면 설정 영역에서 해당 속성 및 해당 필터를 더 이상 편집할 수 없습니다. 이렇게 하면 데이터 무결성을 유지하고 특성이 업데이트될 때 비율이 실수로 변경되는 것을 방지합니다.
 

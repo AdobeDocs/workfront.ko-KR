@@ -6,18 +6,21 @@ description: iOS 및 Android 모두에 대한 홈 영역 위젯을 사용하여 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 36af1b05-4c95-4b8e-9b96-03b30fa9852c
-TQID: https://experienceleague.adobe.com/GAWPkf-yJO-drLQ-85rk5DiVCNOidi68TruAv-72gG0
+TQID: 'https://experienceleague.adobe.com/GAWPkf-yJO-drLQ-85rk5DiVCNOidi68TruAv-72gG0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 139
+source-wordcount: '139'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL 홈] 영역 위젯
 
 [!DNL iOS]과(와) [!DNL Android]의 홈 영역 위젯을 통해 작업 항목을 빠르게 찾을 수 있습니다.

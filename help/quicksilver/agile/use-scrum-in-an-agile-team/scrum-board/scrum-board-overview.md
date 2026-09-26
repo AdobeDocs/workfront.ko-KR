@@ -9,18 +9,24 @@ feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw
+TQID: 'https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 810
+source-wordcount: '810'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL 스크럼] 보드 개요
 
 <!-- Audited: 5/2025 -->
@@ -42,12 +48,12 @@ ht-degree: 0%
 
   반복에서 이 열은 스토리 보드에 있는 하나 이상의 스토리에 다음 요구 사항을 충족하는 하위 작업이 하나 이상 포함된 경우에만 스토리 보드에 표시됩니다.
 
-   * 상위 작업과 동일한 애자일 팀에 할당됩니다.
-   * 반복에 속합니다.
+  * 상위 작업과 동일한 애자일 팀에 할당됩니다.
+  * 반복에 속합니다.
 
-     프로젝트에서 이 열은 작업에 하나 이상의 하위 작업이 있을 때마다 나타납니다.
+    프로젝트에서 이 열은 작업에 하나 이상의 하위 작업이 있을 때마다 나타납니다.
 
-     ![상위 스토리 열](assets/agile-parentstory-swimlane.png)
+    ![상위 스토리 열](assets/agile-parentstory-swimlane.png)
 
 * **작업 상태**: 스토리가 포함된 상태 열을 기준으로 스토리가 반복 또는 프로젝트에서 진행되는 방식을 나타냅니다.
 
@@ -57,8 +63,8 @@ ht-degree: 0%
 
   반복에서, 스토리 보드의 스토리에 다음 요구 사항을 충족하는 하위 작업이 하나 이상 포함된 경우에만 스토리 보드에 수영 레인이 표시됩니다.
 
-   * 상위 작업과 동일한 애자일 팀에 할당됩니다.
-   * 반복에 속합니다.
+  * 상위 작업과 동일한 애자일 팀에 할당됩니다.
+  * 반복에 속합니다.
 
   프로젝트에서 작업에 하나 이상의 하위 작업 또는 하나의 상위 작업이 있을 때마다 수영 레인이 표시됩니다.
 

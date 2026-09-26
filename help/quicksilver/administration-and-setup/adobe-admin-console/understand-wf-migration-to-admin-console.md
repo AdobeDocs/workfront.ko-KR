@@ -9,25 +9,32 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-TQID: https://experienceleague.adobe.com/Pn1D37jOnAFIX0fxTLgRk3gJ4g9iiqzp6aiGKhmSU6w
+TQID: 'https://experienceleague.adobe.com/Pn1D37jOnAFIX0fxTLgRk3gJ4g9iiqzp6aiGKhmSU6w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: '1115'
 ht-degree: 0%
-
 ---
-
 # Adobe Admin Console으로의 Workfront 마이그레이션 이해
 
 Adobe은 귀하와 귀하의 조직에 향상된 생산성을 제공하여 Adobe Workfront 사용자를 관리하는 방법을 변경하고 있습니다. 이 변경의 일부로 Adobe은 Workfront 인스턴스와 사용자를 Adobe Admin Console으로 마이그레이션하고 있습니다. 이는 필수 마이그레이션이며 보고, 승인 경로, 콘텐츠 또는 자산에는 영향을 주지 않습니다. 사용자 액세스를 관리하는 방법과 사용자가 로그인하는 방법에 영향을 줍니다.
@@ -83,7 +90,7 @@ Workfront 제품 프로필 관리자(Workfront 시스템 관리자)는 모든 �
 
 * 모든 사용자에게 다음 사항을 알림으로써 예정된 Adobe ID 마이그레이션에 대한 준비를 하십시오.
 
-   * 사용자가 마이그레이션되면 Workfront에 로그인하는 방식의 변경 사항을 알리는 이메일을 Adobe에서 받게 됩니다. 기존 Adobe으로 로그인하거나 동일한 이메일 주소를 사용하여 새 ID를 설정하여 처음으로 Adobe ID ID를 사용하여 로그인하라는 초대를 수락하도록 사용자를 초대합니다.
+  * 사용자가 마이그레이션되면 Workfront에 로그인하는 방식의 변경 사항을 알리는 이메일을 Adobe에서 받게 됩니다. 기존 Adobe으로 로그인하거나 동일한 이메일 주소를 사용하여 새 ID를 설정하여 처음으로 Adobe ID ID를 사용하여 로그인하라는 초대를 수락하도록 사용자를 초대합니다.
 
 ### 마이그레이션 당일 기대 사항
 
@@ -99,7 +106,7 @@ Workfront 제품 프로필 관리자(Workfront 시스템 관리자)는 모든 �
 
 * **사용자가 마이그레이션되면 Workfront에 로그인하는 방식으로 변경되었음을 알리는 이메일을 Adobe에서 받게 됩니다.** 기존 Adobe으로 로그인하거나 동일한 이메일 주소를 사용하여 새 Adobe ID을 설정함으로써 처음으로 Adobe ID ID를 사용하여 로그인하라는 초대를 수락하도록 사용자를 초대합니다.
 
-  Adobe ID으로 Workfront에 로그인하는 방법에 대한 자세한 내용은 [Adobe Experience Cloud에 로그인](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud)을 참조하십시오.
+  Adobe Experience Cloud로 Workfront에 로그인하는 방법에 대한 자세한 내용은 [Adobe ID에 로그인](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud)을 참조하십시오.
 
 ### 사용자 마이그레이션 완료
 

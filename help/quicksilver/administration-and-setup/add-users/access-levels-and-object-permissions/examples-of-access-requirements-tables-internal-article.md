@@ -3,14 +3,15 @@ title: 액세스 요구 사항 테이블의 예 - 내부 문서
 description: 액세스 요구 사항에 사용되는 테이블의 인벤토리를 보관하기 위한 팀 내부 문서입니다. 게시하면 안 됩니다.
 author: Alina
 hide: true
-hidefromtoc: true
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+hidefromtoc: 'yes'
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 26%
-
 ---
-
 
 # 액세스 요구 사항 테이블의 예 - 내부 문서
 
@@ -420,10 +421,10 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
  </tbody> 
 </table>
 
-이 테이블의 정보에 대한 자세한 내용은 [설명서의 액세스 요구 사항](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)을 참조하십시오.
+이 테이블의 정보에 대한 자세한 내용은 [설명서의 액세스 요구 사항](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)을 참조하십시오.
 
 
-Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
+Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
 
 ## 고급 엔터프라이즈 제어 기능
 
@@ -438,7 +439,7 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 * 워크플로우 Prime 이상
 * Workfront Prime 이상
 
-패키지에 대한 자세한 내용은 [Adobe Workfront 가격 및 패키징 페이지](https://business.adobe.com/kr/products/workfront/pricing.html)를 참조하세요.
+패키지에 대한 자세한 내용은 [Adobe Workfront 가격 및 패키징 페이지](https://business.adobe.com/products/workfront/pricing.html)를 참조하세요.
 
 고급 엔터프라이즈 제어 기능:
 
@@ -483,9 +484,9 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
  </tbody> 
 </table>
 
-이 테이블의 정보에 대한 자세한 내용은 [설명서의 액세스 요구 사항](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)을 참조하십시오.
+이 테이블의 정보에 대한 자세한 내용은 [설명서의 액세스 요구 사항](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)을 참조하십시오.
 
-Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
+Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
 <td> <p>Any</p> </td> 
   </tr> 
   <tr> 

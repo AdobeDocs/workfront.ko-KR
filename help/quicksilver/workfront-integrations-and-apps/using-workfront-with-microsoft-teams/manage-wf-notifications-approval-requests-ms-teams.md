@@ -1,31 +1,38 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: ' [!DNL Microsoft] Teams의  [!DNL Adobe Workfront] 알림 관리'
-description: ' [!DNL Adobe Workfront] 에서 승인해야 하는 항목, 받은 할당 또는 연결된 항목에 대한 의견 및 변경 사항에 대한 알림을 받을 수 있습니다.'
+title: '[!DNL Microsoft]개 팀에서 [!DNL Adobe Workfront]개 알림 관리'
+description: '[!DNL Adobe Workfront]에서 승인해야 하는 항목, 받은 할당 또는 연결된 항목에 대한 댓글 및 변경 사항에 대한 알림을 받을 수 있습니다.'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-TQID: https://experienceleague.adobe.com/VdZs7a8E9LDHRW8H-pu7-rFZqbwN6yVzxQCUfL4PBPA
+TQID: 'https://experienceleague.adobe.com/VdZs7a8E9LDHRW8H-pu7-rFZqbwN6yVzxQCUfL4PBPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
   - id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+    internal-label: Adobe Workfront for Salesforce
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: '1425'
 ht-degree: 2%
-
 ---
-
 # [!DNL Microsoft Teams]에서 [!DNL Adobe Workfront]개의 알림 관리
 
 >[!IMPORTANT]
@@ -421,7 +428,7 @@ ht-degree: 2%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">누군가가 지정 업데이트에 귀하의 팀을 포함시킵니다.</td> 
+   <td role="rowheader">누군가가 [!UICONTROL 지정 업데이트에 귀하의 팀을 포함시킵니다.</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

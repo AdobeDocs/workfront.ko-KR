@@ -7,26 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-TQID: https://experienceleague.adobe.com/BpvPAawc1yatEYsfS9YYjjz-6lOzw5-3cgD68D2dQhs
+TQID: 'https://experienceleague.adobe.com/BpvPAawc1yatEYsfS9YYjjz-6lOzw5-3cgD68D2dQhs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1158
+source-wordcount: '1158'
 ht-degree: 0%
-
 ---
-
 # 2018.2 릴리스 활동 개요
 
 >[!NOTE]
@@ -215,8 +224,8 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfro
 
   자세한 내용은 다음 리소스를 참조하십시오.
 
-   * [웹 증명 뷰어에서 증명 검토](https://support.workfront.com/hc/en-us/sections/115000275214)
-   * [Desktop Proofing Viewer에서 증명 검토](https://support.workfront.com/hc/en-us/sections/360000686434)
+  * [웹 증명 뷰어에서 증명 검토](https://support.workfront.com/hc/en-us/sections/115000275214)
+  * [Desktop Proofing Viewer에서 증명 검토](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### Microsoft Outlook 추가 기능 지원이 종료됨 {#microsoft-outlook-add-in-support-is-ending}
 
@@ -228,7 +237,7 @@ Workfront은 7월 18.2 제품 릴리스 이후 더 이상 추가 기능의 데�
 
 다음 리소스를 사용하여 Outlook용 Workfront에 대해 자세히 알아보고 시작하십시오.
 
-* [웹 사이트 및 비디오](https://business.adobe.com/kr/products/workfront/integrations.html) 
+* [웹 사이트 및 비디오](https://business.adobe.com/products/workfront/integrations.html) 
 * [Outlook에서 Workfront 사용](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)(도움말 문서)
 
 ### 이전 API 버전 제거 {#removing-old-api-versions}

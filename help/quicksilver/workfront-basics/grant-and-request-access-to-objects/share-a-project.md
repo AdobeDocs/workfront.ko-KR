@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA
+TQID: 'https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1530
+source-wordcount: '1558'
 ht-degree: 3%
-
 ---
-
 # 프로젝트 공유
 
 <!-- Audited: 1/2024 -->
@@ -79,13 +83,13 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 * 프로젝트를 개별적으로 공유하거나 여러 개의 프로젝트를 한 번에 공유할 수 있습니다. 프로젝트 공유는 다른 오브젝트 공유와 동일합니다. Workfront에서 항목을 공유하는 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
 * 프로젝트에 다음 권한을 부여할 수 있습니다.
 
-   * 보기
-   * 관리
-   * 참여
+  * 보기
+  * 관리
+  * 참여
 
 * 프로젝트를 공유할 때는 별도로 지정하지 않는 한 모든 작업, 문제 및 문서가 동일한 권한을 상속합니다.
 
-  프로젝트에 대한 사용자의 권한을 기반으로 프로젝트의 작업 및 문제에 대한 액세스 관리에 대한 자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md) 문서의 [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) 섹션을 참조하십시오.
+  프로젝트에 대한 사용자의 권한을 기반으로 프로젝트의 작업 및 문제에 대한 액세스 관리에 대한 자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md) 문서의 [](../../manage-work/projects/manage-projects/edit-projects.md#access) 섹션을 참조하십시오.
 
   Workfront 관리자는 문서가 사용자 액세스 수준의 상위 개체에서 권한을 상속해야 하는지 여부를 지정할 수 있습니다. 문서에 대해 상속된 사용 권한을 제한하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
@@ -104,25 +108,25 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 
 * 다음 중 하나를 수행하여 수동으로 수행합니다.
 
-   * 프로젝트 팀에 사용자 추가 프로젝트 팀에 사용자를 추가하면 해당 사용자는 프로젝트에 대한 보기 권한을 자동으로 부여받습니다.\
-     프로젝트 팀에 사용자를 추가하는 방법에 대한 자세한 내용은 [프로젝트 팀 개요](../../manage-work/projects/planning-a-project/project-team-overview.md)에서 프로젝트 팀에 사용자 추가 섹션을 참조하십시오.
-   * **공유** 옵션을 사용할 때 프로젝트를 개별적으로 또는 대량으로 공유합니다.
+  * 프로젝트 팀에 사용자 추가 프로젝트 팀에 사용자를 추가하면 해당 사용자는 프로젝트에 대한 보기 권한을 자동으로 부여받습니다.\
+    프로젝트 팀에 사용자를 추가하는 방법에 대한 자세한 내용은 [프로젝트 팀 개요](../../manage-work/projects/planning-a-project/project-team-overview.md)에서 프로젝트 팀에 사용자 추가 섹션을 참조하십시오.
+  * **공유** 옵션을 사용할 때 프로젝트를 개별적으로 또는 대량으로 공유합니다.
 
 * 다음 중 하나를 수행하여 자동으로
 
-   * 이미 다른 사용자와 공유된 **Portfolio** 또는 **프로그램**&#x200B;에 프로젝트를 배치하십시오. 사용자는 포트폴리오 또는 프로그램에 대해 가지고 있는 것과 동일한 권한을 프로젝트에 부여받습니다.\
-     **Portfolio**&#x200B;에 프로젝트를 추가하는 방법에 대한 자세한 내용은 [포트폴리오에 프로젝트 추가](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)를 참조하십시오.\
-     **Program**&#x200B;에 프로젝트를 추가하는 방법에 대한 자세한 내용은 [프로그램에 프로젝트 추가](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)를 참조하십시오.
-개체에 상속된 사용 권한을 보는 방법에 대한 자세한 내용은 [개체에 상속된 사용 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)를 참조하십시오.
+  * 이미 다른 사용자와 공유된 **Portfolio** 또는 **프로그램**&#x200B;에 프로젝트를 배치하십시오. 사용자는 포트폴리오 또는 프로그램에 대해 가지고 있는 것과 동일한 권한을 프로젝트에 부여받습니다.\
+    **Portfolio**&#x200B;에 프로젝트를 추가하는 방법에 대한 자세한 내용은 [포트폴리오에 프로젝트 추가](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)를 참조하십시오.\
+    **Program**&#x200B;에 프로젝트를 추가하는 방법에 대한 자세한 내용은 [프로그램에 프로젝트 추가](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)를 참조하십시오.
+    개체에 상속된 사용 권한을 보는 방법에 대한 자세한 내용은 [개체에 상속된 사용 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)를 참조하십시오.
 
-   * 프로젝트를 만드는 데 사용된 템플릿의 프로젝트 공유에 엔티티를 추가합니다. 템플릿에서 프로젝트를 공유하는 방법에 대한 자세한 내용은 [템플릿 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)를 참조하십시오.
-   * 프로젝트 액세스 템플릿을 정의합니다.
+  * 프로젝트를 만드는 데 사용된 템플릿의 프로젝트 공유에 엔티티를 추가합니다. 템플릿에서 프로젝트를 공유하는 방법에 대한 자세한 내용은 [템플릿 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)를 참조하십시오.
+  * 프로젝트 액세스 템플릿을 정의합니다.
 
-     >[!TIP]
-     >
-     >템플릿을 첨부하거나 저장할 때 템플릿 프로젝트 공유 규칙을 지울 수 있습니다.
+    >[!TIP]
+    >
+    >템플릿을 첨부하거나 저장할 때 템플릿 프로젝트 공유 규칙을 지울 수 있습니다.
 
-   * 프로젝트를 편집하고 **누군가 이 프로젝트에 대한 액세스 권한을 받았을 때** 설정을 정의합니다.  자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
+  * 프로젝트를 편집하고 **누군가 이 프로젝트에 대한 액세스 권한을 받았을 때** 설정을 정의합니다.  자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

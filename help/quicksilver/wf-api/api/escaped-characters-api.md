@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
-TQID: https://experienceleague.adobe.com/Cqu86di2VR3q4MpLYnUFwm0D4YyTxWqLXaGqJdtU-UE
+TQID: 'https://experienceleague.adobe.com/Cqu86di2VR3q4MpLYnUFwm0D4YyTxWqLXaGqJdtU-UE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: '209'
 ht-degree: 9%
-
 ---
-
 # API 응답에서 이스케이프 처리된 문자
 
 일부 API 응답의 구문에는 이스케이프 문자 `\`(백슬래시)이(가) 포함되어 있을 수 있습니다. 이스케이프 문자는 이스케이프 처리된 문자 바로 뒤에 오는 문자 또는 문자열에 특수 값이 있음을 나타냅니다. 예를 들어 `\t`은(는) 읽기 장치에 `t`을(를) 문자 &quot;t&quot;가 아닌 `tab`(으)로 해석해야 한다고 알려줍니다. 백슬래시 다음에 오는 하나 이상의 문자로 이루어진 문자열을 이스케이프 시퀀스라고 합니다.

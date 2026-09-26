@@ -9,22 +9,31 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 4c88a249-b156-45c9-a44c-32f906bfa8a2
-TQID: https://experienceleague.adobe.com/oHi8YTmAgh3KY1xfh6psNCLr4Gng0iniB3LUqbBzcOw
+TQID: 'https://experienceleague.adobe.com/oHi8YTmAgh3KY1xfh6psNCLr4Gng0iniB3LUqbBzcOw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: '333'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront과 Workfront Proof 간의 사용자 동기화
 
 사용자 정보는 Adobe Workfront에서 Workfront Proof으로 동기화되며 Workfront Proof에서 Workfront으로 동기화되지 않습니다. 따라서 사용자를 생성하거나 수정할 때마다 Workfront 내에서 해당 사항을 변경해야 합니다. Workfront Proof 내에서는 사용자를 변경할 수 없습니다.
@@ -49,8 +58,8 @@ Workfront은 다음 사용자 정보를 Workfront Proof에 동기화합니다.
 
 * **일치하는 전자 메일이 있는 사용자가 Workfront Proof에 없는 경우**
 
-   * **사용자에 대해 증명을 사용할 수 있습니다.** 사용자가 Workfront Proof에서 사용자로 만들어집니다.
-   * **사용자에 대해 증명을 사용할 수 없습니다.** 사용자가 Workfront Proof에서 연락처로 만들어집니다.
+  * **사용자에 대해 증명을 사용할 수 있습니다.** 사용자가 Workfront Proof에서 사용자로 만들어집니다.
+  * **사용자에 대해 증명을 사용할 수 없습니다.** 사용자가 Workfront Proof에서 연락처로 만들어집니다.
 
 * **전자 메일이 일치하는 사용자가 Workfront Proof에 있는 경우:** Workfront의 해당 사용자에 대해 증명이 활성화되어 있고(아직 활성화되어 있지 않은 경우) 두 사용자 간에 정보가 동기화됩니다.
 

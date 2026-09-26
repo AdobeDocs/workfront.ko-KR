@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: 증명 뷰어에서 여러 증명 작업
-description: ' [!DNL Workfront] Proof에서는 폴더를 사용하여 함께 작업하거나 검토자와 함께 작업하려는 증명을 그룹화할 수 있습니다. 사용자나 다른 검토자가 증명 중 하나를 열고 증명 뷰어를 시작하면 폴더의 모든 증명도 해당 위치에서 사용할 수 있습니다. 증명 뷰어를 벗어나지 않고도 다른 증명을 보고, 정렬 및 검색하고, 서로 비교할 수 있습니다.'
+description: '[!DNL Workfront] 증명에서 폴더를 사용하여 함께 작업하거나 검토자가 함께 작업하도록 하려는 증명을 그룹화할 수 있습니다. 사용자나 다른 검토자가 증명 중 하나를 열고 증명 뷰어를 시작하면 폴더의 모든 증명도 해당 위치에서 사용할 수 있습니다. 증명 뷰어를 벗어나지 않고도 다른 증명을 보고, 정렬 및 검색하고, 서로 비교할 수 있습니다.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-TQID: https://experienceleague.adobe.com/AfDIJsVd4BUBk7sakKHeFKZWaP6Ll96yCQoll3GY5Jk
+TQID: 'https://experienceleague.adobe.com/AfDIJsVd4BUBk7sakKHeFKZWaP6Ll96yCQoll3GY5Jk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '509'
 ht-degree: 0%
-
 ---
-
 # 증명 뷰어에서 여러 증명 작업
 
 >[!IMPORTANT]

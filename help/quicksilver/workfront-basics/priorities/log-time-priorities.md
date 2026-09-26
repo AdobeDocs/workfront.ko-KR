@@ -6,22 +6,26 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-TQID: https://experienceleague.adobe.com/HqqE7qvcwIZxg83G3EtJmr5t0g7WVBimiJBnnQrVcv0
+TQID: 'https://experienceleague.adobe.com/HqqE7qvcwIZxg83G3EtJmr5t0g7WVBimiJBnnQrVcv0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 513
+source-wordcount: '513'
 ht-degree: 4%
-
 ---
-
 # 우선 순위에 시간 기록
 
 Adobe Workfront에서 작업 항목에 대한 시간을 기록하여 작업에 소비한 시간을 나타낼 수 있습니다. 기록한 시간이 타임시트에 표시됩니다.
@@ -69,7 +73,7 @@ Adobe Workfront에서 작업 항목에 대한 시간을 기록하여 작업에 �
 {{step1-to-priorities}}
 
 1. 이름을 마우스로 가리킨 다음 **자세히** ![추가 아이콘](assets/more-icon.png) 아이콘을 클릭합니다.
-1. **로그 시간**&#x200B;을 선택하세요.
+1. **로그 시간**을 선택하세요.
    ![업데이트, 로그 시간 및 업로드](assets/update-log-upload.png)
 1. **시간 유형** 드롭다운 메뉴에서 적절한 시간 유형을 선택합니다. 시간 유형 및 가용성 정의에 설명된 대로 시스템, 프로젝트 및 사용자 수준에서 정의된 내용에 따라 시간 유형을 사용할 수 있습니다.
 

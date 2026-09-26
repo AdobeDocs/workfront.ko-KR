@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: ' [!DNL Workfront Proof]에서 태그를 만들고 관리합니다.'
-description: 태그를 만들고 편집하여 증명 및 파일에 적용할 수 있습니다. 프로젝트, 부서 및 클라이언트와 같이 서로 다른 [!DNL Workfront Proof] 개의 항목이 많고 이러한 항목을 쉽게 식별하고 찾고 싶을 때 유용합니다.
+title: '[!DNL Workfront Proof]에서 태그를 만들고 관리합니다.'
+description: 태그를 만들고 편집하여 증명 및 파일에 적용할 수 있습니다. 이는 프로젝트, 부서 및 클라이언트와 같이 많은 다양한 [!DNL Workfront Proof] 항목이 있고 이러한 항목을 쉽게 식별하고 찾고 싶을 때 유용합니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-TQID: https://experienceleague.adobe.com/sIZ53VhqzZxlud-4OEFP-voJIjJXjNd2x2hog8UHmzs
+TQID: 'https://experienceleague.adobe.com/sIZ53VhqzZxlud-4OEFP-voJIjJXjNd2x2hog8UHmzs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 915
+source-wordcount: '916'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 태그를 만들고 관리합니다.
 
 >[!IMPORTANT]

@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: ' [!DNL Workfront Proof]에 저장된 파일 다운로드'
+title: '[!DNL Workfront Proof]에 저장된 파일 다운로드'
 description: 활성, 잠금 및 보관된 증명에서 원본 파일을 로컬 시스템으로 다운로드할 수 있습니다. 그런 다음 응용 프로그램이 있는 경우 해당 응용 프로그램을 만드는 데 사용되는 소프트웨어 응용 프로그램에서 해당 응용 프로그램을 인쇄하고 열 수 있습니다. 단일 증명 또는 여러 증명에서 원본 파일을 다운로드할 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: daf44b00-0c55-470e-a52b-2bb21a961699
-TQID: https://experienceleague.adobe.com/CpaeZRKMyMlBYasqoepthgAFTZQJ4gQlzfX-ou6E3k0
+TQID: 'https://experienceleague.adobe.com/CpaeZRKMyMlBYasqoepthgAFTZQJ4gQlzfX-ou6E3k0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에 저장된 파일 다운로드
 
 >[!IMPORTANT]
@@ -29,14 +37,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->증명 설정에서 원본 파일 다운로드 허용이 활성화되어 있는지 확인합니다( [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)에서 증명 설정 구성 참조).
+>증명 설정에서 원본 파일 다운로드 허용이 활성화되어 있는지 확인합니다( [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)에서 [증명 설정 구성 참조).
 
 ## 단일 증명에서 파일 다운로드
 
 1. 목록 또는 썸네일 목록 레이아웃에서 증명이 나열된 행 끝에 있는 **[!UICONTROL 자세히]** 단추를 클릭합니다.
 1. ![More_button_small.png](assets/more-button-small.png)
 
-1. 이러한 레이아웃에 대한 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)의 보기 탭에서 페이지 레이아웃을 참조하십시오.
+1. 이러한 레이아웃에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)의 보기 탭에서 [페이지 레이아웃을 참조하십시오.
 1. 표시되는 메뉴에서 **[!UICONTROL 원본 다운로드]**&#x200B;를 클릭합니다.\
    목록에서 증명을 선택하고 목록 위에 있는 **[!UICONTROL 자세히]** 단추를 클릭한 다음 **[!UICONTROL 다운로드]**&#x200B;를 클릭할 수도 있습니다.\
    다음 파일을 다운로드할 수도 있습니다.

@@ -7,13 +7,20 @@ description: Adobe Workfront을 사용하면 작업 항목과 관련이 없는 �
 author: Becky
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 0%
-
+source-wordcount: '567'
+ht-degree: 4%
 ---
-
 # 다른 사용자에게 다이렉트 메시지 보내기
 
 [!DNL Adobe Workfront]을(를) 사용하면 작업 항목과 관련이 없는 메시지를 다른 [!DNL Workfront] 사용자에게 직접 빠르고 쉽게 보낼 수 있습니다. 이 섹션에 설명된 대로 보낸 메시지는 사용자 프로필 페이지의 [!UICONTROL 업데이트] 탭에 표시되며 모든 사용자가 볼 수 있습니다. 업데이트에 대한 자세한 내용은 [작업 항목 업데이트 및 업데이트 보기: 문서 색인](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)을 참조하세요.
@@ -27,7 +34,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +42,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -83,7 +90,7 @@ ht-degree: 0%
 {{step-1-to-users}}
 
 1. 메시지를 보낼 사용자를 선택하고 [!UICONTROL **사용자에게 업데이트 보내기**]&#x200B;를 클릭합니다.
-1. [!UICONTROL 사용자에게 업데이트 보내기] 창에 메시지를 입력하세요. 필요에 따라 텍스트 서식 옵션을 사용합니다. 자세한 내용은 문서 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment)에서 [Workfront 댓글에 서식 있는 텍스트 사용](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)을 참조하세요.
+1. [!UICONTROL 사용자에게 업데이트 보내기] 창에 메시지를 입력하세요. 필요에 따라 텍스트 서식 옵션을 사용합니다. 자세한 내용은 문서 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)에서 [Workfront 댓글에 서식 있는 텍스트 사용](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment)을 참조하세요.
 
    ![사용자에게 업데이트 보내기 창의 메시지 사용자](assets/send-update-to-user-072825.png)
 

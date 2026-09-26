@@ -6,20 +6,26 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-TQID: https://experienceleague.adobe.com/hREqbBqRZmf8J3FS6PUwtgkfb3ZTyfcdeWZCZUvBRyY
+TQID: 'https://experienceleague.adobe.com/hREqbBqRZmf8J3FS6PUwtgkfb3ZTyfcdeWZCZUvBRyY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1099
+source-wordcount: '1099'
 ht-degree: 1%
-
 ---
-
 # 22.2 프로젝트 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 22.2 릴리스의 모든 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 사용할 수 있습니다
@@ -61,8 +67,8 @@ in January 2022
 
   보드에서 카드를 관리하는 데 도움이 되는 다음 기능이 추가되었습니다.
 
-   * 카드 복사: 보드에 기존 카드의 복사본을 만듭니다.
-   * 카드 이동: 새로운 열 상단 및 열 하단 메뉴 옵션이 있는 보드 상단 또는 하단으로 카드를 빠르게 이동합니다.
+  * 카드 복사: 보드에 기존 카드의 복사본을 만듭니다.
+  * 카드 이동: 새로운 열 상단 및 열 하단 메뉴 옵션이 있는 보드 상단 또는 하단으로 카드를 빠르게 이동합니다.
 
 * 보드에서 검색
 

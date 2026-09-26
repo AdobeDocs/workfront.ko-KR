@@ -1,17 +1,21 @@
 ---
-title: CX Coworker 프롬프트 및 Best Practice
+title: CX Coworker 프롬프트 및 우수 사례
 content-type: reference
 description: Workfront에서 Coworker를 사용하기 위한 모범 사례에 대해 알아보고 프롬프트 예제 목록을 볼 수 있습니다.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 01de260893e5bbf7a228479df2f3fc6a1337d31d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 1%
-
 ---
-
-# CX Coworker 프롬프트 및 Best Practice
+# CX Coworker 프롬프트 및 우수 사례
 
 &lt;!—사용하지 않음—MCP 예제 프롬프트 문서에 대신 링크합니다. MCP에 대한 최신 릴리스로 업데이트되었는지 확인하십시오—>
 
@@ -19,7 +23,7 @@ ht-degree: 1%
 >
 >CX Coworker 는 현재 의료 서비스, 금융 기관 또는 중요한 데이터가 있는 기타 업계 조직에서 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다. 자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
 
-CX Coworker를 사용하면 자연어를 사용하여 Workfront Workflow 및 Workfront Planning과 상호 작용할 수 있습니다.
+CX Coworker을 사용하면 자연어를 사용하여 Workfront Workflow 및 Workfront Planning과 상호 작용할 수 있습니다.
 
 동료는 Adobe Experience Cloud Agent Orchestrator의 일부입니다.
 
@@ -69,7 +73,7 @@ Agent Orchestrator에 대한 자세한 내용은 [Adobe Experience Platform Agen
 
 ## 고려 사항
 
-CX Coworker 를 사용할 때는 다음 제한 사항을 고려하십시오.
+CX Coworker 사용 시 다음 제한 사항을 고려하십시오.
 
 ### 가역성
 
@@ -83,7 +87,7 @@ CX Coworker 를 사용할 때는 다음 제한 사항을 고려하십시오.
 
 ### 상호 작용/UX 제한 사항
 
-* CX Coworker는 현재 개별 사용자의 스타일 또는 환경 설정을 장기간 &quot;학습&quot;하지 않습니다. 모든 채팅은 현재 대화와 제품 지식만 사용합니다.
+* CX Coworker은 현재 개별 사용자의 스타일 또는 환경 설정에서 장기간 &quot;학습&quot;하지 않습니다. 모든 채팅은 현재 대화와 제품 지식만 사용합니다.
 * 대화 컨텍스트는 단일 채팅 세션 내에 유지됩니다. 새 페이지를 열거나 도우미를 닫으면 대화 내용이 재설정됩니다.
 * 승인 절차가 Confluence 또는 SharePoint과 같은 외부 애플리케이션에 있고 URL 필드를 통해서만 연결되는 경우, Coworker는 현재 해당 페이지를 가져오지 않고 해당 페이지를 합리화합니다.
 
@@ -111,7 +115,7 @@ Workfront 설명서에서 정보를 가져오는 방법에 대한 자세한 내�
 
 ### 프로젝트, 작업 및 문제 요약
 
-CX 동료는 Workfront에 업로드된 프로젝트, 작업 또는 문제<!--, or documents-->를 요약할 수 있습니다.
+CX Coworker은 Workfront에 업로드된 프로젝트, 작업 또는 문제<!--, or documents-->를 요약할 수 있습니다.
 
 프로젝트, 작업 및 문제 요약에 대한 자세한 내용은 [AI Assistant를 사용하여 요약](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)을 참조하십시오.
 
@@ -198,7 +202,7 @@ CX 동료는 요약 및 프로젝트 상태를 포함하여 프로젝트, 작업
 
 ### 프로젝트 및 작업 관리
 
-CX Coworker를 사용하면 작업 및 할당과 같은 프로젝트를 만들고 관리할 수 있습니다.
+CX Coworker을 사용하여 작업 및 할당을 포함한 프로젝트를 만들고 관리할 수 있습니다.
 
 다음 영역에서 프로젝트 및 작업 관리에 대한 프롬프트 예를 참조하십시오.
 
@@ -262,7 +266,7 @@ CX Coworker를 사용하면 작업 및 할당과 같은 프로젝트를 만들�
 
 ### 컨텐츠 및 승인
 
-CX Coworker 는 Workfront에서 문서 및 에셋 승인을 관리하는 데 도움이 됩니다.
+CX Coworker은 Workfront의 문서 및 에셋 승인을 관리하는 데 도움이 될 수 있습니다.
 
 문서 및 자산 승인 작업 시 다음 사항을 고려하십시오.
 

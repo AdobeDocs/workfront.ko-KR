@@ -1,27 +1,31 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: ' [!DNL Workfront]용 Adobe 통합 경험'
-description: Adobe CX Enterprise를 통해  [!DNL Workfront] 에 액세스하면 모든 Adobe 애플리케이션을 원활하게 관리할 수 있습니다.
+title: '[!DNL Workfront]을(를) 위한 Adobe 통합 경험'
+description: Adobe CX Enterprise을 통해 [!DNL Workfront]에 액세스하면 모든 Adobe 애플리케이션을 관리할 수 있는 원활하고 통합된 환경을 얻을 수 있습니다.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-TQID: https://experienceleague.adobe.com/4fgMPIn0x6PWLmdi-iP9lt7skFKPiGMLOGGYYfCrhC8
+TQID: 'https://experienceleague.adobe.com/4fgMPIn0x6PWLmdi-iP9lt7skFKPiGMLOGGYYfCrhC8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 96bd3d0995911ae32279972c891f92281ce7f0a1
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: '698'
 ht-degree: 3%
-
 ---
-
 # [!DNL Workfront]에 대한 [!DNL Adobe Unified Experience]
 
 <!--Audited: 10/2024-->
@@ -71,7 +75,7 @@ Adobe Admin Console의 사용자 관리에 대한 자세한 내용은 문서 [Ad
 1. 브라우저 창을 열고 <https://experience.adobe.com>(으)로 이동합니다.
 1. [!UICONTROL **로그인**] 화면에서 전자 메일 주소를 입력하고 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
-   [!DNL Adobe CX Enterprise]![&#128279;](assets/aec-login-page.png)에 로그인
+   [!DNL Adobe CX Enterprise]](assets/aec-login-page.png)에 ![로그인
 
 >[!NOTE]
 >
@@ -96,7 +100,7 @@ Adobe Admin Console의 사용자 관리에 대한 자세한 내용은 문서 [Ad
 [!DNL Workfront] 탐색 모음 왼쪽의 [!UICONTROL 기본 메뉴] 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon-left-nav.png)을 사용하여 액세스 권한이 있는 페이지로 이동합니다. [!UICONTROL 주 메뉴]에서 사용할 수 있는 옵션은 다음에 따라 다릅니다.
 
 * **레이아웃 템플릿 구성**: [!DNL Workfront] 관리자가 레이아웃 템플릿에서 [!UICONTROL 주 메뉴]를 수정하는 방법에 대해 알아보려면 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴] 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하세요.
-* **라이선스 유형**: 다른 라이선스 유형에 대한 기본 구성을 알아보려면 [Light] 라이선스 사용자의 탐색 이해(/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) 또는 [[!UICONTROL 작업] 라이선스 사용자의 탐색 이해](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)를 참조하십시오.
+* **라이선스 유형**: 다른 라이선스 유형에 대한 기본 구성을 알아보려면 [Light] 라이선스 사용자의 탐색 이해](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) 또는 [[!UICONTROL 작업] 라이선스 사용자의 탐색 이해](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)를 참조하십시오.[!UICONTROL 
 
 ![주 메뉴](assets/main-menu-options-2026.png)
 
@@ -130,6 +134,6 @@ Adobe Admin Console의 사용자 관리에 대한 자세한 내용은 문서 [Ad
 
 [!DNL Adobe]에서 암호를 관리하는 경우 Adobe 계정에서 암호를 변경할 수 있습니다.
 
-[Adobe 암호 변경에 대해서는 이 문서 를 참조하십시오.](https://helpx.adobe.com/kr/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[Adobe 암호 변경에 대해서는 이 문서 를 참조하십시오.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 암호 변경에 대한 자세한 내용은 관리자에게 문의하십시오.

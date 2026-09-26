@@ -6,13 +6,14 @@ navigation-topic: use-the-desktop-proofing-viewer
 title: 증명 생성 실패 문제 해결
 description: 증명 작성 프로세스에는 가져오기 및 증명 생성이 모두 포함됩니다. 증명을 만들 때 파일을 가져오지 못하거나 파일을 가져온 후 증명을 생성하지 못하는 경우가 있습니다.
 author: Courtney
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 
 # 증명 생성 실패 문제 해결
 
@@ -47,11 +48,11 @@ ht-degree: 0%
 
 * PDF 파일 증명 시 증명 생성 실패의 원인은 다음과 같습니다.
 
-   * 글꼴과 이미지는 외부 소스(예: 로컬 파일 시스템)에서 연결됩니다
+  * 글꼴과 이미지는 외부 소스(예: 로컬 파일 시스템)에서 연결됩니다
 
-     다른 컴퓨터나 Workfront Proof 내에 글꼴과 이미지를 표시하려면 PDF 파일에 글꼴과 이미지를 포함해야 합니다.
+    다른 컴퓨터나 Workfront Proof 내에 글꼴과 이미지를 표시하려면 PDF 파일에 글꼴과 이미지를 포함해야 합니다.
 
-   * PDF 파일에 빈 레이어나 투명 또는 겹치는 필드가 포함되어 있습니다.
+  * PDF 파일에 빈 레이어나 투명 또는 겹치는 필드가 포함되어 있습니다.
 
-     원인이 되는 레이어나 오브젝트를 파악할 수 없는 경우 디자인/문서를 최적화된 PDF으로 내보냅니다(이렇게 하면 원치 않는 모든 요소가 제거됨).
+    원인이 되는 레이어나 오브젝트를 파악할 수 없는 경우 디자인/문서를 최적화된 PDF으로 내보냅니다(이렇게 하면 원치 않는 모든 요소가 제거됨).
 

@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
-title: ' [!DNL Workfront Proof]에서 증명 복사 중'
+title: '[!DNL Workfront Proof]에서 증명 복사 중'
 description: 증명에 대한 편집 권한이 있는 검토자는 기존 증명의 새 버전 또는 새 증명으로 증명 사본을 만들 수 있습니다. (자세한 내용은 를 참조하십시오. 편집 권한에 대한 자세한 내용은 Workfront Proof의 증명 권한 프로필 을 참조하십시오.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
-TQID: https://experienceleague.adobe.com/PS4LlvkS0KTleGJj-6aNtOjbTtRpqQTXoKKFdcSZb-8
+TQID: 'https://experienceleague.adobe.com/PS4LlvkS0KTleGJj-6aNtOjbTtRpqQTXoKKFdcSZb-8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: '716'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 증명 복사 중
 
 >[!IMPORTANT]
@@ -35,7 +43,7 @@ ht-degree: 0%
 
 ## 증명 복사
 
-1. [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리에 설명된 대로 **[!UICONTROL 보기]** 페이지로 이동합니다.
+1.  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리에 설명된 대로 **[!UICONTROL 보기]** 페이지로 이동합니다.
 
 1. 증명에 대한 **[!UICONTROL 자세히]** 메뉴를 엽니다.\
    ![추가 메뉴](assets/more-button-small.png)
@@ -71,7 +79,7 @@ ht-degree: 0%
 
 * **폴더 세부 정보 페이지**. 자세한 내용은 [폴더 및 해당 컨텐츠 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)를 참조하십시오.
 
-* **모든 목록 보기 페이지**. 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리를 참조하십시오.
+* **모든 목록 보기 페이지**. 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리를 참조하십시오.
 
 ## 새 증명에 대한 기존 증명 설정 복사
 
@@ -79,7 +87,7 @@ ht-degree: 0%
 
 새 증명에 대한 기존 증명 설정을 복사하려면 다음을 수행하십시오.
 
-1. [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리에 설명된 대로 **[!UICONTROL 보기]** 페이지로 이동합니다.
+1.  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리에 설명된 대로 **[!UICONTROL 보기]** 페이지로 이동합니다.
 
 1. 증명에 대한 **[!UICONTROL 자세히]** 메뉴를 엽니다.\
    ![추가 메뉴](assets/more-button-small.png)

@@ -11,22 +11,26 @@ role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/YboJ-FC-3HsfZpI4bRi7PENzjoN-Y9gIIsElbJBUw0A
+TQID: 'https://experienceleague.adobe.com/YboJ-FC-3HsfZpI4bRi7PENzjoN-Y9gIIsElbJBUw0A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: '449'
 ht-degree: 4%
-
 ---
-
 # 여러 사용자의 이메일 알림 설정 수정
 
 <!-- Audited: 12/2023 -->
@@ -78,7 +82,7 @@ Adobe Workfront 관리자이거나 다른 사용자의 설정을 편집할 수 �
 
 1. 범주를 확장하여 해당 범주와 관련된 알림 설정을 봅니다.
 
-   알림이 선택된 다른 사용자의 알림과 일치하지 않는 사용자를 한 명 이상 선택한 경우 해당 알림에 대한 범주 확인란에 확인 표시 대신 확인![&#128279;](assets/straight-line-instead-of-checkmark.jpg)이 아닌 가로 줄 줄이 포함됩니다.
+   알림이 선택된 다른 사용자의 알림과 일치하지 않는 사용자를 한 명 이상 선택한 경우 해당 알림에 대한 범주 확인란에 확인 표시 대신 확인](assets/straight-line-instead-of-checkmark.jpg)이 아닌 가로 줄 ![줄이 포함됩니다.
 
 
 1. 사용자가 매일 또는 즉시 수신할 알림을 클릭하거나 수신을 중지할 알림을 지우십시오.

@@ -7,22 +7,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-TQID: https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk
+TQID: 'https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 987
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 # FAQ - 이벤트 구독
 
 <!--
@@ -70,16 +74,16 @@ ht-degree: 0%
 * 대형 프로젝트에서 장기 실행 계산 또는 타임라인 계산을 수행하면 이벤트 구독에서 사용할 메시지의 게시가 지연될 수 있습니다.
 * 구독이 비활성화되었을 수 있습니다.
 
-   * 100메시지 유예 기간 후에 특정 URL(하나 이상의 가입과 연결될 수 있음)이 70% 이상 실패하거나 URL이 2000회 연속 시도 후 게재되지 않으면 동일한 URL과 가입이 일치하는 모든 메시지는 게재를 위해 시도되지 않습니다. 대신 이러한 메시지는 즉시 다시 시도 큐에 올라갑니다.
+  * 100메시지 유예 기간 후에 특정 URL(하나 이상의 가입과 연결될 수 있음)이 70% 이상 실패하거나 URL이 2000회 연속 시도 후 게재되지 않으면 동일한 URL과 가입이 일치하는 모든 메시지는 게재를 위해 시도되지 않습니다. 대신 이러한 메시지는 즉시 다시 시도 큐에 올라갑니다.
 
-     URL이 비활성화된 후 10분마다 처리를 위해 수신되는 다음 메시지를 전달하려고 합니다. 해당 메시지가 성공하면 해당 URL과 이후 일치하는 구독을 다시 활성화합니다. 해당 메시지가 전송되지 않으면 해당 10분 타이머가 재설정되고 만료 후 다시 시도합니다.
+    URL이 비활성화된 후 10분마다 처리를 위해 수신되는 다음 메시지를 전달하려고 합니다. 해당 메시지가 성공하면 해당 URL과 이후 일치하는 구독을 다시 활성화합니다. 해당 메시지가 전송되지 않으면 해당 10분 타이머가 재설정되고 만료 후 다시 시도합니다.
 
-     이 동작은 일관되지 않거나 지연된 게재로 인식될 수 있지만 이벤트 구독 메시지가 처리되는 방식에 대한 정책을 따를 뿐입니다.
+    이 동작은 일관되지 않거나 지연된 게재로 인식될 수 있지만 이벤트 구독 메시지가 처리되는 방식에 대한 정책을 따를 뿐입니다.
 
-   * 다음 조건 중 하나가 충족되면 이벤트 구독 URL이 비활성화됩니다.
+  * 다음 조건 중 하나가 충족되면 이벤트 구독 URL이 비활성화됩니다.
 
-      * 구독 URL이 7일 동안 게재되지 않았으며 지난 72시간 동안 최소 2000회 연속 게재를 시도하지 못했습니다.
-      * 구독 URL이 50,000회 연속 시도를 전달하지 못했습니다.
+    * 구독 URL이 7일 동안 게재되지 않았으며 지난 72시간 동안 최소 2000회 연속 게재를 시도하지 못했습니다.
+    * 구독 URL이 50,000회 연속 시도를 전달하지 못했습니다.
 
 ## 이벤트 구독 API를 호출하려고 할 때 500 응답 상태가 표시되면 어떻게 해야 합니까?
 

@@ -8,22 +8,27 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-TQID: https://experienceleague.adobe.com/a2VtxPZJ9Ut4VHmwqhrCbUH-3i2nMqOnzR18vyg8buQ
+TQID: 'https://experienceleague.adobe.com/a2VtxPZJ9Ut4VHmwqhrCbUH-3i2nMqOnzR18vyg8buQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 914
+source-wordcount: '936'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront 릴리스 일정 및 프로세스
 
 ## 미리보기에 대한 일정 업데이트
@@ -72,18 +77,18 @@ Workfront에서 사용할 수 있는 베타 프로그램은 다음과 같습니�
 
 * **비공개 또는 비공개 베타**: 다음은 비공개 또는 비공개 베타 릴리스의 특성입니다.
 
-   * Workfront에서 신중하게 선택한 소규모 고객 그룹이 기능을 사용할 수 있습니다.
-   * 참가자는 일반적으로 제품 관리자와 협력하여 정기적으로 피드백을 제공합니다.
-   * Beta의 일부인 새로운 기능은 미리보기 또는 프로덕션 모드나 Beta 프로그램의 목적에 따라 사용할 수 있는 별도의 환경에 릴리스될 수 있습니다. 닫힌 베타 기능은 무작위 간격으로 경고 없이 릴리스됩니다.
-   * 제품 릴리스 페이지에는 마감된 베타에 대한 릴리스 정보가 없습니다.
+  * Workfront에서 신중하게 선택한 소규모 고객 그룹이 기능을 사용할 수 있습니다.
+  * 참가자는 일반적으로 제품 관리자와 협력하여 정기적으로 피드백을 제공합니다.
+  * Beta의 일부인 새로운 기능은 미리보기 또는 프로덕션 모드나 Beta 프로그램의 목적에 따라 사용할 수 있는 별도의 환경에 릴리스될 수 있습니다. 닫힌 베타 기능은 무작위 간격으로 경고 없이 릴리스됩니다.
+  * 제품 릴리스 페이지에는 마감된 베타에 대한 릴리스 정보가 없습니다.
 
 * **공개 또는 공개 베타**: 다음은 공개 또는 공개 베타 릴리스의 특성입니다.
 
-   * 이 기능은 모든 Workfront 고객이 사용할 수 있지만 베타 상태입니다. 항상 완전히 기능하는 것은 아닐 수 있으며 피드백은 항상 환영합니다.
-   * 공개 베타 참여는 선택 사항이며 고객은 베타 기능을 직접 켜는지 여부를 결정할 수 있습니다.
-   * Beta의 일부인 새 기능은 미리보기 또는 프로덕션에 릴리스할 수 있습니다.
-   * 기능은 Workfront의 일반 릴리스 패턴보다 더 자주 릴리스될 수 있습니다.
-   * 기능이 공개 베타로 릴리스되는 시기에 대한 정보는 제품 릴리스 페이지에 포함되어 있습니다.
+  * 이 기능은 모든 Workfront 고객이 사용할 수 있지만 베타 상태입니다. 항상 완전히 기능하는 것은 아닐 수 있으며 피드백은 항상 환영합니다.
+  * 공개 베타 참여는 선택 사항이며 고객은 베타 기능을 직접 켜는지 여부를 결정할 수 있습니다.
+  * Beta의 일부인 새 기능은 미리보기 또는 프로덕션에 릴리스할 수 있습니다.
+  * 기능은 Workfront의 일반 릴리스 패턴보다 더 자주 릴리스될 수 있습니다.
+  * 기능이 공개 베타로 릴리스되는 시기에 대한 정보는 제품 릴리스 페이지에 포함되어 있습니다.
 
 제품 릴리스 정보에 대한 자세한 내용은 [제품 릴리스](../../product-announcements/product-releases/product-releases.md)를 참조하세요.
 

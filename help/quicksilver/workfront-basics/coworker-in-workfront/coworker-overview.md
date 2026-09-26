@@ -4,13 +4,17 @@ content-type: reference
 description: Adobe Workfront의 Coworker에 대해 알아봅니다.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 01de260893e5bbf7a228479df2f3fc6a1337d31d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
-
 ---
-
 # CX Coworker 개요
 
 {{preview-fast-release-general}}
@@ -29,7 +33,7 @@ CX Coworker Chat 은 작업 완료를 위한 대화 인터페이스입니다. �
 
 Workfront에서 CX Coworker 사용에 대한 자세한 내용은 [Workfront에서 CX Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)을 참조하십시오.
 
-Coworker 및 해당 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker Chat 개요](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/chat/overview)를 참조하십시오.
+동료 및 해당 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker 채팅 개요](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)를 참조하세요.
 
 Workfront의 Coworker에서 사용할 수 있는 기술은 [CX Coworker 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)을 참조하십시오.
 

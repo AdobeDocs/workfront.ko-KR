@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: ' [!DNL Workfront Proof]에서 사용자 지정 보기 만들기 및 관리'
+title: '[!DNL Workfront Proof]에서 사용자 지정 보기 만들기 및 관리'
 description: 파일 및 증명에 대한 사용자 정의 보기를 만들어 원하는 방식으로 항목을 나열할 수 있습니다. 사용자 지정 보기의 정보를 보고서(CSV, 쉼표로 구분된 값, 파일 형식)로 내보낼 수도 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-TQID: https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA
+TQID: 'https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2482
+source-wordcount: '2482'
 ht-degree: 1%
-
 ---
-
 # [!DNL Workfront Proof]에서 사용자 지정 보기 만들기 및 관리
 
 >[!IMPORTANT]
@@ -48,7 +57,7 @@ ht-degree: 1%
 사용자 지정 보기를 만들려면:
 
 1. **[!UICONTROL 보기]** 페이지로 이동합니다.
-1. 보기에 대한 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리를 참조하십시오.
+1. 보기에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리를 참조하십시오.
 1. 새 사용자 지정 보기를 처음부터 만들지 또는 기존 표준 보기를 기반으로 새 사용자 지정 보기를 만들지 여부에 따라 다음 중 하나를 수행합니다.
 
    * 기존 표준 보기를 기반으로 새 사용자 정의 보기를 만들려면: 드롭다운 메뉴에서 새 사용자 정의 보기의 기반으로 사용할 기존 표준 보기를 선택합니다. **[!UICONTROL 보기 설정]** 아이콘을 클릭한 다음 새 사용자 지정 보기로 **[!UICONTROL 복사]**&#x200B;를 클릭합니다.
@@ -229,34 +238,34 @@ ht-degree: 1%
 
      댓글이 없는 증명만 보려면 다음 값을 선택합니다.
 
-      * 필드: 댓글
-      * 연산자: 같음
-      * 값 필드: 0
+     * 필드: 댓글
+     * 연산자: 같음
+     * 값 필드: 0
 
      둘 이상의 주석이 있는 증명만 보려면 다음 값을 선택합니다.
 
-      * 필드: 댓글
-      * 연산자: 크거나 같음
-      * 값 필드: 2
+     * 필드: 댓글
+     * 연산자: 크거나 같음
+     * 값 필드: 2
 
      댓글이 1개에서 4개 사이인 증명만 보려면 다음 값을 선택합니다.
 
-      * 필드: 댓글
-      * 연산자: 사이
-      * 값 필드(첫 번째 필드): 1
-      * 값 필드(두 번째 필드): 4
+     * 필드: 댓글
+     * 연산자: 사이
+     * 값 필드(첫 번째 필드): 1
+     * 값 필드(두 번째 필드): 4
 
-        필요한 경우 [!UICONTROL 설정] 필터 옆에 있는 교차 아이콘을 클릭하여 사용자 지정 보기에 추가한 필터를 문제 없이 변경하거나 제거할 수 있습니다.
+       필요한 경우 [!UICONTROL 설정] 필터 옆에 있는 교차 아이콘을 클릭하여 사용자 지정 보기에 추가한 필터를 문제 없이 변경하거나 제거할 수 있습니다.
 
-        필드 목록은 [!UICONTROL 열] 탭에서 선택한 열로 제한되지 않으므로 사용자 지정 보기에 표시하기 위해 선택하지 않은 열을 포함하는 필터를 만들 때 주의하십시오. 예를 들어 보기에 대한 다음 필터는 버전 카운터 값이 2 이상인 모든 증명을 선택합니다.
+       필드 목록은 [!UICONTROL 열] 탭에서 선택한 열로 제한되지 않으므로 사용자 지정 보기에 표시하기 위해 선택하지 않은 열을 포함하는 필터를 만들 때 주의하십시오. 예를 들어 보기에 대한 다음 필터는 버전 카운터 값이 2 이상인 모든 증명을 선택합니다.
 
-         * Field = 버전 카운터
-         * 연산자 = 크거나 같음
-         * 값 필드 = 2
+       * Field = 버전 카운터
+       * 연산자 = 크거나 같음
+       * 값 필드 = 2
 
-           >[!NOTE]
-           >
-           >필요한 경우 [!UICONTROL 설정] 필터 옆에 있는 교차 아이콘을 클릭하여 사용자 지정 보기에 추가한 필터를 문제 없이 변경하거나 제거할 수 있습니다.
+         >[!NOTE]
+         >
+         >필요한 경우 [!UICONTROL 설정] 필터 옆에 있는 교차 아이콘을 클릭하여 사용자 지정 보기에 추가한 필터를 문제 없이 변경하거나 제거할 수 있습니다.
 
 
 
@@ -270,14 +279,14 @@ ht-degree: 1%
    * 이 시점에서 보기를 다른 사용자와 공유하지 않도록 선택하는 경우, 나중에 사용자 지정 보기를 편집하여 공유할 수 있습니다.
 
 1. Click **[!UICONTROL Create]**.
-1. 사용자 지정 보기가 표시되고 [!DNL Views] 페이지에서 사용할 수 있습니다. 보기에 대한 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의  [!DNL Views] 페이지에서 항목 관리를 참조하십시오.
+1. 사용자 지정 보기가 표시되고 [!DNL Views] 페이지에서 사용할 수 있습니다. 보기에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의  [!DNL Views] 페이지에서 [항목 관리를 참조하십시오.
 
 ## 사용자 정의 보기 편집
 
 사용자 정의 보기를 쉽게 편집할 수 있습니다. 사용자 정의 보기를 편집하려면:
 
 1. **[!UICONTROL 보기]** 페이지로 이동합니다.\
-   보기에 대한 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리를 참조하십시오.
+   보기에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리를 참조하십시오.
 
 1. [!UICONTROL 보기] 단추 클릭(1)
 1. 드롭다운 메뉴에서 편집할 뷰를 선택합니다.\
@@ -308,7 +317,7 @@ ht-degree: 1%
 사용자 정의 보기를 복사하려면 다음을 수행합니다.
 
 1. **[!UICONTROL 보기]** 페이지로 이동합니다.\
-   보기에 대한 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리를 참조하십시오.
+   보기에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리를 참조하십시오.
 
 1. **[!UICONTROL 보기]** 단추를 클릭합니다. (1)
 1. 목록에서 사용자 정의 보기를 선택합니다. (2)
@@ -328,7 +337,7 @@ ht-degree: 1%
 사용자 지정 보기를 다른 사용자와 공유하려면:
 
 1. **[!UICONTROL 보기]** 페이지로 이동합니다.\
-   보기에 대한 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리를 참조하십시오.
+   보기에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리를 참조하십시오.
 
 1. **[!UICONTROL 보기]** 단추 클릭(1)
 1. 목록에서 사용자 정의 보기 선택 (2)
@@ -346,7 +355,7 @@ ht-degree: 1%
 사용자 지정 보기의 데이터를 CSV 파일로 내보내려면 다음을 수행합니다.
 
 1. **[!UICONTROL 보기]** 페이지로 이동합니다.\
-   보기에 대한 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리를 참조하십시오.
+   보기에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리를 참조하십시오.
 
 1. **[!UICONTROL 보기]** 단추를 클릭합니다. (1)
 1. 목록에서 사용자 정의 보기를 선택합니다. (2)
@@ -366,7 +375,7 @@ ht-degree: 1%
 사용자 정의 보기를 쉽게 삭제할 수 있습니다. 방법은 다음과 같습니다.
 
 1. **[!UICONTROL 보기]** 페이지로 이동합니다.\
-   보기에 대한 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리를 참조하십시오.
+   보기에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리를 참조하십시오.
 
 1. **[!UICONTROL 보기]** 단추를 클릭합니다.
 1. 목록에서 사용자 정의 보기 선택

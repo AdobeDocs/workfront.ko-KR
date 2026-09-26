@@ -1,35 +1,50 @@
 ---
-title: ' [!DNL SharePoint] 통합 구성'
+title: '[!DNL SharePoint] 통합 구성'
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: ' [!DNL Workfront] 을(를)  [!DNL SharePoint] 온라인과 통합하여 사용자에게 Workfront 내에서  [!DNL SharePoint] 문서로 이동하고, 연결하고, 추가할 수 있는 기능을 제공할 수 있습니다. 제공된 기능은 다른  [!DNL Workfront] 문서 통합의 기능과 유사합니다.'
+description: '[!DNL Workfront]을(를) [!DNL SharePoint] Online과 통합하여 사용자에게 Workfront 내에서 [!DNL SharePoint] 문서로 이동하고, 연결하고, 추가할 수 있는 기능을 제공할 수 있습니다. 제공된 기능은 다른 [!DNL Workfront] 문서 통합의 기능과 유사합니다.'
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/wQAqAplnYGWGCSSb1oVg2wIUK7Pn-Q0k4YIJIPJlqaQ
+TQID: 'https://experienceleague.adobe.com/wQAqAplnYGWGCSSb1oVg2wIUK7Pn-Q0k4YIJIPJlqaQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a25b6618c135eeb0de067a6cee16e461f44183b8
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1856
+source-wordcount: '1861'
 ht-degree: 1%
-
 ---
-
 # [!DNL SharePoint] 통합 구성
 
 {{highlighted-preview}}
@@ -198,7 +213,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL 클라우드 공급자]**&#x200B;를 선택하십시오.
-1. **[!DNL SharePoint]** 옵션과 **[!UICONTROL [!DNL SharePoint] (Graph API)]** 옵션이 모두 활성화되어 있는지 확인하십시오.
+1. **[!DNL SharePoint]** 옵션과 **[!UICONTROL [!DNL SharePoint](Graph API)]** 옵션이 모두 활성화되어 있는지 확인하십시오.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL [!DNL SharePoint]통합]**&#x200B;을 선택합니다.
 1. 기존의 모든 통합에 대해 목록의 왼쪽에 있는 확인 표시를 선택한 다음 **[!UICONTROL 사용 안 함]**&#x200B;을 선택합니다.

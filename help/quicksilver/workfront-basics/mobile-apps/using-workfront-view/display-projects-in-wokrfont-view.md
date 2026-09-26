@@ -3,26 +3,30 @@ product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
 title: Adobe Workfront 보기에서 프로젝트 표시
-description: 기본적으로  [!DNL Adobe Workfront] 보기에 표시된 프로젝트 목록에는 가장 최근 100개의 활성 프로젝트가 표시됩니다. 프로젝트 목록은 기준별로 그룹화되지 않습니다.
+description: 기본적으로 [!DNL Adobe Workfront] 보기에 표시된 프로젝트 목록에는 가장 최근 100개의 활성 프로젝트가 표시됩니다. 프로젝트 목록은 기준별로 그룹화되지 않습니다.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-TQID: https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI
+TQID: 'https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 359
+source-wordcount: '360'
 ht-degree: 5%
-
 ---
-
 # [!UICONTROL Adobe Workfront 보기]에서 프로젝트 표시
 
 기본적으로 [!DNL Adobe Workfront View]에 표시된 프로젝트 목록에는 가장 최근 100개의 활성 프로젝트가 표시됩니다. 프로젝트 목록은 기준별로 그룹화되지 않습니다.
@@ -69,7 +73,7 @@ ht-degree: 5%
    * **[!UICONTROL 진행]**
    * **[!UICONTROL 상태]**
    * **[!UICONTROL 스폰서]**
-이제 프로젝트가 이러한 필드의 가능한 값으로 그룹화되어 나열됩니다.\
+     이제 프로젝트가 이러한 필드의 가능한 값으로 그룹화되어 나열됩니다.\
       한 번에 하나의 기준으로 프로젝트를 그룹화할 수 있습니다. 기준은 프로젝트 목록 상단의 차트에 있는 앱에 미리 로드되며 수정할 수 없습니다.
 
 ## 프로젝트 세부 정보 보기

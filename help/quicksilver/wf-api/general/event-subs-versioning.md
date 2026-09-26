@@ -7,20 +7,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
+TQID: 'https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1055
+source-wordcount: '1326'
 ht-degree: 6%
-
 ---
-
 # 이벤트 구독 버전 관리
 
 Workfront에는 두 가지 버전의 이벤트 구독이 있습니다. 이 문서에서는 두 요소의 차이점에 대해 설명합니다.
@@ -262,6 +266,6 @@ Workfront에는 두 가지 버전의 이벤트 구독이 있습니다. 이 문�
 
 Workfront Fusion은 이벤트 구독을 사용하여 Workfront의 변경 사항을 살펴보고 시나리오를 트리거합니다. Workfront > 이벤트 페이로드 버전 업데이트 모듈을 사용하여 Fusion이 시나리오에서 직접 사용하는 이벤트 구독 버전을 업데이트할 수 있습니다.
 
-이 모듈 사용에 대한 지침은 Workfront Fusion 설명서의 [Workfront 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)을 참조하십시오.
+이 모듈 사용에 대한 지침은 Workfront Fusion 설명서의 [Workfront 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)을 참조하십시오.
 
-웨비나 녹화를 포함한 이벤트 구독 업그레이드 중 Workfront Fusion 시나리오 유지에 대한 리소스는 [이벤트 구독 V2 업그레이드 중 Fusion 시나리오 유지](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=ko)를 참조하십시오.
+웨비나 녹화를 포함한 이벤트 구독 업그레이드 중 Workfront Fusion 시나리오 유지에 대한 리소스는 [이벤트 구독 V2 업그레이드 중 Fusion 시나리오 유지](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)를 참조하십시오.

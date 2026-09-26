@@ -6,13 +6,17 @@ title: 템플릿에 요금 카드 첨부
 description: 템플릿에 요금 카드를 할당하면 요금 카드가 템플릿에서 만든 모든 프로젝트에 첨부됩니다.
 author: Lisa
 feature: Work Management
-source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 3%
-
 ---
-
 # 템플릿에 요금 카드 첨부
 
 템플릿에 요금 카드를 할당하면 요금 카드가 템플릿에서 만든 모든 프로젝트에 첨부됩니다. 비율 카드가 프로젝트의 기본값이 되지만 필요한 경우 재정의할 수 있습니다.
@@ -71,7 +75,7 @@ ht-degree: 3%
 1. 템플릿 세부 정보 > 개요 > 템플릿 연결 섹션에서 **등급 카드** 필드에서 등급 카드를 선택합니다.
 
    사용 권한이 있는 등급 카드만 선택할 수 있습니다.
-속도 카드의 이름을 입력하여 결과 목록의 범위를 좁힐 수 있습니다.
+   속도 카드의 이름을 입력하여 결과 목록의 범위를 좁힐 수 있습니다.
 
    ![서식 파일에서 요금 카드 선택](assets/select-rate-card-on-template.png)
 

@@ -6,13 +6,27 @@ description: 관리자는 조직에 대한 Adobe Cloud Drive를 설정하고, �
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps, System Setup and Administration
 role: Admin
-source-git-commit: f1dd9555df2adcf8a1afc48982bc2d52a14df54f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '3139'
 ht-degree: 1%
-
 ---
-
 # 조직을 위한 Adobe 클라우드 드라이브 설정 및 관리
 
 관리자는 Adobe Cloud Drive를 설정하여 사용자가 macOS의 Finder와 Windows의 File Explorer를 통해 Adobe 클라우드 스토리지의 프로젝트 파일에 직접 데스크톱으로 액세스할 수 있도록 할 수 있습니다. 이 문서에서는 Adobe Admin Console에서 액세스를 활성화하고, 애플리케이션을 사용자 장치에 배포하고, 지속적으로 액세스를 관리하는 방법을 다룹니다.
@@ -85,9 +99,9 @@ Workflow Ultimate 패키지 내의 라이선스는 Standard, Light 또는 Contri
 
 | 조직 수준 스위치 | ACD 사용자 역할의 사용자 | Workflow Ultimate 라이선스 | 액세스 결과 |
 | --- | --- | --- | --- |
-| 켜기 | 불필요 | 예 | 부여됨 |
-| 끄기 | 예 | 예 | 부여됨 |
-| 끄기 | 아니요 | 예 | 거부됨 |
+| 켜짐 | 불필요 | 예 | 부여됨 |
+| 꺼짐 | 예 | 예 | 부여됨 |
+| 꺼짐 | 아니요 | 예 | 거부됨 |
 | 다음 중 하나 | 다음 중 하나 | 아니요 | 거부됨 |
 
 <!-- Sarah said to delete the second line. Commenting it out within the table messed up the display for the rest of the table, so keeping the line here until I can delete it. | On | Not required | No | Denied | -->

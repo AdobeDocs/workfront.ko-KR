@@ -6,13 +6,20 @@ description: Adobe Workfront의 스냅샷을 사용하면 스냅샷(특정 날�
 author: Lisa
 feature: Work Management
 exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1282'
 ht-degree: 2%
-
 ---
-
 # 프로젝트 스냅샷 생성 및 보기
 
 프로젝트 관리자는 종종 정보에 입각한 결정을 내리고 시간이 지남에 따라 프로젝트가 어떻게 변경되었는지 확인하기 위해 프로젝트의 과거 데이터를 현재 상태와 비교해야 합니다.

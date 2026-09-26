@@ -9,13 +9,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
-
+source-wordcount: '464'
+ht-degree: 2%
 ---
-
 # 환경 간 개체 비교
 
 환경 간에 객체를 비교하여 환경 프로모션 패키지에 필요한 객체가 포함되어 있는지 확인할 수 있습니다.
@@ -76,7 +83,7 @@ ht-degree: 0%
 
 ![비교 예](assets/environment-promotion-comparison.png)
 
-이 예제에서는
+이 예에서,
 
 * 첫 번째 줄은 대상 환경에 있지만 소스 환경과 다른 개체를 보여 줍니다.
 * 두 번째 행은 대상 환경에 있는 객체를 나타내며 소스 환경과 동일합니다.

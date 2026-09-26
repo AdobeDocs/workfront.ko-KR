@@ -9,18 +9,24 @@ feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/LvjgUviaZwtv02BBrBjc8HGjUyZBYfF-yEz--COompY
+TQID: 'https://experienceleague.adobe.com/LvjgUviaZwtv02BBrBjc8HGjUyZBYfF-yEz--COompY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 946
+source-wordcount: '946'
 ht-degree: 0%
-
 ---
-
 # [!DNL Scenario Planner]의 이니셔티브 개요
 
 비즈니스 관리자는 [!DNL Adobe Workfront Scenario Planner]의 계획에 대한 이니셔티브를 만들 수 있습니다. 플랜 만들기에 대한 자세한 내용은 문서 [Create and edit in the [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)을(를) 참조하십시오.

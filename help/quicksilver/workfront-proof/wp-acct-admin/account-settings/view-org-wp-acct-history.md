@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: 조직의  [!DNL Workfront Proof] 관리자 계정 기록 보기
-description: ' [!DNL Workfront Proof] 관리자는 사용 통계와 조직의  [!DNL Workfront Proof] 계정에 대한 변경 사항의 로그를 볼 수 있습니다.'
+title: 조직의 [!DNL Workfront Proof] 관리자 계정 내역 보기
+description: '[!DNL Workfront Proof] 관리자는 사용 통계와 조직의 [!DNL Workfront Proof] 계정에 대한 변경 사항의 로그를 볼 수 있습니다.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b4bd3fe3-558c-4ef6-bc0c-ca1724fcfe8d
-TQID: https://experienceleague.adobe.com/L7HGyck5isK8fVt6PX-M1FoRYctEU2AZK35l9vZnf8w
+TQID: 'https://experienceleague.adobe.com/L7HGyck5isK8fVt6PX-M1FoRYctEU2AZK35l9vZnf8w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 154
+source-wordcount: '167'
 ht-degree: 0%
-
 ---
-
 # 조직의 [!DNL Workfront Proof] 관리자 계정 내역 보기
 
 >[!IMPORTANT]
@@ -36,5 +45,5 @@ ht-degree: 0%
    * **사용 통계**: 플랜 이름, 청구 기간 시작 및 종료 날짜, 사용된 증명 수 및 사용된 총 저장소 등 현재 및 가장 최근의 청구 기간에 대한 세부 정보.
    * **[!UICONTROL 계정 변경] 로그**: 작업의 날짜 및 설명과 작업을 수행한 사용자를 포함하여 계정의 최근 변경 사항입니다.
 
-1. 계정 변경 사항의 전체 목록을 보려면 **[!UICONTROL 사용 통계]** 섹션에서 **전체 목록 보기**&#x200B;를 클릭하십시오.
-[작업 로그] 페이지가 표시됩니다. 자세한 내용은 [활동 감사 추적 이해 [!DNL Workfront Proof] 를 참조하십시오.](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+1. 계정 변경 사항의 전체 목록을 보려면 **[!UICONTROL 사용 통계]** 섹션에서 **전체 목록 보기**를 클릭하십시오.
+[작업 로그] 페이지가 표시됩니다. 자세한 내용은 [활동 감사 추적 이해 [!DNL Workfront Proof] 2}를 참조하십시오.](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

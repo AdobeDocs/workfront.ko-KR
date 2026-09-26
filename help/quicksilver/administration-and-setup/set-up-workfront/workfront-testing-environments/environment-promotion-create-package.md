@@ -9,22 +9,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-TQID: https://experienceleague.adobe.com/wEVyLIZPMoEV-I4LDF6eqHbiFC-dr7bZouMPN4j-Jgw
+TQID: 'https://experienceleague.adobe.com/wEVyLIZPMoEV-I4LDF6eqHbiFC-dr7bZouMPN4j-Jgw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 1%
-
+source-wordcount: '805'
+ht-degree: 0%
 ---
-
 # 환경 프로모션 패키지 만들기 또는 편집
 
 **from** 개체를 복사할 환경에서 패키지를 만들어야 합니다. 예를 들어 사용자 정의 새로 고침 샌드박스 환경에서 프로젝트를 구성하고 프로덕션 환경으로 승격하는 경우 사용자 정의 새로 고침 샌드박스 환경에서 패키지를 생성해야 합니다.
@@ -109,7 +113,7 @@ ht-degree: 1%
 1. (조건부) 비활성화된 패키지를 보려면 **중단된 패키지 표시** 옵션을 활성화하십시오.
 1. (선택 사항) 모든 개체와 하위 개체를 포함한 내용을 보려면 **내용** 섹션에서 개체 형식 옆에 있는 드롭다운 화살표를 클릭합니다.
 1. (선택 사항) 이 패키지의 이전 설치 및 설치 시도를 보려면 **배포**&#x200B;를 클릭하십시오.
-1. (선택 사항) 패키지를 편집하려면 화면 오른쪽 상단의 **패키지 편집**&#x200B;을 클릭합니다.
+1. (선택 사항) 패키지를 편집하려면 화면 오른쪽 상단의 **패키지 편집**을 클릭합니다.
 패키지를 편집하려면 `DRAFT` 상태여야 합니다. 패키지를 `DRAFT` 상태로 이동하려면 **상태** 필드에서 `Draft`을(를) 선택합니다. 그런 다음 패키지 편집을 계속할 수 있습니다.
 1. 패키지를 설치하려면 화면 오른쪽 상단의 **설치**&#x200B;를 클릭합니다.
 

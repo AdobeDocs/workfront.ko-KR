@@ -1,31 +1,38 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-slack
-title: Slack에 대해  [!DNL Adobe Workfront] 구성
-description: ' [!DNL Adobe Workfront] Slack과 통합하여 Slack에서  [!DNL Workfront] 작업 항목, 승인, 즐겨찾기, 최근 항목에 액세스하고 만들 수 있습니다.'
+title: Slack에 대해 [!DNL Adobe Workfront] 구성
+description: '[!DNL Adobe Workfront]을(를) Slack과 통합하면 Slack에서 [!DNL Workfront]개의 작업 항목, 승인, 즐겨찾기, 최근 항목에 액세스하고 만들 수 있습니다.'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-TQID: https://experienceleague.adobe.com/rOccEnbPoWVh5LFVPCeX81S3Nl-VpEBGGfcNDNXEdPk
+TQID: 'https://experienceleague.adobe.com/rOccEnbPoWVh5LFVPCeX81S3Nl-VpEBGGfcNDNXEdPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 417
+source-wordcount: '420'
 ht-degree: 4%
-
 ---
-
 # 구성 [!DNL Adobe Workfront for Slack]
 
 [!DNL Adobe Workfront]을(를) [!DNL Slack]과(와) 통합하여 다음 작업을 수행할 수 있습니다.
@@ -78,8 +85,8 @@ ht-degree: 4%
 
 다음과 같은 방법으로 앱을 설치할 수 있습니다.
 
-* [&#x200B; [!DNL Workfront] 외부 앱 설치 [!DNL Slack]](#install-the-workfront-app-outside-slack-install-the-workfront-app-outside-slack)
-* [&#x200B; [!DNL Slack] 내에  [!DNL Workfront] 앱 설치](#install-the-workfront-app-within-slack-install-the-workfront-app-within-slack)
+* [ [!DNL Workfront] 외부 앱 설치 [!DNL Slack]](#install-the-workfront-app-outside-slack-install-the-workfront-app-outside-slack)
+* [ [!DNL Slack] 내에  [!DNL Workfront] 앱 설치](#install-the-workfront-app-within-slack-install-the-workfront-app-within-slack)
 
 ### [!DNL Slack] 외부에 [!DNL Workfront] 앱 설치 {#install-the-workfront-app-outside-slack}
 
@@ -91,7 +98,7 @@ ht-degree: 4%
 
 1. [[!DNL Slack] 스토어](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info)에서 [!DNL Adobe Workfront] 추가 기능을 찾습니다.
 
-1. [!DNL Slack]&#x200B;**에서**&#x200B;열기를 클릭합니다.
+1. [!DNL Slack]]**에서**[!UICONTROL &#x200B;열기를 클릭합니다.
 
 1. [!DNL Slack] URL을 지정하고 **[!UICONTROL 계속]**&#x200B;을 클릭하여 작업 영역에 로그인합니다.\
 

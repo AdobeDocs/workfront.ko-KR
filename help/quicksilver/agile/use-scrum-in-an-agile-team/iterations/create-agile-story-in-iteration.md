@@ -8,25 +8,33 @@ feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/-6cBWltTBk0t64BiNadClfh-y9a0Qj2eee2BSUb11OI
+TQID: 'https://experienceleague.adobe.com/-6cBWltTBk0t64BiNadClfh-y9a0Qj2eee2BSUb11OI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 503
+source-wordcount: '503'
 ht-degree: 4%
-
 ---
-
 # 반복에서 애자일 스토리 만들기
 
 이 문서에서는 이미 반복에 있는 경우 새로운 애자일 스토리를 만드는 방법에 대해 설명합니다. [!DNL Adobe Workfront]의 작업, 문제 또는 기타 영역에서 애자일 스토리를 만드는 방법에 대한 자세한 내용은 [기존 반복에 스토리 추가](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)를 참조하십시오.
@@ -89,7 +97,7 @@ ht-degree: 4%
       <td>스토리를 반복에 추가할 준비가 되면 이 옵션을 선택합니다. 이 옵션을 선택하면 백로그의 스토리를 반복에 추가할 준비가 되었음을 사용자에게 표시합니다.<br>스토리가 <strong>[!UICONTROL 준비]로 표시되는지 여부에 관계없이 반복에 추가할 수 있습니다.</strong></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Estimate] (포인트)</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Estimate](포인트)</strong></td>
       <td>스토리의 예상 값을 지정합니다. 애자일 팀이 스토리를 포인트 단위로 추정하도록 구성된 경우 기본적으로 1포인트는 8시간입니다. 예상 시간이 스토리에 [!UICONTROL 계획된 시간]으로 추가됩니다.<br>예를 들어 스토리를 3포인트로 예상하면 기본적으로 스토리에 계획된 시간 24시간이 추가됩니다.<br>스토리에 하위 작업이 포함된 경우 모든 하위 작업에 대한 전체 예상 값이 상위 스토리의 예상 값을 결정합니다. 자세한 내용은 <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md" class="MCXref xref">[!UICONTROL 스크럼] 보드에서 기존 스토리에 하위 작업 추가</a>를 참조하십시오.</td>
      </tr>
      <tr>

@@ -2,25 +2,33 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
-title: ' [!DNL Workfront Proof] 을(를) Basecamp Classic과 통합'
-description: ' [!DNL Basecamp] 을(를) 프로젝트 관리에 사용하는 경우  [!DNL Workfront Proof]을(를) 사용하여 프로젝트 팀에 보다 풍부한 검토 및 승인 도구를 제공할 수 있습니다.'
+title: '[!DNL Workfront Proof]을(를) Basecamp Classic과 통합'
+description: 프로젝트 관리에 [!DNL Basecamp]을(를) 사용하는 경우 [!DNL Workfront Proof]을(를) 사용하여 프로젝트 팀에 더 풍부한 검토 및 승인 도구를 제공할 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e1f03079-6ccc-4e81-a7f7-184e87d62654
-TQID: https://experienceleague.adobe.com/U3IVZ44cDo1IZS4jEWpiT-KllI5Y0vUQCgleQTDAdzo
+TQID: 'https://experienceleague.adobe.com/U3IVZ44cDo1IZS4jEWpiT-KllI5Y0vUQCgleQTDAdzo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 796
+source-wordcount: '799'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]과(와) [!DNL Basecamp Classic] 통합
 
 >[!IMPORTANT]
@@ -89,7 +97,7 @@ ht-degree: 0%
 >
 >[!DNL Basecamp] 세션이 한 브라우저 창에서 열려 있고 [!DNL Workfront Proof] 세션이 다른 창에서 열려 있는 경우 이 단계를 완료하는 것이 가장 쉽습니다.
 
-* [&#x200B; [!DNL Basecamp] API 토큰 검색 중](#retrieving-your-basecamp-api-token)
+* [ [!DNL Basecamp] API 토큰 검색 중](#retrieving-your-basecamp-api-token)
 * [개인 설정에  [!DNL Basecamp] API 토큰 추가](#adding-your-basecamp-api-token-to-your-personal-settings)
 
 ### [!DNL Basecamp] API 토큰 검색 중
@@ -117,7 +125,7 @@ ht-degree: 0%
    개인 설정을 사용하려면 먼저 관리자가 [!DNL Basecamp Classic] 통합을 사용하도록 설정해야 합니다. 통합 설정에 대한 자세한 내용은 이 문서에서 [통합 활성화 [!DNL Basecamp] 를 참조하십시오 [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof).
 
 1. [!DNL Basecamp] API 토큰 상자(2)에서 [!DNL Basecamp] [!UICONTROL 내 정보] 페이지에서 복사한 토큰을 필드(3)에 붙여 넣습니다.\
-   [!DNL Basecamp] API 토큰 복사에 대한 자세한 내용은 이 문서에서 [API 토큰 검색 [!DNL Basecamp] 3&rbrace;을 참조하십시오.](#retrieving-your-basecamp-api-token)
+   [!DNL Basecamp] API 토큰 복사에 대한 자세한 내용은 이 문서에서 [API 토큰 검색 [!DNL Basecamp] 3}을 참조하십시오.](#retrieving-your-basecamp-api-token)
 
 1. **[!UICONTROL 저장]**(4)을 클릭합니다.
 

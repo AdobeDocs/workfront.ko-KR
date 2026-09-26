@@ -7,22 +7,27 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 22e3836c-c41e-48a6-9926-e832af91e616
-TQID: https://experienceleague.adobe.com/6vUGOgtvkP4c4yBRo-wZTPB20tLdy-C1z28Ilg-xOok
+TQID: 'https://experienceleague.adobe.com/6vUGOgtvkP4c4yBRo-wZTPB20tLdy-C1z28Ilg-xOok'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1304
+source-wordcount: '1334'
 ht-degree: 2%
-
 ---
-
 # 2018.1 Beta 2 릴리스 활동
 
 이 페이지에서는 2018.1 Beta 2 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 12월 14일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
@@ -35,7 +40,7 @@ ht-degree: 2%
 
 2018.1 Beta 2 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1&rbrace;**
+관리자용 **1}**
 
 * [사용자 및 레이아웃 템플릿을 위한 그룹 관리](#group-administration-for-users-and-layout-templates)
 
@@ -129,9 +134,9 @@ ht-degree: 2%
 
 * 향상된 디자인
 
-   * 이제 오른쪽 패널이 더 커져 작업 및 문제 정보를 위한 더 많은 공간이 제공됩니다.
-   * 이제 왼쪽 패널에서 선택하면 지연 항목이 더 밝은 빨간색 음영으로 표시됩니다.
-   * 이제 왼쪽 패널과 오른쪽 패널 간의 관계를 더 쉽게 볼 수 있습니다. 왼쪽 패널에서 선택한 문서는 오른쪽 패널을 가리킵니다.
+  * 이제 오른쪽 패널이 더 커져 작업 및 문제 정보를 위한 더 많은 공간이 제공됩니다.
+  * 이제 왼쪽 패널에서 선택하면 지연 항목이 더 밝은 빨간색 음영으로 표시됩니다.
+  * 이제 왼쪽 패널과 오른쪽 패널 간의 관계를 더 쉽게 볼 수 있습니다. 왼쪽 패널에서 선택한 문서는 오른쪽 패널을 가리킵니다.
 
 * 선택한 항목에 대한 기본 필드가 표시됩니다. 
 

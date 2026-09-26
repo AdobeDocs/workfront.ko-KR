@@ -8,26 +8,33 @@ feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/00U8FspScYDtQBKl056DfxAKrgOkFhr2S0SXCx-hdkg
+TQID: 'https://experienceleague.adobe.com/00U8FspScYDtQBKl056DfxAKrgOkFhr2S0SXCx-hdkg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 804
-ht-degree: 5%
-
+source-wordcount: '836'
+ht-degree: 4%
 ---
-
 # 홈 영역에서 작업 항목 및 프로젝트 만들기
 
 [!UICONTROL Home] 영역에서 작업 항목 및 프로젝트를 만들 수 있습니다.
@@ -103,7 +110,7 @@ ht-degree: 5%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) 홈 화면에 **내 작업** 위젯을 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 작업**&#x200B;을 찾습니다.
-1. **내 작업** 위젯으로 이동한 다음 **새로 만들기**&#x200B;를 클릭합니다.
+1. **내 작업** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
    ![새 작업 만들기](assets/create-new-task.png)
 1. **새 작업** 대화 상자에서 작업 이름을 입력합니다.
 1. 프로젝트 이름을 입력한 다음 목록에서 이름을 선택합니다.
@@ -126,7 +133,7 @@ ht-degree: 5%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **내 문제** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 문제**&#x200B;를 찾습니다.
-1. **내 문제** 위젯으로 이동한 다음 **새로 만들기**&#x200B;를 클릭합니다.
+1. **내 문제** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
    ![새 문제 만들기](assets/create-new-issue.png)
 1. **새 문제 대화 상자** 상자에서 프로젝트 이름을 입력한 다음 목록에서 이름을 선택합니다.
 1. 문제 이름을 입력하십시오.
@@ -147,7 +154,7 @@ ht-degree: 5%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **내 요청** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 요청**&#x200B;을 찾습니다.
-1. **내 요청** 위젯으로 이동한 다음 **새로 만들기**&#x200B;를 클릭합니다.
+1. **내 요청** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
    ![새 요청 만들기](assets/create-new-request-new.png)
 
 1. **새 요청** 대화 상자에서 검색 창에 Workfront 요청 대기열 또는 Workfront Planning 요청 양식 이름을 입력한 다음 표시될 때 선택합니다.
@@ -162,7 +169,7 @@ ht-degree: 5%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **내 프로젝트** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 프로젝트**&#x200B;를 찾습니다.
-1. **내 프로젝트** 위젯으로 이동한 다음 **새로 만들기**&#x200B;를 클릭합니다.
+1. **내 프로젝트** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
    ![새 프로젝트 만들기](assets/create-new-project.png)
 1. 다음 옵션 중 하나를 선택합니다.
 

@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+TQID: 'https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3190
+source-wordcount: '3190'
 ht-degree: 1%
-
 ---
-
 # 2018.2 Beta 5 릴리스 활동
 
 이 페이지에서는 2018.2 Beta 5 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 6월 1일에 미리보기 환경에서 사용할 수 있습니다. Beta 5와 함께 향상된 증명 기능은 6월 4일 월요일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 7월에 사용할 수 있습니다.
@@ -39,7 +46,7 @@ ht-degree: 1%
 
 2018.2 Beta 5 릴리스에는 Workfront 관리자 및 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1&rbrace;**
+관리자용 **1}**
 
 * [감사 로그로 사용자가 트리거한 변경 내용 보기](#view-user-triggered-changes-with-audit-logs)
 * [그룹 관리자로 라이선스 정보 보기](#view-license-information-as-a-group-administrator)
@@ -136,8 +143,8 @@ Outlook에서 일정을 사용하는 경우 일정을 통합하여 홈 일정 �
 * 전체 화면 모드.
 * 이제 성능이 더 빠르고 효율적입니다.
 
-   * 표시할 수 있는 프로젝트, 역할 및 사용자 수에 대한 새로운 제한.
-   * 소극적 로드, 프로젝트 및 역할 로드 속도 향상.
+  * 표시할 수 있는 프로젝트, 역할 및 사용자 수에 대한 새로운 제한.
+  * 소극적 로드, 프로젝트 및 역할 로드 속도 향상.
 
 * 리소스 플래너에서 바로 프로젝트 및 사용자에 대한 빠른 액세스.
 * 프로젝트 보기에서 더 빠른 드래그 앤 드롭 기능으로 프로젝트의 우선 순위를 지정할 수 있습니다.
@@ -168,7 +175,7 @@ Outlook에서 일정을 사용하는 경우 일정을 통합하여 홈 일정 �
 
 목록의 열 순서 조정 방법에 대한 자세한 내용은 [열 너비 및 순서 수정](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)을 참조하십시오.
 
-현재 목록 개선 사항에 대한 베타 테스트 프로그램에 참여하려면 [새 목록 연구를 참조하십시오.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ko) (로그인 필요)
+현재 목록 개선 사항에 대한 베타 테스트 프로그램에 참여하려면 [새 목록 연구를 참조하십시오.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (로그인 필요)
 
 ## 새 프로젝트 목록에 대한 아이콘 지원 {#icon-support-for-the-new-project-lists}
 
@@ -266,10 +273,10 @@ Workfront의 다음 영역에서 새 문서 버전을 추가할 수 있습니다
 
   이 기능을 사용하여 다음 영역이 개선되었습니다.
 
-   * 내 작업 및 홈
-   * 알림
-   * 연락처
-   * 승인
+  * 내 작업 및 홈
+  * 알림
+  * 연락처
+  * 승인
 
 * 항목의 세부 정보 탭을 볼 때의 새로운 모양과 느낌
 

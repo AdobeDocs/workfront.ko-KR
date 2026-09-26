@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9YTbzW6MnqD4EpNYObP4HEtbZw2r7eBwNdheE0qxsEo
+TQID: 'https://experienceleague.adobe.com/9YTbzW6MnqD4EpNYObP4HEtbZw2r7eBwNdheE0qxsEo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1738
-ht-degree: 2%
-
+source-wordcount: '1834'
+ht-degree: 7%
 ---
-
 # 텍스트 모드에서 조건부 서식 사용
 
 <!--Audited: 01/2025-->
@@ -408,9 +413,9 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 * 열의 값은 요약할 수 있는 형식을 가져야 합니다. 예를 들어 다음 형식 중 하나가 있어야 합니다.
 
-   * 숫자
-   * 일자
-   * 통화
+  * 숫자
+  * 일자
+  * 통화
 
 * 계산을 표시하는 열에 집계를 추가할 수 있습니다. 집계된 값은 보기 또는 보고서의 그룹화에 표시됩니다. 자세한 내용은 [그룹화: 그룹화에서 계산된 여러 값을 집계한 결과를 표시합니다](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)을 참조하십시오.
 * 열 정의에 대한 코드 행은 애그리게이터를 소개하고 앞에 &quot;애그리게이터&quot;가 오는 코드 행과 동일해야 합니다. 예를 들어 프로젝트에 계획된 시간을 표시하는 열이 있는 경우 열의 기본 행의 텍스트 모드는 다음과 같습니다.

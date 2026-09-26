@@ -8,22 +8,29 @@ feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8
+TQID: 'https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
-ht-degree: 4%
-
+source-wordcount: '601'
+ht-degree: 3%
 ---
-
 # 기존 반복에 스토리 추가
 
 다음 방법 중 하나로 반복에 스토리를 추가할 수 있습니다.
@@ -69,23 +76,23 @@ ht-degree: 4%
 
 * 이 작업에서는 다음과 같은 경우 반복의 시작 일자를 사용합니다.
 
-   * 프로젝트에 [!UICONTROL 계획된 시작 일자]가 설정되어 있지 않습니다.
-   * 프로젝트의 [!UICONTROL 계획된 시작 일자]가 반복의 시작 일자인 *이전* 또는 *날짜*&#x200B;입니다.
+  * 프로젝트에 [!UICONTROL 계획된 시작 일자]가 설정되어 있지 않습니다.
+  * 프로젝트의 [!UICONTROL 계획된 시작 일자]가 반복의 시작 일자인 *이전* 또는 *날짜*&#x200B;입니다.
 
 * 작업은 다음과 같은 경우 프로젝트의 [!UICONTROL 계획된 시작 일자]를 사용합니다.
 
-   * 프로젝트의 [!UICONTROL 계획된 시작 일자]는 반복의 시작 일자 *이후*&#x200B;입니다.
+  * 프로젝트의 [!UICONTROL 계획된 시작 일자]는 반복의 시작 일자 *이후*&#x200B;입니다.
 
 ### 작업 [!UICONTROL 계획된 완료 일자]
 
 * 이 작업에서는 다음과 같은 경우 반복의 종료 일자를 사용합니다.
 
-   * 프로젝트에 [!UICONTROL 계획된 완료 일자]가 설정되어 있지 않습니다.
-   * 프로젝트의 [!UICONTROL 계획된 시작 일자]는 반복의 시작 일자 *이전 또는*&#x200B;이거나 프로젝트의 [!UICONTROL 계획된 완료 일자]는 반복의 종료 일자 *이전 또는*&#x200B;입니다.
+  * 프로젝트에 [!UICONTROL 계획된 완료 일자]가 설정되어 있지 않습니다.
+  * 프로젝트의 [!UICONTROL 계획된 시작 일자]는 반복의 시작 일자 *이전 또는*&#x200B;이거나 프로젝트의 [!UICONTROL 계획된 완료 일자]는 반복의 종료 일자 *이전 또는*&#x200B;입니다.
 
 * 작업은 다음과 같은 경우 프로젝트의 [!UICONTROL 계획된 완료 일자]를 사용합니다.
 
-   * 프로젝트의 [!UICONTROL 계획된 시작 일자]는 반복의 시작 일자 *이후*&#x200B;이고 프로젝트의 [!UICONTROL 계획된 완료 일자]는 반복의 종료 일자 *이후*&#x200B;입니다.
+  * 프로젝트의 [!UICONTROL 계획된 시작 일자]는 반복의 시작 일자 *이후*&#x200B;이고 프로젝트의 [!UICONTROL 계획된 완료 일자]는 반복의 종료 일자 *이후*&#x200B;입니다.
 
 개별 스크럼 팀이 반복 날짜가 아닌 프로젝트 날짜를 기본적으로 사용하도록 구성할 수 있습니다. 자세한 내용은 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 문서의 [반복에 작업 항목을 추가할 때 날짜가 적용되는 방법 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) 섹션을 참조하십시오.
 
@@ -106,7 +113,7 @@ ht-degree: 4%
 또는
 반복에 추가할 작업 또는 문제가 포함된 프로젝트, 보고서 또는 대시보드로 이동합니다. 그런 다음 작업 또는 문제를 하나 이상 선택합니다.
 
-1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png) > **[!UICONTROL 반복에 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png) > **[!UICONTROL 반복에 추가]**를 클릭합니다.
 애자일이 아닌 팀에 할당된 작업 또는 문제를 할당할 수 없습니다.
 
 1. **[!UICONTROL 다음에 추가]** 상자에서 반복 이름을 입력하고 목록에 나타나면 선택합니다.

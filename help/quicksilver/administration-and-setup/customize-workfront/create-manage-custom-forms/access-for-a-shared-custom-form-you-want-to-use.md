@@ -9,24 +9,29 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-TQID: https://experienceleague.adobe.com/GKSI-cFL-oRs-49nKvl42Fc-LbC12j4pP0OHGW383HA
+TQID: 'https://experienceleague.adobe.com/GKSI-cFL-oRs-49nKvl42Fc-LbC12j4pP0OHGW383HA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: '404'
 ht-degree: 0%
-
 ---
-
 # 공유 사용자 정의 필드에 대한 액세스
 
 다른 사용자가 보기 또는 관리 액세스 권한과 사용자 정의 필드를 공유할 때 해당 액세스를 추가로 정의하기 위해 여러 다른 설정을 구성할 수 있습니다. 필드의 수신자인 경우 이러한 설정은 필드로 수행할 수 있는 작업에 영향을 줍니다. 필드를 볼 때 다음과 같은 메시지가 표시될 수 있습니다.

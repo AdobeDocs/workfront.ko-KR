@@ -7,13 +7,23 @@ description: '시스템에 설치된 파일(예: Photoshop 또는 Illustrator)�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: e9fd96e32cabb1a99bb2170261577ec05c35ff6f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%
-
 ---
-
 # 지원되는 증명 파일 유형 및 크기 제한 개요
 
 <!--Audited: 12/2023-->
@@ -137,7 +147,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 
   >[!NOTE]
   >
-  >현재 PowerPoint 프레젠테이션 파일이 업로드되지 않는 알려진 문제가 있습니다. 이 문제가 발생하는 경우 파일을 PDF으로 변환하고 PDF을 업로드하십시오. 자세한 내용은 [증명: PowerPoint 파일에서 증명을 생성할 수 없음](https://experienceleague.adobe.com/ko/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)을 참조하십시오.
+  >현재 PowerPoint 프레젠테이션 파일이 업로드되지 않는 알려진 문제가 있습니다. 이 문제가 발생하는 경우 파일을 PDF으로 변환하고 PDF을 업로드하십시오. 자세한 내용은 [증명: PowerPoint 파일에서 증명을 생성할 수 없음](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)을 참조하십시오.
 
 * PS - PostScript 파일
 * PSD - PHOTOSHOP
@@ -205,8 +215,8 @@ Workfront에는 다음과 같은 제한이 있습니다.
 
 ## 비디오 파일
 
-* &#x200B;-
-* &#x200B;-
+* -
+* -
 * H.263
 * H.264
 * H.265
@@ -227,12 +237,12 @@ Workfront에는 다음과 같은 제한이 있습니다.
 * MKV
 * 입력 오디오 코덱(비디오의 일부)
 
-   * MP3
-   * AAC/AAC-HE
-   * Windows Media
-   * PCM/WAV/AIFF
-   * AMR
-   * 오그보르비스
+  * MP3
+  * AAC/AAC-HE
+  * Windows Media
+  * PCM/WAV/AIFF
+  * AMR
+  * 오그보르비스
 
 ## 오디오 파일
 

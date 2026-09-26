@@ -9,18 +9,26 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0cfac975-a561-4e0a-8703-8173b50957ca
-TQID: https://experienceleague.adobe.com/W-jGfq-Nt5n7-l6PiZhCuhlffk9QE57Ao7OW3q9bazw
+TQID: 'https://experienceleague.adobe.com/W-jGfq-Nt5n7-l6PiZhCuhlffk9QE57Ao7OW3q9bazw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 109
+source-wordcount: '109'
 ht-degree: 0%
-
 ---
-
 # 웹 증명 뷰어에서 증명 검토
 
 >[!IMPORTANT]
@@ -29,7 +37,7 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [&#x200B; [!DNL Workfront Proof]에서 증명 열기](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
+* [ [!DNL Workfront Proof]에서 증명 열기](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
 * [증명 뷰어에서 워크플로우 검토](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
 * [여러 검토자와 동시에 증명 검토](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
 * [증명 뷰어의 증명에 대한 활동 보기](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
@@ -37,5 +45,5 @@ ht-degree: 0%
 * [증명 뷰어에서 증명 비교](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
 * [웹 증명 뷰어에서 이전 증명 버전 보기](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
 * [증명 뷰어에서 증명 다운로드](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-* [&#x200B; [!DNL Workfront Proof] 증명 뷰어의 키보드 단축키](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+* [ [!DNL Workfront Proof] 증명 뷰어의 키보드 단축키](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
 * [기존 증명 뷰어가 제거됨](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)

@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
-title: ' [!DNL Workfront Proof]을(를) 사용하여 그룹 관리'
-description: ' [!DNL Workfront Proof] 관리자는 그룹 페이지에서 공개 및 비공개 그룹을 관리할 수 있습니다.'
+title: '[!DNL Workfront Proof]을(를) 사용하여 그룹 관리'
+description: '[!DNL Workfront Proof] 관리자는 그룹 페이지에서 공개 및 비공개 그룹을 관리할 수 있습니다.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-TQID: https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY
+TQID: 'https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 555
+source-wordcount: '592'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]을(를) 사용하여 그룹 관리
 
 >[!IMPORTANT]
@@ -34,7 +44,7 @@ ht-degree: 0%
 
 ## 그룹 페이지 열기
 
-1. 왼쪽 탐색 사이드바에서 **[!UICONTROL 그룹]**&#x200B;을 클릭합니다.
+1. 왼쪽 탐색 사이드바에서 **[!UICONTROL 그룹]**을 클릭합니다.
 [!UICONTROL 그룹] 페이지에서 다음을 수행할 수 있습니다.
 
    * 모든 공개 및 비공개 그룹을 봅니다.
@@ -43,25 +53,25 @@ ht-degree: 0%
    * 그룹 필터링 및 정렬
    * 하나 이상의 그룹을 선택하면 다음과 같은 추가 옵션을 사용할 수 있습니다.
 
-      * 선택한 그룹에 사람을 추가합니다.
+     * 선택한 그룹에 사람을 추가합니다.
 
-        ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
+       ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
 
-      * [다음을 사용하여 그룹을 비공개로 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)에 설명된 대로 선택한 그룹을 비공개로 설정합니다.
-      * 비공개 그룹은 작성자에게만 표시됩니다.
-      * 선택한 그룹을 삭제합니다.
+     * [다음을 사용하여 그룹을 비공개로 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)에 설명된 대로 선택한 그룹을 비공개로 설정합니다.
+     * 비공개 그룹은 작성자에게만 표시됩니다.
+     * 선택한 그룹을 삭제합니다.
 
-        ![삭제 아이콘](assets/trash-button.png)
+       ![삭제 아이콘](assets/trash-button.png)
    * 각자의 **[!UICONTROL 자세히]**(점 3개) 메뉴와는 별도로 각 그룹에 대해서도 작업을 수행할 수 있습니다.
 
      ![추가 메뉴](assets/more-button-small.png)
 
-      * 그룹 세부 정보를 봅니다.
+     * 그룹 세부 정보를 봅니다.
 
-        그룹 이름을 클릭하여 그룹 세부 정보를 볼 수도 있습니다.
-      * 직원 추가.
-      * 그룹을 공개/비공개로 만듭니다.
-      * 그룹을 삭제합니다.
+       그룹 이름을 클릭하여 그룹 세부 정보를 볼 수도 있습니다.
+     * 직원 추가.
+     * 그룹을 공개/비공개로 만듭니다.
+     * 그룹을 삭제합니다.
 
 
 ## 그룹 정렬
@@ -72,7 +82,7 @@ ht-degree: 0%
 또는
 정렬 메뉴에서 정렬 옵션을 선택합니다.
    ![Groups_page-Sort_menu.png](assets/groups-page-sort-menu-350x80.png)
-열 머리글의 삼각형은 정렬 순서를 나타냅니다. 위쪽을 가리키면 오름차순이 표시되고, 아래쪽을 가리키면 내림차순이 표시됩니다.
+   열 머리글의 삼각형은 정렬 순서를 나타냅니다. 위쪽을 가리키면 오름차순이 표시되고, 아래쪽을 가리키면 내림차순이 표시됩니다.
 
 ## 그룹 필터링
 
@@ -86,7 +96,7 @@ ht-degree: 0%
 
 ## 그룹 세부 정보 보기 및 편집
 
-1. 그룹 이름의 오른쪽 끝에 있는 **[!UICONTROL 자세히]** 단추를 클릭한 다음 드롭다운 메뉴에서 **[!UICONTROL 그룹 세부 정보 보기]**&#x200B;를 클릭합니다.
+1. 그룹 이름의 오른쪽 끝에 있는 **[!UICONTROL 자세히]** 단추를 클릭한 다음 드롭다운 메뉴에서 **[!UICONTROL 그룹 세부 정보 보기]**를 클릭합니다.
 표시되는 페이지에서 현재 그룹에 있는 모든 사용자와 그룹의 기본 역할 및 이메일 경고를 볼 수 있습니다.
 
 1. 그룹 세부 정보를 편집하려면 다음 중 하나를 수행하십시오.
@@ -113,7 +123,7 @@ ht-degree: 0%
 1. 그룹에 추가할 연락처의 이름 옆에 있는 확인란을 선택합니다.
 1. **[!UICONTROL 그룹에 추가]** 단추를 클릭합니다.
    ![그룹에 추가](assets/screenshot-2018-04-06-15-27-17.png)
-**[!UICONTROL 그룹에 추가]** 대화 상자가 나타납니다.
+   **[!UICONTROL 그룹에 추가]** 대화 상자가 나타납니다.
 
 1. **[!UICONTROL 사람]** 섹션에서:
 

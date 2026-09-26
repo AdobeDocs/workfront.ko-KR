@@ -5,13 +5,25 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Workfront Planning에서 팀을 독립 실행형 제품으로 관리
 
@@ -57,7 +69,7 @@ Adobe Workfront에서 관리하는 것과 유사한 방식으로 Adobe Workfront
 
 ## Adobe Workfront Planning에서 팀 관리
 
-1. Planning 관리자로 Adobe CX Enterprise 홈에서 Workfront에 로그인합니다.
+1. Planning 관리자는 Adobe CX Enterprise 홈에서 Workfront에 로그인합니다.
 1. **기본 메뉴** > **설정** > 팀 > **새 팀**&#x200B;을 클릭합니다.
 
    ![독립 실행형 Planning의 새 팀 상자](assets/new-team-planning-sta.png)

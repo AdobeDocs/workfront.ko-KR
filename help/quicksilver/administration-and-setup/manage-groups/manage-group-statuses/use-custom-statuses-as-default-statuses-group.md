@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-TQID: https://experienceleague.adobe.com/wW7AdemSW4-KDj--r6Cy4K93tSWVTQKatStDKEKRChE
+TQID: 'https://experienceleague.adobe.com/wW7AdemSW4-KDj--r6Cy4K93tSWVTQKatStDKEKRChE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 664
+source-wordcount: '664'
 ht-degree: 3%
-
 ---
-
 # 사용자 지정 상태를 그룹의 기본 상태로 사용
 
 그룹 관리자는 사용자 지정 상태를 관리하는 그룹 또는 하위 그룹의 기본 상태로 구성할 수 있습니다. 이 기능은 시스템이 프로젝트, 작업 또는 문제에 Workfront 상태를 자동으로 할당해야 할 때 유용합니다. 프로젝트, 작업 또는 문제는 항상 해당하는 Workfront 상태를 표시하는 대신 기본 상태로 설정한 사용자 지정 상태를 표시합니다.

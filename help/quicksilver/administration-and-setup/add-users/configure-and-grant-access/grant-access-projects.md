@@ -10,22 +10,26 @@ role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/n5agZfPvUGpYt-X9kKxkkFeBFeiLJJkKAm-1xrXYI7A
+TQID: 'https://experienceleague.adobe.com/n5agZfPvUGpYt-X9kKxkkFeBFeiLJJkKAm-1xrXYI7A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '678'
 ht-degree: 2%
-
 ---
-
 # 프로젝트에 대한 액세스 권한 부여
 
 <!-- Audited: 12/2023 -->
@@ -79,7 +83,7 @@ Adobe Workfront 관리자는 다음 문서에 설명된 대로 액세스 수준�
    >* 검토 라이선스가 있는 사용자는 전환된 문제의 프로젝트에 대한 보기 권한이 있지만 보기 권한은 제한됩니다.
    >* 사용자가 다른 사용자와 프로젝트를 공유할 때 부여할 수 있는 권한에 대한 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)를 참조하십시오.
    >* 특정 객체 유형에 대한 액세스 수준 설정을 구성할 때 해당 구성은 하위 등급 객체에 대한 사용자의 액세스 권한에 영향을 주지 않습니다. 예를 들어 사용자가 액세스 수준에서 프로젝트를 삭제하는 것을 제한할 수 있지만 그렇다고 해서 프로젝트보다 낮은 순위의 작업을 삭제하는 것은 제한되지 않습니다.개체의 계층 구조에 대한 자세한 내용은 문서 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)에서 [개체의 상호 종속성과 계층 구조](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) 섹션을 참조하십시오.
-   >* 액세스 수준이 재무 데이터에 대한 액세스를 허용하지 않는 사용자는 다른 사용자가 재무 데이터를 볼 수 있도록 하는 액세스 권한을 부여할 수 없습니다. 여기에는 재무 데이터를 표시하는 프로젝트에 대한 액세스 권한을 부여하거나, 재무 데이터를 볼 수 있도록 액세스 수준을 수정하는 작업이 포함됩니다.
+   * 액세스 수준이 재무 데이터에 대한 액세스를 허용하지 않는 사용자는 다른 사용자가 재무 데이터를 볼 수 있도록 하는 액세스 권한을 부여할 수 없습니다. 여기에는 재무 데이터를 표시하는 프로젝트에 대한 액세스 권한을 부여하거나, 재무 데이터를 볼 수 있도록 액세스 수준을 수정하는 작업이 포함됩니다.
 
 
 1. (선택 사항) 만들기 옵션 오른쪽에 있는 **공유 기본값 설정**&#x200B;을 클릭한 다음 **규칙 추가**&#x200B;를 클릭하여 새 프로젝트에 대한 공유 규칙을 추가합니다.

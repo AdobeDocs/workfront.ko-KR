@@ -7,13 +7,17 @@ description: 이 문서에서는 프로젝트에 대한 시스템 사용자 청�
 author: Lisa
 feature: Work Management
 exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '749'
 ht-degree: 2%
-
 ---
-
 # 프로젝트 수준에서 사용자 청구 요금 재정의
 
 프로젝트 관리자는 특정 프로젝트의 사용자에 대한 청구 요금을 지정할 수 있습니다. 이 프로젝트 수준의 청구 요율은 이 사용자의 시스템 수준의 청구 요율을 무시합니다. Workfront은 시스템 수준 청구 요율을 사용하는 대신 사용자의 프로젝트 수준 청구 요율을 사용하여 수익을 계산합니다.
@@ -22,7 +26,7 @@ ht-degree: 2%
 
 프로젝트의 청구 요율 재정의 및 프로젝트 수익 계산에 대한 일반 정보는 [프로젝트의 청구 요율 재정의 및 수익 계산 개요](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)를 참조하십시오.
 
-프로젝트의 수익 계산에 대한 자세한 내용은 [청구 및 수익 개요](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) 문서의 [수익 및 비용 계층 개요](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) 및 [사용자 및 역할 할당에 따른 작업에 대한 수익 계산](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md) 섹션을 참조하십시오.
+프로젝트의 수익 계산에 대한 자세한 내용은 [청구 및 수익 개요](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md) 문서의 [수익 및 비용 계층 개요](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) 및 [사용자 및 역할 할당에 따른 작업에 대한 수익 계산](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) 섹션을 참조하십시오.
 
 >[!NOTE]
 >
@@ -50,7 +54,7 @@ ht-degree: 2%
        <p><p>또한 다음 중 하나가 있어야 합니다.</p> 
         <ul> 
           <li> <p>시스템 관리자 액세스 수준입니다. </li> 
-          <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <b>에서 두 개의 </b>사용자 관리<img src="assets/gear-icon-in-access-levels.png"> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
+          <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
     </ul></td> 
   </tr> 
   <tr> 

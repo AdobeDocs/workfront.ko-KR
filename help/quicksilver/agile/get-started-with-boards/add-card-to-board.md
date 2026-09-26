@@ -8,23 +8,31 @@ feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tCSdvnFEH5GpjBVE8bFNxB4XlWaY3X904Eko1Ebzv-c
+TQID: 'https://experienceleague.adobe.com/tCSdvnFEH5GpjBVE8bFNxB4XlWaY3X904Eko1Ebzv-c'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: '873'
 ht-degree: 2%
-
 ---
-
 # 보드에 애드혹 카드 추가
 
 보드에 카드를 빠르게 추가하고 보드에 있는 멤버에게 카드를 할당할 수 있습니다. 카드는 작업, 문제, 개인, 그룹 또는 보드에 포함할 모든 유형의 항목을 나타낼 수 있습니다.
@@ -94,7 +102,7 @@ ht-degree: 2%
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 상태]</strong> </td> 
-      <td>카드 상태를 선택합니다. 카드 상단에서 <strong>[!UICONTROL Mark Complete]</strong>을(를) 클릭하면 상태가 자동으로 [!UICONTROL Complete] (으)로 변경됩니다.</td> 
+      <td>카드 상태를 선택합니다. 카드 상단에서 <strong>[!UICONTROL Mark Complete]</strong>을(를) 클릭하면 상태가 자동으로 [!UICONTROL Complete](으)로 변경됩니다.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 기한]</strong></td> 

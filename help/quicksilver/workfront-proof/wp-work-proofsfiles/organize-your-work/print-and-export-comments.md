@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: ' [!DNL Workfront Proof]의 댓글 인쇄 및 내보내기'
+title: '[!DNL Workfront Proof]의 댓글 인쇄 및 내보내기'
 description: 댓글 요약은 Workfront Proof에서 액세스할 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-TQID: https://experienceleague.adobe.com/2ikEopwBMpVFPsAtqzg9SsKkmJjxIbI4bY5QxD-87kU
+TQID: 'https://experienceleague.adobe.com/2ikEopwBMpVFPsAtqzg9SsKkmJjxIbI4bY5QxD-87kU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: '502'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]의 댓글 인쇄 및 내보내기
 
 <!-- Audited: 4/2025 -->
@@ -33,7 +41,7 @@ ht-degree: 0%
 
 * [증명 뷰어](#the-proof-viewer)
 * [증명 세부 정보 페이지](#the-proof-details-page)
-* [&#x200B; [!DNL Proof] 작업 메뉴](#the-proof-actions-menu)
+* [ [!DNL Proof] 작업 메뉴](#the-proof-actions-menu)
 
 ### 증명 뷰어 {#the-proof-viewer}
 
@@ -95,7 +103,7 @@ ht-degree: 0%
 
 증명 작업 메뉴에서 [!DNL Excel] 요약을 내보내려면:
 
-1. 증명 오른쪽에 있는 **작업** 아이콘을 클릭한 다음 **[!UICONTROL [!DNL Excel]개의 요약]**&#x200B;을 선택합니다.
+1. 증명 오른쪽에 있는 **작업** 아이콘을 클릭한 다음 **[!UICONTROL [!DNL Excel]개의 요약]**을 선택합니다.
    ![Excel 요약 내보내기](assets/excel-summary-option.png)
 
 증명 세부 정보 페이지에서 [!DNL Excel] 요약을 다운로드하려면 다음을 수행하십시오.

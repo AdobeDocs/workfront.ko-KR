@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Workfront Proof에서 증명 링크 공유
-description: 증명 URL 및 증명용 다운로드 URL은  [!DNL Workfront Proof]  계정이 있는지 여부에 관계없이 누구에게나 전자 메일로 보낼 수 있습니다. 증명 URL 및 다운로드 URL에 대한 자세한 내용은 Workfront Proof에서 공개 URL 공유 및 Workfront Proof에 저장된 파일 다운로드 를 참조하십시오.
+description: 증명 URL 및 증명용 다운로드 URL은 [!DNL Workfront Proof] 계정이 있는지 여부에 관계없이 모든 사용자에게 전자 메일로 보낼 수 있습니다. 증명 URL 및 다운로드 URL에 대한 자세한 내용은 Workfront Proof에서 공개 URL 공유 및 Workfront Proof에 저장된 파일 다운로드 를 참조하십시오.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: aa3fd399-6381-4118-a64a-a331784b4854
-TQID: https://experienceleague.adobe.com/Atbe7oIceQ6Rk0WKQjeFd1lgSWwR4gfPs18K1Q0qIzA
+TQID: 'https://experienceleague.adobe.com/Atbe7oIceQ6Rk0WKQjeFd1lgSWwR4gfPs18K1Q0qIzA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: '463'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 증명 링크 공유
 
 >[!IMPORTANT]

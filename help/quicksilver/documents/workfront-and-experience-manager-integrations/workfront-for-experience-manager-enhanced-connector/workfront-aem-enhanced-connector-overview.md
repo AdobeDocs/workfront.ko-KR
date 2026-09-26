@@ -7,27 +7,39 @@ description: Adobe Workfront은 업무의 전체 라이프사이클을 한 곳�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: b0c6df90-3ea8-4c81-abe2-48c2748a4d2b
-TQID: https://experienceleague.adobe.com/Rleqw7v8hVl-ABo5aDKwh5-g4XxTPUYl9WZ-FD2f-MU
+TQID: 'https://experienceleague.adobe.com/Rleqw7v8hVl-ABo5aDKwh5-g4XxTPUYl9WZ-FD2f-MU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Digital asset management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: '563'
 ht-degree: 3%
-
 ---
-
 # Workfront for Experience Manager 강화 커넥터 개요
 
 <!-- Audited: 01/2024 -->
@@ -55,18 +67,18 @@ Workfront for Experience Manager 강화 커넥터를 사용하면 통합 워크�
 ## 사전 요구 사항 및 지원되는 플랫폼
 
 * Adobe Workfront
-* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
-* [Adobe Experience Manager 6.5 Assets 온-프레미스](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-manager-on-premise.html)
-* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-manager-managed-services.html)
+* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
+* [Adobe Experience Manager 6.5 Assets 온-프레미스](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)
+* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)
 * Adobe Experience Manager Assets 온-프레미스
 * Adobe Experience Manager Assets as a Managed Service
 
 ## 시작하기
 
-1. **커넥터를 설치하고 구성**&#x200B;합니다. 인증 파트너 또는 Adobe Professional Services을 사용하여 Workfront for Experience Manager 강화 커넥터를 설치 및 구성하여 프로세스를 구성하고 표준화하고 거버넌스를 확립하며 생성에서 전달에 이르는 자산 라이프사이클을 간소화할 수 있습니다. [Adobe Experience Manager 6.5에 설치](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/integrations/workfront-integrations) 또는 [Adobe Experience Manager as a Cloud Service에 설치](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
+1. **커넥터를 설치하고 구성**&#x200B;합니다. 인증 파트너 또는 Adobe Professional Services을 사용하여 Workfront for Experience Manager 강화 커넥터를 설치 및 구성하여 프로세스를 구성하고 표준화하고 거버넌스를 확립하며 생성에서 전달에 이르는 자산 라이프사이클을 간소화할 수 있습니다. [Adobe Experience Manager 6.5에 설치](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations) 또는 [Adobe Experience Manager as a Cloud Service에 설치](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
 1. **커넥터를 사용합니다**. Experience Manager Assets에서 프로젝트 연결 폴더의 자동 생성, Experience Manager Assets 및 폴더에 매핑된 Workfront 메타데이터, 양방향 메타데이터 동기화 등과 함께 작동하는 향상된 커넥터의 기능을 참조하십시오. 자세한 내용은 [Experience Manager용 Workfront 강화 커넥터](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)를 참조하십시오.
 
 ## 다음과 같음
 
-* [Adobe Experience Manager용 Workfront](https://business.adobe.com/kr/products/workfront/aem-integration.html) 개요
+* [Adobe Experience Manager용 Workfront](https://business.adobe.com/products/workfront/aem-integration.html) 개요
 * [Experience Manager Assets Essentials용 Adobe Workfront](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

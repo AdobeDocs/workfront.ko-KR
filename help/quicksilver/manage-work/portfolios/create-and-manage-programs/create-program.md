@@ -8,26 +8,33 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY
+TQID: 'https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: '1450'
 ht-degree: 1%
-
 ---
-
 # 프로그램 만들기
 
 <!-- Audited: 05/2026-->
@@ -121,10 +128,10 @@ Old:
 
 * 다음과 같은 방법으로 Workfront Planning에서 프로그램을 만듭니다.
 
-   * Workfront Planning의 레코드 유형에서 연결할 때
+  * Workfront Planning의 레코드 유형에서 연결할 때
 
   레코드에 프로그램을 추가하여 프로그램을 만드는 방법에 대한 자세한 내용은 문서 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)의 &quot;연결할 때 레코드 만들기&quot; 섹션을 참조하십시오.
-   * Workfront Planning 자동화 사용.
+  * Workfront Planning 자동화 사용.
 
   자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오.
 
@@ -140,21 +147,21 @@ Old:
 
    * [!UICONTROL 프로그램] 영역에서 프로그램을 만듭니다.
 
-      1. [!DNL **주 메뉴**] ![주 메뉴](assets/lines-main-menu.png)에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
-      1. **[!UICONTROL 새 프로그램]**&#x200B;을 클릭합니다.
-      1. 표시되는 상자에서 **[!UICONTROL Portfolio 선택]** 필드에 기존 Portfolio의 이름을 입력합니다.
-      1. **[!UICONTROL 이름]** 필드에 새 프로그램의 이름을 입력하십시오.
-      1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+     1. [!DNL **주 메뉴**] ![주 메뉴](assets/lines-main-menu.png)에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
+     1. **[!UICONTROL 새 프로그램]**&#x200B;을 클릭합니다.
+     1. 표시되는 상자에서 **[!UICONTROL Portfolio 선택]** 필드에 기존 Portfolio의 이름을 입력합니다.
+     1. **[!UICONTROL 이름]** 필드에 새 프로그램의 이름을 입력하십시오.
+     1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
    * [!UICONTROL 포트폴리오] 영역에서 프로그램을 만듭니다.
 
-      1. [!DNL **주 메뉴**] ![주 메뉴](assets/lines-main-menu.png)에서 **[!UICONTROL 포트폴리오]**&#x200B;를 클릭한 다음 포트폴리오를 엽니다.
-      1. 왼쪽 패널에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
-      1. **[!UICONTROL 새 프로그램]** 드롭다운 메뉴를 클릭한 다음 **[!UICONTROL 새 프로그램]**&#x200B;을 클릭합니다.
+     1. [!DNL **주 메뉴**] ![주 메뉴](assets/lines-main-menu.png)에서 **[!UICONTROL 포트폴리오]**&#x200B;를 클릭한 다음 포트폴리오를 엽니다.
+     1. 왼쪽 패널에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
+     1. **[!UICONTROL 새 프로그램]** 드롭다운 메뉴를 클릭한 다음 **[!UICONTROL 새 프로그램]**&#x200B;을 클릭합니다.
    * 기존 프로그램 추가:
-      1. [!DNL **주 메뉴**] ![주 메뉴](assets/lines-main-menu.png)에서 **[!UICONTROL 포트폴리오]**&#x200B;를 클릭한 다음 포트폴리오를 엽니다.
-      1. 왼쪽 패널에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
-      1. **[!UICONTROL 새 프로그램]** 드롭다운 메뉴를 클릭한 다음 **[!UICONTROL 기존 프로그램]**&#x200B;을 클릭합니다.
-      1. 기존 프로그램의 이름을 입력하거나 드롭다운 메뉴를 클릭하고 목록에서 선택합니다.
+     1. [!DNL **주 메뉴**] ![주 메뉴](assets/lines-main-menu.png)에서 **[!UICONTROL 포트폴리오]**&#x200B;를 클릭한 다음 포트폴리오를 엽니다.
+     1. 왼쪽 패널에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
+     1. **[!UICONTROL 새 프로그램]** 드롭다운 메뉴를 클릭한 다음 **[!UICONTROL 기존 프로그램]**&#x200B;을 클릭합니다.
+     1. 기존 프로그램의 이름을 입력하거나 드롭다운 메뉴를 클릭하고 목록에서 선택합니다.
 
      >[!NOTE]
      >
@@ -204,7 +211,7 @@ Old:
 
 </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL 이 활성화됨] </td> 
+   <td role="rowheader">[!UICONTROL이 활성화됨] </td> 
    <td> <p>이 프로그램을 활성화하고 사용자가 이 프로그램을 찾아 프로젝트와 연결하려면 이 설정을 확인하십시오.</p>
    <p>선택하지 않으면 프로젝트 또는 템플릿의 프로그램 필드에 프로그램이 표시되지 않습니다. </p> 
  </td> 
@@ -284,7 +291,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 활성 프로젝트 상태]</td> 
-   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 , 위험 상태  또는 문제 발생 로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
+   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 [!UICONTROL], 위험 상태 [!UICONTROL] 또는 문제 발생 [!UICONTROL]로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
   </tr> 
  </tbody> 
 </table>

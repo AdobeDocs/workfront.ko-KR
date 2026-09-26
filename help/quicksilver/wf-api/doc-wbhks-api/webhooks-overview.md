@@ -8,22 +8,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
-TQID: https://experienceleague.adobe.com/5bBLva-jIjwc953MVjAnwo4y0nABq1N0HGDTIurXk40
+TQID: 'https://experienceleague.adobe.com/5bBLva-jIjwc953MVjAnwo4y0nABq1N0HGDTIurXk40'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 193
+source-wordcount: '220'
 ht-degree: 1%
-
 ---
-
 # 웹후크 개요
 
 Adobe Workfront Document Webhooks는 Workfront이 외부 문서 공급자에 대해 승인된 API 호출을 수행하는 API 엔드포인트 세트를 정의합니다. 이를 통해 모든 문서 스토리지 공급자에 대한 미들웨어 플러그인을 생성할 수 있습니다.
@@ -56,8 +60,8 @@ Webhook 기반 통합을 위한 사용자 경험은 Google Drive, Box 및 Dropbo
 
 * 예정된 버전(릴리스 날짜 - 미정):
 
-   * /delete 추가됨
-   * /rename이 추가되었습니다.
-   * /serviceInfo 추가됨
-   * /customAction 추가됨
-   * /search에 페이지 매김 및 parentId 추가
+  * /delete 추가됨
+  * /rename이 추가되었습니다.
+  * /serviceInfo 추가됨
+  * /customAction 추가됨
+  * /search에 페이지 매김 및 parentId 추가

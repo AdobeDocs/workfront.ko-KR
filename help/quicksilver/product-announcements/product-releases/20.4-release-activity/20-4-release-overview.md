@@ -7,32 +7,45 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-TQID: https://experienceleague.adobe.com/da7NZ9tWFrk32NgR4lTjS0LAVpzf1qGoJza4AEnaOSk
+TQID: 'https://experienceleague.adobe.com/da7NZ9tWFrk32NgR4lTjS0LAVpzf1qGoJza4AEnaOSk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3852
+source-wordcount: '3853'
 ht-degree: 0%
-
 ---
-
 # 20.4 릴리스 개요
 
 20.4 릴리스는 2020년 11월 9일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
@@ -329,7 +342,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-새로운 기능 및 업데이트 내용은 [API 버전 12의 새로운 기능](https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)을 참조하세요.
+새로운 기능 및 업데이트 내용은 [API 버전 12의 새로운 기능](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)을 참조하세요.
 
 API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](../../../wf-api/api/api-version-support-schedule.md)을 참조하세요.
 
@@ -361,7 +374,7 @@ Workfront은 Flash에 의존하지 않는 새로운 솔루션 제품군을 제�
 
 ### 20.4 릴리스 웨비나 {#20-4-release-webinar}
 
-Workfront 20.4 릴리스 웨비나는 2020년 10월 28일 수요일 오전 11시 :00분 EDT에 제공됩니다. 웨비나 [여기](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter)에 등록하십시오.
+Workfront 20.4 릴리스 웨비나는 2020년 10월 28일 수요일 오전 11시(EDT)에 제공됩니다. 웨비나 [여기](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter)에 등록하십시오.
 
 ### 미리보기 릴리스 케이던스 변경 {#change-in-preview-release-cadence}
 
@@ -382,4 +395,4 @@ Workfront 20.4 릴리스 웨비나는 2020년 10월 28일 수요일 오전 11시
 
 Workfront One을 사용하면 한 번의 로그인으로 Workfront에서 가장 중요한 콘텐츠, 리소스 및 뉴스를 모두 한 곳에서 확인할 수 있습니다. Experience, Community 및 Training 사이트를 통합하여 원하는 항목을 보다 쉽게 찾을 수 있습니다.
 
-[Workfront One에 대해 자세히 알아보세요](https://business.adobe.com/kr/products/workfront.html).
+[Workfront One에 대해 자세히 알아보세요](https://business.adobe.com/products/workfront.html).

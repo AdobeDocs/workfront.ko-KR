@@ -8,25 +8,33 @@ feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/s1Xokz2ScQd6uSe-cf7h1op-GPHogcQtO2KAsLnBqeE
+TQID: 'https://experienceleague.adobe.com/s1Xokz2ScQd6uSe-cf7h1op-GPHogcQtO2KAsLnBqeE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 515
+source-wordcount: '515'
 ht-degree: 4%
-
 ---
-
 # 문서에 사용자 정의 양식 추가 또는 편집
 
 사용자 정의 양식을 문서 또는 문서 버전에 추가하여 에셋과 관련된 추가 정보 또는 메타데이터를 캡처할 수 있습니다.
@@ -104,7 +112,7 @@ ht-degree: 4%
 
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 선택합니다.
-1. 오른쪽의 **세부 정보** 섹션에서 **편집**&#x200B;을 클릭합니다.
+1. 오른쪽의 **세부 정보** 섹션에서 **편집**을 클릭합니다.
    ![세부 정보 섹션의 편집 단추](assets/edit-custom-form.png)
 1. **사용자 지정 Forms** 필드에서 입력을 시작하고 사용자 지정 양식을 선택합니다.
 1. **저장**&#x200B;을 클릭합니다. 사용자 정의 양식이 세부 정보 섹션에 표시됩니다.
@@ -114,7 +122,7 @@ ht-degree: 4%
 
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 선택합니다.
-1. 오른쪽의 **세부 정보** 섹션에서 **편집**&#x200B;을 클릭합니다.
+1. 오른쪽의 **세부 정보** 섹션에서 **편집**을 클릭합니다.
    ![세부 정보 섹션의 편집 단추](assets/edit-custom-form.png)
 1. **사용자 지정 Forms** 섹션에서 편집할 양식을 찾습니다.
 1. 필요한 사항을 변경한 다음 **저장**&#x200B;을 클릭합니다.

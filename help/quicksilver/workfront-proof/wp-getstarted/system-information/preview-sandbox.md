@@ -3,27 +3,36 @@ content-type: overview;how-to-procedural
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
-title: 샌드박스 테스트 환경 미리 보기- [!DNL Workfront Proof]
-description: 미리 보기 샌드박스는 라이브 환경의 복제본 역할을 하는 테스트 환경이며  [!DNL Workfront Proof]에 의해 매주 주말마다 새로 고쳐집니다.
+title: 샌드박스 테스트 환경 미리 보기 - [!DNL Workfront Proof]
+description: 미리 보기 샌드박스는 라이브 환경의 복제본 역할을 하는 테스트 환경이며 매주 주말마다 [!DNL Workfront Proof]에 의해 새로 고쳐집니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cdf269c6-39b1-477a-b9ea-03edf2de77f0
-TQID: https://experienceleague.adobe.com/CzFfPMeC-BD9J7HST1VABarz08O1ZuS8-TVvZHUWhZ8
+TQID: 'https://experienceleague.adobe.com/CzFfPMeC-BD9J7HST1VABarz08O1ZuS8-TVvZHUWhZ8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '434'
 ht-degree: 0%
-
 ---
-
 # 샌드박스 테스트 환경 미리 보기 - [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -45,7 +54,7 @@ ht-degree: 0%
 기본적으로 시스템 관리자는 샌드박스 미리보기 환경에 액세스할 수 있습니다. 이 섹션에 설명된 대로 샌드박스 미리보기 환경에 액세스할 수 없는 경우 [!DNL Workfront] 관리자 또는 지원 팀에 문의하십시오.
 
 * [독립 실행형 샌드박스 미리 보기 액세스 [!DNL Workfront Proof] 고객](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
-* [&#x200B; [!DNL Workfront]+[!DNL Workfront Proof] 고객으로 샌드박스 미리 보기 액세스](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
+* [ [!DNL Workfront]+[!DNL Workfront Proof] 고객으로 샌드박스 미리 보기 액세스](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
 
 ### 독립 실행형 [!DNL Workfront Proof] 고객으로 미리 보기 샌드박스에 액세스
 

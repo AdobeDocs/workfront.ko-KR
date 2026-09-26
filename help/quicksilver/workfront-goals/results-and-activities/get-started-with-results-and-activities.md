@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9GQMj-ij7gBqYKy4o0E619ago4c-G-Vu6KLmTWKrBPE
+TQID: 'https://experienceleague.adobe.com/9GQMj-ij7gBqYKy4o0E619ago4c-G-Vu6KLmTWKrBPE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '804'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront 목표에서 결과 및 활동 시작
 
 <!--Audited for P& P only: 10/2025-->
@@ -89,9 +95,9 @@ Old:
 * 그들은 &quot;내 목표가 완성되었을 때 어떻게 알 수 있습니까?&quot;라는 질문에 답합니다.
 * 지표 표시기입니다. 다음 옵션 중에서 선택하여 결과에 대한 진행 상황을 나타낼 수 있습니다.
 
-   * 통화
-   * 숫자
-   * 백분율
+  * 통화
+  * 숫자
+  * 백분율
 
 결과에 대한 자세한 내용은 이 문서의 [결과, 활동 및 프로젝트 간 유사성](#similarities-between-results-activities-and-projects) 섹션에서 결과와 활동 간 유사성 목록을 참조하십시오.
 
@@ -210,7 +216,7 @@ This will have additional types in the future - add another section for types?
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>시작 값과 끝 값 사이에 이를 달성할 수 있는 정도를 보여주는 값의 범위를 제공합니다. 종료 값에 가까우면 목표에 대한 진행률 값이 계산됩니다. </td> 
    <td>✔</td> 
    <td>✔</td> 

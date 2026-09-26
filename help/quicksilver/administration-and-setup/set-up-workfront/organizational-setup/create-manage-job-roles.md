@@ -3,31 +3,38 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: 작업 역할 만들기 및 관리
-description: ' [!DNL Adobe Workfront] 관리자 또는 작업 역할에 대한 관리 액세스 권한이 있는 사용자는 사용자에게 할당할 수 있는 작업 역할을 만들고 조직과 관련이 없는 기본 작업 역할을 삭제할 수 있습니다.'
+description: '[!DNL Adobe Workfront] 관리자 또는 작업 역할에 대한 관리 액세스 권한이 있는 사용자는 사용자에게 할당할 수 있는 작업 역할을 만들고 조직과 관련이 없는 기본 작업 역할을 삭제할 수 있습니다.'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-TQID: https://experienceleague.adobe.com/WbKK8Dt8LSyGVCHLzHXHsM-3DORpJXgzKzqf7Jos3Hw
+TQID: 'https://experienceleague.adobe.com/WbKK8Dt8LSyGVCHLzHXHsM-3DORpJXgzKzqf7Jos3Hw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1220
+source-wordcount: '1221'
 ht-degree: 1%
-
 ---
-
 # 작업 역할 만들기 및 관리
 
 <!-- Audited: 1/2024 -->

@@ -8,23 +8,31 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/gt8WP9pWYnTzQ4cyQTzj31PuZ8yH9JpkVRYoReTEj6w
+TQID: 'https://experienceleague.adobe.com/gt8WP9pWYnTzQ4cyQTzj31PuZ8yH9JpkVRYoReTEj6w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1727
+source-wordcount: '1727'
 ht-degree: 1%
-
 ---
-
 # [!UICONTROL 스크럼] 구성
 
 [애자일 팀 만들기](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에 설명된 대로 [!DNL Adobe Workfront]에서 애자일 팀을 만들 수 있습니다. 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
@@ -144,7 +152,7 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
 ### 프로젝트에 대한 상태 열 구성 {#configure-status-columns-for-projects}
 
-프로젝트의 상태 열을 구성하는 방법에 대한 자세한 내용은 문서 [다음 위치에서 보기 만들기 또는 편집 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)에서 [애자일] 보기 만들기 또는 사용자 지정(../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) 섹션을 참조하십시오.
+프로젝트의 상태 열을 구성하는 방법에 대한 자세한 내용은 문서 [다음 위치에서 보기 만들기 또는 편집 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)에서 [애자일] 보기 만들기 또는 사용자 지정](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) 섹션을 참조하십시오.[!UICONTROL 
 
 ## 애자일 스토리 보드에서 스토리 카드에 표시할 추가 필드를 구성합니다.
 
@@ -198,17 +206,17 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
    [!UICONTROL 표준], [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
 
-1. [!UICONTROL 애자일] 섹션의 [!UICONTROL 카드 색상을 &#x200B;]에 연결 영역에서 다음 옵션 중 하나를 선택하십시오.
+1. [!UICONTROL 애자일] 섹션의 [!UICONTROL 카드 색상을 ]에 연결 영역에서 다음 옵션 중 하나를 선택하십시오.
 
    * **[!UICONTROL 프로젝트]**: 스토리가 연결된 프로젝트와 색상이 연결되어 있습니다. 스토리가 만들어지면 [애자일 스토리 만들기](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md)에 설명된 대로 프로젝트와 연결되어야 합니다. 동일한 프로젝트의 모든 작업이 동일한 색상으로 표시됩니다.
    * **[!UICONTROL 자유 형식]**: 스크럼 보드의 [[!UICONTROL 색상별 스토리 분류]에 설명된 대로 사용자가 색상을 수동으로 변경할 때까지 기본적으로 모든 카드가 파란색으로 표시됩니다](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
    * **[!UICONTROL 우선 순위]**: 색상은 다음과 같이 스토리 우선 순위와 연결됩니다.
 
-      * 높음 = 빨간색
-      * Medium = 노란색
-      * 낮음 = 녹색
+     * 높음 = 빨간색
+     * Medium = 노란색
+     * 낮음 = 녹색
 
-        시스템 관리자가 [!DNL Workfront] 시스템에 대해 사용자 지정 우선 순위를 구성한 경우 가장 높은 우선 순위는 빨간색이고 두 번째 높은 우선 순위는 노란색이며 세 번째 높은 우선 순위는 녹색입니다.
+       시스템 관리자가 [!DNL Workfront] 시스템에 대해 사용자 지정 우선 순위를 구성한 경우 가장 높은 우선 순위는 빨간색이고 두 번째 높은 우선 순위는 노란색이며 세 번째 높은 우선 순위는 녹색입니다.
    * **[!UICONTROL 작업 소유자]**: 기본 피할당자가 같은 모든 스토리의 색이 같습니다. 기본 할당자는 작업에 처음 할당된 사용자입니다.
 
 1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.

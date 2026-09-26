@@ -6,29 +6,41 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-TQID: https://experienceleague.adobe.com/7jiKsgfucD4HWoEz0nAKOGB4y2R0rpzAsq4vrNiyM3E
+TQID: 'https://experienceleague.adobe.com/7jiKsgfucD4HWoEz0nAKOGB4y2R0rpzAsq4vrNiyM3E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Personalization
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2914
+source-wordcount: '2917'
 ht-degree: 1%
-
 ---
-
 # 23.2 릴리스 개요
 
 이 페이지에서는 23.1 릴리스에 포함된 기능에 대한 정보를 제공합니다. 이러한 개선 사항은 2023년 4월 6일 및 7일에 23.2 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
@@ -554,7 +566,7 @@ ht-degree: 1%
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">문제에 대한 새 댓글 달기 경험 Beta</a>
                         <p>Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 일부 개체의 업데이트 섹션에 새로운 인터페이스, 새로운 기능 및 향상된 성능이 포함되어 있습니다. </p>
-                        <p>이 새로운 경험은 결국 Adobe Workfront을 넘어 Adobe Experience Cloud 전반에 걸쳐 댓글 달기를 통합합니다. </p>
+                        <p>이 새로운 경험은 결국 Adobe Experience Cloud를 통해 Adobe Workfront 및 그 너머의 댓글 달기를 통합합니다. </p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -572,7 +584,7 @@ ht-degree: 1%
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 고객을 Adobe 통합 경험에 온보딩할 수 있습니다</a></p>
                         <p>Adobe 통합 경험에는 다음이 포함됩니다.
                         <ul>
-                        <li>Adobe Experience Cloud을 통한 모든 Adobe 애플리케이션에 대한 단일 로그인</li>
+                        <li>Adobe Experience Cloud를 통한 모든 Adobe 애플리케이션에 대한 단일 로그인</li>
                         <li>Workfront 조직과 환경 사이를 이동하는 "조직 전환기"</li>
                         <li>Workfront 페이지, Adobe Experience Cloud 환경 설정 및 Workfront 프로필에 대한 옵션을 사용하여 탐색</li>
                         </ul>

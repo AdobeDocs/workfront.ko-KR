@@ -3,24 +3,28 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: iOS용 Adobe Workfront
-description: ' [!DNL Adobe Workfront] 앱을 사용하면 모든 iOS 장치에서 작업에 액세스할 수 있습니다. iOS 10 이상을 실행하는 휴대폰 및 태블릿에  [!DNL Workfront] 모바일 앱을 설치하고 사용할 수 있습니다. iPhone과 iPad 모두에서 전용 [!DNL Workfront] 모바일 앱을 사용할 수 있습니다.'
+description: '[!DNL Adobe Workfront] 앱을 사용하면 모든 iOS 장치에서 작업에 액세스할 수 있습니다. iOS 10 이상을 실행하는 휴대폰 및 태블릿에 [!DNL Workfront] 모바일 앱을 설치하고 사용할 수 있습니다. iPhone과 iPad 모두에서 전용 [!DNL Workfront] 모바일 앱을 사용할 수 있습니다.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-TQID: https://experienceleague.adobe.com/kWm-sLAjufXyPrfcWM454uodOa8F6yswe6QnmR5m-Hw
+TQID: 'https://experienceleague.adobe.com/kWm-sLAjufXyPrfcWM454uodOa8F6yswe6QnmR5m-Hw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: '570'
 ht-degree: 4%
-
 ---
-
 # [!DNL iOS]에 대한 [!DNL Adobe Workfront]
 
 [!DNL Adobe Workfront] 앱을 사용하면 [!DNL iOS] 장치에서 작업에 액세스할 수 있습니다. iOS 10 이상을 실행하는 휴대폰 및 태블릿에 [!DNL Workfront] 모바일 앱을 설치하고 사용할 수 있습니다. 전용 [!DNL Workfront] 모바일 앱은 [!DNL iPhone]과(와) [!DNL iPad] 모두에서 사용할 수 있습니다.

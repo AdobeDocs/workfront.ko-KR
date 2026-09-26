@@ -10,26 +10,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/YwQRzexSfJWorc-GxqUoGQsMyb40xxW-X4N5j09Zo-w
+TQID: 'https://experienceleague.adobe.com/YwQRzexSfJWorc-GxqUoGQsMyb40xxW-X4N5j09Zo-w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1397
+source-wordcount: '1397'
 ht-degree: 2%
-
 ---
-
 # 21.1 관리자 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 21.1 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 2월 15일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
@@ -78,7 +85,7 @@ ht-degree: 2%
 
 자세한 내용은 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)을 참조하십시오.
 
-이 기능은 이제 Workfront One의 새로운 Workfront 경험 2부: 프로젝트 설정[&#128279;](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)에서 관리자 기본 사항에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 새로운 Workfront 경험 2부: 프로젝트 설정](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)에서 [관리자 기본 사항에 포함되어 있습니다.
 
 ## 포트폴리오와 프로그램에 대한 액세스 수준 설정을 개별적으로 구성
 
@@ -141,7 +148,7 @@ ht-degree: 2%
 * [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
 <!--
-This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
+This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 This feature is now included in the [Email and In-App Notifications in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) learning path on Workfront One.
 -->

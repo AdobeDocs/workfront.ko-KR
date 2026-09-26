@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: 미니 증명 포함
-description: Miniproof는 웹 페이지, 블로그 또는 Wiki에 증명을 포함할 수 있는 위젯입니다. Miniproof에는 증명과 기존의 모든 주석 및 마크업이 표시됩니다.  [!DNL Workfront Proof]에 있는 것처럼 증명 작업에 사용할 수 있습니다.
+description: Miniproof는 웹 페이지, 블로그 또는 Wiki에 증명을 포함할 수 있는 위젯입니다. Miniproof에는 증명과 기존의 모든 주석 및 마크업이 표시됩니다. [!DNL Workfront Proof]에 있는 것처럼 증명 작업에 사용할 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 13227944-2bf8-49d9-8ff3-18ecb706d5d4
-TQID: https://experienceleague.adobe.com/K2OPbEZPNZ5Ww5E2b1FuBi0YhlU1Uk6qb76gagyRbz8
+TQID: 'https://experienceleague.adobe.com/K2OPbEZPNZ5Ww5E2b1FuBi0YhlU1Uk6qb76gagyRbz8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 235
+source-wordcount: '235'
 ht-degree: 0%
-
 ---
-
 # 미니 증명 포함
 
 >[!IMPORTANT]

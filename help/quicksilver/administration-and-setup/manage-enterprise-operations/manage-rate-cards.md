@@ -8,13 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 1%
-
 ---
-
 # 등급 카드 관리
 
 요금 카드는 작업을 완료할 작업 역할에 대해 시간당 요금이 정의된 고객과의 계약 계약을 나타냅니다. 요금 카드에서 에이전시, 위치 또는 비용 부서와 같은 속성을 기준으로 작업 역할당 여러 청구 요금을 정의할 수 있습니다. 고유 비율 속성은 설정 영역에서 구성됩니다. 자세한 내용은 [비율 특성 정의](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)를 참조하십시오.

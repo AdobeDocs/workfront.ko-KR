@@ -9,25 +9,31 @@ feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/97--IY38NM0xV5PLImVpO04wx2ou-Le-2x-07Yl6NQs
+TQID: 'https://experienceleague.adobe.com/97--IY38NM0xV5PLImVpO04wx2ou-Le-2x-07Yl6NQs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: '334'
 ht-degree: 7%
-
 ---
-
 # 계산된 사용자 정의 필드 예: 문제 사용자 정의 양식에 문제 작성자의 관리자 표시
 
 계산된 사용자 정의 필드를 사용하면 문제에 첨부된 사용자 정의 양식에 문제 작성자의 관리자 이름을 표시할 수 있습니다. 동일한 명령문을 사용하여 프로젝트, 문제 및 기타 개체에 대해 유사한 계산된 필드를 작성할 수 있습니다.

@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-TQID: https://experienceleague.adobe.com/PnEW-05sHiDCOS-Kua4w8eeO6CXxiUo3toU1yZ77HOw
+TQID: 'https://experienceleague.adobe.com/PnEW-05sHiDCOS-Kua4w8eeO6CXxiUo3toU1yZ77HOw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '415'
 ht-degree: 5%
-
 ---
-
 # 최근에 삭제된 그룹 항목 보기 및 관리
 
 그룹 영역에서 관리하는 그룹을 볼 때 다음과 같은 방법으로 최근에 삭제된 프로젝트, 작업, 문제, 문서 및 템플릿을 보고 작업할 수 있습니다.

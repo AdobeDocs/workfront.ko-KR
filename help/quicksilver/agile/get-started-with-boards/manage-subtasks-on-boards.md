@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tP75wPqPCzTwe5PW7WG4S-K6GEcitinQzrHm8xnUIqg
+TQID: 'https://experienceleague.adobe.com/tP75wPqPCzTwe5PW7WG4S-K6GEcitinQzrHm8xnUIqg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 49f8e36099d38093210fe1caab88a478e3b5609b
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 368
+source-wordcount: '368'
 ht-degree: 4%
-
 ---
-
 # 보드에서 하위 작업 관리
 
 카드에 하위 작업을 사용하면 작업 간에 상위-하위 관계를 설정하고 작업 계층을 만들 수 있습니다. Workfront 보드의 카드에 추가하는 하위 작업은 Workfront 프로젝트의 작업에도 추가됩니다. 프로젝트 수준의 하위 작업 및 작업에 대한 자세한 내용은 [하위 작업 만들기](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)를 참조하십시오.

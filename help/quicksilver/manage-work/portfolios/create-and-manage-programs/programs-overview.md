@@ -9,25 +9,31 @@ feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0ndc0Z8wEEfbo8zcfjrmhVGO9FnPhBC8m-Iqt0CM6vI
+TQID: 'https://experienceleague.adobe.com/0ndc0Z8wEEfbo8zcfjrmhVGO9FnPhBC8m-Iqt0CM6vI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 494
+source-wordcount: '494'
 ht-degree: 1%
-
 ---
-
 # 프로그램 개요
 
 <!-- Audited: 08/2025 -->
@@ -125,18 +131,18 @@ Old:
 
 * 프로젝트, 프로그램 및 포트폴리오를 만들 때 다음 사항을 고려하십시오.
 
-   * 프로젝트는 프로그램이나 포트폴리오와 연결되지 않고 독립적일 수 있습니다.
-   * 프로젝트는 포트폴리오와 연결할 수 있지만 프로그램과도 연결할 필요는 없습니다.
-   * 프로그램은 항상 포트폴리오와 연결되어 있어야 합니다. 포트폴리오 외부에는 존재할 수 없습니다.
-   * 프로그램과 연결된 프로젝트는 항상 프로그램의 포트폴리오와 연결됩니다.
-   * 프로그램은 하나의 포트폴리오에만 연결할 수 있습니다.
-   * 프로젝트는 한 번에 하나의 프로그램 및 프로그램의 포트폴리오에만 연결할 수 있습니다.
-   * 포트폴리오에는 여러 프로그램과 프로젝트가 있을 수 있습니다.
-   * 한 프로그램에 여러 프로젝트가 있을 수 있습니다.
+  * 프로젝트는 프로그램이나 포트폴리오와 연결되지 않고 독립적일 수 있습니다.
+  * 프로젝트는 포트폴리오와 연결할 수 있지만 프로그램과도 연결할 필요는 없습니다.
+  * 프로그램은 항상 포트폴리오와 연결되어 있어야 합니다. 포트폴리오 외부에는 존재할 수 없습니다.
+  * 프로그램과 연결된 프로젝트는 항상 프로그램의 포트폴리오와 연결됩니다.
+  * 프로그램은 하나의 포트폴리오에만 연결할 수 있습니다.
+  * 프로젝트는 한 번에 하나의 프로그램 및 프로그램의 포트폴리오에만 연결할 수 있습니다.
+  * 포트폴리오에는 여러 프로그램과 프로젝트가 있을 수 있습니다.
+  * 한 프로그램에 여러 프로젝트가 있을 수 있습니다.
 
   프로젝트 및 포트폴리오 만들기에 대한 자세한 내용은 다음 문서를 참조하십시오.
-   * [프로젝트 만들기](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-   * [포트폴리오 만들기](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+  * [프로젝트 만들기](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+  * [포트폴리오 만들기](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 
 
 * 포트폴리오 최적화 도구 를 사용하여 포트폴리오 내의 모든 프로젝트의 성과를 분석할 수 있습니다. 동일한 프로그램에서만 여러 프로젝트의 성과를 비교할 수 없습니다. 포트폴리오 수준에서 프로젝트 성과를 분석해야 합니다.

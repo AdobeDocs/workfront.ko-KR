@@ -1,30 +1,39 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: ' [!DNL Adobe Workfront] 프로젝트에  [!DNL Anaplan] 예산 할당 적용'
-description: 이 통합 시나리오는  [!DNL Anaplan] 후  [!DNL Workfront]에 수행된 모든 예산 할당을 동기화합니다. 시나리오에서는 연결된 모든 캠페인 예산 항목을 가져온 다음 예산 값이 변경된 경우 예산 값을 연결된 Workfront 프로젝트에 전달합니다.
+title: '[!DNL Adobe Workfront] 프로젝트에 [!DNL Anaplan] 예산 할당 적용'
+description: 이 통합 시나리오는 [!DNL Anaplan]에서 수행된 모든 예산 할당을 다시 [!DNL Workfront](으)로 동기화합니다. 시나리오에서는 연결된 모든 캠페인 예산 항목을 가져온 다음 예산 값이 변경된 경우 예산 값을 연결된 Workfront 프로젝트에 전달합니다.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 9b8add8f-1978-4ab4-87ac-f1159e7d6cbb
-TQID: https://experienceleague.adobe.com/Fk6ZthLrr8GEmMu7WhFmYN7w7WR0UrnWosgvuHZ9nIc
+TQID: 'https://experienceleague.adobe.com/Fk6ZthLrr8GEmMu7WhFmYN7w7WR0UrnWosgvuHZ9nIc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 743
+source-wordcount: '746'
 ht-degree: 16%
-
 ---
-
 # [!DNL Adobe Workfront] 프로젝트에 [!DNL Anaplan] 예산 할당 적용
 
 이 통합 시나리오는 [!DNL Anaplan]에서 수행된 모든 예산 할당을 다시 [!DNL Workfront]&#x200B;(으)로 동기화합니다. 시나리오에서는 연결된 모든 캠페인 예산 항목을 가져온 다음 예산 값이 변경된 경우 예산 값을 연결된 [!DNL Workfront] 프로젝트에 전달합니다.
@@ -67,7 +76,7 @@ ht-degree: 16%
 
 이 테이블의 정보에 대한 자세한 내용은 [설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
+Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
 
 +++
 
@@ -93,11 +102,11 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 
   목록의 모듈은 다음 속성의 수신을 지원해야 합니다.
 
-   * [!UICONTROL Workfront 프로젝트 GUID]
-   * [!UICONTROL 캠페인 이름]
-   * [!UICONTROL 요청한 인건비]
-   * [!UICONTROL 예상 매출]
-   * [!UICONTROL 브랜드]
+  * [!UICONTROL Workfront 프로젝트 GUID]
+  * [!UICONTROL 캠페인 이름]
+  * [!UICONTROL 요청한 인건비]
+  * [!UICONTROL 예상 매출]
+  * [!UICONTROL 브랜드]
 
   이 목록 및 모듈에는 예산을 설정하고 예산 목록 항목을 다시 [!DNL Workfront]에 동기화할 준비가 되었음을 알리는 기능을 포함하여 [!DNL Anaplan]의 일반적인 기능에 필요한 추가 세부 정보가 저장되어야 합니다.
 
@@ -105,17 +114,17 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 
   이 보기에는 다음 열이 순서대로 포함되어야 합니다.
 
-   1. [!UICONTROL 항목 이름]
+  1. [!UICONTROL 항목 이름]
 
-   2. [!UICONTROL [!DNL Workfront] 프로젝트 GUID]
+  2. [!UICONTROL [!DNL Workfront] 프로젝트 GUID]
 
-   3. [!UICONTROL 캠페인 이름]
+  3. [!UICONTROL 캠페인 이름]
 
-   4. [!UICONTROL 예산]
+  4. [!UICONTROL 예산]
 
-   5. [!UICONTROL 예상 매출]
+  5. [!UICONTROL 예상 매출]
 
-   6. [!UICONTROL 브랜드]
+  6. [!UICONTROL 브랜드]
 
   [!UICONTROL [!DNL Workfront] 프로젝트 GUID]이(가) 있는 항목과 예산 할당을 [!DNL Workfront]&#x200B;(으)로 전송해야 한다는 일부 표시기를 표시하려면 보기를 필터링해야 합니다.
 
@@ -158,7 +167,7 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL [!DNL Anaplan] 보기 이름]</td> 
-      <td> <p>[!DNL Workfront] (으)로 캠페인 예산을 전송할 준비가 된 내용이 포함된 보기의 이름입니다.</p> <p>(예: [!UICONTROL Campaigns.Load Campaigns to [!DNL Adobe Workfront]]) </p> </td> 
+      <td> <p>[!DNL Workfront](으)로 캠페인 예산을 전송할 준비가 된 내용이 포함된 보기의 이름입니다.</p> <p>(예: [!UICONTROL Campaigns.Load Campaigns to [!DNL Adobe Workfront]]) </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -180,7 +189,7 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 
 이 템플릿으로 표시되는 워크플로우를 완료하려면 다음 추가 템플릿도 배포해야 합니다.
 
-* [[!UICONTROL 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기 [!DNL Adobe Workfront] 3&rbrace;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [[!UICONTROL 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기 [!DNL Adobe Workfront] 3}]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
 
 지출 최적화를 위한 추가 시나리오는 다음과 같습니다.
 

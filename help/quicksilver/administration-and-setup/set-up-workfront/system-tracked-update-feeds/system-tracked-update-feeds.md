@@ -11,24 +11,29 @@ role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hJknixxErOwmpd7NdvVLDY8--gmGKEueD3sxpST8jA0
+TQID: 'https://experienceleague.adobe.com/hJknixxErOwmpd7NdvVLDY8--gmGKEueD3sxpST8jA0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: '395'
 ht-degree: 1%
-
 ---
-
 # 시스템 추적 업데이트 개요
 
 <!-- Audited: 08/2025-->
@@ -64,35 +69,35 @@ ht-degree: 1%
 
 * [!UICONTROL 업데이트] 영역은 다음 개체에 사용할 수 있습니다.
 
-   * [!UICONTROL 프로젝트]
-   * [!UICONTROL 작업]
-   * [!UICONTROL 문제]
-   * [!UICONTROL Portfolio]
-   * [!UICONTROL 프로그램]
-   * [!UICONTROL 사용자]
-   * [!UICONTROL 템플릿]
-   * [!UICONTROL 템플릿 작업]
-   * [!UICONTROL 팀]
-   * [!UICONTROL 문서]
-   * [!UICONTROL 타임시트]
-   * [!UICONTROL 스토리]
+  * [!UICONTROL 프로젝트]
+  * [!UICONTROL 작업]
+  * [!UICONTROL 문제]
+  * [!UICONTROL Portfolio]
+  * [!UICONTROL 프로그램]
+  * [!UICONTROL 사용자]
+  * [!UICONTROL 템플릿]
+  * [!UICONTROL 템플릿 작업]
+  * [!UICONTROL 팀]
+  * [!UICONTROL 문서]
+  * [!UICONTROL 타임시트]
+  * [!UICONTROL 스토리]
 
-     [!DNL Workfront]에서 스토리는 작업입니다.
-   * [!UICONTROL 반복]
-   * [!UICONTROL 목표]
+    [!DNL Workfront]에서 스토리는 작업입니다.
+  * [!UICONTROL 반복]
+  * [!UICONTROL 목표]
 
-     모든 Workfront 패키지에 Workfront 목표가 포함된 것은 아닙니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
-   * 게시판의 [!UICONTROL 카드]
+    모든 Workfront 패키지에 Workfront 목표가 포함된 것은 아닙니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
+  * 게시판의 [!UICONTROL 카드]
 
-     카드 업데이트에 대한 자세한 내용은 [보드에 연결된 카드 사용](../../../agile/get-started-with-boards/connected-cards.md)을 참조하세요.
+    카드 업데이트에 대한 자세한 내용은 [보드에 연결된 카드 사용](../../../agile/get-started-with-boards/connected-cards.md)을 참조하세요.
 
 * [!DNL Workfront]은(는) 다음 개체에 대한 시스템 업데이트를 추적하지 않습니다.
 
-   * [!UICONTROL 팀]
-   * [!UICONTROL 템플릿]
-   * [!UICONTROL 템플릿 작업]
-   * 임시 [!UICONTROL 카드]
-   * [!UICONTROL 반복]
+  * [!UICONTROL 팀]
+  * [!UICONTROL 템플릿]
+  * [!UICONTROL 템플릿 작업]
+  * 임시 [!UICONTROL 카드]
+  * [!UICONTROL 반복]
 
 
 <!--
@@ -128,9 +133,9 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * [!DNL Workfront] 관리자는 [!UICONTROL 업데이트] 영역에서 시스템이 추적할 변경 유형의 내용을 정의할 수 있습니다. [!UICONTROL 업데이트] 영역이 있는 모든 개체에 구성 가능한 [!UICONTROL 업데이트] 피드가 있는 것은 아닙니다. 다음 개체에는 시스템 추적 업데이트 피드를 캡처하는 [!UICONTROL 업데이트] 영역이 있지만 업데이트 피드를 구성할 수 없습니다.
 
-   * [!UICONTROL 문서]
-   * [!UICONTROL 타임시트]
-   * [!UICONTROL 반복]
-   * [!UICONTROL 목표]
+  * [!UICONTROL 문서]
+  * [!UICONTROL 타임시트]
+  * [!UICONTROL 반복]
+  * [!UICONTROL 목표]
 
 

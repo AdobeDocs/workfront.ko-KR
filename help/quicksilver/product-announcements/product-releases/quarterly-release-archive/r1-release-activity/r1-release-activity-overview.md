@@ -7,20 +7,26 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 134e4d1a-0acf-4ecb-b409-23f26b68c3f6
-TQID: https://experienceleague.adobe.com/y-uIKCrAsBoiFJVetyrga8WNrckTOtzaTC23JhUdvOo
+TQID: 'https://experienceleague.adobe.com/y-uIKCrAsBoiFJVetyrga8WNrckTOtzaTC23JhUdvOo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 903
+source-wordcount: '903'
 ht-degree: 0%
-
 ---
-
 # R1 릴리스 활동 개요
 
 이 페이지에서는 R1 릴리스에 포함된 기능에 대한 정보를 제공합니다. 
@@ -131,9 +137,9 @@ R1에서 사용할 수 있는 전체 개선 사항 목록은 다음 섹션을 �
 * [PDF 문서(ProofHQ)에서 검색](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#search-in-pdf-documents)
 * [업데이트된 전역 탐색 모음(ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#updated-global-navigation-bar):
 
-   * 새 사용자 프로필 사진
-   * Workfront 애플리케이션에 대한 새 링크(ProofHQ 계정이 Workfront 계정과 통합된 경우)
-   * 업데이트된 모양 및 느낌
+  * 새 사용자 프로필 사진
+  * Workfront 애플리케이션에 대한 새 링크(ProofHQ 계정이 Workfront 계정과 통합된 경우)
+  * 업데이트된 모양 및 느낌
 
 * [사용자 지정 보기에 추가 정보 포함(ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#include-additional-information-in-custom-views)
 * [증명 보고서(이전 Analytics) 개선 사항(ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improvements-to-proofing-reports)

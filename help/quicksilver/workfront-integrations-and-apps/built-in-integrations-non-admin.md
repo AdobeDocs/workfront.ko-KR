@@ -3,29 +3,34 @@ product-area: workfront-integrations
 keywords: adobe,box,dropbox,microsoft,sharepoint,slack,webdam,확대/축소
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront 기본 제공 통합 개요
-description: ' [!DNL Adobe Workfront] 을(를) 타사 응용 프로그램과 통합할 수 있습니다. 이러한 통합을 통해  [!DNL Workfront] 의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 예를 들어 마케팅 업계의 크리에이티브 작업자인 경우 Adobe Creative Cloud 추가 기능을 사용하여 자산을 Photoshop에서 Workfront으로 직접 내보낼 수 있습니다.'
+description: '[!DNL Adobe Workfront]을(를) 타사 응용 프로그램과 통합할 수 있습니다. 이러한 통합을 통해 [!DNL Workfront]의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 예를 들어 마케팅 업계의 크리에이티브 작업자인 경우 Adobe Creative Cloud 추가 기능을 사용하여 자산을 Photoshop에서 Workfront으로 직접 내보낼 수 있습니다.'
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6gk7GL9Uu6X9q4hAoqzV4l5wYz3t7jiI2VGue9-dbEo
+TQID: 'https://experienceleague.adobe.com/6gk7GL9Uu6X9q4hAoqzV4l5wYz3t7jiI2VGue9-dbEo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: '483'
 ht-degree: 2%
-
 ---
-
 # Adobe Workfront 기본 제공 통합 개요
 
 <!-- Audited: 12/2023 -->
@@ -55,8 +60,8 @@ ht-degree: 2%
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
-     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> </td> 
+     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
+     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets 및 Assets Essentials </p>  </p> </td> 

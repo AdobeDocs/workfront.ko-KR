@@ -1,32 +1,42 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: ' [!DNL Anaplan] 목록 항목으로  [!DNL Adobe Workfront] 경비 보내기'
-description: 이 통합 시나리오는  [!DNL Adobe Workfront] 프로젝트의 경비 관련 세부 정보를  [!DNL Anaplan] 예산 목록 항목과 공유합니다. 이 정보를 공유하면  [!DNL Anaplan] 이(가) 제공하는 지출 최적화 및 재무 분석을 더 잘 활용할 수 있습니다.
+title: '[!DNL Adobe Workfront] 경비를 [!DNL Anaplan] 목록 항목으로 보내기'
+description: 이 통합 시나리오는 [!DNL Adobe Workfront] 프로젝트의 경비 관련 세부 정보를 [!DNL Anaplan] 예산 목록 항목과 공유합니다. 이 정보를 공유하면 [!DNL Anaplan]에서 제공하는 지출 최적화 및 재무 분석을 더 잘 활용할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-TQID: https://experienceleague.adobe.com/SOZ90sJuOCBZL9sUCQIw-Rm-WnFQA2Vqx81LdUDVOpA
+TQID: 'https://experienceleague.adobe.com/SOZ90sJuOCBZL9sUCQIw-Rm-WnFQA2Vqx81LdUDVOpA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 979
+source-wordcount: '985'
 ht-degree: 13%
-
 ---
-
 # [!DNL Adobe Workfront] 경비를 [!DNL Anaplan] 목록 항목으로 보내기
 
 이 통합 시나리오는 [!DNL Adobe Workfront] 프로젝트의 경비 관련 세부 정보를 [!DNL Anaplan] 예산 목록 항목과 공유합니다. 이 정보를 공유하면 [!DNL Anaplan]에서 제공하는 지출 최적화 및 재무 분석을 더 잘 활용할 수 있습니다.
@@ -69,7 +79,7 @@ ht-degree: 13%
 
 이 테이블의 정보에 대한 자세한 내용은 [설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
+Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
 
 +++
 
@@ -105,31 +115,31 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 * 캠페인 예산을 캡처할 [!DNL Anaplan] 모델 내의 목록입니다.
 * 다음 열을 이 순서로 포함하는 **[!UICONTROL Anaplan 실제 경비 가져오기]** 파일:
 
-   1. [!UICONTROL [!DNL Workfront] 경비 GUID]
+  1. [!UICONTROL [!DNL Workfront] 경비 GUID]
 
-   2. [!UICONTROL [!DNL Workfront] 프로젝트 GUID]
+  2. [!UICONTROL [!DNL Workfront] 프로젝트 GUID]
 
-   3. [!UICONTROL 실제 금액]
+  3. [!UICONTROL 실제 금액]
 
-   4. [!UICONTROL 설명]
+  4. [!UICONTROL 설명]
 
-   5. [!UICONTROL 경비 유형]
+  5. [!UICONTROL 경비 유형]
 
-   6. [!UICONTROL 유효 날짜]
+  6. [!UICONTROL 유효 날짜]
 
-   7. [!UICONTROL 캠페인 이름]
+  7. [!UICONTROL 캠페인 이름]
 
-   8. [!UICONTROL [!DNL Anaplan] 목록 항목 ID]
+  8. [!UICONTROL [!DNL Anaplan] 목록 항목 ID]
 
   [!UICONTROL [!DNL Anaplan] 실제 경비 가져오기] 파일을 준비하려면:
 
-   1. 다음 내용을 복사하여 텍스트 편집기 또는 [!DNL Excel]에 붙여 넣습니다.
-   1. 파일을 CSV 형식으로 저장합니다.
-   1. 파일을 [!DNL Anaplan]에 업로드합니다.
+  1. 다음 내용을 복사하여 텍스트 편집기 또는 [!DNL Excel]에 붙여 넣습니다.
+  1. 파일을 CSV 형식으로 저장합니다.
+  1. 파일을 [!DNL Anaplan]에 업로드합니다.
 
-      지침은 파일에서 모듈로 데이터를 가져오는 방법에 대한 [!DNL Anaplan] 설명서를 참조하십시오.
+     지침은 파일에서 모듈로 데이터를 가져오는 방법에 대한 [!DNL Anaplan] 설명서를 참조하십시오.
 
-   1. 파일에 지정한 이름을 기록해 두십시오. 이 이름은 [!UICONTROL Fusion] 시나리오 템플릿을 배포하는 동안 사용됩니다.
+  1. 파일에 지정한 이름을 기록해 두십시오. 이 이름은 [!UICONTROL Fusion] 시나리오 템플릿을 배포하는 동안 사용됩니다.
 
   CSV 콘텐츠 예
 
@@ -138,31 +148,31 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 
 * 다음 열을 이 순서로 포함하는 **[!UICONTROL [!DNL Anaplan]계획된 경비 가져오기]** 파일:
 
-   1. [!UICONTROL [!DNL Workfront] 경비 GUID]
+  1. [!UICONTROL [!DNL Workfront] 경비 GUID]
 
-   2. [!UICONTROL [!DNL Workfront] 프로젝트 GUID]
+  2. [!UICONTROL [!DNL Workfront] 프로젝트 GUID]
 
-   3. [!UICONTROL 실제 금액]
+  3. [!UICONTROL 실제 금액]
 
-   4. [!UICONTROL 설명]
+  4. [!UICONTROL 설명]
 
-   5. [!UICONTROL 경비 유형]
+  5. [!UICONTROL 경비 유형]
 
-   6. [!UICONTROL 유효 날짜]
+  6. [!UICONTROL 유효 날짜]
 
-   7. [!UICONTROL 캠페인 이름]
+  7. [!UICONTROL 캠페인 이름]
 
-   8. [!UICONTROL [!DNL Anaplan] 목록 항목 ID]
+  8. [!UICONTROL [!DNL Anaplan] 목록 항목 ID]
 
   [!UICONTROL [!DNL Anaplan] 계획된 경비 가져오기] 파일을 준비하려면:
 
-   1. 다음 내용을 복사하여 텍스트 편집기 또는 [!DNL Excel]에 붙여 넣으십시오.
-   1. 파일을 CSV 형식으로 저장
-   1. 파일을 Anaplan에 업로드합니다.
+  1. 다음 내용을 복사하여 텍스트 편집기 또는 [!DNL Excel]에 붙여 넣으십시오.
+  1. 파일을 CSV 형식으로 저장
+  1. 파일을 Anaplan에 업로드합니다.
 
-      지침은 파일에서 모듈로 데이터를 가져오는 방법에 대한 [!DNL Anaplan] 설명서를 참조하십시오.
+     지침은 파일에서 모듈로 데이터를 가져오는 방법에 대한 [!DNL Anaplan] 설명서를 참조하십시오.
 
-   1. 파일에 지정한 이름을 기록해 두십시오. 이 이름은 [!UICONTROL Fusion] 시나리오 템플릿을 배포하는 동안 사용됩니다.
+  1. 파일에 지정한 이름을 기록해 두십시오. 이 이름은 [!UICONTROL Fusion] 시나리오 템플릿을 배포하는 동안 사용됩니다.
 
   CSV 콘텐츠 예
 
@@ -249,10 +259,10 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 
 예산 요청 연결을 위한 추가 시나리오:
 
-* [[!UICONTROL 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기 [!DNL Adobe Workfront] 3&rbrace;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [[!UICONTROL 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기 [!DNL Adobe Workfront] 3}]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
 * [[!UICONTROL 프로젝트에  [!DNL Anaplan] 예산 할당 적용 [!DNL Adobe Workfront] 프로젝트]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 Campaign 요청 연결을 위한 추가 시나리오:
 
-* [[!UICONTROL 캠페인 요청에서  [!DNL Anaplan] 목록 항목 만들기 [!DNL Adobe Workfront] 3&rbrace;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [[!UICONTROL 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용 [!DNL Adobe Workfront] 3&rbrace;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [[!UICONTROL 캠페인 요청에서  [!DNL Anaplan] 목록 항목 만들기 [!DNL Adobe Workfront] 3}]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [[!UICONTROL 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용 [!DNL Adobe Workfront] 3}]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)

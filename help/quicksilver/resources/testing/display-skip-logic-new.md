@@ -2,13 +2,14 @@
 title: 사용자 정의 양식에 표시 논리 및 건너뛰기 논리 추가
 description: 사용자 정의 양식에 표시 논리 및 건너뛰기 논리 추가
 draft: Probably
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 0%
-
 ---
-
 # 사용자 정의 양식에 표시 논리 및 건너뛰기 논리 추가
 
 스마트 규칙을 사용하여 사용자 정의 양식을 동적이고 작성하는 사용자에 대해 보다 연관성이 높은 양식으로 만들 수 있습니다. 사용자가 양식의 다중 선택 필드에 특정 방식으로 응답할 때 스마트 규칙이 해당 응답을 기반으로 하여 다음에 볼 항목을 표시합니다.

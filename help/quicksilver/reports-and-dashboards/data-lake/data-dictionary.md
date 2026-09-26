@@ -7,13 +7,20 @@ description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: db297bb06ed50e668777bf5fb8e0f444b146a77a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
-
 ---
-
 # Workfront Data Connect 데이터 사전
 
 이 페이지에는 Workfront Data Connect의 데이터 구조 및 내용에 대한 정보가 포함되어 있습니다.
@@ -648,7 +655,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     </tbody>
 </table>
 
-### 승인 대기 중
+### 대기 중인 승인
 
 <table>
     <thead>
@@ -662,10 +669,10 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
       </thead>
       <tbody>
         <tr>
-            <td>승인 대기 중</td>
-            <td>승인 대기 중</td>
+            <td>대기 중인 승인</td>
+            <td>대기 중인 승인</td>
             <td>AWAPVL</td>
-            <td>승인 대기 중</td>
+            <td>대기 중인 승인</td>
             <td>AWAITINGAPPROVALS_CURRENT<br>AWAITINGAPPROVALS_DAILY_HISTORY<br>AWAITINGAPPROVALS_EVENT</td>
         </tr>
       </tbody>
@@ -1708,15 +1715,15 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
 >
 >레코드 형식은 `enumClass` 속성을 통해 식별됩니다. 다음은 예상 형식입니다.<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJECT</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJECT</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJECT</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJECT</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### 문서
@@ -2404,7 +2411,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     </tbody>
 </table>
 
-### 문서 공급자 구성
+### 문서 제공자 구성
 
 <table>
     <thead>
@@ -2418,8 +2425,8 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
       </thead>
       <tbody>
         <tr>
-            <td>문서 공급자 구성</td>
-            <td>문서 공급자 구성</td>
+            <td>문서 제공자 구성</td>
+            <td>문서 제공자 구성</td>
             <td>DOCCFG</td>
             <td>DocumentProviderConfig</td>
             <td>DOCTPROVIDERCONFIG_CURRENT<br>DOCTPROVIDERCONFIG_DAILY_HISTORY<br>DOCTPROVIDERCONFIG_EVENT</td>
@@ -8660,7 +8667,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     </tbody>
 </table>
 
-### 사용자 역할 집합
+### 사용자 역할 세트
 
 <table>
     <thead>
@@ -8675,7 +8682,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
       <tbody>
         <tr>
             <td>사용자 역할 집합</td>
-            <td>사용자 역할 집합</td>
+            <td>사용자 역할 세트</td>
             <td>URSET</td>
             <td>사용자 역할 집합</td>
             <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>

@@ -8,22 +8,31 @@ description: Workfront 관리자 또는 Workfront Proof 관리자는 사용자�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
-TQID: https://experienceleague.adobe.com/bnWwfz-MsjXnfJIix2k3prysLG6S-IGgAndYQLGT6o4
+TQID: 'https://experienceleague.adobe.com/bnWwfz-MsjXnfJIix2k3prysLG6S-IGgAndYQLGT6o4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1840
+source-wordcount: '1840'
 ht-degree: 1%
-
 ---
-
 # [!DNL Workfront Proof]의 증명 권한 프로필
 
 >[!IMPORTANT]
@@ -73,7 +82,7 @@ ht-degree: 1%
 
 ## 청구 관리자 {#billing-administrator}
 
-청구 관리자는  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] 청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)의 계정 설정에 액세스할 수 있으며 다음 권한이 있습니다.
+청구 관리자는  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] 청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)의 [계정 설정에 액세스할 수 있으며 다음 권한이 있습니다.
 
 ![확인 표시](assets/cleaner2.png)증명을 생성하고, 파일을 업로드하고, 폴더를 만들 수 있습니다. 자세한 내용은 [증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [파일 및 웹 콘텐츠 업로드 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) 및 [폴더 만들기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)를 참조하십시오.
 
@@ -87,7 +96,7 @@ ht-degree: 1%
 
 ![확인 표시](assets/cleaner2.png)드롭 영역 소유자로 설정할 수 있습니다. 자세한 내용은 [드롭 영역 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)을 참조하세요.
 
-![확인 표시](assets/cleaner2.png)청구 페이지에 액세스하여 청구 세부 정보를 편집할 수 있습니다. 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2&rbrace;를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+![확인 표시](assets/cleaner2.png)청구 페이지에 액세스하여 청구 세부 정보를 편집할 수 있습니다. 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2}를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 ![확인 표시](assets/cleaner2.png)계정 설정 페이지에 액세스하여 계정 세부 정보를 편집할 수 있습니다. 자세한 내용은 [계정 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)을 참조하세요.
 
@@ -105,9 +114,9 @@ ht-degree: 1%
 
 ![빨간색 X](assets/no2.png)다른 사용자의 개인 폴더를 삭제할 수 없습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
 
-계정 설정에 대한 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)의 계정 설정을 참조하십시오.
+계정 설정에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)의 [계정 설정을 참조하십시오.
 
-청구에 대한 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2&rbrace;를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+청구에 대한 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2}를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 ### 관리자 {#administrator}
 
@@ -141,7 +150,7 @@ ht-degree: 1%
 
 ![빨간색 X](assets/no2.png)다른 사용자의 개인 폴더를 삭제할 수 없습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
 
-![빨간색 X](assets/no2.png)청구 페이지에 액세스하거나 청구 세부 정보를 편집할 수 없습니다. 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2&rbrace;를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+![빨간색 X](assets/no2.png)청구 페이지에 액세스하거나 청구 세부 정보를 편집할 수 없습니다. 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2}를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 ### 감독자 {#supervisor}
 
@@ -327,4 +336,4 @@ ht-degree: 1%
 >* 사용자 프로필 로그(해당 사용자만 액세스할 수 있음)
 >
 
-활동 로그에 대한 자세한 내용은 [활동 감사 추적 이해 [!DNL Workfront Proof] 2&rbrace;를 참조하십시오.](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+활동 로그에 대한 자세한 내용은 [활동 감사 추적 이해 [!DNL Workfront Proof] 2}를 참조하십시오.](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

@@ -10,28 +10,37 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-TQID: https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc
+TQID: 'https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1776'
 ht-degree: 5%
-
 ---
-
 # 액세스 수준 개요
 
 >[!NOTE]
@@ -323,7 +332,8 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 >
 >24.7 릴리스부터 기여자는 기본적으로 프로그램 및 포트폴리오에 대한 보기 액세스 권한을 갖습니다.
 >
-> 24.7 릴리스 전에 온보딩된 >기여자는 기본적으로 프로그램 및 포트폴리오에 액세스할 수 없습니다. 필요한 경우 액세스 권한을 업데이트하여 수동으로 볼 수 있습니다.
+> 
+>24.7 릴리스 전에 온보딩된 기여자는 기본적으로 프로그램 및 포트폴리오에 계속 액세스할 수 없습니다. 필요한 경우 액세스 권한을 업데이트하여 수동으로 볼 수 있습니다.
 
 ### 외부 사용자 액세스 수준
 
@@ -421,9 +431,9 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 
 * **보기**: 이 권한 수준을 사용하면 받는 사람이 다음 방법 중 하나로 개체를 공유할 수 있습니다.
 
-   * 모든 사용자가 볼 수 있도록 시스템 전체(모든 오브젝트에 사용할 수 없음)
-   * Workfront 라이선스가 없는 외부 사용자 사용(모든 오브젝트에 사용할 수 없음)
-   * 이메일 주소 포함(문서 및 캘린더에만 사용 가능)
+  * 모든 사용자가 볼 수 있도록 시스템 전체(모든 오브젝트에 사용할 수 없음)
+  * Workfront 라이선스가 없는 외부 사용자 사용(모든 오브젝트에 사용할 수 없음)
+  * 이메일 주소 포함(문서 및 캘린더에만 사용 가능)
 
 * **Contribute**: (모든 개체에 사용할 수 없음)
 * **관리**: 다른 사용자가 개체를 공유할 때 받는 사람의 개체에 대한 권한은 받는 사람의 액세스 수준과 공유자가 부여한 개체에 대한 권한의 조합으로 결정됩니다. 해당 조합에서 사용할 수 있는 가장 낮은 액세스 정도는 수신자가 오브젝트로 수행할 수 있는 작업을 결정하는 것입니다.

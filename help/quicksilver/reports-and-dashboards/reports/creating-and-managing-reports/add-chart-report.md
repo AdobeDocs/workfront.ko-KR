@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ehiUNiyvlPNaJQkAYre2FG1dnT1aQvFt7ytQ1Cq271s
+TQID: 'https://experienceleague.adobe.com/ehiUNiyvlPNaJQkAYre2FG1dnT1aQvFt7ytQ1Cq271s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2735
+source-wordcount: '2746'
 ht-degree: 0%
-
 ---
-
 # 보고서에 차트 추가
 
 <!--Audited: 11/2024-->
@@ -133,9 +138,9 @@ ht-degree: 0%
 
    * 다음 옵션 중 하나를 클릭하여 그룹화된 열이 표시되는 방식을 선택합니다.
 
-      * **나란히**
-      * **스택**
-      * **100%로 스택**
+     * **나란히**
+     * **스택**
+     * **100%로 스택**
 
    * **데이터 그룹화 기준** 드롭다운 메뉴에서 차트에 포함할 그룹화를 선택합니다.
    * (선택 사항) 열의 색을 사용자 지정하려면 **사용자 지정 색**&#x200B;을 클릭합니다.\
@@ -169,9 +174,9 @@ ht-degree: 0%
 
    * 다음 옵션 중 하나를 클릭하여 그룹화된 막대가 표시되는 방식을 선택합니다.
 
-      * **나란히**
-      * **스택**
-      * **100%로 스택**
+     * **나란히**
+     * **스택**
+     * **100%로 스택**
 
    * **데이터 그룹화 기준** 드롭다운 메뉴에서 차트의 정보를 그룹화할 방법을 선택하십시오.
    * (선택 사항) 열의 색을 사용자 지정하려면 **사용자 지정 색**&#x200B;을 클릭하세요.\
@@ -370,8 +375,8 @@ Workfront에서 차트의 요소 색상을 선택하도록 하거나, 보고서�
 
 * 일부 차트 요소는 편집할 수 없습니다.
 
-   * 각 요소의 값에 대한 글꼴 유형과 크기를 변경할 수 없습니다.
-   * 차트에서 축의 이름을 변경할 수 없습니다.
+  * 각 요소의 값에 대한 글꼴 유형과 크기를 변경할 수 없습니다.
+  * 차트에서 축의 이름을 변경할 수 없습니다.
 
 * 차트의 범례는 편집할 수 없습니다.
 * 그룹화에 계산된 필드를 사용할 때 차트 요소를 클릭할 수 없습니다.

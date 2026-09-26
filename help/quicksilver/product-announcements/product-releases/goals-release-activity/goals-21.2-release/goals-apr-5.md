@@ -7,20 +7,29 @@ description: 이 페이지에서는 2021년 4월 5일이 있는 주에 Adobe Wor
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 8439b983-7817-403e-b9be-dcbf209ad3ee
-TQID: https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic
+TQID: 'https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront Goals 21.2 릴리스 활동: 2021년 4월 5일 주
 
 이 페이지에서는 2021년 4월 5일이 있는 주에 Adobe Workfront 목표에 대해 21.2 릴리스의 모든 개선 사항을 설명합니다. 이러한 개선 사항은 21.2의 1분기에 프로덕션 환경에서 사용할 수 있습니다.
@@ -41,15 +50,15 @@ ht-degree: 1%
 
 * 목표 보고서를 만듭니다. 보고서 영역의 새 보고 개체입니다. 이제 다음을 포함하는 목표 보고서(예: 이름, 소유자, 날짜, 진행률 등)에 목표에 대한 다양한 정보를 표시할 수 있습니다.
 
-   * 목표 계층: 모든 상위 목표와 이러한 목표가 서로 연결되는 방식을 표시합니다.
-   * 회사 목표임: 조직이 목표의 소유자로 지정되었는지 여부를 나타냅니다.
-   * 소유자 유형: 목표의 소유자가 사용자, 팀 또는 그룹인지 여부를 나타냅니다.
+  * 목표 계층: 모든 상위 목표와 이러한 목표가 서로 연결되는 방식을 표시합니다.
+  * 회사 목표임: 조직이 목표의 소유자로 지정되었는지 여부를 나타냅니다.
+  * 소유자 유형: 목표의 소유자가 사용자, 팀 또는 그룹인지 여부를 나타냅니다.
 
 * 다음을 포함하여 목표 정보를 표시하는 프로젝트 보고서를 만듭니다.
 
-   * 목표 계층
-   * 목표: 프로젝트와 연결된 모든 목표를 표시하는 컬렉션 필드입니다.
-   * 연결된 목표 수: 프로젝트와 연결된 목표 수입니다.
+  * 목표 계층
+  * 목표: 프로젝트와 연결된 모든 목표를 표시하는 컬렉션 필드입니다.
+  * 연결된 목표 수: 프로젝트와 연결된 목표 수입니다.
 
 프로젝트에서 목표 정보를 찾는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 프로젝트 추가](../../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)를 참조하십시오.
 

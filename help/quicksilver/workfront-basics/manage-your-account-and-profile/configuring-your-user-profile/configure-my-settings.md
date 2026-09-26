@@ -2,36 +2,47 @@
 product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: 내 설정 구성
-description: ' [!DNL Adobe Workfront] 프로필에 사용자 자신에 대한 정보(예: 이름, 전자 메일 주소, 주소, 전화 번호, 직함 등)가 포함되어 있습니다.  [!DNL Workfront]  및 회사의 다른 사용자와의 상호 작용에 대한 정보도 포함되어 있습니다.'
+description: '[!DNL Adobe Workfront] 프로필에 사용자 자신에 대한 정보(예: 이름, 전자 메일 주소, 주소, 전화 번호, 직함 등)가 포함되어 있습니다. [!DNL Workfront] 및 회사의 다른 사용자와의 상호 작용에 대한 정보도 포함되어 있습니다.'
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4
+TQID: 'https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3264
+source-wordcount: '3389'
 ht-degree: 1%
-
 ---
-
 # 내 설정 구성
 
 <!-- Audited: 01/2024 -->
@@ -359,14 +370,14 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 전자 메일 로케일]</strong> </td> 
    <td><p>여기에서 원하는 언어를 지정하십시오. 발신 전자 메일 메시지에 사용되는 언어, 날짜 및 숫자 형식을 제어합니다.</p>
-   <p><strong>참고:</strong> 조직에서 Adobe 통합 환경을 사용하는 경우 언어 환경 설정은 Adobe 프로필에 저장되고 전자 메일 로케일은 사용되지 않습니다. 자세한 내용은 문서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Experience Cloud에서 지원되는 언어</a>에서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Workfront 언어 변경</a>을 참조하십시오.</p></td> 
+   <p><strong>참고:</strong> 조직에서 Adobe 통합 환경을 사용하는 경우 언어 환경 설정은 Adobe 프로필에 저장되고 전자 메일 로케일은 사용되지 않습니다. 자세한 내용은 문서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Workfront에서 지원되는 언어</a>에서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Experience Cloud 언어 변경</a>을 참조하십시오.</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL 작업이 자동으로 할당되면 작업 상태를 진행 중으로 자동 설정합니다.]</strong> </td>
   <td>자신에게 할당한 작업 상태를 새로 만들기 대신 진행 중으로 자동 설정하려면 이 옵션을 선택합니다.</td>
   </tr>
   <tr> 
    <td role="rowheader"><strong>(조건부) 문서 업로드 시 증명을 자동으로 생성합니다</strong></td> 
-   <td>문서가 [!DNL Workfront]에 로드된 후 바로 증명 생성을 시작하려면 이 필드를 선택하십시오. 이 필드는 기본적으로 비활성화되어 있으며 Workfront 관리자만 업데이트할 수 있습니다.<br>이 필드는 귀사에서 Workfront용 Workfront Proof 구성 요소를 구입한 경우와 증명 사용자로 활성화된 경우에만 사용할 수 있습니다. Workfront Proof에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Adobe Workfront 내에서 증명 관리</a>를 참조하십시오.
+   <td>문서가 [!DNL Workfront]에 로드된 후 바로 증명 생성을 시작하려면 이 필드를 선택하십시오. 이 필드는 기본적으로 비활성화되어 있으며 Workfront 관리자만 업데이트할 수 있습니다.<br>이 필드는 회사에서 Workfront용 Workfront Proof 구성 요소를 구입한 경우와 증명 사용자로 활성화된 경우에만 사용할 수 있습니다. Workfront Proof에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Adobe Workfront에서 증명 관리</a>를 참조하십시오.
    <p><b>참고:</b> 요청에 업로드된 문서는 증명을 자동으로 생성하지 않습니다. </p></td> 
   </tr> 
  </tbody> 
@@ -389,7 +400,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 이 활성 상태입니다]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL이 활성 상태입니다]</strong> </td> 
    <td>이 필드는 [!DNL Workfront] 관리자이기도 한 사용자만 볼 수 있으며 기본적으로 활성화되어 있어야 합니다. 사용자가 활성 상태로에 로그인할 수 있음을 의미합니다. [!DNL Workfront]</td> 
   </tr> 
   <tr> 

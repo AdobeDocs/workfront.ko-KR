@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8e016f12-bc72-475c-a8cc-38ded4351f88
-TQID: https://experienceleague.adobe.com/L7mlcRH-mf84Dt3lfuzI59lDkn7jCKMOZTBqVVnkAq8
+TQID: 'https://experienceleague.adobe.com/L7mlcRH-mf84Dt3lfuzI59lDkn7jCKMOZTBqVVnkAq8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2427
+source-wordcount: '2444'
 ht-degree: 0%
-
 ---
-
 # 2018.1 Beta 4 릴리스 활동
 
 이 페이지에서는 2018.1 Beta 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 1월 24일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
@@ -39,7 +46,7 @@ ht-degree: 0%
 
 2018.1 Beta 4 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1&rbrace;**
+관리자용 **1}**
 
 * [그룹 관리자가 관리하는 일정](#schedules-managed-by-group-administrators)
 
@@ -198,8 +205,8 @@ Workfront 및 Workfront Proof에 문서를 추가할 때 다음 변경 사항이
 
 * 다음 설정이 증명 설정 섹션에서 새 증명 페이지의 워크플로 섹션으로 이동되었습니다.
 
-   * 주요 의사 결정자
-   * 하나의 결정만 필요
+  * 주요 의사 결정자
+  * 하나의 결정만 필요
 
 ## Workfront Proof의 Basecamp 통합으로 룩앤필 업데이트 {#updated-look-and-feel-with-basecamp-integration-in-workfront-proof}
 

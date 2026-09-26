@@ -3,26 +3,35 @@ content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
-title: ' [!DNL Workfront Proof]에서 문제 해결'
+title: '[!DNL Workfront Proof]에서 문제 해결'
 description: Workfront Proof 문제를 해결하는 방법에 대해 알아봅니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9e93cc2-9dff-4150-a809-10598e110ef8
-TQID: https://experienceleague.adobe.com/Vw6EDV84hMtSGHUiTWEWXPe5ups1TzR-F81W0J5uODE
+TQID: 'https://experienceleague.adobe.com/Vw6EDV84hMtSGHUiTWEWXPe5ups1TzR-F81W0J5uODE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 52
+source-wordcount: '52'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 문제 해결
 
 >[!IMPORTANT]
@@ -33,5 +42,5 @@ ht-degree: 0%
 
 * [문제 해결 - Mac의 proofing viewer에서 인터페이스 글꼴이 손상되었습니다.](../../../workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
 * [캐시와 쿠키가  [!DNL Workfront Proof]에 미치는 영향 이해](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
-* [&#x200B; [!DNL Workfront Proof]의 속도 문제](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
+* [ [!DNL Workfront Proof]의 속도 문제](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
 * [문제 해결 - [!DNL Workfront Proof] 증명 뷰어](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)

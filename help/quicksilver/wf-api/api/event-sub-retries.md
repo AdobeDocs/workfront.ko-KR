@@ -7,20 +7,23 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-TQID: https://experienceleague.adobe.com/DPlqoTaQc-eQo-QUmCMXzUOiKFZtNQOMhRUCr13BufE
+TQID: 'https://experienceleague.adobe.com/DPlqoTaQc-eQo-QUmCMXzUOiKFZtNQOMhRUCr13BufE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: '397'
 ht-degree: 0%
-
 ---
-
 # 이벤트 구독 다시 시도
 
 메시지 게재 시스템을 구현할 때 안정성, 일관성 및 양호한 사용자 경험을 보장하기 위해 몇 가지 주의 사항을 해결해야 합니다. 메시지 전달 시스템의 단점 중 하나는 메시지가 대상에 성공적으로 도달하도록 하고 메시지가 도달하지 못할 때 수행할 작업을 파악하는 것입니다.

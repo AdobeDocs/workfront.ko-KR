@@ -8,20 +8,23 @@ description: Workfront이 상태 개체를 저장하는 방식의 변경 사항�
 feature: Workfront API
 role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-TQID: https://experienceleague.adobe.com/aV-wJXoO5uQBbw7O63g49rmH3CJkb4yL7nWtXLeoFu8
+TQID: 'https://experienceleague.adobe.com/aV-wJXoO5uQBbw7O63g49rmH3CJkb4yL7nWtXLeoFu8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: '452'
 ht-degree: 1%
-
 ---
-
 # 핵심 API 변경 사항: 상태 검색 응답
 
 Workfront에서 상태 개체를 저장하는 방식이 변경되었습니다. 이러한 변경 사항은 상태 검색 요청이 수행되는 방식에는 영향을 주지 않지만, 불완전한 그룹 상태 목록을 반환하여 상태 오브젝트를 검색하는 것을 포함하는 API 요청에 의해 반환되는 응답에는 영향을 줍니다.

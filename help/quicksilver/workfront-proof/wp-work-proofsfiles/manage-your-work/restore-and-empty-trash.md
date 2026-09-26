@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Workfront Proof에서 휴지통 복원 및 비우기
-description: ' [!DNL Workfront Proof] 관리자는  [!DNL Workfront] Proof의 휴지통에서 사용자가 삭제한 증명, 파일 및 폴더를 나열하고 복원할 수 있습니다. 시스템에서 해당 항목을 영구적으로 삭제하는 휴지통을 비울 수도 있습니다.'
+description: '[!DNL Workfront Proof] 관리자는 사용자가 [!DNL Workfront] Proof의 휴지통에서 삭제한 증명, 파일 및 폴더를 나열하고 복원할 수 있습니다. 시스템에서 해당 항목을 영구적으로 삭제하는 휴지통을 비울 수도 있습니다.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 23f2b370-6b9c-46f9-b715-560f6a074715
-TQID: https://experienceleague.adobe.com/-r00sXOPGnKpxuX1Ebsj3BUHR5kUN0xFNpF6PIkI1vk
+TQID: 'https://experienceleague.adobe.com/-r00sXOPGnKpxuX1Ebsj3BUHR5kUN0xFNpF6PIkI1vk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 205
+source-wordcount: '207'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 휴지통 복원 및 비우기
 
 >[!IMPORTANT]

@@ -8,17 +8,25 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6ad89f8d00dd3a06eb160863c3213a9f80b1a44b
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '928'
 ht-degree: 0%
-
 ---
-
 # Adobe 클라우드 드라이브 문제 해결
 
 이 문서에서는 Adobe Cloud Drive의 제한 사항, 염두에 두어야 할 성능 고려 사항 및 발생할 수 있는 일반적인 문제에 대한 해결 방법에 대해 설명합니다.
@@ -162,7 +170,7 @@ Adobe Cloud Drive 사용에 대한 자세한 내용은 [Adobe Cloud Drive 사용
 
 라이선스 질문, 프로젝트 액세스 문제 또는 조직별 구성은 Workfront 관리자에게 문의하십시오.
 
-Adobe 지원 팀과 로그를 공유하려면 [Adobe 로그 수집기 도구 실행](https://helpx.adobe.com/kr/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)의 단계를 따르십시오.
+Adobe 지원 팀과 로그를 공유하려면 [Adobe 로그 수집기 도구 실행](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)의 단계를 따르십시오.
 
 ## 모범 사례
 

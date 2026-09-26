@@ -4,29 +4,38 @@ product-area: workfront-integrations
 keywords: native,ootb
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront 통합 메서드
-description: ' [!DNL Adobe Workfront] 을(를) 타사 응용 프로그램과 통합할 수 있습니다. 이러한 통합을 통해  [!DNL Workfront] 의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 제공된 작업에 가장 유용한 통합에 따라 이러한 통합 중 일부 또는 모두를 사용할 수 있습니다.'
+description: '[!DNL Adobe Workfront]을(를) 타사 응용 프로그램과 통합할 수 있습니다. 이러한 통합을 통해 [!DNL Workfront]의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 제공된 작업에 가장 유용한 통합에 따라 이러한 통합 중 일부 또는 모두를 사용할 수 있습니다.'
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-TQID: https://experienceleague.adobe.com/uYKhcVyG4-ktNtWp9kz4CX8GIhMunU5UJhMfwcoLcM0
+TQID: 'https://experienceleague.adobe.com/uYKhcVyG4-ktNtWp9kz4CX8GIhMunU5UJhMfwcoLcM0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 subfeature_v2:
   - id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
+    internal-label: Event Subscription API
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0e2544a99ea6aee353649286407be4781934c34e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1031
+source-wordcount: '1033'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront 통합 메서드
 
 [!DNL Adobe Workfront]을(를) 타사 응용 프로그램 및 다른 [!DNL Adobe] 제품과 통합할 수 있습니다. 이러한 통합을 통해 [!DNL Workfront]의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 제공된 작업에 가장 유용한 통합에 따라 이러한 통합 중 일부 또는 모두를 사용할 수 있습니다.

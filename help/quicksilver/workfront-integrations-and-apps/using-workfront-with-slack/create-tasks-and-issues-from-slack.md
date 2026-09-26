@@ -2,29 +2,35 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Slack에서 작업 및 문제 만들기
-description: Slack용  [!DNL Adobe Workfront] 을(를) 설치 및 구성한 후에는 Slack에서 작업 및 문제를 만들어 Workfront의 프로젝트와 연결할 수 있습니다.
+description: Slack에 대해 [!DNL Adobe Workfront]을(를) 설치하고 구성한 후에는 Slack에서 작업 및 문제를 만들어 Workfront의 프로젝트와 연결할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-TQID: https://experienceleague.adobe.com/IVleUkmG-O8tjYeup3EiKB5DQIidKr9GaAVhRJHVZ3U
+TQID: 'https://experienceleague.adobe.com/IVleUkmG-O8tjYeup3EiKB5DQIidKr9GaAVhRJHVZ3U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 428
+source-wordcount: '429'
 ht-degree: 4%
-
 ---
-
 # [!DNL Slack]에서 작업 및 문제 만들기
 
 [!DNL Adobe Workfront for Slack]을(를) 설치 및 구성한 후 [!DNL Slack]에서 작업 및 문제를 만들고 [!DNL Workfront]의 프로젝트와 연결할 수 있습니다.

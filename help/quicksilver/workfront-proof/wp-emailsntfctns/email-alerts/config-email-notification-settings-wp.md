@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
-title: ' [!DNL Workfront Proof]에서 전자 메일 알림 설정 구성'
+title: '[!DNL Workfront Proof]에서 전자 메일 알림 설정 구성'
 description: Workfront Proof에서 생성된 이메일 알림은 공동 작업자에게 댓글, 답글 또는 의사 결정과 같은 증명에 대한 최근 활동에 대해 알립니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-TQID: https://experienceleague.adobe.com/BGkemxbMeYw-pkWCR1NRMbuVbLZzYoB-m91cOLAwqwc
+TQID: 'https://experienceleague.adobe.com/BGkemxbMeYw-pkWCR1NRMbuVbLZzYoB-m91cOLAwqwc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2072
+source-wordcount: '2072'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 전자 메일 알림 설정 구성
 
 <!--Audited: 01/2024-->
@@ -126,7 +136,7 @@ ht-degree: 0%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 이메일 없음]</td> 
-      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary] ([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td> 
+      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary]([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -139,7 +149,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">증명이 준비되면 [!UICONTROL 이메일 확인]</td> 
-      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">증명된  메일</a>을 참조하세요.</td> 
+      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">증명된 [!UICONTROL] 메일</a>을 참조하세요.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 나에게 보낸 이메일 형식] </td> 
@@ -220,7 +230,7 @@ ht-degree: 0%
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">[!UICONTROL 이메일 없음]</td>
-      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary] ([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td>
+      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary]([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td>
      </tr>
     </tbody>
    </table>
@@ -233,7 +243,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">증명이 준비되면 [!UICONTROL 이메일 확인]</td> 
-      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="https://support.workfront.com/hc/en-us/article">증명된  이메일을 참조하십시오.</a></td> 
+      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="https://support.workfront.com/hc/en-us/article">증명된 [!UICONTROL] 이메일을 참조하십시오.</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 나에게 보낸 이메일 형식] </td> 

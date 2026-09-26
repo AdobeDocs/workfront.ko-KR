@@ -1,32 +1,40 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: ' [!DNL Slack]에서  [!DNL Adobe Workfront] 액세스'
-description: ' [!DNL Adobe Workfront] 을(를)  [!DNL Slack] 과(와) 통합하여 Slack에서  [!DNL Workfront] 에 액세스하거나 [!DNL Workfront] 슬래시 명령을 사용하여 특정 작업을 수행할 수 있습니다. 통합은  [!DNL Slack] 모바일 앱을 포함한  [!DNL Slack] 환경에서 사용할 수 있습니다.'
+title: '[!DNL Slack]에서 [!DNL Adobe Workfront] 액세스'
+description: '[!DNL Adobe Workfront]을(를) [!DNL Slack]과(와) 통합하면 Slack에서 [!DNL Workfront]에 액세스하거나 슬래시 명령을 사용하여 [!DNL Workfront]에서 특정 작업을 수행할 수 있습니다. [!DNL Slack] 모바일 앱을 포함한 모든 [!DNL Slack] 환경에서 통합을 사용할 수 있습니다.'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-TQID: https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k
+TQID: 'https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: '1099'
 ht-degree: 3%
-
 ---
-
 # [!DNL Slack]에서 [!DNL Adobe Workfront] 액세스
 
 [!DNL Adobe Workfront]을(를) [!DNL Slack]과(와) 통합하면 [!DNL Slack]에서 [!DNL Workfront]에 액세스하거나 슬래시 명령을 사용하여 [!DNL Workfront]에서 특정 작업을 수행할 수 있습니다. [!DNL Slack] 모바일 앱을 포함한 모든 [!DNL Slack] 환경에서 통합을 사용할 수 있습니다.
@@ -75,7 +83,7 @@ ht-degree: 3%
 ## [!DNL Slack]에서 [!DNL Workfront]에 로그인 {#log-in-to-workfront-from-slack}
 
 Slack의 메시지 필드에 명령을 입력하면 먼저 [!DNL Workfront]에 로그인하라는 메시지가 표시됩니다.\
-[!DNL Slack]의 [!DNL Workfront] 명령에 대한 전체 목록을 보려면 이 문서의  [!DNL Slack][&#128279;](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) 섹션에 있는 슬래시 명령에서  [!DNL Workfront] 액세스를 참조하십시오.
+[!DNL Slack]의 [!DNL Workfront] 명령에 대한 전체 목록을 보려면 이 문서의  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) 섹션에 있는 [슬래시 명령에서  [!DNL Workfront] 액세스를 참조하십시오.
 
 [!DNL Slack]에서 [!DNL Workfront]에 로그인하려면:
 
@@ -111,7 +119,7 @@ Slack의 메시지 필드에 명령을 입력하면 먼저 [!DNL Workfront]에 �
 ## [!DNL Slack]에서 [!DNL Workfront] 액세스
 
 * [슬래시 명령 정보](#about-slash-commands-about-slash-commands)
-* [&#x200B; [!DNL Slack]의 공유 링크에서  [!DNL Workfront] 액세스](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
+* [ [!DNL Slack]의 공유 링크에서  [!DNL Workfront] 액세스](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
 
 ## [!DNL Slack]의 슬래시 명령에서 [!DNL Workfront]에 액세스 {#access-workfront-from-a-slash-command-in-slack}
 
@@ -184,20 +192,20 @@ Slack의 메시지 필드에 명령을 입력하면 먼저 [!DNL Workfront]에 �
 
      특정 키워드를 검색합니다. 다음 유형 객체를 검색할 수 있습니다.
 
-      * 프로젝트
-      * 작업
-      * 문제
-      * 보고서
-      * 사람
-      * 템플릿
-      * 문서
-      * 포트폴리오
-      * 프로그램
-      * 대시보드
-      * 회사
-      * 참고 \
+     * 프로젝트
+     * 작업
+     * 문제
+     * 보고서
+     * 사람
+     * 템플릿
+     * 문서
+     * 포트폴리오
+     * 프로그램
+     * 대시보드
+     * 회사
+     * 참고 \
 
-        [!DNL Slack]에서 검색하는 방법에 대한 자세한 내용은 [Slack에서  [!DNL Adobe Workfront] 항목 검색](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)을 참조하십시오.
+       [!DNL Slack]에서 검색하는 방법에 대한 자세한 내용은 [Slack에서  [!DNL Adobe Workfront] 항목 검색](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)을 참조하십시오.
    * `/wf log in`
 
      [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.
@@ -212,13 +220,13 @@ Slack의 메시지 필드에 명령을 입력하면 먼저 [!DNL Workfront]에 �
      Slack에서 [!DNL Workfront] 설정을 구성하는 방법에 대한 자세한 내용은 [설정 구성](#configure-settings-configure-settings)을 참조하십시오.
 
    * `/wf help`
-[!DNL Workfront]에 대한 전체 명령 목록을 표시합니다.
+     [!DNL Workfront]에 대한 전체 명령 목록을 표시합니다.
 
 
    * `Visit Workfront Help`: 새 브라우저 탭에서 [!DNL Workfront] 도움말 사이트의 [!UICONTROL Slack] 섹션을 엽니다.
 
 
-1. (선택 사항) 명령의 메시지를 삭제하려면 해당 명령이 포함된 Slack 메시지의 오른쪽 상단 모서리로 마우스를 가져간 후 {&#x200B;0}메시지 동작 표시&#x200B;**를 클릭한 다음**&#x200B;[!UICONTROL &#x200B;메시지 삭제&#x200B;]&#x200B;**를 클릭합니다.**
+1. (선택 사항) 명령의 메시지를 삭제하려면 해당 명령이 포함된 Slack 메시지의 오른쪽 상단 모서리로 마우스를 가져간 후 {&#x200B;0}메시지 동작 표시&#x200B;]**를 클릭한 다음**[!UICONTROL &#x200B;메시지 삭제&#x200B;]**를 클릭합니다.**[!UICONTROL 
 
 1. (선택 사항 및 조건부) **[!UICONTROL 삭제]**&#x200B;를 클릭하여 이 메시지 삭제를 확인합니다.
 

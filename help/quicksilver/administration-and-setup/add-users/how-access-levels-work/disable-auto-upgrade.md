@@ -10,22 +10,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-TQID: https://experienceleague.adobe.com/NNGzz1vNdy07htr8QPY-m-pTpWinPkHG11xWeH5RX5s
+TQID: 'https://experienceleague.adobe.com/NNGzz1vNdy07htr8QPY-m-pTpWinPkHG11xWeH5RX5s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 206
+source-wordcount: '206'
 ht-degree: 10%
-
 ---
-
 # 비유료 사용자에 대한 자동 업그레이드 옵션 비활성화
 
 증명 및 문서 결정은 새로운 플랜에 대한 모든 비유료 Workfront 라이선스에 대해 제한됩니다. 사용자가 할당된 결정 수에 도달하면 기본적으로 Light 라이선스로 업그레이드됩니다.

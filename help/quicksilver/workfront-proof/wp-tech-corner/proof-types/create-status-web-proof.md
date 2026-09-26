@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: proof-types
-title: ' [!DNL Workfront Proof]을(를) 사용하여 정적 웹 사이트 증명 만들기'
+title: '[!DNL Workfront Proof]을(를) 사용하여 정적 웹 사이트 증명 만들기'
 description: 웹 페이지에서 정적 증명을 만들 수 있습니다. 또한 캡처의 화면 해상도를 정의하여 다양한 디바이스를 시뮬레이션할 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b93ed288-1bf2-4268-96c3-6263ab6be633
-TQID: https://experienceleague.adobe.com/M9rAORvc-CQGUB2pYWQV16HPZuFd3ZU31HAf25JRGYk
+TQID: 'https://experienceleague.adobe.com/M9rAORvc-CQGUB2pYWQV16HPZuFd3ZU31HAf25JRGYk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 493
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]을(를) 사용하여 정적 웹 사이트 증명 만들기
 
 >[!IMPORTANT]
@@ -37,7 +46,7 @@ ht-degree: 0%
 1. 이 상자 바로 아래에 있는 해상도(기본값은 1366x768)를 클릭한 다음 **[!UICONTROL 화면 해상도]** 상자에서 원하는 해상도를 선택합니다.
 모바일 장치용 디자인을 증명하려면 더 작은 해상도를 선택하십시오. 일반적으로 디자인은 화면/브라우저 창 해상도에 따라 로드됩니다.
 
-1. 입력한 URL과 동일한 도메인/하위 도메인에 있는 연결된 페이지를 포함하려면 **[!UICONTROL 하위 페이지 찾기]**&#x200B;를 클릭합니다.
+1. 입력한 URL과 동일한 도메인/하위 도메인에 있는 연결된 페이지를 포함하려면 **[!UICONTROL 하위 페이지 찾기]**를 클릭합니다.
    [!DNL Workfront Proof]이(가) 연결된 페이지를 검사하여 **[!UICONTROL 하위 페이지 찾기]** 옵션 아래에 표시합니다. 포함할 페이지를 선택할 수 있습니다.
 
 1. [!UICONTROL 증명 결합] 기능을 사용하면 모든 웹 페이지를 하나의 다중 페이지 증명으로 제출할 수 있습니다.

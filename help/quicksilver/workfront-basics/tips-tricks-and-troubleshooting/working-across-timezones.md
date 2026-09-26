@@ -2,32 +2,39 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 시간대 간 작업
-description: ' [!DNL Adobe Workfront] 이(가) 시간대를 사용하여 오브젝트와 이메일과 같은 다른 영역의 시간을 계산하는 방법을 이해하는 것이 도움이 될 수 있습니다.'
+description: '[!DNL Adobe Workfront]이(가) 시간대를 사용하여 개체의 시간 필드와 전자 메일과 같은 다른 영역의 시간을 계산하는 방법을 이해하는 것이 도움이 될 수 있습니다.'
 feature: Get Started with Workfront
 author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc
+TQID: 'https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: '1260'
 ht-degree: 0%
-
 ---
-
 # 시간대 간 작업
 
 <!-- Audited: 2/2024 -->
@@ -97,13 +104,13 @@ ht-degree: 0%
   여러 시간대의 사용자가 개체에 할당된 경우 [!DNL Workfront]은(는) 각 사용자의 브라우저에 구성된 시간대를 사용하여 관련된 모든 사용자의 개체 시간을 변환합니다.
 
   **예**
-작업하는 동부 표준시(EST) 영역에서는 오후 4:00에 시작하도록 작업을 설정하고 태평양 표준시(PST) 영역에서 작업하는 사용자에게 할당합니다. 해당 사용자의 경우 시작 시간은 오후 1:00로 표시됩니다. 오후 4:00시로 표시된다면 그들은 3시간 늦게 작업을 시작할 것입니다.
+  작업하는 동부 표준시(EST) 영역에서는 오후 4시에 시작하도록 작업을 설정하고 태평양 표준시(PST) 영역에서 작업하는 사용자에게 할당합니다. 해당 사용자의 경우 시작 시간은 오후 1시로 표시됩니다. 오후 4시로 표시하면 3시간 늦게 작업을 시작해요.
 
   객체 작성자가 할당자의 시간대의 차이를 알지 못하고 객체 시간을 설정할 때 필요한 조정을 하지 않거나 할당자가 그 차이를 알지 못하는 경우 모든 사람이 객체에 대해 공동 작업을 수행하는 동안 타이밍을 제대로 맞추기가 어려울 수 있습니다.
 
   **예**
 
-  작업에 있는 일부 사용자가 PST 영역에서 작업한다는 것을 잊고 오전 9:00(EST)에 시작하도록 1일 작업을 구성합니다. 해당 사용자의 경우 오전 6:00 시작 시간입니다. 9:00까지(시간 정오) 작업을 시작하지 않으므로 작업이 시작되고 3시간 늦게 끝납니다.
+  작업에 있는 일부 사용자가 PST 영역에서 작업하는 것을 잊고 EST 오전 9시에 시작하도록 1일 작업을 구성합니다. 시작 시간은 오전 6시입니다. 9시(시간 정오)까지는 작업을 시작하지 않으므로 작업이 시작되고 3시간 늦게 끝납니다.
 
 시간대 구성은 브라우저마다 다릅니다. 자세한 내용은 각 브라우저의 설명서나 도움말 정보를 참조하십시오.
 
@@ -126,20 +133,20 @@ ht-degree: 0%
 
   작업에 여러 사용자가 할당된 경우 시스템은 시스템 또는 그룹 전체 프로젝트 환경 설정에 구성된 대로 다음 중 하나를 사용합니다.
 
-   * 작업 기본 소유자의 일정에 대한 시간대
-   * 프로젝트 일정에 대한 시간대입니다.
+  * 작업 기본 소유자의 일정에 대한 시간대
+  * 프로젝트 일정에 대한 시간대입니다.
 
   한 명의 사용자가 작업에 할당되면 시스템은 시스템 또는 그룹 전체 프로젝트 환경 설정에 구성된 대로 다음 중 하나를 사용합니다.
 
-   * 작업 할당자의 일정에 대한 시간대
-   * 프로젝트 일정에 대한 시간대입니다.
+  * 작업 할당자의 일정에 대한 시간대
+  * 프로젝트 일정에 대한 시간대입니다.
 
   이로 인해 작업 날짜가 변경될 수 있습니다.
 
 >[!BEGINSHADEBOX]
 
 **예:**
-EST 사용자는 EST 정오 시간인 오전 9:00 PST에 시작되도록 예약된 1일 작업에 할당됩니다. EST 사용자는 당일 근무시간이 2시간만 남아 있으므로 임무 완료 일자는 다음 근무일까지 약 6시간 연장됩니다.
+EST 사용자는 EST 정오 시간인 오전 9시(PST)에 시작하기로 예정된 1일 작업에 할당됩니다. EST 사용자는 당일 근무시간이 2시간만 남아 있으므로 임무 완료 일자는 다음 근무일까지 약 6시간 연장됩니다.
 
 
 >[!ENDSHADEBOX]

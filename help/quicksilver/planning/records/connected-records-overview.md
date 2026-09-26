@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hzuTw-VTbzYLjIRKmamPD8294nkfhxfo07pTwI59YkE
+TQID: 'https://experienceleague.adobe.com/hzuTw-VTbzYLjIRKmamPD8294nkfhxfo07pTwI59YkE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 748
+source-wordcount: '748'
 ht-degree: 0%
-
 ---
-
 # 연결된 레코드 개요
 
 <!--
@@ -76,14 +83,14 @@ Workfront에서 레코드를 수동으로 또는 자동으로 연결할 수 있�
 
 * Workfront Planning의 레코드를 Planning 레코드의 다음 영역에서 Workfront 개체, Experience Manager Assets 개체 또는 GenStudio 브랜드에 연결할 수 있습니다.
 
-   * Planning에 있는 레코드 유형의 테이블 뷰에 있는 연결된 레코드 필드.
-   * 레코드의 미리 보기 또는 세부 사항 페이지에 연결된 레코드 필드.
-   * 레코드의 연결된 레코드 페이지에 있는 레코드의 미리 보기 또는 세부 정보 페이지입니다.
+  * Planning에 있는 레코드 유형의 테이블 뷰에 있는 연결된 레코드 필드.
+  * 레코드의 미리 보기 또는 세부 사항 페이지에 연결된 레코드 필드.
+  * 레코드의 연결된 레코드 페이지에 있는 레코드의 미리 보기 또는 세부 정보 페이지입니다.
 
 * Workfront의 다음 영역에서 Workfront 개체를 Workfront Planning 레코드에 연결할 수 있습니다.
 
-   * Workfront 개체의 계획 섹션입니다.
-   * Workfront 오브젝트의 사용자 정의 양식에 대한 Planning 연결 필드.
+  * Workfront 개체의 계획 섹션입니다.
+  * Workfront 오브젝트의 사용자 정의 양식에 대한 Planning 연결 필드.
 
   자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
 

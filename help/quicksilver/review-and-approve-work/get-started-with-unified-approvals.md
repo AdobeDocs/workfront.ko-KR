@@ -6,15 +6,24 @@ description: Workfront 및 Frame.io에서 제공하는 통합 검토 및 승인�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
-
 ---
-
 # 통합 검토 및 승인 시작
 
 통합된 검토 및 승인은 Adobe Workfront과 Adobe Frame.io를 긴밀하게 연결된 하나의 경험으로 통합하여 마케팅 관리, 크리에이티브 검토 및 콘텐츠 전달 간의 차이를 해결합니다. 프로젝트 코디네이터는 크리에이티브, 마케터 및 이해 당사자가 연결되지 않은 도구 간에 파일을 이동하지 않고도 전문가 수준의 Frame.io 뷰어에서 자산을 검토하고 승인하는 동안 Workfront에서 작업을 관리합니다.

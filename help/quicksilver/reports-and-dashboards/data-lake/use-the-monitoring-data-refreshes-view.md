@@ -8,20 +8,24 @@ feature: Reports and Dashboards
 exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/i-F8ebsLAFO-0mP-bXzzEyFDsfvuWH-qswPc7C5cyMg
+TQID: 'https://experienceleague.adobe.com/i-F8ebsLAFO-0mP-bXzzEyFDsfvuWH-qswPc7C5cyMg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 362
+source-wordcount: '413'
 ht-degree: 2%
-
 ---
-
 # Data Connect에서 데이터 새로 고침 모니터링 보기 사용
 
 데이터 새로 고침 모니터링 보기에는 가장 최근 새로 고침 중에 데이터 레이크 날짜에 대해 수행된 최근 업데이트가 표시됩니다. 이 보기의 데이터는 데이터 로드가 성공적으로 완료되면 업데이트됩니다.
@@ -43,7 +47,7 @@ ht-degree: 2%
         <td><b>설명</b></td>
     </tr>
     <tr>
-        <td>OBJ_TYPE</td>
+        <td>OBJ TYPE</td>
         <td>Varchar
         </td>
         <td> 
@@ -66,7 +70,7 @@ ht-degree: 2%
         <td>PREVIOUS_RECORD_LOAD_TIMESTAMP </td>
         <td>Timestamp_NTZ </td>
         <td>
-       OBJ_TYPE 열에 표시되는 객체 유형에 대한 두 번째 가장 최근 데이터 새로 고침 날짜 및 시간입니다. </td>
+       OBJ_TYPE 열에 표시된 객체 유형에 대한 두 번째 가장 최근 데이터 새로 고침 날짜 및 시간입니다. </td>
     </tr>
         <tr>
         <td>MINUTES_SINCE_PREVIOUS_LOAD </td>
@@ -94,6 +98,6 @@ ht-degree: 2%
         <td>숫자 </td>
         <td>객체 유형에 대한 이전 및 최신 데이터 새로 고침 간의 총 이벤트 수 카운트입니다. 
         <br> 
-        <br><b>참고</b>: 새로 고침 간격 내에 동일한 레코드가 여러 번 만들어지고 업데이트될 수 있으므로 CREATE, UPDATE 또는 DELETE 이벤트의 영향을 받은 총 레코드 수와 다릅니다.  </td>
+        <br><b>참고</b>: 새로 고침 간격 내에 동일한 레코드를 여러 번 만들고 업데이트할 수 있으므로 CREATE, UPDATE 또는 DELETE 이벤트의 영향을 받은 총 레코드 수와 다릅니다.  </td>
     </tr>
    </table>

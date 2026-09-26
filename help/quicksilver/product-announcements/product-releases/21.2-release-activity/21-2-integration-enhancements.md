@@ -8,22 +8,34 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 82279305-d758-4ab3-b77c-8e65a3d19a9f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '327'
 ht-degree: 0%
-
 ---
-
 # 21.2 통합 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 21.2 릴리스의 모든 통합 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 5월 10일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 21.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.2 릴리스 개요](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)를 참조하십시오.
 
 ## XD용 Adobe Workfront 소개
 
-새로운 플러그인인 Adobe Workfront for XD의 출시를 발표하게 되어 매우 기쁘게 생각합니다. 이 플러그인을 사용하면 XD을 종료하지 않고도 작업 항목 세부 정보에 액세스하고, 업데이트 영역에서 동료와 공동 작업하고, 검토를 위해 증명을 제출할 수 있습니다. 지금 Adobe XD 마켓플레이스로 이동하여 플러그인을 다운로드하십시오.
+새로운 플러그인의 출시를 발표하게 되어 기쁩니다. Adobe Workfront for XD. 이 플러그인을 사용하면 XD을 종료하지 않고도 작업 항목 세부 정보에 액세스하고, 업데이트 영역에서 동료와 공동 작업하고, 검토를 위해 증명을 제출할 수 있습니다. 지금 Adobe XD 마켓플레이스로 이동하여 플러그인을 다운로드하십시오.
 
-XD용 Adobe Workfront으로 수행할 수 있는 작업에 대한 자세한 내용은 [Creative Cloud 응용 프로그램용 Adobe Workfront 플러그인으로 작업 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)를 참조하십시오.
+XD용 Adobe Workfront으로 수행할 수 있는 작업에 대한 자세한 내용은 [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인으로 작업 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)를 참조하십시오.
 
 
 ## 문서 통합에서 폴더 검색

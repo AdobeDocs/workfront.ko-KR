@@ -8,26 +8,39 @@ recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A
+TQID: 'https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2611
+source-wordcount: '2611'
 ht-degree: 0%
-
 ---
-
 # 첫 승을 지속 가능한 모멘텀으로 전환: 관리형 스케일링을 위한 플레이북
 
 >[!IMPORTANT]
@@ -292,13 +305,13 @@ Workfront Planning을 확장하는 것은 기술적인 문제만큼이나 문화
 
 * **책임**:
 
-   * 글로벌 분류법 Workspace을 관리합니다.
+  * 글로벌 분류법 Workspace을 관리합니다.
 
-   * 글로벌 표준에 대한 로컬 성공을 촉진하여 현장 성숙도 경로를 용이하게 합니다.
+  * 글로벌 표준에 대한 로컬 성공을 촉진하여 현장 성숙도 경로를 용이하게 합니다.
 
-   * 경영진 보고를 위한 기본 Workspace 보기를 유지 관리합니다.
+  * 경영진 보고를 위한 기본 Workspace 보기를 유지 관리합니다.
 
-   * 작업 공간에서 월별 의미 체계 감사를 이끈다.
+  * 작업 공간에서 월별 의미 체계 감사를 이끈다.
 
 ### Spoke 챔피언(팀 프로세스 소유자)
 
@@ -306,13 +319,13 @@ Workfront Planning을 확장하는 것은 기술적인 문제만큼이나 문화
 
 * **책임**:
 
-   * 기능 팀의 단일 연락 창구 역할을 합니다.
+  * 기능 팀의 단일 연락 창구 역할을 합니다.
 
-   * 로컬 작업 공간 구조 및 사용자 지정 필드 실험을 소유합니다.
+  * 로컬 작업 공간 구조 및 사용자 지정 필드 실험을 소유합니다.
 
-   * 팀이 데이터를 입력할 때 Controlled Gateway Forms 를 사용하는지 확인합니다.
+  * 팀이 데이터를 입력할 때 Controlled Gateway Forms 를 사용하는지 확인합니다.
 
-   * 조화 중 협력적 악수에 참여한다.
+  * 조화 중 협력적 악수에 참여한다.
 
 ### 경영 스폰서(마케팅 리더십)
 
@@ -320,11 +333,11 @@ Workfront Planning을 확장하는 것은 기술적인 문제만큼이나 문화
 
 * **책임**:
 
-   * 글로벌 분류 작업 영역에서 엔터프라이즈 마케팅 OKR을 정의합니다.
+  * 글로벌 분류 작업 영역에서 엔터프라이즈 마케팅 OKR을 정의합니다.
 
-   * Visibility Step 1의 가치를 다른 리더에게 제시합니다.
+  * Visibility Step 1의 가치를 다른 리더에게 제시합니다.
 
-   * 80/20 리소스 할당을 강화합니다(정리보다 높은 값).
+  * 80/20 리소스 할당을 강화합니다(정리보다 높은 값).
 
 ### 지원 리드(변경 관리)
 
@@ -332,11 +345,11 @@ Workfront Planning을 확장하는 것은 기술적인 문제만큼이나 문화
 
 * **책임**:
 
-   * 반복되는 업무 시간 및 검색 워크숍 터치 포인트를 호스팅합니다.
+  * 반복되는 업무 시간 및 검색 워크숍 터치 포인트를 호스팅합니다.
 
-   * 내부 Success Story 쇼케이스를 유지 관리합니다.
+  * 내부 Success Story 쇼케이스를 유지 관리합니다.
 
-   * Enterprise Architect가 해결할 기술 마찰 지점을 식별합니다.
+  * Enterprise Architect가 해결할 기술 마찰 지점을 식별합니다.
 
 ## &#x200B;10. 다음 팀의 크기 조절을 위한 체크리스트
 

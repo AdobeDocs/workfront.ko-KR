@@ -8,27 +8,37 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2-X5FtwdWU0s-yJInRRPkiNgIsgHQuvXgPBtSusmyeY
+TQID: 'https://experienceleague.adobe.com/2-X5FtwdWU0s-yJInRRPkiNgIsgHQuvXgPBtSusmyeY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9e4b8593c559dd68f7c0948c58c3f796af1c22fd
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3743
+source-wordcount: '3743'
 ht-degree: 1%
-
 ---
-
 # 기록 연결
 
 <!--
@@ -111,7 +121,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    <ul><li><p>AEM 에셋 또는 콘텐츠 조각을 Planning 레코드 유형과 연결하기 위한 Adobe Experience Manager 및 Workfront 간의 통합 및 Adobe Experience Manager 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 기록 유형을 Adobe GenStudio for Performance Marketing 브랜드에 연결하거나 GenStudio 작업 공간에 액세스할 수 있는 GenStudio 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
 <p><b>메모</b></p>
 <p>Planning 레코드를 Workfront 오브젝트와 연결하려면 Workfront Workflow 패키지를 구매해야 합니다. </p>
 
@@ -432,7 +442,7 @@ No longer needed to specify:
 
 >[!NOTE]
 >
->Workfront 관리자가 Experience Manager Assets과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront에서 Planning 레코드 및 해당 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+>Workfront 관리자가 Experience Manager Assets과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront에서 Planning 레코드 및 해당 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 >Planning의 GenStudio 작업 영역에서 AEM 객체(자산 및 컨텐츠 조각)로 레코드를 연결하면 AEM의 AEM 객체에 GenStudio 정보가 자동으로 표시됩니다. Workfront Planning에서 연결할 때 추가된 조회 필드에 GenStudio 레코드에 대한 AEM 정보가 표시됩니다. 자세한 내용은 [Adobe Workfront Planning에서 GenStudio 작업 영역 관리](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)를 참조하십시오.
 
 <!--
@@ -478,11 +488,11 @@ Adobe Experience Manager 개체와 레코드를 연결하려면 다음을 수행
    >[!IMPORTANT]
    >
    > Experience Manager에서 보기 위해 액세스할 수 있는 자산만 연결할 수 있습니다. 연결되면 모든 Workfront Planning 사용자는 Experience Manager Assets에서의 액세스 권한에 관계없이 Workfront Planning에서 에셋을 볼 수 있습니다.
-   > 콘텐츠 관리자에 대한 자세한 내용은 [콘텐츠 관리자를 사용하여 Adobe 응용 프로그램의 AEM 콘텐츠에 액세스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}를 참조하십시오.
+   > 콘텐츠 관리자에 대한 자세한 내용은 [콘텐츠 관리자를 사용하여 Adobe 응용 프로그램의 AEM 콘텐츠에 액세스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}를 참조하십시오.
 
 1. **콘텐츠 조각** 탭에서 연결된 레코드 필드에 추가할 콘텐츠 조각을 선택합니다.
 
-   콘텐츠 조각에 대한 자세한 내용은 [콘텐츠 관리자를 사용하여 Adobe 응용 프로그램의 AEM 콘텐츠에 액세스](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}를 참조하십시오.
+   콘텐츠 조각에 대한 자세한 내용은 [콘텐츠 관리자를 사용하여 Adobe 응용 프로그램의 AEM 콘텐츠에 액세스](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}를 참조하십시오.
 
 1. 에셋 또는 콘텐츠 조각 선택을 마치면 **선택**&#x200B;을 클릭합니다. <!-- we might change this to Connect-->
 

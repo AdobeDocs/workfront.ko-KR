@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 33a91c25-98ec-4f08-b444-4e11e05e464b
-TQID: https://experienceleague.adobe.com/TyN11XhNKT09a5sXohEankm-lv7bH0nx6Faywigqiug
+TQID: 'https://experienceleague.adobe.com/TyN11XhNKT09a5sXohEankm-lv7bH0nx6Faywigqiug'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1451
+source-wordcount: '1451'
 ht-degree: 0%
-
 ---
-
 # 2017.3 Beta 1 릴리스 활동
 
 이 페이지에서는 2017.3 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 8월 9일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2017년 11월 초에 제공될 예정입니다.

@@ -6,19 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-TQID: https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8
+TQID: 'https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2188
+source-wordcount: '2188'
 ht-degree: 1%
-
 ---
-
 # 레코드 종류 및 레코드 연결의 예
 
 <span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
@@ -86,7 +93,7 @@ Product라는 다른 레코드 유형이 있으며 Budget이라는 통화 필드
 
      </div>
 
-   * <span class="preview">**조회 필드**: 연결된 레코드에서 조회 필드도 연결하려면 이 옵션을 확장합니다. </span>조회 필드 추가&#x200B;**상자가 열리면 제품 필드를 캠페인 레코드 유형과 연결할 수 있습니다.**&#x200B;**건너뛰기**&#x200B;를 클릭하여 이 단계를 건너뛰고 나중에 제품 필드를 추가할 수 있습니다.
+   * <span class="preview">**조회 필드**: 연결된 레코드에서 조회 필드도 연결하려면 이 옵션을 확장합니다. </span>조회 필드 추가&#x200B;**상자가 열리면 제품 필드를 캠페인 레코드 유형과 연결할 수 있습니다.****건너뛰기**&#x200B;를 클릭하여 이 단계를 건너뛰고 나중에 제품 필드를 추가할 수 있습니다.
 
      ![제품 레코드 종류가 있는 새 연결](assets/new-connection-with-product-record-type.png)
 

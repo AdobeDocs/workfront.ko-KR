@@ -6,23 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-TQID: https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk
+TQID: 'https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 562
-ht-degree: 6%
-
+source-wordcount: '592'
+ht-degree: 11%
 ---
-
 # 문서 업로드 및 우선 순위에서 증명 만들기
 
 우선 순위에서 문서를 업로드하고 증명을 만들 수 있습니다.
@@ -77,9 +82,9 @@ ht-degree: 6%
 1. 작업 목록에서 작업 이름을 마우스로 가리킨 다음 **요약** 아이콘 ![요약 열기 아이콘](assets/summary-icon.png)을 클릭합니다.
 1. 요약 패널의 **작업** 또는 **문제** 탭에 있는지 확인하세요.
 1. **파일 업로드** 아이콘 ![파일 업로드 아이콘](assets/upload-file-icon.png)을 클릭합니다.
-1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
+1. 파일을 드래그 앤 드롭하거나 Cmd/Ctrl + V를 눌러 클립보드에서 붙여넣기
 또는
-**파일 추가**&#x200B;를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
+**파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
    ![파일 추가](assets/add-files.png)
 1. (선택 사항) 댓글을 추가합니다.
 1. (선택 사항) 파일을 더 추가합니다.
@@ -96,9 +101,9 @@ ht-degree: 6%
 1. 작업 목록에서 작업 항목 이름을 클릭합니다.
 1. 화면 상단의 **문서** 탭을 클릭합니다.
 1. 오른쪽 상단의 **문서 업로드**&#x200B;를 클릭한 다음 **문서**&#x200B;를 선택합니다.
-1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
+1. 파일을 드래그 앤 드롭하거나 Cmd/Ctrl + V를 눌러 클립보드에서 붙여넣기
 또는
-**파일 추가**&#x200B;를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
+**파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
    ![파일 추가](assets/add-files.png)
 1. (선택 사항) 댓글을 추가합니다.
 1. (선택 사항) 파일을 더 추가합니다.

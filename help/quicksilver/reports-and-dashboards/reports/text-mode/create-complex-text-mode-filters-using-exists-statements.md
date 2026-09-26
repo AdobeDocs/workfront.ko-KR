@@ -8,25 +8,31 @@ feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hjseZZVmNs0rGOgMauDWITarp8Vbdh-0iqyJeToR0g4
+TQID: 'https://experienceleague.adobe.com/hjseZZVmNs0rGOgMauDWITarp8Vbdh-0iqyJeToR0g4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2668
+source-wordcount: '2668'
 ht-degree: 1%
-
 ---
-
 # EXISTS 문을 사용하여 복잡한 텍스트 모드 필터 만들기
 
 <!-- Audited: 01/2025 -->
@@ -75,22 +81,22 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
 * 필터 개체에 직접 연결되지 않은 개체를 참조하려면 복잡한 필터를 만들어야 합니다.
 * 다음을 수행하려면 EXISTS 문을 사용해야 합니다.
 
-   * 여러 수준에 걸쳐 있는 필터를 만듭니다.
-   * 누락된 오브젝트를 찾는 필터를 만듭니다.\
-     예를 들어 사용자 보고서를 작성할 때 특정 기간 동안 시간을 기록하지 않은 사용자를 필터링할 수 있습니다.
+  * 여러 수준에 걸쳐 있는 필터를 만듭니다.
+  * 누락된 오브젝트를 찾는 필터를 만듭니다.\
+    예를 들어 사용자 보고서를 작성할 때 특정 기간 동안 시간을 기록하지 않은 사용자를 필터링할 수 있습니다.
 
 필터에 EXISTS 문을 사용할 때는 다음 규칙을 고려하십시오.
 
 * EXISTS 필터에서 참조할 수 있는 세 가지 개체가 있습니다.
 
-   * 필터의 개체(원본 개체)입니다.
-   * 참조할 필드가 있는 개체(대상 개체)입니다.
-   * 원본 개체와 대상 개체가 직접 연결되어 있지 않은 경우 원본 개체와 대상 개체를 연결하는 개체(연결 개체)입니다.
+  * 필터의 개체(원본 개체)입니다.
+  * 참조할 필드가 있는 개체(대상 개체)입니다.
+  * 원본 개체와 대상 개체가 직접 연결되어 있지 않은 경우 원본 개체와 대상 개체를 연결하는 개체(연결 개체)입니다.
 
 * EXISTS를 사용하는 필터에는 등호로 연결된 두 개의 개별 문이 포함되어 있습니다.
 
-   * 등호 앞의 문은 참조하는 개체(연결 또는 대상 개체)를 참조합니다.
-   * 등호 다음의 문은 참조하는 객체(원본 객체)를 참조합니다.
+  * 등호 앞의 문은 참조하는 개체(연결 또는 대상 개체)를 참조합니다.
+  * 등호 다음의 문은 참조하는 객체(원본 객체)를 참조합니다.
 
 * 문을 연결하려면 연결 개체의 개체 코드를 사용해야 합니다.\
   API 탐색기에서 모든 개체의 개체 코드를 찾을 수 있습니다.\

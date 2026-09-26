@@ -2,7 +2,7 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: 이메일 콘텐츠를 사용하여 Google Workspace에서  [!DNL Adobe Workfront] 항목 업데이트
+title: 이메일 콘텐츠를 사용하여 Google Workspace에서 [!DNL Adobe Workfront] 항목 업데이트
 description: Adobe Workfront이 아닌 이메일의 정보로 기존 프로젝트, 작업 또는 문제를 업데이트할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
@@ -10,26 +10,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/XJ0ABx-T296MgvxkvC7CbGtryTSj5B7L-RtgrOeCIPU
+TQID: 'https://experienceleague.adobe.com/XJ0ABx-T296MgvxkvC7CbGtryTSj5B7L-RtgrOeCIPU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
   - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+    internal-label: Adobe Workfront for Outlook
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 199
+source-wordcount: '200'
 ht-degree: 0%
-
 ---
-
 # 전자 메일 콘텐츠를 사용하여 [!DNL Google Workspace]에서 [!DNL Adobe Workfront] 항목 업데이트
 
 >[!IMPORTANT]
@@ -42,9 +49,9 @@ ht-degree: 0%
 >
 >조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
 >
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
+>Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
 
 <!--
 

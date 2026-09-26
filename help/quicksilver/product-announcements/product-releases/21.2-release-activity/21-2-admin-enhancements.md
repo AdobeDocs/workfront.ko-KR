@@ -8,26 +8,33 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-TQID: https://experienceleague.adobe.com/TwZHOWwuaG8KUeNPZ24NjXcpz4cnRr90b58JBMB3zHs
+TQID: 'https://experienceleague.adobe.com/TwZHOWwuaG8KUeNPZ24NjXcpz4cnRr90b58JBMB3zHs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1552
+source-wordcount: '1552'
 ht-degree: 1%
-
 ---
-
 # 21.2 관리자 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 21.2 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 5월 10일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 21.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.2 릴리스 개요](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)를 참조하십시오.
@@ -150,7 +157,7 @@ Workfront의 현대화된 목록에 대한 자세한 내용은 [목록 표시 �
 
 자세한 내용은 [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)을 참조하십시오.
 
-이 기능은 이제 Workfront One의 새 Workfront 경험, 3부: 제어 및 인터페이스 경험[&#128279;](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)의 관리자 기본 사항에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 새 Workfront 경험, 3부: 제어 및 인터페이스 경험](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)의 [관리자 기본 사항에 포함되어 있습니다.
 
 ## 관리자용 새로운 기능: 현재 사용자 정의 필드를 사용 중인 보고서를 쉽게 나열
 

@@ -7,13 +7,22 @@ description: Adobe Express 및 Frame.io 통합 시작
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 2%
-
 ---
-
 
 # Frame.io 통합으로 Adobe Express 및 Workfront 시작하기
 
@@ -80,7 +89,7 @@ Workfront에서 승인 워크플로 템플릿이 생성되면 Express Enterprise
 
 Adobe Express에서 승인을 요청하려면 사용자에게 Standard Workfront 라이선스가 있어야 합니다.
 
-[디자인 승인을 받는 방법](https://helpx.adobe.com/kr/express/web/share-and-publish/share-and-collaborate/request-approval.html)을 알아보세요.
+[디자인 승인을 받는 방법](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)을 알아보세요.
 
 
 ## 빠른 템플릿을 리믹스하여 검토 및 승인을 위해 전송
@@ -100,7 +109,7 @@ Adobe Express 사용자는 자신의 요구 사항에 맞게 Express 템플릿�
 
 프로젝트를 선택하지 않으면 에셋이 기본적으로 Express 관련 프로젝트로 전환됩니다.
 
-자세한 내용은 [검토 및 승인을 위해 템플릿 보내기](https://helpx.adobe.com/kr/express/web/invite-collaborate/request-approval.html)를 참조하십시오.
+자세한 내용은 [검토 및 승인을 위해 템플릿 보내기](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)를 참조하십시오.
 
 
 ## Frame.io를 사용하여 리믹스된 Express 파일을 검토하고 승인합니다.

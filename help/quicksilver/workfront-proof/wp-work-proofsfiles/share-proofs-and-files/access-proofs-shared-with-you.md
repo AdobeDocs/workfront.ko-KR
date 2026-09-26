@@ -7,18 +7,26 @@ description: 증명에 대한 이메일을 수신하면 증명에 액세스할 �
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 901013f2-833f-4f6b-921c-eddd4f063247
-TQID: https://experienceleague.adobe.com/jJdQs2v-0xHMvwKyGerUrCJmOUCGtBBWzSCs3SstXf4
+TQID: 'https://experienceleague.adobe.com/jJdQs2v-0xHMvwKyGerUrCJmOUCGtBBWzSCs3SstXf4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: '363'
 ht-degree: 0%
-
 ---
-
 # 나와 공유된 증명 액세스
 
 >[!IMPORTANT]
@@ -36,13 +44,13 @@ ht-degree: 0%
 공유 증명에 대한 다음 사항을 고려하십시오.
 
 * 유효한 이메일 주소를 가진 모든 사용자는 증명에 추가할 수 있습니다. 로그인 자격 증명이 있는 [!DNL Workfront Proof] 사용자일 필요는 없습니다.
-* 나와 공유된 모든 증명이 계정의 [!DNL Views] 페이지에 표시됩니다. 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리를 참조하십시오.
+* 나와 공유된 모든 증명이 계정의 [!DNL Views] 페이지에 표시됩니다. 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리를 참조하십시오.
 * 다른 사용자가 귀하와 증명 URL을 공유할 때 [[!UICONTROL 공개 URL 공유 [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)에 설명된 대로 증명에 액세스할 수 있습니다.
 * 다음 기준에 따라 사용자와 공유된 모든 증명을 검색할 수 있습니다.
 
-   * 교정쇄 이름
-   * 설명(증명과 연결된 메시지)
-   * 태그 이름([태그 만들기 및 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) 참조)
+  * 교정쇄 이름
+  * 설명(증명과 연결된 메시지)
+  * 태그 이름([태그 만들기 및 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) 참조)
 
 받은 이메일에서 증명을 열려면 다음을 수행하십시오.
 

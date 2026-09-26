@@ -8,21 +8,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk
+TQID: 'https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3059
+source-wordcount: '3065'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront 2023년 릴리스 활동 계획
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
@@ -85,7 +93,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 >
 >Adobe Workfront Planning 기능을 사용하여 연결을 만들려면 조직에서 Adobe Workfront Fusion을 구매해야 합니다.
 >
->자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 이제 Adobe Workfront Fusion을 사용하여 계획 기능에 연결할 수 있습니다. 새 Fusion 연결을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -101,7 +109,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 * 계획 기능이 변경되면 시나리오를 트리거합니다.
 
-자세한 내용은 [Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)을 참조하세요.
+자세한 내용은 [Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)을 참조하세요.
 
 ## 2023년 12월 11일 주
 
@@ -119,11 +127,11 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 * 다음 유형의 필드를 기본 필드로 선택하고 첫 번째 열의 이름 필드를 바꿀 수 있습니다.
 
-   * 한 줄 텍스트
+  * 한 줄 텍스트
 
-   * 숫자
+  * 숫자
 
-   * 공식
+  * 공식
 
 * 테이블 뷰의 기본 필드는 항상 동결되며 다른 필드를 기본 필드로 설정하지 않는 한 이동할 수 없습니다.
 
@@ -201,11 +209,11 @@ removed per PM, for now:
 
 * 다음 필드 유형에 대한 필드 값을 복사하여 붙여넣을 수 없습니다.
 
-   * 사람
+  * 사람
 
-   * 시스템 필드
+  * 시스템 필드
 
-   * 레코드 연결 결과로 생성된 연결된 필드
+  * 레코드 연결 결과로 생성된 연결된 필드
 
 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
@@ -292,19 +300,19 @@ Adobe Workfront Planning 기능 레코드에 대해 다음 필드 유형을 도�
 
 * 그룹화는 다음 색과 일치할 수 있습니다.
 
-   * 회색(기본값)
+  * 회색(기본값)
 
-   * 그룹화할 필드의 색상
+  * 그룹화할 필드의 색상
 
 * 막대는 다음 색상과 일치할 수 있습니다.
 
-   * 레코드 유형의 색상
+  * 레코드 유형의 색상
 
-   * 선택하는 필드의 색상
+  * 선택하는 필드의 색상
 
-   * 그룹화의 색상
+  * 그룹화의 색상
 
-   * 색상 없음(기본값)
+  * 색상 없음(기본값)
 
 특정 필드에 색상을 일치시킬 때는 색상으로 구분된 옵션이 있는 필드만 선택할 수 있습니다.
 
@@ -346,8 +354,8 @@ Adobe Workfront Planning 기능 레코드에 대해 다음 필드 유형을 도�
 
   자세한 내용은 다음 문서를 참조하십시오.
 
-   * [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [기록 연결](/help/quicksilver/planning/records/connect-records.md)
+  * [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [기록 연결](/help/quicksilver/planning/records/connect-records.md)
 
 ### 한 줄 텍스트 필드에 대한 URL 지원
 
@@ -397,8 +405,8 @@ Adobe Workfront Planning 기능 레코드에 대해 다음 필드 유형을 도�
 
 * 이제 다음 모드로 타임라인 보기를 표시할 수 있습니다.
 
-   * 표준: 레코드를 별도의 라인에 표시합니다.
-   * 작게: 날짜가 같은 줄에 교차하지 않는 레코드를 표시합니다.
+  * 표준: 레코드를 별도의 라인에 표시합니다.
+  * 작게: 날짜가 같은 줄에 교차하지 않는 레코드를 표시합니다.
 
 * 타임라인 보기의 그룹화 선이 포함된 레코드의 타임라인 위에 표시되도록 해당 줄의 모양을 변경했습니다. 이 개선 이전에는 타임라인 전체 길이에 걸쳐 그룹화가 표시되었습니다.
 

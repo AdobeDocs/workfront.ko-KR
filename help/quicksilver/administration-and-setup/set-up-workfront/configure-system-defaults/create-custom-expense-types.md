@@ -3,28 +3,33 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 사용자 정의 경비 유형 만들기
-description: ' [!DNL Adobe Workfront] 관리자는 사용자 지정 경비 유형을 만들어 작업 및 프로젝트와 관련된 경비를 정의하고 추적할 수 있습니다. 경비는 작업 또는 프로젝트와 연관될 수 있는 비인적 비용입니다.'
+description: '[!DNL Adobe Workfront] 관리자는 사용자 지정 경비 유형을 만들어 작업 및 프로젝트와 관련된 경비를 정의하고 추적할 수 있습니다. 경비는 작업 또는 프로젝트와 연관될 수 있는 비인적 비용입니다.'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-TQID: https://experienceleague.adobe.com/lf8hEp6JYtT4mZPP5f6e5M-gX4juYH-hRZF8kGonN3E
+TQID: 'https://experienceleague.adobe.com/lf8hEp6JYtT4mZPP5f6e5M-gX4juYH-hRZF8kGonN3E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 382
+source-wordcount: '383'
 ht-degree: 7%
-
 ---
-
 # 사용자 정의 경비 유형 만들기
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
@@ -84,13 +89,13 @@ ht-degree: 7%
    * **설명** - 비용에 대한 설명입니다.
    * **계산된 단위** - 드롭다운 목록에서 경비 유형의 측정 단위를 선택합니다. 다음 측정 단위를 사용할 수 있습니다.
 
-      * 마일
-      * 킬로미터
-      * 킬로그램
-      * 달러
-      * 시간
-      * Day
-      * 기타 - 이 옵션을 선택하면 측정 단위의 이름을 지정하고 측정 단위를 조직에 친숙한 것으로 정의하라는 메시지가 표시됩니다.
+     * 마일
+     * 킬로미터
+     * 킬로그램
+     * 달러
+     * 시간
+     * Day
+     * 기타 - 이 옵션을 선택하면 측정 단위의 이름을 지정하고 측정 단위를 조직에 친숙한 것으로 정의하라는 메시지가 표시됩니다.
 
    * **속도** - 단위당 가격. 통화 형식의 필드이며 **계산된 단위** 필드에 설정된 각 단위의 비용을 나타냅니다. 비율은 소수점 뒤에 최대 4개의 숫자가 있는 숫자 값을 포함할 수 있습니다. 예: 1.0375.
 

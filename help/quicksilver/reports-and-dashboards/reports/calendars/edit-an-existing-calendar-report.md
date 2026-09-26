@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/rgdmNzbJUt8eDoT7XBI2NbmDO55aaM9SgLZf6b64NQQ
+TQID: 'https://experienceleague.adobe.com/rgdmNzbJUt8eDoT7XBI2NbmDO55aaM9SgLZf6b64NQQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 8%
-
+source-wordcount: '281'
+ht-degree: 7%
 ---
-
 # 기존 캘린더 보고서 편집
 
 프로젝트에 대한 링크를 추가하거나 삭제하여 기존 달력을 수정할 수 있습니다. 달력 보고서와 연관된 달력 그룹화를 수정할 수도 있습니다.
@@ -72,7 +77,7 @@ ht-degree: 8%
 
 {{step1-to-calendars}}
 
-1. (선택 사항) 캘린더 보고서의 이름을 변경하려면 캘린더 드롭다운 메뉴 옆에 있는 **이름 바꾸기**&#x200B;를 클릭합니다.
+1. (선택 사항) 캘린더 보고서의 이름을 변경하려면 캘린더 드롭다운 메뉴 옆에 있는 **이름 바꾸기**를 클릭합니다.
 다른 사용자 또는 팀과 캘린더 보고서를 공유한 경우, 수정된 캘린더 이름은 캘린더 보기에서 자동으로 업데이트됩니다.
 
 1. (선택 사항) 달력 보고서에 프로젝트를 추가하려면 다음을 수행합니다.
@@ -83,7 +88,7 @@ ht-degree: 8%
 
 
 1. (선택 사항) 달력 그룹화를 추가하거나 기존 달력 그룹화를 수정하려면
-   1. 프로젝트 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+   1. 프로젝트 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **편집**을 클릭합니다.
       ![일정에서 프로젝트 편집](assets/edit-project-in-calendar.png)
 
    1. 항목을 그룹화할 방법 선택:

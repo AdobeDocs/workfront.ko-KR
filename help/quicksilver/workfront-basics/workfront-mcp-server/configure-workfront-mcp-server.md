@@ -5,11 +5,16 @@ title: Adobe Workfront MCP 서버 구성
 description: 자연어 대화를 통해 Workfront과 작업할 수 있도록 Workfront 인스턴스 및 AI 아젠틱 플랫폼을 구성합니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 62a56dd910bed829e2f30752020cb014464aea4f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
-
 ---
 
 # Adobe Workfront MCP 서버 구성
@@ -107,7 +112,7 @@ URL을 사용하여 Workfront을 [!DNL Claude]에 연결하려면 다음을 수�
    https://mcp.workfront.adobe.com/mcp/v1/workfront
    ```
 
-1. **연결**&#x200B;을 클릭합니다.
+1. **연결**을 클릭합니다.
 Workfront 로그인 창이 나타납니다.
 1. Adobe ID 자격 증명을 사용하여 인증합니다.
 프로필 및 Workfront 인스턴스를 선택해야 할 수 있습니다. 선택하는 프로필에 따라 연결되는 작업 영역이 결정됩니다.
@@ -187,7 +192,7 @@ ChatGPT는 사용자 지정 GPT라는 사용자가 만든 도우미를 지원합
 Workfront MCP가 연결할 수 있는 사용자 지정 Copilot 에이전트를 빌드하려면 Copilot Studio를 사용합니다.
 
 1. Copilot Studio에서 **빈 에이전트 만들기**&#x200B;를 클릭합니다.
-1. 에이전트 이름을 지정하고 **만들기**&#x200B;를 클릭합니다.
+1. 에이전트 이름을 지정하고 **만들기**를 클릭합니다.
 에이전트 창이 열립니다.
 
 1. **지침** 필드에서 에이전트에서 수행할 작업을 설명합니다. 프로세스 및 Workfront 사용 방법과 같은 정보를 포함합니다. 세부 정보를 많이 제공하는 것이 좋습니다.

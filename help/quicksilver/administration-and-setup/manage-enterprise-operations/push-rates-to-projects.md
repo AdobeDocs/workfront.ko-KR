@@ -8,13 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: 22e8acb748ddc4768dc1724aaa2f515b863ab0cf
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 4%
-
 ---
-
 # 프로젝트에 대한 푸시 비율 변경
 
 요금 카드가 <!--or a staffing plan--> 프로젝트에 첨부된 경우에도 요금 카드의 요금을 조정할 수 있습니다. 그런 다음 선택적으로 요금 카드가 첨부된 프로젝트에 이러한 요금을 푸시할 수 있습니다. 새 비율을 푸시하지 않으면 원래 비율은 프로젝트에 유지됩니다.

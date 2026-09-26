@@ -1,17 +1,24 @@
 ---
 content-type: overview
 title: 상단 탐색 막대 개요
-description: ' [!DNL Adobe Workfront] 의 화면 맨 위에 표시되는 위쪽 탐색 막대를 사용하면 플랫폼의 다른 영역을 쉽게 찾아 탐색할 수 있습니다.'
+description: '[!DNL Adobe Workfront]의 화면 맨 위에 표시되는 위쪽 탐색 막대를 사용하면 플랫폼의 다른 영역을 쉽게 찾아 탐색할 수 있습니다.'
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
-
 ---
-
 # 상단 탐색 막대 개요
 
 <!--Audited: 01/2024-->
@@ -89,7 +96,7 @@ Workfront 관리자는 레이아웃 템플릿을 만들어 사용자에게 할�
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL 도움말]</p> </td> 
-   <td> <p><b>[!UICONTROL 도움말]</b>을 클릭하면 도움말 문서에 액세스하고, 교육을 찾고, 고객 지원 티켓을 제출하는 등의 작업을 수행할 수 있는 [!DNL Adobe Experience League] (으)로 이동합니다.</p> <p>[!DNL Experience League]이나 다른 도움말 방법에 대한 자세한 내용은 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Adobe Workfront에서 도움말을 찾는 빠른 안내</a>를 참조하세요.</p> </td> 
+   <td> <p><b>[!UICONTROL 도움말]</b>을 클릭하면 도움말 문서에 액세스하고, 교육을 찾고, 고객 지원 티켓을 제출하는 등의 작업을 수행할 수 있는 [!DNL Adobe Experience League](으)로 이동합니다.</p> <p>[!DNL Experience League]이나 다른 도움말 방법에 대한 자세한 내용은 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Adobe Workfront에서 도움말을 찾는 빠른 안내</a>를 참조하세요.</p> </td> 
   </tr>
   <!--
   <tr> 

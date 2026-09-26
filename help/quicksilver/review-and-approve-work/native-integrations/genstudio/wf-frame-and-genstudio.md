@@ -9,15 +9,24 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
-
 ---
-
 # GenStudio for Performance Marketing 및 Frame.io 통합 시작
 
 GenStudio for Performance Marketing과 Frame.io를 통합하여 다음과 같은 작업을 수행할 수 있습니다.
@@ -87,7 +96,7 @@ Workfront에서 승인 워크플로 템플릿을 만드는 방법에 대한 자�
 
 사용자가 GenStudio for Performance Marketing에서 검토를 시작할 때 필요한 템플릿을 선택하면 됩니다. 사용자는 언제든지 검토자와 단계를 추가하거나 제거하여 모든 통합 승인 워크플로 템플릿을 쉽게 변경할 수 있습니다.
 
-자세한 내용은 [검토 및 승인 요청](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)을 참조하세요.
+자세한 내용은 [검토 및 승인 요청](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)을 참조하세요.
 
 ## Frame.io 뷰어에서 GenStudio for Performance Marketing 초안 콘텐츠 검토 및 승인
 
@@ -106,4 +115,4 @@ Frame.io 뷰어 사용에 대한 자세한 내용은 [미디어에 주석 달기
 
 자산이 검토 및 승인 프로세스를 거치고 나면 검토 결정을 보고 GenStudio for Performance Marketing에서 직접 콘텐츠를 게시할 수 있습니다.
 
-자세한 내용은 [승인된 콘텐츠 게시](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)를 참조하십시오.
+자세한 내용은 [승인된 콘텐츠 게시](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)를 참조하십시오.

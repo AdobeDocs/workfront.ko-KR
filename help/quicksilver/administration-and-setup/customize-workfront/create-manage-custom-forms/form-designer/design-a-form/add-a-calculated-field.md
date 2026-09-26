@@ -8,26 +8,33 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
+TQID: 'https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2734
+source-wordcount: '2734'
 ht-degree: 1%
-
 ---
-
 # 양식에 계산된 필드 추가
 
 <!-- Audited: 5/2025 -->
@@ -202,7 +209,7 @@ ht-degree: 1%
    </table>
 
 1. **계산** 상자에서 계산 빌드를 시작합니다.
-   1. **최대화**&#x200B;를 클릭하여 계산 편집기를 열고 계산을 빌드합니다.
+   1. **최대화**를 클릭하여 계산 편집기를 열고 계산을 빌드합니다.
       일반적으로 계산은 표현식으로 시작하며, 그 뒤에는 사용자 정의 양식을 오브젝트에 첨부할 때 참조할 필드를 포함하는 괄호가 옵니다.
 
       각 필드는 중괄호로 묶어야 합니다. 필드 이름을 입력할 때 시스템에서 제안을 하며 이를 선택하여 계산에 삽입할 수 있습니다.

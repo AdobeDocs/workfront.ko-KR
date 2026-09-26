@@ -3,33 +3,40 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: 회사 만들기 및 편집
-description: ' [!DNL Adobe Workfront] 에 회사를 추가하여 재무 계획, 보고 목적으로 사용하고 개체에 대한 사용 권한을 정의하며 정보를 기밀로 유지할 수 있습니다.'
+description: '[!DNL Adobe Workfront]에 회사를 추가하여 재무 계획, 보고 목적으로 사용하고 개체에 대한 사용 권한을 정의하며 정보를 기밀로 유지할 수 있습니다.'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE
+TQID: 'https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1470'
 ht-degree: 1%
-
 ---
-
 # 회사 만들기 및 편집
 
 <!--Audited: 01/2024-->
@@ -88,15 +95,15 @@ ht-degree: 1%
 * 프로젝트 관리자는 동일한 회사 내에서 사용 가능한 리소스를 식별할 수 있습니다.
 * 다음 설정 중 하나 또는 모두를 선택하여 회사 간에 정보를 비공개로 유지할 수 있습니다.
 
-   * 동일한 회사의 사용자가 서로의 요청을 볼 수 있습니다.
+  * 동일한 회사의 사용자가 서로의 요청을 볼 수 있습니다.
 
-     [!DNL Workfront] 관리자가 사용자 회사를 기반으로 요청에 유사한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) 문서의 [모두를 위한 작업 및 문제 환경 설정 구성 [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) 섹션을 참조하십시오.
+    [!DNL Workfront] 관리자가 사용자 회사를 기반으로 요청에 유사한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) 문서의 [모두를 위한 작업 및 문제 환경 설정 구성 [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) 섹션을 참조하십시오.
 
-     그룹 관리자가 사용자 회사를 기반으로 요청에 유사한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)을 참조하십시오.
+    그룹 관리자가 사용자 회사를 기반으로 요청에 유사한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)을 참조하십시오.
 
-   * 사용자는 회사와 연결된 요청 대기열만 볼 수 있습니다. 요청 대기열의 가시성을 제한하는 방법에 대한 자세한 내용은 [요청 대기열에 대한 액세스 권한 제공](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)을 참조하십시오.
-   * 사용자가 회사 또는 회사 및 기본 회사의 사용자만 보도록 제한할 수 있습니다. 사용자 개인 정보 보호에 대한 기본 회사 기능에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
-   * 사용자는 회사 사용자만 항목에 대한 업데이트를 볼 수 있도록 제한할 수 있습니다. 회사 업데이트에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
+  * 사용자는 회사와 연결된 요청 대기열만 볼 수 있습니다. 요청 대기열의 가시성을 제한하는 방법에 대한 자세한 내용은 [요청 대기열에 대한 액세스 권한 제공](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)을 참조하십시오.
+  * 사용자가 회사 또는 회사 및 기본 회사의 사용자만 보도록 제한할 수 있습니다. 사용자 개인 정보 보호에 대한 기본 회사 기능에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
+  * 사용자는 회사 사용자만 항목에 대한 업데이트를 볼 수 있도록 제한할 수 있습니다. 회사 업데이트에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 ## [!DNL Workfront]에서 회사 만들기 또는 편집 {#create-or-edit-a-company-in-workfront}
 

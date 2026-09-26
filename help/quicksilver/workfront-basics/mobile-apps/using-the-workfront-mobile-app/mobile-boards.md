@@ -2,22 +2,25 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: 모바일용 Adobe Workfront 보드
-description: ' [!DNL Workfront] 모바일 앱에서는  [!DNL Workfront]의 데스크탑 버전에서 만들었거나 추가한 모든 보드를 볼 수 있습니다.'
+description: '[!DNL Workfront] 모바일 앱에서는 [!DNL Workfront]의 데스크톱 버전에서 만들었거나 추가한 모든 보드를 볼 수 있습니다.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-TQID: https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE
+TQID: 'https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1047
+source-wordcount: '1074'
 ht-degree: 0%
-
 ---
-
 # 모바일용 [!DNL Adobe Workfront] [!UICONTROL 보드]
 
 [!DNL Adobe Workfront] [!UICONTROL 보드]는 열과 카드가 포함된 공유 보드에 대한 액세스를 제공하여 팀 공동 작업을 허용하는 유연한 도구입니다. 보드에 대한 자세한 내용은 [보드 개요](/help/quicksilver/agile/boards-overview.md)를 참조하십시오.
@@ -138,6 +141,6 @@ Ad Hoc 카드가 Workfront 작업 또는 문제에 연결되어 있지 않습니
 1. 상자에 검색어를 입력하고 [!UICONTROL **완료**] 또는 ![완료 아이콘](assets/mobile-apply-icon-checkmark.png)을 선택합니다.
 
    제목에 검색어가 포함된 모든 카드가 표시됩니다.
-X를 선택하여 검색을 지웁니다.
+   X를 선택하여 검색을 지웁니다.
 
    ![카드 검색](assets/mobile-search-for-card.png)

@@ -7,20 +7,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 2c3133c3-aaa9-424c-81f5-9e4e1f4a486f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iKGQLX2hetwLutUlZqgIH51-SE2loCMj8qm2tXgnEoM
+TQID: 'https://experienceleague.adobe.com/iKGQLX2hetwLutUlZqgIH51-SE2loCMj8qm2tXgnEoM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # 2026년 1분기 문서 및 승인 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 1분기 릴리스의 문서 및 승인 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -45,7 +51,8 @@ The AI reviewer is currently in beta.
 
 >[!NOTE]
 >
->미리 보기: 2025년 12월 15일>프로덕션 빠른 릴리스: 2025년 12월 15일\
+>미리 보기: 2025년 12월 15일
+>프로덕션 빠른 릴리스: 2025년 12월 15일\
 >모두를 위한 프로덕션: 2025년 12월 15일
 
 증명을 보낼 Workfront 프로젝트를 선택할 수 있습니다. 이렇게 하면 모든 관련 에셋과 증명이 동일한 프로젝트 내에 체계적으로 정리될 수 있습니다.
@@ -58,7 +65,8 @@ The AI reviewer is currently in beta.
 
 >[!NOTE]
 >
->미리 보기: 2025년 11월 13일>프로덕션 빠른 릴리스: 2025년 11월 13일\
+>미리 보기: 2025년 11월 13일
+>프로덕션 빠른 릴리스: 2025년 11월 13일\
 >모두를 위한 프로덕션: 2025년 11월 13일
 
 Workfront Proofing과 함께 Adobe Express에 대한 교차 조직 지원을 소개합니다. 이 향상된 기능을 통해 여러 IMS 조직에서 작업하는 고객은 증명 워크플로를 원활하게 사용하고 관리할 수 있습니다.
@@ -70,7 +78,8 @@ Workfront Proofing과 함께 Adobe Express에 대한 교차 조직 지원을 소
 
 >[!NOTE]
 >
->미리 보기: 2025년 10월 30일>프로덕션 빠른 릴리스: 2025년 10월 30일\
+>미리 보기: 2025년 10월 30일
+>프로덕션 빠른 릴리스: 2025년 10월 30일\
 >모두를 위한 프로덕션: 2025년 10월 30일
 
 이제 Experience Manager Assets을 사용하여 검토 및 승인 주기&#x200B;을 거친 디지털 에셋을 관리하고 저장할 수 있습니다. 이 통합을 통해 Adobe Experience Manager, Frame.io 및 Workfront의 기능을 활용하여 컨텐츠 관리 및 공동 작업 프로세스를 간소화할 수 있습니다.

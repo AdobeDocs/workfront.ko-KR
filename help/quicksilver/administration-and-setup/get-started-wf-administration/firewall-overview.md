@@ -9,25 +9,32 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-TQID: https://experienceleague.adobe.com/m15T5ktaT8pxLn8ebahoeT8Tev72YtvzSVS-wDOq0UI
+TQID: 'https://experienceleague.adobe.com/m15T5ktaT8pxLn8ebahoeT8Tev72YtvzSVS-wDOq0UI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 714
+source-wordcount: '714'
 ht-degree: 0%
-
 ---
-
 # 방화벽 개요
 
 Adobe Workfront은 조직의 네트워크와 통신하므로 해당 통신을 허용하도록 조직의 방화벽을 구성해야 합니다. 방화벽은 인터넷으로부터 조직의 네트워크를 분리하여 기능하는 매우 효과적인 보안 조치입니다. 선택한 데이터 및 네트워크 트래픽만 조직의 네트워크로 이동하거나 네트워크의 외부로 이동할 수 있습니다. 방화벽은 데이터를 전송하거나 수신하는 사이트를 기준으로 데이터를 허용하거나 차단합니다. Adobe Workfront 관리자는 Workfront으로 또는 에서 전송된 데이터가 조직의 방화벽을 통과할 수 있는지 확인해야 합니다.

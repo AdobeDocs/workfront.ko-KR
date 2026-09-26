@@ -6,29 +6,41 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-TQID: https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg
+TQID: 'https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 7679
+source-wordcount: '7679'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront 2024년 릴리스 활동 계획
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
@@ -77,19 +89,19 @@ Workfront Planning이 일반 공급자로 릴리스됨에 따라 이제 Workfron
 
 * Workfront Planning을 통해 다음을 수행할 수 있습니다.
 
-   * 무제한 작업 영역
+  * 무제한 작업 영역
 
-   * 작업 영역당 25,000개의 레코드
+  * 작업 영역당 25,000개의 레코드
 
-   * 인스턴스에 대한 총 50만 개의 레코드
+  * 인스턴스에 대한 총 50만 개의 레코드
 
 * Workfront Planning Plus를 통해 다음을 수행할 수 있습니다.
 
-   * 무제한 작업 영역
+  * 무제한 작업 영역
 
-   * 작업 영역당 500,000개의 레코드
+  * 작업 영역당 500,000개의 레코드
 
-   * 인스턴스에 대한 총 레코드 2백만 개.
+  * 인스턴스에 대한 총 레코드 2백만 개.
 
 자세한 내용은 [Adobe Workfront Planning 개체 제한 개요](/help/quicksilver/planning/general/limitations-overview.md)를 참조하십시오.
 
@@ -149,10 +161,10 @@ Workfront Planning이 일반 공급자로 릴리스됨에 따라 이제 Workfron
 
 * 구성 방법에 따라 요청 양식에는 다음 유형의 필드를 제외하고 레코드 유형의 모든 필드가 표시될 수 있습니다.
 
-   * 사람
-   * 연결된 필드(Experience Manager 자산과의 연결 포함)
-   * 연결된 조회 필드
-   * 공식
+  * 사람
+  * 연결된 필드(Experience Manager 자산과의 연결 포함)
+  * 연결된 조회 필드
+  * 공식
 
 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
@@ -179,13 +191,13 @@ Workfront Planning이 일반 공급자로 릴리스됨에 따라 이제 Workfron
 
 * 다음 중 하나에 맞게 레코드 막대 또는 해당 그룹화의 색상을 변경합니다.
 
-   * 레코드 유형의 색상
+  * 레코드 유형의 색상
 
-   * 선택하는 필드의 색상
+  * 선택하는 필드의 색상
 
-   * 그룹화의 색상
+  * 그룹화의 색상
 
-   * 색상 없음(기본값)
+  * 색상 없음(기본값)
 
 특정 필드에 색상을 일치시킬 때는 색상으로 구분된 옵션이 있는 필드만 선택할 수 있습니다.
 
@@ -494,9 +506,9 @@ Workfront Planning에서 작업 공간 템플릿 카드의 모양 및 필드를 
 
 * 마케팅 관리 템플릿을 제거했습니다. 마케팅 관리를 위해 다음 템플릿을 추가했습니다. 워크플로우의 복잡성에 따라 적절한 템플릿을 사용하는 것이 좋습니다.
 
-   * 기본: 마케팅 관리
-   * 고급: 마케팅 관리
-   * 엔터프라이즈: 마케팅 관리
+  * 기본: 마케팅 관리
+  * 고급: 마케팅 관리
+  * 엔터프라이즈: 마케팅 관리
 
 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -622,9 +634,9 @@ Workfront Planning에서 작업 공간 템플릿 카드의 모양 및 필드를 
 
 * Workfront 관리자인 경우 다음 탭이 표시됩니다.
 
-   * 내 작업 영역: 생성한 작업 영역만 표시합니다.
+  * 내 작업 영역: 생성한 작업 영역만 표시합니다.
 
-   * 기타 작업 영역: 사용자가 작성했거나 사용자와 공유된 작업 영역을 표시합니다.
+  * 기타 작업 영역: 사용자가 작성했거나 사용자와 공유된 작업 영역을 표시합니다.
 
 * Workfront Planning에 대한 설명서 및 릴리스 활동 링크
 

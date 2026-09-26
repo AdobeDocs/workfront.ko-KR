@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA
+TQID: 'https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # 레코드 유형 개요
 
 <!--
@@ -51,8 +58,8 @@ Workfront Planning에서 조직의 요구 사항에 맞는 사용자 정의 레�
 
 * 템플릿에서 작업 공간을 만들면 다음 작업 공간 섹션에 레코드 유형이 생성됩니다.
 
-   * **운영 레코드 종류**: 전략 계획, 이니셔티브 또는 계획된 작업을 나타내는 레코드 종류. 예를 들어 Campaign, Activity, Tactic, Opportunity 는 운영 레코드 유형입니다.
-   * **분류**: 작업 레코드 형식에 대한 특성을 캡처하는 레코드 형식입니다. 예를 들어 지역, 주소, 대상은 분류법입니다.
+  * **운영 레코드 종류**: 전략 계획, 이니셔티브 또는 계획된 작업을 나타내는 레코드 종류. 예를 들어 Campaign, Activity, Tactic, Opportunity 는 운영 레코드 유형입니다.
+  * **분류**: 작업 레코드 형식에 대한 특성을 캡처하는 레코드 형식입니다. 예를 들어 지역, 주소, 대상은 분류법입니다.
 
   단면 및 레코드 유형의 이름을 바꾸거나 삭제하거나 더 많이 만들 수 있습니다.
 
@@ -63,8 +70,8 @@ Workfront Planning에서 조직의 요구 사항에 맞는 사용자 정의 레�
   한 작업 영역 또는 Workfront 인스턴스에서 가질 수 있는 레코드 종류의 수에 대한 제한 사항은 [Adobe Workfront Planning 개체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md)를 참조하십시오.
 * 두 개 이상의 작업 영역에서 레코드 유형을 사용하려면 레코드 유형을 전역 또는 연결 가능한 것으로 지정할 수 있습니다.
 
-   * 글로벌 레코드 유형은 다른 작업 공간에 기존 레코드 유형으로 추가할 수 있습니다.
-   * 연결 가능한 레코드 형식은 다른 작업 영역에서 연결할 수 있습니다.
+  * 글로벌 레코드 유형은 다른 작업 공간에 기존 레코드 유형으로 추가할 수 있습니다.
+  * 연결 가능한 레코드 형식은 다른 작업 영역에서 연결할 수 있습니다.
 
   자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오.
 

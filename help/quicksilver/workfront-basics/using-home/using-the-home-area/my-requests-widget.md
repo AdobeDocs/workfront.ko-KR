@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/CmlT3NwdCWm-UiIiN5mxGgEVFVLjtqOY97ATuTgaN4g
+TQID: 'https://experienceleague.adobe.com/CmlT3NwdCWm-UiIiN5mxGgEVFVLjtqOY97ATuTgaN4g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: '698'
 ht-degree: 3%
-
 ---
-
 # 내 요청 위젯 사용
 
 <!--
@@ -37,7 +41,7 @@ remove Preview and Production references at Production release April 15, 2026
 >[!IMPORTANT]
 >
 >이 문서에서는 새로운 내 요청 위젯에 대해 설명합니다. 새 위젯을 보려면 새 요청 환경을 활성화해야 합니다.
->요청 영역에서 새 요청 환경을 사용할 수 있습니다.
+>요청 영역에서 새 요청 경험을 활성화할 수 있습니다.
 
 내 요청 위젯은 사용자가 제출한 요청을 표시합니다. 요청을 필터링하거나 특정 요청을 검색하거나 열 순서 및 가시성을 조정할 수 있습니다. 내 요청 위젯에서 새 요청을 만들 수도 있습니다.
 

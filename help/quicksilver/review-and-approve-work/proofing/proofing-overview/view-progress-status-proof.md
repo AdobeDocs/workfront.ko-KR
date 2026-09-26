@@ -6,20 +6,27 @@ description: 검토 프로세스를 통해 증명이 진행되는 방식에 대�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-TQID: https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw
+TQID: 'https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 320
+source-wordcount: '377'
 ht-degree: 1%
-
 ---
-
 # 증명 진행 상황 및 상태 개요
 
 검토 프로세스를 통해 증명이 진행되는 방식에 대한 정보를 확인하고 문서 영역에서 증명 결정 상태에 대한 전반적인 요약을 볼 수 있습니다.
@@ -100,7 +107,7 @@ ht-degree: 1%
 
 ## 증명 상태 개요
 
-증명 상태는 증명에 필요한 결정의 상태를 표시합니다. 증명의 상태는 &quot;최악의 경우&quot; 참가자에 의해 결정됩니다. 예를 들어 증명에 대한 세 가지 결정이 있다고 가정해 보겠습니다. 두 개의 상태는 **수락됨**&#x200B;이고 한 개의 상태는 **거부됨**&#x200B;입니다. **Rejected**&#x200B;의 &quot;최악의 경우&quot; 결정은 다른 결정과 전체 증명 상태를 **Rejected**&#x200B;로 표시합니다. 
+증명 상태는 증명에 필요한 결정의 상태를 표시합니다. 증명의 상태는 &quot;최악의 경우&quot; 참가자에 의해 결정됩니다. 예를 들어 증명에 대한 세 가지 결정이 있다고 가정해 보겠습니다. 두 개의 상태는 **수락됨**&#x200B;이고 한 개의 상태는 **거부됨**&#x200B;입니다. **Rejected**&#x200B;의 &quot;최악의 경우&quot; 결정은 다른 결정 및 증명의 전체 상태를 **Rejected**&#x200B;로 표시합니다. 
 
 ![기존 진행률 증명 편집](assets/proof-edit-existing-progress-350x62.png)
 

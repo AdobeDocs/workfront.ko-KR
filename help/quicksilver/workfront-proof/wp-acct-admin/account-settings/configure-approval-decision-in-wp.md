@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: ' [!DNL Workfront Proof]에서 승인 결정 옵션 구성'
-description: 조직의  [!DNL Workfront Proof] 사용자가 만든 모든 증명에 대한 승인 결정 옵션을 구성할 수 있습니다.
+title: '[!DNL Workfront Proof]에서 승인 결정 옵션 구성'
+description: 조직의 [!DNL Workfront Proof] 사용자가 만든 모든 증명에 대한 승인 결정 옵션을 구성할 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9e1c2a4e-0641-4334-8ff9-dbb203ccbc82
-TQID: https://experienceleague.adobe.com/byd7VyLV7IkwQ1YSHoQMHQNXOPAeJvP8-ENhHBvo01A
+TQID: 'https://experienceleague.adobe.com/byd7VyLV7IkwQ1YSHoQMHQNXOPAeJvP8-ENhHBvo01A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: '606'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 승인 결정 옵션 구성
 
 >[!IMPORTANT]
@@ -71,14 +80,14 @@ Select 또는 Premium 버전 플랜을 사용하는 [!DNL Workfront Proof] 관�
 요구 사항에 따라 여러 가지 이유를 선택하도록 허용하거나 하나의 선택 목록으로 만들 수 있습니다. 이유를 필수 항목으로 지정할 수도 있습니다. 즉, 검토자가 증명을 저장하기 전에 이유를 선택해야 합니다.
    ![Reasons_setup.png](assets/reasons-setup-350x121.png)
 
-1. **[!UICONTROL 이유]** 섹션에서 **[!UICONTROL 새 이유]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 이유]** 섹션에서 **[!UICONTROL 새 이유]**를 클릭합니다.
    ![New_reason.png](assets/new-reason-350x135.png)
 
 1. **[!UICONTROL Reason]** 아래에 나타나는 상자에 이유 섹션의 제목을 입력합니다.
 1. 텍스트 상자를 포함하려면 **[!UICONTROL 텍스트 상자 포함]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 저장]**을 클릭합니다.
    ![reasons_setup_2.png](assets/reasons-setup-2-350x146.png)
-가장 중요한 단계는 이유가 표시되어야 하는 결정을 선택하는 것입니다. 만약 당신이 그것을 잊었다면, 이유는 당신의 증명에 나타나지 않을 것이다.
+   가장 중요한 단계는 이유가 표시되어야 하는 결정을 선택하는 것입니다. 만약 당신이 그것을 잊었다면, 이유는 당신의 증명에 나타나지 않을 것이다.
 
 1. 페이지 상단의 결정 목록에서 **[!UICONTROL 표시 이유]** 열의 상자를 선택합니다. 필요에 따라 하나 이상의 결정을 선택할 수 있습니다.
    ![이유_-_decision_selection.png](assets/reasons---decision-selection-350x150.png)
@@ -90,7 +99,7 @@ Select 또는 Premium 버전 플랜을 사용하는 [!DNL Workfront Proof] 관�
 1. **[!UICONTROL 설정]** > **[!UICONTROL 계정 설정]**&#x200B;을 클릭합니다.
 
 1. **[!UICONTROL 결정]** 탭을 엽니다.
-1. **[!UICONTROL 결정 메시지 게시]** 섹션에서 **[!UICONTROL 메시지]** 행 끝에 있는 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 결정 메시지 게시]** 섹션에서 **[!UICONTROL 메시지]** 행 끝에 있는 **[!UICONTROL 편집]**을 클릭합니다.
 메시지를 모든 의사 결정자에게 표시할지 또는 기본 의사 결정자로 제한할지 결정할 수도 있습니다.
    ![post_decision_message_set_up.png](assets/post-decision-message-set-up-350x125.png)
 

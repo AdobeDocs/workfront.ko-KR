@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc
+TQID: 'https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '891'
 ht-degree: 4%
-
 ---
-
 # Adobe Workfront에서 보기 만들기 또는 편집
 
 <!-- Audited: 11/2024 -->
@@ -131,9 +136,9 @@ ht-degree: 4%
      >
      >보고서에서 그룹화를 사용하는 방법에 대한 자세한 내용은 문서 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
 
-      * (선택 사항) 열에 대해 다음 정보를 지정하려면 **고급 옵션**&#x200B;을 클릭합니다.
+     * (선택 사항) 열에 대해 다음 정보를 지정하려면 **고급 옵션**&#x200B;을 클릭합니다.
 
-        <table style="table-layout:auto"> 
+       <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -156,7 +161,7 @@ ht-degree: 4%
          </tbody> 
         </table>
 
-        보고서의 조건부 서식 보기에 대한 자세한 내용은 문서 [텍스트 모드에서 조건부 서식 사용](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)을 참조하십시오.
+       보고서의 조건부 서식 보기에 대한 자세한 내용은 문서 [텍스트 모드에서 조건부 서식 사용](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)을 참조하십시오.
 
 1. (조건부) **고급 옵션**&#x200B;을 클릭한 경우 **완료**&#x200B;를 클릭합니다.
 

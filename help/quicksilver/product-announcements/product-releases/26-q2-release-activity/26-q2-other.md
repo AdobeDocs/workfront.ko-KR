@@ -5,18 +5,24 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-TQID: https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU
+TQID: 'https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '620'
 ht-degree: 1%
-
 ---
-
 # 2026년 2분기 릴리스 일정 동안의 기타 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 2분기 릴리스의 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -27,7 +33,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->미리 보기: 2026년 4월 2일>프로덕션 빠른 릴리스: 2026년 4월 15일>모든 프로덕션: 2026년 4월 16일
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>전체 프로덕션: 2026년 4월 16일
 
 향상된 목록에서 행 높이를 조정하는 새 설정을 추가했습니다.
 
@@ -37,7 +45,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->미리 보기: 2026년 4월 2일>프로덕션 빠른 릴리스: 2026년 4월 15일>모든 프로덕션: 2026년 4월 16일
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>전체 프로덕션: 2026년 4월 16일
 
 팀, 그룹, 회사 및 역할 필터에 대해 다음과 같이 개인화된 이름을 고급 목록에 추가했습니다.
 
@@ -57,7 +67,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->미리 보기: 2026년 4월 2일>프로덕션 빠른 릴리스: 2026년 4월 15일>모두를 위한 프로덕션: 2026년 4월 16일
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
 
 이제 요청 영역의 요청 목록과 홈의 내 요청 위젯에 조건부 서식을 적용할 수 있습니다. 이 기능은 개선 전 목록 보기에 존재하지 않았습니다.
 
@@ -84,7 +96,9 @@ Workfront 관리자는 레이아웃 템플릿에서 보기를 추가하거나 �
 
 >[!NOTE]
 >
->미리 보기: 2026년 4월 2일>프로덕션 빠른 릴리스: 2026년 4월 15일>모든 프로덕션: 2026년 4월 16일
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>전체 프로덕션: 2026년 4월 16일
 
 필요한 요청을 더 쉽게 찾을 수 있도록 요청 목록 및 내 요청 위젯에 그룹화를 추가했습니다. 이제 목록의 열을 기준으로 요청을 그룹화할 수 있습니다. 이러한 그룹화는 그룹화를 만들 때 사용 중인 보기의 일부가 됩니다.
 
@@ -94,14 +108,15 @@ Workfront 관리자는 레이아웃 템플릿에서 보기를 추가하거나 �
 
 >[!NOTE]
 >
->미리 보기: 2025년 12월 11일>프로덕션 빠른 릴리스: 2026년 2월 11일\
+>미리 보기: 2025년 12월 11일
+>프로덕션 빠른 릴리스: 2026년 2월 11일\
 >모두를 위한 프로덕션: 2026년 2월 11일
 
 조직이 Adobe 통합 경험의 이점을 이용할 수 있도록 하기 위해 기존 Workfront 고객이 이를 사용할 수 있도록 계속 노력하고 있습니다.
 
 Adobe 통합 경험에는 다음이 포함됩니다.
 
-* Adobe Experience Cloud을 통한 모든 Adobe 애플리케이션에 대한 단일 로그인
+* Adobe Experience Cloud를 통한 모든 Adobe 애플리케이션에 대한 단일 로그인
 * Workfront 조직과 환경 사이를 이동하는 &quot;조직 전환기&quot;
 * Workfront 페이지, Adobe Experience Cloud 환경 설정 및 Workfront 프로필에 대한 옵션을 사용하여 탐색
 

@@ -7,22 +7,29 @@ description: 증명 역할을 사용하면 개별 증명에 대한 권한을 부
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-TQID: https://experienceleague.adobe.com/69ZDYn1qsA9dpvF1Noq-bgEXeVYaQFGSxx-ziCL-Jmw
+TQID: 'https://experienceleague.adobe.com/69ZDYn1qsA9dpvF1Noq-bgEXeVYaQFGSxx-ziCL-Jmw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 340
+source-wordcount: '342'
 ht-degree: 1%
-
 ---
-
 # 증명 역할 개요
 
 증명 역할을 사용하면 개별 증명에 대한 권한을 부여할 수 있습니다. 증명 역할은 증명 권한 프로필과 다릅니다. 증명 권한 프로필에 대한 자세한 내용은 [증명 권한 프로필 개요](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)를 참조하십시오.

@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: ' [!DNL Workfront Proof]에서 사용자 지정 필드 만들기 및 관리'
+title: '[!DNL Workfront Proof]에서 사용자 지정 필드 만들기 및 관리'
 description: 이 기능을 사용하려면 Select 또는 Premium [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 Workfront 플랜 을 참조하십시오.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-TQID: https://experienceleague.adobe.com/3yKlFPGeKsvd4IMn-Vop6dg8MUaiVBTaVSilbyp8B-I
+TQID: 'https://experienceleague.adobe.com/3yKlFPGeKsvd4IMn-Vop6dg8MUaiVBTaVSilbyp8B-I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1054
+source-wordcount: '1055'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 사용자 지정 필드 만들기 및 관리
 
 <!-- Audited: 4/2025 -->
@@ -31,7 +40,7 @@ ht-degree: 0%
 >
 >이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
-이 기능을 사용하려면 Select 또는 Premium [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://business.adobe.com/kr/products/workfront/pricing.html)을 참조하십시오.
+이 기능을 사용하려면 Select 또는 Premium [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하십시오.
 
 사용자 정의 필드를 사용하면 새 증명, 사용자 또는 게스트를 만들 때 추가 데이터를 캡처할 수 있습니다. 예를 들어 새 증명을 만드는 사용자는 작업 번호, 부서 코드 또는 공급자 참조를 캡처할 수 있는 추가 섹션을 포함할 수 있습니다.
 

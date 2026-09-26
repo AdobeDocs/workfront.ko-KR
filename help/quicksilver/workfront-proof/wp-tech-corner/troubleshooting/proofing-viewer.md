@@ -8,23 +8,33 @@ description: 증명 콘텐츠가 로드되지 않고 빈 증명 뷰어만 표시
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-TQID: https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA
+TQID: 'https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '980'
 ht-degree: 0%
-
 ---
-
 # 문제 해결 - [!DNL Workfront Proof] 증명 뷰어
 
 <!-- Audited: 01/2024 -->
@@ -82,10 +92,10 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 증명이 컴퓨터의 브라우저에서 열리지 않는 경우 위치 및/또는 위치 외부의 다른 컴퓨터에서 열려고 합니다. 이렇게 하면 특정 컴퓨터에 문제가 있는지 또는 로컬 네트워크에 문제가 있는지 확인할 수 있습니다.
 보안 수준이 높으면 [!DNL Workfront Proof] 연결이 다음에 의해 차단될 수 있습니다.
 
-   * 로컬 AV 소프트웨어
-   * 네트워크 보안 솔루션
-   * DNS, 방화벽 또는 프록시 구성
-   * 이것은 우리가 통제할 수 없는 설정입니다. 사용할 수 있는 다양한 보안 솔루션이 있으며, 네트워크에 구현된 보안 솔루션과 [!DNL Workfront Proof]에 대한 연결을 차단할 수 있는 보안 솔루션을 알 수 없습니다. 또한 내부 보안 구성을 결정하는 것은 [!DNL Workfront Proof]까지 할 수 없습니다. 위치/네트워크의 여러 컴퓨터에서 증명을 여는 데 문제가 있는 경우 IT 팀에 연락하여 네트워크 설정을 확인하고 필요한 경우 [!DNL Workfront Proof]을(를) 승인하거나 허용 목록에 추가하다에 추가하는 것이 좋습니다.
+  * 로컬 AV 소프트웨어
+  * 네트워크 보안 솔루션
+  * DNS, 방화벽 또는 프록시 구성
+  * 이것은 우리가 통제할 수 없는 설정입니다. 사용할 수 있는 다양한 보안 솔루션이 있으며, 네트워크에 구현된 보안 솔루션과 [!DNL Workfront Proof]에 대한 연결을 차단할 수 있는 보안 솔루션을 알 수 없습니다. 또한 내부 보안 구성을 결정하는 것은 [!DNL Workfront Proof]까지 할 수 없습니다. 위치/네트워크의 여러 컴퓨터에서 증명을 여는 데 문제가 있는 경우 IT 팀에 연락하여 네트워크 설정을 확인하고 필요한 경우 [!DNL Workfront Proof]을(를) 승인하거나 허용 목록에 추가하다에 추가하는 것이 좋습니다.
 
 * 네트워크에서 [!DNL Workfront Proof] 연결이 허용됩니까?
 증명 뷰어 내부에 페이지 조각인 타일이 로드됩니다. 이 콘텐츠가 사용자 측에서 제대로 로드되지 않으면 [!DNL Workfront Proof]에 대한 일부 연결이 네트워크에서 차단되었을 수 있습니다. 모든 연결 및 *.proofhq.com의 모든 콘텐츠가 허용 목록에 추가하다에 추가되었는지 확인해야 합니다. IT 팀이 이 확인을 지원할 수 있어야 합니다.

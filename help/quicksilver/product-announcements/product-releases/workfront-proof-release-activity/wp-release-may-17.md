@@ -8,18 +8,28 @@ author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 8b148684-28bf-40e8-8014-d6458c8d14e1
-TQID: https://experienceleague.adobe.com/FS9XdIS9PfjACgdqRHGuohzXQHXmEmeu2jnb0wPBqwQ
+TQID: 'https://experienceleague.adobe.com/FS9XdIS9PfjACgdqRHGuohzXQHXmEmeu2jnb0wPBqwQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 175
+source-wordcount: '175'
 ht-degree: 0%
-
 ---
-
 # Workfront Proof 릴리스 활동: 2021년 5월 17일이 있는 주
 
 이 페이지에서는 Workfront Proof(독립 실행형 증명 애플리케이션)에 대한 변경 사항에 대해 설명합니다. 여기에 설명된 변경 사항은 Adobe Workfront 애플리케이션 내의 증명 기능에 적용되지 않습니다.

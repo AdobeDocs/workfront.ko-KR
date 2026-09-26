@@ -8,18 +8,24 @@ recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/LAxXoG6cLqWJfEn5FQQDVQ7JO9-Fql0o56Q9qUIi2Gs
+TQID: 'https://experienceleague.adobe.com/LAxXoG6cLqWJfEn5FQQDVQ7JO9-Fql0o56Q9qUIi2Gs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: '307'
 ht-degree: 0%
-
 ---
-
 # 기본 필드 개요
 
 <!--
@@ -53,9 +59,9 @@ ht-degree: 0%
 
 * 레코드의 제목은 다음 영역에 표시됩니다.
 
-   * 레코드 페이지 및 미리 보기 상자의 헤더 영역
-   * 연결된 레코드 필드
-   * 보기 횟수
+  * 레코드 페이지 및 미리 보기 상자의 헤더 영역
+  * 연결된 레코드 필드
+  * 보기 횟수
 * 다른 필드를 기본 필드로 지정하지 않으면 테이블 보기에서 기본 필드를 이동, 숨기기 또는 삭제할 수 없습니다.
 * 기본 필드는 항상 잠겨 있으며 테이블 뷰의 가로 스크롤의 일부가 아닙니다.
 * 테이블 보기의 기본 필드를 변경하면 기본 필드를 선택하는 다른 모든 사용자의 보기에 영향을 줍니다.

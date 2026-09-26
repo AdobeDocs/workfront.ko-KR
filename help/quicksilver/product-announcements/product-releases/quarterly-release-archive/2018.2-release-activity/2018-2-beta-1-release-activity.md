@@ -7,21 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbe98ee2-f155-4d31-88c4-7f41b6f91eb2
-TQID: https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico
+TQID: 'https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1178
+source-wordcount: '1178'
 ht-degree: 0%
-
 ---
-
 # 2018.2 Beta 1 릴리스 활동
 
 이 페이지에서는 2018.2 Beta 1 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 3월 22일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 6월에 사용할 수 있습니다.
@@ -93,8 +101,8 @@ ht-degree: 0%
 * 전체 화면 모드.
 * 이제 성능이 더 빠르고 효율적입니다.
 
-   * 표시할 수 있는 사용자, 프로젝트, 역할 및 작업의 수에 대한 새로운 제한.
-   * 레이지 로드로 사용자 로드 속도 향상.
+  * 표시할 수 있는 사용자, 프로젝트, 역할 및 작업의 수에 대한 새로운 제한.
+  * 레이지 로드로 사용자 로드 속도 향상.
 
 리소스 플래너에서 다음 기능이 일시적으로 비활성화되었습니다.
 

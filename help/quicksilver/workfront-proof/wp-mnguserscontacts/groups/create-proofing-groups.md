@@ -2,34 +2,43 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
-title: ' [!DNL Workfront Proof]을(를) 사용하여 증명 그룹 만들기'
+title: '[!DNL Workfront Proof]을(를) 사용하여 증명 그룹 만들기'
 description: 이 기능을 사용하려면 Select 또는 Premium 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 Workfront 플랜 을 참조하십시오.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c0433621-3988-45f2-9d6b-68ef92b5b7d2
-TQID: https://experienceleague.adobe.com/Ms7E2rL-d7WuDXle1wPaCypcoP-zTXLR3WFae61SikQ
+TQID: 'https://experienceleague.adobe.com/Ms7E2rL-d7WuDXle1wPaCypcoP-zTXLR3WFae61SikQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 197
+source-wordcount: '197'
 ht-degree: 1%
-
 ---
-
 # [!DNL Workfront Proof]을(를) 사용하여 증명 그룹 만들기
 
 >[!IMPORTANT]
 >
 >이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
-이 기능을 사용하려면 Select 또는 Premium 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 플랜](https://business.adobe.com/kr/products/workfront/pricing.html)을 참조하세요.
+이 기능을 사용하려면 Select 또는 Premium 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하세요.
 
 여러 증명에 대해 검토자로 추가할 수 있는 사용자 그룹을 만들 수 있습니다. 이 기능은 동일한 사용자에게 콘텐츠를 정기적으로 전송하는 경우에 유용합니다.
 

@@ -3,24 +3,32 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: ' [!DNL Workfront Proof]에서 증명 및 파일 작업'
-description: ' [!DNL Workfront Proof]에서 증명 및 파일을 사용하여 작업합니다.'
+title: '[!DNL Workfront Proof]에서 증명 및 파일 작업'
+description: '[!DNL Workfront Proof]에서 증명 및 파일을 사용하여 작업합니다.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 31b97154-e506-4a1c-ab9a-92395156ed47
-TQID: https://experienceleague.adobe.com/2PTqpkp4ebKoK5ZDJVBa887auo8-qPjjfTSqDK7E67I
+TQID: 'https://experienceleague.adobe.com/2PTqpkp4ebKoK5ZDJVBa887auo8-qPjjfTSqDK7E67I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 74
+source-wordcount: '74'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 증명 및 파일 작업
 
 >[!IMPORTANT]
@@ -29,8 +37,8 @@ ht-degree: 0%
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
-* [&#x200B; [!DNL Workfront Proof]의 자동화된 워크플로](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-* [&#x200B; [!DNL Workfront Proof]의 기본 기능](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+* [ [!DNL Workfront Proof]의 자동화된 워크플로](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+* [ [!DNL Workfront Proof]의 기본 기능](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
 * [증명 및 파일 만들기](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
 * [작업 관리](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
 * [작업 구성](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)

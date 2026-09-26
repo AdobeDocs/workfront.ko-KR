@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+TQID: 'https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '862'
 ht-degree: 0%
-
 ---
-
 # 2018.3 Beta 결승전
 
 이 페이지에서는 2018.3 Beta 최종 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 10월 10일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
@@ -128,10 +134,10 @@ Workfront for Adobe Creative Cloud 통합은 새롭게 디자인되고 향상된
 
   이제 홈 화면에서 Workfront 앱을 길게 눌러 다음 작업을 수행할 수 있습니다.
 
-   * 검색
-   * 알림 액세스
-   * 가장 최근에 액세스한 프로젝트 액세스 
-   * 가장 최근에 액세스한 작업 또는 문제에 액세스
+  * 검색
+  * 알림 액세스
+  * 가장 최근에 액세스한 프로젝트 액세스 
+  * 가장 최근에 액세스한 작업 또는 문제에 액세스
 
 * 새로운 푸시 알림 및 푸시 알림의 작업 소개
 
@@ -141,18 +147,18 @@ Workfront for Adobe Creative Cloud 통합은 새롭게 디자인되고 향상된
 
   앱 또는 푸시 알림을 생성한 항목으로 이동할 필요 없이 푸시 알림을 길게 눌러 다음 작업을 수행할 수 있습니다.
 
-   * 항목에 주석 달기
-   * 작업 수락
-   * 승인 결정
+  * 항목에 주석 달기
+  * 작업 수락
+  * 승인 결정
 
 * iOS 디바이스를 위한 가로 방향 지원
 
   이제 다음 iPhone 크기를 제외하고, iOS 및 Android 모바일 앱 모두에 대해 가로 및 세로 방향을 모두 지원합니다.
 
-   * IPHONE 5
-   * iPhone
-   * IPHONE SE\
-     이 개선 이전에는 가로 방향이 Android 디바이스에 대해서만 지원되었습니다.
+  * IPHONE 5
+  * iPhone
+  * IPHONE SE\
+    이 개선 이전에는 가로 방향이 Android 디바이스에 대해서만 지원되었습니다.
 
 * iOS 12 및 Android P 플랫폼 지원
 * iOS 및 Android 태블릿 지원

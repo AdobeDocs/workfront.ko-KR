@@ -8,22 +8,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-TQID: https://experienceleague.adobe.com/B5-tjy-e33pN0nXohWtt7HoFArOdPAu-jQfVu270K9w
+TQID: 'https://experienceleague.adobe.com/B5-tjy-e33pN0nXohWtt7HoFArOdPAu-jQfVu270K9w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: '798'
 ht-degree: 3%
-
 ---
-
 # 사용자 지정 상태를 기본 상태로 사용
 
 사용자 지정 상태를 기본 상태로 설정하면 시스템 전체에서 다양한 방식으로 새 기본 상태가 사용됩니다. 기본 시스템 수준 상태로 설정되는지 또는 기본 그룹 수준 상태로 설정되는지에 따라 사용 방법이 달라집니다.

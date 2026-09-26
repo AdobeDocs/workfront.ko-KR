@@ -6,13 +6,20 @@ description: Workfront 관리자가 스토리지 환경 설정 기본값을 선�
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 0%
-
 ---
-
 # 프로젝트 및 관련 오브젝트에 대한 문서 관리 개요
 
 Adobe Workfront 관리자는 조직의 저장소 환경 설정에 대한 기본값을 정의하여 Workfront에서 문서가 저장되는 위치를 나타낼 수 있습니다.
@@ -152,7 +159,7 @@ This is not possible anymore:
 * Adobe 클라우드 스토리지 프로젝트를 레거시 스토리지 포트폴리오에 추가하거나 레거시 스토리지 프로젝트를 Adobe 스토리지 포트폴리오에 추가할 수 없습니다.
 * 관리자는 설정의 시스템 환경 설정 영역에서 레거시 스토리지 포트폴리오를 Adobe 클라우드 스토리지로 변환할 수 있습니다. 모든 하위 개체(프로그램, 프로젝트 및 문서)는 기존 저장소에 남아 있습니다. 새 프로젝트는 Adobe 클라우드 스토리지를 사용합니다. 포트폴리오에 추가된 새 문서는 레거시 스토리지에 계속 저장됩니다.
 자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
-* &#x200B;<!-- this point also repeats for programs below-->포트폴리오가 레거시에서 Adobe 클라우드 스토리지로 변환되고 프로그램에 레거시 스토리지가 있는 경우 프로그램의 프로젝트에서도 레거시 스토리지를 사용하고 있습니다.
+* <!-- this point also repeats for programs below-->포트폴리오가 레거시에서 Adobe 클라우드 스토리지로 변환되고 프로그램에 레거시 스토리지가 있는 경우 프로그램의 프로젝트에서도 레거시 스토리지를 사용하고 있습니다.
 
   더 이상 기존 레거시 스토리지 프로젝트를 이 포트폴리오에 추가할 수 없습니다.
 
@@ -171,7 +178,7 @@ This is not possible anymore:
 * Adobe 클라우드 스토리지 프로그램을 레거시 스토리지 포트폴리오에 추가하거나 레거시 프로그램을 Adobe 클라우드 스토리지 포트폴리오에 추가할 수 없습니다.
 * 레거시 스토리지 프로그램의 Adobe 클라우드 스토리지 템플릿에서 프로젝트를 생성할 수 없습니다.
 * Adobe 클라우드 스토리지 프로그램의 레거시 스토리지 템플릿에서 프로젝트를 만들 수 있지만 템플릿의 문서 및 폴더는 새 프로젝트에 추가되지 않습니다. 프로젝트는 Adobe 클라우드 스토리지를 받습니다.
-* &#x200B;<!-- this point also repeats for portfolios above-->포트폴리오가 레거시에서 Adobe 클라우드 스토리지로 변환되고 프로그램에 레거시 스토리지가 있는 경우 프로그램의 프로젝트에서도 레거시 스토리지를 사용하고 있습니다.
+* <!-- this point also repeats for portfolios above-->포트폴리오가 레거시에서 Adobe 클라우드 스토리지로 변환되고 프로그램에 레거시 스토리지가 있는 경우 프로그램의 프로젝트에서도 레거시 스토리지를 사용하고 있습니다.
 
   더 이상 기존 레거시 스토리지 프로젝트를 이 포트폴리오에 추가할 수 없습니다.
 

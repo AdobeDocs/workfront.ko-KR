@@ -6,18 +6,21 @@ description: 증명에 대한 기존 주석을 검토 및 해결하고, 증명 �
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
-TQID: https://experienceleague.adobe.com/ZLVGe0gYBjB-gMr2bNBJPXxTVaabN5ELhaEL4uMASYY
+TQID: 'https://experienceleague.adobe.com/ZLVGe0gYBjB-gMr2bNBJPXxTVaabN5ELhaEL4uMASYY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: '881'
 ht-degree: 0%
-
 ---
-
 # [!DNL Android]의 증명에 대한 댓글
 
 증명에 대한 기존 주석을 검토 및 해결하고, 증명 문서에 새 주석 및 주석을 추가할 수 있습니다.
@@ -26,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->증명 소유자가 증명을 잠근 경우 댓글을 달 수 없습니다. 자세한 내용은 [&#128279;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)모바일 앱에서 증명 검토 및 결정 [!DNL Adobe Workfront] 문서에서 [증명 잠금 및 잠금 해제](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)를 참조하십시오.
+>증명 소유자가 증명을 잠근 경우 댓글을 달 수 없습니다. 자세한 내용은 [모바일 앱에서 증명 검토 및 결정 [!DNL Adobe Workfront] 문서에서 [증명 잠금 및 잠금 해제](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)를 참조하십시오](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## 증명의 기존 댓글 검토
 

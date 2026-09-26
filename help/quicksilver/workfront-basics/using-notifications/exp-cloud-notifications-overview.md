@@ -6,20 +6,23 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
-TQID: https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ
+TQID: 'https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # Experience Cloud 알림 개요
 
 Adobe Workfront 알림이 Adobe의 중앙 집중식 알림 시스템인 Experience Cloud 알림으로 이동합니다. 이 알림 시스템은 모든 디지털 경험 제품에서 사용됩니다.
@@ -90,12 +93,12 @@ Workfront은 Adobe 디지털 경험 제품군의 일부입니다. Experience Clo
 
 +++기존 알림이 없어집니까?
 
-아니요. 이전 알림은 Workfront에서 계속 액세스할 수 있지만, 전환이 완료되면 새 알림이 Experience Cloud을 통해 전송됩니다.
+아니요. 이전 알림은 Workfront에서 계속 액세스할 수 있지만, 전환이 완료되면 새 알림이 Experience Cloud를 통해 전송됩니다.
 +++
 
 +++ 사용자가 작업을 수행해야 합니까?
 
-처음은 아닙니다. Workfront 관리자는 먼저 설정을 확인한 다음 Experience Cloud으로 전환하면 새 알림 아이콘을 보게 됩니다. 여기에서 개인 알림에 액세스하는 방법을 학습해야 합니다.
+처음은 아닙니다. Workfront 관리자는 먼저 설정을 확인한 후 Experience Cloud로 전환하면 새 알림 아이콘을 보게 됩니다. 여기에서 개인 알림에 액세스하는 방법을 학습해야 합니다.
 +++
 
 +++조직이 Experience Cloud로 전환할 준비가 되지 않은 경우 어떻게 합니까?

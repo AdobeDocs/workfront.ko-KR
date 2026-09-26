@@ -2,29 +2,34 @@
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe 통합 경험 FAQ
-description: ' [!DNL Workfront] 과(와) Adobe Experience Cloud 간에 몇 가지 기능이 다릅니다.  [!DNL Workfront] 인스턴스가 통합 환경으로 마이그레이션되면 몇 가지 질문이 있을 수 있습니다.'
+description: '[!DNL Workfront]과(와) Adobe Experience Cloud 간에 몇 가지 기능이 서로 다르며, [!DNL Workfront] 인스턴스가 통합 환경으로 마이그레이션됨에 따라 몇 가지 질문이 있을 수 있습니다.'
 author: Courtney
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Axlk02Ilq5Y-jNBpEx76gNmZ3mF04sh4JNJpcx-DcQw
+TQID: 'https://experienceleague.adobe.com/Axlk02Ilq5Y-jNBpEx76gNmZ3mF04sh4JNJpcx-DcQw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1426
+source-wordcount: '1428'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Unified Experience] FAQ
 
 <!--Remove me October 2026-->
@@ -71,13 +76,13 @@ ht-degree: 0%
 
 [!DNL Admin Console]에 대한 자세한 내용은 다음 문서를 검토하십시오.
 
-* [&#x200B; [!DNL Adobe Admin Console] 준비](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+* [ [!DNL Adobe Admin Console] 준비](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
 * [플랫폼 기반 관리의 차이점([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-* [[!DNL Adobe Admin Console] 개요](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)
+* [[!DNL Adobe Admin Console] 개요](https://helpx.adobe.com/enterprise/using/admin-console.html)
 
 ### 마이그레이션을 용이하게 하기 위해 고객에게 필요한 것은 무엇입니까?
 
-마이그레이션을 예약하려면 기존 고객에게 연락해야 합니다. 마이그레이션 팀 지원 동료는 고객에게 프로세스를 안내하고, [!DNL Admin Console] 설정에 대해 조언하며, 가능한 한 단순하고 간편한 이동에 필요한 설명서 링크를 제공합니다. 자세한 내용은 [[!DNL Adobe Business Platform] 및 [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/workfront/faq)를 검토하십시오.
+마이그레이션을 예약하려면 기존 고객에게 연락해야 합니다. 마이그레이션 팀 지원 동료는 고객에게 프로세스를 안내하고, [!DNL Admin Console] 설정에 대해 조언하며, 가능한 한 단순하고 간편한 이동에 필요한 설명서 링크를 제공합니다. 자세한 내용은 [[!DNL Adobe Business Platform] 및 [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq)를 검토하십시오.
 
 ### SSO가 설정된 [!DNL Workfront]과(와) 다른 Federated ID에 대해 이 기능이 이미 활성화되어 있는 회사의 [!DNL Adobe Admin Console]을(를) 어떻게 처리하시겠습니까?
 

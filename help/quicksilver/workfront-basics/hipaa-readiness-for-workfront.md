@@ -6,20 +6,24 @@ description: HIPAA에 정의된 대로 비즈니스 연결 및/또는 비즈니�
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-TQID: https://experienceleague.adobe.com/l-NtMh5XxyfqH8jX87OPwwYbE8Qg2i5-vFK1tvdzuh0
+TQID: 'https://experienceleague.adobe.com/l-NtMh5XxyfqH8jX87OPwwYbE8Qg2i5-vFK1tvdzuh0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 457
+source-wordcount: '480'
 ht-degree: 0%
-
 ---
-
 # Workfront에 대한 HIPAA 준비
 
 HIPAA에 정의된 대로 비즈니스 연결 및/또는 비즈니스 연결을 대신하여 Adobe Workfront을 제공하는 적용 받는 엔티티인 Workfront 고객은 다음 지침을 사용하여 HIPAA 준비 사용을 위해 Workfront을 구성해야 합니다.
@@ -66,10 +70,10 @@ HIPAA에 정의된 대로 비즈니스 연결 및/또는 비즈니스 연결을 
 
 >[!IMPORTANT]
 >
->Workfront은 EHR(전자 의료 기록)을 위한 저장소로 설계되지 않았습니다. ePHI는 Adobe에서 서면으로 명시적으로 승인한 경우에만 처리할 수 있습니다. 
+>Workfront은 EHR(전자 의료 기록)을 위한 저장소로 설계되지 않았습니다. ePHI는 Adobe이 서면으로 명시적으로 승인한 경우에만 처리할 수 있습니다. 
 
 * ePHI에 액세스할 수 있는 모든 Workfront 데이터베이스의 경우 **EAR(Encryption at Rest)**&#x200B;이(가) 활성화되어 있는지 확인하십시오.
-   * EAR이 Workfront 구매에 포함되어 있는지 확인하려면 계정 관리자(AE)에게 문의하십시오.
-   * 규정 준수 의무를 충족하도록 Workfront을 통해 액세스할 수 있는 시스템/데이터베이스를 구성합니다.
+  * EAR이 Workfront 구매에 포함되어 있는지 확인하려면 계정 관리자(AE)에게 문의하십시오.
+  * 규정 준수 의무를 충족하도록 Workfront을 통해 액세스할 수 있는 시스템/데이터베이스를 구성합니다.
 * ePHI가 HIPAA가 아닌 다른 Adobe 솔루션과 전송, 연결 또는 공유되지 않도록 합니다.
 * Workfront을 통해 처리된 환자 사진이 안전하게 저장되고 공개적으로 액세스할 수 없도록 합니다.

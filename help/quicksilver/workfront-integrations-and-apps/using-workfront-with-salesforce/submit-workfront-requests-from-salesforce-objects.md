@@ -1,33 +1,39 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
-title: ' [!DNL Salesforce] 개체에서  [!DNL Adobe Workfront] 요청 제출'
-description: ' [!DNL Salesforce] 기회 및 계정의  [!DNL Adobe Workfront] for [!DNL Salesforce], you can submit [!DNL Workfront] 요청을 설치한 후. 이 기능은 Classic 및 Lightning Experience 프레임워크 모두에 있습니다.'
+title: '[!DNL Salesforce] 개체에서 [!DNL Adobe Workfront] 요청 제출'
+description: '[!DNL Salesforce]에 대해 [!DNL Adobe Workfront]을(를) 설치한 후 [!DNL Salesforce]개의 영업 기회 및 계정에서 [!DNL Workfront]개의 요청을 제출할 수 있습니다. 이 기능은 Classic 및 Lightning Experience 프레임워크 모두에 있습니다.'
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/LrL186SHwcVbif4cM9gYK6RzMzu4C3x2RigeVBGoOZs
+TQID: 'https://experienceleague.adobe.com/LrL186SHwcVbif4cM9gYK6RzMzu4C3x2RigeVBGoOZs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+    internal-label: Adobe Workfront for Salesforce
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 138
+source-wordcount: '146'
 ht-degree: 0%
-
 ---
-
 # [!DNL Salesforce] 개체에서 [!DNL Adobe Workfront] 요청 제출
 
 >[!IMPORTANT]
@@ -36,9 +42,9 @@ ht-degree: 0%
 >
 >조직의 Salesforce 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
 >
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Salesforce용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Salesforce 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)을 참조하십시오.
+>Salesforce용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Salesforce 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)을 참조하십시오.
 
 <!--
 

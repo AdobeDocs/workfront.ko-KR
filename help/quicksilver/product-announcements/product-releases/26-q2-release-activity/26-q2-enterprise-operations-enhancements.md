@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1381'
 ht-degree: 0%
-
 ---
-
 # 2026년 2분기 엔터프라이즈 운영 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 2분기 릴리스의 엔터프라이즈 작업 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -36,7 +43,7 @@ Adobe Workfront의 고급 엔터프라이즈 운영 기능은 재무, 프로젝�
 
 복수 레벨 비용 및 청구 요금 계층을 사용하여 재정을 예측, 추적 및 최적화합니다.
 
-[고급 재무 관리 기능에 대한 13분 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
+[고급 재무 관리 기능에 대한 13분 분량의 비디오 데모를 시청하십시오.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
 
 financial management의 향상된 기능은 다음과 같습니다.
 
@@ -86,7 +93,7 @@ financial management의 향상된 기능은 다음과 같습니다.
 
 자세한 내용은 [프로젝트 스냅숏 만들기 및 보기](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md)를 참조하세요.
 
-[프로젝트 스냅숏의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+[프로젝트 스냅샷에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
 
 >[!NOTE]
 >
@@ -128,9 +135,9 @@ financial management의 향상된 기능은 다음과 같습니다.
   >새 논리 유형은 Workflow Prime 또는 Ultimate 패키지의 조직에만 사용할 수 있습니다.
 
 * 양식 디자이너 인터페이스의 향상된 기능:
-   * 이제 폼 이름이 디자이너의 왼쪽 위에 나타나므로 스크롤할 때 긴 폼에서 이름을 볼 수 있습니다.
-   * 양식에 첨부할 수 있는 객체 유형이 드롭다운 목록에 있습니다.
-   * 모든 논리 유형에 대해 필드에 논리 표시기를 표시하거나 숨기도록 선택할 수 있습니다. 표시 및 건너뛰기 논리 유형은 영향을 받는 두 필드 모두에 대한 지표를 보여 줍니다. 다른 모든 논리 유형은 한 필드에 영향을 줍니다.
+  * 이제 폼 이름이 디자이너의 왼쪽 위에 나타나므로 스크롤할 때 긴 폼에서 이름을 볼 수 있습니다.
+  * 양식에 첨부할 수 있는 객체 유형이 드롭다운 목록에 있습니다.
+  * 모든 논리 유형에 대해 필드에 논리 표시기를 표시하거나 숨기도록 선택할 수 있습니다. 표시 및 건너뛰기 논리 유형은 영향을 받는 두 필드 모두에 대한 지표를 보여 줍니다. 다른 모든 논리 유형은 한 필드에 영향을 줍니다.
 
   자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
@@ -165,7 +172,7 @@ financial management의 향상된 기능은 다음과 같습니다.
 
 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
-[레이아웃 템플릿 개선 사항의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+[레이아웃 템플릿 개선 사항에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
 
 ### 사용자 지정 지역화
 
@@ -179,7 +186,7 @@ financial management의 향상된 기능은 다음과 같습니다.
 
 자세한 내용은 [사용자 지정 지역화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)을 참조하십시오.
 
-[사용자 지정 지역화에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483248/){target="_blank"}
+[사용자 정의 현지화에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483248/){target="_blank"}
 
 ### Business Rules를 사용하여 작업 자동화
 

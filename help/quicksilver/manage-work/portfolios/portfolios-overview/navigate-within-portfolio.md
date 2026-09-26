@@ -8,27 +8,35 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ
+TQID: 'https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '720'
 ht-degree: 2%
-
 ---
-
 # 포트폴리오 내에서 탐색
 
 <!--Audited: 08/2025-->
@@ -114,7 +122,7 @@ Old:
    * **[!UICONTROL 모두]**: 적어도 볼 수 있는 액세스 권한이 있는 모든 포트폴리오를 포함합니다.
 
      포트폴리오 액세스에 대한 자세한 내용은 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하세요.
-포트폴리오 권한에 대한 자세한 내용은 [포트폴리오 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)를 참조하십시오.
+     포트폴리오 권한에 대한 자세한 내용은 [포트폴리오 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)를 참조하십시오.
 
      새 포트폴리오를 추가하려면 [포트폴리오 만들기](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)를 참조하세요.
 
@@ -131,9 +139,9 @@ Old:
 
    * **[!UICONTROL 활성]**: 다음 상태의 선택한 포트폴리오와 연결된 모든 프로젝트를 포함합니다.
 
-      * [!UICONTROL 계획]
-      * [!UICONTROL 승인됨]
-      * [!UICONTROL 현재]
+     * [!UICONTROL 계획]
+     * [!UICONTROL 승인됨]
+     * [!UICONTROL 현재]
    * **[!UICONTROL 요청됨]**: **[!UICONTROL 요청됨]** 상태의 선택한 포트폴리오와 연결된 프로젝트를 포함합니다.
 
      요청된 프로젝트 검토에 대한 자세한 내용은 [요청된 프로젝트 검토](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)를 참조하십시오.
@@ -147,7 +155,7 @@ Old:
      필터 만들기에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
 
-1. 왼쪽 패널의 **[!UICONTROL 프로그램]**&#x200B;을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
+1. 왼쪽 패널의 **[!UICONTROL 프로그램]**을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
 프로그램에 대한 자세한 내용은 [프로그램 만들기 및 관리](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) 섹션을 참조하십시오.
 
 1. (선택 사항) 왼쪽 패널에서 **[!UICONTROL Portfolio 세부 정보]** 영역을 확장한 다음 **[!UICONTROL 개요]** 또는 **[!UICONTROL 사용자 지정 Forms]**&#x200B;를 클릭하여 포트폴리오에 대한 정보를 편집합니다.

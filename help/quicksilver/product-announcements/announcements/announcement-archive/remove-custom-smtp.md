@@ -6,18 +6,24 @@ description: 20.3 릴리스(2020년 8월 목표)를 통해 Adobe Workfront은 Wo
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-TQID: https://experienceleague.adobe.com/q3IdES8LZlJDDBjUqTkHmWqjtVdMV-w80o7wC-uRSXg
+TQID: 'https://experienceleague.adobe.com/q3IdES8LZlJDDBjUqTkHmWqjtVdMV-w80o7wC-uRSXg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 1%
-
 ---
-
 # 사용자 지정 SMTP를 보내는 전자 메일 옵션으로 제거
 
 >[!NOTE]
@@ -34,4 +40,4 @@ ht-degree: 1%
 
 사용자 지정 SMTP 메일 서버를 구성한 경우 **IT 팀에 연결**&#x200B;하여 notifications@my.workfront.com에서 보낸 전자 메일이 시스템에 들어오는 전자 메일에 대해 차단되지 않도록 하는 것이 좋습니다. 트래픽 및 이메일의 출처 IP 주소에 대한 자세한 내용은 방화벽 구성 을 참조할 수도 있습니다.
 
-다른 질문이 있거나 문제가 있는 경우 [Workfront 지원 팀](https://experienceleague.adobe.com/ko?support-tab=home#support)에 문의하십시오.
+다른 질문이 있거나 문제가 있는 경우 [Workfront 지원 팀](https://experienceleague.adobe.com/?support-tab=home#support)에 문의하십시오.

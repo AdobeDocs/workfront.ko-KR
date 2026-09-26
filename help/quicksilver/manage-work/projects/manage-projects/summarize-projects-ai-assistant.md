@@ -6,22 +6,26 @@ description: 프로젝트 헤더에는 AI Assistant를 사용하여 프로젝트
 author: Becky
 feature: Get Started with Workfront
 exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
-TQID: https://experienceleague.adobe.com/II1JXY--V38Wid7Cs3vvQW3Q9Rq9teIiK9cRAqoaZLM
+TQID: 'https://experienceleague.adobe.com/II1JXY--V38Wid7Cs3vvQW3Q9Rq9teIiK9cRAqoaZLM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: '357'
 ht-degree: 5%
-
 ---
-
 # AI Assistant를 사용하여 프로젝트 요약
 
 Workfront의 AI Assistant는 프로젝트를 요약할 수 있으므로 프로젝트 목적 및 상태와 같은 프로젝트 정보를 빠르게 이해할 수 있고, 완료되고 아직 보류 중인 작업의 예를 제공하며, 몇 가지 추가 세부 정보와 메모를 제공합니다.

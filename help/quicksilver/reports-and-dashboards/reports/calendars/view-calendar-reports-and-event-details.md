@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo
+TQID: 'https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '590'
 ht-degree: 3%
-
 ---
-
 # 달력 보고서 및 이벤트 세부 정보 보기
 
 Adobe Workfront에서 생성했거나 공유한 캘린더 보고서 및 이벤트 세부 사항을 볼 수 있습니다.
@@ -85,7 +90,7 @@ Adobe Workfront에서 생성했거나 공유한 캘린더 보고서 및 이벤�
 
 1. (조건부) **[!UICONTROL 보기]** 드롭다운을 클릭한 다음 보려는 일정 기간을 선택합니다.
    ![일정 기간](assets/view-menu-calendar-report-350x189.png)
-다음 달력 보고서 보기 중에서 선택할 수 있습니다.
+   다음 달력 보고서 보기 중에서 선택할 수 있습니다.
 
    * **[!UICONTROL 월]**: 달력의 4주를 표시합니다.
    * **[!UICONTROL 주]**: 달력의 1주일을 표시합니다.
@@ -110,17 +115,17 @@ Adobe Workfront에서 생성했거나 공유한 캘린더 보고서 및 이벤�
 
    * 표시된 일자를 빠르게 변경하려면
 
-      1. **[!UICONTROL 달력]** 도구 모음에서 날짜 표시기의 왼쪽 화살표를 클릭하여 달력에서 뒤로 이동하거나 오른쪽 화살표를 클릭하여 앞으로 이동합니다.
+     1. **[!UICONTROL 달력]** 도구 모음에서 날짜 표시기의 왼쪽 화살표를 클릭하여 달력에서 뒤로 이동하거나 오른쪽 화살표를 클릭하여 앞으로 이동합니다.
 
-         날짜를 변경하려면 ![화살표를 클릭하세요](assets/click-arrows-to-change-dates-calendar-report.png)
+        날짜를 변경하려면 ![화살표를 클릭하세요](assets/click-arrows-to-change-dates-calendar-report.png)
 
-         표시되는 날짜는 현재 달력 보기에 따라 간격에 따라 조정됩니다. 예를 들어, **주** 보기에서 달력을 보는 경우 선택한 화살표에 따라 달력은 1주일 앞으로 또는 1주일 뒤로 표시됩니다.
+        표시되는 날짜는 현재 달력 보기에 따라 간격에 따라 조정됩니다. 예를 들어, **주** 보기에서 달력을 보는 경우 선택한 화살표에 따라 달력은 1주일 앞으로 또는 1주일 뒤로 표시됩니다.
 
-      1. (선택 사항) 현재 날짜로 돌아가려면 [!UICONTROL **오늘**]&#x200B;을 클릭합니다.
+     1. (선택 사항) 현재 날짜로 돌아가려면 [!UICONTROL **오늘**]&#x200B;을 클릭합니다.
 
 1. (선택 사항) 달력에 연결된 프로젝트 또는 달력 그룹화에 대한 이벤트를 숨기려면 프로젝트 목록에서 프로젝트 또는 달력 그룹화를 지웁니다.
    ![이벤트 숨기기](assets/hide-events-for-project-or-cal-grouping.png)
-프로젝트 목록에서 [!UICONTROL 프로젝트] 또는 일정 그룹화를 선택하여 이벤트를 다시 표시할 수 있습니다.
+   프로젝트 목록에서 [!UICONTROL 프로젝트] 또는 일정 그룹화를 선택하여 이벤트를 다시 표시할 수 있습니다.
 
 ## 달력 보고서 이벤트 세부 정보 보기
 
