@@ -32,7 +32,7 @@ role_v2:
     internal-label: User
 source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '986'
 ht-degree: 2%
 ---
 # Workfront AI 검토자 시작
