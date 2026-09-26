@@ -6,9 +6,21 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2783'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
@@ -21,7 +33,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2026년 9월 24일
+>미리 보기: 2026년 9월 25일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
 >모두를 위한 프로덕션: 2026년 10월 15일
 
@@ -37,7 +49,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2026년 9월 24일
+>미리 보기: 2026년 9월 25일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
 >모두를 위한 프로덕션: 2026년 10월 15일
 
@@ -51,7 +63,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2026년 9월 24일
+>미리 보기: 2026년 9월 25일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
 >모두를 위한 프로덕션: 2026년 10월 15일
 
@@ -63,7 +75,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2026년 9월 24일
+>미리 보기: 2026년 9월 25일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
 >모두를 위한 프로덕션: 2026년 10월 15일
 
@@ -73,11 +85,11 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 자세한 내용은 [요청 양식 만들기](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
-## 요청 양식당 각 액세스 계층에 대한 기능 구성
+## Planning 요청 양식에서 요청자에 대한 기본 권한 구성
 
 >[!NOTE]
 >
->미리 보기: 2026년 9월 24일
+>미리 보기: 2026년 9월 25일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
 >모두를 위한 프로덕션: 2026년 10월 15일
 
@@ -87,7 +99,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
-## 이제 AI 양식 채우기가 링크로 참조된 레코드에서 데이터를 가져옵니다
+## AI 양식 채우기는 링크로 참조되는 레코드에서 데이터를 가져옵니다
 
 >[!NOTE]
 >
@@ -98,7 +110,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 자세한 내용은 [AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청을 채우는 방법](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)을 참조하십시오.
 
-## 이제 Workfront Planning에서 CX Coworker을 사용할 수 있습니다.
+## Workfront Planning에서 사용 가능한 CX Coworker
 
 >[!NOTE]
 >
@@ -120,7 +132,7 @@ CX Coworker Chat 은 작업 완료를 위한 대화 인터페이스입니다. �
 
 자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
-## CX Coworker 출시를 준비하면서 세부 사항 미리보기 상자에서 AI Assistant 아이콘을 제거했습니다
+## CX Coworker 출시를 준비하기 위해 레코드 세부 정보 미리 보기 상자에서 AI Assistant 아이콘이 제거됨
 
 >[!NOTE]
 >
@@ -194,7 +206,7 @@ Workfront에서 Adobe CX Coworker이 출시될 준비를 위해 세부 정보 �
 >* **요청 양식 만들기** 및 **요청 양식 관리**&#x200B;가 **요청 양식**(으)로 변경되었습니다.
 >* **자동화 관리**&#x200B;가 **자동화**(으)로 변경되었습니다.
 
-## 타임라인 보기에 대한 사용자 지정 주 소개
+## 타임라인 보기에 대한 사용자 지정 주 수
 
 >[!NOTE]
 >
@@ -238,7 +250,7 @@ Workfront에서 Adobe CX Coworker이 출시될 준비를 위해 세부 정보 �
 
 자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
 
-## 전체 그룹 이름을 보고 타임라인 보기에서 그룹화 패널 크기를 조정합니다
+## 전체 그룹 이름을 표시하고 타임라인 보기에서 그룹화 패널 크기 조정
 
 >[!NOTE]
 >
@@ -331,7 +343,7 @@ Workfront Planning에 대한 간결한 모범 사례 지침을 Claude에 직접 
 >프로덕션 빠른 릴리스: 2026년 8월 13일
 >전체 프로덕션: 2026년 10월 15일
 
-테이블 보기에서 행을 끌어서 놓는 경험이 시각적으로 개선되었습니다.
+테이블 보기에서 단일 행을 끌어서 놓는 경험이 시각적으로 개선되었습니다.
 
 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
@@ -356,9 +368,6 @@ Workfront Planning에 대한 간결한 모범 사례 지침을 Claude에 직접 
 
 
 자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.
-
-
-
 
 ## 표 보기에서 레코드에 대한 새 주석 표시기 표시
 

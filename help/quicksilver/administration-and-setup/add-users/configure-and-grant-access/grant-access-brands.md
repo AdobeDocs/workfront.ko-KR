@@ -8,13 +8,20 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
-source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '722'
 ht-degree: 4%
-
 ---
-
 # 브랜드 권한에 대한 액세스 권한 부여
 
 사용자는 사용자 그룹에 추가되면 Adobe GenStudio 시스템 관리자의 브랜드 만들기, 편집 및 게시 권한이 부여됩니다.
@@ -55,7 +62,7 @@ ht-degree: 4%
 * Workfront 인스턴스에는 통합 승인이 활성화되어 있어야 합니다.
 
 * 조직에 GenStudio Foundation이 있어야 합니다.
-   * Workfront의 컨텐츠 검토자는 자산 검토 및 승인 워크플로에 GenStudio Foundation에서 사용할 수 있는 기능을 제공합니다. 작업을 완료하기 위해 GenStudio Foundation에 직접 액세스할 필요는 없습니다. 콘텐츠 검토자를 통해 GenStudio Foundation 기능에 대한 액세스는 Workfront 계약 조건에 해당됩니다.
+  * Workfront의 AI 검토자는 GenStudio Foundation에서 에셋 검토 및 승인 워크플로에 사용할 수 있는 기능을 제공합니다. 작업을 완료하기 위해 GenStudio Foundation에 직접 액세스할 필요는 없습니다. AI 검토자를 통해 GenStudio Foundation 기능에 대한 액세스는 Workfront 계약 조건에 해당됩니다.
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
 계약 서명에 대한 자세한 내용은 [Adobe Gen AI 계약 서명](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)을 참조하십시오.
 
@@ -147,4 +154,4 @@ Workfront 액세스 수준의 브랜드에 대한 액세스 권한을 부여하�
    ![브랜드 액세스 허용 설정](assets/access-for-brands.png)
 1. **저장**&#x200B;을 클릭합니다.
 
-브랜드를 구성했으면 콘텐츠 검토자를 만들어 검토 및 승인 워크플로의 브랜드 지침에 따라 에셋을 검토할 수 있습니다. 자세한 내용은 [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)을 참조하십시오.
+브랜드를 구성했으면 AI 검토자를 만들어 검토 및 승인 워크플로의 브랜드 지침에 따라 에셋을 검토할 수 있습니다. 자세한 내용은 [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)을 참조하십시오.

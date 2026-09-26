@@ -10,26 +10,34 @@ exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 TQID: https://experienceleague.adobe.com/0-mIGjSaSi9gxuJ0tIYCmmGbBrgXWESmG3OtYoLnsfw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d4726c4aacc316063bb9a47b590165202ca3ac0
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1227
+source-wordcount: '1227'
 ht-degree: 0%
-
 ---
-
 # 리소스 관리 시작
 
 <!-- Audited: 12/2023 -->
@@ -64,7 +72,7 @@ Workfront에는 리소스를 관리하는 데 사용되는 몇 가지 도구 세
 
 * 실제 작업(작업 및 문제)에 리소스를 예약하거나 할당하려면 다음 도구를 사용합니다.
 
-  * **업무 균형자**: 이 단계는 리소스 관리의 하위 수준 단계에 속하며, 이를 완료하는 데 필요한 시간과 사용 가능한 시간을 기준으로 리소스를 완료해야 하는 실제 작업(작업 및 문제)에 할당할 수 있습니다. 업무 균형자 를 사용하여 사용자 또는 작업 공동 작업자를 현재 할당 해제되거나 작업 역할에 할당된 실제 작업에 할당할 수 있습니다.
+  * **업무 균형자**: 이 단계는 리소스 관리의 하위 수준 단계에 속하며, 이를 완료하는 데 필요한 시간과 사용 가능한 시간을 기준으로 리소스를 완료해야 하는 실제 작업(작업 및 문제)에 할당할 수 있습니다. 업무 균형자 를 사용하여 사용자 또는 작업 에이전트를 현재 할당 해제되거나 작업 역할에 할당된 실제 작업에 할당할 수 있습니다.
 
     Workfront 업무 균형자에 대한 자세한 내용은 [업무 균형자: 문서 인덱스](../../resource-mgmt/workload-balancer/workload-balancer.md)를 참조하십시오.
 
@@ -109,8 +117,8 @@ Workfront에서 리소스를 관리하는 프로세스에는 다음 단계가 �
   * 작업 역할\
     작업 역할 만들기에 대한 자세한 내용은 문서 [작업 역할 만들기 및 관리](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
 
-  * 작업 공동 작업자
-    작업 공동 작업자 생성에 대한 자세한 내용은 문서 [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)에서 [작업 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)을 참조하십시오.
+  * 작업 에이전트
+    작업 에이전트 만들기에 대한 자세한 내용은 문서 [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)에서 [작업 에이전트 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)을 참조하십시오.
 
   * 일정\
     일정 만들기에 대한 자세한 내용은 문서 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하세요.
