@@ -56,6 +56,6 @@ ht-degree: 0%
 * 사용자 일정:
 * 사용자 수용작업량 = (일정 시간 - 일정 예외 - 휴무) `*` 작업 시간.
 
-자세한 내용은 [리소스 관리 구성]기본 설정](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)을 참조하세요.[!UICONTROL 
+자세한 내용은 [리소스 관리 구성]기본 설정(/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)을 참조하세요.
 
 [이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3415608/){target=_blank}

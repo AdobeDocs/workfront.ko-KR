@@ -157,7 +157,7 @@ Workfront의 현대화된 목록에 대한 자세한 내용은 [목록 표시 �
 
 자세한 내용은 [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)을 참조하십시오.
 
-이 기능은 이제 Workfront One의 새 Workfront 경험, 3부: 제어 및 인터페이스 경험](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)의 [관리자 기본 사항에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 새 Workfront 경험, 3부: 제어 및 인터페이스 경험[&#128279;](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)의 관리자 기본 사항에 포함되어 있습니다.
 
 ## 관리자용 새로운 기능: 현재 사용자 정의 필드를 사용 중인 보고서를 쉽게 나열
 

@@ -46,7 +46,7 @@ ht-degree: 0%
 새 증명 또는 증명의 새 버전을 만들거나, 증명에 새 사용자를 추가하거나, 증명에 워크플로를 추가할 때 다음 문서에 설명된 대로 검토자에게 이메일을 전송할지 여부를 결정할 수 있습니다.
 
 * [자동화된 워크플로를 사용하여 고급 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-* [ [!DNL Workfront Proof]에서 증명 생성](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+* [&#x200B; [!DNL Workfront Proof]에서 증명 생성](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 받는 사람이 받는 전자 메일을 [!UICONTROL 새 증명] 전자 메일이라고 합니다. 증명 생성자 및 증명에 검토자를 추가할 권한이 있는 사용자만 이 이메일을 제어할 수 있습니다. 수신자는 비활성화할 수 없습니다.
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## 활동 로그
 
-검토자에게 [!UICONTROL 새 증명] 전자 메일을 보내는 것은 [!UICONTROL 증명 세부 정보] 페이지의 [!UICONTROL 활동] 섹션에 기록됩니다. 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)의 [관리[!UICONTROL  증명 세부 정보]를 참조하십시오. 증명을 만들 때 [!UICONTROL 새 증명] 전자 메일이 활성화되었는지 확인할 수 있습니다.
+검토자에게 [!UICONTROL 새 증명] 전자 메일을 보내는 것은 [!UICONTROL 증명 세부 정보] 페이지의 [!UICONTROL 활동] 섹션에 기록됩니다. 자세한 내용은  [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)의 관리[!UICONTROL &#x200B; 증명 세부 정보]를 참조하십시오. 증명을 만들 때 [!UICONTROL 새 증명] 전자 메일이 활성화되었는지 확인할 수 있습니다.
 
 ![New_Verison_email_-_activity_log.png](assets/new-verison-email---acitivity-log-350x44.png)
 

@@ -49,7 +49,7 @@ ht-degree: 1%
 1. [!UICONTROL 청구] 페이지로 이동합니다.
 1. 페이지 상단(1)에서 드롭다운 메뉴를 연 다음, 관련 위성 계정을 선택합니다. (2)
 
-   자세한 내용은 &quot;[청구] 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)를 참조하세요. [!DNL Workfront Proof] [!UICONTROL 
+   자세한 내용은 &quot;[청구] 페이지(../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)를 참조하세요. [!DNL Workfront Proof] 
 
    ![Satellite_Account_Billing_Page__1_.png](assets/satellite-account-billing-page--1--350x167.png)
 

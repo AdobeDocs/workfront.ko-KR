@@ -150,11 +150,11 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">시장 시작 날짜의 [!UICONTROL]</td> 
+     <td role="rowheader">시장 시작 날짜의 </td> 
      <td>[!UICONTROL 날짜] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">시장 종료 날짜의 [!UICONTROL]</td> 
+     <td role="rowheader">시장 종료 날짜의 </td> 
      <td>[!UICONTROL 날짜]</td> 
     </tr> 
     <tr> 

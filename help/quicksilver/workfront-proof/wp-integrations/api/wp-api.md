@@ -39,5 +39,5 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof] API](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)
+* [&#x200B; [!DNL Workfront Proof] API](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)
 

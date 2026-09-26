@@ -77,7 +77,7 @@ WIP 제한은 단순히 시각적 경고일 뿐 각 열에 사용자가 설정�
 1. [!UICONTROL 열 정책]에서 **[!UICONTROL 진행 중인 작업] 제한** 정책을 사용하여 열에 추가할 수 있는 카드 수를 제한하십시오.
 1. **[!UICONTROL 제한 설정]** 필드에 제한 번호를 입력하십시오.
 
-   ](assets/boards-wip-limit-in-column.png) 열에 대한 ![WIP 제한
+   ![&#128279;](assets/boards-wip-limit-in-column.png) 열에 대한 WIP 제한
 
    카드 수와 제한 수가 열 맨 위에 표시됩니다. 열에 제한보다 많은 카드가 들어 있으면 카운터가 빨간색으로 바뀝니다.
 

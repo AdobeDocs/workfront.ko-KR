@@ -185,7 +185,7 @@ Old:
 
 1. **레코드 종류 편집** 상자에서 기본적으로 **모양** 탭이 열립니다.
 
-   ![레코드 종류 상자 모양 편집 탭 ](assets/edit-record-type-box-appearance-tab.png)
+   ![레코드 종류 상자 모양 편집 탭 &#x200B;](assets/edit-record-type-box-appearance-tab.png)
 
    **모양** 탭에서 다음 정보를 업데이트합니다.
 

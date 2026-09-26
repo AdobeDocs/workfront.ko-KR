@@ -98,7 +98,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
   * 문제의 상위 개체(프로젝트, 프로그램 또는 포트폴리오)에 대한 권한을 지정합니다. 문제는 상위 오브젝트에서 권한을 상속합니다. 개체에 상속된 사용 권한을 보는 방법에 대한 자세한 내용은 [개체에 상속된 사용 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)를 참조하십시오.
   * 문제가 있는 프로젝트를 만드는 데 사용되는 템플릿에 대한 프로젝트 공유에 엔티티를 추가합니다. 템플릿에서 프로젝트를 공유하는 방법에 대한 자세한 내용은 [템플릿 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)를 참조하십시오.
 
-  * 프로젝트를 편집할 때 프로젝트의 모든 문제에 대한 권한을 지정합니다. 프로젝트에 대한 사용자의 권한에 따라 프로젝트의 문제 또는 요청에 대한 액세스를 관리하는 방법에 대한 자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md) 문서의 [](../../manage-work/projects/manage-projects/edit-projects.md#access) 섹션을 참조하십시오.
+  * 프로젝트를 편집할 때 프로젝트의 모든 문제에 대한 권한을 지정합니다. 프로젝트에 대한 사용자의 권한에 따라 프로젝트의 문제 또는 요청에 대한 액세스를 관리하는 방법에 대한 자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md) 문서의 [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) 섹션을 참조하십시오.
 
     >[!TIP]
     >

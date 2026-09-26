@@ -121,11 +121,11 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">시장 시작 날짜의 [!UICONTROL]</td> 
+     <td role="rowheader">시장 시작 날짜의 </td> 
      <td>일자 </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">시장 종료 날짜의 [!UICONTROL]</td> 
+     <td role="rowheader">시장 종료 날짜의 </td> 
      <td>일자</td> 
     </tr> 
     <tr> 
@@ -198,7 +198,7 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 
 이 템플릿으로 표시되는 워크플로우를 완료하려면 다음 추가 템플릿도 배포해야 합니다.
 
-* [[!UICONTROL 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용 [!DNL Adobe Workfront] 3}]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [[!UICONTROL 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용 [!DNL Adobe Workfront] 3&rbrace;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 지출 최적화를 위한 추가 시나리오는 다음과 같습니다.
 

@@ -296,7 +296,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 * event.split.io
 * sdk.split.io
 
-자세한 내용은 [방화벽 구성[ 섹션의 방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#urls) 섹션을 참조하십시오](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+자세한 내용은 [&#128279;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)방화벽 구성[&#x200B; 섹션의 방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#urls) 섹션을 참조하십시오.
 
 ### Workfront 원 {#workfront-one}
 

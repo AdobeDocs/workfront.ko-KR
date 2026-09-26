@@ -85,8 +85,8 @@ ht-degree: 4%
 
 다음과 같은 방법으로 앱을 설치할 수 있습니다.
 
-* [ [!DNL Workfront] 외부 앱 설치 [!DNL Slack]](#install-the-workfront-app-outside-slack-install-the-workfront-app-outside-slack)
-* [ [!DNL Slack] 내에  [!DNL Workfront] 앱 설치](#install-the-workfront-app-within-slack-install-the-workfront-app-within-slack)
+* [&#x200B; [!DNL Workfront] 외부 앱 설치 [!DNL Slack]](#install-the-workfront-app-outside-slack-install-the-workfront-app-outside-slack)
+* [&#x200B; [!DNL Slack] 내에  [!DNL Workfront] 앱 설치](#install-the-workfront-app-within-slack-install-the-workfront-app-within-slack)
 
 ### [!DNL Slack] 외부에 [!DNL Workfront] 앱 설치 {#install-the-workfront-app-outside-slack}
 
@@ -98,7 +98,7 @@ ht-degree: 4%
 
 1. [[!DNL Slack] 스토어](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info)에서 [!DNL Adobe Workfront] 추가 기능을 찾습니다.
 
-1. [!DNL Slack]]**에서**[!UICONTROL &#x200B;열기를 클릭합니다.
+1. [!DNL Slack]&#x200B;**에서**&#x200B;열기를 클릭합니다.
 
 1. [!DNL Slack] URL을 지정하고 **[!UICONTROL 계속]**&#x200B;을 클릭하여 작업 영역에 로그인합니다.\
 

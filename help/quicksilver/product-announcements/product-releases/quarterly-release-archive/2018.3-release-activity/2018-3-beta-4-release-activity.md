@@ -42,7 +42,7 @@ ht-degree: 0%
 
 2018.3 Beta 4 릴리스에는 Workfront 관리자와 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [그룹 관리자로서 사용자 프로필의 보고 구조 업데이트](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 

@@ -42,7 +42,7 @@ ht-degree: 1%
 
 고급 브랜딩은 Select 및 Premium 플랜에서 사용할 수 있으며 플랜 원가에 포함됩니다.
 
-로그인 페이지, 전자 메일 알림 및 증명이 포함된 기본 브랜딩에 대한 자세한 내용은 [사이트 브랜딩 [!DNL Workfront Proof] 2}을 참조하십시오.](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
+로그인 페이지, 전자 메일 알림 및 증명이 포함된 기본 브랜딩에 대한 자세한 내용은 [사이트 브랜딩 [!DNL Workfront Proof] 2&rbrace;을 참조하십시오.](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
 
 고급 브랜딩 옵션에는 다음 영역의 사용자 지정이 포함됩니다.
 

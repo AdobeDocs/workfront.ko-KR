@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: '로그인 오류: 다음 필드가 잘못되었습니다. emailAddr은 null일 수 없습니다.'
-description: 내 도메인의 URL을 사용하여 [!DNL Adobe Workfront]에 로그인하려고 하면 SAML 로그인 포털로 리디렉션된 다음 emailAddr 필드가 null일 수 없다는 오류 메시지와 함께 [!DNL Workfront](으)로 다시 리디렉션됩니다.
+description: 내 도메인의 URL을 사용하여 [!DNL Adobe Workfront]에 로그인하려고 하면 SAML 로그인 포털로 리디렉션된 다음 emailAddr 필드가 null일 수 없다는 오류 메시지와 함께 [!DNL Workfront] (으)로 다시 리디렉션됩니다.
 author: Lisa
 feature: System Setup and Administration
 role: Admin

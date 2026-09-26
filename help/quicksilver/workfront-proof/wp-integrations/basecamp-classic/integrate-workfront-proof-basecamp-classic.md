@@ -97,7 +97,7 @@ ht-degree: 0%
 >
 >[!DNL Basecamp] 세션이 한 브라우저 창에서 열려 있고 [!DNL Workfront Proof] 세션이 다른 창에서 열려 있는 경우 이 단계를 완료하는 것이 가장 쉽습니다.
 
-* [ [!DNL Basecamp] API 토큰 검색 중](#retrieving-your-basecamp-api-token)
+* [&#x200B; [!DNL Basecamp] API 토큰 검색 중](#retrieving-your-basecamp-api-token)
 * [개인 설정에  [!DNL Basecamp] API 토큰 추가](#adding-your-basecamp-api-token-to-your-personal-settings)
 
 ### [!DNL Basecamp] API 토큰 검색 중
@@ -125,7 +125,7 @@ ht-degree: 0%
    개인 설정을 사용하려면 먼저 관리자가 [!DNL Basecamp Classic] 통합을 사용하도록 설정해야 합니다. 통합 설정에 대한 자세한 내용은 이 문서에서 [통합 활성화 [!DNL Basecamp] 를 참조하십시오 [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof).
 
 1. [!DNL Basecamp] API 토큰 상자(2)에서 [!DNL Basecamp] [!UICONTROL 내 정보] 페이지에서 복사한 토큰을 필드(3)에 붙여 넣습니다.\
-   [!DNL Basecamp] API 토큰 복사에 대한 자세한 내용은 이 문서에서 [API 토큰 검색 [!DNL Basecamp] 3}을 참조하십시오.](#retrieving-your-basecamp-api-token)
+   [!DNL Basecamp] API 토큰 복사에 대한 자세한 내용은 이 문서에서 [API 토큰 검색 [!DNL Basecamp] 3&rbrace;을 참조하십시오.](#retrieving-your-basecamp-api-token)
 
 1. **[!UICONTROL 저장]**(4)을 클릭합니다.
 

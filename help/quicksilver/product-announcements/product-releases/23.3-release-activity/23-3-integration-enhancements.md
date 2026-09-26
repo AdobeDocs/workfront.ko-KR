@@ -100,14 +100,14 @@ Adobe Experience Manager 통합에 대한 새 연결된 폴더 만들기 워크�
 
 이전에는 Workfront 데이터를 Experience Manager Assets 태그에 매핑할 수 없었습니다.
 
-Experience Manager Assets as a Cloud Service의 이 기능에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service 구성] 통합](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)을 참조하십시오.[!UICONTROL 
+Experience Manager Assets as a Cloud Service의 이 기능에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service 구성] 통합(/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)을 참조하십시오.
 Experience Manager Assets Essentials의 이 기능에 대한 자세한 내용은 [Experience Manager Assets Essentials 통합 구성](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)을 참조하십시오.
 
 ## Workfront 필드를 사용자 지정 Experience Manager Assets 메타데이터 필드에 매핑
 
 이제 기본 통합을 통해 기본 및 기본 제공 Workfront 필드를 모두 Experience Manager Assets as a Cloud Service의 사용자 지정 메타데이터 스키마 필드에 매핑할 수 있습니다.
 
-Experience Manager Assets as a Cloud Service의 이 기능에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service 구성] 통합](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)을 참조하십시오.[!UICONTROL 
+Experience Manager Assets as a Cloud Service의 이 기능에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service 구성] 통합(/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)을 참조하십시오.
 Experience Manager Assets Essentials의 이 기능에 대한 자세한 내용은 [Experience Manager Assets Essentials 통합 구성](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)을 참조하십시오.
 
 ## Creative Cloud용 Adobe Workfront을 사용하여 자동 증명 워크플로 템플릿 설정 조정
