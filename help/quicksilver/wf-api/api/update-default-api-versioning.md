@@ -7,23 +7,28 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-TQID: https://experienceleague.adobe.com/E8QRlaGlxvGtgM6Q-23W1trqkejL5Y8RDUzHJtBF1uc
+TQID: 'https://experienceleague.adobe.com/E8QRlaGlxvGtgM6Q-23W1trqkejL5Y8RDUzHJtBF1uc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 640
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # 기본 API 버전 관리를 사용하는 통합 업데이트
 
 당사는 2년 단위로 새로운 버전의 Adobe Workfront API를 출시합니다. 각 버전은 릴리스 이후 3년 동안 지원되며 버전을 사용할 수 있지만 지원되지 않는 더 이상 사용되지 않는 상태에서 연도가 추가됩니다.

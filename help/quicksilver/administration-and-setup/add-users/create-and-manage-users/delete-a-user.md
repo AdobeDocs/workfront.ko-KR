@@ -8,24 +8,30 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-TQID: https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8
+TQID: 'https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: '835'
 ht-degree: 3%
-
 ---
-
 # 사용자 삭제
 
 <!--Remove me October 2026-->
@@ -96,17 +102,17 @@ ht-degree: 3%
 * 개체를 더 이상 사용자와 공유할 수 없습니다.
 * 다음 개체와의 연관성이 그대로 유지됩니다.
 
-   * 작업, 문제, 프로젝트, 포트폴리오
-   * 대시보드
+  * 작업, 문제, 프로젝트, 포트폴리오
+  * 대시보드
 
-     >[!NOTE]
-     >
-     >사용자를 비활성화하고 사용자와 연결된 보고서나 대시보드를 더 이상 볼 수 없는 경우 **액세스 권한** 필드로 이 보고서 실행을 업데이트해야 할 수 있습니다.\
-     >자세한 내용은 [비활성화된 사용자가 소유한 보고서에 액세스할 수 없는 이유는 무엇입니까?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)를 참조하십시오. [보고서 FAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 문서의 섹션.
+    >[!NOTE]
+    >
+    >사용자를 비활성화하고 사용자와 연결된 보고서나 대시보드를 더 이상 볼 수 없는 경우 **액세스 권한** 필드로 이 보고서 실행을 업데이트해야 할 수 있습니다.\
+    >자세한 내용은 [비활성화된 사용자가 소유한 보고서에 액세스할 수 없는 이유는 무엇입니까?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)를 참조하십시오. [보고서 FAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 문서의 섹션.
 
-   * 문서
-   * 업데이트
-   * 시간
+  * 문서
+  * 업데이트
+  * 시간
 
 * 문서를 체크 아웃한 경우 비활성화하면 문서가 체크 아웃된 상태로 유지됩니다. Workfront 관리자만 다시 체크인할 수 있습니다. 문서 체크 아웃에 대한 자세한 내용은 [문서 체크 아웃](../../../documents/managing-documents/check-out-documents.md)을 참조하십시오.
 
@@ -119,8 +125,8 @@ ht-degree: 3%
 * 개체를 더 이상 사용자와 공유할 수 없습니다.
 * 해당 사용자와 다음 객체의 연관을 삭제합니다.
 
-   * 작업, 문제, 프로젝트, 포트폴리오
-   * 대시보드
+  * 작업, 문제, 프로젝트, 포트폴리오
+  * 대시보드
 
   <!--
 
@@ -132,12 +138,12 @@ ht-degree: 3%
 
    -->
 
-   * 업데이트
-   * 시간
+  * 업데이트
+  * 시간
 
-     >[!NOTE]
-     >
-     >이러한 오브젝트는 Workfront에 남아 있지만 오브젝트 소유자는 비어 있습니다.
+    >[!NOTE]
+    >
+    >이러한 오브젝트는 Workfront에 남아 있지만 오브젝트 소유자는 비어 있습니다.
 
 * 사용자가 전역 탐색 막대의 문서 영역 아래에 있는 문서를 업로드한 경우 해당 문서도 삭제됩니다.
 * 사용자가 소유한 문서를 체크아웃하고 기본 메뉴에서 액세스할 수 있는 기본 문서 영역에 문서를 업로드하면 문서가 사용자와 함께 삭제됩니다. 문서 체크 아웃에 대한 자세한 내용은 [문서 체크 아웃](../../../documents/managing-documents/check-out-documents.md)을 참조하십시오.

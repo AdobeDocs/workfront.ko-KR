@@ -8,20 +8,23 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-TQID: https://experienceleague.adobe.com/BJyCmAyuNBT-b8wscY66X9w4g6tq0TYh3NshJZjNy6o
+TQID: 'https://experienceleague.adobe.com/BJyCmAyuNBT-b8wscY66X9w4g6tq0TYh3NshJZjNy6o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1843
+source-wordcount: '1843'
 ht-degree: 0%
-
 ---
-
 # 이벤트 구독 메시지 필터링
 
 비즈니스에 필요한 이벤트 구독 메시지만 필터링하고 처리하는 데 도움이 되는 중간 처리 구성 요소를 빌드할 수 있습니다.

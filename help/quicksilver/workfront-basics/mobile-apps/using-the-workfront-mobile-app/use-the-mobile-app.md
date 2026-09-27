@@ -1,24 +1,27 @@
 ---
 product-previous: mobile
 navigation-topic: mobile-apps
-title: ' [!DNL Adobe Workfront] 모바일 앱 사용'
-description: 모든 iOS 또는 Android 장치에서 사용할 수 있는  [!DNL Adobe Workfront's] 모바일 앱을 통해 조직의 팀 및 개인에 대한 참여를 가속화하고 작업을 간소화할 수 있습니다.
+title: '[!DNL Adobe Workfront] 모바일 앱 사용'
+description: 모든 iOS 또는 Android 장치에서 사용할 수 있는 [!DNL Adobe Workfront's] 모바일 앱을 통해 조직의 팀 및 개인에 대한 참여를 가속화하고 작업을 간소화합니다.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-TQID: https://experienceleague.adobe.com/JdDKLhr3DrbDCXrRBKuO5A7Qd1GO--J9Et998BbY6-A
+TQID: 'https://experienceleague.adobe.com/JdDKLhr3DrbDCXrRBKuO5A7Qd1GO--J9Et998BbY6-A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 276
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Workfront] 모바일 앱 사용: 문서 인덱스
 
 <!-- Audited: 2/2024 -->

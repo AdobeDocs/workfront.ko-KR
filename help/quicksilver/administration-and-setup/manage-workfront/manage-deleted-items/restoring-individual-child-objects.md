@@ -8,25 +8,31 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-TQID: https://experienceleague.adobe.com/-rjpPKLN8OTaEcmZkodNLCRXVlCaqThiLVimpBTQ5uI
+TQID: 'https://experienceleague.adobe.com/-rjpPKLN8OTaEcmZkodNLCRXVlCaqThiLVimpBTQ5uI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 4%
-
 ---
-
 # 개별 하위 개체 복원
 
 이 문서에서는 이전에 30일 이내에 Adobe Workfront 프로덕션 또는 미리보기 환경에서 삭제된 개별 하위 개체를 복구하는 데 도움을 받는 방법을 설명합니다.
@@ -94,8 +100,8 @@ Workfront에서 데이터를 내보내는 방법에 대한 자세한 내용은 [
 
   개체의 GUID를 찾을 때 다음 정보를 참조하십시오.
 
-   * GUID는 개체(할당 대상, 댓글 등)와 상호 작용하여 트리거된 전자 메일 알림을 참조하여 찾을 수 있습니다.
-   * URL 끝에 있는 GUID의 예: `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`
+  * GUID는 개체(할당 대상, 댓글 등)와 상호 작용하여 트리거된 전자 메일 알림을 참조하여 찾을 수 있습니다.
+  * URL 끝에 있는 GUID의 예: `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`
 
 이 정보를 수집했거나 지원이 필요한 경우 844-306-HELP(4357)로 고객 지원 팀에 문의하거나 온라인으로 티켓을 제출하십시오.
 

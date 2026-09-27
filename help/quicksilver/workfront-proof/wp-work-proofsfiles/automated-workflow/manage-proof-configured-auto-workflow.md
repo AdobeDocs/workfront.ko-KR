@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: ' [!DNL Workfront Proof]에서 자동화된 워크플로로 구성된 증명 관리'
+title: '[!DNL Workfront Proof]에서 자동화된 워크플로로 구성된 증명 관리'
 description: 증명 세부 정보 페이지의 워크플로 섹션에서 자동화된 워크플로 증명의 진행 상황을 편리하게 추적할 수 있습니다. 각 단계에서 수행된 작업을 보고 증명에서 단계를 수정, 추가, 시작 및 잠글 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
-TQID: https://experienceleague.adobe.com/3leSASgnGumvy-osh9SgS57U6czt2CRQDYEe44pTlIU
+TQID: 'https://experienceleague.adobe.com/3leSASgnGumvy-osh9SgS57U6czt2CRQDYEe44pTlIU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 688
+source-wordcount: '688'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 자동화된 워크플로로 구성된 증명 관리
 
 >[!IMPORTANT]

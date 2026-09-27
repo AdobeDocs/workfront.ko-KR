@@ -10,20 +10,27 @@ recommendations: noDisplay, noCatalog
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ec4O8vicOeWoBdsyf2CQl1Q0z4LwGJZUexBDA2uc61M
+TQID: 'https://experienceleague.adobe.com/ec4O8vicOeWoBdsyf2CQl1Q0z4LwGJZUexBDA2uc61M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 104
+source-wordcount: '104'
 ht-degree: 0%
-
 ---
-
 # 애자일: 문서 색인
 
 [!DNL Adobe Workfront]은(는) 애자일 워크플로우를 정의하는 데 도움이 되는 몇 가지 도구를 제공합니다. 보드는 팀 공동 작업을 위한 간단하면서도 유연한 도구입니다. 기존 애자일 계획 도구에는 Kanban 또는 Scrum 팀을 위한 백로그와 스토리 보드가 포함되어 있습니다.

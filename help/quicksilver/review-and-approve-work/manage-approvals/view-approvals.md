@@ -6,30 +6,43 @@ description: 승인 프로세스를 통해 프로젝트, 작업 및 문제에 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-TQID: https://experienceleague.adobe.com/yAn-wNxLfDdPMOqoalYmuZjI5X8wu7RAkIIFbHj8OC0
+TQID: 'https://experienceleague.adobe.com/yAn-wNxLfDdPMOqoalYmuZjI5X8wu7RAkIIFbHj8OC0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '754'
 ht-degree: 2%
-
 ---
-
 # 승인 보기
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
@@ -82,9 +95,9 @@ Workfront의 여러 영역에서 승인을 보거나 관리할 수 있습니다.
 
 * 홈 영역에서
 
-   * 모든 프로젝트, 작업, 문제, 타임시트, 문서, 액세스 및 승인 대기 중인 <span class="preview">Workfront 계획 요청</span>이 홈 영역의 내 승인 위젯에 표시됩니다.
-   * 내가 제출한 승인 필터 옵션을 선택하면 직접 제출한 승인이 홈 영역의 내 승인 위젯에도 표시됩니다. 자세한 내용은 이 문서의 [홈 영역에서 승인을 위해 제출한 작업 검토](#review-work-you-submit-for-approval-in-the-home-area) 섹션을 참조하십시오.
-   * 관련된 프로젝트, 작업 또는 문제가 해결됨, 보류 중, 마감됨 또는 취소됨으로 표시되면 홈 영역의 내 승인 위젯에서 승인이 제거됩니다.
+  * 모든 프로젝트, 작업, 문제, 타임시트, 문서, 액세스 및 승인 대기 중인 <span class="preview">Workfront 계획 요청</span>이 홈 영역의 내 승인 위젯에 표시됩니다.
+  * 내가 제출한 승인 필터 옵션을 선택하면 직접 제출한 승인이 홈 영역의 내 승인 위젯에도 표시됩니다. 자세한 내용은 이 문서의 [홈 영역에서 승인을 위해 제출한 작업 검토](#review-work-you-submit-for-approval-in-the-home-area) 섹션을 참조하십시오.
+  * 관련된 프로젝트, 작업 또는 문제가 해결됨, 보류 중, 마감됨 또는 취소됨으로 표시되면 홈 영역의 내 승인 위젯에서 승인이 제거됩니다.
 
   홈 사용에 대한 자세한 내용은 [홈 시작](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)을 참조하세요.
 

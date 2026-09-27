@@ -8,23 +8,33 @@ description: 증명은 증명 뷰어에서 검토할 수 있는 정적, 오디�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb0eb160-4bcf-4bc1-ad13-df19f692bef6
-TQID: https://experienceleague.adobe.com/0oYcd7WkVWw4a1mX8yXtOSdmcqcXXC2cxNbXTarsQt0
+TQID: 'https://experienceleague.adobe.com/0oYcd7WkVWw4a1mX8yXtOSdmcqcXXC2cxNbXTarsQt0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1370
+source-wordcount: '1370'
 ht-degree: 1%
-
 ---
-
 # FAQ - 증명 및 파일 만들기 및 공유
 
 >[!IMPORTANT]
@@ -59,7 +69,7 @@ ht-degree: 1%
 
 정적 파일, 오디오 파일, 비디오 파일 및 URL에서 증명을 만들 수 있습니다( 참조).
 
-계정에서 증명을 만들려면 올바른 권한 프로필을 가진 사용자여야 합니다( [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [!UICONTROL 증명 권한 프로필] 참조).
+계정에서 증명을 만들려면 올바른 권한 프로필을 가진 사용자여야 합니다( [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [!UICONTROL 증명 권한 프로필] 참조).
 
 여러 파일을 동시에 업로드하는 경우 하나의 이메일을 사용하여 동일한 검토자 그룹에 보낼 수 있는 여러 증명을 만듭니다. 조직에 [!UICONTROL Enterprise] 또는 [!UICONTROL Unlimited] 계정이 있는 경우 파일을 하나의 증명으로 결합할 수 있습니다([다중 페이지 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) 참조).
 

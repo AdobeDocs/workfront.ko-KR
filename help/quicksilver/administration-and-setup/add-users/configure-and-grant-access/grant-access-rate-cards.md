@@ -8,13 +8,20 @@ author: Becky and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b21e65d3-3c9f-4f3d-95d3-de4c09199622
-source-git-commit: 85399542ce8e92de6da5a1de0960194e72958987
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 5%
-
 ---
-
 # 등급 카드에 대한 액세스 권한 부여
 
 Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)에 설명된 대로 사용자의 액세스 수준을 통해 등급 카드에 대한 사용자의 액세스 권한을 정의할 수 있습니다.
@@ -58,7 +65,7 @@ Workfront에서 등급 카드에 대한 액세스 권한을 사용자에게 부�
 ## 사용자 정의 액세스 수준을 사용하여 등급 카드에 대한 사용자 액세스 구성
 
 1. [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에 설명된 대로 액세스 수준을 만들거나 편집하십시오.
-1. 등급 카드 오른쪽의 ![](assets/gear-icon-settings.png)보기&#x200B;**또는**&#x200B;편집&#x200B;**단추에서 톱니바퀴 아이콘**&#x200B;을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
+1. 등급 카드 오른쪽의 **보기** 또는 **편집** 단추에서 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
 
    ![속도 카드 액세스 조정](assets/rate-card-access-fine-tune.png)
 

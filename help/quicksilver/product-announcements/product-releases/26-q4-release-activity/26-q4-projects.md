@@ -4,13 +4,20 @@ description: 2026년 4분기 프로젝트 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '163'
 ht-degree: 0%
-
 ---
-
 # 2026년 4분기 프로젝트 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 4분기 릴리스의 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -21,7 +28,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 7월 30일>프로덕션 빠른 릴리스: 2026년 8월 13일>모두를 위한 프로덕션: 2026년 10월 15일
+>미리 보기: 2026년 7월 30일
+>프로덕션 빠른 릴리스: 2026년 8월 13일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
 템플릿에 재무 데이터가 포함되어 있는 경우 사용자가 템플릿에서 프로젝트를 만들 때 해당 필드 값이 유지됩니다. 프로젝트 세부 정보에 대한 재무 필드를 보려면 사용자에게 재무 데이터에 대한 보기 액세스 권한이 있어야 합니다.
 

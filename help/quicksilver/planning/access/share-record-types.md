@@ -6,15 +6,27 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-last-update: 2026-04-01T18:23:03Z
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1530'
 ht-degree: 1%
-
 ---
-
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
@@ -33,7 +45,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 >[!IMPORTANT]
 >
 >작업 영역에 대한 액세스 권한이 있는 사용자는 작업 영역의 모든 레코드 유형에 대해 적어도 보기 권한을 자동으로 부여받습니다.
->보기를 공유해도 사용자에게 레코드 형식에 대한 사용 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 유형에 대한 권한을 부여할 수 있습니다.
+>보기를 공유해도 사용자에게 레코드 유형에 대한 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 유형에 대한 권한을 부여할 수 있습니다.
 >
 >* Workfront Planning에서 개체 공유에 대한 일반적인 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 >* 자세한 내용은 이 문서의 [레코드 종류 공유 시 고려 사항](#considerations-when-sharing-record-types) 섹션을 참조하십시오.

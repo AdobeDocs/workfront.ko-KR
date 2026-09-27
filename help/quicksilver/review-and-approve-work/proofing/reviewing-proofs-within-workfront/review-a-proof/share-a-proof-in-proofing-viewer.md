@@ -6,25 +6,33 @@ description: 증명 소유자 또는 작성자가 공유를 활성화한 경우 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-TQID: https://experienceleague.adobe.com/-EUf54B-yS68PPW4BmPmQWN4aIi7KgyU2567zbrD3ag
+TQID: 'https://experienceleague.adobe.com/-EUf54B-yS68PPW4BmPmQWN4aIi7KgyU2567zbrD3ag'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1446
+source-wordcount: '1446'
 ht-degree: 2%
-
 ---
-
 # 증명 뷰어에서 증명 공유
 
 증명 소유자 또는 작성자가 공유를 활성화한 경우 증명 뷰어에서 증명을 공유할 수 있습니다.
@@ -90,15 +98,15 @@ ht-degree: 2%
 
    * Adobe Workfront에서 직접 링크를 이메일로 보내려면 다음을 수행합니다.
 
-      1. **또는**(으)로 연결된 전자 메일 링크에서 입력을 시작하고 받는 사람의 이름을 선택합니다. 또는 공유할 외부 사용자의 이메일 주소를 지정합니다.
+     1. **또는**(으)로 연결된 전자 메일 링크에서 입력을 시작하고 받는 사람의 이름을 선택합니다. 또는 공유할 외부 사용자의 이메일 주소를 지정합니다.
 
-         >[!NOTE]
-         >
-         >증명을 공유할 때 별칭 이메일이 표시되는 경우, 해당 별칭 이메일이 있는 경우 원본 이메일을 입력하여 새 게스트 사용자를 만들지 마십시오.
+        >[!NOTE]
+        >
+        >증명을 공유할 때 별칭 이메일이 표시되는 경우, 해당 별칭 이메일이 있는 경우 원본 이메일을 입력하여 새 게스트 사용자를 만들지 마십시오.
 
-      1. 다음 옵션 중에서 선택합니다.
+     1. 다음 옵션 중에서 선택합니다.
 
-         <table style="table-layout:auto">
+        <table style="table-layout:auto">
           <col>
           <col>
           <tbody>
@@ -117,11 +125,11 @@ ht-degree: 2%
           </tbody>
          </table>
 
-      1. **보내기**&#x200B;를 클릭합니다.
+     1. **보내기**&#x200B;를 클릭합니다.
 
-         수신자는 증명 및 포함하기로 선택한 버튼에 대한 정보가 포함된 이메일 알림을 받게 됩니다.
+        수신자는 증명 및 포함하기로 선택한 버튼에 대한 정보가 포함된 이메일 알림을 받게 됩니다.
 
-         ![](assets/proof-share-email-350x87.png)
+        ![](assets/proof-share-email-350x87.png)
 
 ## 포함 코드 공유
 

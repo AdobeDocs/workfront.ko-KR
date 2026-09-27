@@ -8,28 +8,39 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 15e03405-63ff-48ea-b873-cf44f1f46282
-TQID: https://experienceleague.adobe.com/6l1X-py3VV1LysiT-WtBvW4zJjGseRKfAL6C6ysdhUI
+TQID: 'https://experienceleague.adobe.com/6l1X-py3VV1LysiT-WtBvW4zJjGseRKfAL6C6ysdhUI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 790
+source-wordcount: '790'
 ht-degree: 0%
-
 ---
-
 # 2019.3 통합 및 모바일 개선 사항
 
 이 페이지에서는 2019.3 릴리스에 포함된 모든 변경 사항 통합 및 모바일 개선 사항에 대해 설명합니다. 2019년 8월 19일이 있는 주에 프로덕션 환경에서 사용할 수 있게 되었습니다.
@@ -114,8 +125,8 @@ Workfront 모바일 앱에서의 경험을 개선하기 위해 다음과 같은 
 
 * 세부 정보 페이지의 상단 막대에서 다음을 화면의 더 눈에 띄는 영역으로 이동했습니다.
 
-   * 이제 더하기 아이콘이 화면의 왼쪽 아래 모서리에 있습니다.
-   * 항목 작업을 시작하기 위한 확인 표시가 이제 화면 상단 중간에 있는 처리 중 버튼입니다.
+  * 이제 더하기 아이콘이 화면의 왼쪽 아래 모서리에 있습니다.
+  * 항목 작업을 시작하기 위한 확인 표시가 이제 화면 상단 중간에 있는 처리 중 버튼입니다.
 
 * 이제 세부 정보 페이지 하단의 자세히 표시 를 탭하여 첨부된 사용자 정의 양식을 볼 수 있습니다.
 * 작업, 문제 및 요청을 제출하는 데 사용하는 페이지의 모양을 변경했습니다.

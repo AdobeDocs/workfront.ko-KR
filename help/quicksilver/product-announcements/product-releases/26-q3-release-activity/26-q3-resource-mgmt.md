@@ -4,13 +4,20 @@ description: 2026년 3분기 리소스 관리 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
-
 ---
-
 # 2026년 3분기 리소스 관리 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 3분기 릴리스의 리소스 관리 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -21,7 +28,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 6월 19일프로덕션 빠른 릴리스: 2026년 6월 19일모두를 위한 프로덕션: 2026년 6월 19일일정 해제&rbrack;{type=Neutral}
+>미리 보기: 2026년 6월 19일
+>프로덕션 빠른 릴리스: 2026년 6월 19일
+>모두를 위한 프로덕션: 2026년 6월 19일
+>[!BADGE 일정 해제]{type=Neutral}
 
 **리소스 바꾸기** 작업에 결합된 사용자 할당 및 사용자 바꾸기 작업을 통해 업무 균형자에서 일괄 할당이 간소화되었습니다.
 

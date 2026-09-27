@@ -6,22 +6,27 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-TQID: https://experienceleague.adobe.com/d5r4VDW3ZD3sNx5s9Kj9V8PKt39fZNFtwfiAj6dzdzk
+TQID: 'https://experienceleague.adobe.com/d5r4VDW3ZD3sNx5s9Kj9V8PKt39fZNFtwfiAj6dzdzk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: '881'
 ht-degree: 0%
-
 ---
-
 # 22.4 관리자 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 22.4 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 10월 3일이 있는 주에 사용할 수 있습니다.
@@ -122,7 +127,7 @@ Workfront 관리자만 초기 기능을 선택할 수 있습니다. 관리자가
 
 Adobe 통합 경험에는 다음이 포함됩니다.
 
-* Adobe Experience Cloud을 통한 모든 Adobe 애플리케이션에 대한 단일 로그인
+* Adobe Experience Cloud를 통한 모든 Adobe 애플리케이션에 대한 단일 로그인
 
 * Workfront 조직과 환경 사이를 이동하는 &quot;조직 전환기&quot;
 

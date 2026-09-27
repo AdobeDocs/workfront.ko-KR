@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: ' [!DNL Workfront Proof]에서 증명 진행 상황 및 상태 보기'
+title: '[!DNL Workfront Proof]에서 증명 진행 상황 및 상태 보기'
 description: 증명 진행률은 검토자에게 증명을 보낸 시점부터 검토자가 증명에 대한 결정을 내릴 때까지 증명에 대한 작업이 완료됨을 나타냅니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8fd85595-1403-490e-9d52-2ba5b01457b7
-TQID: https://experienceleague.adobe.com/RT6tZgY8-PP4bmiowZFQm1BK84Bd1CAguWcWRv9Hpqs
+TQID: 'https://experienceleague.adobe.com/RT6tZgY8-PP4bmiowZFQm1BK84Bd1CAguWcWRv9Hpqs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1139
+source-wordcount: '1139'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 증명 진행 상황 및 상태 보기
 
 >[!IMPORTANT]
@@ -141,11 +149,11 @@ Workfront Proof은 진행률 아이콘을 사용하여 다음 각 수준에서 �
 * 단계 (3)에 대해 설정된 기한
 * 검토자 세부 정보:
 
-   * 각 검토자가 작성한 댓글 및 답글 수(4)
-   * 각 검토자의 진행률(5)
-   * 결정(결정에 전자 서명이 포함된 경우 결정 옆에 이를 나타내는 아이콘이 표시됩니다.) (6)
-   * 증명에서 역할(7)
-   * 이메일 경고 설정(8)
+  * 각 검토자가 작성한 댓글 및 답글 수(4)
+  * 각 검토자의 진행률(5)
+  * 결정(결정에 전자 서명이 포함된 경우 결정 옆에 이를 나타내는 아이콘이 표시됩니다.) (6)
+  * 증명에서 역할(7)
+  * 이메일 경고 설정(8)
 
 >[!NOTE]
 >

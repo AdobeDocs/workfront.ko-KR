@@ -4,13 +4,20 @@ description: 2026년 3분기 릴리스 기간 동안 홈 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ca4b2ee8375442afa19bf0d3af2915d3aab20779
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '167'
 ht-degree: 0%
-
 ---
-
 # 2026년 3분기 릴리스 일정 동안의 홈 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 3분기 릴리스의 홈 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -21,7 +28,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 6월 4일>프로덕션 빠른 릴리스: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
+>미리 보기: 2026년 6월 4일
+>프로덕션 빠른 릴리스: 2026년 6월 11일
+>모두를 위한 프로덕션: 2026년 7월 16일
 
 이제 우선 순위가 열에서 사용자 지정 데이터 사용을 지원합니다. 작업 목록에서 열 관리자를 열어 열 데이터에 표시할 사용자 정의 필드를 추가합니다.
 

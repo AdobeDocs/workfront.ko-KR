@@ -3,13 +3,14 @@ title: 조직 외부 사용자와의 증명 공동 작업 제한 사항
 description: 조직 외부 사용자와의 증명 공동 작업 제한 사항
 author: Courtney
 draft: Probably
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
-
 ---
-
 # 조직 외부 사용자와의 증명 공동 작업 제한 사항
 
 증명에 추가될 때, 특히 조직 외부의 사람이 별도의 환경에서 증명 액세스 권한이 있는 경우 조직 외부의 사람과 통신할 때 알고 있어야 하는 몇 가지 제한 사항이 있습니다.

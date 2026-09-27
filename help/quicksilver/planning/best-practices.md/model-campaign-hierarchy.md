@@ -8,25 +8,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ
+TQID: 'https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1564
+source-wordcount: '1572'
 ht-degree: 0%
-
 ---
-
 # 성공 설계: 캠페인 계층 구조 모델링
 
 <!--see the file again for additional comments from Seth and others-->
@@ -67,25 +79,25 @@ Adobe Workfront Planning에서 무게 중심 및 다중 작업 공간 아키텍�
 
 * **수준 1: 캠페인(Workfront 계획)**
 
-   * **포커스:** 장기 전략 지주와 연간 이니셔티브를 정의합니다. 예를 들어 &quot;FY26 Global Brand Awareness&quot;라는 조직의 이니셔티브를 정의합니다. 이는 주어진 시간대에 집중하는 것입니다. 이 이니셔티브를 지원하는 캠페인을 만드십시오.
+  * **포커스:** 장기 전략 지주와 연간 이니셔티브를 정의합니다. 예를 들어 &quot;FY26 Global Brand Awareness&quot;라는 조직의 이니셔티브를 정의합니다. 이는 주어진 시간대에 집중하는 것입니다. 이 이니셔티브를 지원하는 캠페인을 만드십시오.
 
-   * **담당자:** 이 수준에 대한 이해 당사자는 마케팅 책임자, 마케팅 담당 VP 또는 기타 전략 잠재 고객일 수 있습니다.
+  * **담당자:** 이 수준에 대한 이해 당사자는 마케팅 책임자, 마케팅 담당 VP 또는 기타 전략 잠재 고객일 수 있습니다.
 
   자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
 * **수준 2: 채널 전술(Workfront 계획)**
 
-   * **포커스:** 특정 채널에 대한 &quot;내용&quot;을 요약하는 운영 브리핑을 정의합니다. 이것은 작업이 시작되기 전에 전략적 의도의 마지막 계층입니다. 예를 들어 &quot;1분기 소셜 미디어 공세&quot; 전술을 만듭니다. 그런 다음 캠페인과 연결할 수 있습니다.
+  * **포커스:** 특정 채널에 대한 &quot;내용&quot;을 요약하는 운영 브리핑을 정의합니다. 이것은 작업이 시작되기 전에 전략적 의도의 마지막 계층입니다. 예를 들어 &quot;1분기 소셜 미디어 공세&quot; 전술을 만듭니다. 그런 다음 캠페인과 연결할 수 있습니다.
 
-   * **담당자:** 주요 이해 당사자는 마케팅 운영 리더, 채널 리더 또는 캠페인 관리자입니다.
+  * **담당자:** 주요 이해 당사자는 마케팅 운영 리더, 채널 리더 또는 캠페인 관리자입니다.
 
 * **수준 3: 프로젝트(계획 및 Workfront)**
 
-   * **포커스:** 이니셔티브를 수행할 정확한 경험이나 활동을 실행하십시오. 일부 결과물은 소셜 게시물, 이메일, 웹 페이지와 같이 구체적입니다.
+  * **포커스:** 이니셔티브를 수행할 정확한 경험이나 활동을 실행하십시오. 일부 결과물은 소셜 게시물, 이메일, 웹 페이지와 같이 구체적입니다.
 
-   * **구현:** Planning에서 전술을 만들고 이를 Workfront의 **프로젝트**&#x200B;에 직접 연결할 수 있습니다. 여기서 개별 결과물을 작업과 문제로 관리할 수 있습니다.
+  * **구현:** Planning에서 전술을 만들고 이를 Workfront의 **프로젝트**&#x200B;에 직접 연결할 수 있습니다. 여기서 개별 결과물을 작업과 문제로 관리할 수 있습니다.
 
-   * **담당자:** 여기에 있는 주요 이해 당사자는 창의적인 사람, 개별 기여자, 이니셔티브를 지원하는 작업을 담당하는 사람입니다.
+  * **담당자:** 여기에 있는 주요 이해 당사자는 창의적인 사람, 개별 기여자, 이니셔티브를 지원하는 작업을 담당하는 사람입니다.
 
 ### 전략적 확장: 수준을 추가하는 방법
 
@@ -102,7 +114,7 @@ Adobe Workfront Planning에서 무게 중심 및 다중 작업 공간 아키텍�
 >조직에서 연간 5,000개 이상의 활동을 생성하는 경우 개별 결과물 추적을 Workfront으로 이동해야 합니다.
 >
 >Planning에서 대량 경험 레코드를 관리하면 데이터가 누적되어 전략적 가시성을 흐리게 할 수 있습니다.
->효율성을 극대화하기 위해 다음과 같은 광범위한 지침을 권장합니다.
+>최대 효율성을 위해 다음과 같은 광범위한 지침을 권장합니다.
 >
 >* &quot;이유&quot; 및 &quot;내용&quot;에 Planning 사용
 >* 대용량 &quot;방법&quot;에 Workfront을 사용합니다.

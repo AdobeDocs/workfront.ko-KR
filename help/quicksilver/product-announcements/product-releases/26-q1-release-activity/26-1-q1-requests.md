@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ea2668c-cab9-4ee3-95c9-44996e951c29
-TQID: https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y
+TQID: 'https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: '948'
 ht-degree: 0%
-
 ---
-
 # 2026년 1분기 요청 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 1분기 릴리스의 요청 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -29,7 +36,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2025년 12월 18일>프로덕션 빠른 릴리스: 2026년 1월 14일\
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일\
 >모두를 위한 프로덕션: 2026년 1월 15일
 
 특정 요청으로 만든 개체로 더 쉽게 이동할 수 있도록 만들어진 개체 열에 링크를 추가했습니다. 이제 이 열의 링크를 클릭하여 생성된 객체의 페이지로 바로 이동할 수 있습니다.
@@ -63,7 +71,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->미리 보기: 2025년 12월 18일>프로덕션 빠른 릴리스: 2026년 1월 14일\
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일\
 >모두를 위한 프로덕션: 2026년 1월 15일
 
 필요한 정보를 더 쉽게 볼 수 있도록 새 요청 환경에 보기를 공유하는 기능을 추가했습니다. 이제 다른 사용자, 팀 또는 그룹과 보기를 공유할 수 있습니다.
@@ -74,7 +83,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->미리 보기: 2025년 12월 18일>프로덕션 빠른 릴리스: 2026년 1월 14일\
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일\
 >모두를 위한 프로덕션: 2026년 1월 15일
 
 필요한 정보를 더 쉽게 볼 수 있도록 사용자 정의 필드를 요청 목록 및 홈 의 내 요청 위젯에 열로 추가하는 기능을 추가했습니다. 이제 사용자 정의 양식의 필드를 열로 추가할 수 있으며 해당 필드에 정보가 있는 요청은 목록 또는 위젯에 해당 정보를 표시합니다.
@@ -92,7 +102,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->미리 보기: 2025년 12월 18일>프로덕션 빠른 릴리스: 2026년 1월 14일\
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일\
 >모두를 위한 프로덕션: 2026년 1월 15일
 
 사용자에게 적용되는 요청을 더 쉽게 필터링할 수 있도록 현재 사용자 와일드카드를 만들었습니다. 이제 필터링할 때 &quot;나(로그인한 사용자)&quot;를 선택할 수 있습니다. 그런 다음 필터는 요청 목록을 보고 있는 사용자에게 적용됩니다.
@@ -107,7 +118,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->미리 보기: 2025년 12월 11일>프로덕션 빠른 릴리스: 2025년 12월 11일\
+>미리 보기: 2025년 12월 11일
+>프로덕션 빠른 릴리스: 2025년 12월 11일\
 >모두를 위한 프로덕션: 2025년 12월 11일
 
 요청을 더 쉽게 만들 수 있도록 AI에서 제공하는 양식 채우기를 만들었습니다. 이제 프롬프트에 붙여넣거나 요청 양식에 문서를 업로드할 수 있으며 AI가 관련 정보를 꺼내 양식을 채웁니다.
@@ -121,7 +133,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->미리 보기: 2025년 11월 20일>프로덕션 빠른 릴리스: 2026년 1월 14일\
+>미리 보기: 2025년 11월 20일
+>프로덕션 빠른 릴리스: 2026년 1월 14일\
 >모두를 위한 프로덕션: 2026년 1월 15일
 
 요청을 더 쉽게 만들고 제출할 수 있도록 새 요청 환경에 초안을 저장하는 기능을 추가했습니다. 이제 요청을 작성하고 닫으면 요청이 초안 상태로 저장되고 초안을 작성하는 데 사용되는 요청 양식에서 찾을 수 있습니다. 그런 다음 편리한 시간에 초안을 다시 열고, 업데이트하고, 제출할 수 있습니다.
@@ -134,7 +147,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->미리 보기: 2025년 11월 20일>프로덕션 빠른 릴리스: 2026년 1월 14일\
+>미리 보기: 2025년 11월 20일
+>프로덕션 빠른 릴리스: 2026년 1월 14일\
 >모두를 위한 프로덕션: 2026년 1월 15일
 
 요청을 더 쉽게 정리하고 복잡하지 않게 유지하기 위해 요청을 삭제하는 기능을 새 요청 환경에 추가했습니다. 이제 제출한 요청을 삭제할 수 있습니다. Workfront 관리자 및 Workfront Planning Workspace 관리자도 요청을 삭제할 수 있습니다.
@@ -148,7 +162,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->미리 보기: 2025년 11월 20일>프로덕션 빠른 릴리스: 2025년 12월 11일\
+>미리 보기: 2025년 11월 20일
+>프로덕션 빠른 릴리스: 2025년 12월 11일\
 >모두를 위한 프로덕션: 2026년 1월 15일
 
 요청을 더 쉽게 제출할 수 있도록 요청을 새 요청 경험에 복사하는 기능을 추가했습니다. 이제 요청을 복사하고 필드를 편집한 후 새 요청으로 제출할 수 있습니다.

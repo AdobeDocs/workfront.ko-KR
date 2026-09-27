@@ -6,18 +6,24 @@ description: 자동화된 워크플로우로 구성된 증명의 진행 상황�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-TQID: https://experienceleague.adobe.com/eIoOAdfvVqxgP-ez66L21LuuBp3l-2ssg5wGG1cHM9E
+TQID: 'https://experienceleague.adobe.com/eIoOAdfvVqxgP-ez66L21LuuBp3l-2ssg5wGG1cHM9E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 490
+source-wordcount: '490'
 ht-degree: 4%
-
 ---
-
 # 증명에서 자동화된 워크플로 단계 보기
 
 자동화된 워크플로우로 구성된 증명의 진행 상황을 편리하게 추적할 수 있습니다. 증명의 단계에서 이미 수행된 작업을 보고, 수정하고, 추가하고, 시작하고, 잠글 수 있습니다.

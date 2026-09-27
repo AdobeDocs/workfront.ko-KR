@@ -10,26 +10,33 @@ role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VMSiCJzYS7RU85BuD7t19pWwf0dKYBK2vFwzatTnpkg
+TQID: 'https://experienceleague.adobe.com/VMSiCJzYS7RU85BuD7t19pWwf0dKYBK2vFwzatTnpkg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: c549503a-6440-4802-9525-ceb73a00feff
+    internal-label: Create and manage teams
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1791
+source-wordcount: '1841'
 ht-degree: 1%
-
 ---
-
 # 블루프린트 구성
 
 블루프린트를 설치하기 전에 블루프린트의 세부 사항을 구성할 수 있습니다. 프로젝트 템플릿 및 조직 구조 블루프린트 유형은 일반적으로 일부 환경 설정을 설정하고 일부 속성을 매핑해야 합니다. 다른 블루프린트 유형은 구성이 필요하지 않을 수 있으며 그대로 설치합니다. 설치에 대한 자세한 내용은 [블루프린트 설치](/help/quicksilver/administration-and-setup/blueprints/blueprints-install.md)를 참조하십시오.

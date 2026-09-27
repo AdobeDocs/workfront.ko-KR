@@ -7,24 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-TQID: https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs
+TQID: 'https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 836
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 # R1 미리 보기 4
 
 이 페이지에서는 R1.4 릴리스의 미리보기 환경에서 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 2월 15일에 미리보기 환경에서 사용할 수 있습니다.
@@ -42,8 +47,8 @@ R1의 모든 변경 사항 목록을 보려면 [Workfront R1 릴리스](../../..
 
 * 기존 글로벌 승인 프로세스 수정과 관련된 다음과 같은 기존 제한 사항이 제거되었습니다.
 
-   * 수정된 승인 프로세스는 승인 프로세스가 아직 시작되지 않았거나 승인 프로세스가 수정되지 않은 시스템 전체의 객체에만 반영됩니다. 승인 프로세스가 이미 시작되었거나 승인 프로세스가 수정된 오브젝트는 변경 내용으로 업데이트되지 않습니다.
-   * 승인이 시작되는 시기를 결정하는 상태는 수정할 수 없습니다.
+  * 수정된 승인 프로세스는 승인 프로세스가 아직 시작되지 않았거나 승인 프로세스가 수정되지 않은 시스템 전체의 객체에만 반영됩니다. 승인 프로세스가 이미 시작되었거나 승인 프로세스가 수정된 오브젝트는 변경 내용으로 업데이트되지 않습니다.
+  * 승인이 시작되는 시기를 결정하는 상태는 수정할 수 없습니다.
 
 * 모양과 느낌이 업데이트되었습니다.
 

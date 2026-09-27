@@ -1,25 +1,29 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: ' [!DNL Adobe Workfront] 커뮤니티'
-description: Adobe [!DNL Workfront] 커뮤니티는 10,000 [!DNL Workfront] 명 이상의 사용자가 모인 온라인 그룹입니다. 커뮤니티를 통해 제품 릴리스를 최신 상태로 유지하고, 고객 이벤트에 대해 알아보고,  [!DNL Workfront] 제품 및 서비스에 대해 다른 사용자와 대화할 수 있습니다. 질문에 대한 답변을 찾아 다른 [!DNL Workfront] 명의 고객과 연결을 설정할 수 있습니다.
+title: '[!DNL Adobe Workfront] 커뮤니티'
+description: Adobe [!DNL Workfront] 커뮤니티는 10,000명이 넘는 [!DNL Workfront] 사용자의 온라인 그룹입니다. 커뮤니티를 통해 제품 릴리스를 최신 상태로 유지하고, 고객 이벤트에 대해 알아보고, [!DNL Workfront] 제품 및 서비스에 대해 다른 사용자와 대화할 수 있습니다. 질문에 대한 답변을 찾아 다른 [!DNL Workfront] 고객과의 연결을 설정할 수 있습니다.
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-TQID: https://experienceleague.adobe.com/yBbbuQXIayjqzlCDbR4BqVQnkMAKKJ-oJKkgVxiM2bY
+TQID: 'https://experienceleague.adobe.com/yBbbuQXIayjqzlCDbR4BqVQnkMAKKJ-oJKkgVxiM2bY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 403
+source-wordcount: '409'
 ht-degree: 1%
-
 ---
-
 # [!DNL Adobe Workfront] 커뮤니티
 
 Adobe [!DNL Workfront] 커뮤니티는 10,000명이 넘는 [!DNL Workfront] 사용자의 온라인 그룹입니다. 커뮤니티를 통해 제품 릴리스를 최신 상태로 유지하고, 고객 이벤트에 대해 알아보고, [!DNL Workfront] 제품 및 서비스에 대해 다른 사용자와 대화할 수 있습니다. 질문에 대한 답변을 찾아 다른 [!DNL Workfront] 고객과의 연결을 설정할 수 있습니다.

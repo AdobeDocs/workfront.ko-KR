@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-TQID: https://experienceleague.adobe.com/WmHq8Aycq-cMfOt6ZnLF0MpNbtLPM5NhVylrsw9hHKE
+TQID: 'https://experienceleague.adobe.com/WmHq8Aycq-cMfOt6ZnLF0MpNbtLPM5NhVylrsw9hHKE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 286
+source-wordcount: '286'
 ht-degree: 0%
-
 ---
-
 # 잠금 및 잠금 해제된 그룹 상태
 
 그룹의 사용자 정의 상태를 잠그는 것은 그룹 및 해당 하위 그룹의 사람들이 작업 흐름에서 동일한 프로세스를 사용하도록 하는 방법입니다. 그룹 상태가 잠겨 있으면 그룹 및 하위 그룹의 모든 사용자가 사용할 수 있습니다. 사용자(또는 Workfront 관리자)는 잠근 상태를 편집하거나 삭제할 수 있지만 아래 하위 그룹의 관리자는 해당 그룹에 대해 이 작업을 수행할 수 없습니다. 이러한 관리자는 상태 목록에서 표시 순서만 변경할 수 있습니다.

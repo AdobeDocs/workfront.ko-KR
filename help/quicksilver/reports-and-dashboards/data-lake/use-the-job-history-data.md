@@ -9,21 +9,26 @@ recommendations: noDisplay, noCatalog
 exl-id: d658c3df-5fa5-4756-ac42-71d9aed481df
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/1jwPKGeQ9RB1ke1GsCMxrk7xRchFCCMADkuDtrRDEWw
+TQID: 'https://experienceleague.adobe.com/1jwPKGeQ9RB1ke1GsCMxrk7xRchFCCMADkuDtrRDEWw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Optimization
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: '448'
 ht-degree: 0%
-
 ---
-
 # Data Connect의 작업 내역 보기 사용
 
 작업 내역 보기에서 Workfront 관리자는 각 데이터 새로 고침 작업의 세부 기록에 액세스할 수 있습니다. 이러한 레코드는 데이터를 최신 상태로 유지하고 프로세스를 실행하고 비즈니스 시각화를 새로 고치는 시기에 이상적인 기간을 설정하는 데 도움이 되는 작업에 중요한 insight을 제공합니다.
@@ -58,7 +63,7 @@ ht-degree: 0%
         <td>작업이 사용 가능한 각 업데이트를 성공적으로 처리했으며 해당 레코드 유형에 대한 모든 업데이트가 이제 데이터 레이크에 반영됩니다.</td>
     </tr>
     <tr>
-        <td>건너뜀</td>
+        <td>건너뛴 수</td>
         <td>레코드 유형에 대해 처리할 큐에 업데이트가 없으므로 작업을 건너뛰었습니다.</td>
     </tr>
     <tr>

@@ -8,22 +8,26 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-TQID: https://experienceleague.adobe.com/4H5MhQIywl31xNFiBlCsDkFKKTmy-8dk2bIJtedfGo8
+TQID: 'https://experienceleague.adobe.com/4H5MhQIywl31xNFiBlCsDkFKKTmy-8dk2bIJtedfGo8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 443
+source-wordcount: '443'
 ht-degree: 3%
-
 ---
-
 # 요청 유형 구성
 
 프로젝트를 작업하는 동안 예기치 않은 이벤트가 발생할 수 있습니다. 이러한 예기치 않은 이벤트를 특정 프로젝트 또는 작업에 대한 문제로 기록할 수 있습니다. 요청 대기열로 지정된 프로젝트의 문제로 기록되는 요청을 제출할 수도 있습니다. 문제 및 요청은 Adobe Workfront에서 상호 교환 가능한 것으로 간주됩니다.

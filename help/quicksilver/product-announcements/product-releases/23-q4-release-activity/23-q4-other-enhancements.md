@@ -5,18 +5,24 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ebea1a04-8a08-40d3-a096-c0dc8f917c36
-TQID: https://experienceleague.adobe.com/0gCwWIkSW3TPb3W78hCS1BCnem7nx3EIM7Tj6LvqFLo
+TQID: 'https://experienceleague.adobe.com/0gCwWIkSW3TPb3W78hCS1BCnem7nx3EIM7Tj6LvqFLo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 119
+source-wordcount: '119'
 ht-degree: 0%
-
 ---
-
 # 2023년 4분기 기타 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2023년 4분기 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.10 릴리스를 통해 사용할 수 있습니다.

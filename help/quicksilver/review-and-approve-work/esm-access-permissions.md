@@ -9,20 +9,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ckHEVC5iDp8A8xidvA16L0csKu0ey8LZHVlA2-QlCgQ
+TQID: 'https://experienceleague.adobe.com/ckHEVC5iDp8A8xidvA16L0csKu0ey8LZHVlA2-QlCgQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: '944'
 ht-degree: 1%
-
 ---
-
 # Adobe 클라우드 스토리지 모델에 대한 개체 권한 및 액세스 수준 개요
 
 <!--linked in UI -->
@@ -41,8 +47,8 @@ Workfront 액세스 수준은 Workfront 내에서만 적용됩니다. Workfront 
 * **Adobe 클라우드 저장소**: Adobe 클라우드 저장소를 사용하는 프로젝트, 프로그램, 포트폴리오 및 템플릿은 다른 Adobe 제품에 대한 Adobe 클라우드 저장소 액세스 수준 논리를 따릅니다.
 
 
-   * **프로젝트, 프로그램, 포트폴리오 및 템플릿 개체 권한**: 액세스 수준에 프로젝트, 프로그램, 포트폴리오 및 템플릿에 대해 **액세스 권한 없음**&#x200B;이 선택되었지만 개체가 공유되면 사용자는 Workfront에서 개체를 볼 수 없지만 Frame.io 및 Adobe Creative Cloud과 같은 다른 Adobe 도구에서 개체 이름 및 연결된 문서를 계속 볼 수 있습니다.
-   * **문서 권한**: 액세스 수준에서 문서에 대해 **액세스 권한 없음**&#x200B;을 선택한 경우 사용자는 Workfront의 프로젝트에 대한 문서를 볼 수 없지만 Frame.io 및 Adobe Creative Cloud과 같은 다른 Adobe 도구에서 공유된 프로젝트에 대한 문서를 계속 보고 관리할 수 있습니다. 문서 액세스는 Workfront 액세스 수준만 결정하는 것이 아니라 Adobe 클라우드 스토리지의 프로젝트 수준 권한에 의해 결정되기 때문입니다.
+  * **프로젝트, 프로그램, 포트폴리오 및 템플릿 개체 권한**: 액세스 수준에 프로젝트, 프로그램, 포트폴리오 및 템플릿에 대해 **액세스 권한 없음**&#x200B;이 선택되었지만 개체가 공유되면 사용자는 Workfront에서 개체를 볼 수 없지만 Frame.io 및 Adobe Creative Cloud과 같은 다른 Adobe 도구에서 개체 이름 및 연결된 문서를 계속 볼 수 있습니다.
+  * **문서 권한**: 액세스 수준에서 문서에 대해 **액세스 권한 없음**&#x200B;을 선택한 경우 사용자는 Workfront의 프로젝트에 대한 문서를 볼 수 없지만 Frame.io 및 Adobe Creative Cloud과 같은 다른 Adobe 도구에서 공유된 프로젝트에 대한 문서를 계속 보고 관리할 수 있습니다. 문서 액세스는 Workfront 액세스 수준만 결정하는 것이 아니라 Adobe 클라우드 스토리지의 프로젝트 수준 권한에 의해 결정되기 때문입니다.
 
 Workfront 환경에서 Adobe 클라우드 스토리지를 활성화한 경우 Adobe 클라우드 스토리지 프로젝트와 레거시 Workfront 스토리지 프로젝트를 모두 생성할 수 있습니다. 기존 Workfront 스토리지 프로젝트는 Workfront에 표시되는 모든 프로젝트 이름 옆에 아이콘을 표시합니다. Adobe 클라우드 스토리지 프로젝트에 아이콘이 표시되지 않습니다.
 

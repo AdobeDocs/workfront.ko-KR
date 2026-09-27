@@ -3,14 +3,15 @@ title: 액세스 요구 사항 테이블의 예 - 내부 문서
 description: 액세스 요구 사항에 사용되는 테이블의 인벤토리를 보관하기 위한 팀 내부 문서입니다. 게시하면 안 됩니다.
 author: Alina
 hide: true
-hidefromtoc: true
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+hidefromtoc: 'yes'
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 26%
-
 ---
-
 
 # 액세스 요구 사항 테이블의 예 - 내부 문서
 

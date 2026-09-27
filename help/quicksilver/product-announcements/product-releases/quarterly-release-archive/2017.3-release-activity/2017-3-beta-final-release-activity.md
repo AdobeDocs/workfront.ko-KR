@@ -7,27 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-TQID: https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs
+TQID: 'https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3709
+source-wordcount: '3822'
 ht-degree: 0%
-
 ---
-
 # 2017.3 Beta 최종 릴리스 활동
 
 이 페이지에서는 2017.3 Beta 최종 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 9월 12일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2017년 11월 초에 제공될 예정입니다.
@@ -304,9 +312,9 @@ HTML 뷰어에는 정적 콘텐츠의 교정을 수행할 때 다음과 같은 �
 
 * 증명 썸네일을 통해 증명 탐색
 
-   * 검토 중인 증명 부분을 쉽게 식별합니다. 이는 특히 사용자가 더 큰 형식 증명 및 긴 웹 페이지로 작업하는 경우 또는 세부 정보를 보려면 더 큰 확대/축소 수준이 필요할 때 중요합니다.
-   * 확대/축소 수준 변경
-   * 콘텐츠 패닝
+  * 검토 중인 증명 부분을 쉽게 식별합니다. 이는 특히 사용자가 더 큰 형식 증명 및 긴 웹 페이지로 작업하는 경우 또는 세부 정보를 보려면 더 큰 확대/축소 수준이 필요할 때 중요합니다.
+  * 확대/축소 수준 변경
+  * 콘텐츠 패닝
 
 * 측정 도구에서 사용자 정의 값 지정
 * Workfront Proof의 증명 뷰어에서 증명 내의 텍스트에 주석을 달 때 텍스트를 굵게, 기울임꼴 및 밑줄로 표시해야 함을 나타내는 옵션을 포함할 수 있습니다.

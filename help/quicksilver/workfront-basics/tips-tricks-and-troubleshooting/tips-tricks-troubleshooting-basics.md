@@ -1,24 +1,28 @@
 ---
-title: ' [!DNL Adobe Workfront]에 대한 팁, 요령 및 문제 해결: 문서 색인'
+title: '[!DNL Adobe Workfront]에 대한 팁, 요령 및 문제 해결: 문서 색인'
 description: 이 섹션의 문서를 검토하여 문제 해결 팁을 배우고 FAQ에 대한 답변을 찾아보십시오.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-TQID: https://experienceleague.adobe.com/sXCgHiht9i9Xf9SAJzX-yhV1DdbyKW-pDI8d1R9W7O8
+TQID: 'https://experienceleague.adobe.com/sXCgHiht9i9Xf9SAJzX-yhV1DdbyKW-pDI8d1R9W7O8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 5fc376d5e3fe8ab6e137d87f3ad0f57c06874d3d
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 109
+source-wordcount: '109'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Workfront]에 대한 팁, 요령 및 문제 해결: 문서 인덱스
 
 <!--Audited: 5/2025-->

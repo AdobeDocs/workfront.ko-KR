@@ -6,20 +6,23 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: yes
+hidefromtoc: 'yes'
 exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
-TQID: https://experienceleague.adobe.com/7GHrdVSKWkpklk9N0dId-Z-TyQgu37evcOdtPfobE7Q
+TQID: 'https://experienceleague.adobe.com/7GHrdVSKWkpklk9N0dId-Z-TyQgu37evcOdtPfobE7Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 59
+source-wordcount: '59'
 ht-degree: 0%
-
 ---
-
 # 우선 순위: 예정된 릴리스
 
 Priority에 대해 저희가 제공하는 사항을 알려드리게 되어 기쁩니다. Workfront의 우선 순위 영역에 있는 피드백 버튼을 사용하여 다음에 보고 싶은 항목을 알려 주십시오.

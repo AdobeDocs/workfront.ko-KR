@@ -6,18 +6,21 @@ description: 다양한 위젯 중에서 선택하여 홈 페이지에 표시되�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-TQID: https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc
+TQID: 'https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1123
+source-wordcount: '1123'
 ht-degree: 6%
-
 ---
-
 # 홈에서 위젯 추가, 편집 또는 제거
 
 <!-- Audited: 4/2025 -->
@@ -124,9 +127,9 @@ ht-degree: 6%
 
    * **내 승인**\
        보류 중인 할당 또는 위임된 승인, 승인을 위임하는 버튼 및 위젯 내에서 직접 승인을 결정하는 버튼을 모두 표시합니다. 승인은 다음과 같이 순서가 지정됩니다.
-      * 기한 초과
-      * 예정된 기한
-      * 기한이 없는 항목
+     * 기한 초과
+     * 예정된 기한
+     * 기한이 없는 항목
 
    * **문서 승인 지표**\
            평균 승인 시간 및 의사 결정과 보류 중인 승인 및 기한 경과 승인의 목록 보기에 대한 정보가 포함된 2개의 차트를 표시합니다. 이 위젯을 사용하려면 [통합 승인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)을 사용하도록 설정해야 합니다.

@@ -8,23 +8,31 @@ feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/IUSv8kAWns-YH5CFM8ijinqqUXfswp0aVh5igluSYDI
+TQID: 'https://experienceleague.adobe.com/IUSv8kAWns-YH5CFM8ijinqqUXfswp0aVh5igluSYDI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 347
-ht-degree: 5%
-
+source-wordcount: '415'
+ht-degree: 4%
 ---
-
 # 문서 요청
 
 Documents를 지원하는 모든 객체에 대한 문서를 요청할 수 있습니다.
@@ -32,7 +40,7 @@ Documents를 지원하는 모든 객체에 대한 문서를 요청할 수 있습
 >[!NOTE]
 >
 >이 기능은 새 문서 영역에서 사용할 수 없습니다.<br>
->조직에서 Adobe 클라우드 저장소를 사용하는 경우 Workfront의 문서에 액세스하면 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+>조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -79,7 +87,7 @@ Documents를 지원하는 모든 객체에 대한 문서를 요청할 수 있습
 
    >[!NOTE]
    >
-   >계정에 [기존 라이선스 개요](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)가 활성화되어 있으면 모든 전자 메일 주소로 요청을 보낼 수 있습니다. [시스템 보안 환경 설정 구성](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)에 Workfront과 상호 작용하기 전에 이러한 외부 이메일 사용자가 암호를 만들어야 하는지 여부를 결정하는 설정이 있습니다. 
+   >계정에 [기존 라이선스 개요](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)가 활성화되어 있으면 모든 전자 메일 주소로 요청을 보낼 수 있습니다. [시스템 보안 환경 설정 구성](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)에 Workfront과 상호 작용하기 전에 이러한 외부 전자 메일 사용자가 암호를 만들어야 하는지 여부를 결정하는 설정이 있습니다. 
 
 1. 문서를 요청하는 이유를 설명하십시오.
 1. **요청 보내기**&#x200B;를 클릭합니다.

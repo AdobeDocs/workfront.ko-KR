@@ -9,26 +9,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-TQID: https://experienceleague.adobe.com/8rHmgTfG96Ca44EffT6BdyM1YwIkYhgRBu9KEvdbuL8
+TQID: 'https://experienceleague.adobe.com/8rHmgTfG96Ca44EffT6BdyM1YwIkYhgRBu9KEvdbuL8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: '943'
 ht-degree: 2%
-
 ---
-
 # Workfront 환경 간 객체 이동 개요(환경 프로모션)
 
 환경 홍보 기능을 사용하면 한 Workfront 환경에서 다른 환경으로 개체를 이동할 수 있습니다. 예를 들어, 테스트하는 것이 조직의 실제 데이터에 영향을 주지 않는다는 것을 알고 템플릿을 만들어 샌드박스 환경에서 구성할 수 있습니다. 템플릿을 구성하고 테스트한 후 사용할 수 있도록 프로덕션 환경으로 이동할 수 있습니다.
@@ -39,8 +46,8 @@ ht-degree: 2%
 
 * Workfront 내에서 이 프로세스를 수행하는 방법에 대한 특정 지침은 다음을 참조하십시오.
 
-   * [환경 프로모션 패키지 만들기 또는 편집](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
-   * [환경 프로모션 패키지 설치](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+  * [환경 프로모션 패키지 만들기 또는 편집](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+  * [환경 프로모션 패키지 설치](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 * Workfront API를 통해 이 프로세스를 수행하는 방법에 대한 지침은 [API를 사용하여  [!DNL Workfront] 환경 간에 개체 이동](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)을 참조하십시오. [!DNL Workfront] 
 

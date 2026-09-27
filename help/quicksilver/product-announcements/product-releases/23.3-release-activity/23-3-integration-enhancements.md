@@ -5,26 +5,33 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
-TQID: https://experienceleague.adobe.com/dbwl44iOJoBWysGDsJYaFmjdMqoo-wL5sHiRxNqc4qQ
+TQID: 'https://experienceleague.adobe.com/dbwl44iOJoBWysGDsJYaFmjdMqoo-wL5sHiRxNqc4qQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '764'
 ht-degree: 0%
-
 ---
-
 # 23.3 통합 개선 사항
 
 이 페이지에서는 23.3 릴리스의 모든 통합 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2023년 7월 20일과 21일에 23.3 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
@@ -93,14 +100,14 @@ Adobe Experience Manager 통합에 대한 새 연결된 폴더 만들기 워크�
 
 이전에는 Workfront 데이터를 Experience Manager Assets 태그에 매핑할 수 없었습니다.
 
-Experience Manager Assets as a Cloud Service의 이 기능에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service 구성&rbrack; 통합](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)을 참조하십시오.
+Experience Manager Assets as a Cloud Service의 이 기능에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service 구성] 통합(/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)을 참조하십시오.
 Experience Manager Assets Essentials의 이 기능에 대한 자세한 내용은 [Experience Manager Assets Essentials 통합 구성](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)을 참조하십시오.
 
 ## Workfront 필드를 사용자 지정 Experience Manager Assets 메타데이터 필드에 매핑
 
 이제 기본 통합을 통해 기본 및 기본 제공 Workfront 필드를 모두 Experience Manager Assets as a Cloud Service의 사용자 지정 메타데이터 스키마 필드에 매핑할 수 있습니다.
 
-Experience Manager Assets as a Cloud Service의 이 기능에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service 구성&rbrack; 통합](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)을 참조하십시오.
+Experience Manager Assets as a Cloud Service의 이 기능에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service 구성] 통합(/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)을 참조하십시오.
 Experience Manager Assets Essentials의 이 기능에 대한 자세한 내용은 [Experience Manager Assets Essentials 통합 구성](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)을 참조하십시오.
 
 ## Creative Cloud용 Adobe Workfront을 사용하여 자동 증명 워크플로 템플릿 설정 조정

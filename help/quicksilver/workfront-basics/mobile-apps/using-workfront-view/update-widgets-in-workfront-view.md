@@ -6,22 +6,26 @@ description: '[!UICONTROL 프로젝트 세부 정보] 화면에 위젯을 추가
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-TQID: https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M
+TQID: 'https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 517
+source-wordcount: '517'
 ht-degree: 4%
-
 ---
-
 # [!UICONTROL 프로젝트 세부 정보] 보기에서 위젯 업데이트
 
 [!UICONTROL 프로젝트 세부 정보] 화면에 위젯을 추가하여 프로젝트 목록에서 [!UICONTROL 프로젝트]에 액세스한 후에 해당 프로젝트에 대한 추가 정보를 볼 수 있습니다. 각 사용자는 자신의 위젯을 사용자 정의할 수 있습니다.
@@ -78,8 +82,8 @@ ht-degree: 4%
    * **[!UICONTROL 작업 진행 상태]**: [!UICONTROL 진행 상태]별 프로젝트의 모든 작업을 원형 차트로 표시합니다.
    * **[!UICONTROL 예정된 작업]**: 예정된 작업을 최대 6개까지 표시합니다. 위젯은 프로젝트 작업을 다음 순서로 정렬합니다.
 
-      * 먼저 [!UICONTROL 예상 기한]까지
-      * 두 번째, [!UICONTROL 작업 분류 구조]별
+     * 먼저 [!UICONTROL 예상 기한]까지
+     * 두 번째, [!UICONTROL 작업 분류 구조]별
 
      마지막 2개의 전체 작업(해당하는 경우)과 다음 4개의 작업이 표시됩니다. [!DNL Workfront] 보기 모바일 앱에 표시되는 작업을 이해하기 위해 보고 있는 프로젝트에 대한 작업 보고서를 작성하고 예상 기한 및 [!DNL Workfront] 분류 구조별로 정렬할 수 있습니다. 처음 6개의 작업은 [!UICONTROL 예정된] 작업 위젯의 Workfront 보기 모바일 앱에 나열된 작업이 됩니다.
 
@@ -88,17 +92,17 @@ ht-degree: 4%
 
      [!DNL Workfront View]을(를) 사용하여 다음 문서 형식을 열 수 있습니다.
 
-      * 모든 텍스트 파일
-      * .pdf
-      * 이미지 파일(.jpg, .jpeg, .png 등)
-      * .xls
+     * 모든 텍스트 파일
+     * .pdf
+     * 이미지 파일(.jpg, .jpeg, .png 등)
+     * .xls
    * **[!UICONTROL 세부 정보]**: 프로젝트에 대한 다음 세부 정보를 표시합니다.
 
-      * 프로젝트 이름
-      * 프로젝트 제작자 이름
-      * 프로젝트 상태
-      * 프로젝트 그룹
-      * 프로젝트 일정
+     * 프로젝트 이름
+     * 프로젝트 제작자 이름
+     * 프로젝트 상태
+     * 프로젝트 그룹
+     * 프로젝트 일정
    * **[!UICONTROL 팀]**: 프로젝트 팀에 있는 사용자의 이름을 표시합니다.\
 
      프로젝트 팀에 대한 자세한 내용은 [프로젝트 팀 개요](../../../manage-work/projects/planning-a-project/project-team-overview.md)를 참조하십시오.

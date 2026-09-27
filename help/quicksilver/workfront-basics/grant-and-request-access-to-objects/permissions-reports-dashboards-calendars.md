@@ -7,23 +7,28 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-TQID: https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk
+TQID: 'https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 0%
-
 ---
-
 # 보고서, 대시보드 및 캘린더 공유
 
 Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보고서, 대시보드 및 달력을 보거나 편집할 수 있는 액세스 권한을 사용자에게 부여합니다. 보고서, 대시보드 및 캘린더에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [보고서, 대시보드 및 캘린더에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)를 참조하십시오.
@@ -49,9 +54,9 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보�
 
   보고서, 대시보드 및 달력을 공유하는 방법에 대해 알아보려면 다음 문서를 참조하십시오.
 
-   * [Adobe Workfront에서 보고서 공유](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [대시보드 공유](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [캘린더 보고서 공유](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+  * [Adobe Workfront에서 보고서 공유](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+  * [대시보드 공유](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+  * [캘린더 보고서 공유](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * 보고서와 대시보드를 개별적으로 공유하거나 일괄적으로 공유할 수 있습니다.
 
@@ -63,8 +68,8 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보�
 
 * 보고서, 대시보드 및 달력에 다음 권한을 부여할 수 있습니다.
 
-   * 보기
-   * 관리
+  * 보기
+  * 관리
 
 * 대시보드를 공유할 때 대시보드의 모든 보고서, 달력 및 외부 페이지에 대한 보기 권한은 기본적으로 사용자에게 있습니다.
 * 요청 라이선스가 있는 사용자는 시스템 전체 보고서를 볼 수 없습니다. 보고서를 조회해야 하는 경우 요청자와 개별적으로 공유해야 합니다.

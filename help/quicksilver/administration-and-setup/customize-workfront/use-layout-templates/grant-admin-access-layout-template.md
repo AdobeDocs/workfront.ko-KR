@@ -8,22 +8,26 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-TQID: https://experienceleague.adobe.com/hV6I8IYKJWZBeIibkJh2KMfeVlimx1i0Yd-lIVQd4tE
+TQID: 'https://experienceleague.adobe.com/hV6I8IYKJWZBeIibkJh2KMfeVlimx1i0Yd-lIVQd4tE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: '430'
 ht-degree: 4%
-
 ---
-
 # 레이아웃 템플릿에 대한 관리 액세스 권한 부여
 
 Adobe Workfront 관리자는 특정 그룹의 그룹 관리자가 템플릿을 편집할 수 있도록 레이아웃 템플릿에 대한 관리 액세스 권한을 부여할 수 있습니다. 이렇게 해도 그룹의 사용자에게는 템플릿이 할당되지 않습니다.

@@ -6,20 +6,26 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
-TQID: https://experienceleague.adobe.com/qmNKLogk-6ziKzb3zAmLY3vCbyP1gbwRGyWOBAGsuKk
+TQID: 'https://experienceleague.adobe.com/qmNKLogk-6ziKzb3zAmLY3vCbyP1gbwRGyWOBAGsuKk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # 23.2 기타 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 23.2 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.2 릴리스를 통해 제공될 예정입니다.
@@ -37,7 +43,7 @@ Creative Cloud용 Workfront 플러그인에 다음과 같은 변경 사항을 �
 
 Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 일부 개체의 업데이트 섹션에 새로운 인터페이스, 새로운 기능 및 향상된 성능이 포함되어 있습니다.
 
-이 새로운 경험은 결국 Adobe Workfront을 넘어 Adobe Experience Cloud 전반에 걸쳐 댓글 달기를 통합합니다.
+이 새로운 경험은 결국 Adobe Experience Cloud를 통해 Adobe Workfront 및 그 너머의 댓글 달기를 통합합니다.
 
 이 업데이트의 일부로, 문제의 업데이트 섹션에 새로운 댓글 달기 환경을 소개합니다. 현재 릴리스에서는 각 사용자가 베타 모드의 고유 환경에서 이 경험을 활성화할 수 있는 토글이 제공됩니다. Beta 계약에 동의한 후 새 업데이트 섹션이 표시되며, 현재처럼 해당 섹션에서 작업을 계속 관리할 수 있습니다.
 
@@ -78,7 +84,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 
 Adobe 통합 경험에는 다음이 포함됩니다.
 
-* Adobe Experience Cloud을 통한 모든 Adobe 애플리케이션에 대한 단일 로그인
+* Adobe Experience Cloud를 통한 모든 Adobe 애플리케이션에 대한 단일 로그인
 * Workfront 조직과 환경 사이를 이동하는 &quot;조직 전환기&quot;
 * Workfront 페이지, Adobe Experience Cloud 환경 설정 및 Workfront 프로필에 대한 옵션을 사용하여 탐색
 

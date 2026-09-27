@@ -7,20 +7,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/aW5kAUq4zhTPslAsU5d9gwX7Mncz647yAKttkigDniI
+TQID: 'https://experienceleague.adobe.com/aW5kAUq4zhTPslAsU5d9gwX7Mncz647yAKttkigDniI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 451
+source-wordcount: '451'
 ht-degree: 0%
-
 ---
-
 # 2024년 3분기 릴리스 일정 동안의 기타 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2024년 3분기 릴리스의 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -46,7 +52,7 @@ ht-degree: 0%
 
 Adobe 통합 경험에는 다음이 포함됩니다.
 
-* Adobe Experience Cloud을 통한 모든 Adobe 애플리케이션에 대한 단일 로그인
+* Adobe Experience Cloud를 통한 모든 Adobe 애플리케이션에 대한 단일 로그인
 * Workfront 조직과 환경 사이를 이동하는 &quot;조직 전환기&quot;
 * Workfront 페이지, Adobe Experience Cloud 환경 설정 및 Workfront 프로필에 대한 옵션을 사용하여 탐색
 

@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc
+TQID: 'https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: '481'
 ht-degree: 2%
-
 ---
-
 # 필드 개요
 
 <!--
@@ -43,8 +50,8 @@ ht-degree: 2%
 
   필드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-   * [필드 설정 편집](/help/quicksilver/planning/fields/edit-fields.md)
-   * [필드 삭제](/help/quicksilver/planning/fields/delete-fields.md)
+  * [필드 설정 편집](/help/quicksilver/planning/fields/edit-fields.md)
+  * [필드 삭제](/help/quicksilver/planning/fields/delete-fields.md)
 
 * 레코드 형식과 연결된 필드는 해당 형식의 모든 레코드와 연결할 수 있습니다. <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
 
@@ -52,45 +59,45 @@ ht-degree: 2%
 
 * 다음 방법으로 필드를 수동 또는 자동으로 만들 수 있습니다.
 
-   * 수동:
+  * 수동:
 
-      * 레코드 유형 페이지의 테이블 보기에서 열을 추가할 때 테이블의 열은 레코드 유형과 연관된 필드입니다. 레코드 페이지에 표시되는 필드와 동일합니다.
+    * 레코드 유형 페이지의 테이블 보기에서 열을 추가할 때 테이블의 열은 레코드 유형과 연관된 필드입니다. 레코드 페이지에 표시되는 필드와 동일합니다.
 
-        레코드의 페이지에서 필드를 만들 수 없습니다.
+      레코드의 페이지에서 필드를 만들 수 없습니다.
 
-      * 레코드 유형을 연결하는 경우. 두 레코드 형식 또는 다른 응용 프로그램의 레코드 형식과 개체 형식 간에 새 연결을 추가할 때 연결된 레코드 필드를 만들 수 있습니다.
+    * 레코드 유형을 연결하는 경우. 두 레코드 형식 또는 다른 응용 프로그램의 레코드 형식과 개체 형식 간에 새 연결을 추가할 때 연결된 레코드 필드를 만들 수 있습니다.
 
-        레코드 종류 연결에 대한 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+      레코드 종류 연결에 대한 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
-      * Workfront에서 기존 필드를 가져오는 경우.
+    * Workfront에서 기존 필드를 가져오는 경우.
 
-        자세한 내용은 [Adobe Workfront에서 필드 가져오기](/help/quicksilver/planning/fields/import-fields-from-workfront.md)를 참조하십시오.
+      자세한 내용은 [Adobe Workfront에서 필드 가져오기](/help/quicksilver/planning/fields/import-fields-from-workfront.md)를 참조하십시오.
 
 
-   * 자동:
+  * 자동:
 
-      * 레코드 유형을 만들 때:
+    * 레코드 유형을 만들 때:
 
-         * 이름
-         * 설명
-         * 시작 일자
-         * 종료 일자
-         * 상태. 레코드 상태의 기본값은 다음과 같습니다.
-            * 개발
-            * 계획됨
-            * 활성
-            * 완료됨
-            * 보류 중
+      * 이름
+      * 설명
+      * 시작 일자
+      * 종료 일자
+      * 상태. 레코드 상태의 기본값은 다음과 같습니다.
+        * 개발
+        * 계획됨
+        * 활성
+        * 완료됨
+        * 보류 중
 
-        값을 더 추가하거나 기존 값의 이름을 변경할 수 있습니다.
+      값을 더 추가하거나 기존 값의 이름을 변경할 수 있습니다.
 
-      * 템플릿으로 작업 공간을 만들 때
+    * 템플릿으로 작업 공간을 만들 때
 
-        자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
+      자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
-      * Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오는 경우.
+    * Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오는 경우.
 
-        자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
+      자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
 * Workfront Planning 필드는 Workfront에서 액세스할 수 없습니다.
 

@@ -4,13 +4,20 @@ description: 2026년 3분기 프로젝트 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
-
 ---
-
 # 2026년 3분기 프로젝트 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 3분기 릴리스의 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -23,9 +30,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 6월 11일빠른 릴리스를 위한 프로덕션: 2026년 6월 11일분기 릴리스 프로덕션: 2026년 6월 11일일정 해제&rbrack;{type=Neutral}
+>미리 보기: 2026년 6월 11일
+>빠른 릴리스를 위한 프로덕션: 2026년 6월 11일
+>분기 릴리스 프로덕션: 2026년 6월 11일
+>[!BADGE 일정 해제]{type=Neutral}
 
-조직에서 레거시 Workfront 스토리지 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 이제 레거시 스토리지 작업을 Adobe 클라우드 스토리지 프로젝트로 전환할 수 있습니다.이렇게 하면 문서 및 문서 승인이 새로 생성된 프로젝트로 이전되지 않고 상위 객체에 남아 있습니다.
+조직에서 레거시 Workfront 스토리지 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 이제 레거시 스토리지 작업을 Adobe 클라우드 스토리지 프로젝트로 전환할 수 있습니다.
+이렇게 하면 문서 및 문서 승인이 새로 생성된 프로젝트로 이전되지 않고 상위 객체에 남아 있습니다.
 
 이전에는 작업을 동일한 저장소 유형을 사용하는 프로젝트로만 변환할 수 있었습니다.
 
@@ -39,7 +50,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 6월 11일모두를 위한 프로덕션: 2026년 6월 11일
+>미리 보기: 2026년 6월 11일
+>모두를 위한 프로덕션: 2026년 6월 11일
 
 조직에서 레거시 Workfront 스토리지 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 이제 레거시 스토리지 템플릿을 사용하여 다음 시나리오에서 Adobe 클라우드 스토리지 프로젝트를 생성할 수 있습니다.
 

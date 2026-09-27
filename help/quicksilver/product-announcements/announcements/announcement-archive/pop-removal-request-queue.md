@@ -6,18 +6,24 @@ description: 요청 대기열에 대한 POP 이메일 옵션을 새로운 Adobe 
 author: Luke
 feature: Product Announcements
 exl-id: d7147641-ba36-422b-a9b2-3c2f4ab609d8
-TQID: https://experienceleague.adobe.com/zzr53eiyA6o-VpZQnFQt-xCXZBKaScZUz8jDmOgX-Ns
+TQID: 'https://experienceleague.adobe.com/zzr53eiyA6o-VpZQnFQt-xCXZBKaScZUz8jDmOgX-Ns'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '332'
 ht-degree: 0%
-
 ---
-
 # 요청 대기열에 대한 POP 이메일을 21.1로 대체하는 새로운 Adobe Workfront 관리 시스템
 
 요청 대기열에 대한 POP 이메일 옵션을 새로운 Adobe Workfront 관리 시스템으로 바꾸는 중입니다. 이메일을 통해 요청을 제출할 수는 있지만, 대신 요청 대기열 영역에서 새 Workfront 관리 이메일 주소를 설정해야 합니다.

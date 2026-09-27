@@ -7,13 +7,23 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 12%
-
 ---
-
 # R1 미리 보기 5
 
 이 페이지에서는 R1 미리보기 5 릴리스의 미리보기 환경에서 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 3월 16일에 미리보기 환경에서 사용할 수 있습니다.
@@ -71,10 +81,10 @@ Workfront에서 개체를 복원하는 방법에 대한 자세한 내용은 [삭
 * 진단
 * 다음을 포함하는 SSO(단일 인증):
 
-   * Active Directory
-   * LDAP
-   * SAML 1.1
-   * SAML 2.0
+  * Active Directory
+  * LDAP
+  * SAML 1.1
+  * SAML 2.0
 
 * SSO를 위해 사용자 업데이트
 

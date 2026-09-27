@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: ' [!DNL Workfront Proof] 인보이스 다운로드 중'
+title: '[!DNL Workfront Proof] 청구서 다운로드 중'
 description: 새 청구 기간 첫 날에 구독 송장이 계정의 기본 청구 담당자와 청구 CC 이메일 주소(정의된 경우)로 전송됩니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6bfb82b8-f127-4dac-a1cf-7c7962a86e48
-TQID: https://experienceleague.adobe.com/awflnggvqWgcGKukvaZ51-mQzogYR9ZlfDaJc3x4t2g
+TQID: 'https://experienceleague.adobe.com/awflnggvqWgcGKukvaZ51-mQzogYR9ZlfDaJc3x4t2g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '386'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof] 청구서 다운로드 중
 
 >[!IMPORTANT]
@@ -51,7 +60,7 @@ ht-degree: 0%
 >
 > 해당 송장에 대한 지급이 이미 수신된 경우(예: 자동화된 신용카드 결제의 경우), 결제 조건 및 기한은 지급으로 표시되고 지급에 대한 참조 번호가 설명에 나타납니다.
 
-당사는 가입에 대한 모든 자동 송장을 기본적으로 USD로 발행하지만 모든 영국 조직의 경우 부가가치세(VAT) 금액(USD 및 스털링 모두 포함)을 문서에 포함합니다. 구독 청구서를 완전히 GBP로 받으려면 [finance@proofhq.com](mailto:finance@proofhq.com)의 재무 팀에 문의하십시오.
+당사는 기본적으로 USD의 가입에 대한 모든 자동 송장을 발행하지만 모든 영국 조직의 경우, 문서에 부가가치세(VAT) 금액(USD 및 스털링 모두 포함)을 포함합니다. 구독 청구서를 완전히 GBP로 받으려면 [finance@proofhq.com](mailto:finance@proofhq.com)의 재무 팀에 문의하십시오.
 
 * [청구서 다운로드](#downloading-your-invoice)
 * [유용한 링크](#useful-links)

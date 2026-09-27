@@ -6,13 +6,23 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3103'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront Planning의 2026년 3분기 릴리스 활동
 
 <!--
@@ -49,9 +59,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 * Workfront Planning 패키지도 구입한 고객의 경우 Workfront Planning에 사용자 라이센스를 설명하기 위해 새 Planning 라이센스 유형 필드를 추가했습니다.
 동일한 수의 Workflow 및 Planning 라이선스를 구입한 고객은 다음 라이선스 유형을 사용할 수 있습니다.
 
-   * 계획 수립 표준
-   * 계획 수립 참여자
-   * 없음
+  * 계획 수립 표준
+  * 계획 수립 참여자
+  * 없음
 
 >[!NOTE]
 >

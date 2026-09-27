@@ -8,25 +8,33 @@ feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M
+TQID: 'https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 1%
-
+source-wordcount: '1340'
+ht-degree: 2%
 ---
-
 # 애자일 백로그 관리
 
 다음 작업 항목은 팀이 사용 중인 애자일 방법론에 따라 애자일 팀에 할당되고 해당 팀의 백로그에 이야기로 추가될 수 있습니다.
@@ -106,7 +114,7 @@ ht-degree: 1%
 
 1. 분류할 스토리가 포함된 백로그로 이동합니다.
 1. 분류할 스토리를 선택한 다음 **[!UICONTROL 스토리 분류]**&#x200B;를 클릭합니다.
-[!UICONTROL 분류 스토리] 대화 상자가 표시됩니다.
+[!UICONTROL 분석 스토리] 대화 상자가 표시됩니다.
    ![분석 스토리 대화 상자](assets/backlog-breakdown-dialog.png)
 
 1. 스토리의 이름과 예상 값을 지정하고 스토리가 준비되었는지 여부를 선택합니다.

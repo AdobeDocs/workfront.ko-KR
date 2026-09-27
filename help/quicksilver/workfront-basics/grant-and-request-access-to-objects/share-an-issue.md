@@ -6,22 +6,26 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-TQID: https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU
+TQID: 'https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1226
+source-wordcount: '1226'
 ht-degree: 3%
-
 ---
-
 # 문제 공유
 
 Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문제를 보거나 편집할 수 있는 액세스 권한을 사용자에게 부여합니다. 문제에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [문제에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)를 참조하십시오.
@@ -76,9 +80,9 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
 * 문제를 개별적으로 공유하거나 여러 문제를 한 번에 공유할 수 있습니다. 공유 문제는 Workfront에서 다른 항목을 공유하는 것과 동일합니다. Workfront에서 항목을 공유하는 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
 * 문제에 대해 다음 권한을 부여할 수 있습니다.
 
-   * 보기
-   * 참여
-   * 관리
+  * 보기
+  * 참여
+  * 관리
 
 * 문제를 공유하면 문제에 첨부된 모든 문서가 동일한 권한을 상속합니다.
 
@@ -91,27 +95,27 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
 * 수동으로 : Workfront에서 다른 개체를 공유하는 것과 비슷합니다.
 * 다음 중 하나를 수행하여 자동으로
 
-   * 문제의 상위 개체(프로젝트, 프로그램 또는 포트폴리오)에 대한 권한을 지정합니다. 문제는 상위 오브젝트에서 권한을 상속합니다. 개체에 상속된 사용 권한을 보는 방법에 대한 자세한 내용은 [개체에 상속된 사용 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)를 참조하십시오.
-   * 문제가 있는 프로젝트를 만드는 데 사용되는 템플릿에 대한 프로젝트 공유에 엔티티를 추가합니다. 템플릿에서 프로젝트를 공유하는 방법에 대한 자세한 내용은 [템플릿 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)를 참조하십시오.
+  * 문제의 상위 개체(프로젝트, 프로그램 또는 포트폴리오)에 대한 권한을 지정합니다. 문제는 상위 오브젝트에서 권한을 상속합니다. 개체에 상속된 사용 권한을 보는 방법에 대한 자세한 내용은 [개체에 상속된 사용 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)를 참조하십시오.
+  * 문제가 있는 프로젝트를 만드는 데 사용되는 템플릿에 대한 프로젝트 공유에 엔티티를 추가합니다. 템플릿에서 프로젝트를 공유하는 방법에 대한 자세한 내용은 [템플릿 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)를 참조하십시오.
 
-   * 프로젝트를 편집할 때 프로젝트의 모든 문제에 대한 권한을 지정합니다. 프로젝트에 대한 사용자의 권한에 따라 프로젝트의 문제 또는 요청에 대한 액세스를 관리하는 방법에 대한 자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md) 문서의 [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) 섹션을 참조하십시오.
+  * 프로젝트를 편집할 때 프로젝트의 모든 문제에 대한 권한을 지정합니다. 프로젝트에 대한 사용자의 권한에 따라 프로젝트의 문제 또는 요청에 대한 액세스를 관리하는 방법에 대한 자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md) 문서의 [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) 섹션을 참조하십시오.
 
-     >[!TIP]
-     >
-     >사용자가 프로젝트의 문제에 할당되었을 때 사용자가 가질 문제 권한을 지정하지 않으면 기본적으로 프로젝트에서 가지고 있는 것과 동일한 권한을 받게 됩니다.
+    >[!TIP]
+    >
+    >사용자가 프로젝트의 문제에 할당되었을 때 사용자가 가질 문제 권한을 지정하지 않으면 기본적으로 프로젝트에서 가지고 있는 것과 동일한 권한을 받게 됩니다.
 
-   * 요청 대기열을 만들 때 요청 대기열에서 제출한 문제에 대해 사용자가 받는 권한을 지정합니다. 자세한 내용은 [요청 큐 만들기](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하세요.
+  * 요청 대기열을 만들 때 요청 대기열에서 제출한 문제에 대해 사용자가 받는 권한을 지정합니다. 자세한 내용은 [요청 큐 만들기](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하세요.
 
-     >[!IMPORTANT]
-     >
-     >프로젝트가 요청 대기열로 게시되는지 여부에 따라 권한이 다르게 부여됩니다.
-     >
-     >   
-     >   
-     >   * 사용자가 요청 대기열로 게시된 프로젝트에 요청을 제출하면 기본 담당자 및 사용자가 입력한 사용자에게 지정된 권한이 부여됩니다.
-     >   * 사용자가 요청 대기열로 게시되지 않은 프로젝트에 요청을 제출하면 기본 담당자(사용자가 입력한 것과 다른 경우)에게 지정된 권한이 부여되고 사용자가 입력한 사용자에게는 문제에 대한 관리 권한이 부여됩니다.
-     >   
-     >
+    >[!IMPORTANT]
+    >
+    >프로젝트가 요청 대기열로 게시되는지 여부에 따라 권한이 다르게 부여됩니다.
+    >
+    >   
+    >   
+    >   * 사용자가 요청 대기열로 게시된 프로젝트에 요청을 제출하면 기본 담당자 및 사용자가 입력한 사용자에게 지정된 권한이 부여됩니다.
+    >   * 사용자가 요청 대기열로 게시되지 않은 프로젝트에 요청을 제출하면 기본 담당자(사용자가 입력한 것과 다른 경우)에게 지정된 권한이 부여되고 사용자가 입력한 사용자에게는 문제에 대한 관리 권한이 부여됩니다.
+    >   
+    >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

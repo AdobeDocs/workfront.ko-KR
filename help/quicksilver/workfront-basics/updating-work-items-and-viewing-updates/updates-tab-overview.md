@@ -7,25 +7,31 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-TQID: https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI
+TQID: 'https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: '1206'
 ht-degree: 4%
-
 ---
-
 # 업데이트 섹션 개요
 
 <!-- Audited: 1/2024 -->
@@ -155,44 +161,44 @@ Depending on what objects you access the commenting experience for, you might fi
 
 * 다음 오브젝트는 업데이트 섹션의 세 탭 모두에서 비슷한 경험을 제공합니다.
 
-   * 프로젝트
-   * 작업
-   * 문제
-   * 프로그램
-   * 포트폴리오
-   * 사용자
-   * 타임시트
+  * 프로젝트
+  * 작업
+  * 문제
+  * 프로그램
+  * 포트폴리오
+  * 사용자
+  * 타임시트
 
 * 다음 개체에는 시스템 활동 탭이나 모두 탭이 없고 설명 탭의 경험은 다른 모든 개체의 경험과 일치합니다.
 
-   * 팀
-   * 템플릿
-   * 템플릿 작업
+  * 팀
+  * 템플릿
+  * 템플릿 작업
 
 * 다음 개체에는 시스템 활동 탭이나 모두 탭이 없으며, 설명 탭의 경험은 다른 모든 개체의 경험과 다릅니다.
 
-   * 반복
-   * 보드 영역의 임시 카드
+  * 반복
+  * 보드 영역의 임시 카드
 
-     카드 업데이트에 대한 자세한 내용은 [보드에 임시 카드 추가](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)를 참조하십시오.
+    카드 업데이트에 대한 자세한 내용은 [보드에 임시 카드 추가](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)를 참조하십시오.
 
 * 다음 개체에는 시스템 활동 탭이 있고 모두 탭은 없습니다.
 
-   * 보드 영역의 연결된 카드
+  * 보드 영역의 연결된 카드
 
-     자세한 내용은 [보드에 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)을 참조하세요.
+    자세한 내용은 [보드에 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)을 참조하세요.
 
 * 다음 객체에는 시스템 활동 탭을 대체하는 내역 탭이 있습니다.
 
-   * Workfront Planning의 레코드
+  * Workfront Planning의 레코드
 
-     자세한 내용은 [기록 섹션 개요](/help/quicksilver/planning/records/history-section-overview.md)를 참조하십시오.
+    자세한 내용은 [기록 섹션 개요](/help/quicksilver/planning/records/history-section-overview.md)를 참조하십시오.
 
 * 다음 객체에는 모두 탭이 없고 주석 탭의 경험은 대부분의 객체와 일치합니다.
 
-   * 목표
+  * 목표
 
-     목표에 대한 업데이트에 대한 자세한 내용은 [목표 댓글 관리](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)를 참조하십시오.
+    목표에 대한 업데이트에 대한 자세한 내용은 [목표 댓글 관리](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)를 참조하십시오.
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -324,19 +330,19 @@ The following objects don't record system updates:
 
 * 팀의 업데이트 섹션은 다음 오브젝트에 추가된 댓글로 채워집니다.
 
-   * 사용자
-   * 스토리
-   * 타임시트
-   * 반복
+  * 사용자
+  * 스토리
+  * 타임시트
+  * 반복
 
 * 사용자에 대한 업데이트 영역의 시스템 업데이트 탭은 다른 객체에 대한 업데이트로 채워집니다. 다음은 사용자 프로필의 시스템 업데이트 탭에 표시되는 업데이트이며, 이러한 필드가 설정의 업데이트 피드 영역에서 추적됩니다.
 
-   * 문서 추가, 제거 및 기타 문서 업데이트
-   * 시간 추가, 제거, 대신 추가 및 기타 시간 항목 업데이트
-   * 사용자 정의 필드 업데이트
-   * 사용자 프로필 업데이트(사용자의 아바타, 모바일 번호, 필드, 제목에 대한 설명 업데이트)
-   * 사용자 추가, 제거, 액세스 수준 변경, 기본 제공 사용자 필드 변경
-   * 작업 및 프로젝트의 재무 정보.
+  * 문서 추가, 제거 및 기타 문서 업데이트
+  * 시간 추가, 제거, 대신 추가 및 기타 시간 항목 업데이트
+  * 사용자 정의 필드 업데이트
+  * 사용자 프로필 업데이트(사용자의 아바타, 모바일 번호, 필드, 제목에 대한 설명 업데이트)
+  * 사용자 추가, 제거, 액세스 수준 변경, 기본 제공 사용자 필드 변경
+  * 작업 및 프로젝트의 재무 정보.
 
 ### 다른 사용자를 대신하여 주석을 입력할 때의 제한 사항
 

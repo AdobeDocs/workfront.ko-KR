@@ -1,23 +1,26 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: MobileIron용  [!DNL Adobe Workfront] 구성
+title: MobileIron에 대해 [!DNL Adobe Workfront] 구성
 description: MobileIron용 Adobe Workfront 앱에서는 Android 및 iOS 모두에 대해 MobileIron에서 제공하는 기본 구성을 지원합니다.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 294fd42d-89a8-44c2-a97c-95ea5dd876d4
-TQID: https://experienceleague.adobe.com/xjcpS1OWeVMi-vaSqehNuxg8-ry-Aue--nHY8Si1ZEU
+TQID: 'https://experienceleague.adobe.com/xjcpS1OWeVMi-vaSqehNuxg8-ry-Aue--nHY8Si1ZEU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 258
+source-wordcount: '259'
 ht-degree: 0%
-
 ---
-
 # [!DNL MobileIron]에 대해 [!DNL Adobe Workfront] 구성
 
 [!DNL MobileIron]용 Adobe Workfront 앱에서는 [!DNL Android]과(와) [!DNL iOS] 모두에 대해 [!DNL MobileIron]에서 제공하는 기본 구성을 지원합니다.

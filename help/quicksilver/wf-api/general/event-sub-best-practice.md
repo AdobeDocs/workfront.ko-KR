@@ -7,22 +7,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-TQID: https://experienceleague.adobe.com/uT7erlnJR5-h-KKGQiuztzZKBtwtEvWQ8U-EUgN4TG4
+TQID: 'https://experienceleague.adobe.com/uT7erlnJR5-h-KKGQiuztzZKBtwtEvWQ8U-EUgN4TG4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 356
+source-wordcount: '356'
 ht-degree: 15%
-
 ---
-
 # 이벤트 구독 모범 사례
 
 서비스를 올바르게 구성하고 이러한 메시지 게재를 트리거하기 위한 이벤트 구독을 만든 후 Adobe Workfront 이벤트 구독 메시지가 Workfront에서 자동으로 전송됩니다. 이벤트 구독을 올바르게 설정하는 방법에 대한 자세한 내용은 [이벤트 구독 게재 요구 사항](../../wf-api/general/setup-event-sub-endpoint.md)을 참조하십시오.

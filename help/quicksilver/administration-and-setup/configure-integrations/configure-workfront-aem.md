@@ -1,34 +1,45 @@
 ---
-title: ' [!DNL Adobe Experience Manager] 기존 커넥터로  [!DNL Workfront] 구성'
+title: '[!DNL Adobe Experience Manager] 레거시 커넥터로 [!DNL Workfront] 구성'
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: ' [!DNL Adobe Workfront] 관리자는  [!DNL Workfront] Adobe Experience Manager(AEM) Assets을 통합하고, 조직에서 워크플로우 내의 에셋을 생성, 공유 및 유지 관리할 수 있는 포괄적인 콘텐츠 관리 솔루션을 제공할 수 있습니다.'
+description: '[!DNL Adobe Workfront] 관리자는 [!DNL Workfront]을(를) Adobe Experience Manager(AEM) Assets과 통합하고, 조직에서 워크플로우 내의 자산을 생성, 공유 및 유지 관리할 수 있는 포괄적인 콘텐츠 관리 솔루션을 제공할 수 있습니다.'
 author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-TQID: https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs
+TQID: 'https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1869
+source-wordcount: '1873'
 ht-degree: 1%
-
 ---
-
 # [!DNL Adobe Experience Manager] 레거시 커넥터로 [!DNL Workfront] 구성
 
 <!-- Audited: 4/2025 -->
@@ -120,7 +131,7 @@ ht-degree: 1%
 
 1. [!UICONTROL CRX 패키지 관리자]를 닫습니다. 커넥터가 설치되어 있으므로 [!DNL AEM Assets]을(를) [!DNL Workfront]과(와) 통합하도록 구성할 수 있습니다.
 
-1. [!DNL Workfront][&#128279;](#configure-aem-assets-to-integrate-with-workfront)과(와) 통합하려면 구성 [!DNL AEM Assets] 을(를) 계속합니다.
+1. [!DNL Workfront]&#x200B;[&#128279;](#configure-aem-assets-to-integrate-with-workfront)과(와) 통합하려면 구성 [!DNL AEM Assets] 을(를) 계속합니다.
 
 ## [!DNL Workfront]과(와) 통합하도록 [!DNL AEM Assets] 구성 {#configure-aem-assets-to-integrate-with-workfront}
 
@@ -253,7 +264,7 @@ ht-degree: 1%
 1. (조건부) 필요한 경우 **[!UICONTROL 작성자]** 필드에서 도메인을 업데이트합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이제 [!UICONTROL AEM Assets]이(가) 문서를 [!DNL Workfront]과(와) 연결하도록 구성되었습니다.
 
-1. [!DNL AEM assets][&#128279;](#configure-workfront-to-integrate-with-aem-assets)과(와) 통합하려면 구성 [!DNL Workfront] 을(를) 계속합니다.
+1. [!DNL AEM assets]&#x200B;[&#128279;](#configure-workfront-to-integrate-with-aem-assets)과(와) 통합하려면 구성 [!DNL Workfront] 을(를) 계속합니다.
 
 ## [!DNL AEM assets]과(와) 통합하도록 [!DNL Workfront] 구성 {#configure-workfront-to-integrate-with-aem-assets}
 

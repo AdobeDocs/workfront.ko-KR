@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: ' [!DNL Workfront Proof]에서 증명 역할 관리'
+title: '[!DNL Workfront Proof]에서 증명 역할 관리'
 description: 증명 역할을 사용하면 사용자 프로필에 구성된 권한 프로필에 의해 제한된 사용자에게 권한을 부여할 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
-TQID: https://experienceleague.adobe.com/-kFiMr-1GYxY3JvfHTW0NBNupGvnob0KuzELquFISDI
+TQID: 'https://experienceleague.adobe.com/-kFiMr-1GYxY3JvfHTW0NBNupGvnob0KuzELquFISDI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: '1317'
 ht-degree: 1%
-
 ---
-
 # [!DNL Workfront Proof]에서 증명 역할 관리
 
 <!-- Audited: 01/2024 -->
@@ -222,7 +231,7 @@ ht-degree: 1%
 >
 >관리자 또는 청구 관리자 프로필이 있는 사용자만 계정의 다른 사용자에 대한 증명 기본값을 변경할 수 있습니다.
 
-자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)의 개인 설정을 참조하십시오.
+자세한 내용은  [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)의 개인 설정을 참조하십시오.
 
 ## 작성자 및 소유자
 
@@ -263,7 +272,7 @@ ht-degree: 1%
 >
 >동일한 계정 또는 파트너 계정의 사용자만 증명 소유자로 만들 수 있습니다. 다음과 같은 경우에만 파트너 계정의 사용자를 증명 소유자로 설정할 수 있습니다.
 >
->* 계정 간에 기존 파트너 관계가 설정되어 있습니다. 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)의 파트너 계정을 참조하십시오.
+>* 계정 간에 기존 파트너 관계가 설정되어 있습니다. 자세한 내용은  [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)의 파트너 계정을 참조하십시오.
 >* [!UICONTROL 새 증명] 페이지에 사용자 지정 필드가 없습니다.
 >* 증명이 폴더에 할당되지 않았습니다.
 >* 증명에 적용된 태그가 없습니다.

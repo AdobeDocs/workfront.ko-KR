@@ -9,20 +9,24 @@ feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0
+TQID: 'https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # &quot;IF&quot; 문 개요
 
 <!-- Audited: 1/2024 -->
@@ -42,9 +46,9 @@ ht-degree: 0%
 
 * 다음 Workfront 요소에 대해 &quot;IF&quot; 문을 작성할 수 있습니다.
 
-   * 보기 횟수
-   * 그룹화
-   * 계산된 사용자 정의 필드
+  * 보기 횟수
+  * 그룹화
+  * 계산된 사용자 정의 필드
 
 * 필터에 대해 &quot;IF&quot; 문을 작성할 수 없습니다. 그 결과 Workfront에서 &quot;죄송합니다&quot; 오류가 발생합니다.
 * 지원 팀은 사용자 정의 데이터를 작성하는 데 도움이 되지 않습니다. 사용자 정의 필드 또는 열을 빌드했지만 원하는 결과가 표시되지 않는 경우 지원 팀에 문의할 수 있습니다. 표현식 작성에 도움이 필요하면 계정 담당자에게 문의하여 컨설팅 옵션에 대해 문의하십시오.
@@ -60,9 +64,9 @@ ht-degree: 0%
 
 * **조건** = Workfront 변수가 충족해야 하는 조건이며 이 방정식의 기초입니다. 방정식에서 나중에 지정할 수 있는 모든 것은 조건에 따라 달라진다. 여러 참조, 비교 또는 수학 표현식을 사용하여 방정식을 시작할 수 있습니다. 조건의 일부 예는 다음과 같습니다.
 
-   * 날짜가 지정된 개체의 다른 날짜보다 이후입니다.
-   * 상태는 지정된 오브젝트에서 사용 가능한 상태 중 하나와 같습니다.
-   * 작업 완료율이 특정 비율보다 작거나 더 큽니다.
+  * 날짜가 지정된 개체의 다른 날짜보다 이후입니다.
+  * 상태는 지정된 오브젝트에서 사용 가능한 상태 중 하나와 같습니다.
+  * 작업 완료율이 특정 비율보다 작거나 더 큽니다.
 
 * **조건 연산자** = &quot;IF&quot; 문의 조건을 만드는 데 도움이 되는 연산자입니다. 예를 들어 &quot;다음과 같음&quot; 또는 &quot;다음보다 큼&quot;은 조건 연산자입니다. 문에서 사용할 수 있는 조건 연산자 목록을 보려면 [계산된 사용자 지정 식의 조건 연산자](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)를 참조하십시오.
 

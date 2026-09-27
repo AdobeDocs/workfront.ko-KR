@@ -8,26 +8,33 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-TQID: https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY
+TQID: 'https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: '1029'
 ht-degree: 4%
-
 ---
-
 # 삭제된 항목 복원
 
 <!--Audited: 12/2023-->
@@ -95,15 +102,15 @@ Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 
 * 상태
 * 재무 정보:
 
-   * 과금 기록
-   * 청구 요금
-   * 경비
+  * 과금 기록
+  * 청구 요금
+  * 경비
 
 * 타임라인 정보:
 
-   * 전임 작업
-   * 작업 제한 사항
-   * 기간 유형
+  * 전임 작업
+  * 작업 제한 사항
+  * 기간 유형
 
 * 기준선
 
@@ -125,12 +132,12 @@ Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 
 
   문서 및 문서 버전을 복원할 때에는 다음 사항을 고려하십시오.
 
-   * 개별적으로 삭제된 문서는 개별적으로 복원할 수 있습니다.
+  * 개별적으로 삭제된 문서는 개별적으로 복원할 수 있습니다.
 
-     상위 프로젝트, 작업 또는 문제와 함께 삭제된 문서는 상위 항목을 복원할 때 복구되지만 개별적으로 복원할 수는 없습니다.
+    상위 프로젝트, 작업 또는 문제와 함께 삭제된 문서는 상위 항목을 복원할 때 복구되지만 개별적으로 복원할 수는 없습니다.
 
-   * 문서가 복원되면 문서 또는 문서 증명의 모든 버전이 복원됩니다.\
-     개별적으로 삭제된 문서 또는 문서 증명의 개별 버전은 복구할 수 없습니다.
+  * 문서가 복원되면 문서 또는 문서 증명의 모든 버전이 복원됩니다.\
+    개별적으로 삭제된 문서 또는 문서 증명의 개별 버전은 복구할 수 없습니다.
 
 ## 프로젝트, 작업 또는 문제를 복원할 때 복구되지 않는 정보
 
@@ -179,13 +186,13 @@ Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 
 
 * 항목을 복원한 후:
 
-   * 성공 여부를 알려주는 메시지가 표시됩니다.
+  * 성공 여부를 알려주는 메시지가 표시됩니다.
 
-     이메일 알림도 받습니다. 여러 항목을 복원한 경우 이메일에 해당 항목이 나열됩니다.
+    이메일 알림도 받습니다. 여러 항목을 복원한 경우 이메일에 해당 항목이 나열됩니다.
 
-   * 프로젝트, 작업 또는 문제의 업데이트 영역과 상위 개체의 업데이트 영역에 댓글이 표시됩니다.
+  * 프로젝트, 작업 또는 문제의 업데이트 영역과 상위 개체의 업데이트 영역에 댓글이 표시됩니다.
 
-     문서 또는 템플릿을 복원할 때에는 이러한 문제가 발생하지 않습니다.
+    문서 또는 템플릿을 복원할 때에는 이러한 문제가 발생하지 않습니다.
 
 ## 복원된 증명
 

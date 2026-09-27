@@ -5,15 +5,22 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '929'
 ht-degree: 0%
-
 ---
-
 # 2026년 2분기 보고 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 2분기 릴리스의 보고 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -36,8 +43,8 @@ ht-degree: 0%
 
 * 새 버전을 업로드할 때:
 
-   * 새 버전이 `TRUE`(으)로 표시됨
-   * 이전 버전이 `FALSE`(으)로 표시됨
+  * 새 버전이 `TRUE`(으)로 표시됨
+  * 이전 버전이 `FALSE`(으)로 표시됨
 
 * 보고서는 캔버스 대시보드 및 이전 보고에서 현재 버전을 일관되게 식별할 수 있습니다
 
@@ -117,8 +124,8 @@ ht-degree: 0%
 
 * **구성된 폴더 구조를 만듭니다**: 시스템 관리자는 최상위 수준의 폴더를 만들 수 있으며, 관리 액세스 권한이 있는 사용자는 최대 4단계의 하위 폴더를 만들 수 있습니다.
 * **세부 권한 컨트롤**: 다음 두 가지 권한 수준으로 폴더를 공유합니다.
-   * 보기: 사용자는 보고서를 열고 폴더를 공유할 수 있습니다
-   * 관리: 사용자는 폴더 세부 사항을 편집하고, 항목을 추가/제거하고, 폴더 내의 모든 보고서에 대한 관리 액세스 권한을 자동으로 수신할 수 있습니다
+  * 보기: 사용자는 보고서를 열고 폴더를 공유할 수 있습니다
+  * 관리: 사용자는 폴더 세부 사항을 편집하고, 항목을 추가/제거하고, 폴더 내의 모든 보고서에 대한 관리 액세스 권한을 자동으로 수신할 수 있습니다
 * **상속된 사용 권한**: 사용 권한이 상위 폴더에서 폴더 트리 내의 모든 하위 폴더 및 보고서로 캐스케이드됩니다
 * **향상된 목록 환경**: 공유 가능한 폴더를 사용하도록 설정하면 향상된 목록 환경에 액세스할 수 있습니다. 자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요.
 
@@ -139,6 +146,6 @@ ht-degree: 0%
 
 데이터를 날짜별로 그룹화하는 차트에 이제 더 명확하고 읽기 쉬운 날짜 레이블이 표시됩니다. 이 업데이트를 통해 날짜 레이블은 선택한 그룹화 기준 옵션(예: 일, 주, 월 또는 년)에 따라 동적으로 조정되므로 차트를 쉽게 읽고 해석할 수 있습니다.
 
-<table> <tbody> <tr> <td>Day</td> <td>전체 날짜를 표시합니다. 예: 2026/3/12</td> </tr> <tr> <td>주</td> <td>서식이 지정된 주 시작 날짜를 표시합니다. 예, 2026년 3월 8일</td> </tr> <tr> <td>Month</td> <td>월과 연도를 표시합니다. 예제 2026년 3월</td> </tr> <tr> <td>Year</td> <td>연도만 표시합니다. 예: 2026</td> </tr> </tbody> </table>
+<table> <tbody> <tr> <td>일</td> <td>전체 날짜를 표시합니다. 예: 2026/3/12</td> </tr> <tr> <td>주</td> <td>서식이 지정된 주 시작 날짜를 표시합니다. 예, 2026년 3월 8일</td> </tr> <tr> <td>Month</td> <td>월과 연도를 표시합니다. 예제 2026년 3월</td> </tr> <tr> <td>Year</td> <td>연도만 표시합니다. 예: 2026</td> </tr> </tbody> </table>
 
 이전에는 차트 그룹화에 선택한 기간의 시작 일자가 항상 숫자 형식으로 표시되었습니다.

@@ -1,15 +1,19 @@
 ---
 title: 독립 실행형 제품으로서 Adobe Workfront Planning에 필요한 액세스
 description: 이 문서에서는 Adobe Workfront Planning을 독립형 제품으로 사용하기 위한 라이센스, 액세스 수준 및 사용자 기능에 대해 설명합니다.
-last-update: 2026-04-01T18:02:40Z
+last-update: 2026-04-01T18:02:40.000Z
 git-commit-file: 8cc175490a6aa1db68b238edbdf9da9da7fbb258
-source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 2%
-
 ---
-
 <!--
 
 Update metadata with this at release:
@@ -137,28 +141,28 @@ Planning 관리자 액세스 수준이 있는 사용자는 다음 기능을 사�
 
   자세한 내용은 다음을 참조하십시오.
 
-   * [Adobe Workfront Planning에서 사용자를 독립 실행형 제품으로 관리](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
-   * [Adobe Workfront Planning에서 팀을 독립 실행형 제품으로 관리](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)
+  * [Adobe Workfront Planning에서 사용자를 독립 실행형 제품으로 관리](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [Adobe Workfront Planning에서 팀을 독립 실행형 제품으로 관리](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)
 * 요청을 제출하고 관리할 수 있습니다.
 
   자세한 내용은 [Adobe Workfront Planning 요청: 문서 색인](/help/quicksilver/planning/requests/requests-article-index.md)을 참조하십시오.
 * 메인 메뉴에 다음 영역이 있습니다.
 
-   * **Planning**: Planning 개체를 만들고, 삭제하고, 공유하고, 연결할 수 있는 모든 기능이 있습니다.
-   * **사용자**: 사용자를 추가하고 프로필을 편집할 수 있습니다.
-   * **요청**
-   * **설정**
+  * **Planning**: Planning 개체를 만들고, 삭제하고, 공유하고, 연결할 수 있는 모든 기능이 있습니다.
+  * **사용자**: 사용자를 추가하고 프로필을 편집할 수 있습니다.
+  * **요청**
+  * **설정**
 * 설정 영역에는 다음 섹션이 있습니다.
 
-   * **팀**: 팀을 추가하거나 제거하거나 편집할 수 있습니다. 편집은 팀 이름, 설명 및 멤버로 제한되며 필터, 보기, 그룹화 또는 내보내기 컨트롤은 사용할 수 없습니다.
-   * **다음으로 로그인**: 문제 해결 목적으로 다른 사용자를 가장합니다.
-   * **사용자 지정 분기**: Planning 타임라인 보기에 표시되는 사용자 지정 회계 분기를 구성합니다.
-   * 시스템
+  * **팀**: 팀을 추가하거나 제거하거나 편집할 수 있습니다. 편집은 팀 이름, 설명 및 멤버로 제한되며 필터, 보기, 그룹화 또는 내보내기 컨트롤은 사용할 수 없습니다.
+  * **다음으로 로그인**: 문제 해결 목적으로 다른 사용자를 가장합니다.
+  * **사용자 지정 분기**: Planning 타임라인 보기에 표시되는 사용자 지정 회계 분기를 구성합니다.
+  * 시스템
 
 * 시스템 영역에는 다음 섹션이 있습니다.
 
-   * **고객 정보**: 고객 및 조직 세부 정보를 봅니다.
-   * **환경 설정**: 시스템 수준 환경 설정을 검토하고 구성합니다.
+  * **고객 정보**: 고객 및 조직 세부 정보를 봅니다.
+  * **환경 설정**: 시스템 수준 환경 설정을 검토하고 구성합니다.
 
 ### Planning Standard 탐색 개요
 
@@ -170,9 +174,9 @@ Planning Standard 액세스 수준이 있는 사용자는 다음 기능을 사�
   자세한 내용은 [Adobe Workfront Planning 요청: 문서 색인](/help/quicksilver/planning/requests/requests-article-index.md)을 참조하십시오.
 * Planning Standard 사용자는 기본 메뉴에서 다음 영역에 액세스할 수 있습니다.
 
-   * **계획**
-   * **사용자**: 사용자에게 보기 전용 액세스 권한이 있습니다. 사용자를 만들거나 편집할 수 없습니다. <!--not sure if this is still true-->
-   * **요청**
+  * **계획**
+  * **사용자**: 사용자에게 보기 전용 액세스 권한이 있습니다. 사용자를 만들거나 편집할 수 없습니다. <!--not sure if this is still true-->
+  * **요청**
 
 * 설정 또는 해당 섹션에 대한 액세스 권한이 없습니다.
 
@@ -186,8 +190,8 @@ Planning 관리자로서 사용자에게 액세스 레벨을 지정하려면 다
 
   다음과 같은 시나리오가 있습니다.
 
-   * 관리자로 Adobe 콘솔에 추가된 사용자에게는 Workfront Planning에서 Planning 관리자 액세스 수준이 부여됩니다.
-   * 사용자로 Adobe 콘솔에 추가된 사용자에게는 Workfront Planning에서 Planning Standard 액세스 수준을 할당할 수 있습니다. 이는 Workfront Planning에서 독립형 제품으로 새 사용자에게 할당하는 데 사용할 수 있는 유일한 액세스 권한입니다.
+  * 관리자로 Adobe 콘솔에 추가된 사용자에게는 Workfront Planning에서 Planning 관리자 액세스 수준이 부여됩니다.
+  * 사용자로 Adobe 콘솔에 추가된 사용자에게는 Workfront Planning에서 Planning Standard 액세스 수준을 할당할 수 있습니다. 이는 Workfront Planning에서 독립형 제품으로 새 사용자에게 할당하는 데 사용할 수 있는 유일한 액세스 권한입니다.
 
 자세한 내용은 [사용자 관리](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)를 참조하십시오.
 

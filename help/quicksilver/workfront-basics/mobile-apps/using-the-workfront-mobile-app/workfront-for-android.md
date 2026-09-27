@@ -3,24 +3,28 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Android용 Adobe Workfront
-description: ' [!DNL Adobe Workfront] 앱을 사용하면 모든 Android 장치에서 작업에 액세스할 수 있습니다. Android 5.0 이상을 실행하는 휴대폰 및 태블릿에  [!DNL Workfront] 모바일 앱을 설치하고 사용할 수 있습니다.'
+description: '[!DNL Adobe Workfront] 앱을 사용하면 모든 Android 장치에서 작업에 액세스할 수 있습니다. Android 5.0 이상을 실행하는 휴대폰 및 태블릿에 [!DNL Workfront] 모바일 앱을 설치하고 사용할 수 있습니다.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-TQID: https://experienceleague.adobe.com/-vCcquqY4NjJNxUKY4ECLk-ciB20R3CQdNHceIXp16o
+TQID: 'https://experienceleague.adobe.com/-vCcquqY4NjJNxUKY4ECLk-ciB20R3CQdNHceIXp16o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 539
+source-wordcount: '541'
 ht-degree: 4%
-
 ---
-
 # [!DNL Android]에 대한 [!DNL Adobe Workfront]
 
 [!DNL Adobe Workfront] 앱을 사용하면 [!DNL Android] 장치에서 작업에 액세스할 수 있습니다. [!DNL Android] 5.0 이상을 실행하는 휴대폰 및 태블릿에 [!DNL Workfront] 모바일 앱을 설치하고 사용할 수 있습니다.

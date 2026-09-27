@@ -4,13 +4,17 @@ content-type: reference
 description: Adobe Workfront의 Coworker에 대해 사용할 수 있는 문서 목록을 참조하십시오.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: db8d8d4fe754f5bf5f1d6f846d7d9b56b6467597
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
-
 ---
-
 # Workfront의 CX 동료: 문서 인덱스
 
 >[!IMPORTANT]

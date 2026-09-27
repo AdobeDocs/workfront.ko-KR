@@ -9,23 +9,28 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-TQID: https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE
+TQID: 'https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1402
-ht-degree: 10%
-
+source-wordcount: '1505'
+ht-degree: 9%
 ---
-
 # 킥스타트 시나리오: 간단한 프로젝트 및 작업 가져오기 준비
 
 기본 프로젝트 및 Kick-Start 메서드를 사용한 작업 가져오기에 사용할 수 있는 설정 및 컨트롤에 대해 자세히 설명합니다.
@@ -312,7 +317,7 @@ ID 열의 각 행에 고유한 ID를 입력합니다. 일반적으로 새 레코
 프로젝트 계획에 작업이 표시되는 순서를 제어하려면 setTaskNumber 열에 값을 입력합니다.
 * **프로젝트 날짜를 제공합니다.**
 setPlannedStartDate 열에 각 프로젝트의 계획된 시작 일자를 입력합니다.
-* **필요한 다른 세부 정보를 설정합니다.**
+* **필요한 기타 세부 정보를 설정합니다.**
 필요에 따라 설명 또는 현재 상태 등 다른 세부 정보를 입력합니다. 그룹 그룹 시트에서 각 프로젝트의 그룹 ID를 조회하고 각 프로젝트의 setGroupID 열에 입력합니다. CMPY 회사 시트에서 프로젝트에 대한 회사 ID를 조회하고 setCompanyID 열에 입력합니다. 사용자 사용자 시트에서 각 프로젝트 소유자에 대한 사용자 ID를 조회하고 setOwnerID 열에 입력합니다. USER User 시트에서 각 프로젝트 스폰서에 대한 사용자 ID를 조회하고 setSponsorID 열에 입력합니다.
 
 ![값 설정](assets/im9.png)
@@ -380,11 +385,11 @@ setDuration 필드에 작업의 시간, 일, 주 또는 월 수를 입력하여 
 
   이 시나리오의 경우 가져오려는 다른 프로젝트에 대한 작업을 가장 쉽게 작성하는 방법은 방금 정의한 작업을 복사하여 아래 12행부터 붙여넣는 것입니다. 그러면 다음을 수행합니다.
 
-   1. ID 열에서 값의 번호를 다시 매깁니다.
-   1. setProjectID 열을 다음 프로젝트에 대해 설정한 값으로 업데이트합니다.
-   1. 이 프로젝트의 작업에 할당된 새 ID를 반영하도록 setParentID 및 setPrecedentString 값을 업데이트합니다.
-   1. 작업 할당 및 완료율을 업데이트합니다.
-   1. 다음 프로젝트의 작업에 대해 이 단계를 반복합니다.
+  1. ID 열에서 값의 번호를 다시 매깁니다.
+  1. setProjectID 열을 다음 프로젝트에 대해 설정한 값으로 업데이트합니다.
+  1. 이 프로젝트의 작업에 할당된 새 ID를 반영하도록 setParentID 및 setPrecedentString 값을 업데이트합니다.
+  1. 작업 할당 및 완료율을 업데이트합니다.
+  1. 다음 프로젝트의 작업에 대해 이 단계를 반복합니다.
 
 * **Excel 파일 가져오기**
 

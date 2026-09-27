@@ -4,13 +4,17 @@ content-type: reference
 description: Adobe Workfront MCP 서버와 관련하여 사용할 수 있는 문서 목록을 참조하십시오.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 0%
-
 ---
-
 # Workfront MCP 서버: 기사 색인
 
 이 섹션에는 다음 문서가 포함됩니다.

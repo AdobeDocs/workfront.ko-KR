@@ -3,31 +3,36 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: 시스템 업데이트 구성
-description: Workfront은 개체의 [!UICONTROL 업데이트] 영역에 자동 시스템 업데이트를 생성하여 사용자가 개체에서 수행하는 변경 내용을 기록합니다.  [!DNL Workfront] 관리자는 시스템 업데이트를 기록할 개체 필드 및 작업 [!DNL Workfront] 트랙을 구성할 수 있습니다.
+description: Workfront은 개체의 [!UICONTROL 업데이트] 영역에 자동 시스템 업데이트를 생성하여 사용자가 개체에서 수행하는 변경 내용을 기록합니다. [!DNL Workfront] 관리자는 시스템 업데이트를 기록하기 위해 [!DNL Workfront]에서 추적하는 개체 필드와 작업을 구성할 수 있습니다.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/xucBhD4dm4gA-BJt-mqb3Lstxgc5NFGd49rJhX1MGRk
+TQID: 'https://experienceleague.adobe.com/xucBhD4dm4gA-BJt-mqb3Lstxgc5NFGd49rJhX1MGRk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1030
+source-wordcount: '1032'
 ht-degree: 8%
-
 ---
-
 # 시스템 업데이트 구성
 
 <!-- Audited: 08/2025 -->

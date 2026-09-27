@@ -6,25 +6,37 @@ description: Workfront과 Experience Manager Assets 또는 Assets Essentials 간
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-TQID: https://experienceleague.adobe.com/djzWnpUB7El3zUAt3VBwBpJOuzIkauUOFtSP008xYbY
+TQID: 'https://experienceleague.adobe.com/djzWnpUB7El3zUAt3VBwBpJOuzIkauUOFtSP008xYbY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '341'
 ht-degree: 4%
-
 ---
-
 # Adobe Experience Manager Assets 통합 개요
 
 <!-- Audited: 12/2023 -->
@@ -45,11 +57,11 @@ Workfront과 Experience Manager Assets 또는 Assets Essentials 간의 통합을
 * Workfront에서 변경될 때 포트폴리오, 프로그램, 프로젝트, 작업, 문제 및 문서 메타데이터를 자동으로 업데이트
 * 조직 ID를 통해 여러 Experience Manager Assets 저장소를 하나의 Workfront 환경에 또는 여러 Workfront 환경을 하나의 Experience Manager Assets 저장소에 원활하게 연결합니다
 * Experience Manager Assets의 Content Advisor 기능을 활용합니다. Content Advisor를 사용하여 다음과 같은 작업을 수행할 수 있습니다
-   * 콘텐츠를 업로드하여 유사한 에셋 검색
-   * 에셋에 대한 빠른 세부 정보 보기
-   * 콘텐츠 조각 액세스
-   * 컬렉션 탐색
-   * 기타. 자세한 내용은 [Experience Manager Assets Content Advisor 설명서]를 참조하십시오.
+  * 콘텐츠를 업로드하여 유사한 에셋 검색
+  * 에셋에 대한 빠른 세부 정보 보기
+  * 콘텐츠 조각 액세스
+  * 컬렉션 탐색
+  * 기타. 자세한 내용은 [Experience Manager Assets Content Advisor 설명서]를 참조하십시오.
 
 
 ## 전제 조건
@@ -75,6 +87,6 @@ Workfront과 Experience Manager Assets 또는 Assets Essentials 간의 통합을
 1. [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑을 구성합니다](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 1. 통합 설정:
    1. [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
-또는
+      또는
    1. [Experience Manager Assets Essentials 통합 구성하기](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 1. 자산 전송, 연결된 폴더 만들기, 메타데이터 매핑 등 통합을 사용합니다. 자세한 내용은 [Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)을 참조하십시오.

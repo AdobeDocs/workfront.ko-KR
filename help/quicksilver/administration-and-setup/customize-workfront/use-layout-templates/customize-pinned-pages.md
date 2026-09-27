@@ -8,27 +8,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-TQID: https://experienceleague.adobe.com/B-e1dKHbwsebC--FculRfneM-uqojz6REb1Fo6O486I
+TQID: 'https://experienceleague.adobe.com/B-e1dKHbwsebC--FculRfneM-uqojz6REb1Fo6O486I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '527'
 ht-degree: 7%
-
 ---
-
 # 레이아웃 템플릿을 사용하여 고정된 페이지 사용자 지정
 
 레이아웃 템플릿에서 사용자가 Adobe Workfront의 맨 위에서 항상 사용할 수 있도록 하려는 페이지를 고정할 수 있습니다. 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon-left-nav.png)을 통해 액세스하는 페이지 또는 대시보드일 수 있습니다.
@@ -82,25 +90,25 @@ ht-degree: 7%
 
    * 다음 영역 중에서 선택합니다.
 
-      * 캘린더
-      * 대시보드
-      * 문서
-      * 목표
-      * 홈
-      * 내 업데이트
-      * 포트폴리오
-      * 프로그램
-      * 프로젝트
-      * 보고서
-      * 요청
-      * 리소스 조달
-      * 시나리오
-      * 팀
-      * 템플릿
-      * 타임시트
-      * 사용자
-      * 블루프린트
-      * 계획 수립
+     * 캘린더
+     * 대시보드
+     * 문서
+     * 목표
+     * 홈
+     * 내 업데이트
+     * 포트폴리오
+     * 프로그램
+     * 프로젝트
+     * 보고서
+     * 요청
+     * 리소스 조달
+     * 시나리오
+     * 팀
+     * 템플릿
+     * 타임시트
+     * 사용자
+     * 블루프린트
+     * 계획 수립
 
      >[!IMPORTANT]
      >
@@ -113,9 +121,9 @@ ht-degree: 7%
      >* Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
 
    * **대시보드 추가**&#x200B;를 클릭합니다
-      * &#x200B;<!--**Quick link name**-->**사용자 지정 이름** 필드에 수사적 이름을 입력하십시오.
-      * **대시보드 추가** 필드 <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->에서 대시보드를 선택하십시오.
-      * **추가를 클릭합니다**.
+     * &#x200B;<!--**Quick link name**-->**사용자 지정 이름** 필드에 수사적 이름을 입력하십시오.
+     * **대시보드 추가** 필드 <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->에서 대시보드를 선택하십시오.
+     * **추가를 클릭합니다**.
 
 1. 다른 페이지를 고정하려면 이전 단계를 반복합니다.
 

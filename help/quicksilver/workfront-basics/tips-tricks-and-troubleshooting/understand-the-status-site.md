@@ -1,25 +1,30 @@
 ---
-title: ' [!DNL Adobe Workfront] 상태 사이트'
-description: ' [!DNL Workfront Status] 사이트에 액세스하여 문제, 예약된 유지 관리 기간 및 모든 [!DNL Workfront] 클러스터의 현재 상태를 포함한  [!DNL Workfront] 플랫폼의 상태를 볼 수 있습니다.'
+title: '[!DNL Adobe Workfront] 상태 사이트'
+description: '[!DNL Workfront Status] 사이트에 액세스하여 문제, 예약된 유지 관리 기간 및 모든 [!DNL Workfront] 클러스터의 현재 상태를 포함하여 [!DNL Workfront] 플랫폼의 상태를 볼 수 있습니다.'
 draft: Probably
 feature: Get Started with Workfront
 author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-TQID: https://experienceleague.adobe.com/kUbG1fpDJmiptk-0e2lb7JlgEs0sX6dErLq8Yqq0TBM
+TQID: 'https://experienceleague.adobe.com/kUbG1fpDJmiptk-0e2lb7JlgEs0sX6dErLq8Yqq0TBM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 368
+source-wordcount: '373'
 ht-degree: 1%
-
 ---
-
 # [!DNL Adobe Workfront] 상태 사이트
 
 <!-- Audited: 1/2024 -->
@@ -41,7 +46,7 @@ ht-degree: 1%
 
 1. 상태 사이트에 액세스하려면 브라우저에 [status.adobe.com](https://status.adobe.com/ko-kr/)을(를) 입력하십시오.
 
-1. **[!UICONTROL Experience Cloud]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Experience Cloud]**&#x200B;를 선택합니다.
 1. 아래로 스크롤하여 솔루션 목록에서 **[!UICONTROL Adobe Workfront]**&#x200B;을(를) 선택하십시오.
 
 ## 구독 또는 구독 관리
@@ -53,7 +58,7 @@ ht-degree: 1%
    ![](assets/manage-subs.png)
 1. 기존 계정이 있는 경우 계정에 로그인하고, 없는 경우 새 계정을 만듭니다.
 1. **[!UICONTROL 구독 만들기]** 단추를 클릭합니다.
-1. **[!UICONTROL Adobe Workfront]** 헤더 아래에서 **[!UICONTROL Experience Cloud]**&#x200B;을(를) 선택한 다음 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Experience Cloud]** 헤더에서 **[!UICONTROL Adobe Workfront]**&#x200B;을 선택한 다음 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 1. 지역 및 이벤트 유형 환경 설정을 선택한 다음 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 완료]**&#x200B;를 클릭하여 구독을 확인합니다.
 

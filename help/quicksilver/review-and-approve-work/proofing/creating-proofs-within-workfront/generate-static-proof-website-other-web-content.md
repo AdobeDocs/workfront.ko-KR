@@ -6,22 +6,29 @@ description: 웹 콘텐츠에 대한 새 정적 증명 또는 기존 정적 증�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-TQID: https://experienceleague.adobe.com/OH3u2WwNNiciuJEkPmjXRLRQGv4znlkRW6FHiUCHW-M
+TQID: 'https://experienceleague.adobe.com/OH3u2WwNNiciuJEkPmjXRLRQGv4znlkRW6FHiUCHW-M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '678'
 ht-degree: 3%
-
 ---
-
 # 웹 사이트 또는 기타 웹 컨텐츠에 대한 정적 증명 만들기
 
 웹 콘텐츠에 대한 새 정적 증명 또는 기존 정적 증명의 새 버전을 생성할 수 있습니다. 웹 콘텐츠에는 스트리밍 비디오가 포함된 광고, HTML 애니메이션 또는 대화형 배너 등이 포함될 수 있지만, 정적 증명을 위해 여러 스크린샷으로 잘립니다.

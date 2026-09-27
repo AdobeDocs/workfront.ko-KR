@@ -9,23 +9,28 @@ feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dRtLS8f9jhxP-1heLPeHViuBeIIQy66-k-NwPxqMT84
+TQID: 'https://experienceleague.adobe.com/dRtLS8f9jhxP-1heLPeHViuBeIIQy66-k-NwPxqMT84'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: '1073'
 ht-degree: 1%
-
 ---
-
 # 보기: 여러 열의 정보를 하나의 공유 열에 병합
 
 <!-- Audited: 11/2024 -->
@@ -75,9 +80,9 @@ ht-degree: 1%
 
   다음과 같은 예외가 있습니다.
 
-   * Workfront에서 정보를 볼 때 병합된 열을 구성하는 열의 서식이 서로 다른 경우 첫 번째 열의 서식은 유지되고 다른 모든 열의 서식은 무시됩니다.
-   * 보기를 PDF 파일로 내보낼 때 조건부 서식이 병합된 열의 첫 번째 열에 적용됩니다.
-   * 뷰를 Excel 파일로 내보낼 때 병합된 열이 별도의 열로 표시됩니다. 개별 열에는 해당 조건부 서식 규칙도 표시됩니다.
+  * Workfront에서 정보를 볼 때 병합된 열을 구성하는 열의 서식이 서로 다른 경우 첫 번째 열의 서식은 유지되고 다른 모든 열의 서식은 무시됩니다.
+  * 보기를 PDF 파일로 내보낼 때 조건부 서식이 병합된 열의 첫 번째 열에 적용됩니다.
+  * 뷰를 Excel 파일로 내보낼 때 병합된 열이 별도의 열로 표시됩니다. 개별 열에는 해당 조건부 서식 규칙도 표시됩니다.
 
 * **viewalias** 특성이 있는 열은 병합할 수 있는 열의 양을 제한할 수 있습니다. 이러한 제한을 방지하려면 **viewalias** 특성을 사용하지 마십시오. 열에 **viewalias** 특성을 포함해야 하는 경우 해당 특성이 열에 나열된 마지막 항목인지 확인하십시오.
 

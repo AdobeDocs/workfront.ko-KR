@@ -7,26 +7,35 @@ description: 승인 프로세스를 만들어 객체에 첨부하면 객체가 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-TQID: https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y
+TQID: 'https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: '1816'
 ht-degree: 0%
-
 ---
-
 # 승인 프로세스 개요
 
 <!-- Audited: 12/2023 -->
@@ -48,15 +57,15 @@ Adobe Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 
 
 * **시스템 수준 전역 승인 프로세스**: 사용자가 다음 중 하나에 연결할 수 있습니다.
 
-   * 승인 섹션의 프로젝트, 작업 또는 문제
-   * 작업 기본 승인 프로세스 영역의 프로젝트 편집 상자
-   * 기본 승인 프로세스 영역에서 프로젝트의 대기열 세부 정보 또는 대기열 주제 섹션. 프로젝트를 요청 대기열로 활성화해야 합니다.
+  * 승인 섹션의 프로젝트, 작업 또는 문제
+  * 작업 기본 승인 프로세스 영역의 프로젝트 편집 상자
+  * 기본 승인 프로세스 영역에서 프로젝트의 대기열 세부 정보 또는 대기열 주제 섹션. 프로젝트를 요청 대기열로 활성화해야 합니다.
 
 * **그룹 수준 전역 승인 프로세스**: 사용자는 이러한 프로세스를 다음에 첨부할 수 있습니다.
 
-   * 승인 섹션의 승인 프로세스와 연결된 그룹에 속하는 프로젝트, 작업 또는 문제
-   * 승인 프로세스와 연결된 그룹에 속한 프로젝트의 작업 기본 승인 프로세스 영역의 프로젝트 편집 상자
-   * 기본 승인 프로세스 영역에서 프로젝트의 대기열 세부 정보 또는 대기열 주제 섹션. 프로젝트는 요청 대기열로 활성화되어야 하며 승인 프로세스와 연결된 그룹에 속해 있어야 합니다.
+  * 승인 섹션의 승인 프로세스와 연결된 그룹에 속하는 프로젝트, 작업 또는 문제
+  * 승인 프로세스와 연결된 그룹에 속한 프로젝트의 작업 기본 승인 프로세스 영역의 프로젝트 편집 상자
+  * 기본 승인 프로세스 영역에서 프로젝트의 대기열 세부 정보 또는 대기열 주제 섹션. 프로젝트는 요청 대기열로 활성화되어야 하며 승인 프로세스와 연결된 그룹에 속해 있어야 합니다.
 
   시스템 수준 또는 그룹 수준 승인 프로세스를 만드는 방법에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
@@ -77,31 +86,31 @@ Adobe Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 
 * 승인 프로세스를 프로젝트, 작업, 문제, 템플릿 또는 템플릿 작업과 연결하려면 먼저 해당 작업을 만들어야 합니다.
 * 승인 프로세스는 항상 다음 두 가지 필수 사항과 연결되어 있습니다.
 
-   * 각 승인 프로세스는 Workfront 시스템의 특정 작업 항목 상태에 해당합니다. 작업 항목의 상태를 변경할 때 해당 상태에 대해 첨부된 승인을 받으려면 새 상태를 항목에 할당하기 전에 상태 변경을 확인해야 합니다.
+  * 각 승인 프로세스는 Workfront 시스템의 특정 작업 항목 상태에 해당합니다. 작업 항목의 상태를 변경할 때 해당 상태에 대해 첨부된 승인을 받으려면 새 상태를 항목에 할당하기 전에 상태 변경을 확인해야 합니다.
 
-     >[!TIP]
-     >
-     >
-     >   
-     >   
-     >   * 그룹 수준 승인을 전역 또는 그룹 수준 상태와 연결할 수 있습니다.
-     >   * 승인 프로세스를 사용하는 항목의 상태를 승인 프로세스와 연관된 상태가 아닌 상태로 변경할 수 없습니다.
-     >   
-     >   
-     >     예를 들어, 진행 중 상태와 관련된 작업 승인이 있는 경우 승인이 승인되면 해당 작업은 자동으로 진행 중으로 상태를 변경합니다. 상태를 완료됨 또는 승인과 연관되지 않은 다른 상태로 자동 변경할 수 없습니다.
-     >   
-     >   
-     >* 승인 프로세스와 연결된 엔티티는 사용자, 작업 역할 또는 팀일 수 있습니다. 사용자는 승인을 수락하거나 거부할 책임이 있습니다. 프로젝트에서 특정 역할을 수행하는 사용자에게 승인을 할당할 수 있습니다. 예를 들어 프로젝트 소유자 또는 스폰서에게 승인을 할당할 수 있습니다. 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
+    >[!TIP]
+    >
+    >
+    >   
+    >   
+    >   * 그룹 수준 승인을 전역 또는 그룹 수준 상태와 연결할 수 있습니다.
+    >   * 승인 프로세스를 사용하는 항목의 상태를 승인 프로세스와 연관된 상태가 아닌 상태로 변경할 수 없습니다.
+    >   
+    >   
+    >     예를 들어, 진행 중 상태와 관련된 작업 승인이 있는 경우 승인이 승인되면 해당 작업은 자동으로 진행 중으로 상태를 변경합니다. 상태를 완료됨 또는 승인과 연관되지 않은 다른 상태로 자동 변경할 수 없습니다.
+    >   
+    >   
+    >* 승인 프로세스와 연결된 엔티티는 사용자, 작업 역할 또는 팀일 수 있습니다. 사용자는 승인을 수락하거나 거부할 책임이 있습니다. 프로젝트에서 특정 역할을 수행하는 사용자에게 승인을 할당할 수 있습니다. 예를 들어 프로젝트 소유자 또는 스폰서에게 승인을 할당할 수 있습니다. 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
-     다음과 같은 시나리오가 있습니다.
+    다음과 같은 시나리오가 있습니다.
 
-      * 작업 역할에 승인을 할당하면 작업 역할과 연결된 프로젝트 팀의 모든 사용자가 승인에 대해 의사 결정을 내릴 수 있습니다. 승인과 연관된 역할은 기본 역할 또는 다른 역할일 수 있습니다.
+    * 작업 역할에 승인을 할당하면 작업 역할과 연결된 프로젝트 팀의 모든 사용자가 승인에 대해 의사 결정을 내릴 수 있습니다. 승인과 연관된 역할은 기본 역할 또는 다른 역할일 수 있습니다.
 
-        프로젝트 팀에 대한 자세한 내용은 [프로젝트 팀 개요](../../manage-work/projects/planning-a-project/project-team-overview.md)를 참조하십시오.
+      프로젝트 팀에 대한 자세한 내용은 [프로젝트 팀 개요](../../manage-work/projects/planning-a-project/project-team-overview.md)를 참조하십시오.
 
-      * 팀에 승인을 할당하면 해당 팀의 모든 구성원이 승인에 대해 결정할 수 있습니다. 승인과 연관된 팀은 홈 팀이거나 다른 팀일 수 있습니다.
+    * 팀에 승인을 할당하면 해당 팀의 모든 구성원이 승인에 대해 결정할 수 있습니다. 승인과 연관된 팀은 홈 팀이거나 다른 팀일 수 있습니다.
 
-        사용자의 역할 및 팀에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
+      사용자의 역할 및 팀에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
 * 작업 항목을 만들 때 승인 프로세스가 자동으로 첨부되지 않습니다. 이를 사용하려면 수동으로 첨부해야 합니다. 항목에 승인 프로세스를 첨부하는 방법에 대한 자세한 내용은 [새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)을 참조하십시오.
 * Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 권한이 있는 사용자는 시스템 전체에서 사용할 시스템 수준의 글로벌 승인 프로세스를 만들 수 있습니다. 승인 프로세스에 대한 관리 액세스 권한이 있는 그룹 관리자는 자신이 관리하는 특정 그룹에서만 사용할 수 있도록 그룹 수준의 전역 승인 프로세스를 만들 수 있습니다.

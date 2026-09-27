@@ -3,26 +3,35 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: 일반 이메일 클라이언트에 대한 스팸 설정 구성
-description: ' [!DNL Workfront Proof] 이메일이 스팸 폴더로 전송되지 않도록 이메일 클라이언트를 구성할 수 있습니다.'
+description: '[!DNL Workfront Proof]개의 이메일이 스팸 폴더로 전송되지 않도록 이메일 클라이언트를 구성할 수 있습니다.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
-TQID: https://experienceleague.adobe.com/RllFMQS1iV3kuBc1IaSutqyd9HkWr-7P9NYC-jxlq7k
+TQID: 'https://experienceleague.adobe.com/RllFMQS1iV3kuBc1IaSutqyd9HkWr-7P9NYC-jxlq7k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1499
+source-wordcount: '1500'
 ht-degree: 0%
-
 ---
-
 # 일반 이메일 클라이언트에 대한 스팸 설정 구성
 
 >[!IMPORTANT]

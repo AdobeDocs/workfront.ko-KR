@@ -10,25 +10,31 @@ feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JTxRZAJR9FasVE1YJugE-QZpAn7RVNwGu5mwtffutYQ
+TQID: 'https://experienceleague.adobe.com/JTxRZAJR9FasVE1YJugE-QZpAn7RVNwGu5mwtffutYQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: '620'
 ht-degree: 3%
-
 ---
-
 # 계산된 사용자 정의 필드 예: 필드의 편집 내역 표시
 
 사용자가 사용자 정의 필드를 정기적으로 업데이트하며 필드에 대한 모든 변경 사항의 로그와 변경 사항이 발생한 날짜를 캡처하려는 경우 계산된 사용자 정의 필드에서 이 정보를 캡처할 수 있습니다.
@@ -44,8 +50,8 @@ ht-degree: 3%
 * 지침 편집 기록 필드를 Workfront 데이터베이스 제한 이내로 유지하도록 가장 최근 2000자로 제한합니다.
 * 지침 필드의 현재 값이 지침 편집 기록 값의 앞면과 일치하는지 확인합니다. 이 값은 비어 있다고 가정하고 그렇지 않으면 다음을 수행합니다.
 
-   * 일치하는 경우 지침 작업 내역 편집 을 그대로 둡니다.
-   * 일치하지 않으면 [지침 편집 기록] 필드를 [지침] 필드의 최신 값으로 바꾼 다음 괄호로 묶인 현재 날짜, 세로 막대 및 이전 값과 입력된 날짜를 유지하는 이전 [지침 편집 기록]으로 바꿉니다.
+  * 일치하는 경우 지침 작업 내역 편집 을 그대로 둡니다.
+  * 일치하지 않으면 [지침 편집 기록] 필드를 [지침] 필드의 최신 값으로 바꾼 다음 괄호로 묶인 현재 날짜, 세로 막대 및 이전 값과 입력된 날짜를 유지하는 이전 [지침 편집 기록]으로 바꿉니다.
 
 ## 액세스 요구 사항
 

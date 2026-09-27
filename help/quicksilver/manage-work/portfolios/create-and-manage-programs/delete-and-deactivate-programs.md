@@ -6,25 +6,31 @@ description: 프로그램은 프로젝트 경계를 초월하는 공통 전략, 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 605d1ec5-ca2e-4ff0-87e1-fa53d8ac4a95
-TQID: https://experienceleague.adobe.com/nXFATsZ0uMLsgS-q4VlSQxL1Zh29QSCSAWTHxEGBgMw
+TQID: 'https://experienceleague.adobe.com/nXFATsZ0uMLsgS-q4VlSQxL1Zh29QSCSAWTHxEGBgMw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 464
+source-wordcount: '464'
 ht-degree: 1%
-
 ---
-
 # 프로그램 삭제 및 비활성화
 
 프로그램은 프로젝트 경계를 초월하는 공통 전략, 목표 또는 목표를 공유하는 프로젝트 컬렉션을 나타냅니다. 프로그램은 포트폴리오의 하위 구분이며 포트폴리오 외부에 존재할 수 없습니다. 일반적으로 프로그램은 동일한 포트폴리오 내의 다른 프로그램과 동일한 리소스를 공유합니다.

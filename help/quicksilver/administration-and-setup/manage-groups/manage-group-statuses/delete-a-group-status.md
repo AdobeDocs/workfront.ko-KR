@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-TQID: https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg
+TQID: 'https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: '550'
 ht-degree: 4%
-
 ---
-
 # 그룹 상태 삭제
 
 그룹 관리자는 관리한 그룹의 상태를 시스템 수준에서 필수 또는 잠긴 상태로 구성되지 않았거나 계층의 상위 그룹에 대해 삭제할 수 있습니다.
@@ -88,10 +94,10 @@ ht-degree: 4%
 
    * **잠겨 있는 경우**: 다음 중 하나가 true입니다.
 
-      * 다른 잠기고 숨겨지지 않은 상태가 있는 경우 해당 상태만 사용할 수 있습니다.
-      * 숨김이 아닌 잠김 상태가 없는 경우 기본 Workfront 상태가 숨겨져 있거나 잠금 해제된 경우에도 사용할 수 있습니다.
+     * 다른 잠기고 숨겨지지 않은 상태가 있는 경우 해당 상태만 사용할 수 있습니다.
+     * 숨김이 아닌 잠김 상태가 없는 경우 기본 Workfront 상태가 숨겨져 있거나 잠금 해제된 경우에도 사용할 수 있습니다.
 
-        기본 Workfront 상태에 대한 자세한 내용은 [시스템 프로젝트 상태 목록 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [시스템 작업 상태 목록 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) 및 [시스템 문제 상태 목록 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)의 4가지 필수 문제 상태에 대한 정보를 참조하십시오.
+       기본 Workfront 상태에 대한 자세한 내용은 [시스템 프로젝트 상태 목록 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [시스템 작업 상태 목록 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) 및 [시스템 문제 상태 목록 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)의 4가지 필수 문제 상태에 대한 정보를 참조하십시오.
 
 1. **삭제**&#x200B;를 클릭합니다.
 

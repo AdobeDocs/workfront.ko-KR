@@ -6,22 +6,26 @@ description: 조직도 기능을 사용하면 특정 Adobe Workfront 사용자�
 author: Becky
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-TQID: https://experienceleague.adobe.com/yG7JWupEfUWFnOTrvrg-0MXYz-Jbw6td4gmO-lcRwPg
+TQID: 'https://experienceleague.adobe.com/yG7JWupEfUWFnOTrvrg-0MXYz-Jbw6td4gmO-lcRwPg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 124
+source-wordcount: '124'
 ht-degree: 13%
-
 ---
-
 # 조직도 보기
 
 조직도 기능을 사용하면 특정 [!DNL Adobe Workfront] 사용자와 연결된 조직도를 볼 수 있습니다. 조직도는 특정 부서의 구조를 시각화하는 좋은 방법이다.

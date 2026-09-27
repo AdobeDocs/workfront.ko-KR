@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 2%
-
+ht-degree: 3%
 ---
-
 # 2026년 3분기 요청 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 3분기 릴리스의 요청 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -22,7 +29,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->미리 보기: 2026년 5월 27일프로덕션 빠른 릴리스: 2026년 6월 11일모두를 위한 프로덕션: 2026년 7월 16일
+>미리 보기: 2026년 5월 27일
+>프로덕션 빠른 릴리스: 2026년 6월 11일
+>모두를 위한 프로덕션: 2026년 7월 16일
 
 요청이 있는 올바른 상태에 대한 추가 컨텍스트를 얻기 위해 새 요청 경험에서 요청에 대한 상태를 업데이트하고 있습니다.
 
@@ -41,7 +50,10 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->미리 보기: 2026년 4월 23일프로덕션 빠른 릴리스: 2026년 4월 23일전체 프로덕션: 2026년 4월 23일일정 해제&rbrack;{type=Neutral}
+>미리 보기: 2026년 4월 23일
+>프로덕션 빠른 릴리스: 2026년 4월 23일
+>전체 프로덕션: 2026년 4월 23일
+>[!BADGE 일정 해제]{type=Neutral}
 
 요청 목록을 보다 효율적으로 구성할 수 있도록 요청 영역의 요청 목록 및 홈의 내 요청 위젯에 다음과 같은 사전 정의된 보기를 추가했습니다.
 

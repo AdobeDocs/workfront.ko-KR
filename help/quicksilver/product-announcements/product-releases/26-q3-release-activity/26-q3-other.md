@@ -4,13 +4,20 @@ description: 2026년 3분기 릴리스 기간 동안의 기타 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 0%
-
 ---
-
 # 2026년 3분기 릴리스 일정 동안의 기타 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 3분기 릴리스의 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -22,7 +29,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->모든 고객을 위한 미리보기 및 프로덕션: 2026년 7월 7일부터일정 해제&rbrack;{type=Neutral}
+>모든 고객을 위한 미리보기 및 프로덕션: 2026년 7월 7일부터
+>[!BADGE 일정 해제]{type=Neutral}
 
 현재 업데이트 영역을 표시하는 모든 Workfront 개체에 대해 1년 이상 지난 댓글에 대한 댓글 보관을 최적화하고 있습니다. 이는 내부적인 작업이며 업데이트 영역에 대한 경험에 영향을 주지 않습니다. 개체 유형에 대한 업데이트 영역은 시각적으로 변경되지 않으며 이 업데이트에서는 기능이 변경되지 않습니다. 모든 주석 은 모든 객체 유형에 대해 계속 표시됩니다.
 
@@ -32,7 +40,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 7월 7일프로덕션 빠른 릴리스: 2026년 7월 15일모두를 위한 프로덕션: 2026년 7월 16일
+>미리 보기: 2026년 7월 7일
+>프로덕션 빠른 릴리스: 2026년 7월 15일
+>모두를 위한 프로덕션: 2026년 7월 16일
 
 메인 메뉴 및 탐색 막대 아이콘을 포함하여 Workfront의 일반 탐색 아이콘의 모양과 느낌을 업데이트하여 현대적인 디자인과 다른 Adobe 애플리케이션과의 일관된 경험을 제공합니다. 또한 클릭 수를 줄일 수 있도록 고정된 페이지를 추가하거나 제거하는 경험이 간소화되었습니다.
 
@@ -62,7 +72,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 5월 28일프로덕션 빠른 릴리스: 2026년 6월 11일모두를 위한 프로덕션: 2026년 7월 16일
+>미리 보기: 2026년 5월 28일
+>프로덕션 빠른 릴리스: 2026년 6월 11일
+>모두를 위한 프로덕션: 2026년 7월 16일
 
 향상된 목록의 여러 필드 유형이 키보드 탐색 및 기타 향상된 기능을 포함하도록 업데이트되었습니다.
 

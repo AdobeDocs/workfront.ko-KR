@@ -2,27 +2,31 @@
 product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
-title: ' [!DNL Adobe Workfront] 보기에서 프로젝트 목록 필터링'
+title: '[!DNL Adobe Workfront] 보기에서 프로젝트 목록 필터링'
 feature: Get Started with Workfront
-description: 기본적으로  [!DNL Adobe Workfront] 보기는  [!DNL Workfront]에 [!UICONTROL 모든 프로젝트] 목록을 표시하므로 보기 액세스 권한이 있는 모든 프로젝트가 상태와 관계없이 나열됩니다.
+description: 기본적으로 [!DNL Adobe Workfront] 보기에는 [!DNL Workfront]에 [!UICONTROL 모든 프로젝트] 목록이 표시되므로 보기 액세스 권한이 있는 모든 프로젝트가 상태와 관계없이 나열됩니다.
 author: Lisa
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-TQID: https://experienceleague.adobe.com/sFUUo65zy8RM2uNE6OmMFKj9J-e3dMCvmSoZaK2Ph3k
+TQID: 'https://experienceleague.adobe.com/sFUUo65zy8RM2uNE6OmMFKj9J-e3dMCvmSoZaK2Ph3k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: '325'
 ht-degree: 6%
-
 ---
-
 # [!DNL Adobe Workfront View]의 프로젝트 목록 필터링
 
 기본적으로 [!DNL Adobe Workfront View]은(는) [!DNL Workfront]에 [!UICONTROL 모든 프로젝트] 목록을 표시하므로 보기 액세스 권한이 있는 모든 프로젝트가 상태와 관계없이 나열됩니다.
@@ -71,22 +75,22 @@ ht-degree: 6%
    * 상태: 특정 [!UICONTROL 상태]의 프로젝트만 표시하려면 선택하십시오.
    * [!UICONTROL 계획된 시작]: 다음 시간대에 [!UICONTROL 계획된 시작 일자]인 프로젝트만 표시하려면 선택하십시오.
 
-      * 지난 3개월
-      * 지난 2개월
-      * 지난 달
-      * 지난 2주
+     * 지난 3개월
+     * 지난 2개월
+     * 지난 달
+     * 지난 2주
    * [!UICONTROL 계획된 완료]: 다음 예정된 기간에 [!UICONTROL 계획된 완료 일자]인 프로젝트만 표시하려면 선택하십시오.
 
-      * 2주
-      * 1개월
-      * 2개월
-      * 3개월
+     * 2주
+     * 1개월
+     * 2개월
+     * 3개월
    * [!UICONTROL 예상 완료]: 다음 예정된 기간에 [!UICONTROL 예상 완료 일자]가 있는 프로젝트만 표시하려면 선택하십시오.
 
-      * 2주
-      * 1개월
-      * 2개월
-      * 3개월
+     * 2주
+     * 1개월
+     * 2개월
+     * 3개월
    * [!UICONTROL 소유자]: 특정 소유자에게 할당된 프로젝트를 표시하려면 선택하십시오.
    * [!UICONTROL 스폰서]: 특정 [!UICONTROL 스폰서]에 할당된 프로젝트를 표시하려면 선택하십시오.
 

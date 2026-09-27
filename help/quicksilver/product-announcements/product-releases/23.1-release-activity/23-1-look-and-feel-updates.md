@@ -6,24 +6,31 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e16e54ee-b74d-495a-9e1b-f5c429458772
-TQID: https://experienceleague.adobe.com/EM7pCXVVHnpT-IylS4arAJRvyE7xrIenWdjfEYzb80s
+TQID: 'https://experienceleague.adobe.com/EM7pCXVVHnpT-IylS4arAJRvyE7xrIenWdjfEYzb80s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+    internal-label: Adobe Workfront for Jira
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: '751'
 ht-degree: 3%
-
 ---
-
 # 23.1 릴리스 기간 동안의 룩앤필 업데이트
 
 이 페이지에서는 23.1 릴리스 기간 내에 이루어진 Adobe Workfront 애플리케이션의 다양한 영역의 모양 및 느낌에 대한 작은 업데이트를 설명합니다. 이러한 개선 사항은 미리보기에 릴리스한 후 최소 2주 후에 프로덕션 환경에서 사용할 수 있습니다.

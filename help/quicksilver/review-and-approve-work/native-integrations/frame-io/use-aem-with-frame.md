@@ -9,28 +9,39 @@ recommendations: noDisplay, noCatalog
 exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Riv4jrZbD1vLx6eLq9utk2TIMRJh6ekBxE5ZBVc7D9c
+TQID: 'https://experienceleague.adobe.com/Riv4jrZbD1vLx6eLq9utk2TIMRJh6ekBxE5ZBVc7D9c'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 840211ef726bb638f75158d95f751c5833cc22bb
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2166
+source-wordcount: '2166'
 ht-degree: 1%
-
 ---
-
 # Workfront 및 Adobe 클라우드 스토리지와 함께 Adobe Experience Manager 사용
 
 [!DNL Experience Manager Assets]을(를) &#x200B; 사용하여 검토 및 승인 주기를 거친 디지털 에셋을 관리하고 저장할 수 있습니다&#x200B;. 이 통합을 통해 Adobe Experience Manager, Frame.io 및 Workfront의 기능을 활용하여 컨텐츠 관리 및 공동 작업 프로세스를 간소화할 수 있습니다.
@@ -291,7 +302,7 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials로 문서를 
       </tr>
       <tr>
          <td><strong>관련 에셋을 검색하려면 캠페인 개요를 업로드하십시오.</strong> PDF, DOCX 또는 TXT 캠페인 개요 문서를 업로드하여 Content Advisor가 이를 분석하고 관련 에셋을 추천할 수 있도록 합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">관련 자산을 검색하는 캠페인 개요</a>를 참조하십시오.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">관련 자산을 검색하는 캠페인 개요</a>를 참조하십시오.</td>
       </tr>
       <tr>
          <td><strong>Dynamic Media 에셋 렌디션을 보고 선택합니다.</strong> 이미지 사전 설정, 스마트 자르기 및 형식 유형을 포함하여 채널에 최적화된 렌디션을 찾아보고 Dynamic Media 수정자를 적용하여 조정을 실시간으로 미리 볼 수 있습니다.</td>
@@ -315,7 +326,7 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials로 문서를 
       </tr>
       <tr>
          <td><strong>검색을 저장하고 다시 사용합니다.</strong> 검색어와 필터 옵션을 지정하여 저장된 검색을 작성한 다음 Experience Manager Assets 및 기타 Adobe 애플리케이션에서 재사용합니다.</td>
-         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">최근 검색 및 저장된 검색 다시 사용</a>을 참조하세요.</td>
+         <td>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">최근 검색 및 저장된 검색 다시 사용</a>을 참조하세요.</td>
       </tr>
       <tr>
          <td><strong>컬렉션 간 및 컬렉션 내 자산을 검색합니다.</strong> 모든 컬렉션에서 에셋 또는 컬렉션을 검색하거나 특정 컬렉션으로 검색을 제한합니다.</td>

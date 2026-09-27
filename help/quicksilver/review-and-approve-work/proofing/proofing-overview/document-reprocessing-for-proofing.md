@@ -6,20 +6,27 @@ description: 증명을 위해 문서(DOCX, PDF, XLSX, AI)를 제출하면 Adobe 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-TQID: https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA
+TQID: 'https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: '681'
 ht-degree: 0%
-
 ---
-
 # 증명을 위한 문서 재처리 개요
 
 증명을 위해 문서(DOCX, PDF, XLSX, AI)를 제출하면 Adobe Workfront에서 증명을 생성하는 데 사용한 소프트웨어 애플리케이션 없이 증명 뷰어에 표시될 수 있도록 문서를 재처리합니다. 

@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/T-slclYoeq429jltWCDKC8tBKo9nblvtm8IL2ahTLzg
+TQID: 'https://experienceleague.adobe.com/T-slclYoeq429jltWCDKC8tBKo9nblvtm8IL2ahTLzg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 763
+source-wordcount: '763'
 ht-degree: 0%
-
 ---
-
 # 텍스트 모드의 일반적인 사용 개요
 
 <!-- Audited: 1/2025 -->
@@ -50,9 +55,9 @@ Workfront에서 다음을 달성하고자 할 때 텍스트 모드를 사용할 
   계산된 사용자 지정 필드에 대한 자세한 내용은 이 문서의 [계산된 사용자 지정 필드에서 텍스트 모드 사용](#use-text-mode-in-calculated-custom-fields) 섹션을 참조하십시오.
 * Report Builder에서 사용할 수 있는 것보다 필터, 보기 및 그룹화를 향상시킵니다. 필터, 보기 및 그룹화에 텍스트 모드를 사용하는 방법에 대한 자세한 내용은 이 문서의 다음 섹션을 참조하십시오.
 
-   * [보기에서 텍스트 모드 사용](#use-text-mode-in-views)
-   * [필터에서 텍스트 모드 사용](#use-text-mode-in-filters)
-   * [그룹화에 텍스트 모드 사용](#use-text-mode-in-groupings)
+  * [보기에서 텍스트 모드 사용](#use-text-mode-in-views)
+  * [필터에서 텍스트 모드 사용](#use-text-mode-in-filters)
+  * [그룹화에 텍스트 모드 사용](#use-text-mode-in-groupings)
 
 * 사용자 지정 프롬프트를 만듭니다. 텍스트 모드를 사용하는 사용자 정의 프롬프트만 만들 수 있습니다.
 

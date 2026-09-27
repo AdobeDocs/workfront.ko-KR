@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
-title: ' [!DNL Workfront Proof]에서 연락처 관리'
+title: '[!DNL Workfront Proof]에서 연락처 관리'
 description: 연락처 페이지에서 동료, 구성원 및 게스트를 관리할 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e2fc091a-4c06-40c5-9fb4-256239f09ffc
-TQID: https://experienceleague.adobe.com/TT-3Z8jO89qQQuJJlvJFK92fzhXpUwtvi4Qh6W2c8NI
+TQID: 'https://experienceleague.adobe.com/TT-3Z8jO89qQQuJJlvJFK92fzhXpUwtvi4Qh6W2c8NI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 연락처 관리
 
 >[!IMPORTANT]
@@ -76,7 +85,7 @@ ht-degree: 0%
    * 목록에서 선택한 연락처를 제거하려면 **[!UICONTROL 연락처 삭제]**&#x200B;를 클릭하세요.
 
      ![Trash_button.png](assets/trash-button.png)
-연락처를 삭제한다고 해서 사용자가 귀하의 계정에서 제거되지는 않습니다. 그러나 관리자나 청구 관리자가 연락처 목록에서 삭제한 경우 해당 사람은 조직의 계정에서 모두 삭제됩니다.
+     연락처를 삭제한다고 해서 사용자가 귀하의 계정에서 제거되지는 않습니다. 그러나 관리자나 청구 관리자가 연락처 목록에서 삭제한 경우 해당 사람은 조직의 계정에서 모두 삭제됩니다.
 
    * 대화 상대의 행 끝에 있는 **[!UICONTROL 자세히]** 아이콘을 클릭하고 표시되는 드롭다운 메뉴의 옵션을 사용합니다.
 

@@ -5,23 +5,26 @@ description: Workfront의 AI Assistant에 대해 사용할 수 있는 문서 목
 author: Becky
 feature: Get Started with Workfront
 exl-id: 3f83dd91-d7de-4050-89b7-f53cbc4389a0
-TQID: https://experienceleague.adobe.com/5HbISpj4fGX8Lq-nhJQp0hPWGZGcOYW-cqGwcOksrJo
+TQID: 'https://experienceleague.adobe.com/5HbISpj4fGX8Lq-nhJQp0hPWGZGcOYW-cqGwcOksrJo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 93
+source-wordcount: '93'
 ht-degree: 3%
-
 ---
-
 # AI Assistant: 문서 색인
 
 >[!IMPORTANT]
 >
->2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Coworker로 전환됩니다. CX Coworker에 대한 자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
+>2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Coworker으로 전환됩니다. CX Coworker에 대한 자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
 이 섹션에는 다음 문서가 포함됩니다.
 

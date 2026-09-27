@@ -4,24 +4,28 @@ product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Workfront Proof Manager 권한 문제 해결
-description: 증명 사용자를 위해  [!DNL Adobe] Workfront에서 사용할 수 있는 권한 프로필은 관리자, 감독자 및 관리자입니다.
+description: 증명 사용자를 위해 [!DNL Adobe] Workfront에서 사용할 수 있는 권한 프로필은 관리자, 감독자 및 관리자입니다.
 feature: Get Started with Workfront
 auhor: Courtney
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-TQID: https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI
+TQID: 'https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '256'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL [!DNL Workfront] 증명 관리자] 권한 문제 해결
 
 증명 사용자를 위해 [!DNL Adobe Workfront]에서 사용할 수 있는 권한 프로필은 다음과 같습니다.
@@ -43,8 +47,8 @@ ht-degree: 0%
 * **문제:** [!UICONTROL 관리자] 권한이 있는 사용자가 다른 사용자가 만든 증명에 증명 버전을 추가할 수 없습니다. 다른 사용자가 만든 원본 집합에는 해당 사용자가 증명을 제출할 수 있지만 해당 버전이 연결되지 않습니다.\
    **해결 방법:** [!UICONTROL 관리자] 권한이 있는 사용자는 다음 두 가지 경우에 [!UICONTROL 관리자] 권한이 있는 사용자가 다른 사용자의 증명에 버전을 제출할 수 있습니다.
 
-   * 증명에 명시적으로 추가됨
-   * 증명에서 [!UICONTROL 작성자]&#x200B;(증명 역할)로 설정
+  * 증명에 명시적으로 추가됨
+  * 증명에서 [!UICONTROL 작성자]&#x200B;(증명 역할)로 설정
 
 * **문제:** [!UICONTROL 관리자] 권한이 있는 사용자가 소유하지 않았거나 만들지 않은 증명에서 다른 사용자의 의견을 편집할 수 없습니다.\
    **해결 방법:** [!UICONTROL 관리자] 권한이 있는 사용자가 증명을 소유하고 있지 않지만 댓글을 편집할 수 있는 경우 [!UICONTROL 작성자]&#x200B;(또는 [!UICONTROL 중재자])로 추가하세요.\

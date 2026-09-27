@@ -6,18 +6,21 @@ description: 이 문서에는 수신할 수 있는 인앱 알림이 나열되어
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-TQID: https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s
+TQID: 'https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 1%
-
 ---
-
 # 인앱 알림 개요
 
 이 문서에는 수신할 수 있는 인앱 알림이 나열되어 있습니다. 인앱 알림은 공지 알림과 작업 항목 알림의 두 가지 정보 유형에 대해 계속 알려줍니다. 웹 애플리케이션과 모바일 애플리케이션 모두에서 사용할 수 있습니다.
@@ -103,9 +106,9 @@ ht-degree: 1%
 * ![문제 아이콘](assets/issue.png) [!UICONTROL 문제 할당] [팀 이름] - [할당자 이름]
 * ![사용자에게 할당된 작업](assets/icon-taskassngdtoyou.png) [!UICONTROL 할당된 작업] [팀 이름] - [할당자의 이름]
 
-   * 할당 알림은 프로젝트 상태가 [!UICONTROL 현재]&#x200B;(또는 [!UICONTROL 현재]에 해당하는 사용자 지정 상태)로 설정된 경우에만 전송됩니다.
-   * 요청자 및 검토자에게 작업을 할당하기 위한 것이 아닙니다. 따라서 작업 및 문제에 할당되었는지 여부가 알림이 전송되지 않습니다.
-   * 자신 또는 자신이 속한 팀에 작업을 할당하면 알림을 받지 못합니다.
+  * 할당 알림은 프로젝트 상태가 [!UICONTROL 현재]&#x200B;(또는 [!UICONTROL 현재]에 해당하는 사용자 지정 상태)로 설정된 경우에만 전송됩니다.
+  * 요청자 및 검토자에게 작업을 할당하기 위한 것이 아닙니다. 따라서 작업 및 문제에 할당되었는지 여부가 알림이 전송되지 않습니다.
+  * 자신 또는 자신이 속한 팀에 작업을 할당하면 알림을 받지 못합니다.
 
 ### [!UICONTROL 댓글]
 

@@ -9,20 +9,24 @@ role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4
+TQID: 'https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1864
+source-wordcount: '1864'
 ht-degree: 0%
-
 ---
-
 # 텍스트 모드 구문 개요
 
 <!--Audited: 1/2025-->
@@ -48,8 +52,8 @@ ht-degree: 0%
 * Workfront 데이터베이스의 개체 또는 특성을 참조할 때는 항상 카멜 표식을 사용하십시오.
 * Workfront의 개체 계층 구조를 염두에 두십시오. 보기, 필터 및 그룹화 사이에는 다음과 같은 차이가 있습니다.
 
-   * 뷰에서 보고서나 목록 객체에서 멀리 떨어진 세 개의 객체를 표시할 수 있습니다.
-   * 그룹화, 필터 또는 사용자 지정 프롬프트에서 주 개체와 2개 이상의 개체를 참조할 수 없습니다.
+  * 뷰에서 보고서나 목록 객체에서 멀리 떨어진 세 개의 객체를 표시할 수 있습니다.
+  * 그룹화, 필터 또는 사용자 지정 프롬프트에서 주 개체와 2개 이상의 개체를 참조할 수 없습니다.
 
   **예:** 작업 보기에 Portfolio 소유자의 이름이나 GUID를 표시할 수 있습니다.
 
@@ -63,8 +67,8 @@ ht-degree: 0%
 
   Workfront의 개체 계층 구조에 대한 자세한 내용은 다음을 참조하십시오.
 
-   * [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-   * [API 탐색기](../../../wf-api/general/api-explorer.md)
+  * [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+  * [API 탐색기](../../../wf-api/general/api-explorer.md)
 
 * 가능한 경우 언제든지 와일드카드를 사용하여 보고서와 목록을 보다 동적이고 다양한 사용자 및 유사한 타임라인에 대해 중복을 피하십시오.
 
@@ -96,15 +100,15 @@ ht-degree: 0%
 
   텍스트 모드에서 뷰 및 그룹화를 작성할 때의 코드 키 행에 대한 자세한 내용은 다음을 참조하십시오.
 
-   * [텍스트 모드를 사용하여 보기 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [텍스트 모드를 사용하여 그룹화 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+  * [텍스트 모드를 사용하여 보기 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+  * [텍스트 모드를 사용하여 그룹화 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * 코드 및 구문 행은 필터 및 사용자 지정 프롬프트에 대해 유사합니다.
 
   자세한 내용은 다음 문서를 참조하십시오.
 
-   * [텍스트 모드를 사용하여 필터 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-   * [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+  * [텍스트 모드를 사용하여 필터 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+  * [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### 보기 및 그룹화 구문
 
@@ -197,22 +201,22 @@ ht-degree: 0%
 
   **예:** 작업 보고서에 작업 이름과 연결된 프로젝트 이름을 표시하려면 다음 줄을 사용하세요.
 
-   * 보기에서:
+  * 보기에서:
 
-     `valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-   * 그룹화:
+  * 그룹화:
 
-     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
   개체가 Workfront 데이터베이스에서 서로 참조하는 방법에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-explorer.md)를 참조하십시오.
 
 * 사용자 정의 필드를 참조할 때 다음 규칙을 사용합니다.
 
-   * 인터페이스에 표시되는 것과 정확히 동일한 필드 이름을 사용합니다.
-   * 필드 이름 앞에 &quot;DE:&quot;를 붙입니다.
-   * 필드를 중괄호로 묶습니다.
-   * 객체와 관련된 필드를 마침표로 구분합니다.
+  * 인터페이스에 표시되는 것과 정확히 동일한 필드 이름을 사용합니다.
+  * 필드 이름 앞에 &quot;DE:&quot;를 붙입니다.
+  * 필드를 중괄호로 묶습니다.
+  * 객체와 관련된 필드를 마침표로 구분합니다.
 
   **예:** valueexpression 줄의 작업 보기에 추가 세부 정보 프로젝트 사용자 지정 필드를 표시하려면 다음 줄을 사용하십시오.
 
@@ -284,14 +288,14 @@ ht-degree: 0%
 
 * 여러 필터 문을 연결하는 문 커넥터:
 
-   * 및
+  * 및
 
-     필터 문 사이의 기본 커넥터입니다.
+    필터 문 사이의 기본 커넥터입니다.
 
-   * 또는
+  * 또는
 
-     >[!TIP]
-     >
-     >문 커넥터는 대소문자를 구분하며 항상 대문자입니다. 텍스트 모드에서 &quot;AND&quot;를 생략할 수 있습니다.
+    >[!TIP]
+    >
+    >문 커넥터는 대소문자를 구분하며 항상 대문자입니다. 텍스트 모드에서 &quot;AND&quot;를 생략할 수 있습니다.
 
 * 필터를 보다 동적으로 만들고 현재 시간 또는 로그인한 사용자에 대해 사용자 지정하는 와일드카드. 와일드카드에 대한 자세한 내용은 [와일드카드 필터 변수 개요](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)를 참조하십시오.

@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: ' [!DNL Workfront Proof]에서 자동화된 워크플로를 사용하여 증명 설정'
+title: '[!DNL Workfront Proof]에서 자동화된 워크플로를 사용하여 증명 설정'
 description: 이렇게 하면 Workfront에서 증명 구성에 있는 정보가 반복됩니다. 여기 또는 저기서 통합하십시오. 여기가 더 나을지도 몰라요
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
-TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
+TQID: 'https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1610
+source-wordcount: '1659'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]에서 자동화된 워크플로를 사용하여 증명 설정
 
 >[!IMPORTANT]
@@ -57,15 +66,15 @@ ht-degree: 0%
    * **[!UICONTROL 단계 활성화부터]:** 단계 활성화 날짜에 추가할 영업일 수를 선택하여 증명에 대한 기한을 자동으로 설정합니다.
    * **[!UICONTROL 단계 활성화]:** 워크플로의 각 단계에 대해 활성화 시기를 결정할 수 있습니다. 첫 번째 단계에서 다음 옵션을 사용할 수 있습니다.
 
-      * 증명 생성 시
-      * 특정 시간 및 날짜에
-      * 수동\
+     * 증명 생성 시
+     * 특정 시간 및 날짜에
+     * 수동\
 
-        추가 옵션은 후속 단계에 사용할 수 있습니다. 이러한 옵션을 사용하려면 상위 단계가 필요합니다. 이는 다음과 같습니다.
-      * 이전 기한 도달 후
-      * 모든 결정은 승인됨 또는 변경과 함께 승인됨
-      * 모든 결정 승인됨
-      * 모든 결정은 내려집니다.
+       추가 옵션은 후속 단계에 사용할 수 있습니다. 이러한 옵션을 사용하려면 상위 단계가 필요합니다. 이는 다음과 같습니다.
+     * 이전 기한 도달 후
+     * 모든 결정은 승인됨 또는 변경과 함께 승인됨
+     * 모든 결정 승인됨
+     * 모든 결정은 내려집니다.
    * **[!UICONTROL 기한 계산 시기]:** 이 드롭다운 목록에서 선택한 옵션은 **[!UICONTROL 기한]** 필드에서 사용할 수 있는 옵션에 영향을 줍니다.
 
    * **[!UICONTROL 증명 만들기]:** **[!UICONTROL 기한]** 필드에서 증명 기한 날짜를 선택합니다.
@@ -124,26 +133,26 @@ ht-degree: 0%
 * **[!UICONTROL 단계 이름]**: 워크플로 다이어그램에 표시되며 검토자에게 전송된 전자 메일 알림에 포함됩니다.
 * **[!UICONTROL 단계 활성화]**: 워크플로우의 각 단계에 대해 활성화 시기를 결정할 수 있습니다. 첫 번째 단계에서는 다음 옵션을 사용할 수 있습니다.
 
-   * 증명 생성 시
-   * 특정 시간 및 날짜에
-   * 수동
-   * 첫 번째 단계에서는 이 세 가지 옵션만 사용할 수 있습니다. 다른 옵션은 두 번째 단계를 추가할 때 사용할 수 있습니다. 이러한 옵션을 사용하려면 상위 단계를 선택해야 합니다.
-   * 이전 최종 기한에 도달한 후(상위 단계 선택 필요)
-   * 모든 결정이 승인됨 또는 [!UICONTROL 변경 사항과 함께 승인됨]&#x200B;(상위 단계 선택 필요)
-   * 모든 결정이 승인됩니다(상위 단계 선택 필요).
-   * 모든 의사 결정이 이루어집니다(상위 단계를 선택해야 함).
+  * 증명 생성 시
+  * 특정 시간 및 날짜에
+  * 수동
+  * 첫 번째 단계에서는 이 세 가지 옵션만 사용할 수 있습니다. 다른 옵션은 두 번째 단계를 추가할 때 사용할 수 있습니다. 이러한 옵션을 사용하려면 상위 단계를 선택해야 합니다.
+  * 이전 최종 기한에 도달한 후(상위 단계 선택 필요)
+  * 모든 결정이 승인됨 또는 [!UICONTROL 변경 사항과 함께 승인됨]&#x200B;(상위 단계 선택 필요)
+  * 모든 결정이 승인됩니다(상위 단계 선택 필요).
+  * 모든 의사 결정이 이루어집니다(상위 단계를 선택해야 함).
 
 * **[!UICONTROL 기한]:** 워크플로우의 각 단계에서 기한을 계산하는 방법을 결정할 수 있습니다. 옵션은 다음과 같습니다.
 
-   * 증명 만들기에서: [!UICONTROL 기한] 필드(9)에서 증명의 기한 날짜를 선택할 수 있습니다.
-   * 단계 활성화에서: [!UICONTROL deadline] 드롭다운에서 단계 활성화 날짜에 추가될 업무일 수를 선택하여 증명에 대한 기한을 자동으로 설정합니다.
+  * 증명 만들기에서: [!UICONTROL 기한] 필드(9)에서 증명의 기한 날짜를 선택할 수 있습니다.
+  * 단계 활성화에서: [!UICONTROL deadline] 드롭다운에서 단계 활성화 날짜에 추가될 업무일 수를 선택하여 증명에 대한 기한을 자동으로 설정합니다.
 
 * **[!UICONTROL 잠금]:** 단계를 잠글 수 있는 시기를 결정하는 여러 가지 옵션이 있습니다. 옵션은 다음과 같습니다.
 
-   * 수동 잠금
-   * 안 함
-   * 다음 단계가 시작될 때
-   * 모든 결정이 이루어지는 시기
+  * 수동 잠금
+  * 안 함
+  * 다음 단계가 시작될 때
+  * 모든 결정이 이루어지는 시기
 
 **[!UICONTROL 기본 의사 결정자]**: 스테이지에서 기본 의사 결정자를 설정했습니다. 단계에 검토자를 추가한 후에만 사용 가능한 의사 결정자가 목록에 나타납니다.
 
@@ -173,7 +182,7 @@ ht-degree: 0%
 기본 증명을 자동화된 워크플로로 변환할 수 있습니다.
 
 1. [!UICONTROL 증명 세부 정보] 페이지에서 **[!UICONTROL 자동화된 워크플로로 변환]**&#x200B;을 클릭합니다.
-증명이 자동화된 워크플로로 다시 작동되면 모든 단계가 활성 상태이고 공개되며 해당 [!UICONTROL 단계 잠금] 옵션이 기본적으로 [수동]으로 설정됩니다. 모든 단계는 사용자 및 해당 설정과 함께 유지됩니다.
+증명이 자동화된 워크플로로 다시 작동되면 모든 단계가 활성 상태이고 공개되며 [!UICONTROL 단계 잠금] 옵션이 기본적으로 [수동]으로 설정됩니다. 모든 단계는 사용자 및 해당 설정과 함께 유지됩니다.
 
    * 단계 활성화는 모든 단계에서 증명 생성 시 로 설정됩니다.
    * 옵션에서 계산된 기한은 모든 단계에서 증명 만들기로 설정됩니다.

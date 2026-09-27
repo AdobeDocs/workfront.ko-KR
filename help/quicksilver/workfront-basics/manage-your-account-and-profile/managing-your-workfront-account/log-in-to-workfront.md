@@ -1,37 +1,42 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: ' [!DNL Adobe Workfront]에 로그인'
+title: '[!DNL Adobe Workfront]에 로그인합니다.'
 description: 이 문서를 읽고 Workfront에 로그인하는 방법을 알아보십시오.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU
+TQID: 'https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 222
-ht-degree: 5%
-
+source-wordcount: '222'
+ht-degree: 6%
 ---
-
 # [!DNL Adobe Workfront]에 로그인합니다.
 
 <!--Audited: 2024-->
 
-하나의 로그인은 Workfront 및 모든 Adobe CX 엔터프라이즈 애플리케이션에 사용됩니다.
+하나의 로그인은 Workfront 및 모든 Adobe CX Enterprise 애플리케이션에 사용됩니다.
 
-자세한 내용은 [CX 엔터프라이즈 인터페이스 및 관리](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)를 참조하십시오.
+자세한 내용은 [CX Enterprise 인터페이스 및 관리](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)를 참조하십시오.
 
 ## [!DNL Workfront] 액세스
 
@@ -43,7 +48,7 @@ CX Enterprise에 로그인하면 상단 탐색 영역에서 조직 전환기를 
 >
 >CX Enterprise에 처음 로그인하면 기본적으로 조직은 알파벳 목록의 첫 번째 조직으로 설정됩니다. 다음에 로그인할 때 조직은 기본적으로 사용자가 마지막으로 방문한 조직으로 설정됩니다.
 
-액세스 권한이 있는 CX 엔터프라이즈 제품 목록에 [!DNL Workfront]이(가) 나타납니다. CX 엔터프라이즈 홈 페이지의 빠른 액세스 메뉴에서 [!DNL Workfront]을(를) 선택하거나 제품 전환기 ![제품 전환기](assets/main-menu-icon.png)를 사용하여 언제든지 애플리케이션을 변경할 수 있습니다.
+액세스 권한이 있는 CX Enterprise 제품 목록에 [!DNL Workfront]이(가) 나타납니다. CX Enterprise 홈 페이지의 빠른 액세스 메뉴에서 [!DNL Workfront]을(를) 선택하거나 제품 전환기 ![제품 전환기](assets/main-menu-icon.png)를 사용하여 언제든지 응용 프로그램을 변경할 수 있습니다.
 
 ![응용 프로그램에 액세스하려면 [!DNL Workfront]을(를) 선택하십시오](assets/cx-enterprise-home-2026.png)
 

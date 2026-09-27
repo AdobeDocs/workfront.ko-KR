@@ -7,22 +7,31 @@ description: 엔터프라이즈 플랜이 있는 경우, 계정에 로그인할 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e66142fa-3b0d-4821-9aa5-040c62f00d62
-TQID: https://experienceleague.adobe.com/BHaoBaXJte-ssHEPefYCEqjs3zTSJ9MDcOw8G7YsHUs
+TQID: 'https://experienceleague.adobe.com/BHaoBaXJte-ssHEPefYCEqjs3zTSJ9MDcOw8G7YsHUs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
 # 드롭 영역
 
 >[!IMPORTANT]
@@ -129,6 +138,6 @@ Workfront에서(제출자) 파일이 새 증명인지 새 버전인지 확인하
 * 증명 요약 펼치기/접기(8)
 * 증명 선택(9)
 
-페이지 레이아웃과 정렬 및 필터링 옵션은 [!DNL Views] 목록과 동일합니다. 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리 를 참조하십시오.
+페이지 레이아웃과 정렬 및 필터링 옵션은 [!DNL Views] 목록과 동일합니다. 자세한 내용은  [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리 를 참조하십시오.
 
 ![New_Dropzone_design__Feb_2013_.jpg](assets/new-dropzone-design--feb-2013--350x224.jpg)

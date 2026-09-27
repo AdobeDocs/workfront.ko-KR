@@ -10,25 +10,31 @@ role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Zfi1GowI6IVjCJaTHqxSoy25iq8GcUVGbA-a8RQlv7w
+TQID: 'https://experienceleague.adobe.com/Zfi1GowI6IVjCJaTHqxSoy25iq8GcUVGbA-a8RQlv7w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8e9dbe4c91058d104f494ab012ae54e04abf8cee
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1950
+source-wordcount: '1970'
 ht-degree: 3%
-
 ---
-
 # 승인 프로세스 편집
 
 <!--Audited: 08/2025-->
@@ -211,7 +217,7 @@ For this article, the old access was:
       <p><b>중요</b>
       <ul> 
       <li> 프로젝트 스폰서에게 승인을 할당하고 아무도 프로젝트의 스폰서로 지정되지 않으면 승인은 프로젝트 소유자에게 재지정됩니다. 아무도 프로젝트의 소유자로 지정되지 않은 경우 승인이 Workfront 관리자에게 할당됩니다. </li> 
-      <li> 역할에 승인을 할당하고 <b>프로젝트 팀에 속해 있지 않아도 되는 승인자</b> 옵션을 사용할 수 없지만 프로젝트 팀의 역할이 승인에 대한 역할과 일치하지 않으면 승인이 프로젝트 소유자에게 다시 할당됩니다. 승인 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">전역 승인 설정 구성</a>을 참조하십시오.
+      <li> 역할에 승인을 할당하고 <b>프로젝트 팀에 속해 있지 않아도 되는 승인자</b> 옵션을 사용할 수 없지만 프로젝트 팀의 역할이 승인에 대한 역할과 일치하지 않으면 승인이 프로젝트 소유자에게 다시 할당됩니다. 승인 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">전역 승인 설정 구성</a>을 참조하세요.
       </li> 
       <li>프로젝트 소유자에게 승인을 할당하고 아무도 프로젝트 소유자로 지정되지 않으면, 승인 권한은 설정 영역의 고객 정보 섹션에 표시된 대로 기본 Workfront 관리자에게 재할당됩니다. 자세한 내용은 <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">시스템에 대한 기본 정보 구성</a>을 참조하십시오.</li> 
       <p><img src="assets/approval-create-add-users-nwe-350x304.png"></p> 

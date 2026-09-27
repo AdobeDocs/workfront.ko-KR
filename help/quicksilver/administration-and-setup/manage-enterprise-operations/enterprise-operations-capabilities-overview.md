@@ -10,13 +10,20 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 421cfc8c-8c81-4d48-9fa7-ce603f33d8a9
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '328'
 ht-degree: 1%
-
 ---
-
 # 엔터프라이즈 운영 기능 개요
 
 고급 엔터프라이즈 운영 기능은 재무, 리소스, 프로젝트 및 엔터프라이즈 액세스를 관리할 수 있는 통합적이고 확장 가능한 방법입니다. 이러한 기능은 기업이 수익성 있고 효율적으로 운영해야 하는 가시성과 제어를 제공합니다.

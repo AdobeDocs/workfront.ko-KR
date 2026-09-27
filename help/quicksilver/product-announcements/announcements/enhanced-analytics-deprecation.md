@@ -8,20 +8,27 @@ recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/GXQFscmGL9dwGzM0t0pXSXdFiWX67k93WpLOHW3Z2ts
+TQID: 'https://experienceleague.adobe.com/GXQFscmGL9dwGzM0t0pXSXdFiWX67k93WpLOHW3Z2ts'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: '343'
 ht-degree: 0%
-
 ---
-
 # 향상된 Analytics 사용 중단 안내서
 
 사용 감소 및 제한된 기능으로 인해 향상된 Analytics는 곧 Adobe Workfront에서 더 이상 사용되지 않을 예정입니다. Enhanced Analytics에서는 불가능했던 강력한 새 시각화를 만들 뿐만 아니라 현재 사용하고 있는 향상된 Analytics 시각화를 복제할 수 있는 대안으로 Workfront Data Connect를 출시했습니다. 조직의 성공적인 전환을 보장하기 위해 이 페이지에는 정확히 무엇이 변경되는지, 전환을 준비하는 방법에 대한 조언 및 자주 묻는 질문에 대한 답변이 포함되어 있습니다.

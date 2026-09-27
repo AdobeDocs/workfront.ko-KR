@@ -2,24 +2,28 @@
 content-type: reference
 navigation-topic: search
 title: 참조 개체 수 사용
-description: ' [!DNL Adobe Workfront]에서 항목은 개체로 식별됩니다. 개체는 데이터베이스와 일치하며 데이터와 항목의 상관 관계를 지정하는 데 사용됩니다. 참조 번호는 다른 유사한 두 객체(예: 동일한 이름을 가진 작업)를 구별하는 데 유용합니다. 참조 번호를 검색하여 보고서에 포함할 수 있습니다.'
+description: '[!DNL Adobe Workfront]에서 항목이 개체로 식별됩니다. 개체는 데이터베이스와 일치하며 데이터와 항목의 상관 관계를 지정하는 데 사용됩니다. 참조 번호는 다른 유사한 두 객체(예: 동일한 이름을 가진 작업)를 구별하는 데 유용합니다. 참조 번호를 검색하여 보고서에 포함할 수 있습니다.'
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-TQID: https://experienceleague.adobe.com/IllwtQ1nujBL-7tjcfRqQAtg7JagQV2MEktjJQ0r4z0
+TQID: 'https://experienceleague.adobe.com/IllwtQ1nujBL-7tjcfRqQAtg7JagQV2MEktjJQ0r4z0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: '448'
 ht-degree: 0%
-
 ---
-
 # 참조 개체 수 사용
 
 [!DNL Adobe Workfront]에서 항목이 개체로 식별됩니다. 개체는 데이터베이스와 일치하며 데이터와 항목의 상관 관계를 지정하는 데 사용됩니다.

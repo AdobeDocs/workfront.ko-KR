@@ -6,27 +6,37 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-TQID: https://experienceleague.adobe.com/4KaZmtnTFIfSPZ6QmETm-Q0L7Ih0zHYxoP6BfQGm2kg
+TQID: 'https://experienceleague.adobe.com/4KaZmtnTFIfSPZ6QmETm-Q0L7Ih0zHYxoP6BfQGm2kg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3298
+source-wordcount: '3371'
 ht-degree: 1%
-
 ---
-
 # 22.4 릴리스 개요
 
 이 페이지에서는 22.4 릴리스에 포함된 기능에 대한 정보를 제공합니다.
@@ -751,7 +761,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### 22.4 릴리스 웨비나
 
-22.4 릴리스 웨비나는 2022년 9월 22일 목요일 오전 9:00 AM PDT에서 열립니다. 여기서 [웨비나를 등록](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)할 수 있습니다.
+22.4 릴리스 웨비나는 2022년 9월 22일 목요일 오전 9시(PDT)에 열립니다. 여기서 [웨비나를 등록](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)할 수 있습니다.
 
 ### 교육 업데이트
 

@@ -7,25 +7,31 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
+TQID: 'https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '663'
 ht-degree: 0%
-
 ---
-
 # 2026년 2분기 관리자 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2026년 2분기 릴리스의 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
@@ -36,7 +42,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 4월 2일>프로덕션 빠른 릴리스: 2026년 4월 15일>모두를 위한 프로덕션: 2026년 4월 16일
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
 
 일상적인 작업에서 AI의 이점을 보다 쉽게 이용할 수 있도록 콘텐츠 검토 AI 공동 작업자를 만들었습니다. 공동 작업자는 AI 에이전트를 프로젝트 및 작업에 온보딩하는 방법입니다. 브랜드 가이드라인으로 AI Collaborator를 구성한 다음 사용자와 마찬가지로 작업에 할당할 수 있습니다.
 
@@ -48,7 +56,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 3월 27일>프로덕션 빠른 릴리스: 2026년 3월 27일>모두를 위한 프로덕션: 2026년 3월 27일
+>미리 보기: 2026년 3월 27일
+>프로덕션 빠른 릴리스: 2026년 3월 27일
+>모두를 위한 프로덕션: 2026년 3월 27일
 
 IANA 표준을 따르도록 Workfront에서 사용할 수 있는 시간대를 업데이트했습니다. 이를 통해 다른 시스템과의 호환성과 시간 경과에 따른 정확성을 보장할 수 있다.
 
@@ -60,7 +70,9 @@ IANA 표준을 따르도록 Workfront에서 사용할 수 있는 시간대를 �
 
 >[!NOTE]
 >
->미리 보기: 2026년 3월 5일>프로덕션 빠른 릴리스: 2026년 4월 15일>모두를 위한 프로덕션: 2026년 4월 16일
+>미리 보기: 2026년 3월 5일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
 
 프로젝트 환경 설정 섹션에서 사용자 정의 분기 영역을 이동했습니다. 이제 설정의 독립 실행형 섹션입니다. 
 이 업데이트에는 다음 사항이 포함됩니다.
@@ -75,7 +87,9 @@ IANA 표준을 따르도록 Workfront에서 사용할 수 있는 시간대를 �
 
 >[!NOTE]
 >
->미리 보기: 2026년 2월 26일>프로덕션 빠른 릴리스: 2026년 3월 12일>모두를 위한 프로덕션: 2026년 4월 16일
+>미리 보기: 2026년 2월 26일
+>프로덕션 빠른 릴리스: 2026년 3월 12일
+>모두를 위한 프로덕션: 2026년 4월 16일
 
 기본적으로 양식 자체를 확장하면 사용자 정의 양식의 모든 섹션이 확장됩니다. 사용자 정의 양식 디자이너의 새 옵션을 사용하면 사용자가 양식을 열 때 기본적으로 축소될 섹션을 표시할 수 있습니다. 이 옵션은 필드가 아닌 섹션 수준에서 적용됩니다.
 
@@ -85,7 +99,9 @@ IANA 표준을 따르도록 Workfront에서 사용할 수 있는 시간대를 �
 
 >[!NOTE]
 >
->미리 보기: 2026년 1월 29일>프로덕션 빠른 릴리스: 2026년 2월 12일>모두를 위한 프로덕션: TBD
+>미리 보기: 2026년 1월 29일
+>프로덕션 빠른 릴리스: 2026년 2월 12일
+>모두를 위한 프로덕션: TBD
 >
 >이 기능은 2026년 2월 13일에 프로덕션 환경에서 일시적으로 제거되었습니다.
 

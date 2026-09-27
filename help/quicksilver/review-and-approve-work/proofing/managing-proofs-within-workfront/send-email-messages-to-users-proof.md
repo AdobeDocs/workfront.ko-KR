@@ -6,22 +6,29 @@ description: 검토 및 승인 프로세스 중에 증명에 대한 검토자 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-TQID: https://experienceleague.adobe.com/dVr9KslUMAN4leS62t2kTOLYnQhHaf21kJB4SVLKsX4
+TQID: 'https://experienceleague.adobe.com/dVr9KslUMAN4leS62t2kTOLYnQhHaf21kJB4SVLKsX4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 354
+source-wordcount: '354'
 ht-degree: 6%
-
 ---
-
 # 증명에서 검토자에게 이메일 메시지 보내기
 
 검토 및 승인 프로세스 중에 증명에 대한 검토자 한 명 또는 모두에게 메시지를 보낼 수 있습니다. 메시지는 검토자에게 증명 검토를 완료하도록 알리거나 증명과 관련된 다른 정보를 제공하는 쉬운 방법입니다.

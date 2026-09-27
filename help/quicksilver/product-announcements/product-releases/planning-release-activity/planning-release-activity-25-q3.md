@@ -9,23 +9,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+TQID: 'https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2290
+source-wordcount: '2426'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront Planning의 2025년 3분기 릴리스 활동
 
 이 문서에서는 2025년 3분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
@@ -38,7 +44,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2025년 7월 10일>모두를 위한 프로덕션: 2025년 7월 10일>[!BADGE 일정 해제]{type=Neutral}
+>미리 보기: 2025년 7월 10일
+>모두를 위한 프로덕션: 2025년 7월 10일
+>[!BADGE 일정 해제]{type=Neutral}
 
 
 레코드 유형을 만들거나 편집할 때 고급 설정 탭을 업데이트했습니다.
@@ -54,7 +62,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2025년 7월 10일>모두를 위한 프로덕션: 2025년 7월 10일>[!BADGE 일정 해제]{type=Neutral}
+>미리 보기: 2025년 7월 10일
+>모두를 위한 프로덕션: 2025년 7월 10일
+>[!BADGE 일정 해제]{type=Neutral}
 
 이제 Workfront Planning에서 기록 댓글에 팀을 추가하면 팀의 모든 구성원이 댓글에 대한 인앱과 이메일 알림을 모두 받습니다. 이 개선 이전에는 댓글에 개별적으로 추가된 사용자만 알림이 전송되었습니다.
 
@@ -64,7 +74,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2025년 7월 10일>프로덕션 빠른 릴리스: 2025년 8월 14일>모두를 위한 프로덕션: 2025년 10월 16일
+>미리 보기: 2025년 7월 10일
+>프로덕션 빠른 릴리스: 2025년 8월 14일
+>모두를 위한 프로덕션: 2025년 10월 16일
 
 
 이제 테이블 보기에 그룹화가 적용되면 테이블에 레코드를 추가하면 레코드를 추가할 그룹화와 관련된 필드가 자동으로 채워집니다.
@@ -79,7 +91,8 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2025년 7월 9일>모두를 위한 프로덕션: 2025년 7월 17일
+>미리 보기: 2025년 7월 9일
+>모두를 위한 프로덕션: 2025년 7월 17일
 
 이제 레코드 종류의 페이지에 있는 동일한 단추에서 보기와 레코드 종류를 공유할 수 있습니다. 이 개선 이전에는 레코드 유형 페이지의 공유 버튼과 보기의 탭에 있는 보기에서만 레코드 유형을 공유할 수 있었습니다.
 
@@ -116,18 +129,18 @@ Workfront Planning에서 요청 양식을 공유할 때의 환경을 보다 안�
 * 공유 양식 대화 상자는 내부 공유(공유할 사용자 선택)와 공개 공유(공유 링크 만들기)로 분리되었습니다.
 * 이제 요청 양식을 다음과 공유할 수 있습니다.
 
-   * 사용자
-   * 팀
-   * 그룹
-   * 회사
-   * 작업 역할
+  * 사용자
+  * 팀
+  * 그룹
+  * 회사
+  * 작업 역할
 
   이전에는 작업 영역 액세스 또는 링크를 공유해야만 공유할 수 있었습니다.
 * 요청 양식에 대해 상속된 권한을 제거했습니다. 이제 요청 양식은 선택한 사용자만 공유됩니다.
 * 요청 양식을 공유한 사용자에 대한 관리 및 기여 옵션을 제거했습니다. 이제 추가된 사용자는 양식만 제출할 수 있습니다.
 * 이제 공개 링크 만들기 옵션을 활성화하면 공개 공유 탭에 링크 및 만료 날짜 필드가 표시됩니다.
 
-자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)를 참조하십시오.
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)를 참조하십시오.
 
 ## 표 보기에서 모든 그룹화 펼치기 및 접기
 
@@ -153,7 +166,8 @@ Workfront Planning에서 요청 양식을 공유할 때의 환경을 보다 안�
 >[!NOTE]
 >
 >* 미리 보기: 2025년 6월 26일
->* 모든 사용자를 위한 프로덕션: 2025년 6월 26일>[!BADGE 일정 해제]{type=Neutral}
+>* 모두를 위한 프로덕션: 2025년 6월 26일
+>[!BADGE 일정 해제]{type=Neutral}
 
 이제 레코드 유형을 연결하고 공식 필드를 조회로 가져올 때 공식 필드의 형식에 따라 집계 함수(SUM, AVERAGE, MIN, MAX 등)를 적용할 수 있습니다. 예를 들어 공식 필드가 숫자인 경우 SUM 또는 AVG와 같은 함수를 사용할 수 있습니다. 공식 필드의 형식이 텍스트로 지정된 경우 SUM과 같은 집계 함수는 적용되지 않습니다.
 
@@ -188,7 +202,8 @@ Workfront Planning을 구매하지 않은 고객에 대한 사용자 정의 분�
 >[!NOTE]
 >
 >* 미리 보기: 2025년 6월 12일
->* 모든 사용자를 위한 프로덕션: 2025년 6월 12일>[!BADGE 일정 해제]{type=Neutral}
+>* 모두를 위한 프로덕션: 2025년 6월 12일
+>[!BADGE 일정 해제]{type=Neutral}
 
 참조된 필드를 수동으로 업데이트한 후 서로 종속된 모든 수식 필드를 동시에 업데이트하는 개선 사항이 도입되었습니다. 값이 수동으로 변경되고 서로 참조하는 필드와 2, 3 또는 4 떨어진 수식 필드는 이제 동시에 자동으로 업데이트됩니다.
 
@@ -201,7 +216,8 @@ Workfront Planning을 구매하지 않은 고객에 대한 사용자 정의 분�
 >[!NOTE]
 >
 >* 미리 보기: 2025년 6월 6일
->* 모든 고객을 위한 프로덕션: 2025년 6월 6일>[!BADGE 일정 중단]{type=Neutral}
+>* 모든 고객을 위한 프로덕션: 2025년 6월 6일
+>[!BADGE 일정 해제]{type=Neutral}
 
 공식 필드에 다음 표현식을 추가했습니다.
 
@@ -228,12 +244,12 @@ Workfront Planning을 구매하지 않은 고객에 대한 사용자 정의 분�
 * 요청을 추가한 사용자를 나타내기 위해 열에 의해 입력됨
 * 필터 - Planning 탭에서 보는 요청 수를 제한합니다. 다음 항목을 기준으로 목록을 필터링할 수 있습니다.
 
-   * 요청 양식의 출처 Workspace
-   * 요청 양식과 연결된 레코드 유형
-   * 요청 입력 일자
-   * 요청 양식 이름
-   * 요청 상태
-   * 요청을 입력한 사람의 이름입니다.
+  * 요청 양식의 출처 Workspace
+  * 요청 양식과 연결된 레코드 유형
+  * 요청 입력 일자
+  * 요청 양식 이름
+  * 요청 상태
+  * 요청을 입력한 사람의 이름입니다.
 
 * 열 컨트롤은 Planning 요청 목록에서 필드(또는 열)를 보거나 숨길 수 있습니다.
 

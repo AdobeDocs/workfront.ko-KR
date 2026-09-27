@@ -7,13 +7,23 @@ description: 증명 단계는 서로 다른 사용자가 증명을 검토하는 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 0%
-
 ---
-
 # 자동화된 워크플로우 단계 개요
 
 증명 단계는 서로 다른 사용자가 증명을 검토하는 시간 세그먼트입니다. 증명이 한 단계에서 다음 단계로 이동함에 따라 Adobe Workfront은 검토자에게 작업을 수행할 시간이 되면 알려 달라고 알립니다.
@@ -49,8 +59,8 @@ ht-degree: 0%
 
 **예:** 예를 들어 검토자가 4명인 증명을 만드는 경우:
 
-* Olivia와 Tony 검토자의 경우 지금부터 며칠 후 14:00에 대한 기한을 지정합니다.
-* Aaron과 Amy의 경우 며칠 후 17:00에 대한 기한을 지정하십시오.
+* Olivia와 Tony 검토자의 경우 지금부터 며칠 후 14:00에 마감일을 지정합니다.
+* Aaron과 Amy의 경우 며칠 후 17:00으로 기한을 지정하십시오.
 * 마감일은 지정하지 않습니다.
 
 시스템은 다음 세 개의 검토자 &quot;그룹&quot; 각각에 대한 단계를 생성합니다.

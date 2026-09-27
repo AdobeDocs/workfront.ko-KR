@@ -2,34 +2,41 @@
 product-area: workfront-integrations
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Google Workspace에서  [!DNL Adobe Workfront] 홈 콘텐츠에 액세스
-description: Google Workspace을 종료하지 않고도 자신에게 할당된 모든 작업, 문제, 승인 및 액세스 요청을 포함한  [!DNL Adobe Workfront] 홈 콘텐츠에 액세스할 수 있습니다.
+title: Google Workspace에서 [!DNL Adobe Workfront] 홈 콘텐츠에 액세스
+description: Google Workspace을 종료하지 않고도 자신에게 할당된 모든 작업, 문제, 승인 및 액세스 요청을 포함한 [!DNL Adobe Workfront] 홈 콘텐츠에 액세스할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Xsx0Yum-ZbXwr5XyN12oGPbuN00PJwblwjA7rWcLTZ4
+TQID: 'https://experienceleague.adobe.com/Xsx0Yum-ZbXwr5XyN12oGPbuN00PJwblwjA7rWcLTZ4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 196
+source-wordcount: '198'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Workspace]에서 [!DNL Adobe Workfront] [!UICONTROL Home] 콘텐츠에 액세스
 
 >[!IMPORTANT]

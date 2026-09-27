@@ -7,13 +7,20 @@ description: Adobe Workfront 관리자는 AI 공동 작업자를 구성하고 �
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 8ba03024e1c2ef0da755a6da3da13debb2f4e696
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 4%
-
 ---
-
 # AI 공동 작업자
 
 AI 공동 작업자는 사용자를 할당하는 것과 같은 방식으로 작업에 할당할 수 있는 AI 에이전트입니다. 기존 워크플로우에 AI 공동 작업자를 맞추면 팀이 가장 중요한 사항에 집중할 수 있습니다.

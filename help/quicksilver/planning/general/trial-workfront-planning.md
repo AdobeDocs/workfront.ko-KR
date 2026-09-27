@@ -7,24 +7,33 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y
+TQID: 'https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2321
+source-wordcount: '2346'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront Planning 무료 평가판 시작
 
 <!--add screen shots-->
@@ -60,10 +69,10 @@ Workfront 관리자가 계약을 수락하고 무료 체험판에 등록하면 2
 * 조정된 다중 작업 영역 계획 환경
 * 다음 기능이 포함된 Workfront Planning Prime 패키지:
 
-   * 무제한 작업 영역
-   * 작업 영역당 500,000개의 레코드
-   * 총 200만 개의 작업 공간
-   * 글로벌 레코드 유형
+  * 무제한 작업 영역
+  * 작업 영역당 500,000개의 레코드
+  * 총 200만 개의 작업 공간
+  * 글로벌 레코드 유형
 * 어디서부터 시작할지 안내하는 샘플 데이터
 * 일반 언어를 사용하거나 기존 아티팩트를 업로드할 수 있는 AI 안내 온보딩이며 Planning은 AI를 사용하여 사용자 정의 구조를 생성합니다. 이렇게 하면 작업 공간, 레코드 유형, 필드 및 보기가 자동으로 만들어집니다.
 * 제품 내 교육 및 지침
@@ -75,12 +84,12 @@ Workfront Planning 무료 평가판에 참여하려면 귀사가 다음 요구 �
 
 * 다음과 같은 새로운 Adobe Workfront 또는 워크플로 패키지가 있습니다.
 
-   * 선택
-   * Prime
-   * Ultimate
+  * 선택
+  * Prime
+  * Ultimate
 
   기존 Workfront 패키지에는 Workfront Planning 체험판을 사용할 수 없습니다.
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+  자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 * 2026년 1월 26일부터 4월 1일 사이에 조직의 Workfront 인스턴스에서 사용할 수 있는 법적 재판 계약에 동의합니다. 평가판 계약에 동의하려면 Workfront 관리자여야 합니다.
 
 ## 중요한 날짜 개요
@@ -88,31 +97,31 @@ Workfront Planning 무료 평가판에 참여하려면 귀사가 다음 요구 �
 다음은 Adobe Workfront Planning 무료 평가판 제품과 관련된 중요한 날짜입니다.
 
 * **2026년 1월 26일**: Workfront Planning 무료 평가판 배너가 Workfront 고객에게 릴리스되었습니다. 배너에는 다음 항목이 포함되어 있습니다.
-   * 이 문서에 대한 링크입니다.
-   * 평가판 계약 수락 창. Workfront 관리자만 계약에 동의할 수 있습니다. 이 날짜부터 언제든지 체험판 계약에 동의할 수 있습니다.
+  * 이 문서에 대한 링크입니다.
+  * 평가판 계약 수락 창. Workfront 관리자만 계약에 동의할 수 있습니다. 이 날짜부터 언제든지 체험판 계약에 동의할 수 있습니다.
 * **2026년 3월 2일**: Workfront Planning 평가판이 시작되었습니다.
 
   체험판이 실행되면 다음 항목이 Workfront 인스턴스에 추가됩니다.
 
-   * Workfront Planning 배너는 모든 사용자에게 계속 표시됩니다. 배너에 이 문서에 대한 링크가 포함되어 있습니다.
-   * **평가판 동의 검토** 기본 설정이 **설정** 영역에 추가되었습니다.
+  * Workfront Planning 배너는 모든 사용자에게 계속 표시됩니다. 배너에 이 문서에 대한 링크가 포함되어 있습니다.
+  * **평가판 동의 검토** 기본 설정이 **설정** 영역에 추가되었습니다.
 
   다음과 같은 시나리오가 있습니다.
 
-   * Workfront 관리자가 이 날짜 이전에 계약을 수락한 경우 주 메뉴에서 계획 영역을 찾아 Workfront Planning을 사용할 수 있습니다.
+  * Workfront 관리자가 이 날짜 이전에 계약을 수락한 경우 주 메뉴에서 계획 영역을 찾아 Workfront Planning을 사용할 수 있습니다.
 
   >[!NOTE]
   >
   >계획 영역은 Workfront 라이선스 유형에 관계없이 시스템의 모든 사용자를 위한 메인 메뉴에 표시됩니다.
 
-   * 이 날짜 이전에 Workfront 관리자가 계약을 수락하지 않은 경우 계획 시도 프로그램을 알리는 배너가 모든 사용자에게 표시되지만, 계획 수립은 아직 메인 메뉴에 없습니다. Workfront Planning에 액세스하려면 먼저 시스템 관리자가 계약에 동의해야 합니다.
+  * 이 날짜 이전에 Workfront 관리자가 계약을 수락하지 않은 경우 계획 시도 프로그램을 알리는 배너가 모든 사용자에게 표시되지만, 계획 수립은 아직 메인 메뉴에 없습니다. Workfront Planning에 액세스하려면 먼저 시스템 관리자가 계약에 동의해야 합니다.
 
 * **2026년 4월 1일**: 더 이상 평가판에 등록할 수 없습니다.
 
   Workfront 인스턴스에서 다음 항목이 제거됩니다.
 
-   * Workfront Planning 체험판 배너.
-   * **평가판 동의 검토** 기본 설정이 **설정** 영역에서 제거되었습니다.
+  * Workfront Planning 체험판 배너.
+  * **평가판 동의 검토** 기본 설정이 **설정** 영역에서 제거되었습니다.
 
 * **2026년 5월 1일**: Workfront Planning 평가판이 닫히고 Planning에 대한 액세스 권한이 제거됩니다. 액세스는 2026년 5월 15일까지 활성 상태로 유지됩니다.
 
@@ -137,9 +146,9 @@ Lauren wanted this out:
 
   시스템의 사용자는 무료 평가판 중에 계획 영역의 작업 공간에 대해 다음 권한을 받게 됩니다.
 
-   * 모든 시스템 관리자에게는 내가 진행 중인 작업 영역과 모든 작업 영역 탭에 대한 관리 권한이 있습니다.
-   * 다른 모든 사용자는 작업 영역 영역에 대한 보기 권한을 가지고 있지만 시스템 관리자는 작업 영역에 표시되는 관리 권한을 부여할 수 있습니다.
-   * 시스템 관리자를 포함한 모든 사용자는 계획 영역의 샘플 작업 공간 탭에 대한 보기 권한이 있습니다.
+  * 모든 시스템 관리자에게는 내가 진행 중인 작업 영역과 모든 작업 영역 탭에 대한 관리 권한이 있습니다.
+  * 다른 모든 사용자는 작업 영역 영역에 대한 보기 권한을 가지고 있지만 시스템 관리자는 작업 영역에 표시되는 관리 권한을 부여할 수 있습니다.
+  * 시스템 관리자를 포함한 모든 사용자는 계획 영역의 샘플 작업 공간 탭에 대한 보기 권한이 있습니다.
 
 * **2026년 5월 1일 이후:**
 
@@ -260,10 +269,10 @@ Workfront Planning 사용 경험에 대한 피드백을 제출하려면 다음�
      전역 분류 작업 영역을 사용하는 방법에 대한 권장 사항을 보려면 [첫 번째 성과를 지속 가능한 모멘텀으로 전환: 관리형 확장을 위한 플레이북](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md)을 참조하십시오.
    * 추가 샘플 작업 공간: 다음 작업 공간은 특정 작업 공간, 레코드 유형, 필드 및 조직 및 작업 구조를 아키텍처화하는 뷰로 샘플 회사(Fréscopa)에 필요할 수 있는 사항의 예제로 사용됩니다.
 
-      * **Fréscopa 글로벌 마케팅**
-      * **Fréscopa 소셜 마케팅**
-      * **Fréscopa 미디어 및 PR**
-      * **Fréscopa Executive Company 리더십**
+     * **Fréscopa 글로벌 마케팅**
+     * **Fréscopa 소셜 마케팅**
+     * **Fréscopa 미디어 및 PR**
+     * **Fréscopa Executive Company 리더십**
 
    >[!NOTE]
    >
@@ -304,8 +313,8 @@ Workfront Planning 사용 경험에 대한 피드백을 제출하려면 다음�
 
      자세한 내용은 다음 문서를 참조하십시오.
 
-      * [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)
-      * [레코드 유형 연결 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
+     * [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)
+     * [레코드 유형 연결 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 
 1. 생성한 작업공간에서 다음 엔티티 중 하나를 공유합니다.
 

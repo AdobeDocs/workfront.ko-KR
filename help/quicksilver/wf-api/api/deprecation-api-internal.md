@@ -7,20 +7,23 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
-TQID: https://experienceleague.adobe.com/LGyk8MIATMQj6JHqKmjkeL2pXW-b6xtxo2heMd4h0y4
+TQID: 'https://experienceleague.adobe.com/LGyk8MIATMQj6JHqKmjkeL2pXW-b6xtxo2heMd4h0y4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: '241'
 ht-degree: 0%
-
 ---
-
 # API 내부 사용 중단
 
 API-Internal은 디자인 및 목적 때문에 지원되지 않는 Adobe Workfront API 버전입니다. 이 팩에는 Workfront API에 대한 최신 업데이트가 포함되어 있지만 예고 없이 변경될 수 있으므로 프로덕션 통합에서 주의해서 사용해야 합니다. Workfront은 모든 API-내부 통합을 버전이 지정된 API로 업데이트할 것을 강력히 권장합니다.

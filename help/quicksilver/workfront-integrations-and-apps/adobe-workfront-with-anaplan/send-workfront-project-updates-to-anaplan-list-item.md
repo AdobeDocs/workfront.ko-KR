@@ -1,32 +1,42 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: ' [!DNL Anaplan] 목록 항목에  [!DNL Adobe Workfront] 프로젝트 업데이트 보내기'
-description: 이 통합 시나리오는  [!DNL Adobe Workfront] 프로젝트의 진행 상황, 상태 및 주요 일정 세부 정보를  [!DNL Anaplan] 예산 목록 항목과 공유합니다. 이 정보를 공유하면  [!DNL Anaplan] 이(가) 제공하는 지출 최적화 및 재무 분석을 더 잘 활용할 수 있습니다.
+title: '[!DNL Adobe Workfront] 프로젝트 업데이트를 [!DNL Anaplan] 목록 항목으로 보내기'
+description: 이 통합 시나리오는 [!DNL Adobe Workfront] 프로젝트의 진행 상황, 상태 및 주요 일정 세부 정보를 [!DNL Anaplan] 예산 목록 항목과 공유합니다. 이 정보를 공유하면 [!DNL Anaplan]에서 제공하는 지출 최적화 및 재무 분석을 더 잘 활용할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
-TQID: https://experienceleague.adobe.com/3bl3dFd6ejNq5r-y7tV9ynFkxQ-xvtPoGWJ-DTtKOn0
+TQID: 'https://experienceleague.adobe.com/3bl3dFd6ejNq5r-y7tV9ynFkxQ-xvtPoGWJ-DTtKOn0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 972
+source-wordcount: '977'
 ht-degree: 13%
-
 ---
-
 # [!DNL Adobe Workfront] 프로젝트 업데이트를 [!DNL Anaplan] 목록 항목으로 보내기
 
 이 통합 시나리오는 [!DNL Adobe Workfront] 프로젝트의 진행 상황, 상태 및 주요 일정 세부 정보를 [!DNL Anaplan] 예산 목록 항목과 공유합니다. 이 정보를 공유하면 [!DNL Anaplan]에서 제공하는 지출 최적화 및 재무 분석을 더 잘 활용할 수 있습니다.

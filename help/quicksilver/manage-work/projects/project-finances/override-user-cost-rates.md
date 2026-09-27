@@ -7,13 +7,17 @@ description: 이 문서에서는 프로젝트에 대한 시스템 사용자 비�
 author: Lisa
 feature: Work Management
 exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
-source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 3%
-
 ---
-
 # 프로젝트 수준에서 사용자 비용 비율 재정의
 
 특정 프로젝트의 사용자에 대한 비용 비율을 지정할 수 있습니다. 이 프로젝트 수준의 원가율은 이 사용자의 시스템 수준의 원가율을 재정의합니다. Workfront은 시스템 수준 원가율을 사용하는 대신 작업 역할의 프로젝트 수준 원가율을 사용하여 비용을 계산합니다.
@@ -44,7 +48,7 @@ ht-degree: 3%
        <p><p>또한 다음 중 하나가 있어야 합니다.</p> 
         <ul> 
           <li> <p>시스템 관리자 액세스 수준입니다. </li> 
-          <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <b>에서 두 개의 </b>사용자 관리<img src="assets/gear-icon-in-access-levels.png"> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
+          <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
     </ul></td> 
   </tr> 
   <tr> 

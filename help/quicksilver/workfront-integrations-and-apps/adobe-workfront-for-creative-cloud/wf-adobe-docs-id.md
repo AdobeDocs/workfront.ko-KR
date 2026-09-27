@@ -8,23 +8,33 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/W5Shsncva5V27Klj9nIgxdHkr4JO3QrS0V6wVuJskk0
+TQID: 'https://experienceleague.adobe.com/W5Shsncva5V27Klj9nIgxdHkr4JO3QrS0V6wVuJskk0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 236
-ht-degree: 5%
-
+source-wordcount: '251'
+ht-degree: 6%
 ---
-
 # [!DNL InDesign]에서 문서 업로드
 
 프로젝트를 빠른 검토 및 승인을 위한 문서로 업로드하거나 간단히 [!DNL Adobe Workfront]에 저장할 수 있습니다.
@@ -92,4 +102,4 @@ ht-degree: 5%
 
    ![파일 내보내기 설정](assets/file-export-settings.png)
 1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
-이 문서는 플러그 인 및 데스크톱 앱의 [!UICONTROL 문서] 영역에 표시됩니다.
+플러그 인 및 데스크톱 앱의 [!UICONTROL 문서] 영역에 문서가 표시됩니다.

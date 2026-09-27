@@ -5,22 +5,26 @@ description: Adobe Workfront은 귀하에게 할당되거나 귀하가 소유한
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-TQID: https://experienceleague.adobe.com/k5EY-Pa8lmO7VJRlJpRsCVlbf0U4zByRfmb70OtBvFI
+TQID: 'https://experienceleague.adobe.com/k5EY-Pa8lmO7VJRlJpRsCVlbf0U4zByRfmb70OtBvFI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1563
+source-wordcount: '1563'
 ht-degree: 1%
-
 ---
-
 # [!DNL Adobe Workfront]의 항목 구독
 
 [!UICONTROL Adobe Workfront]에서 귀하에게 할당되거나 귀하가 소유한 항목에 대한 알림을 보냅니다. 귀하에게 할당되지 않았지만 작업에 영향을 줄 수 있는 항목에 대한 커뮤니케이션을 따르려면 해당 항목에 가입할 수 있습니다.

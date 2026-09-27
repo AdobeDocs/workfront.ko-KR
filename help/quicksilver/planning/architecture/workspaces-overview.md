@@ -6,19 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+TQID: 'https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '566'
 ht-degree: 1%
-
 ---
-
 # 작업 공간 개요
 
 <!--
@@ -41,10 +48,10 @@ ht-degree: 1%
 * Workfront Planning에는 사전 구성된 작업 영역이 없습니다. 조직의 필요에 따라 만들어야 합니다.
 * 다음과 같은 방법으로 작업 공간을 만들 수 있습니다.
 
-   * 처음부터
-   * 템플릿 사용. 템플릿에는 미리 구성된 레코드 종류 수와 해당 필드가 포함되어 있습니다.
-   * AI 기반 Planning Designer 사용. 이 기능은 현재 Beta에 있습니다.
-   * 다중 작업 영역 템플릿 번들 사용.
+  * 처음부터
+  * 템플릿 사용. 템플릿에는 미리 구성된 레코드 종류 수와 해당 필드가 포함되어 있습니다.
+  * AI 기반 Planning Designer 사용. 이 기능은 현재 Beta에 있습니다.
+  * 다중 작업 영역 템플릿 번들 사용.
 
   자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
@@ -53,9 +60,9 @@ ht-degree: 1%
   자세한 내용은 [레코드 종류 개요](/help/quicksilver/planning/architecture/overview-of-record-types.md)를 참조하세요.
 * 작업 공간은 계획 영역의 다음 탭에 표시됩니다.
 
-   * **내가 있는 작업 영역**: 사용자가 만든 작업 영역 또는 사용자와 공유된 작업 영역을 표시합니다.
-   * **다른 작업 영역**: 시스템의 다른 작업 영역을 모두 표시합니다. 이 기능은 시스템 관리자만 사용할 수 있습니다.
-   * **샘플 작업 영역**: 모범 사례 작업 영역의 기본 제공 예제를 표시합니다. 작업 공간, 레코드 유형을 편집하거나 레코드 또는 필드를 추가할 수는 없지만 다른 사용자와 추가, 편집 및 공유할 수는 있습니다.
+  * **내가 있는 작업 영역**: 사용자가 만든 작업 영역 또는 사용자와 공유된 작업 영역을 표시합니다.
+  * **다른 작업 영역**: 시스템의 다른 작업 영역을 모두 표시합니다. 이 기능은 시스템 관리자만 사용할 수 있습니다.
+  * **샘플 작업 영역**: 모범 사례 작업 영역의 기본 제공 예제를 표시합니다. 작업 공간, 레코드 유형을 편집하거나 레코드 또는 필드를 추가할 수는 없지만 다른 사용자와 추가, 편집 및 공유할 수는 있습니다.
 
   >[!NOTE]
   >
@@ -107,8 +114,8 @@ Planning 랜딩 페이지에서 글로벌 검색 상자를 사용하여 다음 P
 
 * Planning 랜딩 페이지 또는 모든 Planning 페이지에서 다음 키보드 조합을 눌러 검색에 액세스할 수 있습니다.
 
-   * Windows의 경우 CTRL+K
-   * Mac의 경우 ⌘+K
+  * Windows의 경우 CTRL+K
+  * Mac의 경우 ⌘+K
 * 각 객체의 마지막 7개 결과가 검색 상자에 표시됩니다.
 * 일반 검색을 수행하거나 객체를 선택하고 개별 목록을 검색할 수 있습니다.
 

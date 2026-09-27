@@ -8,29 +8,34 @@ feature: Reports and Dashboards
 exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Nd2VxoXLOIzSFEV4blP5Z6fFh7UUcotJRT2X7nqGtT8
+TQID: 'https://experienceleague.adobe.com/Nd2VxoXLOIzSFEV4blP5Z6fFh7UUcotJRT2X7nqGtT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 219
-ht-degree: 10%
-
+source-wordcount: '328'
+ht-degree: 7%
 ---
-
 # 캔버스 대시보드 삭제
 
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원 팀에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하십시오.<br>
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하세요.<br>
 >다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
@@ -91,7 +96,7 @@ ht-degree: 10%
 
 >[!WARNING]
 >
-> 대시보드가 삭제되면 대시보드 및 사용자 지정된 모든 보고서 및/또는 시각화를 복구할 수 없습니다.<br>
+> 대시보드가 삭제되면 대시보드 및 사용자 지정된 모든 보고서 및/또는 시각화는 복구할 수 없습니다.<br>
 > 클래식 보고서가 포함된 대시보드를 삭제하면 클래식 보고서가 삭제되지 않습니다.
 
 {{step1-to-dashboards}}

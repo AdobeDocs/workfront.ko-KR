@@ -1,18 +1,25 @@
 ---
 content-type: overview
 navigation-topic: the-new-workfront-experience
-title: ' [!DNL Adobe Workfront]의 왼쪽 탐색'
-description: ' [!DNL Workfront] 의 왼쪽 탐색 패널을 사용하면 시스템을 쉽게 탐색할 수 있습니다.'
+title: '[!DNL Adobe Workfront]에서 왼쪽 탐색'
+description: '[!DNL Workfront]의 왼쪽 탐색 패널을 사용하면 시스템을 쉽게 탐색할 수 있습니다.'
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1420'
 ht-degree: 2%
-
 ---
-
 # [!DNL Adobe Workfront]에서 왼쪽 탐색
 
 WF의 대부분의 영역과 오브젝트는 화면 왼쪽에 있는 간단한 탐색 패널을 사용합니다. 왼쪽 패널 탐색의 이점은 다음과 같습니다.

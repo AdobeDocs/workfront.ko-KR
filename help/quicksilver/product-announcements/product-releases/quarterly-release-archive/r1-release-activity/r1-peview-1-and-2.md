@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-TQID: https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM
+TQID: 'https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1024
+source-wordcount: '1153'
 ht-degree: 2%
-
 ---
-
 # R1 미리보기 1 및 2
 
 이 페이지에서는 R1.1 및 R1.2 릴리스와 함께 미리보기 환경에서 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 1월 19일에 미리보기 환경에서 사용할 수 있습니다.
@@ -107,7 +113,7 @@ Workfront에서 개체를 복원하는 방법에 대한 자세한 내용은 [삭
 * 나에게 할당된 작업 정보
 * 커뮤니케이션
 
-자세한 내용은 [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md)을 참조하세요. 미리 보기 샌드박스에서 모든 사용자의 전자 메일 주소를 지우므로 이 기능을 테스트하려면 계정과 연결된 전자 메일 주소를 업데이트해야 합니다. 
+자세한 내용은 [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md)을 참조하세요.  미리보기 샌드박스에서 모든 사용자의 이메일 주소를 지우므로 이 기능을 테스트하려면 계정과 연결된 이메일 주소를 업데이트해야 합니다. 
 
 ## 공개로 그룹 만들기
 

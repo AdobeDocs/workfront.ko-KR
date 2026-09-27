@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Vy3r2L1yuMPvMesRxEohYAgA6geAlKYIRsstLp1kpt8
+TQID: 'https://experienceleague.adobe.com/Vy3r2L1yuMPvMesRxEohYAgA6geAlKYIRsstLp1kpt8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: '402'
 ht-degree: 3%
-
 ---
-
 # [!UICONTROL 스크럼] 보드에서 스토리 순서 변경
 
 스토리 보드에 스토리가 표시되는 순서는 우선 순위를 나타내지 않습니다. 다만, 이야기를 더 잘 보이게 함으로써 인지된 우선순위에 영향을 줄 수 있다. 백로그에 우선 순위가 정의되며, 스토리가 스토리 보드에 추가될 때 반복 기간 동안 작업되므로 우선 순위가 설정되지 않습니다. 스토리가 백로그로 반환되면 스토리의 순서를 변경하여 우선 순위를 표시할 수 있습니다.

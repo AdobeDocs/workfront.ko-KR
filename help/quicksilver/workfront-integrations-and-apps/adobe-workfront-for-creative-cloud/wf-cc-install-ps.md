@@ -1,30 +1,42 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: 설치 및 열기 [!DNL Adobe Workfront for Photoshop]
+title: '[!DNL Adobe Workfront for Photoshop] 설치 및 열기'
 description: Adobe 마켓플레이스에서 Photoshop용 Adobe Workfront 플러그인을 설치할 수 있습니다.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-TQID: https://experienceleague.adobe.com/JMhdlpEdwvqkfNHjIjifRIFoXznmNienvTFdt2muUuo
+TQID: 'https://experienceleague.adobe.com/JMhdlpEdwvqkfNHjIjifRIFoXznmNienvTFdt2muUuo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 592
+source-wordcount: '592'
 ht-degree: 4%
-
 ---
-
 # [!DNL Adobe Workfront for Photoshop] 설치 및 열기
 
 [!DNL Adobe Marketplace]에서 [!DNL Adobe Workfront for Photoshop] 플러그인을 설치할 수 있습니다. 플러그인은 다음 언어를 지원합니다.
@@ -69,7 +81,7 @@ ht-degree: 4%
 
 [비디오 튜토리얼은 여기에서 봅니다](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console][&#128279;](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
+[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console]&#x200B;[&#128279;](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
 
 ## 개별적으로 [!DNL Adobe Workfront for Photoshop] 플러그 인을 설치하십시오.
 
@@ -111,7 +123,7 @@ ht-degree: 4%
    >* 도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스로 이동한 다음 URL의 첫 부분을 복사합니다.\
    >![도메인 찾기](assets/domain-350x50.png)
    >
-   >* Workfront 인스턴스가 Experience Cloud과 통합되고 도메인이 `experience.adobe.com`(으)로 시작하는 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하도록 요청하십시오.
+   >* Workfront 인스턴스가 Experience Cloud와 통합되고 도메인이 `experience.adobe.com`(으)로 시작하는 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하도록 요청하십시오.
 
 1. 브라우저에서 [!DNL Adobe] 자격 증명을 입력한 다음 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다. 회사에서 SSO(Single Sign-On)를 사용하는 경우, 로그인할 SSO 공급자의 페이지로 이동합니다.
 

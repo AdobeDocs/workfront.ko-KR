@@ -1,23 +1,26 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: 외부 사용자로  [!DNL Adobe Workfront]  계정 만들기
+title: 외부 사용자로 [!DNL Adobe Workfront] 계정 만들기
 description: Workfront에서 조직의 멤버가 아닌 경우에도 Workfront에서 작업을 수행해야 할 수 있습니다. Workfront에서 계정을 만들면 이 작업을 보다 쉽게 수행할 수 있습니다.
 author: Becky
 feature: Get Started with Workfront
 exl-id: cfe6d7ab-e4c5-41e6-aa93-23133ac543a0
-TQID: https://experienceleague.adobe.com/l-Wr6y6FlFicTPpyCeXmitf9p9oyi6TOnKkVSBQUS44
+TQID: 'https://experienceleague.adobe.com/l-Wr6y6FlFicTPpyCeXmitf9p9oyi6TOnKkVSBQUS44'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: '396'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Workfront]에서 외부 사용자로 계정 만들기
 
 [!DNL Workfront] 조직의 구성원이 아니더라도 [!DNL Workfront]의 항목을 보거나 승인하도록 초대를 받을 수 있습니다. 예를 들어 문서를 검토하거나 승인하라는 메시지가 표시될 수 있습니다. [!DNL Workfront]에서 계정을 만들어 이러한 항목을 보다 쉽게 보거나 승인할 수 있습니다.

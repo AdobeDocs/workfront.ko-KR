@@ -9,20 +9,27 @@ recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/YevcG4U3icxvqEeztbgudX-vvS4nF-5xTnn9jUkGVJ0
+TQID: 'https://experienceleague.adobe.com/YevcG4U3icxvqEeztbgudX-vvS4nF-5xTnn9jUkGVJ0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2530
+source-wordcount: '2720'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront Planning의 2025년 4분기 릴리스 활동
 
 이 문서에서는 2025년 4분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
@@ -36,7 +43,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2025년 10월 2일>프로덕션 빠른 릴리스: 2025년 10월 15일>모두를 위한 프로덕션: 2025년 10월 16일
+>미리 보기: 2025년 10월 2일
+>프로덕션 빠른 릴리스: 2025년 10월 15일
+>모두를 위한 프로덕션: 2025년 10월 16일
 
 요청 프로세스를 간소화하기 위해 요청 양식에 몇 가지 개선 사항을 적용했습니다. 이제 요청 양식을 구성할 때 다음을 구성할 수 있습니다.
 
@@ -50,7 +59,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2025년 10월 2일>프로덕션 빠른 릴리스: 2025년 10월 15일>모두를 위한 프로덕션: 2025년 10월 16일
+>미리 보기: 2025년 10월 2일
+>프로덕션 빠른 릴리스: 2025년 10월 15일
+>모두를 위한 프로덕션: 2025년 10월 16일
 
 
 이제 타임라인 및 달력 보기에서 레코드를 끌어서 놓을 수 있습니다. 다른 시간대에서 레코드를 드래그하면 시작 및 종료 날짜가 자동으로 업데이트됩니다.
@@ -61,7 +72,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!NOTE]
 >
->미리 보기: 2025년 10월 2일>프로덕션 빠른 릴리스: 2025년 10월 15일>모두를 위한 프로덕션: 2025년 10월 16일
+>미리 보기: 2025년 10월 2일
+>프로덕션 빠른 릴리스: 2025년 10월 15일
+>모두를 위한 프로덕션: 2025년 10월 16일
 
 Workfront Planning에서 수행된 요청에 대해 보다 쉽게 통신할 수 있도록 요청 세부 정보 페이지에 주석 영역을 추가했습니다. 이 기능은 요청이 할당된 사람에게 요청을 만든 사람에 대한 질문이 있는 경우 등에 유용합니다.
 
@@ -89,7 +102,9 @@ For more information on approving requests, see [Approve a request in Adobe Work
 
 >[!NOTE]
 >
->미리 보기: 2025년 9월 25일>프로덕션 빠른 릴리스: 2025년 10월 15일>프로덕션 모두: 2025년 10월 16일
+>미리 보기: 2025년 9월 25일
+>프로덕션 빠른 릴리스: 2025년 10월 15일
+>프로덕션 모두: 2025년 10월 16일
 
 레코드의 연결된 레코드 페이지를 개선했습니다. 다음은 이 업데이트의 개선 사항입니다.
 
@@ -214,7 +229,9 @@ For more information on creating a request form and configuring these options, s
 
 >[!NOTE]
 >
->미리 보기: 2025년 9월 11일>모든 고객의 프로덕션: 2025년 9월 11일>[!BADGE 일정 해제]{type=Neutral}
+>미리 보기: 2025년 9월 11일
+>모든 고객을 위한 프로덕션: 2025년 9월 11일
+>[!BADGE 일정 해제]{type=Neutral}
 
 조직에서 Adobe Workfront Planning과 Adobe GenStudio for Performance Marketing을 모두 사용하는 경우 GenStudio에서 기본적으로 지원하는 것보다 캠페인, 제품 및 가상 사용자와 같은 마케팅 개념을 더 자세히 정의할 수 있습니다.
 
@@ -378,7 +395,9 @@ Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 통�
 
 >[!NOTE]
 >
->미리 보기: 2025년 8월 7일>모든 고객을 위한 프로덕션: 2025년 8월>[!BADGE 일정 해제]{type=Neutral}
+>미리 보기: 2025년 8월 7일
+>모든 고객을 위한 프로덕션: 2025년 8월
+>[!BADGE 일정 해제]{type=Neutral}
 
 Workfront Planning의 공식 필드 및 Workfront의 계산된 사용자 정의 필드에 다음 사용법을 사용하는 새 표현식을 추가했습니다.
 
@@ -392,7 +411,9 @@ Workfront Planning의 공식 필드 및 Workfront의 계산된 사용자 정의 
 
 >[!NOTE]
 >
->미리 보기: 2025년 7월 31일>모든 고객에 대한 프로덕션: 2025년 7월 31일>[!BADGE 일정 해제]{type=Neutral}
+>미리 보기: 2025년 7월 31일
+>모든 고객을 위한 프로덕션: 2025년 7월 31일
+>[!BADGE 일정 해제]{type=Neutral}
 
 레코드 테이블 보기에서 필드를 만들거나 편집할 때 수식 필드를 확대하는 최대화 단추를 추가했습니다. 또한 필드 만들기 상자로 되돌리기 위해 확대된 새 창에 최소화 버튼을 추가했습니다.
 
@@ -442,7 +463,9 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->미리 보기: 2025년 7월 24일>프로덕션 빠른 릴리스: 2025년 8월 14일>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>미리 보기: 2025년 7월 24일
+>프로덕션 빠른 릴리스: 2025년 8월 14일
+>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 이제 타임라인의 아무 곳이나 두 번 클릭하여 레코드 유형의 타임라인 보기에서 레코드를 만들 수 있습니다.
 
@@ -456,7 +479,9 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->미리 보기: 2025년 7월 24일>프로덕션 빠른 릴리스: 2025년 8월 14일>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>미리 보기: 2025년 7월 24일
+>프로덕션 빠른 릴리스: 2025년 8월 14일
+>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 이제 작업 영역 페이지에 있는 레코드 유형 카드의 기타 메뉴에서 레코드 유형을 공유할 수 있습니다. 이 기능이 향상되기 전에는 레코드 유형 페이지 내에서만 공유 옵션을 사용할 수 있었습니다.
 
@@ -466,7 +491,9 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->미리 보기: 2025년 7월 24일>프로덕션 빠른 릴리스: 2025년 8월 14일>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>미리 보기: 2025년 7월 24일
+>프로덕션 빠른 릴리스: 2025년 8월 14일
+>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 이제 모든 Workfront Planning 보기(테이블, 타임라인 및 달력)를 전체 화면 모드로 표시할 수 있습니다. 보기 기능은 유지되며 전체 화면에서 보기를 변경할 수도 있습니다.
 
@@ -478,7 +505,9 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->미리 보기: 2025년 7월 22일>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>미리 보기: 2025년 7월 22일
+>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
+>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 승인 프로세스를 보다 유연하게 진행하기 위해 Planning 요청 양식에 팀을 승인자로 추가하는 기능이 추가되었습니다. 이제 승인자를 설정할 때 팀 이름을 입력하고 선택할 수 있습니다. 팀 구성원 중 누구나 결정을 내릴 수 있으며, 이는 팀 전체에 대한 승인 결정으로 계산됩니다.
 
@@ -490,7 +519,9 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->미리 보기: 2025년 7월 17일>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>미리 보기: 2025년 7월 17일
+>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
+>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 승인과 함께 요청을 제출하여 생성된 레코드에 대한 승인 정보를 캡처하기 위해 다음 필드를 도입합니다.
 
@@ -503,7 +534,9 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->미리 보기: 2025년 7월 10일>프로덕션 빠른 릴리스: 2025년 8월 14일>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>미리 보기: 2025년 7월 10일
+>프로덕션 빠른 릴리스: 2025년 8월 14일
+>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 
 이제 테이블 보기에 그룹화가 적용되면 테이블에 레코드를 추가하면 레코드를 추가할 그룹화와 관련된 필드가 자동으로 채워집니다.

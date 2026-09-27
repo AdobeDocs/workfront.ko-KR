@@ -2,28 +2,35 @@
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Kanban 보드에 백로그 추가
-description: Kanban 보드에 [!UICONTROL 백로그] 열을 직접 표시할 수 있습니다.  [!DNL Kanban] 보드의 [!UICONTROL 백로그] 열에는  [!DNL Kanban] 보드의 백로그에서 처음 20개 항목이 포함되어 있습니다. 작업 및 문제가 백로그에 표시되려면 상태가 현재와 동일한 프로젝트에 속해 있어야 합니다.
+description: Kanban 보드에 [!UICONTROL 백로그] 열을 직접 표시할 수 있습니다. [!DNL Kanban] 보드의 [!UICONTROL 백로그] 열에는 [!DNL Kanban] 보드의 백로그에서 처음 20개 항목이 포함되어 있습니다. 작업 및 문제가 백로그에 표시되려면 상태가 현재와 동일한 프로젝트에 속해 있어야 합니다.
 author: Courtney
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/-XXeqTP5uer2lw7mVRazM0C3X8LVDjkUblO1hMfuxWA
+TQID: 'https://experienceleague.adobe.com/-XXeqTP5uer2lw7mVRazM0C3X8LVDjkUblO1hMfuxWA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '244'
 ht-degree: 8%
-
 ---
-
 # [!UICONTROL Kanban] 보드에 백로그 추가
 
 Kanban 보드에 [!UICONTROL 백로그] 열을 직접 표시할 수 있습니다. [!DNL Kanban] 보드의 [!UICONTROL 백로그] 열에는 [!DNL Kanban] 보드의 백로그에서 처음 20개 항목이 포함되어 있습니다. 작업 및 문제가 백로그에 표시되려면 상태가 [!UICONTROL 현재]와(과) 동일한 프로젝트에 속해야 합니다.

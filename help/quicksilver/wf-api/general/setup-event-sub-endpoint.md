@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+TQID: 'https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '275'
 ht-degree: 0%
-
 ---
-
 # 이벤트 구독 게재 요구 사항
 
 이벤트 구독 메시지는 특정 이벤트가 발생할 때 사용자에게 알리도록 설정할 수 있는 알림입니다. 이벤트 구독에 대한 자세한 내용은 [FAQ - 이벤트 구독](../../wf-api/general/event-subs-faq.md)을 참조하세요.
@@ -37,7 +40,7 @@ Adobe Workfront 이벤트 구독 메시지를 사용하는 서비스 엔드포�
 
 * 이벤트 구독 메시지에서 장기 실행 비즈니스 프로세스가 트리거되는 경우 Workfront은 다음을 권장합니다.
 
-   1. 끝점은 수신 시 메시지 정보를 저장하고 즉시 200 레벨 상태로 응답합니다.
-   1. 엔드포인트가 이벤트 구독 게재 요청에 응답한 후 저장된 메시지를 처리할 수 있습니다.
+  1. 끝점은 수신 시 메시지 정보를 저장하고 즉시 200 레벨 상태로 응답합니다.
+  1. 엔드포인트가 이벤트 구독 게재 요청에 응답한 후 저장된 메시지를 처리할 수 있습니다.
 
 * 이벤트 구독 메시지 또는 개체는 1MB를 초과할 수 없습니다.

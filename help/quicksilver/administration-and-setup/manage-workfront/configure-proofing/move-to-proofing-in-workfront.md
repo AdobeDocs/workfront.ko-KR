@@ -6,13 +6,14 @@ navigation-topic: configure-proofing-functionality
 title: Workfront 개요의 독립 실행형 Workfront Proof-통합 증명
 description: 조직이 Workfront Proof의 독립 실행형 버전에서 Workfront Premium이 Workfront과 통합된 Workfront Proof Pro 플랜으로 변경하는 경우 일부 증명 기능을 사용할 수 없습니다.
 author: Courtney
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
-
 ---
-
 
 # Workfront 개요의 독립 실행형 Workfront Proof-통합 증명
 
@@ -45,28 +46,28 @@ ht-degree: 0%
 * 새 통합 계정과 Workfront Proof 계정 간 연결 기능.
 * Workfront Proof 보고서 실행 기능:
 
-   * 최근에 액세스한 항목
-   * 정시, 위험 및 지연 상태로 관리하는 증명
-   * 정시, 위험 및 지연 상태로 결정을 기다리는 증명
-   * 검토해야 하는 증명
-   * 활성 증명
-   * 보관된 증명
-   * 잠긴 증명
-   * 보고서에서 바로 증명으로 이동
-   * 보고서에서 바로 증명 세부 정보로 이동
-   * 보고서에서 바로 증명 공유
-   * 보고서에서 바로 메시지 증명
-   * 보고서에서 증명 복사
-   * 보고서에서 원본 다운로드
-   * 보고서에서 소유권 위임
-   * 보고서에서 증명 링크 공유
-   * 보고서에서 주석 인쇄
-   * 보고서에서 Excel 내보내기
-   * 일괄 증명 잠금
-   * 워크플로우 진행률 매트릭스와 함께 자세한 요약
-   * 일괄 증명 활성화
-   * 증명 일괄 보관
-   * 증명 일괄 보관 해제
-   * 일괄 소유자 변경
-   * 소유권 일괄 위임
+  * 최근에 액세스한 항목
+  * 정시, 위험 및 지연 상태로 관리하는 증명
+  * 정시, 위험 및 지연 상태로 결정을 기다리는 증명
+  * 검토해야 하는 증명
+  * 활성 증명
+  * 보관된 증명
+  * 잠긴 증명
+  * 보고서에서 바로 증명으로 이동
+  * 보고서에서 바로 증명 세부 정보로 이동
+  * 보고서에서 바로 증명 공유
+  * 보고서에서 바로 메시지 증명
+  * 보고서에서 증명 복사
+  * 보고서에서 원본 다운로드
+  * 보고서에서 소유권 위임
+  * 보고서에서 증명 링크 공유
+  * 보고서에서 주석 인쇄
+  * 보고서에서 Excel 내보내기
+  * 일괄 증명 잠금
+  * 워크플로우 진행률 매트릭스와 함께 자세한 요약
+  * 일괄 증명 활성화
+  * 증명 일괄 보관
+  * 증명 일괄 보관 해제
+  * 일괄 소유자 변경
+  * 소유권 일괄 위임
 

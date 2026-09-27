@@ -7,13 +7,20 @@ description: 시스템 환경 설정의 스토리지 환경 설정 영역에서 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 5%
-
 ---
-
 # 레거시 포트폴리오를 Adobe 클라우드 스토리지로 변환
 
 Workfront 관리자는 시스템 환경 설정의 스토리지 환경 설정 영역에서 기존 기존 Workfront 스토리지 포트폴리오를 Adobe 클라우드 스토리지로 변환할 수 있습니다. 포트폴리오가 전환되면 다른 Adobe 클라우드 스토리지 포트폴리오와 동일하게 작동합니다.

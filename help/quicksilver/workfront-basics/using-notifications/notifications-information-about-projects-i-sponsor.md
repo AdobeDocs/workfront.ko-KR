@@ -6,18 +6,21 @@ description: 다음 알림은 후원 중인 프로젝트에서 발생하는 활�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: b4c7c046-f15f-4e6e-9332-5232c7b7080b
-TQID: https://experienceleague.adobe.com/J3pTBQe0mePli1bPtY3pdXm0iPhAKlSLqzlYeABiplU
+TQID: 'https://experienceleague.adobe.com/J3pTBQe0mePli1bPtY3pdXm0iPhAKlSLqzlYeABiplU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1254
+source-wordcount: '1254'
 ht-degree: 0%
-
 ---
-
 # 알림: 내가 후원하는 프로젝트에 대한 정보
 
 다음 알림은 후원 중인 프로젝트에서 발생하는 활동에 대해 경고합니다.

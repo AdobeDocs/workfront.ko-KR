@@ -8,22 +8,26 @@ feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Ic9ER5XDxsjuf2JB2zyEzH5uWrhxTVNDtbB9lADz-Lg
+TQID: 'https://experienceleague.adobe.com/Ic9ER5XDxsjuf2JB2zyEzH5uWrhxTVNDtbB9lADz-Lg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 495
+source-wordcount: '495'
 ht-degree: 4%
-
 ---
-
 # 팀 설정 편집
 
 [!DNL Adobe Workfront] 관리자나 [!UICONTROL 표준], [!UICONTROL 계획] 또는 [!UICONTROL 작업] 라이선스를 가진 사용자는 [!UICONTROL 팀 설정]을 편집할 수 있습니다.
@@ -95,8 +99,8 @@ ht-degree: 4%
    * [!UICONTROL 작업] 단추를 [!UICONTROL 시작] 단추로 변경합니다. [!UICONTROL 시작] 단추를 구성하는 방법에 대한 자세한 내용은 [처리 중 작업 단추를 [!UICONTROL 시작] 단추로 바꾸기](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)를 참조하십시오.
    * **[!UICONTROL 완료]** 단추를 사용자 지정합니다. [!UICONTROL 완료] 단추를 사용자 지정하는 방법에 대한 자세한 내용은 다음을 참조하십시오.
 
-      * [작업에 대한 [!UICONTROL 완료] 단추 구성](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-      * [문제에 대한 [!UICONTROL 완료] 단추 구성](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+     * [작업에 대한 [!UICONTROL 완료] 단추 구성](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+     * [문제에 대한 [!UICONTROL 완료] 단추 구성](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
 
    * 사용자 정의 양식을 첨부합니다. 자세한 내용은 [개체에 사용자 정의 양식 추가](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
 

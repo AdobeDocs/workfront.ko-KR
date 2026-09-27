@@ -6,24 +6,35 @@ description: 컨텐츠 권고자를 사용하여 Experience Manager Assets의 �
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-TQID: https://experienceleague.adobe.com/0qWQcRcAeOK7SfQTqHfSrxvyTf2h9piCwwJ9Tg2rCWQ
+TQID: 'https://experienceleague.adobe.com/0qWQcRcAeOK7SfQTqHfSrxvyTf2h9piCwwJ9Tg2rCWQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1467
+source-wordcount: '1467'
 ht-degree: 1%
-
 ---
-
 # Experience Manager Assets의 Content Advisor를 사용하여 콘텐츠 및 폴더 연결
 
 Content Advisor는 상황에 맞는 지능적인 검색 기능을 Workfront에 바로 제공하여 상황에 따라 관련성이 있고 승인된 콘텐츠를 신속하게 찾을 수 있도록 지원합니다. 스마트 제안, Dynamic Media 렌디션 및 세부 에셋 메타데이터와 같은 기능을 통해 Workfront을 종료하지 않고도 콘텐츠를 효율적으로 평가하고 재사용할 수 있으며, 브랜드 일관성을 유지하면서 콘텐츠 생성 시간을 단축할 수 있습니다.

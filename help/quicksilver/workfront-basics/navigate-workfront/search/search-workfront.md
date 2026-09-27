@@ -1,27 +1,32 @@
 ---
 navigation-topic: search
-title: ' [!DNL Adobe Workfront] 검색'
-description: ' [!DNL Adobe Workfront] 의 정확한 위치를 기억하지 못할 때 해당 항목을 검색하여 쉽게 찾을 수 있습니다.'
+title: '[!DNL Adobe Workfront] 검색'
+description: '[!DNL Adobe Workfront]의 정확한 위치를 기억하지 못할 때 해당 항목을 검색하여 쉽게 찾을 수 있습니다.'
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-TQID: https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI
+TQID: 'https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1523'
 ht-degree: 2%
-
 ---
-
 # [!DNL Adobe Workfront] 검색
 
 <!-- Audited: 5/2025 -->
@@ -92,11 +97,11 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 
 * **기본 검색**: 기본 검색에서 개체를 검색할 때 [!DNL Workfront]은(는) 다음 필드에서 키워드가 포함될 수 있는 텍스트를 찾습니다.
 
-   * 개체 이름
-   * 설명
-   * 사용자 정의 데이터 필드
-   * 업데이트
-   * 문서 이름(특정 문서 검색 및 기본 검색)
+  * 개체 이름
+  * 설명
+  * 사용자 정의 데이터 필드
+  * 업데이트
+  * 문서 이름(특정 문서 검색 및 기본 검색)
 
   [!DNL Workfront]의 기본 검색에 대한 자세한 내용은 이 문서에서 다음 섹션을 참조하십시오. [기본 검색](#basic-search).
 

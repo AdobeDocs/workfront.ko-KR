@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/AGP-6nyqY6PfuSp08mk7Ud-5LX2yAd5EwsqJN4QEqzU
+TQID: 'https://experienceleague.adobe.com/AGP-6nyqY6PfuSp08mk7Ud-5LX2yAd5EwsqJN4QEqzU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: '635'
 ht-degree: 4%
-
 ---
-
 # 보드 관리 보기 관리
 
 보드 관리 보기에는 시스템 관리자가 마지막으로 업데이트된 시간, 각 보드에 있는 카드 수 등을 포함하여 전체 보드 세부 사항에 대한 빠른 스냅샷을 얻는 데 사용할 수 있는 계정의 모든 보드 목록이 포함되어 있습니다.
@@ -84,7 +91,7 @@ ht-degree: 4%
    1. (선택 사항) **달력** 아이콘 ![달력 아이콘](assets/calendar-icon.png)을 클릭한 다음 날짜 범위를 선택하여 해당 기간 내에 마지막으로 수정된 게시판별로 필터링합니다.
 
    1. (선택 사항) **템플릿** 섹션에서 목록에서 필터링할 보드 템플릿 유형을 선택합니다. 템플릿 유형을 두 개 이상 선택할 수 있습니다.
-게시판 템플릿 유형에 대한 자세한 내용은 [게시판 만들기 또는 편집](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)을 참조하십시오.
+      게시판 템플릿 유형에 대한 자세한 내용은 [게시판 만들기 또는 편집](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)을 참조하십시오.
 
    1. (선택 사항) **보관됨** 섹션에서 보관되거나 보관되지 않은 게시판이 표시되는지 여부를 선택합니다. 두 개 이상의 옵션을 선택할 수 있습니다.
 

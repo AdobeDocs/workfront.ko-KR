@@ -1,26 +1,30 @@
 ---
 navigation-topic: the-new-workfront-experience
 title: 페이지를 고정하여 작업 영역 사용자 지정
-description: 가시성을 높이고, 조직을 개선하고, 보다 신속하게 액세스할 수 있도록 [!DNL Adobe Workfront] 가장 중요한 작업을 고정할 수 있습니다. 고정된 페이지는 항상 Workfront의 모든 페이지 맨 위에서 액세스할 수 있습니다.
+description: 가시성 향상, 조직 개선 및 빠른 액세스를 위해 가장 중요한 작업 [!DNL Adobe Workfront]을(를) 고정할 수 있습니다. 고정된 페이지는 항상 Workfront의 모든 페이지 맨 위에서 액세스할 수 있습니다.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-TQID: https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw
+TQID: 'https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 348
-ht-degree: 5%
-
+source-wordcount: '349'
+ht-degree: 6%
 ---
-
 # 페이지를 고정하여 작업 영역 사용자 지정
 
 <!-- Audited: 4/2025 -->
@@ -80,7 +84,7 @@ ht-degree: 5%
 
    고정된 페이지가 표시됩니다.
 
-## 고정 항목 관리
+## 핀 관리
 
 한 위치에서 고정된 페이지의 이름을 바꾸고, 순서를 변경하고, 제거할 수 있습니다.
 

@@ -2,29 +2,40 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: ' [!DNL Workfront Proof]을(를) 사용하여 사용자 지정 프로필 만들기 및 관리'
+title: '[!DNL Workfront Proof]을(를) 사용하여 사용자 지정 프로필 만들기 및 관리'
 description: 청구 관리자 및 관리자는 사용자 정의 프로필을 만들고 관리하여 사용자가 조직의 계정 및 계정 설정에서 수행할 수 있는 작업을 지정할 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 26e76fb7-4a2d-4ae1-b9cb-293c074151da
-TQID: https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs
+TQID: 'https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 994
+source-wordcount: '1051'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]을(를) 사용하여 사용자 지정 프로필 만들기 및 관리
 
 >[!IMPORTANT]
@@ -146,7 +157,7 @@ ht-degree: 0%
 
    자세한 내용은 [관리 권한](#administrative-permissions)을 참조하세요.
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+1. Click **[!UICONTROL Create]**.
 이제 **[!UICONTROL 사용자]** 탭에서 새 프로필을 사용할 수 있습니다.
 
 1. (선택 사항) 새 프로필을 새 사용자 계정 및 기존 사용자 계정에 할당합니다.

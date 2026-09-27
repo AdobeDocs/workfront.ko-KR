@@ -6,20 +6,24 @@ description: Adobe Workfront과 Workfront Proof 모두 인터넷 브라우저를
 feature: Get Started with Workfront
 author: Courtney
 exl-id: d5252675-ae87-4393-b05a-7810036e2f7d
-TQID: https://experienceleague.adobe.com/wvnnVO-fUD4E0t8Q63bV6zz2QOm2t7pP1MT2QBa2hTc
+TQID: 'https://experienceleague.adobe.com/wvnnVO-fUD4E0t8Q63bV6zz2QOm2t7pP1MT2QBa2hTc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 245
+source-wordcount: '245'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront 브라우저 요구 사항
 
 <!--Audited: 01/2024-->
@@ -30,10 +34,10 @@ Adobe Workfront과 Workfront Proof 모두 인터넷 브라우저를 사용해야
 
 * **웹 브라우저:** Workfront은 다음 브라우저에 대해 현재 브라우저 버전과 하나의 이전 버전(그리고 전체 Workfront 트래픽의 5% 이상을 구성하는 모든 이전 버전)을 공식적으로 지원합니다.
 
-   * Chrome
-   * Firefox
-   * Safari
-   * Microsoft Edge (Microsoft Edge 레거시 아님)
+  * Chrome
+  * Firefox
+  * Safari
+  * Microsoft Edge (Microsoft Edge 레거시 아님)
 
   >[!NOTE]
   >

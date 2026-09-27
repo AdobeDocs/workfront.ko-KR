@@ -6,13 +6,20 @@ description: 다음 알림은 사용자가 소유한 프로젝트에서 발생�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: cf605849-bcc0-4982-b8fa-f69eef7a4fb6
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1636'
 ht-degree: 1%
-
 ---
-
 # 알림: 내가 소유한 프로젝트에 대한 정보
 
 다음 알림은 사용자가 소유한 프로젝트에서 발생하는 활동에 대해 경고합니다. 받는 알림을 구성하는 방법에 대한 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.

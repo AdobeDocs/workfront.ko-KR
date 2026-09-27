@@ -6,13 +6,22 @@ description: '[!UICONTROL Home] 영역에서 개인 할 일 항목을 만들 수
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 247085a7-bb9e-4468-b496-d81e02f2de00
-source-git-commit: 29c82cd8265f3d05f4ae241c5c723a4ab09a6504
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
-
+source-wordcount: '394'
+ht-degree: 4%
 ---
-
 # 개인 할 일 항목 만들기 및 관리
 
 [!UICONTROL 홈] 영역의 할 일 위젯에서 개인 할 일 항목을 만들 수 있습니다. 할 일 항목은 사용자가 직접 만드는 개인 작업입니다.
@@ -25,7 +34,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +42,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 

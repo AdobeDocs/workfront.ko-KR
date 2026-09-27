@@ -9,25 +9,31 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
+TQID: 'https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+    internal-label: Data export
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2136
+source-wordcount: '2179'
 ht-degree: 1%
-
 ---
-
 # 킥스타트 시나리오: 여러 옵션 사용자 정의 필드를 Workfront에 가져오기
 
 킥스타트 기능을 사용하여 Adobe Workfront에서 여러 옵션이 있는 사용자 정의 필드를 가져올 수 있습니다.
@@ -183,19 +189,19 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
    * **`ID`** = 새 필드를 나타내는 각 줄의 고유 숫자여야 합니다. 각 새 필드에 고유한 숫자가 있는 한 1로 시작하는 숫자를 사용할 수 있습니다.
    * **`setDataType`** = 새 필드를 나타내는 각 줄에 대해 필드가 지원하는 데이터 형식을 입력합니다. 데이터 유형은 데이터베이스에 나타나는 대로 입력해야 합니다. 다음 데이터 유형 중에서 선택합니다.
 
-      * **`NMBR`**(숫자)
-      * 통화에 대한 **`CURC`**
-      * 텍스트용 **`TEXT`**
+     * **`NMBR`**(숫자)
+     * 통화에 대한 **`CURC`**
+     * 텍스트용 **`TEXT`**
 
    * `**setDisplaySize**`= 여러 옵션 사용자 지정 필드의 표시 크기(&#39;**setDisplaySize**&#39;)는 항상 0입니다.
    * **`setDisplayType`** = 새 필드를 나타내는 각 줄에 대해 필드의 표시 유형을 입력합니다. 표시 유형은 데이터베이스에 나타나는 대로 입력해야 합니다.
 
      다중 옵션 사용자 정의 필드의 경우 다음 옵션 중에서 선택합니다.
 
-      * 다중 선택 드롭다운의 **`MULT`**
-      * 드롭다운에 대한 **`SLCT`**
-      * 라디오 단추의 **`RDIO`**
-      * 확인란용 **`CHCK`**
+     * 다중 선택 드롭다운의 **`MULT`**
+     * 드롭다운에 대한 **`SLCT`**
+     * 라디오 단추의 **`RDIO`**
+     * 확인란용 **`CHCK`**
 
      >[!TIP]
      >
@@ -246,18 +252,18 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
    그룹의 `ID`을(를) 찾으려면 그룹 보고서를 작성하고 보기에 `ID` 필드를 추가하거나 그룹으로 이동하여 그룹의 URL을 찾을 수 있습니다. 그룹 ID는 그룹 페이지의 URL에 있습니다. 예를 들어 그룹의 URL이 `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`이면 그룹 ID는 `575b000800467a6f66e747932c807464`입니다.
 
    * **`setCatObjCode`**= 양식을 만들 개체 형식의 개체 코드입니다. 다음 옵션의 코드를 입력합니다.
-      * 회사에 대한 **`CMPY`**
-      * 작업용 **`TASK`**
-      * 프로젝트용 **`PROJ`**
-      * Portfolio용 **`PORT`**
-      * 프로그램용 **`PRGM`**
-      * 사용자용 **`USER`**
-      * 문서에 대한 **`DOCU`**
-      * 문제에 대한 **`OPTASK`**
-      * 경비의 **`EXPNS`**
-      * 반복에 대한 **`ITRN`**
-      * 청구 기록에 대한 **`BILL`**
-      * 그룹용 **`GROUP`**
+     * 회사에 대한 **`CMPY`**
+     * 작업용 **`TASK`**
+     * 프로젝트용 **`PROJ`**
+     * Portfolio용 **`PORT`**
+     * 프로그램용 **`PRGM`**
+     * 사용자용 **`USER`**
+     * 문서에 대한 **`DOCU`**
+     * 문제에 대한 **`OPTASK`**
+     * 경비의 **`EXPNS`**
+     * 반복에 대한 **`ITRN`**
+     * 청구 기록에 대한 **`BILL`**
+     * 그룹용 **`GROUP`**
 
      >[!NOTE]
      >
@@ -297,4 +303,4 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
    * 사용자 지정 Forms 영역에서 Workfront에서 성공적으로 가져온 정보를 삭제한 다음 오류 메시지가 표시하는 대로 수정합니다.
    * 필드 또는 양식을 이미 가져온 해당 필드 또는 양식에 대해 시스템에 이미 있음을 표시한 다음 수정합니다.
-필드나 사용자 정의 양식이 이미 Workfront에 있음을 나타내려면 킥스타트 가져오기 시트의 양식(`CTGY`) 또는 필드(`PARAM`)에 대한 정보가 포함된 시트에서 `inNew` 필드가 `FALSE`(으)로 표시되어야 합니다.
+     필드나 사용자 정의 양식이 이미 Workfront에 있음을 나타내려면 킥스타트 가져오기 시트의 양식(`CTGY`) 또는 필드(`PARAM`)에 대한 정보가 포함된 시트에서 `inNew` 필드가 `FALSE`(으)로 표시되어야 합니다.

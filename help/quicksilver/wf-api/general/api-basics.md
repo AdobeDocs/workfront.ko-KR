@@ -7,34 +7,45 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
+TQID: 'https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+    internal-label: API Explorer
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b191c48f65bc489457112f8401654d1e4b66fabf
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 4561
+source-wordcount: '4561'
 ht-degree: 0%
-
 ---
-
 # API 기본 사항
 
 >[!NOTE]
 >
->이 문서의 예제에는 `<supported-version>`이(가) 포함됩니다. 이를 사용하려는 Workfront API 버전으로 바꿉니다.Workfront API 버전 관리 및 지원 일정은 [API 버전 관리 및 지원 일정](/help/quicksilver/wf-api/api/api-version-support-schedule.md)을 참조하십시오.
+>이 문서의 예제에는 `<supported-version>`이(가) 포함됩니다. 이를 사용하려는 Workfront API 버전으로 바꿉니다.
+>Workfront API 버전 관리 및 지원 일정은 [API 버전 관리 및 지원 일정](/help/quicksilver/wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
 Adobe Workfront API의 목표는 HTTP를 통해 작동하는 REST 풀 아키텍처를 도입하여 Workfront과의 통합 빌드를 간소화하는 것입니다. 이 문서에서는 사용자가 REST 및 JSON 응답에 익숙하다고 가정하고 Workfront API로 취한 접근 방식을 설명합니다.
 
@@ -319,7 +330,7 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 
 #### 필터 매개 변수 사용
 
-검색 필터에 URL 매개 변수를 사용할 때 발생할 수 있는 잠재적인 위험 중 하나는 Workfront이 다른 인증 방법(예: 사용자 이름, 암호, apiKey, 쿠키)을 확인하기 전에 특정 매개 변수를 구문 분석한다는 것입니다. 이런 경우 매개 변수는 호출에서 필터로 사용되지 않습니다.
+검색 필터에 URL 매개 변수를 사용할 때 발생할 수 있는 잠재적인 위험 중 하나는 Workfront이 다른 인증 방법(예: 사용자 이름, 암호, apiKey, 쿠키)을 확인하기 전에 특정 매개 변수를 구문 분석한다는 것입니다. 이런 경우 매개 변수는 호출에서 필터로 사용되지 않습니다. 
 
 이 문제를 방지하기 위해 JSON 형식을 사용하여 필터 매개 변수에 이러한 값을 배치할 수 있습니다. 예를 들어 사용자 이름을 필터링하려면 다음을 사용하지 않고 testuser를 필터링합니다 
 <pre>/attask/api/&lt;supported-version&gt;/user/search?username=testuser@workfront.com</pre>다음 예제와 같이 URL 매개 변수를 필터에 전달합니다.
@@ -455,7 +466,7 @@ Workfront의 대부분의 필드에 적용됩니다.
 기본 결과 수 쿼리 제한을 무시하고 200개의 결과를 허용하려면 다음 예제와 같이 쿼리에 `$$LIMIT=200` 필터를 포함할 수 있습니다.
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$LIMIT=200</pre>
 
-시스템의 다른 테넌트에 대한 신뢰성과 성능을 보장하기 위해 쿼리당 허용되는 최대 결과 제한은 2000개입니다. 더 큰 제한을 지정하려고 하면 `IllegalArgumentException` 오류 메시지가 표시됩니다.
+시스템의 다른 테넌트에 대한 신뢰성과 성능을 보장하기 위해 쿼리당 허용되는 최대 결과 제한은 2000개입니다. 더 큰 제한을 지정하려고 하면 `IllegalArgumentException` 오류 메시지가 표시됩니다. 
 
 따라서 큰 데이터 세트에 대해 페이지 번호를 매긴 응답을 사용하는 것이 좋습니다. 반환해야 하는 첫 번째 결과를 지정하려면 `$$FIRST` 필터를 추가합니다. 예를 들어 다음 요청은 쿼리에 대한 결과 201-250을 반환합니다.
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>

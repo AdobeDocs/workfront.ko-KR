@@ -8,22 +8,26 @@ feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ZQT-PUcRNi1GlWSCM3BKiw3TCT-te2-MeE8YQKtKiBw
+TQID: 'https://experienceleague.adobe.com/ZQT-PUcRNi1GlWSCM3BKiw3TCT-te2-MeE8YQKtKiBw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1164
-ht-degree: 3%
-
+source-wordcount: '1182'
+ht-degree: 2%
 ---
-
 # 문제에 대한 [!UICONTROL 완료] 단추 구성
 
 [!UICONTROL 완료] 단추를 사용하면 작업 또는 문제의 상태를 자동으로 설정할 수 있습니다. 기본적으로 [!DNL Adobe Workfront]은(는) 피할당자가 작업 항목에서 [!UICONTROL 완료]를 클릭할 때 문제를 [!UICONTROL 해결됨]&#x200B;(으)로 표시합니다.
@@ -122,7 +126,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.\
    선택한 사용자가 이제 홈 팀과 연결되었습니다.
-이제 [!UICONTROL 완료] 단추와 연결된 상태를 포함한 모든 팀 설정이 이 사용자에게 표시됩니다.
+   이제 [!UICONTROL 완료] 단추와 연결된 상태를 포함한 모든 팀 설정이 이 사용자에게 표시됩니다.
 
 ## [!UICONTROL 해결됨] 상태가 삭제되면 [!UICONTROL 완료] 단추를 구성하십시오.
 

@@ -8,24 +8,30 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-TQID: https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw
+TQID: 'https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '577'
 ht-degree: 3%
-
 ---
-
 # 중복 사용자 방지
 
 Adobe Workfront에서 새 사용자를 만들 때 대/소문자에 따라 이메일 주소가 달라지는 경우에도 다른 사용자가 이미 사용 중인 이메일 주소를 더 이상 사용할 수 없습니다(예: JohnDoe@example.com 및 johndoe@example.com). 또한 향후 인증 개선을 준비하려면 모든 사용자에게 Workfront 인스턴스에서 고유한 이메일 주소가 있는지 확인하십시오.
@@ -107,8 +113,8 @@ Workfront 인스턴스 내에서 중복 이메일 주소를 수정하려면 다�
 
      예를 들어 John Doe는 일일 사용 계정에 대한 사용자 계정 하나와 테스트 목적으로 사용할 사용자 계정 하나를 가질 수 있습니다.
 
-      * johndoe@workfront.com
-      * johndoe+reviewer@workfront.com
+     * johndoe@workfront.com
+     * johndoe+reviewer@workfront.com
 
    * 이메일 주소에 다음 텍스트를 추가하여 가짜 도메인을 사용하도록 도메인을 변경합니다.
 
@@ -116,8 +122,8 @@ Workfront 인스턴스 내에서 중복 이메일 주소를 수정하려면 다�
 
      예를 들어, John Doe에는 다음과 같은 도메인이 있을 수 있습니다(이러한 도메인은 고유해야 함).
 
-      * johndoe@workfront.inactive
-      * johndoe@workfront.inactive2
+     * johndoe@workfront.inactive
+     * johndoe@workfront.inactive2
 
      암호 재설정에 유효한 이메일 주소가 필요하므로 더 이상 이러한 계정에 로그인할 수 없습니다. 이러한 계정은 다음으로 로그인 기능을 사용해야 액세스할 수 있습니다.
 

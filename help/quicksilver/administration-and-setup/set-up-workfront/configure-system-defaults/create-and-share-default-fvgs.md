@@ -8,24 +8,30 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-TQID: https://experienceleague.adobe.com/bgBICul4K2MFbMipuKZxp6i2vncdpV7RpFYtUyTFY7w
+TQID: 'https://experienceleague.adobe.com/bgBICul4K2MFbMipuKZxp6i2vncdpV7RpFYtUyTFY7w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 814
+source-wordcount: '814'
 ht-degree: 2%
-
 ---
-
 # 시스템 전체 필터, 보기 및 그룹화 만들기, 편집 및 공유
 
 <!-- Audited: 5/2025 -->
@@ -86,7 +92,7 @@ ht-degree: 2%
    사용 가능한 옵션에 대한 자세한 내용은 다음 문서 중 하나를 참조하십시오.
 
    * [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * [!UICONTROL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)의 보기 개요
+   * [!UICONTROL Adobe Workfront]&#x200B;[&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)의 보기 개요
    * [[!UICONTROL Adobe Workfront]의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 1. 왼쪽 아래 모서리 근처에 있는 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

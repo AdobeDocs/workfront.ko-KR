@@ -6,13 +6,20 @@ description: Workfront 관리자가 스토리지 환경 설정 기본값을 선�
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 0%
-
 ---
-
 # 프로젝트 및 관련 오브젝트에 대한 문서 관리 개요
 
 Adobe Workfront 관리자는 조직의 저장소 환경 설정에 대한 기본값을 정의하여 Workfront에서 문서가 저장되는 위치를 나타낼 수 있습니다.

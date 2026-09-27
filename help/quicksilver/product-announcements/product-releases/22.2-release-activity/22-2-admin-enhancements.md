@@ -6,25 +6,31 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-TQID: https://experienceleague.adobe.com/Q2r-5wTiX9FLEQBmyh-E7JaIwPHIoHlDmTDSdAxujEs
+TQID: 'https://experienceleague.adobe.com/Q2r-5wTiX9FLEQBmyh-E7JaIwPHIoHlDmTDSdAxujEs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 946
+source-wordcount: '946'
 ht-degree: 0%
-
 ---
-
 # 22.2 관리자 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 22.2 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 사용할 수 있습니다
@@ -83,18 +89,18 @@ in January 2022
 
 * 플랜 라이선스 유형을 사용하는 새 액세스 수준에서:
 
-   * 이제 프로젝트, 작업, 문제, 포트폴리오, 프로그램, 보고서, 필터, 문서 및 템플릿에 대해 시스템 전체 공유를 사용할 수 없습니다.
-   * 기본 제공 보고서 보기 및 보고서 공개 기능 또한 보고서에 대해 비활성화됩니다.
-   * 문서에 대해서도 공개적으로 문서 공유가 비활성화됩니다.
+  * 이제 프로젝트, 작업, 문제, 포트폴리오, 프로그램, 보고서, 필터, 문서 및 템플릿에 대해 시스템 전체 공유를 사용할 수 없습니다.
+  * 기본 제공 보고서 보기 및 보고서 공개 기능 또한 보고서에 대해 비활성화됩니다.
+  * 문서에 대해서도 공개적으로 문서 공유가 비활성화됩니다.
 
 * 작업 라이선스 유형을 사용하는 새 액세스 수준에서:
 
-   * 이제 필터 및 문서에 대해 시스템 전체 공유가 비활성화되었습니다.
-   * 문서에 대해서도 공개적으로 문서 공유가 비활성화됩니다.
+  * 이제 필터 및 문서에 대해 시스템 전체 공유가 비활성화되었습니다.
+  * 문서에 대해서도 공개적으로 문서 공유가 비활성화됩니다.
 
 * 요청 또는 검토 라이선스 유형을 사용하는 새 액세스 수준에서:
 
-   * 이제 시스템 전체 공유가 필터에 대해 비활성화됩니다.
+  * 이제 시스템 전체 공유가 필터에 대해 비활성화됩니다.
 
 ## 그룹 비활성화
 
