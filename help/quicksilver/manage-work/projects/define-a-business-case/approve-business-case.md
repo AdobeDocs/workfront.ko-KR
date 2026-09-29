@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
+source-git-commit: f894d1715579ab66cc5acb03ceaae5d70a203519
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 2%
@@ -150,9 +150,9 @@ ht-degree: 2%
 
    비즈니스 사례가 거부되면 프로젝트 상태가 **거부됨**(으)로 변경됩니다.
 
-   >[!NOTE]
-   >
-   >비즈니스 사례의 승인을 제출한 사용자에게 프로젝트 요청이 승인되었는지 또는 거부되었는지 알려주는 알림이 없습니다.
+>[!NOTE]
+>
+>비즈니스 사례의 승인을 제출한 사용자에게 프로젝트 요청이 승인되었는지 또는 거부되었는지 알려주는 알림이 없습니다.
 
 ## 포트폴리오의 요청된 프로젝트에 액세스하여 비즈니스 사례 승인
 

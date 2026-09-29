@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1636'
 ht-degree: 0%
 ---
 # 보고서 게재 개요
+
+{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -58,6 +60,7 @@ ht-degree: 0%
 
 * 지정된 보고서에 대해 최대 10개의 반복 보고서 게재를 예약할 수 있습니다.
 * 보고서 작성자인 경우에만 보고서 배달을 예약할 수 있습니다. 만들지 않은 보고서를 보내야 하는 경우 수동으로 보낼 수 있습니다.
+* <span class="preview">미리 보기에서 예약된 모든 보고서 배달에는 정의된 종료 날짜가 있어야 합니다. 이전에 게재를 [사용 안 함]으로 설정한 경우 Workfront은 보고서를 보낸 다음 날짜로부터 종료 날짜를 13개월로 자동 설정합니다.</span>
 
 ## 내보내기 제한
 
@@ -146,6 +149,7 @@ Workfront에서 보고서를 보내면 사용자가 보고서가 포함된 이�
 * [브랜딩](#branding)
 * [서식 지정](#formatting)
 * [링크](#links)
+* [보고서 만료 알림](#report-expiration-notices)
 
 ### 제목 줄, 첨부 파일 이름 및 보고서 제목 {#subject-line-attachment-name-and-report-title}
 
@@ -197,6 +201,18 @@ Workfront 인스턴스 브랜딩에 대한 자세한 내용은 문서 [Adobe Wor
 Workfront에서 PDF 또는 Excel 형식으로 보고서를 보낼 때 원본 문서에 있는 모든 작업 링크는 전송된 파일에서 라이브로 유지됩니다. 링크는 연결을 지원하는 Workfront의 모든 개체를 가리킬 수 있습니다.
 
 이메일 메시지에 있는 보고서의 이름도 링크입니다.
+
+<div class="preview">
+
+### 보고서 만료 알림 {#report-expiration-notices}
+
+미리보기에서 배달된 보고서 이메일에는 보고서의 만료 날짜가 포함됩니다.
+
+게재가 매일 반복되는 경우 이메일에는 만료 날짜가 45일 이내이면 모든 게재에 대해 만료 경고가 포함됩니다.
+
+게재가 매주 또는 매월 반복되는 경우 이메일에는 만료 날짜 이전의 마지막 4회 예약된 게재 동안 만료 경고가 포함됩니다.
+
+</div>
 
 ## 예약된 보고서에 대한 보고서
 
