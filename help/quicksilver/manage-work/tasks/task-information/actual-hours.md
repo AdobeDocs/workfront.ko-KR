@@ -12,28 +12,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iOGP-byuQ0X7Sd-DhKYw7aHJe3Q8n2blSj-rrlnfK9k
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
+    internal-label: Administration
+source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: '1377'
 ht-degree: 1%
-
 ---
-
 # 실제 근로시간 보기
 
 <!-- Audited: 5/2025 -->
@@ -115,21 +125,21 @@ Adobe Workfront에서 작업 항목에 로그온하는 시간은 실제 시간�
 
 * 프로젝트, 작업 및 문제 보고서와 목록:
 
-   * **실제 시간**: 2021년 5월부터 오늘 사이에 프로젝트, 작업 또는 문제에 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
-   * **기존 실제 시간**: 2021년 5월 이전과 오늘 사이에 언제든지 프로젝트, 작업 또는 문제에 기록된 시간입니다. 분 단위로 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequired`입니다.
+  * **실제 시간**: 2021년 5월부터 오늘 사이에 프로젝트, 작업 또는 문제에 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
+  * **기존 실제 시간**: 2021년 5월 이전과 오늘 사이에 언제든지 프로젝트, 작업 또는 문제에 기록된 시간입니다. 분 단위로 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequired`입니다.
 
-     현재 기록된 시간은 실제 및 기존 실제 시간을 모두 업데이트합니다.
+    현재 기록된 시간은 실제 및 기존 실제 시간을 모두 업데이트합니다.
 
-     >[!IMPORTANT]
-     >
-     >프로젝트의 실제 비용은 기존 실제 시간을 사용하여 계산됩니다.
+    >[!IMPORTANT]
+    >
+    >프로젝트의 실제 비용은 기존 실제 시간을 사용하여 계산됩니다.
 
 * 프로젝트, 작업 또는 문제 세부 정보 영역에서 실제 시간이 다음 필드에 표시될 수 있습니다.
 
-   * **실제 시간**: 세부 정보 탭에서 2021년 5월부터 오늘 사이에 프로젝트, 작업 또는 문제에 대해 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
-   * **실제 시간**: 프로젝트, 작업 또는 문제 사용자 정의 양식에서 실제 시간 네이티브 필드를 참조하는 네이티브 필드 참조 사용자 정의 필드를 사용하여 액세스한 경우. 2021년 5월 이전과 오늘 사이의 프로젝트, 작업 또는 문제에 대해 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
+  * **실제 시간**: 세부 정보 탭에서 2021년 5월부터 오늘 사이에 프로젝트, 작업 또는 문제에 대해 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
+  * **실제 시간**: 프로젝트, 작업 또는 문제 사용자 정의 양식에서 실제 시간 네이티브 필드를 참조하는 네이티브 필드 참조 사용자 정의 필드를 사용하여 액세스한 경우. 2021년 5월 이전과 오늘 사이의 프로젝트, 작업 또는 문제에 대해 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
 
-     현재 기록된 시간은 실제 및 기존 실제 시간을 모두 업데이트합니다.
+    현재 기록된 시간은 실제 및 기존 실제 시간을 모두 업데이트합니다.
 
 >[!NOTE]
 >
