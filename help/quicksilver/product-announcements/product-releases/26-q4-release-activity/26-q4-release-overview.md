@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1ee0f2de61c518fc608a03045339ac9c50afc7f9
 workflow-type: tm+mt
-source-wordcount: '2877'
+source-wordcount: '2863'
 ht-degree: 2%
 ---
 # 2026년 4분기 릴리스 개요
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 이 페이지는 2026년 4분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 추가 개선 사항으로 업데이트됩니다.
 
-라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/en/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
+라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/ko/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
 
 >[!IMPORTANT]
 >
@@ -707,11 +707,11 @@ Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용
 
 ## 공지
 
-### 기존 청구 및 비용 요금 필드 사용 중단
+### 작업 역할 목록 보기의 레거시 청구 및 비용 요금 필드 사용 중단
 
 시간이 지남에 따라, Dell은 비율 정보를 보다 완벽하고 확장 가능한 방식으로 유지 관리할 수 있는 향상된 비율 관리 기능과 전담 작업 역할 경험을 도입했습니다. 따라서 등급 관리는 목록 기반 관리 워크플로보다는 이러한 전용 경험으로 이동하고 있습니다.
 
-2027년 1월 릴리스에서는 기존 필드 **시간당 청구** 및 **시간당 비용**&#x200B;을(를) 필터/보기/그룹화 구성(직접 참조 및 텍스트 모드 계산 열 모두)을 포함하여 Workfront API 또는 사용자 및 작업 역할 목록 보기에서 더 이상 사용할 수 없습니다.
+2027년 1월 릴리스에서는 필터/보기/그룹화 구성(직접 참조 및 텍스트 모드 계산 열 모두)을 포함하여 레거시 필드 **시간당 청구** 및 **시간당 비용**&#x200B;을 Workfront API 또는 작업 역할 목록 보기에서 더 이상 사용할 수 없습니다.
 
 보고서에서 대체물로 권장되는 텍스트 모드 코드를 사용할 수 있습니다(필요에 따라 `costRates` 또는 `billingRates` 사용).
 
@@ -724,15 +724,14 @@ Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용
     valueformat=HTML
     &quot;
 
-비율을 관리하고 검토하려면 전용 비율 관리 환경을 사용하십시오.
+작업 역할 비율을 관리하고 검토하려면 전용 비율 관리 환경을 사용하십시오.
 
-* 사용자 프로필에서 직접 사용자 비율에 액세스합니다.
 * [작업 역할] > [비율] 페이지에서 직접 작업 역할 비율에 액세스하고 관리합니다.
-* 비율 보고서를 사용하여 사용자 및 작업 역할 간의 비율 정보를 검토, 분석 및 보고할 수 있습니다.
+* 비율 보고서를 사용하여 작업 역할 간의 비율 정보를 검토, 분석 및 보고합니다.
 
-변경을 준비하는 데 필요한 작업은 없습니다. 그러나 현재 사용자 또는 작업 역할 목록 보기에 **시간당 청구** 및 **시간당 비용** 필드를 표시하는 관리자는 위에서 설명한 권장 요금 관리 경험을 사용하도록 워크플로우를 업데이트해야 합니다.
+변경을 준비하는 데 필요한 작업은 없습니다. 그러나 현재 작업 역할 목록 보기에 **시간당 청구** 및 **시간당 비용** 필드를 표시하는 관리자는 위에서 설명한 권장 요금 관리 경험을 사용하도록 워크플로우를 업데이트해야 합니다.
 
-작업 역할 및 사용자 비율에 대한 자세한 내용은 [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) 및 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.
+작업 역할 비율에 대한 자세한 내용은 [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
 
 ### Data Connect 리더 사용자에 대한 암호 전용 인증은 2026년 8월 8일에 종료됩니다
 
@@ -742,8 +741,8 @@ Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용
 
 이 변경 사항은 2026년 4월 Workfront 릴리스 정보에서 처음 발표되었으며, 기한 전에 알려 주는 최종 알림입니다. 영향을 받는 모든 리더 사용자가 2026년 8월 8일 이전에 MFA를 활성화하여 액세스 중단을 방지해야 합니다.
 
-자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
+자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/ko/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
