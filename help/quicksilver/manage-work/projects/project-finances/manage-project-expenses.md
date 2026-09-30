@@ -9,23 +9,28 @@ exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
 TQID: https://experienceleague.adobe.com/b6lcN97EhJ4bD8w12SRE9TGLycM9Y8Si8ZSm8VBlHlA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 43ed208abe51a7172c0143fa6f838362edd913db
 workflow-type: tm+mt
-source-wordcount: 499
-ht-degree: 5%
-
+source-wordcount: '543'
+ht-degree: 4%
 ---
-
 # 프로젝트 경비 관리
 
 <!-- Audited: 6/2025 -->
@@ -54,11 +59,11 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td>액세스 수준 구성</td> 
-   <td>프로젝트 및 재무 데이터에 대한 액세스 편집</td> 
+   <td>프로젝트 및 작업에 대한 액세스 편집</td> 
   </tr> 
   <tr> 
    <td>개체 권한</td> 
-   <td>일반 재무 보기 또는 편집 권한으로 프로젝트에 대한 상위 권한 기여</td> 
+   <td><p>비용을 추가하고, 만든 비용을 편집 또는 삭제하려면: 비용을 추가할 수 있는 권한이 있는 프로젝트 또는 작업에 대한 이상의 권한을 기여하십시오.</p><p>다른 사용자가 추가한 경비를 보거나 편집 또는 삭제하려면: (보기용) 원가율을 보거나 (편집용) 원가율을 편집(삭제용)할 수 있는 권한을 사용하여 프로젝트 또는 작업에 대한 권한을 관리합니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,7 +102,7 @@ ht-degree: 5%
 
 ## 비용 삭제
 
-1. 경비를 삭제할 프로젝트로 이동합니다.
+1. 경비를 삭제할 프로젝트 또는 작업으로 이동합니다.
 1. 왼쪽 패널에서 **경비**&#x200B;를 클릭합니다.
 1. 삭제할 경비를 선택한 다음 **삭제** 아이콘 ![삭제](assets/delete.png)을(를) 클릭합니다.
 1. **경비 삭제** 대화 상자에서 **예, 삭제**&#x200B;을 클릭합니다.
