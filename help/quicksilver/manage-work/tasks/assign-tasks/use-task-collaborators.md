@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: ce3795d14390ccff1c66d7c6add34455c0ca4082
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1024'
 ht-degree: 1%
 ---
 # 작업 에이전트 사용
@@ -62,7 +62,7 @@ Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지�
 
 ## 작업 에이전트 개요
 
-작업 에이전트는 Workfront의 특정 작업에 MCP 에이전트를 할당하는 방법입니다. Copilot Studio, Claude 또는 Writer.ai와 같은 앱에서 에이전트를 구성한 다음 해당 에이전트를 작업 에이전트로 Workfront에 연결합니다. 그런 다음 사용자를 할당할 때처럼 작업에 할당할 수 있습니다.
+작업 에이전트는 Workfront의 특정 작업에 에이전트를 할당하는 방법입니다. Copilot Studio, Claude 또는 Writer.ai와 같은 앱에서 에이전트를 구성한 다음 해당 에이전트를 작업 에이전트로 Workfront에 연결합니다. 그런 다음 사용자를 할당할 때처럼 작업에 할당할 수 있습니다.
 
 일부 예제 워크플로에는 다음이 포함될 수 있습니다.
 
