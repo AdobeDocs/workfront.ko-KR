@@ -7,22 +7,26 @@ exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
 TQID: https://experienceleague.adobe.com/r7YaCiBbIr4ibSSjp2BvsFNAE2fdjTQZ8835a-FTjXM
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
 workflow-type: tm+mt
-source-wordcount: 788
+source-wordcount: '788'
 ht-degree: 0%
-
 ---
-
 # [!DNL Scenario Planner] 시작
 
 [!DNL Adobe Workfront Scenario Planner]을(를) 사용하여 회사의 전반적인 전략적 결과를 요약하는 엔터프라이즈 수준 계획을 세울 수 있습니다. 계획에 대한 여러 이니셔티브를 정의하고 다양한 시나리오에 배치하여 계획을 실행하기 위한 최적의 솔루션을 찾을 수 있습니다.

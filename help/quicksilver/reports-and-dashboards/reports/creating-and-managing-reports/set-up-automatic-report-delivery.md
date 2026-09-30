@@ -27,12 +27,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1404'
 ht-degree: 3%
 ---
 # 자동 보고서 배달 예약
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -150,7 +152,7 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>반복</p> </td> 
-      <td> <p>보고서를 일별, 주별, 월별 또는 연별로 배달할지 여부를 선택합니다.</p> </td> 
+      <td> <p>보고서를 일별, 주별, 월별 또는 연별로 배달할지 여부를 선택합니다. <span class="preview">미리 보기에서 보고서를 매일 배달할지, 매주 배달할지, 매월 배달할지 여부를 선택합니다.</span></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>모두 반복</p> </td> 
@@ -174,11 +176,15 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>종료 일자</p> </td> 
-      <td>예약된 배달이 종료될 날짜를 선택합니다.</td> 
+      <td><p>예약된 배달이 종료될 날짜를 선택합니다.</p> <p class="preview">미리보기에서 예약된 배달이 종료될 날짜를 선택합니다.</p> <p class="preview">참고: 종료 날짜는 게재 규칙을 만들거나 업데이트한 날로부터 13개월을 초과할 수 없습니다.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>안 함</p> </td> 
-      <td>예약된 배달이 무기한 지속되도록 하려면 <strong>절대 안 함</strong>을(를) 선택하십시오.</td> 
+      <td><p>예약된 배달이 무기한 지속되도록 하려면 <strong>절대 안 함</strong>을(를) 선택하십시오.</p> <p class="preview">이 옵션은 미리보기 또는 빠른 릴리스 환경에서는 더 이상 사용할 수 없습니다.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><div class="preview"><p>활성</p></div></td> 
+      <td><div class="preview"><p>이 게재를 활성 상태로 유지하려면 켜십시오. 새 게재는 기본적으로 활성 상태입니다.</p> <p><strong>종료일</strong> 날짜가 지나면 Workfront에서 이 토글을 자동으로 끄고 비활성화합니다. 게재를 다시 시작하려면 <strong>종료일</strong> 날짜를 미래 날짜로 업데이트한 다음 전환을 다시 켭니다.</p></div></td> 
      </tr> 
     </tbody> 
    </table>
