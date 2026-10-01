@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3374'
 ht-degree: 1%
 ---
 # 향상된 목록 사용
@@ -78,27 +78,32 @@ ht-degree: 1%
 | Workfront 목록 | 개체 목록의 위치 |
 | --- | --- |
 | 우선순위 | <ul><li>홈 > 왼쪽 메뉴에서 우선 순위 아이콘 선택</li><li>메인 메뉴 > 우선 순위</li></ul> |
-| 요청 목록 | <ul><li>요청(새 경험만 해당)</li><li>홈의 내 요청 위젯</li></ul> |
+| 요청 목록 | <ul><li>메인 메뉴 > 요청(새 경험만 해당)</li><li>홈의 내 요청 위젯</li></ul> |
 | 설정의 상태, 우선 순위, 심각도, <span class="preview">조건</span> 및 환율 목록 | <ul><li>설정 > 프로젝트 환경 설정 > 상태</li><li>설정 > 프로젝트 환경 설정 > 우선 순위</li><li>설정 > 프로젝트 환경 설정 > 심각도</li><li><span class="preview">설정 > 프로젝트 환경 설정 > 조건</span></li><li>설정 > 프로젝트 환경 설정 > 환율</li></ul> |
 | <span class="preview">업데이트 피드의 작업 및 추적된 필드 목록</span> | <ul><li><span class="preview">설정 > 인터페이스 > 피드 업데이트 > 추적된 필드 탭</span></li> <li><span class="preview">설정 > 인터페이스 > 피드 업데이트 > 작업 탭</span></li></ul> |
 | <span class="preview">스코어카드 목록</span> | <span class="preview">설정 > 스코어카드</span> |
 | <span class="preview">위험 유형 목록</span> | <span class="preview">설정 > 위험 유형</span> |
+| <span class="preview">이벤트 알림 목록</span> | <ul><li><span class="preview">설정 > 전자 메일 > 알림 > 이벤트 알림</span></li><li><span class="preview">그룹 세부 정보 페이지 > 이벤트 알림</span></li></ul> |
 | 비율 카드의 작업 역할 및 비율 목록 | 설정 > 비율 카드 > 비율 카드 선택 > 작업 역할 및 비율 |
 | <span class="preview">위치 목록</span> | <span class="preview">설정 > 위치</span> |
 | 번역 목록 | 설정 > 로컬라이제이션 |
-| <span class="preview">통합 목록 </span> | <ul><li><span class="preview">설정 > 문서 > SharePoint 통합</span></li><li><span class="preview">설정 > 문서 > 사용자 지정 통합</span></li></ul> |
-| 보고서 목록 | 보고서(**공유 가능한 폴더 사용**&#x200B;을(를) 설정해야 함) |
+| <span class="preview">통합 목록 </span> | <ul><li><span class="preview">설정 > 문서 > SharePoint 통합</span></li><li><span class="preview">설정 > 문서 > 사용자 지정 통합</span></li><li><span class="preview">설정 > 문서 > Experience Manager Assets</span></li></ul> |
+| 보고서 목록 | 메인 메뉴 > 보고서(**공유 가능한 폴더 사용**&#x200B;을 설정해야 함) |
+| <span class="preview">대기열 주제, 주제 그룹 및 라우팅 규칙 목록</span> | <ul><li><span class="preview">프로젝트 또는 템플릿 > 대기열 주제</span></li><li><span class="preview">프로젝트 또는 템플릿 > 주제 그룹</span></li><li><span class="preview">프로젝트 또는 템플릿 > 라우팅 규칙</span></li></ul> |
 | 스냅샷 목록 | 프로젝트 > 스냅샷 |
 | 청구 리소스 목록 | 프로젝트 > 청구용 리소스 |
+| <span class="preview">전임 작업 목록</span> | <span class="preview">설정 > 작업 또는 템플릿 작업 > 전임 작업</span> |
 | 작업에 대한 새 고급 할당 | 작업 > 지정 > 고급 |
 | <span class="preview">문서의 모든 버전 보기</span> | <span class="preview">프로젝트 > 문서 > 문서 세부 정보 > 모든 버전</span> |
 | 게시판 관리자 보기 | 게시판 > 관리자 보기 |
 | Adobe 클라우드 스토리지에 대한 문서 | 프로젝트, 작업, 문제, 포트폴리오, 프로그램, 템플릿, 템플릿 작업 > 문서 |
 | <span class="preview">시나리오 계획 및 이니셔티브 목록</span> | <span class="preview">주 메뉴 > 시나리오</span> |
+| <span class="preview">목표 및 진행률 지표 목록</span> | <ul><li><span class="preview">주 메뉴 > 목표</span></li><li><span class="preview">주 메뉴 > 목표 > 진행 표시기</span></li></ul> |
 
 <!--
 
-Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+Under integrations?
+| <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -424,7 +429,7 @@ Last, under Scenario Planner
 1. 목록 위에 있는 **필터**&#x200B;를 클릭합니다.
 1. 필터 상자에서 **조건 추가**&#x200B;를 클릭합니다.
 1. 필터링 기준으로 사용할 필드를 선택합니다.
-1. &quot;다음 중 하나 이상의 항목 있음&quot;, &quot;다음 중 하나 이상의 항목 없음&quot;, &quot;다음 이전&quot; 또는 &quot;다음 이후&quot;와 같은 필터 수정자를 선택합니다. 수정자 옵션은 필터링 기준으로 사용하는 필드 유형에 따라 다릅니다.
+1. &quot;다음 중 1개 이상의 항목 포함&quot;, &quot;다음 중 1개 없음&quot;, &quot;다음 이전&quot;또는 &quot;다음 이후&quot;와 같은 필터 수정자를 선택합니다. 수정자 옵션은 필터링 기준으로 사용하는 필드 유형에 따라 다릅니다.
 1. 필드 값 또는 값을 선택합니다. 필터링 기준으로 사용하는 필드 유형에 따라 목록에서 항목을 선택하거나 검색하거나 달력을 사용하여 날짜 범위를 선택하라는 메시지가 표시될 수 있습니다.
 
    ![고급 목록에서 필터링](assets/glist-filter-with-options.png)
@@ -471,7 +476,7 @@ Workfront은 사전 정의된 그룹화를 제한적으로 제공하며 사용�
    ![그룹화 선택](assets/glist-grouping-choose-a-group-by.png)
 
 1. 모든 그룹화가 축소된 목록을 표시하려면 **모두 축소**&#x200B;를 클릭합니다. 기본 옵션은 모든 그룹화가 확장된 목록을 표시하는 것입니다.
-1. 그룹화가 적용되면 [그룹] 옵션을 다시 열어 모든 그룹화를 한 번에 축소 또는 확장하거나, 다른 필드로 그룹화를 변경하거나, 모든 그룹화를 지울 수 있습니다.
+1. 그룹화가 적용되면 그룹화 옵션을 다시 열어 한 번에 모든 그룹화를 축소하거나 확장하고, 그룹화를 다른 필드로 그룹화하거나, 모든 그룹화를 지울 수 있습니다.
 
    ![고급 목록의 그룹화](assets/glist-group-by-due-date-priorities.png)
 
