@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cc47859cfb1dc1946050ba679b2678ccb9408223
+source-git-commit: e0951a7451bbf17dcca388eee841abddb1618a0b
 workflow-type: tm+mt
-source-wordcount: '3630'
+source-wordcount: '4233'
 ht-degree: 2%
 ---
 # 표 보기 관리
@@ -324,144 +324,145 @@ Old:
 
    1. 검색 키워드를 지우려면 검색 상자에서 **x** 아이콘을 클릭합니다.
 
-1. (조건부) 이러한 필드 유형으로 형식이 지정된 숫자, 통화, 백분율 및 공식 필드의 경우 열 하단의 집계 드롭다운 메뉴를 확장하고 다음 옵션 중에서 선택합니다.
 
-   * **SUM**: 열에 있는 모든 셀의 합계를 표시합니다. 이것이 기본 선택입니다.
-   * **MIN**: 열의 모든 셀에서 가장 낮은 값을 표시합니다.
-   * **MAX**: 열의 모든 셀에서 가장 높은 값을 표시합니다.
-   * **AVG**: 열에 있는 모든 셀의 평균 값을 표시합니다.
+1. (조건부) 보고 있는 필드 유형에 따라 다음 중 하나를 수행합니다.
 
-   <!--    
-    <div class="preview"> 
+   * 이러한 필드 유형으로 형식이 지정된 숫자, 통화, 백분율 및 공식 필드의 경우 열 하단의 집계 드롭다운 메뉴를 확장하고 다음 옵션 중에서 선택합니다.
 
-    * **NONE**: The values of the column are not aggregated.This is the default option. 
-    
-    </div> 
-    -->
+     * **SUM**: 열에 있는 모든 셀의 합계를 표시합니다. 이것이 기본 선택입니다.
+     * **MIN**: 열의 모든 셀에서 가장 낮은 값을 표시합니다.
+     * **MAX**: 열의 모든 셀에서 가장 높은 값을 표시합니다.
+     * **AVG**: 열에 있는 모든 셀의 평균 값을 표시합니다.
+
+     <div class="preview">
+
+     * **없음**: 열의 값이 집계되지 않았습니다.기본 옵션입니다.
+
+     </div>
+
+   <div class="preview">
+
+   * 날짜 필드의 경우 열 하단에서 집계 드롭다운 메뉴를 확장하고 다음 옵션 중에서 선택합니다.
+
+     * **없음**: 열의 값이 집계되지 않았습니다.기본 옵션입니다.
+     * **EMPTY**: 값이 없는 필드 수를 표시합니다.
+     * **NOT EMPTY**: 값이 있는 필드 수를 표시합니다.
+     * **분**: 가장 빠른 날짜를 표시합니다.
+     * **MAX**: 최신 날짜를 표시합니다.
+
+   * 텍스트의 경우 를 선택하고, 부울을 선택한 다음, 사람 필드를 선택하면 열 하단에 있는 집계 드롭다운 메뉴가 확장됩니다. 그리고 다음 옵션 중에서 선택합니다.
+
+     * **없음**: 열의 값이 집계되지 않았습니다.기본 옵션입니다.
+     * **EMPTY**: 값이 없는 필드 수를 표시합니다.
+     * **NOT EMPTY**: 값이 있는 필드 수를 표시합니다.
+
+   </div>
 
    집계자를 사용할 때는 다음 사항을 고려하십시오.
 
-   * 열의 집계 행이 동결되고 보기 설정의 일부입니다.
+   * 열의 집계 행은 값을 표시할 때 고정되며 보기 설정의 일부입니다.
    * 보기 관리자는 합계를 선택할 수 있으며, 이 합계는 다른 사용자와 보기를 공유할 때 보기와 공유됩니다.
    * 뷰어는 집계를 수정할 수 있지만 보기와 함께 저장되지는 않습니다.
    * 공용 공유 보기는 수정할 수 없는 저장된 집계자와 공유됩니다.
 
+   <div class="preview">
+
+   * 다음 필드 유형에는 집계자가 없습니다.
+
+     * 생성한 사람
+     * 마지막 수정자
+     * 레코드 ID
+   * 공식 필드와 조회 필드에는 해당 필드 형식에 해당하는 집계자가 있습니다.
+
+   </div>
+
 <!--
-At preview release, replace the last procedure step with this:
 
-1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
+FROM LISA: This is the old section. I commented it out vs deleting.
 
-    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-        * **MIN**: Displays the lowest value from all the cells in the column. 
-        * **MAX**: Displays the highest value from all the cells in the column. 
-        * **AVG**: Displays the average value of all the cells in the column.  
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
 
-        <div class="preview">
+    <div class="preview"> 
 
-        * **NONE**: The values of the column are not aggregated.This is the default option. 
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
     
-        </div> 
-   
-    <div class="preview">
+    </div> 
 
-    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values. 
-        * **MIN**: Displays the earliest date.
-        * **MAX**: Displays the latest date. 
-    
-    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values.  
-
-    </div>
-        
     Consider the following when working with aggregators: 
     
-    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * The aggregator row in the column is frozen and is part of the view settings. 
     * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
     * As a viewer, you can modify the aggregator, but it does not save with the view. 
     * Public shared views are shared with the saved aggregators which cannot be modified. 
 
-    <div class="preview">
+-->
 
-    * The following field types do not have an aggregator: 
+### 행(또는 레코드) 추가 {#add-rows-1}
 
-        * Created by
-        * Last modified by
-        * Record ID
-    * Formula fields and look up fields have the aggregators that correspond to their field format. 
+테이블 뷰의 행에는 선택한 레코드 유형의 개별 레코드가 표시됩니다. 행을 추가하는 것은 레코드를 만드는 것과 같습니다.
 
-    </div> 
+레코드 유형에 대해 최대 50,000개의 레코드(또는 행)를 가질 수 있습니다.
 
-### Add rows (or records) {#add-rows-1}
+1. 레코드 유형 페이지로 이동하여 테이블 보기를 선택하거나 **+ 보기**&#x200B;를 클릭하여 새 보기를 추가한 다음 **테이블**&#x200B;을 선택합니다.
 
-The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
+1. [레코드 만들기](/help/quicksilver/planning/records/create-records.md) 문서에 설명된 대로 레코드(또는 행)를 추가하기 시작합니다.
 
-You can have up to 50,000 records (or rows) for a record type. 
+   테이블 보기에서 추가하는 레코드는 즉시 저장되며 작업 공간에 대한 보기 이상의 권한이 있는 모든 사용자에게 표시됩니다.
 
-1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
+   기본 썸네일 이미지 <span class="preview">과(와) 색상</span>도 새 레코드에 추가됩니다.
 
-1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+   >[!TIP]
+   >
+   ><span class="preview">레코드에 읽지 않은 댓글이 있으면 **새 댓글** 표시기가 레코드의 기본 필드의 오른쪽 위에 표시됩니다.</span>
+   >
+   >![테이블 보기의 새 주석 아이콘](assets/new-comment-icon-in-table-view-highlighted.png)
 
-    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
+1. (선택 사항) 하나 이상의 레코드 또는 행을 선택한 다음 **handle** 아이콘 ![Handle 아이콘](assets/handle-icon.png)을(를) 레코드의 왼쪽으로 끌어다 놓아 행 순서를 변경합니다.
 
-    A default thumbnail image <span class="preview">and color</span> are also added to the new record.
+   >[!NOTE]
+   >
+   >테이블 뷰에 하나 이상의 정렬 또는 그룹화를 적용하는 경우 행 순서를 변경할 수 없습니다.
+   >
+   >행 순서에 대한 변경 내용은 동일한 보기의 레코드 유형에 액세스하는 모든 사용자에게 표시됩니다.
+   >
+   ><span class="preview">끌어서 놓기 줄에서 선택한 레코드 수가 두 개 이상인 경우 숫자 표시기가 표시됩니다. </span>
 
-    >[!TIP]
-    >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
-    >
-    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    
-1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
+1. (선택 사항) 레코드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **썸네일 편집**&#x200B;을 클릭하여 썸네일을 편집합니다.
+1. 프로덕션 환경에서 표 상단의 **필드**&#x200B;를 클릭합니다
 
-    >[!NOTE]
-    >
-    >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
-    >
-    >The changes you make to the row order are visible to all users who access the record type in the same view. 
-    >
-    ><span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>
+   또는
 
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
-1. Click **Fields** at the top of the table in the Production environment
+   <span class="preview">기본 필드 머리글</span> 위로 마우스를 가져간 다음 **썸네일** 필드에 대한 토글을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다.
 
-    Or 
-    
-    <span class="preview">Hover over the primary field header</span>, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
+   자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
 
-    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. <span class="preview">표 상단의 **필드**&#x200B;를 클릭합니다</span>
 
-1. <span class="preview">Click **Fields** at the top of the table</span>
-   
-   Or 
-   <span class="preview">Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. </span>
+   또는
+   <span class="preview">기본 필드 머리글 위로 마우스를 가져간 다음 **색상** 필드에 대한 토글을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다. </span>
 
-1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
+1. <span class="preview">(선택 사항 및 조건부) **색상** 설정을 켜면 레코드의 기본 필드 왼쪽에 있는 색상 막대를 클릭하고 **색상 견본** 또는 **사용자 지정** 탭에서 색상을 선택한 다음 상자 바깥쪽을 클릭하여 닫습니다. 색상이 즉시 적용됩니다.</span>
 
 <div class="preview">
 
-![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
+![색상 코딩 색상 선택기 상자 기록](assets/color-picker-for-record-color-coding.png)
 
-For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
 </div>
 
 
-### Add filters {#add-filters-1}
+### 필터 추가 {#add-filters-1}
 
-Filters help you reduce the amount of information displayed on the screen.
+필터는 화면에 표시되는 정보의 양을 줄이는 데 도움이 됩니다.
 
-Consider the following when working with filters in the table view: 
+표 보기에서 필터를 사용하여 작업할 때는 다음 사항을 고려하십시오.
 
--->
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -667,7 +668,7 @@ Consider the following when working with filters in the table view:
 
 * 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
 * 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —지금 이 항목을 확인하고 &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —지금 이 항목을 확인하고 ******************—>
 * 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
 * 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
@@ -1266,9 +1267,5 @@ When you display the table view, you can also view which field another user is e
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 -->
-
-
-
-
 
 
