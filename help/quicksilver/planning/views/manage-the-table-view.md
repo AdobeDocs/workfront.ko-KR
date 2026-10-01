@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 97207d72bce4b03f6080996b9c5e4edde47633ab
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '4037'
+source-wordcount: '4045'
 ht-degree: 2%
 ---
 # 표 보기 관리
@@ -517,10 +517,10 @@ At preview release, replace the last procedure step with this:
         </tr>
         <tr>
             <td>다중 선택, 사람</td>
-            <td><p>다음 중 하나 포함</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>다음 중 하나 포함</p> 또는 <span class="preview"><p>다음 중 하나</p></span>
             <p>다음을 모두 포함</p>
             <p>다음이 정확함</p>
-            <p>다음 중 어느 것도 포함하지 않음</p> <!--or <span class="preview"><p>Is none of</p></span>-->
+            <p>다음 중 어느 것도 포함하지 않음</p> 또는 <span class="preview"><p>다음에 해당하지 않음</p></span>
             <p>비어 있음</p>
             <p>비어 있지 않음</p></td>
         </tr>
@@ -666,7 +666,7 @@ At preview release, replace the last procedure step with this:
 
 * 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
 * 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —지금 이 항목을 확인하고 &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —지금 이 항목을 확인하고 ******************—>
 * 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
 * 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
