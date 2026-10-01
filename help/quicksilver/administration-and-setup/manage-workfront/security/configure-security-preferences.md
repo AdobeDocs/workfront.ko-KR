@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2d1619fde79a80c016c7c963614fd4f7ba63035b
+source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1543'
 ht-degree: 7%
 ---
 # 시스템 환경 설정 구성
@@ -244,7 +244,7 @@ URL을 추가하려면:
 
 >[!IMPORTANT]
 >
->콜백 URL은 정확히 일치해야 합니다. Workfront은 사용자 지정 콜백 URL에 대해 와일드카드 또는 접두사 일치를 지원하지 않습니다.
+>콜백 URL은 모든 URL 매개 변수를 포함하여 정확히 일치해야 합니다. Workfront은 사용자 지정 콜백 URL에 대해 와일드카드 또는 접두사 일치를 지원하지 않습니다.
 
 +++
 
