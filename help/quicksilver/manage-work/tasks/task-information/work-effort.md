@@ -12,24 +12,30 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/glxqYn2m92yNMfsneQ3DW0KALaPKruUgU8o-xjMA1CI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 246f2fe7a8f1b4c34ca6e3755bef488744acbcd6
 workflow-type: tm+mt
-source-wordcount: 1532
+source-wordcount: '1490'
 ht-degree: 1%
-
 ---
-
 # 작업 노력 개요
 
 <!--Audited: 01/2024-->
@@ -54,20 +60,22 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">작업 노력 </td> 
-   <td> <p>사용자가 작업을 완료하는 데 일일 작업량이 작은지, 중간인지 또는 크는지를 정의하는 수동 레이블입니다.
-   &lt;!—!
-
-    작업량 수준은 일일 작업 시간의 백분율입니다. (참고: 이 초안을 유지합니다. Vazgen이 필요하지 않다고 말했지만 사용자의 피드백을 기다리고 있습니다)
-    
-    —>
-    &lt;/p> &lt;p>작업 노력에 대해 다음 사항을 고려하십시오.&lt;/p>
-    &lt;ul>
-    &lt;li>이 필드는 단순 기간 유형의 작업에만 사용할 수 있습니다. &lt;/li>
-    &lt;li>이 레이블의 사용을 활성화하고 프로젝트 수준에서 이와 연결된 작업 시간의 백분율을 정의할 수 있습니다. &lt;/li>
-    &lt;/ul> &lt;/td>
-</tr> 
+   <td> <p>사용자가 작업을 완료하는 데 일일 작업량이 작은지, 중간인지 또는 크는지를 정의하는 수동 레이블입니다.</p> <p>작업 노력에 대해 다음 사항을 고려하십시오.</p>
+    <ul> 
+     <li>이 필드는 단순 기간 유형의 작업에만 사용할 수 있습니다. </li> 
+     <li>이 레이블의 사용을 활성화하고 프로젝트 수준에서 이와 연관된 작업 시간의 백분율을 정의할 수 있습니다. </li> 
+    </ul> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+<!--
+       
+       THIS GOES IN THE WORK EFFORT DEFINITION. Lisa moved it here because it was showing on the live site.
+       
+       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
+       
+-->
 
 이 문서에서는 작업 노력의 의미와 작업에 대한 작업량을 추정할 때 작업 노력을 사용하는 방법에 대해 설명합니다.
 
