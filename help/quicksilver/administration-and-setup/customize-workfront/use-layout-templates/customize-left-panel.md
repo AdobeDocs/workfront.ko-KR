@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1259'
 ht-degree: 2%
 ---
 # 레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 정의
@@ -112,7 +112,7 @@ ht-degree: 2%
      <tr> 
       <td>[!UICONTROL 프로젝트]</td> 
       <td>프로젝트 이름</td> 
-      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 리소스], [!UICONTROL 청구 기록], [!UICONTROL 경비], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [ !NICONTROL uicontrol People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
+      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 리소스], [!UICONTROL 청구 기록], [!UICONTROL 경비], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [!NICONTROL uicontrol People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 작업]</td> 
@@ -164,7 +164,7 @@ ht-degree: 2%
      <tr> 
       <td>[!UICONTROL 리소스 조달]</td> 
       <td>[!UICONTROL 기본 메뉴]의 [!UICONTROL 리소스] <img src="assets/main-menu-icon-left-nav.png"></td> 
-      <td>[!UICONTROL Planner] (숨길 수 없음), [!UICONTROL 업무 균형자], [!UICONTROL 사용률], [!UICONTROL 리소스 풀]</td> 
+      <td>[!UICONTROL Planner](숨길 수 없음), [!UICONTROL 업무 균형자], [!UICONTROL 사용률], [!UICONTROL 리소스 풀]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -204,7 +204,7 @@ ht-degree: 2%
      <tr> 
        <td>[!UICONTROL Rate Card]</td> 
        <td>요금 카드의 이름</td> 
-       <td>[!UICONTROL 작업 역할 및 비율] (숨길 수 없음), [!UICONTROL 비율 카드 세부 정보]</td> 
+       <td>[!UICONTROL 작업 역할 및 비율](숨길 수 없음), [!UICONTROL 비율 카드 세부 정보]</td> 
      </tr>
      <tr> 
        <td>[!UICONTROL Group]</td> 
@@ -237,6 +237,8 @@ ht-degree: 2%
 
    * 왼쪽 패널에서 섹션을 표시하거나 숨기려면 **표시** ![표시 아이콘](assets/add-secondary-nav-item.png) 또는 **숨기기** ![숨기기 아이콘](assets/delete-secondary-nav-item.png) 아이콘을 클릭합니다. **표시** 또는 **숨기기** 아이콘이 없는 항목은 숨길 수 없습니다.
 
+     모든 영역 또는 오브젝트 유형에는 왼쪽 패널에 하나 이상의 섹션이 있어야 합니다. 다른 모든 항목이 숨겨져 있으면 마지막 남은 항목을 숨길 수 없습니다.
+
    * 왼쪽 패널에서 순서를 변경하려면 ![이동 아이콘](assets/move-icon---dots.png)을 끕니다.
 
    >[!NOTE]
@@ -247,7 +249,7 @@ ht-degree: 2%
    >* [!UICONTROL 홈]
    >* [!UICONTROL 브랜딩]
    > 
-   >추가 영역을 사용자 지정하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
+   >이러한 추가 영역을 사용자 지정하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
    >
    >* [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [레이아웃 템플릿을 사용하여 [!UICONTROL 요약 패널 사용자 지정]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
