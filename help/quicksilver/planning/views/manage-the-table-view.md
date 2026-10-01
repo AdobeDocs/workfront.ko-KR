@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 97207d72bce4b03f6080996b9c5e4edde47633ab
 workflow-type: tm+mt
-source-wordcount: '4041'
+source-wordcount: '4037'
 ht-degree: 2%
 ---
 # 표 보기 관리
@@ -198,12 +198,10 @@ Old:
 <!--
 <div class="preview">
 
-* 500 records upload automatically. Additional records display as you scroll the view. 
+* 500 records upload by default. Additional records display as you scroll the view. 
 
 </div>
 -->
-
-기본적으로 500개의 레코드가 표시됨
 
 테이블 뷰를 관리하려면 다음을 수행합니다.
 
@@ -314,6 +312,7 @@ Old:
       테이블 보기에서 숨겨진 필드와 연결된 키워드는 사용할 수 없습니다.
 
       <!--
+        this might change at the release of table lazy loading:
         >[!TIP]
         >
         ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
@@ -325,12 +324,20 @@ Old:
 
    1. 검색 키워드를 지우려면 검색 상자에서 **x** 아이콘을 클릭합니다.
 
-1. 이러한 필드 유형으로 형식이 지정된 숫자, 통화, 백분율 및 공식 필드의 경우 열 하단의 집계 드롭다운 메뉴를 확장하고 다음 옵션 중에서 선택합니다.
+1. (조건부) 이러한 필드 유형으로 형식이 지정된 숫자, 통화, 백분율 및 공식 필드의 경우 열 하단의 집계 드롭다운 메뉴를 확장하고 다음 옵션 중에서 선택합니다.
 
    * **SUM**: 열에 있는 모든 셀의 합계를 표시합니다. 이것이 기본 선택입니다.
    * **MIN**: 열의 모든 셀에서 가장 낮은 값을 표시합니다.
    * **MAX**: 열의 모든 셀에서 가장 높은 값을 표시합니다.
    * **AVG**: 열에 있는 모든 셀의 평균 값을 표시합니다.
+
+   <!-- 
+    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    
+    </div> 
+    -->
 
    집계자를 사용할 때는 다음 사항을 고려하십시오.
 
@@ -338,6 +345,61 @@ Old:
    * 보기 관리자는 합계를 선택할 수 있으며, 이 합계는 다른 사용자와 보기를 공유할 때 보기와 공유됩니다.
    * 뷰어는 집계를 수정할 수 있지만 보기와 함께 저장되지는 않습니다.
    * 공용 공유 보기는 수정할 수 없는 저장된 집계자와 공유됩니다.
+
+<!--
+At preview release, replace the last procedure step with this:
+
+1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
+
+    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+        * **MIN**: Displays the lowest value from all the cells in the column. 
+        * **MAX**: Displays the highest value from all the cells in the column. 
+        * **AVG**: Displays the average value of all the cells in the column.  
+
+        <div class="preview">
+
+        * **NONE**: The values of the column are not aggregated.This is the default option. 
+    
+        </div> 
+   
+    <div class="preview">
+
+    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values. 
+        * **MIN**: Displays the earliest date.
+        * **MAX**: Displays the latest date. 
+    
+    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values.  
+
+    </div>
+        
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
+
+    <div class="preview">
+
+    * The following field types do not have an aggregator: 
+
+        * Created by
+        * Last modified by
+        * Record ID
+    * Formula fields and look up fields have the aggregators that correspond to their field format. 
+
+    </div>
+    -->
 
 ### 행(또는 레코드) 추가 {#add-rows-1}
 
@@ -455,10 +517,10 @@ Old:
         </tr>
         <tr>
             <td>다중 선택, 사람</td>
-            <td><p>다음 중 하나 포함</p>
+            <td><p>다음 중 하나 포함</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>다음을 모두 포함</p>
             <p>다음이 정확함</p>
-            <p>다음 중 어느 것도 포함하지 않음</p>
+            <p>다음 중 어느 것도 포함하지 않음</p> <!--or <span class="preview"><p>Is none of</p></span>-->
             <p>비어 있음</p>
             <p>비어 있지 않음</p></td>
         </tr>
@@ -604,7 +666,7 @@ Old:
 
 * 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
 * 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —지금 이 항목을 확인하고 &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —지금 이 항목을 확인하고 ******************—>
 * 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
 * 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
@@ -615,7 +677,7 @@ Old:
 * 그룹화는 값의 알파벳 순서로 나열됩니다.
 
 <!--
-* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. More records might belong to the visible groupings but might not be loaded by default. Additional records are added to the page as you scroll.</span>
 -->
 
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
@@ -630,6 +692,14 @@ Old:
 1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;을 클릭하고 다른 필드를 검색한 다음 목록에 표시될 때 해당 필드를 클릭합니다.
 
    그룹화가 테이블에 자동으로 적용되며 그룹화 구분선 아래에 레코드가 표시됩니다.
+
+   <!--
+    <div class="preview">
+
+    500 records display by default. There might be more records that belong to the visible groupings that are not uploaded by default. Continue to scroll to upload all records. 
+
+    </div>
+    -->
 
 1. (선택 사항) **조건 추가**&#x200B;를 클릭하고 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
 

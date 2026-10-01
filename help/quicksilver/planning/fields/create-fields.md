@@ -32,13 +32,13 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '5561'
+source-wordcount: '5636'
 ht-degree: 1%
 ---
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ko ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -301,6 +301,17 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
     -->
 
 1. 아래 섹션에 설명된 대로 각 필드를 계속 추가합니다.
+1. (선택 사항 및 조건부) 필드를 추가한 후 테이블 보기 열 헤더의 필드 이름 위로 마우스를 가져간 후 **자세히** 드롭다운 메뉴를 클릭한 다음 **필드 편집**&#x200B;을 클릭하여 필드를 편집합니다.
+
+   자세한 내용은 [필드 편집](/help/quicksilver/planning/fields/edit-fields.md)을 참조하세요.
+1. (선택 사항 및 조건부) 필드를 추가한 후 테이블 보기 열 헤더의 필드 이름 위로 마우스를 가져간 후 **자세히** 드롭다운 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭하여 필드를 삭제합니다.
+
+   자세한 내용은 [필드 삭제](/help/quicksilver/planning/fields/delete-fields.md)를 참조하십시오.
+<!--
+1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
+
+    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
+-->
 
 1. <span class="preview">(선택 사항 및 조건부) 필드를 추가한 후 테이블 보기 열 헤더의 필드 이름 위로 마우스를 가져간 후 **자세히** 드롭다운 메뉴를 클릭한 다음 **필드 공유**&#x200B;를 클릭하여 필드를 공유합니다. </span>
 
@@ -634,7 +645,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
    >
    >* 현재 레코드 유형에서 최대 4개의 필드(및 개체)가 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형(1)에 대한 공식 필드를 생성하고 활동이 Workfront 프로젝트(3)에 연결된 캠페인 레코드 유형(2)에 연결된 경우, 활동 레코드 유형에 대해 생성 중인 공식에서 프로젝트의 예산 필드(4)를 참조할 수 있습니다.
    >
-   >![공식 예제 프로젝트 예산 4개 필드 제거됨 &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![공식 예제 프로젝트 예산 4개 필드 제거됨 ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (선택 사항) **최대화**&#x200B;를 클릭하여 더 넓은 영역에서 수식 상자를 엽니다.

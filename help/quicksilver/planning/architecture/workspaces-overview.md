@@ -21,7 +21,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 1%
@@ -107,6 +107,16 @@ Planning 랜딩 페이지에서 글로벌 검색 상자를 사용하여 다음 P
 * 작업 영역
 * 레코드 유형
 * 보기 횟수
+
+<!--
+<div class="preview">
+
+* Records
+
+</div>
+
+Update screen shot below
+-->
 
 ![글로벌 검색 상자](assets/global-search-box.png)
 
