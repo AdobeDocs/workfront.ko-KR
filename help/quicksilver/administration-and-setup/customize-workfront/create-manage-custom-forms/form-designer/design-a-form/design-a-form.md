@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
 workflow-type: tm+mt
-source-wordcount: '8056'
+source-wordcount: '8284'
 ht-degree: 4%
 ---
 # 사용자 정의 양식 만들기
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -483,7 +485,8 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
     <li>단일 선택 드롭다운</li>
     <li>다중 선택 드롭다운</li>
     </ul></td>
-    </tr> 
+    </tr>
+    <tr>
     <td role="rowheader">선택 항목 </td> 
     <td> 
     <p>다음 옵션 중 하나를 선택합니다.</p> 
@@ -507,6 +510,36 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
     </ul>
     </td>
      </tr>
+    <tr>
+    <td role="rowheader"><span class="preview">선택 항목</span></td> 
+    <td>
+    <div class="preview">
+    <p>필드에 선택 항목을 추가하거나 편집하려면 <strong>선택 항목 편집</strong>을 클릭하십시오.</p>
+    <p>선택 항목 편집 대화 상자에서 새 선택 항목을 추가하려면 다음을 수행합니다.</p>
+    <ol>
+    <li><p>표 맨 아래에 있는 <strong>새 행</strong>을 클릭합니다.</p> <p><b>참고:</b> 추가할 수 있는 선택 항목 수에 제한이 없습니다.</p></li>
+    <li><strong>선택 이름</strong> 및 <strong>선택 값</strong>을 입력하십시오. 이는 필드 API 이름 및 레이블과 마찬가지로 일반적으로 동일합니다.</li>
+    <li>(선택 사항) 필드에서 기본적으로 선택하려면 <strong>기본적으로 선택</strong>을 선택합니다.</li> 
+    </ol>
+    <p>추가 작업의 경우:</p>
+    <ul>
+    <li>기존 선택 항목을 편집하려면 변경할 영역을 두 번 클릭합니다.</li>
+    <li> 필드에서 선택 항목을 숨기려면 해당 항목을 선택하고 화면 하단의 작업 표시줄에서 <strong>선택 항목 숨기기</strong>를 클릭합니다. 숨겨진 선택 사항은 보고서에서 계속 액세스할 수 있습니다.</li> 
+    <li> <p>필드에서 선택 항목을 삭제하려면 해당 항목을 선택하고 화면 하단의 작업 표시줄에서 <strong>선택 항목 제거</strong>를 클릭합니다.</p> <p><b>경고</b>: 이 선택 항목을 사용하는 현재 개체가 있는 경우 필드에서 제거하지 마십시오. 삭제하면 내역 데이터가 손실됩니다. 대신 숨기려면 옵션을 선택합니다. 그러면 사용자가 나중에 선택할 수 없게 됩니다.</p> </li> 
+    <li><strong>드래그</strong> 아이콘 <img src="assets/drag-icon.png">을(를) 사용하여 선택 항목을 수동으로 정렬하십시오.</li>
+    <li><strong>선택 항목 정렬 A-Z</strong>을 클릭하여 필드에서 선택 항목을 알파벳순으로 정렬합니다.</li>
+    </ul>
+    <p>선택 항목 편집을 마치면 <strong>저장</strong>을 클릭합니다.</p>
+    </div>
+    </td> 
+    <td><ul>
+    <li><span class="preview">라디오 버튼</span></li>
+    <li><span class="preview">확인란 그룹</span></li>
+    <li><span class="preview">단일 선택 드롭다운</span></li>
+    <li><span class="preview">다중 선택 드롭다운</span></li>
+    </ul>
+    </td>
+    </tr> 
     <tr>
      <td>활성</td>
      <td><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></td>
@@ -815,12 +848,12 @@ To add typeahead and date fields:
       <td role="rowheader">JSON 경로</td>
       <td><p>API에 대한 JSON 경로를 입력하거나 붙여넣습니다.</p> <p>이 옵션을 사용하면 API URL에서 반환되는 JSON에서 데이터를 추출할 수 있습니다. JSON 내에서 드롭다운 옵션에 표시할 값을 선택하는 데 사용됩니다.</p><p>예를 들어 API URL이 다음 형식으로 JSON을 반환하는 경우 "$.data[*].name"을 사용하여 미국과 캐나다를 드롭다운 옵션으로 선택할 수 있습니다.</br>
       <pre>
-      &lbrace;
-       데이터: &lbrace;
+      {
+       데이터: {
          { name: "미국"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>JSON 경로와 올바른 JSON 경로를 작성하는 방법에 대한 자세한 내용은 <a href="https://jsonpath.com/">https://jsonpath.com/</a>을(를) 참조하십시오.</p></td>
