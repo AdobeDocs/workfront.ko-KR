@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '853'
 ht-degree: 2%
 ---
 # 새 문서 버전 업로드 및 승인 요청
@@ -216,6 +216,10 @@ the previous participants, new participants, or a mix of both. You can view info
 1. **승인 요청**&#x200B;을 클릭합니다.
 
    승인 워크플로가 시작되고 승인자는 새 문서 버전에 대한 승인이 필요하다는 알림을 받습니다. 이전 문서 버전이 잠기고 이전 버전에서 미결 승인이 철회됩니다.
+
+>[!NOTE]
+>
+>문서가 Creative Cloud 파일(예: Photoshop, Illustrator 또는 InDesign 클라우드 문서)인 경우 Creative Cloud 앱에서 승인을 만들면 Workfront에 새 버전이 자동으로 만들어집니다. 이는 새 버전을 여기로 드래그 앤 드롭하는 것과 같습니다. 자세한 내용은 [Creative Cloud 앱에서 Workfront 문서 사용](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)을 참조하십시오.
 
 <!--
    <span class="preview">The previous version keeps its version number and its approval history, but its status changes to "Withdrawn". For more information about version numbers and status, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-and-manage-document-versions-in-the-new-documents-area-in-preview).</span>

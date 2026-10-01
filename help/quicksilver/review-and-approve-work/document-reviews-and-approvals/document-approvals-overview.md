@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '4439'
+source-wordcount: '4466'
 ht-degree: 0%
 ---
 # 통합 검토 및 승인 개요
@@ -50,16 +50,18 @@ ht-degree: 0%
 
 ## Adobe 클라우드 스토리지 기반
 
-통합 검토 및 승인은 Adobe 및 Frame.io를 포함하여 Adobe 엔터프라이즈 제품 전반에 걸쳐 에셋의 중앙 저장소 역할을 하는 클라우드 기반 스토리지 솔루션인 Workfront 클라우드 스토리지를 기반으로 합니다. <!--, and Creative Cloud.-->
+통합 검토 및 승인은 Adobe, Frame.io 및 Creative Cloud을 포함하여 Adobe 엔터프라이즈 제품 전반에 걸쳐 에셋의 중앙 저장소 역할을 하는 클라우드 기반 스토리지 솔루션인 Workfront 클라우드 스토리지를 기반으로 합니다.
 
 Adobe 클라우드 스토리지의 주요 이점은 다음과 같습니다.
 
 * 크리에이티브 및 작업 관리 자산을 위한 통합 스토리지 레이어
 * 보안 액세스 제어를 위해 Adobe IMS(Identity Management system)를 사용한 중앙 집중식 권한
-* Workfront 및 Frame.io <!--, and Creative Cloud apps -->에서 전체 에셋 가시성
+* Workfront, Frame.io 및 Creative Cloud 앱 전반에서 자산 가시성 전체
 * 엔터프라이즈 요구 사항에 맞는 확장 가능한 스토리지 및 할당량 관리
 
 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하세요.
+
+Creative Cloud 앱(Photoshop, Illustrator 및 InDesign)도 Workfront 프로젝트에 직접 액세스할 수 있습니다. 자세한 내용은 [Adobe Creative Cloud 프로젝트 개요](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)를 참조하십시오.
 
 ## 통합 검토 및 승인
 
