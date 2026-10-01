@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1529'
 ht-degree: 5%
 ---
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
@@ -172,9 +172,9 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
 | 삭제 | ✓ |            |       |
 | 보기 | ✓ | ✓ | ✓ |
 
-<!--
-<span class="permissions">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
--->
+
+<span class="preview">위 표에 설명된 권한 외에도 작업 영역을 공유할 때 작업 영역의 소유자를 변경할 수도 있습니다. 자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md).</span>를 참조하십시오.
+
 
 ### 레코드 유형에 대한 권한
 

@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
 workflow-type: tm+mt
-source-wordcount: '2811'
+source-wordcount: '3020'
 ht-degree: 4%
 ---
 
@@ -316,7 +316,22 @@ Insights 도구는 Workfront 개체에 대한 정보를 검색합니다.
 | --- | --- | --- | --- |
 | <span class="preview">피드백 공유</span> | <span class="preview">`share_feedback`</span> | <span class="preview">보고된 감정 및 대화 중에 발생한 내용을 기록하여 Workfront의 MCP 도구를 개선할 수 있습니다. 명시적으로 피드백 공유를 요청할 때만 사용됩니다(예: &quot;피드백 공유&quot; 또는 &quot;버그 보고&quot;).</span> | <span class="preview">쓰기</span> |
 
+## 보고 도구
 
+보고 도구를 사용하면 채팅을 통해 캔버스 대시보드를 작성하고 관리할 수 있습니다. 원하는 보고서를 일반 언어로 설명하면 AI 에이전트 플랫폼이 Workfront 데이터를 사용하여 대시보드 및 위젯을 생성합니다.
+
+
+### 캔버스 대시보드
+
+| 제목 | 도구 이름 | 기능 | 액션 |
+| --- | --- | --- | --- |
+| 읽기 | `read` | 전달된 ID로 선택한 세 가지 모드로 보고 데이터를 읽습니다. 표시되는 대시보드를 나열하거나, 단일 대시보드 구조를 가져오거나, 한 위젯의 전체 구성을 가져옵니다. | 읽기 |
+| 대시보드 만들기 | `create_dashboard` | 비어 있는 새 보고 대시보드를 만들고 열기 위한 링크와 함께 반환합니다. | 쓰기 |
+| 대시보드 업데이트 | `update_dashboard` | 대시보드의 메타데이터, 프롬프트, 필터 및 위젯당 배치 등을 부분적으로 업데이트합니다. 생략된 필드는 변경되지 않습니다. | 쓰기 |
+| 위젯 만들기 | `create_widget` | 대시보드에서 위젯과 해당 보고서 구성을 만듭니다. 한 도구는 차트, KPI 및 테이블의 세 가지 위젯 유형을 모두 처리합니다. | 쓰기 |
+| 위젯 업데이트 | `update_widget` | 기존 위젯의 구성을 부분적으로 업데이트합니다. 위젯 유형은 자동으로 추론되므로 변경할 필드만 보냅니다. | 쓰기 |
+| 개체 복사 | `copy_object` | 위젯, 프롬프트 및 필터를 포함한 전체 대시보드를 새 대시보드에 복사하거나 대시보드 내 또는 여러 대시보드에서 단일 위젯을 복사합니다. | 쓰기 |
+| 개체 삭제 | `delete_object` | 보고 대시보드와 모든 해당 위젯 또는 단일 위젯을 영구적으로 삭제합니다. 이 작업은 실행 취소할 수 없습니다. | 쓰기 |
 
 ## 도구 업데이트 방법
 
@@ -329,5 +344,6 @@ Adobe이 Workfront MCP 서버의 새 버전을 출시하면 AI 에이전트 플�
 향후 Workfront MCP 서버에 다음 도구를 추가하기 위해 노력하고 있습니다.
 
 * 보드
+
 
 

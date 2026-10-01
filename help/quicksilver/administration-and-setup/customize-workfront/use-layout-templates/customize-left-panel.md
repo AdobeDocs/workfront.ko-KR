@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1262'
 ht-degree: 2%
 ---
 # 레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 정의
@@ -199,7 +199,7 @@ ht-degree: 2%
      <tr> 
        <td>[!UICONTROL 사용자 세부 사항]</td> 
        <td>사용자 이름</td> 
-       <td>[!UICONTROL 세부 사항], [!UICONTROL 조직 차트], [!UICONTROL 휴무], [!UICONTROL 사용자 지정 Forms], [!UICONTROL 비즈니스 프로필], [!UICONTROL 업데이트], [!UICONTROL 업무 균형자]</td> 
+       <td>[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer], [!UICONTROL Employment History]</td> 
      </tr>
      <tr> 
        <td>[!UICONTROL Rate Card]</td> 
@@ -237,6 +237,8 @@ ht-degree: 2%
 
    * 왼쪽 패널에서 섹션을 표시하거나 숨기려면 **표시** ![표시 아이콘](assets/add-secondary-nav-item.png) 또는 **숨기기** ![숨기기 아이콘](assets/delete-secondary-nav-item.png) 아이콘을 클릭합니다. **표시** 또는 **숨기기** 아이콘이 없는 항목은 숨길 수 없습니다.
 
+     모든 영역 또는 오브젝트 유형에는 왼쪽 패널에 하나 이상의 섹션이 있어야 합니다. 다른 모든 항목이 숨겨져 있으면 마지막 남은 항목을 숨길 수 없습니다.
+
    * 왼쪽 패널에서 순서를 변경하려면 ![이동 아이콘](assets/move-icon---dots.png)을 끕니다.
 
    >[!NOTE]
@@ -247,7 +249,7 @@ ht-degree: 2%
    >* [!UICONTROL 홈]
    >* [!UICONTROL 브랜딩]
    > 
-   >추가 영역을 사용자 지정하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
+   >이러한 추가 영역을 사용자 지정하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
    >
    >* [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [레이아웃 템플릿을 사용하여 [!UICONTROL 요약 패널 사용자 지정]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)

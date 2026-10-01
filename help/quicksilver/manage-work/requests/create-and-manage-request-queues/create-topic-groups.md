@@ -13,24 +13,31 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/7odH8kf-VPRXoOVlMEiX3dWFLTsDDuy-f4TJgHAUsk8
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '478'
 ht-degree: 4%
-
 ---
-
 # 주제 그룹 만들기
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -106,4 +113,5 @@ ht-degree: 4%
 1. **저장**&#x200B;을 클릭합니다.\
    이렇게 하면 요청 대기열에 새 주제 그룹이 만들어집니다. 이제 요청 대기열 아래의 첫 번째 드롭다운 메뉴에서 추가 범주를 선택할 수 있습니다.\
    요청 제출에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
-1. 기존 주제 그룹을 편집하려면 주제 그룹 목록에서 주제 그룹을 선택한 다음 열리는 창에서 세부 정보를 편집합니다. 변경 내용을 저장하려면 **저장**&#x200B;을 클릭하세요.
+
+1. 기존 주제 그룹을 편집하려면 주제 그룹 목록에서 주제 그룹을 선택하고 <span class="preview">화면 하단의 작업 표시줄에서 **편집**&#x200B;을 클릭한 다음</span>을 클릭하여 열리는 창에서 세부 정보를 편집합니다. 변경 내용을 저장하려면 **저장**&#x200B;을 클릭하세요.

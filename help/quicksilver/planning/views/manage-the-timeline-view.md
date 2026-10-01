@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '4584'
+source-wordcount: '5023'
 ht-degree: 1%
 ---
 # 타임라인 보기 관리
@@ -192,11 +192,16 @@ Old:
 
    ![타임라인 보기 예](assets/timeline-view-example.png)
 
-   선택한 레코드 유형과 연관된 레코드는 타임라인에 막대로 표시되며 기본적으로 시작 날짜의 시간순으로 정렬됩니다.
+   선택한 레코드 유형과 연관된 레코드는 타임라인에 막대로 표시되며 기본적으로 시작 날짜의 시간 순서대로 자동으로 정렬됩니다.
+
+   <!--
+    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
+    -->
+   <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
    >
-   >    타임라인에서 레코드 정렬이 약식 보기에 표시되지 않습니다.
+   >    타임라인에 있는 레코드의 자동 정렬은 작게 보기에 표시되지 않습니다.
 
 1. (조건부) 관리자가 사용자 정의 분기를 활성화한 경우 Workfront에서 사용자 정의 분기가 구성되는 방식과 관련된 문제를 감지하면 타임라인 보기를 열 때 경고를 받을 수 있습니다.
 
@@ -263,6 +268,14 @@ Old:
       화면에 표시되는 모든 단어 또는 특수 문자를 사용할 수 있습니다.
 
       타임라인 보기에 표시되지 않는 필드와 연결된 키워드는 사용할 수 없습니다.
+
+      <!--
+        this might change at the release of table lazy loading:
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
+      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
 
    1. 키보드에서 Enter 키를 눌러 다음 찾은 필드로 이동합니다.
    1. (선택 사항) 일치 항목이 두 개 이상 있는 경우 검색 키워드 오른쪽에 있는 위쪽 및 아래쪽 화살표를 클릭하여 테이블에서 모든 일치 항목을 찾습니다.
@@ -361,10 +374,10 @@ Old:
         </tr>
         <tr>
             <td>다중 선택, 사람</td>
-            <td><p>다음 중 하나 포함</p>
+            <td><p>다음 중 하나 포함</p> 또는 <span class="preview"><p>다음 중 하나</p></span>
             <p>다음을 모두 포함</p>
             <p>다음이 정확함</p>
-            <p>다음 중 어느 것도 포함하지 않음</p>
+            <p>다음 중 어느 것도 포함하지 않음</p> 또는 <span class="preview"><p>다음에 해당하지 않음</p></span>
             <p>비어 있음</p>
             <p>비어 있지 않음</p></td>
         </tr>
@@ -486,6 +499,16 @@ Old:
 
    그룹화가 즉시 적용됩니다.
 
+   <!--
+    <div class="preview">
+    *** Not sure which one will be released: 
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Continue to scroll to upload all records. 
+
+    OR
+
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
+    </div>
+    -->
 1. <span class="preview">(선택 사항) 도구 모음에서 **그룹화** 아이콘 ![그룹화 아이콘](assets/grouping-icon.png)을 클릭하여 **레코드 그룹화 기준** 상자를 연 다음 **모두 확장**&#x200B;을 클릭하여 모든 그룹화를 확장하거나 **모두 축소**&#x200B;를 클릭하여 모든 그룹화를 축소하고 필요한 항목만 수동으로 축소합니다. </span>
 1. <span class="preview">(선택 사항 및 조건부) 스윔레인 디스플레이에서 왼쪽 패널 구분 기호를 드래그하여 놓아 너비를 조정합니다. 각 사용자의 패널 너비는 세션 간에 저장되며 처음 사용하는 사용자의 기본 너비는 다음과 같습니다.</span>
 1. <span class="preview">(선택 사항) 긴 그룹화 이름의 경우 마우스를 그룹화 줄 위로 가져가면 도구 설명에 그룹화의 전체 이름을 볼 수 있습니다.</span>
@@ -504,50 +527,50 @@ Old:
    >한 그룹화에서 다른 그룹화로 레코드를 끌어다 놓으면 그룹화에서 선택한 필드가 이동된 레코드의 값을 자동으로 업데이트합니다.
 1. (선택 사항) **설정**&#x200B;을 클릭한 다음 **색상**&#x200B;을 클릭하여 색상 코드 그룹화합니다. 자세한 내용은 이 문서의 [타임라인 보기 설정 편집](#edit-the-timeline-view-settings) 섹션을 참조하십시오.
 
-<!--
-
 <div class="preview">
 
-### Add sort
+### 정렬 추가
 
-You can sort records and groupings in the timeline view. 
+타임라인 보기에서 레코드와 그룹화를 정렬할 수 있습니다.
 
-Consider the following when working with record sorting in the timeline view: 
+타임라인 보기에서 레코드 정렬을 사용할 때는 다음 사항을 고려하십시오.
 
-* You can apply sorting both in the table and timeline views. The sorting of the table view is independent from that in the timeline view of the same record type.
-* You can apply 10 sorting conditions for records and as many sorting conditions as you have groupings in the timeline view (you can have up to 3 groupings conditions in the timeline view). 
+* 테이블 및 타임라인 보기에서 정렬을 모두 적용할 수 있습니다. 테이블 뷰의 정렬은 동일한 레코드 유형의 타임라인 뷰의 정렬과 독립적입니다.
+* 레코드에 대한 정렬 조건 10개를 적용하고 타임라인 보기에 그룹화가 있는 만큼의 정렬 조건을 적용할 수 있습니다(타임라인 보기에 최대 3개의 그룹화 조건을 가질 수 있음).
 
-* The sortings are unique to the view that you select. Two timeline views of the same record type can have different sortings applied to them. Two users looking at the same timeline view see the same sorting that is currently applied. 
-* You cannot name the sorting you build for a timeline view.
-* Removing sorting removes it from anyone accessing the same record type as you and who displays the same view as you do. 
+* 정렬은 선택하는 보기에 고유합니다. 동일한 레코드 종류의 두 타임라인 보기에는 서로 다른 정렬이 적용될 수 있습니다. 동일한 타임라인 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 정렬이 표시됩니다.
+* 타임라인 보기에 대해 빌드하는 정렬의 이름을 지정할 수 없습니다.
+* 정렬을 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 정렬이 제거됩니다.
 
-* You can sort by connected record fields or lookup fields.  
+* 연결된 레코드 필드 또는 조회 필드를 기준으로 정렬할 수 있습니다.
 
-To add a sort in the timeline view:
+타임라인 보기에서 정렬을 추가하려면 다음을 수행합니다.
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Sort** in the view's toolbar. 
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
+1. 보기의 도구 모음에서 **정렬**&#x200B;을 클릭합니다.
 
-    The sorting box opens. 
+   정렬 상자가 열립니다.
 
-    ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
-1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
-1. Select the order you want the sorting to be applied (alphabetical, reverse descendent etc). The order a sorting is applied depends on the format of the field you selected. 
-1. (Optional) Click **Add condition** to add up to 10 conditions. 
-1. (Optional) Click **Clear all** to remove all conditions.
-1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 
+   ![그룹화가 있는 타임라인에서 정렬](assets/sort-in-timeline.png)
+1. 드롭다운 메뉴에서 **레코드 정렬**&#x200B;을(를) 선택한 다음 **제안된 필드로 시작** 목록에 나열된 필드를 클릭하거나 **다른 필드를 선택**&#x200B;한 다음 필드를 검색하여 목록에 표시되면 클릭합니다.
+1. 레코드 정렬을 적용할 방향(알파벳순, 하위 항목 역순 등)을 선택합니다. 정렬이 적용되는 방향은 선택한 필드의 형식에 따라 다릅니다.
+1. (선택 사항) **조건 추가**&#x200B;를 클릭하여 최대 10개의 조건을 추가합니다.
+1. (선택 사항) 모든 조건을 제거하려면 **모두 지우기**&#x200B;를 클릭합니다.
+1. 정렬 상자의 왼쪽 위 모서리에 있는 드롭다운 메뉴에서 **그룹화 정렬**&#x200B;을 선택합니다.
 
-    >[!TIP]
-    >
-    >If there are no groupings applied to the timeline view, the Sort groupings option is not available.
-1. To reorder the sorting order of the fields, click **Grouping** in the toolbar and reorder the groupings. Sorting field order also changes. 
-1. (Optional) To remove grouping sorting, remove the groupings from the timeline view. 
+   >[!TIP]
+   >
+   >타임라인 보기에 적용된 그룹화가 없으면 **그룹화 정렬** 옵션을 사용할 수 없습니다.
+1. (선택 사항) 그룹화 정렬을 적용할 방향(알파벳, 역/하위 등)을 선택합니다. 정렬이 적용되는 방향은 선택한 필드의 형식에 따라 다릅니다.
+1. (조건부) 기본값에서 정렬 방향을 수정한 경우 **모두 재설정**&#x200B;을 클릭하여 정렬 방향을 재설정합니다.
+1. 필드의 정렬 순서를 바꾸려면 도구 모음에서 **그룹화**&#x200B;를 클릭하고 그룹화 순서를 바꾸십시오. 정렬 필드 순서 또한 변경됩니다.
+1. (선택 사항) 그룹화 정렬을 제거하려면 타임라인 보기에서 그룹화를 제거합니다.
 
-    Sorting is applied immediately.
-1. Click anywhere on the page to close the sorting box. 
+   정렬이 즉시 적용됩니다.
+1. 페이지의 아무 곳이나 클릭하여 정렬 상자를 닫습니다.
 
 </div>
--->
+
 
 <!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
 

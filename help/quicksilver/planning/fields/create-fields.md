@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '5561'
+source-wordcount: '5636'
 ht-degree: 1%
 ---
 <!--
@@ -301,6 +301,17 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
     -->
 
 1. 아래 섹션에 설명된 대로 각 필드를 계속 추가합니다.
+1. (선택 사항 및 조건부) 필드를 추가한 후 테이블 보기 열 헤더의 필드 이름 위로 마우스를 가져간 후 **자세히** 드롭다운 메뉴를 클릭한 다음 **필드 편집**&#x200B;을 클릭하여 필드를 편집합니다.
+
+   자세한 내용은 [필드 편집](/help/quicksilver/planning/fields/edit-fields.md)을 참조하세요.
+1. (선택 사항 및 조건부) 필드를 추가한 후 테이블 보기 열 헤더의 필드 이름 위로 마우스를 가져간 후 **자세히** 드롭다운 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭하여 필드를 삭제합니다.
+
+   자세한 내용은 [필드 삭제](/help/quicksilver/planning/fields/delete-fields.md)를 참조하십시오.
+<!--
+1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
+
+    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
+-->
 
 1. <span class="preview">(선택 사항 및 조건부) 필드를 추가한 후 테이블 보기 열 헤더의 필드 이름 위로 마우스를 가져간 후 **자세히** 드롭다운 메뉴를 클릭한 다음 **필드 공유**&#x200B;를 클릭하여 필드를 공유합니다. </span>
 

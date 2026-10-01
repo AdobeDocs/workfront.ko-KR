@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '723'
 ht-degree: 6%
 ---
 # 레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -144,7 +146,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
      >
      > 사용자 정의 응용 프로그램은 별도로 만들어야 기본 메뉴 옵션으로 사용할 수 있습니다. 자세한 내용은 [Adobe App Builder을 사용하여 Workfront용 사용자 지정 응용 프로그램 만들기](/help/quicksilver/app-builder/app-builder.md)를 참조하십시오.
 
-1. 다음 <!-- for the **Native** items-->을(를) 수행합니다.
+1. **Native** 항목에 대해 다음 중 하나를 수행합니다.
 
    * 주 메뉴에 표시하지 않을 ![아이콘](assets/remove-icon---x-in-circle.png)을 숨깁니다.
    * 메인 메뉴에 표시할 ![아이콘](assets/add-icon-plus-in-circle.png)개 항목을 표시합니다.
@@ -152,7 +154,16 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
      >[!NOTE]
      >
-     >시스템 항목의 순서를 변경할 수 없습니다. 이러한 항목은 활성 상태일 때 항상 주 메뉴의 맨 아래에 표시됩니다.
+     >시스템 항목의 순서를 변경할 수 없습니다. 이러한 항목은 활성 상태일 때 항상 주 메뉴의 맨 아래에 표시됩니다. <!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
+
+<div class="preview">
+
+1. **System** 항목에 대해 다음 중 하나를 수행합니다.
+
+   * 주 메뉴에 표시하지 않을 ![아이콘](assets/remove-icon---x-in-circle.png)을 숨깁니다.
+   * 메인 메뉴에 표시할 ![아이콘](assets/add-icon-plus-in-circle.png)개 항목을 표시합니다.
+
+</div>
 
 1. **완료**&#x200B;를 클릭합니다.
 
@@ -166,17 +177,3 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
 레이아웃 템플릿에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
-<!--
-
-MOVE TO LINE 151 or thereabouts:
-
-<div class="preview">
-
-1. Do any of the following for the **System** items:
-
-   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
-   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
-
-</div>
-
--->

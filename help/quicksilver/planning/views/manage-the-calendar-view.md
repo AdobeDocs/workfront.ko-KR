@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 4%
+source-wordcount: '2010'
+ht-degree: 5%
 ---
 # 달력 보기 관리
 
@@ -287,10 +287,10 @@ Old:
         </tr>
         <tr>
             <td>다중 선택, 사람</td>
-            <td><p>다음 중 하나 포함</p>
+            <td><p>다음 중 하나 포함</p> 또는 <span class="preview"><p>다음 중 하나</p></span>
             <p>다음을 모두 포함</p>
             <p>다음이 정확함</p>
-            <p>다음 중 어느 것도 포함하지 않음</p>
+            <p>다음 중 어느 것도 포함하지 않음</p> 또는 <span class="preview"><p>다음 중 하나</p></span>
             <p>비어 있음</p>
             <p>비어 있지 않음</p></td>
         </tr>

@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e0951a7451bbf17dcca388eee841abddb1618a0b
 workflow-type: tm+mt
-source-wordcount: '4041'
+source-wordcount: '4233'
 ht-degree: 2%
 ---
 # 표 보기 관리
@@ -198,12 +198,10 @@ Old:
 <!--
 <div class="preview">
 
-* 500 records upload automatically. Additional records display as you scroll the view. 
+* 500 records upload by default. Additional records display as you scroll the view. 
 
 </div>
 -->
-
-기본적으로 500개의 레코드가 표시됨
 
 테이블 뷰를 관리하려면 다음을 수행합니다.
 
@@ -314,6 +312,7 @@ Old:
       테이블 보기에서 숨겨진 필드와 연결된 키워드는 사용할 수 없습니다.
 
       <!--
+        this might change at the release of table lazy loading:
         >[!TIP]
         >
         ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
@@ -325,19 +324,83 @@ Old:
 
    1. 검색 키워드를 지우려면 검색 상자에서 **x** 아이콘을 클릭합니다.
 
-1. 이러한 필드 유형으로 형식이 지정된 숫자, 통화, 백분율 및 공식 필드의 경우 열 하단의 집계 드롭다운 메뉴를 확장하고 다음 옵션 중에서 선택합니다.
 
-   * **SUM**: 열에 있는 모든 셀의 합계를 표시합니다. 이것이 기본 선택입니다.
-   * **MIN**: 열의 모든 셀에서 가장 낮은 값을 표시합니다.
-   * **MAX**: 열의 모든 셀에서 가장 높은 값을 표시합니다.
-   * **AVG**: 열에 있는 모든 셀의 평균 값을 표시합니다.
+1. (조건부) 보고 있는 필드 유형에 따라 다음 중 하나를 수행합니다.
+
+   * 이러한 필드 유형으로 형식이 지정된 숫자, 통화, 백분율 및 공식 필드의 경우 열 하단의 집계 드롭다운 메뉴를 확장하고 다음 옵션 중에서 선택합니다.
+
+     * **SUM**: 열에 있는 모든 셀의 합계를 표시합니다. 이것이 기본 선택입니다.
+     * **MIN**: 열의 모든 셀에서 가장 낮은 값을 표시합니다.
+     * **MAX**: 열의 모든 셀에서 가장 높은 값을 표시합니다.
+     * **AVG**: 열에 있는 모든 셀의 평균 값을 표시합니다.
+
+     <div class="preview">
+
+     * **없음**: 열의 값이 집계되지 않았습니다.기본 옵션입니다.
+
+     </div>
+
+   <div class="preview">
+
+   * 날짜 필드의 경우 열 하단에서 집계 드롭다운 메뉴를 확장하고 다음 옵션 중에서 선택합니다.
+
+     * **없음**: 열의 값이 집계되지 않았습니다.기본 옵션입니다.
+     * **EMPTY**: 값이 없는 필드 수를 표시합니다.
+     * **NOT EMPTY**: 값이 있는 필드 수를 표시합니다.
+     * **분**: 가장 빠른 날짜를 표시합니다.
+     * **MAX**: 최신 날짜를 표시합니다.
+
+   * 텍스트의 경우 를 선택하고, 부울을 선택한 다음, 사람 필드를 선택하면 열 하단에 있는 집계 드롭다운 메뉴가 확장됩니다. 그리고 다음 옵션 중에서 선택합니다.
+
+     * **없음**: 열의 값이 집계되지 않았습니다.기본 옵션입니다.
+     * **EMPTY**: 값이 없는 필드 수를 표시합니다.
+     * **NOT EMPTY**: 값이 있는 필드 수를 표시합니다.
+
+   </div>
 
    집계자를 사용할 때는 다음 사항을 고려하십시오.
 
-   * 열의 집계 행이 동결되고 보기 설정의 일부입니다.
+   * 열의 집계 행은 값을 표시할 때 고정되며 보기 설정의 일부입니다.
    * 보기 관리자는 합계를 선택할 수 있으며, 이 합계는 다른 사용자와 보기를 공유할 때 보기와 공유됩니다.
    * 뷰어는 집계를 수정할 수 있지만 보기와 함께 저장되지는 않습니다.
    * 공용 공유 보기는 수정할 수 없는 저장된 집계자와 공유됩니다.
+
+   <div class="preview">
+
+   * 다음 필드 유형에는 집계자가 없습니다.
+
+     * 생성한 사람
+     * 마지막 수정자
+     * 레코드 ID
+   * 공식 필드와 조회 필드에는 해당 필드 형식에 해당하는 집계자가 있습니다.
+
+   </div>
+
+<!--
+
+FROM LISA: This is the old section. I commented it out vs deleting.
+
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
+
+    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    
+    </div> 
+
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
+
+-->
 
 ### 행(또는 레코드) 추가 {#add-rows-1}
 
@@ -400,6 +463,7 @@ Old:
 
 표 보기에서 필터를 사용하여 작업할 때는 다음 사항을 고려하십시오.
 
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * 테이블 보기에 대해 만든 필터는 동일한 레코드 유형에 적용될 때 타임라인 보기의 필터와는 독립적으로 작동합니다.
@@ -455,10 +519,10 @@ Old:
         </tr>
         <tr>
             <td>다중 선택, 사람</td>
-            <td><p>다음 중 하나 포함</p>
+            <td><p>다음 중 하나 포함</p> 또는 <span class="preview"><p>다음 중 하나</p></span>
             <p>다음을 모두 포함</p>
             <p>다음이 정확함</p>
-            <p>다음 중 어느 것도 포함하지 않음</p>
+            <p>다음 중 어느 것도 포함하지 않음</p> 또는 <span class="preview"><p>다음에 해당하지 않음</p></span>
             <p>비어 있음</p>
             <p>비어 있지 않음</p></td>
         </tr>
@@ -615,7 +679,7 @@ Old:
 * 그룹화는 값의 알파벳 순서로 나열됩니다.
 
 <!--
-* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. More records might belong to the visible groupings but might not be loaded by default. Additional records are added to the page as you scroll.</span>
 -->
 
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
@@ -630,6 +694,14 @@ Old:
 1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;을 클릭하고 다른 필드를 검색한 다음 목록에 표시될 때 해당 필드를 클릭합니다.
 
    그룹화가 테이블에 자동으로 적용되며 그룹화 구분선 아래에 레코드가 표시됩니다.
+
+   <!--
+    <div class="preview">
+
+    500 records display by default. There might be more records that belong to the visible groupings that are not uploaded by default. Continue to scroll to upload all records. 
+
+    </div>
+    -->
 
 1. (선택 사항) **조건 추가**&#x200B;를 클릭하고 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
 
@@ -1195,9 +1267,5 @@ When you display the table view, you can also view which field another user is e
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 -->
-
-
-
-
 
 

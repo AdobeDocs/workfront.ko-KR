@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '912'
 ht-degree: 3%
 ---
 # 사용자에게 액세스 권한 부여
@@ -158,6 +158,10 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
      <tr> 
       <td role="rowheader"><strong>비용 요금 보기</strong> </td> 
       <td> 사용자가 사용자 프로필에 대한 비용 비율을 볼 수 있습니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>고용 내역 보기</strong> </td> 
+      <td> 사용자가 사용자 프로필의 고용 내역을 볼 수 있습니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>일반 재무 보기</strong> </td> 
