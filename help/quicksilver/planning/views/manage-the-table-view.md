@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: cc47859cfb1dc1946050ba679b2678ccb9408223
 workflow-type: tm+mt
-source-wordcount: '4045'
+source-wordcount: '3630'
 ht-degree: 2%
 ---
 # 표 보기 관리
@@ -331,10 +331,10 @@ Old:
    * **MAX**: 열의 모든 셀에서 가장 높은 값을 표시합니다.
    * **AVG**: 열에 있는 모든 셀의 평균 값을 표시합니다.
 
-   <!-- 
+   <!--    
     <div class="preview"> 
 
-    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    * **NONE**: The values of the column are not aggregated.This is the default option. 
     
     </div> 
     -->
@@ -398,69 +398,70 @@ At preview release, replace the last procedure step with this:
         * Record ID
     * Formula fields and look up fields have the aggregators that correspond to their field format. 
 
-    </div>
-    -->
+    </div> 
 
-### 행(또는 레코드) 추가 {#add-rows-1}
+### Add rows (or records) {#add-rows-1}
 
-테이블 뷰의 행에는 선택한 레코드 유형의 개별 레코드가 표시됩니다. 행을 추가하는 것은 레코드를 만드는 것과 같습니다.
+The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
 
-레코드 유형에 대해 최대 50,000개의 레코드(또는 행)를 가질 수 있습니다.
+You can have up to 50,000 records (or rows) for a record type. 
 
-1. 레코드 유형 페이지로 이동하여 테이블 보기를 선택하거나 **+ 보기**&#x200B;를 클릭하여 새 보기를 추가한 다음 **테이블**&#x200B;을 선택합니다.
+1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
 
-1. [레코드 만들기](/help/quicksilver/planning/records/create-records.md) 문서에 설명된 대로 레코드(또는 행)를 추가하기 시작합니다.
+1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
 
-   테이블 보기에서 추가하는 레코드는 즉시 저장되며 작업 공간에 대한 보기 이상의 권한이 있는 모든 사용자에게 표시됩니다.
+    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
 
-   기본 썸네일 이미지 <span class="preview">과(와) 색상</span>도 새 레코드에 추가됩니다.
+    A default thumbnail image <span class="preview">and color</span> are also added to the new record.
 
-   >[!TIP]
-   >
-   ><span class="preview">레코드에 읽지 않은 댓글이 있으면 **새 댓글** 표시기가 레코드의 기본 필드의 오른쪽 위에 표시됩니다.</span>
-   >
-   >![테이블 보기의 새 주석 아이콘](assets/new-comment-icon-in-table-view-highlighted.png)
+    >[!TIP]
+    >
+    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
+    >
+    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+    
+1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
 
-1. (선택 사항) 하나 이상의 레코드 또는 행을 선택한 다음 **handle** 아이콘 ![Handle 아이콘](assets/handle-icon.png)을(를) 레코드의 왼쪽으로 끌어다 놓아 행 순서를 변경합니다.
+    >[!NOTE]
+    >
+    >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
+    >
+    >The changes you make to the row order are visible to all users who access the record type in the same view. 
+    >
+    ><span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>
 
-   >[!NOTE]
-   >
-   >테이블 뷰에 하나 이상의 정렬 또는 그룹화를 적용하는 경우 행 순서를 변경할 수 없습니다.
-   >
-   >행 순서에 대한 변경 내용은 동일한 보기의 레코드 유형에 액세스하는 모든 사용자에게 표시됩니다.
-   >
-   ><span class="preview">끌어서 놓기 줄에서 선택한 레코드 수가 두 개 이상인 경우 숫자 표시기가 표시됩니다. </span>
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
+1. Click **Fields** at the top of the table in the Production environment
 
-1. (선택 사항) 레코드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **썸네일 편집**&#x200B;을 클릭하여 썸네일을 편집합니다.
-1. 프로덕션 환경에서 표 상단의 **필드**&#x200B;를 클릭합니다
+    Or 
+    
+    <span class="preview">Hover over the primary field header</span>, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
 
-   또는
+    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-   <span class="preview">기본 필드 머리글</span> 위로 마우스를 가져간 다음 **썸네일** 필드에 대한 토글을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다.
+1. <span class="preview">Click **Fields** at the top of the table</span>
+   
+   Or 
+   <span class="preview">Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. </span>
 
-   자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
-
-1. <span class="preview">표 상단의 **필드**&#x200B;를 클릭합니다</span>
-
-   또는
-   <span class="preview">기본 필드 머리글 위로 마우스를 가져간 다음 **색상** 필드에 대한 토글을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다. </span>
-
-1. <span class="preview">(선택 사항 및 조건부) **색상** 설정을 켜면 레코드의 기본 필드 왼쪽에 있는 색상 막대를 클릭하고 **색상 견본** 또는 **사용자 지정** 탭에서 색상을 선택한 다음 상자 바깥쪽을 클릭하여 닫습니다. 색상이 즉시 적용됩니다.</span>
+1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
 
 <div class="preview">
 
-![색상 코딩 색상 선택기 상자 기록](assets/color-picker-for-record-color-coding.png)
+![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
 
-자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
+For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
 </div>
 
 
-### 필터 추가 {#add-filters-1}
+### Add filters {#add-filters-1}
 
-필터는 화면에 표시되는 정보의 양을 줄이는 데 도움이 됩니다.
+Filters help you reduce the amount of information displayed on the screen.
 
-표 보기에서 필터를 사용하여 작업할 때는 다음 사항을 고려하십시오.
+Consider the following when working with filters in the table view: 
+
+-->
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -666,7 +667,7 @@ At preview release, replace the last procedure step with this:
 
 * 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
 * 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —지금 이 항목을 확인하고 &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —지금 이 항목을 확인하고 ******************—>
 * 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
 * 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
