@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2d1619fde79a80c016c7c963614fd4f7ba63035b
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1539'
 ht-degree: 7%
 ---
 # 시스템 환경 설정 구성
@@ -226,7 +226,9 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
 
 <div class="preview">
 
-승인된 리디렉션 URL을 사용하면 OAuth 콜백 URL이 조직에 고유한 사용자 정의 AI 에이전트 플랫폼(예: 연결 또는 테넌트 ID가 포함된 URL)에 연결할 수 있습니다. 필요한 시기에 대한 자세한 내용은 [Adobe Workfront MCP 서버 구성](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)에서 [OAuth와 연결](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth)을 참조하십시오.
+승인된 리디렉션 URL을 사용하면 연결 또는 테넌트 ID가 포함된 URL과 같이 OAuth 콜백 URL이 조직에 고유한 사용자 지정 AI 에이전트 플랫폼을 연결할 수 있습니다.
+
+승인된 리디렉션 URL이 필요한 경우에 대한 자세한 내용은 [Adobe Workfront MCP 서버 구성](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)에서 [OAuth와 연결](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth)을 참조하십시오.
 
 +++ 를 확장하여 MCP에 대해 승인된 리디렉션 URL을 관리하는 단계별 지침을 봅니다.
 
@@ -238,12 +240,11 @@ URL을 추가하려면:
 1. 콜백 **URL**&#x200B;을(를) 입력하십시오.
 1. **추가를 클릭합니다**.
 1. **저장**&#x200B;을 클릭합니다.
+1. URL을 제거하려면 **URL 관리**&#x200B;를 열고 항목을 제거한 다음 **저장**&#x200B;을 클릭하세요. 이는 연관된 통합이 중단되거나 손상될 때 필요할 수 있습니다.
 
 >[!IMPORTANT]
 >
 >콜백 URL은 정확히 일치해야 합니다. Workfront은 사용자 지정 콜백 URL에 대해 와일드카드 또는 접두사 일치를 지원하지 않습니다.
-
-URL을 제거하려면(예: 연결된 통합이 중단되거나 손상된 경우) **URL 관리**&#x200B;를 열고 항목을 제거한 다음 **저장**&#x200B;을 클릭합니다.
 
 +++
 
