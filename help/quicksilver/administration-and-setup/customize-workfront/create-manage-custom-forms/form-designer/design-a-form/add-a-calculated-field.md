@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2735'
 ht-degree: 1%
 ---
 # 양식에 계산된 필드 추가
@@ -103,8 +103,8 @@ ht-degree: 1%
 >
 >계산된 표현식을 변경하면 개체의 필드 값이 오래된 값이 될 수 있습니다. 이러한 필드에서 항상 최신 계산을 보려면 다음 중 하나를 수행합니다.
 >
->* 첨부된 사용자 정의 양식에서 데이터를 편집한 개체를 저장한 후 개체의 기본 페이지에서 자세히 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 사용자 정의 표현식을 다시 계산합니다.
->* 개체를 일괄 편집할 때 [사용자 정의 표현식 다시 계산] 옵션을 선택합니다.
+>* 첨부된 사용자 정의 양식에서 데이터를 편집한 개체를 저장한 후 개체의 기본 페이지에서 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **사용자 정의 표현식을 다시 계산**&#x200B;합니다.
+>* 개체를 일괄 편집할 때 **사용자 지정 표현식 다시 계산** 옵션을 선택하십시오.
 >* 사용자 정의 양식에서 계산된 사용자 정의 필드를 편집할 때 이전 계산 업데이트 옵션을 선택합니다.
 
 기존의 계산된 사용자 정의 필드를 재사용하려면 다음을 수행합니다.
@@ -209,7 +209,7 @@ ht-degree: 1%
    </table>
 
 1. **계산** 상자에서 계산 빌드를 시작합니다.
-   1. **최대화**&#x200B;를 클릭하여 계산 편집기를 열고 계산을 빌드합니다.
+   1. **최대화**를 클릭하여 계산 편집기를 열고 계산을 빌드합니다.
       일반적으로 계산은 표현식으로 시작하며, 그 뒤에는 사용자 정의 양식을 오브젝트에 첨부할 때 참조할 필드를 포함하는 괄호가 옵니다.
 
       각 필드는 중괄호로 묶어야 합니다. 필드 이름을 입력할 때 시스템에서 제안을 하며 이를 선택하여 계산에 삽입할 수 있습니다.
@@ -334,18 +334,19 @@ ht-degree: 1%
       >
       >다음 중 원하는 작업을 수행하여 계산에 도움을 받을 수 있습니다.
       > 
-      >* 계산에서 식 위로 마우스를 가져가면 설명, 사용 방법을 보여 주는 예제 및 문서 [계산된 데이터 식의 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)에서 자세한 정보로 연결되는 **자세히 알아보기** 링크를 볼 수 있습니다.
-      >  ![식 도움말 텍스트](assets/hover-expression-help-text.jpg)
+      >* 계산에서 표현식 위로 마우스를 가져가 설명 및 사용 방법을 보여주는 예를 확인합니다. <!--and a **Learn More** link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).-->
+      >  ![식 도움말 텍스트](assets/hover-expression-help-text.png)
       >* 색상 코딩을 사용하여 추가한 구성 요소를 식별합니다. 표현식은 파란색으로 표시되고 필드는 녹색으로 표시됩니다.
-      >  ![필드 식의 색](assets/colors-fields-expressions.jpg)
-      >* 가면서 분홍색으로 강조 표시된 계산 오류를 찾습니다. 강조 표시된 오류 위로 마우스를 가져가 원인에 대한 간단한 설명을 표시할 수 있습니다.
+      >  ![필드 식의 색](assets/colors-fields-expressions.png)
+      >* 가면서 빨간색으로 밑줄이 그어진 계산 오류를 찾아라. 강조 표시된 오류 위로 마우스를 가져가 원인에 대한 간단한 설명을 표시할 수 있습니다.
       >  ![오류 도움말](assets/error-help.png)
       >* 계산 아래 영역에서 기존 Workfront 객체에서 결과를 미리 봅니다.
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![계산 미리 보기](assets/preview-calc.jpg)
+      >  ![계산 미리 보기](assets/preview-calc.png)
       >* 왼쪽에 표시되는 줄 번호를 사용하여 긴 계산에서 참조 표현식입니다.
 
       +++
+
    1. 계산된 사용자 지정 필드에 대한 계산 만들기를 마치면 **최소화**&#x200B;를 클릭합니다.
 
    1. (선택 사항) 다음 옵션 중 하나를 사용하여 계산된 사용자 정의 필드를 추가로 구성합니다.
@@ -356,7 +357,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">논리 추가</td> 
-      <td>표시 논리를 추가하여 사용자가 양식을 채울 때 이전 다중 선택 필드(드롭다운, 확인란 또는 라디오 버튼)에서 선택한 하나 이상의 항목을 기반으로 계산된 필드가 표시되는지 여부를 결정할 수 있습니다. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>적어도 하나의 확인란, 라디오 버튼 또는 드롭다운 필드가 양식의 계산된 사용자 지정 필드 앞에 오는 경우에만 사용할 수 있습니다. </p> <p>계산된 사용자 정의 필드에는 건너뛰기 논리를 사용할 수 없습니다.</p> </td> 
+      <td>표시 논리를 추가하여 사용자가 양식을 채울 때 이전 다중 선택 필드(드롭다운, 확인란 또는 라디오 버튼)에서 선택한 하나 이상의 항목을 기반으로 계산된 필드가 표시되는지 여부를 결정할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">사용자 정의 양식 및 필드에 논리 규칙 추가</a>를 참조하십시오. <p>적어도 하나의 확인란, 라디오 버튼 또는 드롭다운 필드가 양식의 계산된 사용자 지정 필드 앞에 오는 경우에만 사용할 수 있습니다. </p> <p>계산된 사용자 정의 필드에는 건너뛰기 논리 및 기타 논리 유형을 사용할 수 없습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">이전 계산 업데이트</td> 
