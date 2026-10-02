@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '2383'
 ht-degree: 0%
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 0%
 
 Workfront MCP 서버는 AI 에이전트 플랫폼이 사용자를 대신하여 호출하는 도구 세트를 노출합니다. 예를 들어 Workfront을 검색하고, 항목을 만들고, 필드를 업데이트하고, 승인을 관리하는 도구입니다. 전체 참조 목록은 [Adobe Workfront MCP 서버 도구](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)를 참조하십시오.
 
+도구 가용성은 Workfront 액세스 수준, 개체 권한 및 MCP 관리 컨트롤 외에도 조직의 제품 권한에 따라 다릅니다.
+
 >[!IMPORTANT]
 >
 >AI 에이전트 플랫폼을 Workfront에 연결하면 Workfront 계정 및 권한을 사용하여 Workfront에서 작동합니다. 플랫폼의 작업은 Workfront 인터페이스에서 직접 수행하는 작업과 동일한 효과를 갖습니다.<br>
@@ -42,6 +44,29 @@ Workfront MCP 서버는 AI 에이전트 플랫폼이 사용자를 대신하여 �
 >
 >AI 에이전트 플랫폼에서 요청을 진행하도록 하기 전에 특히 데이터를 변경하거나 삭제하는 작업의 의도를 이해하는지 확인하십시오.
 
+## 제품 사용 권한이 사용 가능한 도구에 미치는 영향
+
+Workfront MCP 서버는 귀사에서 사용할 권한이 있는 도구만 표시합니다.
+
+다음 시나리오가 적용됩니다.
+
+* 조직에 Workfront Planning만 있는 경우 AI 에이전트 플랫폼에는 Planning 도구가 표시되지만 Workflow 도구는 표시되지 않습니다.
+* 조직에 Workfront 워크플로우만 있는 경우 AI 에이전트 플랫폼에는 워크플로우 도구가 표시되지만 계획 도구는 표시되지 않습니다.
+* 조직에 Workfront Workflow와 Workfront Planning이 모두 있는 경우, AI 에이전트 플랫폼에는 두 가지 도구 세트가 모두 표시됩니다.
+* 인사이트 및 컨텍스트 도구는 모든 고객이 사용할 수 있습니다.
+
+조직의 권한에 대해 도구를 사용할 수 없는 경우 해당 연결에 대한 도구 목록에 표시되지 않습니다. AI 에이전트 플랫폼이 어쨌든 해당 도구를 직접 호출하려고 하면 요청이 차단되고 자격 관련 오류가 반환됩니다.
+
+에이전트 빌더 및 고급 사용자의 경우 다음 사항에 유의하십시오.
+
+* 사용 가능한 도구 목록은 고객마다 다를 수 있습니다.
+* 연결이 시작되면 도구 목록이 설정됩니다.
+* 고객의 권한이 변경되면 다음에 고객이 Workfront MCP 서버에 새 연결을 시작할 때 업데이트된 도구 목록이 표시됩니다.
+
+>[!NOTE]
+>
+>Workfront Workflow는 현재 MCP 도구 가용성의 기준 제품 영역으로 취급됩니다. 계획 도구는 권한별로 필터링됩니다. 현재 승인 도구에 자격 제한이 없습니다.
+
 
 ## 질문 사항의 예
 
@@ -49,7 +74,7 @@ Workfront MCP 서버는 AI 에이전트 플랫폼이 사용자를 대신하여 �
 
 >[!NOTE]
 >
->Workfront 설정 영역의 관리자 제어로 인해 일부 작업을 사용할 수 없을 수도 있습니다. 예를 들어 Workfront 관리자가 MCP 서버에 대한 쓰기 작업을 비활성화한 경우 항목을 만들 수 없습니다.
+>Workfront 설정 영역의 관리자 제어로 인해 또는 조직에 관련 제품 영역에 대한 권한이 없기 때문에 일부 작업을 사용할 수 없을 수도 있습니다. 예를 들어 Workfront 관리자가 MCP 서버에 대한 쓰기 작업을 비활성화한 경우 항목을 만들 수 없거나, 조직에 Workfront Planning 라이센스가 없는 경우 Planning 도구가 표시되지 않을 수 있습니다.
 
 
 ### 작업 찾기 및 보기
@@ -180,6 +205,7 @@ Workfront은 AI 아젠틱 플랫폼 공급자가 Workfront 데이터를 처리�
 | Workfront에서 방금 변경한 데이터가 아직 표시되지 않습니다. | 인사이트 데이터는 거의 실시간으로, 최대 약 15분의 SLA이 제공됩니다. | 몇 분 정도 기다린 후 다시 요청하거나 Workfront에서 직접 확인합니다. |
 | AI 에이전트 플랫폼이 잘못된 Workfront 항목에서 데이터를 반환했습니다. | AI 아젠틱 플랫폼이 모호한 문구를 바탕으로 잘못된 항목을 골랐다. | 더 구체적인 이름, ID 또는 필터를 사용하여 다시 질문합니다. |
 | 업데이트 또는 삭제가 Workfront에서 적용되지 않았습니다. | Workfront 관리자가 Workfront MCP 서버에 대한 쓰기 작업을 비활성화했거나 특정 항목에 대한 작업을 수행할 수 있는 권한이 없습니다. | 작업이 실행되었는지 AI 에이전트 플랫폼에 확인합니다. 그런 다음 Workfront MCP 서버에 대해 쓰기 작업이 활성화되어 있는지, 그리고 항목을 변경할 권한이 있는지 확인합니다. |
+| 다른 고객이 사용할 수 있는 도구가 표시되지 않습니다. | 해당 제품 영역에 대한 권한이 조직에 없거나 권한 변경이 적용되기 전에 연결을 시작했습니다. | 조직에서 라이선스가 부여된 Workfront 제품을 확인합니다. 최근 자격이 변경된 경우 새 MCP 연결을 시작하고 도구 목록을 다시 확인합니다. |
 
 설정 및 인증 문제에 대한 자세한 내용은 [Adobe Workfront MCP 서버 구성](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)에서 [설정 및 인증 문제 해결](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication)을 참조하십시오.
 
@@ -269,6 +295,12 @@ AI 아젠틱 플랫폼을 제공하는 사람이 대화 방식을 제어합니�
 ### 새로운 버전의 Workfront MCP 서버가 릴리스되면 어떻게 됩니까?
 
 MCP 서버는 일반적으로 자동으로 업데이트되지만 최신 도구 및 기능을 보려면 MCP 서버와의 연결을 때때로 새로 고쳐야 할 수 있습니다.
+
+### 다른 고객이 보는 것과 동일한 MCP 도구가 왜 표시되지 않습니까?
+
+Workfront MCP 서버는 제품 이용 권한에 따라 일부 도구를 필터링하므로 사용 가능한 MCP 도구는 고객마다 다를 수 있습니다. 예를 들어 Workfront Planning에 대해 라이선스가 부여된 고객은 Planning 도구를 볼 수 있지만 해당 권한이 없는 고객은 볼 수 없습니다. Workfront Workflow 라이선스가 부여된 고객은 워크플로 도구를 볼 수 있습니다.
+
+연결이 시작될 때 도구 목록이 설정됩니다. 조직의 권한이 변경되면 새 연결을 시작하여 업데이트된 목록을 보십시오.
 
 ### Workfront 인스턴스가 Adobe IMS(Identity Management System)에서 활성화되지 않은 경우 Workfront MCP 서버를 사용할 수 있습니까?
 
