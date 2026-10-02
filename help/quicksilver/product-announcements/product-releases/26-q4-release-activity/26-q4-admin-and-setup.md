@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 6fb8df06a03ba2189c16585ffb2844f484f4ca1d
+source-git-commit: 4dc9ef8ad7c6314d4c9c331ed25760ad0343d9ff
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1674'
 ht-degree: 0%
 ---
 # 2026년 4분기 관리자 개선 사항
@@ -95,7 +95,7 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 * 지정한 기준별 필터링을 포함하여 새 이벤트 구독을 만듭니다.
 * 이벤트 구독을 삭제합니다.
 
-<!--ADD LINK WHEN READY-->
+자세한 내용은 [Workfront에서 이벤트 구독 구성](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)을 참조하십시오.
 
 
 ## MCP 통합을 위한 승인된 리디렉션 URL 추가
