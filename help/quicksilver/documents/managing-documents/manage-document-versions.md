@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1162'
 ht-degree: 1%
 ---
 # 문서 버전 관리
@@ -240,3 +240,11 @@ Workfront은 Frame.io의 버전 번호와 일치하도록 업로드한 순서대
    >버전을 삭제해도 다른 버전의 번호는 변경되지 않습니다. 예를 들어 버전 V1에서 V5까지의 문서에서 V3을 삭제하면 나머지 버전은 원래 번호를 유지하고 이후에 V3이 없습니다. 업로드하는 다음 버전은 V6이 됩니다.
 
 </div>
+
+### 승인 중 현재 파일 보기
+
+문서가 Creative Cloud 파일(예: Photoshop 클라우드 문서)이고 승인이 진행 중일 때 누군가가 문서를 편집하는 경우, Workfront은 승인 중인 버전과 별도로 라이브 문서에 새 업데이트가 있음을 나타내는 배지와 함께 **현재 파일** 섹션을 표시합니다.
+
+>[!IMPORTANT]
+>
+>**질문 열기:** 현재 파일 섹션이 처음 나타나는 경우에만 영구적으로 표시됩니까? 또는 실시간 문서에 검토되지 않은 업데이트가 있는 경우에만 표시됩니까? 게시하기 전에 제품과 함께 확인하십시오.

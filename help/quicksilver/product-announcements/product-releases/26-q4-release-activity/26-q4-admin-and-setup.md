@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 6fb8df06a03ba2189c16585ffb2844f484f4ca1d
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1666'
 ht-degree: 0%
 ---
 # 2026년 4분기 관리자 개선 사항
@@ -23,6 +23,80 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 4분기 릴리스의 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
+
+## AI를 사용하여 사용자 정의 지역화 생성
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 1일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+사용자 정의 용어 및 필드 레이블을 번역하는 시간을 절약할 수 있도록 사용자 정의 지역화를 위한 AI 번역을 생성하는 기능을 추가했습니다. 이제 Workfront 관리자는 AI를 사용하여 번역되지 않은 사용자 정의 텍스트에 대한 번역을 생성하거나 이전에 현지화된 용어에 대한 추가 언어 번역본을 입력한 다음 저장하기 전에 결과를 검토하고 조정할 수 있습니다.
+
+자세한 내용은 [사용자 지정 지역화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)을 참조하십시오.
+
+<!--
+
+## Grant access to MCP Tools
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+To make it easier to control secure access to Workfront data, we've added the ability for administrators to configure MCP Tools permissions by access level. Now, you can configure actions a given access level can take through the Workfront MCP.
+
+* No access
+* Read
+* Create
+* Update / Delete
+
+You can edit this access when editing a specific access level, or edit access to MCP tools for multiple access levels at once.
+
+For more information, see [Grant access to MCP Tools](help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-mcp-tools.md).
+
+-->
+
+## 레이아웃 템플릿 개선 사항
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 1일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+레이아웃 템플릿에 대한 몇 가지 개선 사항이 생성되었습니다.
+
+* 시스템 및 그룹 관리자는 레이아웃 템플릿 내의 메인 메뉴에서 시스템 항목을 숨기거나 표시하도록 선택할 수 있습니다. 시스템 항목에는 설정 및 도움말 버튼이 포함됩니다.
+* 이제 기본 Workfront 메뉴 옵션을 사용하여 사용자 정의 응용 프로그램을 임의의 순서로 재배치할 수 있습니다. 이를 통해 각 애플리케이션을 가장 관련성이 높은 위치에 배치할 수 있습니다. 이전에는 사용자 지정 응용 프로그램이 레이아웃 템플릿의 기본 메뉴 옵션에서 항상 마지막 항목이어서 위치를 변경할 수 없었습니다.
+* 이제 왼쪽 탐색 패널에서 오브젝트의 세부 정보 페이지를 숨길 수 있습니다. 객체에는 왼쪽 패널에 표시되는 항목이 하나 이상 있어야 합니다. 다른 모든 항목이 숨겨져 있으면 마지막 남은 항목을 숨길 수 없습니다.
+
+자세한 내용은 [레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) 및[레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)을 참조하십시오.
+
+## 사용자 정의 양식 디자이너의 필드 선택 사항을 업데이트하는 경험이 개선되었습니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 1일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 양식 디자이너에서 드롭다운 필드, 라디오 단추 및 확인란을 사용하여 작업할 때 단일 대화 상자에서 필드 선택 사항을 추가, 편집 및 삭제할 수 있습니다. 이전에는 디자이너의 오른쪽 패널에서 선택 항목을 추가 및 편집했으며, 긴 선택 항목 목록을 만들 경우 공간이 많지 않았습니다.
+
+자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)를 참조하십시오.
+
+## Workfront 인터페이스 내에서 이벤트 구독 만들기 및 관리
+
+조직의 이벤트 구독을 더 쉽게 만들고 관리할 수 있도록 이벤트 구독 영역을 설정에 추가했습니다. 이제 다음과 같은 작업을 수행할 수 있습니다.
+
+* 기존 이벤트 구독 목록 보기:
+* 지정한 기준별 필터링을 포함하여 새 이벤트 구독을 만듭니다.
+* 이벤트 구독을 삭제합니다.
+
+<!--ADD LINK WHEN READY-->
+
 
 ## MCP 통합을 위한 승인된 리디렉션 URL 추가
 
@@ -85,22 +159,6 @@ For information, see [Configure system updates](/help/quicksilver/administration
 사용자 정의 주가 Workfront에 표시되지 않습니다. 이 보고서는 Workfront Planning 타임라인 보기에서만 볼 수 있습니다.
 
 자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
-
-## 메인 메뉴에서 사용자 정의 응용 프로그램 순서 바꾸기
-
->[!NOTE]
->
->미리 보기: 2026년 9월 3일
->프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
->
->이 기능은 2026년 9월 14일에 미리보기 환경에서 일시적으로 제거되었습니다.
-
-이제 레이아웃 템플릿에서 작업할 때 기본 Workfront 메뉴 옵션을 사용하여 사용자 정의 애플리케이션을 임의의 순서로 재배치할 수 있습니다. 이를 통해 각 애플리케이션을 가장 관련성이 높은 위치에 배치할 수 있습니다.
-
-이전에는 사용자 지정 응용 프로그램이 레이아웃 템플릿의 기본 메뉴 옵션에서 항상 마지막 항목이어서 위치를 변경할 수 없었습니다.
-
-사용자 지정 응용 프로그램을 주 메뉴에 추가하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 주 메뉴 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하십시오.
 
 ## 사용자 정의 문서 통합을 위한 대용량 파일 지원
 

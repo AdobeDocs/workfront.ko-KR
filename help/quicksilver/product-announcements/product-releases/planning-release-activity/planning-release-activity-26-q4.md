@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: a51e0a56d4a45794b2d9d1097ec14ff46a6b3065
 workflow-type: tm+mt
-source-wordcount: '2783'
+source-wordcount: '3139'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
@@ -28,6 +28,86 @@ ht-degree: 0%
 이 문서에서는 2026년 4분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+<!--
+
+## See the total record count in table views
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
+
+The record count always reflects your full filtered results, not just the rows on screen, and respects your permissions so you only count records you can access.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+-->
+
+## 다중 값 필드에 대한 더 명확한 필터 연산자 레이블
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 1일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+모든 계획 보기의 다중 값 필터 연산자가 &quot;다음 중 하나 이상의 항목 있음&quot; 및 &quot;다음 중 하나 이상의 항목 없음&quot; 대신 &quot;다음 중 하나 이상 없음&quot; 및 &quot;다음 중 하나 없음&quot;으로 업데이트되어 Workfront 필터 빌더에서 보다 명확하고 일관된 단어를 제공합니다.
+
+레이블 전용 업데이트입니다. 기존 필터가 자동으로 마이그레이션되고 이전과 동일하게 계속 작동합니다.
+
+변경 사항은 모든 Planning 보기에 있는 필터에 표시됩니다. 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
+
+## 테이블 보기에서 숫자가 아닌 필드에 대한 집계자 추가
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 1일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+테이블 보기의 추가 필드 유형에 대한 집계자를 도입했습니다. 이 개선 이전에는 열 하단에 숫자 관련 필드만 집계자가 표시되었습니다.
+
+집계자는 필드 유형에 따라 다릅니다.
+
+* 텍스트, 선택, 확인란 및 사용자 필드: 없음, 비어 있음, 비어 있지 않음
+* 날짜 필드: 없음, MAX, 최소
+* 공식 필드: 해당 형식에 해당하는 집계자
+
+숫자 관련 필드 유형에 NONE을 추가했습니다. NONE은 모든 필드 유형의 기본값입니다.
+
+작성자, 마지막 수정자 및 레코드 ID 시스템 필드에 대한 집계자는 지원되지 않습니다.
+
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
+
+## 작업 영역 소유자 변경
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 1일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+Workspace 작성자는 현재 기본 소유자로 할당되어 있습니다. 이 업데이트를 통해 작업 공간 관리자는 공유 대화 상자에서 다른 표준 라이선스 사용자에게 소유권을 이전할 수 있습니다.
+
+새 소유자는 공유 목록 및 계획 홈에서 작업 공간 소유자로 강조 표시되고, 이전 소유자는 작업 공간에 대한 관리 액세스 권한을 유지합니다.
+
+자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
+
+## 타임라인 보기에서 레코드 및 그룹화 정렬
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 1일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 타임라인 보기에서 레코드와 그룹화를 정렬할 수 있습니다. 이 기능이 향상되기 전에는 이 기능을 사용할 수 없었습니다.
+
+자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
 
 ## Workfront Planning에서 필드 공유
 
@@ -120,7 +200,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 이제 CX Coworker을 Workfront Planning 내에서 사용할 수 있습니다. 이제 Workfront Planning 전체에서 사용할 수 있는 패널에서 CX Coworker에 액세스할 수 있습니다.
 
-CX Coworker Chat 은 작업 완료를 위한 대화 인터페이스입니다. 목표를 일반 언어로 설명하면 동료가 작업을 계획하고 Workfront Planning 및 연결된 Adobe 시스템에서 작업을 실행하고 결과를 확인한 다음 완료된 작업을 다시 사용자에게 제출하여 승인을 받습니다.
+CX Coworker 채팅은 작업을 완료하기 위한 대화 인터페이스입니다. 목표를 일반 언어로 설명하면 동료가 작업을 계획하고 Workfront Planning 및 연결된 Adobe 시스템에서 작업을 실행하고 결과를 확인한 다음 완료된 작업을 다시 사용자에게 제출하여 승인을 받습니다.
 
 동료는 기본적으로 읽기 전용 액세스 권한을 가진 조직의 기존 액세스 제어를 준수하며 시스템 관리자는 사용자가 쓰기 액세스 권한을 받을 때 제어합니다.
 
@@ -128,7 +208,7 @@ CX Coworker Chat 은 작업 완료를 위한 대화 인터페이스입니다. �
 
 >[!IMPORTANT]
 >
->CX Coworker 는 현재 의료 서비스, 금융 기관 또는 중요한 데이터가 있는 기타 업계 조직에서 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 계속 사용할 수 있습니다.
+>현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 계속 사용할 수 있습니다.
 
 자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
@@ -147,7 +227,7 @@ Workfront에서 Adobe CX Coworker이 출시될 준비를 위해 세부 정보 �
 
 >[!IMPORTANT]
 >
->CX Coworker 는 현재 의료 서비스, 금융 기관 또는 중요한 데이터가 있는 기타 업계 조직에서 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 계속 사용할 수 있습니다.
+>현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 계속 사용할 수 있습니다.
 
 자세한 내용은 Workfront의 [CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)를 참조하십시오.
 

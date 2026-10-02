@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3599b27bb1b838ebe7d0a2648e6c67333da83dc8
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 4%
+source-wordcount: '1434'
+ht-degree: 2%
 ---
 # 2026년 4분기 보고 개선 사항
 
@@ -24,23 +24,99 @@ ht-degree: 4%
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
 
-<!--
-
-## Filter on collection relationships in Canvas Dashboards
+## 이제 Google Cloud Platform 및 Microsoft Azure에서 캔버스 대시보드를 사용할 수 있습니다
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>미리보기: 해당 사항 없음
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
-When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
+GCP(Google Cloud Platform) 및 Azure의 Workfront 인스턴스는 이제 Canvas Dashboards 열기 베타를 옵트인할 수 있습니다. 자세한 내용은 [캔버스 대시보드 사용](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)을 참조하세요.
 
-Previously, filtering on collection relationships required text mode.
+## Workfront Data Connect에 대한 Snowflake 개인 목록 등록
 
-For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+>[!NOTE]
+>
+>미리보기: 해당 사항 없음
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
--->
+이제 비공개 목록을 등록하여 Workfront Data Connect 데이터를 조직의 Snowflake 계정과 직접 공유할 수 있습니다. 이 연결 방법은 Snowflake의 비공개 목록 기능을 사용하여 데이터를 공개적으로 노출하지 않고 조직 간에 안전하게 공유하며 지역 및 호스팅 플랫폼에서 작동합니다.
+
+비공개 목록은 Workfront 데이터를 엔터프라이즈 데이터 웨어하우스의 다른 데이터와 결합하려는 경우 유용합니다. 데이터가 고유한 Snowflake 계정에 저장되므로 나머지 데이터와 함께 쿼리할 수 있습니다.
+
+자세한 내용은 [Workfront Data Connect에 대한 비공개 목록 등록](/help/quicksilver/reports-and-dashboards/data-lake/register-a-private-listing.md)을 참조하십시오.
+
+## 이제 캔버스 대시보드에 대한 보고 MCP 도구를 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 1일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+Canvas Dashboards를 더 쉽게 사용할 수 있도록 Workfront MCP에 도구를 추가했습니다. 이제 채팅을 통해 캔버스 대시보드를 작성하고 관리할 수 있으며 Workfront 데이터를 사용하여 대시보드 및 위젯이 생성됩니다. 이것은 클로드와 커서와 같은 MCP 클라이언트에서 작동합니다.
+
+예를 들어 다음 작업을 수행할 수 있습니다.
+
+* 요청하여 보고서를 만듭니다. 대시보드나 차트를 수동으로 빌드하지 않고 자연어로 설명합니다.
+* 바로 편집합니다. 위젯의 이름을 바꾸거나, 필터를 변경하거나, 차트 유형을 교체하거나, 크기를 조정하도록 요청하면 변경 내용이 라이브 대시보드에 적용됩니다.
+* 가지고 있는 것을 다시 쓰세요. 처음부터 다시 빌드하지 않고 기존 대시보드 또는 위젯을 시작점으로 복제합니다.
+
+### 지원되는 기능
+
+**대시보드**
+
+* 새 대시보드 만들기
+* 대시보드(내 대시보드, 나와 공유, 모든 대시보드 또는 즐겨찾기)를 나열하고 제목별로 검색합니다
+* 대시보드 구조 열기 또는 보기
+* 제목, 설명, 통화, 필터 및 프롬프트 업데이트
+* 대시보드 복제(위젯, 프롬프트 및 필터 유무)
+* 대시보드 삭제
+
+**위젯**
+
+* KPI — 집계된 단일 숫자(합계, 평균, 개수, 최소, 최대 등)
+* 차트 — 막대, 열, 선 및 원형 차트, 단순, 다중 계열 및 누적 차트 지원
+* 테이블 — 행 그룹화가 있는 다중 열 테이블
+* 위젯의 구성을 보고 업데이트, 복사, 크기 조정 또는 위치 변경 또는 삭제
+
+**보고 옵션**
+
+* 조건 및 AND/OR 그룹으로 데이터 필터링
+* 모든 필드별로 그룹화 및 집계
+* KPI 또는 차트에서 기본 레코드로 드릴다운
+* 사용자 정의 열 레이블, 숫자, 날짜 및 통화 서식 및 조건부 셀 스타일
+* 대시보드 수준 프롬프트 및 필터
+
+자세한 내용은 [캔버스 대시보드 사용](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)을 참조하세요.
+
+## 캔버스 대시보드 간 위젯 복사 또는 이동
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 1일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 위젯을 동일한 대시보드, 편집 액세스 권한이 있는 다른 대시보드 또는 새 대시보드에 복사할 수 있습니다. 편집 액세스 권한이 있는 다른 대시보드 또는 새 대시보드로 위젯을 이동할 수도 있습니다.
+
+위젯을 복사할 때 대상 대시보드를 선택하고 위젯을 복사할지 또는 이동할지 여부를 선택할 수 있는 대화 상자가 열립니다. 이전에는 Report Builder가 즉시 열렸습니다.
+
+## 캔버스 대시보드의 컬렉션 관계 필터링
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 1일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+이제 캔버스 대시보드에서 필터를 작성할 때 컬렉션 관계(단일 레코드가 아닌 관련 레코드 그룹에 연결되는 필드)를 필터링할 수 있습니다. 예를 들어, 프로젝트에 속한 작업의 상태를 필터링하여 &quot;새로 만들기&quot; 상태의 작업이 있는 프로젝트 목록을 표시할 수 있습니다.
+
+이전에는 컬렉션 관계를 필터링하려면 텍스트 모드가 필요했습니다.
+
+자세한 내용은 [캔버스 대시보드에 대한 보고서 필터 참조](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)를 참조하십시오.
 
 ## 캔버스 대시보드의 대시보드 복사
 

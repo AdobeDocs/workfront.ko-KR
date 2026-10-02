@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 1ee0f2de61c518fc608a03045339ac9c50afc7f9
+source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
 workflow-type: tm+mt
-source-wordcount: '2863'
-ht-degree: 2%
+source-wordcount: '3444'
+ht-degree: 1%
 ---
 # 2026년 4분기 릴리스 개요
 
@@ -62,6 +62,55 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">AI를 사용하여 사용자 지정 지역화 생성</a>
+                <p>이제 Workfront 관리자는 AI를 사용하여 사용자 정의 현지화 텍스트에 대한 번역을 생성하고 저장하기 전에 결과를 검토하거나 조정할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Grant access to MCP Tools</a>
+                <p>Administrators can now configure MCP Tools permissions by access level to control how Workfront data is used through the Workfront MCP.</p>
+            </td>
+            <td><p>October 1, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Enhancements to layout templates</a>
+                <p>Several enhancements have been made to layout templates, including the ability to hide or display system items in the Main Menu, reposition custom applications, and hide an object's Details page from the left navigation panel.</p>
+            </td>
+            <td><p>October 1, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->        
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront 인터페이스 내에서 이벤트 구독 만들기 및 관리</a>
+                <p>조직의 이벤트 구독을 더 쉽게 만들고 관리할 수 있도록 이벤트 구독 영역을 설정에 추가했습니다.</p>
+            </td>
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">사용자 지정 양식 디자이너의 필드 선택 사항을 업데이트하는 데 필요한 경험이 향상되었습니다</a>
+                <p>이제 양식 디자이너에서 드롭다운 필드, 라디오 단추 및 확인란을 사용하여 작업할 때 단일 대화 상자에서 필드 선택 사항을 추가, 편집 및 삭제할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
         </tr>
         <tr>
             <td>
@@ -206,6 +255,26 @@ ht-degree: 2%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
+<!--        
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">New AI Collaborator type: Project Coordinators</a>
+                <p>Project Coordinators can monitor project status and send daily or weekly updates without requiring a separate custom agent setup.</p>
+            </td>
+            <td><p>October 1, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->        
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">AI 공동 작업자에 대한 업데이트</a>
+                <p>이제 AI 공동 작업자가 에이전트와 함께 작업 및 문제에 대해 작업하고, 문서 컨텍스트를 사용하고, 업데이트 영역에서 업데이트를 실시간으로 게시할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">이제 Workfront에서 CX Coworker 사용 가능</a>
@@ -283,7 +352,35 @@ ht-degree: 2%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
-<!--
+         <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Creative Cloud 앱에서 Workfront 프로젝트에 액세스</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>이제 Adobe Photoshop, Illustrator 및 InDesign에서 직접 Workfront 프로젝트에 액세스할 수 있습니다. Adobe 클라우드 스토리지를 사용하는 Workfront 프로젝트는 다른 Creative Cloud 프로젝트와 함께 앱 창 왼쪽의 프로젝트 패널에 표시됩니다.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 1일</p></td>
+        </tr>
+         <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">여러 문서를 단일 승인 워크플로로 그룹화</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>이제 단일 승인 작업 과정 아래에서 여러 문서를 그룹화할 수 있으므로 동일한 단계를 함께 이동합니다.</p>
+            </td>
+            <td><p>이 기능은 Frame.io 통합을 사용할 수 없으므로 미리보기 샌드박스 환경에서는 사용할 수 없습니다.</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Add a web link as a document</a>
+                <p>You can now add a website to Adobe Workfront as a web link in the new Documents area and request approval on the live web page.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
@@ -293,7 +390,7 @@ ht-degree: 2%
             <td><p>[DATE]</p></td>
             <td><p>[DATE]</p></td>
         </tr>
--->
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">시스템 관리자가 승인 템플릿에 대한 전체 액세스</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
@@ -321,7 +418,6 @@ ht-degree: 2%
             <td><p>2026년 9월 17일</p></td>
             <td><p>2026년 10월 15일</p></td>
         </tr>
-        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Adobe 클라우드 저장소를 사용하여 개체 승인에 팀 추가</a>
                 <p>이제 개별적으로 사람을 추가하는 대신 문서 승인 또는 승인 템플릿에서 Workfront 팀을 승인자 또는 검토자로 추가할 수 있습니다.</p>
@@ -429,6 +525,17 @@ ht-degree: 2%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
+<!--        
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to billing rates on templates</a>
+                <p>Project templates now support enhanced list improvements and rate attribute updates for billing rates.</p>
+            </td>
+            <td><p>October 1, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->        
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">회사 청구 요금 개선</a>
@@ -484,17 +591,51 @@ ht-degree: 2%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Filter on collection relationships in Canvas Dashboards</a>
-                <p>You can now filter on collection relationships, which are fields that link to a group of related records rather than a single record.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">이제 Google Cloud Platform 및 Microsoft Azure에서 캔버스 대시보드를 사용할 수 있습니다</a>
+                <p>GCP(Google Cloud Platform) 및 Azure의 Workfront 인스턴스는 이제 Canvas Dashboards 열기 베타를 옵트인할 수 있습니다.</p>
             </td>
-            <td><p>September 24, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
         </tr>
--->
+           <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Workfront Data Connect에 대한 Snowflake 개인 목록 등록</a>
+                <p>이제 비공개 목록을 등록하여 Workfront Data Connect 데이터를 조직의 Snowflake 계정과 직접 공유할 수 있습니다. 이 연결 방법은 Snowflake의 비공개 목록 기능을 사용하여 데이터를 공개적으로 노출하지 않고 조직 간에 안전하게 공유하며 지역 및 호스팅 플랫폼에서 작동합니다.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">이제 캔버스 대시보드에 대해 보고 MCP 도구를 사용할 수 있습니다</a>
+                <p>이제 자연어 프롬프트 및 구조화된 대시보드 작업을 사용하여 Claude 및 Cursor와 같은 MCP 클라이언트를 통해 캔버스 대시보드를 작성하고 관리할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드 간 위젯 복사 또는 이동</a>
+                <p>이제 위젯을 동일한 대시보드, 편집 액세스 권한이 있는 다른 대시보드 또는 새 대시보드에 복사할 수 있습니다. 편집 액세스 권한이 있는 다른 대시보드 또는 새 대시보드로 위젯을 이동할 수도 있습니다. </p>
+            </td>
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 컬렉션 관계 필터링</a>
+                <p>이제 단일 레코드가 아닌 관련 레코드 그룹에 연결되는 필드인 컬렉션 관계를 필터링할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 대시보드 복사</a>
@@ -625,6 +766,24 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">여러 화면을 향상된 목록으로 업데이트함</a>
+                <p>이제 설정, 프로젝트, 템플릿 및 작업의 여러 목록에서 향상된 목록 형식을 사용합니다.</p>
+            </td>
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">향상된 목록에 대한 업데이트</a>
+                <p>향상된 목록 필터 및 그룹화에 대한 몇 가지 개선 사항을 적용했습니다. 기본적으로 그룹이 축소되고 필터 연산자가 더 명확한 레이블로 업데이트되었습니다.</p>
+            </td>
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
         </tr>
         <tr>
             <td>

@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
+source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3093'
 ht-degree: 4%
 ---
 
@@ -50,6 +50,7 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 
 | 제목 | 도구 이름 | 기능 | 액션 |
 | --- | --- | --- | --- |
+| Workfront에 문서 업로드** | `upload_document_ui` | 프로젝트, 작업, 문제, 프로그램, 포트폴리오 또는 템플릿에 파일을 업로드할 수 있으며, 선택적으로 폴더에 파일을 업로드할 수 있습니다. | 쓰기 |
 | 이름별 문서 버전 찾기 | `approvals_find_document_version_by_name` | 파일 이름별로 문서의 현재 버전 ID를 조회합니다. 부분 일치를 지원합니다. | 읽기 |
 | 버전 ID로 문서 가져오기 | `approvals_get_document_by_version_id` | 알려진 문서 버전 ID에 대한 문서 세부 정보(이름, 크기, 업로드 날짜, 업로더)를 가져옵니다. | 읽기 |
 | 문서 범위 해결 | `approvals_resolve_document_scope` | 프로젝트 또는 폴더를 포함된 문서 버전 ID 목록으로 확장합니다. 프로젝트, 폴더 및 이름별 폴더 범위를 지원합니다. | 읽기 |
@@ -62,7 +63,7 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 
 
 *AEM 폴더로 문서를 보내는 것은 Adobe 클라우드 스토리지의 프로젝트에 대해 아직 지원되지 않습니다. 향후 릴리스에서 지원이 예상됩니다.
-
+**이 도구는 대화에서 대화형 업로드 패널을 열므로 MCP 앱을 지원하는 도구에서만 작동합니다. 현재 이 도구는 Claude만 지원됩니다. 도구 권한의 &quot;대화형 도구&quot; 아래에 표시되고 기본적으로 승인을 요청합니다.
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |

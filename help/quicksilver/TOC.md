@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '14588'
+source-wordcount: '14626'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -970,10 +970,10 @@ ht-degree: 2%
     * [Adobe Workfront MCP 서버 사용](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Adobe Workfront MCP 서버 도구](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [직접 설치에 사용할 수 있는 기술](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
-  * Workfront의 CX 동료 {#coworker-in-workfront}
-    * [Workfront의 CX 동료: 문서 인덱스](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+  * Workfront의 CX Coworker {#coworker-in-workfront}
+    * [Workfront의 CX Coworker: 문서 색인](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
     * [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [CX 동료 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [CX Coworker 스킬](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
     * [Workfront에서 CX Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * 작업 항목 업데이트 및 업데이트 보기 {#update-work-items-view-updates}
     * [작업 항목 업데이트 및 업데이트 보기: 문서 색인](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
@@ -1225,6 +1225,10 @@ ht-degree: 2%
     * [Adobe 클라우드 드라이브 사용](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
     * [Adobe 클라우드 드라이브 설정 및 관리](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
     * [Adobe 클라우드 드라이브 문제 해결](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
+  * Adobe Creative Cloud 프로젝트 {#adobe-creative-cloud-projects}
+    * [Adobe Creative Cloud 프로젝트: 문서 색인](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects.md)
+    * [Adobe Creative Cloud 프로젝트 개요](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+    * [Creative Cloud 앱에서 Workfront 문서 사용](documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
   * Workfront 및 Experience Manager Assets 통합 {#wf-aem-integrations}
     * [Workfront 및 Experience Manager Assets 통합](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
     * Workfront for Experience Manager 강화 커넥터 {#wf-aem-enhanced-connector}
@@ -1324,6 +1328,7 @@ ht-degree: 2%
       * [프로젝트 지표 이해](manage-work/projects/manage-projects/project-metrics.md)
       * [프로젝트 제한 개요](manage-work/projects/manage-projects/project-maximums.md)
       * [AI Assistant를 사용하여 업데이트 요약](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+      * {hide-from-toc}[프로젝트 코디네이터 공동 작업자 사용](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)
       * [프로젝트 및 관련 오브젝트에 대한 문서 관리 개요](manage-work/projects/manage-projects/manage-documents-on-projects.md)
     * 프로젝트 템플릿 만들기 및 관리 {#create-and-manage-project-templates}
       * [프로젝트 템플릿 만들기 및 관리: 문서 색인](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
@@ -1431,7 +1436,7 @@ ht-degree: 2%
       * [작업 할당](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [작업 할당](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [고급 할당 만들기](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-      * [작업 공동 작업자 사용](manage-work/tasks/assign-tasks/use-task-collaborators.md)
+      * [작업 에이전트 사용](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [스마트 할당 개요](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [작업 할당 수정 개요](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [작업 목록에서 여러 사용자 할당 수정](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
@@ -1949,6 +1954,9 @@ ht-degree: 2%
       * [통합 승인 설정 및 관리: 문서 색인](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [AI 검토자를 위한 브랜드 생성 및 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [문서 검토 또는 승인 요청 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+      * [그룹화된 승인 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
+      * {hide-from-toc}[그룹화된 승인 검토](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+      * {hide-from-toc}[그룹화된 승인 관리](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
       * [에셋 또는 문서에 추가 검토자 또는 승인자 추가](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [에셋 또는 문서에서 승인자 또는 검토자 제거](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [자산 및 문서에 대한 승인 템플릿 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

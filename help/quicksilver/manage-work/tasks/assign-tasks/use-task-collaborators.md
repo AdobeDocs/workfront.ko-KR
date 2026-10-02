@@ -16,16 +16,24 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ce3795d14390ccff1c66d7c6add34455c0ca4082
+source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1072'
 ht-degree: 1%
 ---
 # 작업 에이전트 사용
 
-작업 에이전트는 문서 및 에셋 검토에 사용되는 기존 AI 검토자 외에 Workfront 작업에 직접 할당할 수 있는 AI 공동 작업자입니다. 다른 AI 공동 작업자와 마찬가지로 작업 에이전트도 설정 영역에 구성되며 사용자와 마찬가지로 작업에 할당됩니다.
+{{preview-fast-release-general}}
 
-작업 에이전트는 Copilot Studio, Claude 또는 Writer에서 구성한 에이전트에 연결합니다.
+작업 에이전트는 Workfront 작업 및 문제에 직접 할당할 수 있는 AI 공동 작업자입니다. 다른 AI 공동 작업자와 마찬가지로 작업 에이전트도 설정 영역에 구성되며 사용자와 마찬가지로 작업에 할당됩니다.
+
+작업 에이전트는 Copilot Studio, Claude, Writer, <span class="preview">OpenAI 또는 IBM에서 구성한 에이전트에 연결합니다. </span>
+
+>[!IMPORTANT]
+>
+>Writer는 에이전트 사용을 더 이상 사용하지 않습니다. 작성기 에이전트를 사용하여 구성된 작업 에이전트는 10월 9일 이후 작동하지 않습니다. 2026.
+>
+>사용 중단에 대한 자세한 내용은 작성기 설명서에서 [에이전트 라이브러리 마이그레이션 및 사용 중단](https://support.writer.com/articles/8335689949-migrating-no-code-agents)을 참조하십시오.
 
 Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지침은 AI 공동 작업자 구성 문서의 [작업 에이전트 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)을 참조하십시오.
 
@@ -58,7 +66,7 @@ Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지�
 
 ## 전제 조건
 
-* Copilot, Claude 또는 Writer.ai에서 에이전트를 구성해야 작업 에이전트로 사용할 수 있습니다.
+* Workfront에서 작업 에이전트로 사용하려면 먼저 Copilot, Claude, Writer.ai, OpenAI 또는 IBM에서 에이전트를 구성해야 합니다.
 
 ## 작업 에이전트 개요
 
@@ -74,7 +82,7 @@ Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지�
 >
 >* 에이전트의 책임 및 능력에 대한 특정 세부 정보는 Workfront이 아니라 에이전트가 생성된 애플리케이션에서 구성됩니다.
 >* Workfront MCP 서버는 작업 에이전트로 사용되는 에이전트에 추가할 필요가 없으며 작업 에이전트가 작동하도록 연결될 필요가 없습니다.
->* 작업 에이전트는 현재 Copilot Studio, Claude 및 Writer.ai에서 생성된 에이전트를 지원합니다.
+>* 작업 에이전트는 현재 Copilot Studio, Claude 및 Writer.ai, <span class="preview">OpenAI 및 IBM에서 만든 에이전트를 지원합니다. </span>
 >* Copilot Studio에서 에이전트를 구성할 때 보안을 **인증 안 함**(으)로 설정해야 합니다.
 >* Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지침은 AI 공동 작업자 구성 문서의 [작업 에이전트 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)을 참조하십시오.
 
@@ -86,6 +94,7 @@ Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지�
 * 작업 설명
 * 작업의 업데이트 스트림에 있는 댓글
 * 작업에 첨부된 모든 사용자 정의 양식의 정보
+* 첨부된 문서 <span class="preview">개</span>
 
 이 정보는 항상 읽히며 Workfront 설정으로 구성할 수 없습니다.
 
@@ -98,7 +107,9 @@ Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지�
 
 ## 작업 에이전트 시작 트리거
 
-작업 에이전트가 작업에 할당되면 다음 상황 중 하나가 충족되면 작업을 시작합니다.
+작업 에이전트가 작업 <span class="preview">또는 문제</span>에 할당되면 다음 상황 중 하나가 충족되면 작업이 시작됩니다.
+
+<!--update wording to include issues when this goes to production-->
 
 * 작업 에이전트가 시작할 준비가 된 작업에 할당됩니다. (예를 들어 작업에 전임 작업이 있는 경우 해당 전임 작업은 완료됩니다.)
 * 작업 에이전트와 사용자가 작업에 할당되며, 작업 에이전트가 먼저 할당됩니다.
@@ -114,9 +125,9 @@ Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지�
 * 작업 에이전트는 이미 작업 에이전트가 할당된 작업에 할당됩니다. 이 경우 할당된 첫 번째 작업 에이전트는 이미 작업을 시작했을 것이며 두 번째 작업 에이전트는 아무 작업도 하지 않습니다.
 * 작업 에이전트가 시작할 준비가 되지 않은 작업에 할당되었습니다. (예를 들어 작업에 전임 작업이 있는 경우 해당 전임 작업은 아직 완료되지 않았습니다.)
 
-## 작업에 작업 에이전트 할당
+## 작업 에이전트 <span class="preview"> 또는 문제</span>에 할당
 
-작업 에이전트는 사용자가 할당된 것과 동일한 방식으로 작업에 할당됩니다.
+작업 에이전트는 사용자가 할당된 것과 같은 방식으로 작업 <span class="preview"> 또는 문제</span>에 할당됩니다.
 
 사용 가능한 할당자 목록에서 작업 에이전트를 검색하는 경우 작업 에이전트의 이름은 이름으로만 표시됩니다.
 

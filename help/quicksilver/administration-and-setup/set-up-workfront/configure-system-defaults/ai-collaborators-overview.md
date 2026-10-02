@@ -16,14 +16,18 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '94'
 ht-degree: 4%
 ---
 # AI 공동 작업자
 
+{{preview-fast-release-general}}
+
 AI 공동 작업자는 사용자를 할당하는 것과 같은 방식으로 작업에 할당할 수 있는 AI 에이전트입니다. 기존 워크플로우에 AI 공동 작업자를 맞추면 팀이 가장 중요한 사항에 집중할 수 있습니다.
+
+사용 가능한 AI 공동 작업자 유형에는 AI 검토자 및 작업 에이전트가 포함됩니다.<!--<span class="preview">and Project Coordinators.</span>-->
 
 ## 작업 중인 AI 공동 작업자
 

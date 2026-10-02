@@ -17,14 +17,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 2%
+source-wordcount: '1577'
+ht-degree: 1%
 ---
 # AI 공동 작업자 구성
 
-AI 공동 작업자는 프로젝트 및 작업에 AI 에이전트를 온보딩하는 방법입니다. AI 공동 작업자를 구성한 다음 사용자와 마찬가지로 할당할 수 있습니다.
+{{preview-fast-release-general}}
+
+AI 공동 작업자는 프로젝트, 작업 및 문제에 AI 에이전트를 온보딩하는 방법입니다. AI 공동 작업자를 구성한 다음 사용자와 마찬가지로 할당할 수 있습니다.
 
 예를 들어 브랜드 지침으로 검토자 유형 AI Collaborator를 구성한 다음 해당 Collaborator에 문서를 검토하도록 지정할 수 있습니다.
 
@@ -34,9 +36,15 @@ AI 공동 작업자는 프로젝트 및 작업에 AI 에이전트를 온보딩�
 
   자세한 내용은 [Workfront AI 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)을 참조하세요.
 
-* 작업 에이전트: Copilot 또는 Writer를 사용하여 공동 작업자를 생성한 다음 작업에 공동 작업자를 할당하여 작업 수준 작업을 완료합니다.
+* 작업 에이전트: Claude, OpenAI, Copilot 또는 Writer와 같은 표준 AI 플랫폼을 사용하여 공동 작업자를 만든 다음 작업 또는 문제에 공동 작업자를 할당하여 작업 항목을 완료합니다.
 
   자세한 내용은 [작업 에이전트 사용](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)을 참조하세요.
+
+<!--
+* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
+
+   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
+-->
 
 
 ## 액세스 요구 사항
@@ -57,7 +65,7 @@ AI 공동 작업자는 프로젝트 및 작업에 AI 에이전트를 온보딩�
   </tr> 
   <tr> 
    <td>액세스 수준 구성</td> 
-   <td>[!UICONTROL 시스템 관리자]</td> 
+   <td>[!UICONTROL 시스템 관리자] <span class="preview"> 또는 그룹 관리자</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -67,6 +75,9 @@ AI 공동 작업자는 프로젝트 및 작업에 AI 에이전트를 온보딩�
 +++
 
 ## 전제 조건
+
+* [AI 검토자용](#for-ai-reviewers)
+* [작업 에이전트용](#for-work-agents)
 
 ### AI 검토자의 경우:
 
@@ -82,7 +93,11 @@ AI 공동 작업자는 프로젝트 및 작업에 AI 에이전트를 온보딩�
 
 ### 작업 에이전트용
 
-Cloud, Copilot Studio 또는 Writer에서 에이전트를 구성해야 작업 에이전트로 사용할 수 있습니다.
+클라우드, Copilot Studio, Writer, OpenAI 또는 IBM에서 에이전트를 구성해야 작업 에이전트로 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>모든 에이전트 공급자와 연결하고자 하므로 사용 중인 공급자가 작업 에이전트와 현재 호환되지 않는 경우 계정 팀에 도움을 요청하십시오.
 
 ## 새 AI 검토자 만들기
 
@@ -104,13 +119,16 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
 
 ## 작업 에이전트 구성
 
-작업 에이전트는 Workfront의 작업에 할당할 수 있는 에이전트입니다. 이름, 액세스 수준 및 기타 세부 정보를 사용하여 작업 에이전트를 구성하고 사용자를 할당할 때처럼 작업에 할당합니다.
+작업 에이전트는 Workfront의 작업 또는 문제에 할당할 수 있는 에이전트입니다. 이름, 액세스 수준 및 기타 세부 정보를 사용하여 작업 에이전트를 구성하고 사용자를 할당할 때처럼 작업에 할당합니다.
 
-작업 에이전트는 에이전트이므로 에이전트를 구성하는 위치에 작업 및 기능이 구성됩니다. 현재 작업 에이전트로 사용되는 에이전트는 Copilot Studio, Claude 또는 Writer에서 만들 수 있습니다.
+작업 에이전트는 에이전트이므로 에이전트를 구성하는 위치에 작업 및 기능이 구성됩니다. 현재 작업 에이전트로 사용되는 에이전트는 Copilot Studio, Claude 또는 Writer, OpenAI 및 IBM에서 만들 수 있습니다.
 
-작업 에이전트는 작업에만 할당할 수 있으며, 현재는 문제에 할당할 수 없습니다.
+작업 에이전트는 작업 또는 문제에 할당할 수 있습니다.
 
 작업 에이전트로 작업할 에이전트를 만드는 모범 사례 목록을 보려면 [작업 에이전트용 에이전트 만들기 모범 사례](#best-practices-for-creating-an-agent-for-a-work-agent)를 참조하십시오.
+
+* [Workfront에서 작업 에이전트 구성](#configure-a-work-agent-in-workfront)
+* [작업 에이전트용 에이전트 생성 모범 사례](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### Workfront에서 작업 에이전트 구성
 
@@ -122,6 +140,12 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
 1. AI 공동 작업자 이름 필드에 공동 작업자의 이름을 입력합니다. 작업에서 사용 가능한 할당자 목록에 표시되는 이름입니다.
 1. AI Collaborator 설명 필드에 Collaborator의 목적이나 수행하는 작업에 대한 설명을 입력합니다.
 1. 액세스 수준 필드에서 이 공동 작업자의 액세스 수준을 선택합니다. 이 액세스 수준은 사용자가 수행할 수 있는 작업을 제어하는 것과 같은 방식으로 공동 작업자가 수행할 수 있는 작업을 제어합니다.
+1. (선택 사항) 그룹 필드에서 작업 에이전트와 연결할 그룹을 선택합니다.
+
+   >[!NOTE]
+   >
+   ><span class="preview">그룹 관리자인 경우 이 필드에는 관리자인 그룹만 표시됩니다. 그룹 관리자는 그룹을 하나 이상 선택해야 합니다.</span>
+
 1. **에이전트의 원본 선택** 영역에서 Copilot 또는 Writer와 같은 일반 플랫폼에서 만든 에이전트를 연결할지 또는 사용자 지정 에이전트를 사용할지 여부를 선택합니다.
 1. (조건부) 일반 플랫폼에서 에이전트를 사용하는 경우 에이전트 플랫폼에 대한 인증 세부 정보를 입력합니다.
 
@@ -129,14 +153,21 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
    |---|---|
    | 코파일럿 스튜디오 | 웹 채널 암호 |
    | Claude Managed Agents | Anthropic API 키<br>에이전트 ID<br>환경 ID |
-   | Writer | API 키<br>응용 프로그램 ID |
+   | 작성기 에이전트 | API 키<br>응용 프로그램 ID |
+   | <span class="preview">OpenAI 에이전트</span> | <span class="preview">API 키 <br>에이전트 ID</span> |
+   | <span class="preview">IBM watsonx 오케스트레이션</span> | <span class="preview">서비스 URL<br>API 키<br> 에이전트 ID</span> |
 
 1. **연결 테스트**&#x200B;를 클릭합니다. 이렇게 하면 연결이 올바르게 설정되었는지 여부를 알 수 있습니다.
 1. **Collaborator의 작업이 완료되면** 영역에서 Collaborator가 수행할 작업을 전환할 수 있습니다.
+
+   * <span class="preview">알림 보내기: 에이전트가 업데이트 스트림에 댓글을 달아서 작업을 요청하거나 에이전트를 할당하거나 프로젝트를 소유한 사용자에게 태그를 지정합니다. </span>
+   * <span class="preview">문서 업로드</span>
+   * <span class="preview">작업을 완료로 표시</span>
+   * 작업 필드 쓰기: 에이전트가 쓸 수 있는 양식 및 필드를 선택합니다.
+
 1. **저장**&#x200B;을 클릭합니다.
 
 작업에 할당하는 방법을 포함하여 작업 에이전트에 대한 자세한 내용은 [작업 에이전트 사용](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)을 참조하십시오.
-
 
 ### 작업 에이전트용 에이전트 생성 모범 사례
 
@@ -200,9 +231,46 @@ Writer에서 작업 에이전트로 사용할 에이전트를 만들 때 다음 
 
 +++
 
+<div class="preview">
+
+<!--
+## Configure a Project Coordinator
+
+The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
+
+{{step-1-to-setup}}
+
+1. In the left navigation, click **AI Collaborators**.
+1. Click **New Collaborator** in the upper-right corner of the screen.
+1. Select **Project Coordinator**.
+1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
+1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
+1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
+1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
+   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
+   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
+   * In the **Time (MST)** field, select the time to send updates.
+   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
+   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
+   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
+   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
+1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
+1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
+1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
+1. Click **Save**.
+
+For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
+-->
+
+</div>
+
 ## AI 공동 작업자 관리
 
 기존 AI 공동 작업자를 편집, 복사 및 삭제할 수 있습니다.
+
+>[!NOTE]
+>
+><span class="preview">그룹 관리자는 자신이 관리자인 그룹과 연결된 AI 공동 작업자만 보고 상호 작용할 수 있습니다. 다른 그룹도 주어진 AI 공동 작업자와 연결되어 있으면 그룹 관리자가 볼 수는 있지만 편집할 수는 없습니다.</span>
 
 {{step-1-to-setup}}
 

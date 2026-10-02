@@ -29,16 +29,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1066'
 ht-degree: 0%
 ---
 # Adobe 클라우드 스토리지 개요
 
 Adobe 클라우드 스토리지는 Adobe 엔터프라이즈 제품 전반에 걸쳐 에셋의 중앙 저장소 역할을 하는 클라우드 기반 스토리지 솔루션입니다. Workfront 및 Frame.io 통합은 Adobe 클라우드 스토리지에 구축되어 이들 플랫폼 간의 원활한 공동 작업 및 에셋 관리를 가능하게 합니다.
 
-또한 이 스토리지 옵션은 향후 Adobe Creative Cloud과 같은 Adobe 제품과 자산 관리를 통합할 수 있는 길을 열어줍니다.
+이 스토리지 옵션을 사용하면 Adobe Creative Cloud 앱을 포함하여 다른 Adobe 제품과 자산 관리를 통합할 수도 있습니다. 자세한 내용은 [Adobe Creative Cloud 프로젝트 개요](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)를 참조하십시오.
 
 ## 주요 기능
 
