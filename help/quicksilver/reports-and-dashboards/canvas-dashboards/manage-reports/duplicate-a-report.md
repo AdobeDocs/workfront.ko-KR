@@ -1,8 +1,8 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 캔버스 대시보드에서 보고서 복제
-description: 캔버스 대시보드에서 보고서를 복제할 수 있습니다.
+title: 캔버스 대시보드에서 보고서 복사 및 이동
+description: 캔버스 대시보드 간에 보고서를 복사하거나 이동할 수 있습니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 45491118778279522358f87c1c4185c4cf824829
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 6%
+source-wordcount: '693'
+ht-degree: 4%
 ---
-# 캔버스 대시보드에서 보고서 복제
+# 캔버스 대시보드에서 보고서 복사 및 이동
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -91,7 +93,7 @@ KPI, 테이블 또는 차트 보고서를 만든 후에 캔버스 대시보드�
 
 자세한 내용은 [캔버스 대시보드 만들기](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)를 참조하세요.
 
-## 보고서 복제
+## 프로덕션에서 보고서 복제
 
 {{step1-to-dashboards}}
 
@@ -109,3 +111,53 @@ KPI, 테이블 또는 차트 보고서를 만든 후에 캔버스 대시보드�
    >이러한 탭은 KPI, 테이블 또는 차트 보고서를 복제했는지 여부에 따라 달라집니다.  자세한 내용은 [캔버스 대시보드에 KPI 보고서 빌드](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [캔버스 대시보드에 차트 보고서 빌드](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) 및 [캔버스 대시보드에 테이블 보고서 빌드](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)를 참조하십시오.
 
 1. **저장**&#x200B;을 클릭합니다. 복제된 보고서가 대시보드에 나타납니다.
+
+<div class="preview">
+
+## 미리보기에서 보고서 복사 또는 이동
+
+보고서를 현재 대시보드에 복사하거나 다른 대시보드에 복사하거나 다른 대시보드로 이동할 수 있습니다. 복사하면 대상에 보고서의 복제본이 만들어집니다. 이동하면 현재 대시보드에서 이동합니다.
+
+>[!IMPORTANT]
+>
+>* 보고서를 복사하려면 대상 대시보드에 대한 관리 권한이 필요합니다.
+>* 보고서를 이동하려면 소스 및 대상 대시보드 모두에 대한 관리 액세스 권한이 필요합니다.
+>* 보고서에 사용자로 실행 이 구성되어 있고 시스템 관리자나 사용자로 실행 사용자가 아닌 경우에도 보고서를 복사하거나 이동할 수 있지만 결과 보고서에서 사용자로 실행이 제거됩니다.
+
+
+보고서를 복사하거나 이동하려면 다음을 수행합니다.
+
+{{step1-to-dashboards}}
+
+1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭합니다.
+1. 보고서가 포함된 대시보드를 엽니다.
+1. 보고서의 오른쪽 상단에 있는 **자세히** ![자세히 단추](assets/more-icon.png) 아이콘을 클릭한 다음 **보고서 복사**&#x200B;를 선택합니다.
+
+   ![보고서 복사 옵션](assets/copy-report-button.png)
+
+1. **보고서 복사** 대화 상자에서 다음 옵션 중 하나를 선택합니다.
+
+   <table>
+   <tr>
+   <td><strong>복사</strong></td>
+   <td>보고서를 복사하려면 화면 하단의 <strong>복사</strong>를 클릭하십시오. 기본적으로 현재 대시보드가 선택되어 있습니다. 보고서를 복사하려면 대시보드에 대한 관리 액세스 권한이 필요합니다.</td>
+   </tr>
+   <tr>
+   <td><strong>복사 및 이동</strong></td>
+   <td>다른 대상 대시보드를 선택하여 보고서를 복사하고 새 대시보드로 이동합니다. 원본 보고서는 현재 대시보드에 있습니다.보고서를 복사하고 이동하려면 대상 대시보드에 대한 관리 액세스 권한이 필요합니다. </td>
+   </tr>
+   <tr>
+   <td><strong>이동</strong></td>
+   <td>보고서를 이동할 다른 대상 대시보드를 선택하십시오. 이렇게 하면 보고서가 대상 대시보드로 재배치되어 현재 대시보드에서 제거됩니다. 보고서를 이동하려면 소스 및 대상 대시보드 모두에 대한 관리 액세스 권한이 필요합니다.</td>
+   </tr>
+   </table>
+
+   >[!NOTE]
+   >
+   >보고서에 사용자로 실행 이 구성되어 있고 시스템 관리자나 사용자로 설정된 사용자가 아닌 경우에도 보고서를 복사하거나 이동할 수 있습니다. 사용자로 실행 이 결과 보고서에서 제거됩니다.
+
+1. **저장**&#x200B;을 클릭합니다.
+
+   ![복사 및 이동](assets/copy-and-move.png)
+
+</div>
