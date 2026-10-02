@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
 workflow-type: tm+mt
 source-wordcount: '2735'
 ht-degree: 1%
@@ -209,7 +209,7 @@ ht-degree: 1%
    </table>
 
 1. **계산** 상자에서 계산 빌드를 시작합니다.
-   1. **최대화**&#x200B;를 클릭하여 계산 편집기를 열고 계산을 빌드합니다.
+   1. **최대화**를 클릭하여 계산 편집기를 열고 계산을 빌드합니다.
       일반적으로 계산은 표현식으로 시작하며, 그 뒤에는 사용자 정의 양식을 오브젝트에 첨부할 때 참조할 필드를 포함하는 괄호가 옵니다.
 
       각 필드는 중괄호로 묶어야 합니다. 필드 이름을 입력할 때 시스템에서 제안을 하며 이를 선택하여 계산에 삽입할 수 있습니다.
@@ -341,7 +341,6 @@ ht-degree: 1%
       >* 가면서 빨간색으로 밑줄이 그어진 계산 오류를 찾아라. 강조 표시된 오류 위로 마우스를 가져가 원인에 대한 간단한 설명을 표시할 수 있습니다.
       >  ![오류 도움말](assets/error-help.png)
       >* 계산 아래 영역에서 기존 Workfront 객체에서 결과를 미리 봅니다.
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
       >  ![계산 미리 보기](assets/preview-calc.png)
       >* 왼쪽에 표시되는 줄 번호를 사용하여 긴 계산에서 참조 표현식입니다.
 
