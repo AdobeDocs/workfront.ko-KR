@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3473'
 ht-degree: 1%
 ---
 # 2026년 4분기 릴리스 개요
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 이 페이지는 2026년 4분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 추가 개선 사항으로 업데이트됩니다.
 
-라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/ko/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
+라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/en/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
 
 >[!IMPORTANT]
 >
@@ -524,18 +524,16 @@ ht-degree: 1%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
-        </tr>
-<!--        
+        </tr>       
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to billing rates on templates</a>
-                <p>Project templates now support enhanced list improvements and rate attribute updates for billing rates.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">템플릿에 대한 청구 요금 개선</a>
+                <p>이제 프로젝트 템플릿에서 청구 요금에 대한 향상된 목록 개선 사항 및 요금 속성 업데이트를 지원합니다.</p>
             </td>
-            <td><p>October 1, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
--->        
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>    
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">회사 청구 요금 개선</a>
@@ -900,8 +898,8 @@ Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용
 
 이 변경 사항은 2026년 4월 Workfront 릴리스 정보에서 처음 발표되었으며, 기한 전에 알려 주는 최종 알림입니다. 영향을 받는 모든 리더 사용자가 2026년 8월 8일 이전에 MFA를 활성화하여 액세스 중단을 방지해야 합니다.
 
-자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/ko/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
+자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
