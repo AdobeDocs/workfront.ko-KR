@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3473'
 ht-degree: 1%
 ---
 # 2026년 4분기 릴리스 개요
@@ -452,7 +452,7 @@ ht-degree: 1%
                 <p>이제 문서 승인 시 설정된 사용자 정의 메시지가 승인 요청 이메일의 제목란에도 표시됩니다.</p>
             </td>
             <td><p>N/A</p></td>
-            <td><p>2026년 9월 17일</p></td>
+            <td><p>2026년 10월 15일</p></td>
             <td><p>2026년 10월 15일</p></td>
         </tr>
         <tr>
@@ -524,18 +524,16 @@ ht-degree: 1%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
-        </tr>
-<!--        
+        </tr>       
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to billing rates on templates</a>
-                <p>Project templates now support enhanced list improvements and rate attribute updates for billing rates.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">템플릿에 대한 청구 요금 개선</a>
+                <p>이제 프로젝트 템플릿에서 청구 요금에 대한 향상된 목록 개선 사항 및 요금 속성 업데이트를 지원합니다.</p>
             </td>
-            <td><p>October 1, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
--->        
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>    
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">회사 청구 요금 개선</a>

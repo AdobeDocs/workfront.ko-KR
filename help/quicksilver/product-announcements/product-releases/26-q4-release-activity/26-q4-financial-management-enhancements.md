@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 0c08d79733bc6da0ecfd41f765ce2c624e71ad0e
+source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '476'
 ht-degree: 0%
 ---
 # 2026년 4분기 재무 관리 개선 사항
@@ -24,31 +24,27 @@ ht-degree: 0%
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
 
-<!--
-
-## Enhancements to billing rates on templates
+## 템플릿에 대한 청구 요금 개선
 
 >[!NOTE]
 >
->Preview: October 1, 2026
->Production fast release: October 15, 2026
->Production for everyone: October 15, 2026
+>미리 보기: 2026년 10월 1일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
 
-Multiple updates have been made to the billing rates functionality on a project template.
+프로젝트 템플릿의 청구 요금 기능이 여러 번 업데이트되었습니다.
 
-### For customers on all Workfront and Workflow packages
+### 모든 Workfront 및 워크플로 패키지의 고객
 
-The Rates area on templates has been updated to an enhanced list.
+템플릿의 속도 영역이 향상된 목록으로 업데이트되었습니다.
 
-For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요.
 
-### For customers on the Workflow Ultimate package only
+### Workflow Ultimate 패키지의 고객만 해당
 
-Rate attributes are now available to apply to job role billing rates on the template.
+이제 요금 속성을 템플릿의 작업 역할 청구 요금에 적용할 수 있습니다.
 
-For more information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template) and [Override Job Role Billing Rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
-
--->
+자세한 내용은 [프로젝트 템플릿 편집](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template) 및 [프로젝트 수준에서 작업 역할 청구 요금 재정의](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)를 참조하십시오.
 
 ## 회사 청구 요금 개선
 

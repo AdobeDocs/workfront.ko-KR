@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1630'
 ht-degree: 0%
 ---
 # 2026년 4분기 문서 개선 사항
@@ -204,8 +204,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >미리보기: 해당 사항 없음
->프로덕션 빠른 릴리스: 2026년 9월 17일
 >모두를 위한 프로덕션: 2026년 10월 15일
+>이 기능은 원래 계획대로 2026년 9월 17일의 프로덕션 빠른 릴리스에 릴리스되지 않았습니다. 이제 2026년 10월 15일에 모두를 위한 프로덕션에서 사용할 수 있습니다.
 
 문서 승인에 대해 사용자 정의 메시지를 설정하면 이제 해당 메시지가 승인 요청 이메일의 제목 줄에도 표시되며, 기한을 설정할 때 해당 기한이 표시됩니다. 이렇게 하면 검토자가 이메일을 열지 않고도 받은 편지함에서 직접 관심이 필요한 항목을 확인할 수 있습니다.
 
