@@ -17,14 +17,18 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '66'
+ht-degree: 6%
 ---
 # 이벤트 구독
 
 다음은 Adobe Workfront의 이벤트 구독에 대한 다양한 리소스입니다.
+
+>[!NOTE]
+>
+>Workfront 애플리케이션 내에서 이벤트 구독을 사용하여 작업하려면 [Workfront에서 이벤트 구독 구성](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)을 참조하십시오.
 
 * [이벤트 구독 API](../../wf-api/general/event-subs-api.md)
 * [이벤트 구독 모범 사례](../../wf-api/general/event-sub-best-practice.md)

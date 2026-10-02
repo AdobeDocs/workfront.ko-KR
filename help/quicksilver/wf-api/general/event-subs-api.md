@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '3545'
+source-wordcount: '3560'
 ht-degree: 5%
 ---
 # 이벤트 구독 API
@@ -42,6 +42,10 @@ ht-degree: 5%
 이벤트 구독이 지원하는 Adobe Workfront 개체에서 작업이 발생하면 원하는 끝점에 응답을 보내도록 Workfront을 구성할 수 있습니다. 즉, 서드파티 애플리케이션은 업데이트 발생 직후 Workfront API를 통해 Workfront 상호 작용에서 업데이트를 받을 수 있습니다. 일반적으로 기록되는 데이터 변경 사항에서 5초 이내에 웹후크 알림을 받을 수 있습니다. 평균적으로 고객은 기록되는 데이터 변경 사항에서 1초 이내에 웹후크 알림을 받습니다.
 
 이벤트 구독은 다른 서비스로 데이터를 보내기 때문에 Workfront 애플리케이션이 아닌 명령을 통해 관리됩니다.
+
+>[!NOTE]
+>
+>Workfront 애플리케이션 내에서 이벤트 구독을 사용하여 작업하려면 [Workfront에서 이벤트 구독 구성](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)을 참조하십시오.
 
 귀하의 방화벽을 통해 이벤트 구독 페이로드를 수신하려면 다음 IP 주소를 귀하의 방화벽에 추가해야 합니다.
 
