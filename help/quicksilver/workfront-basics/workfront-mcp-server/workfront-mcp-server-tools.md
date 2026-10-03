@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
+source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3281'
 ht-degree: 4%
 ---
 
@@ -28,6 +28,19 @@ AI 에이전트 플랫폼을 통해 이러한 도구를 사용하는 방법에 �
 >[!IMPORTANT]
 >
 >AI 아젠틱 플랫폼은 Workfront 계정, 액세스 수준 및 오브젝트 권한을 사용하여 Workfront에서 작동합니다. 도구는 Workfront에서 해당 액세스 권한이 있는 경우에만 작동합니다. Adobe은 AI 아젠틱 플랫폼이 Workfront 데이터를 변경했을 때 이에 대한 책임이 없습니다.
+
+## 제품 사용 권한이 도구 목록에 미치는 영향
+
+AI 에이전트 플랫폼에 표시되는 도구는 조직의 Workfront 제품 권한에 따라 다릅니다.
+
+* Workfront Planning에 대해서만 라이센스가 부여된 고객은 Planning 도구는 볼 수 있지만 Workflow 도구는 볼 수 없습니다.
+* Workfront Workflow에 대해서만 라이센스가 부여된 고객은 워크플로 도구를 볼 수 있지만 계획 도구는 볼 수 없습니다.
+* Workfront Workflow와 Workfront Planning 모두에 대해 라이선스가 부여된 고객은 두 가지 도구 세트를 모두 볼 수 있습니다.
+* 인사이트 및 컨텍스트 도구는 모든 고객이 사용할 수 있습니다.
+
+조직에 제품 영역에 대한 권한이 없는 경우 관련 도구가 해당 연결에 대한 도구 목록에 표시되지 않습니다. AI 에이전트 플랫폼에서 사용 권한에 사용할 수 없는 도구를 호출하려고 하면 요청이 차단됩니다.
+
+다음 표는 각 도구가 속한 제품 영역을 식별합니다.
 
 
 ## 읽기 및 쓰기 작업
@@ -45,6 +58,10 @@ Workfront 관리자는 시스템 환경 설정에서 두 가지 전환을 통해
 AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업데이트 또는 삭제할 수 없는 경우 Workfront 관리자에게 쓰기 작업을 활성화하도록 요청하십시오. 자세한 내용은 *Adobe Workfront MCP 서버 구성*&#x200B;의 [관리 필수 구성 요소](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#admin-prerequisites)를 참조하십시오.
 
 ## 승인 도구
+
+제품 요구 사항: 모든 고객
+
+현재 승인 도구에 자격 제한이 없습니다.
 
 ### 문서
 
@@ -123,6 +140,8 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 | 프로젝트 찾기 | `approvals_find_projects` | 사용하지 않음. 대신 `insights_find_workfront_data`을(를) 사용합니다. 이 도구는 필요에 따라 이름으로 필터링되고/되거나 호출 사용자가 소유한 프로젝트로 제한된 Workfront 프로젝트를 조회했습니다. | 읽기 |
 
 ## 계획 도구
+
+제품 요구 사항: Workfront Planning
 
 >[!IMPORTANT]
 >
@@ -208,6 +227,8 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 
 ## 워크플로 도구
 
+제품 요구 사항: Workfront Workflow
+
 워크플로 도구는 AI 아젠틱 플랫폼이 Workfront 개체(프로젝트, 작업, 문제, 시간, 과제, 프로그램, 포트폴리오 등)와 작업하는 데 사용하는 일반적인 목적의 작업입니다.
 
 ### 오브젝트 및 필드
@@ -291,6 +312,8 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 
 ### Insights 도구
 
+제품 요구 사항: Workfront Workflow 또는 Workfront Planning.
+
 Insights 도구는 Workfront 개체에 대한 정보를 검색합니다.
 
 >[!NOTE]
@@ -311,6 +334,8 @@ Insights 도구는 Workfront 개체에 대한 정보를 검색합니다.
 
 ## 피드백 도구
 
+제품 요구 사항: Workfront Workflow 또는 Workfront Planning.
+
 <span class="preview">피드백 도구를 사용하면 AI 에이전트 플랫폼에서 직접 Workfront MCP 서버에 대한 사용 경험을 보고할 수 있습니다.</span>
 
 | 제목 | 도구 이름 | 기능 | 액션 |
@@ -318,6 +343,8 @@ Insights 도구는 Workfront 개체에 대한 정보를 검색합니다.
 | <span class="preview">피드백 공유</span> | <span class="preview">`share_feedback`</span> | <span class="preview">보고된 감정 및 대화 중에 발생한 내용을 기록하여 Workfront의 MCP 도구를 개선할 수 있습니다. 명시적으로 피드백 공유를 요청할 때만 사용됩니다(예: &quot;피드백 공유&quot; 또는 &quot;버그 보고&quot;).</span> | <span class="preview">쓰기</span> |
 
 ## 보고 도구
+
+제품 요구 사항: 모든 고객
 
 보고 도구를 사용하면 채팅을 통해 캔버스 대시보드를 작성하고 관리할 수 있습니다. 원하는 보고서를 일반 언어로 설명하면 AI 에이전트 플랫폼이 Workfront 데이터를 사용하여 대시보드 및 위젯을 생성합니다.
 
@@ -336,7 +363,9 @@ Insights 도구는 Workfront 개체에 대한 정보를 검색합니다.
 
 ## 도구 업데이트 방법
 
-Adobe이 Workfront MCP 서버의 새 버전을 출시하면 AI 에이전트 플랫폼은 업데이트된 도구 세트를 자동으로 사용합니다. 다시 연결하거나 변경할 필요가 없습니다.
+Adobe이 Workfront MCP 서버의 새 버전을 출시하면 AI 에이전트 플랫폼은 업데이트된 도구 세트를 자동으로 사용합니다.
+
+연결이 시작될 때 도구 목록이 설정됩니다. 조직의 제품 권한이 변경되면 다음에 Workfront MCP 서버에 대한 새 연결을 시작할 때 업데이트된 도구 목록이 표시됩니다.
 
 
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '14626'
+source-wordcount: '14631'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -694,6 +694,7 @@ ht-degree: 2%
       * [사용자 지정 조건 삭제](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Adobe Workfront 관리 {#manage-wf}
     * [Workfront 관리](administration-and-setup/manage-workfront/manage-workfront.md)
+    * [Workfront에서 이벤트 구독 구성](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
     * 증명 기능 구성 {#configure-proofing}
       * [증명 구성](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [교정쇄 설정](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
@@ -1644,7 +1645,7 @@ ht-degree: 2%
       * [캔버스 대시보드의 통화 필드 사용](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
       * [캔버스 대시보드 필터링](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
       * [캔버스 대시보드의 이름 또는 설명 변경](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
-      * [캔버스 대시보드 복제](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
+      * [캔버스 대시보드 복사](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
       * [캔버스 대시보드 삭제](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
       * [레이아웃 템플릿에 캔버스 대시보드 추가](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
     * 보고서 관리 {#manage-reports}
@@ -1653,7 +1654,7 @@ ht-degree: 2%
       * [캔버스 대시보드에서 보고서 필터링](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
       * [캔버스 대시보드에 대한 보고서 필터 참조](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
       * [캔버스 대시보드에서 보고서 데이터 그룹화](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
-      * [캔버스 대시보드에서 보고서 복제](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
+      * [캔버스 대시보드에서 보고서 복사 및 이동](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [캔버스 대시보드에서 보고서 삭제](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * 보고서 {#reports}
     * [보고서](reports-and-dashboards/reports/reports-overview.md)

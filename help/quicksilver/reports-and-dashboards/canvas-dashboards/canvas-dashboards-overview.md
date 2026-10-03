@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 45491118778279522358f87c1c4185c4cf824829
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '575'
 ht-degree: 1%
 ---
 # 캔버스 대시보드 개요
@@ -147,7 +147,5 @@ Canvas Dashboards를 사용하면 문서 승인 결정 및 Workfront 계획을 �
 * 리소스 관리 보고서
 * 추가 홈 화면 위젯
 * 대시보드 요약 보내기
-* 보고서 복사
-* 대시보드 복사
 
 
