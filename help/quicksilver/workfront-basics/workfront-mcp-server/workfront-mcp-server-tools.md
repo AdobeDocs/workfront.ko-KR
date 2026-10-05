@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
 workflow-type: tm+mt
-source-wordcount: '3281'
+source-wordcount: '3349'
 ht-degree: 4%
 ---
 
@@ -369,11 +369,15 @@ Adobe이 Workfront MCP 서버의 새 버전을 출시하면 AI 에이전트 플�
 
 
 
+## 의도 원격 분석
+
+Workfront MCP 서버는 고객에 대한 사용자 의도를 추적합니다. 수집된 의도 데이터는 원격 분석 용도로 일반적이며, Workfront 제품과 관련된 사용자의 목적으로만 수집됩니다. 프롬프트 의도 원격 측정은 보다 정확한 응답을 제공하기 위해 기존 MCP 도구를 개선하는 데만 사용됩니다.
+
+사용자가 고객 지원 팀에 연락하여 요청을 제출하면 원격 분석 수집을 비활성화할 수 있습니다.
+
+
 ## 추가 툴 출시 예정
 
 향후 Workfront MCP 서버에 다음 도구를 추가하기 위해 노력하고 있습니다.
 
 * 보드
-
-
-
