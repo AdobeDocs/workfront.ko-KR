@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '984'
 ht-degree: 0%
 ---
 # FAQ - 이벤트 구독
@@ -82,7 +82,7 @@ ht-degree: 0%
 
   * 다음 조건 중 하나가 충족되면 이벤트 구독 URL이 비활성화됩니다.
 
-    * 구독 URL이 7일 동안 게재되지 않았으며 지난 72시간 동안 최소 2000회 연속 게재를 시도하지 못했습니다.
+    * 구독 URL이 최소 72시간 동안 배달되지 않았고 2,000번 이상 연속적으로 배달되지 않았습니다.
     * 구독 URL이 50,000회 연속 시도를 전달하지 못했습니다.
 
 ## 이벤트 구독 API를 호출하려고 할 때 500 응답 상태가 표시되면 어떻게 해야 합니까?
