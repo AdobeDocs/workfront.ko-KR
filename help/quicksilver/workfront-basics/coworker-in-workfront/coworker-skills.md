@@ -1,5 +1,5 @@
 ---
-title: CX Coworker 스킬
+title: CX Enterprise Coworker 스킬
 content-type: reference
 description: Adobe Workfront에서 Coworker가 사용할 수 있는 기술에 대해 알아봅니다.
 author: Becky
@@ -10,20 +10,20 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '255'
 ht-degree: 6%
 ---
-# CX Coworker 스킬
+# CX Enterprise Coworker 스킬
 
 {{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
->현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다. 자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
+>현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Enterprise Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다. 자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
 
-이 문서에는 현재 Workfront의 CX Coworker에서 사용할 수 있는 스킬이 나열되어 있습니다.
+이 문서에는 현재 Workfront의 CX Enterprise Coworker에서 사용할 수 있는 스킬이 나열되어 있습니다.
 
 이러한 스킬이 다루는 능력은 대화 인터페이스를 통해 동료에서 사용할 수 있으며, 이러한 스킬을 직접 호출할 필요는 없습니다. 그러나 스킬을 직접 호출하려면 슬래시 `/`을(를) 입력하고 스킬의 이름을 입력하여 [동료] 패널에서 호출할 수 있습니다.
 

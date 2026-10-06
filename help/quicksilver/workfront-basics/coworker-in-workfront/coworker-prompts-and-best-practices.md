@@ -1,5 +1,5 @@
 ---
-title: CX Coworker 프롬프트 및 우수 사례
+title: CX Enterprise Coworker 프롬프트 및 우수 사례
 content-type: reference
 description: Workfront에서 Coworker를 사용하기 위한 모범 사례에 대해 알아보고 프롬프트 예제 목록을 볼 수 있습니다.
 author: Becky
@@ -10,20 +10,20 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2241'
 ht-degree: 1%
 ---
-# CX Coworker 프롬프트 및 우수 사례
+# CX Enterprise Coworker 프롬프트 및 우수 사례
 
 &lt;!—사용하지 않음—MCP 예제 프롬프트 문서에 대신 링크합니다. MCP에 대한 최신 릴리스로 업데이트되었는지 확인하십시오—>
 
 >[!IMPORTANT]
 >
->현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다. 자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
+>현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Enterprise Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다. 자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
 
-CX Coworker을 사용하면 자연어를 사용하여 Workfront Workflow 및 Workfront Planning과 상호 작용할 수 있습니다.
+CX Enterprise Coworker을 사용하면 자연어를 사용하여 Workfront Workflow 및 Workfront Planning과 상호 작용할 수 있습니다.
 
 동료는 Adobe Experience Cloud Agent Orchestrator의 일부입니다.
 

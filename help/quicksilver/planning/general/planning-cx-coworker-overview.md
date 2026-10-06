@@ -1,6 +1,6 @@
 ---
-title: Adobe Workfront Planning CX Coworker 개요
-description: Workfront Planning에서 CX Coworker을 사용하여 일반적으로 인터페이스에서 수행하는 Planning의 레코드 및 기타 객체에 유사한 작업을 수행할 수 있습니다. 사용자의 명령과 AI의 해당 명령 실행은 함께 작동하여 AI가 수행한 변경 사항이 환경에 정확하게 반영되도록 합니다.
+title: Adobe Workfront Planning CX Enterprise Coworker 개요
+description: Workfront Planning에서 CX Enterprise Coworker을 사용하여 일반적으로 인터페이스에서 수행하는 Planning의 레코드 및 기타 객체에 유사한 작업을 수행할 수 있습니다. 사용자의 명령과 AI의 해당 명령 실행은 함께 작동하여 AI가 수행한 변경 사항이 환경에 정확하게 반영되도록 합니다.
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
@@ -19,15 +19,15 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1085'
 ht-degree: 1%
 ---
 
-# Adobe Workfront Planning CX Coworker 개요
+# Adobe Workfront Planning CX Enterprise Coworker 개요
 
-<!--replaced information from the AI Assistant for Planning article with CX Coworker-->
+<!--replaced information from the AI Assistant for Planning article with CX Enterprise Coworker-->
 
 <span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-CX Coworker은 목표를 일반 언어로 설명한 다음 Workfront Planning 및 기타 연결된 Adobe 시스템에서 작업을 계획, 실행 및 검증한 후 승인을 위해 다시 가져오는 대화 인터페이스입니다.
+CX Enterprise Coworker은 목표를 일반 언어로 설명한 다음 Workfront Planning 및 기타 연결된 Adobe 시스템에서 작업을 계획, 실행 및 검증한 후 승인을 위해 다시 가져오는 대화 인터페이스입니다.
 
 Coworker는 새로운 전체 화면 환경과 Workfront 오른쪽 레일 모두에서 강력한 엔드 투 엔드 기능을 추가하면서 현재 AI Assistant가 수행하는 모든 작업을 유지합니다.
 
@@ -107,7 +107,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 * 회사의 사용자가 동료가 사용 가능하려면 먼저 조직에 대해 동료가 사용 가능해야 합니다.
 
-  자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
+  자세한 내용은 [CX Enterprise Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
 * Workfront이 Workfront 인스턴스에 대해 에이전트를 활성화하면 기본 Workfront 관리자가 이를 사용할 수 있으며 조직에서 활성화할 수 있습니다. 자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
 
@@ -128,7 +128,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## 현재 Coworker에서 사용할 수 있는 기능
 
-현재 Coworker는 Workfront의 계획 영역에서 사용할 수 있으며 일련의 기술을 사용하여 Planning 객체의 정보에 액세스하고 이를 조작합니다. 자세한 내용은 [CX Coworker 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)을 참조하세요.
+현재 Coworker는 Workfront의 계획 영역에서 사용할 수 있으며 일련의 기술을 사용하여 Planning 객체의 정보에 액세스하고 이를 조작합니다. 자세한 내용은 [CX Enterprise Coworker 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)을 참조하세요.
 
 Coworker를 사용하여 다음 작업을 수행할 수 있습니다.
 

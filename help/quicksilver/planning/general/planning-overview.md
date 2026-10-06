@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1360'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 시작
@@ -186,11 +186,11 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
 
 <div class="preview">
 
-* [Adobe Workfront Planning CX Coworker 개요](/help/quicksilver/planning/general/planning-cx-coworker-overview.md): 목표를 일반 언어로 설명한 다음 Workfront Planning 및 기타 연결된 Adobe 시스템에서 작업을 계획, 실행 및 확인한 후 승인을 위해 다시 가져오는 대화 인터페이스입니다. CX Coworker은 새로운 전체 화면 경험과 Workfront 오른쪽 레일 모두에서 강력한 엔드 투 엔드 기능을 추가하면서 현재 AI Assistant가 수행하는 모든 작업을 유지합니다.
+* [Adobe Workfront Planning CX Enterprise Coworker 개요](/help/quicksilver/planning/general/planning-cx-coworker-overview.md): 목표를 일반 언어로 설명한 다음 Workfront Planning 및 기타 연결된 Adobe 시스템에서 작업을 계획, 실행 및 확인한 후 승인을 위해 다시 가져오는 대화 인터페이스입니다. CX Enterprise Coworker은 새로운 전체 화면 경험과 Workfront 오른쪽 레일 모두에서 강력한 엔드 투 엔드 기능을 추가하면서 현재 AI Assistant가 수행하는 모든 작업을 유지합니다.
 
 </div>
 
-* [Workfront Fusion용 Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Adobe Workfront 계획 모듈을 사용하면 Workfront Planning에서 이벤트가 발생할 때 시나리오를 트리거할 수 있습니다. 레코드를 생성, 읽기, 업데이트 및 삭제하거나 Adobe Workfront Planning 계정에 대한 사용자 정의 API 호출을 수행할 수도 있습니다. Workfront Fusion에 액세스하려면 추가 라이선스를 구입해야 합니다.
+* [Workfront Fusion용 Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Adobe Workfront 계획 모듈을 사용하면 Workfront Planning에서 이벤트가 발생할 때 시나리오를 트리거할 수 있습니다. 레코드를 생성, 읽기, 업데이트 및 삭제하거나 Adobe Workfront Planning 계정에 대한 사용자 정의 API 호출을 수행할 수도 있습니다. Workfront Fusion에 액세스하려면 추가 라이선스를 구입해야 합니다.
 
 * [Adobe Workfront Planning API 기본 사항](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API의 목표는 HTTP를 통해 작동하는 REST 풀 아키텍처를 도입하여 Planning과의 통합 구축을 간소화하는 것입니다.
 
