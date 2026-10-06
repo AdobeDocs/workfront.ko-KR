@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2237'
 ht-degree: 1%
 ---
 # CX Coworker 프롬프트 및 우수 사례
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->CX Coworker 는 현재 의료 서비스, 금융 기관 또는 중요한 데이터가 있는 기타 업계 조직에서 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다. 자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
+>현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다. 자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
 
 CX Coworker을 사용하면 자연어를 사용하여 Workfront Workflow 및 Workfront Planning과 상호 작용할 수 있습니다.
 
@@ -73,7 +73,7 @@ Agent Orchestrator에 대한 자세한 내용은 [Adobe Experience Platform Agen
 
 ## 고려 사항
 
-CX Coworker 사용 시 다음 제한 사항을 고려하십시오.
+Coworker를 사용할 때는 다음 제한 사항을 고려하십시오.
 
 ### 가역성
 
@@ -87,13 +87,13 @@ CX Coworker 사용 시 다음 제한 사항을 고려하십시오.
 
 ### 상호 작용/UX 제한 사항
 
-* CX Coworker은 현재 개별 사용자의 스타일 또는 환경 설정에서 장기간 &quot;학습&quot;하지 않습니다. 모든 채팅은 현재 대화와 제품 지식만 사용합니다.
+* 동료는 현재 개별 사용자의 스타일 또는 환경 설정에서 장기간 &quot;학습&quot;하지 않습니다. 모든 채팅은 현재 대화와 제품 지식만 사용합니다.
 * 대화 컨텍스트는 단일 채팅 세션 내에 유지됩니다. 새 페이지를 열거나 도우미를 닫으면 대화 내용이 재설정됩니다.
 * 승인 절차가 Confluence 또는 SharePoint과 같은 외부 애플리케이션에 있고 URL 필드를 통해서만 연결되는 경우, Coworker는 현재 해당 페이지를 가져오지 않고 해당 페이지를 합리화합니다.
 
 ### 데이터 스토리지 / 고객 관리 키
 
-* CX Coworker는 Adobe Experience Platform Agent Orchestrator의 일부이므로 Coworker와의 상호 작용 데이터는 Workfront이 아닌 Adobe Experience Platform에 저장됩니다. 따라서 이 데이터는 Workfront BYOK(Customer Managed Keys) 계약의 적용을 받지 않습니다.
+* Coworker는 Adobe Experience Platform Agent Orchestrator의 일부이므로 Coworker와의 상호 작용 데이터는 Workfront이 아닌 Adobe Experience Platform에 저장됩니다. 따라서 이 데이터는 Workfront BYOK(Customer Managed Keys) 계약의 적용을 받지 않습니다.
 
 ## 기본 AI 기술 사용
 
@@ -107,7 +107,7 @@ CX Coworker 사용 시 다음 제한 사항을 고려하십시오.
 
 ### 제품 지식
 
-CX 동료는 Workfront 설명서에서 가져온 지침이나 참조 정보를 제공할 수 있습니다.
+동료는 Workfront 설명서에서 가져온 지침 또는 참조 정보를 제공할 수 있습니다.
 
 Workfront 설명서에서 정보를 가져오는 방법에 대한 자세한 내용은 [AI Assistant에서 도움 받기](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)를 참조하십시오.
 
@@ -115,7 +115,7 @@ Workfront 설명서에서 정보를 가져오는 방법에 대한 자세한 내�
 
 ### 프로젝트, 작업 및 문제 요약
 
-CX Coworker은 Workfront에 업로드된 프로젝트, 작업 또는 문제<!--, or documents-->를 요약할 수 있습니다.
+동료는 Workfront에 업로드된 프로젝트, 작업 또는 문제<!--, or documents-->를 요약할 수 있습니다.
 
 프로젝트, 작업 및 문제 요약에 대한 자세한 내용은 [AI Assistant를 사용하여 요약](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)을 참조하십시오.
 
@@ -125,7 +125,7 @@ CX Coworker은 Workfront에 업로드된 프로젝트, 작업 또는 문제<!--,
 
 ### Locate work items
 
-CX Coworker can find work items like projects, tasks, and issues
+Coworker can find work items like projects, tasks, and issues
 
 Example: Find all tasks assigned to me that are due this week.
 
@@ -155,7 +155,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 -->
 
-## Workfront의 CX 동료
+## Workfront의 동료
 
 * [프로젝트, 작업 및 문제 정보](#project-task-and-issue-information)
 * [프로젝트 및 작업 관리](#project-and-work-management)
@@ -163,7 +163,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 ### 프로젝트, 작업 및 문제 정보
 
-CX 동료는 요약 및 프로젝트 상태를 포함하여 프로젝트, 작업 및 문제에 대한 정보를 제공할 수 있습니다.
+동료는 요약 및 프로젝트 상태를 포함하여 프로젝트, 작업 및 문제에 대한 정보를 제공할 수 있습니다.
 
 다음 영역에서 문서 및 자산 승인을 위한 프롬프트 예를 참조하십시오.
 
@@ -202,7 +202,7 @@ CX 동료는 요약 및 프로젝트 상태를 포함하여 프로젝트, 작업
 
 ### 프로젝트 및 작업 관리
 
-CX Coworker을 사용하여 작업 및 할당을 포함한 프로젝트를 만들고 관리할 수 있습니다.
+Coworker를 사용하여 작업 및 할당을 포함한 프로젝트를 만들고 관리할 수 있습니다.
 
 다음 영역에서 프로젝트 및 작업 관리에 대한 프롬프트 예를 참조하십시오.
 
@@ -266,7 +266,7 @@ CX Coworker을 사용하여 작업 및 할당을 포함한 프로젝트를 만�
 
 ### 컨텐츠 및 승인
 
-CX Coworker은 Workfront의 문서 및 에셋 승인을 관리하는 데 도움이 될 수 있습니다.
+동료는 Workfront에서 문서 및 에셋 승인을 관리하는 데 도움을 줄 수 있습니다.
 
 문서 및 자산 승인 작업 시 다음 사항을 고려하십시오.
 
@@ -313,7 +313,7 @@ CX Coworker은 Workfront의 문서 및 에셋 승인을 관리하는 데 도움�
 * Rick Kuvec를 제거하고 Karen Sterling을 2단계에 추가하여 &#39;Creative 검토&#39; 템플릿을 업데이트합니다.
 
 
-## Workfront Planning의 CX Coworker
+## Workfront Planning의 동료
 
 ### Planning 레코드 작업
 

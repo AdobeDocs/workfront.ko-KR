@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 0%
+source-wordcount: '1000'
+ht-degree: 1%
 ---
 
 # Adobe Workfront Planning의 관념화 공간 시작
@@ -155,7 +155,7 @@ Too much:
   * **완료하기 전에 확인**. AI에서 생성한 응답이 정확하지 않을 수 있으므로 레코드를 완료하기 전에 항상 카드에서 **소스**&#x200B;를 확인하고 연결된 소스를 확인하십시오.
   * **AI 카드와 실제 레코드를 혼합**&#x200B;합니다. 관념화 공간에 실제 레코드를 끌어서 놓습니다.
 
-## Adobe CX Coworker에서 사용할 수 있는 관념화 공간
+## Adobe CX Coworker에서 사용 가능한 관념화 공간
 
 관념화 공간은 Adobe의 CX Coworker을 통해 대화형, 전후 모드도 지원합니다.
 
@@ -200,10 +200,10 @@ Worth noting
 
 ## 추가 리소스
 
-* [Adobe Workfront 캠페인 계획](https://business.adobe.com/kr/products/workfront/campaign-planning.html)
+* [Adobe Workfront 캠페인 계획](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning 설명서](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio 개요](https://business.adobe.com/kr/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/kr/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio 개요](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--

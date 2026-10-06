@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '770'
 ht-degree: 4%
 ---
 # AI Assistant 프롬프트 및 우수 사례
 
 >[!IMPORTANT]
 >
->2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Coworker으로 전환됩니다. CX Coworker에 대한 자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
+>2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Coworker으로 전환됩니다. Coworker에 대한 자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
 Workfront의 AI Assistant는 계정 데이터 및 특정 객체 유형에 대한 유용한 정보를 제공하여 작업을 보다 효과적으로 완수할 수 있는 강력한 도구입니다.
 

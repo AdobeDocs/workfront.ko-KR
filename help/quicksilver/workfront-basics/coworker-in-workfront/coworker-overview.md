@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 0%
 ---
 # CX Coworker 개요
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->CX Coworker 는 현재 의료 서비스, 금융 기관 또는 중요한 데이터가 있는 기타 업계 조직에서 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다. 자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
+>현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다. 자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
 
-CX Coworker Chat 은 작업 완료를 위한 대화 인터페이스입니다. 목표를 일반 언어로 설명하면 동료가 작업을 계획하고 Adobe 및 연결된 시스템 전반에서 실행하고, 결과를 확인하고, 승인을 위해 완료된 작업을 다시 사용자에게 보냅니다&#x200B;.
+CX Coworker 채팅은 작업을 완료하기 위한 대화 인터페이스입니다. 목표를 일반 언어로 설명하면 동료가 작업을 계획하고 Adobe 및 연결된 시스템 전반에서 실행하고, 결과를 확인하고, 승인을 위해 완료된 작업을 다시 사용자에게 보냅니다&#x200B;.
 
 현재 AI Assistant에서 팀이 사용하는 모든 것은 여전히 작동하지만, 이제 새로운 전체 화면 환경과 Workfront 오른쪽 레일 모두에서 사용할 수 있는 보다 강력한 엔드 투 엔드 기능을 제공합니다.
 
@@ -31,10 +31,11 @@ CX Coworker Chat 은 작업 완료를 위한 대화 인터페이스입니다. �
 
 동료는 Adobe 생태계의 일부이며 Workfront에만 국한되지 않습니다.
 
-Workfront에서 CX Coworker 사용에 대한 자세한 내용은 [Workfront에서 CX Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)을 참조하십시오.
+Workfront에서 Coworker 사용에 대한 자세한 내용은 [Workfront에서 CX Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)을 참조하십시오.
 
-동료 및 해당 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker 채팅 개요](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/chat/overview)를 참조하세요.
+동료 및 해당 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker 채팅 개요](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)를 참조하세요.
 
 Workfront의 Coworker에서 사용할 수 있는 기술은 [CX Coworker 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)을 참조하십시오.
 
 예를 들어 프롬프트는 문서 [Adobe Workfront MCP 서버 사용](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)에서 프롬프트를 참조하십시오.
+
