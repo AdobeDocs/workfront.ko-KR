@@ -14,10 +14,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: e8e94a483c700dc00466ce7fa37f9ddaf3e86004
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 4%
+source-wordcount: '608'
+ht-degree: 2%
 ---
 # Creative Cloud 앱에서 Workfront 문서 사용
 
@@ -77,11 +77,45 @@ Photoshop, Illustrator 또는 InDesign에서 Workfront 프로젝트에 액세스
 >
 >Word 또는 Excel 문서와 같이 Photoshop, Illustrator 또는 InDesign에서 열 수 없는 파일 형식을 편집하려면 Adobe Cloud Drive를 대신 사용하십시오. 자세한 내용은 [Adobe Cloud Drive 개요](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)를 참조하세요.
 
+## Creative Cloud 앱에서 Workfront에 새 문서 저장
+
+1. Photoshop, Illustrator 또는 InDesign을 열고 새 파일을 만듭니다.
+1. 상단 메뉴에서 **파일 > 다른 이름으로 저장**&#x200B;을 선택합니다.
+1. **다른 이름으로 저장** 대화 상자에서 **클라우드 문서에 저장**&#x200B;을 선택한 다음 필요한 Workfront 프로젝트를 선택합니다.
+
+   >[!NOTE]
+   >
+   >Workfront 프로젝트에 이미 문서를 저장할 때 다른 이름으로 저장 대화 상자가 열리지 않습니다. Workfront 프로젝트를 선택하거나, 다른 폴더에 저장하거나, 다른 Workfront 프로젝트를 선택할 수 있습니다.
+
+
+   ![workfront에 새 문서 저장](assets/save-new-to-wf.png)
+
+1. 문서 폴더를 선택한 다음 **저장**&#x200B;을 클릭합니다. 폴더를 선택하지 않으면 문서가 프로젝트 루트 폴더에 저장됩니다.
+
+   ![workfront에 새 문서를 저장할 폴더 선택](assets/save-to-folder.png)
+
 ## 문서에 대한 승인 요청
 
 Workfront, Illustrator, InDesign 또는 다른 문서와 마찬가지로 Adobe Cloud Drive에서 업로드한 모든 문서에 Photoshop의 문서 승인을 추가할 수 있습니다. 자세한 내용은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
 
-<!--
-need to verify
-Creating an approval on a Creative Cloud document also creates a new version of the document. For more information, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-the-current-file-during-an-approval).
--->
+
+
+## Creative Cloud 앱에서 Workfront 문서 버전 관리
+
+Photoshop, Illustrator 또는 InDesign에서 Workfront으로 문서를 저장하면 저장한 변경 사항이 버전 탭의 현재 파일에 나타나고 &quot;새 변경 사항&quot; 배지로 표시됩니다.
+
+새 버전의 문서를 업로드하는 대신 현재 파일에 대한 승인을 요청할 수 있습니다. 자세한 내용은 [현재 파일에 대한 승인 요청](#request-approval-on-the-current-file)을 참조하세요.
+
+![새 변경 사항이 있는 현재 파일](assets/current-file.png)
+
+### 현재 파일에 대한 승인 요청
+
+Workfront에서 문서의 현재 파일에 대한 승인을 요청하려면:
+
+1. 승인을 요청할 문서가 포함된 Workfront의 프로젝트로 이동합니다.
+1. 문서를 열고 **버전** 탭으로 이동합니다.
+1. 현재 파일에서 **자세히** 메뉴를 클릭한 다음 **승인 요청**&#x200B;을 클릭합니다.
+1. **승인 요청** 대화 상자에서 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)의 단계에 따라 승인을 만듭니다.
+
+   ![현재 파일에 대한 승인 요청](assets/request-update-on-current-file.png)
+

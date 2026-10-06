@@ -32,8 +32,8 @@ role_v2:
     internal-label: User
 source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 2%
+source-wordcount: '958'
+ht-degree: 3%
 ---
 # Workfront AI 검토자 시작
 
@@ -62,7 +62,7 @@ Workfront에서 AI 검토자를 설정하려면 시스템 관리자여야 합니
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="지원되지 않는 파일 유형"
->abstract="이 AI 검토자는 선택한 파일 형식을 지원하지 않습니다. 지원되는 파일 유형을 업로드하거나 AI 검토자를 제거하여 요청을 제출합니다."
+>abstract="이 AI 검토자는 선택한 파일 형식을 지원하지 않습니다. 지원되는 파일 유형을 업로드하거나 AI 검토자를 제거하여 요청을 제출하십시오."
 
 AI 검토자는 다음 파일 유형을 검토할 수 있습니다.
 
