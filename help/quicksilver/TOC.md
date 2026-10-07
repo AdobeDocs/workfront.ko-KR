@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '14631'
+source-wordcount: '14637'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -971,11 +971,11 @@ ht-degree: 2%
     * [Adobe Workfront MCP 서버 사용](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Adobe Workfront MCP 서버 도구](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [직접 설치에 사용할 수 있는 기술](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
-  * Workfront의 CX Coworker {#coworker-in-workfront}
-    * [Workfront의 CX Coworker: 문서 색인](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [CX Coworker 스킬](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
-    * [Workfront에서 CX Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
+  * Workfront의 CX Enterprise Coworker {#coworker-in-workfront}
+    * [Workfront의 CX Enterprise Coworker: 문서 색인](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [CX Enterprise Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX Enterprise Coworker 스킬](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Workfront에서 CX Enterprise Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * 작업 항목 업데이트 및 업데이트 보기 {#update-work-items-view-updates}
     * [작업 항목 업데이트 및 업데이트 보기: 문서 색인](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [업데이트 섹션 개요](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2205,7 +2205,7 @@ ht-degree: 2%
     * [Adobe Workfront Planning 구현 권장 사항](planning/general/planning-best-practices.md)
     * [Adobe Workfront Planning API 기본 사항](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant 개요](planning/general/planning-ai-assistant-overview.md)
-    * [Adobe Workfront Planning CX Coworker 개요](planning/general/planning-cx-coworker-overview.md)
+    * [Adobe Workfront Planning CX Enterprise Coworker 개요](planning/general/planning-cx-coworker-overview.md)
     * [Adobe Workfront Planning Designer 시작](planning/general/planning-ai-designer.md)
     * [Adobe Workfront 2024년 릴리스 활동 계획](planning/general/release-activity.md)
     * [Adobe Workfront 2023년 릴리스 활동 계획](planning/general/release-activity-archives-2023.md)

@@ -1,6 +1,6 @@
 ---
 title: Adobe Workfront Planning Designer 시작
-description: AI에서 제공하는 Adobe Planning Designer을 사용하여 작업 공간 및 데이터 구조를 쉽게 구성할 수 있습니다. Planning Designer은 작업 공간 생성 및 구성에서 필드 및 공식 정의, 레코드 관리, 변경 내용 검토 및 사용자 정의 보기 작성에 이르기까지 모든 작업을 지원합니다. 직접 사용하든, AI Assistant 또는 CX Coworker을 통해 사용하든 상관없이 Planning Designer은 체계적이고 연결된 정보를 구축하고 유지할 수 있는 유연하고 강력한 환경을 제공합니다.
+description: AI에서 제공하는 Adobe Planning Designer을 사용하여 작업 공간 및 데이터 구조를 쉽게 구성할 수 있습니다. Planning Designer은 작업 공간 생성 및 구성에서 필드 및 공식 정의, 레코드 관리, 변경 내용 검토 및 사용자 정의 보기 작성에 이르기까지 모든 작업을 지원합니다. 직접 사용하든, AI Assistant 또는 CX Enterprise Coworker을 통해 사용하든 상관없이 Planning Designer은 체계적이고 연결된 정보를 구축하고 유지할 수 있는 유연하고 강력한 환경을 제공합니다.
 recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1642'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning Designer 시작
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 AI에서 제공하는 Adobe Planning Designer을 사용하여 작업 공간 및 데이터 구조를 쉽게 구성할 수 있습니다. Planning Designer은 작업 공간 생성 및 구성에서 필드 및 공식 정의, 레코드 관리, 변경 내용 검토 및 사용자 정의 보기 작성에 이르기까지 모든 작업을 지원합니다.
 
-Planning Designer은 AI Assistant를 통해 직접 사용하든, <span class="preview"> CX Coworker</span>을 통해 사용하든 간에 구조화되고 연결된 정보를 구축하고 유지 관리할 수 있는 유연하고 강력한 환경을 제공합니다.
+Planning Designer은 AI Assistant를 통해 직접 사용하든, <span class="preview"> CX Enterprise Coworker</span>을 통해 사용하든 간에 구조화되고 연결된 정보를 구축하고 유지 관리할 수 있는 유연하고 강력한 환경을 제공합니다.
 
 Workfront Planning에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -66,7 +66,7 @@ Workfront Planning에 대한 자세한 내용은 다음 문서를 참조하십�
 Planning의 AI Assistant 및 Coworker에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 * [Adobe Workfront Planning AI Assistant 개요](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
-* [Adobe Workfront Planning CX Coworker 개요](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+* [Adobe Workfront Planning CX Enterprise Coworker 개요](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
 
 ## 액세스 요구 사항
 

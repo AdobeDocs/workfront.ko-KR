@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '988'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning AI Assistant 개요
@@ -55,7 +55,7 @@ AI Assistant를 사용하여 현재 페이지 컨텍스트를 기반으로 Adobe
 
 >[!IMPORTANT]
 >
-><span class="preview">일부 조직에서 AI 도우미가 CX Coworker으로 대체되었습니다. 자세한 내용은 [Adobe Workfront Planning CX Coworker 개요](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>를 참조하십시오.
+><span class="preview">일부 조직에서 AI 도우미가 CX Enterprise Coworker으로 대체되었습니다. 자세한 내용은 [Adobe Workfront Planning CX Enterprise Coworker 개요](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -160,7 +160,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 >[!NOTE]
 >
-><span class="preview">조직에서 CX Coworker에 액세스할 수 있는 권한을 받은 경우 Coworker를 찾는 것은 AI Assistant를 찾는 것과 비슷합니다. 자세한 내용은 [Adobe Workfront Planning CX Coworker 개요](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>를 참조하십시오.
+><span class="preview">조직에서 CX Enterprise Coworker에 액세스할 수 있는 권한을 받은 경우 Coworker를 찾는 것은 AI Assistant를 찾는 것과 비슷합니다. 자세한 내용은 [Adobe Workfront Planning CX Enterprise Coworker 개요](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>를 참조하십시오.
 
 
 Workfront Planning의 다음 영역에서 AI Assistant를 찾을 수 있습니다.

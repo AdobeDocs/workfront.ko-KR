@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '1002'
+ht-degree: 0%
 ---
 
 # Adobe Workfront Planning의 관념화 공간 시작
@@ -155,9 +155,9 @@ Too much:
   * **완료하기 전에 확인**. AI에서 생성한 응답이 정확하지 않을 수 있으므로 레코드를 완료하기 전에 항상 카드에서 **소스**&#x200B;를 확인하고 연결된 소스를 확인하십시오.
   * **AI 카드와 실제 레코드를 혼합**&#x200B;합니다. 관념화 공간에 실제 레코드를 끌어서 놓습니다.
 
-## Adobe CX Coworker에서 사용 가능한 관념화 공간
+## Adobe CX Enterprise Coworker에서 사용 가능한 관념화 공간
 
-관념화 공간은 Adobe의 CX Coworker을 통해 대화형, 전후 모드도 지원합니다.
+관념화 공간은 Adobe의 CX Enterprise Coworker을 통해 대화형, 전후 모드도 지원합니다.
 
 사용자는 후속 질문을 하고 일회성 결과를 얻기보다는 짧은 대화를 개선할 수 있습니다.
 

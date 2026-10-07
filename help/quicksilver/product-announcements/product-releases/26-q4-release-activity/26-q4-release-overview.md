@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '3473'
+source-wordcount: '3475'
 ht-degree: 1%
 ---
 # 2026년 4분기 릴리스 개요
@@ -277,8 +277,8 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">이제 Workfront에서 CX Coworker 사용 가능</a>
-                <p>CX Coworker은 현재의 AI Assistant를 대체하여 Workfront 및 연결된 Adobe 시스템에서 작업을 수행하기 위한 새로운 대화 인터페이스입니다.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">이제 Workfront에서 CX Enterprise Coworker 사용 가능</a>
+                <p>CX Enterprise Coworker은 현재의 AI Assistant를 대체하여 Workfront 및 연결된 Adobe 시스템에서 작업을 수행하기 위한 새로운 대화 인터페이스입니다.</p>
             </td>
             <td><p>2026년 9월 3일부터 단계적으로 롤아웃</p></td>
             <td><p>2026년 9월 17일부터 단계적으로 롤아웃</p></td>

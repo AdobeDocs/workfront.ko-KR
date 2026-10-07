@@ -20,16 +20,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '203'
 ht-degree: 7%
 ---
 # AI Assistant를 사용하여 프로젝트, 작업 및 문제 작업
 
 >[!IMPORTANT]
 >
->2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Coworker으로 전환됩니다. Coworker에 대한 자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
+>2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Enterprise Coworker으로 전환됩니다. Coworker에 대한 자세한 내용은 [CX Enterprise Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
 AI Assistant를 통해 Workfront에서 프로젝트, 작업 및 문제를 찾을 수 있습니다.
 

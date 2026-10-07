@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 667caf828abe21bd1d89ab26bfbab71a7711fe9a
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1474'
 ht-degree: 1%
 ---
 # Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션
@@ -159,4 +159,4 @@ Adobe Developer Console에서 새 자격 증명을 설정하려면 해당 액세
 
 **어디에서 도움을 받을 수 있습니까?**
 
-특정 통합 또는 타임라인에 대한 질문이 있는 경우 Workfront 계정 팀에 문의하거나 지원 사례를 엽니다. 스크린샷이 포함된 공식적인 최신 설치 연습은 Adobe의 Developer Console 설명서에서 [액세스 권한 얻기](https://developer.adobe.com/workfront-apis/guides/gaining_access/)를 참조하십시오.
+특정 통합 또는 타임라인에 대한 질문이 있는 경우 Workfront 계정 팀에 문의하거나 지원 사례를 엽니다. 스크린샷이 포함된 공식적인 최신 설치 연습은 Adobe의 Developer Console 설명서에서 [액세스 권한 얻기](https://developer.adobe.com/workfront-apis/guides/gaining-access/)를 참조하십시오.

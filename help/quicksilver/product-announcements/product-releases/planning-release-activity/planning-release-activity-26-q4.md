@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a51e0a56d4a45794b2d9d1097ec14ff46a6b3065
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3151'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
@@ -190,7 +190,7 @@ Workspace 작성자는 현재 기본 소유자로 할당되어 있습니다. 이
 
 자세한 내용은 [AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청을 채우는 방법](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)을 참조하십시오.
 
-## Workfront Planning에서 사용 가능한 CX Coworker
+## Workfront Planning에서 사용 가능한 CX Enterprise Coworker
 
 >[!NOTE]
 >
@@ -198,9 +198,9 @@ Workspace 작성자는 현재 기본 소유자로 할당되어 있습니다. 이
 >프로덕션 빠른 릴리스: 2026년 9월 17일부터 단계적으로 롤아웃
 >모두를 위한 프로덕션: 2026년 10월 15일부터 단계적으로 롤아웃
 
-이제 CX Coworker을 Workfront Planning 내에서 사용할 수 있습니다. 이제 Workfront Planning 전체에서 사용할 수 있는 패널에서 CX Coworker에 액세스할 수 있습니다.
+이제 CX Enterprise Coworker을 Workfront Planning 내에서 사용할 수 있습니다. 이제 Workfront Planning 전체에서 사용할 수 있는 패널에서 CX Enterprise Coworker에 액세스할 수 있습니다.
 
-CX Coworker 채팅은 작업을 완료하기 위한 대화 인터페이스입니다. 목표를 일반 언어로 설명하면 동료가 작업을 계획하고 Workfront Planning 및 연결된 Adobe 시스템에서 작업을 실행하고 결과를 확인한 다음 완료된 작업을 다시 사용자에게 제출하여 승인을 받습니다.
+CX Enterprise Coworker 채팅은 작업을 완료하기 위한 대화 인터페이스입니다. 목표를 일반 언어로 설명하면 동료가 작업을 계획하고 Workfront Planning 및 연결된 Adobe 시스템에서 작업을 실행하고 결과를 확인한 다음 완료된 작업을 다시 사용자에게 제출하여 승인을 받습니다.
 
 동료는 기본적으로 읽기 전용 액세스 권한을 가진 조직의 기존 액세스 제어를 준수하며 시스템 관리자는 사용자가 쓰기 액세스 권한을 받을 때 제어합니다.
 
@@ -208,11 +208,11 @@ CX Coworker 채팅은 작업을 완료하기 위한 대화 인터페이스입니
 
 >[!IMPORTANT]
 >
->현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 계속 사용할 수 있습니다.
+>현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Enterprise Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 계속 사용할 수 있습니다.
 
-자세한 내용은 [CX Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
+자세한 내용은 [CX Enterprise Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
-## CX Coworker 출시를 준비하기 위해 레코드 세부 정보 미리 보기 상자에서 AI Assistant 아이콘이 제거됨
+## CX Enterprise Coworker 출시를 준비하기 위해 레코드 세부 정보 미리 보기 상자에서 AI Assistant 아이콘이 제거됨
 
 >[!NOTE]
 >
@@ -221,15 +221,15 @@ CX Coworker 채팅은 작업을 완료하기 위한 대화 인터페이스입니
 >모두를 위한 프로덕션: 2026년 10월 15일부터 단계적으로 롤아웃
 >[!BADGE 일정 해제]{type=Neutral}
 
-이 변경 사항은 Workfront에 CX Coworker이 있는 고객에게 제공됩니다.
+이 변경 사항은 Workfront에 CX Enterprise Coworker이 있는 고객에게 제공됩니다.
 
-Workfront에서 Adobe CX Coworker이 출시될 준비를 위해 세부 정보 미리보기 페이지에서 AI Assistant 아이콘을 제거했습니다. 전체 화면으로 열면 아이콘이 세부 정보 페이지에 계속 표시됩니다. 클릭하면 CX Coworker이 열립니다.
+Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세부 사항 미리보기 페이지에서 AI Assistant 아이콘을 제거했습니다. 전체 화면으로 열면 아이콘이 세부 정보 페이지에 계속 표시됩니다. 클릭하면 CX Enterprise Coworker이 열립니다.
 
 >[!IMPORTANT]
 >
->현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 계속 사용할 수 있습니다.
+>현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Enterprise Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 계속 사용할 수 있습니다.
 
-자세한 내용은 Workfront의 [CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)를 참조하십시오.
+자세한 내용은 Workfront의 [CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)를 참조하십시오.
 
 ## 일대일 또는 일대다 연결 유형이 있는 연결된 필드가 있는 레코드를 복제할 때 경험이 개선되었습니다
 
