@@ -10,22 +10,26 @@ exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
 TQID: https://experienceleague.adobe.com/u1-XVyEdGPh-mSbx1mg79tCO2xSMzj05heAV5WdoqoI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: '426'
 ht-degree: 0%
-
 ---
-
 # 문제 할당 수정 개요
 
-사용자, 팀 또는 작업 역할에 문제를 할당하거나 할당 취소할 수 있습니다. 여러 리소스를 동시에 할당하거나 하나의 리소스만 할당할 수 있습니다. 한 번에 한 문제씩 할당하거나 여러 문제를 일괄적으로 할당할 수 있습니다.
+{{preview-fast-release-general}}
+
+사용자, 팀, 작업 역할 또는 작업 에이전트에 문제를 할당하거나 할당 취소할 수 있습니다. 여러 리소스를 동시에 할당하거나 하나의 리소스만 할당할 수 있습니다. 한 번에 한 문제씩 할당하거나 여러 문제를 일괄적으로 할당할 수 있습니다.
 
 >[!TIP]
 >
