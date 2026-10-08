@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '2735'
+source-wordcount: '2755'
 ht-degree: 1%
 ---
 # 양식에 계산된 필드 추가
@@ -209,7 +209,7 @@ ht-degree: 1%
    </table>
 
 1. **계산** 상자에서 계산 빌드를 시작합니다.
-   1. **최대화**&#x200B;를 클릭하여 계산 편집기를 열고 계산을 빌드합니다.
+   1. **최대화**를 클릭하여 계산 편집기를 열고 계산을 빌드합니다.
       일반적으로 계산은 표현식으로 시작하며, 그 뒤에는 사용자 정의 양식을 오브젝트에 첨부할 때 참조할 필드를 포함하는 괄호가 옵니다.
 
       각 필드는 중괄호로 묶어야 합니다. 필드 이름을 입력할 때 시스템에서 제안을 하며 이를 선택하여 계산에 삽입할 수 있습니다.
@@ -356,7 +356,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">논리 추가</td> 
-      <td>표시 논리를 추가하여 사용자가 양식을 채울 때 이전 다중 선택 필드(드롭다운, 확인란 또는 라디오 버튼)에서 선택한 하나 이상의 항목을 기반으로 계산된 필드가 표시되는지 여부를 결정할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">사용자 정의 양식 및 필드에 논리 규칙 추가</a>를 참조하십시오. <p>적어도 하나의 확인란, 라디오 버튼 또는 드롭다운 필드가 양식의 계산된 사용자 지정 필드 앞에 오는 경우에만 사용할 수 있습니다. </p> <p>계산된 사용자 정의 필드에는 건너뛰기 논리 및 기타 논리 유형을 사용할 수 없습니다.</p> </td> 
+      <td>표시 논리를 추가하여 사용자가 양식을 채울 때 이전 다중 선택 필드(드롭다운, 확인란 또는 라디오 버튼)에서 선택한 하나 이상의 항목을 기반으로 계산된 필드가 표시되는지 여부를 결정할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">사용자 정의 양식 및 필드에 논리 규칙 추가</a>를 참조하십시오. <p>적어도 하나의 확인란, 라디오 버튼 또는 드롭다운 필드가 양식의 계산된 사용자 지정 필드 앞에 오는 경우에만 사용할 수 있습니다. </p> <p>계산된 사용자 정의 필드에는 건너뛰기 논리 및 기타 논리 유형을 사용할 수 없습니다.</p> <p><b>참고:</b> 표시 논리에 의해 숨겨진 사용자 지정 필드는 해당 값을 유지하고 CONCAT와 같은 식에 계속 포함됩니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">이전 계산 업데이트</td> 
