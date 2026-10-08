@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
 workflow-type: tm+mt
-source-wordcount: '3475'
+source-wordcount: '3601'
 ht-degree: 1%
 ---
 # 2026년 4분기 릴리스 개요
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 이 페이지는 2026년 4분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 추가 개선 사항으로 업데이트됩니다.
 
-라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/ko/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
+라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/en/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
 
 >[!IMPORTANT]
 >
@@ -65,8 +65,26 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">사용자의 작업 기록 보기</a>
+                <p>이제 Workfront 관리자는 필터링 가능한 단일 고용 내역 보기에서 시간 경과에 따른 사용자의 작업 역할, 에이전시, 비용 부서 및 청구 요금의 변경 사항을 추적할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">AI를 사용하여 사용자 지정 지역화 생성</a>
                 <p>이제 Workfront 관리자는 AI를 사용하여 사용자 정의 현지화 텍스트에 대한 번역을 생성하고 저장하기 전에 결과를 검토하거나 조정할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 10월 1일</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿 개선 사항</a>
+                <p>메인 메뉴에 항목 숨기기 또는 표시, 메인 메뉴에 사용자 지정 응용 프로그램 배치, 왼쪽 탐색 영역에 세부 정보 숨기기 등 레이아웃 템플릿에 대한 몇 가지 개선 사항이 이루어졌습니다.</p>
             </td>
             <td><p>2026년 10월 1일</p></td>
             <td><p>2026년 10월 14일</p></td>
@@ -134,16 +152,6 @@ ht-degree: 1%
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront Planning 고객을 위한 사용자 정의 분기 외에 사용자 정의 주</a>
                 <p>조직에 Planning 패키지가 있는 경우 이제 사용자 정의 분기를 구성하는 것과 동일한 방식으로 사용자 정의 주를 구성할 수 있습니다.</p>
-            </td>
-            <td><p>2026년 9월 3일</p></td>
-            <td><p>2026년 9월 17일</p></td>
-            <td><p>2026년 10월 15일</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">주 메뉴에서 사용자 지정 응용 프로그램 순서 바꾸기</a>
-                <p><strong>참고:</strong> 이 기능은 2026년 9월 14일에 미리 보기 환경에서 일시적으로 제거되었습니다.</p>
-                <p>이제 레이아웃 템플릿의 기본 메뉴에서 사용자 정의 응용 프로그램을 항상 마지막에 나타나게 하는 대신 위치를 변경할 수 있습니다.</p>
             </td>
             <td><p>2026년 9월 3일</p></td>
             <td><p>2026년 9월 17일</p></td>
@@ -361,6 +369,17 @@ ht-degree: 1%
             <td><p>2026년 10월 1일</p></td>
             <td><p>2026년 10월 1일</p></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Delegate unified document approvals</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period.</p>
+            </td>
+            <td><p>October 8, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->        
          <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">여러 문서를 단일 승인 워크플로로 그룹화</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
@@ -370,27 +389,24 @@ ht-degree: 1%
             <td><p>2026년 10월 14일</p></td>
             <td><p>2026년 10월 15일</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Add a web link as a document</a>
-                <p>You can now add a website to Adobe Workfront as a web link in the new Documents area and request approval on the live web page.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">웹 링크를 문서로 추가</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>이제 웹 사이트를 새 문서 영역에서 Adobe Workfront에 웹 링크로 추가하고 라이브 웹 페이지에서 승인을 요청할 수 있습니다.</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>이 기능은 Frame.io 통합을 사용할 수 없으므로 미리보기 샌드박스 환경에서는 사용할 수 없습니다.</p></td>
+            <td><p>2026년 10월 14일</p></td>
+            <td><p>2026년 10월 15일</p></td>
         </tr>
-        <tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
-                <p>You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign using the Projects panel.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud 앱에서 Workfront 프로젝트에 액세스</a>
+                <p>이제 프로젝트 패널을 사용하여 Adobe Photoshop, Illustrator 및 InDesign에서 직접 Workfront 프로젝트에 액세스할 수 있습니다.</p>
             </td>
             <td><p>N/A</p></td>
-            <td><p>[DATE]</p></td>
-            <td><p>[DATE]</p></td>
+            <td><p>[날짜]</p></td>
+            <td><p>[날짜]</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">시스템 관리자가 승인 템플릿에 대한 전체 액세스</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
@@ -898,8 +914,8 @@ Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용
 
 이 변경 사항은 2026년 4월 Workfront 릴리스 정보에서 처음 발표되었으며, 기한 전에 알려 주는 최종 알림입니다. 영향을 받는 모든 리더 사용자가 2026년 8월 8일 이전에 MFA를 활성화하여 액세스 중단을 방지해야 합니다.
 
-자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/ko/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
+자세한 내용은 [Snowflake에 대한 Reader 계정 또는 연결 만들기](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
