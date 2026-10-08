@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1427'
 ht-degree: 1%
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 1%
    <ul><li><p>AEM 에셋을 Planning 레코드 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 개체 및 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -137,6 +137,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * 종속성 수준은 6개의 연결로 제한됩니다. 즉, 최대 7개의 레코드 종류를 연결할 수 있습니다.
 
 * 종속성 체인이 작동하려면 모든 종속 필드가 동일한 레코드 유형에 동시에 존재해야 합니다.
+
+* 종속 필드는 레코드 또는 요청 양식의 세부 정보 영역을 포함하여 연결된 레코드 필드가 표시되는 모든 영역에 대해 지원됩니다.
 
 ## 종속 연결 만들기
 

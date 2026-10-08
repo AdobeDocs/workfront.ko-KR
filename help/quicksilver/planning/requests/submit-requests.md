@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3110'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning 요청을 제출하여 레코드 생성
@@ -220,6 +220,12 @@ Not sure how to change the request status, but dev also said: Changing the names
    >**이름** 필드는 조직에 고유하며 Workfront 인스턴스에 다른 레이블이 표시될 수 있습니다. 필드는 레코드의 기본 필드입니다.
 
 1. 요청 양식의 나머지 필드를 업데이트합니다. 빨간색 별표가 있는 필드는 필수입니다.
+
+   >[!TIP]
+   >
+   >종속 연결된 레코드 필드의 값은 레코드 간의 종속 규칙에 의해 제한됩니다. 자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.
+
+
 1. (조건부) 조직에서 AI가 제공하는 **양식 채우기**&#x200B;를 허용하는 경우 문서를 프롬프트로 업로드할 수 있습니다. AI는 이러한 문서를 사용하여 양식을 채우며 요청을 제출하기 전에 AI 제안을 수락하거나 거부할 수 있습니다.
 
 
