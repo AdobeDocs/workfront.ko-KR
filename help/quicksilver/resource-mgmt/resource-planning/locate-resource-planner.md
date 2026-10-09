@@ -96,7 +96,7 @@ ht-degree: 3%
 
 ![기본값으로 리소스 플래너](assets/default-resource-planner.png)
 
-1. 왼쪽 패널에서 **리소스 풀**을 클릭합니다.
+1. 왼쪽 패널에서 **리소스 풀**&#x200B;을 클릭합니다.
 리소스 풀 만들기에 대한 자세한 내용은 [리소스 풀 만들기](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)를 참조하십시오.
 
 ### 한 프로젝트에 리소스 플래너 사용 {#use-the-resource-planner-for-one-project}
