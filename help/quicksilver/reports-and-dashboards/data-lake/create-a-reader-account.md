@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '976'
 ht-degree: 1%
 ---
 # Snowflake에 대한 Reader 계정 또는 연결 만들기
@@ -73,6 +73,10 @@ Data Connect 데이터에 액세스하려면 먼저 조직에 대한 Snowflake �
 ## 리더 계정 만들기
 
 연결 만들기를 시작하려면 먼저 조직에 대한 새 Snowflake reader 계정을 만들어야 합니다.
+
+판독기 계정은 Snowflake 또는 서드파티 시각화 또는 데이터 처리 도구에서 쿼리할 수 있는 Data Connect 데이터에 대한 읽기 전용 액세스를 제공합니다. Data Connect는 Snowflake 보기에서만 데이터를 공유합니다. 데이터베이스 테이블은 포함되지 않습니다.
+
+자세한 내용은 Snowflake 설명서에서 [판독기 계정 만들기](https://docs.snowflake.com/en/user-guide/data-sharing-reader-create)를 참조하십시오.
 
 >[!IMPORTANT]
 >
