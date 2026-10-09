@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '3693'
+source-wordcount: '3711'
 ht-degree: 0%
 ---
 # 사용자 정의 양식 및 필드에 논리 규칙 추가
@@ -120,6 +120,7 @@ ht-degree: 0%
   * 표시 논리 문에 포함되지 않은 사용자 정의 필드는 기본적으로 사용자 정의 양식에 표시됩니다.
   * 다중 필드 표시 논리 문을 만들 수 있습니다.
   * 섹션 구분 아래의 모든 필드에 표시 논리가 적용되어 있고 논리의 결과로 해당 필드가 모두 숨겨져 있는 경우 사용자 정의 양식에서 전체 섹션이 숨겨집니다.
+  * 표시 논리에 의해 숨겨진 필드는 해당 값을 유지하며 CONCAT와 같은 표현식에 계속 포함됩니다.
 
 ## 사용자 정의 양식에 표시 논리 추가
 

@@ -6,26 +6,31 @@ description: 리소스 플래너에서 리소스의 가용성과 프로젝트에
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-TQID: https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E
+TQID: 'https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1200
+source-wordcount: '1200'
 ht-degree: 6%
-
 ---
-
 # Adobe Workfront 리소스 플래너를 사용하여 리소스 가용성 및 할당 검토
 
 리소스 플래너에서 리소스의 가용성과 프로젝트에 대한 계획 또는 예산 작업의 양을 볼 수 있습니다. 이러한 값은 시간, FTE(Full Time Equivalent) 또는 비용 금액으로 표시되며 열로 구성됩니다.
@@ -92,18 +97,18 @@ ht-degree: 6%
 
 
 
-   * 사용 가능한 시간, FTE 또는 비용
-   * 계획된 시간, FTE 또는 비용
-   * 예산 시간, FTE 또는 비용
-   * 시간, FTE 또는 비용 차이
-   * 순 시간, FTE 또는 비용
+  * 사용 가능한 시간, FTE 또는 비용
+  * 계획된 시간, FTE 또는 비용
+  * 예산 시간, FTE 또는 비용
+  * 시간, FTE 또는 비용 차이
+  * 순 시간, FTE 또는 비용
 
 * **사용자별 보기** 보기를 적용하면 다음 열이 표시됩니다.
 
-   * 사용 가능한 시간 또는 FTE
-   * 계획된 시간 또는 FTE
-   * 시간 또는 FTE 차이
-   * 계획된 시간 할당 백분율
+  * 사용 가능한 시간 또는 FTE
+  * 계획된 시간 또는 FTE
+  * 시간 또는 FTE 차이
+  * 계획된 시간 할당 백분율
 
 >[!TIP]
 >

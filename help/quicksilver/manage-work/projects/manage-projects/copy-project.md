@@ -12,26 +12,34 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/u2Ifl47l4tOd-g-WC-8Io96xmV8ut4RLvwzxyFBwmeA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 7%
-
 ---
-
 # 프로젝트 복사
 
 <!--
@@ -162,76 +170,76 @@ ht-degree: 7%
 
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
       <td role="rowheader">모두 선택</td> 
       <td> <p>모든 옵션을 선택하고 새 프로젝트에서 나열된 모든 필드와 개체를 지웁니다. </p>
 
    <p> 이 옵션을 선택 해제하면 모든 항목이 선택 해제됩니다. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">할당</td> 
-      <td>모든 프로젝트 및 작업 할당을 제거합니다.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">진행</td> 
-      <td>모든 작업의 진행률을 제거하고 새 작업으로 표시합니다. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">사용자 정의 데이터</td> 
-      <td> <p>프로젝트의 사용자 정의 양식에 대한 정보와 다음 항목과 연결된 사용자 정의 양식에 대한 정보를 제거합니다.</p> 
-       <ul> 
-        <li>작업</li> 
-        <li>경비</li> 
-        <li> 문서</li> 
-       </ul> 
-      <p>사용자 정의 양식은 작업, 경비, 문서 및 프로젝트에 첨부된 상태로 유지되지만 양식의 사용자 정의 필드에 있는 정보는 새 프로젝트에 복사되지 않습니다. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">문서</td> 
-      <td> <p>문서 탭의 문서 버전, 링크된 문서 및 폴더를 모두 제거합니다.</p> <p>기본적으로 문서 증명 및 승인은 다른 프로젝트에 복사할 수 없습니다. </p> </td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">할당</td> 
+        <td>모든 프로젝트 및 작업 할당을 제거합니다.</td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">진행</td> 
+        <td>모든 작업의 진행률을 제거하고 새 작업으로 표시합니다. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">사용자 정의 데이터</td> 
+        <td> <p>프로젝트의 사용자 정의 양식에 대한 정보와 다음 항목과 연결된 사용자 정의 양식에 대한 정보를 제거합니다.</p> 
+        <ul> 
+          <li>작업</li> 
+          <li>경비</li> 
+          <li> 문서</li> 
+        </ul> 
+        <p>사용자 정의 양식은 작업, 경비, 문서 및 프로젝트에 첨부된 상태로 유지되지만 양식의 사용자 정의 필드에 있는 정보는 새 프로젝트에 복사되지 않습니다. </p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">문서</td> 
+        <td> <p>문서 탭의 문서 버전, 링크된 문서 및 폴더를 모두 제거합니다.</p> <p>기본적으로 문서 증명 및 승인은 다른 프로젝트에 복사할 수 없습니다. </p> </td> 
+      </tr> 
+      <tr> 
       <td role="rowheader">모든 전임 작업</td> 
       <td> <p>프로젝트의 작업 간 모든 전임 작업 관계를 제거합니다. </p> <p>
 
    프로젝트 간 전임 작업은 선택 여부에 관계없이 새 프로젝트로 이전되지 않습니다. </p> </td>
    </tr>
 
-<tr> 
-      <td role="rowheader">예산 시간</td> 
-      <td> <p>복사된 프로젝트에서 프로젝트 비즈니스 사례의 리소스 계획 영역에 예산 책정된 시간을 제거합니다.</p> 
-    <p>
-   새 프로젝트가 시나리오 플래너의 이니셔티브에 연결되어 있지 않으므로 시나리오 플래너를 사용하여 예산 책정된 시간은 새 프로젝트에 복사되지 않습니다. 자세한 내용은 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">시나리오 플래너를 사용하여 비즈니스 사례에서 리소스 예산</a>을 참조하세요.</p>
-   </tr></td>
-    <tr> 
-      <td role="rowheader">재무 정보</td> 
-      <td> <p>다음 영역의 정보를 제거합니다. </p> 
-       <ul> 
-        <li>프로젝트의 재무 하위 탭</li> 
-        <li> 비즈니스 사례의 계획된 이익</li> 
-        <li>모든 작업의 재무 정보<br></li> 
-       </ul> <p>프로젝트 재무 하위 탭에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">프로젝트 재무 영역의 정보 관리</a>를 참조하십시오.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">승인 진행</td> 
-      <td>작업 또는 프로젝트와 관련된 모든 승인을 제거합니다. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">미리 알림</td> 
-      <td> 작업 또는 프로젝트와 관련된 미리 알림을 제거합니다. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">경비</td> 
-      <td>작업 또는 프로젝트와 관련된 비용을 제거합니다. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">권한</td> 
-      <td> 작업 또는 프로젝트에 대한 모든 사용자의 권한을 제거합니다.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   <tr> 
+        <td role="rowheader">예산 시간</td> 
+        <td> <p>복사된 프로젝트에서 프로젝트 비즈니스 사례의 리소스 계획 영역에 예산 책정된 시간을 제거합니다.</p> 
+      <p>
+    새 프로젝트가 시나리오 플래너의 이니셔티브에 연결되어 있지 않으므로 시나리오 플래너를 사용하여 예산 책정된 시간은 새 프로젝트에 복사되지 않습니다. 자세한 내용은 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">시나리오 플래너를 사용하여 비즈니스 사례에서 리소스 예산</a>을 참조하세요.</p>
+    </tr></td>
+      <tr> 
+        <td role="rowheader">재무 정보</td> 
+        <td> <p>다음 영역의 정보를 제거합니다. </p> 
+        <ul> 
+          <li>프로젝트의 재무 하위 탭</li> 
+          <li> 비즈니스 사례의 계획된 이익</li> 
+          <li>모든 작업의 재무 정보<br></li> 
+        </ul> <p>프로젝트 재무 하위 탭에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">프로젝트 재무 영역의 정보 관리</a>를 참조하십시오.</p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">승인 진행</td> 
+        <td>작업 또는 프로젝트와 관련된 모든 승인을 제거합니다. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">미리 알림</td> 
+        <td> 작업 또는 프로젝트와 관련된 미리 알림을 제거합니다. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">경비</td> 
+        <td>작업 또는 프로젝트와 관련된 비용을 제거합니다. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">권한</td> 
+        <td> 작업 또는 프로젝트에 대한 모든 사용자의 권한을 제거합니다.</td> 
+      </tr> 
+      </tbody> 
+    </table>
 
 1. **프로젝트 복사**&#x200B;를 클릭합니다. 복사된 프로젝트가 생성됩니다.

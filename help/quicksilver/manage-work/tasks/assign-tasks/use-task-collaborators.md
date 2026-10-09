@@ -1,7 +1,7 @@
 ---
 title: 작업 에이전트 사용
 content-type: reference
-description: Workfront 작업에 할당할 수 있는 작업 에이전트, AI 공동 작업자를 사용하는 방법에 대해 알아봅니다.
+description: Workfront 작업, 문제 및 요청에 할당할 수 있는 작업 에이전트, AI 공동 작업자를 사용하는 방법에 대해 알아봅니다.
 author: Becky
 feature: Work Management, Tasks
 product_v2:
@@ -16,16 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1085'
 ht-degree: 1%
 ---
 # 작업 에이전트 사용
 
 {{preview-fast-release-general}}
 
-작업 에이전트는 Workfront 작업 및 문제에 직접 할당할 수 있는 AI 공동 작업자입니다. 다른 AI 공동 작업자와 마찬가지로 작업 에이전트도 설정 영역에 구성되며 사용자와 마찬가지로 작업에 할당됩니다.
+작업 에이전트는 Workfront 작업, 문제 및 요청에 직접 할당할 수 있는 AI 공동 작업자입니다. 다른 AI 공동 작업자와 마찬가지로 작업 에이전트도 설정 영역에서 구성되어 사용자와 마찬가지로 작업 항목에 할당됩니다.
 
 작업 에이전트는 Copilot Studio, Claude, Writer, <span class="preview">OpenAI 또는 IBM에서 구성한 에이전트에 연결합니다. </span>
 
@@ -125,13 +125,13 @@ Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지�
 * 작업 에이전트는 이미 작업 에이전트가 할당된 작업에 할당됩니다. 이 경우 할당된 첫 번째 작업 에이전트는 이미 작업을 시작했을 것이며 두 번째 작업 에이전트는 아무 작업도 하지 않습니다.
 * 작업 에이전트가 시작할 준비가 되지 않은 작업에 할당되었습니다. (예를 들어 작업에 전임 작업이 있는 경우 해당 전임 작업은 아직 완료되지 않았습니다.)
 
-## 작업 에이전트 <span class="preview"> 또는 문제</span>에 할당
+## 작업, 문제 또는 요청에 작업 에이전트 할당
 
-작업 에이전트는 사용자가 할당된 것과 같은 방식으로 작업 <span class="preview"> 또는 문제</span>에 할당됩니다.
+작업 에이전트는 사용자가 할당된 것과 동일한 방식으로 작업, 문제 또는 요청에 할당됩니다.
 
 사용 가능한 할당자 목록에서 작업 에이전트를 검색하는 경우 작업 에이전트의 이름은 이름으로만 표시됩니다.
 
-지침은 [작업 할당](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)을 참조하세요.
+지침은 [작업 할당](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) 및 [작업 및 팀 요청 관리](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)를 참조하십시오.
 
 >[!NOTE]
 >

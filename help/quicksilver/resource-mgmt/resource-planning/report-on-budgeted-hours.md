@@ -6,24 +6,27 @@ description: 리소스 플래너를 사용하여 프로젝트에 대한 리소�
 author: Lisa
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
-TQID: https://experienceleague.adobe.com/y1caRsSZ8l1TlfT0LuypUAmWjv2YIWRoDkEg-b8R3OQ
+TQID: 'https://experienceleague.adobe.com/y1caRsSZ8l1TlfT0LuypUAmWjv2YIWRoDkEg-b8R3OQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 155
+source-wordcount: '155'
 ht-degree: 0%
-
 ---
-
 # 리소스 플래너 예산 시간에 대한 보고서
 
 리소스 플래너를 사용하여 프로젝트에 대한 리소스의 예산을 책정할 수 있습니다. Adobe Workfront 리소스 플래너를 사용하여 리소스 예산을 책정하는 방법에 대한 자세한 내용은 문서 [프로젝트 및 역할 보기를 사용하여 리소스 플래너에서 리소스 예산](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)을 참조하십시오.

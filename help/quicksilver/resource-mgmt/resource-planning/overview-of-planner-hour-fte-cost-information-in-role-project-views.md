@@ -7,27 +7,33 @@ description: 리소스 플래너의 프로젝트 및 역할 보기에서 시간,
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
+TQID: 'https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 3089
+source-wordcount: '3089'
 ht-degree: 0%
-
 ---
-
 # 리소스 플래너의 프로젝트 및 역할 보기에서 시간, FTE 및 비용 정보 개요
 
 <!--
@@ -67,11 +73,11 @@ ht-degree: 0%
 
 * 리소스 플래너에서 리소스에 대한 예산 배부는 다음과 같은 방법으로 수행됩니다.
 
-   * 수동
+  * 수동
 
-     또는
+    또는
 
-   * **프로젝트별 보기** 및 **역할별 보기** 보기에서 프로젝트 및 역할 옵션을 사용하여 자동으로 수행합니다.
+  * **프로젝트별 보기** 및 **역할별 보기** 보기에서 프로젝트 및 역할 옵션을 사용하여 자동으로 수행합니다.
 
   자세한 내용은 [프로젝트 및 역할 보기를 사용하여 리소스 플래너의 리소스 예산](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)을 참조하세요.
 
@@ -190,16 +196,16 @@ ht-degree: 0%
   주말, 일정 예외 및 휴무일은 이 배포에서 제외됩니다.
 * 각 자원의 계획된 시간 계산에는 다음 작업 범주가 포함됩니다.
 
-   * 프로젝트의 리소스 풀, 작업 역할 또는 팀에서 사용자에게 할당된 작업\
-     작업이 팀에 할당되면 해당 할당은 **역할 없음** 및 **사용자 없음** 섹션에 표시됩니다. 팀과 연결된 계획된 시간을 볼 수 있지만, 작업과 연결된 역할이나 사용자가 없으므로 시간을 예산으로 책정할 수 없습니다.
+  * 프로젝트의 리소스 풀, 작업 역할 또는 팀에서 사용자에게 할당된 작업\
+    작업이 팀에 할당되면 해당 할당은 **역할 없음** 및 **사용자 없음** 섹션에 표시됩니다. 팀과 연결된 계획된 시간을 볼 수 있지만, 작업과 연결된 역할이나 사용자가 없으므로 시간을 예산으로 책정할 수 없습니다.
 
-   * 할당 해제된 작업
+  * 할당 해제된 작업
 
 * 리소스 플래너의 계획된 시간에는 다음과 연관된 계획된 시간이 포함되지 않습니다.
 
-   * 상위 작업
-   * 리소스 풀이 없는 사용자에게 할당된 작업
-   * **문제의 시간 포함** 설정이 비활성화된 경우 문제가 발생합니다.
+  * 상위 작업
+  * 리소스 풀이 없는 사용자에게 할당된 작업
+  * **문제의 시간 포함** 설정이 비활성화된 경우 문제가 발생합니다.
 
 * 작업 기간이 0인 경우 리소스 플래너에 계획된 시간이 표시되지 않습니다.
 * 비활성화된 사용자와 연결된 계획된 시간이 표시되지 않습니다.

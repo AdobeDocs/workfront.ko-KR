@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4dc9ef8ad7c6314d4c9c331ed25760ad0343d9ff
+source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1793'
 ht-degree: 0%
 ---
 # 2026년 4분기 관리자 개선 사항
@@ -23,6 +23,22 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 4분기 릴리스의 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
+
+## 사용자의 고용 내역 보기
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 1일
+>프로덕션 빠른 릴리스: 2026년 10월 14일
+>모두를 위한 프로덕션: 2026년 10월 15일
+
+사용자의 작업 역할, 에이전시, 비용 부서 및 청구 요금이 시간에 따라 어떻게 변경되었는지 추적하는 데 도움이 되도록 고용 내역을 추가했습니다.
+
+고용 내역은 한 명 이상의 사용자에 대해 이러한 상세내역에 대한 시간별 보기를 표시합니다. 각 행은 특정 값 집합과 이 값이 적용되는 날짜 범위를 나타냅니다.
+
+여러 사용자에 대한 고용 내역을 보거나 단일 사용자의 전체 내역을 볼 수 있습니다. 두 보기 중 하나에서 결과를 필터링하고, 표시할 열을 사용자 지정하고, 데이터를 CSV 또는 XLSX 파일로 내보낼 수 있습니다.
+
+자세한 내용은 [사용자 고용 내역 보기](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)를 참조하십시오.
 
 ## AI를 사용하여 사용자 정의 지역화 생성
 
@@ -73,7 +89,7 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 * 이제 기본 Workfront 메뉴 옵션을 사용하여 사용자 정의 응용 프로그램을 임의의 순서로 재배치할 수 있습니다. 이를 통해 각 애플리케이션을 가장 관련성이 높은 위치에 배치할 수 있습니다. 이전에는 사용자 지정 응용 프로그램이 레이아웃 템플릿의 기본 메뉴 옵션에서 항상 마지막 항목이어서 위치를 변경할 수 없었습니다.
 * 이제 왼쪽 탐색 패널에서 오브젝트의 세부 정보 페이지를 숨길 수 있습니다. 객체에는 왼쪽 패널에 표시되는 항목이 하나 이상 있어야 합니다. 다른 모든 항목이 숨겨져 있으면 마지막 남은 항목을 숨길 수 없습니다.
 
-자세한 내용은 [레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) 및[레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)을 참조하십시오.
+자세한 내용은 [레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) 및 [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)을 참조하십시오.
 
 ## 사용자 정의 양식 디자이너의 필드 선택 사항을 업데이트하는 경험이 개선되었습니다.
 

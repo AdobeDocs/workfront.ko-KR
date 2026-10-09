@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-issues
 title: 문제 할당
-description: 사용자, 역할 및 팀에 문제를 할당하여 문제 완료에 대한 책임 주체를 나타낼 수 있습니다. 문제 할당에 대한 일반적인 내용은 문제 할당 수정 개요를 참조하십시오.
+description: 사용자, 역할, 팀 및 작업 에이전트에게 문제를 할당하여 문제 완료에 대한 책임자를 나타낼 수 있습니다. 문제 할당에 대한 일반적인 내용은 문제 할당 수정 개요를 참조하십시오.
 author: Lisa
 feature: Work Management
 role: User
@@ -12,23 +12,29 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jJLBz6MVWaSCabnj-y8FKnqtQlT5PGRfZ9KZtrgOar8
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+    internal-label: Administration
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: 1367
+source-wordcount: '1380'
 ht-degree: 2%
-
 ---
-
 # 문제 할당
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -42,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-사용자, 역할 및 팀에 문제를 할당하여 문제 완료에 대한 책임 주체를 나타낼 수 있습니다. 문제 할당에 대한 일반적인 정보는 [문제 할당 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)를 참조하십시오.
+사용자, 역할, 팀 또는 작업 에이전트에게 문제를 할당하여 문제 완료에 대한 책임자를 나타낼 수 있습니다. 문제 할당에 대한 일반적인 정보는 [문제 할당 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)를 참조하십시오.
 
 >[!TIP]
 >
->여러 사용자, 작업 역할 또는 팀을 할당할 수 있습니다. 활성 사용자, 작업 역할 및 팀만 할당할 수 있습니다.
+>여러 사용자, 작업 역할, 팀 또는 작업 에이전트를 할당할 수 있습니다. 활성 사용자, 작업 역할, 팀 및 작업 에이전트만 할당할 수 있습니다.
 >
->비활성화되기 전에 사용자, 작업 역할 또는 팀이 할당된 경우 작업 항목에 할당된 상태로 유지됩니다. 이 경우 다음 사항을 권장합니다.
+>비활성화되기 전에 사용자, 작업 역할, 팀 또는 작업 에이전트가 할당된 경우 작업 항목에 할당된 상태로 유지됩니다. 이 경우 다음 사항을 권장합니다.
 >
 >* 작업 항목을 활성 리소스에 재할당합니다.
 >* 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
@@ -109,9 +115,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   작업 또는 문제가 하나 이상의 역할에 할당된 다음 사용자도 할당하는 경우, Adobe Workfront은 다음 규칙에 따라 추가 사용자와 연결할 작업 역할(있는 경우)을 결정합니다.
 
-   * 할당된 작업 역할이 하나뿐이고 사용자의 기본 역할과 일치하는 경우 작업 또는 문제는 기본 역할을 수행하는 사용자에게만 할당됩니다.
-   * 여러 개의 역할이 할당되고 하나 이상의 역할이 사용자의 보조 역할과 일치하는 경우 작업 또는 문제는 다른 역할(여러 개의 일치하는 역할이 있는 경우 Workfront에서 임의로 선택) 중 하나를 이행하는 사용자와 할당된 추가 역할에 할당됩니다.
-   * 하나 이상의 작업 역할이 할당되고 사용자의 역할에 일치하는 항목이 없는 경우 작업 또는 문제는 사용자뿐만 아니라 역할이나 역할 모두에 할당됩니다.
+  * 할당된 작업 역할이 하나뿐이고 사용자의 기본 역할과 일치하는 경우 작업 또는 문제는 기본 역할을 수행하는 사용자에게만 할당됩니다.
+  * 여러 개의 역할이 할당되고 하나 이상의 역할이 사용자의 보조 역할과 일치하는 경우 작업 또는 문제는 다른 역할(여러 개의 일치하는 역할이 있는 경우 Workfront에서 임의로 선택) 중 하나를 이행하는 사용자와 할당된 추가 역할에 할당됩니다.
+  * 하나 이상의 작업 역할이 할당되고 사용자의 역할에 일치하는 항목이 없는 경우 작업 또는 문제는 사용자뿐만 아니라 역할이나 역할 모두에 할당됩니다.
 
 * 작업 또는 문제가 팀에 할당되고 사용자도 할당되면 작업 또는 문제는 팀과 사용자 모두에게 할당된 상태로 유지됩니다.
 
@@ -143,7 +149,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 할당하려는 사용자, 역할 또는 팀의 이름을 입력한 다음 목록에 나타나면 클릭합니다.
+   * 할당할 사용자, 역할, 팀 또는 작업 에이전트의 이름을 입력한 다음 목록에 나타나면 해당 이름을 클릭합니다.
 
      ![할당 검색](assets/smart-assignments-issue-header.png)
 
@@ -192,7 +198,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
      ![필드에 할당됨](assets/assigned-to-field-task-list-nwe.png)
 
-   * **할당** 필드 내부를 클릭하고 문제에 할당할 활성 사용자, 작업 역할 또는 활성 팀의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+   * **할당** 필드 내부를 클릭하고 문제에 할당할 활성 사용자, 작업 역할, 팀 또는 작업 에이전트의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
      ![할당 필드](assets/assignments-field-0825.png)
 

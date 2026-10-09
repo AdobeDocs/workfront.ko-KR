@@ -6,26 +6,31 @@ description: Adobe Workfront은 대시보드에 외부 페이지로 포함할 �
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-TQID: https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow
+TQID: 'https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '649'
 ht-degree: 3%
-
 ---
-
 # 링크와 리소스 플래너 사용자 보기 공유
 
 Adobe Workfront은 대시보드에 외부 페이지로 포함할 수 있는 리소스 플래너의 사용자 보기에 대한 고유 URL을 생성하거나 새 브라우저 탭에서 별도로 열 수 있습니다. 이 기능은 리소스 조달 영역에 직접 액세스할 수 없는 사용자와 리소스 플래너 정보를 공유할 때 유용합니다.
@@ -72,9 +77,9 @@ Adobe Workfront은 대시보드에 외부 페이지로 포함할 수 있는 리�
   리소스 플래너의 정보를 다른 사용자와 공유하려면 리소스 플래너에 있는 URL에서 다른 사용자를 볼 수 있는 액세스 권한이 있어야 합니다.
 * URL을 다른 사용자와 공유할 때 다음 정보가 저장됩니다.
 
-   * 기간 유형(주, 월, 분기).
-   * 적용하는 필터입니다.
-   * 표시 유형(시간 또는 FTE).
+  * 기간 유형(주, 월, 분기).
+  * 적용하는 필터입니다.
+  * 표시 유형(시간 또는 FTE).
 
 리소스 플래너의 사용자 보기에서 고유 URL을 가져와서 다른 사용자와 공유하려면 다음 작업을 수행하십시오.
 
@@ -112,11 +117,11 @@ Adobe Workfront은 대시보드에 외부 페이지로 포함할 수 있는 리�
      </MadCap:conditionalText>   
      -->
 
-      1. **보고**>**대시보드**>**새 대시보드**>**외부 페이지 추가**&#x200B;로 이동합니다.
+     1. **보고**>**대시보드**>**새 대시보드**>**외부 페이지 추가**&#x200B;로 이동합니다.
 
-      1. 클립보드에 복사한 링크를 **URL** 필드에 붙여 넣습니다.
-      1. **저장**&#x200B;을 클릭한 다음 **저장 + 닫기**&#x200B;를 클릭합니다.\
-         이렇게 하면 URL이 대시보드에 임베드되고 리소스 플래너의 사용자 보기가 별도의 대시보드에 표시됩니다.
+     1. 클립보드에 복사한 링크를 **URL** 필드에 붙여 넣습니다.
+     1. **저장**&#x200B;을 클릭한 다음 **저장 + 닫기**&#x200B;를 클릭합니다.\
+        이렇게 하면 URL이 대시보드에 임베드되고 리소스 플래너의 사용자 보기가 별도의 대시보드에 표시됩니다.
 
 1. (선택 사항) URL을 대시보드에 삽입한 경우 레이아웃 템플릿에 추가하거나 리소스 관리 영역에 대한 액세스 권한이 없는 다른 사용자와 공유할 수 있습니다.\
    레이아웃 템플릿에 대시보드를 추가하는 방법에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.\
