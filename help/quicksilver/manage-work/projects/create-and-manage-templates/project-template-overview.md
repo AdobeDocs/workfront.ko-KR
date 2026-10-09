@@ -6,29 +6,37 @@ description: 프로젝트 템플릿을 사용하여 조직의 프로젝트와 �
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-TQID: https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI
+TQID: 'https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 702
-ht-degree: 2%
-
+source-wordcount: '702'
+ht-degree: 3%
 ---
-
 # 프로젝트 템플릿 개요
 
 <!-- Audited: 12/2023 -->
@@ -48,15 +56,15 @@ ht-degree: 2%
 * 프로젝트에 대해 보고할 때 유용합니다. 예를 들어 동일한 템플릿을 공유하는 프로젝트에 대해 보고하여 진행 상황을 비교하고 완료 방법에 대한 개선 사항을 찾을 수 있습니다.
 * 향후 프로젝트 설정을 정의하는 것 외에도 템플릿에 향후 프로젝트에 대한 다음 정보를 추가할 수 있습니다.
 
-   * 작업
-   * 문서
-   * 승인
-   * 대기열 세부 정보
-   * 대기열 주제
-   * 주제 그룹
-   * 라우팅 규칙
-   * 사용자 정의 양식
-   * 회사 및 그룹 정보
+  * 작업
+  * 문서
+  * 승인
+  * 대기열 세부 정보
+  * 대기열 주제
+  * 주제 그룹
+  * 라우팅 규칙
+  * 사용자 정의 양식
+  * 회사 및 그룹 정보
 
 ## 템플릿 만들기에 대한 우수 사례
 
@@ -71,8 +79,8 @@ ht-degree: 2%
 
   기간에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-   * [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-   * [프로젝트 기간 개요](../../../manage-work/projects/planning-a-project/project-duration.md)
+  * [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+  * [프로젝트 기간 개요](../../../manage-work/projects/planning-a-project/project-duration.md)
 
   계획된 시간에 대한 자세한 내용은 [계획된 시간 개요](../../../manage-work/tasks/task-information/planned-hours.md)를 참조하십시오.
 
@@ -89,8 +97,8 @@ ht-degree: 2%
 
 * 향후 프로젝트에 사용할 문서 저장소를 결정합니다. 일부 조직에서는 다음 문서 스토리지 유형에 액세스할 수 있습니다.
 
-   * 기존 Workfront 스토리지
-   * Adobe 클라우드 스토리지
+  * 이전 Workfront 스토리지
+  * Adobe 클라우드 스토리지
 
   문서 추가는 선택한 저장소 유형에 따라 다릅니다. 템플릿에 대해 선택한 스토리지 유형은 향후 프로젝트가 상속할 스토리지 유형에 영향을 미칩니다.
 
@@ -98,8 +106,8 @@ ht-degree: 2%
 
   자세한 내용은 다음을 참조하십시오.
 
-   * [프로젝트 템플릿 만들기](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
-   * [프로젝트 및 관련 오브젝트에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
+  * [프로젝트 템플릿 만들기](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+  * [프로젝트 및 관련 오브젝트에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
 
 ## 템플릿을 만드는 방법
 

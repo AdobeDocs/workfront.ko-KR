@@ -6,25 +6,29 @@ description: 시간 또는 FTE 값 대신 비용 값을 사용하여 Adobe Workf
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-TQID: https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4
+TQID: 'https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1416
+source-wordcount: '1416'
 ht-degree: 1%
-
 ---
-
 # 리소스 플래너에서 비용 계산
 
 <!--
@@ -145,10 +149,10 @@ ht-degree: 1%
 * 작업에 대한 할당 유형입니다.\
   작업을 할당 해제한 상태로 두거나 작업에 다음 엔티티를 할당할 수 있습니다.
 
-   * 사용자(작업 역할 포함 또는 제외)
-   * 역할
-   * 팀\
-     리소스 플래너의 관점에서 팀에 할당된 작업은 할당 해제된 것으로 간주됩니다.
+  * 사용자(작업 역할 포함 또는 제외)
+  * 역할
+  * 팀\
+    리소스 플래너의 관점에서 팀에 할당된 작업은 할당 해제된 것으로 간주됩니다.
 
 * 프로젝트에 있는 작업의 **비용 유형**.\
   작업의 비용 유형에 대한 자세한 내용은 [비용 추적](../../manage-work/projects/project-finances/track-costs.md)을 참조하십시오.
@@ -165,99 +169,99 @@ ht-degree: 1%
 
 * **비용 유형**&#x200B;이(가) **시간별 사용자**&#x200B;이고 작업에 **할당이 없음**&#x200B;인 경우:
 
-   * **역할 및 사용자 계획 비용**:
+  * **역할 및 사용자 계획 비용**:
 
-     역할 및 사용자 계획 비용은 $0.00입니다.
+    역할 및 사용자 계획 비용은 $0.00입니다.
 
-   * **프로젝트 계획 비용**:
+  * **프로젝트 계획 비용**:
 
-     프로젝트 계획 비용은 $0.00입니다.
+    프로젝트 계획 비용은 $0.00입니다.
 
 * **비용 유형**&#x200B;이(가) **시간별 사용자**&#x200B;이고 작업에 **사용자 할당**&#x200B;이 있는 경우:
 
-   * **역할 및 사용자 계획 비용**:
+  * **역할 및 사용자 계획 비용**:
 
-     사용자 계획 원가는 다음 공식을 사용하여 계산됩니다.
+    사용자 계획 원가는 다음 공식을 사용하여 계산됩니다.
 
-     `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
+    `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
 
-     사용자가 프로필에 원가율이 있는 경우 해당 원가율은 계획된 원가를 계산하는 데 사용됩니다. 그렇지 않으면 기본 역할의 시스템 수준 시간당 비용 비율이 사용됩니다.
+    사용자가 프로필에 원가율이 있는 경우 해당 원가율은 계획된 원가를 계산하는 데 사용됩니다. 그렇지 않으면 기본 역할의 시스템 수준 시간당 비용 비율이 사용됩니다.
 
-     >[!NOTE]
-     >
-     >사용자는 보조 작업 역할 중 하나가 있는 작업에 할당할 수 있지만 여기서는 대신 기본 작업 역할의 비율이 사용됩니다.
+    >[!NOTE]
+    >
+    >사용자는 보조 작업 역할 중 하나가 있는 작업에 할당할 수 있지만 여기서는 대신 기본 작업 역할의 비율이 사용됩니다.
 
-     역할 계획 비용은 다음 공식을 사용하여 계산됩니다.
+    역할 계획 비용은 다음 공식을 사용하여 계산됩니다.
 
-     `Role Planned Cost = SUM(User Planned Cost)`
+    `Role Planned Cost = SUM(User Planned Cost)`
 
-   * **프로젝트 계획 비용**:
+  * **프로젝트 계획 비용**:
 
-     프로젝트 계획 비용은 $0.00입니다.
+    프로젝트 계획 비용은 $0.00입니다.
 
 * **비용 유형**&#x200B;이(가) **시간별 사용자**&#x200B;이고 작업에 **작업 역할 할당**&#x200B;이 있는 경우:
 
-   * **역할 및 사용자 계획 비용**:
+  * **역할 및 사용자 계획 비용**:
 
-     사용자 계획 비용은 $0.00입니다.
+    사용자 계획 비용은 $0.00입니다.
 
-     역할 계획 비용은 다음 공식을 사용하여 계산됩니다.
+    역할 계획 비용은 다음 공식을 사용하여 계산됩니다.
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     작업에 할당된 작업 역할의 시스템 수준 시간당 비용 비율을 사용하여 계획된 비용을 계산합니다.
+    작업에 할당된 작업 역할의 시스템 수준 시간당 비용 비율을 사용하여 계획된 비용을 계산합니다.
 
-   * **프로젝트 계획 비용**:
+  * **프로젝트 계획 비용**:
 
-     프로젝트 계획 비용은 $0.00입니다.
+    프로젝트 계획 비용은 $0.00입니다.
 
 * **비용 유형**&#x200B;이(가) **시간별 역할**&#x200B;이고 작업에 **할당이 없음**&#x200B;인 경우:
 
-   * **역할 및 사용자 계획 비용**:
+  * **역할 및 사용자 계획 비용**:
 
-     역할 및 사용자 계획 비용은 $0.00입니다.
+    역할 및 사용자 계획 비용은 $0.00입니다.
 
-   * **프로젝트 계획 비용**:
+  * **프로젝트 계획 비용**:
 
-     프로젝트 계획 비용은 $0.00입니다.
+    프로젝트 계획 비용은 $0.00입니다.
 
 * **비용 유형**&#x200B;이(가) **시간별 역할**&#x200B;이고 작업에 **사용자 할당**&#x200B;이 있는 경우:
 
-   * **역할 및 사용자 계획 비용**:
+  * **역할 및 사용자 계획 비용**:
 
-     사용자 계획 비용은 $0.00입니다.
+    사용자 계획 비용은 $0.00입니다.
 
-     역할 계획 원가는 다음 공식에 의해 계산됩니다.
+    역할 계획 원가는 다음 공식에 의해 계산됩니다.
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Workfront은 사용자가 작업을 수행하는 작업 역할을 확인하여 역할에 대한 계획된 비용을 계산합니다.
+    Workfront은 사용자가 작업을 수행하는 작업 역할을 확인하여 역할에 대한 계획된 비용을 계산합니다.
 
-     사용자가 작업에 대한 어떤 역할과도 연결되어 있지 않으면 계획된 비용은 $0.00입니다.
+    사용자가 작업에 대한 어떤 역할과도 연결되어 있지 않으면 계획된 비용은 $0.00입니다.
 
-   * **프로젝트 계획 비용**:
+  * **프로젝트 계획 비용**:
 
-     프로젝트 계획 원가는 다음 공식을 사용하여 계산됩니다.
+    프로젝트 계획 원가는 다음 공식을 사용하여 계산됩니다.
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 * **비용 유형**&#x200B;이(가) **시간별 역할**&#x200B;이고 작업에 **작업 역할 할당**&#x200B;이 있는 경우:
 
-   * **역할 및 사용자 계획 비용**:
+  * **역할 및 사용자 계획 비용**:
 
-     사용자 계획 비용은 $0.00입니다.
+    사용자 계획 비용은 $0.00입니다.
 
-     역할 계획 원가는 다음 공식에 의해 계산됩니다.
+    역할 계획 원가는 다음 공식에 의해 계산됩니다.
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Workfront은 사용자가 작업을 수행하는 작업 역할을 확인하여 역할에 대한 계획된 비용을 계산합니다.
+    Workfront은 사용자가 작업을 수행하는 작업 역할을 확인하여 역할에 대한 계획된 비용을 계산합니다.
 
-   * **프로젝트 계획 비용**:
+  * **프로젝트 계획 비용**:
 
-     프로젝트 계획 원가는 다음 공식을 사용하여 계산됩니다.
+    프로젝트 계획 원가는 다음 공식을 사용하여 계산됩니다.
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>

@@ -7,27 +7,33 @@ description: RP에서 사용자 보기를 사용할 때 리소스 플래너에�
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-TQID: https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8
+TQID: 'https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1741
+source-wordcount: '1741'
 ht-degree: 1%
-
 ---
-
 # 사용자 보기를 사용할 때 리소스 플래너에서 가용, 계획 및 실제 시간 또는 FTE 보기
 
 <!--
@@ -43,8 +49,8 @@ ht-degree: 1%
 * 리소스 플래너의 모든 보기에서 사용자, 작업 역할 및 프로젝트에 대한 가용 및 계획된 시간 또는 FTE 정보를 볼 수 있습니다.
 * 사용자 보기에서만 다음 정보를 볼 수 있습니다.
 
-   * 계획된 시간 또는 FTE와 사용 가능한 시간 또는 FTE의 차이. 그런 다음 프로젝트 및 역할 보기의 이러한 차이에 따라 사용자 할당의 예산을 책정할 수 있습니다.
-   * 실제 근로시간 또는 FTE.
+  * 계획된 시간 또는 FTE와 사용 가능한 시간 또는 FTE의 차이. 그런 다음 프로젝트 및 역할 보기의 이러한 차이에 따라 사용자 할당의 예산을 책정할 수 있습니다.
+  * 실제 근로시간 또는 FTE.
 
 * 사용자 보기에서 사용자 가용 시간과 계획된 시간 또는 FTE 금액 간의 차이를 숫자 또는 백분율 값으로 표시할 수 있습니다.
 * 비용별 사용자 보기에는 정보를 표시할 수 없습니다.
@@ -56,14 +62,14 @@ ht-degree: 1%
 * Workfront은 작업에 할당된 사용자가 작업 및 문제에 기록한 실제 시간으로 실제 시간을 채웁니다. 여기에는 프로젝트에 기록된 시간이 포함됩니다.
 * 사용자 보기에서 다음 작업을 수행할 수 있습니다.
 
-   * 각 사용자를 확장하여 해당 사용자가 할당된 프로젝트 목록을 표시합니다.
+  * 각 사용자를 확장하여 해당 사용자가 할당된 프로젝트 목록을 표시합니다.
 
-     >[!NOTE]
-     >
-     >필터에 포함된 프로젝트와 연결된 사용자만 확장할 수 있습니다.
+    >[!NOTE]
+    >
+    >필터에 포함된 프로젝트와 연결된 사용자만 확장할 수 있습니다.
 
-   * 모든 프로젝트를 확장하여 사용자가 해당 프로젝트에서 수행할 수 있는 작업 역할 목록을 표시합니다.
-   * 각 역할을 확장하여 해당 역할의 사용자가 할당된 작업 목록을 표시합니다.
+  * 모든 프로젝트를 확장하여 사용자가 해당 프로젝트에서 수행할 수 있는 작업 역할 목록을 표시합니다.
+  * 각 역할을 확장하여 해당 역할의 사용자가 할당된 작업 목록을 표시합니다.
 
   사용자에게 연결된 작업 역할이 없는 경우 **역할 없음** 섹션에 사용 가능, 계획된, 실제 시간 또는 FTE가 나열됩니다.\
   리소스 플래너에 사용자 보기를 적용할 때 표시되는 필드 및 항목에 대한 자세한 내용은 [리소스 플래너 탐색 개요](../../resource-mgmt/resource-planning/resource-planner-navigation.md)의 &quot;프로젝트/역할/사용자 보기 선택&quot; 섹션을 참조하십시오.
@@ -152,17 +158,17 @@ ht-degree: 1%
 
 * 각 자원의 계획된 시간 계산에는 다음 작업 범주가 포함됩니다.
 
-   * 프로젝트의 리소스 풀, 작업 역할 또는 팀에서 사용자에게 할당된 작업.
+  * 프로젝트의 리소스 풀, 작업 역할 또는 팀에서 사용자에게 할당된 작업.
 
-     >[!TIP]
-     >
-     >작업이 팀에 할당되면 해당 할당은 **역할 없음** 및 **사용자 없음** 섹션에 표시됩니다. 팀과 연결된 계획된 시간을 볼 수 있지만, 작업과 연결된 역할이나 사용자가 없으므로 시간을 예산으로 책정할 수 없습니다.
+    >[!TIP]
+    >
+    >작업이 팀에 할당되면 해당 할당은 **역할 없음** 및 **사용자 없음** 섹션에 표시됩니다. 팀과 연결된 계획된 시간을 볼 수 있지만, 작업과 연결된 역할이나 사용자가 없으므로 시간을 예산으로 책정할 수 없습니다.
 
 * 리소스 플래너의 계획된 시간에는 다음과 연관된 계획된 시간이 포함되지 않습니다.
 
-   * 상위 작업
-   * 할당 해제된 작업
-   * **문제의 시간 포함** 설정이 비활성화된 경우 문제가 발생합니다.
+  * 상위 작업
+  * 할당 해제된 작업
+  * **문제의 시간 포함** 설정이 비활성화된 경우 문제가 발생합니다.
 
 * 작업 또는 문제 기간이 0인 경우 계획된 시간이 리소스 플래너에 표시되지 않습니다.
 * 비활성화된 사용자와 연결된 계획된 시간이 표시되지 않습니다.

@@ -9,29 +9,37 @@ feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/MoJNhskV-58qdPuF7DY0dkqxpiQaBihszhGx5Ncz6to
+TQID: 'https://experienceleague.adobe.com/MoJNhskV-58qdPuF7DY0dkqxpiQaBihszhGx5Ncz6to'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1556
+source-wordcount: '1556'
 ht-degree: 1%
-
 ---
-
 # 작업 및 문제 위임
 
 <!-- Audited: 10/2024 -->
@@ -171,7 +179,7 @@ note from the table for Object permissions:
 
    * 작업 및 문제가 다른 사용자에게 위임되었다는 표시는 [!DNL Workfront]에서 할당을 볼 수 있는 대부분의 영역에 표시됩니다. 대리자 이름이 포함되지 않은 영역에 대한 자세한 내용은 [위임 작업 개요](delegate-work-overview.md)를 참조하십시오.
 
-   * 위임이 있음을 나타내기 위해 [!UICONTROL **Home**] 영역의 [!UICONTROL **Delegate**] 단추가 [!UICONTROL **위임 편집**] (으)로 변경됩니다.
+   * 위임이 있음을 나타내기 위해 [!UICONTROL **Home**] 영역의 [!UICONTROL **Delegate**] 단추가 [!UICONTROL **위임 편집**](으)로 변경됩니다.
      <!--
        
       (NOTE: is this shot correct? See UI - this is a mock)

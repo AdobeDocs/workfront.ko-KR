@@ -6,25 +6,29 @@ description: 리소스 플래너의 모든 보기에서 정보를 컴퓨터에 �
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-TQID: https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4
+TQID: 'https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '599'
 ht-degree: 7%
-
 ---
-
 # 리소스 플래너에서 정보 내보내기
 
 리소스 플래너의 모든 보기에서 정보를 컴퓨터에 저장된 Excel(.xlsx) 파일로 내보낼 수 있습니다.
@@ -95,25 +99,25 @@ ht-degree: 7%
    * 12분기
 
    **내보내기를 선택하십시오**: 선택한 보기에 따라 화면에 나열된 모든 개체 또는 특정 개체의 가용성과 예산 정보를 내보내도록 선택할 수 있습니다.
-다음 정보를 내보내도록 선택할 수 있습니다.
+   다음 정보를 내보내도록 선택할 수 있습니다.
 
    * 프로젝트 보기에서 내보낼 을(를) 선택합니다.
 
-      * 프로젝트
-      * 프로젝트 및 역할
-      * 모든 항목(기본 옵션)
+     * 프로젝트
+     * 프로젝트 및 역할
+     * 모든 항목(기본 옵션)
 
    * 사용자 보기에서 다음을 선택하여 내보냅니다.
 
-      * 사용자
-      * 사용자 및 프로젝트
-      * 모든 항목(기본 옵션)
+     * 사용자
+     * 사용자 및 프로젝트
+     * 모든 항목(기본 옵션)
 
    * [역할 보기]에서 내보내기를 선택합니다.
 
-      * 역할
-      * 역할 및 프로젝트
-      * 모든 항목(기본 옵션)
+     * 역할
+     * 역할 및 프로젝트
+     * 모든 항목(기본 옵션)
 
    **데이터 서식**: Excel 파일을 표시할 방법에 따라 다음 옵션을 선택하십시오.
 
@@ -125,7 +129,7 @@ ht-degree: 7%
 1. 리소스 플래너에서 정보를 내보내려면 **내보내기**&#x200B;를 클릭하십시오.\
    저장한 정보만 내보냅니다.
 
-1. (조건부) 역할 또는 프로젝트 보기에서 예산 시간을 저장하지 않은 경우 **저장하고 계속하기**&#x200B;를 클릭합니다.
+1. (조건부) 역할 또는 프로젝트 보기에서 저장되지 않은 예산 시간이 있는 경우 **저장 및 계속을 클릭합니다.**
 Excel(.xlsx) 파일이 컴퓨터에 다운로드됩니다.\
    파일을 다운로드할 준비가 되어 있는 동안에는 리소스 플래너에서 내보내기를 사용할 수 없습니다.\
    (조건부) 많은 양의 데이터를 내보내는 경우 파일을 다운로드할 수 있는 링크가 포함된 이메일이 전송됩니다.\

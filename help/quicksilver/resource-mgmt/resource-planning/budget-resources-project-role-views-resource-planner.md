@@ -6,26 +6,31 @@ description: 프로젝트 및 역할 보기를 사용하여 Adobe Workfront 리�
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-TQID: https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88
+TQID: 'https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2087
+source-wordcount: '2121'
 ht-degree: 1%
-
 ---
-
 # 프로젝트 및 역할 보기를 사용하여 리소스 플래너의 예산 리소스
 
 <!--
@@ -117,7 +122,7 @@ ht-degree: 1%
 
    * 프로젝트에 대한 **자세히** 메뉴를 클릭한 다음 **예산에 따라 역할 계획된 시간 설정**&#x200B;을 클릭합니다.\
      각 역할에 대한 예산 시간은 다음 공식을 사용하여 계산됩니다.\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -130,9 +135,9 @@ ht-degree: 1%
 
    * **BDG** 열에서 프로젝트에 대한 예산 시간, FTE 또는 비용을 수동으로 지정하십시오. 이렇게 하면 프로젝트 예산 시간 수가 프로젝트의 각 역할에 분배됩니다. 다음과 같은 시나리오가 있습니다.
 
-      * 지정한 프로젝트 예산 시간이 프로젝트 계획 시간과 같은 경우 역할 예산 시간은 역할 계획 시간과 일치합니다.
-      * 지정한 프로젝트 예산 시간 수가 프로젝트 계획 시간과 같지 않으면 역할 예산 시간은 각 역할에 필요한 계획 시간의 백분율에 따라 분배됩니다.\
-        예를 들어 프로젝트에 20개의 계획된 시간이 있고 두 작업 역할 사이에 분배되어 있고(컨설턴트는 12개의 계획된 시간이 필요하고 엔지니어는 8개의 계획된 시간이 필요함) 프로젝트에 30시간을 예산책정하는 경우, 시간은 다음과 같이 분배됩니다. 컨설턴트 역할에는 18개의 예산 시간이 필요하고 엔지니어 역할에는 12개의 예산 시간이 제공됩니다.
+     * 지정한 프로젝트 예산 시간이 프로젝트 계획 시간과 같은 경우 역할 예산 시간은 역할 계획 시간과 일치합니다.
+     * 지정한 프로젝트 예산 시간 수가 프로젝트 계획 시간과 같지 않으면 역할 예산 시간은 각 역할에 필요한 계획 시간의 백분율에 따라 분배됩니다.\
+       예를 들어 프로젝트에 20개의 계획된 시간이 있고 두 작업 역할 사이에 분배되어 있고(컨설턴트는 12개의 계획된 시간이 필요하고 엔지니어는 8개의 계획된 시간이 필요함) 프로젝트에 30시간을 예산책정하는 경우, 시간은 다음과 같이 분배됩니다. 컨설턴트 역할에는 18개의 예산 시간이 필요하고 엔지니어 역할에는 12개의 예산 시간이 제공됩니다.
 
 1. 프로젝트에 대한 할당 예산을 책정하려면 다음 중 하나를 수행합니다.
 
@@ -166,7 +171,7 @@ ht-degree: 1%
 
 리소스 예산 책정에 필요한 액세스에 대한 자세한 내용은 문서 [Adobe Workfront의 리소스 예산 책정에 필요한 액세스](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)를 참조하십시오.
 
-역할 보기의 리소스 플래너에서 할당 예산&#x200B;**&#x200B;** 책정하려면
+역할 보기의 리소스 플래너에서 할당 예산**** 책정하려면
 
 1. Adobe Workfront 오른쪽 위 모서리에 있는 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
 
@@ -187,8 +192,8 @@ ht-degree: 1%
    * **BDG** 열에서 작업 역할에 대한 예산 시간, FTE 또는 비용을 수동으로 지정하십시오.\
      이렇게 하면 관리 액세스 권한이 있는 프로젝트에 대한 역할 예산 시간이 프로젝트 예산 시간으로 분산됩니다.
 
-   * 작업 역할에 대한 **자세히** 메뉴를 클릭한 다음 **프로젝트의 계획된 시간을 예산 시간으로 설정**&#x200B;역할 예산 시간은 다음 공식을 사용하여 계산됩니다.\
-     &#x200B;*
+   * 작업 역할에 대한 **자세히** 메뉴를 클릭한 다음 **프로젝트의 계획된 시간을 예산 시간으로 설정**역할 예산 시간은 다음 공식을 사용하여 계산됩니다.\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
@@ -225,7 +230,7 @@ ht-degree: 1%
 
 1. **저장**&#x200B;을 클릭합니다.\
    리소스 플래너에서 리소스의 예산을 책정한 후 리소스 및 이와 연관된 비용에 대한 예산 시간이 모든 프로젝트의 비즈니스 사례에 나열됩니다.
-비즈니스 사례의 리소스 예산 책정 영역을 이해하는 방법에 대한 자세한 내용은 문서 [비즈니스 사례의 리소스 예산](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)을 참조하세요.
+   비즈니스 사례의 리소스 예산 책정 영역을 이해하는 방법에 대한 자세한 내용은 문서 [비즈니스 사례의 리소스 예산](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)을 참조하세요.
 
 1. (선택 사항) **사용자별 보기** 보기를 선택하여 각 사용자의 사용 가능 시간과 계획된 시간 사이에 초과 할당 또는 미달 활용률을 확인합니다. 예산 시간은 사용자별 조회 보기에 표시되지 않습니다.
 

@@ -8,27 +8,33 @@ feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/56MMpWiXGkKxBYKIiQ2-bOXm-1-WjpS3L-z-Zh2-nWI
+TQID: 'https://experienceleague.adobe.com/56MMpWiXGkKxBYKIiQ2-bOXm-1-WjpS3L-z-Zh2-nWI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 732
+source-wordcount: '732'
 ht-degree: 3%
-
 ---
-
 # 프로젝트 또는 템플릿에 대한 리소스 관리자 지정
 
 <!--
@@ -151,10 +157,10 @@ Old:
 * 프로젝트 또는 프로젝트 템플릿에 대해 리소스 관리자를 지정할 수 있습니다. 프로젝트 템플리트에서 자원 관리자를 지정하면, 템플리트에서 자원 관리자로 지정한 모든 사용자는 해당 템플리트를 사용하여 생성된 모든 프로젝트에서 자원 관리자가 됩니다.
 * 다음 영역에서 리소스 관리자 필드를 볼 수 있습니다.
 
-   * 이 문서에 설명된 대로 프로젝트를 편집할 때
-   * 템플릿을 편집할 때 이 문서에 설명된 대로 수행합니다.
-   * 프로젝트 또는 템플릿 보고서를 작성할 때 보고서 작성에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
-   * 목록에 대한 프로젝트 또는 템플릿 보기를 만들거나 사용자 지정할 때. 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
+  * 이 문서에 설명된 대로 프로젝트를 편집할 때
+  * 템플릿을 편집할 때 이 문서에 설명된 대로 수행합니다.
+  * 프로젝트 또는 템플릿 보고서를 작성할 때 보고서 작성에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
+  * 목록에 대한 프로젝트 또는 템플릿 보기를 만들거나 사용자 지정할 때. 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
 * 목록 또는 프로젝트의 보기에 리소스 관리자 필드를 추가하고 인라인 편집을 사용하여 이 필드를 편집하여 여러 프로젝트 또는 템플릿에서 리소스 관리자를 빠르게 추가하거나 제거할 수 있습니다.
 

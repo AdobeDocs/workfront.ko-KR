@@ -7,25 +7,29 @@ description: Adobe Workfront 리소스 플래너를 사용하면 리소스의 �
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
+TQID: 'https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2411
+source-wordcount: '2442'
 ht-degree: 2%
-
 ---
-
 # 리소스 플래너 탐색 개요
 
 <!-- Audited: 5/2025 -->
@@ -131,13 +135,13 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
 
 * 프로젝트 보기에서 다음 시간, FTE 또는 비용 정보를 볼 수 있습니다.
 
-   * 사용 가능
-   * 계획됨
-   * 예산
-   * 분산
-   * 순
+  * 사용 가능
+  * 계획됨
+  * 예산
+  * 분산
+  * 순
 
-     자세한 내용은 [프로젝트 및 역할 보기를 사용하여 리소스 플래너의 리소스 예산](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)을 참조하세요.
+    자세한 내용은 [프로젝트 및 역할 보기를 사용하여 리소스 플래너의 리소스 예산](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)을 참조하세요.
 
 ### 역할별 보기 {#view-by-role}
 
@@ -152,13 +156,13 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
 * 이 보기가 적용되면 프로젝트 시간, FTE 또는 비용이 역할 시간, FTE 또는 비용에 추가됩니다.
 * 역할 보기에서 다음 시간, FTE 또는 비용 정보를 볼 수 있습니다.
 
-   * 사용 가능
-   * 계획됨
-   * 예산
-   * 분산
-   * 순
+  * 사용 가능
+  * 계획됨
+  * 예산
+  * 분산
+  * 순
 
-     자세한 내용은 [프로젝트 및 역할 보기를 사용하여 리소스 플래너의 리소스 예산](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)을 참조하세요.
+    자세한 내용은 [프로젝트 및 역할 보기를 사용하여 리소스 플래너의 리소스 예산](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)을 참조하세요.
 
 ### 사용자별 보기 {#view-by-user}
 
@@ -191,23 +195,23 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
 
   다음과 같은 시나리오가 있습니다.
 
-   * 리소스 플래너에 표시된 사용자에게 할당된 프로젝트, 작업 또는 문제를 볼 수 있는 권한이 없는 경우 해당 항목은 액세스할 수 없는 항목 섹션 아래에 나열됩니다. 이 경우 이 섹션은 프로젝트 또는 작업 섹션을 대체합니다.
+  * 리소스 플래너에 표시된 사용자에게 할당된 프로젝트, 작업 또는 문제를 볼 수 있는 권한이 없는 경우 해당 항목은 액세스할 수 없는 항목 섹션 아래에 나열됩니다. 이 경우 이 섹션은 프로젝트 또는 작업 섹션을 대체합니다.
 
-   * 프로젝트를 볼 수 있는 권한이 없지만 프로젝트의 작업 또는 문제를 볼 수 있는 액세스 권한이 있는 경우 프로젝트, 작업 및 문제가 할당된 사용자 이름 아래에 나열됩니다.
-   * 프로젝트를 볼 수 있는 권한이 있지만 프로젝트에 대한 작업이나 문제가 없으면 프로젝트 이름이 표시되고 작업 및 문제가 액세스할 수 없는 항목 섹션에 나열됩니다.
+  * 프로젝트를 볼 수 있는 권한이 없지만 프로젝트의 작업 또는 문제를 볼 수 있는 액세스 권한이 있는 경우 프로젝트, 작업 및 문제가 할당된 사용자 이름 아래에 나열됩니다.
+  * 프로젝트를 볼 수 있는 권한이 있지만 프로젝트에 대한 작업이나 문제가 없으면 프로젝트 이름이 표시되고 작업 및 문제가 액세스할 수 없는 항목 섹션에 나열됩니다.
 
-     자세한 내용은 [개체에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
+    자세한 내용은 [개체에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
 
 
 * 사용자 보기에서 다음 시간 및 FTE 정보를 볼 수 있습니다.
 
-   * 사용 가능
-   * 계획됨
-   * 실제
-   * 계획과 실제 간의 차이
-   * 계획된 할당의 백분율
+  * 사용 가능
+  * 계획됨
+  * 실제
+  * 계획과 실제 간의 차이
+  * 계획된 할당의 백분율
 
-     자세한 내용은 사용자 보기를 사용할 때 리소스 플래너에서 [사용 가능 시간, 계획된 시간 및 실제 시간 또는 FTE 보기](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)를 참조하십시오.
+    자세한 내용은 사용자 보기를 사용할 때 리소스 플래너에서 [사용 가능 시간, 계획된 시간 및 실제 시간 또는 FTE 보기](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)를 참조하십시오.
 
 ## 프로젝트 이름
 
@@ -259,9 +263,9 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
 * 기본 작업 역할
 * 다음 시나리오에서 보조 작업 역할:
 
-   * 보조 작업 역할에 해당 사용자 프로필의 FTE 가용성 비율에 대한 유효한 숫자가 있는 경우.
-   * 사용자가 해당 역할의 작업에 할당된 경우.
-작업 역할에 대한 FTE 사용 가능 비율에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 을 참조하십시오.
+  * 보조 작업 역할에 해당 사용자 프로필의 FTE 가용성 비율에 대한 유효한 숫자가 있는 경우.
+  * 사용자가 해당 역할의 작업에 할당된 경우.
+    작업 역할에 대한 FTE 사용 가능 비율에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 을 참조하십시오.
 
 ## 역할 및 사용자 섹션 없음
 
@@ -300,12 +304,12 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
 
   이 설정을 활성화할 때 다음 사항을 고려하십시오.
 
-   * 문제에 할당된 사용자의 이름은 해당 문제와 관련된 작업 역할 아래에 표시됩니다. 프로젝트 및 역할 보기에서 사용자 및 작업 역할에 대한 예산 시간을 지정할 수 있습니다.
-   * 사용자에게 할당된 문제는 사용자 보기의 작업 역할 이름 아래에 나열됩니다.
+  * 문제에 할당된 사용자의 이름은 해당 문제와 관련된 작업 역할 아래에 표시됩니다. 프로젝트 및 역할 보기에서 사용자 및 작업 역할에 대한 예산 시간을 지정할 수 있습니다.
+  * 사용자에게 할당된 문제는 사용자 보기의 작업 역할 이름 아래에 나열됩니다.
 
-     >[!IMPORTANT]
-     >
-     >문제의 계획된 시작 및 완료 일자가 프로젝트의 타임라인을 벗어나는 경우 문제의 계획된 시간이 문제의 일자에 따라 표시됩니다. 예를 들어 프로젝트 타임라인이 1월과 3월 사이에 있지만 문제의 타임라인이 8월에 있는 경우 문제의 계획된 시간이 8월 기간에 나타납니다.
+    >[!IMPORTANT]
+    >
+    >문제의 계획된 시작 및 완료 일자가 프로젝트의 타임라인을 벗어나는 경우 문제의 계획된 시간이 문제의 일자에 따라 표시됩니다. 예를 들어 프로젝트 타임라인이 1월과 3월 사이에 있지만 문제의 타임라인이 8월에 있는 경우 문제의 계획된 시간이 8월 기간에 나타납니다.
 
 
 * **Portfolio 우선 순위 표시**: 할당된 Portfolio에 따라 프로젝트 우선 순위를 표시합니다.
