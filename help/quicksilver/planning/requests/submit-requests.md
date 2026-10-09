@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
 source-wordcount: '3110'
 ht-degree: 1%
@@ -223,7 +223,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    >[!TIP]
    >
-   >종속 연결된 레코드 필드의 값은 레코드 간의 종속 규칙에 의해 제한됩니다. 자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.
+   ><span class="preview">종속적으로 연결된 레코드 필드의 값이 레코드 간의 종속성 규칙에 의해 제한됩니다. 자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오. </span>
 
 
 1. (조건부) 조직에서 AI가 제공하는 **양식 채우기**&#x200B;를 허용하는 경우 문서를 프롬프트로 업로드할 수 있습니다. AI는 이러한 문서를 사용하여 양식을 채우며 요청을 제출하기 전에 AI 제안을 수락하거나 거부할 수 있습니다.
