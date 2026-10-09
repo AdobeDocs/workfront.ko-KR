@@ -41,7 +41,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 업무 균형자 는 Adobe Workfront의 여러 영역에서 사용할 수 있습니다. 탐색하는 것은 모든 영역에서 유사합니다.
 
-업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)를 참조하십시오.
+업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -123,8 +123,8 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 업무 균형자 를 사용한 리소스 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [업무 균형자에서 작업 할당 개요](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [업무 균형자에서 사용자 할당 관리](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [업무 균형자에서 작업 할당 개요](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [업무 균형자에서 사용자 할당 관리](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## 리소스 조달 영역에서 여러 프로젝트에 대한 업무 균형자 탐색
 
