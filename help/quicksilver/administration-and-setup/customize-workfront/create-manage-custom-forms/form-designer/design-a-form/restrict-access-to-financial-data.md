@@ -22,10 +22,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 6%
+source-wordcount: '755'
+ht-degree: 5%
 ---
 # 사용자 정의 필드에서 재무 데이터에 대한 액세스 제한
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 사용자 지정 필드 만들기에 대한 자세한 내용은 [사용자 지정 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
-액세스 수준에 대한 자세한 내용은 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)를 참조하세요. 공유 및 사용 권한에 대한 자세한 내용은 [개체에 대한 공유 사용 권한 개요](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
+액세스 수준 및 권한을 통해 재무 데이터에 대한 액세스를 정의하는 방법에 대한 자세한 내용은 [재무 데이터에 대한 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) 및 [개체에 대한 재무 권한 공유](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -89,16 +89,27 @@ ht-degree: 6%
    >
    >계산된 필드의 경우 모든 형식이 허용됩니다. 다른 모든 필드 형식은 **통화** 형식을 사용해야 합니다. 그렇지 않으면 **재무 권한 형식** 필드를 사용할 수 없습니다.
 
-1. (선택 사항) 계산된 필드에만 **자동 권한** 옵션을 켜면 수식의 필드에서 재무 권한이 자동으로 부여됩니다.
+1. (선택 사항) 계산된 필드에만 **자동 권한** 옵션을 사용하면 수식의 필드에서 재무 권한을 자동으로 만들 수 있습니다.
 
 1. **재무 권한 유형**&#x200B;에 대한 옵션을 선택하십시오.
 
-   양식에서 이 사용자 정의 필드를 보거나 편집하려면 먼저 사용자에게 이 재무 권한 유형이 있어야 합니다.
+   이 설정은 사용자가 양식에서 이 사용자 정의 필드를 보거나 편집하기 위해 보유해야 하는 액세스 및 권한 유형을 정의합니다.
 
-   * **권한 필요 없음:** 모든 사용자가 이 필드를 볼 수 있음
-   * **일반:** 사용자는 일반 금융을 편집하거나 볼 수 있는 권한이 있어야 합니다.
-   * **청구:** 사용자에게 청구 요율을 편집하거나 볼 수 있는 권한이 있어야 합니다.
-   * **비용:** 사용자가 비용 비율을 편집하거나 볼 수 있는 권한이 있어야 합니다.
+   * **권한 필요 없음:** 모든 사용자는 액세스 수준 및 개체 권한에 관계없이 필드를 볼 수 있습니다.
+   * **일반:** 사용자가 다음 중 하나를 가지고 있어야 필드를 볼 수 있습니다.
+
+     * 액세스 수준에는 General Finance에 대한 액세스 권한이 활성화된 재무 데이터에 대한 보기 또는 편집 액세스 권한이 포함됩니다.
+     * 사용자 정의 양식이 첨부된 객체에 대한 사용 권한에는 일반 재무 보기 또는 편집이 포함됩니다.
+
+   * **청구서:** 사용자가 다음 중 하나를 가지고 있어야 필드를 볼 수 있습니다.
+
+     * 액세스 수준에는 청구 요율에 대한 액세스 권한이 활성화된 재무 데이터에 대한 보기 또는 편집 액세스 권한이 포함됩니다.
+     * 사용자 정의 양식이 첨부된 오브젝트에 대한 권한에는 청구 요금 보기 또는 편집이 포함됩니다.
+
+   * **비용:** 사용자가 다음 중 하나를 가지고 있어야 필드를 볼 수 있습니다.
+
+     * 액세스 수준에는 비용 비율에 대한 액세스 권한이 활성화된 재무 데이터에 대한 보기 또는 편집 액세스 권한이 포함됩니다.
+     * 사용자 정의 양식이 첨부된 오브젝트에 대한 권한에는 원가율 보기 또는 편집이 포함됩니다.
 
    계산된 필드의 경우:
 
