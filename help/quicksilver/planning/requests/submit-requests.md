@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
+source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3249'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning 요청을 제출하여 레코드 생성
@@ -225,8 +225,17 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    ><span class="preview">종속적으로 연결된 레코드 필드의 값이 레코드 간의 종속성 규칙에 의해 제한됩니다. 자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오. </span>
 
+1. (선택 사항 및 조건부) AI가 양식을 작성하도록 하려면 **양식 작성**&#x200B;을 클릭합니다. Workfront은 이전 요청의 정보를 기반으로 양식의 필드를 채웁니다.
 
-1. (조건부) 조직에서 AI가 제공하는 **양식 채우기**&#x200B;를 허용하는 경우 문서를 프롬프트로 업로드할 수 있습니다. AI는 이러한 문서를 사용하여 양식을 채우며 요청을 제출하기 전에 AI 제안을 수락하거나 거부할 수 있습니다.
+   >[!TIP]
+   >
+   >조직에서 양식 채우기 기능을 사용하려면 시스템 환경 설정 영역에서 **AI 양식 채우기**&#x200B;를 허용해야 합니다.
+   >
+   >지침은 [AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청을 채우는 방법](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)을 참조하십시오.
+
+
+
+1. (조건부) 조직에서 **AI 양식 채우기**&#x200B;를 허용하는 경우 문서를 프롬프트로 업로드할 수 있습니다. AI는 이러한 문서를 사용하여 양식을 채우며 요청을 제출하기 전에 AI 제안을 수락하거나 거부할 수 있습니다.
 
 
    지침은 [AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청을 채우는 방법](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)을 참조하십시오.
@@ -345,7 +354,15 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
    요청 양식이 열립니다.
 1. 사용 가능한 모든 필드에 모든 정보 입력을 시작합니다.
 
-   또는 AI가 양식을 작성하도록 하려면 **양식 채우기**&#x200B;를 클릭하세요.
+   또는 AI가 양식을 작성하도록 하려면 **양식 채우기**&#x200B;를 클릭하세요. Workfront은 이전 요청의 정보를 기반으로 양식의 필드를 채웁니다.
+
+   >[!TIP]
+   >
+   >조직에서 시스템 환경 설정 영역에서 **AI 양식 채우기**&#x200B;를 허용하는 경우 문서를 프롬프트로 업로드할 수 있습니다. AI는 이러한 문서를 사용하여 양식을 채우며 요청을 제출하기 전에 AI 제안을 수락하거나 거부할 수 있습니다.
+   >
+   >지침은 [AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청을 채우는 방법](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)을 참조하십시오.
+
+
 1. **요청 제출**&#x200B;을 클릭합니다.
 
    요청이 제출되었습니다.

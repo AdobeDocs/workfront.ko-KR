@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 3%
+source-wordcount: '831'
+ht-degree: 2%
 ---
 # 재무 데이터에 대한 액세스 권한 부여
 
@@ -121,10 +121,12 @@ If you make changes here, make them also in the "Grant access to" articles where
 * issue
 -->
 
-다른 사용자와 객체를 공유할 때 객체에 대한 수신자의 권한은 다음 두 가지 사항의 조합으로 결정됩니다.
+다른 사용자와 오브젝트를 공유할 때 해당 오브젝트에 대한 재무 데이터를 보거나 편집할 수 있는 수신자의 권한은 다음 두 가지 사항의 조합으로 결정됩니다.
 
-* 객체에 대해 수신자에게 부여하는 권한
-* 개체 유형에 대한 수신자의 액세스 수준 설정입니다.
+* 특정 객체에 대해 수신자에게 부여하는 권한
+* 개체 유형 및 재무 데이터에 대한 수신자의 액세스 수준 설정
+
+사용자 정의 재무 필드에 대한 액세스는 사용자의 권한 및 액세스 수준 설정에 따라 제한될 수도 있습니다. 자세한 내용은 [사용자 지정 필드에서 재무 데이터에 대한 액세스 제한](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)을 참조하십시오.
 
 ## 라이선스 유형별 재무 정보 액세스
 
