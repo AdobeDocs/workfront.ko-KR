@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 4ae4f25382ce72424e484336fb85df969f190921
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1077'
 ht-degree: 1%
 ---
 # 문서 버전 관리
@@ -241,10 +241,10 @@ Workfront은 Frame.io의 버전 번호와 일치하도록 업로드한 순서대
 
 </div>
 
-### 승인 중 현재 파일 보기
+<!--
 
-문서가 Creative Cloud 파일(예: Photoshop 클라우드 문서)이고 승인이 진행 중일 때 누군가가 문서를 편집하는 경우, Workfront은 승인 중인 버전과 별도로 라이브 문서에 새 업데이트가 있음을 나타내는 배지와 함께 **현재 파일** 섹션을 표시합니다.
+### View the current file during an approval
 
->[!IMPORTANT]
->
->**질문 열기:** 현재 파일 섹션이 처음 나타나는 경우에만 영구적으로 표시됩니까? 또는 실시간 문서에 검토되지 않은 업데이트가 있는 경우에만 표시됩니까? 게시하기 전에 제품과 함께 확인하십시오.
+If a document is a Creative Cloud file (for example, a Photoshop cloud document) and someone edits it while an approval is in progress, Workfront shows a **Current file** section with a badge indicating that new updates exist on the live document, separate from the version under approval.
+
+-->
