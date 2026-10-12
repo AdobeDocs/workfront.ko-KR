@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4e0576ab13efb4bbf127722be9b71c8abb8950c9
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '376'
 ht-degree: 5%
 ---
 # 레이아웃 템플릿을 사용하여 기타 메뉴 사용자 지정
@@ -75,5 +75,9 @@ ht-degree: 5%
    * 왼쪽 패널에서 섹션을 표시하거나 숨기려면 **표시** ![표시 아이콘](assets/add-secondary-nav-item.png) 또는 **숨기기** ![숨기기 아이콘](assets/delete-secondary-nav-item.png) 아이콘을 클릭합니다. **표시** 또는 **숨기기** 아이콘이 없는 항목은 숨길 수 없습니다.
 
    * 왼쪽 패널에서 순서를 변경하려면 ![이동 아이콘](assets/move-icon---dots.png)을 끕니다.
+
+   >[!NOTE]
+   >
+   >프로젝트, 작업 또는 문제에 대해 기타 메뉴에서 **공유** 옵션을 숨기는 경우 개체 헤더에서 공유 단추가 숨겨집니다.
 
 1. **완료**&#x200B;를 클릭합니다.
