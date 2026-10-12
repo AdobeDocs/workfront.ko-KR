@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b449628309a82d7880612ea60dd5ee7de7f37e03
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '772'
 ht-degree: 2%
 ---
 # 승인 보기
@@ -97,7 +97,8 @@ Workfront의 여러 영역에서 승인을 보거나 관리할 수 있습니다.
 
   * 모든 프로젝트, 작업, 문제, 타임시트, 문서, 액세스 및 승인 대기 중인 <span class="preview">Workfront 계획 요청</span>이 홈 영역의 내 승인 위젯에 표시됩니다.
   * 내가 제출한 승인 필터 옵션을 선택하면 직접 제출한 승인이 홈 영역의 내 승인 위젯에도 표시됩니다. 자세한 내용은 이 문서의 [홈 영역에서 승인을 위해 제출한 작업 검토](#review-work-you-submit-for-approval-in-the-home-area) 섹션을 참조하십시오.
-  * 관련된 프로젝트, 작업 또는 문제가 해결됨, 보류 중, 마감됨 또는 취소됨으로 표시되면 홈 영역의 내 승인 위젯에서 승인이 제거됩니다.
+  * 프로젝트, 작업 또는 문제가 해결됨, 보류 중, 마감됨 또는 취소됨으로 표시되면 내 승인 위젯에서 작업 승인이 제거됩니다.
+  * 통합 문서 및 증명 승인은 문서 또는 증명 워크플로가 완료되거나 삭제되면 내 승인 위젯에서 제거됩니다.
 
   홈 사용에 대한 자세한 내용은 [홈 시작](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)을 참조하세요.
 
