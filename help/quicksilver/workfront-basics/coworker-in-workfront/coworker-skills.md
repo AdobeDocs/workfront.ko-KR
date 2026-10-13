@@ -1,5 +1,5 @@
 ---
-title: CX Enterprise Coworker 스킬
+title: CX Enterprise Coworker의 Workfront 기술
 content-type: reference
 description: Adobe Workfront에서 Coworker가 사용할 수 있는 기술에 대해 알아봅니다.
 author: Becky
@@ -10,12 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: d72869cb62d06b24298004ba2c9482a153b8e5f7
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '259'
 ht-degree: 6%
 ---
-# CX Enterprise Coworker 스킬
+# CX Enterprise Coworker의 Workfront 기술
 
 {{preview-fast-release-general}}
 
