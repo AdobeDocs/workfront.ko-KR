@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: c1d154d2d6ce0cedbd61c2b311ad95ddf86c48f8
 workflow-type: tm+mt
 source-wordcount: '1380'
 ht-degree: 2%
@@ -48,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-사용자, 역할, 팀 또는 작업 에이전트에게 문제를 할당하여 문제 완료에 대한 책임자를 나타낼 수 있습니다. 문제 할당에 대한 일반적인 정보는 [문제 할당 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)를 참조하십시오.
+사용자, 역할, 팀, <span class="preview"> 또는 작업 에이전트</span>에 문제를 할당하여 문제 완료를 담당하는 사람을 지정할 수 있습니다. 문제 할당에 대한 일반적인 정보는 [문제 할당 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)를 참조하십시오.
 
 >[!TIP]
 >
->여러 사용자, 작업 역할, 팀 또는 작업 에이전트를 할당할 수 있습니다. 활성 사용자, 작업 역할, 팀 및 작업 에이전트만 할당할 수 있습니다.
+>여러 사용자, 작업 역할, 팀, <span class="preview"> 또는 작업 에이전트</span>를 할당할 수 있습니다. 활성 사용자, 작업 역할, 팀, <span class="preview"> 및 작업 에이전트</span>만 할당할 수 있습니다.
 >
->비활성화되기 전에 사용자, 작업 역할, 팀 또는 작업 에이전트가 할당된 경우 작업 항목에 할당된 상태로 유지됩니다. 이 경우 다음 사항을 권장합니다.
+>비활성화되기 전에 사용자, 작업 역할, 팀, <span class="preview"> 또는 작업 에이전트</span>이(가) 할당된 경우 작업 항목에 할당된 상태로 유지됩니다. 이 경우 다음 사항을 권장합니다.
 >
 >* 작업 항목을 활성 리소스에 재할당합니다.
 >* 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
@@ -149,7 +149,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 할당할 사용자, 역할, 팀 또는 작업 에이전트의 이름을 입력한 다음 목록에 나타나면 해당 이름을 클릭합니다.
+   * 할당하려는 사용자, 역할, 팀, <span class="preview"> 또는 작업 에이전트</span>의 이름을 입력한 다음 목록에 나타나면 클릭합니다.
 
      ![할당 검색](assets/smart-assignments-issue-header.png)
 
@@ -198,7 +198,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
      ![필드에 할당됨](assets/assigned-to-field-task-list-nwe.png)
 
-   * **할당** 필드 내부를 클릭하고 문제에 할당할 활성 사용자, 작업 역할, 팀 또는 작업 에이전트의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+   * **할당** 필드 내부를 클릭하고 문제에 할당할 활성 사용자, 작업 역할, 팀, <span class="preview"> 또는 작업 에이전트</span>의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
      ![할당 필드](assets/assignments-field-0825.png)
 

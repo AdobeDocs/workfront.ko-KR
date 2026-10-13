@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
+source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 8%
+source-wordcount: '523'
+ht-degree: 7%
 ---
 # 내 승인 위젯을 사용하여 승인 관리
 
@@ -162,3 +162,7 @@ ht-degree: 8%
    </table>
 
 결정을 내리면 내 승인 위젯에서 승인이 제거됩니다.
+
+>[!NOTE]
+>
+>프로젝트, 작업 또는 문제가 해결됨, 보류 중, 마감됨 또는 취소됨으로 표시되면 내 승인 위젯에서 작업 승인을 제거할 수도 있습니다.
