@@ -21,10 +21,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8a1564e510b2e32b0e5dda8bf2d0e0c7547e63e2
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 2%
+source-wordcount: '362'
+ht-degree: 3%
 ---
 # 이벤트 구독에 대한 클라이언트 TLS 구성
 
@@ -122,11 +122,21 @@ Listen 443
 
 ## 인증서 다운로드
 
-다음 링크를 클릭하여 클라이언트 인증서를 다운로드합니다.
+현재 Workfront 이벤트 구독 클라이언트 인증서가 포함된 ZIP 파일을 다운로드합니다. 이 인증서는 2027년 4월 25일에 만료됩니다.
 
-* [클라이언트 인증서 - 프로덕션 환경](assets/prod-ES-client-cert-oct25.crt)
-* [클라이언트 인증서 - 환경 미리보기](assets/preview-ES-client-cert-oct25.crt)
-* [클라이언트 인증서 - 샌드박스 환경](assets/sandbox-ES-client-cert-oct25.crt)
+[클라이언트 인증서 다운로드](assets/event-subscription-certificates-nov02.zip)
+
+| 환경 | 인증서 파일 |
+| -- | -- |
+| 프로덕션 | event-subs-prod-cert-nov02.crt |
+| 미리보기 | event-subs-preview-cert-nov02.crt |
+| 샌드박스 | event-subs-sandbox-cert-nov02.crt |
+
+<!--
+* [Client certificate - Production environment](assets/prod-ES-client-cert-oct25.crt)
+* [Client certificate - Preview environment](assets/preview-ES-client-cert-oct25.crt)
+* [Client certificate - Sandbox environment](assets/sandbox-ES-client-cert-oct25.crt)
+-->
 
 >[!NOTE]
 >
