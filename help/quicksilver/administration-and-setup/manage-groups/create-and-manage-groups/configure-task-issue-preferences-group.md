@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 3%
 ---
 # 그룹에 대한 작업 및 문제 환경 설정 구성
@@ -165,7 +165,7 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
       <td> <p>이 섹션의 설정은 문제에서 작업으로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
        <ul> 
         <li><strong>원래 문제를 유지하고 해결 방법을 작업에 연결</strong>: 문제를 전환할 때 작업이 완료될 때까지 문제로 계속 표시됩니다. 작업이 완료되면 문제의 상태가 자동으로 [닫힘]으로 변경됩니다.</li> 
-        <li><strong>기본 담당자가 작업에 액세스할 수 있도록 허용</strong>: 기본 담당자(문제 작성자)에게 작업을 검토하고 업데이트하며 진행 상황에 대한 최신 정보를 제공할 수 있는 액세스 권한을 부여합니다.</li> 
+        <li><strong>기본 담당자가 작업에 액세스할 수 있도록 허용</strong>: 기본 담당자(문제 작성자)에게 작업에 대한 보기 액세스 권한을 부여하여 작업을 검토하고 진행 상황을 계속 알려주며 작업의 업데이트 섹션에 의견을 남길 수 있습니다.</li> 
         <li> <p><strong>전환 중에 이러한 설정을 변경할 수 있도록 허용</strong>: 문제를 전환하는 사용자가 문제를 작업으로 전환하는 동안 이러한 옵션을 변경할 수 있도록 허용합니다.</p>
         <!--
           Screenshot when possible</p>

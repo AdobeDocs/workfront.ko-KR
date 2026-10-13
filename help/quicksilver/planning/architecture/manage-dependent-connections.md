@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1406'
 ht-degree: 1%
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 1%
    <ul><li><p>AEM 에셋을 Planning 레코드 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 개체 및 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -172,7 +172,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      ![열 헤더의 종속 아이콘 도구 설명](assets/dependent-icon-tooltip-in-column-header.png)
 1. (선택 사항) **레코드 필터링 규칙**&#x200B;을(를) 클릭하고 연결할 레코드 유형에서 필드를 선택하여 해당 필드 값에 대한 옵션을 제한한 다음 **완료**&#x200B;를 클릭합니다.
 
-   두 필드가 세 번째 레코드 종류에 있으면 여기에서 선택하는 필터에 의해 연결된 필드 레코드 종류의 옵션이 제한됩니다.
+   자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 1. (선택 사항 및 권장) 세 번째 레코드 유형으로 이동하고 첫 번째 및 두 번째 레코드 유형을 모두 연결된 레코드 필드로 추가합니다.
 
    ![세 번째 레코드 종류에 종속적으로 연결된 필드 표시기](assets/dependent-connected-field-indicator-on-a-third-record-type.png)
