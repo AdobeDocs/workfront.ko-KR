@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1090'
 ht-degree: 1%
 ---
 
@@ -107,7 +107,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 * 회사의 사용자가 동료가 사용 가능하려면 먼저 조직에 대해 동료가 사용 가능해야 합니다.
 
-  자세한 내용은 [CX Enterprise Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
+  자세한 내용은 [Workfront의 CX Enterprise Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
 * Workfront이 Workfront 인스턴스에 대해 에이전트를 활성화하면 기본 Workfront 관리자가 이를 사용할 수 있으며 조직에서 활성화할 수 있습니다. 자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
 
@@ -128,7 +128,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## 현재 Coworker에서 사용할 수 있는 기능
 
-현재 Coworker는 Workfront의 계획 영역에서 사용할 수 있으며 일련의 기술을 사용하여 Planning 객체의 정보에 액세스하고 이를 조작합니다. 자세한 내용은 [CX Enterprise Coworker 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)을 참조하세요.
+현재 Coworker는 Workfront의 계획 영역에서 사용할 수 있으며 일련의 기술을 사용하여 Planning 객체의 정보에 액세스하고 이를 조작합니다. 자세한 내용은 [CX Enterprise Coworker의 Workfront 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)을 참조하세요.
 
 Coworker를 사용하여 다음 작업을 수행할 수 있습니다.
 
