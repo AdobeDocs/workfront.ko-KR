@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '5023'
+source-wordcount: '5027'
 ht-degree: 1%
 ---
 # 타임라인 보기 관리
@@ -225,7 +225,7 @@ Old:
    >
    >사용자 정의 분기가 제대로 저장되지 않은 경우 타임라인 보기에 클래식 분기가 표시됩니다.
    >설정 영역에서 사용자 정의 분기를 설정하면 타임라인 보기에 클래식 분기 대신 사용자 정의 분기가 표시됩니다.
-   >자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
+   >자세한 내용은 [사용자 지정 분기 및 주 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
 
 1. (조건부) Workfront 관리자인 경우 **설정으로 이동**&#x200B;을 클릭하여 분기를 설정합니다. 그렇지 않은 경우 **확인**&#x200B;을 클릭하고 Workfront 관리자에게 사용자 지정 분기를 설정하도록 요청하십시오.
 
@@ -593,7 +593,7 @@ Old:
 
 1. (조건부 및 선택 사항) Workfront 관리자인 경우 **사용자 정의 영역 사용** 상자에서 **설정으로 이동**&#x200B;을 클릭하여 설정 영역으로 이동하여 사용자 정의 영역을 설정합니다. 사용자 정의 분기를 설정한 후 기본 분기 대신 타임라인 보기에 표시할 수 있습니다. Workfront 관리자가 아닌 경우 관리자에게 조직에 대해 사용자 정의 분기를 활성화하도록 요청할 수 있습니다.
 
-   자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
+   자세한 내용은 [사용자 지정 분기 및 주 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
 
    ![타임라인 보기 설정 내에서 사용자 지정 분기 경고 사용](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
 

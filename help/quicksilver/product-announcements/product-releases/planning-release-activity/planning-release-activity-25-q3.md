@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 0%
@@ -115,6 +115,7 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
 -->
 
 ## 요청 양식을 공유할 때 경험이 업데이트됨
@@ -140,7 +141,7 @@ Workfront Planning에서 요청 양식을 공유할 때의 환경을 보다 안�
 * 요청 양식을 공유한 사용자에 대한 관리 및 기여 옵션을 제거했습니다. 이제 추가된 사용자는 양식만 제출할 수 있습니다.
 * 이제 공개 링크 만들기 옵션을 활성화하면 공개 공유 탭에 링크 및 만료 날짜 필드가 표시됩니다.
 
-자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)를 참조하십시오.
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)를 참조하십시오.
 
 ## 표 보기에서 모든 그룹화 펼치기 및 접기
 
@@ -195,7 +196,7 @@ Workfront Planning에서 요청 양식을 공유할 때의 환경을 보다 안�
 
 Workfront Planning을 구매하지 않은 고객에 대한 사용자 정의 분기 경험에는 변경 사항이 없습니다.
 
-자세한 내용은 [프로젝트에 대한 사용자 지정 분기 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
+자세한 내용은 [사용자 지정 분기 및 주 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
 
 ## 모든 종속 공식을 동시에 계산
 

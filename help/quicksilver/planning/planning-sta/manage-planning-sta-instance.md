@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 3%
 ---
 
@@ -99,7 +99,7 @@ Workfront Planning 인스턴스에 대해 최대 100분기를 구성할 수 있�
 
 Workfront Planning에서 사용자 정의 분기를 구성하는 것은 Workfront에서 사용자 정의 분기를 구성하는 것과 유사합니다.
 
-자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
+자세한 내용은 [사용자 지정 분기 및 주 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
 
 ## 고객 정보 구성
 

@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: 사용자 정의 영역 활성화
-description: '조직의 분기가 달력 날짜(예: 업무일 또는 쇼핑일) 이외의 특정 기준을 기반으로 하는 경우, 보고를 위해 사용자 정의 분기를 만들 수 있습니다.'
+title: 사용자 정의 분기 및 주 활성화
+description: '조직의 분기가 달력 날짜(예: 업무일 또는 쇼핑일) 이외의 특정 기준을 기반으로 하는 경우 보고를 위해 사용자 정의 분기를 구성할 수 있습니다. 조직에서 Workfront Planning 패키지를 구매하는 경우 사용자 정의 주를 구성할 수도 있습니다.'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -27,12 +27,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '920'
 ht-degree: 2%
 ---
-# 사용자 정의 영역 활성화
+# 사용자 정의 분기 및 주 활성화
 
 <!--Audited: 03/2026-->
 

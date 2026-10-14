@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '3154'
+source-wordcount: '3156'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
@@ -300,7 +300,7 @@ Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세�
 
 사용자 정의 주가 Workfront에 표시되지 않습니다. 이 보고서는 Workfront Planning 타임라인 보기에서만 볼 수 있습니다.
 
-자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
+자세한 내용은 [사용자 지정 분기 및 주 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
 
 ## 연결된 레코드 필드에 대한 필터
 

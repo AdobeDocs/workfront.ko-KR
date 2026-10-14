@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 0%
 ---
 # 2026년 2분기 관리자 개선 사항
@@ -81,7 +81,7 @@ IANA 표준을 따르도록 Workfront에서 사용할 수 있는 시간대를 �
 * 사용자 정의 분기 섹션이 설정 왼쪽 패널에 추가됩니다. 기능은 그대로 유지됩니다. 
 * 사용자 정의 분기 섹션이 그룹의 프로젝트 환경 설정 섹션에서 제거되었습니다. 그룹 관리자가 더 이상 사용자 정의 분기 설정을 볼 수 없습니다. 
 
-자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
+자세한 내용은 [사용자 지정 분기 및 주 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
 
 ## 기본적으로 사용자 정의 양식 섹션 접기
 
