@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2565'
 ht-degree: 1%
 ---
 <!--
@@ -337,6 +337,58 @@ Workfront Planning 권한에 대한 자세한 내용은 [Adobe Workfront Plannin
 * Workfront Planning에서 GenStudio 작업 공간의 모든 레코드에 대한 레코드 정보를 편집할 수 있습니다.
 
   자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
+
+
+#### GenStudio 활성화 개요
+
+<!--
+Some commented out information here comes from glean
+-->
+
+활성화는 GenStudio Planning의 GenStudio 작업 영역에서 사용할 수 있는 Workfront 레코드 유형입니다. GenStudio은 활성화 를 사용하여 캠페인 실행의 일부로 광고 활성화(추가 초안이 작성되었는지 또는 게시되었는지에 상관없이)를 추적하고 관리합니다.
+
+활성화 작업 시 다음 사항을 고려하십시오.
+
+* Workfront Planning에서 활성화 레코드를 생성할 수 없습니다.
+
+
+* GenStudio 프로젝트는 1:1을 Workfront Planning 작업 영역에 매핑합니다. 활성화는 해당 작업 영역에 저장되고 해당 작업 영역에서 참조됩니다.
+
+* 가시성 및 작업은 해당 GenStudio 프로젝트 및 작업 영역에 대한 액세스 권한에 따라 다릅니다.
+
+* GenStudio은 시스템 관리자라도 중요한 레코드(활성화 포함)를 의도한 컨트롤 외부에서 수정하거나 삭제할 수 없도록 추가 보호 계층을 추가합니다.
+
+* GenStudio에서 활성화하면 활성화 세부 사항이 Workfront Planning에 기록되고 추적됩니다. GenStudio 및 Planning은 공유 레코드(캠페인, 제품, 가상 사용자, 활성화 등)를 정렬합니다.
+
+<!--
+
+<div class="preview">
+
+* Activations records include the following:
+
+    * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
+    * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
+
+</div>
+
+-->
+
+<!--
+They're stored in Planning even when a customer hasn't separately purchased Planning.
+-->
+
+<!-- 
+
+Activations are tied to the project you're working in; as projects/workspaces change, associated activation records follow that workspace assignment.  
+Permissions and roles
+
+Access to Campaigns, Products, and Personas requires any GenStudio user role; Activations access requires the GenStudio System Manager role.  
+Admin and setup references
+
+Get started with the Workfront Planning × GenStudio integration (setup, sync, and workspace context).  
+Manage the GenStudio workspace in Workfront Planning (roles and access specifics, including Activations).
+
+-->
 
 ### GenStudio 작업 영역의 레코드 유형 필드
 

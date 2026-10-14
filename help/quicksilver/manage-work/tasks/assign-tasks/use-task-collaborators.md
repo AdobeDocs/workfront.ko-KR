@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1080'
 ht-degree: 1%
 ---
 # 작업 에이전트 사용
@@ -27,11 +27,11 @@ ht-degree: 1%
 
 작업 에이전트는 Workfront 작업, 문제 및 요청에 직접 할당할 수 있는 AI 공동 작업자입니다. 다른 AI 공동 작업자와 마찬가지로 작업 에이전트도 설정 영역에서 구성되어 사용자와 마찬가지로 작업 항목에 할당됩니다.
 
-작업 에이전트는 Copilot Studio, Claude, Writer, <span class="preview">OpenAI 또는 IBM에서 구성한 에이전트에 연결합니다. </span>
+작업 에이전트는 Copilot Studio, Claude, <span class="preview">OpenAI 또는 IBM에서 구성한 에이전트에 연결합니다. </span>
 
 >[!IMPORTANT]
 >
->Writer는 에이전트 사용을 더 이상 사용하지 않습니다. 작성기 에이전트를 사용하여 구성된 작업 에이전트는 10월 9일 이후 작동하지 않습니다. 2026.
+>작성기가 에이전트 사용을 중단했습니다. 작성기 에이전트를 사용하여 구성된 작업 에이전트는 10월 9일 이후 더 이상 작동하지 않습니다. 2026.
 >
 >사용 중단에 대한 자세한 내용은 작성기 설명서에서 [에이전트 라이브러리 마이그레이션 및 사용 중단](https://support.writer.com/articles/8335689949-migrating-no-code-agents)을 참조하십시오.
 
@@ -66,11 +66,11 @@ Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지�
 
 ## 전제 조건
 
-* Workfront에서 작업 에이전트로 사용하려면 먼저 Copilot, Claude, Writer.ai, OpenAI 또는 IBM에서 에이전트를 구성해야 합니다.
+* Workfront에서 작업 에이전트로 사용하려면 먼저 Copilot, Claude, OpenAI 또는 IBM에서 에이전트를 구성해야 합니다.
 
 ## 작업 에이전트 개요
 
-작업 에이전트는 Workfront의 특정 작업에 에이전트를 할당하는 방법입니다. Copilot Studio, Claude 또는 Writer.ai와 같은 앱에서 에이전트를 구성한 다음 해당 에이전트를 작업 에이전트로 Workfront에 연결합니다. 그런 다음 사용자를 할당할 때처럼 작업에 할당할 수 있습니다.
+작업 에이전트는 Workfront의 특정 작업에 에이전트를 할당하는 방법입니다. Copilot Studio 또는 Claude.ai와 같은 앱에서 에이전트를 구성한 다음 해당 에이전트를 작업 에이전트로 Workfront에 연결합니다. 그런 다음 사용자를 할당할 때처럼 작업에 할당할 수 있습니다.
 
 일부 예제 워크플로에는 다음이 포함될 수 있습니다.
 
@@ -82,7 +82,7 @@ Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지�
 >
 >* 에이전트의 책임 및 능력에 대한 특정 세부 정보는 Workfront이 아니라 에이전트가 생성된 애플리케이션에서 구성됩니다.
 >* Workfront MCP 서버는 작업 에이전트로 사용되는 에이전트에 추가할 필요가 없으며 작업 에이전트가 작동하도록 연결될 필요가 없습니다.
->* 작업 에이전트는 현재 Copilot Studio, Claude 및 Writer.ai, <span class="preview">OpenAI 및 IBM에서 만든 에이전트를 지원합니다. </span>
+>* 작업 에이전트는 현재 Copilot Studio, Claude, <span class="preview">OpenAI 및 IBM에서 만들어진 에이전트를 지원합니다. </span>
 >* Copilot Studio에서 에이전트를 구성할 때 보안을 **인증 안 함**(으)로 설정해야 합니다.
 >* Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지침은 AI 공동 작업자 구성 문서의 [작업 에이전트 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)을 참조하십시오.
 

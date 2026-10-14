@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 905f4417aac97d95a3e170e0ead1b067a9436617
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1651'
 ht-degree: 1%
 ---
 # 알림: 내가 소유한 프로젝트에 대한 정보
@@ -49,7 +49,7 @@ ht-degree: 1%
    <td><strong>일별</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>내가 소유한 프로젝트가 늦어지고 있습니다.</strong> </p> <p>프로젝트가 지연되면 프로젝트 소유자에게 이메일 알림이 전송됩니다. 진행 상태가 "[!UICONTROL At Risk]", "[!UICONTROL Behind]" 또는 "[!UICONTROL Late]일 때 프로젝트가 예약보다 늦습니다."</p> <p>가장 좋은 방법은 이 알림을 활성 상태로 유지하는 것입니다. </p> <p>[!UICONTROL Review] 라이센스가 있는 사용자는 알림을 받지 못합니다.</p> <p>인스턴트 알림 전자 메일의 제목은 <em>[!UICONTROL 프로젝트 진행 상황 변경]: &lt;프로젝트 이름&gt;</em>입니다.</p> <p> 일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Projects You Own] &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
+   <td> <p><strong>내가 소유한 프로젝트가 늦어지고 있습니다.</strong> </p> <p>프로젝트가 지연되면 프로젝트 소유자에게 이메일 알림이 전송됩니다. 진행 상태가 "[!UICONTROL At Risk]", "[!UICONTROL Behind]" 또는 "[!UICONTROL Late]일 때 프로젝트가 예약보다 늦습니다." <p>프로젝트 상태가 [!UICONTROL Current] 또는 [!UICONTROL Planning]인 경우에만 알림이 전송됩니다.</p> <p>가장 좋은 방법은 이 알림을 활성 상태로 유지하는 것입니다. </p> <p>[!UICONTROL Review] 라이센스가 있는 사용자는 알림을 받지 못합니다.</p> <p>인스턴트 알림 전자 메일의 제목은 <em>[!UICONTROL 프로젝트 진행 상황 변경]: &lt;프로젝트 이름&gt;</em>입니다.</p> <p> 일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Projects You Own] &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
    <td> <p>프로젝트 이름<br>Portfolio 이름<br>프로젝트 참조 번호<br>프로젝트 진행 상태<br>프로젝트 [!UICONTROL 계획된 시작 일자]<br>프로젝트 [!UICONTROL 계획된 완료 일자]<br>프로젝트 [!UICONTROL 예상 시작 일자]<br>프로젝트 [!UICONTROL 예상 완료 일자]<br>프로젝트 완료율<br>프로젝트 상태<br>프로젝트 소유자<br>*프로젝트 이름<br>*프로젝트 참조 번호<br>*프로젝트 진행 상태<br>*일별 다이제스트 날짜<br></p> </td> 
    <td><strong>일별</strong> </td> 
   </tr> 

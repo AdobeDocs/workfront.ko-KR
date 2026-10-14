@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2104'
 ht-degree: 2%
 ---
 # 프로젝트 상태 개요
 
 >[!IMPORTANT]
 >
->* 2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Enterprise Coworker으로 전환됩니다. Coworker에 대한 자세한 내용은 [CX Enterprise Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
+>* 2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Enterprise Coworker으로 전환됩니다. Coworker에 대한 자세한 내용은 [Workfront의 CX Enterprise Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 >* 프로젝트 상태 기능은 현재 Beta 단계에 참여하는 사용자만 사용할 수 있습니다.
 
 Adobe Workfront의 프로젝트 상태 기능은 AI Assistant의 기능을 통해 프로젝트의 수행 방식, 관심을 기울여야 할 영역, 시간과 비용이 드는 문제를 방지하는 방법에 대한 평가를 즉시 제공합니다.

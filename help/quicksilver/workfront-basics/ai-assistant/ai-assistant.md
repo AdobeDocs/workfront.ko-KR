@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '97'
 ht-degree: 3%
 ---
 # AI Assistant: 문서 색인
 
 >[!IMPORTANT]
 >
->2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Enterprise Coworker으로 전환됩니다. Coworker에 대한 자세한 내용은 [CX Enterprise Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
+>2026년 9월부터 AI Assistant는 작업 완료를 위한 대화 인터페이스인 CX Enterprise Coworker으로 전환됩니다. Coworker에 대한 자세한 내용은 [Workfront의 CX Enterprise Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
 이 섹션에는 다음 문서가 포함됩니다.
 

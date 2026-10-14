@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 1%
+source-wordcount: '1347'
+ht-degree: 2%
 ---
 # AI 공동 작업자 구성
 
@@ -36,7 +36,7 @@ AI 공동 작업자는 프로젝트, 작업 및 문제에 AI 에이전트를 온
 
   자세한 내용은 [Workfront AI 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)을 참조하세요.
 
-* 작업 에이전트: Claude, OpenAI, Copilot 또는 Writer와 같은 표준 AI 플랫폼을 사용하여 공동 작업자를 만든 다음 작업 또는 문제에 공동 작업자를 할당하여 작업 항목을 완료합니다.
+* 작업 에이전트: Claude, OpenAI 또는 Copilot과 같은 표준 AI 플랫폼을 사용하여 공동 작업자를 만든 다음 작업 또는 문제에 공동 작업자를 할당하여 작업 항목을 완료합니다.
 
   자세한 내용은 [작업 에이전트 사용](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)을 참조하세요.
 
@@ -93,7 +93,7 @@ AI 공동 작업자는 프로젝트, 작업 및 문제에 AI 에이전트를 온
 
 ### 작업 에이전트용
 
-클라우드, Copilot Studio, Writer, OpenAI 또는 IBM에서 에이전트를 구성해야 작업 에이전트로 사용할 수 있습니다.
+클라우드, Copilot Studio, OpenAI 또는 IBM에서 에이전트를 구성해야 작업 에이전트로 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
 
 작업 에이전트는 Workfront의 작업 또는 문제에 할당할 수 있는 에이전트입니다. 이름, 액세스 수준 및 기타 세부 정보를 사용하여 작업 에이전트를 구성하고 사용자를 할당할 때처럼 작업에 할당합니다.
 
-작업 에이전트는 에이전트이므로 에이전트를 구성하는 위치에 작업 및 기능이 구성됩니다. 현재 작업 에이전트로 사용되는 에이전트는 Copilot Studio, Claude 또는 Writer, OpenAI 및 IBM에서 만들 수 있습니다.
+작업 에이전트는 에이전트이므로 에이전트를 구성하는 위치에 작업 및 기능이 구성됩니다. 현재 Copilot Studio, Claude, OpenAI, IBM 등에서 작업 에이전트로 활용되는 에이전트를 만들 수 있다.
 
 작업 에이전트는 작업 또는 문제에 할당할 수 있습니다.
 
@@ -146,14 +146,13 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
    >
    ><span class="preview">그룹 관리자인 경우 이 필드에는 관리자인 그룹만 표시됩니다. 그룹 관리자는 그룹을 하나 이상 선택해야 합니다.</span>
 
-1. **에이전트의 원본 선택** 영역에서 Copilot 또는 Writer와 같은 일반 플랫폼에서 만든 에이전트를 연결할지 또는 사용자 지정 에이전트를 사용할지 여부를 선택합니다.
+1. **에이전트의 원본 선택** 영역에서 Copilot과 같은 일반 플랫폼에서 만든 에이전트를 연결할지 또는 사용자 지정 에이전트를 사용할지 여부를 선택합니다.
 1. (조건부) 일반 플랫폼에서 에이전트를 사용하는 경우 에이전트 플랫폼에 대한 인증 세부 정보를 입력합니다.
 
    | 플랫폼 | 필수 인증 |
    |---|---|
    | 코파일럿 스튜디오 | 웹 채널 암호 |
    | Claude Managed Agents | Anthropic API 키<br>에이전트 ID<br>환경 ID |
-   | 작성기 에이전트 | API 키<br>응용 프로그램 ID |
    | <span class="preview">OpenAI 에이전트</span> | <span class="preview">API 키 <br>에이전트 ID</span> |
    | <span class="preview">IBM watsonx 오케스트레이션</span> | <span class="preview">서비스 URL<br>API 키<br> 에이전트 ID</span> |
 
@@ -173,7 +172,7 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
 
 Workfront에서 작업 에이전트로 사용할 에이전트를 생성할 때 도움이 되는 모범 사례는 다음과 같습니다. 모범 사례를 보려면 에이전트를 만드는 응용 프로그램의 섹션을 클릭합니다.
 
-+++ 클로드
++++ Claude
 
 1. [platform.claude.com](https://platform.claude.com/)의 클라우드 콘솔로 이동합니다.
 1. API 키를 만듭니다.
@@ -209,25 +208,38 @@ Workfront에서 작업 에이전트로 사용할 에이전트를 생성할 때 �
 -->
 +++ Writer
 
+
+
+>[!IMPORTANT]
+>
+>작성기가 에이전트 사용을 중단했습니다. 작성기 에이전트를 사용하여 구성된 작업 에이전트는 10월 9일 이후 더 이상 작동하지 않습니다. 2026.
+>
+>사용 중단에 대한 자세한 내용은 작성기 설명서에서 [에이전트 라이브러리 마이그레이션 및 사용 중단](https://support.writer.com/articles/8335689949-migrating-no-code-agents)을 참조하십시오.
+
+
+<!--
+
 >[!NOTE]
 >
-> 작성기 에이전트를 작업 에이전트로 사용할 수 있지만 작성기 플레이북은 작업 에이전트로 사용할 수 없습니다.
+> You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
 
-Writer에서 작업 에이전트로 사용할 에이전트를 만들 때 다음 워크플로를 사용하는 것이 좋습니다.
+When creating an agent for use as a Work Agent in Writer, we recommend the following workflow.
 
-에이전트 만들기에 대한 자세한 내용은 [작성기 설명서](https://dev.writer.com/no-code/introduction)를 참조하세요.
+More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
 
-1. Writer AI Studio에서 코드 없는 앱을 만듭니다.
-1. 단일 텍스트 입력 필드를 추가합니다. 기본 이름 &quot;텍스트 입력&quot;을 사용할 수 있습니다.
-1. `@TextInput`을(를) 프롬프트에 추가합니다. 앱 구성의 프롬프트 섹션에서 프롬프트 템플릿이 입력 변수를 참조하는지 확인합니다. 이 옵션이 없으면 모델에 작업 데이터가 표시되지 않습니다.
-1. 출력을 즉시 생성하려면 프롬프트를 조정하십시오. 응답하기 전에 사용자에게 명확한 설명 또는 추가 컨텍스트를 요청하는 지침을 제거하십시오. 예: &quot;입력을 받으면 콘텐츠 생성 요청으로 처리하고 출력을 즉시 생성합니다. 설명을 요청하지 마십시오.&quot;
-1. API 키 및 애플리케이션 ID를 복사합니다. Workfront에서 작업 에이전트를 구성하려면 에이전트가 필요합니다.
+1. Create a no-code app in Writer AI Studio. 
+1. Add a single Text input field. You can use the default name "Text input."
+1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
+1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
+1. Copy your API key and Application ID. You will need them to configure the Work Agent in Workfront.
 
-   * Writer에서 API 키를 설정하는 방법에 대한 지침은 Writer 설명서의 [빠른 시작](https://dev.writer.com/home/quickstart)을 참조하십시오.
-   * Writer에서 응용 프로그램 ID를 설정하는 방법은 Writer 설명서에서 [API를 통해 코드 없는 에이전트 호출](https://dev.writer.com/home/applications)을 참조하십시오.
+   * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
+   * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
+ 
+1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
+1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
 
-1. Workfront에서 작업 에이전트를 구성합니다. 구성의 일부로 API 키와 응용 프로그램 ID를 입력한 다음 **연결 테스트**&#x200B;를 클릭하여 확인합니다.
-1. Workfront 작업에 작업 에이전트를 할당합니다. 작업 에이전트는 작업의 전임 작업이 모두 완료되면 작업을 시작합니다.
+-->
 
 +++
 

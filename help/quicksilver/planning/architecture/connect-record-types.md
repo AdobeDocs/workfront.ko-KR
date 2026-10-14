@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3238'
 ht-degree: 1%
 ---
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
@@ -314,15 +314,15 @@ Old:
    >동일한 레코드나 개체 유형에 여러 연결을 가질 수 있습니다. 연결된 필드 이름을 편집하지 않으면 Workfront은 연결된 레코드 이름 뒤에 숫자를 추가하여 동일한 이름으로 연결된 레코드 유형의 수를 나타냅니다.
 
 1. 연결된 레코드 필드에 대한 정보를 추가하여 **설명** 필드를 업데이트합니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
-1. (조건부) 레코드 종류 및 Adobe Experience Manager 에셋 개체, 레코드 종류 및 GenStudio Brand의 레코드 종류를 연결할 때 **여러 레코드 허용**&#x200B;을 선택합니다. 이 옵션을 선택하면 원본 레코드에 연결된 레코드 유형 필드가 표시될 때 사용자가 여러 레코드를 추가할 수 있음을 나타냅니다. 이 옵션은 기본적으로 선택되어 있습니다.
-
-   ![다른 작업 영역의 레코드 형식에 대한 새 연결](assets/new-connection-allow-multiple-records-box.png)
-
-1. <span class="preview">이 연결 필드와 연결된 레코드 종류에 만들어진 필드 사이에 종속성을 추가하려면 **이 연결을 종속되게 만들기**&#x200B;를 선택하십시오. </span>
+   <!-- 
+    1. (Conditional) When you connect record types from two different workspaces, a record type and an Adobe Experience Manager asset object, or a record type and a GenStudio Brand, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
+        ![New connection to record type from another workspace](assets/new-connection-allow-multiple-records-box.png)
+    -->
+1. <span class="preview">(선택 사항) 이 연결 필드와 연결된 레코드 종류에서 만든 필드 사이에 종속성을 추가하려면 **이 연결을 종속되게 만들기**&#x200B;를 선택하십시오. </span>
 
    <span class="preview">자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md).</span>를 참조하십시오.
 
-1. **연결 형식** 섹션에서 **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 선택합니다.
+1. <span class="preview">(선택 사항) **연결 설정** 섹션에서 **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 선택합니다.</span>
 
    >[!TIP]
    >
@@ -339,17 +339,25 @@ Old:
    >* 연결된 레코드 필드는 해당 응용 프로그램의 다른 응용 프로그램 객체에 대해서는 생성되지 않습니다. 예:
    >   * Planning 레코드에 연결된 Workfront 객체에 대해 생성된 필드가 없습니다.
    >   * GenStudio 작업 영역의 레코드 유형에 연결되어 있는 경우 Planning 레코드 유형에 대해 생성된 필드가 없습니다.
-1. (조건부) 동일한 작업 공간의 레코드 유형 또는 Planning 레코드 유형과 Workfront 객체 유형을 연결하는 경우 다음 중 하나를 선택합니다.
+1. 다음 중 하나를 선택합니다.
+
+   <div class="preview">
 
    * **다중 선택**: 현재 레코드 종류의 한 레코드를 연결 레코드 종류의 여러 레코드와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
    * **단일 선택**: 현재 레코드 종류의 레코드 한 개를 연결 레코드 종류의 레코드 한 개와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
 
-1. (조건부) **연결 형식** 섹션에서 **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 사용하도록 설정한 경우 다음 옵션 중에서 선택하여 사용자가 연결할 수 있는 레코드 수를 나타냅니다.
+   </div>
+
+1. <span class="preview">(조건부) **연결 형식** 섹션에서 **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 사용하도록 설정한 경우 다음 옵션 중에서 선택하여 사용자가 연결할 수 있는 레코드 수를 나타냅니다.</span>
+
+   <div class="preview">
 
    * 다대다
    * 일대다
    * 다대일
    * 일대일
+
+   </div>
 
    연결 유형에 대한 자세한 내용은 [연결된 레코드 유형 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
 
@@ -369,9 +377,6 @@ Old:
    >
    >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
-1. <span class="preview">(선택 사항 및 조건부) **이 연결에 종속되도록 설정**&#x200B;을 선택한 경우 **레코드 필터링 규칙**&#x200B;을(를) 클릭하여 연결된 두 레코드 필드가 동일한 레코드 유형에 표시될 때 연결된 필드 값의 값을 제한하는 필터를 만듭니다. </span>
-
-   <span class="preview">자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오. </span>
 1. (선택 사항) **모양 기록** 영역에서 다음 옵션 중 하나를 선택합니다.
 
    * **이름 및 이미지**: 연결된 레코드의 이름과 축소판 그림 또는 아이콘이 모두 연결된 레코드 필드에 표시됩니다. 기본 옵션입니다.
@@ -394,10 +399,12 @@ Old:
    >* Workfront에서 오브젝트 유형을 선택할 때는 레코드 모양을 선택할 수 없습니다.
    >
    >* **레코드 모양** 영역에서 선택한 항목에 따라 모든 보기 및 세부 정보 페이지를 포함하여 시스템의 모든 연결에서 레코드가 표시되는 방식이 결정됩니다.
+1. <span class="preview">(선택 사항 및 조건부) 사용 가능한 경우 **필터링 규칙 기록**&#x200B;을 클릭하여 정의된 값을 기준으로 연결된 필드 선택을 제한하는 필터를 만듭니다. </span>
+1. **조회 필드 선택** 또는 <span class="preview">**조회 필드 추가** 메뉴</span>를 클릭하여 조회 필드 추가 상자를 열고 연결 중인 레코드 유형에서 필드를 선택하고 추가하십시오.
 
-1. **조회 필드 선택** 또는 <span class="preview">연결 중인 레코드 형식에서 필드를 선택하고 추가하려면 **조회 필드** 메뉴</span>를 클릭하십시오.
+   조회 필드는 연결 중인 레코드 또는 개체 유형과 연결된 필드입니다. 이 레코드들을 연결하면 연결하려는 레코드의 레코드나 개체에 있는 정보가 표시됩니다.
 
-   조회 필드는 연결 중인 레코드 또는 개체 유형과 연결된 필드입니다. 이 레코드들을 연결하면 연결하려는 레코드의 레코드나 개체에 있는 정보가 표시됩니다. <!--No more: This is selected by default.-->
+   조회 필드를 추가하려면 아래 정보를 참조하십시오.
 
    >[!NOTE]
    >
@@ -412,9 +419,17 @@ Old:
    >
    >   예를 들어 프로젝트의 계획된 시작 일자가 Workfront에서 오후 3시로 표시되는 경우 가져온 조회 필드에서는 Workfront Planning에서 15시로 표시됩니다.
 
+1. <span class="preview">(선택 사항) 연결된 필드에 대한 권한을 변경하려면 **필드 액세스**&#x200B;를 클릭합니다. 다음 옵션 중에서 선택하십시오. </span>
+
+   <div class="preview">
+
+   * **레코드 형식에 액세스할 수 있는 모든 사용자가 볼 수 있습니다**: 레코드 형식에 액세스할 수 있는 사용자만 필드를 볼 수 있습니다. 기본 설정입니다.
+   * **선택한 사용자만 액세스할 수 있습니다**: 필드를 공유할 사용자, 팀, 그룹, 회사 또는 역할을 추가하십시오.
+
+   </div>
 1. Click **Create**.
 
-1. (조건부) **조회 필드 선택** 설정을 선택한 경우 **조회 필드 추가** 상자가 열립니다.
+1. (조건부) **조회 필드**&#x200B;을 클릭하면 **조회 필드 추가** 상자가 열립니다.
 
    **+** 아이콘을 클릭하여 **선택하지 않은 필드** 영역에서 필드를 추가합니다.
 
@@ -430,7 +445,7 @@ Old:
    >
    >    작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자는 연결된 객체 유형의 응용 프로그램에서 자신의 권한 또는 액세스 수준에 관계없이 연결된 필드에서 정보를 볼 수 있습니다.
 
-1. (선택 사항) 연결된 레코드 또는 개체 형식에서 필드 추가를 건너뛰려면 **건너뛰기**&#x200B;를 클릭합니다. 연결된 레코드의 이름 또는 기본 필드는 사용자가 연결하는 레코드 유형의 테이블 보기에 표시되는 유일한 필드입니다.
+1. (선택 사항) 연결된 레코드 또는 개체 형식에서 필드 추가를 건너뛰려면 **건너뛰기**&#x200B;를 클릭합니다. 연결된 레코드의 이름 또는 기본 필드는 사용자가 연결하는 레코드 유형의 테이블 보기에 표시되는 유일한 필드입니다. <!--take this step out at production-->
 
 1. 추가하는 조회 필드에 대한 집계자를 선택합니다.
 

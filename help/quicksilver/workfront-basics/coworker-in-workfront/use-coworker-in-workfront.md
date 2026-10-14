@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '610'
 ht-degree: 3%
 ---
 # Workfront에서 CX Enterprise Coworker 사용
@@ -32,7 +32,7 @@ Workfront에서 Coworker를 사용할 때 다음과 같은 정보 및 개체로 
 
 Coworker는 대규모 Adobe CX Enterprise 에코시스템의 일부이므로 Coworker를 사용하여 Workfront의 오른쪽 레일에서 다른 Adobe 제품의 정보 및 개체로 작업하거나 Workfront에서 Adobe Coworker 인터페이스로 이동할 수 있습니다.
 
-Workfront 외부의 동료 및 해당 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker 채팅 개요](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/chat/overview)를 참조하십시오.
+Workfront 외부의 동료 및 해당 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker 채팅 개요](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/overview)를 참조하십시오.
 
 
 ## 액세스 요구 사항
