@@ -1,9 +1,8 @@
 ---
-source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
+source-git-commit: a9e2999fd0e1f87339110ac68c81cf432d7cdf95
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2294'
 ht-degree: 2%
-
 ---
 # 스니펫
 
@@ -384,8 +383,8 @@ OLD:
 
 **최신 버전**:
 
-* Mac: 2025년 12월 11일 현재 2.1.54
-* Windows: 2025/12/11 중 2.1.54
+* Mac: 2026/09/17 기준 2.2.2
+* Windows: 2026/09/17 기준 2.2.2
 
 <!-- Release -->
 

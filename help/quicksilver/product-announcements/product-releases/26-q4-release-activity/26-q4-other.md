@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
+source-git-commit: c459d95f58469fe3fe406963645bb7c58c8b1546
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1137'
 ht-degree: 0%
 ---
 # 2026년 4분기 릴리스 일정 중 기타 개선 사항
@@ -54,7 +54,7 @@ Workfront의 모든 향상된 목록에 일관성을 제공하기 위해 향상�
 
 이제 다음 Workfront 목록에서 향상된 목록 형식을 사용합니다.
 
-* 설정 > 이메일 > 알림 > 이벤트 알림 및 그룹 세부 정보 페이지 > 이벤트 알림
+* 설정 > 이메일 > 알림 > 이벤트 알림 및 그룹 세부 정보 페이지 > 이벤트 알림(이 업데이트는 10월 14일에 미리보기 환경에서 제거되었으며 분기별 릴리스의 일부가 아닙니다. 이 목록은 나중에 업데이트됩니다.)
 * 설정 > 문서 > Experience Manager Assets
 * 프로젝트 또는 템플릿 > 대기열 주제
 * 프로젝트 또는 템플릿 > 주제 그룹
