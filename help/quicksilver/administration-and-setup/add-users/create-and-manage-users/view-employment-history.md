@@ -7,7 +7,7 @@ description: 속성, 비용 및 청구 요금, 시간 경과에 따른 일정 �
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f0560dc380160725c12d3f222e3fe7f3d8d32d63
+source-git-commit: 4674a75b106a663b68320088c7bed22938dc2ab3
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -66,6 +66,7 @@ Karen Sterling은 2019년 3월 3일에 채용된 이후 전무 이사로 재직�
 1. 결과를 필터링하려면 **필터**&#x200B;를 클릭하고 필터링할 필드, 연산자 및 값을 입력하십시오. 결과는 자동으로 필터링됩니다.
 1. 열을 추가하거나 제거하려면 표 오른쪽에 있는 추가 아이콘 ![추가 아이콘](assets/add-column.png)을 클릭하고 추가할 각 열 옆에 있는 더하기 아이콘을 클릭하거나, 보기에서 제거할 각 열 옆에 있는 빼기 아이콘을 클릭합니다.
 1. 고용 내역을 내보내려면 **내보내기**&#x200B;를 클릭합니다. 고용 내역을 CSV 또는 XLSX 파일로 내보낼 수 있습니다.
+
 
 
 
