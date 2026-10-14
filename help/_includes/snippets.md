@@ -1,9 +1,8 @@
 ---
-source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
+source-git-commit: a9e2999fd0e1f87339110ac68c81cf432d7cdf95
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2294'
 ht-degree: 2%
-
 ---
 # 스니펫
 
@@ -384,8 +383,8 @@ OLD:
 
 **최신 버전**:
 
-* Mac: 2025년 12월 11일 현재 2.1.54
-* Windows: 2025/12/11 중 2.1.54
+* Mac: 2026/09/17 기준 2.2.2
+* Windows: 2026/09/17 기준 2.2.2
 
 <!-- Release -->
 
@@ -472,12 +471,12 @@ OLD:
 1. Adobe Workfront의 왼쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다.
 
 1. **[!UICONTROL 사용자]**&#x200B;를 클릭한 다음 홈 팀에 연결할 사용자를 선택하십시오.
-1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**을 선택합니다.
    ![](/help/_includes/assets/user-settings-nwe-350x291.png)
 
 1. **[!UICONTROL 조직]** 섹션에서 **[!UICONTROL 홈 팀]** 필드를 선택합니다. 설정을 사용자와 연결할 팀의 이름을 입력하십시오. 목록에 팀의 이름이 표시되면 클릭합니다.
 
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 변경 내용 저장]**을 클릭합니다.
 선택한 사용자가 이제 홈 팀과 연결되었습니다.
 완료 버튼과 연관된 상태를 포함하여 모든 팀 설정이 이제 이러한 사용자에게 표시됩니다.
 
