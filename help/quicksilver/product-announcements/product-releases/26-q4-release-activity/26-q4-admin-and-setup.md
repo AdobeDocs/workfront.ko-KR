@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 73607215c20da53c1a7f37fc74932537fbd44392
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -29,8 +29,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >미리 보기: 2026년 10월 1일
->프로덕션 빠른 릴리스: 2026년 10월 16일
->모두를 위한 프로덕션: 2026년 10월 16일
+>프로덕션 빠른 릴리스: 2026년 10월 22일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 사용자의 작업 역할, 에이전시, 비용 부서 및 청구 요금이 시간에 따라 어떻게 변경되었는지 추적하는 데 도움이 되도록 고용 내역을 추가했습니다.
 
@@ -45,8 +45,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >미리 보기: 2026년 10월 1일
->프로덕션 빠른 릴리스: 2026년 10월 16일
->모두를 위한 프로덕션: 2026년 10월 16일
+>프로덕션 빠른 릴리스: 2026년 10월 22일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 사용자 정의 용어 및 필드 레이블을 번역하는 시간을 절약할 수 있도록 사용자 정의 지역화를 위한 AI 번역을 생성하는 기능을 추가했습니다. 이제 Workfront 관리자는 AI를 사용하여 번역되지 않은 사용자 정의 텍스트에 대한 번역을 생성하거나 이전에 현지화된 용어에 대한 추가 언어 번역본을 입력한 다음 저장하기 전에 결과를 검토하고 조정할 수 있습니다.
 
@@ -59,8 +59,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 16, 2026
->Production for everyone: October 16, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 To make it easier to control secure access to Workfront data, we've added the ability for administrators to configure MCP Tools permissions by access level. Now, you can configure actions a given access level can take through the Workfront MCP.
 
@@ -80,8 +80,8 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 >[!NOTE]
 >
 >미리 보기: 2026년 10월 1일
->프로덕션 빠른 릴리스: 2026년 10월 16일
->모두를 위한 프로덕션: 2026년 10월 16일
+>프로덕션 빠른 릴리스: 2026년 10월 22일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 레이아웃 템플릿에 대한 몇 가지 개선 사항이 생성되었습니다.
 
@@ -96,8 +96,8 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 >[!NOTE]
 >
 >미리 보기: 2026년 10월 1일
->프로덕션 빠른 릴리스: 2026년 10월 16일
->모두를 위한 프로덕션: 2026년 10월 16일
+>프로덕션 빠른 릴리스: 2026년 10월 22일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 양식 디자이너에서 드롭다운 필드, 라디오 단추 및 확인란을 사용하여 작업할 때 단일 대화 상자에서 필드 선택 사항을 추가, 편집 및 삭제할 수 있습니다. 이전에는 디자이너의 오른쪽 패널에서 선택 항목을 추가 및 편집했으며, 긴 선택 항목 목록을 만들 경우 공간이 많지 않았습니다.
 
@@ -119,8 +119,8 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 >[!NOTE]
 >
 >미리 보기: 2026년 9월 22일
->프로덕션 빠른 릴리스: 2026년 10월 16일
->모두를 위한 프로덕션: 2026년 10월 16일
+>프로덕션 빠른 릴리스: 2026년 10월 22일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 Workfront MCP 서버를 조직에 보다 유연하고 사용자 정의할 수 있도록 사용자 지정 OAuth 콜백 URL을 추가하는 기능을 추가했습니다. Workfront 관리자는 이제 MCP 통합을 위해 신뢰할 수 있는 OAuth 콜백 URL의 자체 조직 허용 목록에 추가하다를 유지 관리할 수 있습니다. 이렇게 하면 Workfront이 기본적으로 지원하는 플랫폼을 넘어 OAuth 콜백 URL이 조직에 고유한 사용자 정의 AI 에이전트 플랫폼을 연결할 수 있습니다.
 
@@ -134,7 +134,7 @@ Workfront MCP 서버를 조직에 보다 유연하고 사용자 정의할 수 �
 >
 >Preview: August 20, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 16, 2026
+>Production for everyone: October 22, 2026
 
 The Actions list in the Update Feeds section of the Setup area has an updated look and feel.
 
@@ -154,7 +154,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >미리 보기: 2026년 9월 3일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 16일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 Adobe Admin Console을 통해 Workfront에서 프로비저닝된 사용자의 기본 액세스 수준을 설정할 수 있습니다. Workfront 관리자는 시스템 기본 설정에서 이 기본값을 구성할 수 있습니다.
 
@@ -168,7 +168,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >미리 보기: 2026년 9월 3일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 16일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 조직이 Workflow 패키지 외에 Planning 패키지를 구매한 경우, 이제 Workfront 관리자로서 사용자 정의 분기를 구성하는 것과 동일한 방식으로 사용자 정의 주를 구성할 수 있습니다.
 
@@ -182,7 +182,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >미리 보기: 2026년 9월 3일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 16일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 사용자 정의 문서 통합은 대용량 파일에 대한 청크 업로드를 지원합니다. 활성화되면 25MB가 넘는 파일은 더 작은 청크로 분할되고 병렬로 업로드되므로 대용량 파일을 더 빠르고 안정적으로 업로드할 수 있습니다. 관리자는 이 기능을 켜고 통합당 최대 청크 크기(최대 100MB)를 설정할 수 있습니다.
 
@@ -194,7 +194,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 16일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 그룹 관리자는 시스템 관리자에 액세스하지 않고도 관리하는 그룹의 비즈니스 프로필을 생성, 편집 및 삭제할 수 있습니다. 이를 통해 조직은 그룹 수준에서 비즈니스 프로필 관리를 보다 유연하게 위임할 수 있습니다.
 
@@ -206,7 +206,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 16일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 레이아웃 템플릿을 통해 시스템 수준에서 향상된 목록 보기가 지원됩니다. 기존 시스템 보기를 숨기고, 특정 보기를 기본 보기로 지정하고, 사용자 지정 보기를 시스템 보기 목록에 추가할 수 있습니다.
 
@@ -220,7 +220,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 16일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 벌크 편집 대화 상자를 통해 외부 조회 필드를 편집할 수 있습니다. 이전에는 가능하지 않았습니다.
 
@@ -236,7 +236,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 16일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 사용자 정의 양식 디자이너 미리 보기 모드에서 고급 표시 논리, 기본값 논리, 유효성 검사 논리, 서식 논리 및 편집 논리 등의 고급 논리 옵션을 지원합니다. 양식 미리 보기에서 논리 공식을 테스트하고 논리 빌더에서 필요에 따라 조정할 수 있습니다. 테스트 개체(프로젝트, 작업, 문제 등)를 선택할 수도 있습니다. 을 클릭하여 실제 상황별 데이터를 사용하여 양식을 미리 볼 수 있습니다.
 
@@ -252,7 +252,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 16일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 Workfront의 변경 기록 페이지에서 통합 검토 및 승인 워크플로 활동을 캡처하여 관리자가 검토 및 문서 라이프사이클 이벤트를 위한 완벽한 거버넌스 추적을 수행할 수 있습니다.
 
@@ -272,7 +272,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 16일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 레이아웃 템플릿에서 사용자 정의 애플리케이션을 랜딩 페이지로 설정할 수 있습니다. 이미 메인 메뉴에 추가된 사용자 정의 응용 프로그램은 랜딩 페이지로 사용할 수 있습니다.
 
@@ -286,7 +286,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 16일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 Workfront 전체에서 특정 오브젝트 유형에 대해 추적할 필드를 추가할 수 있습니다. 사용자가 해당 필드의 정보를 변경하면, 시스템은 변경 내역에 입력으로 변경에 대한 정보를 기록합니다.
 
@@ -300,7 +300,7 @@ Workfront 전체에서 특정 오브젝트 유형에 대해 추적할 필드를 
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 16일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 표준 액세스 수준에서 해당 수준의 사용자가 변경 내용 목록에 액세스할 수 있어야 하는지 여부를 정의할 수 있습니다. 액세스 수준의 **관리 액세스 허용** 섹션에서 **기록 변경** 옵션을 사용할 수 있습니다.
 

@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -29,8 +29,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >미리 보기: 2026년 9월 24일
->프로덕션 빠른 릴리스: 2026년 10월 16일
->모두를 위한 프로덕션: 2026년 10월 16일
+>프로덕션 빠른 릴리스: 2026년 10월 22일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 새로운 요청 경험에서 2025년 7월 전 최대 3년까지 제출된 Workfront 문제 요청에 액세스할 수 있습니다. 이전에는 2025년 7월 이후에 제출된 요청에만 액세스할 수 있었습니다.
 
