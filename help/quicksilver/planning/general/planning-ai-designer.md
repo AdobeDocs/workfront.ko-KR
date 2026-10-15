@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1670'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning Designer 시작
@@ -275,6 +275,11 @@ Planning Designer, AI Assistant 또는 <span class="preview">Coworker,</span>를
 ## Planning Designer을 사용하여 객체 생성 또는 갱신
 
 별도로 지정하지 않는 한 Planning Designer, AI Assistant 또는 <span class="preview"> Coworker</span>를 사용하여 Workfront Planning에서 개체를 만들거나 업데이트할 수 있습니다.
+
+>[!TIP]
+>
+>동일한 작업 영역을 만들기 전에 기존 작업 영역을 검색하는 것이 좋습니다. 작업 영역이 이미 있는 경우 Planning Designer에 오류 메시지가 표시될 수 있습니다.
+
 
 1. Workfront에 로그인한 다음 왼쪽 상단의 **주 메뉴** 아이콘 ![줄 주 메뉴](assets/lines-main-menu.png)를 클릭한 다음 **계획**&#x200B;을 클릭합니다.
 

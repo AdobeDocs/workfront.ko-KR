@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '3103'
+source-wordcount: '3235'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 3분기 릴리스 활동
@@ -384,6 +384,17 @@ Workfront Planning에서 GenStudio 레코드 유형에 추가된 정보는 AEM�
 
 자세한 내용은 [Adobe Workfront Planning에서 GenStudio 작업 영역 관리](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)를 참조하십시오.
 
+## Workfront MCP 서버에서 사용할 수 있는 Planning 기능
+
+>[!NOTE]
+>
+>* 미리 보기: 2026년 5월 28일
+>* 프로덕션 빠른 릴리스: 2026년 6월 11일
+>* 모두를 위한 프로덕션: 2026년 7월 16일
+
+이제 Workfront MCP 서버에서 Workfront Planning 기능에 액세스할 수 있으므로 팀은 새로운 MCP 커넥터 도구를 사용하여 Planning 컨텍스트를 참조하고 설정 및 승인을 실행할 수 있습니다.
+
+자세한 내용은 [Adobe Workfront MCP 서버 도구](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)를 참조하십시오.
 
 ## 목록 보기 업데이트
 

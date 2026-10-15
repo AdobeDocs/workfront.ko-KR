@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
 workflow-type: tm+mt
-source-wordcount: '14642'
+source-wordcount: '14648'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -484,7 +484,7 @@ ht-degree: 2%
       * [경비 유형 만들기](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
       * [스코어카드 만들기](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
       * [프로젝트 타임라인 재계산](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-      * [사용자 정의 영역 활성화](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+      * [사용자 정의 분기 및 주 활성화](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [조직의 빠른 릴리스 활성화 또는 비활성화](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
       * [조직에 Adobe 클라우드 스토리지 활성화](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [레거시 포트폴리오를 Adobe 클라우드 스토리지로 변환](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
@@ -547,6 +547,7 @@ ht-degree: 2%
       * [감사 로그 보기 및 내보내기](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
       * [변경 내역 보기 및 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
       * [변경 내역에서 추적할 필드 구성](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
+      * [사용자 고용 내역 보기](administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)
       * [사용자 로그인 정보 보기](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Adobe Admin Console에서 사용자 관리](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [비즈니스 프로필 개요](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)

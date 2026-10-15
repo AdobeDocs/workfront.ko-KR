@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
+source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -305,5 +305,3 @@ Workfront 전체에서 특정 오브젝트 유형에 대해 추적할 필드를 
 이제 표준 액세스 수준에서 해당 수준의 사용자가 변경 내용 목록에 액세스할 수 있어야 하는지 여부를 정의할 수 있습니다. 액세스 수준의 **관리 액세스 허용** 섹션에서 **기록 변경** 옵션을 사용할 수 있습니다.
 
 자세한 내용은 [특정 영역에 대한 관리자 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) 및 [변경 기록 보기 및 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)를 참조하십시오.
-
-

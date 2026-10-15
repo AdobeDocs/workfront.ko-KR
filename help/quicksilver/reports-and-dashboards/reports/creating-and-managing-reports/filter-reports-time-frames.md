@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 7%
 ---
 # 시간대별로 보고서 필터링
@@ -201,7 +201,7 @@ Adobe Workfront에는 특정 날짜를 정의하지 않고 사용할 수 있는 
   </tr> 
   <tr> 
    <td role="rowheader">지난 분기</td> 
-   <td> <p>입력 일자가 현재 분기 이전 분기의 일자인 시간을 표시합니다. 여기서 분기는 위에 정의됩니다.</p> <p><b>메모</b></p>  Workfront 관리자가 시스템에 대한 사용자 정의 분기를 활성화하고 정의한 경우 분기의 기본 제공 필터는 사용자 정의 분기 정보로 대체됩니다. 사용자 정의 영역 활성화에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">사용자 정의 영역 활성화</a>를 참조하십시오.</p> </td> 
+   <td> <p>입력 일자가 현재 분기 이전 분기의 일자인 시간을 표시합니다. 여기서 분기는 위에 정의됩니다.</p> <p><b>메모</b></p>  Workfront 관리자가 시스템에 대한 사용자 정의 분기를 활성화하고 정의한 경우 분기의 기본 제공 필터는 사용자 정의 분기 정보로 대체됩니다. 사용자 지정 분기 사용에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">사용자 지정 분기 및 주 사용</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">올해</td> 
