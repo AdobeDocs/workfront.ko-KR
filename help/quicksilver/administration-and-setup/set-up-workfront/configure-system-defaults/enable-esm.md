@@ -7,30 +7,28 @@ description: 조직에서 모든 Adobe 제품에 통합 스토리지 솔루션�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
-    internal-label: System Setup and Administration
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 4%
+source-wordcount: '636'
+ht-degree: 3%
+
 ---
 # 조직에 Adobe 클라우드 스토리지 활성화
 
-Adobe 클라우드 스토리지는 모든 Adobe 제품을 위한 통합 스토리지 솔루션입니다. Adobe 엔터프라이즈 제품 전반에 걸쳐 에셋의 중앙 저장소 역할을 하는 클라우드 기반 스토리지 솔루션입니다.
+Adobe 클라우드 스토리지는 Adobe 엔터프라이즈 제품 전반에 걸쳐 에셋의 중앙 저장소 역할을 하는 통합 클라우드 기반 스토리지 솔루션입니다. 이 문서에서는 전체 조직 또는 특정 그룹에 대한 기본 저장소 옵션으로 Adobe 클라우드 저장소를 활성화하는 방법에 대해 설명합니다.
 
-Adobe 클라우드 스토리지는 신규 고객에 대해 기본적으로 활성화되고 계약 갱신 시 기존 고객에 대해 활성화될 수 있습니다.
+새 경험을 켜는 단일 작업입니다. 이 작업을 활성화하면 새 프로젝트에서 Frame.io 뷰어와 통합 승인이 포함된 Adobe 클라우드 스토리지를 사용합니다. Adobe 클라우드 스토리지 사용을 선택하기 전까지 아무것도 변경되지 않습니다.
 
-Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+타이밍을 제어하므로 누구나 작업을 하기 전에 경험을 테스트하고, Workfront Fusion 시나리오를 업데이트하고, 변경 사항 보고를 위한 계획을 세울 수 있습니다. 차이점 및 롤아웃 계획 방법에 대한 자세한 내용은 [Adobe 클라우드 저장소에서 Workfront으로 이동](/help/quicksilver/review-and-approve-work/workfront-storage.md)을 참조하십시오.
+
+## Adobe 클라우드 스토리지에서 승인이 작동하는 방식
+
+Adobe 클라우드 스토리지는 프로젝트가 사용하는 승인 서비스를 결정합니다. Adobe 클라우드 스토리지를 지원하는 Workfront 버전으로 이동해도 전체 조직이 통합 승인으로 자동 전환되지는 않습니다. 대신, 승인 서비스는 각 프로젝트의 스토리지 모델에 따라 다릅니다.
+
+* **Adobe 클라우드 저장소 프로젝트**&#x200B;는 기본적으로 Frame.io 뷰어에서 검토 및 승인과 함께 통합 승인을 사용합니다.
+* **기존 Workfront 저장소 프로젝트**&#x200B;에서 이미 사용 중인 승인 서비스를 유지합니다. 조직에 따라 통합 승인 또는 기존 문서 승인일 수 있습니다.
+
+Adobe 클라우드 스토리지의 검토 및 승인 경험에 대한 자세한 내용은 [Adobe 클라우드 스토리지의 Workfront으로 이동](/help/quicksilver/review-and-approve-work/workfront-storage.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -78,10 +76,10 @@ Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 �
 
 1. 적용 대상 드롭다운 메뉴에서 다음 옵션 중 하나를 선택합니다.
 
-   - **전체 조직**: 이 옵션은 기본 저장소 공급자를 전체 Workfront 환경에 적용합니다. 사용자가 새 프로젝트를 만들 때마다 기본 저장소 공급자가 사용됩니다.
-   - **특정 그룹**: 이 옵션은 조직 내의 특정 그룹에만 기본 저장소 공급자를 적용합니다. 지정된 그룹의 사용자가 새 프로젝트를 만들 때마다 기본 저장소 공급자가 사용됩니다.
+   * **전체 조직**: 이 옵션은 기본 저장소 공급자를 전체 Workfront 환경에 적용합니다. 사용자가 새 프로젝트를 만들 때마다 기본 저장소 공급자가 사용됩니다.
+   * **특정 그룹**: 이 옵션은 조직 내의 특정 그룹에만 기본 저장소 공급자를 적용합니다. 지정된 그룹의 사용자가 새 프로젝트를 만들 때마다 기본 저장소 공급자가 사용됩니다.
 
-   ![저장소 환경 설정 그룹](assets/configure-storage-preference.png)
+     ![저장소 환경 설정 그룹](assets/configure-storage-preference.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 

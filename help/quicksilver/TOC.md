@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
+source-git-commit: d6c8ce2904153bc2556e2026626993632d573bf0
 workflow-type: tm+mt
-source-wordcount: '14648'
+source-wordcount: '14674'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -486,7 +486,6 @@ ht-degree: 2%
       * [프로젝트 타임라인 재계산](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [사용자 정의 분기 및 주 활성화](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [조직의 빠른 릴리스 활성화 또는 비활성화](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-      * [조직에 Adobe 클라우드 스토리지 활성화](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [레거시 포트폴리오를 Adobe 클라우드 스토리지로 변환](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
       * [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [사용자 정의 현지화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
@@ -1929,9 +1928,14 @@ ht-degree: 2%
   * [작업 검토 및 승인](review-and-approve-work/review-and-approve-work.md)
   * [통합 검토 및 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
   * [통합 검토 및 승인 시작](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-  * [Adobe 클라우드 스토리지의 Workfront으로 이동](/help/quicksilver/review-and-approve-work/workfront-storage.md)
   * [비유료 사용자에 대한 제한된 문서 및 증명 결정 개요](review-and-approve-work/proof-doc-decision-limits.md)
   * {hide-from-toc}[AI 검토자 설정](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+  * Adobe 클라우드 스토리지의 Workfront으로 이동 {#move-to-adobe-cloud-storage}
+    * [Adobe 클라우드 스토리지의 Workfront으로 이동](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+    * [Adobe 클라우드 스토리지의 차이점](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md)
+    * [Adobe 클라우드 스토리지 롤아웃 계획](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md)
+    * [조직에 Adobe 클라우드 스토리지 활성화](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+    * [레거시 개체를 Adobe 클라우드 스토리지로 변환](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)
   * 작업 승인 {#work-approvals}
     * [작업 승인](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [승인 프로세스 개요](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
