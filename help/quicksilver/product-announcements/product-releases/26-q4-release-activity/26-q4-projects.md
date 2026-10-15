@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 16일
 
 템플릿에 재무 데이터가 포함되어 있는 경우 사용자가 템플릿에서 프로젝트를 만들 때 해당 필드 값이 유지됩니다. 프로젝트 세부 정보에 대한 재무 필드를 보려면 사용자에게 재무 데이터에 대한 보기 액세스 권한이 있어야 합니다.
 

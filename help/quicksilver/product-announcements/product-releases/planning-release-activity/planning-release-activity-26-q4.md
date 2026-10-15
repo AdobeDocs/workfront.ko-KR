@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: 73607215c20da53c1a7f37fc74932537fbd44392
 workflow-type: tm+mt
-source-wordcount: '3156'
+source-wordcount: '3269'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
@@ -28,6 +28,36 @@ ht-degree: 0%
 이 문서에서는 2026년 4분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+<!--
+
+## New Status field value and Tracking ID field for Activations records
+
+>[!NOTE]
+>
+>Preview and production: October 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only for customers with GenStudio for Performance Marketing
+
+GenStudio for Performance Marketing Activations records now include an optional Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. A new "Generating" status choice indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected.
+
+ For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+-->
+
+## Coworker 및 Workfront Planning용 Workfront MCP 서버로 비즈니스 규칙 생성 및 관리
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 12일
+>모두를 위한 프로덕션: 2026년 10월 15일
+>[!BADGE 일정 해제]{type=Neutral}
+
+Planning 비즈니스 규칙을 관리하기 위해 Coworker 및 Workfront MCP 서버에 기술을 추가했습니다.
+
+이제 Coworker 또는 Workfront MCP를 사용하여 레코드 유형에 대한 비즈니스 규칙을 만들고, 나열하고, 보고, 업데이트하고, 삭제할 수 있습니다. 새 스킬을 사용하면 공식 엔진에서 허용하는 비즈니스 규칙 공식을 생성하는 데 도움이 되므로 잘못된 공식을 더 적게 얻을 수 있습니다.
+
+자세한 내용은 [CX Enterprise Coworker의 Workfront 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md) 또는 [Adobe Workfront MCP 서버 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)을 참조하세요.
 
 <!--
 
