@@ -6,16 +6,16 @@ description: 새 문서 영역, Frame.io 뷰어, 문서 권한, 개체 이름 �
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4f63b6c4f4c73bedba707aed6b02c9046f9b356c
+source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1702'
 ht-degree: 0%
 ---
 # Adobe 클라우드 스토리지의 차이점
 
-새로운 통합 검토 및 승인 환경을 포함하도록 계약이 업데이트되면 환경에는 기존 Workfront 스토리지에 있는 개체(현재 보유하고 있는 개체)와 Adobe 클라우드 스토리지를 사용하여 생성된 개체, 이렇게 두 가지 유형의 개체가 포함될 수 있습니다. 새 문서 영역, Frame.io 뷰어 및 여기에 설명된 기타 동작은 Adobe 클라우드 스토리지를 사용하는 객체에만 적용됩니다.
+Adobe 클라우드 스토리지를 사용하면 기존 Workfront 스토리지에 있는 오브젝트(현재 보유 중인 오브젝트)와 Adobe 클라우드 스토리지를 사용하여 생성된 오브젝트의 두 가지 유형의 오브젝트를 환경에 포함할 수 있습니다. 새 문서 영역, Frame.io 뷰어 및 여기에 설명된 기타 동작은 Adobe 클라우드 스토리지를 사용하는 객체에만 적용됩니다.
 
-이동에 대한 방향과 설정 시기는 [Adobe 클라우드 저장소에서 Workfront으로 이동](/help/quicksilver/review-and-approve-work/workfront-storage.md)을 참조하십시오.
+이동 방향은 [Adobe 클라우드 저장소에서 Workfront으로 이동](/help/quicksilver/review-and-approve-work/workfront-storage.md)을 참조하십시오.
 
 ## 기존 Workfront 스토리지 및 Adobe 클라우드 스토리지 이해
 
