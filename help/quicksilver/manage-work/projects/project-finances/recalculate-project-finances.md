@@ -9,22 +9,26 @@ exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
 TQID: https://experienceleague.adobe.com/b3urO3jsw7wxvdDhpYHZqgf01ewJi0LvulUaQHlCYWY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 035783e301929fe2a26a9e7886276f49899b0e4a
 workflow-type: tm+mt
-source-wordcount: 1614
+source-wordcount: '1753'
 ht-degree: 1%
-
 ---
-
 # 프로젝트 재무 다시 계산
 
 재원은 프로젝트에 기록된 시간 또는 비용 및 수익 계산에 사용되는 비율로 변경되므로 프로젝트에 대해 계산됩니다.
@@ -146,7 +150,7 @@ ht-degree: 1%
 * 프로젝트 수준(사용자용)
 사용자 비용 비율 재정의에 대한 자세한 내용은 [프로젝트 수준에서 사용자 비용 비율 재정의](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)를 참조하십시오.
 
-위에서 언급한 모든 수준에서 청구 요금이 변경되면 프로젝트에 기록되고 이전 요율을 사용하여 계산된 시간을 청구됨 상태의 청구 기록에 잠궈 프로젝트에서 이미 계산된 기존 비용을 보존할 수 있습니다. 청구 기록 만들기에 대한 자세한 내용은 [청구 기록 만들기](../../../manage-work/projects/project-finances/create-billing-records.md)를 참조하십시오.
+위에서 언급한 모든 수준에서 비용 요율이 변경되면 프로젝트에 기록된 시간을 잠근 후 이전 요율을 사용하여 계산된 기존 비용을 청구됨 상태의 청구 기록에 보존할 수 있습니다. 청구 기록 만들기에 대한 자세한 내용은 [청구 기록 만들기](../../../manage-work/projects/project-finances/create-billing-records.md)를 참조하십시오.
 
 청구 기록을 만들지 않으려면 이 문서의 [프로젝트에 대한 재무 수동 다시 계산](#manually-recalculate-finances-for-a-project) 섹션에 설명된 대로 재무 수동 다시 계산 옵션을 사용하지 않을 수도 있습니다.
 
@@ -183,7 +187,7 @@ ht-degree: 1%
    프로젝트의 모든 계획된 비용 및 수익은 새로운 정보로 다시 계산됩니다.
 
    브라우저 맨 위에 프로젝트의 재무 정보가 성공적으로 다시 계산되었다는 확인 메시지가 표시됩니다.
-잠기지 않은 기존 비용 값과 일부 수익 값은 새 비율을 반영하도록 업데이트됩니다.
+   잠기지 않은 기존 비용 값과 일부 수익 값은 새 비율을 반영하도록 업데이트됩니다.
 
 ## 수동으로 재무 일괄 재계산{#manually-recalculate-finances-in-bulk}
 
@@ -217,9 +221,25 @@ ht-degree: 1%
 * 작업 상태 변경 중
 * 시간이 있는 작업을 다른 프로젝트로 이동
 * 프로젝트 상태를 완료에서 활성 상태로 변경
+* 프로젝트 또는 태스크 레벨에서 청구 가능 경비 추가
 
 >[!NOTE]
 >
 >프로젝트 상태를 변경하면 계획된 값만 다시 계산됩니다.
 
 **재무 다시 계산**&#x200B;을 클릭하여 프로젝트 수준의 **기타** 메뉴 ![기타 메뉴](assets/qs-more-menu.png)에서 재무 정보를 수동으로 다시 계산할 수도 있습니다.
+
+### 비용이 자동 재무 재계산에 미치는 영향
+
+프로젝트 및 작업에 비용을 추가할 때 다음과 같은 시나리오가 발생합니다.
+
+* 프로젝트에 청구 불가 경비를 추가하면 모든 재정이 다시 계산되지 않고 프로젝트 비용이 업데이트됩니다.
+* 작업에 청구 불가능한 경비를 추가하면 해당 작업의 비용과 프로젝트의 비용이 다시 계산됩니다. 다른 작업이 다시 계산되지 않습니다.
+* 프로젝트 또는 태스크 레벨에서 청구 가능 경비를 추가하면 인건비 및 수익을 포함하여 프로젝트에 대한 재무 재계산이 트리거됩니다.
+
+>[!NOTE]
+>
+>계획된 금액이 경비에 저장되면 계획된 비용이 갱신됩니다. 실제 금액이 경비에 저장되면 실제 비용이 갱신됩니다.
+
+비용에 대한 자세한 내용은 [프로젝트 비용 관리](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)를 참조하십시오.
+

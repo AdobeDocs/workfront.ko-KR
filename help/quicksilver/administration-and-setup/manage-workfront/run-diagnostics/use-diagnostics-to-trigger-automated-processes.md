@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1015301c058f538dac450299f709b52e0718d067
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 16%
+source-wordcount: '307'
+ht-degree: 17%
 ---
 # 진단을 사용해 자동화된 프로세스 트리거
 
@@ -71,7 +71,7 @@ ht-degree: 16%
 
 ## 진단을 사용하여 자동화된 프로세스 트리거
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **설정** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
+{{step-1-to-setup}}
 
 1. **시스템**&#x200B;을 확장한 다음 **진단**&#x200B;을 클릭합니다.
 1. 다음 옵션 중 하나를 선택합니다.
