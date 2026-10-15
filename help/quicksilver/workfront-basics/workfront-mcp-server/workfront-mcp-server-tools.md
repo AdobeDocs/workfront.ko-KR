@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
+source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
 workflow-type: tm+mt
-source-wordcount: '3349'
-ht-degree: 4%
+source-wordcount: '3561'
+ht-degree: 3%
 ---
 
 # Adobe Workfront MCP 서버 도구
@@ -353,13 +353,20 @@ Insights 도구는 Workfront 개체에 대한 정보를 검색합니다.
 
 | 제목 | 도구 이름 | 기능 | 액션 |
 | --- | --- | --- | --- |
-| 읽기 | `read` | 전달된 ID로 선택한 세 가지 모드로 보고 데이터를 읽습니다. 표시되는 대시보드를 나열하거나, 단일 대시보드 구조를 가져오거나, 한 위젯의 전체 구성을 가져옵니다. | 읽기 |
-| 대시보드 만들기 | `create_dashboard` | 비어 있는 새 보고 대시보드를 만들고 열기 위한 링크와 함께 반환합니다. | 쓰기 |
-| 대시보드 업데이트 | `update_dashboard` | 대시보드의 메타데이터, 프롬프트, 필터 및 위젯당 배치 등을 부분적으로 업데이트합니다. 생략된 필드는 변경되지 않습니다. | 쓰기 |
-| 위젯 만들기 | `create_widget` | 대시보드에서 위젯과 해당 보고서 구성을 만듭니다. 한 도구는 차트, KPI 및 테이블의 세 가지 위젯 유형을 모두 처리합니다. | 쓰기 |
-| 위젯 업데이트 | `update_widget` | 기존 위젯의 구성을 부분적으로 업데이트합니다. 위젯 유형은 자동으로 추론되므로 변경할 필드만 보냅니다. | 쓰기 |
-| 개체 복사 | `copy_object` | 위젯, 프롬프트 및 필터를 포함한 전체 대시보드를 새 대시보드에 복사하거나 대시보드 내 또는 여러 대시보드에서 단일 위젯을 복사합니다. | 쓰기 |
-| 개체 삭제 | `delete_object` | 보고 대시보드와 모든 해당 위젯 또는 단일 위젯을 영구적으로 삭제합니다. 이 작업은 실행 취소할 수 없습니다. | 쓰기 |
+| 목록 대시보드 | `reporting_relist_dashboards` | 표시되는 보고 대시보드를 나열합니다. `view` 값 `"my"`, `"shared"`, `"all"` 및 `"favorites"`을(를) 지원합니다. 각 대시보드를 여는 URL을 포함하여 대시보드 메타데이터만 반환합니다. | 읽기 |
+| 대시보드 가져오기 | `reporting_get_dashboard` | 메타데이터, 레이아웃, 프롬프트, 필터 및 위젯 ID를 포함하여 ID별로 캔버스 대시보드를 가져옵니다. 위젯 데이터가 하이드레이션되지 않았습니다. | 읽기 |
+| 위젯 가져오기 | `reporting_get_widget` | 위젯 셸과 병합된 콘텐츠 구성을 가져옵니다. 필드 참조는 `{id, label, dataType}`(으)로 반환되므로 `reporting_update_*_widget` 도구에서 직접 재사용할 수 있습니다. 지원되는 콘텐츠 유형은 테이블, KPI 및 멀티시리즈입니다. | 읽기 |
+| 대시보드 만들기 | `reporting_create_dashboard` | 빈 보고 대시보드를 만듭니다. ID, 제목, 설명, 통화, 작성자 ID, 만든 날짜, 빈 위젯, 프롬프트 및 필터 컬렉션을 포함하여 만든 전체 대시보드를 반환합니다. | 쓰기 |
+| 대시보드 업데이트 | `reporting_update_dashboard` | 대시보드의 제목, 설명, 통화, 프롬프트, 필터 및 위젯 단위 `ignoreDashboardFilters` 및 레이아웃 설정을 부분적으로 업데이트합니다. 생략된 필드는 변경되지 않으며, 입력되었을 때 프롬프트 및 필터가 완전히 대체됩니다. | 쓰기 |
+| 표 위젯 만들기 | `reporting_create_table_widget` | 대시보드에서 표 위젯 및 보고서 구성을 만듭니다. 병합된 `get_widget` 셰이프로 만들어진 전체 위젯을 반환합니다. | 쓰기 |
+| 테이블 위젯 업데이트 | `reporting_update_table_widget` | 기존 테이블 위젯 및 해당 보고서 구성을 업데이트합니다. 열, 버킷, 행 제한, 캡션, 설명, 조건 및 사용자로 실행 설정을 포함하여 저장된 테이블 구성을 대체합니다. | 쓰기 |
+| KPI 위젯 만들기 | `reporting_create_kpi_widget` | 대시보드에서 KPI 위젯 및 보고서 구성을 만듭니다. 병합된 `get_widget` 셰이프로 만들어진 전체 위젯을 반환합니다. | 쓰기 |
+| KPI 위젯 업데이트 | `reporting_update_kpi_widget` | 기존 KPI 위젯 및 해당 보고서 구성을 업데이트합니다. `fieldId` 및 `aggregation`이(가) 필요하며 기본 보고서가 완전히 대체되었습니다. | 쓰기 |
+| 차트 위젯 만들기 | `reporting_create_chart_widget` | 차트 위젯 및 보고서 구성을 만듭니다. 지원되는 차트 유형은 SIMPLE, MULTI_SERIES 및 STACKED 변형을 포함하여 BAR, COLUMN, LINE 및 PIE입니다. | 쓰기 |
+| 차트 위젯 업데이트 | `reporting_update_chart_widget` | 기존 차트 위젯 및 해당 보고서 구성을 업데이트합니다. `aggregationFieldId`, `aggregationType`, `groupByFields` 및 `chartType`이(가) 필요하며 기본 보고서가 완전히 대체됩니다. | 쓰기 |
+| 위젯 복사 | `reporting_copy_widget` | 기존 위젯을 동일한 대시보드 또는 다른 대시보드에 복사하여 위젯과 해당 보고서 구성을 복제합니다. | 쓰기 |
+| 대시보드 복사 | `reporting_copy_dashboard` | 위젯 및 보고서 구성을 포함하여 대시보드를 새 대시보드에 복사합니다. 선택적으로 위젯의 하위 집합만 복사하고 프롬프트 및 필터를 포함할지 여부를 선택할 수 있습니다. | 쓰기 |
+| 개체 삭제 | `reporting_delete_object` | 보고 대시보드와 모든 해당 위젯 또는 단일 위젯을 영구적으로 삭제합니다. 이 작업은 실행 취소할 수 없습니다. | 쓰기 |
 
 ## 도구 업데이트 방법
 
