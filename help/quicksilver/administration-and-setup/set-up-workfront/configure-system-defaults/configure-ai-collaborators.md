@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1348'
 ht-degree: 2%
 ---
 # AI 공동 작업자 구성
@@ -160,7 +160,7 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
 1. **Collaborator의 작업이 완료되면** 영역에서 Collaborator가 수행할 작업을 전환할 수 있습니다.
 
    * <span class="preview">알림 보내기: 에이전트가 업데이트 스트림에 댓글을 달아서 작업을 요청하거나 에이전트를 할당하거나 프로젝트를 소유한 사용자에게 태그를 지정합니다. </span>
-   * <span class="preview">문서 업로드</span>
+   * <span class="preview">텍스트 기반 문서 업로드</span>
    * <span class="preview">작업을 완료로 표시</span>
    * 작업 필드 쓰기: 에이전트가 쓸 수 있는 양식 및 필드를 선택합니다.
 

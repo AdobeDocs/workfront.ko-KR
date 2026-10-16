@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '3232'
+source-wordcount: '3436'
 ht-degree: 1%
 ---
 # 작업 업데이트
@@ -40,11 +40,11 @@ ht-degree: 1%
 <!-- Audited: 4/2025 -->
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -623,28 +623,29 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-<!--
 <div class="preview">
 
-## Pin comments
+## 댓글 고정
 
-You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+[주석] 탭의 맨 위에 최상위 주석을 고정할 수 있습니다. 스레드의 일부인 답글을 고정할 수 없습니다.
 
-1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+1. 댓글 고정을 지원하는 개체로 이동한 다음 왼쪽 패널에서 [업데이트]를 클릭한 다음 **댓글** 탭을 클릭합니다.
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   자세한 내용은 [업데이트 탭 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하세요.
 
-1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+1. 댓글을 추가하거나 기존 댓글에서 댓글의 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭하고 **스레드 고정**&#x200B;을 클릭합니다. 댓글 및 기존 답글은 댓글 탭 맨 위에 고정됩니다.
 
-   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+   **댓글** 탭 맨 위에 새 **고정된 스레드** 섹션이 만들어집니다.
 
-   The number of pinned threads is listed in parentheses to the right of the section name. 
+   고정된 스레드 수는 섹션 이름의 오른쪽에 괄호 안에 나열됩니다.
 
-1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+   ![댓글 섹션에 고정된 스레드](assets/pin-thread-comments-areas-and-link.png)
+
+1. (선택 사항) 스레드를 고정 해제하려면 고정된 댓글의 오른쪽 위 모서리에 있는 **고정 해제** 아이콘 ![고정 해제 아이콘](assets/unpin-icon-comments.png)을 클릭합니다.
 
 </div>
 
--->
+
 
 ## 댓글 또는 답글 삭제
 

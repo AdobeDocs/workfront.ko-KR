@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8df24bd60107f3cad2335cebf80e1fbe1e40f68c
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '721'
 ht-degree: 1%
 ---
 # Adobe Admin Console에 조직 온보딩 준비
@@ -100,13 +100,15 @@ Adobe Admin Console에 대한 개요는 [Admin Console 개요](https://helpx.ado
    >
    >사용자 이메일에 대한 이러한 작업은 조직이 Adobe Admin Console으로 이동하기 전에 완료되어야 합니다.
 
-1. (선택 사항) OAuth2를 사용하도록 모든 사용자 지정 통합을 업데이트합니다.
+1. (선택 사항) Adobe Developer Console 인증을 사용하도록 모든 사용자 지정 통합을 업데이트합니다.
 
-   OAuth2 통합 설정에 대한 지침은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.
+   기존 Workfront OAuth2 통합 마이그레이션에 대한 자세한 내용은 [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)을 참조하십시오.
+
+   인증 지침은 [Adobe Developer Console 인증 개요](https://developer.adobe.com/developer-console/docs/guides/authentication/)를 참조하십시오.
 
    >[!NOTE]
    >
-   >이 단계는 선택적이지만 다른 형태의 API 인증 및 권한 부여가 향후에 더 이상 사용되지 않으므로 적극 권장합니다.
+   >이 단계는 선택 사항이지만 적극 권장합니다. Workfront 사용자 지정 OAuth2 애플리케이션은 2026년 11월 1일 이후 더 이상 만들 수 없으며, 기존 사용자 지정 OAuth2 애플리케이션은 2027년 2월 1일에 작동이 중지됩니다.
 
 Adobe Admin Console이 Workfront으로 구성된 후 이를 사용하여 Workfront 시스템 관리자를 만들 수 있습니다.
 

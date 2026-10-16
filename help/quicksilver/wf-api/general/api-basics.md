@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '4561'
+source-wordcount: '4407'
 ht-degree: 0%
 ---
 # API 기본 사항
@@ -150,16 +150,18 @@ API는 웹 UI에서 시스템에 사용하는 것과 동일한 쿠키 기반 인
 
 >[!IMPORTANT]
 >
->Workfront에서는 더 이상 `/login` 끝점 또는 API 키를 사용하지 않는 것이 좋습니다. 대신 다음 인증 방법 중 하나를 사용하십시오.
+>Workfront에서는 새 통합을 위해 API 키를 더 이상 사용하지 않는 것이 좋습니다. 대신 Adobe Developer Console 인증 사용:
 >
->* JWT를 사용한 서버 인증
->* OAuth2를 통한 사용자 인증
+>* 서버 간 인증
+>* 사용자 인증
 >
->이러한 인증 방법 설정에 대한 지침은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.
+>API 키는 현재 계속 작동하지만 Adobe에서는 Adobe Developer Console 인증에 대한 새로운 통합을 계획할 것을 권장합니다.
 >
->Workfront에서 서버 인증을 사용하는 방법에 대한 지침은 [JWT 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-jwt-flow.md)을 참조하십시오.
+>Workfront의 기존 사용자 지정 OAuth2 서비스가 사용 중단됩니다. 2026년 11월 1일 이후에는 새 사용자 지정 OAuth2 애플리케이션을 더 이상 만들 수 없으며, 기존 사용자 지정 OAuth2 애플리케이션은 2027년 2월 1일부터 작동하지 않습니다.
 >
->Workfront에서 사용자 인증을 사용하는 방법에 대한 지침은 [인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-code-token-flow.md)을 참조하십시오.
+>인증 지침은 [Adobe Developer Console 인증 개요](https://developer.adobe.com/developer-console/docs/guides/authentication/)를 참조하십시오.
+>
+>마이그레이션 정보는 [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -167,53 +169,9 @@ API는 웹 UI에서 시스템에 사용하는 것과 동일한 쿠키 기반 인
 >
 >조직이 Adobe Business Platform에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 Adobe Workfront과 Adobe Business Platform 간의 [관리 차이점](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
-유효한 사용자 이름과 암호를 사용하여 다음 요청을 사용하여 세션 ID를 얻을 수 있습니다.
+`/login` 끝점 및 API 키 기반 로그인에 대한 레거시 예제는 더 이상 새 통합에 사용되어서는 안 됩니다.
 
-```
-POST /attask/api/<supported-version>/login?username=admin&password=user
-```
-
-이렇게 하면 쿠키를 설정하여 이후 요청을 인증하고 새로 만든 sessionID, 로그인한 사용자의 userID 및 기타 세션 속성으로 JSON 응답을 반환합니다.
-
->[!NOTE]
->
->지정된 API 사용자 및 관리자가 있는 경우 Workfront에서는 API 키를 사용하여 로그인할 것을 권장합니다.
-
-**API 키 생성**
-
-다음 예와 같이 시스템에 해당 사용자로 로그인할 때 API 키를 생성할 수 있습니다.
-
-
-```
-PUT /attask/api/<supported-version>/user?action=generateApiKey&username= username&password=password&method=put
-```
-
-**이전에 생성한 API 키 검색**
-
-getApiKey를 실행하여 특정 사용자에 대해 이전에 생성된 API 키를 검색할 수도 있습니다.
-
-
-```
-PUT /attask/api/<supported-version>/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-그런 다음 sessionID 또는 사용자 이름과 암호 대신 이 값을 사용하여 &quot;apiKey&quot;를 요청 매개 변수로 추가하여 모든 API 호출을 인증할 수 있습니다. 이는 보안 관점에서 볼 때 유용합니다.
-
-다음 요청은 apiKey를 사용하여 프로젝트에서 데이터를 검색하는 예제입니다.
-
-```
-GET /attask/api/<supported-version>/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
-```
-
-**API 키 무효화**
-
-apiKey 값이 손상된 경우 다음 예와 같이 현재 API 키를 무효화하는 &quot;clearApiKey&quot;를 실행할 수 있습니다.
-
-```
-GET /attask/api/<supported-version>/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-삭제하면 getApiKey를 다시 실행하여 새 API 키를 생성할 수 있습니다.
+현재 인증 지침의 경우 Adobe Developer Console 인증을 사용하십시오. 기존 Workfront OAuth2 응용 프로그램에서 마이그레이션에 대한 자세한 내용은 [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)을 참조하십시오.
 
 ### 로그아웃
 

@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '762'
 ht-degree: 3%
 ---
 # API 키 관리
@@ -46,16 +46,18 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 >[!IMPORTANT]
 >
->Workfront에서는 더 이상 `/login` 끝점 또는 API 키를 사용하지 않는 것이 좋습니다. 대신 다음 인증 방법 중 하나를 사용하십시오.
+>Workfront에서는 새 통합을 위해 API 키를 더 이상 사용하지 않는 것이 좋습니다. 대신 Adobe Developer Console을 통해 다음 인증 방법 중 하나를 사용하십시오.
 >
->* JWT를 사용한 서버 인증
->* OAuth2를 통한 사용자 인증
+>* 서버 간 인증
+>* 사용자 인증
 >
->이러한 인증 방법 설정에 대한 지침은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.
+>API 키는 현재 계속 작동하지만 Adobe에서는 Adobe Developer Console 인증에 대한 새로운 통합을 계획할 것을 권장합니다.
 >
->Workfront에서 서버 인증을 사용하는 방법에 대한 지침은 [JWT 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)을 참조하십시오.
+>Workfront의 기존 사용자 지정 OAuth2 서비스도 사용 중단됩니다. 2026년 11월 1일 이후에는 새 사용자 지정 OAuth2 애플리케이션을 더 이상 만들 수 없으며, 기존 사용자 지정 OAuth2 애플리케이션은 2027년 2월 1일부터 작동하지 않습니다.
 >
->Workfront에서 사용자 인증을 사용하는 방법에 대한 지침은 [인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)을 참조하십시오.
+>인증 지침은 [Adobe Developer Console 인증 개요](https://developer.adobe.com/developer-console/docs/guides/authentication/)를 참조하십시오.
+>
+>마이그레이션 정보는 [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)을 참조하십시오.
 
 API 보안 취약점을 최소화하기 위해 Adobe Workfront 관리자는 애플리케이션이 사용자를 대신하여 Workfront에 액세스할 수 있도록 하는 데 사용되는 API 키를 관리할 수 있습니다.
 

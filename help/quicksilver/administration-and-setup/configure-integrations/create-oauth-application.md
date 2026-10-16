@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2033'
 ht-degree: 5%
 ---
 # [!DNL Workfront] 통합을 위한 OAuth2 애플리케이션 만들기
@@ -51,7 +51,7 @@ ht-degree: 5%
 >   * 2026년 11월 1일: 더 이상 새 사용자 지정 OAuth2 애플리케이션을 만들 수 없습니다.
 >   * 2027년 2월 1일: 기존 사용자 지정 OAuth2 애플리케이션은 더 이상 작동하지 않습니다.
 >
->   자세한 내용은 [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)을 참조하십시오.
+>   자세한 내용은 [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md) 및 [Adobe Developer Console 인증 개요](https://developer.adobe.com/developer-console/docs/guides/authentication/)를 참조하십시오.
 >
 >* OAuth2의 컨텍스트에서 &quot;앱 만들기&quot;는 앱과 서버(예: [!DNL Workfront]) 간에 이러한 종류의 액세스 링크를 만드는 프로세스를 의미합니다.
 

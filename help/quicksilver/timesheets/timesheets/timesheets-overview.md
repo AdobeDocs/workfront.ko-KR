@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 868f8c0ad40f66244559a52bd8afd96b92bc3e54
+source-git-commit: a3c1ab8fc8012199d9863fc978cca7418fa0a2f5
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '519'
 ht-degree: 0%
 ---
 # 타임시트 개요
@@ -71,19 +71,19 @@ Workfront에서 시간을 기록하는 방법에 대한 자세한 내용은 [시
 
 {{step1-to-timesheets}}
 
-기본적으로 표시할 액세스 권한이 있는 타임시트와 모든 타임시트입니다. Adobe Workfront의 타임시트 레이아웃에 대한 자세한 내용은 [타임시트 레이아웃 개요](../../timesheets/timesheets/timesheet-layout.md)를 참조하십시오.
+액세스 권한이 있는 타임시트와 모든 타임시트가 기본적으로 표시됩니다. Adobe Workfront의 타임시트 레이아웃에 대한 자세한 내용은 [타임시트 레이아웃 개요](../../timesheets/timesheets/timesheet-layout.md)를 참조하십시오.
 
-![모든 타임시트 목록](assets/all-timesheets-list-nwe-350x68.png)
+![모든 타임시트 목록](assets/list-of-all-timesheets.png)
 
 1. 오른쪽 상단에서 다음 옵션 중 하나를 클릭하여 타임시트를 표시합니다.
 
    * 내 타임시트만 표시하려면 **내 타임시트**&#x200B;를 클릭하세요.
 
-   ![내 타임시트 목록](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+   <!--![My Timesheets list](assets/my-timesheets-list-various-statuses-nwe-350x60.png)-->
 
    * **내 타임시트 승인**&#x200B;에서 승인한 타임시트만 표시합니다.
 
-     ![내가 승인한 타임시트 목록](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+   <!--![Timesheets I Approve list](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)-->
 
 
 1. (선택 사항) 타임시트 목록 맨 위에서 보기, 필터 및 그룹화를 업데이트합니다. 자세한 내용은 [보고 요소: 필터, 보기 및 그룹화](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)을 참조하세요.
