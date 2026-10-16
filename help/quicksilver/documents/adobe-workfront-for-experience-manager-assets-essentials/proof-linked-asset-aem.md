@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f3b3d154728bbaec422e4786452bac4b9ba9a400
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '513'
 ht-degree: 6%
 ---
 # Experience Manager Assets 또는 Assets Essentials에 대해 연결된 에셋 증명
@@ -101,7 +101,7 @@ Experience Manager Assets Essentials의 에셋을 연결한 후에는 증명을 
 
    >[!NOTE]
    >
-   >사용자 프로필에 **문서를 업로드할 때 자동으로 증명 생성**&#x200B;이 활성화되어 있으면 간단한 증명이 자동으로 만들어집니다.
+   >**문서를 업로드할 때 자동으로 증명 생성** 설정이 연결된 폴더의 문서에 적용되지 않습니다. 이러한 문서에 대한 증명을 수동으로 만들어야 합니다.
 
 1. 드롭다운에서 다음 중 하나를 선택합니다.
 
