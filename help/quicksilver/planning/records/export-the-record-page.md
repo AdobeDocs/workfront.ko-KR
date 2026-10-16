@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '419'
 ht-degree: 1%
 ---
 # 레코드의 세부 사항 내보내기
@@ -167,6 +167,8 @@ Old:
 * 레코드 페이지 또는 미리 보기 영역의 세부 정보 탭만 내보낼 수 있습니다.
 
 * 내보낸 파일은 축소판 및 표지 이미지를 포함하여 레코드 페이지의 레이아웃을 유지합니다.
+
+* 여러 필드가 숨겨져 있는 사용자 지정된 세부 정보 페이지는 내보낼 수 없습니다.
 
 ## 레코드의 세부 사항 내보내기
 
