@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9b233bb7501b487a5220882902c47e7d933709ef
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 1%
@@ -246,4 +246,3 @@ ht-degree: 1%
 
 **사용 사례:** Workfront 외부의 개체와 통합됩니다. 예를 들어 자동 완성 필드에서 제한하지 않고 다른 시스템에 액세스하여 모든 사용자의 이름을 가져올 수 있습니다.
 **솔루션:** Webhook/Fusion 자동화를 통해 다른 시스템에 연결할 수 있습니다.
-

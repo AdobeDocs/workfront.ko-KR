@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9b233bb7501b487a5220882902c47e7d933709ef
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 2%
@@ -146,3 +146,4 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 필터, 보�
    또는
 
    사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.
+

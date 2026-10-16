@@ -9,24 +9,30 @@ exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 828
+source-wordcount: '821'
 ht-degree: 2%
-
 ---
-
 # 승인을 위해 타임시트 제출
 
 <!--Audited: 8/2024-->
@@ -80,7 +86,7 @@ ht-degree: 2%
 1. [로그 시간](../../timesheets/create-and-manage-timesheets/log-time.md)에 설명된 대로 로그 시간입니다.
 1. 타임시트 승인 프로세스를 시작하려면 **승인을 위해 제출**&#x200B;을 클릭하십시오.
 
-   ![승인을 위해 제출 단추](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![승인을 위해 제출 단추](assets/submit-for-approval-button-on-timesheet.png)
 
    **승인을 위해 제출** 단추가 **승인**, **거부** 및 **회수** 단추로 바뀝니다. 타임시트의 상태가 **제출됨**(으)로 변경됩니다.
 
@@ -103,9 +109,9 @@ Workfront 관리자가 사용자에 대한 타임시트 승인 및 사용자 이
 
 {{step1-to-timesheets}}
 
-기본적으로 **모두** 필터가 선택되어 있습니다.
+보기 액세스 권한이 있는 모든 타임시트가 기본적으로 표시됩니다.
 
-타임시트가 하나 선택된 ![타임시트 목록](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![타임시트 목록](assets/list-of-all-timesheets.png)
 
 1. (선택 사항) 다음 중 하나를 수행하여 타임시트 목록의 필터를 업데이트합니다.
 
@@ -115,11 +121,9 @@ Workfront 관리자가 사용자에 대한 타임시트 승인 및 사용자 이
 
      내 타임시트만 보려면 **내 타임시트**&#x200B;를 선택하십시오.
 
-     내 타임시트 승인 또는 내 타임시트 필터가 타임시트 목록에 적용됩니다.
+     **내 타임시트 승인** 또는 **내 타임시트** 필터를 타임시트 목록에 적용합니다.
 
-     ![타임시트 목록 페이지의 내 타임시트 필터 단추](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * 필터 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭하여 다른 필터를 적용하거나 새 필터를 만듭니다. 필터 만들기 또는 업데이트에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
+   * 필터를 적용하거나 새 필터를 만들려면 **필터** 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭하십시오. 필터 만들기 또는 업데이트에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
 
    >[!NOTE]
    >
@@ -129,32 +133,12 @@ Workfront 관리자가 사용자에 대한 타임시트 승인 및 사용자 이
 
    타임시트의 상태는 다음과 같습니다.
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">열기</td> 
-      <td> <p>타임시트가 현재 열려 있으며 시간을 기록할 수 있습니다. </p> <p>회수된 타임시트가 열림 상태로 표시됩니다. 자세한 내용은 이 문서의 <a href="#recall-a-timesheet" class="MCXref xref">타임시트 회수</a> 섹션을 참조하십시오. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">제출됨</td> 
-      <td>승인을 위해 타임시트를 제출했지만 아직 승인되지 않았습니다. 제출된 타임시트를 회수하여 계속 편집할 수 있습니다. 자세한 내용은 이 문서의 <a href="#recall-a-timesheet" class="MCXref xref">타임시트 회수</a> 섹션을 참조하십시오. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">마감됨</td> 
-      <td> <p>다음과 같은 시나리오가 있습니다.</p> 
-       <ul> 
-        <li> <p>타임시트에 승인자가 없는 경우 시간을 절약하고 닫았습니다.</p> </li> 
-        <li> <p>타임시트에 승인자가 있는 경우 승인을 위해 제출한 후 승인되었습니다.</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">거부됨</td> 
-      <td>승인을 위해 타임시트를 제출했으며 승인자가 이를 거부했습니다.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   | 상태 | 설명 |
+   | --------- | ---------- |
+   | 열기 | <p>타임시트가 현재 열려 있으며 시간을 기록할 수 있습니다.</p><p>회수된 타임시트가 열림 상태로 표시됩니다. 자세한 내용은 이 문서의 [타임시트 회수](#recall-a-timesheet) 섹션을 참조하십시오.</p> |
+   | 제출됨 | 승인을 위해 타임시트를 제출했지만 아직 승인되지 않았습니다. 제출된 타임시트를 회수하여 계속 편집할 수 있습니다. 자세한 내용은 이 문서의 [타임시트 회수](#recall-a-timesheet) 섹션을 참조하십시오. |
+   | 마감됨 | <p>다음과 같은 시나리오가 있습니다.</p><ul><li>타임시트에 승인자가 없는 경우 시간을 절약하고 닫았습니다.</li><li>타임시트에 승인자가 있는 경우 승인을 위해 제출한 후 승인되었습니다.</li></ul> |
+   | 거부됨 | 승인을 위해 타임시트를 제출했으며 승인자가 이를 거부했습니다. |
 
 ## 타임시트 회수 {#recall-a-timesheet}
 
