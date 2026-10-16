@@ -30,16 +30,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f11da983435265b00e7dd9993593bab28f6599a6
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2881'
 ht-degree: 1%
 ---
 # 문서 승인 워크플로 만들기
 
 {{highlighted-preview}}
 
-Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 요청하거나 승인할 필요 없이 문서를 검토하도록 요청할 수 있습니다.
+Adobe Workfront의 문서 또는 라이브 웹 사이트에 대해 다른 사용자 또는 팀에 승인을 요청하거나, 승인할 필요 없이 검토하도록 요청할 수 있습니다.
 
 기본적으로 승인 템플릿은 해당 작성자에게만 표시됩니다. 이 문서 전체에서 사용자 자신이 만들었거나 사용자와 공유된 템플릿만 선택할 수 있습니다. 자세한 내용은 승인 템플릿 관리에서 [템플릿 공유](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)를 참조하십시오.
 
@@ -359,6 +359,7 @@ preview screen
 1. (선택 사항) 모든 경로와 단계를 지우고 다시 시작하려면 오른쪽 상단의 **재설정**&#x200B;을 클릭합니다.
 
 1. **승인 요청**&#x200B;을 클릭합니다.
+
 
 <div class="preview">
 

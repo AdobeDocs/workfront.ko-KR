@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
+source-git-commit: 419333f9f33ff06ed2ef4a8450f058ab74198587
 workflow-type: tm+mt
 source-wordcount: '1723'
 ht-degree: 0%
@@ -72,8 +72,8 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >미리보기: 이 기능은 Frame.io 통합을 사용할 수 없기 때문에 미리보기 샌드박스 환경에서 사용할 수 없습니다.
->프로덕션 빠른 릴리스: 2026년 10월 15일
->모두를 위한 프로덕션: 2026년 10월 15일
+>프로덕션 빠른 릴리스: 2026년 10월 22일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 단일 승인 작업 과정 아래에서 여러 문서를 그룹화할 수 있으므로 동일한 단계를 함께 이동합니다.
 

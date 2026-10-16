@@ -21,16 +21,17 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 5%
+source-wordcount: '62'
+ht-degree: 4%
 ---
 # Adobe Workfront에 새 문서 추가: 문서 색인
 
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [파일 시스템에서 Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+* [웹 링크를 문서로 추가](../../documents/adding-documents-to-workfront/add-live-url.md)
 * [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
 * [Adobe Workfront과 외부 문서 저장소 공급자 간의 링크를 제거합니다](../../documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
 * [문서 요청](../../documents/adding-documents-to-workfront/request-a-document.md)

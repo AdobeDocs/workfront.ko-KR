@@ -26,9 +26,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '668'
 ht-degree: 3%
 ---
 # Frame.io 뷰어로 검토 및 승인
@@ -82,12 +82,13 @@ Workfront과의 Frame.io 통합에 대한 자세한 내용은 [통합 검토 및
 ## 전제 조건
 
 * Workfront 인스턴스에 Workfront 및 Frame.io 통합이 설정되어 있어야 합니다. 자세한 내용은 [통합 검토 및 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements)를 참조하십시오.
+* 웹 링크 문서를 검토하려면 [Frame.io Chrome 확장](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen)이 설치되어 있어야 합니다. 설치되지 않은 경우 Workfront에서 웹 링크 문서에 대한 Frame.io 뷰어를 처음 열 때 다운로드하라는 메시지가 표시됩니다.
 
 ## 문서 검토
 
 검토자는 에셋에 주석을 추가하고 에셋에 표시할 수 있습니다. 완료되면 Workfront에서 검토 완료를 표시할 수 있습니다. 에셋이 승인 프로세스에서 앞으로 이동하기 위해서는 검토를 완료로 표시할 필요가 없습니다.
 
-1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**&#x200B;을 클릭합니다.
+1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**을 클릭합니다.
 또는
 Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검토 열기**&#x200B;를 클릭합니다.
 
@@ -109,14 +110,13 @@ Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검
 
 문서에 대해 결정을 내리려면
 
-1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**&#x200B;을 클릭합니다.
+1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**을 클릭합니다.
 또는
 Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검토 열기**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    > 
    >홈 페이지에 내 승인 위젯을 추가해야 할 수 있습니다. 자세한 내용은 [홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)를 참조하세요.
-
 
 1. Frame.io에서 댓글 달기 도구를 사용하여 피드백을 남기거나 질문합니다. 주석 및 에셋 마크업은 Frame.io 뷰어에서만 볼 수 있습니다. Frame.io 뷰어 사용에 대한 자세한 내용은 [미디어에 주석 달기](https://help.frame.io/en/articles/9105251-commenting-on-your-media)를 참조하십시오.
 
@@ -135,7 +135,3 @@ Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검
    Workfront의 의사 결정에 대한 자세한 내용은 [문서 의사 결정 상태 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)를 참조하십시오.
 
    ![프레임 뷰어 및 결정](assets/make-decision-frame.png)
-
-
-
-<!--is document owner the correct term?-->
