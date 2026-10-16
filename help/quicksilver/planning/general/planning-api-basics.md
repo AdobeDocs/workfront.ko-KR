@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2235'
 ht-degree: 2%
 ---
 # Adobe Workfront Planning API 기본 사항
@@ -67,9 +67,7 @@ Workfront Planning API는 인증에 OAuth 2.0을 사용합니다. 자격 증명�
 
 시작하려면 Adobe Developer Console에서 프로젝트를 만들고 Workfront Planning API를 추가하여 자격 증명을 획득합니다.
 
-자격 증명을 설정하려면 Workfront에서 OAuth2 애플리케이션을 만드십시오.
-
-자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.
+인증 지침은 [Adobe Developer Console 인증 개요](https://developer.adobe.com/developer-console/docs/guides/authentication/)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -458,7 +456,7 @@ API 관련 추가 설명서는 다음 문서를 참조하십시오.
 * [Workfront 계획 API](https://developer.adobe.com/wf-planning) 개발자 설명서 및 참조
 * [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)
-* [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+* [Adobe Developer Console 인증 개요](https://developer.adobe.com/developer-console/docs/guides/authentication/)
 
 <!--
 

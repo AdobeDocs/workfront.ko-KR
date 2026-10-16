@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2033'
 ht-degree: 5%
 ---
 # [!DNL Workfront] 통합을 위한 OAuth2 애플리케이션 만들기
@@ -51,7 +51,7 @@ ht-degree: 5%
 >   * 2026년 11월 1일: 더 이상 새 사용자 지정 OAuth2 애플리케이션을 만들 수 없습니다.
 >   * 2027년 2월 1일: 기존 사용자 지정 OAuth2 애플리케이션은 더 이상 작동하지 않습니다.
 >
->   자세한 내용은 [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)을 참조하십시오.
+>   자세한 내용은 [Workfront OAuth2에서 Adobe Developer Console으로 마이그레이션](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md) 및 [Adobe Developer Console 인증 개요](https://developer.adobe.com/developer-console/docs/guides/authentication/)를 참조하십시오.
 >
 >* OAuth2의 컨텍스트에서 &quot;앱 만들기&quot;는 앱과 서버(예: [!DNL Workfront]) 간에 이러한 종류의 액세스 링크를 만드는 프로세스를 의미합니다.
 
@@ -156,7 +156,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
 {{step-1-to-setup}}
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth2 응용 프로그램]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 앱 통합 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 앱 통합 만들기]**를 클릭합니다.
 **새 OAuth2 응용 프로그램** 상자가 표시됩니다.
 1. **새 OAuth2 응용 프로그램** 상자에서 **[!UICONTROL 컴퓨터 대 컴퓨터 응용 프로그램]**&#x200B;을 선택합니다.
 1. 새 응용 프로그램의 이름을 입력하십시오(예: &quot;[!DNL Workfront] for ClientApp&quot;).
@@ -241,7 +241,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 리디렉션 URL]</td> 
-      <td>사용자가 [!DNL Workfront] (으)로 인증되면 이 경로로 리디렉션됩니다.</td> 
+      <td>사용자가 [!DNL Workfront](으)로 인증되면 이 경로로 리디렉션됩니다.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 새로 고침 토큰 순환]</td> 
