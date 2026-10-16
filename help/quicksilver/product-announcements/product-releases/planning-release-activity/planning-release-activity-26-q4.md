@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: 34b3f57d2339d13dd3b331b1c51e2bd0f9333843
 workflow-type: tm+mt
-source-wordcount: '3156'
+source-wordcount: '3261'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
@@ -31,13 +31,43 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 <!--
 
+## New Status field value and Tracking ID field for Activations records
+
+>[!NOTE]
+>
+>Preview and production: October 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only for customers with GenStudio for Performance Marketing
+
+GenStudio for Performance Marketing Activations records now include an optional Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. A new "Generating" status choice indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected.
+
+ For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+-->
+
+## Coworker 및 Workfront Planning용 Workfront MCP 서버로 비즈니스 규칙 생성 및 관리
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 12일
+>모두를 위한 프로덕션: 2026년 10월 22일
+>[!BADGE 일정 해제]{type=Neutral}
+
+Planning 비즈니스 규칙을 관리하기 위해 Coworker 및 Workfront MCP 서버에 기술을 추가했습니다.
+
+이제 Coworker 또는 Workfront MCP를 사용하여 레코드 유형에 대한 비즈니스 규칙을 만들고, 나열하고, 보고, 업데이트하고, 삭제할 수 있습니다. 새 스킬을 사용하면 공식 엔진에서 허용하는 비즈니스 규칙 공식을 생성하는 데 도움이 되므로 잘못된 공식을 더 적게 얻을 수 있습니다.
+
+자세한 내용은 [CX Enterprise Coworker의 Workfront 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md) 또는 [Adobe Workfront MCP 서버 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)을 참조하세요.
+
+<!--
+
 ## See the total record count in table views
 
 >[!NOTE]
 >
 >Preview: October 1, 2026
 >Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
 
@@ -53,7 +83,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >
 >미리 보기: 2026년 10월 1일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 모든 계획 보기의 다중 값 필터 연산자가 &quot;다음 중 하나 이상의 항목 있음&quot; 및 &quot;다음 중 하나 이상의 항목 없음&quot; 대신 &quot;다음 중 하나 이상 없음&quot; 및 &quot;다음 중 하나 없음&quot;으로 업데이트되어 Workfront 필터 빌더에서 보다 명확하고 일관된 단어를 제공합니다.
 
@@ -67,7 +97,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >
 >미리 보기: 2026년 10월 1일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 테이블 보기의 추가 필드 유형에 대한 집계자를 도입했습니다. 이 개선 이전에는 열 하단에 숫자 관련 필드만 집계자가 표시되었습니다.
 
@@ -89,7 +119,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >
 >미리 보기: 2026년 10월 1일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 Workspace 작성자는 현재 기본 소유자로 할당되어 있습니다. 이 업데이트를 통해 작업 공간 관리자는 공유 대화 상자에서 다른 표준 라이선스 사용자에게 소유권을 이전할 수 있습니다.
 
@@ -103,7 +133,7 @@ Workspace 작성자는 현재 기본 소유자로 할당되어 있습니다. 이
 >
 >미리 보기: 2026년 10월 1일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 타임라인 보기에서 레코드와 그룹화를 정렬할 수 있습니다. 이 기능이 향상되기 전에는 이 기능을 사용할 수 없었습니다.
 
@@ -115,7 +145,7 @@ Workspace 작성자는 현재 기본 소유자로 할당되어 있습니다. 이
 >
 >미리 보기: 2026년 9월 25일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 Workspace 관리자는 개별 필드에 대한 액세스를 제어할 수 있으므로 특정 사용자와 팀이 동일한 레코드 유형 내의 중요한 데이터를 보거나 편집하거나 완전히 제한할 수 있습니다.
 
@@ -131,7 +161,7 @@ Workspace 작성자는 현재 기본 소유자로 할당되어 있습니다. 이
 >
 >미리 보기: 2026년 9월 25일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 새 요청 경험에서 요청 영역의 다른 사용자와 Planning 요청을 공유할 수 있습니다.
 
@@ -145,7 +175,7 @@ Workspace 작성자는 현재 기본 소유자로 할당되어 있습니다. 이
 >
 >미리 보기: 2026년 9월 25일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 Workspace 관리자는 각 Planning 요청 양식에 대해 단일 또는 다중 단계 승인 프로세스를 빌드하여 한 명 이상의 승인자 또는 팀을 모든 단계에 할당하고 기존 승인 템플릿을 재사용하여 설정 속도를 높일 수 있습니다. 단계 내 모든 필수 승인자가 승인 취소되면 요청이 자동으로 진행되며 요청이 해당 단계에 도달하면 각 승인자에게 알립니다. 요청자 및 승인자는 요청이 포함된 단계를 추적하고 아직 보류 중인 승인을 확인할 수 있습니다.
 
@@ -157,7 +187,7 @@ Workspace 작성자는 현재 기본 소유자로 할당되어 있습니다. 이
 >
 >미리 보기: 2026년 9월 25일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 연결 필드 값을 기반으로 Planning 요청 양식에서 고급 표시 논리를 생성할 수 있으므로 양식은 요청자가 선택하는 내용에 맞게 조정됩니다. 연결 필드를 포함한 모든 Planning 필드는 이 논리를 작성할 때 지원됩니다.
 
@@ -171,7 +201,7 @@ Workspace 작성자는 현재 기본 소유자로 할당되어 있습니다. 이
 >
 >미리 보기: 2026년 9월 25일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 Workfront 및 작업 공간 관리자는 요청 양식을 구성할 때 요청자가 요청에서 받는 권한 수준을 나타낼 수 있습니다.
 
@@ -196,7 +226,7 @@ Workspace 작성자는 현재 기본 소유자로 할당되어 있습니다. 이
 >
 >미리 보기: 2026년 9월 3일부터 단계적으로 롤아웃
 >프로덕션 빠른 릴리스: 2026년 9월 17일부터 단계적으로 롤아웃
->모두를 위한 프로덕션: 2026년 10월 15일부터 단계적으로 롤아웃
+>모두를 위한 프로덕션: 2026년 10월 22일부터 단계적으로 롤아웃
 
 이제 CX Enterprise Coworker을 Workfront Planning 내에서 사용할 수 있습니다. 이제 Workfront Planning 전체에서 사용할 수 있는 패널에서 CX Enterprise Coworker에 액세스할 수 있습니다.
 
@@ -218,7 +248,7 @@ CX Enterprise Coworker 채팅은 작업을 완료하기 위한 대화 인터페�
 >
 >미리 보기: 2026년 9월 16일부터 단계적으로 롤아웃
 >프로덕션 빠른 릴리스: 2026년 9월 17일부터 단계적으로 롤아웃
->모두를 위한 프로덕션: 2026년 10월 15일부터 단계적으로 롤아웃
+>모두를 위한 프로덕션: 2026년 10월 22일부터 단계적으로 롤아웃
 >[!BADGE 일정 해제]{type=Neutral}
 
 이 변경 사항은 Workfront에 CX Enterprise Coworker이 있는 고객에게 제공됩니다.
@@ -237,7 +267,7 @@ Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세�
 >
 >미리 보기: 2026년 9월 17일
 >프로덕션 빠른 릴리스: 2026년 10월 14일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 일대일 또는 일대다 연결된 레코드가 있는 경우에도 레코드를 복제할 수 있습니다. 복제 후 사용자는 연결된 레코드를 원래 레코드에 유지하거나 새 레코드에 연결하도록 선택할 수 있습니다. 기본적으로 원본을 유지합니다.
 
@@ -251,7 +281,7 @@ Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세�
 >
 >미리 보기: 2026년 9월 3일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 표 보기에서 기본 필드 열을 편집할 때 레코드의 썸네일과 색상의 가시성을 관리할 수 있습니다.
 
@@ -265,7 +295,7 @@ Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세�
 >
 >미리 보기: 2026년 9월 3일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 작업 공간 관리자는 해당 유형의 레코드가 관리되는 방식을 나중에 반영하는 레코드 유형에 대한 비즈니스 규칙을 설정할 수 있습니다. 특정 조건이 충족되거나 특정 필드가 채워지는 경우에만 사용자가 레코드를 편집하거나 삭제할 수 있도록 허용하는 규칙을 정의할 수 있습니다.
 
@@ -292,7 +322,7 @@ Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세�
 >
 >미리 보기: 2026년 9월 3일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 Workfront 관리자는 사용자 정의 분기 외에 사용자 정의 주를 구성할 수 있습니다. 사용자 지정 주 및 분기는 Workfront Planning 타임라인 보기에서 볼 수 있습니다. Workfront은 사용자 지정 분기 1의 시작 요일 1부터 순차적 주를 생성합니다.
 
@@ -308,7 +338,7 @@ Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세�
 >
 >미리 보기: 2026년 9월 3일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 Planning에서 연결을 추가할 때 필터 기준을 충족하는 특정 레코드 유형을 필터링할 수 있습니다.
 
@@ -324,7 +354,7 @@ Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세�
 >
 >미리 보기: 2026년 8월 27일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 타임라인 보기에는 그룹화된 타임라인에 대한 모두 축소 및 모두 확장 옵션이 포함됩니다. 이렇게 하면 큰 로드맵 보기를 더 쉽게 탐색할 수 있습니다. 보기를 그룹화 제목으로 빠르게 줄인 다음 검토할 섹션만 확장할 수 있습니다.
 
@@ -336,7 +366,7 @@ Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세�
 >
 >미리 보기: 2026년 8월 27일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 타임라인 보기에서 잘린 그룹 레이블 위로 마우스를 가져가면 이제 도구 설명에 전체 텍스트가 [스윔레인] 및 [스택 그룹화] 표시에 모두 표시됩니다. 잘리지 않은 레이블에는 툴팁이 표시되지 않습니다.
 
@@ -350,7 +380,7 @@ Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세�
 >
 >미리 보기: 2026년 8월 27일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 주별 보기에는 표시되는 주 기간 동안 처음 1,000개의 레코드만 표시됩니다. 레코드가 더 있으면 캘린더 하단에 추가 레코드를 사용할 수 있다는 메시지가 표시됩니다. &quot;레코드가 더 있습니다. 추가 로드.&quot;
 
@@ -362,7 +392,7 @@ Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세�
 >
 >미리 보기: 2026년 8월 20일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 테이블 보기에서 종속적으로 연결된 레코드 필드의 열 머리글을 시각적으로 개선했습니다.
 
@@ -374,7 +404,7 @@ Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세�
 >
 >미리 보기: 2026년 8월 13일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 >[!BADGE 일정 해제]{type=Neutral}
 
 테이블 보기에서 여러 행을 끌어다 놓을 때 새로운 시각적 표시기가 있습니다. 이제 더 눈에 띄는 더하기 기호와 숫자 표시기에 끌어서 놓기 작업에 대해 선택한 행 수가 표시됩니다.
@@ -387,7 +417,7 @@ Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세�
 >
 >미리 보기: 2026년 8월 13일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 요청 양식을 제출하여 글로벌 레코드 유형에 대해 생성된 레코드는 이제 제출된 작업공간으로 자동으로 라우팅됩니다.
 
@@ -421,7 +451,7 @@ Workfront Planning에 대한 간결한 모범 사례 지침을 Claude에 직접 
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->전체 프로덕션: 2026년 10월 15일
+>전체 프로덕션: 2026년 10월 22일
 
 테이블 보기에서 단일 행을 끌어서 놓는 경험이 시각적으로 개선되었습니다.
 
@@ -434,7 +464,7 @@ Workfront Planning에 대한 간결한 모범 사례 지침을 Claude에 직접 
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 Workspace 관리자는 연결된 레코드 유형 간의 종속성을 정의할 수 있습니다. 예를 들어 지역 필드에 선택한 지역에 연결된 값만 표시됩니다. 이는 연결 필드 설정에서 직접 구성됩니다. 지역 레코드 유형에서 종속 레코드 유형(예: 지역)으로 연결을 추가할 때 작업 영역 관리자가 새 설정을 통해 해당 레코드 유형 간에 이미 설정된 관계를 사용하여 지역 레코드 유형에 종속된 것으로 표시할 수 있습니다.
 
@@ -455,7 +485,7 @@ Workfront Planning에 대한 간결한 모범 사례 지침을 Claude에 직접 
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 레코드에 읽지 않은 댓글이 있는 경우 표시하는 새 지표를 추가했습니다. 표시기는 표 보기에서 레코드의 기본 필드의 오른쪽 상단 모서리에 표시됩니다.
 
@@ -467,7 +497,7 @@ Workfront Planning에 대한 간결한 모범 사례 지침을 Claude에 직접 
 > 
 >미리 보기: 2026년 7월 23일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->전체 프로덕션: 2026년 10월 15일
+>전체 프로덕션: 2026년 10월 22일
 
 이제 레코드는 새 레코드에 자동으로 할당된 색상을 표준 또는 사용자 정의 색상으로 업데이트할 수 있는 사용자 정의 색상 팔레트를 지원합니다.
 

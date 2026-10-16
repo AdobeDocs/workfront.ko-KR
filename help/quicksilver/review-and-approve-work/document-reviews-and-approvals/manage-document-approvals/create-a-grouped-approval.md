@@ -5,9 +5,9 @@ title: 그룹화된 승인 만들기
 description: 여러 문서를 하나의 승인 작업 과정으로 번들로 묶어 동일한 단계를 함께 진행할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 31bba5df6f491bfd048c1005ecd5330d3321e748
+source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1188'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 1%
 
 그룹화된 승인은 단일 승인 워크플로에 따라 여러 문서를 번들로 제공합니다. 단일 문서 승인과 마찬가지로 그룹화된 승인을 통해 기본 및 고급 모드, 여러 단계 및 병렬 경로를 사용할 수 있습니다.
 
-그룹화된 승인은 조직이 Adobe 클라우드 스토리지를 사용할 때 표시되는 새 문서 영역에서만 사용할 수 있습니다. 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+>[!IMPORTANT]
+>
+>조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 그룹화된 승인은 새 문서 영역에서만 사용할 수 있습니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+
 
 ## 액세스 요구 사항
 

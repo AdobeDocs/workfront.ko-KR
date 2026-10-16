@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
+source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
 workflow-type: tm+mt
 source-wordcount: '1723'
 ht-degree: 0%
@@ -55,8 +55,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Preview: October 8, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period. Delegated decisions show both names in the approval workflow, so it's clear who made each decision.
@@ -72,7 +72,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >미리보기: 이 기능은 Frame.io 통합을 사용할 수 없기 때문에 미리보기 샌드박스 환경에서 사용할 수 없습니다.
->프로덕션 빠른 릴리스: 2026년 10월 14일
+>프로덕션 빠른 릴리스: 2026년 10월 15일
 >모두를 위한 프로덕션: 2026년 10월 15일
 
 이제 단일 승인 작업 과정 아래에서 여러 문서를 그룹화할 수 있으므로 동일한 단계를 함께 이동합니다.
@@ -88,7 +88,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >미리보기: 이 기능은 Frame.io 통합을 사용할 수 없기 때문에 미리보기 샌드박스 환경에서 사용할 수 없습니다.
->프로덕션 빠른 릴리스: 2026년 10월 14일
+>프로덕션 빠른 릴리스: 2026년 10월 15일
 >모두를 위한 프로덕션: 2026년 10월 15일
 >[!BADGE 일정 해제]{type=Neutral}
 
@@ -102,7 +102,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 승인 템플릿이 기본적으로 비공개입니다. 이전에는 모든 승인 요청자가 시스템의 모든 템플릿을 볼 수 있었으며, 이 경우 템플릿 목록이 길어서 탐색하기 어려웠습니다. 이제 작성자가 공유하지 않는 한 템플릿을 만든 사용자만 템플릿을 볼 수 있습니다.
 
@@ -134,7 +134,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >미리보기: 해당 사항 없음
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 문서에 대한 승인 워크플로가 만들어지면 사용자는 Frame.io 뷰어에 주석을 달고 댓글을 달 수 있습니다. 이러한 주석은 Workfront 주석 패널에 표시되지 않지만 Frame.io 뷰어에서 볼 수 있습니다.
 
@@ -148,7 +148,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >미리보기: 해당 사항 없음
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 문서에 증명이 첨부되면 이제 승인 이메일의 &quot;검토로 이동&quot; 링크에 증명 뷰어가 직접 열리므로 검토자와 승인자는 즉시 검토를 시작할 수 있습니다. 문서에 증명이 없는 경우 이전과 마찬가지로 링크가 문서의 승인 섹션을 계속 엽니다.
 
@@ -158,7 +158,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >미리 보기: 2026년 9월 3일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 이제 각 사용자를 개별적으로 추가하는 대신 문서 승인 또는 승인 템플릿에서 Workfront 팀을 승인자 또는 검토자로 추가할 수 있습니다.
 
@@ -178,7 +178,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >미리 보기: 2026년 9월 3일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 조직에서 Adobe 클라우드 스토리지를 사용하고 Frame.io Enterprise 라이선스가 있는 경우 이제 프로젝트 템플릿의 프로젝트 세부 정보에서 Frame.io 작업 영역을 선택할 수 있습니다. 템플릿에서 만든 프로젝트는 자동으로 템플릿에 설정된 작업공간을 사용하므로 프로젝트를 만들 때 추가 작업 없이 원하는 Frame.io 작업공간으로 프로젝트가 라우팅됩니다.
 
@@ -198,7 +198,7 @@ Frame.io 엔터프라이즈 라이센스가 없는 경우 프로젝트는 Workfr
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Review and approval buttons now look and work the same everywhere you review documents: My approvals widget in Home, Document summary panel, the Document Details page, and the document preview page.
 
@@ -220,8 +220,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >미리보기: 해당 사항 없음
->모두를 위한 프로덕션: 2026년 10월 15일
->이 기능은 원래 계획대로 2026년 9월 17일의 프로덕션 빠른 릴리스에 릴리스되지 않았습니다. 이제 2026년 10월 15일에 모두를 위한 프로덕션에서 사용할 수 있습니다.
+>모두를 위한 프로덕션: 2026년 10월 22일
+>이 기능은 원래 계획대로 2026년 9월 17일의 프로덕션 빠른 릴리스에 릴리스되지 않았습니다. 이제 2026년 10월 22일에 모두를 위한 프로덕션에서 사용할 수 있습니다.
 
 문서 승인에 대해 사용자 정의 메시지를 설정하면 이제 해당 메시지가 승인 요청 이메일의 제목 줄에도 표시되며, 기한을 설정할 때 해당 기한이 표시됩니다. 이렇게 하면 검토자가 이메일을 열지 않고도 받은 편지함에서 직접 관심이 필요한 항목을 확인할 수 있습니다.
 
@@ -233,7 +233,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >
 >미리 보기: 2026년 9월 3일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 조직에서 Adobe 클라우드 스토리지를 사용하는 경우 새 문서 영역의 버전 패널에 새로운 디자인이 제공됩니다.
 
@@ -251,7 +251,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >
 >미리 보기: 2026년 9월 3일
 >프로덕션 빠른 릴리스: 2026년 9월 17일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 조직에서 Adobe 클라우드 스토리지를 사용하는 경우 이제 새 문서 영역의 승인 패널에 버전 간 승인 내역이 표시됩니다.
 
@@ -284,7 +284,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
->모두를 위한 프로덕션: 2026년 10월 15일
+>모두를 위한 프로덕션: 2026년 10월 22일
 
 조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Experience Manager Assets의 개별 에셋을 문서를 지원하는 모든 Workfront 개체에 연결할 수 있습니다. 연결된 컨텐츠는 자동으로 동기화 상태를 유지합니다. Experience Manager Assets에서 변경한 사항이 Workfront에 표시되며, Workfront에서 나가지 않고 새 에셋 버전을 가져올 수 있습니다.
 
@@ -300,7 +300,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
 
