@@ -11,9 +11,9 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 5e37582fe161e1a4689c35773cb1b3f6ead5a859
+source-git-commit: 87fa240bc7d5694d475072b9787dca6f05702c3c
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '409'
 ht-degree: 5%
 ---
 # 웹 링크를 문서로 추가
@@ -56,7 +56,7 @@ ht-degree: 5%
 
 ## 웹 링크를 문서로 추가
 
-html 웹 페이지를 Workfront에 웹 링크로 업로드할 수 있습니다. 추가한 후에는 업로드된 파일에 대한 승인을 요청하는 것과 같은 방식으로 라이브 웹 페이지에서 승인을 요청할 수 있습니다. Frame.io에서 웹 링크를 처리하는 방법에 대한 자세한 내용은 [Frame.io 웹 링크](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links)를 참조하십시오.
+html 웹 페이지를 Workfront에 웹 링크로 업로드할 수 있습니다. 추가한 후에는 업로드된 파일에 대한 승인을 요청하는 것과 같은 방식으로 라이브 웹 페이지에서 승인을 요청할 수 있습니다. Frame.io에서 웹 링크를 처리하는 방법에 대한 자세한 내용은 [Frame.io 웹 링크](https://help.frame.io/en/articles/12893213-html-review-for-frame-io)를 참조하십시오.
 
 <!--
 >[!IMPORTANT]

@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 2%
 ---
 # Frame.io 뷰어로 검토 및 승인
 
@@ -84,11 +84,12 @@ Workfront과의 Frame.io 통합에 대한 자세한 내용은 [통합 검토 및
 * Workfront 인스턴스에 Workfront 및 Frame.io 통합이 설정되어 있어야 합니다. 자세한 내용은 [통합 검토 및 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements)를 참조하십시오.
 * 웹 링크 문서를 검토하려면 [Frame.io Chrome 확장](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen)이 설치되어 있어야 합니다. 설치되지 않은 경우 Workfront에서 웹 링크 문서에 대한 Frame.io 뷰어를 처음 열 때 다운로드하라는 메시지가 표시됩니다.
 
+
 ## 문서 검토
 
 검토자는 에셋에 주석을 추가하고 에셋에 표시할 수 있습니다. 완료되면 Workfront에서 검토 완료를 표시할 수 있습니다. 에셋이 승인 프로세스에서 앞으로 이동하기 위해서는 검토를 완료로 표시할 필요가 없습니다.
 
-1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**&#x200B;을 클릭합니다.
+1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**을 클릭합니다.
 또는
 Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검토 열기**&#x200B;를 클릭합니다.
 
@@ -110,7 +111,7 @@ Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검
 
 문서에 대해 결정을 내리려면
 
-1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**&#x200B;을 클릭합니다.
+1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**을 클릭합니다.
 또는
 Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검토 열기**&#x200B;를 클릭합니다.
 
@@ -135,3 +136,28 @@ Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검
    Workfront의 의사 결정에 대한 자세한 내용은 [문서 의사 결정 상태 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)를 참조하십시오.
 
    ![프레임 뷰어 및 결정](assets/make-decision-frame.png)
+
+## 웹 링크 검토
+
+문서가 라이브 웹 URL인 경우 Frame.io 뷰어에서 페이지를 검토하고 페이지에 직접 피드백을 남길 수 있습니다.
+
+1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**을 클릭합니다.
+또는
+Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검토 열기**&#x200B;를 클릭합니다.
+
+   >[!NOTE]
+   > 
+   >홈 페이지에 내 승인 위젯을 추가해야 할 수 있습니다. 자세한 내용은 [홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)를 참조하세요.
+
+1. Frame.io에서 웹 링크 문서를 엽니다. 메시지가 표시되면 페이지를 보고 URL의 현재 상태를 캡처할 수 있도록 [Frame.io Chrome 확장](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen)을 설치하십시오.
+
+1. 뷰어를 사용하여 댓글, 주석 등을 페이지에 바로 추가할 수 있습니다.
+
+1. 웹 링크 문서 검토를 마치면 Frame.io 뷰어에서 다음 결정 중 하나를 선택할 수 있습니다.
+
+   * **승인**: 자산은 변경할 필요가 없으며 사용할 준비가 되었습니다.
+   * **작업 필요**: 자산을 변경해야 하며 사용할 준비가 되지 않았습니다. 지정된 변경 사항이 적용되면 에셋을 새 버전으로 업로드하고 다른 승인을 거쳐야 합니다. 자세한 내용은 [새 문서 버전 업로드 및 승인 요청](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)을 참조하십시오. <!--do they need to tell someone it was uploaded via comment tagging?-->
+
+   결정을 내리면 문서 소유자에게 이메일을 통해 알림이 전송됩니다.
+
+지원되는 URL, 브라우저 확장 요구 사항 및 주석 달기 옵션을 포함하여 라이브 웹 URL을 보고 검토하는 방법에 대한 자세한 지침은 [Frame.io용 HTML 검토](https://help.frame.io/en/articles/12893213-html-review-for-frame-io)를 참조하십시오.
