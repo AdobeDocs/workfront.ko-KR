@@ -29,23 +29,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2621'
 ht-degree: 1%
 ---
-<!--
-Better metadata, at publishing:
----
-title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
-description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
-
----
--->
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
@@ -148,7 +136,7 @@ No longer needed to specify:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>정품 인증에 액세스하기 위한 GenStudio System Manager <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -204,7 +192,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -351,7 +339,6 @@ Some commented out information here comes from glean
 
 * Workfront Planning에서 활성화 레코드를 생성할 수 없습니다.
 
-
 * GenStudio 프로젝트는 1:1을 Workfront Planning 작업 영역에 매핑합니다. 활성화는 해당 작업 영역에 저장되고 해당 작업 영역에서 참조됩니다.
 
 * 가시성 및 작업은 해당 GenStudio 프로젝트 및 작업 영역에 대한 액세스 권한에 따라 다릅니다.
@@ -360,18 +347,11 @@ Some commented out information here comes from glean
 
 * GenStudio에서 활성화하면 활성화 세부 사항이 Workfront Planning에 기록되고 추적됩니다. GenStudio 및 Planning은 공유 레코드(캠페인, 제품, 가상 사용자, 활성화 등)를 정렬합니다.
 
-<!--
+* 활성화 레코드에는 다음이 포함됩니다.
 
-<div class="preview">
+  * 오류와 함께 추적 ID 공식의 각 세그먼트에 대해 확인된 값을 저장하는 추적 ID 필드.
+  * 추적 ID 생성이 진행 중임을 나타내는 &quot;생성 중&quot; 상태 선택 생성이 완료되거나 실패하면 활성화 상태가 &quot;초안&quot;으로 돌아갑니다. 기존 활성화는 영향을 받지 않습니다.
 
-* Activations records include the following:
-
-    * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
-    * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
-
-</div>
-
--->
 
 <!--
 They're stored in Planning even when a customer hasn't separately purchased Planning.

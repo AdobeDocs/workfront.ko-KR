@@ -1,5 +1,5 @@
 ---
-title: Ideation Space Brief에서 계획 레코드 생성
+title: Ideation Space Brief에서 계획 레코드 생성 또는 편집
 description: Adobe Workfront Planning의 새로운 기능인 Ideation Space를 사용하여 브리핑을 Planning 레코드로 변환할 수 있습니다. 내보낸 브리프는 새 레코드를 만들거나 기존 레코드를 업데이트합니다. 이 문서에서는 관념화 공간을 사용하여 기존 Planning 레코드를 생성하거나 편집하는 방법에 대해 설명합니다.
 role: User, Admin
 author: Alina
@@ -11,13 +11,13 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1172'
 ht-degree: 0%
 ---
 
-# Ideation Space Brief에서 계획 레코드 생성
+# Ideation Space Brief에서 Planning 레코드 생성 또는 편집
 
 <!--
 Will this release JUST to preview? If not - hide the preview portion below
@@ -64,8 +64,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
-또는
-<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
+<!--
+Not available for beta:
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -108,7 +112,7 @@ are there additional license restrictions or packages to be purchased to have ac
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -120,13 +124,13 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 +++   
 
-## 관념화 공간을 사용하여 레코드 만들기에 대한 고려 사항
+## Planning 레코드를 만들거나 편집하기 위해 Ideation 공간을 사용하는 것에 대한 고려 사항
 
-* 레코드를 만들거나 편집할 때 Workfront Planning 또는 Workfront의 메인 메뉴에서만 관념화 공간을 시작할 수 있습니다. 관념화 공간이 Workfront 외부에 없습니다.
-* 관념화 공간에 액세스하려면 Workfront Planning에 작업 공간 및 레코드 유형이 있어야 합니다.
+* Planning 레코드를 생성하거나 편집하려면 Workfront Planning에서 Ideation 공간을 실행해야 합니다. Workfront 기본 메뉴에서 관념화 공간에 액세스해도 관념화 개요가 Planning 레코드에 연결되지 않습니다.
+* 관념화 공간을 사용하여 레코드를 만들거나 편집하려면 Workfront Planning에 작업 영역과 레코드 유형이 있어야 합니다.
 * 새 레코드는 만드는 방법에 관계없이 항상 자리 표시자 콘텐츠로 시작합니다.
-* 관념화 요약에 연결된 계획 레코드를 삭제하면 요약이 관념화 공간에 남아 있으며 관념화 공간의 연결된 캔버스는 삭제되지 않습니다.
-* 정보 동기화는 관념화 공간에서 Workfront Planning으로만 수행됩니다. Planning 레코드에서 Ideation Space Brief로의 역방향 또는 자동 동기화는 없습니다.
+* 관념화 요약에 연결된 Planning 레코드를 삭제하면 요약이 관념화 공간에 남아 있으며 연관된 공백은 삭제되지 않습니다.
+* 정보 동기화는 관념화 공간에서 Workfront Planning으로만 수행됩니다. Planning 레코드에서 Ideation Space Brief로의 역방향 또는 자동 동기화는 없습니다. <!--this might change?-->
 * Workfront Planning에서 필드를 생성, 편집 또는 제거할 때 다음과 같은 시나리오가 발생합니다.
 
   * 관념화 요약에 연결된 레코드에서 생성된 새 필드는 요약에 매일 추가됩니다. 관념화 개요에 새 필드가 비어 있습니다.
@@ -134,7 +138,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
   * 이름이 변경된 필드는 개요에서 해당 이름을 업데이트합니다.
 * 관념화 공간에 문서를 카드로 추가할 수 있습니다. 이미지도 포함됩니다.
 
-  지원되는 파일 유형은 PDF, Excel, CSV, PNG(및 기타 이미지 형식), Word, PowerPoint입니다. 비디오는 지원되지 않습니다.
+  PDF, Excel, CSV, PNG(및 기타 이미지 형식), Word, PowerPoint 파일 형식을 추가할 수 있습니다. 비디오는 지원되지 않습니다.
 
   업로드된 모든 문서는 처리를 위해 백엔드의 PDF으로 변환됩니다.
 * 레코드를 Workfront Planning에서 스페이스로 직접 끌어다 놓을 수 있으며, 수동으로 업로드한 파일과 같은 방식으로 표시됩니다.
@@ -201,7 +205,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    이렇게 하면 추가 정보가 포함된 레코드 생성이 완료되고 원래 선택한 레코드 유형에 추가됩니다.
 
-## 관념화 공간에서 기존 레코드 편집
+## 관념화 공간을 사용하여 기존 레코드 편집
 
 기존 레코드에서 관념화 공간을 열어 업데이트할 수 있습니다.
 

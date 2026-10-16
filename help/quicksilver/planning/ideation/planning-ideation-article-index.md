@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '174'
 ht-degree: 0%
 ---
 
@@ -38,6 +38,6 @@ ht-degree: 0%
 * [Adobe Workfront Planning의 관념화 공간 시작](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
 * [관념화 공간을 사용하는 데 필요한 액세스 권한](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
 * [Ideation 공간에 브리프 만들기](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-* [Ideation Space Brief에서 계획 레코드를 만듭니다](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+* [Ideation Space Brief에서 계획 레코드를 만들거나 편집합니다](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
 * [다른 사용자와 관념화 공간 공유](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
 

@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d72869cb62d06b24298004ba2c9482a153b8e5f7
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '270'
 ht-degree: 6%
 ---
 # CX Enterprise Coworker의 Workfront 기술
@@ -59,6 +59,9 @@ ht-degree: 6%
 * 필드
 * 보기 횟수
 * 레코드
+<!--
+* Business rules
+-->
 
 ### Workfront 개체 관리
 
@@ -75,13 +78,12 @@ ht-degree: 6%
 
 이름: `query-workfront-data`
 
-이 스킬은 다음과 같은 Workfront 개체를 찾아 나열하고 보고합니다.
+이 스킬은 Workfront 오브젝트를 찾고, 나열하고, 보고합니다. 다음은 이러한 Workfront 개체의 몇 가지 예이지만 목록이 완전하지 않습니다.
 
 * 프로젝트
 * 작업
 * 문제
 * 사용자
 * 포트폴리오
-* 외
 
 

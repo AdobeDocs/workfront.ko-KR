@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1296'
 ht-degree: 0%
 ---
 
@@ -45,17 +45,28 @@ Adobe Ideation 공간은 Adobe Planning에 직접 내장된 Workfront의 AI 기�
 
 Workfront Planning 또는 Workfront 메인 메뉴에서만 액세스할 수 있는 관념화 공간은 계획, 프로덕션 및 게재를 수행하기 전에 캠페인 라이프사이클의 맨 앞에 있으며 팀이 작업을 계획하고 실행하는 Workfront Planning 작업 공간으로 직접 유입됩니다.
 
+Ideation 공백은 Enterprise CX Coworker을 활용하여 나중에 Planning 레코드로 변환하거나 PDF로 다운로드할 수 있는 브리핑을 생성합니다.
+
 ## 제품 가용성
 
 변경될 수 있는 관념화 공간에 대한 계획된 릴리스 타임라인에는 다음 이정표가 포함됩니다.
 
-* **마감된 Beta:** 적은 수의 고객이 있는 2026년 7월에 출시되었습니다.
-* **Beta 열기:** 2026년 10월을 타깃팅했습니다. 이는 고객이 옵션을 적극적으로 옵트아웃하지 않고 적극적으로 옵션을 켜고 구성해야 하는 옵트인 오퍼입니다.
-* **일반 가용성:** 2026년 하반기에 타깃팅됨.
+* **마감된 Beta:** 적은 수의 고객을 위해 2026년 7월에 출시되었습니다.
+* **2026년 11월을 목표로 하는 Beta 열기:** 이는 고객이 옵션을 적극적으로 옵트아웃하지 않고 적극적으로 옵션을 켜고 구성해야 하는 옵트인 오퍼입니다.
+* **일반 가용성:** 2027을 목표로 합니다.
 
 ## 제품 요구 사항
 
-조직에서 사용자가 Ideation Space에 액세스할 때에 따라 다음 패키지에 액세스할 수 있는 경우 Ideation Space에 액세스할 수 있습니다.
+조직과 사용자가 다음 제품에 액세스할 수 있는 경우 Ideation 공간에 액세스할 수 있습니다.
+
+* Workfront Planning을 사용한 Adobe Workfront
+* 엔터프라이즈 CX Coworker
+
+  >[!IMPORTANT]
+  >
+  >현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Enterprise Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있지만 CX Coworker이 없는 Workfront 고객은 관념화 공간을 사용할 수 없습니다.
+
+Ideation 스페이스에 액세스할 때에 따라 다음 패키지에 액세스할 수 있어야 합니다.
 
 * Beta 오픈 릴리스 동안 다음 항목이 있어야 합니다.
 
@@ -68,13 +79,13 @@ Workfront Planning 또는 Workfront 메인 메뉴에서만 액세스할 수 있�
 
 >[!NOTE]
 >
->관념화 공간은 Adobe Workfront 주 메뉴 또는 Workfront Planning에서만 액세스할 수 있습니다. Ideation 공간에 액세스하려면 별도의 로그인이 필요하지 않습니다. Workfront에 로그인할 수 있으면 즉시 사용할 수 있습니다.
+>관념화 공간은 Workfront 주 메뉴 또는 Workfront Planning에서만 액세스할 수 있습니다. Ideation 공간에 액세스하려면 별도의 로그인이 필요하지 않습니다. Workfront에 로그인할 수 있으면 즉시 사용할 수 있습니다.
+
+Ideation 공간을 사용하는 데 필요한 액세스에 대한 자세한 내용은 [Ideation 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)를 참조하십시오.
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
-
-Ideation 공간을 사용하는 데 필요한 액세스에 대한 자세한 내용은 [Ideation 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)를 참조하십시오.
 
 <!--
 No longer required or recommended, per Et:
@@ -120,20 +131,6 @@ Too much:
   * 예를 들어 직접 캠페인 내역 없이 새 제품, 세그먼트 또는 이니셔티브를 시작할 때 캠페인을 만들 수 있습니다.
   * 이렇게 하면 안내가 있는 관념화, 권장 채널 믹스 및 초기 개념이나 메시지 지침을 통해 완전히 새로운 브리핑이 생성됩니다.
 
-## 관념화 공간에 대한 액세스 권한 얻기
-
-관념화 공간에 액세스하려면 다음 작업을 수행할 수 있습니다.
-
-1. 이 문서의 [제품 요구 사항](#product-requirements) 섹션에 설명된 대로 제품 요구 사항을 충족하는지 확인하십시오.
-1. Adobe 계정 담당자에게 문의하여 폐쇄된 Beta에 참여하거나 Beta 열기 대기 목록에 참여하십시오.
-1. 새로 고침할 최근 캠페인 또는 처음부터 새로 만들 새 이니셔티브와 같은 첫 번째 캠페인을 식별합니다.
-
-관념화 공간 사용에 대한 자세한 내용은 다음 문서를 참조하십시오.
-
-* [관념화 공간을 사용하는 데 필요한 액세스 권한](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [Ideation Space Brief에서 계획 레코드 생성](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [Ideation Space에서 개요 만들기](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
 ## 관념화 공간 개요
 
 관념화 공간은 브랜드 및 제품 마케터가 더 강력한 캠페인을 더 빠르고 더 나은 팀 정렬로 구축할 수 있는 협업 전략 마케팅 관념화 도구입니다. 과거 브리프, 성과 데이터, 대상 통찰력, 브랜드 지침 및 기존 캠페인 자산과 같은 실제 마케팅 컨텍스트에서 AI 제안을 기반으로 하므로 결과는 일반적이지 않고 관련성이 있습니다.
@@ -155,9 +152,49 @@ Too much:
   * **완료하기 전에 확인**. AI에서 생성한 응답이 정확하지 않을 수 있으므로 레코드를 완료하기 전에 항상 카드에서 **소스**&#x200B;를 확인하고 연결된 소스를 확인하십시오.
   * **AI 카드와 실제 레코드를 혼합**&#x200B;합니다. 관념화 공간에 실제 레코드를 끌어서 놓습니다.
 
-## Adobe CX Enterprise Coworker에서 사용 가능한 관념화 공간
+## 관념화 공간에 대한 액세스 권한 얻기
 
-관념화 공간은 Adobe의 CX Enterprise Coworker을 통해 대화형, 전후 모드도 지원합니다.
+관념화 공간에 액세스하려면:
+
+1. 이 문서의 [제품 요구 사항](#product-requirements) 섹션에 설명된 대로 제품 요구 사항을 충족하는지 확인하십시오.
+1. 폐쇄된 Adobe 참여에 대한 관심을 표명하거나 가능한 경우 Open Beta에 참여하려면 Beta 계정 담당자에게 문의하십시오.
+1. (권장) 첫 번째 캠페인(새로 고칠 최근 캠페인 또는 처음부터 새로 만들 새 캠페인)을 식별합니다.
+
+관념화 공간 사용에 대한 자세한 내용은 다음 문서를 참조하십시오.
+
+* [관념화 공간을 사용하는 데 필요한 액세스 권한](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+* [Ideation Space Brief에서 계획 레코드 생성](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+* [Ideation Space에서 개요 만들기](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+
+## 관념화 공간 찾기
+
+적절한 제품, 패키지, 시스템 및 구성된 액세스 수준에 대한 액세스 권한을 확인했으면 Workfront의 다음 영역에서 Ideation 공간을 찾을 수 있습니다.
+
+* Workfront Planning에서 새 레코드를 수동으로 추가할 때
+
+  ![Planning의 관념화 공간](assets/ideation-space-in-planning-new-record.png)
+* Workfront 주 메뉴에서 관념화 공간 영역을 엽니다.
+
+  ![주 메뉴의 관념화 공간 영역](assets/ideation-space-area-icon-in-main-menu.png)
+
+  >[!TIP]
+  >
+  >레이아웃 템플릿을 사용하여 기본 메뉴에서 관념화 공간 영역을 제거할 수 없습니다. 사용자가 관념화 공간에 액세스할 수 없도록 하려면 [관념화 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)에 설명된 대로 자신의 액세스 수준에서 관념화 공간 사용 안 함 설정을 켜야 합니다.
+
+## 관념화 공간에 의해 생성된 객체
+
+관념화 공간을 사용하여 나중에 워크플로에 중요한 항목으로 변환할 수 있는 아이디어를 브레인스토밍하고 만들 수 있습니다.
+
+관념화 공간은 내부 또는 외부(웹) 소스에서 모든 아이디어와 정보를 가져와 간단한 개요를 만듭니다. 개요가 완료되었다고 판단되면 다음 파일 또는 개체로 내보낼 수 있습니다.
+
+* PDF, Word, PowerPoint, Powerpoint 템플릿 중 하나의 파일 형식
+* 계획 레코드
+
+  Workfront Planning에서 관념화 공간에 액세스하거나 이전에 Planning 레코드를 관념화 요약에 연결한 경우에만 요약 정보를 Planning 레코드로 내보낼 수 있습니다.
+
+## 관념화 공간 및 Adobe CX Enterprise Coworker
+
+관념화 공간은 Adobe의 CX Enterprise Coworker을 프롬프트 인터페이스로 사용합니다.
 
 사용자는 후속 질문을 하고 일회성 결과를 얻기보다는 짧은 대화를 개선할 수 있습니다.
 
@@ -200,10 +237,10 @@ Worth noting
 
 ## 추가 리소스
 
-* [Adobe Workfront 캠페인 계획](https://business.adobe.com/kr/products/workfront/campaign-planning.html)
+* [Adobe Workfront 캠페인 계획](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning 설명서](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio 개요](https://business.adobe.com/kr/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/kr/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio 개요](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--
