@@ -1,6 +1,6 @@
 ---
 title: 다른 사용자와 관념화 공간 공유
-description: 이제 Adobe Workfront Planning에서는 캠페인을 시작하기 전에 식별할 수 있는 추가 기능을 제공합니다. AI의 기능을 활용하여 다른 사람이 계획 레코드가 되기 전에 아이디어를 만들고 공동 작업을 수행할 수 있습니다.
+description: 이제 Adobe Workfront Planning에서는 캠페인을 시작하기 전에 식별할 수 있는 추가 기능을 제공합니다. 더 나은 공동 작업을 위해 다른 사용자와 관념화 공간 및 각각의 개요를 공유할 수 있습니다.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 2%
+source-wordcount: '591'
+ht-degree: 1%
 ---
 
 # 다른 사용자와 관념화 공간 공유
@@ -39,15 +39,19 @@ ht-degree: 2%
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-Workfront Planning 레코드 권한은 레코드의 관념화 공간으로 전송됩니다.
+캠페인 및 기타 레코드 유형을 시작하기 전에 Adobe Workfront의 Ideation Space를 사용하여 캠페인 및 기타 레코드 유형에 대한 브리프를 만들 수 있습니다. 이 기능은 작업을 시작하기 전에 다른 사람에게 브레인스토밍을 하고 정보를 수집하여 공동 작업을 수행하도록 초대합니다.
 
-또한 다른 사용자에게 아이디어 공간을 사용하고 아이디어를 추가할 수 있는 권한을 부여할 수 있습니다.
+더 나은 공동 작업을 위해 다른 사용자와 관념화 공간 및 각각의 개요를 공유할 수 있습니다.
 
 다음 사항을 고려하십시오.
 
+* Workfront Planning 레코드 권한은 레코드의 관념화 공간으로 전송됩니다.
+
+* 또한 다른 사용자에게 아이디어 공간을 사용하고 아이디어를 추가할 수 있는 권한을 부여할 수 있습니다.
+
 * 아이디어 생성자는 항상 자신의 아이디어에 대한 편집기 권한을 가집니다.
 
-* 브리프를 만들고 다른 응용 프로그램으로 내보내려면 아이디어 공간에 대한 편집기 권한이 있어야 합니다.
+* 브리프를 만들거나 기고하여 다른 응용 프로그램으로 내보내려면 아이디어 공간에 대한 편집자 권한이 있어야 합니다.
 
 ## 액세스 요구 사항
 
@@ -71,8 +75,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
-또는
-<li><p>독립 실행형 제품으로 구입할 경우 모든 Planning 패키지</p></li></ul>
+<!--
+Not available right now: 
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -107,7 +115,7 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> <p>레코드를 추가할 작업 영역 및 레코드 유형에 대한 또는 그 이상의 사용 권한을 부여합니다. </p>
       <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
       <p>Workfront 개체에 대한 권한을 보고 Brief에 추가 <!--not sure if this is available--></p>
-      <p>브리프를 만들 수 있는 편집 공간 권한</p>
+      <p>개요 작성을 위한 개요 의 관념화 공간에 대한 편집자 권한</p>
    </td> 
   </tr>  
   <!--
@@ -129,15 +137,12 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## 관념화 공간 공유
 
-1. Planning 레코드의 관념화 공간에 액세스합니다.
+1. 관념화 공간에 액세스합니다.
 
-   자세한 내용은 다음 문서 중 하나를 참조하십시오.
+   자세한 내용은 [Ideation 공간에 브리프 만들기](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)를 참조하십시오.
 
-   * [Ideation Space Brief에서 계획 레코드 생성](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-   * [Ideation 공간에 브리프 만들기](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
-1. 오른쪽 상단의 **공유**&#x200B;를 클릭한 다음 **문서 공유** 상자의 오른쪽 상단에서 **설정** 아이콘 ![설정 아이콘](assets/setting-icon.png)을 클릭합니다.
-1. 액세스 권한이 있는 사람 목록에서 다음 중 하나를 선택합니다.
+1. 오른쪽 상단의 **공유**&#x200B;를 클릭한 다음 **문서 공유** 상자의 오른쪽 상단에서 **설정** 아이콘 ![설정 아이콘](assets/setting-icon.png)을 클릭합니다. <!--should this say "document"?-->
+1. **액세스 권한이 있는 사용자** 목록에서 다음 중 하나를 선택하십시오.
 
    * **초대된 사람만 액세스할 수 있음**
 

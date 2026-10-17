@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '916'
 ht-degree: 0%
 ---
 
@@ -158,50 +158,40 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    ![새 레코드 상자와 [편집 공간 열기] 단추](assets/new-record-creation-picker-with-ideation.png)
 
-   새 탭에서 관념화 공간이 열리고 프롬프트가 비어 있습니다.
+   새 탭에서 관념화 공간이 열립니다.
 
-   레코드는 자리 표시자 텍스트로 즉시 만들어집니다.
+   CX Coworker이 오른쪽 패널에서 열립니다.
 
-1. (선택 사항) 프롬프트 상자에서 **기존 개요 사용**&#x200B;을 클릭하여 Ideation 공간에서 개요 및 향후 레코드를 만드는 데 사용할 기존 문서를 검색하고 추가합니다. <!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
+   레코드는 자리 표시자 이름으로 즉시 만들어집니다.
 
-   ![빈 관념에 대한 프롬프트](assets/empty-ideation-prompt.png)
+   <!--
+    1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
+    -->
 
-1. (선택 사항) 프롬프트 상자의 오른쪽 상단에 있는 **이전 캔버스 열기** <!--accurate??--> 아이콘 ![기존 브리프 열기 아이콘](assets/open-existing-briefs-icon.png)을 클릭하여 기존 브리프를 엽니다
-
-1. **무엇을 진행 중입니까?** 프롬프트 상자에서 만들려는 레코드 종류를 설명합니다.
+1. **CX Coworker** 대화 상자에 프롬프트를 추가한 다음 Enter 키를 누릅니다.
 
    세부 정보를 공유하면 할수록 관념화 공간에서 제공하는 정보가 더 유용할 것이다. 예를 들어 계획하고 있는 캠페인에 대한 설명을 입력합니다. &quot;마케팅 에이전시의 Back to school campaign&quot;.
 
-1. **식별 시작**&#x200B;을 클릭합니다.
+1. [Ideation Space에서 개요 만들기](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md) 문서에 설명된 대로 Ideation Brief를 계속 만듭니다.
 
-   아이디어 공간은 아이디어를 빌드하는 동안 다음 단계를 통해 작동합니다. <!--check some of these in the UI - there might have been UI text changes-->
+   <!--
+    1. Click **Start ideating**.
+        The Ideation space works through the following steps while it builds your idea: 
+        1. Understand your goal and context
+        2. Review your space and selected materials
+        3. Gather evidence from documents, web, and data
+        4. Synthesize findings into a research summary
+        5. Create and refine cards with citations
+        During this process you'll see the Ideation space actively searching connected Workfront Planning data or information available on the web.
+        For example, it might search for existing programs, products, personas, or regions, as well as for similar concepts available online. 
+        When the ideation completes, the following things are added to the Ideation space:  
+        * A summary of the AI findings which is linked to several cards with detailed information about things to consider. The details cards display in a new section. A connector indicates which card section belongs to which summary.  
+        * A **Brief** file in the lower-left corner of the ideation space. The brief is a draft of the future record and it displays as a record's Details page. 
+        ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)      
+    1. Continue to add information to the ideation space to complete creating your brief. 
+    -->
 
-   1. 목표 및 컨텍스트 이해
-   2. 스페이스 및 선택한 자료 검토
-   3. 문서, 웹 및 데이터에서 증거 수집
-   4. 결과를 연구 요약으로 종합하기
-   5. 인용이 있는 카드 만들기 및 세분화
-
-   이 프로세스 중에 접속된 Workfront Planning 데이터 또는 웹에서 사용할 수 있는 정보를 검색하는 데 사용되는 관념화 공간을 볼 수 있습니다.
-
-   예를 들어 기존 프로그램, 제품, 가상 사용자 또는 지역은 물론 온라인에서 사용 가능한 유사한 개념도 검색할 수 있습니다. <!--check on this with Et-->
-
-   관념이 완료되면 관념 공간에 다음과 같은 것들이 추가됩니다.
-
-   * 고려해야 할 사항에 대한 자세한 정보가 포함된 여러 카드와 연결된 AI 결과 요약 세부 사항 카드가 새 섹션에 표시됩니다. 커넥터는 어떤 카드 섹션이 어떤 요약에 속하는지를 나타냅니다.
-
-   * 관념화 공간의 왼쪽 아래에 있는 **Brief** 파일입니다. 개요는 향후 레코드의 초안이며 레코드의 세부 정보 페이지로 표시됩니다.
-
-   ![분기가 있는 관념화 카드](assets/ideation-card-with-branched-off-additional-cards.png)
-
-1. 아이디어 공간에 정보를 계속 추가하여 개요 작성을 완료합니다.
-
-1. (조건부) 개요가 완료되면 왼쪽 하단의 미리 보기 이미지를 클릭한 후 다음 중 하나를 클릭합니다.
-
-   * 파일을 만들려면 **파일로 내보내기**
-   * 계획 레코드를 만들려면 **Workfront Planning으로 내보내기**
-
-   항목을 브리프에 추가하고 내보내는 방법에 대한 자세한 내용은 [Ideation Space에서 브리프 만들기](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)를 참조하십시오.
+1. (조건부) 개요가 완료되면 왼쪽 하단의 미리 보기 이미지를 클릭한 다음 **Workfront Planning으로 내보내기**&#x200B;를 클릭하여 Planning 레코드를 만듭니다.
 
    이렇게 하면 추가 정보가 포함된 레코드 생성이 완료되고 원래 선택한 레코드 유형에 추가됩니다.
 
@@ -213,7 +203,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. Workfront Planning의 기존 레코드로 이동하여 세부 정보 페이지를 엽니다.
 
-1. **Ideation 공간에서 열기**&#x200B;를 클릭합니다. 새 탭에서 관념화 공간이 열립니다.
+1. **Ideation 공간에서 열기** ![](assets/open-in-ideation-space.png)를 클릭합니다. 새 탭에서 관념화 공간이 열립니다.
 
    레코드에 대한 관념이 이미 있으면 해당 공간을 엽니다.
 
@@ -222,18 +212,13 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >[!TIP]
    >
    >관념화 공간을 사용하여 레코드를 벌크 편집할 수 없습니다.
+1. 이 문서의 [이상 공간을 사용하여 레코드 만들기](#create-records-using-the-ideation-space) 섹션에 설명된 대로 간단한 편집을 계속합니다.
 
    <!-- 
     I don't think these steps are still valid but the environment was not available to test: 
     - If a record is already linked to a Catalyze canvas, a link appears beneath the record title; clicking it opens the associated canvas.
     - If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
     -->
-
-1. 이 문서의 [이상 공간을 사용하여 레코드 만들기](#create-records-using-the-ideation-space) 섹션에 설명된 대로 간단한 편집을 계속합니다.
-
-
-
-
 
 
 <!--

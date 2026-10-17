@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
+source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
 workflow-type: tm+mt
-source-wordcount: '3584'
+source-wordcount: '3579'
 ht-degree: 1%
 ---
 # 2026년 4분기 릴리스 개요
@@ -33,7 +33,7 @@ ht-degree: 1%
 >
 >| 월별 릴리스 | 분기별 릴리스 |
 >|----|----|
->| <ul><li>26.8 (2026년 8월 13일)</li><li>26.9 (2026년 9월 17일)</li><li>26.10 (2026년 10월 14일)</li></ul> | <ul><li>26.10 (2026년 10월 22일)</li></ul> |
+>| <ul><li>26.8 (2026년 8월 13일)</li><li>26.9 (2026년 9월 17일)</li><li>26.10 (2026년 10월 22일)</li></ul> | <ul><li>26.10 (2026년 10월 22일)</li></ul> |
 >
 >* 26.10(2026년 10월)이 2026년 10월 22일로 이동되었습니다.
 >
@@ -382,12 +382,12 @@ ht-degree: 1%
 -->        
          <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">여러 문서를 단일 승인 워크플로로 그룹화</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">여러 문서를 단일 승인 워크플로로 그룹화</a>
                 <p>이제 단일 승인 작업 과정 아래에서 여러 문서를 그룹화할 수 있으므로 동일한 단계를 함께 이동합니다.</p>
             </td>
             <td><p>이 기능은 Frame.io 통합을 사용할 수 없으므로 미리보기 샌드박스 환경에서는 사용할 수 없습니다.</p></td>
-            <td><p>2026년 10월 15일</p></td>
-            <td><p>2026년 10월 15일</p></td>
+            <td><p>2026년 10월 22일</p></td>
+            <td><p>2026년 10월 22일</p></td>
         </tr>
         <tr>
             <td>

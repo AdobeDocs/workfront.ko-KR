@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 23c046611fccec4106f0830fdf7fa89c18613f9e
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '14687'
+source-wordcount: '14694'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -1195,6 +1195,7 @@ ht-degree: 2%
   * Adobe Workfront에 새 문서 추가 {#add-new-documents-to-workfront}
     * [Adobe Workfront에 새 문서 추가](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
     * [파일 시스템에서 Adobe Workfront에 문서 추가](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+    * [웹 링크를 문서로 추가](documents/adding-documents-to-workfront/add-live-url.md)
     * [외부 애플리케이션에서 문서 연결](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
     * [Adobe Workfront과 외부 문서 스토리지 공급자 간의 링크 제거](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
     * [문서 요청](documents/adding-documents-to-workfront/request-a-document.md)
