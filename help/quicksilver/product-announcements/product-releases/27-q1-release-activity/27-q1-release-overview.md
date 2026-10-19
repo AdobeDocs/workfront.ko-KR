@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20b6b1fc08e06d2305d1e73c81ad0b15c19d621f
+source-git-commit: a8c35fd2f1059bd91de7d6d59db7e447ec6af6a9
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 9%
+source-wordcount: '516'
+ht-degree: 5%
 ---
 
 # 2027년 1분기 릴리스 개요
@@ -66,10 +66,42 @@ ht-degree: 9%
 * 교정쇄
 * 목표
 
-### Workfront 유지 관리 업데이트
+## 공지
 
-2027년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+### 작업 역할 목록 보기의 레거시 청구 및 비용 요금 필드 사용 중단
+
+시간이 지남에 따라, Dell은 비율 정보를 보다 완벽하고 확장 가능한 방식으로 유지 관리할 수 있는 향상된 비율 관리 기능과 전담 작업 역할 경험을 도입했습니다. 따라서 등급 관리는 목록 기반 관리 워크플로보다는 이러한 전용 경험으로 이동하고 있습니다.
+
+2027년 1월 릴리스에서는 필터/보기/그룹화 구성(직접 참조 및 텍스트 모드 계산 열 모두)을 포함하여 레거시 필드 **시간당 청구** 및 **시간당 비용**&#x200B;을 Workfront API 또는 작업 역할 목록 보기에서 더 이상 사용할 수 없습니다.
+
+보고서에서 대체물로 권장되는 텍스트 모드 코드를 사용할 수 있습니다(필요에 따라 `costRates` 또는 `billingRates` 사용).
+
+    &quot;
+    displayname=Test
+    listdelimiter=&lt;br>
+    listmethod=nested(costRates).lists
+    type=iterate
+    valueexpression=CONCAT({startDate},&quot; - &quot;,{endDate},&quot;: &quot;,{value})
+    valueformat=HTML
+    &quot;
+
+작업 역할 비율을 관리하고 검토하려면 전용 비율 관리 환경을 사용하십시오.
+
+* [작업 역할] > [비율] 페이지에서 직접 작업 역할 비율에 액세스하고 관리합니다.
+* 비율 보고서를 사용하여 작업 역할 간의 비율 정보를 검토, 분석 및 보고합니다.
+
+변경을 준비하는 데 필요한 작업은 없습니다. 그러나 현재 작업 역할 목록 보기에 **시간당 청구** 및 **시간당 비용** 필드를 표시하는 관리자는 위에서 설명한 권장 요금 관리 경험을 사용하도록 워크플로우를 업데이트해야 합니다.
+
+작업 역할 비율에 대한 자세한 내용은 [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
+
+<!--
+
+### Workfront Maintenance Updates
+
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+
+-->
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
