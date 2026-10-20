@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '3560'
+source-wordcount: '3623'
 ht-degree: 5%
 ---
 # 이벤트 구독 API
@@ -45,7 +45,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Workfront 애플리케이션 내에서 이벤트 구독을 사용하여 작업하려면 [Workfront에서 이벤트 구독 구성](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)을 참조하십시오.
+>Workfront 애플리케이션 내에서 이벤트 구독을 사용하여 작업하려면 [Workfront에서 이벤트 구독 구성](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) 및 [관리자가 아닌 사용자로 이벤트 구독 관리](/help/quicksilver/wf-api/general/event-subs-non-admin.md)를 참조하십시오.
 
 귀하의 방화벽을 통해 이벤트 구독 페이로드를 수신하려면 다음 IP 주소를 귀하의 방화벽에 추가해야 합니다.
 
@@ -118,12 +118,14 @@ ht-degree: 5%
 
 ## 이벤트 구독 인증
 
-이벤트 구독을 생성, 쿼리 또는 삭제하려면 Workfront 사용자에게 다음이 필요합니다.
+이벤트 구독을 생성, 쿼리 또는 삭제하려면 Workfront 사용자에게 이벤트 구독 기능에 대한 필수 액세스 권한과 수행 중인 작업에 대한 적절한 권한이 있어야 합니다.
 
-* 이벤트 구독을 사용하려면 &quot;시스템 관리자&quot;의 액세스 수준이 필요합니다.
+* 필요한 액세스 권한이 있는 사용자는 Workfront에서 이벤트 구독을 관리할 수 있지만, 사용 권한 및 시스템 구성에서 허용하는 범위 내에서만 가능합니다.
 * 이벤트 구독 API를 사용하려면 `sessionID` 헤더가 필요합니다.
 
   자세한 내용은 [API 기본 사항](api-basics.md)의 [인증](api-basics.md#authentication)을 참조하세요.
+
+Workfront 관리자가 아닌 경우 Workfront 애플리케이션에서 이벤트 구독을 관리하는 방법에 대한 자세한 내용은 [관리자가 아닌 사용자로 이벤트 구독 관리](/help/quicksilver/wf-api/general/event-subs-non-admin.md)를 참조하십시오.
 
 ## 이벤트 구독 오버로드 방지
 

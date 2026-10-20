@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 6%
+source-wordcount: '83'
+ht-degree: 4%
 ---
 # 이벤트 구독
 
@@ -28,9 +28,10 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->Workfront 애플리케이션 내에서 이벤트 구독을 사용하여 작업하려면 [Workfront에서 이벤트 구독 구성](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)을 참조하십시오.
+>Workfront 애플리케이션 내에서 이벤트 구독을 사용하여 작업하려면 [Workfront에서 이벤트 구독 구성](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) 및 [관리자가 아닌 사용자로 이벤트 구독 관리](/help/quicksilver/wf-api/general/event-subs-non-admin.md)를 참조하십시오.
 
 * [이벤트 구독 API](../../wf-api/general/event-subs-api.md)
+* [관리자가 아닌 사용자로 이벤트 구독 관리](../../wf-api/general/event-subs-non-admin.md)
 * [이벤트 구독 모범 사례](../../wf-api/general/event-sub-best-practice.md)
 * [이벤트 구독 배달 요구 사항](../../wf-api/general/setup-event-sub-endpoint.md)
 * [이벤트 구독 리소스 필드](../../wf-api/api/event-sub-resource-fields.md)
