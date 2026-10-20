@@ -11,9 +11,9 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 85f0798c7956369e7b3c92a6c777414fa81511b6
+source-git-commit: 05f148f2c28555e37fb415f606e314a5df564047
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '463'
 ht-degree: 4%
 ---
 # 웹 링크를 문서로 추가
@@ -64,7 +64,7 @@ html 웹 페이지를 Workfront에 웹 링크로 업로드할 수 있습니다. 
 >* 사이트에서 iFrame 임베딩을 허용하는 경우 URL이 지원됩니다.
 >* 비공개 웹 URL이 지원되지만 서버 구성에 따라 특정 인증 흐름이 작동하지 않을 수 있습니다.
 >* Youtube 및 Figma URL은 현재 지원되지 않습니다.<br>
->자세한 내용은 [Frame.io에서 지원되는 URL 종류](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported)를 참조하십시오.
+>자세한 내용은 [Frame.io에 대한 HTML 검토](https://help.frame.io/en/articles/12893213-html-review-for-frame-io)를 참조하십시오.
 
 
 웹 링크를 추가하려면:
