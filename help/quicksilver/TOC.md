@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+source-git-commit: a940bad993b8e0be1328d84dc8b113e9b513fbdb
 workflow-type: tm+mt
-source-wordcount: '14700'
+source-wordcount: '14708'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -2715,6 +2715,7 @@ ht-degree: 2%
   * 이벤트 구독 {#event-subscriptions}
     * [이벤트 구독](wf-api/api/event-subscriptions.md)
     * [이벤트 구독 API](wf-api/general/event-subs-api.md)
+    * [관리자가 아닌 사용자로 이벤트 구독 관리](wf-api/general/event-subs-non-admin.md)
     * [이벤트 구독 모범 사례](wf-api/general/event-sub-best-practice.md)
     * [이벤트 구독 게재 요구 사항](wf-api/general/setup-event-sub-endpoint.md)
     * [이벤트 구독 다시 시도](wf-api/api/event-sub-retries.md)
