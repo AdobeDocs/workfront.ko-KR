@@ -4,13 +4,13 @@ content-type: how-to
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Workfront에서 이벤트 구독 구성
-description: Adobe Workfront 관리자는 설정 영역에서 이벤트 구독을 만들고, 보고, 삭제하여 Workfront 이벤트를 외부 엔드포인트로 보낼 수 있습니다.
+description: Workfront 관리자는 설정에서 이벤트 구독을 만들고, 보고, 삭제할 수 있습니다. 필요한 액세스 권한이 있는 사용자는 권한 및 시스템 구성으로 허용된 범위 내에서 이벤트 구독을 관리할 수도 있습니다.
 feature: System Setup and Administration
 role: Admin
 author: Courtney
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '452'
 ht-degree: 5%
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 5%
 Adobe Workfront 관리자는 설정 영역에서 이벤트 구독을 만들고, 보고, 삭제할 수 있습니다. 이벤트 구독은 지정된 이벤트가 발생할 때 Workfront 이벤트 정보를 외부 끝점으로 보냅니다.
 
 Workfront에서 이벤트 구독을 만들고 삭제할 수 있지만 기존 구독을 편집할 수는 없습니다. 구독을 변경해야 하는 경우 구독을 삭제하고 새 구독을 만드십시오.
+
+필요한 액세스 권한이 있는 사용자는 Workfront에서 이벤트 구독을 관리할 수도 있지만 권한 및 시스템 구성으로 허용된 범위 내에서만 가능합니다. 자세한 내용은 [관리자가 아닌 사용자로 이벤트 구독 관리](/help/quicksilver/wf-api/general/event-subs-non-admin.md)를 참조하십시오.
 
 이벤트 구독에 대한 자세한 내용은 [이벤트 구독](/help/quicksilver/wf-api/api/event-subscriptions.md)의 문서를 참조하십시오.
 
@@ -45,7 +47,10 @@ Workfront에서 이벤트 구독을 만들고 삭제할 수 있지만 기존 구
   </tr>
   <tr>
    <td role="rowheader">액세스 수준 구성</td>
-   <td>Workfront 관리자여야 합니다.</td>
+   <td>
+    <p>이벤트 구독을 관리하려면 적절한 액세스 권한이 있어야 합니다.</p>
+    <p>관리자가 아닌 사용자는 권한 및 시스템 구성에서 허용하는 범위 내에서만 액세스할 수 있습니다.</p>
+   </td>
   </tr>
  </tbody>
 </table>

@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
+source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
 workflow-type: tm+mt
-source-wordcount: '3579'
+source-wordcount: '3622'
 ht-degree: 1%
 ---
 # 2026년 4분기 릴리스 개요
@@ -780,6 +780,15 @@ ht-degree: 1%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">이제 관리자가 아닌 사용자가 이벤트 구독을 만들 수 있습니다.<p>[!BADGE 해제 일정]{type=Neutral}</p></a>
+                <p>이제 사용자는 타깃팅된 구독 및 IMS 사용자 액세스 토큰을 사용하여 시스템 관리자 액세스 권한 없이 지원되는 Workfront 개체에 대한 웹후크 알림을 받을 수 있습니다.</p>
+            </td>
+            <td><p>2026년 10월 16일</p></td>
+            <td><p>2026년 10월 16일</p></td>
+            <td><p>2026년 10월 16일</p></td>
         </tr>
         <tr>
             <td>

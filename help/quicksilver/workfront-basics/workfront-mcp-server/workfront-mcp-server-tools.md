@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
+source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
 workflow-type: tm+mt
-source-wordcount: '3561'
+source-wordcount: '3537'
 ht-degree: 3%
 ---
 
@@ -235,11 +235,11 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 
 | 제목 | 도구 이름 | 기능 | 액션 |
 | --- | --- | --- | --- |
-| 오브젝트 검색 | `workflow_search_any_object` | 유연한 필터 매개 변수, 순서 지정 및 페이지 매김을 사용하여 Workfront 개체를 검색합니다. | 읽기 |
+| 오브젝트 검색 | `workflow_search_any_object` | 이 도구는 더 이상 사용되지 않습니다. | 읽기 |
 | 오브젝트 만들기 | `workflow_create_any_object` | 프로젝트, 작업, 문제, 시간, 할당, 프로그램 또는 포트폴리오와 같은 새 Workfront 개체를 만듭니다. | 쓰기 |
 | 개체 업데이트 | `workflow_update_any_object` | 기존 개체의 필드를 업데이트합니다. 또한 작업 또는 문제를 다른 프로젝트로 이동, 작업 또는 문제를 새 프로젝트(또는 문제를 작업으로 변환) 및 작업 전임 작업(종속성) 설정을 지원합니다. | 쓰기 |
 | 오브젝트 삭제 | `workflow_delete_any_object` | ID별로 Workfront 개체를 삭제합니다. 작업을 수행하기 전에 명시적인 사용자 확인이 필요합니다. | 쓰기 |
-| 필드 이름 확인 | `workflow_resolve_field_names_any_object` | 사용자가 제공한 필드 이름이나 레이블을 기본 Workfront API 필드 이름으로 변환하여 AI 에이전트 플랫폼이 정확한 요청을 작성할 수 있도록 합니다. | 읽기 |
+| 필드 이름 확인 | `workflow_resolve_field_names_any_object` | 이 도구는 더 이상 사용되지 않습니다. | 읽기 |
 | 워크플로우 문서 읽기 | `workflow_read_workflow_docs` | 도구 사용 안내서 및 개체별 작업 플레이북이 포함된 Workfront Workflow 설명서를 로드합니다. 워크플로 작업을 수행하기 전에 필요한 첫 번째 단계입니다. | 읽기 |
 
 ### 개체 도구 기능 업데이트

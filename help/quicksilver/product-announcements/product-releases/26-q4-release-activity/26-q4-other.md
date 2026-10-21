@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
+source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1286'
 ht-degree: 0%
 ---
 # 2026년 4분기 릴리스 일정 중 기타 개선 사항
@@ -23,6 +23,22 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 4분기 릴리스의 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)를 참조하십시오.
+
+## 이제 관리자가 아닌 사용자가 이벤트 구독을 만들 수 있습니다.
+
+>[!NOTE]
+>
+>모두를 위한 미리 보기 및 프로덕션: 2026년 10월 16일
+>[!BADGE 일정 해제]{type=Neutral}
+
+
+시스템 관리자 액세스 없이 중요한 Workfront 개체 변경 사항에 보다 쉽게 대응할 수 있도록 사용자 이벤트 구독을 추가했습니다. 이제 IMS 사용자 액세스 토큰과 각 개체 및 이벤트 조합에 대한 타겟팅된 구독을 사용하여 지원되는 Workfront 개체에 대한 웹후크 알림을 받을 수 있습니다.
+
+사용자 이벤트 구독은 CREATE, UPDATE 및 DELETE 이벤트를 사용하여 작업, 프로젝트, 메모 또는 댓글 및 할당 개체를 지원합니다. 필요한 각 오브젝트 및 이벤트 조합에 대해 별도의 구독을 만들고, 오브젝트 ID 또는 필터를 사용하여 원하는 정확한 레코드로 게재 범위를 좁힐 수 있습니다.
+
+이 릴리스는 Workfront Fusion을 사용할 때와 같이 광범위한 관리자 권한을 부여하지 않고 경량의 이벤트 기반 통합이 필요한 팀에 특히 유용합니다.
+
+자세한 내용은 [관리자가 아닌 사용자로 이벤트 구독 관리](/help/quicksilver/wf-api/general/event-subs-non-admin.md)를 참조하십시오.
 
 ## 향상된 목록 업데이트
 

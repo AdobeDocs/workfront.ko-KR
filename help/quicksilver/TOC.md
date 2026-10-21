@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '14694'
+source-wordcount: '14700'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -697,7 +697,9 @@ ht-degree: 2%
       * [사용자 지정 조건 삭제](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Adobe Workfront 관리 {#manage-wf}
     * [Workfront 관리](administration-and-setup/manage-workfront/manage-workfront.md)
-    * [Workfront에서 이벤트 구독 구성](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
+    * 이벤트 구독 관리 {#manage-event-subscriptions}
+      * [이벤트 구독 관리](administration-and-setup/manage-workfront/manage-event-subscriptions/manage-event-subscriptions.md)
+      * [Workfront에서 이벤트 구독 구성](administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)
     * 증명 기능 구성 {#configure-proofing}
       * [증명 구성](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [교정쇄 설정](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)

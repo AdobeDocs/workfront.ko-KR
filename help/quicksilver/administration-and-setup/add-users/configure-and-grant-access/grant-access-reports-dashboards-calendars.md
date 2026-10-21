@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4a9a8e4608e46eb9a2e16619bf1042de002cd12
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '587'
 ht-degree: 3%
 ---
 # 보고서, 대시보드 및 캘린더에 대한 액세스 권한 부여
@@ -80,12 +80,15 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
    * **선택 사항에서**
    * **삭제**
-   * **기본 제공 보고서 보기**: Workfront에서 빌드한 보고서를 보려면 이 항목을 선택해야 합니다.
    * **공유**
+
+   기본적으로 활성화되지 않은 옵션은 다음과 같습니다.
+
+   * **기본 제공 보고서 보기**: Workfront에서 빌드한 보고서를 보려면 이 항목을 선택해야 합니다.
    * **공개적으로 보고서 공유**: Workfront 계정이 없는 사용자와 보고서에 대한 공개 링크를 공유하여 보고서를 공개적으로 공유할 수 있습니다. 이 수준의 공유를 허용하려면 이 옵션을 선택해야 합니다.
    * **시스템 전체 공유**: Workfront 라이선스가 있는 시스템의 모든 사용자와 보고서를 공유할 수 있습니다. 이 수준의 공유를 허용하려면 이 옵션을 선택해야 합니다.
 
-     보고서, 대시보드 및 캘린더 공유에 대한 자세한 내용은 [보고서, 대시보드 및 캘린더 공유](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)를 참조하십시오.
+   보고서, 대시보드 및 캘린더 공유에 대한 자세한 내용은 [보고서, 대시보드 및 캘린더 공유](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)를 참조하십시오.
 
 1. (선택 사항) 작업 중인 액세스 수준의 다른 개체 및 영역에 대한 액세스 설정을 구성하려면 [Adobe Workfront에 대한 액세스 구성](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)에 나열된 문서 중 하나를 계속 사용하십시오(예: [작업에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 및 [재무 데이터에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)).
 1. 완료되면 **저장**&#x200B;을 클릭하세요.
