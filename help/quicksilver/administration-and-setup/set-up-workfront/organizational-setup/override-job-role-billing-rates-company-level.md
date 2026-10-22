@@ -23,14 +23,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '638'
 ht-degree: 2%
 ---
 # 회사 수준에서 작업 역할 청구 요금 재정의
-
-{{preview-fast-release-general}}
 
 작업 역할이 생성되면 해당 역할에 대한 시간당 청구 요금을 선택할 수 있습니다. 한 회사에만 해당되는 여러 개의 시간별 청구 요금을 생성할 수 있습니다. 각 청구 요금은 특정 날짜 범위에 유효합니다.
 
@@ -74,38 +72,8 @@ ht-degree: 2%
 1. 작업 역할이 할당된 회사를 찾습니다.
 1. 목록에서 회사 이름을 클릭합니다.
 1. 왼쪽 패널에서 **[!UICONTROL 청구 요금]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 청구 요금 추가] > [!UICONTROL 새 청구 요금]** 또는 <span class="preview">**청구 요금 추가**</span>&#x200B;를 클릭합니다.
+1. **[!UICONTROL 청구 요금 추가]**&#x200B;를 클릭합니다.
 1. [!UICONTROL 새 청구 요금] 대화 상자에서 [!UICONTROL **작업 역할**]&#x200B;을(를) 선택하여 청구 요금을 정의합니다.
-
-### 프로덕션 환경에서:
-
-[!UICONTROL **기본 청구 요금**]&#x200B;은(는) 이 작업 역할에 대한 시스템 수준 요금을 표시합니다.
-
-![새 청구 요금 대화 상자](assets/date-effective-billing-rates-for-company.png)
-
-1. [!DNL **청구 요금 1**] 필드에 청구 요금을 입력합니다. 그런 다음 [!UICONTROL **저장**]&#x200B;을 클릭하여 청구 요금을 한 번 재정의합니다.
-
-   또는
-
-   유효 일자가 있는 청구 요금을 추가하려면 [!UICONTROL **요금 추가**]&#x200B;를 클릭하십시오.
-
-1. (조건부) 두 개 이상의 청구 요율을 추가하는 경우 다음 정보를 입력합니다.
-
-   * **[!UICONTROL 청구 요금 1], 2 등**: 해당 기간의 청구 요금 값.
-   * **[!UICONTROL 시작 날짜]**: 요금이 적용되는 날짜입니다.
-   * **[!UICONTROL 종료 날짜]**: 요금이 종료되는 날짜입니다.
-
-     청구 요금 1에는 시작 일자가 없으며 마지막 청구 요금에 종료 일자가 없습니다. 일부 날짜는 자동으로 추가됩니다. 예를 들어, 청구 요금 1에 종료 일자가 없고 시작 일자가 2023년 5월 1일인 청구 요금 2를 추가하는 경우, 2023년 4월 30일인 종료 일자가 청구 요금 1에 추가되므로 간격이 없습니다.
-
-1. [!UICONTROL **저장**]&#x200B;을 클릭합니다.
-
-   >[!NOTE]
-   >
-   >프로젝트에서 변경된 작업 역할 비율은 해당 프로젝트에만 영향을 줍니다. 회사 수준에서 변경된 요금은 모든 프로젝트에 영향을 줍니다. 자세한 내용은 [청구 요금 오버라이드 및 프로젝트 수익 계산 개요](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)를 참조하십시오.
-
-<div class="preview">
-
-### 미리보기 환경에서:
 
 1. 대행업체, 위치 또는 비용 부서와 같은 비율 속성을 선택합니다.
 
@@ -145,5 +113,35 @@ ht-degree: 2%
    >
    >프로젝트에서 변경된 작업 역할 비율은 해당 프로젝트에만 영향을 줍니다. 회사 수준에서 변경된 요금은 회사가 할당한 모든 프로젝트에 영향을 줍니다. 자세한 내용은 [청구 요금 오버라이드 및 프로젝트 수익 계산 개요](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)를 참조하십시오.
 
-</div>
+
+
+
+<!--
+
+   The [!UICONTROL **Default Billing Rate**] displays the system-level rate for this job role.
+
+   ![New Billing Rate dialog](assets/date-effective-billing-rates-for-company.png)
+
+1. In the [!DNL **Billing Rates 1**] field, enter the billing rate. Then, click [!UICONTROL **Save**] to override the billing rate one time.
+
+   Or
+
+   Click [!UICONTROL **Add Rate**] to add more billing rates with effective dates.
+
+1. (Conditional) If you are adding more than one billing rate, enter the following information:
+
+   * **[!UICONTROL Billing Rates 1], 2, etc.**: The value of the billing rate for the time period.
+   * **[!UICONTROL Start Date]**: The date when the rate becomes effective.
+   * **[!UICONTROL End Date]**: The date when the rate ends.
+
+     Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
+
+1. Click [!UICONTROL **Save**].
+
+   >[!NOTE]
+   >
+   >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+
+-->
+
 

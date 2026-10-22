@@ -30,14 +30,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '483'
 ht-degree: 4%
 ---
 # 주제 그룹 만들기
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -114,4 +112,4 @@ ht-degree: 4%
    이렇게 하면 요청 대기열에 새 주제 그룹이 만들어집니다. 이제 요청 대기열 아래의 첫 번째 드롭다운 메뉴에서 추가 범주를 선택할 수 있습니다.\
    요청 제출에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
-1. 기존 주제 그룹을 편집하려면 주제 그룹 목록에서 주제 그룹을 선택하고 <span class="preview">화면 하단의 작업 표시줄에서 **편집**&#x200B;을 클릭한 다음</span>을 클릭하여 열리는 창에서 세부 정보를 편집합니다. 변경 내용을 저장하려면 **저장**&#x200B;을 클릭하세요.
+1. 기존 주제 그룹을 편집하려면 주제 그룹 목록에서 주제 그룹 옆에 있는 확인란을 선택하고 화면 하단의 작업 표시줄에서 **편집**&#x200B;을 클릭한 다음 열리는 창에서 세부 정보를 편집합니다. 변경 내용을 저장하려면 **저장**&#x200B;을 클릭하세요.

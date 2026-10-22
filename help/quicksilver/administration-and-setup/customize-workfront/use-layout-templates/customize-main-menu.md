@@ -32,14 +32,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '700'
 ht-degree: 6%
 ---
 # 레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -152,18 +150,10 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
    * 메인 메뉴에 표시할 ![아이콘](assets/add-icon-plus-in-circle.png)개 항목을 표시합니다.
    * ![Drag icon](assets/move-icon---dots.png) 항목을 끌어 놓아 기본 메뉴의 표시 순서를 변경합니다.
 
-     >[!NOTE]
-     >
-     >시스템 항목의 순서를 변경할 수 없습니다. 이러한 항목은 활성 상태일 때 항상 주 메뉴의 맨 아래에 표시됩니다. <!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
-
-<div class="preview">
-
 1. **System** 항목에 대해 다음 중 하나를 수행합니다.
 
    * 주 메뉴에 표시하지 않을 ![아이콘](assets/remove-icon---x-in-circle.png)을 숨깁니다.
    * 메인 메뉴에 표시할 ![아이콘](assets/add-icon-plus-in-circle.png)개 항목을 표시합니다.
-
-</div>
 
 1. **완료**&#x200B;를 클릭합니다.
 

@@ -32,14 +32,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1345'
 ht-degree: 2%
 ---
 # 양식 구성 및 미리 보기
-
-{{preview-fast-release-general}}
 
 양식 디자이너를 사용하여 사용자 정의 양식을 구성하고 미리 보기하여 제대로 설정되었는지 확인할 수 있습니다.
 
@@ -197,11 +195,4 @@ ht-degree: 2%
 1. [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 양식을 만들거나 편집하고 필드를 추가합니다.
 
 1. 오른쪽 상단의 **미리 보기**&#x200B;를 클릭하여 양식 사용 시 표시되는 모양을 확인한 다음 **미리 보기 종료**&#x200B;를 클릭하여 양식 편집으로 돌아갑니다.
-
-   >[!NOTE]
-   >
-   >프로덕션 환경에서는 양식 디자이너 미리 보기 모드에서 고급 논리가 지원되지 않습니다.
-   >
-   ><span class="preview">미리 보기 환경에서 모든 논리 형식을 미리 보기 모드에서 사용할 수 있습니다.</span>
-
 

@@ -15,14 +15,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 3%
 ---
 # 변경 내역 보기 및 관리
-
-{{preview-fast-release-general}}
 
 변경 사항 기록을 사용하면 시스템 관리자가 Adobe Workfront의 오브젝트 및 특정 필드에 대한 변경 사항을 구성하고 추적할 수 있습니다. 관리자는 유연한 구성을 통해 추적할 오브젝트 및 필드를 설정할 수 있습니다.
 
@@ -31,7 +29,7 @@ ht-degree: 3%
 * 액세스 수준 또는 작업 역할 생성 또는 삭제와 같은 설정 영역의 활동
 * 프로젝트 설명 편집 또는 사용자의 레이아웃 템플릿 변경과 같은 필드 수준 업데이트
 * 프로젝트 상태 업데이트 또는 사용자 정의 양식을 작업에 첨부하는 등의 오브젝트 업데이트
-* <span class="preview">참가자 및 결정을 포함한 통합 검토 및 승인 워크플로 활동</span>
+* 참가자 및 의사 결정을 포함한 통합 검토 및 승인 워크플로우 활동
 
 추적할 개체 및 필드를 정의하는 방법에 대한 자세한 내용은 [변경 내역에서 추적할 필드 구성](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)을 참조하십시오.
 

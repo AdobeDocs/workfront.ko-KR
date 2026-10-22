@@ -35,14 +35,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '991'
 ht-degree: 3%
 ---
 # 대기열 주제 만들기
-
-{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -206,8 +204,7 @@ drafted - replace table with P&P:
 
 1. 편집할 대기열 주제가 포함된 프로젝트 또는 템플릿으로 이동합니다.
 1. 왼쪽 패널에서 **주제 큐**&#x200B;를 클릭합니다.
-1. 편집할 대기열 주제를 클릭합니다.
-   <span class="preview">편집할 대기열 주제 옆에 있는 확인란을 선택하고 화면 하단의 파란색 작업 표시줄에서 **편집**&#x200B;을 클릭합니다.</span>
+1. 편집할 대기열 주제 옆의 확인란을 선택하고 화면 하단의 파란색 작업 표시줄에서 **편집**&#x200B;을 클릭합니다.
 
 사용 가능한 편집 옵션에 대한 자세한 내용은 이 문서에서 [대기열 주제 만들기](#create-a-queue-topic)를 참조하십시오.
 
@@ -218,6 +215,5 @@ drafted - replace table with P&P:
 1. 삭제할 대기열 주제가 포함된 프로젝트 또는 템플릿으로 이동합니다.
 1. 왼쪽 패널에서 **주제 큐**&#x200B;를 클릭합니다.
 1. 삭제할 각 대기열 주제의 이름 옆에 있는 상자를 클릭합니다. 상자에 확인 표시가 나타납니다.
-1. 페이지 상단의 **삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭합니다.
-   <span class="preview">화면 아래쪽에 있는 작업 표시줄에서 **삭제**&#x200B;를 클릭합니다.</span>
+1. 화면 하단의 작업 표시줄에서 **삭제**&#x200B;를 클릭합니다.
 

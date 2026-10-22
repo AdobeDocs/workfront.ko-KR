@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
+source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
 workflow-type: tm+mt
-source-wordcount: '3537'
+source-wordcount: '3774'
 ht-degree: 3%
 ---
 
@@ -42,6 +42,51 @@ AI 에이전트 플랫폼에 표시되는 도구는 조직의 Workfront 제품 �
 
 다음 표는 각 도구가 속한 제품 영역을 식별합니다.
 
+<div class="preview">
+
+<!--This section is for the 27.1 release-->
+
+## Workfront MCP 서버의 도구 세트
+
+>[!IMPORTANT]
+>
+>도구 세트는 Workfront MCP 서버에 대한 연결을 구성할 때 선택됩니다.
+>자세한 내용 및 지침은 [Adobe Workfront MCP 서버 구성](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)을 참조하세요.
+
+도구 세트를 사용하면 전체 MCP 카탈로그를 표시하는 대신 AI 클라이언트에 필요한 Workfront 기능을 선택할 수 있습니다. 이 기능은 모든 도구 정의를 맨 앞에 로드하거나, 도구 카운트 제한 내에 있어야 하거나, 보다 집중적인 도구 목록의 이점을 누리는 클라이언트에 유용합니다.
+
+`toolsets` 쿼리 매개 변수를 Workfront MCP 서버 URL에 추가하여 도구 세트를 지정할 수 있습니다.
+
+>[!BEGINSHADEBOX]
+
+예:
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
+```
+
+이 예제에서는 `core` 및 `comment-stream` 기능을 노출합니다. 하위 집합을 선택할 때마다 `core` 그룹이 자동으로 포함됩니다.
+
+>[!ENDSHADEBOX]
+
+사용 가능한 도구 세트는 다음과 같습니다.
+
+* `core` — 도구 집합의 하위 집합을 선택할 때 자동으로 포함되는 기본 Workfront 도구 집합입니다.
+* `comment-stream` — 댓글 및 토론 워크플로에 사용되는 도구입니다.
+* `planning` — Workfront Planning 기능에 대한 도구입니다.
+* `approvals` — 승인 워크플로용 도구입니다.
+
+인증된 전체 카탈로그를 표시하려면 매개 변수를 생략하거나 `toolsets=all`을(를) 사용하십시오.
+
+`toolsets=core,planning,approvals`과 같이 선택적 그룹을 쉼표와 결합할 수 있습니다.
+
+선택은 도구, 리소스 및 리소스 템플릿, 프롬프트 및 MCP 앱에서 UI에 Workfront 도구를 표시하는 데 적용됩니다. 백엔드 관련 서버 지침은 선택한 도구 세트 구성을 따르기도 합니다.
+
+도구 집합은 권한을 변경하지 않습니다. Workfront 액세스 수준 및 개체 권한은 계속 적용됩니다.
+
+AI 클라이언트가 다른 도메인에 액세스하도록 하려면 연결 구성을 업데이트하여 적절한 도구 세트를 선택합니다.
+
+</div>
 
 ## 읽기 및 쓰기 작업
 

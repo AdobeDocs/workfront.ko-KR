@@ -32,21 +32,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 8%
+ht-degree: 9%
 ---
 # 레이아웃 템플릿을 사용하여 랜딩 페이지 사용자 지정
-
-{{preview-fast-release-general}}
 
 Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가 Workfront에 로그인할 때마다 볼 영역을 지정할 수 있습니다.
 
 사용자는 다음 중 하나를 열 수 있습니다.
 
 * 지정된 Workfront 지역
-* 사용자 지정 대시보드.
+* 사용자 정의 대시보드
 
 레이아웃 템플릿 만들기에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
@@ -114,11 +112,11 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가
    * 사용자
    * 블루프린트
    * 계획 수립
-   * <span class="preview">사용자 지정 응용 프로그램</span>
+   * 사용자 정의 애플리케이션
 
      >[!NOTE]
      >
-     ><span class="preview">기본 메뉴에 이미 추가된 사용자 지정 응용 프로그램을 랜딩 페이지로 사용할 수 있습니다. 기본 메뉴 또는 랜딩 페이지 옵션으로 사용하려면 먼저 별도로 만들어야 합니다. 자세한 내용은 [Adobe App Builder을 사용하여 Workfront용 사용자 지정 응용 프로그램 만들기](/help/quicksilver/app-builder/app-builder.md).</span>를 참조하십시오.
+     >이미 메인 메뉴에 추가된 사용자 정의 응용 프로그램은 랜딩 페이지로 사용할 수 있습니다. 기본 메뉴 또는 랜딩 페이지 옵션으로 사용하려면 먼저 별도로 만들어야 합니다. 자세한 내용은 [Adobe App Builder을 사용하여 Workfront용 사용자 지정 응용 프로그램 만들기](/help/quicksilver/app-builder/app-builder.md)를 참조하십시오.
 
    >[!IMPORTANT]
    >

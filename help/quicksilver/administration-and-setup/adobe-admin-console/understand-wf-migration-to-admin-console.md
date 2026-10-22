@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Workfront 제품 프로필 관리자(Workfront 시스템 관리자)는 모든 �
 
 * **사용자가 마이그레이션되면 Workfront에 로그인하는 방식으로 변경되었음을 알리는 이메일을 Adobe에서 받게 됩니다.** 기존 Adobe으로 로그인하거나 동일한 이메일 주소를 사용하여 새 Adobe ID을 설정함으로써 처음으로 Adobe ID ID를 사용하여 로그인하라는 초대를 수락하도록 사용자를 초대합니다.
 
-  Adobe Experience Cloud로 Workfront에 로그인하는 방법에 대한 자세한 내용은 [Adobe ID에 로그인](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud)을 참조하십시오.
+  Adobe ID으로 Workfront에 로그인하는 방법에 대한 자세한 내용은 [Adobe CX Enterprise에 로그인](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-cx-enterprise)을 참조하십시오.
 
 ### 사용자 마이그레이션 완료
 

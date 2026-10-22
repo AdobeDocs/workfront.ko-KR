@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: 95ff5491c4fccc69a672d395ebd7573c0b905c9e
 workflow-type: tm+mt
-source-wordcount: '14711'
+source-wordcount: '14725'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -19,6 +19,7 @@ ht-degree: 2%
     * [Adobe Workfront 분기 릴리스 준비](product-announcements/product-releases/release-readiness.md)
     * 2027년 1분기 릴리스 {#release-27-q1}
       * [2027년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [2027년 1분기 AI 개선 사항](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md)
       * [2027년 1분기 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
     * 2026년 4분기 릴리스 {#release-26-q4}
       * [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
@@ -258,6 +259,7 @@ ht-degree: 2%
       * [21.1 기타 개선 사항](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Planning 릴리스 활동{#planning-release-activity}
       * [Adobe Workfront Planning 릴리스 활동](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [Adobe Workfront Planning의 2027년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-27-q1.md)
       * [Adobe Workfront Planning의 2026년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
       * [Adobe Workfront Planning의 2026년 3분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
       * [Adobe Workfront Planning의 2026년 2분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)

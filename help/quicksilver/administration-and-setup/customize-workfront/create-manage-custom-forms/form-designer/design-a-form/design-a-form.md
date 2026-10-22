@@ -34,14 +34,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '8284'
+source-wordcount: '8130'
 ht-degree: 4%
 ---
 # 사용자 정의 양식 만들기
-
-{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -487,33 +485,8 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
     </ul></td>
     </tr>
     <tr>
-    <td role="rowheader">선택 항목 </td> 
-    <td> 
-    <p>다음 옵션 중 하나를 선택합니다.</p> 
-    <ul> 
-    <li><strong>값 표시</strong>: 필드에 있는 각 선택 값을 표시합니다. 각 선택 항목의 레이블은 기본적으로 표시됩니다.</li>
-   <li><strong>선택 항목 정렬 A-Z</strong>: 필드에서 추가하는 선택 항목을 알파벳순으로 정렬합니다.</li>
-    </ul>
-     <p>사용자를 위해 추가하는 각 옵션에 대해 톱니바퀴 아이콘 <img src="assets/gear-icon-settings.png">을(를) 클릭한 후 다음 옵션 중 하나를 선택합니다.</p> 
-    <ul> 
-    <li><strong>기본적으로 선택</strong>: 필드에서 기본적으로 선택을 선택합니다.</li> 
-    <li> <p><strong>선택 항목 숨기기</strong>: 필드에서 선택 항목을 숨깁니다. 숨겨진 선택 사항은 보고서에서 계속 액세스할 수 있습니다.</p> </li> 
-    <li> <p><strong>선택 항목 제거</strong>: 필드에서 선택 항목을 제거합니다.</p> <p><b>경고</b>: 이 선택 항목을 사용하는 현재 개체가 있는 경우 필드에서 제거하지 마십시오. 삭제하면 내역 데이터가 손실됩니다. 대신 숨기려면 옵션을 선택합니다. 그러면 사용자가 나중에 선택할 수 없게 됩니다.</p> </li> 
-    </ul>   
-    <p><b>참고:</b> 선택할 수 있는 선택 항목 수에 제한이 없습니다. </p>    
-    </td> 
-    <td><ul>
-    <li>라디오 버튼</li>
-    <li>확인란 그룹</li>
-    <li>단일 선택 드롭다운</li>
-    <li>다중 선택 드롭다운</li>
-    </ul>
-    </td>
-     </tr>
-    <tr>
-    <td role="rowheader"><span class="preview">선택 항목</span></td> 
+    <td role="rowheader">선택 항목</td> 
     <td>
-    <div class="preview">
     <p>필드에 선택 항목을 추가하거나 편집하려면 <strong>선택 항목 편집</strong>을 클릭하십시오.</p>
     <p>선택 항목 편집 대화 상자에서 새 선택 항목을 추가하려면 다음을 수행합니다.</p>
     <ol>
@@ -530,13 +503,12 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
     <li><strong>선택 항목 정렬 A-Z</strong>을 클릭하여 필드에서 선택 항목을 알파벳순으로 정렬합니다.</li>
     </ul>
     <p>선택 항목 편집을 마치면 <strong>저장</strong>을 클릭합니다.</p>
-    </div>
     </td> 
     <td><ul>
-    <li><span class="preview">라디오 버튼</span></li>
-    <li><span class="preview">확인란 그룹</span></li>
-    <li><span class="preview">단일 선택 드롭다운</span></li>
-    <li><span class="preview">다중 선택 드롭다운</span></li>
+    <li>라디오 버튼</span></li>
+    <li>확인란 그룹</span></li>
+    <li>단일 선택 드롭다운</span></li>
+    <li>다중 선택 드롭다운</span></li>
     </ul>
     </td>
     </tr> 
@@ -576,6 +548,37 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
    또는
 
    **저장 후 닫기**&#x200B;를 클릭합니다.
+
+
+<!--
+
+    <tr>
+    <td role="rowheader">Choices </td> 
+    <td> 
+    <p>Select any of the following options:</p> 
+    <ul> 
+    <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li>
+   <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li>
+    </ul>
+     <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
+    <ul> 
+    <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
+    <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
+    <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>Warning</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
+    </ul>   
+    <p><b>Note:</b> There is no limit for how many choices you can select. </p>    
+    </td> 
+    <td><ul>
+    <li>Radio buttons</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
+    </ul>
+    </td>
+    </tr>
+
+-->
+
 
 <!--
 

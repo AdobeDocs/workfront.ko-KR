@@ -7,24 +7,26 @@ exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
 TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Governance
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: 1301
+source-wordcount: '1301'
 ht-degree: 1%
-
 ---
-
 # Adobe Exchange에서 앱 획득 및 설치
 
 이제 Adobe Exchange에서 파트너가 만든 Workfront용 앱을 바로 설치할 수 있습니다. 이 기능을 통해 고객은 생산성을 향상시키고, 운영을 간소화하고, Workfront 기능을 확장하는 특별히 빌드된 도구를 제공하는 Adobe 파트너의 성장하는 에코시스템에 연결할 수 있습니다. 고객은 Adobe Exchange을 통해 UI 확장을 사용하여 Workfront에 원활하게 통합되는 앱을 검색하고 설치할 수 있습니다.
 
-Adobe Exchange은 Adobe Workfront을 비롯한 Adobe Experience Cloud 전반에 걸친 타사 애플리케이션, 확장 및 통합을 위한 중앙 마켓플레이스입니다. Workfront 고객의 경우 기능을 향상시키고, 워크플로를 능률화하고, 외부 시스템과 통합하는 앱을 검색 및 설치하는 이동 대상입니다.
+Adobe Exchange은 Adobe Workfront을 포함하여 Adobe CX Enterprise 전반에 걸친 타사 애플리케이션, 확장 및 통합을 위한 중앙 마켓플레이스입니다. Workfront 고객의 경우 기능을 향상시키고, 워크플로를 능률화하고, 외부 시스템과 통합하는 앱을 검색 및 설치하는 이동 대상입니다.
 
 ## Adobe 파트너 앱
 
@@ -96,7 +98,7 @@ Adobe App Builder으로 빌드된 앱은 Adobe Exchange에서 _App Builder 애�
 
 Workfront용 앱을 보려면 Adobe Exchange으로 이동하여 Workfront 호환 앱을 검색하십시오. Workfront App Builder 앱의 목록을 필터링할 수도 있습니다.
 
-1. 왼쪽 패널에서 **Experience Cloud**&#x200B;을 클릭합니다.
+1. 왼쪽 패널에서 **Experience Cloud**&#x200B;를 클릭합니다.
 1. 왼쪽 패널에서 **제품**&#x200B;을 찾은 다음 **Workfront**&#x200B;을 선택합니다.
 1. **앱 유형**&#x200B;을 확장한 다음 **App Builder**&#x200B;을 선택합니다.
 

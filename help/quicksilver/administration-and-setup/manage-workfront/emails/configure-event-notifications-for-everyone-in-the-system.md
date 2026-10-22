@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c3f012074799cc64a3aa5e1ffd212e1871e61529
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '615'
 ht-degree: 4%
 ---
 # 시스템의 모든 사용자를 위한 이벤트 알림 구성
@@ -92,17 +92,22 @@ ht-degree: 4%
 
    ![설정 전자 메일의 알림 영역](assets/notifications-area-under-setup-emails.png)
 
-
 1. **이벤트 알림** 탭이 열려 있는지 확인하십시오.
-1. 이벤트 이름의 왼쪽으로 스위치를 전환하여 켜거나 끕니다.
+1. 이벤트 이름의 왼쪽으로 스위치를 전환하여 켜거나 끕니다. <!--Click in the **Active** column for the event and select **Active** to turn it on, or **Inactive** to turn it off.-->
 
    이벤트의 기본 알림 상태를 보려면 [이벤트 알림](../../../workfront-basics/using-notifications/event-notifications.md)을 참조하세요.
 
-1. (선택 사항) 이벤트 알림의 이름을 클릭하여 이메일 알림의 제목 줄을 사용자 지정합니다.
+1. (선택 사항) 전자 메일 알림의 제목 줄을 사용자 지정하려면 다음 작업을 수행할 수 있습니다.
+
+   * 알림 오른쪽에 있는 잠금 아이콘 ![잠금 아이콘](assets/lock-icon-100626.png) 또는 **기타** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭하고 **편집**&#x200B;을 선택합니다.
+   * 알림 옆에 있는 확인란을 선택하고 화면 하단의 작업 표시줄에서 **편집**&#x200B;을 클릭합니다.
 
    전자 메일 알림의 제목 줄을 사용자 지정하는 방법에 대한 자세한 내용은 [이벤트 알림에 대한 전자 메일 제목 사용자 지정](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)을 참조하십시오.
 
-1. (선택 사항) 그룹 관리자가 그룹에 대해 별도로 구성할 수 있도록 전자 메일 알림에 대한 구성을 잠금 해제하려면 알림 오른쪽에 있는 ![잠금 토글](assets/lock-toggle-button.png) 단추를 클릭하여 잠금 해제된 위치로 전환합니다![잠금 해제 토글](assets/unlock-toggle-button.png).
+1. (선택 사항) 그룹 관리자가 그룹에 대해 별도로 구성할 수 있도록 이메일 알림에 대한 구성을 잠금 해제하려면 다음을 수행할 수 있습니다.
+
+   * 알림 오른쪽에 있는 잠금 아이콘 ![잠금 아이콘](assets/lock-icon-100626.png)을 클릭하고 **그룹 액세스 잠금 해제**&#x200B;를 선택합니다. 알림이 잠금 해제되면 잠금 아이콘이 더 이상 표시되지 않습니다.
+   * 알림 옆에 있는 확인란을 선택하고 화면 하단의 작업 표시줄에서 **그룹 액세스 잠금 해제**&#x200B;를 클릭합니다.
 
    자세한 내용은 [모든 그룹에 대한 이벤트 알림 구성 잠금 해제 또는 잠금](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)을 참조하세요.
 

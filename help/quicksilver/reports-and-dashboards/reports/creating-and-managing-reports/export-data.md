@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: '2259'
+source-wordcount: '2171'
 ht-degree: 1%
 ---
 # 데이터 내보내기
@@ -110,7 +110,7 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
 
 * PDF(가로 또는 세로)
 * Excel
-* Excel (.xlsx)
+* Excel(.xlsx)
 * CSV로 내보내기
 * 탭으로 구분됨
 
@@ -341,16 +341,22 @@ PDF 파일로 내보낸 보고서에는 제목이 있습니다.
 
 Excel 형식으로 내보낼 때 Workfront 내의 오브젝트에 대한 링크만 내보낸 파일에 포함되며 보고서 게재와 같이 내보낸 Excel 문서에서 링크를 허용하도록 선택할 수 있는 위치에서만 지원됩니다.
 
-## 브랜딩 {#branding}
+<!--
+
+## Branding {#branding}
 
 >[!IMPORTANT]
 >
->브랜딩은 아직 Adobe Experience Cloud에 온보딩되지 않은 조직에만 적용됩니다.
+>Branding applies only to organizations that are not yet onboarded to Adobe Experience Cloud.
 >
->조직이 Adobe Experience Cloud에 온보딩된 경우 브랜딩을 사용할 수 없습니다.
+>If your organization has been onboarded to Adobe Experience Cloud, branding is not available.
 
-Workfront 관리자가 전역 탐색 막대에 대한 Workfront 인스턴스에 사용자 지정된 브랜딩을 추가한 경우 내보낸 PDF 파일에 개인화된 로고도 포함됩니다.
+If your Workfront administrator has added customized branding to your Workfront instance for the Global Navigation Bar, the exported PDF files also include your personalized logo.
 
-다른 형식으로 내보낸 데이터는 로고로 개인화할 수 없습니다.
+Data that is exported in any other formats cannot be personalized with your logo.
 
-Workfront 인스턴스 및 전역 탐색 표시줄을 브랜딩하는 방법에 대한 자세한 내용은 [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)을 참조하십시오.
+For more information about branding your Workfront instance and the Global Navigation Bar, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+
+-->
+
+

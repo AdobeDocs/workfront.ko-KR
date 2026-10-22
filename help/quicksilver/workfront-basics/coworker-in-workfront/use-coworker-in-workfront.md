@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: f97a3cd0ce05aa14b71eb252ddbb8c2cde94146a
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 3%
@@ -68,7 +68,7 @@ Workfront 외부의 동료 및 해당 기능에 대한 자세한 내용은 [Adob
 
 ## Workfront에서 Coworker 사용
 
-1. Workfront 페이지 맨 위에서 Coworker 아이콘 ![AI 아이콘](assets/ai-icon.png)을 클릭합니다.
+1. Workfront 페이지 맨 위에서 Coworker 아이콘 ![Coworker 아이콘](assets/coworker-icon.png)을 클릭합니다.
 1. 화면의 오른쪽에 있는 패널에 질문이나 프롬프트를 입력합니다.
 
 1. Coworker에서 필요한 답변을 제공하지 않는 경우 프롬프트를 구체화하고 다시 시도하십시오.

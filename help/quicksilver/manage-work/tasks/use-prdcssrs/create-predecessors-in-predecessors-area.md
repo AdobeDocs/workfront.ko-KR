@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a98167536dec4cee61b0b310be0fcc8c9d06449c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '428'
 ht-degree: 4%
 ---
 # 전임 작업 영역을 사용하여 전임 작업 관계 만들기
-
-{{highlighted-preview}}
 
 <!-- Audited: 5/2025 -->
 
@@ -122,7 +120,6 @@ Adobe Workfront의 다음 영역에서 작업의 전임 작업을 볼 수 있습
 
 1. **저장**&#x200B;을 클릭합니다.
 
-1. (선택 사항) 전임 작업을 제거하려면 전임 작업 목록에서 전임 작업을 선택한 다음 **제거** 아이콘 ![제거 아이콘](assets/remove-or-delete-icon.png)을 클릭합니다.
-   <span class="preview">전임 작업을 제거하려면 전임 작업 목록에서 전임 작업을 선택하고 화면 하단의 작업 표시줄에서 **제거**&#x200B;를 클릭합니다.</span>
+1. (선택 사항) 전임 작업을 제거하려면 전임 작업 목록에서 전임 작업을 선택하고 화면 하단의 작업 표시줄에서 **제거**&#x200B;를 클릭합니다.
 
    전임 작업 이(가) 목록에서 제거됩니다. 전임 작업은 해당 프로젝트에서 삭제되지 않습니다.
