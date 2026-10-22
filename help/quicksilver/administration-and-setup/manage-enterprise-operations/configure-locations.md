@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 3%
+source-wordcount: '318'
+ht-degree: 4%
 ---
 # 위치 구성
-
-{{preview-fast-release-general}}
 
 비율 카드의 작업 역할에 속성으로 지정할 수 있는 기본 위치를 구성할 수 있습니다. 이렇게 하면 요금 카드가 각 위치의 시장 요금을 정확하게 반영합니다.
 
@@ -62,13 +60,10 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 [!UICONTROL **위치**]&#x200B;를 클릭합니다.
-1. 프로덕션 환경에서 목록 하단의 [!UICONTROL **위치 추가**]를 클릭합니다.
-   <span class="preview">미리 보기 환경에서 목록의 맨 아래에 있는 [!UICONTROL **새 행**]&#x200B;을 클릭합니다.</span>
-
+1. 목록 맨 아래에 있는 [!UICONTROL **새 행**]&#x200B;을 클릭합니다.
 1. 위치 이름과 설명을 입력합니다.
 1. 행 외부를 클릭하여 위치를 저장합니다.
-1. 프로덕션 환경에서 위치를 삭제하려면 목록에서 해당 위치를 선택하고 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다.
-   <span class="preview">미리 보기 환경에서 위치를 삭제하려면 목록에서 해당 위치를 선택하고 화면 하단의 작업 표시줄에서 [!UICONTROL **삭제**]&#x200B;를 클릭합니다.</span>
+1. 위치를 삭제하려면 목록에서 해당 위치를 선택하고 화면 하단의 작업 표시줄에서 [!UICONTROL **삭제**]&#x200B;를 클릭합니다.
 
 >[!NOTE]
 >
@@ -85,18 +80,12 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 [!UICONTROL **위치**]&#x200B;를 클릭합니다.
-1. 프로덕션 환경에서 목록에서 기존 위치를 선택하고 [!UICONTROL **하위 위치 추가**]를 클릭합니다.
-   <span class="preview">미리 보기 환경에서 목록의 기존 위치를 선택하고 화면 하단의 작업 표시줄에서 [!UICONTROL **하위 위치 추가**]&#x200B;를 클릭합니다.</span>
-
+1. 목록에서 기존 위치를 선택하고 화면 하단의 작업 표시줄에서 [!UICONTROL **하위 위치 추가**]&#x200B;를 클릭합니다.
 1. 위치 이름과 설명을 입력합니다.
 1. 시작 영역 외부를 클릭하여 위치를 저장합니다.
 
    하위 위치는 최상위 수준 위치 아래에 들여씁니다.
 
-   프로덕션 환경의 샘플 이미지:
-   ![위치 및 하위 위치](assets/locations-sublocations.png)
-
-   미리 보기 환경의 <span class="preview">샘플 이미지:</span>
    ![위치 및 하위 위치](assets/locations-sublocations-082526.png)
 
 

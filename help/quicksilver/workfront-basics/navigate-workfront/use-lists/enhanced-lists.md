@@ -25,14 +25,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
+source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3345'
 ht-degree: 1%
 ---
 # 향상된 목록 사용
-
-{{preview-fast-release-general}}
 
 고급 목록은 Adobe Workfront의 일부 영역에서 사용할 수 있습니다. 이러한 목록은 목록 항목을 표시하기 위해 표 형식을 사용하며 표준 목록과는 다른 모양과 느낌을 가집니다. 필터링, 그룹화, 열 관리 및 검색을 포함한 보기 관리도 향상되었습니다.
 
@@ -84,20 +82,20 @@ ht-degree: 1%
 | <span class="preview">스코어카드 목록</span> | <span class="preview">설정 > 스코어카드</span> |
 | <span class="preview">위험 유형 목록</span> | <span class="preview">설정 > 위험 유형</span> |
 | 비율 카드의 작업 역할 및 비율 목록 | 설정 > 비율 카드 > 비율 카드 선택 > 작업 역할 및 비율 |
-| <span class="preview">위치 목록</span> | <span class="preview">설정 > 위치</span> |
+| 위치 목록 | 설정 > 위치 |
 | 번역 목록 | 설정 > 로컬라이제이션 |
-| <span class="preview">통합 목록 </span> | <ul><li><span class="preview">설정 > 문서 > SharePoint 통합</span></li><li><span class="preview">설정 > 문서 > 사용자 지정 통합</span></li><li><span class="preview">설정 > 문서 > Experience Manager Assets</span></li></ul> |
+| 통합 목록 | <ul><li>설정 > 문서 > SharePoint 통합</li><li>설정 > 문서 > 사용자 정의 통합</li><li>설정 > 문서 > Experience Manager Assets</li></ul> |
 | 보고서 목록 | 메인 메뉴 > 보고서(**공유 가능한 폴더 사용**&#x200B;을 설정해야 함) |
-| <span class="preview">대기열 주제, 주제 그룹 및 라우팅 규칙 목록</span> | <ul><li><span class="preview">프로젝트 또는 템플릿 > 대기열 주제</span></li><li><span class="preview">프로젝트 또는 템플릿 > 주제 그룹</span></li><li><span class="preview">프로젝트 또는 템플릿 > 라우팅 규칙</span></li></ul> |
+| 대기열 주제, 주제 그룹 및 라우팅 규칙 목록 | <ul><li>프로젝트 또는 템플릿 > 대기열 주제</li><li>프로젝트 또는 템플릿 > 주제 그룹</li><li>프로젝트 또는 템플릿 > 라우팅 규칙</li></ul> |
 | 스냅샷 목록 | 프로젝트 > 스냅샷 |
 | 청구 리소스 목록 | 프로젝트 > 청구용 리소스 |
-| <span class="preview">전임 작업 목록</span> | <span class="preview">설정 > 작업 또는 템플릿 작업 > 전임 작업</span> |
+| 전임 작업 목록 | 설정 > 작업 또는 템플릿 작업 > 전임 작업 |
 | 작업에 대한 새 고급 할당 | 작업 > 지정 > 고급 |
-| <span class="preview">문서의 모든 버전 보기</span> | <span class="preview">프로젝트 > 문서 > 문서 세부 정보 > 모든 버전</span> |
+| 문서의 모든 버전 보기 | 프로젝트 > 문서 > 문서 세부 정보 > 모든 버전 |
 | 게시판 관리자 보기 | 게시판 > 관리자 보기 |
 | Adobe 클라우드 스토리지에 대한 문서 | 프로젝트, 작업, 문제, 포트폴리오, 프로그램, 템플릿, 템플릿 작업 > 문서 |
-| <span class="preview">시나리오 계획 및 이니셔티브 목록</span> | <span class="preview">주 메뉴 > 시나리오</span> |
-| <span class="preview">목표 및 진행률 지표 목록</span> | <ul><li><span class="preview">주 메뉴 > 목표</span></li><li><span class="preview">주 메뉴 > 목표 > 진행 표시기</span></li></ul> |
+| 시나리오 계획 및 이니셔티브 목록 | 메인 메뉴 > 시나리오 |
+| 목표 및 진행 표시기 목록 | <ul><li>메인 메뉴 > 목표</li><li>메인 메뉴 > 목표 > 진행 표시기</li></ul> |
 
 <!--
 
@@ -190,15 +188,11 @@ Last, under Scenario Planner
 
 1. 목록 위에 있는 **열**&#x200B;을 클릭합니다.
 
-   프로덕션 환경의 샘플 이미지:
-   ![열 표시 예](assets/glist-display-move-columns.png)
-
-   미리 보기 환경의 <span class="preview">샘플 이미지:</span>
    ![열 표시 예](assets/display-columns-090126.png)
 
 1. 토글을 사용하여 목록에 열을 표시하거나 숨깁니다.
 
-   <span class="preview">검색 상자에서 열을 검색할 수 있습니다.</span>
+   검색 상자에서 열을 검색할 수 있습니다.
 
 1. 열 순서를 바꾸려면 **끌기** 아이콘 ![끌기 아이콘](assets/drag-icon.png)을 클릭하고 열을 원하는 위치로 이동합니다. 열을 이동하면 목록이 자동으로 변경됩니다.
 
@@ -242,7 +236,7 @@ Last, under Scenario Planner
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
-1. <span class="preview">(선택 사항) 열을 다시 정렬하려면 **선택됨** 섹션의 열 이름을 마우스로 가리킨 다음 **드래그** 아이콘 ![드래그 아이콘](assets/drag-icon.png)을 클릭합니다. 열을 세로로 이동하여 순서대로 배치하십시오.</span>
+1. (선택 사항) 열의 순서를 바꾸려면 **선택됨** 섹션의 열 이름을 마우스로 가리킨 다음 **드래그** 아이콘 ![드래그 아이콘](assets/drag-icon.png)을 클릭합니다. 열을 세로로 이동하여 순서대로 배치합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
    ![열 관리자](assets/glist-column-manager.png)

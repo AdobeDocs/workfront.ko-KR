@@ -29,14 +29,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 4%
+source-wordcount: '645'
+ht-degree: 5%
 ---
 # 사용자 지정 조건 만들기 또는 편집
-
-{{preview-fast-release-general}}
 
 Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작업 및 문제에 대한 사용자 지정 조건을 만들거나 편집할 수 있습니다.
 
@@ -80,15 +78,8 @@ Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작
 
    또는
 
-   기존 조건을 편집하려면 다음을 수행하십시오.
+   기존 조건을 편집하려면 삭제하려는 조건 이름 옆의 확인란을 선택하고 화면 하단의 작업 표시줄에서 **편집**&#x200B;을 클릭합니다.
 
-   * 프로덕션 환경에서 조건 이름 옆에 있는 **편집**&#x200B;을 클릭합니다.
-   * <span class="preview">미리 보기 환경에서 삭제할 조건 이름 옆에 있는 확인란을 선택하고 화면 아래쪽에 있는 작업 표시줄에서 **편집**&#x200B;을 클릭합니다.</span>
-
-   프로덕션 환경의 샘플 이미지:
-   ![사용자 지정 조건 편집](assets/custom-conditions-0825.png)
-
-   미리 보기 환경의 <span class="preview">샘플 이미지:</span>
    ![사용자 지정 조건 편집](assets/edit-conditions-082526.png)
 
 1. 다음 옵션을 사용하여 사용자 지정 조건을 구성합니다.
