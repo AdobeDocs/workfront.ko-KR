@@ -7,9 +7,9 @@ description: 조직에서 모든 Adobe 제품에 통합 스토리지 솔루션�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 5d487a068f747eb538775846cca80ab5a3a612bf
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '647'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 3%
 
 Adobe 클라우드 스토리지는 Adobe 엔터프라이즈 제품 전반에 걸쳐 에셋의 중앙 저장소 역할을 하는 통합 클라우드 기반 스토리지 솔루션입니다. 이 문서에서는 전체 조직 또는 특정 그룹에 대한 기본 저장소 옵션으로 Adobe 클라우드 저장소를 활성화하는 방법에 대해 설명합니다.
 
-새 경험을 켜는 단일 작업입니다. 이 작업을 활성화하면 새 프로젝트에서 Frame.io 뷰어와 통합 승인이 포함된 Adobe 클라우드 스토리지를 사용합니다. Adobe 클라우드 스토리지 사용을 선택하기 전까지 아무것도 변경되지 않습니다.
+>[!IMPORTANT]
+>
+>Workfront의 설정 영역에서 Adobe 클라우드 스토리지를 활성화할 때까지 환경이 변경되지 않습니다.<br>
+>Adobe 클라우드 스토리지를 활성화하면 새 프로젝트만 Frame.io 뷰어 및 통합 승인이 포함된 Adobe 클라우드 스토리지를 사용합니다. 기존 프로젝트는 현재 스토리지를 계속 사용하며 그대로 유지됩니다.
 
 타이밍을 제어하므로 누구나 작업을 하기 전에 경험을 테스트하고, Workfront Fusion 시나리오를 업데이트하고, 변경 사항 보고를 위한 계획을 세울 수 있습니다. 차이점 및 롤아웃 계획 방법에 대한 자세한 내용은 [Adobe 클라우드 저장소에서 Workfront으로 이동](/help/quicksilver/review-and-approve-work/workfront-storage.md)을 참조하십시오.
 
