@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3233'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning 요청을 제출하여 레코드 생성
@@ -156,31 +156,25 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
 * 글로벌 레코드 유형에서 레코드를 생성하도록 요청 양식을 실행하면 새 레코드가 제출하는 위치에 따라 기본 레코드 유형이나 보조 레코드 유형에 저장됩니다.
 
-  요청을 제출하고 레코드를 생성하는 데 사용하는 환경에 따라 글로벌 레코드 유형과 연관된 요청 양식에 대한 양식을 제출할 때 다음과 같은 시나리오가 있습니다.
+  <!--
+   Depending on which environment you use to submit requests and create records,
+   -->
+  글로벌 레코드 유형과 연관된 요청 양식에 대한 양식을 실행할 때 다음과 같은 시나리오가 있습니다.
 
-  * 프로덕션 환경에서:
+  * 보조 글로벌 레코드 유형의 페이지에서 요청 양식을 제출하면 레코드가 보조 레코드 유형 페이지에 표시됩니다. 보조 작업 영역을 볼 수 있는 액세스 권한이 있는 경우 기본 레코드 유형의 페이지에도 새 레코드가 표시됩니다.
+  * 기본 레코드 유형 페이지에서 요청 양식을 실행하거나 이 문서에 설명된 다른 방법을 사용하면 레코드가 기본 레코드 유형 페이지에 표시됩니다.
+  * 요청 양식에서 **Workspace** 필드를 사용할 수 있고 사용자가 레코드를 추가할 특정 작업 영역을 수동으로 선택하는 경우 기본 또는 보조 레코드 유형 페이지에서 양식을 선택했는지 여부에 관계없이 레코드가 해당 공간에 저장됩니다.
 
-    * 이 문서에 설명된 방법을 사용하여 글로벌 레코드 유형과 연관된 요청 양식을 제출하는 경우 기본 레코드 유형의 페이지에 레코드가 표시됩니다.
-
-  * <span class="preview"> 미리 보기 환경에 다음 시나리오가 있습니다. </span>
-
-    <div class="preview">
-
-    * 보조 글로벌 레코드 유형의 페이지에서 요청 양식을 제출하면 레코드가 보조 레코드 유형 페이지에 표시됩니다. 보조 작업 영역을 볼 수 있는 액세스 권한이 있는 경우 기본 레코드 유형의 페이지에도 새 레코드가 표시됩니다.
-    * 기본 레코드 유형 페이지에서 요청 양식을 실행하거나 이 문서에 설명된 다른 방법을 사용하면 레코드가 기본 레코드 유형 페이지에 표시됩니다.
-    * 요청 양식에서 **Workspace** 필드를 사용할 수 있고 사용자가 레코드를 추가할 특정 작업 영역을 수동으로 선택하는 경우 기본 또는 보조 레코드 유형 페이지에서 양식을 선택했는지 여부에 관계없이 레코드가 해당 공간에 저장됩니다.
-
-    </div>
+  <!--
+   * In the Production environment:
+        * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+   -->
 
   자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
-
-<div class="preview">
 
 * 요청이 제출되면 다른 사용자와 공유할 수 있습니다.
 
   자세한 내용은 [계획 요청 공유](/help/quicksilver/planning/requests/share-requests.md)를 참조하십시오.
-
-</div>
 
 
 <!--
@@ -223,15 +217,19 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    >[!TIP]
    >
-   ><span class="preview">종속적으로 연결된 레코드 필드의 값이 레코드 간의 종속성 규칙에 의해 제한됩니다. 자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오. </span>
+   >종속적으로 연결된 레코드 필드의 값은 레코드 간의 종속성 규칙에 의해 제한됩니다. 자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.
 
-1. (선택 사항 및 조건부) AI가 양식을 작성하도록 하려면 **양식 작성**&#x200B;을 클릭합니다. Workfront은 이전 요청의 정보를 기반으로 양식의 필드를 채웁니다.
+1. (선택 사항 및 조건부) **양식 채우기**&#x200B;를 클릭하여 파일을 첨부하고 AI가 파일 내의 정보로 양식을 작성하도록 합니다. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
    >[!TIP]
    >
-   >조직에서 양식 채우기 기능을 사용하려면 시스템 환경 설정 영역에서 **AI 양식 채우기**&#x200B;를 허용해야 합니다.
+   >* 조직에서 양식 채우기 기능을 사용하려면 시스템 환경 설정 영역에서 **AI 양식 채우기**&#x200B;를 허용해야 합니다.
    >
-   >지침은 [AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청을 채우는 방법](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)을 참조하십시오.
+   >     지침은 [AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청을 채우는 방법](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)을 참조하십시오.
+   >
+   >* <span class="preview">작업 영역 관리자가 요청 양식에 기본 프롬프트를 추가한 경우 AI가 기본 프롬프트에서 설정한 규칙에 따른 정보로 양식을 채웁니다.
+   >
+   >     자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 
 

@@ -30,18 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1150'
 ht-degree: 2%
 ---
 # 작업 공간 공유
 
+<!--
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 {{planning-important-intro}}
 
@@ -173,11 +175,7 @@ Old:
 * 작업 영역을 공유하면 보기가 공유되지 않습니다. 별도로 보기를 공유해야 합니다.
 * Workspace 권한은 레코드 유형에 상속된 권한으로 표시됩니다.
 
-<div class="preview">
-
 * 작업 공간 소유자를 활성 상태인 표준 사용 허가를 받은 사용자로 변경할 수 있습니다. 그룹, 팀, 회사 또는 작업 역할을 작업 영역의 소유자로 설정할 수 없습니다.
-
-</div>
 
 
 &lt;!—!—프로덕션에서 위의 내용을 확인합니다. 활성 사용자로 교체해야 합니까?? 또는 비활성 상태도 괜찮습니다. — 에는 환경이 없습니다—>
@@ -232,16 +230,11 @@ Old:
 
      권한 수준 및 사용자가 각 수준에 대해 수행할 수 있는 작업에 대한 자세한 내용은 [Adobe Workfront Planning의 권한 공유 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 
-   <div class="preview">
-
    * 소유자
 
      다른 활성 표준 라이센스 사용자만 작업 공간의 소유자로 설정할 수 있습니다. 원래 소유자는 관리 권한이 있는 작업 영역에 유지됩니다.
 
-   </div>
-
-1. <span class="preview">(조건부) 작업 영역 소유자를 변경하도록 선택한 경우 **소유자 변경**&#x200B;을 클릭하여 확인합니다.</span>
-
+1. (조건부) 작업 영역 소유자를 변경하도록 선택한 경우 **소유자 변경**&#x200B;을 클릭하여 확인합니다.
 
 1. 작업 영역에 대한 링크를 클립보드에 복사하려면 **링크 복사**&#x200B;를 클릭하십시오.
 1. 복사한 링크를 다른 사용자와 공유합니다. 링크를 받은 사용자가 활성 사용자여야 하며 작업 영역에 액세스할 수 있도록 Workfront에 로그인해야 합니다.

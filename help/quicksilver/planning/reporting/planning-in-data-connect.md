@@ -19,13 +19,15 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
 ---
 
 # Workfront Planning용 Workfront Data Connect
+
+{{planning-important-intro}}
 
 Workfront Data Connect는 Snowflake 기술을 사용하여 Adobe Workfront Planning을 비롯한 Workfront 데이터에 대한 액세스 권한을 제공하므로 비즈니스에 중요한 질문에 답변하고 프로세스의 가치를 측정할 수 있습니다. 기업 고객은 Workfront 데이터 레이크에서 직접 데이터 시각화 도구를 사용하여 데이터를 분석하거나 Workfront 데이터를 고객 소유 데이터 웨어하우스로 내보낼 수 있습니다.
 

@@ -32,19 +32,20 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2479'
 ht-degree: 1%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # 연결된 레코드 유형 개요
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -167,7 +168,7 @@ ht-degree: 1%
     * Workfront 오브젝트에서 Planning 레코드 필드에 액세스할 수 없습니다.
     * 계획 레코드는 Workfront 오브젝트의 계획 섹션에서 볼 수 있습니다. 자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
     * Planning 연결 사용자 정의 필드를 만들어 Workfront 객체의 사용자 정의 양식에 첨부할 수 있습니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
-    * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오. <!--not sure if this is also possible for content fragments-->
+    * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오. <!--not sure if this is also possible for content fragments-->
     * GenStudio for Performance Marketing의 브랜드에서는 계획 레코드 필드에 액세스할 수 없습니다.
 
   * **연결된 레코드 또는 개체에서 조회 필드를 추가할 때**: 연결된 레코드 필드를 만들 수 있을 뿐만 아니라 연결된 레코드 또는 개체 형식의 필드에 연결할 수도 있습니다. 이 필드를 조회 필드라고 합니다. 연결하려는 레코드의 정보가 있는 연결된(또는 조회 필드) 필드는 연결하려는 레코드에 표시됩니다.
@@ -210,18 +211,12 @@ ht-degree: 1%
     * GenStudio 레코드 유형 및 Planning 레코드 유형에서 GenStudio 브랜드를 연결할 수 있습니다.
     * 계층에 GenStudio 브랜드를 포함할 수 없습니다.
 
-  <div class="preview">
-
   * 연결된 레코드 종류에서 연결된 해당 필드에 종속되는 연결 필드를 만들 수 있습니다. 두 필드가 세 번째 레코드 유형에 표시되는 경우 한 필드에 사용할 수 있는 선택 사항은 다른 필드의 선택 사항에 따라 달라집니다.
 
     자세한 내용 및 추가 고려 사항은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.
 
-  </div>
 
-* 일대일 또는 일대다 연결 유형의 연결된 레코드와 레코드를 복제하는 경우 다음과 같은 시나리오가 있습니다.
-
-  * 프로덕션 환경에서는 연결된 레코드가 복제된 레코드로 이동하거나, 레코드를 복제하기 전에 원본에서 수동으로 제거한 다음 다시 추가해야 합니다.
-  * <span class="preview">미리 보기 환경에서 연결된 레코드가 원본 레코드에 남아 있는지 아니면 중복된 레코드로 이동하는지 여부를 선택할 수 있습니다.</span>
+* 연결된 레코드가 있는 레코드를 일대다 또는 일대다 연결 형식으로 복제하는 경우 연결된 레코드가 원본 레코드에 남아 있는지 아니면 복제된 레코드로 이동하는지 여부를 선택할 수 있습니다.
 
   자세한 내용은 [중복 레코드](/help/quicksilver/planning/records/copy-or-duplicate-records.md)를 참조하십시오.
 

@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
+source-git-commit: 97ceae994929577acf1f7931df494b8b45b50e13
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1631'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning Designer 시작
@@ -40,10 +40,10 @@ ht-degree: 1%
 <!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
 <!--
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 -->
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 AI에서 제공하는 Adobe Planning Designer을 사용하여 작업 공간 및 데이터 구조를 쉽게 구성할 수 있습니다. Planning Designer은 작업 공간 생성 및 구성에서 필드 및 공식 정의, 레코드 관리, 변경 내용 검토 및 사용자 정의 보기 작성에 이르기까지 모든 작업을 지원합니다.
 
-Planning Designer은 AI Assistant 또는 CX Enterprise Coworker을 통해 직접 사용하든 상관없이 구조화되고 연결된 정보를 구축하고 유지할 수 있는 유연하고 강력한 환경을 제공합니다.
+직접 사용하든, AI Assistant 또는 CX Enterprise Coworker을 통해 해당 기능에 액세스하든 상관없이 Workfront Planning의 Planning Designer은 체계적이고 연결된 정보를 구축하고 유지 관리할 수 있는 유연하고 강력한 환경을 제공합니다.
 
 Workfront Planning에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -192,7 +192,7 @@ Beta 프로그램 중에 Planning Designer에 대한 피드백을 제출할 수 
    **계획 Designer** 창이 열립니다.
 
 1. 페이지 하단의 **여기에 피드백 제출**&#x200B;을 클릭합니다.
-1. 제공된 스페이스에 피드백을 추가한 다음 **제출**&#x200B;을 클릭합니다.
+1. 제공된 스페이스에 피드백을 추가한 다음 **제출**을 클릭합니다.
 귀하의 피드백은 엔지니어링 및 제품 팀에 제출됩니다.
 
 ## Planning Designer에 대한 고려 사항
@@ -219,7 +219,8 @@ Sargis and Ashot  said these are not required:
 -->
 
 * Workfront 관리자는 조직에 대해 Planning Designer을 켜야 합니다. 이 이후에는 기본적으로 Planning Designer을 모든 사용자가 사용할 수 있습니다.
-* 조직에서 AI 계약에 서명한 경우 계획 영역에서 AI 비서 또는 동료가 계획 Designer에서 수행하는 작업을 수행할 수도 있습니다.
+* 조직에서 AI 계약에 서명한 경우 계획 영역에서 AI 비서를 사용할 때 계획 Designer에서 수행하는 작업도 AI 비서에서 수행할 수 있습니다.
+* CX Enterprise Coworker을 사용하여 유사한 기능에 액세스할 수도 있습니다.
 * 계획 영역에서 AI Assistant 또는 동료가 수행하거나 계획 Designer이 수행한 작업은 Workfront 계획 권한 및 Workfront 액세스 수준의 컨텍스트에 있습니다.
 
   자세한 내용은 다음 문서를 참조하십시오.
@@ -297,7 +298,7 @@ Planning Designer, AI Assistant 또는 Coworker를 사용하여 다음 작업 �
 
    ![계획 Designer 창](assets/planning-designer-window.png)
 
-1. 제공된 공간에 AI Assistant 또는 Coworker에 대한 프롬프트를 입력한 다음 완료되면 Enter 를 클릭합니다.
+1. 제공된 공백에서 Planning Designer AI Assistant에 대한 프롬프트를 입력한 다음 완료되면 입력을 누릅니다.
 
    <!--add screen shot-->
 

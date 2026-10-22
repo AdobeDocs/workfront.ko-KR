@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1200'
 ht-degree: 2%
 ---
 <!--this is linked to the UI in an empty workspace screen-->
@@ -41,11 +41,11 @@ ht-degree: 2%
 
 # 레코드 유형 만들기
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -301,18 +301,14 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
    변경 사항은 자동으로 저장됩니다.
 
-   레코드 추가, 레코드 유형 삭제 또는 편집, <span class="preview">비즈니스 규칙 만들기</span> 또는 레코드 유형 페이지에서 보기 업데이트에 대한 자세한 내용은 다음 문서를 참조하십시오.
+   레코드 유형에 레코드를 추가하고 관리하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
    * [레코드 만들기](/help/quicksilver/planning/records/create-records.md)
    * [레코드 유형 삭제](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [레코드 유형 편집](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)
-
-   <div class="preview">
-
    * [레코드 유형 비즈니스 규칙 만들기](/help/quicksilver/planning/architecture/configure-business-rules.md)
 
-   </div>
 
 ## CSV 또는 Excel 파일에서 정보를 가져와서 레코드 유형 만들기
 

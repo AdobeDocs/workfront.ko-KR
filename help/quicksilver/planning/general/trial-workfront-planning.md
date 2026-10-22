@@ -3,6 +3,7 @@ title: Adobe Workfront Planning 무료 평가판 시작
 description: Adobe Workfront은 Adobe Workfront Planning 60일 무료 체험판을 제공하고 있습니다. 이 체험판을 통해 Planning이 큰 그림 전략을 일상적인 작업과 어떻게 연결하는지 확인할 수 있습니다. Planning은 마케팅 라이프사이클에 대한 중앙 집중식 가시성을 제공하여 팀 간의 공동 작업, 캠페인 실시간 추적 및 자동화된 워크플로우를 가능하게 합니다. 사용자 지정 작업 공간을 만들고 대화형 타임라인 및 캘린더로 작업을 시각화할 수 있습니다. 이 평가판을 통해 Planning을 통해 일일 작업을 전략적 목표에 맞게 조정하고 실행을 간소화하며 조직에 측정 가능한 결과를 도출하는 방법을 직접 확인할 수 있습니다.
 author: Alina
 feature: Workfront Planning
+recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50.000Z
@@ -29,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 1%

@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1124'
 ht-degree: 1%
 ---
 <!--keep the global record type reference in yellow till January 2026-->
@@ -287,6 +287,8 @@ Old:
    * 글로벌 레코드 유형에서 생성된 레코드 유형은 선택한 보조 작업 영역에서 제거됩니다.
    * 필드가 있는 원래 레코드 유형은 원래 작업 영역에 유지됩니다.
    * 레코드 유형은 추가된 다른 모든 작업 영역에 남아 있습니다.
-   * 보조 작업 영역에서 레코드 유형에 추가된 <!--and fields--> 레코드가 삭제됩니다. 글로벌 레코드 유형이 추가된 추가 작업 영역에서 추가된 다른 모든 레코드는 해당 작업 영역과 원래 작업 영역에서 보존됩니다. &lt;!—!—필드가 추가된 작업 영역의 필드가 보존됩니다.
+   * 보조 작업 영역에서 레코드 유형에 추가된 <!--and fields--> 레코드가 삭제됩니다. 글로벌 레코드 유형이 추가된 추가 작업 영역에서 추가된 다른 모든 레코드는 해당 작업 영역과 원래 작업 영역에서 보존됩니다.
+
+     <!--Fields are preserved in the workspaces where they were added.-->
 
 

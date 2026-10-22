@@ -21,16 +21,18 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2129'
 ht-degree: 1%
 ---
 # 레코드 종류 및 레코드 연결의 예
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -63,14 +65,10 @@ Product라는 다른 레코드 유형이 있으며 Budget이라는 통화 필드
    * **이름**: 새 필드에 이름을 지정하십시오. 예: &quot;제품 정보&quot; 연결된 레코드 필드의 이름입니다.
    * **설명**: 새 필드에 대한 설명을 추가합니다. 예를 들어 &quot;내 캠페인과 연결하려는 제품입니다.&quot; 열 헤더의 필드 위로 마우스를 가져가면 필드에 대한 설명이 표시됩니다.
 
-   <div class="preview">
-
    * **이 연결을 종속적으로 설정**: 사용하도록 설정하고 연결된 두 레코드가 동시에 세 번째 레코드에 표시되면 한 레코드 형식에 대한 선택 사항이 다른 레코드 형식에 대한 선택 사항에 따라 달라집니다.
 
      자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.
    * **연결된 레코드 형식에 해당 필드를 만듭니다**: 사용하도록 설정하면 연결된 레코드 형식(제품)에도 연결 필드가 만들어집니다.
-
-   </div>
 
    * **연결 유형**: 다음 옵션 중에서 선택하십시오.
      * **많음에서 많음**: 사용자는 하나의 캠페인을 여러 제품에 연결할 수 있으며 하나의 제품을 여러 캠페인에 연결할 수 있습니다.
@@ -87,13 +85,11 @@ Product라는 다른 레코드 유형이 있으며 Budget이라는 통화 필드
      * **이름**: 연결된 레코드의 이름만 표시합니다.
      * **이미지**: 연결된 레코드의 축소판이나 아이콘만 표시합니다.
 
-     <div class="preview">
-
      * **색상 및 이름**: 연결된 레코드의 색상 및 이름만 표시합니다.
 
-     </div>
+   * **조회 필드**: 연결된 레코드에서 조회 필드도 연결하려면 이 옵션을 확장합니다.
 
-   * <span class="preview">**조회 필드**: 연결된 레코드에서 조회 필드도 연결하려면 이 옵션을 확장합니다. </span>조회 필드 추가&#x200B;**상자가 열리면 제품 필드를 캠페인 레코드 유형과 연결할 수 있습니다.**&#x200B;**건너뛰기**&#x200B;를 클릭하여 이 단계를 건너뛰고 나중에 제품 필드를 추가할 수 있습니다.
+     **조회 필드 추가** 상자가 다음에 열리므로 제품 필드를 캠페인 레코드 유형과 연결할 수 있습니다. **건너뛰기**&#x200B;를 클릭하여 이 단계를 건너뛰고 나중에 제품 필드를 추가할 수 있습니다.
 
      ![제품 레코드 종류가 있는 새 연결](assets/new-connection-with-product-record-type.png)
 

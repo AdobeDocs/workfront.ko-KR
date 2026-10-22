@@ -28,18 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '4228'
+source-wordcount: '4138'
 ht-degree: 2%
 ---
 # 표 보기 관리
 
 <!-- remove Production and Preview references at release-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -207,7 +209,7 @@ Old:
 
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 테이블 보기를 만듭니다.
 
-   ![테이블 보기 예제](assets/table-view-example-g-list.png)
+   ![테이블 보기 예제](assets/table-view-example.png)
 
 1. (선택 사항) **행 높이**&#x200B;를 클릭한 후 다음 옵션 중에서 선택하여 테이블 행의 높이를 수정합니다.
    * 짧음
@@ -333,9 +335,7 @@ Old:
      * **MIN**: 열의 모든 셀에서 가장 낮은 값을 표시합니다.
      * **MAX**: 열의 모든 셀에서 가장 높은 값을 표시합니다.
      * **AVG**: 열에 있는 모든 셀의 평균 값을 표시합니다.
-     * <span class="preview">**없음**: 열의 값이 집계되지 않았습니다. 기본 옵션입니다.</span>
-
-   <div class="preview">
+     * **없음**: 열의 값이 집계되지 않았습니다. 기본 옵션입니다.
 
    * 날짜 필드의 경우 열 하단에서 집계 드롭다운 메뉴를 확장하고 다음 옵션 중에서 선택합니다.
 
@@ -351,17 +351,12 @@ Old:
      * **EMPTY**: 값이 없는 필드 수를 표시합니다.
      * **NOT EMPTY**: 값이 있는 필드 수를 표시합니다.
 
-   </div>
-
    집계자를 사용할 때는 다음 사항을 고려하십시오.
 
    * 열의 집계 행은 값을 표시할 때 고정되며 보기 설정의 일부입니다.
    * 보기 관리자는 합계를 선택할 수 있으며, 이 합계는 다른 사용자와 보기를 공유할 때 보기와 공유됩니다.
    * 뷰어는 집계를 수정할 수 있지만 보기와 함께 저장되지는 않습니다.
    * 공용 공유 보기는 수정할 수 없는 저장된 집계자와 공유됩니다.
-
-   <div class="preview">
-
    * 다음 필드 유형에는 집계자가 없습니다.
 
      * 생성한 사람
@@ -369,7 +364,7 @@ Old:
      * 레코드 ID
    * 공식 필드와 조회 필드에는 해당 필드 형식에 해당하는 집계자가 있습니다.
 
-   </div>
+
 
 <!--
 
@@ -409,11 +404,11 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
    테이블 보기에서 추가하는 레코드는 즉시 저장되며 작업 공간에 대한 보기 이상의 권한이 있는 모든 사용자에게 표시됩니다.
 
-   기본 썸네일 이미지 <span class="preview">과(와) 색상</span>도 새 레코드에 추가됩니다.
+   기본 썸네일 이미지와 색상도 새 레코드에 추가됩니다.
 
    >[!TIP]
    >
-   ><span class="preview">레코드에 읽지 않은 댓글이 있으면 **새 댓글** 표시기가 레코드의 기본 필드의 오른쪽 위에 표시됩니다.</span>
+   >레코드에 읽지 않은 댓글이 있으면 **새 댓글** 표시기가 레코드의 기본 필드의 오른쪽 상단에 표시됩니다.
    >
    >![테이블 보기의 새 주석 아이콘](assets/new-comment-icon-in-table-view-highlighted.png)
 
@@ -425,32 +420,20 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >
    >행 순서에 대한 변경 내용은 동일한 보기의 레코드 유형에 액세스하는 모든 사용자에게 표시됩니다.
    >
-   ><span class="preview">끌어서 놓기 줄에서 선택한 레코드 수가 두 개 이상인 경우 숫자 표시기가 표시됩니다. </span>
+   >끌어서 놓기 라인에서 숫자 표시기는 둘 이상인 경우 선택된 레코드의 수를 표시합니다.
 
 1. (선택 사항) 레코드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **썸네일 편집**&#x200B;을 클릭하여 썸네일을 편집합니다.
-1. 프로덕션 환경에서 표 상단의 **필드**&#x200B;를 클릭합니다
-
-   또는
-
-   <span class="preview">기본 필드 머리글</span> 위로 마우스를 가져간 다음 **썸네일** 필드에 대한 토글을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다.
+1. 기본 필드 머리글 위로 마우스를 가져간 다음 **썸네일** 필드에 대한 토글을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다.
 
    자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
 
-1. <span class="preview">표 상단의 **필드**&#x200B;를 클릭합니다</span>
+1. 기본 필드 머리글 위로 마우스를 가져간 다음 **색상** 필드에 대한 토글을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다.
 
-   또는
-   <span class="preview">기본 필드 머리글 위로 마우스를 가져간 다음 **색상** 필드에 대한 토글을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다. </span>
-
-1. <span class="preview">(선택 사항 및 조건부) **색상** 설정을 켜면 레코드의 기본 필드 왼쪽에 있는 색상 막대를 클릭하고 **색상 견본** 또는 **사용자 지정** 탭에서 색상을 선택한 다음 상자 바깥쪽을 클릭하여 닫습니다. 색상이 즉시 적용됩니다.</span>
-
-<div class="preview">
+1. (선택 사항 및 조건부) **색상** 설정을 켜면 레코드의 기본 필드 왼쪽에 있는 색상 막대를 클릭하고 **색상 견본** 또는 **사용자 지정** 탭에서 색상을 선택한 다음 상자 바깥쪽을 클릭하여 닫습니다. 색상이 즉시 적용됩니다.
 
 ![색상 코딩 색상 선택기 상자 기록](assets/color-picker-for-record-color-coding.png)
 
 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
-
-</div>
-
 
 ### 필터 추가 {#add-filters-1}
 
@@ -514,10 +497,10 @@ FROM LISA: This is the old section. I commented it out vs deleting.
         </tr>
         <tr>
             <td>다중 선택, 사람</td>
-            <td><p>다음 중 하나 포함</p> 또는 <span class="preview"><p>다음 중 하나</p></span>
+            <td><p>다음 중 하나</p>
             <p>다음을 모두 포함</p>
             <p>다음이 정확함</p>
-            <p>다음 중 어느 것도 포함하지 않음</p> 또는 <span class="preview"><p>다음에 해당하지 않음</p></span>
+            <p>다음에 해당하지 않음</p>
             <p>비어 있음</p>
             <p>비어 있지 않음</p></td>
         </tr>
@@ -663,7 +646,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 * 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
 * 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —지금 이 항목을 확인하고 &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —지금 이 항목을 확인하고 ******************—>
 * 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
 * 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.

@@ -3,6 +3,7 @@ title: Adobe Workfront Planning 인스턴스를 독립 실행형 제품으로 �
 description: 이 문서에서는 조직에서 를 독립 실행형 제품으로 구입한 경우 Adobe Workfront Planning에 대한 환경 설정 및 고객 정보를 관리하는 방법에 대해 설명합니다.
 author: Alina
 feature: Workfront Planning
+recommendations: noDisplay, noCatalog
 role: User, Admin
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
@@ -18,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 3%

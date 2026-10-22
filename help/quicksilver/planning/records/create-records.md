@@ -30,17 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3730'
+source-wordcount: '3769'
 ht-degree: 0%
 ---
 # 레코드 만들기
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -57,6 +58,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 * [다른 레코드와 연결](#create-records-as-you-connect-them)
 * [레코드 유형에 요청 양식 제출](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [CSV 또는 Excel 파일에서 정보 가져오기](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [CX Enterprise Coworker으로 레코드 만들기](#create-records-using-cx-enterprise-coworker)
 * [자동화 사용](#create-records-by-using-automations)
 
 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
@@ -196,14 +198,9 @@ Old:
   >
   >작업 영역 관리자는 보기 권한이 있는 사용자가 요청 양식을 사용하여 레코드를 추가할 수 있도록 레코드 유형에 대한 요청 양식을 만들어야 합니다. 그렇지 않으면 보기 권한 사용자가 레코드를 만들 수 없습니다.
 
-<div class="preview">
-
 * 모든 레코드는 만들 때 만드는 데 사용하는 방법에 관계없이 자동으로 색상 코딩됩니다.
 
   자세한 내용은 이 문서의 [색상 코딩 레코드](#color-coding-records) 섹션을 참조하십시오.
-
-</div>
-
 
 ## 레코드 유형 보기에서 새 레코드 또는 레코드 요청 버튼을 사용하여 레코드 만들기
 
@@ -231,7 +228,7 @@ Old:
    1. 다음 방법 중 하나를 클릭하여 레코드를 만든 다음 **계속**&#x200B;을 클릭합니다.
 
       * **수동으로 추가**. 레코드의 미리보기 상자가 열립니다.\
-        이 문서의 레코드 유형 테이블 보기[&#128279;](#create-records-by-adding-them-inline-from-the-record-type-table-view) 섹션에서 인라인으로 추가하여 레코드 만들기&lbrace;6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
+        이 문서의 레코드 유형 테이블 보기](#create-records-by-adding-them-inline-from-the-record-type-table-view) 섹션에서 인라인으로 추가하여 [레코드 만들기{6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
       * **파일에서 업로드**
         문서 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)의 설명과 같이 레코드를 추가합니다. 6단계부터 시작합니다. <!--ensure this stays accurate-->
       * **요청 제출**
@@ -602,6 +599,16 @@ CSV 또는 Excel 파일에서 정보를 가져올 때 기존 레코드 유형의
 
 자세한 내용은 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)를 참조하십시오.
 
+## CX Enterprise Coworker을 사용하여 레코드 만들기
+
+CX Enterprise Coworker을 사용하여 AI에 레코드를 생성하라는 메시지를 표시하여 레코드를 생성할 수 있습니다.
+
+Workfront CX Enterprise Coworker의 **파일 첨부** 기능을 사용하여 한 번에 많은 레코드를 업로드할 수도 있습니다. 이 방법을 사용하여 10,000개 이상의 레코드를 가져올 수 있습니다.
+
+현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Enterprise Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다.
+
+자세한 내용은 [Workfront에서 CX Enterprise Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)을 참조하세요.
+
 ## 자동화를 사용하여 레코드 만들기
 
 활성화된 경우 Planning 레코드에서 트리거될 때 레코드를 생성하도록 Workfront Planning에서 자동화를 구성할 수 있습니다. 생성된 레코드는 자동화를 트리거하는 레코드에 자동으로 연결됩니다.
@@ -613,8 +620,6 @@ Workfront Planning의 레코드 페이지에서 자동화를 구성하고 활성
 <!--
 Move to its own article after production release in 10/2026:
 -->
-
-<div class="preview">
 
 ## 색상 코딩 레코드
 
@@ -657,4 +662,3 @@ Move to its own article after production release in 10/2026:
 
       선택하면 새 색상이 즉시 적용됩니다.
 
-</div>

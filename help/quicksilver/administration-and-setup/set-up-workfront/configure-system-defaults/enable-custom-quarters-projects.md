@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 2%
+source-wordcount: '615'
+ht-degree: 3%
 ---
 # 사용자 정의 분기 및 주 활성화
 
@@ -38,10 +38,12 @@ ht-degree: 2%
 
 <!--remove Production and Preview references at release-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 조직의 분기가 달력 날짜(예: 업무일 또는 쇼핑일) 이외의 특정 기준을 기반으로 하는 경우, 보고를 위해 사용자 정의 분기를 만들 수 있습니다.
 
@@ -50,11 +52,7 @@ ht-degree: 2%
 * [!DNL Workfront]만 구입한 고객은 [!DNL Adobe Workfront] 시스템에 대해 최대 8개의 사용자 정의 분기를 구성할 수 있습니다.
 * [!DNL Workfront] 및 [!DNL Workfront Planning]을(를) 구매한 고객은 [!DNL Planning]에서도 사용할 수 있는 [!DNL Workfront] 시스템에 대해 최대 100분기를 구성할 수 있습니다.
 
-<div class="preview">
-
 * [!DNL Workfront] 및 [!DNL Workfront Planning]을(를) 구매한 고객은 각 사용자 정의 분기에 대해 사용자 정의 주를 구성할 수 있습니다. 사용자 지정 주가 [!DNL Planning] 타임라인 보기에 표시됩니다.
-
-</div>
 
 ## 액세스 요구 사항
 
@@ -134,46 +132,49 @@ When we release fiscal weeks, replace the table above with this:
 
 ## [!DNL Workfront] 시스템에 대한 사용자 정의 영역 설정
 
-사용자 정의 영역 설정은 사용하는 환경에 따라 다릅니다.
+<!--
+Setting up custom quarters differs depending on which environment you use. 
 
-### 프로덕션 환경에서 [!DNL Workfront] 시스템에 대한 사용자 정의 분기 설정
+### Set up custom quarters for your [!DNL Workfront] system in the Production environment
 
 {{step-1-to-setup}}
 
-1. **[!UICONTROL 사용자 지정 분기]**&#x200B;를 클릭합니다.
+1. Click **[!UICONTROL Custom Quarters]**.
 
-1. **[!UICONTROL 사용자 정의 영역 사용]**&#x200B;을 선택합니다.
+1. Select **[!UICONTROL Enable Custom Quarters]**.
 
-1. 사용자 정의 분기의 이름을 입력합니다(예: &quot;2021년 1분기 회계&quot;).
-1. 사용자 정의 분기의 시작 및 종료 날짜를 선택합니다.
+1. Type a name for the custom quarter, such as "Fiscal Q1 2021."
+1. Select start and end dates for the custom quarter.
 
-   ![사용자 지정 분기](assets/custom-quarters-nwe.png)
+   ![Custom quarters](assets/custom-quarters-nwe.png)
 
-1. (선택 사항) 시스템에 사용자 정의 영역을 추가하려면 **[!UICONTROL 사용자 정의 영역 추가]**&#x200B;를 클릭합니다.
+1. (Optional) Click **[!UICONTROL Add Custom Quarter]** to add additional custom quarters to the system.
 
-   >[!IMPORTANT]
-   >
-   > 회사에서 [!DNL Workfront Planning]을(를) 구입한 경우 분기 간에 차이가 있거나 중복되는 경우 사용자 정의 분기를 저장할 수 없습니다.
-   >![겹침 경고가 있는 사용자 지정 분기](assets/custom-quarters-with-overlap-warning.png)
-   >[!DNL Workfront]명의 고객에게만 분기 간 간격 및 중복이 허용됩니다.
+      >[!IMPORTANT]
+      >
+      > If your company purchased [!DNL Workfront Planning], you cannot save your custom quarters if there are gaps or overlaps between the quarters. 
+      >![Custom quarters with overlap warning](assets/custom-quarters-with-overlap-warning.png)
+      >Gaps and overlaps between the quarters are allowed for [!DNL Workfront] only customers. 
 
-1. (선택 사항 및 조건부) 회사에서 [!DNL Workfront Planning] 없이 [!DNL Workfront]만 구입한 경우 회계 분기를 참조하는 보고 요소를 만듭니다.
+1. (Optional and conditional) If your company purchased only [!DNL Workfront], without [!DNL Workfront Planning], create a reporting element that refers to the fiscal quarters.
 
-   **예:** [!UICONTROL 프로젝트] 목록에 대한 필터를 만들고 사용자 정의 분기를 참조하는 프로젝트의 계획된 완료 날짜를 포함합니다.
+   **Example:** Create a filter for a [!UICONTROL project] list and include the Planned Completion Date of a project referencing the custom quarters.
 
-   ![사용자 지정 분기가 있는 프로젝트 필터](assets/example-of-project-filter-with-custom-quarters.png)
+   ![Project filter with custom quarters](assets/example-of-project-filter-with-custom-quarters.png)
 
-   &quot;이번 분기&quot;, &quot;다음 분기&quot; 및 &quot;지난 분기&quot;에 대한 참조가 사용자 정의 분기에 대한 새 참조로 대체됩니다.
+   The references to "This Quarter", "Next Quarter", and "Last Quarter" are replaced with new references to the custom quarters.
 
-   보고 요소에 대한 자세한 내용은 [보고 요소: 필터, 보기 및 그룹화](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)를 참조하십시오.
+   For information about reporting elements, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-   필터 만들기에 대한 자세한 내용은 [필터 만들기 또는 편집 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
-1. (선택 사항 및 조건부) 회사에서 Workfront Planning을 구입하고 [!DNL Workfront Planning]에 대한 액세스 권한이 있는 경우 레코드 유형 페이지로 이동하여 타임라인 보기를 엽니다. 보기에 새 사용자 정의 분기가 표시됩니다.
-자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
+   For information about creating filters, see [Create or edit filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+1. (Optional and conditional) If your company purchased Workfront Planning and you have access to [!DNL Workfront Planning], go to a record type page and open a timeline view. The view displays the new custom quarters. 
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
 
 <div class="preview">
 
-### 미리 보기 환경에서 [!DNL Workfront] 시스템에 대한 사용자 지정 분기 설정
+### Set up custom quarters for your [!DNL Workfront] system in the Preview environment
+
+-->
 
 >[!NOTE]
 >
@@ -233,6 +234,6 @@ When we release fiscal weeks, replace the table above with this:
    필터 만들기에 대한 자세한 내용은 [필터 만들기 또는 편집 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
 1. (선택 사항 및 조건부) Workfront Planning에서 사용자 정의 분기 및 주를 보려면 레코드 유형 페이지로 이동하여 타임라인 보기를 엽니다. 보기에는 새 사용자 정의 분기 및 주가 표시됩니다.
 
-자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
+   자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
 
-</div>
+

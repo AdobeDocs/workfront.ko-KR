@@ -28,19 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '4867'
 ht-degree: 1%
 ---
 # 타임라인 보기 관리
 
 <!--remove Production and Preview references at release-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -245,14 +246,10 @@ Old:
      * **분기**: 분기가 표시된 월과 주를 표시합니다.
      * **월**: 주 및 일을 표시합니다.
 
-     >[!TIP]
-     >
-     >타임라인 보기에 액세스하는 데 사용 중인 환경에 따라 다음과 같은 시나리오가 있습니다.
-     >
-     >* 프로덕션 환경에서는 타임라인 보기에 클래식 분기에 따른 사용자 지정 주만 표시됩니다. Workfront 관리자가 설정 영역에서 사용자 정의 분기를 켜면 주 정보가 타임라인 보기에 표시되지 않습니다.
-     >
-     >* <span class="preview">미리 보기 환경에서 타임라인 보기는 기본적으로 기본 분기에 따라 사용자 지정 주를 표시합니다. Workfront 관리자가 설정 영역에서 사용자 정의 분기 및 사용자 정의 주를 켜면 타임라인 보기에 분기 및 월에 사용자 정의 분기 및 주가 표시됩니다. </span>
-     >
+     타임라인 보기에는 기본적으로 클래식 분기에 따라 사용자 지정 주가 표시됩니다. Workfront 관리자가 설정 영역에서 사용자 정의 분기 및 사용자 정의 주를 켜면 타임라인 보기에 분기 및 월 모드로 사용자 정의 분기 및 주가 표시됩니다.
+
+     자세한 내용은 [사용자 지정 분기 및 주 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
+
 
 
 1. (선택 사항) 날짜가 같은 줄에 겹치지 않는 레코드를 표시하려면 **작게 보기로 전환**&#x200B;을 클릭합니다. <!--check to see if they updated the name of the setting here-->
@@ -374,10 +371,10 @@ Old:
         </tr>
         <tr>
             <td>다중 선택, 사람</td>
-            <td><p>다음 중 하나 포함</p> 또는 <span class="preview"><p>다음 중 하나</p></span>
+            <td><p>다음 중 하나</p>
             <p>다음을 모두 포함</p>
             <p>다음이 정확함</p>
-            <p>다음 중 어느 것도 포함하지 않음</p> 또는 <span class="preview"><p>다음에 해당하지 않음</p></span>
+            <p><p>다음에 해당하지 않음</p>
             <p>비어 있음</p>
             <p>비어 있지 않음</p></td>
         </tr>
@@ -509,9 +506,9 @@ Old:
     500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
     </div>
     -->
-1. <span class="preview">(선택 사항) 도구 모음에서 **그룹화** 아이콘 ![그룹화 아이콘](assets/grouping-icon.png)을 클릭하여 **레코드 그룹화 기준** 상자를 연 다음 **모두 확장**&#x200B;을 클릭하여 모든 그룹화를 확장하거나 **모두 축소**&#x200B;를 클릭하여 모든 그룹화를 축소하고 필요한 항목만 수동으로 축소합니다. </span>
-1. <span class="preview">(선택 사항 및 조건부) 스윔레인 디스플레이에서 왼쪽 패널 구분 기호를 드래그하여 놓아 너비를 조정합니다. 각 사용자의 패널 너비는 세션 간에 저장되며 처음 사용하는 사용자의 기본 너비는 다음과 같습니다.</span>
-1. <span class="preview">(선택 사항) 긴 그룹화 이름의 경우 마우스를 그룹화 줄 위로 가져가면 도구 설명에 그룹화의 전체 이름을 볼 수 있습니다.</span>
+1. (선택 사항) 도구 모음에서 **그룹화** 아이콘 ![그룹화 아이콘](assets/grouping-icon.png)을 클릭하여 **레코드 그룹화 기준** 상자를 연 다음 **모두 확장**&#x200B;을 클릭하여 모든 그룹화를 확장하거나 **모두 축소**&#x200B;를 클릭하여 모든 그룹화를 축소하고 필요한 그룹만 수동으로 축소합니다.
+1. (선택 사항 및 조건부) 스윔레인 디스플레이에서 왼쪽 패널 구분 기호를 드래그하여 놓아 너비를 조정합니다. 각 사용자의 패널 너비는 세션 간에 저장되며 처음 사용하는 사용자의 기본 너비는 입니다.
+1. (선택 사항) 긴 그룹화 이름의 경우 마우스를 그룹화 줄 위로 가져가면 도구 설명에 그룹화의 전체 이름이 표시됩니다.
 
 1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
 
@@ -527,7 +524,6 @@ Old:
    >한 그룹화에서 다른 그룹화로 레코드를 끌어다 놓으면 그룹화에서 선택한 필드가 이동된 레코드의 값을 자동으로 업데이트합니다.
 1. (선택 사항) **설정**&#x200B;을 클릭한 다음 **색상**&#x200B;을 클릭하여 색상 코드 그룹화합니다. 자세한 내용은 이 문서의 [타임라인 보기 설정 편집](#edit-the-timeline-view-settings) 섹션을 참조하십시오.
 
-<div class="preview">
 
 ### 정렬 추가
 
@@ -568,12 +564,6 @@ Old:
 
    정렬이 즉시 적용됩니다.
 1. 페이지의 아무 곳이나 클릭하여 정렬 상자를 닫습니다.
-
-</div>
-
-
-<!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
-
 
 ### 타임라인 보기 설정 편집 {#edit-the-timeline-view-settings}
 
@@ -652,10 +642,8 @@ Old:
    >
    >* 색상을 색상으로 구분된 옵션이 있는 필드에만 일치시킬 수 있습니다. 예를 들어 색상을 상태 필드 또는 색상과 연관된 옵션이 있는 필드와 일치시킬 수 있습니다.
    >    
-   >* 프로덕션 환경에서는 연결된 레코드 또는 해당 조회 필드에 색상을 일치시킬 수 없습니다. <span class="preview">미리 보기 환경에서는 연결된 레코드에 색상을 일치시킬 수 있지만 조회 필드에는 색상을 일치시킬 수 없습니다. </span>
+   >* 색상을 연결된 레코드에 일치시킬 수 있지만 조회 필드에는 일치시킬 수 없습니다.
 
-
-   예를 들어 다중 선택 또는 단일 선택 필드에는 색상으로 구분된 옵션이 있을 수 있습니다.
 
    색상으로 구분된 옵션이 없는 필드를 기준으로 그룹화하면 그룹화 색상이 회색으로 유지됩니다.
 
@@ -667,8 +655,8 @@ Old:
 
    * **레코드 종류**: 레코드 색이 선택한 레코드 종류의 색과 일치합니다. 기본 옵션입니다.
    * **필드 값**: 레코드 색이 지정한 필드 색과 일치합니다. 10단계를 계속합니다. <!--ensure this stays accurate-->
+   * **레코드**: 색상이 레코드의 색상과 일치합니다.
    * **그룹화**: 레코드 색이 그룹화에 지정한 색과 일치합니다. 타임라인 보기에 적용된 그룹화가 없으면 이 옵션은 흐리게 표시됩니다.
-   * **없음**: 레코드가 흰색 막대에 표시됩니다. <span class="preview">없음 옵션이 미리 보기 환경에서 제거되었습니다.</span>
 
 1. (조건부) 레코드 색으로 **필드 값**&#x200B;을(를) 선택한 경우 **레코드 색과 일치** 드롭다운 메뉴에서 필드를 선택합니다.
 

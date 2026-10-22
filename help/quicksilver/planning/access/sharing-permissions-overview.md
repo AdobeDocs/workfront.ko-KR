@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1396'
 ht-degree: 5%
 ---
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
@@ -34,11 +34,11 @@ ht-degree: 5%
 
 # Adobe Workfront Planning의 공유 권한 개요
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
 | 보기 | ✓ | ✓ | ✓ |
 
 
-<span class="preview">위 표에 설명된 권한 외에도 작업 영역을 공유할 때 작업 영역의 소유자를 변경할 수도 있습니다. 자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md).</span>를 참조하십시오.
+위의 표에 설명된 권한 외에도 작업 영역을 공유할 때 작업 영역의 소유자를 변경할 수도 있습니다. 자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
 
 
 ### 레코드 유형에 대한 권한
@@ -263,25 +263,22 @@ In the Production environment, the following are the levels of permissions for r
 
 ### 필드를 기록할 수 있는 권한
 
+<!--
 
-#### 프로덕션 환경에서 필드를 기록할 수 있는 권한
+#### Permissions to record fields in the Production environment
 
 
-작업 영역 및 레코드 유형에 대한 권한을 부여하면 필드 설정을 편집할 수 있는 권한이 레코드 유형에서 상속됩니다.
+Permissions to edit field settings are inherited from the record type, when you grant permissions to the workspace and the record type.
 
-다음 권한은 필드 설정을 참조하며 각 필드와 연결된 값은 참조하지 않습니다. 필드 값을 편집하려면 레코드를 편집할 권한이 있어야 합니다.
+The following permissions refer to the fields settings and not to the values associated with each field. To edit field values you must have permissions to edit records. 
 
-|        | 관리 | 참여 | 보기 |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| 만들기 | ✓ |            |       |
-| 삭제 | ✓ |            |       |
-| 편집 | ✓ |            |       |
-| 보기 | ✓ | ✓ | ✓ |
-
-
-<div class="preview">
-
-#### 미리보기 환경에서 필드를 기록할 수 있는 권한
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
 작업 공간 및 레코드 유형에 권한을 부여하면 필드 설정에 대한 권한은 레코드 유형에서 상속됩니다.
 
@@ -308,8 +305,6 @@ In the Production environment, the following are the levels of permissions for r
 | 보기 | ✓ | ✓ |
 
 필드에 액세스하려면 사용자에게 레코드 유형에 대한 보기 권한 이상이 있어야 합니다.
-
-</div>
 
 ### 보기에 대한 권한
 
