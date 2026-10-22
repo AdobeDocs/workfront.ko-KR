@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: f18e4b5c5ae56df3923879a2f58d44ffc4184480
+source-git-commit: a3f75cbd27f4e881e7a49a77675c55345aab95f9
 workflow-type: tm+mt
 source-wordcount: '3427'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 GenStudio Adobe 저장소 프로젝트를 사용하여 Planning 레코드 유형 및 필드를 GenStudio 작업 영역 레코드 유형 및 필드에 매핑한 다음 프로젝트 전환기에서 GenStudio의 Planning 작업 영역 정보에 액세스할 수 있습니다.
 
-자세한 내용은 [Adobe Workfront Planning 작업 영역을 GenStudio for Performance Marketing으로 승격](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)을 참조하십시오.
+자세한 내용은 [GenStudio for Performance Marketing에 Adobe Workfront Planning 작업 영역 사용](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)을 참조하십시오.
 
 ## Meta dynamic creative 활성화 유형
 
