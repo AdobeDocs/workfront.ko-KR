@@ -45,7 +45,7 @@ Workfront Planning에 이미 작업 영역이 있는 경우 데이터를 다시 
 * Workfront Planning 및 GenStudio for Performance Marketing 모두에 대한 액세스 권한이 있어야 합니다.
 * 작업 영역에 연결하려면 Adobe 클라우드 스토리지 프로젝트가 있어야 합니다. 조직 관리자는 Adobe Admin Console에서 만들 수 있습니다.
 
-  자세한 내용은 [Adobe 저장소 관리](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)를 참조하십시오. <!--ensure this site still works-->
+  자세한 내용은 [Adobe 저장소 관리](https://helpx.adobe.com/kr/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)를 참조하십시오. <!--ensure this site still works-->
 
 
 ## GenStudio에 Workfront Planning 작업 영역 활성화
