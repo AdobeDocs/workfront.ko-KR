@@ -5,15 +5,13 @@ title: 그룹화된 승인 관리
 description: 그룹의 나머지 부분에 대해 워크플로우를 중단하지 않고 그룹화된 승인에서 참여자와 문서를 추가하거나 제거할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: e62ae215bcc7ea42701d6eb92cf43f531a6afc0d
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1030'
 ht-degree: 2%
 ---
 
 # 그룹화된 승인 관리
-
-<span class="preview">Frame.io 통합을 사용할 수 없으므로 미리 보기 샌드박스 환경에서 이 페이지의 정보를 사용할 수 없습니다. 이 기능은 2026년 10월 22일에 프로덕션 환경에서 사용할 수 있습니다.</span>
 
 그룹화된 승인은 단일 승인 워크플로에서 여러 문서를 번들로 제공하므로, 문서당 별도의 승인이 필요하지 않고 모든 문서가 동일한 단계를 함께 진행합니다. 워크플로우를 다시 만들지 않고 활성 그룹 승인에서 참여자 및 문서를 추가하거나 제거할 수 있습니다.
 
