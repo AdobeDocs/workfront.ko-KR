@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
 source-wordcount: '3098'
 ht-degree: 2%
@@ -335,10 +335,30 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    >
    ><span class="preview">요청을 요청 페이지의 해당 사용자와 공유할 때 여기에서 선택 해제한 세부 권한이 흐리게 표시됩니다. </span>
 
-1. <span class="preview">**저장**&#x200B;을 클릭합니다.</span>
-
-
 1. [양식 게시](#publish-form)를 계속합니다.
+
+1. **저장**&#x200B;을 클릭합니다.
+
+
+
+<!--
+
+Add these before Continue to Publish form above:
+
+1. <span class="preview">Click **Ai form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
+
+      >[!TIP]
+      >
+      ><span class="preview">You must attach a file when using AI to fill the request form for the prompt to take effect. </span>   
+
+1. <span class="preview">Turn on the **Enable default prompt setting**, then add a default prompt. </span> 
+
+   <span class="preview">Make the prompt as detailed as possible. For example, if you always use files with dates in them when using Fill form, you may add "Always store dates in European format" to the prompt. </span> 
+
+   <span class="preview">When you use the **Fill form** capability and attach a file when submitting a request using this form, AI will perform the edits you are prescribing in this default prompt on the new request. You will have a change to review the changes before you submit it. </span> 
+
+   ![AI form filling default prompt example](assets/ai-form-fill-with-default-prompt-example.png)
+-->
 
 ### 양식 게시
 

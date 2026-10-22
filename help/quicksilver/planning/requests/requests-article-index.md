@@ -23,7 +23,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -35,6 +35,8 @@ ht-degree: 0%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
+
+{{planning-important-intro}}
 
 각 레코드 유형에 대한 요청 양식을 만들어 사용자와 공유할 수 있으며 양식을 작성 및 제출하여 새 레코드를 추가할 수 있습니다.
 

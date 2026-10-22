@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
+source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
 workflow-type: tm+mt
-source-wordcount: '3374'
+source-wordcount: '3360'
 ht-degree: 1%
 ---
 # 향상된 목록 사용
@@ -83,7 +83,6 @@ ht-degree: 1%
 | <span class="preview">업데이트 피드의 작업 및 추적된 필드 목록</span> | <ul><li><span class="preview">설정 > 인터페이스 > 피드 업데이트 > 추적된 필드 탭</span></li> <li><span class="preview">설정 > 인터페이스 > 피드 업데이트 > 작업 탭</span></li></ul> |
 | <span class="preview">스코어카드 목록</span> | <span class="preview">설정 > 스코어카드</span> |
 | <span class="preview">위험 유형 목록</span> | <span class="preview">설정 > 위험 유형</span> |
-| <span class="preview">이벤트 알림 목록</span> | <ul><li><span class="preview">설정 > 전자 메일 > 알림 > 이벤트 알림</span></li><li><span class="preview">그룹 세부 정보 페이지 > 이벤트 알림</span></li></ul> |
 | 비율 카드의 작업 역할 및 비율 목록 | 설정 > 비율 카드 > 비율 카드 선택 > 작업 역할 및 비율 |
 | <span class="preview">위치 목록</span> | <span class="preview">설정 > 위치</span> |
 | 번역 목록 | 설정 > 로컬라이제이션 |
@@ -104,6 +103,8 @@ ht-degree: 1%
 
 Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
+
+| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |

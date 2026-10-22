@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2638'
 ht-degree: 1%
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 1%
 
 
 # Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합 시작
+
+{{planning-important-intro}}
 
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
@@ -350,6 +352,7 @@ Some commented out information here comes from glean
 * 활성화 레코드에는 다음이 포함됩니다.
 
   * 오류와 함께 추적 ID 공식의 각 세그먼트에 대해 확인된 값을 저장하는 추적 ID 필드.
+  * Meta 동적 Creative 개체 정보를 저장하는 동적 크리에이티브 이미지 및 동적 크리에이티브 비디오 활성화 유형입니다.
   * 추적 ID 생성이 진행 중임을 나타내는 &quot;생성 중&quot; 상태 선택 생성이 완료되거나 실패하면 활성화 상태가 &quot;초안&quot;으로 돌아갑니다. 기존 활성화는 영향을 받지 않습니다.
 
 
