@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b5e412f9131f469cd926b20a4879bb638eda7ffb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 3%
 ---
 # 문서에 업데이트 추가
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -85,7 +83,7 @@ ht-degree: 3%
 1. 필요한 문서를 찾아 다음 중 하나를 수행합니다.
 
    * 목록의 문서를 클릭하고 오른쪽 상단의 **요약 열기** 아이콘 ![요약 열기 아이콘](assets/qs-summary-in-new-toolbar-small.png)을 클릭한 다음 새 댓글을 추가하거나 **회신**&#x200B;을 클릭하여 기존 댓글에 회신을 추가합니다. 요약에 대한 자세한 내용은 [문서에 대한 요약 개요](../../documents/managing-documents/summary-for-documents.md)를 참조하십시오.
-   * 문서 위로 마우스를 가져간 후 왼쪽 패널에서 **문서 세부 정보**&#x200B;를 클릭한 다음 **업데이트**&#x200B;를 클릭합니다.
+   * 문서 위로 마우스를 가져간 후 왼쪽 패널에서 **문서 세부 정보**&#x200B;를 클릭한 다음 **업데이트**를 클릭합니다.
      개체에 업데이트를 추가하는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
 
    업데이트 및 답글이 문서와 상위 오브젝트에 추가됩니다. 자세한 내용은 [섹션 업데이트 개요](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하세요.
@@ -108,13 +106,11 @@ ht-degree: 3%
 
 1. 문서가 포함된 개체로 이동한 다음 왼쪽 패널에서 **문서**&#x200B;를 선택합니다.
 1. 필요한 문서를 찾은 다음 주석 아이콘 ![주석 아이콘](assets/new-doc-comment-icon.png)을 클릭하여 [주석] 패널을 엽니다.
-1. 텍스트 상자에 댓글을 입력한 다음 **제출**&#x200B;을 클릭합니다.
+1. 텍스트 상자에 댓글을 입력한 다음 **제출**을 클릭합니다.
    ![새 문서 주석 패널](assets/comments-new-doc.png)
 
 
-<div class="preview">
-
-### 미리 보기의 Frame.io 주석 표시기
+### Frame.io 주석 표시기
 
 문서에 대한 승인 워크플로가 만들어지면 사용자는 Frame.io 뷰어에 주석을 달고 댓글을 달 수 있습니다. 이러한 주석은 Workfront 주석 패널에 표시되지 않지만 Frame.io 뷰어에서 볼 수 있습니다.
 
@@ -125,5 +121,3 @@ Workfront의 [주석] 패널에는 Frame.io에서 새 주석을 사용할 수 �
 >[!NOTE]
 >
 >* Frame.io Enterprise 라이센스가 있으면 승인 작업 과정 없이 Frame.io 뷰어에서 주석을 볼 수 있습니다.
-
-</div>

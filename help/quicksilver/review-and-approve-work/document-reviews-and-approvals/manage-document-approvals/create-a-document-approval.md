@@ -30,16 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '2881'
-ht-degree: 1%
+source-wordcount: '2673'
+ht-degree: 0%
 ---
 # 문서 승인 워크플로 만들기
 
-{{highlighted-preview}}
-
-Adobe Workfront의 문서 또는 라이브 웹 사이트에 대해 다른 사용자 또는 팀에 승인을 요청하거나, 승인할 필요 없이 검토하도록 요청할 수 있습니다.
+Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 요청하거나 승인할 필요 없이 문서를 검토하도록 요청할 수 있습니다.
 
 기본적으로 승인 템플릿은 해당 작성자에게만 표시됩니다. 이 문서 전체에서 사용자 자신이 만들었거나 사용자와 공유된 템플릿만 선택할 수 있습니다. 자세한 내용은 승인 템플릿 관리에서 [템플릿 공유](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)를 참조하십시오.
 
@@ -178,13 +176,9 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>단계 이름은 기본적으로 <em>단계 1</em>, <em>단계 2</em> 등으로 지정됩니다. <em>초기 검토</em> 또는 <em>최종 승인</em>과 같이 보다 설명적인 단계로 단계 이름을 바꾸십시오.</td>
    </tr>
    <tr>
-   <td><strong>이름 또는 이메일 추가</strong></td>
-   <td>승인자 또는 검토자로 추가할 사용자 또는 팀 이름을 입력하십시오. 검토자만 있는 경우 알림을 받고 검토를 완료할 수 있는 옵션이 있지만 결정이 필요하거나 수행되지 않습니다.<p>참고: 검토자 또는 승인자는 동일한 에셋에서 한 번에 하나의 진행 단계에만 할당할 수 있습니다. 여러 병렬 단계가 동시에 열려 있는 경우 동일한 사람을 둘 이상의 단계에 추가할 수 없습니다.</p></td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">미리 보기에 사람 또는 팀 추가</span></strong></td>
-   <td><p><span class="preview">사용자 이름, 팀 또는 이메일 주소를 입력하세요. 팀은 기본적으로 단일 승인자 또는 검토로 추가되지만 각 팀원을 개별 참가자로 추가하도록 선택할 수 있습니다.</span></p>
-   <p><span class="preview">참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다. 또한 참가자는 동일한 에셋에서 한 번에 하나의 진행 단계에만 할당할 수 있습니다.</span></p></td>
+   <td><strong>미리 보기에 사람 또는 팀 추가</strong></td>
+   <td><p>사용자 이름, 팀 또는 이메일 주소를 입력하세요. 팀은 기본적으로 단일 승인자 또는 검토로 추가되지만 각 팀원을 개별 참가자로 추가하도록 선택할 수 있습니다.</p>
+   <p>참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다. 또한 참가자는 동일한 에셋에서 한 번에 하나의 진행 단계에만 할당할 수 있습니다.</p></td>
    </tr>
    <tr>
    <td><strong>필요한 결정은 단 하나입니다(선택 사항).</strong></td>
@@ -244,13 +238,9 @@ preview screen
    <td>템플릿 필드는 기본적으로 축소됩니다. 필드를 클릭하여 확장한 다음 드롭다운 메뉴에서 템플릿을 선택합니다. 메뉴에는 특별히 작성했거나 나와 공유된 템플릿, 또는 조직의 모든 사람과 공유된 템플릿만 나열됩니다. 시스템 관리자는 템플릿을 만들거나 공유한 사용자에 관계없이 여기에서 계정의 모든 템플릿을 볼 수 있습니다. 템플릿에 하나의 경로와 스테이지가 있는 경우 기본 모드에서 적용됩니다. 템플릿에 둘 이상의 스테이지 또는 경로가 있는 경우 대화 상자가 자동으로 고급 모드로 전환되고 기본 모드에서 입력한 모든 입력은 템플릿의 콘텐츠로 대체됩니다.</td>
    </tr>
    <tr>
-   <td><strong>이름 또는 이메일 추가</strong></td>
-   <td>승인자 또는 검토자로 추가할 사용자 이름 또는 이메일을 입력하십시오. 검토자만 있는 경우 알림을 받고 검토를 완료할 수 있는 옵션이 있지만 결정이 필요하거나 수행되지 않습니다.</td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">미리 보기에 사람 또는 팀 추가</span></strong></td>
-   <td><p><span class="preview">사용자 이름, 팀 또는 전자 메일 주소를 입력한 다음 <strong>승인자</strong> 또는 <strong>검토자</strong>인지 선택하세요. Workfront은 팀의 각 활성 멤버를 개별적으로 추가합니다.</span></p>
-   <p><span class="preview">참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다.</span></p></td>
+   <td><strong>미리 보기에 사람 또는 팀 추가</strong></td>
+   <td><p>사용자 이름, 팀 또는 전자 메일 주소를 입력한 다음 <strong>승인자</strong> 또는 <strong>검토자</strong>인지 선택하세요. Workfront은 팀의 각 활성 멤버를 개별적으로 추가합니다.</p>
+   <p>참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다.</p></td>
    </tr>
    <tr>
    <td><strong>필요한 결정은 단 하나입니다(선택 사항).</strong></td>
@@ -320,13 +310,9 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>단계 이름은 기본적으로 <em>단계 1</em>, <em>단계 2</em> 등으로 지정됩니다. <em>초기 검토</em> 또는 <em>최종 승인</em>과 같이 보다 설명적인 단계로 단계 이름을 바꾸십시오.</td>
    </tr>
    <tr>
-   <td><strong>이름 또는 이메일 추가</strong></td>
-   <td>승인자 또는 검토자로 추가할 사용자 이름 또는 이메일을 입력하십시오. 검토자만 있는 경우 알림을 받고 검토를 완료할 수 있는 옵션이 있지만 결정이 필요하거나 수행되지 않습니다.<p>참고: 검토자 또는 승인자는 동일한 에셋에서 한 번에 하나의 진행 단계에만 할당할 수 있습니다. 여러 병렬 단계가 동시에 열려 있는 경우 동일한 사람을 둘 이상의 단계에 추가할 수 없습니다.</p></td>
-   </tr>
-   <tr>&gt;
-   <td><strong><span class="preview">미리 보기에 사람 또는 팀 추가</span></strong></td>
-   <td><p><span class="preview">사용자 이름, 팀 또는 전자 메일 주소를 입력한 다음 <strong>승인자</strong> 또는 <strong>검토자</strong>인지 선택하세요. Workfront은 팀의 각 활성 멤버를 개별적으로 추가합니다.</span></p>
-   <p><span class="preview">참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다. 또한 참가자는 동일한 에셋에서 한 번에 하나의 진행 단계에만 할당할 수 있습니다.</span></p></td>
+   <td><strong>미리 보기에 사람 또는 팀 추가</strong></td>
+   <td><p>사용자 이름, 팀 또는 전자 메일 주소를 입력한 다음 <strong>승인자</strong> 또는 <strong>검토자</strong>인지 선택하세요. Workfront은 팀의 각 활성 멤버를 개별적으로 추가합니다.</p>
+   <p>참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다. 또한 참가자는 동일한 에셋에서 한 번에 하나의 진행 단계에만 할당할 수 있습니다.</p></td>
    </tr>
    <tr>
    <td><strong>필요한 결정은 단 하나입니다(선택 사항).</strong></td>
@@ -360,10 +346,7 @@ preview screen
 
 1. **승인 요청**&#x200B;을 클릭합니다.
 
-
-<div class="preview">
-
-## 미리보기의 새 문서 영역에서 이전 버전에 대한 승인 워크플로 보기
+## 새 문서 영역에서 이전 버전에 대한 승인 워크플로 보기
 
 조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
@@ -383,7 +366,6 @@ preview screen
    >
    >새 버전의 승인이 요청되었기 때문에 버전의 승인 워크플로가 철회된 경우 목록에 유지되면서 축소되므로 이전 결정을 계속 검토할 수 있습니다.
 
-</div>
 
 <!--
 ## Resubmit an approval on a new version

@@ -25,14 +25,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '568'
 ht-degree: 4%
 ---
 # 캔버스 대시보드에서 보고서 복사 및 이동
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -93,28 +91,8 @@ KPI, 테이블 또는 차트 보고서를 만든 후에 캔버스 대시보드�
 
 자세한 내용은 [캔버스 대시보드 만들기](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)를 참조하세요.
 
-## 프로덕션에서 보고서 복제
 
-{{step1-to-dashboards}}
-
-1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭합니다.
-1. **캔버스 대시보드** 페이지에서 복제할 보고서의 오른쪽 위 모서리에 있는 **자세히** ![추가 단추](assets/more-icon.png) 아이콘을 클릭한 다음 **복제**&#x200B;를 선택합니다.
-
-   ![중복 단추](assets/duplicate-button.png)
-
-1. (선택 사항) 표시되는 **구성** 상자에서 **세부 정보** 탭에 새 보고서 **이름**&#x200B;을(를) 입력합니다.
-
-1. (선택 사항) 왼쪽의 탭을 사용하여 구성을 필요한 대로 조정합니다.
-
-   >[!NOTE]
-   >
-   >이러한 탭은 KPI, 테이블 또는 차트 보고서를 복제했는지 여부에 따라 달라집니다.  자세한 내용은 [캔버스 대시보드에 KPI 보고서 빌드](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [캔버스 대시보드에 차트 보고서 빌드](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) 및 [캔버스 대시보드에 테이블 보고서 빌드](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)를 참조하십시오.
-
-1. **저장**&#x200B;을 클릭합니다. 복제된 보고서가 대시보드에 나타납니다.
-
-<div class="preview">
-
-## 미리보기에서 보고서 복사 또는 이동
+## 보고서 복사 또는 이동
 
 보고서를 현재 대시보드에 복사하거나 다른 대시보드에 복사하거나 다른 대시보드로 이동할 수 있습니다. 복사하면 대상에 보고서의 복제본이 만들어집니다. 이동하면 현재 대시보드에서 이동합니다.
 
@@ -160,4 +138,3 @@ KPI, 테이블 또는 차트 보고서를 만든 후에 캔버스 대시보드�
 
    ![복사 및 이동](assets/copy-and-move.png)
 
-</div>

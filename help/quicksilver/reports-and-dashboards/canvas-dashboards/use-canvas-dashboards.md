@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 1%
 ---
 # 캔버스 대시보드 사용
@@ -110,9 +110,9 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
    >
    >이러한 변경 사항은 현재 세션에만 적용되며 원래 보고서 구성에는 영향을 주지 않습니다. 이러한 변경 사항을 영구적으로 적용하려면 보고서를 편집해야 합니다.
 
-<div class="preview">
 
-### 미리 보기에서 피벗 테이블 데이터로 드릴다운
+
+### 피벗 테이블 데이터로 드릴다운
 
 피벗 테이블 보고서에서 값을 클릭하여 드릴다운하고 해당 집계된 값을 구성하는 개별 레코드를 볼 수 있습니다.
 
@@ -126,7 +126,7 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
 
    드릴다운 테이블에는 보고서 작성자가 드릴다운 열 설정에서 구성한 열이 표시됩니다. 자세한 내용은 [캔버스 대시보드에 피벗 테이블 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)을 참조하세요.
 
-</div>
+
 
 
 <!--
