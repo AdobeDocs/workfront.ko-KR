@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 5%
 ---
 # 사용자에게 특정 영역에 대한 관리 액세스 권한 부여
-
-{{preview-fast-release-general}}
 
 <!--Linked in several places, do not rename or change URL.-->
 
@@ -95,9 +93,9 @@ Adobe Workfront 관리자는 액세스 수준을 사용하여 표준 또는 플�
       <td><p>시스템 전체에서 그리고 특정 그룹에 사용할 승인 프로세스를 만들고 관리합니다.</p><p>이 액세스 권한이 없으면 사용자는 관리 액세스 권한이 있는 항목에 대해 임시 승인 프로세스만 만들 수 있습니다.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="preview">변경 기록</span></td> 
-      <td><p><span class="preview">설정 &gt; 변경 내용 추적 &gt; 변경 내용 목록에서 Workfront 변경 내용 로그를 봅니다.</span></p>
-      <p><span class="preview">이 액세스 권한이 없으면 사용자는 설정 영역에서 이 옵션을 사용할 수 없습니다.</span></p></td> 
+      <td role="rowheader">변경 내역</td> 
+      <td><p>설정 &gt; 변경 내용 추적 &gt; 변경 내용 목록에서 Workfront 변경 내용 로그를 봅니다.</p>
+      <p>이 액세스 권한이 없으면 사용자는 설정 영역에서 이 옵션을 사용할 수 없습니다.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">회사</td> 

@@ -7,24 +7,26 @@ exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
 TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Governance
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: 1301
+source-wordcount: '1301'
 ht-degree: 1%
-
 ---
-
 # Adobe Exchange에서 앱 획득 및 설치
 
 이제 Adobe Exchange에서 파트너가 만든 Workfront용 앱을 바로 설치할 수 있습니다. 이 기능을 통해 고객은 생산성을 향상시키고, 운영을 간소화하고, Workfront 기능을 확장하는 특별히 빌드된 도구를 제공하는 Adobe 파트너의 성장하는 에코시스템에 연결할 수 있습니다. 고객은 Adobe Exchange을 통해 UI 확장을 사용하여 Workfront에 원활하게 통합되는 앱을 검색하고 설치할 수 있습니다.
 
-Adobe Exchange은 Adobe Workfront을 비롯한 Adobe Experience Cloud 전반에 걸친 타사 애플리케이션, 확장 및 통합을 위한 중앙 마켓플레이스입니다. Workfront 고객의 경우 기능을 향상시키고, 워크플로를 능률화하고, 외부 시스템과 통합하는 앱을 검색 및 설치하는 이동 대상입니다.
+Adobe Exchange은 Adobe Workfront을 포함하여 Adobe CX Enterprise 전반에 걸친 타사 애플리케이션, 확장 및 통합을 위한 중앙 마켓플레이스입니다. Workfront 고객의 경우 기능을 향상시키고, 워크플로를 능률화하고, 외부 시스템과 통합하는 앱을 검색 및 설치하는 이동 대상입니다.
 
 ## Adobe 파트너 앱
 
@@ -96,7 +98,7 @@ Adobe App Builder으로 빌드된 앱은 Adobe Exchange에서 _App Builder 애�
 
 Workfront용 앱을 보려면 Adobe Exchange으로 이동하여 Workfront 호환 앱을 검색하십시오. Workfront App Builder 앱의 목록을 필터링할 수도 있습니다.
 
-1. 왼쪽 패널에서 **Experience Cloud**&#x200B;을 클릭합니다.
+1. 왼쪽 패널에서 **Experience Cloud**&#x200B;를 클릭합니다.
 1. 왼쪽 패널에서 **제품**&#x200B;을 찾은 다음 **Workfront**&#x200B;을 선택합니다.
 1. **앱 유형**&#x200B;을 확장한 다음 **App Builder**&#x200B;을 선택합니다.
 
@@ -108,7 +110,7 @@ Workfront용 앱을 보려면 Adobe Exchange으로 이동하여 Workfront 호환
 
 1. 앱 이름을 클릭합니다.
 1. 앱 목록의 오른쪽 상단 모서리에 있는 버튼을 클릭합니다.
-1. **예, 계속**&#x200B;을 클릭한 다음 최종 사용자 사용권 계약에 동의하십시오.
+1. **예, 계속**을 클릭한 다음 최종 사용자 사용권 계약에 동의하십시오.
    ![사용권 계약 확인](assets/2-aquire-application.png)
 
 ### 시스템 관리자에 대한 작업
@@ -138,7 +140,7 @@ Workfront용 앱을 보려면 Adobe Exchange으로 이동하여 Workfront 호환
 1. 설치할 앱을 찾아 화면 오른쪽에 있는 작업 메뉴를 엽니다.
 1. 앱 세부 사항 보기를 클릭합니다.
 1. 화면 왼쪽에서 환경을 선택하거나 새 환경을 추가합니다.
-1. **배포**&#x200B;를 클릭합니다.
+1. **배포**를 클릭합니다.
    ![앱 배포](assets/10-env-details-2.png)
 1. 설치 또는 사용 권한 할당(필요한 경우)
 

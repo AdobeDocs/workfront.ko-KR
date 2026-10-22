@@ -15,14 +15,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 6%
 ---
 # 변경 내역에서 추적할 필드 구성
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront은 다음 이벤트를 기록하기 위해 자동 시스템 업데이트를 생성합니다.
 
@@ -71,7 +69,7 @@ Workfront 관리자는 Workfront이 추적하는 오브젝트 필드 및 작업�
 추적할 수 있는 필드 수에 대한 제한은 Workfront 패키지에 의해 정의됩니다.
 
 | Workfront 패키지 | 추적된 최대 필드 수 |
-|---------|----------|
+| --------- | ---------- |
 | 선택 | 700 |
 | Prime | 3000 |
 | Ultimate | 5000 |

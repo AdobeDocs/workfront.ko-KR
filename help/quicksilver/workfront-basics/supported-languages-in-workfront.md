@@ -18,14 +18,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 1%
 ---
 # Adobe Workfront에서 지원되는 언어
 
-브라우저(조직이 Adobe Workfront으로 마이그레이션되지 않은 경우) 또는 Adobe Experience Cloud 프로필 언어 환경 설정(Adobe Admin Console의 경우) 및 Workfront 내의 기본 이메일 로케일을 조정하여 Workfront 및 Adobe에서 보낸 이메일을 표시하는 언어를 변경할 수 있습니다.
+브라우저에서 언어 환경 설정(조직이 Adobe Workfront으로 마이그레이션되지 않은 경우) 또는 Workfront 프로필 언어 환경 설정(Adobe Admin Console에서)과 Workfront 내에서 기본 이메일 로케일을 조정하여 Adobe CX Enterprise 및 Adobe Admin Console에서 보낸 이메일을 표시하는 언어를 변경할 수 있습니다.
 
 Workfront를 표시하는 언어를 변경하려면 이 문서에서 [언어 변경](#change-the-language)을(를) 참조하십시오.
 
@@ -44,7 +44,7 @@ Workfront은 다음 언어를 지원합니다.
 * 중국어 - 간체(zh-CN)
 * 중국어 - 번체(zh-TW)
 
-브라우저에서 Workfront을 보는 데 사용되는 언어는 조직이 Adobe Admin Console에 없는 경우 브라우저 언어 설정에 의해 제어되며, 조직이 Adobe Admin Console에 있는 경우 Adobe Experience Cloud 프로필 언어에 의해 제어됩니다. 두 경우 모두 지원되는 언어 목록에 나열된 언어를 선택해야 합니다.
+브라우저에서 Workfront을 보는 데 사용되는 언어는 조직이 Adobe Admin Console에 없는 경우 브라우저 언어 설정에 의해 제어되며, 조직이 Adobe Admin Console에 있는 경우 Adobe CX Enterprise 프로필 언어에 의해 제어됩니다. 두 경우 모두 지원되는 언어 목록에 나열된 언어를 선택해야 합니다.
 
 지원되는 언어 중 하나로 발신 이메일을 표시하려면 Workfront에서 사용자 이메일 로케일 또는 고객 정보 설정을 수정합니다.\
 고객 정보 설정을 수정하려면 Workfront 관리자여야 합니다.\
@@ -102,7 +102,7 @@ Workfront Proof에서 지원되는 언어에 대한 자세한 내용은 [Workfro
 * Workfront Fusion에서는 사용자가 입력한 필드에 영어가 아닌 텍스트 문자를 사용할 수 없습니다.
 
 Workfront Fusion에 액세스하려면 귀사에서 Workfront Fusion 라이센스를 구매해야 합니다.\
-Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ## 언어 변경
 
@@ -119,10 +119,10 @@ Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](h
 | URL | Adobe 경험 | 언어 제어 |
 |---|---|---|
 | (CompanyName).my.workfront.com | Adobe Admin Console으로 마이그레이션되지 않음 | [브라우저 언어 변경](#change-the-browser-language) |
-| experience.adobe.com | Adobe Admin Console으로 마이그레이션됨 | [Adobe Experience Cloud 언어 변경](#change-the-adobe-experience-cloud-language) |
+| experience.adobe.com | Adobe Admin Console으로 마이그레이션됨 | [Adobe CX Enterprise 언어 변경](#change-the-adobe-cx-enterprise-language) |
 
 * [브라우저 언어 변경](#change-the-browser-language)
-* [Adobe Experience Cloud 언어 변경](#change-the-adobe-experience-cloud-language)
+* [Adobe CX Enterprise 언어 변경](#change-the-adobe-cx-enterprise-language)
 * [Workfront 및 사용자 이메일 로케일 변경](#change-the-workfront-and-user-locales)
 
 <!--DELETE THIS SECTION MARCH 2026-->
@@ -139,11 +139,11 @@ The browser language must be changed on an individual user basis.
 See the "Help" menu for your browser for specific information about how to change the language of your browser.
 -->
 
-### Adobe Experience Cloud 언어 변경
+### Adobe CX Enterprise 언어 변경
 
-조직이 Adobe Admin Console으로 마이그레이션된 경우 Adobe Experience Cloud 프로필 언어에 따라 Workfront에 표시되는 언어가 결정됩니다.
+조직이 Adobe Admin Console으로 마이그레이션된 경우 Adobe CX Enterprise 프로필 언어에 따라 Workfront에 표시되는 언어가 결정됩니다.
 
-1. Adobe Experience Cloud 도구 모음의 오른쪽 끝에 있는 프로필 사진을 클릭한 다음 **환경 설정**&#x200B;을 클릭합니다. Adobe Experience Cloud 도구 모음은 기본 Workfront 도구 모음 바로 위에 있습니다.
+1. Adobe CX Enterprise 도구 모음의 오른쪽 끝에 있는 프로필 사진을 클릭한 다음 **환경 설정**&#x200B;을 클릭합니다. Adobe CX Enterprise 도구 모음은 기본 Workfront 도구 모음 바로 위에 있습니다.
 
 1. 이름과 전자 메일 주소 아래의 **프로필**&#x200B;에서 현재 선택한 언어의 이름을 클릭합니다.
 
@@ -178,7 +178,7 @@ When changing your User Email Locale, you modify the language, date, and number 
 
 >[!NOTE]
 >
->언어 환경 설정은 Adobe 프로필에 저장되며 이메일 로케일은 사용되지 않습니다. 이 문서에서 [Adobe Experience Cloud 언어 변경](#change-the-adobe-experience-cloud-language)을 참조하십시오.
+>언어 환경 설정은 Adobe 프로필에 저장되며 이메일 로케일은 사용되지 않습니다. 이 문서에서 [Adobe CX Enterprise 언어 변경](#change-the-adobe-cx-enterprise-language)을 참조하십시오.
 
 <!--
 To change your User Email Locale:
