@@ -30,18 +30,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1610'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning Designer 시작
 
 <!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -55,7 +59,7 @@ ht-degree: 1%
 
 AI에서 제공하는 Adobe Planning Designer을 사용하여 작업 공간 및 데이터 구조를 쉽게 구성할 수 있습니다. Planning Designer은 작업 공간 생성 및 구성에서 필드 및 공식 정의, 레코드 관리, 변경 내용 검토 및 사용자 정의 보기 작성에 이르기까지 모든 작업을 지원합니다.
 
-Planning Designer은 AI Assistant를 통해 직접 사용하든, <span class="preview"> CX Enterprise Coworker</span>을 통해 사용하든 간에 구조화되고 연결된 정보를 구축하고 유지 관리할 수 있는 유연하고 강력한 환경을 제공합니다.
+Planning Designer은 AI Assistant 또는 CX Enterprise Coworker을 통해 직접 사용하든 상관없이 구조화되고 연결된 정보를 구축하고 유지할 수 있는 유연하고 강력한 환경을 제공합니다.
 
 Workfront Planning에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -188,7 +192,7 @@ Beta 프로그램 중에 Planning Designer에 대한 피드백을 제출할 수 
    **계획 Designer** 창이 열립니다.
 
 1. 페이지 하단의 **여기에 피드백 제출**&#x200B;을 클릭합니다.
-1. 제공된 스페이스에 피드백을 추가한 다음 **제출**&#x200B;을 클릭합니다.
+1. 제공된 스페이스에 피드백을 추가한 다음 **제출**을 클릭합니다.
 귀하의 피드백은 엔지니어링 및 제품 팀에 제출됩니다.
 
 ## Planning Designer에 대한 고려 사항
@@ -215,15 +219,15 @@ Sargis and Ashot  said these are not required:
 -->
 
 * Workfront 관리자는 조직에 대해 Planning Designer을 켜야 합니다. 이 이후에는 기본적으로 Planning Designer을 모든 사용자가 사용할 수 있습니다.
-* 조직에서 AI 계약에 서명한 경우 계획 영역에서 AI 길잡이 또는 <span class="preview"> 동료</span>를 사용할 때 계획 Designer에서 수행하는 작업도 수행할 수 있습니다.
-* 계획 영역에서 AI Assistant 또는 <span class="preview">동료</span>가 수행한 작업이나 계획 Designer이 수행한 작업은 Workfront 계획 권한 및 Workfront 액세스 수준의 컨텍스트에 있습니다.
+* 조직에서 AI 계약에 서명한 경우 계획 영역에서 AI 비서 또는 동료가 계획 Designer에서 수행하는 작업을 수행할 수도 있습니다.
+* 계획 영역에서 AI Assistant 또는 동료가 수행하거나 계획 Designer이 수행한 작업은 Workfront 계획 권한 및 Workfront 액세스 수준의 컨텍스트에 있습니다.
 
   자세한 내용은 다음 문서를 참조하십시오.
 
   * [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/planning/access/license-type-overview.md)
 
-* AI Assistant, <span class="preview">Coworker,</span> 또는 Planning Designer이 사용자를 대신하여 변경한 내용은 레코드의 기록 패널에서 추적됩니다.
+* 사용자를 대신하여 AI 지원, 동료 또는 Planning Designer에서 수행한 변경 사항은 레코드의 기록 패널에서 추적됩니다.
 
 * Planning Designer에서 수행한 작업은 영구적이며 취소가 불가능합니다. 예를 들어 필드를 삭제하면 되돌릴 수 없습니다. Designer에서 제안한 모든 작업을 수락하기 전에 검토하십시오.
 
@@ -235,7 +239,7 @@ Sargis and Ashot  said these are not required:
 
 ## 현재 Planning Designer에서 사용할 수 있는 기능
 
-Planning Designer, AI Assistant 또는 <span class="preview">Coworker,</span>를 사용하여 다음 작업을 수행할 수 있습니다.
+Planning Designer, AI Assistant 또는 Coworker를 사용하여 다음 작업 중 하나를 수행할 수 있습니다.
 
 * 작업 공간 만들기 및 구성
 
@@ -274,7 +278,7 @@ Planning Designer, AI Assistant 또는 <span class="preview">Coworker,</span>를
 
 ## Planning Designer을 사용하여 객체 생성 또는 갱신
 
-별도로 지정하지 않는 한 Planning Designer, AI Assistant 또는 <span class="preview"> Coworker</span>를 사용하여 Workfront Planning에서 개체를 만들거나 업데이트할 수 있습니다.
+달리 지정하지 않는 한 Planning Designer, AI Assistant 또는 동료를 사용하여 Workfront Planning에서 객체를 생성하거나 갱신할 수 있습니다.
 
 >[!TIP]
 >
@@ -293,7 +297,7 @@ Planning Designer, AI Assistant 또는 <span class="preview">Coworker,</span>를
 
    ![계획 Designer 창](assets/planning-designer-window.png)
 
-1. 제공된 스페이스에서 AI Assistant <span class="preview"> 또는 Coworker</span>에 대한 프롬프트를 입력한 다음 완료되면 Enter를 클릭하십시오.
+1. 제공된 공간에 AI Assistant 또는 Coworker에 대한 프롬프트를 입력한 다음 완료되면 Enter 를 클릭합니다.
 
    <!--add screen shot-->
 

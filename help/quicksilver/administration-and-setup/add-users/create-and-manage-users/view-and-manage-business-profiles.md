@@ -20,18 +20,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c50ca7e7462b8246b0e77c97658da4ce24a30756
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 6%
 ---
 # 비즈니스 프로필 보기 및 관리
 
-{{highlighted-preview}}
-
 사용자에게 비즈니스 프로필을 할당하려면 그룹 및 관련 액세스 수준을 할당해야 합니다.
 
-Workfront 관리자는 액세스 수준 및 그룹 조합을 할당하여 사용자의 비즈니스 프로필을 설정할 수 있습니다. Workfront에 있는 사용자의 사용자 페이지에서 관리됩니다. <span class="preview">그룹 관리자는 비즈니스 프로필을 만들고 편집하고 삭제할 수도 있지만 관리하는 그룹에 대해서만 가능합니다.</span>
+Workfront 관리자는 액세스 수준 및 그룹 조합을 할당하여 사용자의 비즈니스 프로필을 설정할 수 있습니다. Workfront에 있는 사용자의 사용자 페이지에서 관리됩니다. 그룹 관리자는 비즈니스 프로필을 만들고, 편집하고, 삭제할 수도 있지만 관리하는 그룹에 대해서만 가능합니다.
 
 비즈니스 프로필에 대한 자세한 내용은 [비즈니스 프로필 개요](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)를 참조하십시오.
 
@@ -56,7 +54,7 @@ Workfront 관리자는 액세스 수준 및 그룹 조합을 할당하여 사용
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td><p>시스템 관리자</p><p><span class="preview">그룹 관리자(관리하는 그룹의 경우)</span></p></td>
+   <td><p>시스템 관리자</p><p>그룹 관리자(관리하는 그룹의 경우)</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -79,8 +77,6 @@ Workfront 관리자는 액세스 수준 및 그룹 조합을 할당하여 사용
 
 ## 비즈니스 프로필 편집
 
-<div class="preview">
-
 비즈니스 프로필을 편집하면 만드는 데 사용한 창과 동일한 창이 열립니다.
 
 {{step-1-to-users}}
@@ -95,11 +91,7 @@ Workfront 관리자는 액세스 수준 및 그룹 조합을 할당하여 사용
 >
 >그룹 관리자는 자신이 관리하는 그룹의 비즈니스 프로필만 편집할 수 있습니다.
 
-</div>
-
 ## 비즈니스 프로필 삭제
-
-<div class="preview">
 
 {{step-1-to-users}}
 
@@ -111,5 +103,3 @@ Workfront 관리자는 액세스 수준 및 그룹 조합을 할당하여 사용
 >[!NOTE]
 >
 >그룹 관리자는 자신이 관리하는 그룹의 비즈니스 프로필만 삭제할 수 있습니다.
-
-</div>

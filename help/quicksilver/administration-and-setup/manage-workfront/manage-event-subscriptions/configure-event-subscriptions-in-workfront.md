@@ -7,16 +7,14 @@ title: Workfront에서 이벤트 구독 구성
 description: Workfront 관리자는 설정에서 이벤트 구독을 만들고, 보고, 삭제할 수 있습니다. 필요한 액세스 권한이 있는 사용자는 권한 및 시스템 구성으로 허용된 범위 내에서 이벤트 구독을 관리할 수도 있습니다.
 feature: System Setup and Administration
 role: Admin
-author: Courtney
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+author: Becky
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 5%
 ---
 
 # Workfront에서 이벤트 구독 구성
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront 관리자는 설정 영역에서 이벤트 구독을 만들고, 보고, 삭제할 수 있습니다. 이벤트 구독은 지정된 이벤트가 발생할 때 Workfront 이벤트 정보를 외부 끝점으로 보냅니다.
 

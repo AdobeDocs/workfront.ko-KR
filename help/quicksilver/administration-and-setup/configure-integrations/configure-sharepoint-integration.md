@@ -40,14 +40,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
 ---
 # [!DNL SharePoint] 통합 구성
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -153,8 +151,8 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
    조직의 [!DNL SharePoint] 통합 목록이 나타납니다.
 
-1. (선택 사항) [!DNL SharePoint] 통합을 편집하려면 옆에 있는 확인란을 선택한 다음 화면 하단의 파란색 막대에서 **[!UICONTROL 편집]** <span class="preview">을 클릭합니다</span>.
-1. <span class="preview">(선택 사항) [!DNL SharePoint] 통합을 사용하지 않으려면 옆에 있는 확인란을 선택한 다음 화면 하단의 파란색 막대에서 **[!UICONTROL 사용 안 함]**&#x200B;을 클릭합니다.</span>
+1. (선택 사항) [!DNL SharePoint] 통합을 편집하려면 옆에 있는 확인란을 선택한 다음 화면 하단의 파란색 막대에서 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+1. (선택 사항) [!DNL SharePoint] 통합을 사용하지 않으려면 옆에 있는 확인란을 선택한 다음 화면 하단의 파란색 막대에서 **[!UICONTROL 사용 안 함]**&#x200B;을 클릭합니다.
 
 ## [!DNL SharePoint] 통합에 대한 보안, 액세스 및 권한 부여 정보
 
@@ -213,7 +211,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL 클라우드 공급자]**&#x200B;를 선택하십시오.
-1. **[!DNL SharePoint]** 옵션과 **[!UICONTROL [!DNL SharePoint] (Graph API)]** 옵션이 모두 활성화되어 있는지 확인하십시오.
+1. **[!DNL SharePoint]** 옵션과 **[!UICONTROL [!DNL SharePoint](Graph API)]** 옵션이 모두 활성화되어 있는지 확인하십시오.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL [!DNL SharePoint]통합]**&#x200B;을 선택합니다.
 1. 기존의 모든 통합에 대해 목록의 왼쪽에 있는 확인 표시를 선택한 다음 **[!UICONTROL 사용 안 함]**&#x200B;을 선택합니다.

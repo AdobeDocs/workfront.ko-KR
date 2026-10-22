@@ -16,18 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 1%
 ---
 # 작업 에이전트 사용
 
-{{preview-fast-release-general}}
-
 작업 에이전트는 Workfront 작업, 문제 및 요청에 직접 할당할 수 있는 AI 공동 작업자입니다. 다른 AI 공동 작업자와 마찬가지로 작업 에이전트도 설정 영역에서 구성되어 사용자와 마찬가지로 작업 항목에 할당됩니다.
 
-작업 에이전트는 Copilot Studio, Claude, <span class="preview">OpenAI 또는 IBM에서 구성한 에이전트에 연결합니다. </span>
+작업 에이전트는 Copilot Studio, Claude, OpenAI 또는 IBM에서 구성한 에이전트에 연결합니다.
 
 >[!IMPORTANT]
 >
@@ -82,7 +80,7 @@ Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지�
 >
 >* 에이전트의 책임 및 능력에 대한 특정 세부 정보는 Workfront이 아니라 에이전트가 생성된 애플리케이션에서 구성됩니다.
 >* Workfront MCP 서버는 작업 에이전트로 사용되는 에이전트에 추가할 필요가 없으며 작업 에이전트가 작동하도록 연결될 필요가 없습니다.
->* 작업 에이전트는 현재 Copilot Studio, Claude, <span class="preview">OpenAI 및 IBM에서 만들어진 에이전트를 지원합니다. </span>
+>* 작업 에이전트는 현재 Copilot Studio, Claude, OpenAI 및 IBM에서 생성된 에이전트를 지원합니다.
 >* Copilot Studio에서 에이전트를 구성할 때 보안을 **인증 안 함**(으)로 설정해야 합니다.
 >* Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지침은 AI 공동 작업자 구성 문서의 [작업 에이전트 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)을 참조하십시오.
 
@@ -94,8 +92,8 @@ Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지�
 * 작업 설명
 * 작업의 업데이트 스트림에 있는 댓글
 * 작업에 첨부된 모든 사용자 정의 양식의 정보
-* <span class="preview">DOC 및 PDF 파일 등 첨부된 텍스트 기반 문서</span>
-* <span class="preview">프로젝트 필드(작업 에이전트 구성에서 설정된 경우)</span>
+* DOC 및 PDF 파일 등 첨부된 텍스트 기반 문서
+* 프로젝트 필드(작업 에이전트 구성에서 설정된 경우)
 
 이 정보는 항상 읽히며 Workfront 설정으로 구성할 수 없습니다.
 
@@ -116,7 +114,7 @@ Workfront에서 작업 에이전트가 구성되는 방법에 따라 작업을 �
 
 ## 작업 에이전트 시작 트리거
 
-작업 에이전트가 작업 <span class="preview">또는 문제</span>에 할당되면 다음 상황 중 하나가 충족되면 작업이 시작됩니다.
+작업 에이전트는 작업 또는 문제에 할당되면 다음 상황 중 하나가 충족되면 작업을 시작합니다.
 
 <!--update wording to include issues when this goes to production-->
 
