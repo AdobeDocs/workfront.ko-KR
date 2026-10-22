@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
+source-git-commit: f18e4b5c5ae56df3923879a2f58d44ffc4184480
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3427'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
@@ -28,6 +28,32 @@ ht-degree: 0%
 이 문서에서는 2026년 4분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## GenStudio for Performance Marketing에서 Planning 작업 공간 활성화
+
+>[!NOTE]
+>
+>미리보기 및 프로덕션: 2026년 10월 21일
+>[!BADGE 일정 해제]{type=Neutral}
+>Adobe GenStudio for Performance Marketing 라이선스가 있는 고객만 사용 가능
+
+이제 GenStudio for Performance Marketing 플랜에서 사용할 수 있도록 기존 Workfront Planning 작업 영역을 활성화할 수 있으므로 캠페인, 제품, 가상 사용자 및 기타 레코드를 다시 만들지 않고도 재사용할 수 있습니다.
+
+GenStudio Adobe 저장소 프로젝트를 사용하여 Planning 레코드 유형 및 필드를 GenStudio 작업 영역 레코드 유형 및 필드에 매핑한 다음 프로젝트 전환기에서 GenStudio의 Planning 작업 영역 정보에 액세스할 수 있습니다.
+
+자세한 내용은 [Adobe Workfront Planning 작업 영역을 GenStudio for Performance Marketing으로 승격](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)을 참조하십시오.
+
+## Meta dynamic creative 활성화 유형
+
+>[!NOTE]
+>
+>미리보기 및 프로덕션: 2026년 10월 21일
+>[!BADGE 일정 해제]{type=Neutral}
+>Adobe GenStudio for Performance Marketing 라이선스가 있는 고객만 사용 가능
+
+Workfront Planning은 이제 Meta Dynamic Creative 개체에 대해 Dynamic Creative 이미지 및 Dynamic Creative 비디오 활성화 유형을 지원합니다. 이러한 옵션은 활성화 레코드의 유형 필드에서 사용할 수 있으며, Meta Dynamic Creative 개체 활성화의 차단을 해제합니다.
+
+자세한 내용은 [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
 
 <!--
 
