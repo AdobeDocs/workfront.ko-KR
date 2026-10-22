@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '647'
 ht-degree: 1%
 ---
 # 캔버스 대시보드 사용
@@ -34,12 +34,7 @@ ht-degree: 1%
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.
 >
 >가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하세요.
->
->다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
->
->* Amazon Web Services에 대한 자체 키 가져오기
->* Azure
->* Google Cloud 플랫폼
+
 
 캔버스 대시보드를 사용하면 다양한 보고서 유형을 유연한 캔버스 레이아웃에 추가하여 Adobe Workfront 데이터를 시각화할 수 있습니다. 이 문서에서는 캔버스 대시보드를 효과적으로 사용하는 방법에 대한 개요를 제공합니다.
 

@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
     internal-label: Reports and dashboards
-source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '411'
 ht-degree: 4%
 ---
 # 캔버스 대시보드 복사
@@ -21,12 +21,9 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하세요.<br>
->다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
->
->* Amazon Web Services에 대한 자체 키 가져오기
->* Azure
->* Google Cloud 플랫폼
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
+
+
 
 캔버스 대시보드를 복사하면 처음부터 다시 작성하지 않고도 경영진 대시보드의 디렉터 수준 복사본과 같이 다양한 대상을 위한 다양한 변형을 만들 수 있습니다.
 
@@ -91,18 +88,18 @@ ht-degree: 4%
 
 1. **캔버스 대시보드** 페이지에서 복사할 대시보드를 엽니다.
 
-1. 오른쪽 상단 모서리에서 **자세히** ![추가 아이콘](assets/more-icon.png) 아이콘을 선택한 다음 **복사**&#x200B;를 선택합니다.
+1. 오른쪽 상단 모서리에서 **자세히** ![추가 아이콘](assets/more-icon.png) 아이콘을 선택한 다음 **복사**를 선택합니다.
    ![대시보드 메뉴 옵션 복사](assets/duplicate-dashboard.png)
 
 1. **대시보드 복사** 대화 상자에서 새 대시보드에 대한 **이름**&#x200B;을 입력합니다. 이 이름은 기본적으로 소스 대시보드의 이름 다음에 &quot;(복사)&quot;가 옵니다.
 
-1. (선택 사항) **대시보드 세부 정보** 탭에서 새 대시보드에 대한 **설명** 또는 **통화**&#x200B;를 업데이트하십시오.
+1. (선택 사항) **대시보드 세부 정보** 탭에서 새 대시보드에 대한 **설명** 또는 **통화**를 업데이트하십시오.
    ![대시보드 복사 - 대시보드 세부 정보 탭](assets/duplicate-details.png)
 
 1. (선택 사항) **위젯** 탭을 클릭한 다음, 중복 대시보드에 포함하지 않을 위젯을 선택 취소합니다.
    ![대시보드 복사 - 위젯 탭](assets/copy-widgets.png)
 
-1. (선택 사항) **필터 및 프롬프트** 탭을 클릭한 다음 **대시보드 필터 복사** 또는 **대시보드 프롬프트 복사**&#x200B;를 해제하여 중복 대시보드에서 제외합니다.
+1. (선택 사항) **필터 및 프롬프트** 탭을 클릭한 다음 **대시보드 필터 복사** 또는 **대시보드 프롬프트 복사**를 해제하여 중복 대시보드에서 제외합니다.
    ![대시보드 복사 - 필터 및 프롬프트 탭](assets/copy-filters.png)
 
 1. **대시보드 복사**&#x200B;를 클릭합니다.
