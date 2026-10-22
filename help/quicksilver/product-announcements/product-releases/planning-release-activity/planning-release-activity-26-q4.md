@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a3f75cbd27f4e881e7a49a77675c55345aab95f9
+source-git-commit: 04c7239a6b8dc46c22e978164ad71d6a600d4e62
 workflow-type: tm+mt
-source-wordcount: '3427'
+source-wordcount: '3514'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
@@ -28,6 +28,20 @@ ht-degree: 0%
 이 문서에서는 2026년 4분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## CX Enterprise Coworker을 사용하여 많은 레코드 가져오기
+
+>[!NOTE]
+>
+>미리보기 및 프로덕션: 2026년 10월 22일
+>[!BADGE 일정 해제]{type=Neutral}
+>Adobe이 있는 고객에게만 제공됩니다
+
+이제 CX Coworker은 관리자가 모든 열을 수동으로 매핑할 필요 없이 Excel 스프레드시트에서 10,000개 이상의 레코드를 가져와 Planning 레코드를 생성하거나 업데이트하는 데 사용할 수 있습니다.
+
+Coworker의 파일을 첨부하는 기존 기능을 사용하여 동일한 구조화된 출력을 사용하여 레코드를 미리 보고 가져올 수 있으므로, 모든 크기의 파일에 대해 일관된 결과가 유지됩니다.
+
+자세한 내용은 [Workfront에서 CX Enterprise Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)을 참조하세요.
 
 ## GenStudio for Performance Marketing에서 Planning 작업 공간 활성화
 
