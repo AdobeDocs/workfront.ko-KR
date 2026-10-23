@@ -21,7 +21,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 작업 영역은 조직 단위에서 사용하는 레코드 유형의 컬렉션이며 해당 단위의 작업 주기 및 프로세스를 나타냅니다. Adobe Workfront Planning에서 작업 공간을 완전히 사용자 정의할 수 있습니다.
 
-<!--update screenshot with production, it was broken at Preview-->
+<!--update screenshot with production whe we can search for records, it was broken at Preview-->
 
 ![작업 영역 랜딩 페이지 관리자 계정](assets/workspaces-landing-page-admin-account.png)
 

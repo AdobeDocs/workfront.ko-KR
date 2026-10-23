@@ -34,26 +34,26 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1141'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning에서 요청 양식에 승인 추가
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 레코드를 생성하기 전에 Adobe Workfront Planning 요청 양식에 승인 프로세스를 추가하여 제출된 모든 요청에 대한 승인을 시작할 수 있습니다.
 
-<!--<span class="preview">Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+승인 프로세스에서는 여러 단계가 지원됩니다. 한 단계에서 필요한 모든 결정이 내려지면 다음 단계가 시작되고 새 단계의 승인자가 이메일 알림을 받습니다.
 
 이 문서에서는 작업 영역 관리자가 레코드 유형과 연결된 요청 양식에 승인을 추가하는 방법에 대해 설명합니다.
 
@@ -116,7 +116,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 * 여러 승인자가 필요한 경우 하나의 결정만 필요합니다 옵션이 활성화되어 있지 않은 한 요청이 승인되거나 거부되기 전에 모든 승인자가 결정을 내려야 합니다.
 * 팀이 승인자로 설정된 경우 해당 팀의 구성원 중 한 명으로부터의 결정만 필요합니다.
 * 승인은 선택 사항입니다. 요청 양식에 승인이 첨부되지 않은 경우 Workfront Planning은 제출 시 즉시 레코드를 생성합니다.
-* <span class="preview">하나 이상의 단계를 승인에 추가할 수 있습니다.</span>
+* 승인에 하나 이상의 단계를 추가할 수 있습니다.
 
 ## 요청 양식에 승인 규칙 추가
 
@@ -156,29 +156,29 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >   * 사용자 지정 규칙이 충족되면 기본값이 요청 승인 워크플로에 적용되지 않습니다. 일치하는 사용자 지정 규칙만 승인에 적용되고 기본 규칙은 무시됩니다.
    >   * 여러 사용자 지정 규칙이 충족되면 해당 순서의 첫 번째 규칙이 적용됩니다. 이 경우 기본 승인이 있는 경우 적용되지 않습니다.
 
-1. <span class="preview">(선택 사항) 다른 단계를 승인에 추가하려면 **단계 추가**&#x200B;를 클릭합니다.</span>
+1. (선택 사항) 다른 단계를 승인에 추가하려면 **단계 추가**&#x200B;를 클릭합니다.
 
 1. **저장**&#x200B;을 클릭하여 승인 규칙을 저장합니다.
 
-1. <span class="preview">(선택 사항) 승인에 단계를 더 추가하려면 다음을 수행하십시오.</span>
+1. (선택 사항) 승인에 단계를 더 추가하려면 다음을 수행합니다.
 
-   1. <span class="preview">**단계 추가**&#x200B;를 클릭합니다.</span>
+   1. **단계 추가**&#x200B;를 클릭합니다.
 
-      <span class="preview">다단계 승인&#x200B;**상자가 나타납니다.**&#x200B;기본 승인 작업을 이미 만든 경우 해당 승인자는 단계 1에 자동으로 추가됩니다.</span>
+      **다단계 승인** 상자가 나타납니다. 이미 기본 승인 작업을 만든 경우 해당 승인자는 1단계에 자동으로 추가됩니다.
 
-   1. <span class="preview">**사람 또는 팀 추가** 필드에서 단계에 대한 승인자로 설정할 사용자 또는 팀을 하나 이상 추가하십시오.</span>
-   1. <span class="preview">(조건부 및 선택 사항) 승인자 중 한 명이 레코드를 승인한 후 다음 단계로 이동하려면 **한 개의 결정만 필요합니다** 확인란을 선택합니다. 그렇지 않으면 요청이 다음 단계로 이동하기 전에 모든 승인자가 승인을 결정해야 합니다.</span>
-   1. <span class="preview">**단계 추가**&#x200B;를 클릭하고 B단계부터 반복하여 승인에 단계를 더 추가합니다.</span>
+   1. **사람 또는 팀 추가** 필드에서 단계에 대한 승인자로 설정할 사용자 또는 팀을 하나 이상 추가합니다.
+   1. (조건부 및 선택 사항) 승인자 중 한 명이 레코드를 승인한 후 다음 단계로 이동하려면 **한 개의 결정만 필요합니다** 확인란을 선택합니다. 그렇지 않으면 요청이 다음 단계로 이동하기 전에 모든 승인자가 승인을 결정해야 합니다.
+   1. **단계 추가**&#x200B;를 클릭하고 B단계부터 반복하여 승인에 단계를 더 추가합니다.
 
-      <span class="preview">둘 이상의 단계가 있는 경우 **드래그** 아이콘 ![드래그 아이콘](assets/drag-icon.png)을 클릭하여 순서대로 드래그 앤 드롭할 수 있습니다.</span>
+      스테이지가 두 개 이상 있는 경우 **드래그** 아이콘 ![드래그 아이콘](assets/drag-icon.png)을 클릭하여 순서대로 드래그 앤 드롭할 수 있습니다.
 
-      <span class="preview">승인에서 단계를 삭제하려면 **이 단계를 삭제**&#x200B;를 클릭하고, 단계의 승인자 목록에서 사용자 또는 팀을 삭제하려면 승인자 옆에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭하십시오.</span>
+      승인에서 단계를 삭제하려면 **이 단계 삭제**&#x200B;를 클릭하고, 단계의 승인자 목록에서 사용자 또는 팀을 삭제하려면 승인자 옆에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다.
 
       ![다단계 승인 상자](assets/planning-request-multi-stage-approval-box.png)
 
-   1. <span class="preview">승인 워크플로 작성을 마치면 **저장**&#x200B;을 클릭합니다.</span>
+   1. 승인 워크플로를 빌드했으면 **저장**&#x200B;을 클릭합니다.
 
-      <span class="preview">승인 페이지에서 다단계 승인을 편집하거나 삭제할 수 있습니다.</span>
+      승인 페이지에서 다단계 승인을 편집하거나 삭제할 수 있습니다.
 
 1. (선택 사항) 요청 양식을 공유한 적이 없으면 **게시**&#x200B;를 클릭합니다.
 

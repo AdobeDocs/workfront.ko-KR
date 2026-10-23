@@ -27,14 +27,12 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '4466'
+source-wordcount: '4464'
 ht-degree: 0%
 ---
 # 통합 검토 및 승인 개요
-
-{{highlighted-preview}}
 
 통합된 검토 및 승인은 Adobe Workfront 및 Adobe Frame.io를 긴밀하게 연결된 하나의 경험으로 통합하여 마케팅 관리, 크리에이티브 검토 및 콘텐츠 전달 간의 차이를 해결합니다.
 프로젝트 코디네이터는 크리에이티브, 마케터 및 이해 당사자가 연결되지 않은 도구 간에 파일을 이동하지 않고도 전문가 수준의 Frame.io 뷰어에서 자산을 검토하고 승인하는 동안 Workfront에서 작업을 관리합니다.
@@ -110,9 +108,9 @@ Frame.io 뷰어는 모든 Workfront 검토 및 승인 워크플로의 기본 뷰
 
 ## 감사 추적 완료
 
-<span class="preview">통합 검토 및 승인에는 Workfront 및 Frame.io에서 완전한 거버넌스 추적을 만드는 포괄적인 감사 로깅이 포함됩니다. 변경 추적 로그는 Frame.io 뷰어 및 문서 라이프사이클에서 수행한 승인 결정을 캡처합니다. 각 로그 항목에는 표준 Workfront 감사 필드(날짜 및 시간, 로그 유형, 사용자 이름, 작업 및 개체 이름)와 함께 소스 시스템 속성(Workfront 또는 Frame.io)이 포함됩니다. Frame.io 뷰어 댓글이 감사 로그에 포함되어 있지 않습니다.</span>
+통합 검토 및 승인에는 Workfront 및 Frame.io에서 완전한 거버넌스 추적을 생성하는 포괄적인 감사 로깅이 포함됩니다. 변경 추적 로그는 Frame.io 뷰어 및 문서 라이프사이클에서 수행한 승인 결정을 캡처합니다. 각 로그 항목에는 표준 Workfront 감사 필드(날짜 및 시간, 로그 유형, 사용자 이름, 작업 및 개체 이름)와 함께 소스 시스템 속성(Workfront 또는 Frame.io)이 포함됩니다. Frame.io 뷰어 주석은 감사 로그에 포함되지 않습니다.
 
-<span class="preview">변경 내용 추적 로그가 Workfront의 설정 영역에 표시되며 내보낼 수 있습니다. 자세한 내용은 [변경 기록 보기 및 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).</span>를 참조하십시오.
+변경 내용 추적 로그는 Workfront의 설정 영역에 표시되며 내보내기에 사용할 수 있습니다. 자세한 내용은 [변경 내용 보기 및 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)를 참조하십시오.
 
 ## Workfront의 강력한 프로젝트 관리
 
@@ -360,17 +358,11 @@ Frame.io 뷰어에는 자유 형식 드로잉과 원형, 화살표, 사각형 �
 
 주석 및 주석은 Frame.io 뷰어에 유지되므로 타임스탬프 및 시각적 마크업을 비롯한 전체 컨텍스트를 유지합니다. 이는 향후 릴리스에서 발전할 수 있습니다.
 
-<span class="preview">
-
-미리 보기에서 Workfront의 [주석] 패널에는 Frame.io.</span>에서 새 주석을 사용할 수 있을 때를 알려주는 메시지가 표시됩니다.
-
-<div class="preview">
+Workfront의 [주석] 패널에는 Frame.io에서 새 주석을 사용할 수 있을 때를 알려주는 메시지가 표시됩니다.
 
 **Workfront에서 Frame.io 주석 표시기를 볼 수 있는 사람은 누구입니까?**
 
 Frame.io에서 해당 주석을 이미 볼 수 있었던 사용자만 표시기를 볼 수 있습니다. Frame.io Enterprise 라이센스가 있으면 문서에 있는 모든 주석에 대해 이 라이센스가 표시됩니다. Frame.io Enterprise 라이선스가 없는 경우 문서에 대한 승인이 존재하는 경우에만 표시됩니다. 승인은 문서에 대한 모든 이전 주석을 귀하에게도 표시할 수 있도록 합니다.
-
-</div>
 
 **다운로드한 에셋 버전(예: PDF)에 주석을 추가할 수 있습니까?**
 

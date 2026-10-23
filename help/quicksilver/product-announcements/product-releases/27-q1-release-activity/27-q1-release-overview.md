@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4af92ba2774dc7fea7f91df14d8c3cdc8e865025
+source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '516'
 ht-degree: 5%
 ---
 
@@ -30,31 +30,8 @@ ht-degree: 5%
 
 ## Adobe Workfront 개선 사항
 
-* [AI 개선 사항](#ai-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
 
-### AI 개선 사항
-
-<table>
-    <tbody>
-        <tr>
-            <td><strong>기능</strong>
-            </td>
-            <td><strong>미리보기</strong></td>
-            <td><strong>빠른 릴리스</strong></td>
-            <td><strong>분기별</strong></td>
-        </tr>
-        <tr>
-            <td>
-                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP 서버 도구 세트</a></p>
-                <p>이제 Workfront MCP 카탈로그를 특정 도구 세트로 제한하고 제품 권한별로 가용성을 필터링할 수 있으므로 AI 클라이언트는 필요한 기능만 액세스할 수 있습니다.</p>
-            </td>
-            <td><p>2026년 10월 21일</p></td>
-            <td><p>2026년 11월 12일</p></td>
-            <td><p>2027년 1월 21일</p></td>
-        </tr>
-    </tbody>
-</table>
 
 ### 프로젝트 개선 사항
 

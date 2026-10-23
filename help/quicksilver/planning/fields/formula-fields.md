@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '770'
 ht-degree: 1%
 ---
 # 공식 필드 개요
@@ -203,13 +203,7 @@ Adobe Workfront Planning 공식 필드는 Workfront 계산된 필드의 대부�
 >
 >다음 Workfront 표현식은 Workfront Planning 공식 필드에서 지원되지 않습니다.
 >
-><!--* SORTASCARRAY-->
-><!--* SORTDESCARRAY-->
->* ADDHOUR
->* 전환
 >* 형식
-
-<!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
 Workfront 식의 전체 목록을 보려면 [계산된 데이터 식의 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)를 참조하십시오.
 

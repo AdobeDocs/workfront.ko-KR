@@ -34,20 +34,20 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3172'
 ht-degree: 1%
 ---
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
 # 레코드 유형 연결
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -267,14 +267,18 @@ Old:
 
      자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
 
-     >[!TIP]
-     >
-     >다음 키보드 조합을 사용하여 Workfront Planning 페이지에서 글로벌 검색 상자를 열고 레코드 유형을 검색할 수 있습니다.
-     >
-     >* Windows의 경우 CTRL+K
-     >* Mac의 경우 ⌘+K
-     >
-     >![글로벌 검색 상자](assets/global-search-box.png)
+
+     <!--
+        not needed here??
+        >[!TIP]
+        >
+        >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for record types:
+        >
+        >* CTRL+K for Windows
+        >* ⌘+K for Mac
+        >
+        >![Global search box](assets/global-search-box.png)
+        -->
 
    * **Workfront 개체 유형** 섹션의 **프로젝트, Portfolio, 프로그램, 회사** 또는 **그룹**.
 
@@ -318,15 +322,15 @@ Old:
     1. (Conditional) When you connect record types from two different workspaces, a record type and an Adobe Experience Manager asset object, or a record type and a GenStudio Brand, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
         ![New connection to record type from another workspace](assets/new-connection-allow-multiple-records-box.png)
     -->
-1. <span class="preview">(선택 사항) 이 연결 필드와 연결된 레코드 종류에서 만든 필드 사이에 종속성을 추가하려면 **이 연결을 종속되게 만들기**&#x200B;를 선택하십시오. </span>
+1. (선택 사항) 이 연결 필드와 연결된 레코드 종류에서 만든 필드 사이에 종속성을 추가하려면 **이 연결을 종속되게 만들기**&#x200B;를 선택하십시오.
 
-   <span class="preview">자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md).</span>를 참조하십시오.
+   자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.
 
-1. <span class="preview">(선택 사항) **연결 설정** 섹션에서 **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 선택합니다.</span>
+1. (선택 사항) **연결된 레코드 종류에 해당 필드 만들기**&#x200B;를 선택합니다.
 
    >[!TIP]
    >
-   ><span class="preview">Planning 레코드 형식을 연결할 때 **연결 형식** 섹션이 **연결 설정** 섹션으로 대체되었습니다. </span>
+   >Planning 레코드 형식을 연결할 때 **연결 형식** 섹션이 **연결 설정** 섹션으로 대체되었습니다.
 
    선택하면 현재 레코드 유형에 추가된 연결 필드 외에 연결 중인 레코드 유형에도 연결 필드가 만들어집니다. 이 기능은 기본적으로 비활성화되어 있습니다.
 
@@ -339,25 +343,17 @@ Old:
    >* 연결된 레코드 필드는 해당 응용 프로그램의 다른 응용 프로그램 객체에 대해서는 생성되지 않습니다. 예:
    >   * Planning 레코드에 연결된 Workfront 객체에 대해 생성된 필드가 없습니다.
    >   * GenStudio 작업 영역의 레코드 유형에 연결되어 있는 경우 Planning 레코드 유형에 대해 생성된 필드가 없습니다.
-1. 다음 중 하나를 선택합니다.
-
-   <div class="preview">
+1. (조건부) **연결된 레코드 종류에서 해당 필드 만들기** 설정을 켜지 않은 경우 다음 중 하나를 선택하십시오.
 
    * **다중 선택**: 현재 레코드 종류의 한 레코드를 연결 레코드 종류의 여러 레코드와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
    * **단일 선택**: 현재 레코드 종류의 레코드 한 개를 연결 레코드 종류의 레코드 한 개와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
 
-   </div>
-
-1. <span class="preview">(조건부) **연결 형식** 섹션에서 **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 사용하도록 설정한 경우 다음 옵션 중에서 선택하여 사용자가 연결할 수 있는 레코드 수를 나타냅니다.</span>
-
-   <div class="preview">
+1. (조건부) **연결된 레코드 종류에 해당 필드 만들기** 설정을 사용하도록 설정한 경우 사용자가 연결할 수 있는 레코드 수를 나타내려면 다음 옵션 중에서 선택하십시오.
 
    * 다대다
    * 일대다
    * 다대일
    * 일대일
-
-   </div>
 
    연결 유형에 대한 자세한 내용은 [연결된 레코드 유형 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
 
@@ -365,7 +361,7 @@ Old:
    >
    >연결 유형에 대해 일대다 또는 일대일을 선택한 다음 다른 곳에 이미 연결되어 있는 레코드나 개체를 나중에 연결하려는 경우 해당 레코드나 개체를 다시 연결하면 원래 연결에서 제거된다는 경고가 표시됩니다. 제거를 허용하거나 다른 레코드를 선택할 수 있습니다.
 
-1. (조건부 및 선택 사항) Workfront 개체에 연결하도록 선택하면 **이러한 기준과 일치하는 개체만 연결** 섹션에서 **사용자 지정 양식**&#x200B;을 선택합니다. 선택한 사용자 정의 양식이 첨부된 객체만 선택한 레코드 유형에 연결할 수 있습니다. 두 개 이상의 양식을 선택할 수 있습니다.
+1. (조건부 및 선택 사항) **원본 요청** 이외의 Workfront 개체에 연결하도록 선택한 경우 **이러한 기준과 일치하는 개체만 연결** 섹션에서 **사용자 지정 양식**&#x200B;을 선택합니다. 선택한 사용자 정의 양식이 첨부된 객체만 선택한 레코드 유형에 연결할 수 있습니다. 두 개 이상의 양식을 선택할 수 있습니다.
 
    >[!NOTE]
    >
@@ -377,16 +373,12 @@ Old:
    >
    >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
-1. (선택 사항) **모양 기록** 영역에서 다음 옵션 중 하나를 선택합니다.
+1. (선택 사항 및 조건부) 사용 가능한 경우 **모양 기록** 영역에서 다음 옵션 중 하나를 선택합니다.
 
    * **이름 및 이미지**: 연결된 레코드의 이름과 축소판 그림 또는 아이콘이 모두 연결된 레코드 필드에 표시됩니다. 기본 옵션입니다.
    * **이름**: 연결된 레코드의 이름만 연결된 레코드 필드에 표시됩니다.
    * **이미지**: 연결된 레코드의 축소판이나 아이콘만 연결된 레코드 필드에 표시됩니다.
-   <div class="preview">
-
    * **색상 및 이름**: Planning 레코드를 연결하면 연결된 각 레코드의 색상이 레코드 이름 왼쪽에 원으로 표시됩니다. 다른 응용 프로그램의 객체 유형과 레코드 유형을 연결하는 경우에는 사용할 수 없습니다.
-
-   </div>
 
    썸네일 이미지가 없는 레코드에는 레코드 유형 아이콘이 대신 표시됩니다.
 
@@ -399,8 +391,8 @@ Old:
    >* Workfront에서 오브젝트 유형을 선택할 때는 레코드 모양을 선택할 수 없습니다.
    >
    >* **레코드 모양** 영역에서 선택한 항목에 따라 모든 보기 및 세부 정보 페이지를 포함하여 시스템의 모든 연결에서 레코드가 표시되는 방식이 결정됩니다.
-1. <span class="preview">(선택 사항 및 조건부) 사용 가능한 경우 **필터링 규칙 기록**&#x200B;을 클릭하여 정의된 값을 기준으로 연결된 필드 선택을 제한하는 필터를 만듭니다. </span>
-1. **조회 필드 선택** 또는 <span class="preview">**조회 필드 추가** 메뉴</span>를 클릭하여 조회 필드 추가 상자를 열고 연결 중인 레코드 유형에서 필드를 선택하고 추가하십시오.
+1. (선택 사항 및 조건부) 사용 가능한 경우 **필터링 규칙 기록**&#x200B;을 클릭하여 정의된 값을 기준으로 연결된 필드 선택을 제한하는 필터를 만듭니다. <!--this is available only for record types, not Workfront objects, etc, but we don't say this because the others will be released soon - 2026-2027-->
+1. **조회 필드** 메뉴를 클릭하여 조회 필드 추가 상자를 열고 연결 중인 레코드 형식에서 추가할 필드를 선택합니다.
 
    조회 필드는 연결 중인 레코드 또는 개체 유형과 연결된 필드입니다. 이 레코드들을 연결하면 연결하려는 레코드의 레코드나 개체에 있는 정보가 표시됩니다.
 
@@ -419,14 +411,13 @@ Old:
    >
    >   예를 들어 프로젝트의 계획된 시작 일자가 Workfront에서 오후 3시로 표시되는 경우 가져온 조회 필드에서는 Workfront Planning에서 15시로 표시됩니다.
 
-1. <span class="preview">(선택 사항) 연결된 필드에 대한 권한을 변경하려면 **필드 액세스**&#x200B;를 클릭합니다. 다음 옵션 중에서 선택하십시오. </span>
-
-   <div class="preview">
+1. (선택 사항) 연결된 필드에 대한 권한을 변경하려면 **필드 액세스**&#x200B;를 클릭합니다. 다음 선택 사항 중 하나를 선택합니다.
 
    * **레코드 형식에 액세스할 수 있는 모든 사용자가 볼 수 있습니다**: 레코드 형식에 액세스할 수 있는 사용자만 필드를 볼 수 있습니다. 기본 설정입니다.
    * **선택한 사용자만 액세스할 수 있습니다**: 필드를 공유할 사용자, 팀, 그룹, 회사 또는 역할을 추가하십시오.
 
-   </div>
+     자세한 내용은 [필드 공유](/help/quicksilver/planning/access/share-fields.md)를 참조하십시오.
+
 1. Click **Create**.
 
 1. (조건부) **조회 필드**&#x200B;을 클릭하면 **조회 필드 추가** 상자가 열립니다.
@@ -445,7 +436,7 @@ Old:
    >
    >    작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자는 연결된 객체 유형의 응용 프로그램에서 자신의 권한 또는 액세스 수준에 관계없이 연결된 필드에서 정보를 볼 수 있습니다.
 
-1. (선택 사항) 연결된 레코드 또는 개체 형식에서 필드 추가를 건너뛰려면 **건너뛰기**&#x200B;를 클릭합니다. 연결된 레코드의 이름 또는 기본 필드는 사용자가 연결하는 레코드 유형의 테이블 보기에 표시되는 유일한 필드입니다. <!--take this step out at production-->
+   &lt;!--1. (선택 사항) 연결된 레코드 또는 개체 형식에서 필드 추가를 건너뛰려면 **건너뛰기**&#x200B;를 클릭합니다. 연결된 레코드의 이름 또는 기본 필드는 사용자가 연결한 레코드 유형의 테이블 뷰에 표시되는 유일한 필드입니다.—프로덕션에서 이 단계를 수행합니다—>
 
 1. 추가하는 조회 필드에 대한 집계자를 선택합니다.
 
@@ -455,6 +446,8 @@ Old:
    >
    >    * 단락
    >    * 확인란
+   >    * 사람
+   >    * 레코드 ID
 
    사용자가 연결된 레코드 필드에서 둘 이상의 연결된 레코드를 선택하면 연결된 필드의 값이 선택한 집계기에 따라 쉼표로 구분되거나 요약된 값으로 표시됩니다.
 

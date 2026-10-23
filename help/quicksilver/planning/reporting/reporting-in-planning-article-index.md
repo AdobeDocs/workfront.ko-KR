@@ -19,12 +19,14 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 보고: 문서 색인
+
+{{planning-important-intro}}
 
 Adobe Workfront Planning에서 Snowflake 기술을 사용하는 Workfront Canvas Dashboard 또는 Workfront Data Connect를 사용하여 보고서를 만들 수 있습니다.
 

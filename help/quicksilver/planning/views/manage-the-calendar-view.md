@@ -28,16 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '1898'
 ht-degree: 5%
 ---
 # 달력 보기 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -200,9 +202,9 @@ Old:
        * 여러 날에 걸친 레코드가 달력 맨 위에 표시됩니다.
        * 하루나 그 이하로 지속되는 레코드는 달력 보기의 하반기에 표시됩니다. 시작 및 종료 일자의 시간을 표시하도록 선택한 경우 레코드가 발생한 날짜 내의 적절한 시간에 표시됩니다.
 
-         <span class="preview">달력에는 주별 보기의 두 영역에 대해 이전, 현재, 다음 주에 걸쳐 최대 1,000개의 레코드가 표시됩니다.</span>
+         달력에는 주별 보기의 두 영역에 대해 이전, 현재 및 다음 주에 걸쳐 최대 1,000개의 레코드가 표시됩니다.
 
-1. <span class="preview">(선택 사항 및 조건부) 1,000개가 넘는 레코드가 있고 주별로 달력을 볼 때 기본적으로 일부 레코드가 표시되지 않는 경우 달력 맨 아래에 있는 **추가 로드**&#x200B;를 클릭합니다.</span>
+1. (선택 사항 및 조건부) 1,000개가 넘는 레코드가 있는 경우 달력 맨 아래에 있는 **추가 로드**&#x200B;를 클릭합니다. 주별로 달력을 볼 때 기본적으로 일부 레코드가 표시되지 않습니다.
 
 1. (선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면으로 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 사용하여 전체 화면을 종료합니다.
 
@@ -287,10 +289,10 @@ Old:
         </tr>
         <tr>
             <td>다중 선택, 사람</td>
-            <td><p>다음 중 하나 포함</p> 또는 <span class="preview"><p>다음 중 하나</p></span>
+            <td><p>다음 중 하나</p>
             <p>다음을 모두 포함</p>
             <p>다음이 정확함</p>
-            <p>다음 중 어느 것도 포함하지 않음</p> 또는 <span class="preview"><p>다음 중 하나</p></span>
+            <p>다음 중 하나</p>
             <p>비어 있음</p>
             <p>비어 있지 않음</p></td>
         </tr>
@@ -459,7 +461,11 @@ Old:
 
    * **레코드 종류**: 일정에서 레코드 막대의 색이 선택한 레코드 종류의 색과 일치합니다. 기본 옵션입니다.
    * **필드 값**: 레코드 색이 지정한 필드 색과 일치합니다.
-   * **없음**: 레코드가 흰색 막대에 표시됩니다. <span class="preview">미리 보기 환경에서 **없음** 옵션이 제거되었습니다.</span>
+   * **레코드**: 색상이 레코드의 색상과 일치합니다.
+
+   <!-- 
+    * **None**: Records displays in a white bar. <span class="preview">The **None** option has been removed from the Preview environment.</span
+    -->
 
 
 
@@ -477,9 +483,7 @@ Old:
    >[!NOTE]
    >
    >* 색상을 색상으로 구분된 옵션이 있는 필드에만 일치시킬 수 있습니다. 예를 들어 색상을 상태 필드 또는 색상과 연관된 옵션이 있는 필드와 일치시킬 수 있습니다.
-   >    
-   >* 프로덕션 환경에서는 연결된 레코드 또는 해당 조회 필드에 색상을 일치시킬 수 없습니다. <span class="preview">미리 보기 환경에서는 연결된 레코드에 색상을 일치시킬 수 있지만 조회 필드에는 색상을 일치시킬 수 없습니다. </span>
-
+   >            
 
 1. **저장**&#x200B;을 클릭합니다.
 

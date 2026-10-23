@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1300'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 시작
@@ -53,10 +53,13 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -184,11 +187,7 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
 * [독립 실행형 제품으로 Adobe Workfront Planning 시작](/help/quicksilver/planning/planning-sta/planning-sta-overview.md): 독립 실행형 제품으로 구입할 경우 Workfront Planning에 대한 일반 정보
 * [Adobe Workfront Planning AI Assistant 개요](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront Planning AI Assistant를 사용하여 명령을 사용하여 레코드를 검색하거나, 레코드를 생성, 업데이트 및 삭제할 수 있으며, 이를 통해 Assistant가 작업을 수행하도록 할 수 있습니다.
 
-<div class="preview">
-
 * [Adobe Workfront Planning CX Enterprise Coworker 개요](/help/quicksilver/planning/general/planning-cx-coworker-overview.md): 목표를 일반 언어로 설명한 다음 Workfront Planning 및 기타 연결된 Adobe 시스템에서 작업을 계획, 실행 및 확인한 후 승인을 위해 다시 가져오는 대화 인터페이스입니다. CX Enterprise Coworker은 새로운 전체 화면 경험과 Workfront 오른쪽 레일 모두에서 강력한 엔드 투 엔드 기능을 추가하면서 현재 AI Assistant가 수행하는 모든 작업을 유지합니다.
-
-</div>
 
 * [Workfront Fusion용 Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Adobe Workfront 계획 모듈을 사용하면 Workfront Planning에서 이벤트가 발생할 때 시나리오를 트리거할 수 있습니다. 레코드를 생성, 읽기, 업데이트 및 삭제하거나 Adobe Workfront Planning 계정에 대한 사용자 정의 API 호출을 수행할 수도 있습니다. Workfront Fusion에 액세스하려면 추가 라이선스를 구입해야 합니다.
 

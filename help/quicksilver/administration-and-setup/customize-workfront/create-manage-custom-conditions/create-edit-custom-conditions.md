@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '646'
 ht-degree: 5%
 ---
 # 사용자 지정 조건 만들기 또는 편집
@@ -79,6 +79,7 @@ Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작
    또는
 
    기존 조건을 편집하려면 삭제하려는 조건 이름 옆의 확인란을 선택하고 화면 하단의 작업 표시줄에서 **편집**&#x200B;을 클릭합니다.
+
 
    ![사용자 지정 조건 편집](assets/edit-conditions-082526.png)
 

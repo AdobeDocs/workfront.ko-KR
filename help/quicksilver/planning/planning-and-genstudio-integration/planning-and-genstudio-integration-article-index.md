@@ -21,12 +21,14 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합: 문서 색인
+
+{{planning-important-intro}}
 
 GenStudio 작업 영역은 회사가 Adobe GenStudio for Performance Marketing과 Adobe Workfront을 모두 구입한 경우 Adobe Workfront Planning에서 사용할 수 있습니다.
 

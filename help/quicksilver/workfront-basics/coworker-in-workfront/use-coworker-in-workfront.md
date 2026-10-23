@@ -10,14 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: f97a3cd0ce05aa14b71eb252ddbb8c2cde94146a
+source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 3%
 ---
 # Workfront에서 CX Enterprise Coworker 사용
-
-{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -76,7 +74,10 @@ Workfront 외부의 동료 및 해당 기능에 대한 자세한 내용은 [Adob
    예를 들어 프롬프트는 문서 [Adobe Workfront MCP 서버 사용](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)에서 프롬프트를 참조하십시오.
 1. 채팅 입력 상자에서 다음 작업 중 하나를 사용합니다.
 
-   * **+(첨부)**: 첨부 메뉴를 열어 메시지에 파일 또는 데이터 개체를 추가합니다.
+   * **+(첨부)**: 다음 기능에 대한 첨부 메뉴를 엽니다.
+     * 명령
+     * 파일 첨부
+     * 개체 참조
    * **계획 모드**: 단계별 계획을 제안하고 실행하기 전에 승인을 일시 중지하도록 동료 채팅에 요청하십시오. 동료 채팅이 직접 작동하도록 하려면 이 기능을 끕니다.
    * **성적 증명서 보기**: Coworker Chat의 내부 활동(보통, 포커스 또는 세부 정보)을 표시할 정도를 제어합니다.
    * **마이크**: 음성 입력으로 메시지를 받아쓰십시오. 레코딩을 중단하려면 다시 선택하십시오.

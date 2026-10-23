@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5576'
 ht-degree: 1%
 ---
 <!--
@@ -51,10 +51,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # 필드 만들기
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -307,15 +308,10 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 1. (선택 사항 및 조건부) 필드를 추가한 후 테이블 보기 열 헤더의 필드 이름 위로 마우스를 가져간 후 **자세히** 드롭다운 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭하여 필드를 삭제합니다.
 
    자세한 내용은 [필드 삭제](/help/quicksilver/planning/fields/delete-fields.md)를 참조하십시오.
-<!--
-1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
 
-    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
--->
+1. (선택 사항 및 조건부) 필드를 추가한 후 테이블 보기 열 헤더의 필드 이름 위로 마우스를 가져간 후 **자세히** 드롭다운 메뉴를 클릭한 다음 **필드 공유**&#x200B;를 클릭하여 필드를 공유합니다.
 
-1. <span class="preview">(선택 사항 및 조건부) 필드를 추가한 후 테이블 보기 열 헤더의 필드 이름 위로 마우스를 가져간 후 **자세히** 드롭다운 메뉴를 클릭한 다음 **필드 공유**&#x200B;를 클릭하여 필드를 공유합니다. </span>
-
-   </span>자세한 내용은 [필드 공유](/help/quicksilver/planning/access/share-fields.md)를 참조하십시오. </span>
+   자세한 내용은 [필드 공유](/help/quicksilver/planning/access/share-fields.md)를 참조하십시오.
 
 ### 한 줄 텍스트 {#single-line-text}
 

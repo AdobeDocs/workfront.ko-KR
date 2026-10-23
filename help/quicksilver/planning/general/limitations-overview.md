@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '500'
 ht-degree: 3%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
@@ -67,6 +67,7 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 | 레코드 유형을 만들기 위해 가져올 수 있는 Excel 파일의 CSV 크기 | 5MB |
 | CSV 또는 Excel 파일로 가져와 레코드 유형을 만들 수 있는 행 수 | 25,000 |
 | CSV 또는 Excel 파일로 가져와 레코드 유형을 만들 수 있는 열 수 | 500 |
+| CX Enterprise Coworker을 사용하여 레코드를 만들 때 CSV 또는 Excel 파일로 가져올 수 있는 행 수입니다 | 10,000 이상 |
 | 하나의 레코드 유형에 대한 공식 필드 수 | 20 |
 | 하나의 레코드 유형에 대한 연결 필드 수 | 30 |
 | 공식 필드 표현식의 문자 수 | 50,000 |

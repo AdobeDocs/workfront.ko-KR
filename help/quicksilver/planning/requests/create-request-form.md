@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3098'
+source-wordcount: '3176'
 ht-degree: 2%
 ---
 # Adobe Workfront Planning에서 요청 양식 만들기 및 관리
@@ -160,7 +160,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 목록 보기에서 레코드 유형 페이지가 열립니다.
 
-1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음, 양식을 처음 만드는 경우 **요청 양식 만들기**&#x200B;를 클릭합니다. 이미 양식이 있고 양식을 추가로 만들려면 **요청 양식 관리** 또는 <span class="preview">**요청 양식**.</span>를 클릭합니다.
+1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음, 양식을 처음 만드는 경우 **요청 양식 만들기**&#x200B;를 클릭합니다. **요청 양식**&#x200B;을 클릭합니다.
 
    **요청 양식** 페이지가 열리고 요청이 목록 보기에 표시됩니다.
 
@@ -212,49 +212,35 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    * **레이블**: 요청 양식에 표시되는 필드 이름입니다. 레코드 필드의 이름은 변경되지 않습니다.
    * **지침**: 필드에 대한 정보를 더 추가합니다.
 
-   <div class="preview">
-
    * **선택 항목**: 선택한 필드에만 사용할 수 있습니다. 다음 중 하나를 수행하십시오.
 
      * 자동으로 정렬하려면 **선택 항목 정렬 A-Z**&#x200B;을 클릭하세요.
      * 선택 항목을 드래그 앤 드롭하거나 수동으로 정렬하십시오.
      * **설정** 아이콘 ![설정 아이콘](assets/settings-icon.png)을 클릭한 다음 **기본적으로 선택**&#x200B;을 클릭하여 기본 옵션을 표시하거나 **선택 항목 숨기기**&#x200B;를 클릭하여 숨깁니다.
 
-   </div>
-
    >[!TIP]
    >
-   ><span class="preview">Planning 요청 양식에서 선택 항목의 이름을 바꾸거나 제거할 수 없습니다. 레코드 종류의 테이블 보기에서 필드 선택 사항을 편집해야 합니다.</span>
-
+   >Planning 요청 양식에서 선택 항목의 이름을 바꾸거나 제거할 수 없습니다. 레코드 유형의 표 보기에서 필드 선택 사항을 편집해야 합니다.
 
 1. **고급 설정** 영역에서 아래 나열된 옵션 중에서 선택합니다. 모든 필드 유형에 모든 옵션을 사용할 수 있는 것은 아닙니다.
 
    * **필수 필드 만들기**: 선택한 경우 필드에 값이 있어야 합니다. 그렇지 않으면 양식을 제출할 수 없습니다.
-   * **논리 추가**: 필드가 표시되거나 숨겨지기 위해 충족되어야 하는 조건을 정의합니다. 논리 추가는 필드가 단일 및 다중 선택 필드이거나 그 앞에 오는 경우에만 사용할 수 있습니다. <span class="preview">일부 필드 형식에 유효성 검사 및 기본값 규칙을 사용할 수 없습니다.</span>
+   * **논리 추가**: 필드가 표시되거나 숨겨지기 위해 충족되어야 하는 조건을 정의합니다. 논리 추가는 필드가 단일 및 다중 선택 필드이거나 그 앞에 오는 경우에만 사용할 수 있습니다. 일부 필드 유형에는 유효성 검사 및 기본값 규칙을 사용할 수 없습니다.
 
-     프로덕션 환경에서 다음 옵션 중 하나를 선택합니다.
+   다음 옵션 중에서 선택합니다.
 
-     * **표시 논리**: 선택한 필드 앞에는 다중 선택 또는 단일 선택 필드가 있어야 합니다.
-     * **건너뛰기 논리**: 사용자가 필드를 건너뛰고 비워 두어야 하는 경우에 대한 건너뛰기 규칙을 추가합니다.
+   * **디스플레이**
+   * **건너뛰기**
+   * **기본값**
+   * **유효성 검사**
+   * **서식 지정**
+   * **편집 가능성**
 
-     <div class="preview">
+   자세한 내용은 [사용자 정의 양식 및 필드에 논리 규칙 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)를 참조하십시오.
 
-     미리보기 환경에서 다음 옵션 중 하나를 선택합니다.
-
-     * **디스플레이**
-     * **건너뛰기**
-     * **기본값**
-     * **유효성 검사**
-     * **서식 지정**
-     * **편집 가능성**
-
-     </div>
-
-     자세한 내용은 [사용자 정의 양식 및 필드에 논리 규칙 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)를 참조하십시오.
-
-     >[!TIP]
-     >
-     ><span class="preview">양식에서 필드를 선택하면 각 필드의 필드 유형이 오른쪽 패널 맨 위에 표시됩니다.</span>
+   >[!TIP]
+   >
+   >각 필드의 필드 유형은 양식에서 필드를 선택한 후 오른쪽 패널 상단에 표시됩니다.
 
 1. (선택 사항) 필드를 길게 클릭하여 양식의 다른 위치에 끌어다 놓습니다.
 1. (선택 사항) 양식 왼쪽에 있는 **콘텐츠 요소** 탭을 클릭하고 다음 요소를 추가합니다.
@@ -269,24 +255,25 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 1. (선택 사항) **미리 보기**&#x200B;를 클릭하여 다른 사용자가 양식을 사용하여 요청을 제출할 때 양식이 표시되는 방식을 확인합니다.
 1. 다음 중 하나를 계속 진행합니다.
 
-   * 프로덕션 환경에서 양식에 대한 자세한 내용을 구성하려면 [양식 설정을 구성](#configure-form-settings)
-   * 추가 설정을 구성하지 않으려면 [양식 게시](#publish-form)하세요.
+   * 양식에 대해 자세한 내용을 구성하려면 [양식 설정을 구성](#configure-form-settings)
+   * [양식 게시](#publish-form) - 사용자가 양식에 요청을 제출할 수 있도록 양식을 게시합니다.
+   * [요청 양식을 공유](#share-a-request-form)하여 다른 사용자와 양식을 공유하거나 공개적으로 공유
 
 ### 양식 설정 구성
 
-설정 탭에서 승인 규칙을 설정하고, 이 양식에서 만든 요청이 완료됨으로 표시될 시기를 구성하고, <span class="preview">양식을 사용하여 제출된 이후 요청과 상호 작용하는 사용자에게 기본 권한을 할당할 수 있습니다.</span>
+설정 탭에서 승인 규칙을 설정하고, 이 양식에서 만든 요청이 완료됨으로 표시될 시기를 구성하고, 양식을 사용하여 제출된 향후 요청과 상호 작용하는 사용자에게 기본 권한을 할당할 수 있습니다.
 
 승인 규칙은 제출된 요청의 필드 값을 기준으로 승인 프로세스를 정의합니다.
 
 예를 들어 요청 양식에 &quot;캠페인 유형&quot; 필드가 있는 경우, 필드에 &quot;디지털&quot; 값이 있을 경우 한 사람에게, &quot;인쇄&quot; 값이 있을 경우 다른 사람에게 요청을 보내는 규칙을 만들 수 있습니다.
 
-<span class="preview">승인 프로세스에서 여러 단계가 지원됩니다. 단계에 필요한 모든 결정이 내려지면 다음 단계가 시작되고 새 단계의 승인자가 전자 메일 알림을 받습니다.</span>
+승인 프로세스에서는 여러 단계가 지원됩니다. 한 단계에서 필요한 모든 결정이 내려지면 다음 단계가 시작되고 새 단계의 승인자가 이메일 알림을 받습니다.
 
 승인 추가에 대한 자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
 
 완료 옵션을 사용하면 요청된 개체를 만들 때 요청이 완료됨으로 표시되는지 또는 만들어진 개체가 완료되었을 때 요청이 완료됨으로 표시되는지 여부를 설정할 수 있습니다. 지정된 조건을 기반으로 개체가 완료되는 시기를 정의합니다.
 
-<span class="preview">요청 양식의 설정 영역에서 권한 섹션을 사용하여 양식을 사용하여 만든 요청에 대한 <!--and non-requestors--> 요청자의 기본 권한을 정의합니다.</span>
+요청 양식의 설정 영역에서 권한 섹션을 사용하여 양식을 사용하여 만든 요청에 대한 <!--and non-requestors--> 요청자의 기본 권한을 정의합니다.
 
 양식 설정을 구성하려면:
 
@@ -297,7 +284,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 승인 규칙 구성을 시작하려면 왼쪽 탐색에서 **승인** ![승인 아이콘](assets/approvals-icon-on-form.png)을 클릭하세요.
 
-   단일 <span class="preview"> 또는 여러 단계의 승인 규칙 </span>을(를) 만들고 사용자 또는 팀을 승인에 할당할 수 있습니다.
+   단일 또는 다중 단계 승인 규칙을 만들고 사용자 또는 팀을 승인에 할당할 수 있습니다.
 
    승인 추가에 대한 자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
 
@@ -309,56 +296,41 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
 
-1. <span class="preview">왼쪽 패널에서 **사용 권한**&#x200B;을 클릭합니다.</span>
-1. <span class="preview">다음 양식을 통해 요청을 제출하는 사용자의 권한 수준을 선택하십시오.</span>
-
-   <div class="preview">
+1. 왼쪽 패널에서 **사용 권한**&#x200B;을 클릭합니다.
+1. 이 양식을 통해 요청을 제출하는 사용자의 권한 수준을 선택합니다.
 
    * **보기**: 모든 요청자가 양식에 댓글을 달고 공유할 수 있습니다.
    * **참여**: 모든 요청자가 양식에 대해 댓글을 달고, 공유하고, 편집할 수 있습니다.
    * **관리**: 모든 요청자는 양식에 대해 댓글 달기, 공유, 편집 및 삭제할 수 있습니다.
 
-   </div>
-
-1. <span class="preview">(선택 사항) 요청자가 다음 작업을 수행하지 못하도록 각 권한 수준에 대한 세분화된 권한을 선택 취소합니다.</span>
-
-   <div class="preview">
+1. (선택 사항) 각 권한 수준에 대한 세분화된 권한을 선택 해제하여 요청자가 다음 작업을 수행하지 못하도록 합니다.
 
    * 댓글
    * 공유
    * 편집. 보기에 사용할 수 없습니다.
    * 삭제. Contribute 및 [보기]에는 사용할 수 없습니다.
 
-   </div>
+   >[!TIP]
+   >
+   >여기에서 선택 취소한 세부 권한은 요청 페이지의 해당 사용자와 요청을 공유할 때 흐리게 표시됩니다.
+
+1. 요청을 제출할 때 **양식 채우기** 기능을 사용할 때 사용자 지정 프롬프트를 구성하려면 <span class="preview">**AI 양식 채우기**&#x200B;를 클릭하십시오. </span>
 
    >[!TIP]
    >
-   ><span class="preview">요청을 요청 페이지의 해당 사용자와 공유할 때 여기에서 선택 해제한 세부 권한이 흐리게 표시됩니다. </span>
+   ><span class="preview">AI를 사용하여 프롬프트를 적용하려면 요청 양식을 채울 때 파일을 첨부해야 합니다. </span>
+
+1. <span class="preview">**기본 프롬프트 설정 사용**&#x200B;을 설정한 다음 기본 프롬프트를 추가합니다. </span>
+
+   <span class="preview">프롬프트를 가능한 자세히 표시합니다. 예를 들어, 채우기 양식을 사용할 때 날짜가 들어 있는 파일을 항상 사용하는 경우 프롬프트에 &quot;날짜를 항상 유럽 형식으로 저장&quot;을 추가할 수 있습니다. </span>
+
+   <span class="preview">이 양식을 사용하여 요청을 제출할 때 **양식 채우기** 기능을 사용하고 파일을 첨부하면 AI가 새 요청에 대해 이 기본 프롬프트에서 사용자가 지정한 편집 내용을 수행합니다. 제출하기 전에 변경 사항을 검토할 수 있는 변경 사항이 있습니다. </span>
+
+   ![기본 프롬프트 예제를 채우는 AI 양식](assets/ai-form-fill-with-default-prompt-example.png)
 
 1. [양식 게시](#publish-form)를 계속합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
-
-
-
-<!--
-
-Add these before Continue to Publish form above:
-
-1. <span class="preview">Click **Ai form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
-
-      >[!TIP]
-      >
-      ><span class="preview">You must attach a file when using AI to fill the request form for the prompt to take effect. </span>   
-
-1. <span class="preview">Turn on the **Enable default prompt setting**, then add a default prompt. </span> 
-
-   <span class="preview">Make the prompt as detailed as possible. For example, if you always use files with dates in them when using Fill form, you may add "Always store dates in European format" to the prompt. </span> 
-
-   <span class="preview">When you use the **Fill form** capability and attach a file when submitting a request using this form, AI will perform the edits you are prescribing in this default prompt on the new request. You will have a change to review the changes before you submit it. </span> 
-
-   ![AI form filling default prompt example](assets/ai-form-fill-with-default-prompt-example.png)
--->
 
 ### 양식 게시
 
@@ -446,7 +418,7 @@ Add these before Continue to Publish form above:
 
 1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
-1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 관리** 또는 <span class="preview">**요청 양식 관리**</span>&#x200B;를 클릭합니다.
+1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식**&#x200B;을 클릭합니다.
 
    **요청 양식** 페이지가 열리고 레코드 형식과 관련된 모든 요청 양식이 목록 보기에 표시됩니다.
 1. (선택 사항) **요청 양식** 페이지에서 다음 보기 요소를 업데이트하여 테이블에 정보가 표시되는 방식을 변경합니다.

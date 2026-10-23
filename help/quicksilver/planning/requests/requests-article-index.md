@@ -23,7 +23,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -47,9 +47,6 @@ ht-degree: 0%
 * [Adobe Workfront Planning에서 요청 양식 게시 취소](/help/quicksilver/planning/requests/unpublish-request-form.md)
 * [Adobe Workfront Planning에서 요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 * [Adobe Workfront Planning에서 요청 승인](/help/quicksilver/planning/requests/approve-request.md)
-
-<div class="preview">
-
 * [Planning 요청 공유](/help/quicksilver/planning/requests/share-requests.md)
 
-</div>
+

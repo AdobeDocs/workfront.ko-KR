@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1362'
 ht-degree: 2%
 ---
 # AI 공동 작업자 구성
-
-{{preview-fast-release-general}}
 
 AI 공동 작업자는 프로젝트, 작업 및 문제에 AI 에이전트를 온보딩하는 방법입니다. AI 공동 작업자를 구성한 다음 사용자와 마찬가지로 할당할 수 있습니다.
 
@@ -65,7 +63,7 @@ AI 공동 작업자는 프로젝트, 작업 및 문제에 AI 에이전트를 온
   </tr> 
   <tr> 
    <td>액세스 수준 구성</td> 
-   <td>[!UICONTROL 시스템 관리자] <span class="preview"> 또는 그룹 관리자</span></td> 
+   <td>[!UICONTROL 시스템 관리자] 또는 그룹 관리자</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -144,7 +142,7 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
 
    >[!NOTE]
    >
-   ><span class="preview">그룹 관리자인 경우 이 필드에는 관리자인 그룹만 표시됩니다. 그룹 관리자는 그룹을 하나 이상 선택해야 합니다.</span>
+   >그룹 관리자인 경우 이 필드에는 관리자인 그룹만 표시됩니다. 그룹 관리자는 그룹을 하나 이상 선택해야 합니다.
 
 1. **에이전트의 원본 선택** 영역에서 Copilot과 같은 일반 플랫폼에서 만든 에이전트를 연결할지 또는 사용자 지정 에이전트를 사용할지 여부를 선택합니다.
 1. (조건부) 일반 플랫폼에서 에이전트를 사용하는 경우 에이전트 플랫폼에 대한 인증 세부 정보를 입력합니다.
@@ -153,16 +151,17 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
    |---|---|
    | 코파일럿 스튜디오 | 웹 채널 암호 |
    | Claude Managed Agents | Anthropic API 키<br>에이전트 ID<br>환경 ID |
-   | <span class="preview">OpenAI 에이전트</span> | <span class="preview">API 키 <br>에이전트 ID</span> |
-   | <span class="preview">IBM watsonx 오케스트레이션</span> | <span class="preview">서비스 URL<br>API 키<br> 에이전트 ID</span> |
+   | OpenAI 에이전트 | API 키 <br>에이전트 ID |
+   | IBM watsonx Orchestrate | 서비스 URL<br>API 키<br> 에이전트 ID |
 
 1. **연결 테스트**&#x200B;를 클릭합니다. 이렇게 하면 연결이 올바르게 설정되었는지 여부를 알 수 있습니다.
 1. **Collaborator의 작업이 완료되면** 영역에서 Collaborator가 수행할 작업을 전환할 수 있습니다.
 
-   * <span class="preview">알림 보내기: 에이전트가 업데이트 스트림에 댓글을 달아서 작업을 요청하거나 에이전트를 할당하거나 프로젝트를 소유한 사용자에게 태그를 지정합니다. </span>
-   * <span class="preview">텍스트 기반 문서 업로드</span>
-   * <span class="preview">작업을 완료로 표시</span>
+   * 알림 보내기: 에이전트는 업데이트 스트림에 댓글을 달며 작업을 요청하거나, 에이전트를 할당하거나, 프로젝트를 소유한 사용자에게 태그를 지정합니다.
+   * 텍스트 기반 문서 업로드
+   * 작업을 완료로 표시
    * 작업 필드 쓰기: 에이전트가 쓸 수 있는 양식 및 필드를 선택합니다.
+   * 프로젝트 필드 쓰기: 에이전트가 쓸 수 있는 양식 및 필드를 선택합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -282,7 +281,7 @@ For more information on the Project Coordinator, including how to assign it to p
 
 >[!NOTE]
 >
-><span class="preview">그룹 관리자는 자신이 관리자인 그룹과 연결된 AI 공동 작업자만 보고 상호 작용할 수 있습니다. 다른 그룹도 주어진 AI 공동 작업자와 연결되어 있으면 그룹 관리자가 볼 수는 있지만 편집할 수는 없습니다.</span>
+>그룹 관리자는 자신이 관리자인 그룹과 연결된 AI 공동 작업자만 보고 상호 작용할 수 있습니다. 다른 그룹도 주어진 AI 공동 작업자와 연결된 경우 그룹 관리자는 이를 볼 수 있지만 편집할 수는 없습니다.
 
 {{step-1-to-setup}}
 

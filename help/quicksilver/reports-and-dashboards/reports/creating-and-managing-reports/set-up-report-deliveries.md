@@ -28,14 +28,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1634'
 ht-degree: 0%
 ---
 # 보고서 게재 개요
-
-{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -202,17 +200,13 @@ Workfront에서 PDF 또는 Excel 형식으로 보고서를 보낼 때 원본 문
 
 이메일 메시지에 있는 보고서의 이름도 링크입니다.
 
-<div class="preview">
-
 ### 보고서 만료 알림 {#report-expiration-notices}
 
-미리보기에서 배달된 보고서 이메일에는 보고서의 만료 날짜가 포함됩니다.
+게재된 보고서 이메일에는 보고서의 만료 날짜가 포함됩니다.
 
 게재가 매일 반복되는 경우 이메일에는 만료 날짜가 45일 이내이면 모든 게재에 대해 만료 경고가 포함됩니다.
 
 게재가 매주 또는 매월 반복되는 경우 이메일에는 만료 날짜 이전의 마지막 4회 예약된 게재 동안 만료 경고가 포함됩니다.
-
-</div>
 
 ## 예약된 보고서에 대한 보고서
 

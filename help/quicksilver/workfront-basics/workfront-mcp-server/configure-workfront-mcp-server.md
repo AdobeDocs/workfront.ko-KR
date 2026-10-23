@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
+source-git-commit: ea37064458010280997e3fda3136fa431d2759e2
 workflow-type: tm+mt
 source-wordcount: '2357'
 ht-degree: 0%
@@ -40,13 +40,13 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 
 >[!NOTE]
 >
-><span class="preview">모든 도구를 미리 로드하는 클라이언트의 MCP 카탈로그 크기를 줄이기 위해 `toolsets` 쿼리 매개 변수를 Workfront MCP 서버 URL에 추가할 수 있습니다. 예: </span>
+>모든 도구를 미리 로드하는 클라이언트의 MCP 카탈로그 크기를 줄이기 위해 `toolsets` 쿼리 매개 변수를 Workfront MCP 서버 URL에 추가할 수 있습니다. 예:
 >
 >```
 >https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
 >```
 >
-><span class="preview">도구 집합에 대한 자세한 내용은 Adobe Workfront MCP 서버 도구 문서의 [Workfront MCP 서버의 도구 집합](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)을 참조하십시오.</span>
+>도구 집합에 대한 자세한 내용은 Adobe Workfront MCP 서버 도구 문서의 [Workfront MCP 서버의 도구](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)를 참조하십시오.
 
 ## 전제 조건
 
@@ -68,7 +68,7 @@ MCP 서버 액세스는 두 명의 별도 관리자에 의해 제어됩니다.
 
 * 엔터프라이즈 버전의 AI 에이전트 플랫폼을 사용하는 경우 해당 플랫폼의 관리자는 조직의 [!DNL Adobe Workfront] 커넥터를 활성화하거나 Workfront MCP 서버에 연결할 수 있는 사용자 지정 URL 액세스 권한을 제공해야 합니다.
 
-* <span class="preview">사용자 지정 응용 프로그램 또는 에이전트 플랫폼에 고유한 고객별 OAuth 콜백 URL을 연결하는 경우 Workfront 관리자는 해당 URL을 **시스템 환경 설정 > MCP 환경 설정**&#x200B;의 **승인된 리디렉션 URL** 목록에 추가해야 합니다. 이 기능이 없으면 인증이 거부됩니다. 자세한 내용은 이 문서에서 [OAuth와 연결](#connect-with-oauth)을 참조하십시오.</span>
+* 고유한 고객별 OAuth 콜백 URL을 사용하여 사용자 지정 응용 프로그램 또는 에이전트 플랫폼을 연결하는 경우 Workfront 관리자는 **시스템 환경 설정 > MCP 환경 설정**&#x200B;의 **승인된 리디렉션 URL** 목록에 해당 URL을 추가해야 합니다. 이 기능이 없으면 인증이 거부됩니다. 자세한 내용은 이 문서에서 [OAuth와 연결](#connect-with-oauth)을 참조하십시오.
 
 
 ## Workfront을 클로드에 연결
@@ -254,8 +254,6 @@ Workfront MCP가 연결할 수 있는 사용자 지정 Copilot 에이전트를 �
 
 ### OAuth와 연결
 
-<div class="preview">
-
 연결하는 AI 에이전트 플랫폼 또는 사용자 정의 애플리케이션에 연결이나 테넌트 ID가 포함된 URL과 같은 고객별 고유한 OAuth 콜백(리디렉션) URL이 있는 경우 인증하기 전에 Workfront 관리자가 해당 URL을 조직의 승인된 리디렉션 URL 목록에 추가해야 합니다.
 
 >[!NOTE]
@@ -280,7 +278,6 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 
 콜백 URL이 목록에 없으면 인증 요청이 거부됩니다. Workfront 관리자에게 문의하여 통합에서 제공한 URL을 정확하게 입력했는지 확인하십시오.
 
-</div>
 
 ## 연결 확인
 

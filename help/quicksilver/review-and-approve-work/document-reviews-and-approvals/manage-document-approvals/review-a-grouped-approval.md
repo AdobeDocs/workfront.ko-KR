@@ -5,15 +5,13 @@ title: 그룹화된 승인 검토
 description: 홈 또는 Frame.io 뷰어의 내 승인 위젯에서 그룹화된 승인으로 모든 문서를 검토하고 결정할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: e62ae215bcc7ea42701d6eb92cf43f531a6afc0d
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '630'
 ht-degree: 3%
 ---
 
 # 그룹화된 승인 검토
-
-<span class="preview">Frame.io 통합을 사용할 수 없으므로 미리 보기 샌드박스 환경에서 이 페이지의 정보를 사용할 수 없습니다. 이 기능은 2026년 10월 22일에 프로덕션 환경에서 사용할 수 있습니다.</span>
 
 그룹화된 승인에 할당되면 그룹의 모든 문서가 함께 표시되므로 각 문서에 대해 결정을 내릴 수 있습니다. 모든 문서에 대해 한 번에 승인 또는 변경을 요청하거나 각 문서에 대해 개별적으로 결정을 내릴 수 있습니다.
 

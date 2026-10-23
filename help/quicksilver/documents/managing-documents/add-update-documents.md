@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b5e412f9131f469cd926b20a4879bb638eda7ffb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 3%
 ---
 # 문서에 업데이트 추가
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -112,9 +110,7 @@ ht-degree: 3%
    ![새 문서 주석 패널](assets/comments-new-doc.png)
 
 
-<div class="preview">
-
-### 미리 보기의 Frame.io 주석 표시기
+### Frame.io 주석 표시기
 
 문서에 대한 승인 워크플로가 만들어지면 사용자는 Frame.io 뷰어에 주석을 달고 댓글을 달 수 있습니다. 이러한 주석은 Workfront 주석 패널에 표시되지 않지만 Frame.io 뷰어에서 볼 수 있습니다.
 
@@ -125,5 +121,3 @@ Workfront의 [주석] 패널에는 Frame.io에서 새 주석을 사용할 수 �
 >[!NOTE]
 >
 >* Frame.io Enterprise 라이센스가 있으면 승인 작업 과정 없이 Frame.io 뷰어에서 주석을 볼 수 있습니다.
-
-</div>

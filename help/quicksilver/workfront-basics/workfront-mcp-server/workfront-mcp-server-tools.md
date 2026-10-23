@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
+source-git-commit: 29ff664c0ec62dc87c52052fac8b2b2183bf0841
 workflow-type: tm+mt
 source-wordcount: '3774'
 ht-degree: 3%
@@ -41,10 +41,6 @@ AI 에이전트 플랫폼에 표시되는 도구는 조직의 Workfront 제품 �
 조직에 제품 영역에 대한 권한이 없는 경우 관련 도구가 해당 연결에 대한 도구 목록에 표시되지 않습니다. AI 에이전트 플랫폼에서 사용 권한에 사용할 수 없는 도구를 호출하려고 하면 요청이 차단됩니다.
 
 다음 표는 각 도구가 속한 제품 영역을 식별합니다.
-
-<div class="preview">
-
-<!--This section is for the 27.1 release-->
 
 ## Workfront MCP 서버의 도구 세트
 
@@ -86,7 +82,6 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 
 AI 클라이언트가 다른 도메인에 액세스하도록 하려면 연결 구성을 업데이트하여 적절한 도구 세트를 선택합니다.
 
-</div>
 
 ## 읽기 및 쓰기 작업
 

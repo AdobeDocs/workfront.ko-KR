@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '550'
 ht-degree: 1%
 ---
 # 캔버스 대시보드 개요
@@ -43,11 +43,7 @@ ht-degree: 1%
 >
 >가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하세요.
 >
->다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
->
->* Amazon Web Services에 대한 자체 키 가져오기
->* Azure
->* Google Cloud 플랫폼
+
 
 캔버스 대시보드를 사용하면 크기 조정, 드래그 앤 드롭 등을 비롯한 다양한 유연한 레이아웃 옵션을 제공하는 캔버스에 보고서 유형을 추가하여 Adobe Workfront 데이터를 손쉽게 시각화할 수 있습니다.
 

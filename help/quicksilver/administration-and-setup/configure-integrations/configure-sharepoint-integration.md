@@ -40,14 +40,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
 ---
 # [!DNL SharePoint] 통합 구성
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -153,8 +151,8 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
    조직의 [!DNL SharePoint] 통합 목록이 나타납니다.
 
-1. (선택 사항) [!DNL SharePoint] 통합을 편집하려면 옆에 있는 확인란을 선택한 다음 화면 하단의 파란색 막대에서 **[!UICONTROL 편집]** <span class="preview">을 클릭합니다</span>.
-1. <span class="preview">(선택 사항) [!DNL SharePoint] 통합을 사용하지 않으려면 옆에 있는 확인란을 선택한 다음 화면 하단의 파란색 막대에서 **[!UICONTROL 사용 안 함]**&#x200B;을 클릭합니다.</span>
+1. (선택 사항) [!DNL SharePoint] 통합을 편집하려면 옆에 있는 확인란을 선택한 다음 화면 하단의 파란색 막대에서 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+1. (선택 사항) [!DNL SharePoint] 통합을 사용하지 않으려면 옆에 있는 확인란을 선택한 다음 화면 하단의 파란색 막대에서 **[!UICONTROL 사용 안 함]**&#x200B;을 클릭합니다.
 
 ## [!DNL SharePoint] 통합에 대한 보안, 액세스 및 권한 부여 정보
 

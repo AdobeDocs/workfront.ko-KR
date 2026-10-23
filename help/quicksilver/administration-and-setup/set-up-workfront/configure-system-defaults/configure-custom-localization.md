@@ -16,16 +16,14 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b077c95d8bb795fcd7c0983c78b7533cb8167270
+source-git-commit: da04199570bf7317c4cee5254d8f1fc8a0746c6c
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 4%
 ---
 # 사용자 정의 현지화 구성
 
-{{highlighted-preview}}
-
-사용자 지정 지역화를 통해 <span class="preview"> AI를 사용하여</span> 다른 언어로 사용자 지정 용어와 구를 정의할 수 있습니다. 그런 다음 Workfront에서는 이러한 용어를 사용자의 Adobe Identity Management(IMS) 설정에 있는 언어 세트로 표시합니다.
+사용자 정의 지역화를 사용하면 AI를 사용하여 사용자 정의 용어와 구를 다양한 언어로 정의할 수 있습니다. 그런 다음 Workfront에서는 이러한 용어를 사용자의 Adobe Identity Management(IMS) 설정에 있는 언어 세트로 표시합니다.
 
 예를 들어 레이블 &quot;Target Audience&quot;는 독일어 &quot;Zielgruppe&quot;로 현지화할 수 있습니다. 브라우저의 기본 언어로 선택된 독일어를 사용하는 모든 사용자에게는 영어로 &quot;Target Audience&quot;라는 레이블이 지정된 필드에 대한 레이블로 &quot;Zielgruppe&quot;라는 단어가 표시됩니다.
 
@@ -92,8 +90,6 @@ ht-degree: 4%
 1. (선택 사항) 언어 열의 순서를 바꾸려면 이동할 열의 헤더를 클릭하고 원하는 위치로 끕니다.
 1. (선택 사항) 용어에 대한 번역을 삭제하려면 용어 옆에 있는 확인란을 클릭한 다음 페이지 하단에 있는 파란색 막대에서 **삭제**&#x200B;를 클릭합니다.
 
-<div class="preview">
-
 ## AI 번역을 사용하여 번역되지 않은 사용자 지정 텍스트 현지화
 
 AI를 사용하여 사용자 정의 텍스트를 현지화할 수 있습니다. 용어 및 언어를 선택하고 번역이 적용되기 전에 승인할 수 있습니다.
@@ -149,5 +145,3 @@ AI를 사용하여 이전에 현지화된 용어를 새 언어로 번역하거�
 1. **저장**&#x200B;을 클릭합니다.
 1. (선택 사항) 용어에 대한 모든 번역을 삭제하려면 용어 옆에 있는 확인란을 클릭한 다음 페이지 하단의 파란색 막대에서 **삭제**&#x200B;를 클릭합니다.
 
-
-</div>

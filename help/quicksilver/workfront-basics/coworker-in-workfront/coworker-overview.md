@@ -10,14 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
 ---
 # Workfront의 CX Enterprise Coworker 개요
-
-{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -38,4 +36,5 @@ Workfront에서 Coworker 사용에 대한 자세한 내용은 [Workfront에서 C
 Workfront의 Coworker에서 사용할 수 있는 기술은 [CX Enterprise Coworker의 Workfront 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)을 참조하십시오.
 
 예를 들어 프롬프트는 문서 [Adobe Workfront MCP 서버 사용](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)에서 프롬프트를 참조하십시오.
+
 
