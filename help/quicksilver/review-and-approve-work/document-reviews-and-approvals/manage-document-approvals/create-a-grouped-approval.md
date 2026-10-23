@@ -5,15 +5,13 @@ title: 그룹화된 승인 만들기
 description: 여러 문서를 하나의 승인 작업 과정으로 번들로 묶어 동일한 단계를 함께 진행할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1154'
 ht-degree: 1%
 ---
 
 # 그룹화된 승인 만들기
-
-<span class="preview">Frame.io 통합을 사용할 수 없으므로 미리 보기 샌드박스 환경에서 이 페이지의 정보를 사용할 수 없습니다. 이 기능은 2026년 10월 22일에 프로덕션 환경에서 사용할 수 있습니다.</span>
 
 그룹화된 승인은 단일 승인 워크플로에 따라 여러 문서를 번들로 제공합니다. 단일 문서 승인과 마찬가지로 그룹화된 승인을 통해 기본 및 고급 모드, 여러 단계 및 병렬 경로를 사용할 수 있습니다.
 
