@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 1a1e8fab8f8ef5c0c9dae032ed0eb5b24c3f364d
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1393'
 ht-degree: 2%
 ---
 # AI 공동 작업자 구성
@@ -129,6 +129,10 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
 * [작업 에이전트용 에이전트 생성 모범 사례](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### Workfront에서 작업 에이전트 구성
+
+>[!NOTE]
+>
+>작업 에이전트에서 사용한 라이선스는 청구되지 않습니다. 조직에 200개의 Workfront 라이센스가 있고 작업 에이전트를 만드는 경우 201개의 라이센스가 사용 중이지만 200개만 청구됩니다.
 
 {{step-1-to-setup}}
 
