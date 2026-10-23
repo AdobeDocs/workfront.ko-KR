@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 29ff664c0ec62dc87c52052fac8b2b2183bf0841
+source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
 workflow-type: tm+mt
-source-wordcount: '3774'
+source-wordcount: '3777'
 ht-degree: 3%
 ---
 
@@ -67,10 +67,11 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 
 사용 가능한 도구 세트는 다음과 같습니다.
 
-* `core` — 도구 집합의 하위 집합을 선택할 때 자동으로 포함되는 기본 Workfront 도구 집합입니다.
-* `comment-stream` — 댓글 및 토론 워크플로에 사용되는 도구입니다.
-* `planning` — Workfront Planning 기능에 대한 도구입니다.
-* `approvals` — 승인 워크플로용 도구입니다.
+* `core`: 도구 집합의 하위 집합을 선택할 때 자동으로 포함되는 기본 Workfront 도구 집합입니다.
+* `comment-stream`: 댓글 및 토론 워크플로를 위한 도구입니다.
+* `planning`: Workfront Planning 기능에 대한 도구입니다.
+* `approvals`: 승인 워크플로용 도구.
+* `reporting`: 보고용 도구입니다.
 
 인증된 전체 카탈로그를 표시하려면 매개 변수를 생략하거나 `toolsets=all`을(를) 사용하십시오.
 

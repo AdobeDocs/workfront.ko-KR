@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 04c7239a6b8dc46c22e978164ad71d6a600d4e62
+source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3415'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
@@ -43,19 +43,23 @@ Coworker의 파일을 첨부하는 기존 기능을 사용하여 동일한 구�
 
 자세한 내용은 [Workfront에서 CX Enterprise Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)을 참조하세요.
 
-## GenStudio for Performance Marketing에서 Planning 작업 공간 활성화
+<!--
+
+## Enable Planning workspaces in GenStudio for Performance Marketing
 
 >[!NOTE]
 >
->미리보기 및 프로덕션: 2026년 10월 21일
->[!BADGE 일정 해제]{type=Neutral}
->Adobe GenStudio for Performance Marketing 라이선스가 있는 고객만 사용 가능
+>Preview and production: October 21, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only to customers who have an Adobe GenStudio for Performance Marketing license
 
-이제 GenStudio for Performance Marketing 플랜에서 사용할 수 있도록 기존 Workfront Planning 작업 영역을 활성화할 수 있으므로 캠페인, 제품, 가상 사용자 및 기타 레코드를 다시 만들지 않고도 재사용할 수 있습니다.
+You can now enable an existing Workfront Planning workspace for use in a GenStudio for Performance Marketing plan, so you can reuse your campaigns, products, personas, and other records without recreating them.
 
-GenStudio Adobe 저장소 프로젝트를 사용하여 Planning 레코드 유형 및 필드를 GenStudio 작업 영역 레코드 유형 및 필드에 매핑한 다음 프로젝트 전환기에서 GenStudio의 Planning 작업 영역 정보에 액세스할 수 있습니다.
+Using GenStudio Adobe storage projects, you can map your Planning record types and fields to the GenStudio workspace record types and fields and then access the Planning workspace's information in GenStudio from the project switcher.
 
-자세한 내용은 [GenStudio for Performance Marketing에 Adobe Workfront Planning 작업 영역 사용](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)을 참조하십시오.
+For information, see [Enable an Adobe Workfront Planning workspace to GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+
+-->
 
 ## Meta dynamic creative 활성화 유형
 
