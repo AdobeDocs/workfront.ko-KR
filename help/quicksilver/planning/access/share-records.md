@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1735'
 ht-degree: 2%
 ---
 <!--update metadata with real information at release-->
@@ -228,13 +228,21 @@ Lilit is checking on this, it is not working correctly
 
    **공유** 상자가 열립니다.
 
-   ![&#128279;](assets/permissions-for-records-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드에 대한 사용 권한
+   ](assets/permissions-for-records-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드에 대한 ![사용 권한
 
    >[!WARNING]
    >
    >다른 작업 공간에 추가된 레코드에 대한 권한을 공유할 수 없습니다. 레코드를 대량으로 공유할 때는 모든 레코드가 동일한 작업 영역에서 생성되어야 합니다.
 
-1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다.  작업 영역 및 레코드 유형에 대해 **보기** 이상의 권한이 있는 모든 사용자는 레코드에 대해 동일한 권한을 가집니다.
+1. (선택 사항) **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다.  작업 영역 및 레코드 유형에 대해 **보기** 이상의 권한이 있는 모든 사용자는 레코드에 대해 동일한 권한을 가집니다. 작업 영역에 대한 액세스 권한이 있는 모든 사용자에 대해 권한을 제한할 수는 없습니다.
+
+   <!--
+   Replace the point above with this at record-level permissions re-release: 
+   1. (Optional and conditional) In the Production environment, the **Everyone in the workspace can view** option is selected by default.  All users that have **View** or higher permissions to the workspace and record type have the same permissions to the record. You cannot restrict permissions for all users with access to the workspace.
+   1. <span class="preview">(Optional and conditional) In the Preview environment, expand the **Everyone in the workspace can view** drop-down menu (which is selected by default), and select **Only invited people can access**, then add the names of people, teams, roles, groups, or companies in the **Grant access to this record** box  and specify the level of access. </span>
+      <span class="preview">No one in the workspace will have access the record by default, and only the people you specify here will have access to the record. </span>
+      <span class="preview">Users you share a record with must have permissions to the workspace and the record type. </span>
+   -->
 
 1. (선택 사항) 작업 영역에서 권한을 상속하는 사용자, 팀, 그룹, 회사 또는 작업 역할을 보려면 **다음에서 상속된 권한** 옵션 아래의 사용자 아바타를 클릭합니다. <!--logged bug to move "Permissions" to lowercase-->
 
@@ -277,6 +285,7 @@ Lilit is checking on this, it is not working correctly
       >* 사용자에게 레코드 유형에 대한 Contribute 이상이 있으면 레코드에 대한 권한을 줄일 수 없습니다.
       >자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
       >* 작업 영역에 없는 사용자에게는 권한을 부여할 수 없습니다. 작업 공간 및 레코드 유형에 대한 권한이 없는 사용자는 레코드에 액세스할 수 없습니다.
+      >* 다른 사용자와 공유하려면 레코드에 대한 관리 권한이 있어야 합니다.
 
    <!--   
    Not possible:

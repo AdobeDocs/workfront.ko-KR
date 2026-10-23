@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '4867'
+source-wordcount: '4882'
 ht-degree: 1%
 ---
 # 타임라인 보기 관리
@@ -484,7 +484,6 @@ Old:
 
 1. **레코드 그룹화 기준** 상자에서 그룹화를 올바른 순서로 끌어서 놓습니다.
 
-
 1. **레코드 그룹화 기준** 상자의 **레이아웃** 영역에서 다음 옵션 중 하나를 선택합니다.
 
    * **스택**: 그룹화가 고정된 왼쪽 열 없이 표시되고 해당 항목의 타임라인의 너비에 맞습니다.
@@ -524,6 +523,11 @@ Old:
    >한 그룹화에서 다른 그룹화로 레코드를 끌어다 놓으면 그룹화에서 선택한 필드가 이동된 레코드의 값을 자동으로 업데이트합니다.
 1. (선택 사항) **설정**&#x200B;을 클릭한 다음 **색상**&#x200B;을 클릭하여 색상 코드 그룹화합니다. 자세한 내용은 이 문서의 [타임라인 보기 설정 편집](#edit-the-timeline-view-settings) 섹션을 참조하십시오.
 
+<!--
+1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+
+    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
+-->
 
 ### 정렬 추가
 
@@ -549,7 +553,17 @@ Old:
 
    ![그룹화가 있는 타임라인에서 정렬](assets/sort-in-timeline.png)
 1. 드롭다운 메뉴에서 **레코드 정렬**&#x200B;을(를) 선택한 다음 **제안된 필드로 시작** 목록에 나열된 필드를 클릭하거나 **다른 필드를 선택**&#x200B;한 다음 필드를 검색하여 목록에 표시되면 클릭합니다.
-1. 레코드 정렬을 적용할 방향(알파벳순, 하위 항목 역순 등)을 선택합니다. 정렬이 적용되는 방향은 선택한 필드의 형식에 따라 다릅니다.
+1. 레코드 정렬을 적용할 방향(알파벳순, 하위 항목 역순 등)을 선택합니다.
+
+   예를 들어 텍스트 필드의 정렬은 A -> Z 또는 Z -> A일 수 있습니다.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
+    -->
+
+   정렬이 적용되는 방향은 선택한 필드의 형식에 따라 다릅니다.
 1. (선택 사항) **조건 추가**&#x200B;를 클릭하여 최대 10개의 조건을 추가합니다.
 1. (선택 사항) 모든 조건을 제거하려면 **모두 지우기**&#x200B;를 클릭합니다.
 1. 정렬 상자의 왼쪽 위 모서리에 있는 드롭다운 메뉴에서 **그룹화 정렬**&#x200B;을 선택합니다.

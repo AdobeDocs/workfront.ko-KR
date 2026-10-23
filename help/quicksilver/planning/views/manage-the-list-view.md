@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1896'
 ht-degree: 0%
 ---
 
@@ -42,7 +42,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 {{planning-important-intro}}
 
-Workfront Planning의 다음 영역에서 목록 보기에서 객체를 볼 수 있습니다.
+다음 영역에서 Adobe Workfront Planning의 목록 보기에서 객체를 볼 수 있습니다.
 
 * 레코드 세부 정보 영역의 프로젝트에 대해 연결된 레코드 페이지
 
@@ -53,6 +53,8 @@ Workfront Planning의 다음 영역에서 목록 보기에서 객체를 볼 수 
   ![목록 보기의 요청 양식](assets/request-forms-in-list-view.png)
 
 이 문서에서는 Workfront Planning에서 목록 보기를 탐색, 생성 또는 편집하는 방법에 대해 설명합니다.
+
+Workfront Planning에서 사용할 수 있는 다른 모든 보기에 대한 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
