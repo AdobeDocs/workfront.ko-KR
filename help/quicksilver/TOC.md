@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 95ff5491c4fccc69a672d395ebd7573c0b905c9e
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '14725'
 ht-degree: 2%
@@ -2328,7 +2328,7 @@ ht-degree: 2%
     * [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합: 문서 색인](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
     * [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합 시작](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
     * [Adobe Workfront Planning에서 GenStudio 작업 공간 관리](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
-    * [GenStudio for Performance Marketing에 Workfront Planning 작업 영역 활성화](planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)
+    * {hide-from-toc}[GenStudio for Performance Marketing에 Workfront Planning 작업 영역 사용](planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)
   * 독립형 제품으로서의 Adobe Workfront Planning {#planning-standalone}
     * [독립형 제품으로서의 Adobe Workfront Planning: 문서 색인](planning/planning-sta/planning-sta-article-index.md)
     * [독립 실행형 제품으로 Adobe Workfront Planning 시작하기](planning/planning-sta/planning-sta-overview.md)

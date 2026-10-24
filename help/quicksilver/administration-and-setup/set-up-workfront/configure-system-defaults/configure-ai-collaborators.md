@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1a1e8fab8f8ef5c0c9dae032ed0eb5b24c3f364d
+source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1424'
 ht-degree: 2%
 ---
 # AI 공동 작업자 구성
@@ -37,6 +37,8 @@ AI 공동 작업자는 프로젝트, 작업 및 문제에 AI 에이전트를 온
 * 작업 에이전트: Claude, OpenAI 또는 Copilot과 같은 표준 AI 플랫폼을 사용하여 공동 작업자를 만든 다음 작업 또는 문제에 공동 작업자를 할당하여 작업 항목을 완료합니다.
 
   자세한 내용은 [작업 에이전트 사용](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)을 참조하세요.
+
+AI 공동 작업자가 사용한 라이선스는 청구되지 않습니다. 조직에 Workfront 라이선스가 200개이고 AI 공동 작업자를 만드는 경우 201개의 라이선스가 사용 중이지만 200개만 청구됩니다.
 
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
@@ -123,16 +125,14 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
 
 작업 에이전트는 작업 또는 문제에 할당할 수 있습니다.
 
+작업 에이전트에서 사용한 라이선스는 청구되지 않습니다. 조직에 200개의 Workfront 라이센스가 있고 작업 에이전트를 만드는 경우 201개의 라이센스가 사용 중이지만 200개만 청구됩니다.
+
 작업 에이전트로 작업할 에이전트를 만드는 모범 사례 목록을 보려면 [작업 에이전트용 에이전트 만들기 모범 사례](#best-practices-for-creating-an-agent-for-a-work-agent)를 참조하십시오.
 
 * [Workfront에서 작업 에이전트 구성](#configure-a-work-agent-in-workfront)
 * [작업 에이전트용 에이전트 생성 모범 사례](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### Workfront에서 작업 에이전트 구성
-
->[!NOTE]
->
->작업 에이전트에서 사용한 라이선스는 청구되지 않습니다. 조직에 200개의 Workfront 라이센스가 있고 작업 에이전트를 만드는 경우 201개의 라이센스가 사용 중이지만 200개만 청구됩니다.
 
 {{step-1-to-setup}}
 
@@ -204,7 +204,6 @@ Workfront에서 작업 에이전트로 사용할 에이전트를 생성할 때 �
 +++
 <!--
 +++ Copilot Studio
-
 
 
 +++

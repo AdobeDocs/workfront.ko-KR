@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '3176'
+source-wordcount: '3223'
 ht-degree: 2%
 ---
 # Adobe Workfront Planning에서 요청 양식 만들기 및 관리
@@ -296,14 +296,14 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
 
-1. 왼쪽 패널에서 **사용 권한**&#x200B;을 클릭합니다.
-1. 이 양식을 통해 요청을 제출하는 사용자의 권한 수준을 선택합니다.
+1. 기본적으로 이 양식을 사용하여 제출한 요청에 대해 사용자가 가질 권한을 구성하려면 왼쪽 패널의 **권한**&#x200B;을 클릭하십시오. 여기서 부여하는 권한은 향후 요청에 즉시 적용되며 기존 요청에 영향을 주지 않습니다.
+1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> 이 양식을 사용하여 요청을 제출하는 사용자에 대해 이 양식에 제출된 요청에 대한 권한 수준을 선택합니다.
 
    * **보기**: 모든 요청자가 양식에 댓글을 달고 공유할 수 있습니다.
    * **참여**: 모든 요청자가 양식에 대해 댓글을 달고, 공유하고, 편집할 수 있습니다.
-   * **관리**: 모든 요청자는 양식에 대해 댓글 달기, 공유, 편집 및 삭제할 수 있습니다.
+   * **관리**: 모든 요청자는 양식에 대해 댓글 달기, 공유, 편집 및 삭제할 수 있습니다. 기본 권한입니다.
 
-1. (선택 사항) 각 권한 수준에 대한 세분화된 권한을 선택 해제하여 요청자가 다음 작업을 수행하지 못하도록 합니다.
+1. (선택 사항) <!--<span class="preview">In the **Requestor access** section,</span>--> 요청자가 다음 작업을 수행하지 못하도록 각 권한 수준에 대한 세분화된 권한을 선택 취소합니다.
 
    * 댓글
    * 공유
@@ -313,6 +313,28 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    >[!TIP]
    >
    >여기에서 선택 취소한 세부 권한은 요청 페이지의 해당 사용자와 요청을 공유할 때 흐리게 표시됩니다.
+
+   <!--
+   1. <span class="preview">In the **Additional access** section (*************check UI name, submitted a bug********), select the permission level to the requests submitted to this form for **Everyone in this workspace**: </span>
+      <div class="preview">
+      * **No access**: No users in the workspace can access requests submitted using this form. 
+      * **View**: Workspace users can comment on and share the form. This is the default permission. 
+      * **Contribute**: Workspace users can comment on, share, and edit the form.
+      * **Manage**: Workspace users can comment on, share, edit, and delete the form. 
+      </div>
+   1. <span class="preview">(Optional) In the **Additional access** section,</span>, deselect any of the granular permissions for each permission level to prevent workspace users to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
+
+   1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page.</span>
+   -->
 
 1. 요청을 제출할 때 **양식 채우기** 기능을 사용할 때 사용자 지정 프롬프트를 구성하려면 <span class="preview">**AI 양식 채우기**&#x200B;를 클릭하십시오. </span>
 
