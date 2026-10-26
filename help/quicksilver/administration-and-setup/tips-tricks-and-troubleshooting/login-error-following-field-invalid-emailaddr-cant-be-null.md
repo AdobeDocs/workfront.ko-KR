@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: '로그인 오류: 다음 필드가 잘못되었습니다. emailAddr은 null일 수 없습니다.'
-description: 내 도메인의 URL을 사용하여 [!DNL Adobe Workfront]에 로그인하려고 하면 SAML 로그인 포털로 리디렉션된 다음 emailAddr 필드가 null일 수 없다는 오류 메시지와 함께 [!DNL Workfront] (으)로 다시 리디렉션됩니다.
+description: 내 도메인의 URL을 사용하여 [!DNL Adobe Workfront]에 로그인하려고 하면 SAML 로그인 포털로 리디렉션된 다음 emailAddr 필드가 null일 수 없다는 오류 메시지와 함께 [!DNL Workfront](으)로 다시 리디렉션됩니다.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -26,23 +26,31 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 0%
 ---
 # 로그인 오류: 다음 필드가 잘못되었습니다. emailAddr은 null일 수 없습니다.
 
-## 문제
+>[!IMPORTANT]
+>
+>이제 사인온이 Adobe IMS(Identity Management System)를 통해 처리되므로 이 문서의 정보는 제거되었습니다.
 
-URL(https://customerdomain.my.workfront.com)을 사용하여 [!DNL Adobe Workfront]에 로그인하려고 하면 SAML 로그인 포털로 리디렉션된 다음 다음 오류가 발생하여 다시 [!DNL Workfront]&#x200B;(으)로 리디렉션됩니다.
+<!--
 
-“다시 시도해 보십시오. 다음 필드가 잘못되었습니다. emailAddr은 null일 수 없습니다.&quot;
+## Problem
 
-## 원인
+When I try to log into [!DNL Adobe Workfront] with my URL (https://customerdomain.my.workfront.com), I am redirected to the SAML login portal and then redirected back to [!DNL Workfront] with the following error:
 
-이 오류는 SAML 2.0 구성의 사용자 속성 매핑 영역에 잘못된 항목이 있기 때문에 발생합니다. SAML 2.0의 사용자 특성을 매핑하는 방법에 대한 자세한 내용은 [SAML 2.0을 사용하여 Adobe Workfront 구성](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)을 참조하십시오.
+"Let's try that again. The following fields are invalid: emailAddr cannot be null."
 
-## 솔루션
+## Cause
 
-전자 메일 주소의 특성 매핑을 업데이트하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+This error is caused by an incorrect item in the Map User Attributes area of the SAML 2.0 configuration. For more information about mapping user attributes for SAML 2.0, see [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+
+## Solution
+
+Update the Attribute Mapping for the email address, and click **[!UICONTROL Save]**.
+
+-->

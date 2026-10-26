@@ -32,22 +32,22 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1465'
 ht-degree: 6%
 ---
 # 방화벽 구성
 
 <!-- Audited: 12/2023 -->
 
-<!--Follow up October 2026-->
+<!--Follow up January 2027-->
 
 >[!IMPORTANT]
 >
 >이 페이지에 설명된 절차는 Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다. 이제 모든 조직이 Adobe Admin Console에 온보딩되었으므로 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
 >
->조직이 Adobe Admin Console에 온보딩된 후 허용 목록에 추가하다를 구성하려면 [Adobe 앱 및 서비스에 대해 허용되는 도메인](https://helpx.adobe.com/kr/enterprise/kb/network-endpoints.html)을 참조하십시오.
+>조직이 Adobe Admin Console에 온보딩된 후 허용 목록에 추가하다를 구성하려면 [Adobe 앱 및 서비스에 대해 허용되는 도메인](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)을 참조하십시오.
 >
 >조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 Adobe Workfront과 Adobe Business Platform 간의 [관리 차이점](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
@@ -89,8 +89,8 @@ ht-degree: 6%
 ## 허용 목록에 추가하다에 추가할 IP 주소
 
 * [클러스터 1, 2, 3, 5, 7, 8 및 9를 허용하는 IP 주소](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* 클러스터 4[&#128279;](#ip-addresses-to-allow-for-cluster-4)에 대해 허용할 IP 주소
-* 클러스터 6[&#128279;](#ip-addresses-to-allow-for-cluster-6)을(를) 허용할 IP 주소
+* 클러스터 4](#ip-addresses-to-allow-for-cluster-4)에 대해 허용할 [IP 주소
+* 클러스터 6](#ip-addresses-to-allow-for-cluster-6)을(를) 허용할 [IP 주소
 * [클러스터 10을 허용할 IP 주소](#ip-addresses-to-allow-for-cluster-10)
 * 테스트 드라이브를 허용할 [IP 주소](#IP%20Addre2)
 * [이벤트 구독을 구현할 때 허용할 IP 주소](#ip-addresses-to-allow-when-implementing-event-subscriptions)
@@ -406,12 +406,7 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
 
 Workfront Fusion의 경우 다음 도메인을 추가합니다.
 
-<!--Remove me October 2026-->
-
-* Adobe 통합 경험을 기반으로 하지 않는 조직의 경우:
-  * app.workfrontfusion.com (미국 AWS)
-  * app-eu.workfrontfusion.com (EU AWS)
-  * app-az.workfrontfusion.com (미국 Azure)
+<!--Remove me January 2027-->
 
 * Adobe 통합 경험의 조직용
 (이러한 도메인은 `*.adobe.com`에 포함되어 있지만 필요한 경우 추가할 수 있습니다.)
@@ -419,6 +414,14 @@ Workfront Fusion의 경우 다음 도메인을 추가합니다.
   * fusion.adobe.com
   * app-eu.fusion.adobe.com
   * app-az.fusion.adobe.com
+
+  >[!NOTE]
+  >
+  >모든 조직은 이제 Adobe 통합 환경에 있으므로 다음 도메인이 더 이상 필요하지 않습니다.
+  >
+  >* app.workfrontfusion.com (미국 AWS)
+  >* app-eu.workfrontfusion.com (EU AWS)
+  >* app-az.workfrontfusion.com (미국 Azure)
 
 
 

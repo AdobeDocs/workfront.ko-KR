@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '936'
 ht-degree: 3%
 ---
 # 사용자에게 액세스 권한 부여
@@ -63,7 +63,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
 * Workfront 관리자.
 
-  자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)를 참조하십시오.
+  Workfront 관리자는 Adobe Admin Console에서 구성됩니다. 지침은 [Adobe Admin Console을 사용하여 Workfront에서 시스템 관리자 만들기](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console) 섹션을 참조하십시오. 문서 Adobe Admin Console에서 사용자 관리 의 을 참조하십시오.
 
 * 이 문서에 설명된 대로 사용자에게 액세스할 수 있는 기본 Standard 또는 Plan 라이선스를 가진 사용자.
 

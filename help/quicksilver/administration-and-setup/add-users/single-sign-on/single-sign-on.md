@@ -30,22 +30,29 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 6afe26423852973d32ab618c854082a9922accc0
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '63'
 ht-degree: 0%
 ---
 # Workfront의 SSO(Single Sign-On): 문서 인덱스
 
 <!-- Audited: 05/2024 -->
 
-Workfront을 기존의 기업 SSO(Single Sign-On) 솔루션과 통합할 수 있습니다. 이 구성은 설정 및 관리가 쉬우며 OnDemand 및 OnPremise 엔터프라이즈 고객 모두 사용할 수 있습니다.
+>[!IMPORTANT]
+>
+>이제 사인온이 Adobe IMS(Identity Management 시스템)를 통해 처리되므로 이 섹션의 정보는 제거되었습니다.
 
-이 섹션에는 다음 문서가 포함됩니다.
+<!--
 
-* [Adobe Workfront의 SSO(Single Sign-On) 개요](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-* [SSO(Single Sign-On)를 위해 사용자 업데이트](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [SAML 2.0으로 Adobe Workfront 구성](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [ID 공급자에서 SAML 2.0 메타데이터 업데이트](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [ADFS를 사용하여 SAML 2.0으로 Adobe Workfront 구성](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-* [Adobe Workfront에서 SSO(Single Sign-On) 비활성화](../../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+You can integrate Workfront with your existing corporate single sign-on (SSO) solution. This configuration is easy to set up and manage, and is available for both OnDemand and OnPremise Enterprise customers.
+
+This section contains the following articles:
+
+* [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) 
+* [Update users for single sign-on](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md) 
+* [Update SAML 2.0 metadata in your identity provider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md) 
+* [Configure Adobe Workfront with SAML 2.0 using ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md) 
+* [Deactivate single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+
+-->

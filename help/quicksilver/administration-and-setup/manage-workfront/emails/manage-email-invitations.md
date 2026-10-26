@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 6%
 ---
 # 새 사용자를 위한 이메일 초대 관리
 
@@ -38,120 +38,124 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->이 페이지에 설명된 절차는 Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
+>이 페이지에 설명된 절차는 Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다. 모든 조직이 Adobe Admin Console에 온보딩되었으므로 사용자는 Adobe Admin Console을 통해 추가됩니다.
 >
->조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 Adobe Workfront과 Adobe Business Platform 간의 [관리 차이점](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>자세한 내용 및 지침은 Adobe Admin Console에서 사용자 관리 문서에서 [Adobe Admin Console에서 사용자 만들기](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
 
-Adobe Workfront 관리자는 전자 메일 초대를 사용하여 Workfront에 사용자를 추가하고 추가되었음을 알릴 수 있습니다.
+<!--
 
-이메일 초대를 통해 신규 사용자는 링크를 따라 Workfront 계정의 암호를 선택할 수 있습니다. 그런 다음 계정 설정을 완료할 수 있습니다.
+As an Adobe Workfront administrator, you can add users to Workfront and notify them that they have been added, by using email invitations.
 
-새 계정의 보안을 위해 새 사용자가 자신의 암호를 선택할 수 있도록 새 사용자에 대한 이메일 초대를 사용하는 것이 좋습니다. 또는 계정을 만들 때 새 사용자에 대한 암호를 선택할 수도 있습니다. Workfront에 새 사용자를 추가하는 방법에 대한 자세한 내용은 [사용자 추가](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
+The email invitation allows new users to follow a link where they can choose a password for their Workfront account. They can then finish setting up their account.
 
-다음에 대한 새 사용자 이메일을 구성할 수 있습니다.
+To ensure the security of the new accounts, we recommend that you use email invitations for your new users, so they can choose their own password. Alternatively, you can also select a password for a new user when creating their account. For more information about adding new users to Workfront, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-* Workfront에 추가된 모든 새 사용자
-* 요청자 라이선스가 있는 Workfront에 추가된 사용자
+You can configure the new user emails for:
 
-이메일 초대를 보내면 모든 신규 사용자에게 동일한 이메일이 표시됩니다.
+* Any new user added to Workfront
+* Users added to Workfront with a Requestor license
 
-전자 메일 초대 수신에 대한 자세한 내용은 [전자 메일 초대 받기 및 Adobe Workfront 암호 만들기](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)를 참조하세요.
+All new users see the same email when an email invitation is sent.
 
-## 액세스 요구 사항
+For information about receiving email invitations, see [Receive email invitations and create a password for Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
 
-+++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
+## Access requirements
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>표준</p>
-   <p>플랜</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>시스템 관리자</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>System administrator</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 등록되지 않은 기존 사용자에게 이메일 초대 다시 보내기
+## Resend email invitations to existing unregistered users
 
-전자 메일 초대는 다음 시나리오에서 생성됩니다.
+Email invitations are generated in the following scenarios:
 
-* 새 사용자를 만들 때 **새 사용자** 양식에서 **이 사용자에게 초대 이메일 보내기**&#x200B;를 선택합니다. 새 사용자를 만드는 방법에 대한 자세한 내용은 [사용자 추가](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
-* 새 사용자를 여러 명 가져오고 **이 사용자에게 초대 이메일 보내기** 옵션을 선택하는 경우. 여러 명의 새 사용자를 가져오는 방법에 대한 자세한 내용은 [사용자 가져오기](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)를 참조하십시오.
-* 사용자가 생성되면 아직 Workfront에 계정을 등록하지 않았고 Workfront 암호를 설정하지 않은 사용자에게 초대를 수동으로 생성할 수 있습니다.\
-  계정을 만들었지만 아직 계정을 등록하지 않은 사용자는 Workfront에서 **등록되지 않음**(으)로 표시됩니다.
+* When you create a new user and you select the **Send an invite email to this person** on the **New User** form. For more information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* When you import multiple new users and you select the **Send invite emails to these people** option. For more information about importing several new users, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+* After the users are created, you can manually generate the invitations to users who have not yet registered their account with Workfront, and they have not established a Workfront password.  
+  Users who have an account created but have not yet registered their account are marked as **Unregistered** in Workfront.
 
   >[!NOTE]
   >
-  >사용자를 만들 때 **이 사람에게 전자 메일 초대를 보내기** 상자를 선택 취소하면 전자 메일 초대를 수동으로 생성할 수 없습니다. 계정을 만들 때 원래 이메일 초대를 보낸 사용자만 이메일 초대를 수동으로 다시 보낼 수 있습니다. 새 사용자를 만드는 방법에 대한 자세한 내용은 [사용자 추가](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
+  >If you deselect the **Send an email invite to this person** box when you create the user, the email invitation cannot be generated manually. Resending the email invitations manually is only possible for users who have been sent the original email invitation when their account was created. For more information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-등록되지 않은 기존 사용자에게 이메일 초대를 수동으로 다시 보내려면
+To manually resend email invitations to existing unregistered users:
 
-{{step-1-to-users}}
+{{step-1-to-users}} 
 
-1. 이름 뒤에 **등록되지 않음** 레이블을 표시하는 사용자를 선택하십시오.
+1. Select the user who shows the **Unregistered** label after their name.
 
-   ![등록 취소됨](assets/unreg-user-qs-350x221.png)
+   ![Unregistered](assets/unreg-user-qs-350x221.png)
 
-1. 기타 아이콘 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **사용자에게 등록 알림**&#x200B;을 클릭합니다.
+1. Click the More icon ![More icon](assets/more-icon.png), then click **Remind user to register**.
 
-   새 사용자에게 Workfront 암호를 만드는 데 사용할 수 있는 새 링크로 이메일 초대가 전송됩니다.
+   An email invitation is sent to the new user with a new link they can use to create their Workfront password.
 
    >[!NOTE]
    >
-   >조직이 Admin Console에 온보딩되고 Workfront을 통해 사용자를 추가하는 경우 새 사용자에게 이메일 초대를 보낼 수 있는 옵션이 없습니다.
+   >If your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation to new users.
    >
-   >새 Adobe 사용자가 Admin Console에 추가되고 Admin Console에서 이메일을 보내어 등록 프로세스를 완료합니다. 모든 사용자가 모든 Adobe 시스템에 액세스하려면 등록 프로세스를 완료해야 합니다.
+   >New Adobe users are added to the Admin Console, and the Admin Console delivers an email to invite them to complete the registration process. All users must complete the registration process to access any Adobe system.
    >
-   >기존 Adobe 사용자의 경우, 사용자는 사용 가능한 Workfront에 대한 이메일을 받을 수도 있고 받지 못할 수도 있습니다. 이는 제품에 대해 Adobe 관리자가 제어하는 기본 설정입니다.
+   >For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.
 
-## 이메일 초대 구성 {#configure-email-invitations}
+## Configure email invitations {#configure-email-invitations}
 
-Workfront 관리자는 새 사용자에 대한 이메일 초대에 포함하는 메시지를 구성할 수 있습니다.
+As a Workfront administrator, you can configure the message you include with the email invitations for new users.
 
 {{step-1-to-setup}}
 
-1. 왼쪽 목록에서 **전자 메일** > **초대**&#x200B;를 클릭합니다.
+1. In the list on the left, click **Email** > **Invitations**.
 
-1. **일반 옵션** 섹션에서 다음을 수정하십시오.
+1. In the **General Options** section, make any of the following modifications:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>다음 날짜 이후에 초대 링크 비활성화...</strong> </td> 
-      <td> <p>이메일 초대에 더 이상 Workfront에 대한 유효한 링크가 포함되지 않는 시간을 선택합니다. 기본 일수는 45일입니다.</p> </td> 
+      <td role="rowheader"><strong>Deactivate invitation links after ... days</strong> </td> 
+      <td> <p>Choose the amount of time after which the email invitations no longer contain a valid link to Workfront. The default amount of days is 45.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>메시지 및/또는 서비스 기간 포함</strong> </td> 
-      <td> <p>Workfront에 추가된 모든 신규 사용자에 대한 이메일 초대를 수정하려면 이 옵션을 선택합니다. 여기에는 요청자 라이선스가 있는 사용자는 포함되지 않습니다.</p> 
+      <td role="rowheader"><strong>Include a message and/ or term of service</strong> </td> 
+      <td> <p>Select this option if you want to modify the email invitation for all new users added to Workfront. This does not include users with a Requestor license.</p> 
        <ul> 
-        <li><strong>메시지</strong>: 모든 새 사용자에 대한 전자 메일 초대를 수정하도록 선택한 경우 전자 메일 초대에 포함할 텍스트를 전자 메일 본문으로 지정하십시오.</li> 
-        <li><strong>약관</strong>: 모든 새 사용자에 대한 전자 메일 초대를 수정하도록 선택한 경우 전자 메일 초대에 포함할 텍스트를 약관으로 지정하십시오.<br></li> 
-        <li><strong>안내 데스크 사용자를 위한 메시지 및/또는 서비스 기간을 포함하십시오</strong>: 요청자 라이선스가 있는 Workfront에 추가된 모든 새 사용자에 대한 전자 메일 초대를 수정하려면 이 옵션을 선택하십시오.</li> 
-        <li><strong>메시지</strong>: 요청자 라이선스를 가진 모든 새 사용자에 대한 전자 메일 초대를 수정하도록 선택한 경우 전자 메일 초대에 포함할 텍스트를 전자 메일 본문으로 지정하십시오.</li> 
-        <li><strong>약관</strong>: 요청자 라이선스를 가진 모든 새 사용자에 대한 전자 메일 초대를 수정하도록 선택한 경우 전자 메일 초대에 포함할 텍스트를 약관으로 지정하십시오.<br></li> 
-        <li> <p><strong>초대 미리 보기</strong> 섹션에서 전자 메일 초대의 미리 보기를 볼 수 있습니다. 이메일 초대에 사용자 지정된 메시지를 포함하기로 선택한 경우 사용자 지정된 메시지가 이 영역에 표시됩니다.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
+        <li><strong>Message</strong>: If you select to modify the email invitation for all new users, specify the text that you want to include in your email invitations as the email body.</li> 
+        <li><strong>Terms and Conditions</strong>: If you select to modify the email invitation for all new users, specify the text that you want to include in your email invitations as the terms and conditions.<br></li> 
+        <li><strong>Include a message and/or term of service for helpdesk users</strong>: Select this option if you want to modify the email invitation for all new users added to Workfront that have a Requestor license.</li> 
+        <li><strong>Message</strong>: If you select to modify the email invitation for all new users with a Requestor license, specify the text that you want to include in your email invitations as the email body.</li> 
+        <li><strong>Terms and Conditions</strong>: If you select to modify the email invitation for all new users with a Requestor license, specify the text that you want to include in your email invitations as the terms and conditions.<br></li> 
+        <li> <p>In the <strong>Invitation Preview</strong> section, you can see a preview of your email invitation. If you selected to include a customized message in your email invitation, the customized message shows in this area.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. **저장**&#x200B;을 클릭합니다.
+1. Click **Save**.
+-->
+

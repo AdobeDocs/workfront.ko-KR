@@ -23,50 +23,58 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 17%
+source-wordcount: '42'
+ht-degree: 0%
 ---
 # Adobe Workfront에서 SSO(Single Sign-On) 비활성화
 
+>[!IMPORTANT]
+>
+>이제 사인온이 Adobe IMS(Identity Management System)를 통해 처리되므로 이 문서의 정보는 제거되었습니다.
+
+<!--
+
 {{important-admin-console-onboard}}
 
-Adobe Workfront에서 SSO(Single Sign-On)를 비활성화한 후 사용자는 Workfront 자격 증명을 사용하여 로그인해야 합니다. 사용자가 처음 설정한 자격 증명입니다. (사용자 자격 증명을 변경해야 하는 경우 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.)
+After you deactivate single sign-on (SSO) in Adobe Workfront, users need to log in using their Workfront credentials. These are the credentials the user originally set up. (If you need to change user credentials, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).)
 
 
-## 액세스 요구 사항
+## Access requirements
 
-+++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>표준</p><p>플랜</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## SSO 비활성화
+## Deactivate SSO
 
 {{step-1-to-setup}}
 
-1. **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
+1. Click **System** > **Single Sign-On (SSO)**.
 
-1. 페이지 맨 아래로 스크롤하여 **활성화** 옵션을 비활성화합니다.
-1. **저장**&#x200B;을 클릭합니다.
+1. Scroll to the bottom of the page and disable the **Enable** option.
+1. Click **Save**.
+
+-->

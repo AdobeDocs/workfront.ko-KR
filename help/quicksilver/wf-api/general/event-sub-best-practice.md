@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 15%
+source-wordcount: '412'
+ht-degree: 13%
 ---
 # 이벤트 구독 모범 사례
 
@@ -62,7 +62,9 @@ ht-degree: 15%
 
 이벤트 구독을 생성, 쿼리 또는 삭제하려면 Workfront 사용자가 필요합니다.
 
-* **시스템 관리자의 액세스 수준**
-자세한 내용은 [사용자에게 전체 관리 액세스 권한을 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) 또는 [사용자에게 특정 영역에 대한 관리 액세스 권한을 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
+* **시스템 관리자**&#x200B;의 액세스 수준
+
+  시스템 관리자는 Adobe Admin Console에서 생성됩니다.
+  자세한 내용은 [Adobe Admin Console을 사용하여 Workfront에서 시스템 관리자 만들기](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console) 섹션을 참조하십시오. 문서 Adobe Admin Console에서 사용자 관리 의 을 참조하십시오. 또는 [특정 영역에 대한 관리자 액세스 권한을 사용자에게 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)합니다.
 
 * 조직에서 Adobe IMS(Identity Management System)를 사용하는 경우 `X-User-Token` 헤더에 전달된 IMS 사용자 토큰을 포함합니다.

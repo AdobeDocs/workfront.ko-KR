@@ -28,14 +28,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '44'
 ht-degree: 0%
 ---
 # Adobe Admin Console의 Workfront 관리
 
-이 섹션에는 다음 문서가 포함됩니다.
+>[!IMPORTANT]
+>
+>이제 모든 조직이 Adobe Admin Console에 온보딩되었으므로 이 섹션의 정보는 제거되었습니다.
 
-* [Adobe Admin Console에 조직 온보딩 준비](../../administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-* [Adobe Admin Console으로의 Workfront 마이그레이션 이해](/help/quicksilver/administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+<!--
+
+This section contains the following articles:
+
+* [Prepare to onboard your organization to the Adobe Admin Console](../../administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+* [Understanding the Workfront Migration to the Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+
+-->

@@ -27,38 +27,26 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 6275fff5d615a8db678f16d99c38c96319a57155
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 3%
+source-wordcount: '608'
+ht-degree: 7%
 ---
 # 사용자 삭제
 
-<!--Remove me October 2026-->
-
 >[!IMPORTANT]
 >
->이 페이지에 설명된 절차는 Adobe Business Platform에 아직 온보딩되지 않은 조직에만 적용됩니다. Adobe Business Platform에 온보딩한 경우 Adobe Admin Console에서 사용자를 삭제해야 합니다.
+>이 페이지에 설명된 절차는 Admin Console에 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩되었으므로 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
 >
->**이제 모든 조직이 Adobe Admin Console에 온보딩되었으므로 이 페이지의 정보는 가까운 시일 내에 제거됩니다.**
->
->조직이 Adobe Business Platform에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 Adobe Workfront과 Adobe Business Platform 간의 [관리 차이점](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>  Adobe Admin Console에서 사용자를 삭제하는 방법에 대한 지침은 [개별적으로 사용자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html) 문서의 &quot;사용자 영구 삭제&quot; 섹션을 참조하거나 Adobe Admin Console 관리자에게 문의하십시오.
 
 사용자가 조직을 떠나면 Adobe Workfront에서 해당 사용자를 제거할 수 있습니다.
+
+사용자 삭제는 Adobe Admin Console을 통해 수행해야 합니다. 자세한 내용은 문서 [개별적으로 사용자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html)의 &quot;사용자를 영구적으로 삭제&quot; 섹션을 참조하거나 Adobe Admin Console 관리자에게 문의하십시오.
 
 >[!IMPORTANT]
 >
 >시스템에서 사용자를 삭제하면 유지할 사용자와 관련된 정보도 삭제됩니다. 사용자를 삭제하는 대신 비활성화하는 것이 좋습니다. 자세한 내용은 [사용자 비활성화 또는 다시 활성화](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)를 참조하십시오.
-<!--
->* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
->
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
->
--->
 
 ## 액세스 요구 사항
 
@@ -78,11 +66,8 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>액세스 수준 구성</td> 
-   <td> <p>다음 중 하나가 있어야 합니다.</p> 
-    <ul> 
-     <li> <p>시스템 관리자 액세스 수준입니다. </li> 
-     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
-    </ul> </td> 
+   <td> <p>Adobe Admin Console에서 관리자여야 합니다.</p> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +113,7 @@ ht-degree: 3%
   * 작업, 문제, 프로젝트, 포트폴리오
   * 대시보드
 
-  <!--
+<!--
 
      >[!NOTE]
      >
@@ -136,33 +121,35 @@ ht-degree: 3%
      >
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-   -->
+-->
+* 업데이트
+* 시간
 
-  * 업데이트
-  * 시간
-
-    >[!NOTE]
-    >
-    >이러한 오브젝트는 Workfront에 남아 있지만 오브젝트 소유자는 비어 있습니다.
+  >[!NOTE]
+  >
+  >이러한 오브젝트는 Workfront에 남아 있지만 오브젝트 소유자는 비어 있습니다.
 
 * 사용자가 전역 탐색 막대의 문서 영역 아래에 있는 문서를 업로드한 경우 해당 문서도 삭제됩니다.
 * 사용자가 소유한 문서를 체크아웃하고 기본 메뉴에서 액세스할 수 있는 기본 문서 영역에 문서를 업로드하면 문서가 사용자와 함께 삭제됩니다. 문서 체크 아웃에 대한 자세한 내용은 [문서 체크 아웃](../../../documents/managing-documents/check-out-documents.md)을 참조하십시오.
 
 사용자 비활성화에 대한 자세한 내용은 [사용자 비활성화 또는 다시 활성화](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)를 참조하세요.
 
-한 번에 하나씩 사용자를 영구적으로 삭제하거나 여러 사용자를 동시에 영구적으로 삭제할 수 있습니다. 개별 사용자를 삭제하는 경우 Workfront의 다른 활동으로 이동하기 전에 삭제 프로세스가 완료될 때까지 기다려야 합니다. 여러 사용자를 삭제하는 프로세스는 동시에 백그라운드 프로세스로 실행되므로 사용자가 삭제될 때 Workfront을 계속 사용할 수 있습니다.
 
-## 한 명 이상의 사용자 삭제
+<!--
+
+## Delete one or more users
 
 {{step-1-to-users}}
 
-1. 삭제할 사용자를 한 명 이상 선택하고 기타 메뉴 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
-1. 표시되는 상자에서 **삭제**&#x200B;를 클릭하여 삭제를 확인합니다.
+1. Select at least one user that you want to delete, click the More menu ![More icon](assets/more-icon.png), then click **Delete**.
+1. In the box that appears, click **Delete** to confirm the deletion.
 
-   사용자 삭제 프로세스는 백그라운드 프로세스로 실행되므로 사용자가 삭제될 때 Workfront을 계속 사용할 수 있습니다.
+   The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.
 
-   삭제하는 사용자 수에 따라 프로세스는 몇 분 또는 몇 시간이 걸릴 수 있습니다.
+   Depending on the number of users you are deleting, the process can take several minutes or even a few hours.
 
-   Workfront에서 사용자가 삭제되었다는 확인을 받은 후 백그라운드에서 삭제 프로세스가 완료될 때까지 시스템에 해당 사용자가 계속 표시될 수 있습니다.
+   After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
-   나중에 한 명 이상의 사용자가 성공적으로 삭제되지 않은 경우 한 번에 하나씩 삭제해 보십시오.
+   At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.
+
+   -->
