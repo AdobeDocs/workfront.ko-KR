@@ -45,7 +45,7 @@ ht-degree: 0%
 >
 >이제 모든 조직이 Adobe Admin Console에 온보딩되었으므로 이 기능은 더 이상 사용되지 않습니다.
 >
->Adobe Admin Console에서 SAML 인증서를 갱신하는 방법에 대한 지침은 &quot;SAML 응답의 디지털 서명이 유효성을 검사하지 않았습니다...&quot; 섹션을 참조하십시오. [Federated ID 문제 해결](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)에서.
+>Adobe Admin Console에서 SAML 인증서를 갱신하는 방법에 대한 지침은 &quot;SAML 응답의 디지털 서명이 유효성을 검사하지 않았습니다...&quot; 섹션을 참조하십시오. [Federated ID 문제 해결](https://helpx.adobe.com/kr/enterprise/kb/tshoot-fed-id.html)에서.
 
 <!--
 
