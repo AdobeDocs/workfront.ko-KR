@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: ea37064458010280997e3fda3136fa431d2759e2
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: '2407'
 ht-degree: 0%
 ---
 
@@ -122,7 +122,7 @@ URL을 사용하여 Workfront을 [!DNL Claude]에 연결하려면 다음을 수�
    https://mcp.workfront.adobe.com/mcp/v1/workfront
    ```
 
-1. **연결**&#x200B;을 클릭합니다.
+1. **연결**을 클릭합니다.
 Workfront 로그인 창이 나타납니다.
 1. Adobe ID 자격 증명을 사용하여 인증합니다.
 프로필 및 Workfront 인스턴스를 선택해야 할 수 있습니다. 선택하는 프로필에 따라 연결되는 작업 영역이 결정됩니다.
@@ -199,10 +199,15 @@ ChatGPT는 사용자 지정 GPT라는 사용자가 만든 도우미를 지원합
 
 +++ 를 확장하여 Workfront을 Copilot에 연결하기 위한 단계별 지침을 봅니다.
 
+* [Copilot Studio를 사용하여 Workfront을 Copilot에 연결](#connect-workfront-to-copilot-with-copilot-studio)
+* [Workfront을 GitHub Copilot에 연결](#connect-workfront-to-github-copilot)
+
+### Copilot Studio를 사용하여 Workfront을 Copilot에 연결
+
 Workfront MCP가 연결할 수 있는 사용자 지정 Copilot 에이전트를 빌드하려면 Copilot Studio를 사용합니다.
 
 1. Copilot Studio에서 **빈 에이전트 만들기**&#x200B;를 클릭합니다.
-1. 에이전트 이름을 지정하고 **만들기**&#x200B;를 클릭합니다.
+1. 에이전트 이름을 지정하고 **만들기**를 클릭합니다.
 에이전트 창이 열립니다.
 
 1. **지침** 필드에서 에이전트에서 수행할 작업을 설명합니다. 프로세스 및 Workfront 사용 방법과 같은 정보를 포함합니다. 세부 정보를 많이 제공하는 것이 좋습니다.
@@ -229,6 +234,14 @@ Workfront MCP가 연결할 수 있는 사용자 지정 Copilot 에이전트를 �
 1. 도구를 구성하고 테스트하면 **게시**&#x200B;를 클릭합니다.
 
    게시할 권한이 없을 수 있습니다. 이 경우 부조종사 관리자에게 문의하십시오.
+
+### Workfront을 GitHub Copilot에 연결
+
+1. GitHub Copilot에서 **사용자 지정**&#x200B;으로 이동합니다.
+1. **추가** > **MCP 서버**&#x200B;를 클릭합니다.
+1. 이름을 &quot;Workfront&quot;와 같은 이름으로 설정합니다.
+1. **서버 유형**&#x200B;을(를) `HTTP`(으)로 설정합니다.
+1. URL을 `https://mcp.workfront.adobe.com/mcp/v1/workfront`(으)로 설정합니다.
 
 +++
 

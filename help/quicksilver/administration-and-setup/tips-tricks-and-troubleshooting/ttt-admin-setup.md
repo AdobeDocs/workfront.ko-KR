@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '202'
 ht-degree: 3%
 ---
 # 관리 및 설정을 위한 팁, 요령 및 문제 해결
@@ -38,7 +38,6 @@ ht-degree: 3%
 
 * [그룹 관리자는 자신이 관리하는 사용자보다 높은 액세스 권한을 가져야 합니다.](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
 * [활성 및 비활성화된 개체](../../administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
-* [ADFS 로그아웃 URL이 작동하지 않음](../../administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
 * [관리 및 설정 FAQ](../../administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
 * [[!DNL Adobe Workfront] 사용자 자격 증명과 SAML 사용자 자격 증명 비교](../../administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
 * [자동 미리 알림과 미리 알림](../../administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md)
