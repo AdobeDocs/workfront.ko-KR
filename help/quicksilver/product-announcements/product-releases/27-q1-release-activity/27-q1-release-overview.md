@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 5%
+source-wordcount: '641'
+ht-degree: 4%
 ---
 
 # 2027년 1분기 릴리스 개요
@@ -67,6 +67,23 @@ ht-degree: 5%
 * 교정쇄
 * 목표
 
+## 데스크톱 증명 뷰어 업데이트
+
+### 버전 2.3.0
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 27일
+>모든 고객을 위한 프로덕션 릴리스: 2026년 10월 28일
+
+Desktop Proofing Viewer가 버전 2.3.0으로 업데이트되었습니다. 이 업데이트에는 다음 변경 사항이 포함됩니다.
+
+* 여러 버전을 이동하는 동안 스크린샷 아래의 링크를 클릭하면 페이지가 여러 탭에서 열리는 대화형 증명 문제를 해결했습니다. 이제 링크가 단일 탭에서 페이지를 엽니다.
+
+* 성능 및 보안 개선을 위해 기본 프레임워크(Electron)를 Chrome 버전 156에서 실행되는 최신 버전으로 업데이트했습니다.
+
+Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)를 참조하십시오.
+
 ## 공지
 
 ### 작업 역할 목록 보기의 레거시 청구 및 비용 요금 필드 사용 중단
@@ -99,10 +116,10 @@ ht-degree: 5%
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
