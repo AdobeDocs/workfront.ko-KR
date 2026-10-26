@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: addf646d45d70c4806e7285b000c26165aff8eb3
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 5%
@@ -87,7 +87,10 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
    ![전자 메일 템플릿 탭](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. **새 전자 메일 서식 파일**&#x200B;을 클릭합니다.
-
+<!--
+new screen for monthly. delete screen in previous step.
+    ![add new email template](assets/email-template-add-new.png)
+-->
 1. **새 전자 메일 서식 파일** 상자에서 다음 정보를 지정하십시오.
 
    <table style="table-layout:auto"> 
