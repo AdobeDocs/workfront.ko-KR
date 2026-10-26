@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aabc2873072fadbdaedb003fa3bc11b66626e570
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '120'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront] 탐색: 문서 인덱스
@@ -32,8 +32,8 @@ Adobe Workfront을 탐색하고 Workfront 용어를 학습하는 방법을 이�
 
 * [&#x200B; [!DNL Adobe Workfront]의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 * [용어집  [!DNL Adobe Workfront] 용어](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [&#x200B; [!DNL Workfront]에 대한 [!DNL Adobe Unified Experience]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
-* [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
+* 다음에 대한 [[!DNL Adobe Unified Experience]  [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+  <!--* [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)-->
 * [[!DNL Adobe Workfront] 검색](../../workfront-basics/navigate-workfront/search/search.md)
 * [&#x200B; [!DNL Adobe Workfront]의 최근 항목 및 즐겨찾기](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
 * [상단 탐색 막대 개요](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)

@@ -26,66 +26,68 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 6%
+source-wordcount: '67'
+ht-degree: 0%
 ---
 # ADFS 로그아웃 URL이 작동하지 않음
 
 <!-- Audited: 1/2024 -->
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!IMPORTANT]
 >
 >이 페이지에 설명된 프로시저는 [!UICONTROL Adobe Admin Console]에 아직 온보딩되지 않은 조직에만 적용됩니다.
 >
->이제 모든 조직이 Adobe Admin Console에 온보딩되었으므로 이 문서는 가까운 시일 내에 제거됩니다.
->
->조직이 [!UICONTROL Adobe Admin Console]에 온보딩된 경우 [플랫폼 기반 관리 차이점([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하세요.
+>이제 모든 조직이 Adobe Admin Console에 온보딩되었으므로 이 문서는 제거되었습니다.
 
-## 문제
+<!--
 
-ADFS 로그아웃 URL(https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0)을 사용하는 경우 &quot;사이트에 액세스하는 동안 문제가 발생했습니다. 사이트를 다시 찾아보십시오.&quot;
+## Problem
 
-문제가 지속되면 이 사이트의 관리자에게 문의하여 다음 참조 번호를 제공하여 문제를 식별하십시오. **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
+When using the ADFS logout URL (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0), you receive a message page with the error: "There was a problem accessing the site. Try to browse to the site again."
 
-## 액세스 요구 사항
+If the problem persists, contact the administrator of this site and provide the following reference number to identify the problem: **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
 
-+++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] 패키지</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] package</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] 라이선스</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
    <td>
-   <p>표준</p>
-   <p>플랜</p></td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!UICONTROL 시스템 관리자]</td>  
+   <td role="rowheader">Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td>  
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## 솔루션
+## Solution
 
-1. ADFS 관리자 서버에서 **[!UICONTROL 트러스트 관계]** > **[!UICONTROL 신뢰 당사자 트러스트]** > `<your party trust>` 속성으로 이동합니다.
+1. In your ADFS manager server, go to **[!UICONTROL Trust Relationships]** > **[!UICONTROL Relying Party Trusts]** > `<your party trust>` properties.
 
-1. **[!UICONTROL 끝점]** 탭에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. Under the **[!UICONTROL Endpoints]** tab, click **[!UICONTROL Add]**.
 
-1. **[!UICONTROL 끝점 형식]** = SAML 로그아웃, 바인딩 = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
+1. **[!UICONTROL Endpoint Type]** = SAML Logout, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 
-   다른 페이지로 리디렉션하려면 응답 URL을 설정할 수 있습니다. 그러나 ADFS 사이트는 로그오프되었지만 여전히 브라우저를 닫아야 한다고 경고하므로 이 사이트를 사용하는 것이 좋습니다.
+   You can set a response URL if you want it to redirect to another page. But we recommend the ADFS site because it warns that you are logged off, but you should still close your browser.
+
+   -->

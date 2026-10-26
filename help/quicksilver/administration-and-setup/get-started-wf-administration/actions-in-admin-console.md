@@ -29,14 +29,14 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 0%
+ht-degree: 4%
 ---
 # Adobe Workfront과 Adobe Business Platform 간의 관리 차이점
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 이제 모든 Workfront 조직이 Adobe Business Platform으로 온보딩되었습니다. Adobe Workfront 관리자가 되면 조직이 Adobe Business Platform에 온보딩되었으므로 관리 책임과 절차가 달라질 수 있습니다. 이 문서에서는 현재 다르게 처리되는 절차를 나열합니다.
 
@@ -182,7 +182,7 @@ Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Adm
 
 ## SAML 인증서 갱신
 
-Adobe Admin Console에서 SAML 인증서를 갱신하는 방법에 대한 지침은 &quot;SAML 응답의 디지털 서명이 유효성을 검사하지 않았습니다...&quot; 섹션을 참조하십시오. [Federated ID 문제 해결](https://helpx.adobe.com/kr/enterprise/kb/tshoot-fed-id.html)에서
+Adobe Admin Console에서 SAML 인증서를 갱신하는 방법에 대한 지침은 &quot;SAML 응답의 디지털 서명이 유효성을 검사하지 않았습니다...&quot; 섹션을 참조하십시오. [Federated ID 문제 해결](https://helpx.adobe.com/kr/enterprise/kb/tshoot-fed-id.html)에서.
 
 <!--
 
@@ -206,10 +206,12 @@ Adobe Admin Console에서 SAML 인증서를 갱신하는 방법에 대한 지침
 Adobe Business Platform은 사용자의 SSO(Single Sign-On)를 제어하기 때문에 다음 작업과 기능은 Adobe Business Platform을 통해 자동으로 처리됩니다. 따라서 다음 작업은 더 이상 사용할 수 없습니다.
 
 
-* [SAML 2.0으로 Adobe Workfront 구성](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [ADFS를 사용하여 SAML 2.0으로 Adobe Workfront 구성](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-* [Adobe Workfront에서 SSO(Single Sign-On) 비활성화](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-* [ID 공급자에서 SAML 2.0 메타데이터 업데이트](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [SSO(Single Sign-On)를 위해 사용자 업데이트](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [인증을 위한 암호 정책 구성](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [시스템 보안 환경 설정 구성](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* SAML 2.0으로 Adobe Workfront 구성하기
+* ADFS를 사용하여 SAML 2.0으로 Adobe Workfront 구성
+* Adobe Workfront에서 SSO(Single Sign-On) 비활성화
+* ID 공급자에서 SAML 2.0 메타데이터 업데이트
+* SSO(Single Sign-On)에 대해 사용자에게 업데이트 제공
+* 인증 암호 정책 구성
+* 시스템 보안 환경 설정 구성
+
+

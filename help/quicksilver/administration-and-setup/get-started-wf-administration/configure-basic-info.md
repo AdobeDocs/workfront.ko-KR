@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aabc2873072fadbdaedb003fa3bc11b66626e570
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 4%
@@ -87,7 +87,7 @@ Adobe Workfront 시스템 구성의 일부로, 고객 정보 페이지의 기본
    고객 정보 영역에서 사용할 수 있는 섹션은 다음과 같습니다.
 
    | 섹션 | 추가 정보 |
-   |---------|-----------------|
+   | --------- | ----------------- |
    | **기본 정보** | Workfront에서 기본 정보를 구성하는 방법에 대한 자세한 내용은 [기본 정보 구성](#configure-basic-info)을 참조하십시오. |
    | **저장소 개요** | 문서 저장소 사용 및 할당량 확인에 대한 자세한 내용은 [문서 저장소 제한 확인](../../documents/managing-documents/check-document-storage.md)을 참조하세요. |
    | **API 키 설정** | API 키 설정에 대한 자세한 내용은 [API 키 관리](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)를 참조하십시오. |

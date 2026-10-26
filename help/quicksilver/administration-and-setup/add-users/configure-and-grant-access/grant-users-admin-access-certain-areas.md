@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 5%
+source-wordcount: '751'
+ht-degree: 4%
 ---
 # 사용자에게 특정 영역에 대한 관리 액세스 권한 부여
 
@@ -40,7 +40,8 @@ Adobe Workfront 관리자는 액세스 수준을 사용하여 표준 또는 플�
 
 >[!NOTE]
 >
->사용자에게 Workfront에 대한 전체 관리 액세스 권한을 부여하는 것과 다릅니다. 자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)를 참조하십시오&#x200B;.
+>사용자에게 Workfront에 대한 전체 관리 액세스 권한을 제공하는 것과 다릅니다. 사용자 관리자 액세스 권한은 Adobe Admin Console을 통해 부여됩니다. Adobe Admin Console에서 전체 관리자 액세스 권한을 부여하는 방법에 대한 지침은 [Adobe Admin Console을 사용하여 Workfront에서 시스템 관리자 만들기](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console) 섹션을 참조하십시오. 문서 Adobe Admin Console에서 사용자 관리..
+
 
 ## 액세스 요구 사항
 

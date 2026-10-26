@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2092'
 ht-degree: 2%
 ---
 # 프로젝트 상태 개요
@@ -93,9 +93,6 @@ AI Assistant에 대한 자세한 내용은 [AI Assistant 개요](/help/quicksilv
 
 조직에 대해 AI Assistant 및 프로젝트 상태를 활성화하려면 다음 사항을 모두 적용해야 합니다.
 
-<!--Remove me October 2026-->
-
-* 조직이 Adobe Identity Management System(IMS)으로 마이그레이션되었어야 합니다.
 * 조직에는 Workfront 또는 Workflow Select, Prime 또는 Ultimate 패키지가 있어야 합니다.
 * Adobe 통합 경험을 활성화해야 합니다.
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.

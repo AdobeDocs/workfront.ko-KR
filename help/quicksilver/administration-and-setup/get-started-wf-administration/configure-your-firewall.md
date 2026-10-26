@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1465'
 ht-degree: 6%
 ---
 # 방화벽 구성
 
 <!-- Audited: 12/2023 -->
 
-<!--Follow up October 2026-->
+<!--Follow up January 2027-->
 
 >[!IMPORTANT]
 >
@@ -406,12 +406,7 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
 
 Workfront Fusion의 경우 다음 도메인을 추가합니다.
 
-<!--Remove me October 2026-->
-
-* Adobe 통합 경험을 기반으로 하지 않는 조직의 경우:
-  * app.workfrontfusion.com (미국 AWS)
-  * app-eu.workfrontfusion.com (EU AWS)
-  * app-az.workfrontfusion.com (미국 Azure)
+<!--Remove me January 2027-->
 
 * Adobe 통합 경험의 조직용
 (이러한 도메인은 `*.adobe.com`에 포함되어 있지만 필요한 경우 추가할 수 있습니다.)
@@ -419,6 +414,14 @@ Workfront Fusion의 경우 다음 도메인을 추가합니다.
   * fusion.adobe.com
   * app-eu.fusion.adobe.com
   * app-az.fusion.adobe.com
+
+  >[!NOTE]
+  >
+  >모든 조직은 이제 Adobe 통합 환경에 있으므로 다음 도메인이 더 이상 필요하지 않습니다.
+  >
+  >* app.workfrontfusion.com (미국 AWS)
+  >* app-eu.workfrontfusion.com (EU AWS)
+  >* app-az.workfrontfusion.com (미국 Azure)
 
 
 

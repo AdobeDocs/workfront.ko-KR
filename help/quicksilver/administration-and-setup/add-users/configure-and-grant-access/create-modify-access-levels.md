@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1583'
 ht-degree: 8%
 ---
 # 사용자 정의 액세스 수준 만들기 및 수정
@@ -265,7 +265,8 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
 
    자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
-   Adobe 관리자가 사용자에게 시스템 관리자 액세스 수준을 할당하는 방법에 대한 자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)를 참조하십시오.
+   Adobe 관리자가 사용자에게 시스템 관리자 액세스 수준을 할당하는 방법에 대한 자세한 내용은 [Adobe Admin Console을 사용하여 Workfront에서 시스템 관리자 만들기](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console) 섹션을 참조하십시오. 문서 Adobe Admin Console에서 사용자 관리 의 을 참조하십시오.
+
 
 <!--
 

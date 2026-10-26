@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: f56dd9bec282768b8cda59a39bca502c1a796070
 workflow-type: tm+mt
 source-wordcount: '14725'
 ht-degree: 2%
@@ -599,14 +599,14 @@ ht-degree: 2%
       * [Workfront 목표에 대한 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
       * [브랜드 권한에 대한 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
     * Workfront에서 SSO(Single Sign-On) {#sso}
-      * [SSO(Single Sign-On): 문서 색인](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
-      * [SSO(Single Sign-On) 개요](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-      * [SSO(Single Sign-On)에 대해 사용자에게 업데이트 제공](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-      * [SAML 2.0으로 Workfront 구성](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-      * [ID 공급자에서 SAML 2.0 메타데이터 업데이트](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-      * [ADFS를 사용하여 SAML 2.0으로 Adobe Workfront 구성](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-      * [Workfront 및 SAML 2.0용 Outlook 사용](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
-      * [단일 사인온 비활성화](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+      * {hide-from-toc}[SSO(Single Sign-On): 문서 인덱스](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * {hide-from-toc}[SSO(Single Sign-On) 개요](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+      * {hide-from-toc}[SSO(Single Sign-On)를 위해 사용자 업데이트](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+      * {hide-from-toc}[SAML 2.0으로 Workfront 구성](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+      * {hide-from-toc}[ID 공급자에서 SAML 2.0 메타데이터 업데이트](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+      * {hide-from-toc}[ADFS를 사용하여 SAML 2.0으로 Adobe Workfront 구성](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+      * {hide-from-toc}[Workfront 및 SAML 2.0용 Outlook 사용](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
+      * {hide-from-toc}[SSO 비활성화](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
     * 팀 만들기 및 관리 {#create-manage-teams}
       * [팀 관리](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [팀 만들기](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
@@ -859,9 +859,9 @@ ht-degree: 2%
     * [블루프린트 설치 후 수행할 작업](administration-and-setup/blueprints/best-next-actions-after-install.md)
     * [사용 가능한 블루프린트 목록](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Adobe Admin Console의 관리 {#admin-in-admin-console}
-    * [Adobe Admin Console의 Workfront 관리](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-    * [Adobe Admin Console 준비](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-    * [Adobe Admin Console에 대한 Workfront 마이그레이션 이해](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+    * {hide-from-toc}[Adobe Admin Console의 Workfront 관리](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+    * {hide-from-toc}[Adobe Admin Console 준비](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+    * {hide-from-toc}[Adobe Admin Console에 대한 Workfront 마이그레이션 이해](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
   * 관리 및 설정을 위한 팁, 요령 및 문제 해결 {#admin-setup-tips}
     * [팁, 요령 및 문제 해결](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [그룹 관리자는 자신이 관리하는 사용자보다 높은 액세스 권한을 가져야 합니다.](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
