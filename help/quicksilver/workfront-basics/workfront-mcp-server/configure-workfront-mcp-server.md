@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
+source-git-commit: 96a3eac63c25b2a6cf7d4a10f0db05aab84c68e8
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -43,10 +43,10 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 >모든 도구를 미리 로드하는 클라이언트의 MCP 카탈로그 크기를 줄이기 위해 `toolsets` 쿼리 매개 변수를 Workfront MCP 서버 URL에 추가할 수 있습니다. 예:
 >
 >```
->https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 >```
 >
->도구 집합에 대한 자세한 내용은 Adobe Workfront MCP 서버 도구 문서의 [Workfront MCP 서버의 도구](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)를 참조하십시오.
+>도구 집합에 대한 자세한 내용은 Adobe Workfront MCP 서버 도구 문서의 [Workfront MCP 서버의 도구 집합](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)을 참조하십시오.
 
 ## 전제 조건
 
@@ -122,7 +122,7 @@ URL을 사용하여 Workfront을 [!DNL Claude]에 연결하려면 다음을 수�
    https://mcp.workfront.adobe.com/mcp/v1/workfront
    ```
 
-1. **연결**&#x200B;을 클릭합니다.
+1. **연결**을 클릭합니다.
 Workfront 로그인 창이 나타납니다.
 1. Adobe ID 자격 증명을 사용하여 인증합니다.
 프로필 및 Workfront 인스턴스를 선택해야 할 수 있습니다. 선택하는 프로필에 따라 연결되는 작업 영역이 결정됩니다.
@@ -208,7 +208,7 @@ ChatGPT는 사용자 지정 GPT라는 사용자가 만든 도우미를 지원합
 Workfront MCP가 연결할 수 있는 사용자 지정 Copilot 에이전트를 빌드하려면 Copilot Studio를 사용합니다.
 
 1. Copilot Studio에서 **빈 에이전트 만들기**&#x200B;를 클릭합니다.
-1. 에이전트 이름을 지정하고 **만들기**&#x200B;를 클릭합니다.
+1. 에이전트 이름을 지정하고 **만들기**를 클릭합니다.
 에이전트 창이 열립니다.
 
 1. **지침** 필드에서 에이전트에서 수행할 작업을 설명합니다. 프로세스 및 Workfront 사용 방법과 같은 정보를 포함합니다. 세부 정보를 많이 제공하는 것이 좋습니다.
