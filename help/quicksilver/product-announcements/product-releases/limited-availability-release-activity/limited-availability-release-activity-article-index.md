@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1a2e52fc5c832ebd94b32bb58e5faaee06cf3d6
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '115'
 ht-degree: 0%
 ---
 # Adobe Workfront의 제한된 가용성 기능 릴리스 활동: 문서 색인
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 현재 Workfront의 제한된 가용성 기능 릴리스 활동에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [Adobe Workfront의 제한된 가용성 기능에 대한 2026년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+* [Adobe Workfront의 제한된 가용성 기능에 대한 2027년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-27-q1.md)
 
 >[!ENDSHADEBOX]
 
@@ -45,3 +45,5 @@ ht-degree: 0%
 * 2026
   * [Adobe Workfront의 제한된 가용성 기능에 대한 2026년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
   * [Adobe Workfront의 제한된 가용성 기능에 대한 2026년 2분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+  * [Adobe Workfront의 제한된 가용성 기능에 대한 2026년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
+
