@@ -9,7 +9,7 @@ feature: System Setup and Administration, Work Management, Digital Content and D
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b4413742-c250-4110-9097-6d38842355a4
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 0%
@@ -47,6 +47,12 @@ Adobe 클라우드 스토리지가 사용자에게 도달하는 방법과 시기
 ### 파일럿 그룹 선택
 
 그룹 범위 롤아웃을 사용하면 Adobe 클라우드 스토리지를 더 작은 팀 앞에 먼저 배치하고 피드백을 수집한 다음 더 넓은 롤아웃 전에 조정할 수 있습니다. 초기에 알고 싶은 문제를 표시할 수 있을 만큼 작업 패턴이 대표적인 그룹을 선택하십시오.
+
+<!--
+>[!IMPORTANT]
+>
+>Only members of the pilot group can convert an Adobe cloud storage object, such as a request or a task, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+-->
 
 ### 시작하기 전에 테스트
 

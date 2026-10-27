@@ -6,7 +6,7 @@ description: 새 문서 영역, Frame.io 뷰어, 문서 권한, 개체 이름 �
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
+source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
 workflow-type: tm+mt
 source-wordcount: '1702'
 ht-degree: 0%
@@ -120,6 +120,12 @@ Adobe 클라우드 스토리지 프로젝트에는 다음 규칙이 적용됩니
 ## 객체 이동성
 
 대부분의 시나리오에서는 와 같은 스토리지 모델 사이에서만 Workfront 개체를 이동, 복사 및 변환할 수 있습니다. 예를 들어 작업을 한 Adobe 클라우드 스토리지 프로젝트에서 다른 Adobe 클라우드 스토리지 프로젝트로 이동할 수 있습니다. 세 가지 특정 경우에 기존 Workfront 스토리지 개체를 Adobe 클라우드 스토리지로 변환할 수 있습니다.
+
+<!--
+During a group-scoped rollout, only members of the group that has Adobe cloud storage can convert an Adobe cloud storage object, such as a request, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+
+For more information, see [Plan your Adobe cloud storage rollout](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md).
+-->
 
 자세한 내용은 [레거시 개체를 Adobe 클라우드 저장소로 변환](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)을 참조하십시오.
 
