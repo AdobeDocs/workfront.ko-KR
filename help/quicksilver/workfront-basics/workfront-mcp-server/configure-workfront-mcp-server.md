@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
+source-git-commit: 20cb536b40af2dc7d3c5ddd1e3c08d6fbccb8466
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2484'
 ht-degree: 0%
 ---
 
@@ -43,10 +43,10 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 >모든 도구를 미리 로드하는 클라이언트의 MCP 카탈로그 크기를 줄이기 위해 `toolsets` 쿼리 매개 변수를 Workfront MCP 서버 URL에 추가할 수 있습니다. 예:
 >
 >```
->https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 >```
 >
->도구 집합에 대한 자세한 내용은 Adobe Workfront MCP 서버 도구 문서의 [Workfront MCP 서버의 도구](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)를 참조하십시오.
+>도구 집합에 대한 자세한 내용은 Adobe Workfront MCP 서버 도구 문서의 [Workfront MCP 서버의 도구 집합](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)을 참조하십시오.
 
 ## 전제 조건
 
@@ -243,6 +243,30 @@ Workfront MCP가 연결할 수 있는 사용자 지정 Copilot 에이전트를 �
 
 +++ 를 확장하여 Workfront을 GitHub Copilot에 연결하기 위한 단계별 지침을 봅니다.
 
+>[!NOTE]
+>
+>GitHub Copilot에서 Dynamic Client Registration이 지원되지 않는다고 하거나 OAuth 클라이언트 ID를 요청하는 경우 표준 HTTP 구성 대신 아래 해결 방법을 사용하십시오. 일부 GitHub Copilot MCP 클라이언트는 기본 설정에서 사용되는 동적 검색 흐름을 지원하지 않습니다.
+>
+>이를 해결하려면 `mcp-remote`을(를) 통해 Workfront MCP 서버를 시작하고 `NODE_OPTIONS=--use-system-ca`을(를) 설정하도록 GitHub Copilot을 구성하십시오.
+>
+>```json
+>{
+>   "servers": {
+>       "wf-mcp": {
+>           "command": "npx.cmd",
+>           "args": [
+>               "-y",
+>               "mcp-remote",
+>               "https://mcp.workfront.adobe.com/mcp/v1/workfront"
+>           ],
+>           "env": {
+>               "NODE_OPTIONS": "--use-system-ca"
+>           }
+>       }
+>   }
+>}
+>```
+>
 
 1. GitHub Copilot에서 **사용자 지정**&#x200B;으로 이동합니다.
 1. **추가** > **MCP 서버**&#x200B;를 클릭합니다.
