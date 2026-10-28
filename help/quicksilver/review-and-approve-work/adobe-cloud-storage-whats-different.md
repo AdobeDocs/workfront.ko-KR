@@ -6,9 +6,9 @@ description: 새 문서 영역, Frame.io 뷰어, 문서 권한, 개체 이름 �
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1714'
 ht-degree: 0%
 ---
 # Adobe 클라우드 스토리지의 차이점
@@ -94,7 +94,7 @@ Frame.io 뷰어는 다음을 제공합니다.
 * 원, 화살표, 사각형과 같은 표준 모양과 자유 형식 드로잉을 포함한 마크업 및 주석 도구
 * 비디오 검토를 위해 프레임 수준의 정확한 정밀도로 타임스탬프가 지정된 주석
 * 버전 기록 및 버전 비교
-* 이동 중 검토 및 승인을 위한 모바일 액세스
+* [Frame.io iOS 앱](https://help.frame.io/en/collections/9679120-ios-app)을 통해 이동 중 검토 및 승인을 위한 모바일 액세스
 * ProRes, H.265, DNxHD와 같은 전문 비디오 형식에 대한 기본 재생과 함께 모든 일반 비디오, 이미지, 오디오, PDF, Microsoft Office 유형을 포함한 40개 이상의 파일 형식 지원 및 최대 500GB의 파일 지원
 
 ## 객체 이름 지정 규칙
