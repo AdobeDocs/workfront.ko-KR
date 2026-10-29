@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 7e4bfe51c25672d2695573786b1192709ba8f4da
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '987'
 ht-degree: 2%
 ---
 # 사용자 정의 양식 공유
+
+{{preview-fast-release-general}}
 
 사용자 정의 양식에 대한 액세스 권한을 구성하여 개인, 역할, 그룹, 팀, 회사, 비즈니스 프로필 등 해당 양식을 보고, 공유하고, 편집할 수 있는 사용자를 제어할 수 있습니다.
 
@@ -108,7 +110,8 @@ ht-degree: 2%
       <td> <p>이 옵션은 Standard 또는 Plan 라이선스가 있는 사용자만 사용할 수 있습니다. </p> <p>편집할 수 있는 액세스 권한이 있는 오브젝트에 양식을 추가할 수 있을 뿐만 아니라 필드를 추가, 편집 및 삭제하는 등 사용자 정의 양식을 완전히 편집할 수도 있습니다.</p> <p>다음을 허용할지 여부를 지정하려면 <strong>고급 설정</strong>을 클릭하십시오.</p> 
        <ul> 
         <li> <p><strong>사용자 정의 데이터에 첨부</strong>: 관리 액세스 권한이 있는 프로젝트, 작업 및 문제에 사용자 정의 양식을 첨부할 수 있습니다.</p> </li> 
-        <li><strong>삭제</strong>: 시스템에서 사용자 정의 양식을 삭제합니다.</li> 
+        <li><strong>삭제</strong>: 시스템에서 사용자 정의 양식을 삭제합니다.</li>
+        <li> <p><span class="preview"><strong>사용자 정의 데이터 제거</strong>: 관리 액세스 권한이 있는 프로젝트, 작업 및 문제에서 사용자 정의 양식을 제거하는 기능</span></p> </li> 
         <li><strong>공유</strong>: 사용자 정의 양식을 시스템의 다른 사용자와 공유합니다.</li> 
        </ul> </td> 
      </tr> 
