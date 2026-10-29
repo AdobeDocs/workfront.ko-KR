@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
 source-wordcount: '3223'
 ht-degree: 2%
@@ -297,7 +297,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
 
 1. 기본적으로 이 양식을 사용하여 제출한 요청에 대해 사용자가 가질 권한을 구성하려면 왼쪽 패널의 **권한**&#x200B;을 클릭하십시오. 여기서 부여하는 권한은 향후 요청에 즉시 적용되며 기존 요청에 영향을 주지 않습니다.
-1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> 이 양식을 사용하여 요청을 제출하는 사용자에 대해 이 양식에 제출된 요청에 대한 권한 수준을 선택합니다.
+1. <!--<span class="preview">In the **Requestor access** section,</span>--> 이 양식을 사용하여 요청을 제출하는 사용자에 대해 이 양식에 제출된 요청에 대한 권한 수준을 선택합니다.
 
    * **보기**: 모든 요청자가 양식에 댓글을 달고 공유할 수 있습니다.
    * **참여**: 모든 요청자가 양식에 대해 댓글을 달고, 공유하고, 편집할 수 있습니다.
@@ -329,7 +329,6 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
       * Edit. Not available for View. 
       * Delete. Not available for Contribute and View. 
       </div>
-
    1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
       >[!TIP]
       >

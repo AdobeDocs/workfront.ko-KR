@@ -28,18 +28,16 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '518'
 ht-degree: 1%
 ---
 # 레코드의 세부 사항 내보내기
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
 {{planning-important-intro}}
 
@@ -171,7 +169,13 @@ Old:
 
 * 내보낸 파일은 축소판 및 표지 이미지를 포함하여 레코드 페이지의 레이아웃을 유지합니다.
 
-* 여러 필드가 숨겨져 있는 사용자 지정된 세부 정보 페이지는 내보낼 수 없습니다.
+* 프로덕션 환경에서는 여러 필드가 숨겨져 있는 사용자 지정된 세부 정보 페이지를 내보낼 수 없습니다.
+
+<div class="preview">
+
+* 미리보기 환경에서 여러 필드가 숨겨져 있는 사용자 지정된 세부 정보 페이지를 내보낼 수 있습니다.
+
+</div>
 
 ## 레코드의 세부 사항 내보내기
 
@@ -206,7 +210,6 @@ Old:
    >[!NOTE]
    >
    >    기록 세부 정보 영역에서 자세히 표시를 클릭한 후에만 표시되는 페이지에 표시되지 않는 추가 정보는 내보낸 PDF 파일에 표시되지 않습니다. 페이지에 표시되는 정보만 내보낸 파일에 표시됩니다.
-
 
 1. (선택 사항) 다운로드한 파일로 이동하여 열고 편집하거나(Word 파일인 경우) 다른 사용자와 공유합니다.
 

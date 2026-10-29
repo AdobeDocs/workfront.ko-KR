@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '538'
 ht-degree: 3%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
@@ -77,6 +77,9 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 | 작업 영역의 계층 수 | 5 |
 | 계층 내에서 하위 레코드 종류의 한 레코드에 연결된 상위 레코드 종류의 레코드 수 | 10 |
 | 레코드 사이에 계층 구조가 구성되지 않은 상태에서 다중 선택 연결 유형의 한 레코드에 연결된 레코드 수 | 500 |
+| <span class="preview">레코드 종류당 조회 필드 수</span> | 40 |
+| <span class="preview">레코드 종류당 긴 텍스트 조회 필드 수</span> | 5 |
+| <span class="preview">단일 긴 텍스트 조회 필드 셀의 값(표 보기)에 있는 문자 수</span> | 50,000자 |
 
 *작업 영역은 관리하기 어려워질 수 있고 워크플로가 너무 많이 조각날 수 있으므로 너무 많이 사용하지 않는 것이 좋습니다.
 
