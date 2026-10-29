@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 3%
+source-wordcount: '669'
+ht-degree: 2%
 ---
 # 그룹에 대한 이벤트 알림 보기 및 구성
 
@@ -73,7 +73,7 @@ Workfront 관리자가 이벤트 알림을 잠금 해제하는 방법에 대한 
 
 +++
 
-## 그룹의 이벤트 알림 보기 및 구성
+## 프로덕션에서 그룹의 이벤트 알림 보기 및 구성
 
 >[!TIP]
 >
@@ -108,3 +108,31 @@ This step (with substeps) is for functionality from a Sprint 3 2021 story that g
   For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. 
 -->
 
+
+
+
+<div class="preview">
+
+## 미리 보기에서 그룹의 이벤트 알림 보기 및 구성
+
+>[!TIP]
+>
+>Workfront 관리자이고 전자 메일 알림 페이지(설정 > 전자 메일 > 알림)에 이미 있는 경우 다음을 수행한 다음 6단계로 건너뛸 수 있습니다. 목록 위의 상자에서 **시스템 이벤트 알림**&#x200B;을 삭제하고 상자에 그룹 이름을 입력한 다음 표시될 때 클릭합니다.
+
+{{step-1-to-setup}}
+
+1. 왼쪽 패널에서 **그룹** ![그룹](assets/groups-icon.png)을 클릭합니다.
+
+1. 최상위 그룹의 이름을 클릭합니다.
+1. 왼쪽 메뉴에서 **이벤트 알림**&#x200B;을 클릭합니다.
+1. 이벤트에 대한 **활성** 열을 클릭하고 **활성**&#x200B;을 선택하여 켜거나 **비활성**&#x200B;을 선택하여 끕니다.
+
+   >[!IMPORTANT]
+   >
+   >잠금 아이콘이 있는 항목은 편집하거나 그룹에 대해 구성할 수 없습니다.
+
+   ![설정 전자 메일의 알림 영역](assets/group-event-notifications-g.png)
+
+   이벤트의 기본 알림 상태를 보려면 [이벤트 알림](../../../workfront-basics/using-notifications/event-notifications.md)을 참조하세요.
+
+</div>

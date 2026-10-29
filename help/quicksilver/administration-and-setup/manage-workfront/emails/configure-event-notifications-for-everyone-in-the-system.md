@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 86cd7c186c2b27cd8f93b640f8a56223c345959d
+source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 4%
+source-wordcount: '840'
+ht-degree: 3%
 ---
 # 시스템의 모든 사용자를 위한 이벤트 알림 구성
 
@@ -79,7 +79,7 @@ ht-degree: 4%
 +++
 
 
-## 모든 사용자에 대한 이벤트 알림 구성
+## 프로덕션의 모든 사용자에 대한 이벤트 알림 구성
 
 사용자가 개별 프로필에서 알림을 활성화하거나 비활성화하려면 먼저 Workfront의 설정 영역에서 알림을 활성화해야 합니다.
 
@@ -110,45 +110,43 @@ ht-degree: 4%
 사용자는 사용자 프로필에서 이러한 알림의 빈도를 사용자 지정할 수 있습니다.
 
 
-<!--
-<div class="preview">
-## Configure event notifications for all users in Preview
 
-You must enable notifications in the Setup area of Workfront before users can enable or disable them in their individual profiles.
+<div class="preview">
+
+## 미리보기의 모든 사용자에 대한 이벤트 알림 구성
+
+사용자가 개별 프로필에서 알림을 활성화하거나 비활성화하려면 먼저 Workfront의 설정 영역에서 알림을 활성화해야 합니다.
 
 >[!TIP]
 >
->You cannot activate notifications for Workfront Goals from the Setup area. Users can activate these notifications only in their profiles. Users with Plan licenses can activate them for other users. For information about enabling Workfront Goals notifications for users, see [Notifications: Goals](../../../workfront-basics/using-notifications/notifications-goals.md).
+>설정 영역에서 Workfront 목표에 대한 알림을 활성화할 수 없습니다. 사용자는 프로필에서만 이러한 알림을 활성화할 수 있습니다. 플랜 라이선스가 있는 사용자는 다른 사용자를 위해 활성화할 수 있습니다. 사용자를 위한 Workfront 목표 알림을 사용하는 방법에 대한 자세한 내용은 [알림: 목표](../../../workfront-basics/using-notifications/notifications-goals.md)를 참조하십시오.
 
 {{step-1-to-setup}}
 
-1. Click **Email** > **Notifications**.
+1. **전자 메일** > **알림**&#x200B;을 클릭합니다.
 
-    ![Notifications area under setup emails](assets/notifications-area-under-setup-emails.png)
-   
-1. Make sure the **Event Notifications** tab is open.
-1. Toggle the switch to the left of the event name to turn it on or off. 
+   ![설정 전자 메일의 알림 영역](assets/notifications-area-under-setup-emails.png)
 
-Click in the **Active** column for the event and select **Active** to turn it on, or **Inactive** to turn it off.
+1. **이벤트 알림** 탭이 열려 있는지 확인하십시오.
+1. 이벤트에 대한 **활성** 열을 클릭하고 **활성**&#x200B;을 선택하여 켜거나 **비활성**&#x200B;을 선택하여 끕니다.
 
 
-   To see the default notification status for an event, see [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
+   이벤트의 기본 알림 상태를 보려면 [이벤트 알림](../../../workfront-basics/using-notifications/event-notifications.md)을 참조하세요.
 
-1. (Optional) To customize the subject line of the email notification, you can:
+1. (선택 사항) 전자 메일 알림의 제목 줄을 사용자 지정하려면 다음 작업을 수행할 수 있습니다.
 
-   * Click the lock icon ![Lock icon](assets/lock-icon-100626.png) or **More** menu ![More menu](assets/more-icon.png) to the right of the notification and select **Edit**.
-   * Select the check box next to the notification and click **Edit** in the action bar at the bottom of the screen.
+   * 알림 오른쪽에 있는 잠금 아이콘 ![잠금 아이콘](assets/lock-icon-100626.png) 또는 **기타** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭하고 **편집**&#x200B;을 선택합니다.
+   * 알림 옆에 있는 확인란을 선택하고 화면 하단의 작업 표시줄에서 **편집**&#x200B;을 클릭합니다.
 
-   For more information about customizing the subject lines of email notifications, see [Customize email subjects for event notifications](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
+   전자 메일 알림의 제목 줄을 사용자 지정하는 방법에 대한 자세한 내용은 [이벤트 알림에 대한 전자 메일 제목 사용자 지정](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)을 참조하십시오.
 
-1. (Optional) To unlock configuration for an email notification so that group administrators can configure it separately for their groups, you can:
+1. (선택 사항) 그룹 관리자가 그룹에 대해 별도로 구성할 수 있도록 이메일 알림에 대한 구성을 잠금 해제하려면 다음을 수행할 수 있습니다.
 
-   * Click the lock icon ![Lock icon](assets/lock-icon-100626.png) to the right of the notification and select **Unlock Group Access**. The lock icon is no longer displayed when the notification is unlocked.
-   * Select the check box next to the notification and click **Unlock Group Access** in the action bar at the bottom of the screen.
+   * 알림 오른쪽에 있는 잠금 아이콘 ![잠금 아이콘](assets/lock-icon-100626.png)을 클릭하고 **그룹 액세스 잠금 해제**&#x200B;를 선택합니다. 알림이 잠금 해제되면 잠금 아이콘이 더 이상 표시되지 않습니다.
+   * 알림 옆에 있는 확인란을 선택하고 화면 하단의 작업 표시줄에서 **그룹 액세스 잠금 해제**&#x200B;를 클릭합니다.
 
-   For more information, see [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+   자세한 내용은 [모든 그룹에 대한 이벤트 알림 구성 잠금 해제 또는 잠금](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)을 참조하세요.
 
-Users can customize the frequency of these notifications in their user profile. 
+사용자는 사용자 프로필에서 이러한 알림의 빈도를 사용자 지정할 수 있습니다.
 </div >
 
--->
