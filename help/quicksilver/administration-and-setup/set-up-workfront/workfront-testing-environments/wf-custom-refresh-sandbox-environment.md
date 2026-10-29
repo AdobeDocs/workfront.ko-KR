@@ -28,14 +28,16 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1842'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront] 사용자 지정 새로 고침 샌드박스 환경
 
 사용자 지정 새로 고침 샌드박스는 프로덕션 환경의 데이터를 사용하여 테스트하고 작업할 수 있는 환경입니다. 또한 교육을 실행하고 설정 기능을 결정하는 데에도 이상적입니다.
+
+
 
 >[!NOTE]
 >
@@ -132,6 +134,10 @@ Adobe 클라우드 스토리지를 지원하는 Workfront 버전으로 업그레
    사용자 정의 새로 고침 샌드박스를 마지막으로 새로 고친 후 프로덕션 자격 증명을 변경하지 않는 한, 사용자 정의 새로 고침 샌드박스 자격 증명은 프로덕션 자격 증명과 동일합니다. 새로 고침이 발생할 때만 로그인이 동기화됩니다. 자동으로 동기화되지 않습니다.
 
    사용자 정의 새로 고침 샌드박스는 화면 상단의 배너에 버전과 마지막 새로 고침 날짜를 표시합니다. 프로덕션의 모든 정보를 사용할 수 있으며 새로 고침이 완료된 후 작업할 준비가 되었습니다.
+
+>[!IMPORTANT]
+>
+>캔버스 대시보드의 계획 데이터는 샌드박스 환경의 [!DNL Workfront] 관리자에게만 표시됩니다.
 
 ## URL을 사용하여 사용자 정의 새로 고침 샌드박스에 액세스 {#access-the-custom-refresh-sandbox-using-a-url}
 

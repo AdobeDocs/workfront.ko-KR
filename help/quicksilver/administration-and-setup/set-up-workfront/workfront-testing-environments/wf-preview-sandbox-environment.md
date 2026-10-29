@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1379'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront] 미리 보기 샌드박스 환경
@@ -83,6 +83,10 @@ ht-degree: 0%
 미리 보기 샌드박스를 사용하면 [!DNL Workfront]이(가) 프로덕션 환경에 배포할 준비가 되기 전에 안전한 환경에서 새 기능을 배포할 수도 있습니다. 미리 보기 샌드박스에 액세스하여 새로운 기능을 테스트하고 해당 기능에 대한 피드백을 [!DNL Workfront]할 수 있습니다. 이러한 이유로 데이터가 매주 새로 고쳐지지만 미리 보기 샌드박스의 코드가 프로덕션 코드보다 항상 우선합니다.
 
 미리보기 환경은 교육을 실행하고, 새로운 기능을 테스트하고, 설정 기능을 결정하는 데 이상적입니다.
+
+>[!IMPORTANT]
+>
+>캔버스 대시보드의 계획 데이터는 샌드박스 환경의 [!DNL Workfront] 관리자에게만 표시됩니다.
 
 >[!NOTE]
 >
