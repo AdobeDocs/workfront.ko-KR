@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 2%
 ---
 # 그룹에 대한 이벤트 알림 보기 및 구성
+
+{{highlighted-preview}}
 
 그룹 관리자는 관리하는 그룹에 대해 활성화된 이벤트 알림을 볼 수 있습니다.
 
