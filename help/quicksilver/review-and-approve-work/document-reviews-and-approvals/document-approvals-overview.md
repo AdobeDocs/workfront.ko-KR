@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4476'
 ht-degree: 0%
 ---
 # 통합 검토 및 승인 개요
@@ -82,7 +82,7 @@ Frame.io 뷰어를 사용하여 에셋을 검토하고 승인합니다. Frame.io
 * 마크업 및 주석 달기 도구
 * 버전 기록 및 비교
 * 비디오 검토에 대한 타임스탬프가 지정된 댓글
-* 이동 중 검토 및 승인을 위한 모바일 액세스
+* [Frame.io iOS 앱](https://help.frame.io/en/collections/9679120-ios-app)을 통해 이동 중 검토 및 승인을 위한 모바일 액세스
 
 자세한 내용은 [통합 검토 및 승인 시작](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)을 참조하세요.
 
