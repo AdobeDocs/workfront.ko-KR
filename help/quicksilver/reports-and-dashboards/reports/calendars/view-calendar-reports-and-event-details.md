@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 3%
+source-wordcount: '648'
+ht-degree: 2%
 ---
 # 달력 보고서 및 이벤트 세부 정보 보기
+
+{{highlighted-preview}}
 
 Adobe Workfront에서 생성했거나 공유한 캘린더 보고서 및 이벤트 세부 사항을 볼 수 있습니다.
 
@@ -108,20 +110,26 @@ Adobe Workfront에서 생성했거나 공유한 캘린더 보고서 및 이벤�
 
 1. (선택 사항) **월** 또는 **주** 보기에서 캘린더를 보는 경우 다음 옵션을 사용하여 캘린더 보기를 변경할 수 있습니다.
 
-   <!--
-         * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
-      -->
-
-   * 표시된 일자를 빠르게 변경하려면
-
-     1. **[!UICONTROL 달력]** 도구 모음에서 날짜 표시기의 왼쪽 화살표를 클릭하여 달력에서 뒤로 이동하거나 오른쪽 화살표를 클릭하여 앞으로 이동합니다.
-
-        날짜를 변경하려면 ![화살표를 클릭하세요](assets/click-arrows-to-change-dates-calendar-report.png)
-
-        표시되는 날짜는 현재 달력 보기에 따라 간격에 따라 조정됩니다. 예를 들어, **주** 보기에서 달력을 보는 경우 선택한 화살표에 따라 달력은 1주일 앞으로 또는 1주일 뒤로 표시됩니다.
-
-     1. (선택 사항) 현재 날짜로 돌아가려면 [!UICONTROL **오늘**]&#x200B;을 클릭합니다.
+   <table style="table-layout:auto"> 
+    <col> 
+    </col> 
+    <col> 
+    </col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">월 보기에서 캘린더를 볼 때 주말 제외</td> 
+      <td>캘린더의 오른쪽 상단 모서리에서 <b>주말 표시</b>를 켜거나 끕니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview"><b>[!UICONTROL Week]</b> 보기에서 캘린더를 볼 때 시간을 표시하거나 숨깁니다.</span></td> 
+      <td><span class="preview">캘린더의 오른쪽 상단 모서리에서 <b>시간 표시</b>를 켜거나 끕니다.</span></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">표시된 날짜를 빠르게 변경하려면</td> 
+      <td> <p><b>[!UICONTROL Calendar]</b> 도구 모음에서 날짜 표시기의 왼쪽 화살표를 클릭하여 캘린더에서 뒤로 이동하거나 오른쪽 화살표를 클릭하여 앞으로 이동합니다.</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="날짜를 변경하려면 화살표 클릭"></p> <p>표시되는 날짜는 현재 달력 보기를 기반으로 한 간격만큼 조정됩니다. 예를 들어, <b>주</b> 보기에서 달력을 보는 경우 선택한 화살표에 따라 달력은 1주일 앞으로 또는 1주일 뒤로 표시됩니다.</p> <p>(선택 사항) 현재 날짜로 돌아가려면 <b>[!UICONTROL Today]</b>을(를) 클릭합니다.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 1. (선택 사항) 달력에 연결된 프로젝트 또는 달력 그룹화에 대한 이벤트를 숨기려면 프로젝트 목록에서 프로젝트 또는 달력 그룹화를 지웁니다.
    ![이벤트 숨기기](assets/hide-events-for-project-or-cal-grouping.png)

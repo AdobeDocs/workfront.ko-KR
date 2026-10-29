@@ -25,12 +25,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
+source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
 workflow-type: tm+mt
-source-wordcount: '3345'
+source-wordcount: '3388'
 ht-degree: 1%
 ---
 # 향상된 목록 사용
+
+{{preview-fast-release-general}}
 
 고급 목록은 Adobe Workfront의 일부 영역에서 사용할 수 있습니다. 이러한 목록은 목록 항목을 표시하기 위해 표 형식을 사용하며 표준 목록과는 다른 모양과 느낌을 가집니다. 필터링, 그룹화, 열 관리 및 검색을 포함한 보기 관리도 향상되었습니다.
 
@@ -77,14 +79,16 @@ ht-degree: 1%
 | --- | --- |
 | 우선순위 | <ul><li>홈 > 왼쪽 메뉴에서 우선 순위 아이콘 선택</li><li>메인 메뉴 > 우선 순위</li></ul> |
 | 요청 목록 | <ul><li>메인 메뉴 > 요청(새 경험만 해당)</li><li>홈의 내 요청 위젯</li></ul> |
-| 설정의 상태, 우선 순위, 심각도, <span class="preview">조건</span> 및 환율 목록 | <ul><li>설정 > 프로젝트 환경 설정 > 상태</li><li>설정 > 프로젝트 환경 설정 > 우선 순위</li><li>설정 > 프로젝트 환경 설정 > 심각도</li><li><span class="preview">설정 > 프로젝트 환경 설정 > 조건</span></li><li>설정 > 프로젝트 환경 설정 > 환율</li></ul> |
-| <span class="preview">업데이트 피드의 작업 및 추적된 필드 목록</span> | <ul><li><span class="preview">설정 > 인터페이스 > 피드 업데이트 > 추적된 필드 탭</span></li> <li><span class="preview">설정 > 인터페이스 > 피드 업데이트 > 작업 탭</span></li></ul> |
-| <span class="preview">스코어카드 목록</span> | <span class="preview">설정 > 스코어카드</span> |
-| <span class="preview">위험 유형 목록</span> | <span class="preview">설정 > 위험 유형</span> |
+| 설정 상태, 우선 순위, 심각도, 조건 및 환율 목록 | <ul><li>설정 > 프로젝트 환경 설정 > 상태</li><li>설정 > 프로젝트 환경 설정 > 우선 순위</li><li>설정 > 프로젝트 환경 설정 > 심각도</li><li>설정 > 프로젝트 환경 설정 > 조건</li><li>설정 > 프로젝트 환경 설정 > 환율</li></ul> |
+| 업데이트 피드의 작업 및 추적 필드 목록 | <ul><li>설정 > 인터페이스 > 피드 업데이트 > 추적된 필드 탭</li> <li>설정 > 인터페이스 > 피드 업데이트 > 작업 탭</li></ul> |
+| 스코어카드 목록 | 설정 > 스코어카드 |
+| 위험 유형 목록 | 설정 > 위험 유형 |
 | 비율 카드의 작업 역할 및 비율 목록 | 설정 > 비율 카드 > 비율 카드 선택 > 작업 역할 및 비율 |
 | 위치 목록 | 설정 > 위치 |
 | 번역 목록 | 설정 > 로컬라이제이션 |
 | 통합 목록 | <ul><li>설정 > 문서 > SharePoint 통합</li><li>설정 > 문서 > 사용자 정의 통합</li><li>설정 > 문서 > Experience Manager Assets</li></ul> |
+| <span class="preview">레이아웃 템플릿 목록</span> | <span class="preview">설정 > 인터페이스 > 레이아웃 템플릿</span> |
+| <span class="preview">이벤트 알림 목록</span> | <ul><li><span class="preview">설정 > 전자 메일 > 알림 > 이벤트 알림</span></li><li><span class="preview">그룹 세부 정보 페이지 > 이벤트 알림</span></li></ul> |
 | 보고서 목록 | 메인 메뉴 > 보고서(**공유 가능한 폴더 사용**&#x200B;을 설정해야 함) |
 | 대기열 주제, 주제 그룹 및 라우팅 규칙 목록 | <ul><li>프로젝트 또는 템플릿 > 대기열 주제</li><li>프로젝트 또는 템플릿 > 주제 그룹</li><li>프로젝트 또는 템플릿 > 라우팅 규칙</li></ul> |
 | 스냅샷 목록 | 프로젝트 > 스냅샷 |
@@ -99,10 +103,7 @@ ht-degree: 1%
 
 <!--
 
-Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
-
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -470,14 +471,18 @@ Workfront은 사전 정의된 그룹화를 제한적으로 제공하며 사용�
 
    ![그룹화 선택](assets/glist-grouping-choose-a-group-by.png)
 
-1. 모든 그룹화가 축소된 목록을 표시하려면 **모두 축소**&#x200B;를 클릭합니다. 기본 옵션은 모든 그룹화가 확장된 목록을 표시하는 것입니다.
+1. 모든 그룹화가 축소된 목록을 표시하려면 **모두 축소**&#x200B;를 클릭합니다. 기본 옵션은 모든 그룹화가 확장된 목록을 표시하는 것입니다.<!--Delete this line at January release-->
 1. 그룹화가 적용되면 그룹화 옵션을 다시 열어 한 번에 모든 그룹화를 축소하거나 확장하고, 그룹화를 다른 필드로 그룹화하거나, 모든 그룹화를 지울 수 있습니다.
 
-   ![고급 목록의 그룹화](assets/glist-group-by-due-date-priorities.png)
+   ![고급 목록의 그룹화](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    목록에 그룹화를 적용하면 **그룹화** 단추에 표시기가 나타납니다.
 
    ![그룹화 적용 표시기](assets/glist-grouping-applied-indicator.png)
+
+   <span class="preview">목록의 모든 그룹화를 축소하거나 확장하려면 첫 번째 열 제목 옆에 있는 화살표를 클릭합니다.</span>
+
+   <span class="preview">![모든 그룹화 축소](assets/collapse-expand-all-groupings.png)</span>
 
 ### 향상된 목록에서 정렬
 

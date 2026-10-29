@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
+source-git-commit: 735544e2ce8702d03532a979ea8e31a7a0296d73
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '545'
 ht-degree: 3%
 ---
 # 변경 내역 보기 및 관리
@@ -30,6 +30,7 @@ ht-degree: 3%
 * 프로젝트 설명 편집 또는 사용자의 레이아웃 템플릿 변경과 같은 필드 수준 업데이트
 * 프로젝트 상태 업데이트 또는 사용자 정의 양식을 작업에 첨부하는 등의 오브젝트 업데이트
 * 참가자 및 의사 결정을 포함한 통합 검토 및 승인 워크플로우 활동
+* 대시보드 또는 보고서를 생성, 업데이트 또는 삭제한 사람, 업데이트 시기 및 변경 사항 등의 캔버스 대시보드 활동
 
 추적할 개체 및 필드를 정의하는 방법에 대한 자세한 내용은 [변경 내역에서 추적할 필드 구성](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)을 참조하십시오.
 

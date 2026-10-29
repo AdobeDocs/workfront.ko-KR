@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '2673'
-ht-degree: 0%
+source-wordcount: '2622'
+ht-degree: 1%
 ---
 # 문서 승인 워크플로 만들기
 
@@ -106,13 +106,9 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
    <td>드롭다운 메뉴에서 템플릿을 선택합니다. 메뉴에는 특별히 작성했거나 나와 공유된 템플릿, 또는 조직의 모든 사람과 공유된 템플릿만 나열됩니다. 시스템 관리자는 템플릿을 만들거나 공유한 사용자에 관계없이 여기에서 계정의 모든 템플릿을 볼 수 있습니다. 템플릿에 하나의 경로와 스테이지가 있는 경우 기본 모드에서 적용됩니다. 템플릿에 둘 이상의 스테이지 또는 경로가 있는 경우 대화 상자가 자동으로 고급 모드로 전환되고 기본 모드에서 입력한 모든 입력은 템플릿의 콘텐츠로 대체됩니다.</td>
    </tr>
    <tr>
-   <td><strong>이름 또는 이메일 추가</strong></td>
-   <td>승인자 또는 검토자로 추가할 사용자 또는 팀 이름을 입력하십시오. 검토자만 있는 경우 알림을 받고 검토를 완료할 수 있는 옵션이 있지만 결정이 필요하거나 수행되지 않습니다.</td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">미리 보기에 사람 또는 팀 추가</span></strong></td>
-   <td><p><span class="preview">사용자 이름, 팀 또는 이메일 주소를 입력하세요. 팀은 기본적으로 단일 승인자 또는 검토로 추가되지만 각 팀원을 개별 참가자로 추가하도록 선택할 수 있습니다.</span></p>
-   <p><span class="preview">참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다.</span></p></td>
+   <td><strong>사용자 또는 팀 추가</strong></td>
+   <td><p>사용자 이름, 팀 또는 이메일 주소를 입력하세요. 팀은 기본적으로 단일 승인자 또는 검토로 추가되지만 각 팀원을 개별 참가자로 추가하도록 선택할 수 있습니다.</p>
+   <p>참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다.</p></td>
    </tr>
    <tr>
    <td><strong>필요한 결정은 단 하나입니다(선택 사항).</strong></td>
@@ -176,7 +172,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>단계 이름은 기본적으로 <em>단계 1</em>, <em>단계 2</em> 등으로 지정됩니다. <em>초기 검토</em> 또는 <em>최종 승인</em>과 같이 보다 설명적인 단계로 단계 이름을 바꾸십시오.</td>
    </tr>
    <tr>
-   <td><strong>미리 보기에 사람 또는 팀 추가</strong></td>
+   <td><strong>사용자 또는 팀 추가</strong></td>
    <td><p>사용자 이름, 팀 또는 이메일 주소를 입력하세요. 팀은 기본적으로 단일 승인자 또는 검토로 추가되지만 각 팀원을 개별 참가자로 추가하도록 선택할 수 있습니다.</p>
    <p>참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다. 또한 참가자는 동일한 에셋에서 한 번에 하나의 진행 단계에만 할당할 수 있습니다.</p></td>
    </tr>
@@ -200,12 +196,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. (선택 사항) 경로를 제거하려면 경로 레이블을 마우스로 가리키고 휴지통 아이콘을 클릭합니다. **경로 1**&#x200B;을(를) 제거할 수 없으며 경로의 순서를 변경할 수 없습니다. 경로 내의 스테이지가 잠겨 있지 않거나 완료된 경우에만 다른 경로를 제거할 수 있습니다.
 
-   ![병렬 경로가 있는 고급 모드](assets/request-approval-parallel-paths.jpeg)
-
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+   ![병렬 경로가 있는 고급 모드](assets/parallel-path-v2.png)
 
 1. (선택 사항) 모든 경로와 단계를 지우고 다시 시작하려면 오른쪽 상단의 **재설정**&#x200B;을 클릭합니다.
 
@@ -238,7 +229,7 @@ preview screen
    <td>템플릿 필드는 기본적으로 축소됩니다. 필드를 클릭하여 확장한 다음 드롭다운 메뉴에서 템플릿을 선택합니다. 메뉴에는 특별히 작성했거나 나와 공유된 템플릿, 또는 조직의 모든 사람과 공유된 템플릿만 나열됩니다. 시스템 관리자는 템플릿을 만들거나 공유한 사용자에 관계없이 여기에서 계정의 모든 템플릿을 볼 수 있습니다. 템플릿에 하나의 경로와 스테이지가 있는 경우 기본 모드에서 적용됩니다. 템플릿에 둘 이상의 스테이지 또는 경로가 있는 경우 대화 상자가 자동으로 고급 모드로 전환되고 기본 모드에서 입력한 모든 입력은 템플릿의 콘텐츠로 대체됩니다.</td>
    </tr>
    <tr>
-   <td><strong>미리 보기에 사람 또는 팀 추가</strong></td>
+   <td><strong>사용자 또는 팀 추가</strong></td>
    <td><p>사용자 이름, 팀 또는 전자 메일 주소를 입력한 다음 <strong>승인자</strong> 또는 <strong>검토자</strong>인지 선택하세요. Workfront은 팀의 각 활성 멤버를 개별적으로 추가합니다.</p>
    <p>참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다.</p></td>
    </tr>
@@ -258,11 +249,10 @@ preview screen
 
 1. **승인 요청**&#x200B;을 클릭합니다.
 
-   ![기본 모드에서 승인 요청](assets/request-approval-basic.jpeg)
+   ![기본 모드에서 승인 요청](assets/request-approval-basic-v2.png)
 
-<!--
-preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
--->
+
+
 
 
 
@@ -310,7 +300,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>단계 이름은 기본적으로 <em>단계 1</em>, <em>단계 2</em> 등으로 지정됩니다. <em>초기 검토</em> 또는 <em>최종 승인</em>과 같이 보다 설명적인 단계로 단계 이름을 바꾸십시오.</td>
    </tr>
    <tr>
-   <td><strong>미리 보기에 사람 또는 팀 추가</strong></td>
+   <td><strong>사용자 또는 팀 추가</strong></td>
    <td><p>사용자 이름, 팀 또는 전자 메일 주소를 입력한 다음 <strong>승인자</strong> 또는 <strong>검토자</strong>인지 선택하세요. Workfront은 팀의 각 활성 멤버를 개별적으로 추가합니다.</p>
    <p>참고: 사용자가 이미 추가되었거나 사용자가 추가하는 둘 이상의 팀에 속해 있는 경우 한 번 포함됩니다. 또한 참가자는 동일한 에셋에서 한 번에 하나의 진행 단계에만 할당할 수 있습니다.</p></td>
    </tr>
@@ -335,12 +325,11 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. (선택 사항) 경로를 제거하려면 경로 레이블을 마우스로 가리키고 휴지통 아이콘을 클릭합니다. **경로 1**&#x200B;을(를) 제거할 수 없으며 경로의 순서를 변경할 수 없습니다. 경로 내의 스테이지가 잠겨 있지 않거나 완료된 경우에만 다른 경로를 제거할 수 있습니다.
 
-   ![병렬 경로가 있는 고급 모드](assets/request-approval-advanced.jpeg)
+   ![병렬 경로가 있는 고급 모드](assets/parallel-path-v2.png)
 
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+
+
+
 
 1. (선택 사항) 모든 경로와 단계를 지우고 다시 시작하려면 오른쪽 상단의 **재설정**&#x200B;을 클릭합니다.
 

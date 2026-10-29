@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2792'
 ht-degree: 1%
 ---
 # 양식에 계산된 필드 추가
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -184,7 +186,11 @@ ht-degree: 1%
       <td> <p>필드의 결과를 저장 및 표시할 형식입니다.</p> <p>필드가 수학 계산에 사용되는 경우 항상 <strong>숫자</strong> 또는 <strong>통화</strong> 형식을 사용하십시오. <strong>숫자</strong> 또는 <strong>통화</strong>를 선택하면 0으로 시작하는 숫자가 자동으로 잘립니다.</p> 
       <p><b>중요</b>: 형식을 선택하기 전에 새 필드에 대한 올바른 형식을 고려하십시오. 사용자 정의 양식을 저장한 후에는 형식 필드를 편집할 수 없습니다. 그리고 잘못된 포맷을 선택하면 보고서와 목록 그룹화의 향후 계산 및 집계 값에 영향을 줄 수 있습니다.</p>
       <p><strong>참고</strong>: <strong>통화</strong> 형식의 계산 필드에는 따옴표를 사용할 수 없습니다. (예를 들어, "800.00"이 아닌 800.00을 사용합니다.) 따옴표를 사용하면 통화 유형의 언어 서식과 관련된 뉘앙스로 인해 예기치 않은 결과가 발생할 수 있습니다.</p></td>
-     </tr> 
+     </tr>
+     <tr>
+      <td>즐겨찾기로 표시</td>
+      <td><span class="preview">목록 및 보고서에서 필터, 보기 및 그룹화를 작성할 때, 그리고 양식 디자이너의 필드 라이브러리 맨 위에 필드가 권장 필드로 표시되도록 하려면 이 옵션을 선택하십시오.</span></td>
+     </tr>
      <tr>
       <td>활성</td>
       <td><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></td>

@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '908'
 ht-degree: 4%
 ---
 # Adobe Workfront에서 보기 만들기 또는 편집
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -94,6 +96,11 @@ ht-degree: 4%
 
    * 열 제목을 클릭한 다음 새 필드를 선택하여 열의 값을 수정합니다.
    * **열 추가**&#x200B;를 클릭하여 열을 추가하고 추가할 열의 이름을 입력한 다음 드롭다운 목록에 나타나면 해당 열을 클릭합니다.
+
+   >[!TIP]
+   >
+   ><span class="preview">즐겨찾기로 표시된 사용자 정의 필드가 검색 결과 상단의 **추천** 섹션에 나타납니다.</span>
+
    * 열 제목을 새 위치로 끌어 열 표시 순서를 조정합니다.
 
    * **열 설정** 영역에서 **이 열을 다음 기준으로 요약**&#x200B;을 클릭하고 열에 데이터를 표시할 방법을 선택하십시오. 이 옵션은 다음 열 유형에 사용할 수 있습니다.

@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2420'
 ht-degree: 2%
 ---
 # Adobe Workfront에서 필터 만들기 또는 편집
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -250,6 +252,10 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 개체 이해
 
 1. 필드 드롭다운 메뉴를 클릭하여 최근에 사용한 필드와 필터링 기준으로 제안된 필드 목록을 확인합니다. 제안된 필드는 현재 필터링 중인 목록에 표시됩니다.
 
+   >[!TIP]
+   >
+   ><span class="preview">즐겨찾기로 표시된 사용자 정의 필드가 검색 결과 상단의 **추천** 섹션에 나타납니다.</span>
+
    **필드 찾아보기**&#x200B;를 선택하여 필터링할 수 있는 모든 필드 목록을 볼 수도 있습니다. 고급 검색의 필드는 객체 범주별로 그룹화됩니다.
 
    ![필터링 기준 필드 찾기](assets/new-filter-search-for-field.png)
@@ -390,6 +396,10 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 개체 이해
    * **다른 필터 규칙 추가**&#x200B;를 클릭하여 필터 규칙을 추가하고 **필드 이름 입력 시작** 상자에서 규칙을 추가할 옵션의 이름을 입력한 다음 드롭다운 목록에 나타나면 클릭합니다.
 
      필터 개체와 연결된 필드가 **필드 이름 입력 시작** 상자에 나열됩니다.
+
+     >[!TIP]
+     >
+     ><span class="preview">즐겨찾기로 표시된 사용자 정의 필드가 검색 결과 상단의 **추천** 섹션에 나타납니다.</span>
 
    * 필터 규칙을 추가할 때 **AND** 또는 **OR**&#x200B;을(를) 클릭합니다.\
      필터 규칙을 추가할 때 필터 수정자를 사용하여 필터의 조건을 설정합니다. 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)를 참조하십시오.

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 9faae2fb12953fb12f2c86dacbab61c18a11f94a
+source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
 workflow-type: tm+mt
-source-wordcount: '14736'
+source-wordcount: '14757'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -19,8 +19,12 @@ ht-degree: 2%
     * [Adobe Workfront 분기 릴리스 준비](product-announcements/product-releases/release-readiness.md)
     * 2027년 1분기 릴리스 {#release-27-q1}
       * [2027년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [2027년 1분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md)
       * [2027년 1분기 AI 개선 사항](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md)
+      * [2027년 1분기 문서 개선 사항](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md)
+      * {hide-from-toc}[2027년 1분기 Financial Management 개선 사항](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md)
       * [2027년 1분기 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
+      * [2027년 1분기 기타 개선 사항](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md)
     * 2026년 4분기 릴리스 {#release-26-q4}
       * [2026년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
       * [2026년 4분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
