@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '4353'
+source-wordcount: '4357'
 ht-degree: 2%
 ---
 # 표 보기 관리
@@ -395,7 +395,8 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 테이블 뷰의 행에는 선택한 레코드 유형의 개별 레코드가 표시됩니다. 행을 추가하는 것은 레코드를 만드는 것과 같습니다.
 
-레코드 유형에 대해 최대 50,000개의 레코드(또는 행)를 가질 수 있습니다. <span class="preview">기본적으로 500개의 행만 표시됩니다. 페이지를 스크롤할 때 더 많은 로드가 로드됩니다.</span>
+레코드 유형에 대해 최대 50,000개의 레코드(또는 행)를 가질 수 있습니다. <span class="preview">기본적으로 500개의 행만 표시됩니다. 페이지를 스크롤할 때 추가 로드됩니다.</span>
+<span class="preview">빠른 검색 상자 왼쪽의 테이블 오른쪽 위 모서리에 표시되는 총 레코드 수입니다.</span>
 
 1. 레코드 유형 페이지로 이동하여 테이블 보기를 선택하거나 **+ 보기**&#x200B;를 클릭하여 새 보기를 추가한 다음 **테이블**&#x200B;을 선택합니다.
 
@@ -411,7 +412,6 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >
    >![테이블 보기의 새 주석 아이콘](assets/new-comment-icon-in-table-view-highlighted.png)
 
-   <span class="preview">빠른 검색 상자 왼쪽의 테이블 오른쪽 위 모서리에 표시되는 총 레코드 수입니다.</span>
 
 1. (선택 사항) 하나 이상의 레코드 또는 행을 선택한 다음 **handle** 아이콘 ![Handle 아이콘](assets/handle-icon.png)을(를) 레코드의 왼쪽으로 끌어다 놓아 행 순서를 변경합니다.
 
@@ -647,7 +647,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 * 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
 * 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —지금 이 항목을 확인하고 &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —지금 이 항목을 확인하고 ******************—>
 * 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
 * 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
