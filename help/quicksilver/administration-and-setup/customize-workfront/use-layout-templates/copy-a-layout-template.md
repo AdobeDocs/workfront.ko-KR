@@ -23,12 +23,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '337'
 ht-degree: 6%
 ---
 # 레이아웃 템플릿 복사
+
+{{preview-fast-release-general}}
 
 <!--Audited: 09/2024-->
 
@@ -74,10 +76,12 @@ ht-degree: 6%
 
 1. 왼쪽 패널에서 **인터페이스** > **레이아웃 템플릿**&#x200B;을 클릭합니다.
 
-1. 수정할 레이아웃 템플릿의 이름을 클릭합니다.
-1. **복사** 아이콘 ![복사 아이콘](assets/copy-icon.png)을 클릭합니다.
+1. 수정할 레이아웃 템플릿 옆의 확인란을 선택합니다.
+1. **복사** 아이콘 ![복사 아이콘](assets/copy-icon.png), <span class="preview">을 클릭하거나 화면 하단의 작업 표시줄에서 **복사**&#x200B;를 클릭합니다.</span>
 
    기존 레이아웃 템플릿의 이름, 설명 및 사용자 할당을 제외한 모든 설정이 새 템플릿에 복사됩니다.
+
+   작업 표시줄 및 고급 목록의 다른 기능에 대한 자세한 내용은 [고급 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요.
 
 1. 표시되는 화면에서 새 **레이아웃 템플릿 이름**&#x200B;을(를) 입력하고 **설명**&#x200B;을(를) 입력하십시오.
 
@@ -92,3 +96,6 @@ ht-degree: 6%
    * [레이아웃 템플릿을 사용하여 랜딩 페이지 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [레이아웃 템플릿을 사용하여 사용자 인터페이스 용어 맞춤화](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+
+1. Click **Create**.
+

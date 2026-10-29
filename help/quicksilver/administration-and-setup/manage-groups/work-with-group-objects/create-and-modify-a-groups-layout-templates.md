@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 198d06b55407ebff9f5454ce75eb776601a51dbf
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '377'
 ht-degree: 5%
 ---
 # 그룹의 레이아웃 템플릿 만들기 및 수정
@@ -88,9 +88,12 @@ ht-degree: 5%
 
      레이아웃 템플릿을 복사하여 새 템플릿을 만드는 방법에 대한 자세한 내용은 [레이아웃 템플릿 복사](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)를 참조하십시오.
 
+     작업 표시줄 및 고급 목록의 다른 기능에 대한 자세한 내용은 [고급 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요.
+
    * 기존 그룹 레이아웃 템플릿을 편집하려면 해당 템플릿을 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
      레이아웃 템플릿 편집에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
    * 하나 이상의 레이아웃 템플릿을 삭제하려면 해당 템플릿을 선택한 다음 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다.
    * 레이아웃 템플릿 목록을 내보내려면 **내보내기** 아이콘 ![내보내기 아이콘](assets/export-icon.png)을 클릭하세요.
+

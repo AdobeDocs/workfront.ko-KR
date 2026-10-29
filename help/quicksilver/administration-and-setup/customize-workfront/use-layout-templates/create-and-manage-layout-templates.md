@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '559'
 ht-degree: 5%
 ---
 # 레이아웃 템플릿 만들기 및 관리
+
+{{preview-fast-release-general}}
 
 <!--Audited: 12/2023-->
 
@@ -100,9 +102,12 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
 1. **새 레이아웃 템플릿**&#x200B;을 클릭합니다.
 
-   또는
+   레이아웃 템플릿을 편집하려면 다음을 수행하십시오.
 
-   수정할 레이아웃 템플릿의 이름을 클릭합니다.
+   * 수정할 레이아웃 템플릿의 이름을 클릭하거나
+   * <span class="preview">목록의 레이아웃 템플릿 옆에 있는 확인란을 선택하고 화면 하단의 작업 표시줄에서 **편집**&#x200B;을 클릭합니다.</span>
+
+     작업 표시줄 및 고급 목록의 다른 기능에 대한 자세한 내용은 [고급 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요.
 
 1. 새 레이아웃 템플릿을 만드는 경우 **레이아웃 템플릿 이름**&#x200B;을(를) 입력하고 **설명**&#x200B;을(를) 입력하십시오.
 
