@@ -16,16 +16,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1230'
 ht-degree: 1%
 ---
 # 작업 에이전트 사용
 
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경에서만 사용할 수 있습니다.</span>
+
 작업 에이전트는 Workfront 작업, 문제 및 요청에 직접 할당할 수 있는 AI 공동 작업자입니다. 다른 AI 공동 작업자와 마찬가지로 작업 에이전트도 설정 영역에서 구성되어 사용자와 마찬가지로 작업 항목에 할당됩니다.
 
-작업 에이전트는 Copilot Studio, Claude, OpenAI 또는 IBM에서 구성한 에이전트에 연결합니다.
+<span class="preview">Adobe CX Coworker에서 제공하는 즉시 사용 가능한 Adobe 기본 작업 에이전트,</span> 또는 외부 플랫폼에 연결된 작업 에이전트를 사용할 수 있습니다. 사용 가능한 기능 및 설정 요구 사항은 에이전트의 출처에 따라 다릅니다.
+
+<!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
 >[!IMPORTANT]
 >
@@ -64,7 +68,9 @@ Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지�
 
 ## 전제 조건
 
-* Workfront에서 작업 에이전트로 사용하려면 먼저 Copilot, Claude, OpenAI 또는 IBM에서 에이전트를 구성해야 합니다.
+* Workfront에서 작업 에이전트를 사용하려면 먼저 관리자가 구성해야 합니다.
+* <span class="preview">Adobe 기본 작업 에이전트의 경우 조직에서 Adobe CX Coworker을 사용하도록 설정해야 합니다.</span>
+* 외부 플랫폼에 연결된 작업 에이전트의 경우 해당 플랫폼에서도 에이전트를 구성해야 합니다.
 
 ## 작업 에이전트 개요
 
@@ -116,21 +122,22 @@ Workfront에서 작업 에이전트가 구성되는 방법에 따라 작업을 �
 
 작업 에이전트는 작업 또는 문제에 할당되면 다음 상황 중 하나가 충족되면 작업을 시작합니다.
 
-<!--update wording to include issues when this goes to production-->
-
 * 작업 에이전트가 시작할 준비가 된 작업에 할당됩니다. (예를 들어 작업에 전임 작업이 있는 경우 해당 전임 작업은 완료됩니다.)
 * 작업 에이전트와 사용자가 작업에 할당되며, 작업 에이전트가 먼저 할당됩니다.
 * 작업 에이전트가 이미 할당된 작업은 시작할 준비가 되었으며 작업 에이전트는 유일한 또는 기본 할당자입니다. (예를 들어 작업에 전임 작업이 있는 경우 해당 전임 작업은 완료됩니다.)
 * 작업 에이전트와 사용자가 이미 할당된 작업이 시작할 준비가 되었으며 작업 에이전트가 먼저 할당되었거나 기본 할당자입니다. (예를 들어 작업에 전임 작업이 있는 경우 해당 전임 작업은 완료됩니다.)
 * 사용자 및 작업 에이전트가 작업에 할당되고 사용자가 제거됩니다.
 * 사용자 및 작업 에이전트가 작업에 할당되고 작업 에이전트가 작업의 기본 피할당자로 설정됩니다.
+* <span class="preview">Workfront 기본 작업 에이전트가 작업에 @mentioned.
 
 다음과 같은 경우에는 작업 에이전트가 작업 작업을 시작하지 않습니다.
 
 * 작업 에이전트는 이미 사용자가 할당된 작업에 할당됩니다.
-* 작업 에이전트가 작업에 @mentioned.
+* <span class="preview">시작 트리거를 지원하지 않는 공급자의 작업에 작업 에이전트가 @mentioned.</span>
 * 작업 에이전트는 이미 작업 에이전트가 할당된 작업에 할당됩니다. 이 경우 할당된 첫 번째 작업 에이전트는 이미 작업을 시작했을 것이며 두 번째 작업 에이전트는 아무 작업도 하지 않습니다.
 * 작업 에이전트가 시작할 준비가 되지 않은 작업에 할당되었습니다. (예를 들어 작업에 전임 작업이 있는 경우 해당 전임 작업은 아직 완료되지 않았습니다.)
+
+<!-- BECKY CHECK ME: Why this changed: we updated the start-trigger wording to reflect Native vs external-agent differences; product still needs to confirm whether @mentions, follow-up replies, readiness rules, and primary-assignee conditions apply to Adobe Native the same way they do for external agents. -->
 
 ## 작업, 문제 또는 요청에 작업 에이전트 할당
 

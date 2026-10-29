@@ -17,12 +17,14 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
+source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1564'
 ht-degree: 2%
 ---
 # AI 공동 작업자 구성
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
 AI 공동 작업자는 프로젝트, 작업 및 문제에 AI 에이전트를 온보딩하는 방법입니다. AI 공동 작업자를 구성한 다음 사용자와 마찬가지로 할당할 수 있습니다.
 
@@ -34,9 +36,13 @@ AI 공동 작업자는 프로젝트, 작업 및 문제에 AI 에이전트를 온
 
   자세한 내용은 [Workfront AI 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)을 참조하세요.
 
-* 작업 에이전트: Claude, OpenAI 또는 Copilot과 같은 표준 AI 플랫폼을 사용하여 공동 작업자를 만든 다음 작업 또는 문제에 공동 작업자를 할당하여 작업 항목을 완료합니다.
+* 작업 에이전트: Adobe CX Coworker에서 제공하는 <span class="preview">공동 작업자 </span>을(를) 만들거나 지원되는 외부 플랫폼에서 에이전트를 연결한 다음 작업 또는 문제에 공동 작업자를 할당하여 작업 항목을 완료합니다.
 
   자세한 내용은 [작업 에이전트 사용](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)을 참조하세요.
+
+  Adobe CX Enterprise Coworker에 대한 자세한 내용은 [Workfront의 CX Enterprise Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
+
+<!-- BECKY CHECK ME: Why this changed: we updated the Work Agent description to include Adobe Native and need product confirmation on any additional package, license, agreement, credit, or administrator restrictions before publishing. -->
 
 AI 공동 작업자가 사용한 라이선스는 청구되지 않습니다. 조직에 Workfront 라이선스가 200개이고 AI 공동 작업자를 만드는 경우 201개의 라이선스가 사용 중이지만 200개만 청구됩니다.
 
@@ -93,11 +99,16 @@ AI 공동 작업자가 사용한 라이선스는 청구되지 않습니다. 조�
 
 ### 작업 에이전트용
 
-클라우드, Copilot Studio, OpenAI 또는 IBM에서 에이전트를 구성해야 작업 에이전트로 사용할 수 있습니다.
+<span class="preview">필수 구성 요소는 에이전트의 원본 </span>에 따라 다릅니다.
+
+* <span class="preview">Adobe 기본: 조직에서 Adobe CX Coworker을 사용하도록 설정해야 합니다. 외부 플랫폼에서 에이전트를 구성하거나 외부 플랫폼 자격 증명을 제공할 필요가 없습니다.</span>
+* 외부 플랫폼 또는 사용자 지정 에이전트: Workfront에서 작업 에이전트를 만들기 전에 연결할 플랫폼에서 에이전트를 구성합니다.
 
 >[!NOTE]
 >
 >모든 에이전트 공급자와 연결하고자 하므로 사용 중인 공급자가 작업 에이전트와 현재 호환되지 않는 경우 계정 팀에 도움을 요청하십시오.
+
+<!-- BECKY CHECK ME: Why this changed: we separated Native and external-agent prerequisites to match the draft, and we still need product confirmation on the final setup and entitlement requirements before removing the qualifiers. -->
 
 ## 새 AI 검토자 만들기
 
@@ -119,11 +130,15 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
 
 ## 작업 에이전트 구성
 
+<span class="preview">다음 설치 지침은 Adobe 기본 지원과 아직 미리 보기 중인 원본 기반 설치 모델을 반영합니다.</span>
+
 작업 에이전트는 Workfront의 작업 또는 문제에 할당할 수 있는 에이전트입니다. 이름, 액세스 수준 및 기타 세부 정보를 사용하여 작업 에이전트를 구성하고 사용자를 할당할 때처럼 작업에 할당합니다.
 
-작업 에이전트는 에이전트이므로 에이전트를 구성하는 위치에 작업 및 기능이 구성됩니다. 현재 Copilot Studio, Claude, OpenAI, IBM 등에서 작업 에이전트로 활용되는 에이전트를 만들 수 있다.
+작업 에이전트는 에이전트이므로 에이전트를 구성하는 위치에 작업 및 기능이 구성됩니다. 작업 에이전트는 Coworker,</span>을 사용하는 <span class="preview">기본 작업 에이전트이거나 Copilot Studio, Claude, OpenAI 및 IBM과 같은 지원되는 외부 플랫폼에서 사용할 수 있습니다.
 
-작업 에이전트는 작업 또는 문제에 할당할 수 있습니다.
+>작업 에이전트는 작업 또는 문제에 할당할 수 있습니다.
+
+<!-- BECKY CHECK ME: Why this changed: we broadened the origin language to include Adobe Native and want product confirmation on whether the release should describe it as a ready-to-use origin and whether the external-agent setup language still matches production. -->
 
 작업 에이전트에서 사용한 라이선스는 청구되지 않습니다. 조직에 200개의 Workfront 라이센스가 있고 작업 에이전트를 만드는 경우 201개의 라이센스가 사용 중이지만 200개만 청구됩니다.
 
@@ -148,7 +163,8 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
    >
    >그룹 관리자인 경우 이 필드에는 관리자인 그룹만 표시됩니다. 그룹 관리자는 그룹을 하나 이상 선택해야 합니다.
 
-1. **에이전트의 원본 선택** 영역에서 Copilot과 같은 일반 플랫폼에서 만든 에이전트를 연결할지 또는 사용자 지정 에이전트를 사용할지 여부를 선택합니다.
+1. **에이전트의 원본 선택** 영역에서 <span class="preview">Adobe 네이티브</span>를 사용할지, Copilot과 같은 공통 플랫폼에서 만든 에이전트를 연결할지 또는 사용자 지정 에이전트를 사용할지 여부를 선택합니다.
+1. <span class="preview">(조건부) Adobe Native를 선택하는 경우 귀사에 Adobe CX Coworker이 활성화되어 있고 즉시 사용할 수 있는 Adobe Native 에이전트를 사용할지 확인하십시오.</span>
 1. (조건부) 일반 플랫폼에서 에이전트를 사용하는 경우 에이전트 플랫폼에 대한 인증 세부 정보를 입력합니다.
 
    | 플랫폼 | 필수 인증 |
