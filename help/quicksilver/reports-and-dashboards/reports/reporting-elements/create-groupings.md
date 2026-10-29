@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 5%
+source-wordcount: '464'
+ht-degree: 4%
 ---
 # Adobe Workfront에서 그룹화 만들기
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -86,12 +88,17 @@ ht-degree: 5%
 
    ![새 그룹화 선택](assets/newgrouping-nwe-standard-350x304.png)
 
-1. **+ 새 그룹화**&#x200B;을(를) 클릭합니다.
+1. **+ 새 그룹화**을(를) 클릭합니다.
 그룹화 시작을 만들기 위한 인터페이스 빌더입니다.
 
 1. **그룹화 미리 보기** 영역에서 **그룹화 추가**&#x200B;를 클릭하여 보고서의 정보를 구성하는 방법을 정의합니다. 보고서에서 그룹화가 표시되는 모양에 대한 미리보기가 아래에 표시되어 있습니다.
 
 1. 보고서에서 정보를 구성하는 방법을 나타내는 필드 이름을 입력한 다음 드롭다운 목록에 나타나면 해당 필드 이름을 클릭합니다.
+
+   >[!TIP]
+   >
+   ><span class="preview">즐겨찾기로 표시된 사용자 정의 필드가 검색 결과 상단의 **추천** 섹션에 나타납니다.</span>
+
 1. (선택 사항 및 조건부) 업데이트된 목록에서 그룹화를 작성할 때 그룹화의 결과를 확장하지 않고 축소되게 표시하려면 **기본적으로 이 그룹화를 축소**&#x200B;를 선택합니다. 이 설정은 기본적으로 비활성화되며 그룹화 결과는 항상 확장된 목록에 표시됩니다.
 
    업데이트된 목록과 기존 목록에 대한 자세한 내용은 문서 [Adobe Workfront 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)에서 [업데이트된 목록과 기존 목록의 차이점](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 섹션을 참조하십시오.
