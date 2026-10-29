@@ -4,9 +4,9 @@ description: 2027년 1분기 문서 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '204'
 ht-degree: 0%
 ---
 
@@ -36,11 +36,19 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 
 ## 통합 검토 및 승인 이메일 알림 구성
 
+>[!IMPORTANT]
+>
+>이 기능은 미리보기 환경에서 일시적으로 사용할 수 없습니다.
+
+
+<!--
 >[!NOTE]
 >
->미리 보기: 2026년 10월 29일
->프로덕션 빠른 릴리스: 2026년 11월 12일
->모두를 위한 프로덕션: 2027년 1월 21일
+>Preview: October 29, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: January 21, 2027
+
+-->
 
 이제 통합 검토 및 승인 이메일 알림을 구성할 수 있습니다. Workfront은 항상 이러한 이메일을 전송했지만 지금까지 구성할 수 없었습니다. 이제 통합 승인으로 그룹화되고 기본적으로 활성 상태인 알림이 18개 있습니다. Workfront 관리자는 설정 내의 모든 사용자에 대해 이러한 기능을 활성화하거나 비활성화할 수 있으며, 사용자는 프로필에서 이러한 기능을 관리할 수 있습니다.
 
