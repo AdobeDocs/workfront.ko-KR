@@ -28,20 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '4882'
+source-wordcount: '5111'
 ht-degree: 1%
 ---
 # 타임라인 보기 관리
 
 <!--remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -195,9 +193,10 @@ Old:
 
    선택한 레코드 유형과 연관된 레코드는 타임라인에 막대로 표시되며 기본적으로 시작 날짜의 시간 순서대로 자동으로 정렬됩니다.
 
-   <!--
-    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
-    -->
+   <span class="preview">처음 1000개의 레코드가 기본적으로 표시됩니다. 페이지를 스크롤할 때 추가 레코드가 1000개 묶음으로 계속 표시됩니다.</span>
+
+   <span class="preview">빠른 검색 상자 왼쪽의 테이블 오른쪽 위 모서리에 표시되는 총 레코드 수입니다.</span>
+
    <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
@@ -255,10 +254,13 @@ Old:
 1. (선택 사항) 날짜가 같은 줄에 겹치지 않는 레코드를 표시하려면 **작게 보기로 전환**&#x200B;을 클릭합니다. <!--check to see if they updated the name of the setting here-->
 1. (조건부) 모드를 **작게**(으)로 변경한 경우 **표준 보기로 전환** 보기를 클릭하여 레코드를 별도의 줄로 표시합니다. **표준** 옵션이 기본값입니다.  <!--check to see if they updated the name of the setting here-->
 
-
 1. 키워드와 일치하는 레코드를 빠르게 찾으려면 다음을 수행하십시오.
 
-   1. **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 수가 표시되고 올바른 일치 항목이 있는 레코드가 강조 표시됩니다.
+   1. **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오.
+
+      검색 항목 옆에 올바른 일치 수가 표시되고 올바른 일치 항목이 있는 레코드가 강조 표시됩니다.
+
+      <span class="preview">검색 상자 왼쪽에 표시되는 총 레코드 수가 검색에서 찾은 레코드 수로 바뀝니다. </span>
 
       ![검색 상자 및 결과 타임라인 보기](assets/search-box-and-results-timeline-view.png)
 
@@ -266,19 +268,15 @@ Old:
 
       타임라인 보기에 표시되지 않는 필드와 연결된 키워드는 사용할 수 없습니다.
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
-      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
+      >[!TIP]
+      >
+      ><span class="preview">빠른 검색은 현재 페이지에 표시된 레코드뿐만 아니라 모든 레코드에 대해 작동합니다. 1000개의 레코드가 기본적으로 표시됩니다. 빠른 검색에서 더 많은 레코드를 표시하려면 **추가 로드**&#x200B;를 클릭합니다. </span>
 
    1. 키보드에서 Enter 키를 눌러 다음 찾은 필드로 이동합니다.
    1. (선택 사항) 일치 항목이 두 개 이상 있는 경우 검색 키워드 오른쪽에 있는 위쪽 및 아래쪽 화살표를 클릭하여 테이블에서 모든 일치 항목을 찾습니다.
    1. 검색 키워드를 지우려면 검색 상자에서 **x** 아이콘을 클릭합니다.
 
-   1. (선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면으로 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 사용하여 전체 화면을 종료합니다.
+1. (선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면으로 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 사용하여 전체 화면을 종료합니다.
 
 1. (선택 사항) 타임라인에 연결된 레코드를 표시하려면 **분류**&#x200B;를 클릭합니다.
 
@@ -523,11 +521,9 @@ Old:
    >한 그룹화에서 다른 그룹화로 레코드를 끌어다 놓으면 그룹화에서 선택한 필드가 이동된 레코드의 값을 자동으로 업데이트합니다.
 1. (선택 사항) **설정**&#x200B;을 클릭한 다음 **색상**&#x200B;을 클릭하여 색상 코드 그룹화합니다. 자세한 내용은 이 문서의 [타임라인 보기 설정 편집](#edit-the-timeline-view-settings) 섹션을 참조하십시오.
 
-<!--
-1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+1. <span class="preview">(선택 사항) **Swimlane** 또는 **Stacked** 배열에서 타임라인 보기에서 그룹화를 선택하고 다른 위치에 놓습니다.</span>
 
-    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
--->
+   <span class="preview">그룹화 순서가 변경되고 그룹화의 정렬이 **사용자 지정**(으)로 변경됩니다. 자세한 내용은 이 문서에서 [정렬 추가](#add-sort) 섹션을 참조하십시오.</span>
 
 ### 정렬 추가
 
@@ -557,11 +553,9 @@ Old:
 
    예를 들어 텍스트 필드의 정렬은 A -> Z 또는 Z -> A일 수 있습니다.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">타임라인 보기에 그룹화가 있고 그룹화의 순서를 수동으로 재배열한 경우 정렬 방향은 **사용자 지정**&#x200B;으로 표시됩니다. </span>
 
    정렬이 적용되는 방향은 선택한 필드의 형식에 따라 다릅니다.
 1. (선택 사항) **조건 추가**&#x200B;를 클릭하여 최대 10개의 조건을 추가합니다.

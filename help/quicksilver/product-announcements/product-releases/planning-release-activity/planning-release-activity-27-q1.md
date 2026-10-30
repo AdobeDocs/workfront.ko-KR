@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 949503fecba92a7b8536b4af0b9c684e7f9e3300
+source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1191'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2027년 1분기 릴리스 활동
@@ -65,13 +65,15 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >프로덕션 빠른 릴리스: 2026년 11월 12일
 >모두를 위한 프로덕션: 2027년 1월 21일
 
-이제 두 개의 연결된 글로벌 레코드 유형이 보조 작업 영역에 추가되면 작업 영역 간 연결을 해제하고 레코드를 로컬로 연결할 수 있습니다. 각 보조 작업 공간에는 두 레코드 유형에 대한 자체 레코드만 표시되며 서로 연결할 수 있습니다. 글로벌 작업 영역 및 다른 보조 작업 영역의 레코드가 더 이상 표시되지 않습니다.
+두 개의 연결된 글로벌 레코드 유형이 보조 작업 영역에 추가되면 작업 영역 간 연결을 해제하고 레코드를 로컬로 연결할 수 있습니다.
+
+각 보조 레코드 유형은 두 레코드 유형에 대한 자체 레코드만 표시하며 서로 연결할 수 있습니다. 글로벌 작업 영역 및 다른 보조 작업 영역의 레코드가 더 이상 표시되지 않습니다.
 
 향상된 기능을 사용하기 전에 연결된 글로벌 레코드 유형에 대해 작업 영역 간 연결이 꺼져 있으면 보조 작업 영역이 고유한 레코드를 서로 연결할 수 없습니다. 이 옵션을 켜면 사용자는 전역 작업 영역과 다른 모든 보조 작업 영역에서 레코드를 보고 연결할 수 있습니다.
 
 자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
-## 테이블 보기에서 총 레코드 수 보기
+## 테이블, 타임라인 및 목록 보기에서 총 레코드 수 보기
 
 >[!NOTE]
 >
@@ -79,7 +81,9 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >프로덕션 빠른 릴리스: 2026년 11월 12일
 >모두를 위한 프로덕션: 2027년 1월 21일
 
-이제 테이블 보기에 총 레코드 수가 표시되며, 필터를 적용하거나 보기를 검색하거나 변경하면 카운트가 자동으로 업데이트됩니다. 레코드 수는 항상 전체 필터링된 결과를 반영하며 권한을 준수합니다.
+이제 테이블, 타임라인 및 목록 보기에는 총 레코드 수가 표시되며, 필터를 적용하거나 보기를 검색하거나 변경하면 카운트가 자동으로 업데이트됩니다. 레코드 수는 항상 전체 필터링된 결과를 반영하며 권한을 준수합니다.
+
+레코드 수는 빠른 검색 상자 왼쪽, 테이블, 타임라인 또는 목록 보기의 오른쪽 상단 모서리에 표시됩니다.
 
 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
@@ -197,8 +201,6 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 ## 테이블 및 타임라인 보기에서 증분 데이터 로드를 통한 성능 향상
 
-<!-- NOTE FROM CSV: Must check with Lilit whether this will come to the timeline view in addition to the table (Lilit said yes; this was messaged before but pulled). The second bullet will change; check with Lilit first. -->
-
 >[!NOTE]
 >
 >미리 보기: 2026년 10월 29일
@@ -207,8 +209,10 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 많은 레코드에서 성능을 개선하기 위해 테이블 및 타임라인 보기를 다음과 같이 개선했습니다.
 
-* 이제 보기는 처음 500개의 레코드를 로드하며, 500개의 묶음으로 스크롤할 때 추가 레코드가 자동으로 로드됩니다.
-* 빠른 검색 및 그룹화는 보기에 현재 로드된 레코드에만 영향을 줍니다.
+* 이제 테이블 보기는 처음 500개의 레코드를 로드하며, 500개의 묶음으로 스크롤할 때 추가 레코드가 자동으로 로드됩니다.
+* 타임라인 보기는 비슷한 동작을 하지만 스크롤할 때 다음 1000개가 로드되면서 한 번에 1000개의 레코드가 로드됩니다.
+* 빠른 검색은 현재 보기에 표시되는 레코드뿐만 아니라 모든 레코드에 적용됩니다. 타임라인 보기와 테이블 보기 모두에서 스크롤하면 더 많은 레코드가 로드됩니다.
+* 타임라인 보기에서 빠른 검색을 적용할 때 발견된 항목이 1000개가 넘는 경우 타임라인 하단의 추가 로드 를 클릭하여 검색과 일치하는 더 많은 레코드를 표시할 수 있습니다.
 
 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md) 및 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
 

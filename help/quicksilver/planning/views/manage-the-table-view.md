@@ -28,20 +28,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4357'
 ht-degree: 2%
 ---
 # 표 보기 관리
 
 <!-- remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 
 {{planning-important-intro}}
@@ -195,15 +194,13 @@ Old:
 
 기본적으로 다음 항목이 표 뷰에 표시됩니다.
 
-* 선택한 레코드 종류에 대한 모든 필드 및 모든 레코드.
+* 프로덕션 환경에서 선택한 레코드 유형에 대한 모든 필드와 모든 레코드.
 
-<!--
 <div class="preview">
 
-* 500 records upload by default. Additional records display as you scroll the view. 
+* 미리보기 환경에서는 기본적으로 500개의 레코드가 표시됩니다. 페이지를 스크롤하면 추가 레코드가 표시됩니다.
 
 </div>
--->
 
 테이블 뷰를 관리하려면 다음을 수행합니다.
 
@@ -244,6 +241,10 @@ Old:
 1. [필드 만들기](/help/quicksilver/planning/fields/create-fields.md) 문서에 설명된 대로 필드(또는 열)를 추가하기 시작합니다.
 
    추가하는 열은 레코드 유형에 액세스하고 레코드 페이지에서 새 필드로 추가되는 모든 사용자에게 표시됩니다.
+
+   프로덕션 환경에서는 새로 추가된 필드가 추가되고 모든 보기에서 볼 수 있습니다.
+
+   <span class="preview">미리 보기 환경에서 새로 추가된 필드는 추가하려는 보기를 제외한 모든 보기에서 숨겨진 필드로 추가됩니다. </span>
 
 1. (선택 사항) 도구 모음에서 **필드** 아이콘 ![필드 아이콘](assets/fields-icon.png)을 클릭하고 필드를 검색한 다음 필드 이름의 오른쪽에 있는 토글을 선택 취소하여 필드를 숨깁니다.
 
@@ -301,11 +302,11 @@ Old:
    >기본적으로 숨겨진 필드는 레코드의 **세부 정보** 미리 보기 상자에 표시되지 않습니다. 모든 필드가 레코드의 세부 정보 페이지에 표시됩니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
 
 
-1. **필드** 아이콘을 클릭하고 테이블의 열에 표시할 필드와 관련된 토글을 선택합니다. 기본적으로 모든 필드가 표시됩니다.
+1. **필드** 아이콘을 클릭하고 표의 열에 표시할 필드와 관련된 토글을 켭니다. 기본적으로 모든 필드가 표시됩니다.
 
 1. 키워드와 일치하는 레코드를 빠르게 찾으려면 다음을 수행하십시오.
 
-   1. **검색** 상자에서 ![검색 아이콘](assets/search-icon.png)에 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 항목 수가 표시되고 올바른 일치 항목이 있는 필드가 강조 표시됩니다.
+   1. **검색** 상자에서 ![검색 아이콘](assets/search-icon.png)에 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 항목 수가 표시되고 올바른 일치 항목이 있는 필드가 강조 표시됩니다. <span class="preview">검색 상자 왼쪽에 표시되는 총 레코드 수가 검색에서 찾은 레코드 수로 바뀝니다. 검색과 일치하는 항목만 표시하도록 테이블이 필터링됩니다. </span>
 
       ![테이블 보기에서 결과가 파란색으로 표시된 검색 상자](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -313,12 +314,10 @@ Old:
 
       테이블 보기에서 숨겨진 필드와 연결된 키워드는 사용할 수 없습니다.
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
+      >[!TIP]
+      >
+      ><span class="preview">빠른 검색은 현재 보기에 표시되는 레코드뿐만 아니라 모든 레코드에 대해 작동합니다. 스크롤하면 더 많은 레코드가 로드됩니다. </span>
+
 
    1. 키보드에서 **Enter**&#x200B;를 눌러 다음 찾은 필드로 이동합니다.
 
@@ -396,7 +395,8 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 테이블 뷰의 행에는 선택한 레코드 유형의 개별 레코드가 표시됩니다. 행을 추가하는 것은 레코드를 만드는 것과 같습니다.
 
-레코드 유형에 대해 최대 50,000개의 레코드(또는 행)를 가질 수 있습니다.
+레코드 유형에 대해 최대 50,000개의 레코드(또는 행)를 가질 수 있습니다. <span class="preview">기본적으로 500개의 행만 표시됩니다. 페이지를 스크롤할 때 추가 로드됩니다.</span>
+<span class="preview">빠른 검색 상자 왼쪽의 테이블 오른쪽 위 모서리에 표시되는 총 레코드 수입니다.</span>
 
 1. 레코드 유형 페이지로 이동하여 테이블 보기를 선택하거나 **+ 보기**&#x200B;를 클릭하여 새 보기를 추가한 다음 **테이블**&#x200B;을 선택합니다.
 
@@ -411,6 +411,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >레코드에 읽지 않은 댓글이 있으면 **새 댓글** 표시기가 레코드의 기본 필드의 오른쪽 상단에 표시됩니다.
    >
    >![테이블 보기의 새 주석 아이콘](assets/new-comment-icon-in-table-view-highlighted.png)
+
 
 1. (선택 사항) 하나 이상의 레코드 또는 행을 선택한 다음 **handle** 아이콘 ![Handle 아이콘](assets/handle-icon.png)을(를) 레코드의 왼쪽으로 끌어다 놓아 행 순서를 변경합니다.
 

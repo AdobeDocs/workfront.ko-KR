@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1300'
 ht-degree: 1%
 ---
 
@@ -29,11 +29,10 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 Adobe Workfront Planning 레코드 유형에 대한 비즈니스 규칙을 구성하여 해당 유형의 레코드에 대한 작업이 허용되거나 금지되기 전에 특정 필드가 필요함을 나타낼 수 있습니다.
 
@@ -101,18 +100,18 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 * 규칙은 기록 생성을 차단하지 않습니다. 사용자는 여전히 레코드를 만들 수 있지만 필수 필드가 비어 있거나 지정된 값이 포함되어 있지 않은지 확인해야 합니다.
 * 규칙은 레코드를 자동으로 편집하거나 삭제하지 않습니다. 변경은 사용자가 신중하고 트리거해야 합니다.
 * 규칙은 소급 적용되지 않습니다. 이전 레코드는 영향을 받지 않습니다. 규칙 검사는 다음에 누군가가 레코드를 편집하거나 삭제하려고 할 때만 실행됩니다.
-* &#x200B;<!--In the Production environment,--> 기본 또는 보조 작업 영역의 글로벌 레코드 유형에 비즈니스 규칙을 추가할 수 없습니다.
+* 프로덕션 환경에서는 기본 또는 보조 작업 영역의 글로벌 레코드 유형에 비즈니스 규칙을 추가할 수 없습니다.
 
-<!--
 <div class="preview">
-* In the Preview environment, you can add business rules to the following: 
 
-   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
-   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+* 미리보기 환경에서 비즈니스 규칙을 다음에 추가할 수 있습니다.
 
-* Business rules in read-only mode can be edited only from their original workspaces. 
+  * 기본 작업 영역의 글로벌 레코드 유형입니다. 글로벌 레코드 유형에 대해 생성된 규칙은 보조 작업 공간에서 읽기 전용 모드로 표시되며 모든 작업 공간에서 동일한 유형의 모든 레코드에 적용됩니다.
+  * 다른 작업 영역에서 가져온 보조 레코드 유형. 보조 레코드 유형에 대해 생성된 규칙은 글로벌 레코드 유형의 읽기 전용 모드로 표시되며 모든 작업 영역에서 동일한 유형의 모든 레코드에 적용됩니다.
+
+* 읽기 전용 모드의 비즈니스 규칙은 원래 작업 영역에서만 편집할 수 있습니다.
+
 </div>
--->
 
 * 다음을 제외한 모든 필드 유형을 참조하는 비즈니스 규칙에 대한 조건을 만들 수 있습니다.
   * 공식 필드

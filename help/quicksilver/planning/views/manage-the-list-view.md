@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '2017'
 ht-degree: 0%
 ---
 
@@ -34,11 +34,9 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기에 릴리스된 후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 매월 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -165,6 +163,11 @@ Removed - more direct steps below:
    * 레코드 세부 정보 영역의 프로젝트에 대해 연결된 레코드 페이지
    * 레코드 유형의 요청 양식 페이지
 
+   >[!TIP]
+   >
+   ><span class="preview">목록의 항목 수가 목록의 오른쪽 상단 모서리에 있는 빠른 검색 상자 왼쪽에 표시됩니다. 숫자는 목록에 적용된 필터가 표시된 항목 수를 반영합니다. 보기 권한이 없는 항목은 카운트되지 않습니다. </span>
+
+
 1. (조건부) 사용 가능한 경우 다음 중 하나를 수행하여 목록 보기를 수정합니다.
 
    1. 목록의 왼쪽 상단 모서리에서 드롭다운 보기 메뉴를 확장하여 다른 보기를 선택하거나 **새 보기**&#x200B;를 클릭하여 다른 보기를 만듭니다.
@@ -270,6 +273,8 @@ Removed - more direct steps below:
 1. (선택 사항) 목록의 오른쪽 위 모서리에 있는 검색 상자에 키워드를 추가하여 항목을 검색합니다.
 
    검색어와 일치하는 항목이 목록에서 강조 표시됩니다.
+
+   <span class="preview">검색 조건에 일치하는 항목만 표시하도록 목록이 필터링됩니다. </span>
 
 1. (선택 사항 및 조건부) 연결된 프로젝트 <!--change projects to items here when more items will display in the Glist--> 페이지에서 목록에 항목을 더 추가하고 선택한 레코드에 자동으로 연결하려면 다음 중 하나를 수행하십시오.
 

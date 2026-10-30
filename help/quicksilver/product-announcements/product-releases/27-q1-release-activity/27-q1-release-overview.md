@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
+source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1099'
 ht-degree: 3%
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 3%
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">통합 검토 및 승인 이메일 알림 구성</a></p>
                 <p>이제 18개의 통합 검토 및 승인 이메일 알림을 구성할 수 있으며 제목 줄이 약간 변경됩니다.</p>
             </td>
-            <td><p>2026년 10월 29일</p></td>
+            <td> <p>이 기능은 미리보기 환경에서 일시적으로 사용할 수 없습니다.</p></td>
             <td><p>2026년 11월 12일</p></td>
             <td><p>2027년 1월 21일</p></td>
         </tr>

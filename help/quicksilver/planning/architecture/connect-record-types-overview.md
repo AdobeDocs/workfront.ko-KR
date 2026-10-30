@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2583'
 ht-degree: 1%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
@@ -201,6 +201,22 @@ ht-degree: 1%
       >Workfront 개체의 날짜 필드 정보는 Workfront에 표시되는 방식에 관계없이 Workfront Planning에서 24시간 형식으로 표시됩니다.
       >
       >예를 들어 프로젝트의 계획된 시작 일자가 Workfront에서 오후 3시로 표시되는 경우 가져온 조회 필드에서는 Workfront Planning에서 15시로 표시됩니다.
+
+  <div class="preview">
+
+  * 조회 필드를 추가할 때 다음과 같은 제한 사항이 있습니다.
+
+    * 레코드 유형당 최대 40개의 조회 필드가 있을 수 있습니다.
+
+    * 레코드 유형당 최대 5개의 긴 텍스트 조회 필드가 있을 수 있습니다. 연결된 조회 필드는 원래 필드의 제한에 따라 계산됩니다.
+
+    * 단일 긴 텍스트 조회 셀 값에 최대 50,000자를 사용할 수 있습니다.
+
+      조회 값의 결합된 콘텐츠가 이를 초과하는 경우 제한에 도달할 때까지 값이 연결 순서로 표시됩니다.
+
+      이를 초과하는 첫 번째 값과 그 이후의 모든 값이 생략됩니다. 원래 연결된 오브젝트 필드는 변경되지 않습니다.
+
+  </div>
 
   * Workfront Planning에서 계층을 생성하려면 레코드 유형을 연결해야 합니다. 레코드 유형 연결이 없으면 계층 구조를 만들 때 자동으로 만들어집니다. 자세한 내용은 [작업 영역 계층 만들기](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)를 참조하십시오.
 
