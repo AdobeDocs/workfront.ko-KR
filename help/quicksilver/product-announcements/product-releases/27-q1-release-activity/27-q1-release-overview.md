@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1137'
 ht-degree: 3%
 ---
 
@@ -61,6 +61,15 @@ ht-degree: 3%
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">사용자 정의 필드를 즐겨찾기로 표시</a></p>
                 <p>이제 사용자 지정 필드를 즐겨찾기로 표시하여 필터, 보기 및 그룹화를 작성할 때 사용 가능한 필드의 맨 위와 양식 디자이너 필드 라이브러리에 표시할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 10월 29일</p></td>
+            <td><p>2026년 11월 12일</p></td>
+            <td><p>2027년 1월 21일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">포맷을 변경할 때 사용자 정의 필드에서 값 확인됨</a></p>
+                <p>이제 기존 텍스트 사용자 지정 필드 형식을 숫자 또는 통화로 변경하면 호환되지 않는 값이 확인됩니다.</p>
             </td>
             <td><p>2026년 10월 29일</p></td>
             <td><p>2026년 11월 12일</p></td>
@@ -291,7 +300,7 @@ Desktop Proofing Viewer가 버전 2.3.0으로 업데이트되었습니다. 이 �
 
 * 성능 및 보안 개선을 위해 기본 프레임워크(Electron)를 Chrome 버전 156에서 실행되는 최신 버전으로 업데이트했습니다.
 
-Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](https://experienceleague.adobe.com/ko/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)를 참조하십시오.
+Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)를 참조하십시오.
 
 ## 공지
 
@@ -325,10 +334,10 @@ Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
