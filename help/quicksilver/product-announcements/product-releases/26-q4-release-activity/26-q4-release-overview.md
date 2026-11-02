@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 63811ae159e365898db47bcf54705c41f72b2746
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3631'
 ht-degree: 1%
 ---
 # 2026년 4분기 릴리스 개요
@@ -276,7 +276,7 @@ ht-degree: 1%
 -->        
        <tr>
             <td>
-                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP 서버 도구 세트</a></p>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md">Workfront MCP 서버 도구 세트</a></p>
                 <p>이제 Workfront MCP 카탈로그를 특정 도구 세트로 제한하고 제품 권한별로 가용성을 필터링할 수 있으므로 AI 클라이언트는 필요한 기능만 액세스할 수 있습니다.</p>
             </td>
             <td><p>2026년 10월 22일</p></td>
@@ -406,15 +406,6 @@ ht-degree: 1%
             <td><p>이 기능은 Frame.io 통합을 사용할 수 없으므로 미리보기 샌드박스 환경에서는 사용할 수 없습니다.</p></td>
             <td><p>2026년 10월 15일</p></td>
             <td><p>2026년 10월 15일</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud 앱에서 Workfront 프로젝트에 액세스</a>
-                <p>이제 프로젝트 패널을 사용하여 Adobe Photoshop, Illustrator 및 InDesign에서 직접 Workfront 프로젝트에 액세스할 수 있습니다.</p>
-            </td>
-            <td><p>N/A</p></td>
-            <td><p>[날짜]</p></td>
-            <td><p>[날짜]</p></td>
         </tr>
         <tr>
             <td>
@@ -792,7 +783,7 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">이제 관리자가 아닌 사용자가 이벤트 구독을 만들 수 있습니다.<p>[!BADGE 해제 일정]{type=Neutral}</p></a>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">이제 관리자가 아닌 사용자가 이벤트 구독을 만들 수 있습니다.<p>[!BADGE 해제 일정]{type=Neutral}</p></a>
                 <p>이제 사용자는 타깃팅된 구독 및 IMS 사용자 액세스 토큰을 사용하여 시스템 관리자 액세스 권한 없이 지원되는 Workfront 개체에 대한 웹후크 알림을 받을 수 있습니다.</p>
             </td>
             <td><p>2026년 10월 16일</p></td>
