@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 2%
@@ -64,7 +64,9 @@ ht-degree: 2%
 * [사용자 지정 데이터 개체](#custom-data-objects)
 * [조직 개체](#organization-objects)
 * [기타 구성 객체](#other-configuration-objects)
-
+<!--
+* [Workfront Planning objects](#workfront-planning-objects)
+-->
 
 ### 작업 오브젝트
 
@@ -137,6 +139,22 @@ ht-degree: 2%
 
 -->
 
+<!--
+## Workfront Planning objects
+
+>[!IMPORTANT]
+>
+>Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+
+| Promotable object | Included promotable linked objects |
+| --- | --- |
+| Workspaces | Workspace sections |
+| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
+| Sharing for all objects |  |
+| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
+-->
+
+
 ## 환경 프로모션 상태
 
 환경 프로모션 패키지는 환경 간에 이동할 수 있도록 생성되고 준비되는 동안 여러 상태를 통해 진행됩니다. Workfront 내의 패키지 목록 또는 Workfront API를 사용하는 경우 API 응답에서 이러한 상태를 볼 수 있습니다.
@@ -173,7 +191,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>ASSEMBLING 단계가 실패할 경우 프로모션 패키지가 자동으로 이 상태로 전환됩니다.</p><p>패키지를 ASSEMBLING 스테이지로 되돌리려면 어셈블 프로세스를 다시 트리거해야 합니다.</p><p>패키지 조립에 대한 자세한 내용은 환경 프로모션 패키지 만들기 또는 편집 문서에서 <a href="https://experienceleague.adobe.com/ko/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">기존 패키지 편집 또는 조립</a> 섹션을 참조하십시오.</td> 
+   <td><p>ASSEMBLING 단계가 실패할 경우 프로모션 패키지가 자동으로 이 상태로 전환됩니다.</p><p>패키지를 ASSEMBLING 스테이지로 되돌리려면 어셈블 프로세스를 다시 트리거해야 합니다.</p><p>패키지 조립에 대한 자세한 내용은 환경 프로모션 패키지 만들기 또는 편집 문서에서 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">기존 패키지 편집 또는 조립</a> 섹션을 참조하십시오.</td> 
   </tr> 
   </tbody> 
 </table>
