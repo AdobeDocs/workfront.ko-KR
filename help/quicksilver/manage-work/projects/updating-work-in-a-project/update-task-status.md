@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: '636'
 ht-degree: 4%
-
 ---
-
 # 작업 상태 업데이트
 
 <!--Audited: 10/2024-->
@@ -112,10 +110,19 @@ Old:
 
 * 작업을 완료로 표시하면 작업의 완료율이 100%로 업데이트됩니다.
 * 상위 작업에 대해 다음과 같은 시나리오가 있습니다.
-   * 프로젝트의 요약 완료 모드가 자동으로 설정되고 하위 작업이 완료되지 않은 경우 상위 작업의 상태를 완료로 업데이트할 수 없습니다.
-   * 프로젝트의 요약 완료 모드가 수동으로 설정되고 하위 작업이 완료되거나 완료되지 않은 경우 상위 작업의 상태를 완료로 업데이트할 수 있습니다.
+  * 프로젝트의 요약 완료 모드가 자동으로 설정되고 하위 작업이 완료되지 않은 경우 상위 작업의 상태를 완료로 업데이트할 수 없습니다.
+  * 프로젝트의 요약 완료 모드가 수동으로 설정되고 하위 작업이 완료되거나 완료되지 않은 경우 상위 작업의 상태를 완료로 업데이트할 수 있습니다.
 
   자세한 내용은 [프로젝트 편집](../manage-projects/edit-projects.md)을 참조하세요.
+
+<!--
+* If a task status is deleted or becomes unavailable, the Status of the task displays as Not applicable.  As a user with Manage permissions to the task, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
 
 ## 수동으로 작업 상태 업데이트
 
@@ -152,6 +159,12 @@ Old:
    >[!IMPORTANT]
    >
    >  작업 할당자만 커밋 일자를 업데이트할 수 있습니다.
+
+<!--
+1. (Conditional) When the status of the task is **Not applicable**, click the warning sign next to the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+
+  If you don't see an acceptable status, ask your administrator to create one.
+-->
 
 <!--
 old functionality in old commenting: 

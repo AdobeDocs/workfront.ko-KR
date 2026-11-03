@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1295'
 ht-degree: 0%
 ---
 
@@ -52,8 +52,8 @@ Ideation 공백은 Enterprise CX Coworker을 활용하여 나중에 Planning 레
 변경될 수 있는 관념화 공간에 대한 계획된 릴리스 타임라인에는 다음 이정표가 포함됩니다.
 
 * **마감된 Beta:** 적은 수의 고객을 위해 2026년 7월에 출시되었습니다.
-* **2026년 11월을 목표로 하는 Beta 열기:** 이는 고객이 옵션을 적극적으로 옵트아웃하지 않고 적극적으로 옵션을 켜고 구성해야 하는 옵트인 오퍼입니다.
-* **일반 가용성:** 2027을 목표로 합니다.
+* **Beta 열기:**&#x200B;은(는) 2026년 11월 12일을 대상으로 합니다. 이는 옵트인 오퍼이며, 이 오퍼에서 적극적으로 옵트아웃하지 않고 옵션을 적극적으로 켜야 합니다.
+* **일반 가용성:**, 2027년 2월 1일 대상.
 
 ## 제품 요구 사항
 
@@ -237,10 +237,10 @@ Worth noting
 
 ## 추가 리소스
 
-* [Adobe Workfront 캠페인 계획](https://business.adobe.com/kr/products/workfront/campaign-planning.html)
+* [Adobe Workfront 캠페인 계획](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning 설명서](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio 개요](https://business.adobe.com/kr/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/kr/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio 개요](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--
