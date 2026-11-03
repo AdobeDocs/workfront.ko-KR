@@ -4,9 +4,9 @@ description: 2027년 1분기 관리자 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '413'
 ht-degree: 0%
 ---
 
@@ -39,6 +39,20 @@ ht-degree: 0%
 이제 필드 목록 또는 사용자 정의 양식 디자이너에서 사용자 정의 필드를 즐겨찾기로 표시할 수 있습니다. 특정 목록 및 보고서(예: 프로젝트, 작업 및 문제 목록)에서 작업하고 필터, 보기 및 그룹화를 빌드하면 즐겨 찾는 필드가 [제안됨] 섹션의 사용 가능한 필드 목록 맨 위에 나타납니다.
 
 즐겨찾기로 표시된 필드는 양식 디자이너의 필드 라이브러리 맨 위에도 나타납니다.
+
+자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+
+## 포맷을 변경할 때 사용자 정의 필드에서 값 확인됨
+
+>[!NOTE]
+>
+>미리 보기: 2026년 10월 29일
+>프로덕션 빠른 릴리스: 2026년 11월 12일
+>모두를 위한 프로덕션: 2027년 1월 21일
+
+이제 기존 텍스트 사용자 지정 필드 형식을 숫자 또는 통화로 변경하면 호환되지 않는 값이 확인됩니다.
+
+필드의 기존 값이 모두 숫자인 경우 필드 형식만 업데이트됩니다. 그러나 기존 값 중 숫자가 아닌 값이 있으면 필드를 저장할 때 호환되지 않는 값이 지워진다는 경고 메시지가 표시됩니다.
 
 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 

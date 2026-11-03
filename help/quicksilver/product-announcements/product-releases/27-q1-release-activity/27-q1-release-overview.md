@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1137'
 ht-degree: 3%
 ---
 
@@ -61,6 +61,15 @@ ht-degree: 3%
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">사용자 정의 필드를 즐겨찾기로 표시</a></p>
                 <p>이제 사용자 지정 필드를 즐겨찾기로 표시하여 필터, 보기 및 그룹화를 작성할 때 사용 가능한 필드의 맨 위와 양식 디자이너 필드 라이브러리에 표시할 수 있습니다.</p>
+            </td>
+            <td><p>2026년 10월 29일</p></td>
+            <td><p>2026년 11월 12일</p></td>
+            <td><p>2027년 1월 21일</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">포맷을 변경할 때 사용자 정의 필드에서 값 확인됨</a></p>
+                <p>이제 기존 텍스트 사용자 지정 필드 형식을 숫자 또는 통화로 변경하면 호환되지 않는 값이 확인됩니다.</p>
             </td>
             <td><p>2026년 10월 29일</p></td>
             <td><p>2026년 11월 12일</p></td>
