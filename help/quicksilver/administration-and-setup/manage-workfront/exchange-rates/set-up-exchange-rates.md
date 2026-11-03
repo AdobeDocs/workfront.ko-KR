@@ -25,16 +25,17 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 4%
+source-wordcount: '938'
+ht-degree: 3%
 ---
 # 환율 설정
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
 
 Adobe Workfront 관리자는 Workfront에서 통화 환율을 설정할 수 있습니다. 여기에는 다음이 포함됩니다.
 
@@ -109,6 +110,14 @@ Adobe Workfront 관리자는 Workfront에서 통화 환율을 설정할 수 있�
 ## 통화 환율에 대한 유효 일자 설정
 
 환율 값이 특정 날짜에 끝나고 다른 환율이 시작되도록 통화의 환율에 대한 유효 일자가 구성됩니다. 그러면 재무 계산에 정확한 날짜의 환율이 사용됩니다.
+
+>[!NOTE]
+>
+>날짜 유효 환율 구성은 특정 날짜에 적용되는 시스템 환율을 정의합니다. 모든 프로젝트 재무 계산이 매일 다른 환율을 사용한다는 의미는 아니다.
+>
+>프로젝트에 대해 **시스템에서 환율 유효 날짜 사용** 설정이 설정되어 있으면 계획 비용 및 매출은 프로젝트의 **환율 날짜**&#x200B;에 유효한 시스템 환율을 사용합니다. 계획된 작업의 각 일자에 자동으로 유효 비율을 사용하지 않습니다.
+>
+>시스템 수준의 날짜 유효 환율을 사용하도록 프로젝트를 설정하는 방법에 대한 자세한 내용은 [프로젝트 편집](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md#finance)을 참조하십시오.
 
 {{step-1-to-setup}}
 
