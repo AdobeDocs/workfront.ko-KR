@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
+source-git-commit: 4ea8bc003ce17978be5e5a6fd838012dfcfeae78
 workflow-type: tm+mt
-source-wordcount: '3387'
+source-wordcount: '3298'
 ht-degree: 1%
 ---
 # 내 설정 구성
@@ -421,10 +421,12 @@ ht-degree: 1%
     &lt;/p> &lt;/td>
 </tr>
   --&gt; 
+  <!--
   <tr> 
-   <td role="rowheader"><strong>(조건부) [!UICONTROL 사용자가 증명을 생성할 수 있음(... 증명 라이선스 중... 남아 있음)]</strong></td> 
-   <td>이 필드는 회사에서 레거시 [!DNL Workfront] 패키지를 사용하고 [!DNL Workfront Proof] 구성 요소를 구입한 경우에만 사용할 수 있습니다. 이 옵션을 선택하면 증명 사용자로 활성화됩니다. 구매한 총 증명 라이선스 수 중 시스템에 사용된 증명 라이선스 수도 표시됩니다. 이 필드는 [!DNL Workfront]명의 관리자이기도 한 사용자만 볼 수 있고 편집할 수 있습니다. [!DNL Workfront]에서 증명을 위한 플랜 옵션에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">증명 기능에 대한 액세스([!DNL Workfront]</a>)를 참조하십시오.</td>
+   <td role="rowheader"><strong>(Conditional) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
+   <td>This field is available only if your company uses a legacy [!DNL Workfront] package and has purchased the [!DNL Workfront Proof] component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable only to users who are also [!DNL Workfront] administrators. For more information about the plan options for proofing in [!DNL Workfront], see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Access to proofing functionality in [!DNL Workfront]</a>.</td>
   </tr> 
+  -->
   <tr> 
    <td role="rowheader"><strong>(조건부) [!UICONTROL 권한 프로필]</strong></td> 
    <td> <p>이 필드에는 [!DNL Workfront Proof]의 액세스 수준이 표시됩니다. 다음 경우에만 사용할 수 있습니다.</p> 

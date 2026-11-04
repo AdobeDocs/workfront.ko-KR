@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cb0f538ff392ebff585fbdeeba3729d9b2247292
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 4%
+source-wordcount: '476'
+ht-degree: 3%
 ---
 # 그룹에 할당되어 사용되는 라이선스 수 보기
 
@@ -72,11 +72,16 @@ Adobe Workfront 관리자는 그룹 및 해당 하위 그룹에 현재 사용된
 1. 왼쪽 패널에서 **그룹** ![그룹](assets/groups-icon.png)을 클릭합니다.
 
 1. 그룹 이름을 클릭합니다.
-1. 표시되는 페이지에서 오른쪽 상단 모서리 부근의 헤더 영역에 **사용 중인 라이선스** 영역을 보면 현재 사용 중인 **계획** 및 **작업** 라이선스의 수를 볼 수 있습니다.
+1. 표시되는 페이지에서 오른쪽 상단 모서리 부근의 헤더 영역에 **사용 중인 라이선스** 영역을 보고 현재 사용 중인 라이선스 수를 확인합니다.
 
-   최상위 그룹을 보고 있고 Workfront 관리자가 그룹에 대해 각 라이선스 유형의 최대 수를 정의한 경우 이러한 숫자도 표시됩니다. 예를 들어 아래 그룹에서는 최대 10명의 사용자가 플랜 라이선스를 가질 수 있으며 15명의 사용자는 작업 라이선스를 가질 수 있습니다.
+   Workfront 패키지에 따라 라이선스는 다음과 같을 수 있습니다.
 
-   ![할당된 라이선스](assets/licenses-used-allocated.png)
+   * **표준** 및 **밝게**
+   * **계획** 및 **작업**
+
+   ![할당된 라이선스](assets/how-many-licenses-standard-light.png)
+
+   최상위 그룹을 보고 있고 Workfront 관리자가 그룹에 대해 각 라이선스 유형의 최대 수를 정의한 경우 이러한 숫자도 비율로 표시됩니다. 예를 들어, 2/10은 사용 가능한 10개의 라이선스 중 2개의 라이선스가 할당되었음을 의미합니다.
 
    Workfront 관리자가 그룹에 할당된 최대 라이선스 수를 정의하는 방법에 대한 자세한 내용은 문서 [시스템에서 사용 가능한 라이선스 관리](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)의 [홈 그룹에 대한 최대 라이선스 수 설정](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) 섹션을 참조하십시오.
 
@@ -84,15 +89,14 @@ Adobe Workfront 관리자는 그룹 및 해당 하위 그룹에 현재 사용된
    >
    >보려는 그룹이 하위 그룹인 경우 그룹에 할당된 최대 라이선스 수가 아니라 사용 중인 라이선스 수만 볼 수 있습니다. Workfront 관리자는 하위 그룹에 대한 최대 라이선스 수를 정의하지 않기 때문입니다.
    >
-   >![하위 그룹에서 사용된 라이선스](assets/subgroup-used-licenses-only.png)
-   >
 
-1. 현재 그룹에서 사용 중인 각 라이선스 유형(검토 및 요청 포함)의 개수를 구분하려면 **사용 중인 라이선스:** 바로 아래에 있는 텍스트 영역을 클릭하십시오.
+1. 현재 그룹에서 사용 중인 각 라이선스 유형(검토 및 요청 포함)의 별도 개수를 보려면 사용 중인 라이선스를 표시하는 영역을 클릭하십시오.
 
-   ![자세히 보려면 클릭](assets/click-text-to-see-more.png)
+   표시되는 상자에서는 해당하는 모든 Workfront 라이선스 유형에 대해 동일한 정보를 제공합니다. Workfront 패키지에 따라 다음과 같을 수 있습니다.
 
-   표시되는 상자에서는 계획, 작업, 검토 및 요청의 네 가지 Workfront 라이선스 유형에 대해 동일한 정보를 제공합니다. 이 그룹의 구성원 또는 하위 그룹 중 하나에서 사용 중인 총 라이선스 수를 맨 아래에 확인할 수 있습니다.
+   * Standard, Light, Contributor 및 External
+   * 계획, 작업, 검토 및 요청
 
-   ![추가 라이선스 정보](assets/more-license-info.png)
+   이 그룹의 구성원이나 하위 그룹 중 하나에서 사용 중인 총 라이선스 수를 맨 아래에 볼 수 있습니다.
 
    검토 및 요청 라이센스의 경우 최대 열에 항상 무제한이 표시됩니다.

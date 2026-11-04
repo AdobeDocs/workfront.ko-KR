@@ -35,13 +35,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4b5e1563a302c9b7f75e5df085d5c6c4c947db8e
 workflow-type: tm+mt
-source-wordcount: 7995
+source-wordcount: '8244'
 ht-degree: 1%
-
 ---
-
 # 프로젝트 편집
 
 <!--Audited: 07/2024-->
@@ -146,8 +144,8 @@ Old:
 * Workfront 관리자 또는 그룹 관리자가 프로젝트 환경 설정 영역에서 이 기능을 활성화한 경우에만 완료, 중단 또는 승인 보류 상태인 프로젝트에 문서 또는 템플릿을 첨부할 수 있습니다. 프로젝트 환경 설정 지정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 * 중단 또는 완료 상태의 프로젝트에 대한 다음 정보만 편집할 수 있습니다.
 
-   * 기존 경비를 수정합니다.
-   * 사용자 정의 양식을 추가, 제거 또는 편집합니다.
+  * 기존 경비를 수정합니다.
+  * 사용자 정의 양식을 추가, 제거 또는 편집합니다.
 
 ## 프로젝트 편집
 
@@ -456,7 +454,10 @@ Old:
     <tbody> 
      <tr>
       <td><strong>시스템 날짜의 유효 환율 사용</strong></td>
-      <td><p>이 옵션을 선택하면 시스템 수준의 일자 유효 환율이 항상 사용되며 프로젝트에 환율 대체가 허용되지 않습니다.</p> <p>옵션을 선택한 경우 시작할 <strong>환율 날짜</strong>도 선택해야 합니다.</p></td> 
+      <td><p>항상 시스템 레벨의 일자 유효 환율을 사용하고 프로젝트에서 환율 대체를 방지하려면 이 옵션을 선택합니다.</p><p>환율에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">환율 설정</a>을 참조하십시오. </p></td> 
+     </tr>
+     <tr><td><strong>환율 날짜</strong></td>
+     <td><p>시스템에서 일자 유효 환율을 사용하는 옵션을 선택할 때는 일자도 선택해야 합니다. 이 일자는 계획된 비용 및 수익의 환율을 정의하는 데 사용됩니다.</p><p>예를 들어 환율 일자가 2월 12일인 경우, 계획 작업이 다른 일자에 발생하는 경우에도 Workfront은 계획된 비용 및 수익 통화 전환에 2월 12일의 시스템 레벨 환율을 사용합니다.</p><p>실제 비용 및 수익의 경우 시간이 기록된 날짜에 대한 환율이 사용됩니다.</p></td>
      </tr>
      <tr>
       <td><strong>프로젝트 청구 요율 정보 유지</strong></td>
@@ -813,17 +814,17 @@ Old:
 
 * &quot;복수 값&quot; 표시기 외에도 선택한 프로젝트 중 적어도 하나에서 선택한 옵션이 다른 경우 다음 방법 중 하나로 여러 옵션이 있는 필드가 표시됩니다.
 
-   * 확인란 필드에는 선택한 모든 프로젝트가 아닌 일부에 대해 선택된 옵션의 확인란 대신 줄이 표시됩니다.
+  * 확인란 필드에는 선택한 모든 프로젝트가 아닌 일부에 대해 선택된 옵션의 확인란 대신 줄이 표시됩니다.
 
-     ![일괄 편집 프로젝트 상자의 여러 값 표시기 확인란](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+    ![일괄 편집 프로젝트 상자의 여러 값 표시기 확인란](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-   * 선택한 모든 프로젝트에 대해 활성화되지 않은 일부 옵션에 대해 토글이 중간에 표시되고 토글 유형 필드가 흐리게 표시됩니다.
+  * 선택한 모든 프로젝트에 대해 활성화되지 않은 일부 옵션에 대해 토글이 중간에 표시되고 토글 유형 필드가 흐리게 표시됩니다.
 
   ![일괄 편집 프로젝트에서 강조 표시된 여러 값](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-   * 일부 옵션이 선택되었지만 전체가 아닌 라디오 단추 유형 필드에는 모든 라디오 단추가 비어 있습니다.
+  * 일부 옵션이 선택되었지만 전체가 아닌 라디오 단추 유형 필드에는 모든 라디오 단추가 비어 있습니다.
 
-     ![여러 값 표시기 라디오 단추 일괄 편집 프로젝트 상자](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+    ![여러 값 표시기 라디오 단추 일괄 편집 프로젝트 상자](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * 다중 옵션 필드(예: 전환 또는 확인란 세트로 표시되는 필드)의 한 옵션을 업데이트할 경우 선택한 프로젝트 간에 다른 모든 옵션이 일치해야 합니다.
 

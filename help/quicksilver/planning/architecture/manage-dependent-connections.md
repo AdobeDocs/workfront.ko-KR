@@ -17,7 +17,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 1%
@@ -141,6 +141,10 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * 종속성 체인이 작동하려면 모든 종속 필드가 동일한 레코드 유형에 동시에 존재해야 합니다.
 
 * 종속 필드는 레코드 또는 요청 양식의 세부 정보 영역을 포함하여 연결된 레코드 필드가 표시되는 모든 영역에 대해 지원됩니다.
+
+<!--
+* <span class="preview">When there is a conflict in the selected values of a dependent field on a request form or a submitted request, you must resolve the conflict before you can save the form or the request.</span>
+-->
 
 ## 종속 연결 만들기
 

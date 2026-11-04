@@ -5,7 +5,7 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 
 {{planning-important-intro}}
 
-<!--if Lilit says this is not for STA, break the intro and specify that-->
+<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
 
 환경 홍보 기능을 사용하여 한 Workfront 환경에서 다른 Workfront 환경으로 Planning 작업 공간, 레코드 유형, 필드 및 보기를 복사할 수 있습니다.
 
@@ -46,7 +46,7 @@ Planning과 함께 환경 프로모션을 사용하는 것은 Workfront에 사�
   * 보기 횟수
   * 계층
   * 모든 개체에 대한 공유 설정
-  * 자동화
+  * 자동화 <!--this might not be part of it; Lilit is checking-->
   * 요청 양식
   * 비즈니스 규칙
   * 연결된 오브젝트

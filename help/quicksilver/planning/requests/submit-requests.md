@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '3233'
 ht-degree: 1%
@@ -218,6 +218,8 @@ Not sure how to change the request status, but dev also said: Changing the names
    >[!TIP]
    >
    >종속적으로 연결된 레코드 필드의 값은 레코드 간의 종속성 규칙에 의해 제한됩니다. 자세한 내용은 [종속 연결 관리](/help/quicksilver/planning/architecture/manage-dependent-connections.md)를 참조하십시오.
+   >
+   ><!--<span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>-->
 
 1. (선택 사항 및 조건부) **양식 채우기**&#x200B;를 클릭하여 파일을 첨부하고 AI가 파일 내의 정보로 양식을 작성하도록 합니다. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
@@ -292,6 +294,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >* 레코드를 아직 만들지 않고 요청이 승인 대기 중인 경우에만 요청을 편집할 수 있습니다.
    >* 일부 필드는 읽기 전용이므로 편집할 수 없습니다.
    >* 레코드를 만든 후에는 더 이상 요청을 편집할 수 없습니다.
+   ><!--* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>-->
 
 1. (선택 사항) 요청을 편집한 후 **변경 내용 제출**&#x200B;을 클릭합니다.
 1. (조건부) 요청 양식이 승인과 연결되어 있지 않거나 요청이 승인된 경우 요청 이름을 클릭한 다음 **만들어진 개체** 필드에서 레코드 이름을 클릭합니다.
