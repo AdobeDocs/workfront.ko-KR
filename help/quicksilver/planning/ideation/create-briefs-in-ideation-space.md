@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 17607dd765bdd4892ddc455cee48ab45db1fcd6b
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1776'
 ht-degree: 1%
 ---
 
@@ -122,7 +122,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -138,27 +138,36 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 브리프를 생성하여 Planning 레코드를 생성 또는 편집하거나 다른 응용 프로그램으로 내보낼 수 있는 파일을 생성할 수 있습니다.
 
-1. Coworker가 설정된 Planning으로 Workfront에 로그인하고 다음 중 하나를 수행합니다.
+1. Coworker가 설정된 Planning으로 Workfront에 로그인하고 다음 중 하나를 수행하여 브리프를 처음으로 만들 수 있는 Ideation 공간을 엽니다.
 
-   * **주 메뉴** > **관념화 공간**(으)로 이동
-   * **기본 메뉴로 이동** > **계획** > 작업 공간 클릭 > 레코드 유형 클릭 > **새 레코드** > **관념화 공간 시작**
-
-     Ideation Space를 사용하여 레코드를 만드는 방법에 대한 자세한 내용은 [Ideation Space Brief에서 계획 레코드 만들기](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)를 참조하십시오.
-   * **기본 메뉴로 이동** > **계획** > 작업 공간 클릭 > 레코드 유형 클릭 > 기존 레코드 클릭 > **관념에서 열기**
+   * **주 메뉴** ![주 메뉴](assets/main-menu-lines.png) > **관념화 공간**(으)로 이동
+   * **주 메뉴로 이동** ![주 메뉴](assets/main-menu-lines.png) > **계획** > 작업 공간 클릭 > 레코드 유형 클릭 > **새 레코드** > **관념화 공간 시작**
 
    관념화 공간이 열리고 새 관념화의 제목이 기본적으로 다음 형식으로 지정됩니다.
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   기존 레코드에서 관념화를 열면 관념화 이름이 레코드 이름과 일치합니다.
+   Ideation Space를 사용하여 레코드를 만드는 방법에 대한 자세한 내용은 [Ideation Space Brief에서 계획 레코드 만들기](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)를 참조하십시오.
 
-1. (권장) 이름을 변경하려면 관념의 이름을 클릭합니다.
+1. (조건부) 관념화 공간에서 기존 개요를 열려면 Coworker가 설정된 Planning으로 Workfront에 로그인하고 다음 중 하나를 수행합니다.
+
+   * **주 메뉴로 이동** ![주 메뉴](assets/main-menu-lines.png) > **계획** > 작업 공간 클릭 > 레코드 유형 클릭 > 기존 레코드 클릭 > **관념에서 열기**
+
+     관념화 이름은 레코드의 이름과 일치합니다.
+
+1. (권장) 처음 연 경우에는 표의 이름을 클릭하여 이름을 변경합니다.
 
 1. (조건부 및 선택 사항) 다른 기존 관념화 공간을 열려면 관념화 이름 오른쪽에 있는 드롭다운 메뉴를 클릭하고 이름별로 관념화를 검색한 다음 목록에 표시될 때 관념을 클릭합니다.
 
-1. **관념화 공간**&#x200B;이 열리면 오른쪽에 CX Coworker이 열립니다. Coworker 프롬프트를 사용하여 만들려는 개요 종류를 설명하십시오.
+   **Ideation 공간**&#x200B;이 열리고 오른쪽에 CX Coworker이 열립니다.
+1. Coworker 프롬프트를 사용하여 만들려는 개요 종류를 설명하십시오.
 
    예를 들어, &quot;미국의 부모와 교사를 위해 K-12 학생들이 8월 한 달 동안 진행할 등교 캠페인을 만들기&quot;를 입력합니다.  개요를 최대한 작성하려면 어떤 유형의 캠페인, 타임라인, 관련자, 승인 체크포인트 및 기타 세부 정보에 사용 가능한 한 많은 정보를 표시하십시오.
+1. (선택 사항) Coworker 프롬프트 상자에서 **+** 아이콘을 클릭하고 다음과 같은 방법으로 정보를 첨부합니다.
+
+   * **명령**: 목록에서 명령을 사용하여 Coworker에 내용을 입력하라는 메시지를 표시합니다.
+   * **파일 첨부**: 프롬프트 상자에 파일을 첨부하여 해당 파일이나 해당 정보를 IDEA 공간에 추가합니다. 나중에 Coworker에게 파일을 기반으로 카드를 만들어 브리프로 보내도록 요청해야 합니다.
+   * **개체 참조**: 목록에서 개체를 선택하여 아이디어에서 참조합니다. 개체가 Workfront에 있어야 합니다.
 
 1. Enter를 클릭합니다.
 
@@ -171,6 +180,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. (조건부) Coworker가 관념에 대한 카드 만들기를 제안하면 **예**&#x200B;라고 답합니다.
 
    카드가 이미지 공간에 추가되며 각 카드의 소스를 확인하고 브리프에 추가할 항목을 결정할 수 있습니다.
+
+   >[!TIP]
+   >
+   >파일을 개요에 바로 추가할 수 없습니다. 먼저 파일 정보를 설명서에 보낼 수 있는 카드로 전송해야 합니다.
+
 
 1. **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하여 관념화 공간에서 항목을 검색한 다음 목록에 표시될 때 클릭하여 탐색합니다.
 
