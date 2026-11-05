@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '2622'
+source-wordcount: '2647'
 ht-degree: 1%
 ---
 # 문서 승인 워크플로 만들기
@@ -206,6 +206,10 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 ## 새 문서 영역에 승인 작업 과정 만들기
 
 조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+
+>[!NOTE]
+>
+>승인자 또는 검토자는 문서가 공유된 프로젝트를 가지고 있어야 합니다. 그렇지 않으면 승인이 내 승인 위젯에 표시되지 않습니다.
 
 **승인 요청** 대화 상자는 기본적으로 **기본** 모드로 열립니다. 기본 모드는 한 세트의 승인자 또는 검토자가 있는 단일 단계입니다. 다단계 승인 또는 병렬 경로를 구성하려면 **고급** 모드로 전환하십시오.
 
