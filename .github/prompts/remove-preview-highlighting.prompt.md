@@ -25,7 +25,7 @@ ht-degree: 1%
 5. 이 문서에는 다음 중 하나 이상이 있습니다.
    - 본문 산문 또는 실제 코드 조각 단락의 Preview-environment 언어
      (&quot;강조 표시된 정보&quot;, &quot;미리보기 환경&quot;, &quot;아직 일반적이지 않음
-     사용 가능&quot;, 빠른 릴리스 노트) —****
+     사용 가능&quot;, 빠른 릴리스 노트) —**&#x200B;**
      목차/색인 페이지;
    - `class="preview"`(`<span>`, `<div>`, `<p>`, `<li>`...)이 있는 모든 HTML 요소;
    - `{{highlighted-preview}}` 또는
