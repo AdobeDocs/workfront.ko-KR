@@ -5,10 +5,6 @@ title: '알림: 승인 정보'
 description: 다음 알림은 관련된 작업 항목에서 발생하는 승인 활동에 대해 경고합니다. 수신하는 알림을 구성하는 방법에 대한 자세한 내용은 이메일 알림 수정 을 참조하십시오.
 author: Courtney
 feature: Get Started with Workfront
-exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: 'https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -18,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '704'
 ht-degree: 0%
 ---
 # 알림: 승인 정보
@@ -29,8 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 알림은 기존 문서 승인에만 적용됩니다. 통합 문서 승인에 대한 알림 컨트롤을 현재 사용할 수 없습니다.
-
+>이 알림은 기존 문서 승인에만 적용됩니다. 통합 승인 알림에 대해서는 [알림: 통합 승인](notifications-unified-approvals.md)을 참조하십시오.
 
 [이벤트 알림](../../workfront-basics/using-notifications/event-notifications.md)도 참조하세요.
 
@@ -78,3 +73,4 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+

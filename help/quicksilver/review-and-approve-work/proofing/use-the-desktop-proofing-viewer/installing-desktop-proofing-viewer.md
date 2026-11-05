@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
+source-git-commit: f1e77f9f6d479fe4317dbe2195fede0c4635757e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '570'
 ht-degree: 3%
 ---
 # Desktop Proof Viewer 설치
@@ -78,8 +78,8 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자가 워크스테이션
 
 1. 다음 중 하나를 수행하여 앱을 다운로드합니다.
 
-   * 프로덕션 환경을 사용하는 경우 [데스크톱 증명 뷰어에 대한 Mac 프로덕션 다운로드](https://app.proofhq.com/desktopviewer/mac)를 클릭합니다.
-   * 미리 보기 환경을 사용하는 경우 [데스크톱 증명 뷰어에 대한 Mac 미리 보기 다운로드를 클릭합니다.](https://app.preview.proofhq.com/desktopviewer/mac)
+   * 프로덕션 환경을 사용하는 경우 [데스크톱 증명 뷰어에 대한 프로덕션 다운로드를 클릭합니다.](https://us.my.workfront.com/proof/desktopviewer)
+   * 미리 보기 환경을 사용하는 경우 [데스크톱 증명 뷰어에 대한 다운로드 미리 보기를 클릭합니다.](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. 방금 다운로드한 파일을 열어 설치를 시작합니다.
 1. 표시되는 설치 상자에서 **계속**&#x200B;을 클릭한 다음 **설치**&#x200B;을 클릭합니다.
@@ -102,8 +102,8 @@ Workfront 또는 Workfront Proof 관리자가 워크스테이션에서 앱을 �
 
 1. 다음 중 하나를 수행하여 앱을 다운로드합니다.
 
-   * 프로덕션 환경에서 [데스크톱 증명 뷰어에 대한 Windows 프로덕션 다운로드를 클릭합니다.](https://app.proofhq.com/desktopviewer/windows)
-   * 미리 보기 환경에서 [데스크톱 증명 뷰어에 대한 Windows 미리 보기 다운로드](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.44.exe)를 클릭합니다.
+* 프로덕션 환경을 사용하는 경우 [데스크톱 증명 뷰어에 대한 프로덕션 다운로드를 클릭합니다.](https://us.my.workfront.com/proof/desktopviewer)
+* 미리 보기 환경을 사용하는 경우 [데스크톱 증명 뷰어에 대한 다운로드 미리 보기를 클릭합니다.](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. 방금 다운로드한 파일을 열어 설치를 시작합니다.
 1. 표시되는 설치 상자에서 방금 다운로드한 파일을 열어 설치를 시작합니다.

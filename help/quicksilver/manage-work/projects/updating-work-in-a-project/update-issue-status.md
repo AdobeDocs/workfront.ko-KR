@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 6%
+source-wordcount: '732'
+ht-degree: 5%
 ---
 # 문제 상태 업데이트
 
@@ -124,16 +124,9 @@ Adobe Workfront 관리자는 조직의 문제에 대한 사용자 정의 상태�
 * [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 * [문제 만들기](../../../manage-work/issues/manage-issues/create-issues.md)
 
-<!--
-
 >[!NOTE]
 >
->If an issue status is deleted or becomes unavailable, the Status of the issue displays as Not applicable.  As a user with Manage permissions to the issue, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
--->
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+>문제 상태가 삭제되거나 사용할 수 없게 되면 문제의 상태가 사용할 수 없음으로 표시됩니다.  문제에 대한 관리 권한이 있는 사용자는 상태를 다른 상태로 업데이트하거나 Workfront 관리자에게 상태를 다시 만들거나 새 상태를 추가하도록 요청할 수 있습니다.
 
 
 문제 상태를 수동으로 업데이트하거나 특정 작업이 발생할 때 Workfront에서 자동으로 업데이트하도록 할 수 있습니다.
@@ -174,11 +167,10 @@ Workfront의 다음 영역에서 문제 상태를 업데이트할 수 있습니�
    >
    >  문제 할당자만 커밋 일자를 업데이트할 수 있습니다.
 
-<!--
-1. (Conditional) When the status of the issue is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. (조건부) 문제의 상태가 **_사용할 수 없음_**&#x200B;인 경우 **상태** 필드에 대한 경고 기호를 클릭하고 목록에서 새 상태를 선택한 다음 **저장**&#x200B;을 클릭합니다.
 
-  If you don't see an acceptable status, ask your administrator to create one.
--->
+허용 가능한 상태가 표시되지 않으면 관리자에게 요청하여 만드십시오.
+
 
 <!--
 Old instructions, in old commenting: 
