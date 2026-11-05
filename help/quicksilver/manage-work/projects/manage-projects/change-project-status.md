@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 5%
+source-wordcount: '449'
+ht-degree: 4%
 ---
 # 프로젝트 상태 변경
 
@@ -112,14 +112,7 @@ Old:
 * **프로젝트를 완료로 업데이트할 때:** 프로젝트에서 모든 작업과 문제가 완료되었는지 확인하십시오. 프로젝트에 완료되지 않은 작업 또는 문제가 있는 경우 프로젝트에 대한 완료 상태 또는 완료와 동일한 다른 상태를 선택할 수 없습니다. 여기에는 완료 보류 중인 승인 상태에 있는 작업 또는 문제 승인이 포함됩니다.
 * **프로젝트를 완료에서 현재 상태로 업데이트할 때:** 프로젝트의 모든 작업과 문제가 완료되면 프로젝트의 완료 모드가 수동으로 설정되어 있는지 확인하십시오. 프로젝트의 완료 모드가 자동이면 프로젝트의 상태는 완료 상태로 유지됩니다.
 
-<!--
-* If a project status is deleted or becomes unavailable, the Status of the project displays as Not applicable.  As a user with Manage permissions to the project, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
--->
-
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+* 프로젝트 상태가 삭제되거나 사용할 수 없게 되면 프로젝트 상태가 해당 없음으로 표시됩니다.  프로젝트에 대한 관리 권한이 있는 사용자는 상태를 다른 상태로 업데이트하거나 Workfront 관리자에게 상태를 다시 만들거나 새 상태를 추가하도록 요청할 수 있습니다.
 
 ## 프로젝트 상태 변경
 
@@ -134,8 +127,7 @@ ALSO: see in the steps below for more commented out text.
 
    프로젝트 상태가 선택한 상태로 업데이트됩니다.
 
-<!--
-1. (Conditional) When the status of the project is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. (조건부) 프로젝트 상태가 **_사용할 수 없음_**&#x200B;인 경우 **상태** 필드에 대한 경고 기호를 클릭하고 목록에서 새 상태를 선택한 다음 **저장**&#x200B;을 클릭합니다.
 
-  If you don't see an acceptable status, ask your administrator to create one.
--->
+허용 가능한 상태가 표시되지 않으면 관리자에게 요청하여 만드십시오.
+
