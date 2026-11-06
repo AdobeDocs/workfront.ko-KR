@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4784329bf6d1e8e1ba0c1061809bfcec3ab3873f
+source-git-commit: cda89e85b94d1669e33aa572dfd21cd9e594def9
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 4%
+source-wordcount: '553'
+ht-degree: 3%
 ---
 # 라우팅 규칙 만들기
 
@@ -132,6 +132,10 @@ ht-degree: 4%
 
    이 프로세스는 라우팅 규칙만 정의합니다. 문제가 요청 대기열로 전송될 때 라우팅되도록 하려면 **기본 경로** 아래의 **대기열 세부 정보** 탭에서 라우팅 규칙을 선택해야 합니다.
 
+   기존 라우팅 규칙을 편집하려면 셀을 클릭하여 정보를 추가하거나 변경합니다. 라우팅 규칙은 자동으로 업데이트됩니다.
+   라우팅 규칙 목록은 향상된 목록이며 Workfront의 다른 목록과 다른 기능을 가질 수 있습니다. 향상된 목록에 대한 자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요.
+
    요청 대기열에 기본 경로 추가에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
    여러 라우팅 규칙을 요청 대기열과 연결하려면 여러 대기열 주제를 만들고 각 대기열 주제를 별도의 라우팅 규칙과 연결해야 합니다. 대기열 주제를 만드는 방법에 대한 자세한 내용은 [대기열 주제 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)를 참조하십시오.
+
