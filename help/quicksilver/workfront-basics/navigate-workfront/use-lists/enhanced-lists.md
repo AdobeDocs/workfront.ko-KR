@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
 workflow-type: tm+mt
-source-wordcount: '3531'
+source-wordcount: '3611'
 ht-degree: 1%
 ---
 # 향상된 목록 사용
@@ -149,6 +149,19 @@ Last, under Scenario Planner
    >모든 목록이 모든 필드 유형을 지원하는 것은 아닙니다.
 
 ![향상된 목록 예](assets/glist-exchange-rates.png)
+
+## 인라인 항목 편집
+
+일부 향상된 목록을 사용하면 개체 인라인을 편집할 수 있습니다. 목록에 표시된 객체에 대한 정보를 편집하면 객체가 즉시 업데이트됩니다.
+
+목록에서:
+
+1. 편집할 항목을 찾은 다음 목록의 필드 내부를 클릭합니다.
+1. 이 셀 내의 정보를 편집한 다음 Enter 키를 누릅니다.
+1. 편집 가능한 다음 셀로 이동하려면 Tab 키를 누릅니다.
+1. 모든 셀 수정을 마친 후 Enter 키를 눌러 변경 사항을 저장합니다.
+
+![고급 목록 인라인 편집](assets/edit-enhanced-list-inline.png)
 
 ## 작업 표시줄을 사용하여 항목 편집
 
