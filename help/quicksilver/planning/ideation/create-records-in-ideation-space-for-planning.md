@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '991'
 ht-degree: 0%
 ---
 
@@ -36,7 +36,33 @@ THIS ARTICLE HAS 2 DRAFTS IN 2 SEPARATE AREAS FROM CLAUDE - THEY WERE CREATED AT
 
 <span class="preview">자세한 내용은 [Adobe Workfront Planning의 Ideation 공간 시작](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)을 참조하십시오.</span>
 
-{{planning-important-intro}}
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. **관념화 공간 Beta** 프로그램의 일부로서만 사용할 수 있습니다. </span>\
+</span>
+
+>[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe Workfront Planning을 참조합니다. Workfront Planning에 액세스하려면 회사에서 추가 Planning 패키지를 구매해야 합니다.
+>
+>여기에 설명된 기능은 조직이 Workfront Planning을 독립형 제품으로 구입한 경우에는 사용할 수 없습니다.
+>
+>Workfront Planning에 대한 일반적인 정보는 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
+> 
+>
+
+<!--
+Future - when they make it available in Planning: replace the above with this OR ... insert the snippet:
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
+>
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
+-->
 
 Adobe Workfront Planning의 새로운 기능인 Ideation Space를 사용하여 브리핑을 Planning 레코드로 변환할 수 있습니다. 내보낸 브리프는 새 레코드를 만들거나 기존 레코드를 업데이트합니다.
 

@@ -3,7 +3,7 @@ content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
 title: Workfront Data Connect 데이터 사전
-description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 내용에 대한 정보가 포함되어 있습니다.
+description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 콘텐츠에 대한 정보가 포함되어 있습니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
@@ -16,14 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 43aa6b279bef07ccc2c02beda018d138274d95f4
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
 ---
 # Workfront Data Connect 데이터 사전
 
-이 페이지에는 Workfront Data Connect의 데이터 구조 및 내용에 대한 정보가 포함되어 있습니다.
+이 페이지에는 Workfront Data Connect의 데이터 구조 및 콘텐츠에 대한 정보가 포함되어 있습니다.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 8%
 
 ## 보기 유형
 
-Data Connect에서 다양한 보기 유형을 사용하여 가장 많은 insight을 제공하는 방식으로 Workfront 데이터를 볼 수 있습니다.
+가장 많은 insight을 제공하는 방식으로 Workfront 데이터를 보기 위해 Data Connect에서 활용할 수 있는 다양한 보기 유형이 있습니다.
 
 * **현재 보기**
 
@@ -49,7 +49,7 @@ Data Connect에서 다양한 보기 유형을 사용하여 가장 많은 insight
 
 ## 엔티티 관계 다이어그램
 
-Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 값뿐만 아니라 다른 개체와의 관계에 의해서도 정의됩니다.
+Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 값뿐만 아니라 다른 개체와의 관계에 의해 정의됩니다.
 
 아래의 ERD(엔티티 관계 다이어그램)는 핵심 Workfront 개체에 대해 Data Connect의 개체 관계에 대한 높은 수준의 매핑을 제공합니다.
 
@@ -112,11 +112,11 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
 
 ## Workfront 용어 표 및 설명
 
-다음 표는 Workfront의 개체 이름(인터페이스 및 API의 이름)과 Data Connect의 해당 이름을 연결하며, 다른 Workfront 개체에 대한 각 개체의 참조 필드를 포함합니다.
+다음 표는 Workfront의 개체 이름(인터페이스 및 API의 이름)과 Data Connect의 해당 이름을 상호 연관시키고, 각 개체에 대한 참조 필드를 다른 Workfront 개체에 포함합니다.
 
 >[!NOTE]
 >
->Workfront 애플리케이션의 진화하는 데이터 요구 사항을 지원하기 위해 사전 공지 없이 새 필드를 오브젝트 보기에 추가할 수 있습니다. 다운스트림 데이터 수신자가 추가되는 열을 처리할 준비가 되지 않은 경우 &quot;SELECT&quot; 쿼리를 사용하지 않도록 주의합니다.<br>
+>Workfront 애플리케이션의 진화하는 데이터 요구 사항을 지원하기 위해 사전 공지 없이 새 필드를 오브젝트 보기에 추가할 수 있습니다. 다운스트림 데이터 수신자가 추가되는 열을 처리할 준비가 되지 않은 &quot;SELECT *&quot; 쿼리는 사용하지 않도록 주의합니다.<br>
 >이름을 바꾸거나 열을 제거해야 하는 경우 이러한 변경 사항을 미리 알려드리겠습니다.
 
 ### 액세스 수준

@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
+source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1289'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2027년 1분기 릴리스 활동
@@ -28,6 +28,18 @@ ht-degree: 0%
 이 문서에서는 2027년 1분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 요청을 제출할 때 종속 필드의 충돌 검색 개선
+
+>[!NOTE]
+>
+>미리 보기: 2026년 11월 5일
+>프로덕션 빠른 릴리스: 2026년 12월 17일
+>모두를 위한 프로덕션: 2027년 1월 21일
+
+종속적으로 연결된 필드에 종속성이 충돌하는 요청을 제출하면 시스템에 오류가 표시되고 충돌이 해결될 때까지 요청을 제출할 수 없습니다. 아직 승인되지 않은 요청에는 요청을 볼 때와 편집할 때 모두 규칙 설정의 종속 필드에 대한 나중에 변경으로 인해 발생하는 충돌도 표시됩니다.
+
+자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
 ## 표 보기에서 빠른 검색 결과의 가시성 향상
 

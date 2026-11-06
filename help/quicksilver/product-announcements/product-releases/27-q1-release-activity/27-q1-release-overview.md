@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
+source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1168'
 ht-degree: 3%
 ---
 
@@ -134,6 +134,28 @@ ht-degree: 3%
 <!--
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Consistent review and approval buttons across documents</a></p>
+                <p>Review and approval buttons now look and work the same everywhere you review documents, and some buttons have new names.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->     
+<!--   
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Turn the Approved with changes decision on or off</a></p>
+                <p>System Administrators can now turn the "Approved with changes" decision on or off for document approvals.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+<!--
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Delegate unified document approvals</a></p>
                 <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf.</p>
             </td>
@@ -147,7 +169,7 @@ ht-degree: 3%
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">통합 검토 및 승인 이메일 알림 구성</a></p>
                 <p>이제 18개의 통합 검토 및 승인 이메일 알림을 구성할 수 있으며 제목 줄이 약간 변경됩니다.</p>
             </td>
-            <td> <p>이 기능은 미리보기 환경에서 일시적으로 사용할 수 없습니다.</p></td>
+            <td> <p>11월 5일</p></td>
             <td><p>2026년 11월 12일</p></td>
             <td><p>2027년 1월 21일</p></td>
         </tr>
@@ -194,6 +216,16 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">사용할 수 없는 상태 지침</a></p>
+                <p>저장된 문제, 작업 또는 프로젝트 상태를 사용할 수 없을 때 이제 경고 메시지가 저장된 상태 코드의 이유를 설명하고 표시합니다.</p>
+                <p>[!BADGE 해제 일정]{type=Neutral}</p>
+            </td>
+            <td><p>2026년 11월 4일</p></td>
+            <td><p>2026년 11월 4일</p></td>
+            <td><p>2026년 11월 4일</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">업데이트 상단에 스레드 고정</a></p>
                 <p>이제 주요 정보가 팀에 계속 표시되도록 프로젝트, 작업, 문제 또는 요청의 업데이트 영역 상단에 가장 중요한 스레드를 고정할 수 있습니다.</p>
             </td>
@@ -215,6 +247,17 @@ ht-degree: 3%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Enhanced list button and icon improvements</a></p>
+                <p>Button text and icons in all enhanced lists now match for a more consistent interface across Workfront.</p>
+            </td>
+            <td><p>November 5, 2026</p></td>
+            <td><p>December 17, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">향상된 목록에서 총 레코드 수 보기</a></p>

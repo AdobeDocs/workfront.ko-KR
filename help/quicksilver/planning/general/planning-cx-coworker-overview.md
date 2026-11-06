@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1088'
 ht-degree: 1%
 ---
 
@@ -42,6 +42,8 @@ CX Enterprise Coworker은 목표를 일반 언어로 설명한 다음 Workfront 
 Coworker는 새로운 전체 화면 환경과 Workfront 오른쪽 레일 모두에서 강력한 엔드 투 엔드 기능을 추가하면서 현재 AI Assistant가 수행하는 모든 작업을 유지합니다.
 
 조직의 기존 제품 수준 액세스 제어 내에서 작동하므로 사용자는 기본적으로 읽기 전용 액세스 권한과 Workfront 관리자가 제어하는 쓰기 액세스 권한으로 Workfront에서 이미 허용된 작업만 수행할 수 있습니다.
+
+동료는 Workfront MCP 서버 기능을 사용하여 귀하를 대신하여 작업을 수행합니다. 자세한 내용은 [CX Enterprise Coworker의 Workfront 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)을 참조하세요.
 
 >[!IMPORTANT]
 >
@@ -159,11 +161,11 @@ Workfront Planning의 다음 영역에서 Coworker를 찾을 수 있습니다.
 
    페이지의 오른쪽 상단에 있는 **Coworker** 아이콘 ![Coworker 아이콘](assets/coworker-icon.png)을 찾거나 아래 단계를 계속 진행합니다.
 
-1. **작업 영역 카드**&#x200B;를 클릭합니다.
+1. 다음 중 하나를 수행합니다.
 
-1. **레코드 종류 카드**&#x200B;를 클릭합니다.
-
-1. **레코드**&#x200B;을(를) 클릭하여 레코드의 **세부 정보** 페이지를 연 다음 **새 탭에서 열기** 아이콘 ![새 탭에서 열기](assets/open-workspace-on-new-tab-icon.png)을(를) 클릭합니다.
+* **작업 영역 카드**&#x200B;를 클릭합니다.
+* **레코드 종류 카드**&#x200B;를 클릭합니다.
+* **레코드**&#x200B;을(를) 클릭하여 레코드의 **세부 정보** 페이지를 연 다음 **새 탭에서 열기** 아이콘 ![새 탭에서 열기](assets/open-workspace-on-new-tab-icon.png)을(를) 클릭합니다.
 
 1. 화면 오른쪽 상단의 **Coworker 아이콘** ![Coworker 아이콘](assets/coworker-icon.png)을 클릭합니다.
 
@@ -173,7 +175,9 @@ Workfront Planning의 다음 영역에서 Coworker를 찾을 수 있습니다.
 
    예를 들어 다음 중 하나를 입력할 수 있습니다.
 
-   * Summer Sale 2026이라는 새로운 캠페인 레코드 만들기
+   * 작업 영역을 만들고 이름을 &quot;마케팅 팀&quot;으로 지정합니다.
+   * 이 작업 영역에서 캠페인 및 가상 사용자 레코드 유형을 만듭니다.
+   * Summer Sale 2026이라는 캠페인 레코드 만들기
    * 여름 캠페인 레코드의 예산 필드를 $75,000로 업데이트
    * 이전 프로모션이라는 캠페인 레코드 삭제
    * 내가 실수로 삭제한 캠페인 복원
