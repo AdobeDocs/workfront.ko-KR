@@ -1,17 +1,17 @@
 ---
 product-area: betas
-title: 연결된 조직 기능 시작
+title: 연결된 조직 기능 Beta 프로그램
 description:
 author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1424'
 ht-degree: 0%
 ---
-# 연결된 조직 기능 시작
+# 연결된 조직 기능 베타 프로그램
 
 >[!IMPORTANT]
 >
