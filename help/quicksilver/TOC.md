@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '14757'
+source-wordcount: '14762'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -457,6 +457,7 @@ ht-degree: 2%
       * [사용자 지정 SMTP를 보내는 전자 메일 옵션으로 제거](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
   * Beta 프로그램 {#beta}
     * [Beta 프로그램](product-announcements/betas/betas.md)
+    * {hide-from-toc}[연결된 조직 기능 베타 프로그램](product-announcements/betas/connected-organizations-beta/connected-organization-beta.md)
     * 캔버스 대시보드 베타 {#canvas-dashboards-beta}
       * [캔버스 대시보드 베타 정보](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
       * {hide-from-toc}[보고 캔버스 베타 개요](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
