@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 4ce90527f9255cab318f64d6a489d0e81822bf4b
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '552'
 ht-degree: 3%
 ---
 # Workfront에서 CX Enterprise Coworker 사용
@@ -88,9 +88,6 @@ Workfront 외부의 동료 및 해당 기능에 대한 자세한 내용은 [Adob
 1. 이전 채팅을 보고 관리하려면 Coworker 패널에서 채트 아이콘 ![채트 아이콘](assets/ai-icon.png)을 클릭합니다.
 
    채팅에 대한 자세한 내용은 Adobe CX Enterprise Coworker 설명서에서 [채팅 관리](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)를 참조하십시오.
-1. 출력 목록과 같은 채팅 아티팩트를 보고 관리하려면 아티팩트 아이콘 ![아티팩트 아이콘](assets/artifacts-icon.png)을 클릭하세요.
-
-   Coworker의 아티팩트에 대한 자세한 내용은 Adobe CX Enterprise Coworker 설명서에서 [아티팩트](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts)를 참조하십시오.
-1. Coworker의 설정을 관리하려면 설정 아이콘 ![설정](assets/coworker-settings-icon.png)을 클릭하세요.
 1. Coworker 패널을 확장하려면 확장 아이콘 ![확장 아이콘](assets/coworker-expand-icon.png)을 클릭합니다.
 1. Adobe CX Enterprise Coworker 인터페이스로 이동하려면 페이지의 오른쪽 상단에 있는 앱 아이콘 ![앱 아이콘](assets/apps-icon.png)을 클릭하고 사용 가능한 앱 목록에서 Coworker를 선택합니다.
+
