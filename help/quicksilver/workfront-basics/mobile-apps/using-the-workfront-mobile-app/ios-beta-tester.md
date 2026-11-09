@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
 ---
 # [!UICONTROL iOS] 베타 테스터여야 함
+
+{{mobile-maintenance-mode}}
 
 ## Beta 앱 다운로드
 
@@ -43,7 +45,7 @@ ht-degree: 0%
 1. [!DNL Workfront] 모바일 앱을 엽니다.
 1. 아래쪽 탐색 모음에서 **[!UICONTROL 자세히]**&#x200B;를 탭합니다.
 1. 이름을 탭한 다음 **[!UICONTROL Beta 테스터가 되기]**&#x200B;를 탭합니다.
-1. [!DNL TestFlight] 앱을 보려면 [!DNL App Store]&#x200B;**에서**&#x200B;보기 를 탭하세요.
+1. [!DNL TestFlight] 앱을 보려면 [!DNL App Store]]**에서**[!UICONTROL &#x200B;보기 를 탭하세요.
 1. **[!UICONTROL Get]**&#x200B;을 눌러 장치에 [!DNL TestFlight]을(를) 설치한 다음 **[!UICONTROL Install]**&#x200B;을 누릅니다.
 1. [!DNL TestFlight] 앱에서 **[!UICONTROL 열기]**&#x200B;를 탭한 다음 **[!UICONTROL 계속]**&#x200B;을 탭합니다.
 1. [!DNL TestFlight] 앱의 사용 약관에 동의하려면 **[!UICONTROL 동의]**&#x200B;를 탭하세요.\

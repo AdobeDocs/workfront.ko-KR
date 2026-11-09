@@ -16,12 +16,18 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 3%
+source-wordcount: '290'
+ht-degree: 2%
 ---
 # [!DNL Adobe Workfront] 모바일 앱의 승인
+
+>[!IMPORTANT]
+>
+>Workfront 모바일 앱은 유지 관리 모드이며 더 이상 새로운 개발이 수행되지 않습니다.
+> 
+>통합 승인은 Workfront 모바일 앱에서 지원되지 않습니다.
 
 [!DNL Adobe Workfront] 모바일 앱의 [!UICONTROL 승인] 영역에서 할당되거나 위임된 승인을 관리할 수 있습니다. [!UICONTROL 승인] 영역에서 다음을 승인할 수 있습니다.
 

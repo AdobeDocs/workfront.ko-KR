@@ -1,7 +1,7 @@
 ---
-source-git-commit: 53015645361082447e0574c4b66388369bbd2f40
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2312'
 ht-degree: 2%
 ---
 # 스니펫
@@ -363,6 +363,12 @@ OLD:
 
 1. 문서 증명을 열고 문서의 오른쪽 상단에 있는 **[!UICONTROL 추가]** 메뉴 ![추가 메뉴](/help/_includes/assets/mobile-verticalmoremenu-20x33.png)를 선택합니다. 그런 다음 **[!UICONTROL 자세히]**&#x200B;를 선택합니다.
 
+## 모바일 - 새로운 개발 없음 {#mobile-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Workfront 모바일 앱은 유지 관리 모드이며 더 이상 새로운 개발이 수행되지 않습니다.
+
 <!-- My Updates -->
 
 ## 1단계 - 내 업데이트 가져오기 - {#step1-to-my-updates}
@@ -471,12 +477,12 @@ OLD:
 1. Adobe Workfront의 왼쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다.
 
 1. **[!UICONTROL 사용자]**&#x200B;를 클릭한 다음 홈 팀에 연결할 사용자를 선택하십시오.
-1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**을 선택합니다.
    ![](/help/_includes/assets/user-settings-nwe-350x291.png)
 
 1. **[!UICONTROL 조직]** 섹션에서 **[!UICONTROL 홈 팀]** 필드를 선택합니다. 설정을 사용자와 연결할 팀의 이름을 입력하십시오. 목록에 팀의 이름이 표시되면 클릭합니다.
 
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 변경 내용 저장]**을 클릭합니다.
 선택한 사용자가 이제 홈 팀과 연결되었습니다.
 완료 버튼과 연관된 상태를 포함하여 모든 팀 설정이 이제 이러한 사용자에게 표시됩니다.
 

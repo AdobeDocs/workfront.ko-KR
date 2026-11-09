@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 0%
 ---
 # [!DNL Android]의 증명에 대한 댓글
+
+{{mobile-maintenance-mode}}
 
 증명에 대한 기존 주석을 검토 및 해결하고, 증명 문서에 새 주석 및 주석을 추가할 수 있습니다.
 
@@ -29,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->증명 소유자가 증명을 잠근 경우 댓글을 달 수 없습니다. 자세한 내용은 [&#128279;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)모바일 앱에서 증명 검토 및 결정 [!DNL Adobe Workfront] 문서에서 [증명 잠금 및 잠금 해제](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)를 참조하십시오.
+>증명 소유자가 증명을 잠근 경우 댓글을 달 수 없습니다. 자세한 내용은 [모바일 앱에서 증명 검토 및 결정 [!DNL Adobe Workfront] 문서에서 [증명 잠금 및 잠금 해제](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)를 참조하십시오](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## 증명의 기존 댓글 검토
 

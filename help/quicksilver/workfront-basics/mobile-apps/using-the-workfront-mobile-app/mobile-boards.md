@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 0%
 ---
 # 모바일용 [!DNL Adobe Workfront] [!UICONTROL 보드]
+
+{{mobile-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL 보드]는 열과 카드가 포함된 공유 보드에 대한 액세스를 제공하여 팀 공동 작업을 허용하는 유연한 도구입니다. 보드에 대한 자세한 내용은 [보드 개요](/help/quicksilver/agile/boards-overview.md)를 참조하십시오.
 

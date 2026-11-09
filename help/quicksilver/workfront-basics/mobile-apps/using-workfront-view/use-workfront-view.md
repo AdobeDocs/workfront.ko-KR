@@ -17,17 +17,19 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 7%
 ---
 # [!DNL Adobe Workfront View] 사용
 
+{{mobile-maintenance-mode}}
+
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [&#x200B; [!DNL Adobe Workfront View] 시작](../../../workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
-* [&#x200B; [!DNL Adobe Workfront View]에 프로젝트 표시](../../../workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
-* [&#x200B; [!DNL Adobe Workfront View]의 프로젝트 목록 필터링](../../../workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
+* [ [!DNL Adobe Workfront View] 시작](../../../workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
+* [ [!DNL Adobe Workfront View]에 프로젝트 표시](../../../workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
+* [ [!DNL Adobe Workfront View]의 프로젝트 목록 필터링](../../../workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
 * [[!UICONTROL 프로젝트 세부 정보] 보기에서 위젯 업데이트](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
-* [&#x200B; [!DNL Adobe Workfront View]에 업데이트 추가](../../../workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
+* [ [!DNL Adobe Workfront View]에 업데이트 추가](../../../workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)

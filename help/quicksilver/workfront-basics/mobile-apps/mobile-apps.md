@@ -21,15 +21,17 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 0%
 ---
 # 모바일 앱
 
+{{mobile-maintenance-mode}}
+
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
-* [&#x200B; [!DNL Adobe Workfront] 모바일 앱 사용](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
-* [&#x200B; [!DNL Adobe Workfront View] 사용](../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
-* [&#x200B; [!DNL Adobe Workfront] 모바일 앱에 대한 팁, 요령 및 문제 해결](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
+* [ [!DNL Adobe Workfront] 모바일 앱 사용](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
+* [ [!DNL Adobe Workfront View] 사용](../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
+* [ [!DNL Adobe Workfront] 모바일 앱에 대한 팁, 요령 및 문제 해결](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
