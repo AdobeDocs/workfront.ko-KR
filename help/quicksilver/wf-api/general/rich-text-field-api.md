@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '855'
 ht-degree: 0%
 ---
 # Adobe Workfront API의 리치 텍스트 필드
@@ -27,6 +27,12 @@ ht-degree: 0%
 <!-- Audited: 5/2025 -->
 
 Adobe Workfront의 일부 개체를 사용하면 서식 있는 텍스트 형식으로 텍스트를 저장할 수 있습니다. Workfront API에서 리치 텍스트는 오픈 소스 프레임워크 Draft.js를 사용하여 JSON으로 저장됩니다.
+
+>[!NOTE]
+>
+>이 문서에 설명된 서식 있는 텍스트 필드는 &quot;서식 있는 텍스트&quot; 필드입니다. 이 필드 유형은 더 이상 새 필드에 추가할 수 없으며 기존 필드는 &quot;리치 텍스트&quot; 필드 유형으로 변환해야 합니다.
+> 
+>새 리치 텍스트 필드는 컨텐츠를 HTML으로 저장하지만 필드 편집기에 적용된 스타일은 저장하지 않습니다. 스토리지에서 스타일 정보를 제거하면 예기치 않은 UI 문제 및 보안 취약성을 방지하는 데 도움이 될 수 있습니다.
 
 ## 개요 예
 

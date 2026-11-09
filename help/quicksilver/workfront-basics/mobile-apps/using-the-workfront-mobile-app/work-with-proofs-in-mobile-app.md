@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront] 모바일 앱에서 증명을 검토하고 결정합니다.
+
+{{mobile-maintenance-mode}}
 
 승인이 필요한 증명이 할당되면 모바일 앱의 승인 목록에 표시됩니다. 앱에서 직접 증명을 검토하고 이에 대한 결정을 내릴 수 있습니다. [!DNL Adobe Workfront]에서 증명을 검토하고 승인하는 방법에 대한 자세한 내용은 [다음 범위 내에서 증명 검토 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)를 참조하십시오.
 

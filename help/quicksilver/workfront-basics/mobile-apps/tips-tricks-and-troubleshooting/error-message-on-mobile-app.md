@@ -22,12 +22,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 5%
 ---
 # [!DNL Adobe Workfront] 모바일 앱에 오류 메시지: &quot;[!UICONTROL 계정이 API를 사용할 수 없습니다.]&quot;
+
+{{mobile-maintenance-mode}}
 
 ## 액세스 요구 사항
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 53015645361082447e0574c4b66388369bbd2f40
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2312'
 ht-degree: 2%
 ---
 # 스니펫
@@ -362,6 +362,12 @@ OLD:
 ## 모바일 증명 - 추가 메뉴 {#mobile-proof-more-menu}
 
 1. 문서 증명을 열고 문서의 오른쪽 상단에 있는 **[!UICONTROL 추가]** 메뉴 ![추가 메뉴](/help/_includes/assets/mobile-verticalmoremenu-20x33.png)를 선택합니다. 그런 다음 **[!UICONTROL 자세히]**&#x200B;를 선택합니다.
+
+## 모바일 - 새로운 개발 없음 {#mobile-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Workfront 모바일 앱은 유지 관리 모드이며 더 이상 새로운 개발이 수행되지 않습니다.
 
 <!-- My Updates -->
 

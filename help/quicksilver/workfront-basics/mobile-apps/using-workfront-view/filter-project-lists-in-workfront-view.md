@@ -22,12 +22,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 6%
 ---
 # [!DNL Adobe Workfront View]의 프로젝트 목록 필터링
+
+{{mobile-maintenance-mode}}
 
 기본적으로 [!DNL Adobe Workfront View]은(는) [!DNL Workfront]에 [!UICONTROL 모든 프로젝트] 목록을 표시하므로 보기 액세스 권한이 있는 모든 프로젝트가 상태와 관계없이 나열됩니다.
 

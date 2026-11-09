@@ -26,12 +26,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '252'
 ht-degree: 0%
 ---
 # API의 리치 텍스트 필드 스토리지
+
+>[!NOTE]
+>
+>이 문서에 설명된 서식 있는 텍스트 필드는 &quot;서식 있는 텍스트&quot; 필드입니다. 이 필드 유형은 더 이상 새 필드에 추가할 수 없으며 기존 필드는 &quot;리치 텍스트&quot; 필드 유형으로 변환해야 합니다.
+> 
+>새 리치 텍스트 필드는 컨텐츠를 HTML으로 저장하지만 필드 편집기에 적용된 스타일은 저장하지 않습니다. 스토리지에서 스타일 정보를 제거하면 예기치 않은 UI 문제 및 보안 취약성을 방지하는 데 도움이 될 수 있습니다.
 
 프로젝트, 문제 또는 작업과 같은 오브젝트에 리치 텍스트가 포함된 경우 Workfront API를 통해 매개 변수 값으로 저장되고 액세스할 수 있습니다.
 

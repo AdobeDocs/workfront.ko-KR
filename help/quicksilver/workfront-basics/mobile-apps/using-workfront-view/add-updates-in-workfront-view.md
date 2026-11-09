@@ -24,12 +24,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 9%
 ---
 # [!DNL Adobe Workfront View]에 업데이트 추가
+
+{{mobile-maintenance-mode}}
 
 [!DNL Adobe Workfront View] 앱에서 검토 중인 프로젝트의 업데이트를 검토하고 추가할 수 있습니다.
 

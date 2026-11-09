@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 1%
 ---
 # 모바일 앱의 [!UICONTROL 내 작업] 섹션
+
+{{mobile-maintenance-mode}}
 
 [!UICONTROL Home] 영역의 [!UICONTROL 내 작업] 섹션에는 작업, 문제, 프로젝트, 승인, 요청 및 타임시트가 표시됩니다.
 

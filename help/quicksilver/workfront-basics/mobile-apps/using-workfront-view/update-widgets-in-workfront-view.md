@@ -21,12 +21,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 4%
 ---
 # [!UICONTROL 프로젝트 세부 정보] 보기에서 위젯 업데이트
+
+{{mobile-maintenance-mode}}
 
 [!UICONTROL 프로젝트 세부 정보] 화면에 위젯을 추가하여 프로젝트 목록에서 [!UICONTROL 프로젝트]에 액세스한 후에 해당 프로젝트에 대한 추가 정보를 볼 수 있습니다. 각 사용자는 자신의 위젯을 사용자 정의할 수 있습니다.
 

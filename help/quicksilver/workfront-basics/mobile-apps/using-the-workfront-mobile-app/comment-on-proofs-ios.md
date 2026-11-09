@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
 ---
 # [!DNL iOS]의 증명에 대한 댓글
+
+{{mobile-maintenance-mode}}
 
 증명에 대한 기존 주석을 검토 및 해결하고, 증명 문서에 새 주석 및 주석을 추가할 수 있습니다.
 

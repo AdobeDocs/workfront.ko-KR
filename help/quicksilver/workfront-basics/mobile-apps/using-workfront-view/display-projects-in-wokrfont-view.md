@@ -22,12 +22,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 5%
 ---
 # [!UICONTROL Adobe Workfront 보기]에서 프로젝트 표시
+
+{{mobile-maintenance-mode}}
 
 기본적으로 [!DNL Adobe Workfront View]에 표시된 프로젝트 목록에는 가장 최근 100개의 활성 프로젝트가 표시됩니다. 프로젝트 목록은 기준별로 그룹화되지 않습니다.
 

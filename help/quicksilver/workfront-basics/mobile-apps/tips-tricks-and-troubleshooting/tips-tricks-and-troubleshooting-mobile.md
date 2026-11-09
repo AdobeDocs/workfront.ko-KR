@@ -21,12 +21,14 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront] 모바일 앱에 대한 팁, 요령 및 문제 해결
+
+{{mobile-maintenance-mode}}
 
 이 섹션에는 다음 문서가 포함됩니다.
 

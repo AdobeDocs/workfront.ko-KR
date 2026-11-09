@@ -20,12 +20,14 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 4%
 ---
 # [!DNL iOS]에 대한 [!DNL Adobe Workfront]
+
+{{mobile-maintenance-mode}}
 
 [!DNL Adobe Workfront] 앱을 사용하면 [!DNL iOS] 장치에서 작업에 액세스할 수 있습니다. iOS 10 이상을 실행하는 휴대폰 및 태블릿에 [!DNL Workfront] 모바일 앱을 설치하고 사용할 수 있습니다. 전용 [!DNL Workfront] 모바일 앱은 [!DNL iPhone]과(와) [!DNL iPad] 모두에서 사용할 수 있습니다.
 
