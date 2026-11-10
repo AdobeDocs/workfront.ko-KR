@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1097'
 ht-degree: 1%
 ---
 
@@ -129,7 +129,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 * Coworker를 통해 개체를 만들거나 업데이트하거나 삭제할 때 Coworker는 의도한 작업을 표시하고 확인을 요청합니다. 그런 다음 작업을 확인하거나 취소할 수 있습니다.
 
-## 현재 Coworker에서 사용할 수 있는 기능
+## Workfront Planning의 Coworker에서 현재 사용할 수 있는 기능
 
 현재 Coworker는 Workfront의 계획 영역에서 사용할 수 있으며 일련의 기술을 사용하여 Planning 객체의 정보에 액세스하고 이를 조작합니다. 자세한 내용은 [CX Enterprise Coworker의 Workfront 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)을 참조하세요.
 
@@ -137,14 +137,16 @@ Coworker를 사용하여 다음 작업을 수행할 수 있습니다.
 
 * 레코드를 검색합니다. 레코드 필드에 포함된 정보별로 검색할 수 있습니다.
 * 레코드를 만듭니다. 새 레코드에 대한 링크가 있는 ID는 레코드가 생성된 후에 표시됩니다. 생성 프로세스 중에 업데이트할 날짜 또는 설명 등의 필드를 지정할 수 있습니다.
-* 업로드한 문서를 기반으로 레코드를 만듭니다. Workfront은 Coworker에 대해 다음 문서 형식을 지원합니다.
+* 업로드한 문서를 기반으로 레코드를 만듭니다. Workfront은 Coworker에 첨부할 다음 문서 형식을 지원합니다.
 
   PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT 및 대부분의 이미지 형식
 * 화면에 표시되는 레코드의 필드를 업데이트합니다.
 * 레코드 삭제, 복제 또는 복원
 * 다른 레코드에 레코드 연결
 * 레코드의 변경 내역 보기
-* Excel 파일을 Coworker에 첨부하여 10,000개 이상의 레코드를 가져옵니다.
+* Excel 파일을 Coworker에 첨부하여 10,000개 이상의 레코드 가져오기
+* 비즈니스 규칙 만들기 및 관리
+
 
 ## Workfront Planning에서 동료 찾기
 

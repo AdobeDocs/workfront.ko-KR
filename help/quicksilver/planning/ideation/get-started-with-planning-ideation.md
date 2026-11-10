@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1311'
 ht-degree: 0%
 ---
 
@@ -68,43 +68,61 @@ Adobe Ideation 공간은 Adobe Planning에 직접 내장된 Workfront의 AI 기�
 
 Workfront Planning 또는 Workfront 메인 메뉴에서만 액세스할 수 있는 관념화 공간은 계획, 프로덕션 및 게재를 수행하기 전에 캠페인 라이프사이클의 맨 앞에 있으며 팀이 작업을 계획하고 실행하는 Workfront Planning 작업 공간으로 직접 유입됩니다.
 
-Ideation 공백은 Enterprise CX Coworker을 활용하여 나중에 Planning 레코드로 변환하거나 PDF로 다운로드할 수 있는 브리핑을 생성합니다.
+관념화 공간은 Adobe Enterprise CX Coworker을 활용하여 나중에 Planning 레코드로 변환하거나 PDF로 다운로드할 수 있는 브리핑을 생성합니다.
 
 ## 제품 가용성
 
 변경될 수 있는 관념화 공간에 대한 계획된 릴리스 타임라인에는 다음 이정표가 포함됩니다.
 
 * **마감된 Beta:** 적은 수의 고객을 위해 2026년 7월에 출시되었습니다.
+
+  참여 고객은 프로덕션 환경에서 관념화 공간을 사용할 수 있습니다.
 * **Beta 열기:**&#x200B;은(는) 2026년 11월 12일을 대상으로 합니다. 이는 옵트인 오퍼이며, 이 오퍼에서 적극적으로 옵트아웃하지 않고 옵션을 적극적으로 켜야 합니다.
+
+  관념화 공간은 프로덕션, 미리보기 및 샌드박스 환경에서 다른 모든 요구 사항을 충족하는 모든 고객을 위해 사용할 수 있습니다.
+
 * **일반 가용성:**, 2027년 2월 1일 대상.
 
 ## 제품 요구 사항
 
-조직과 사용자가 다음 제품에 액세스할 수 있는 경우 Ideation 공간에 액세스할 수 있습니다.
-
-* Workfront Planning을 사용한 Adobe Workfront
-* 엔터프라이즈 CX Coworker
-
-  >[!IMPORTANT]
-  >
-  >현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Enterprise Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있지만 CX Coworker이 없는 Workfront 고객은 관념화 공간을 사용할 수 없습니다.
-
-Ideation 스페이스에 액세스할 때에 따라 다음 패키지에 액세스할 수 있어야 합니다.
-
-* Beta 오픈 릴리스 동안 다음 항목이 있어야 합니다.
-
-  * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
-
-* GA 이후에는 다음 중 하나가 있을 수 있습니다.
-
-  * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
-  * 독립형 제품으로서의 Adobe Workfront Planning
+<!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
 >[!NOTE]
 >
->관념화 공간은 Workfront 주 메뉴 또는 Workfront Planning에서만 액세스할 수 있습니다. Ideation 공간에 액세스하려면 별도의 로그인이 필요하지 않습니다. Workfront에 로그인할 수 있으면 즉시 사용할 수 있습니다.
+>Ideation 공간에 액세스하려면 별도의 로그인이 필요하지 않습니다. Workfront Planning도 있는 경우 Workfront에 로그인할 수 있으면 즉시 사용할 수 있습니다.
+>
+>Ideation 공간을 사용하는 데 필요한 액세스에 대한 자세한 내용은 [Ideation 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)를 참조하십시오.
 
-Ideation 공간을 사용하는 데 필요한 액세스에 대한 자세한 내용은 [Ideation 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)를 참조하십시오.
+조직에서 다음에 액세스할 수 있는 경우 관념화 공간에 액세스할 수 있습니다.
+
+* 클라우드 공급자:
+
+  * AWS
+
+    Azure 및 GCP 공급자는 지원되지 않습니다.
+
+* 제품:
+
+  * Workfront Planning을 사용한 Adobe Workfront
+  * Workfront용 Adobe Enterprise CX Coworker
+
+    >[!IMPORTANT]
+    >
+    >현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 Adobe CX Enterprise Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있지만 Coworker가 없는 Workfront 고객은 Ideation 공간을 사용할 수 없습니다.
+
+* Adobe 패키지:
+
+  * Open Beta 릴리스(2026년 11월 12일부터 시작) 동안 다음 사항이 있어야 합니다.
+
+    * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
+
+  * GA(2027년 2월 1일 출시) 이후에는 다음 중 하나가 제공될 수 있습니다.
+
+    * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
+    * 독립형 제품으로서의 Adobe Workfront Planning
+
+
+
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -154,13 +172,24 @@ Too much:
   * 예를 들어 직접 캠페인 내역 없이 새 제품, 세그먼트 또는 이니셔티브를 시작할 때 캠페인을 만들 수 있습니다.
   * 이렇게 하면 안내가 있는 관념화, 권장 채널 믹스 및 초기 개념이나 메시지 지침을 통해 완전히 새로운 브리핑이 생성됩니다.
 
-## 관념화 공간 개요
+## 관념화 공간 및 Adobe CX Enterprise Coworker
 
-관념화 공간은 브랜드 및 제품 마케터가 더 강력한 캠페인을 더 빠르고 더 나은 팀 정렬로 구축할 수 있는 협업 전략 마케팅 관념화 도구입니다. 과거 브리프, 성과 데이터, 대상 통찰력, 브랜드 지침 및 기존 캠페인 자산과 같은 실제 마케팅 컨텍스트에서 AI 제안을 기반으로 하므로 결과는 일반적이지 않고 관련성이 있습니다.
+관념화 공간은 Adobe CX Enterprise Coworker을 프롬프트 인터페이스로 사용합니다.
 
-다음은 브리프를 만들 때 아이디어를 최대한 활용하는 방법에 대한 몇 가지 예입니다.
+사용자는 후속 질문을 하고 일회성 결과를 얻기보다는 짧은 대화를 개선할 수 있습니다.
 
-* 문서 또는 소셜 의견 수렴 인사이트 업로드
+개요 가 라이브 Workfront Planning 레코드와 연결되면 Coworker는 기본 계획이 그대로 유지되도록 덮어쓰기를 보류합니다. 브리핑을 Workfront Planning으로 내보낼 때만 레코드가 재정의됩니다.
+
+<!--
+Previous intro but oped for the more direct one above: 
+The Ideation space is a collaborative strategic marketing ideation tool for brand and product marketers to build stronger campaigns faster and with better team alignment. It grounds AI suggestions in real-marketing context — past briefs, performance data, audience insights, brand guidelines, and existing campaign assets — so results are relevant, not generic.
+
+Ideation space works exclusively with the CX Enterprise Coworker for Workfront as the prompting agent for all its capabilities. 
+-->
+
+다음은 관념화 공간에서 사용할 때 Coworker의 기능 중 일부입니다.
+
+* 문서 또는 소셜 인사이트 업로드
 * 작성 중인 개요와 관련된 웹 콘텐츠에 액세스
 * 캠페인 목표 정의
 * 대상자 인사이트 요약 가져오기
@@ -169,7 +198,7 @@ Too much:
 * AI 프롬프트를 사용하여 텍스트, 이미지, 파일, 차트 및 insight 카드를 생성하여 큰 시각적 캔버스에서 작업
 * 카드를 구성, 수정 및 확장하여 최종적으로 캠페인 브리핑으로 번역할 수 있습니다
 * 간단한 작업을 완료하기 전에 아이디어를 추가하거나 특정 캔버스 항목에 주석을 달거나 자유 형식 아이디어에 스티커 메모를 사용할 수 있는 여러 사용자와 공동 작업하십시오
-* 관념화 공간을 사용할 때는 다음 모범 사례를 권장합니다.
+* 관념화 공간에서 Coworker를 사용할 때는 다음 모범 사례를 권장합니다.
 
   * **고유해야**. 캠페인 설명이 풍부하면 보다 관련성이 높고 근거가 좋은 카드가 생성됩니다.
   * **완료하기 전에 확인**. AI에서 생성한 응답이 정확하지 않을 수 있으므로 레코드를 완료하기 전에 항상 카드에서 **소스**&#x200B;를 확인하고 연결된 소스를 확인하십시오.
@@ -181,6 +210,8 @@ Too much:
 
 1. 이 문서의 [제품 요구 사항](#product-requirements) 섹션에 설명된 대로 제품 요구 사항을 충족하는지 확인하십시오.
 1. 폐쇄된 Adobe 참여에 대한 관심을 표명하거나 가능한 경우 Open Beta에 참여하려면 Beta 계정 담당자에게 문의하십시오.
+
+   시스템 관리자는 기본적으로 관념화 공간에 액세스할 수 있으며 Open Beta에서 사용할 수 있게 되면 이를 제거할 수 없습니다. 다른 모든 사용자에 대해 이 기능을 켤 수 있습니다.
 1. (권장) 첫 번째 캠페인(새로 고칠 최근 캠페인 또는 처음부터 새로 만들 새 캠페인)을 식별합니다.
 
 관념화 공간 사용에 대한 자세한 내용은 다음 문서를 참조하십시오.
@@ -200,9 +231,10 @@ Too much:
 
   ![주 메뉴의 관념화 공간 영역](assets/ideation-space-area-icon-in-main-menu.png)
 
-  >[!TIP]
-  >
-  >레이아웃 템플릿을 사용하여 기본 메뉴에서 관념화 공간 영역을 제거할 수 없습니다. 사용자가 관념화 공간에 액세스할 수 없도록 하려면 [관념화 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)에 설명된 대로 자신의 액세스 수준에서 관념화 공간 사용 안 함 설정을 켜야 합니다.
+>[!TIP]
+>
+>레이아웃 템플릿을 사용하여 기본 메뉴에서 관념화 공간 영역을 제거할 수 없습니다. 사용자가 관념화 공간에 액세스하지 못하도록 차단하는 방법에 대한 자세한 내용은 [관념화 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)를 참조하십시오.
+>
 
 ## 관념화 공간에 의해 생성된 객체
 
@@ -214,14 +246,6 @@ Too much:
 * 계획 레코드
 
   Workfront Planning에서 관념화 공간에 액세스하거나 이전에 Planning 레코드를 관념화 요약에 연결한 경우에만 요약 정보를 Planning 레코드로 내보낼 수 있습니다.
-
-## 관념화 공간 및 Adobe CX Enterprise Coworker
-
-관념화 공간은 Adobe의 CX Enterprise Coworker을 프롬프트 인터페이스로 사용합니다.
-
-사용자는 후속 질문을 하고 일회성 결과를 얻기보다는 짧은 대화를 개선할 수 있습니다.
-
-개요 가 라이브 Workfront Planning 연결에 연결되면 Coworker는 기본 계획이 그대로 유지되도록 덮어쓰기를 보류합니다. <!--Et to check on this, it might be overwritten. -->
 
 <!--
 **************** CONSIDER INCLUDING THIS INFORMATION FROM JESH BARLOW ABOUT COWORKER IN CATALYZE?? - https://adobecorpdev.slack.com/archives/C091C0Y735W/p1788917610365089?thread_ts=1788917251.550099&cid=C091C0Y735W
@@ -258,13 +282,15 @@ Worth noting
 *************************************
 -->
 
-## 추가 리소스
+<!--
+## Additional resources
 
-* [Adobe Workfront 캠페인 계획](https://business.adobe.com/kr/products/workfront/campaign-planning.html)
-* [Adobe Workfront Planning 설명서](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio 개요](https://business.adobe.com/kr/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/kr/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
+* [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
+-->
 
 <!--
 

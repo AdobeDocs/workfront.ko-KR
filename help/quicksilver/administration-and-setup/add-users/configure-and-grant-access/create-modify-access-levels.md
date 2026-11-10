@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e1ed15278689476313ad690a00803022d413418b
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1625'
 ht-degree: 8%
 ---
 # 사용자 정의 액세스 수준 만들기 및 수정
@@ -233,11 +233,35 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
      <tr> 
       <td role="rowheader">사용자가 공지를 삭제하도록 허용하지 않음</td> 
       <td>사용자가 공지 센터에서 공지를 삭제하지 못하도록 합니다. 자세한 내용은 <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">공지 보내기</a>를 참조하십시오.</td> 
-     </tr> 
-     <tr>
+     </tr>
+
+   <tr>
+      <td role="rowheader">Workfront에서 CX Coworker 패널 비활성화</td> 
+      <td>
+      <p>사용자가 Coworker 패널에 액세스할 수 있도록 하려면 이 설정을 선택합니다.</p> 
+      <p>이 옵션은 기본적으로 선택되어 있습니다.</p>
+      <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md" class="MCXref xref">Workfront에서 CX Enterprise Coworker 사용</a>을 참조하세요.</p>
+      <p><b>참고:</b></p>
+      <p>모든 고객이 Coworkere에 액세스할 수 있는 것은 아닙니다.</p>
+      </td> 
+     </tr>
+
+   <tr>
       <td role="rowheader">사용자가 브랜드에 액세스할 수 있도록 허용</td> 
       <td>사용자가 Workfront에서 GenStudio 브랜드에 액세스하고 관리할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">브랜드 사용 권한에 대한 액세스 권한 부여</a>를 참조하십시오.</td> 
      </tr>
+    <!--
+    <tr>
+      <td role="rowheader">Disable Ideation space</td> 
+      <td>
+      <p>Select this setting to allow users to access Ideation space.</p> 
+      <p>This is selected by default.</p>
+      <p>For more information, see <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Get started with Ideation space for Adobe Workfront Planning </a>.</p>
+      <p><b>NOTE:</b></p>
+      <p>Available in Beta only for customers who also have a Workfront Planning package.</p>
+      </td> 
+     </tr>
+    -->
     </tbody> 
    </table>
 

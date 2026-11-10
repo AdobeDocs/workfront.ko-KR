@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '993'
 ht-degree: 0%
 ---
 
@@ -36,12 +36,10 @@ THIS ARTICLE HAS 2 DRAFTS IN 2 SEPARATE AREAS FROM CLAUDE - THEY WERE CREATED AT
 
 <span class="preview">자세한 내용은 [Adobe Workfront Planning의 Ideation 공간 시작](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)을 참조하십시오.</span>
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. **관념화 공간 Beta** 프로그램의 일부로서만 사용할 수 있습니다. </span>\
-</span>
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe Workfront Planning을 참조합니다. Workfront Planning에 액세스하려면 회사에서 추가 Planning 패키지를 구매해야 합니다.
+>이 문서의 정보는 Adobe Workfront Planning을 가지고 있는 Workfront 고객에게만 제공되는 기능을 나타냅니다. 회사에서 추가 Planning 패키지를 구매해야 합니다.
 >
 >여기에 설명된 기능은 조직이 Workfront Planning을 독립형 제품으로 구입한 경우에는 사용할 수 없습니다.
 >
@@ -84,29 +82,41 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>클라우드 공급자 요구 사항</p></td> 
+   <td><p>AWS</p>
+   <p><b>참고:</b></p>
+   <p>다른 클라우드 공급자는 지원되지 않습니다</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <ul> 
-<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
+<li><p>Planning 패키지가 있는 모든 워크플로우</p></li>
 <!--
-Not available for beta:
+Add this at GA - not available in beta:
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li>
 -->
 </ul>
    </td> 
-    <!--
-    <tr> 
-    <td role="rowheader"><p>Additional products</p></td> 
-    <td><ul>
-    <li><p>Adobe GenStudio for Performance Marketing</p></li>
-    <li><p>Adobe Customer Journey Analytics</p></li>
-    </ul>
-    </td> 
-    </tr> 
-    -->
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
+<tr> 
+   <td role="rowheader"><p>시스템 요구 사항</p></td> 
+   <td><p>설정 영역의 시스템 환경 설정에서 동료 및 MCP 환경 설정 을 켜야 합니다.</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workflow 라이선스</p></td> 
    <td><p>표준</p>
@@ -116,20 +126,24 @@ Or
    <td role="rowheader"><p>Adobe Planning 라이선스</p></td> 
    <td><p>표준</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
    <td> 
    <ul>
-   <li><p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   </li>
+   <li><p>액세스 수준에 워크플로 및 Planning 라이선스 유형을 모두 추가해야 합니다. <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>액세스 수준의 관념화 공간 사용 안 함 설정을 선택 해제해야 합니다.</p></li>
+   <li><p>액세스 수준의 Workfront에서 CX Coworker 패널 비활성화 설정을 선택 취소해야 합니다</p></li></ul>
 </td> 
   </tr>  
    <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td> <p>레코드를 추가할 작업 영역 및 레코드 유형에 대한 또는 그 이상의 사용 권한을 부여합니다. </p>
       <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
-      <p>Workfront 개체에 대한 권한을 보고 Brief에 추가 <!--not sure if this is available--></p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
       <p>브리프를 만들 수 있는 편집 공간 권한</p>
    </td> 
   </tr>  
@@ -138,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -148,7 +162,7 @@ Or
 
 Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++   
++++  
 
 ## Planning 레코드를 만들거나 편집하기 위해 Ideation 공간을 사용하는 것에 대한 고려 사항
 
@@ -186,7 +200,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    새 탭에서 관념화 공간이 열립니다.
 
-   CX Coworker이 오른쪽 패널에서 열립니다.
+   오른쪽 패널에서 동료가 열립니다.
 
    레코드는 자리 표시자 이름으로 즉시 만들어집니다.
 
@@ -194,7 +208,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
-1. **CX Coworker** 대화 상자에 프롬프트를 추가한 다음 Enter 키를 누릅니다.
+1. **Coworker** 대화 상자에 프롬프트를 추가한 다음 Enter 키를 누릅니다.
 
    세부 정보를 공유하면 할수록 관념화 공간에서 제공하는 정보가 더 유용할 것이다. 예를 들어 계획하고 있는 캠페인에 대한 설명을 입력합니다. &quot;마케팅 에이전시의 Back to school campaign&quot;.
 

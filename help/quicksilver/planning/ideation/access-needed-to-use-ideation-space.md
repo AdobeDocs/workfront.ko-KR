@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 0%
+source-wordcount: '931'
+ht-degree: 1%
 ---
 
 # 관념화 공간을 사용하는 데 필요한 액세스 권한
@@ -32,12 +32,9 @@ ht-degree: 0%
 <span class="preview">자세한 내용은 [Adobe Workfront Planning의 Ideation 공간 시작](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)을 참조하십시오.</span>
 
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. **관념화 공간 Beta** 프로그램의 일부로서만 사용할 수 있습니다. </span>\
-</span>
-
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe Workfront Planning을 참조합니다. Workfront Planning에 액세스하려면 회사에서 추가 Planning 패키지를 구매해야 합니다.
+>이 문서의 정보는 Adobe Workfront Planning을 가지고 있는 Workfront 고객에게만 제공되는 기능을 나타냅니다. 회사에서 추가 Planning 패키지를 구매해야 합니다.
 >
 >여기에 설명된 기능은 조직이 Workfront Planning을 독립형 제품으로 구입한 경우에는 사용할 수 없습니다.
 >
@@ -62,7 +59,7 @@ Future - when they make it available in Planning: replace the above with this OR
 
 이제 Adobe Workfront Planning에서는 캠페인을 시작하기 전에 식별할 수 있는 추가 기능을 제공합니다.
 
-Ideation Space를 사용하는 경우 Adobe Enterprise CX Coworker 대화 기능 을 활용하여 데이터를 변환하고 입력을 유형 플랜으로 변환하여 빈 페이지가 아닌 정보를 기반으로 팀에 시작점을 제공할 수 있습니다.
+Workfront에서 관념화 공간을 사용하는 경우 Workfront에 있는 Adobe Enterprise CX Coworker의 대화 기능을 활용하여 데이터 및 직접 입력을 유형 계획으로 변환하고 빈 페이지가 아닌 정보를 기반으로 팀에 시작점을 제공할 수 있습니다.
 
 이 문서에서는 Workfront Planning에서 Ideation 공간에 액세스하는 데 필요한 액세스 및 권한에 대해 설명합니다.
 
@@ -70,29 +67,41 @@ Ideation Space를 사용하는 경우 Adobe Enterprise CX Coworker 대화 기능
 
 ## 제품 요구 사항
 
-관념화 공간은 독립 실행형 제품이 아니라 Adobe Workfront Planning의 추가 기능입니다.
-
-조직과 사용자가 다음 제품에 액세스할 수 있는 경우 Ideation 공간에 액세스할 수 있습니다.
-
-* Workfront Planning을 사용한 Adobe Workfront
-* 엔터프라이즈 CX Coworker
-
-Ideation 스페이스에 액세스할 때에 따라 다음 패키지에 액세스할 수 있어야 합니다.
-
-* Beta 오픈 릴리스 동안 다음 항목이 있어야 합니다.
-
-  * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
-
-* GA 이후에는 다음 중 하나가 있을 수 있습니다.
-
-  * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
-  * 독립형 제품으로서의 Adobe Workfront Planning
+<!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
 >[!NOTE]
 >
->관념화 공간은 Workfront 주 메뉴 또는 Workfront Planning에서만 액세스할 수 있습니다. Ideation 공간에 액세스하려면 별도의 로그인이 필요하지 않습니다. Workfront에 로그인할 수 있으면 즉시 사용할 수 있습니다.
+>Ideation 공간에 액세스하려면 별도의 로그인이 필요하지 않습니다. Workfront Planning도 있는 경우 Workfront에 로그인할 수 있으면 즉시 사용할 수 있습니다.
+>
+>Ideation 공간을 사용하는 데 필요한 액세스에 대한 자세한 내용은 [Ideation 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)를 참조하십시오.
 
-Ideation Space의 릴리스 단계에 대한 자세한 내용은 [Adobe Workfront Planning의 Ideation Space 시작](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)을 참조하십시오.
+조직에서 다음에 액세스할 수 있는 경우 관념화 공간에 액세스할 수 있습니다.
+
+* 클라우드 공급자:
+
+  * AWS
+
+    Azure 및 GCP 공급자는 지원되지 않습니다.
+
+* 제품:
+
+  * Workfront Planning을 사용한 Adobe Workfront
+  * Workfront의 CX Enterprise Coworker
+
+    >[!IMPORTANT]
+    >
+    >현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Enterprise Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있지만 Coworker가 없는 Workfront 고객은 Ideation 공간을 사용할 수 없습니다.
+
+* Adobe 패키지:
+
+  * Open Beta 릴리스(2026년 11월 12일부터 시작) 동안 다음 사항이 있어야 합니다.
+
+    * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
+
+  * GA(2027년 2월 1일 출시) 이후에는 다음 중 하나가 제공될 수 있습니다.
+
+    * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
+    * 독립형 제품으로서의 Adobe Workfront Planning
 
 
 <!--
@@ -127,15 +136,26 @@ Workfront의 관념화 공간에 액세스하려면 다음 설정이 필요합�
 
   >[!IMPORTANT]
   >
-  >현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Enterprise Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있습니다. 그러나 CX Coworker이 없는 Workfront 고객은 관념화 공간을 사용할 수 없습니다.
-
-* 액세스 수준의 추가 제한 설정 섹션에서 관념화 공간 사용 안 함 설정을 선택 취소합니다.
-
-  >[!TIP]
+  >현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Enterprise Coworker을 사용할 수 없습니다.
   >
-  >Workfront 관리자는 액세스 수준에서 관념화 공간 비활성화 설정을 선택 해제하여 특정 사용자에 대한 관념화 공간 액세스를 제한할 수 있습니다.
+  >이러한 조직에서는 AI Assistant를 사용할 수 있습니다.
+  >
+  >Coworker가 없지만 AI Assistant가 있는 Workfront 고객은 관념화 공간을 사용할 수 없습니다.
 
-  자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
+* 사용자 액세스 수준의 추가 제한 설정 섹션에서 다음 설정을 선택 취소합니다.
+
+  * Workfront에서 CX Coworker 패널 비활성화
+  * 구상 공간 비활성화
+
+    >[!TIP]
+    >
+    >Workfront 관리자는 액세스 수준에서 관념화 공간 비활성화 설정을 선택 해제하여 특정 사용자에 대한 관념화 공간 액세스를 제한할 수 있습니다.
+    >
+    > 시스템 관리자는 항상 관념화 공간에 액세스할 수 있습니다.
+    >
+    >자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
+
+
 
 ## 라이센스 요구 사항
 
@@ -147,13 +167,13 @@ Ideation Space에 액세스하려면 Workfront 액세스 수준에 다음 라이
   * Open Beta 기간 동안의 워크플로우 및 계획 패키지
   * 일반 공급 후 워크플로우 및 계획 패키지 또는 독립형 제품인 Workfront Planning.
 
-## Workfront 권한 요구 사항
+## Workfront Planning 권한 요구 사항
 
 Workfront Planning의 관념화 공간을 사용하는 경우 각 Planning 레코드는 관념화 공간의 한 간결에 연결됩니다.
 
 관념화 공간 개요 권한은 Workfront Planning 레코드 권한에서 상속됩니다. <!--not sure if this is right, because now you can share the ideation with others??-->
 
-Planning에서 기록 유형에 대해 Contribute 이상의 권한을 가지고 있어야 ideation Space에서 기록을 만들거나 편집할 수 있습니다.
+Ideation 공간에서 레코드를 만들거나 편집하려면 Planning에서 레코드 유형에 대해 Contribute 이상의 권한이 있어야 합니다.
 
 레코드에 대한 보기 권한이 있는 Planning 사용자는 레코드의 아이디어 공간을 볼 수 있습니다.
 
@@ -162,7 +182,7 @@ Planning에서 기록 유형에 대해 Contribute 이상의 권한을 가지고 
 | 레코드 수준 권한 계획 | 관념화 공간 개요 수준 권한 |
 |---|---|
 | 레코드에 대한 또는 더 높은 권한 기여 | 레코드의 관념화 공간에 간단한 설명을 만들 수 있습니다. |
-| 레코드에 대한 권한 보기 | 관념화 공간에서 해당 레코드의 개요를 읽을 수 있지만 수정할 수는 없습니다 |
+| 레코드에 대한 권한 보기 | 관념화 공간에서 레코드의 간략한 내용을 읽을 수 있지만 수정할 수는 없습니다. |
 
 ## 관념화 공간 권한
 
@@ -174,9 +194,9 @@ Planning에서 기록 유형에 대해 Contribute 이상의 권한을 가지고 
 
 다음 사항을 고려하십시오.
 
-* 아이디어 생성자는 항상 자신의 아이디어에 대한 편집기 권한을 가집니다.
+* 관념적 개요 작성자는 항상 자신의 개요 작성자에 대한 편집자 권한을 가집니다.
 
-* 브리프를 만들고 다른 응용 프로그램으로 내보내려면 아이디어 공간에 대한 편집기 권한이 있어야 합니다.
+* 브리프를 만들어 Planning 또는 파일로 내보내려면 아이디어 공간에 대한 편집기 권한이 있어야 합니다.
 
 다음은 관념화 공간 권한 및 이들이 제공하는 기능입니다.
 

@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '169'
 ht-degree: 1%
 ---
 # Beta 프로그램
@@ -49,13 +49,13 @@ Beta에서 사용할 수 있는 기능은 일부 고객에게는 제공되지 �
 
   자세한 내용은 [Workfront 콘텐츠 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)을 참조하세요.
 
-* Adobe Workfront Planning Designer은 모든 고객이 Beta로 사용할 수 있습니다.
+* Adobe Workfront 계획 Designer
 
   자세한 내용은 [Adobe Workfront Planning Designer 시작](/help/quicksilver/planning/general/planning-ai-designer.md)을 참조하십시오.
 
 <!--
 
-* Ideation space for Adobe Workfront Planning is available in Open beta.
+* Ideation space for Adobe Workfront Planning 
 
     For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
 -->
