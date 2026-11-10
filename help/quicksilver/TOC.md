@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 3bc7dd1ed87bb99e08183a82dcd38ff65a14b73b
 workflow-type: tm+mt
-source-wordcount: '14762'
+source-wordcount: '14769'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -2345,6 +2345,7 @@ ht-degree: 2%
   * {hide-from-toc}Workfront Planning의 관념화 공간 {#ideation}
     * {hide-from-toc}[Adobe Workfront Planning의 Ideation 공간: 문서 색인](planning/ideation/planning-ideation-article-index.md)
     * {hide-from-toc}[Adobe Workfront Planning의 Ideation 공간 시작](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[Ideation 공간을 사용하는 데 필요한 액세스](planning/ideation/access-needed-to-use-ideation-space.md)
     * {hide-from-toc}[Ideation 공간에 Brief 만들기](planning/ideation/create-briefs-in-ideation-space.md)
     * {hide-from-toc}[Ideation Space Brief에서 계획 레코드를 만듭니다](planning/ideation/create-records-in-ideation-space-for-planning.md)
     * {hide-from-toc}[다른 사용자와 관념화 공간 공유](planning/ideation/share-the-ideation-space.md)
