@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: fff5e72b80bf72d3da5648dcce2109c518beb741
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1811'
 ht-degree: 1%
 ---
 # [!DNL SharePoint] 통합 구성
@@ -146,7 +146,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 조직의 [!DNL SharePoint] 통합을 보고 관리하려면:
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
+1. Workfront 왼쪽 상단의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)를 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL [!DNL SharePoint]통합]**&#x200B;을 선택합니다.
 
    조직의 [!DNL SharePoint] 통합 목록이 나타납니다.
@@ -171,7 +171,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 다음 권한이 요청됩니다.
 
 | 액세스 | 이유 |
-|---|---|
+| --- | --- |
 | 파일에 대한 전체 액세스 권한 보유 | [!DNL Workfront]이(가) 사용자의 파일에 액세스하여 자산을 연결할 수 있도록 허용합니다. 문서를 [!DNL Workfront]에서 [!DNL SharePoint]&#x200B;(으)로 보낼 때 [!DNL Workfront]은(는) 에셋을 만들 수 있는 액세스 권한이 필요합니다. |
 | 모든 사이트 모음의 항목 읽기 | [!DNL Workfront]이(가) 에셋을 읽어서 사용자 탐색을 사용하도록 허용합니다. |
 | 모든 사이트 모음의 항목 편집 또는 삭제 | [!DNL Workfront]에서 사이트 및 사이트 모음에 자산을 만들 수 있습니다. 삭제는 실패한 링크 시도 후 정리할 때만 사용됩니다. |
@@ -209,9 +209,9 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 > * 기존 [!DNL SharePoint] 통합에는 &quot;[!DNL SharePoint]&quot; 레이블이 지정됩니다.
 > * 새 [!DNL SharePoint] 통합에는 &quot;[!UICONTROL [!DNL SharePoint]&#x200B;(Graph API)]&quot; 레이블이 지정됩니다.
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
+1. Workfront 왼쪽 상단의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)를 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL 클라우드 공급자]**&#x200B;를 선택하십시오.
-1. **[!DNL SharePoint]** 옵션과 **[!UICONTROL [!DNL SharePoint] (Graph API)]** 옵션이 모두 활성화되어 있는지 확인하십시오.
+1. **[!DNL SharePoint]** 옵션과 **[!UICONTROL [!DNL SharePoint](Graph API)]** 옵션이 모두 활성화되어 있는지 확인하십시오.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL [!DNL SharePoint]통합]**&#x200B;을 선택합니다.
 1. 기존의 모든 통합에 대해 목록의 왼쪽에 있는 확인 표시를 선택한 다음 **[!UICONTROL 사용 안 함]**&#x200B;을 선택합니다.
@@ -235,7 +235,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 1. [추가 기능 [!DNL SharePoint] 에서 만료되는 클라이언트 암호 바꾸기](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)에 설명된 대로 새 클라이언트 암호를 생성합니다.
 1. 이 클라이언트 암호를 안전한 위치에 복사합니다.
 1. [!DNL Workfront]에 관리자로 로그인합니다.
-1. Workfront에서 Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
+1. Workfront에서 왼쪽 상단의 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 1. 왼쪽 패널에서 **[!UICONTROL 문서]** > **[!UICONTROL [!DNL SharePoint]통합]**&#x200B;을 클릭합니다.
 1. 업데이트할 [!DNL SharePoint] 통합을 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 1. 편집 창에서 **연결 정보** 섹션을 찾은 다음 **[!UICONTROL SharePoint 클라이언트 암호]** 필드에 새 클라이언트 암호를 입력합니다.
