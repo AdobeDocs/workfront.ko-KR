@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 5%
 ---
 # 보드 삭제 또는 보관
+
+{{boards-maintenance-mode}}
 
 [!DNL Workfront]에서 보드를 삭제하거나 보관할 수 있습니다. 보드를 삭제하면 [!DNL Workfront]에서 영구적으로 제거되지만 보드를 보관하면 모든 카드가 유지되며 나중에 복원할 수 있습니다.
 

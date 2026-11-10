@@ -28,16 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '579'
 ht-degree: 4%
 ---
 # [!DNL Workfront] 보드에 기존 작업 또는 문제 추가
 
->[!IMPORTANT]
->
->작업 스트림은 특정 고객 그룹만 사용할 수 있습니다.
+{{boards-workstreams}}
 
 목록이나 보고서 보기 또는 개체 세부 정보에서 [!DNL Adobe Workfront]의 보드나 워크플로에 작업이나 문제를 추가할 수 있습니다.
 

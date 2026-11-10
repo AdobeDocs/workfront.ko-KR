@@ -1,7 +1,7 @@
 ---
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2437'
 ht-degree: 2%
 ---
 # 스니펫
@@ -131,6 +131,24 @@ Add snippets within the section that the snippet is used. Snippets that are used
 ## 1단계 - 게시판으로 가기 - {#step1-to-boards}
 
 1. Adobe Workfront 왼쪽 상단의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 게시판]**&#x200B;을 클릭합니다.
+
+## 보드 - 유지 관리 모드 {#boards-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Workfront Boards는 현재 새로운 개발이 진행되고 있지 않습니다.
+
+## 보드 - 작업 스트림을 사용할 수 없음 {#boards-workstreams}
+
+>[!IMPORTANT]
+>
+>Workfront Boards는 현재 새로운 개발이 진행되고 있지 않습니다.
+> 
+>보드의 작업 스트림 기능은 더 이상 사용되지 않지만 이미 사용 중인 고객이 사용할 수 있습니다.
+>
+>* 더 이상 지원되지 않으므로 워크스트림을 사용하지 않는 것이 좋습니다.
+>* 보드 대시보드에 작업 스트림 탭이 없는 경우 작업 스트림을 추가할 수 없습니다.
+>* 작업 스트림에 액세스할 수 있는 경우 새 작업 스트림을 추가하고 기존 작업 스트림을 관리할 수 있습니다. 작업 스트림을 보관하거나 삭제하면 복구할 수 없습니다. 남은 작업 스트림이 한 개 있고 이를 보관하거나 삭제하면 작업 스트림은 Workfront 인스턴스에 대해 완전히 더 이상 사용되지 않으며 새 작업 스트림을 추가할 수 없습니다.
 
 <!-- Blueprints -->
 
@@ -477,12 +495,12 @@ OLD:
 1. Adobe Workfront의 왼쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다.
 
 1. **[!UICONTROL 사용자]**&#x200B;를 클릭한 다음 홈 팀에 연결할 사용자를 선택하십시오.
-1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**을 선택합니다.
    ![](/help/_includes/assets/user-settings-nwe-350x291.png)
 
 1. **[!UICONTROL 조직]** 섹션에서 **[!UICONTROL 홈 팀]** 필드를 선택합니다. 설정을 사용자와 연결할 팀의 이름을 입력하십시오. 목록에 팀의 이름이 표시되면 클릭합니다.
 
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 변경 내용 저장]**을 클릭합니다.
 선택한 사용자가 이제 홈 팀과 연결되었습니다.
 완료 버튼과 연관된 상태를 포함하여 모든 팀 설정이 이제 이러한 사용자에게 표시됩니다.
 

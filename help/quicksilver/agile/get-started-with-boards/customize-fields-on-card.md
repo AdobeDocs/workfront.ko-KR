@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 2%
 ---
 # 카드에 표시할 필드 사용자 지정
+
+{{boards-maintenance-mode}}
 
 기본적으로 사용할 수 있는 모든 필드는 카드에 표시되며, 카드가 열릴 때 전체 보기와 보드의 압축된 카드 보기 모두에 표시됩니다. 표시되는 필드를 사용자 지정할 수 있습니다.
 

@@ -26,18 +26,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '808'
 ht-degree: 2%
 ---
 # 보드 대시보드 사용
 
 <!-- Audited: 1/2024 -->
 
->[!IMPORTANT]
->
->작업 스트림은 특정 고객 그룹만 사용할 수 있습니다.
+{{boards-workstreams}}
 
 보드 대시보드에는 사용자가 생성한 보드와 사용자가 추가한 보드를 포함하여 사용자가 액세스할 수 있는 보드 및 작업 스트림 목록이 표시됩니다. 워크스트림의 일부가 아닌 액세스 권한이 있는 개별 보드가 먼저 표시됩니다.
 

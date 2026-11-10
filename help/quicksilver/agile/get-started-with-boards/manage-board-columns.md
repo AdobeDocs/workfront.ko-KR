@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 1%
@@ -34,6 +34,8 @@ ht-degree: 1%
 # 보드 열 관리
 
 <!-- Audited: 05/2024 -->
+
+{{boards-maintenance-mode}}
 
 새 보드에는 기본적으로 3개의 열이 있습니다. 열을 더 추가하고, 열의 순서를 변경하고, 열의 이름을 바꾸고, 필요하지 않은 열을 삭제할 수 있습니다.
 
@@ -189,7 +191,7 @@ ht-degree: 1%
 
 1. 열에 추가할 수 있는 카드 수를 제한하려면 **[!UICONTROL 진행 중인 작업 제한]** 정책을 사용하도록 설정하십시오. **[!UICONTROL 제한 설정]** 필드에 제한 번호를 입력하십시오.
 
-   ![&#128279;](assets/boards-wip-limit-in-column.png) 열에 대한 WIP 제한
+   ](assets/boards-wip-limit-in-column.png) 열에 대한 ![WIP 제한
 
    자세한 내용은 [게시판에서 WIP(Work In Progress) 한도 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)를 참조하십시오.
 

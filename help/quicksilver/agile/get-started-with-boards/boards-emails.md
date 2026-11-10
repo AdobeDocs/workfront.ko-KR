@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 8%
 ---
 # 게시판 이메일 알림 및 환경 설정
+
+{{boards-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL 게시판]에서 사용자가 게시판에 추가되고 사용자에게 카드가 할당되면 전자 메일을 보냅니다. 알림은 기본적으로 켜져 있으며 보드 환경 설정에서 수신할 이메일을 선택할 수 있습니다.
 

@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 4%
 ---
 # 보드에서 하위 작업 관리
+
+{{boards-maintenance-mode}}
 
 카드에 하위 작업을 사용하면 작업 간에 상위-하위 관계를 설정하고 작업 계층을 만들 수 있습니다. Workfront 보드의 카드에 추가하는 하위 작업은 Workfront 프로젝트의 작업에도 추가됩니다. 프로젝트 수준의 하위 작업 및 작업에 대한 자세한 내용은 [하위 작업 만들기](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)를 참조하십시오.
 
