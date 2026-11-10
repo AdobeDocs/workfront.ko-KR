@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a10a7acd51fcbcd0f42ef1ca4ceedc6124459896
+source-git-commit: fb173da014e7411a9b7bb3ef36eae77f6ec44cb9
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '590'
 ht-degree: 11%
 ---
 # 문서 업로드 및 우선 순위에서 증명 만들기
@@ -84,7 +84,7 @@ ht-degree: 11%
 1. **파일 업로드** 아이콘 ![파일 업로드 아이콘](assets/upload-file-icon.png)을 클릭합니다.
 1. 파일을 드래그 앤 드롭하거나 Cmd/Ctrl + V를 눌러 클립보드에서 붙여넣기
 또는
-**파일 추가**&#x200B;를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
+**파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
    ![파일 추가](assets/add-files.png)
 1. (선택 사항) 댓글을 추가합니다.
 1. (선택 사항) 파일을 더 추가합니다.
@@ -103,7 +103,7 @@ ht-degree: 11%
 1. 오른쪽 상단의 **문서 업로드**&#x200B;를 클릭한 다음 **문서**&#x200B;를 선택합니다.
 1. 파일을 드래그 앤 드롭하거나 Cmd/Ctrl + V를 눌러 클립보드에서 붙여넣기
 또는
-**파일 추가**&#x200B;를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
+**파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
    ![파일 추가](assets/add-files.png)
 1. (선택 사항) 댓글을 추가합니다.
 1. (선택 사항) 파일을 더 추가합니다.
@@ -112,29 +112,6 @@ ht-degree: 11%
    >
    >추가 파일은 별도의 문서로 업로드됩니다.
 1. **업로드**&#x200B;를 클릭합니다.
-
-## Adobe 클라우드 스토리지 프로젝트에 문서 업로드
-
-Adobe 클라우드 스토리지 프로젝트의 작업 또는 문제에 직접 문서를 업로드할 수 없습니다. 대신 **프로젝트** 탭에서 문서를 프로젝트에 업로드하십시오.
-
-{{step1-to-priorities}}
-
-1. 작업 목록에서 작업 이름을 마우스로 가리킨 다음 **요약** 아이콘 ![요약 열기 아이콘](assets/summary-icon.png)을 클릭합니다.
-1. 요약 패널에서 **프로젝트** 탭을 클릭합니다.
-1. **파일 업로드** 아이콘 ![파일 업로드 아이콘](assets/upload-file-icon.png)을 클릭합니다.
-1. 파일을 드래그 앤 드롭하거나 Cmd/Ctrl + V를 눌러 클립보드에서 붙여넣기
-
-   또는
-
-   **파일 추가**&#x200B;를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
-1. (선택 사항) 댓글을 추가합니다.
-1. (선택 사항) 파일을 더 추가합니다.
-
-   >[!NOTE]
-   >
-   >추가 파일은 별도의 문서로 업로드됩니다.
-1. **업로드**&#x200B;를 클릭합니다.
-
 
 ## 단순 또는 고급 증명 만들기
 
