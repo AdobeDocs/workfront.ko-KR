@@ -18,10 +18,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 0%
+source-wordcount: '1899'
+ht-degree: 1%
 ---
 
 # Ideation 공간에 브리프 만들기
@@ -32,12 +32,10 @@ ht-degree: 0%
 
 <span class="preview">자세한 내용은 [Adobe Workfront Planning의 Ideation 공간 시작](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)을 참조하십시오.</span>
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. **관념화 공간 Beta** 프로그램의 일부로서만 사용할 수 있습니다. </span>\
-</span>
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe Workfront Planning을 참조합니다. Workfront Planning에 액세스하려면 회사에서 추가 Planning 패키지를 구매해야 합니다.
+>이 문서의 정보는 Adobe Workfront Planning을 가지고 있는 Workfront 고객에게만 제공되는 기능을 나타냅니다. 회사에서 추가 Planning 패키지를 구매해야 합니다.
 >
 >여기에 설명된 기능은 조직이 Workfront Planning을 독립형 제품으로 구입한 경우에는 사용할 수 없습니다.
 >
@@ -91,12 +89,19 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>클라우드 공급자 요구 사항</p></td> 
+   <td><p>AWS</p>
+   <p><b>참고:</b></p>
+   <p>다른 클라우드 공급자는 지원되지 않습니다</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <ul> 
-<li><p>Planning 패키지가 있는 모든 Workfront 또는 워크플로우</p></li>
+<li><p>Planning 패키지가 있는 모든 워크플로우</p></li>
 <!--
 Add this at GA - not available in beta:
 Or
@@ -114,6 +119,11 @@ Or
 </td> 
 </tr> 
 -->
+<tr> 
+   <td role="rowheader"><p>시스템 요구 사항</p></td> 
+   <td><p>설정 영역의 시스템 환경 설정에서 동료 및 MCP 환경 설정 을 켜야 합니다.</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workflow 라이선스</p></td> 
    <td><p>표준</p>
@@ -128,8 +138,9 @@ Or
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
    <td> 
    <ul>
-   <li><p>워크플로우와 Planning 패키지가 모두 있는 경우 액세스 레벨에 워크플로우와 Planning 라이선스 유형을 모두 추가해야 합니다.</p>   </li>
+   <li><p>액세스 수준에 워크플로 및 Planning 라이선스 유형을 모두 추가해야 합니다. <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>액세스 수준의 관념화 공간 사용 안 함 설정을 선택 해제해야 합니다.</p></li>
+   <li><p>액세스 수준의 Workfront에서 CX Coworker 패널 비활성화 설정을 선택 취소해야 합니다</p></li></ul>
 </td> 
   </tr>  
    <tr> 
@@ -300,25 +311,29 @@ Ideation 공간에는 공간을 탐색하는 데 도움이 될 뿐만 아니라 
     -->
 1. **저장**&#x200B;을 클릭합니다.
 
-1. **도움말** 아이콘 왼쪽에 있는 **확대/축소 수준** 드롭다운 아이콘이나 **도움말** 아이콘 ![도움말 아이콘](assets/more-information-icon.png)을 클릭하여 옵션을 선택하거나, 편집 공간을 탐색하거나 다른 확대/축소 값을 선택하는 데 사용할 수 있는 키보드 단축키를 검토합니다.
+1. **도움말** 아이콘 ![도움말 아이콘](assets/more-information-icon.png) 왼쪽에 있는 **확대/축소 수준** 드롭다운 메뉴를 클릭하여 옵션을 선택합니다.
 
-   다음 확대/축소 수준 중에서 선택합니다.
+   다음 선택 사항 중 하나를 선택합니다.
 
-   * 100%로 확대/축소
-   * 200%로 확대/축소
-   * 크기에 맞게 확대/축소
+   * **크기에 맞게 확대/축소**
+   * **확대**
+   * **축소**
+   * **50**, **100**, **150** 또는 **200%**&#x200B;로 확대/축소
+   * **점 눈금 표시**: 점 눈금을 표시하려면 선택 항목을 설정합니다.
+   * **제품 둘러보기**: Ideation 공간을 사용하는 동안 힌트 안내를 옵트아웃하려면 선택을 끕니다.
 
-   또는 다음 단축키 중 하나를 사용하여 페이지를 탐색합니다.
+1. **도움말** 아이콘 ![도움말 아이콘](assets/more-information-icon.png)을 클릭하여 관념화 공간을 탐색하거나 다른 확대/축소 값을 선택하는 데 사용할 수 있는 키보드 단축키를 검토합니다.
 
-   | 작업 | 단축키 |
-   | --- | --- |
-   | 확대/축소 | Ctrl/⌘ + / − |
-   | 선택 영역에 맞게 확대/축소 | — |
-   | 커서로 확대/축소 | Ctrl/⌘ + 스크롤 |
-   | 캔버스 패닝 | 스페이스바를 누른 채 드래그 |
-   | 점 격자 표시/숨기기 | G |
-
-
+| 작업 | 단축키 |
+| --- | --- |
+| 확대/축소 | Ctrl/⌘ + / − |
+| 100%로 확대/축소 / | Ctrl/⌘ 1 / 1 |
+| 200%로 확대/축소 / | Ctrl/⌘ 2 / 2 |
+| 크기에 맞게 확대/축소 | Ctrl/⌘ 0 / 0 |
+| 선택 영역에 맞게 확대/축소 | Alt Ctrl 0 |
+| 커서로 확대/축소 | Ctrl/⌘ 스크롤 |
+| 패닝 | 공간 끌기 |
+| 점 격자 표시/숨기기 | G |
 
 <!--
 
