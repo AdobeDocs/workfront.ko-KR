@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1351'
 ht-degree: 2%
 ---
 # 그룹에 대한 타임시트 및 시간 환경 설정 구성
@@ -107,7 +107,7 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
 1. 왼쪽 패널에서 **그룹** ![그룹](assets/groups-icon.png)을 클릭합니다.
 
 1. 타임시트 또는 시간 환경 설정을 구성할 그룹의 이름을 클릭합니다.
-1. 왼쪽 패널에서 **타임시트 및 시간**&#x200B;을 클릭합니다.
+1. 표시되는 페이지에서 왼쪽의 **타임시트 및 시간**&#x200B;을 클릭합니다.
 
 1. 표시되는 페이지에서 **일반 환경 설정** 섹션에서 다음 옵션을 구성합니다.
 

@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '618'
 ht-degree: 4%
 ---
 # 카드 목록 사용
 
->[!IMPORTANT]
->
->일부 고객은 워크스트림을 사용할 수 없습니다.
+{{boards-workstreams}}
 
 작업 스트림에 카드 목록을 만들고 카드를 반복에 추가할 수 있습니다.
 

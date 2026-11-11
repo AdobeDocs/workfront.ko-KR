@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 4%
 ---
 # 카드의 체크리스트 항목 관리
+
+{{boards-maintenance-mode}}
 
 카드에서 체크리스트를 사용하면 작업을 더 작은 단위로 분류하거나 카드에 메모를 추가할 수 있습니다. 체크리스트 항목은 애드혹 카드와 연결된 카드 모두에서 사용할 수 있습니다.
 

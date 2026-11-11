@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a3cf3050da6355c2b0929b24e3bfe7035db76117
+source-git-commit: d00e08bb44ff533f6bbdbbe6f932a85533514269
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 7%
@@ -102,26 +102,26 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>빠른 릴리스 프로세스 활성화</p> </td> 
-      <td>분기별 릴리스 대신 조직에 대한 월별 Workfront 릴리스를 활성화할 수 있습니다.</p><p>빠른 릴리스 프로세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">조직의 빠른 릴리스 사용 또는 사용 안 함</a>을 참조하세요.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> <p>iframe에 Workfront 포함 허용</p> </td> 
-      <td>Workfront을 iframe에 포함할 수 있습니다.<p>이 옵션은 기본적으로 비활성화되어 있습니다.</p><p><b>중요</b>: iframe에 웹 기반 응용 프로그램을 표시하면 응용 프로그램이 클릭재킹 보안 취약성이 발생할 수 있습니다.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Office 365 추가 기능에서 SAML 2.0 인증 허용</td> 
-      <td> <p>Workfront을 SAML 2.0 Single Sign-On 솔루션과 통합할 때 Office 365 추가 기능에 대한 iframe에서만 Workfront을 포함할 수 있습니다. </p> <p>이 옵션은 기본적으로 활성화되어 있습니다.</p> <p><b>참고</b>: 위의 옵션 <strong>iframe에 Workfront 포함 허용</strong>을 사용하면 <strong>Office 365 추가 기능에서 SAML 2.0 인증 허용</strong> 옵션이 활성화되고 흐리게 표시됩니다.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">외부 페이지 URL을 만들 때 세션 정보 사용을 활성화합니다.</td> 
-      <td> <p>대시보드에 외부 페이지를 추가할 때 사용자가 사이트의 세션 ID 정보를 사용할 수 있도록 허용합니다.</p> <p>이 옵션은 기본적으로 안전하지 않으며 꺼져 있습니다. 통합을 위해 대신 OAuth를 사용하는 것이 좋습니다.</p> <p>대시보드에 외부 페이지를 추가하는 방법에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">외부 웹 페이지를 대시보드에 포함</a>을 참조하십시오.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">사람들이 Workfront의 모바일 애플리케이션을 사용할 수 있도록 허용</td> 
-      <td> <p>사용자가 모바일 앱(iPad 및 휴대폰 앱용 Workfront 보기)에 액세스할 수 있도록 허용합니다.</p> <p>이 옵션은 기본적으로 활성화되어 있습니다. </p> <p>Workfront 보기에 대한 자세한 내용은 <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Adobe Workfront 보기 사용</a>을 참조하세요. 모바일 앱에 대한 자세한 내용은 <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Adobe Workfront 모바일 앱 사용: 문서 색인</a>을 참조하십시오.</p> </td> 
-     </tr> 
-     <tr> 
+         <td role="rowheader"> <p>빠른 릴리스 프로세스 활성화</p> </td> 
+         <td>분기별 릴리스 대신 조직에 대한 월별 Workfront 릴리스를 활성화할 수 있습니다.</p><p>빠른 릴리스 프로세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">조직의 빠른 릴리스 사용 또는 사용 안 함</a>을 참조하세요.</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader"> <p>iframe에 Workfront 포함 허용</p> </td> 
+         <td>Workfront을 iframe에 포함할 수 있습니다.<p>이 옵션은 기본적으로 비활성화되어 있습니다.</p><p><b>중요</b>: iframe에 웹 기반 응용 프로그램을 표시하면 응용 프로그램이 클릭재킹 보안 취약성이 발생할 수 있습니다.</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Office 365 추가 기능에서 SAML 2.0 인증 허용</td> 
+         <td> <p>Workfront을 SAML 2.0 Single Sign-On 솔루션과 통합할 때 Office 365 추가 기능에 대한 iframe에서만 Workfront을 포함할 수 있습니다. </p> <p>이 옵션은 기본적으로 활성화되어 있습니다.</p> <p><b>참고</b>: 위의 옵션 <strong>iframe에 Workfront 포함 허용</strong>을 사용하면 <strong>Office 365 추가 기능에서 SAML 2.0 인증 허용</strong> 옵션이 활성화되고 흐리게 표시됩니다.</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">외부 페이지 URL을 만들 때 세션 정보 사용을 활성화합니다.</td> 
+         <td> <p>대시보드에 외부 페이지를 추가할 때 사용자가 사이트의 세션 ID 정보를 사용할 수 있도록 허용합니다.</p> <p>이 옵션은 기본적으로 안전하지 않으며 꺼져 있습니다. 통합을 위해 대신 OAuth를 사용하는 것이 좋습니다.</p> <p>대시보드에 외부 페이지를 추가하는 방법에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">외부 웹 페이지를 대시보드에 포함</a>을 참조하십시오.</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">사람들이 Workfront의 모바일 애플리케이션을 사용할 수 있도록 허용</td> 
+         <td> <p>사용자가 모바일 앱(iPad 및 휴대폰 앱용 Workfront 보기)에 액세스할 수 있도록 허용합니다.</p> <p>이 옵션은 기본적으로 활성화되어 있습니다. </p> <p>Workfront 보기에 대한 자세한 내용은 <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Adobe Workfront 보기 사용</a>을 참조하세요. 모바일 앱에 대한 자세한 내용은 <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Adobe Workfront 모바일 앱 사용: 문서 색인</a>을 참조하십시오.</p> </td> 
+        </tr> 
+        <tr> 
       <td role="rowheader"> <p>이메일 주소를 사용하여 Workfront 계정이 없는 사람들과 공동 작업</p> </td> 
       <td>Workfront 사용자는 이름 대신 이메일 주소를 포함하여 Workfront 계정이 없는 사용자와 특정 항목을 공유할 수 있습니다. 사용자는 이메일 주소를 사용하여 외부 사용자와 다음 항목을 공유할 수 있습니다.
        <ul>
@@ -196,7 +196,6 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
     <tr> 
       <td role="rowheader">계획 수립 디자이너</td> 
       <td>Workfront Planning 패키지를 구입한 고객에게만 제공됩니다. 이 설정을 켜면 사용자가 Planning Designer을 사용하여 작업 공간을 만들고 편집할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Adobe Workfront Planning Designer 시작</a>을 참조하십시오.</td> 
-     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">읽기 전용 MCP 도구</td> 

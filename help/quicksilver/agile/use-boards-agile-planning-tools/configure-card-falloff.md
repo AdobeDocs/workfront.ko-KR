@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 7%
 ---
 # 카드 폴오프 구성
+
+{{boards-maintenance-mode}}
 
 카드가 일정에 따라 보관되거나 보드에서 &quot;떨어짐&quot;되도록 보드를 구성할 수 있습니다. 특정 열의 카드가 특정 일 또는 주 수에 보드에서 떨어지도록 설정할 수 있습니다.
 

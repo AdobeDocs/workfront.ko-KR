@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 04335eec43d9690e7dbc028c2066039ae28be432
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '660'
 ht-degree: 3%
 ---
 # 사용자 지정 상태를 그룹의 기본 상태로 사용
@@ -77,16 +77,16 @@ ht-degree: 3%
 
 ## 문제 상태
 
-사용자 지정 상태가 문제 상태인 경우 네 가지 문제 유형(버그 보고서, 순서 변경, 문제 및 요청)을 모두 활성화해야 합니다. 예를 들어 아래에 표시된 문제 상태에서 주문 변경 문제 유형이 선택되지 않았으므로 다시 열림 상태를 기본 상태로 사용할 수 없습니다.
+사용자 지정 상태가 문제 상태인 경우 네 가지 문제 유형(버그 보고서, 순서 변경, 문제 및 요청)을 모두 활성화해야 합니다. 예를 들어 아래에 표시된 문제 상태에서 주문 변경 문제 유형이 선택되지 않았기 때문에 상태 아이디어 를 기본 상태로 사용할 수 없습니다.
 
-![모든 문제 유형 사용](assets/all-4-issue-types-enabled.png)
+![모든 문제 유형 사용](assets/new-all-issue-types-enabled.png)
 
 ## 사용자 지정 상태를 그룹의 기본 상태로 설정
 
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![그룹](assets/groups-icon.png)을 클릭한 다음 상태를 만들거나 사용자 지정할 그룹의 이름을 클릭합니다.
-1. 왼쪽 패널에서 **상태** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
+1. 왼쪽 패널에서 **상태** ![상태 아이콘](assets/status-icon.png)을 클릭합니다.
 1. 기본 상태로 설정할 상태 유형에 따라 **프로젝트**, **작업** 또는 **문제** 탭을 엽니다.
 1. 오른쪽 상단 근처에 있는 **기본 상태 설정**&#x200B;을 클릭합니다.
 1. 표시되는 드롭다운 영역에서 기본 상태를 설정할 상태 옆에 설정할 기본 상태를 선택합니다.
@@ -122,4 +122,3 @@ Workfront 관리자가 사용자 지정 상태를 기본 상태로 구성한 후
 
 해당 형식의 사용 가능한 상태가 없으면 상태 형식은 **숨김**&#x200B;으로 표시되며 작업 항목에 사용할 수 없습니다.
 
-![사용 가능한 상태 없음](assets/when-hide-default-status-no-equivalent.png)

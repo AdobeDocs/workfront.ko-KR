@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 5%
 ---
 # 보드에서 그룹 사용
+
+{{boards-maintenance-mode}}
 
 보드에 있는 카드를 할당자나 태그로 그룹화할 수 있습니다. 그룹화 기준 옵션을 선택하면 카드가 스윔레인 형식으로 나타납니다. 할당 해제된 카드나 태그가 없는 카드는 자체 수영장에 나타납니다.
 

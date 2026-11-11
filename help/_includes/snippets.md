@@ -1,7 +1,7 @@
 ---
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2437'
 ht-degree: 2%
 ---
 # 스니펫
@@ -131,6 +131,24 @@ Add snippets within the section that the snippet is used. Snippets that are used
 ## 1단계 - 게시판으로 가기 - {#step1-to-boards}
 
 1. Adobe Workfront 왼쪽 상단의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 게시판]**&#x200B;을 클릭합니다.
+
+## 보드 - 유지 관리 모드 {#boards-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Workfront Boards는 현재 새로운 개발이 진행되고 있지 않습니다.
+
+## 보드 - 작업 스트림을 사용할 수 없음 {#boards-workstreams}
+
+>[!IMPORTANT]
+>
+>Workfront Boards는 현재 새로운 개발이 진행되고 있지 않습니다.
+> 
+>보드의 작업 스트림 기능은 더 이상 사용되지 않지만 이미 사용 중인 고객이 사용할 수 있습니다.
+>
+>* 더 이상 지원되지 않으므로 워크스트림을 사용하지 않는 것이 좋습니다.
+>* 보드 대시보드에 작업 스트림 탭이 없는 경우 작업 스트림을 추가할 수 없습니다.
+>* 작업 스트림에 액세스할 수 있는 경우 새 작업 스트림을 추가하고 기존 작업 스트림을 관리할 수 있습니다. 작업 스트림을 보관하거나 삭제하면 복구할 수 없습니다. 남은 작업 스트림이 한 개 있고 이를 보관하거나 삭제하면 작업 스트림은 Workfront 인스턴스에 대해 완전히 더 이상 사용되지 않으며 새 작업 스트림을 추가할 수 없습니다.
 
 <!-- Blueprints -->
 

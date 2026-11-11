@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 5%
@@ -39,6 +39,8 @@ ht-degree: 5%
 # 보드에 접수 열 추가
 
 <!-- Audited: 5/2025 -->
+
+{{boards-maintenance-mode}}
 
 필요한 경우 정의한 필터에 따라 작업 및 문제를 [!DNL Workfront]에 추가할 때 연결된 카드로 자동으로 가져오는 접수 열을 보드에 추가할 수 있습니다. 접수 열은 Kanban 팀의 백로그 열, 지원 팀이 요청 대기열에 추가될 때 문제를 확인할 수 있는 접수 위치 또는 필요한 다른 용도로 사용할 수 있습니다.
 

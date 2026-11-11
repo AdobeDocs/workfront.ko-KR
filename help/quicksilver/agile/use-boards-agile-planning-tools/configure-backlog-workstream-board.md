@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '470'
 ht-degree: 3%
 ---
 # 워크스트림 보드에서 백로그 구성
 
->[!IMPORTANT]
->
->작업 스트림은 특정 고객 그룹만 사용할 수 있습니다.
+{{boards-workstreams}}
 
 워크스트림의 보드에 백로그 열을 표시하도록 선택하고, 워크스트림 카드 목록에서 보드 백로그로 가져온 카드에 대한 질의를 정의할 수 있습니다.
 

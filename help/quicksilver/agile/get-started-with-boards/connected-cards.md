@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 2%
@@ -38,6 +38,8 @@ ht-degree: 2%
 # 보드에서 연결된 카드 사용
 
 <!-- Audited: 2/2024 -->
+
+{{boards-maintenance-mode}}
 
 [!DNL Workfront]의 기존 작업 및 문제에 연결된 카드를 보드에 추가할 수 있습니다.
 

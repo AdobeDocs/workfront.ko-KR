@@ -22,12 +22,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
 ---
 # [!UICONTROL 보드] 개요
+
+{{boards-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL 보드]는 열과 카드가 포함된 공유 보드에 대한 액세스를 제공하여 팀 공동 작업을 허용하는 유연한 도구입니다.
 

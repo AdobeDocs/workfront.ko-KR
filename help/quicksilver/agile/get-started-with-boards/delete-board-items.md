@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 5%
 ---
 # 보드에서 카드 삭제 또는 보관
+
+{{boards-maintenance-mode}}
 
 보드에서 임시 카드를 삭제하면 영구적으로 삭제되며 복원할 수 없습니다. 연결된 카드는 삭제한 후 보드에 수동으로 다시 추가할 수 있습니다.
 

@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 1%
@@ -34,6 +34,8 @@ ht-degree: 1%
 # 보드 열 관리
 
 <!-- Audited: 05/2024 -->
+
+{{boards-maintenance-mode}}
 
 새 보드에는 기본적으로 3개의 열이 있습니다. 열을 더 추가하고, 열의 순서를 변경하고, 열의 이름을 바꾸고, 필요하지 않은 열을 삭제할 수 있습니다.
 

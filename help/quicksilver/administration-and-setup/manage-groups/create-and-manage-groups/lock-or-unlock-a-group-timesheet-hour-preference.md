@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 3%
 ---
 # 그룹 타임시트 및 시간 환경 설정 잠금 또는 잠금 해제
@@ -100,7 +100,7 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 
 1. 왼쪽 패널에서 **그룹**&#x200B;을 클릭합니다.
 1. 타임시트 및 시간 환경 설정을 잠그거나 잠금 해제할 그룹의 이름을 클릭합니다.
-1. 왼쪽 패널에서 **타임시트 및 시간 환경 설정**&#x200B;을 클릭합니다.
+1. 왼쪽의 **타임시트 및 시간 환경 설정**&#x200B;을 클릭합니다.
 
 1. 표시되는 페이지에서 다음 중 하나를 수행합니다.
 

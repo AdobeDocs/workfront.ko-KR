@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 6%
 ---
 # 태그 추가
+
+{{boards-maintenance-mode}}
 
 카드에 태그를 추가하여 비슷하다는 것을 시각적으로 표시할 수 있습니다. 그런 다음 해당 태그로 필터링하여 관련 카드를 표시할 수 있습니다.
 

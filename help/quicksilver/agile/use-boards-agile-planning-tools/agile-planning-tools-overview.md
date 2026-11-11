@@ -22,14 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '179'
 ht-degree: 0%
 ---
 # 애자일 계획 도구 개요: 문서 색인
 
 <!-- Audited: 5/2025 -->
+
+{{boards-workstreams}}
 
 Ad Hoc 및 연결된 카드를 사용하여 보드를 만들 때 추가 애자일 계획 도구를 활용할 수 있습니다.
 
@@ -44,10 +46,6 @@ Kanban에 유용한 도구에는 다음이 포함됩니다.
 * 작업 스트림 및 반복 보드
 * 카드 목록 또는 백로그
 * 반복 지표
-
->[!IMPORTANT]
->
->작업 스트림 및 관련 도구는 특정 고객 그룹만 사용할 수 있습니다.
 
 특정 애자일 방법론에 의존하지 않고도 사용자와 팀을 위해 작동하는 방식으로 이러한 도구를 모두 또는 모두 사용할 수 있습니다.
 

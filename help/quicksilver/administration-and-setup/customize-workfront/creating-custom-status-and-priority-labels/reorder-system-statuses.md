@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 50554892bd22133114e33d2806bf238cfb72ae45
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 10%
+source-wordcount: '483'
+ht-degree: 11%
 ---
 # 시스템 수준 및 그룹 상태 순서 바꾸기
 
@@ -145,7 +145,7 @@ Workfront 관리자는 시스템의 모든 사용자 또는 단일 그룹에 대
 
 ## 문제에 대한 상태 재정렬
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **설정** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
+{#step-1-to-setup}
 
 1. **프로젝트 환경 설정 > 상태를 클릭합니다.**
 1. (조건부) 그룹에 대한 상태를 재정렬하는 경우 오른쪽 상단 모서리의 상자에 그룹 이름을 입력한 다음 표시될 때 이름을 클릭합니다.

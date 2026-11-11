@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '919'
 ht-degree: 2%
 ---
 # 작업 스트림 관리
 
->[!IMPORTANT]
->
->작업 스트림은 특정 고객 그룹만 사용할 수 있습니다.
+{{boards-workstreams}}
 
 작업 스트림은 작업에 대해 공동 작업하기 위해 구성 가능한 보드 및 카드 그룹입니다. 작업 스트림에는 템플릿과 작업 항목의 카드 목록에서 생성된 다양한 유형의 보드가 포함될 수 있습니다. 워크스트림에서 반복 또는 스프린트로 작업을 추적할 수 있습니다.
 
