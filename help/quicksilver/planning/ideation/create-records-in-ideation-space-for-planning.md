@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1026'
 ht-degree: 0%
 ---
 
@@ -85,9 +85,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>클라우드 공급자 요구 사항</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services(AWS)</p>
    <p><b>참고:</b></p>
-   <p>다른 클라우드 공급자는 지원되지 않습니다</p>
+   <p>다른 클라우드 공급자는 지원되지 않습니다.</p>
    </td> 
   </tr>
 <tr> 
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -170,7 +170,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 * 관념화 공간을 사용하여 레코드를 만들거나 편집하려면 Workfront Planning에 작업 영역과 레코드 유형이 있어야 합니다.
 * 새 레코드는 만드는 방법에 관계없이 항상 자리 표시자 콘텐츠로 시작합니다.
 * 관념화 요약에 연결된 Planning 레코드를 삭제하면 요약이 관념화 공간에 남아 있으며 연관된 공백은 삭제되지 않습니다.
-* 정보 동기화는 관념화 공간에서 Workfront Planning으로만 수행됩니다. Planning 레코드에서 Ideation Space Brief로의 역방향 또는 자동 동기화는 없습니다. <!--this might change?-->
+* 정보 동기화는 관념화 공간에서 Workfront Planning으로만 수행됩니다. Planning 레코드에서 Ideation Space Brief로의 역방향 또는 자동 동기화는 없습니다. <!--this might change after beta?-->
 * Workfront Planning에서 필드를 생성, 편집 또는 제거할 때 다음과 같은 시나리오가 발생합니다.
 
   * 관념화 요약에 연결된 레코드에서 생성된 새 필드는 요약에 매일 추가됩니다. 관념화 개요에 새 필드가 비어 있습니다.
@@ -189,8 +189,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. 레코드를 추가할 수 있는 레코드 종류의 카드를 클릭합니다.
 1. 다음 중 하나를 수행하여 레코드를 만듭니다.
 
-   * 레코드 종류 페이지의 모든 보기에서 페이지의 오른쪽 상단에 있는 **새 레코드**&#x200B;을 클릭하고 **레코드를 추가할 방법을 선택** 상자에서 **관념화 공간 열기**&#x200B;를 클릭한 다음 **계속**&#x200B;을 클릭합니다.
-   * 레코드 테이블의 맨 아래로 스크롤하여 **새 행**&#x200B;을 클릭한 다음 **관념화 공간 열기**&#x200B;를 클릭합니다.
+   * 레코드 종류 페이지의 모든 보기에서 페이지의 오른쪽 상단에 있는 **새 레코드**&#x200B;을 클릭하고 **레코드를 추가하는 방법 선택** 상자에서 **관념화 공간 시작**&#x200B;을 클릭한 다음 **계속**&#x200B;을 클릭합니다.
+   * 레코드 테이블의 맨 아래로 스크롤하여 **새 행**&#x200B;을 클릭한 다음 **관념화 공간 시작**&#x200B;을 클릭합니다.
 
      >[!TIP]
      >
@@ -198,11 +198,15 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    ![새 레코드 상자와 [편집 공간 열기] 단추](assets/new-record-creation-picker-with-ideation.png)
 
-   새 탭에서 관념화 공간이 열립니다.
+1. Beta 계약을 읽고 **동의**&#x200B;를 클릭합니다. 관념화 공간을 사용하려면 계약서에 서명해야 합니다.
 
-   오른쪽 패널에서 동료가 열립니다.
+   다음과 같은 상황이 발생합니다.
 
-   레코드는 자리 표시자 이름으로 즉시 만들어집니다.
+   * 관념화 공간 캔버스가 새 탭에서 열립니다.
+
+   * 오른쪽 패널에서 동료가 열립니다.
+
+   * 레코드는 자리 표시자 이름으로 즉시 만들어집니다.
 
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
@@ -243,7 +247,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. Workfront Planning의 기존 레코드로 이동하여 세부 정보 페이지를 엽니다.
 
-1. **Ideation 공간에서 열기** ![](assets/open-in-ideation-space.png)를 클릭합니다. 새 탭에서 관념화 공간이 열립니다.
+1. 세부 정보 페이지의 오른쪽 상단에 있는 **관념화 공간에서 열기**&#x200B;를 클릭합니다. 새 탭에서 관념화 공간이 열립니다.
 
    레코드에 대한 관념이 이미 있으면 해당 공간을 엽니다.
 

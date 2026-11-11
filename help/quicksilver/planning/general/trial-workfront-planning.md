@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2348'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning 무료 평가판 시작
@@ -254,7 +254,7 @@ Workfront Planning 사용 경험에 대한 피드백을 제출하려면 다음�
 1. (조건부 및 필수) Workfront 관리자로서 무료 체험판 계약서에 서명합니다.
 
    자세한 내용은 이 문서의 [Adobe Workfront Planning 무료 체험판 등록](#enroll-in-the-adobe-workfront-planning-free-trial) 섹션을 참조하십시오.
-1. (조건부) Workfront 관리자가 평가판 계약에 서명한 후 **기본 메뉴** 아이콘 ![](assets/main-menu-shell.png)을(를) 클릭한 다음 다음 다음 중 하나를 클릭하여 **계획** 영역에 액세스합니다.
+1. (조건부) Workfront 관리자가 평가판 계약에 서명한 후 **기본 메뉴** 아이콘 ![기본 메뉴](assets/main-menu-shell.png)를 클릭한 다음 다음 다음 중 하나를 클릭하여 **계획** 영역에 액세스합니다.
 
    * **계획**. 아이콘 옆에 **평가판** 레이블이 표시됩니다.
    * **프로젝트**, **요청**, **캘린더**&#x200B;를 클릭한 다음 **캠페인 캘린더 살펴보기**

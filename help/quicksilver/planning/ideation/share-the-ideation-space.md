@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '675'
 ht-degree: 1%
 ---
 
@@ -63,7 +63,7 @@ Future - when they make it available in Planning: replace the above with this OR
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-캠페인 및 기타 레코드 유형을 시작하기 전에 Adobe Workfront의 Ideation Space를 사용하여 캠페인 및 기타 레코드 유형에 대한 브리프를 만들 수 있습니다. 이 기능은 작업을 시작하기 전에 다른 사람에게 브레인스토밍을 하고 정보를 수집하여 공동 작업을 수행하도록 초대합니다.
+캠페인 및 기타 레코드 유형을 시작하기 전에 Adobe Workfront의 관념화 공간을 사용하여 해당 캠페인 및 기타 레코드 유형에 대한 브리프를 만들 수 있습니다. 이 기능은 작업을 시작하기 전에 다른 사람에게 브레인스토밍을 하고 정보를 수집하여 공동 작업을 수행하도록 초대합니다.
 
 더 나은 공동 작업을 위해 다른 사용자와 관념화 공간 및 각각의 개요를 공유할 수 있습니다.
 
@@ -96,9 +96,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>클라우드 공급자 요구 사항</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services(AWS)</p>
    <p><b>참고:</b></p>
-   <p>다른 클라우드 공급자는 지원되지 않습니다</p>
+   <p>다른 클라우드 공급자는 지원되지 않습니다.</p>
    </td> 
   </tr>
 <tr> 
@@ -163,7 +163,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -192,7 +192,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
      액세스 수준에 워크플로 및 Planning 라이선스가 있는 조직의 모든 사용자가 해당 아이디어를 찾아 댓글을 달 수 있습니다.
    * **링크를 가진 모든 사용자가 댓글을 달 수 있습니다**
 
-     아이디어에 대한 링크를 공유하는 모든 사람은 댓글을 달 수 있습니다. 여기에는 조직 외부의 사람도 포함됩니다.
+     와 아이디어 캔버스에 대한 링크를 공유하는 모든 사용자는 조직 외부의 사용자를 포함하여 누구나 댓글을 달 수 있습니다.
 
 1. **링크 복사**&#x200B;를 클릭하여 아이디어에 대한 링크를 생성하고 다른 사람과 공유합니다. 링크가 클립보드에 추가됩니다.
 1. 공유로 돌아가려면 설정 상자에서 뒤로 화살표를 클릭합니다.
@@ -200,11 +200,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    | 관념화 공간 권한 | 기능 |
    |---|---|
-   | **편집기** | 관념화 공간을 편집, 다운로드 및 공유할 수 있음 |
-   | **Comenter** | 관념화 공간을 보고 코멘트할 수 있음 |
-   | **뷰어** | 관념화 공간을 볼 수 있음 |
+   | **편집기** | 관념화 캔버스를 편집, 다운로드 및 공유할 수 있음 |
+   | **Comenter** | 관념화 캔버스를 보고 댓글을 달 수 있습니다. |
+   | **뷰어** | 관념화 캔버스를 볼 수 있음 |
 
-1. (선택 사항) 할당에 메시지를 포함한 다음 **초대**&#x200B;를 클릭합니다.
+1. (선택 사항) 공유 초대를 사용하여 메시지를 포함한 다음 **초대**&#x200B;를 클릭합니다.
 
    초대된 사용자는 권한 할당에 대한 이메일 알림을 받습니다.
 

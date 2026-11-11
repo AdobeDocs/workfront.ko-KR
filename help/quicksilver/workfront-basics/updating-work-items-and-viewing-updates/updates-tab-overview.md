@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1391'
 ht-degree: 3%
 ---
 # 업데이트 섹션 개요
@@ -154,12 +154,22 @@ Depending on what objects you access the commenting experience for, you might fi
 
   개체 업데이트에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
+  <!--<span class="preview">The **Comments** tab includes a filter that hides or displays resolved comments. For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>-->
+
 * **시스템 활동**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 상태, 이름 또는 사용자 정의 필드의 변경 사항은 시스템 업데이트와 함께 캡처됩니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 기존 댓글 달기 경험의 시스템 활동 레코드에 대한 모든 답글은 시스템 활동 탭에서 읽기 전용으로 채워집니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)을 참조하세요.
 * **모두(읽기 전용)**: 사용자 댓글과 시스템 활동 댓글을 한 곳에 모두 표시합니다. 보기 전용 탭입니다. 모든 탭에서 기존 댓글에 댓글에 답글을 달거나 다른 사용자를 태그 지정할 수 없습니다. 특정 댓글에 회신하려면 모두 탭의 댓글 탭에 있는 링크를 사용합니다. 개체 업데이트에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
   >[!NOTE]
   >
   >주석 및 시스템 활동 탭이 실시간으로 업데이트됩니다. 최신 업데이트를 보려면 모두 탭을 새로 고쳐야 합니다.
+* **댓글 요약**: 오른쪽에 있는 AI Assistant 또는 Coworker 패널을 열고 개체의 모든 업데이트 내역에 대한 AI 생성 요약을 제공합니다.
+
+  >[!NOTE]
+  >
+  >**댓글 요약** 탭을 사용하려면 AI 지원 계약에 서명하거나 설정 영역에서 동료 및 MCP 환경 설정을 활성화해야 합니다. 조직에 AI Assistant 또는 Workfront용 CX Enterprise Coworker이 있을 수 있습니다.
+  >
+  >자세한 내용은 [Workfront의 AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) 및 [Workfront의 CX Enterprise Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)를 참조하십시오.
+
 
 ### 다른 오브젝트의 업데이트 영역 간의 유사점과 차이점
 
