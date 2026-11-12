@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
+source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1614'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2027년 1분기 릴리스 활동
@@ -28,6 +28,52 @@ ht-degree: 0%
 이 문서에서는 2027년 1분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## Workfront Planning에서 사용 가능한 환경 프로모션
+
+>[!NOTE]
+>
+>미리 보기: 2026년 11월 12일
+>프로덕션 빠른 릴리스: 2026년 11월 12일
+>모두를 위한 프로덕션: 2026년 11월 12일
+>[!BADGE 동시 릴리스]{type=Neutral}
+
+>[!NOTE]
+>
+>Workfront Planning에 대한 환경 프로모션은 워크플로 패키지 외에 Workfront Planning 패키지를 구매한 고객만 사용할 수 있습니다. Workfront Planning을 독립형 제품으로 구입한 고객은 사용할 수 없습니다.
+
+이제 Workfront 관리자는 Workfront Planning 작업 공간 및 해당 개체를 한 환경에서 다른 환경으로 승격할 수 있으므로 구성을 더 이상 수동으로 다시 빌드할 필요가 없습니다. 이렇게 하면 시간이 절약되고 수동 설정에서 오는 오류가 줄어듭니다.
+
+내보낸 작업 영역에 속하지 않는 레코드, 자동화 및 필드는 상태를 올릴 수 없습니다.
+
+이 기능을 사용하려면 Prime 또는 Ultimate 워크플로 및 계획 패키지, 표준 라이선스 및 Workfront 관리자 액세스 권한이 필요합니다.
+
+자세한 내용은 [Workfront Planning용 환경 프로모션 사용](/help/quicksilver/planning/general/planning-environment-promotion.md)을 참조하십시오.
+
+## 이제 Open Beta에서 Workfront Planning의 관념화 공간을 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 11월 12일
+>프로덕션 빠른 릴리스: 2026년 11월 12일
+>모두를 위한 프로덕션: 2026년 11월 12일
+>[!BADGE 동시 릴리스]{type=Neutral}
+
+>[!NOTE]
+>
+>이 기능은 공개 베타 프로그램으로 사용할 수 있습니다. 관념화 공간은 워크플로 패키지 외에 Workfront Planning 패키지를 구매한 고객만 사용할 수 있습니다. Workfront Planning을 독립형 제품으로 구입한 고객은 사용할 수 없습니다.
+
+이제 Workfront Planning에는 팀이 아이디어를 실행 가능한 작업으로 만들기 전에 아이디어를 캡처, 구성, 세분화 및 평가할 수 있는 협업 영역인 관념 공간이 포함되어 있습니다. 관념화 공간은 이해 당사자가 브레인스토밍을 중앙 집중화하고, 우선 순위를 조정하고, 승인된 개념을 계획 워크플로우로 원활하게 이동할 수 있도록 지원합니다.
+
+이제 CX Enterprise Coworker을 사용하여 파일 또는 Workfront Planning 레코드로 내보낼 수 있는 Ideation Brief를 만들 수 있습니다.
+
+관념화 공간을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
+
+* 팀 및 관련자와 아이디어를 캡처하고 공동 작업합니다.
+* 섭취 과정에 대한 가시성을 가지고 아이디어를 정리하고 평가하고 우선순위를 매긴다.
+* 승인된 아이디어를 계획 레코드 및 워크플로우로 변환합니다.
+
+자세한 내용은 [Workfront Planning의 Ideation Space 시작](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)을 참조하십시오.
 
 ## 요청을 제출할 때 종속 필드의 충돌 검색 개선
 

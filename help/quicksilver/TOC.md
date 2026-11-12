@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4f3207d7f37c24eb2814a9c0d6442eb5c34a0440
 workflow-type: tm+mt
 source-wordcount: '14776'
 ht-degree: 2%
@@ -2225,7 +2225,7 @@ ht-degree: 2%
     * [Adobe Workfront Planning API 기본 사항](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant 개요](planning/general/planning-ai-assistant-overview.md)
     * [Adobe Workfront Planning CX Enterprise Coworker 개요](planning/general/planning-cx-coworker-overview.md)
-    * {hide-from-toc}[Adobe Workfront Planning에 대한 환경 프로모션 사용](planning/general/planning-environment-promotion.md)
+    * [Adobe Workfront Planning에 환경 프로모션 사용](planning/general/planning-environment-promotion.md)
     * [Adobe Workfront Planning Designer 시작](planning/general/planning-ai-designer.md)
     * [Adobe Workfront 2024년 릴리스 활동 계획](planning/general/release-activity.md)
     * [Adobe Workfront 2023년 릴리스 활동 계획](planning/general/release-activity-archives-2023.md)
@@ -2343,13 +2343,13 @@ ht-degree: 2%
     * [Adobe Workfront Planning 인스턴스를 독립 실행형 제품으로 관리](planning/planning-sta/manage-planning-sta-instance.md)
     * [Adobe Workfront Planning에서 사용자를 독립 실행형 제품으로 관리](planning/planning-sta/manage-users-in-planning-sta.md)
     * [Adobe Workfront Planning에서 팀을 독립 실행형 제품으로 관리](planning/planning-sta/manage-teams-in-planning-sta.md)
-  * {hide-from-toc}Workfront Planning의 관념화 공간 {#ideation}
-    * {hide-from-toc}[Adobe Workfront Planning의 Ideation 공간: 문서 색인](planning/ideation/planning-ideation-article-index.md)
-    * {hide-from-toc}[Adobe Workfront Planning의 Ideation 공간 시작](planning/ideation/get-started-with-planning-ideation.md)
-    * {hide-from-toc}[Ideation 공간을 사용하는 데 필요한 액세스](planning/ideation/access-needed-to-use-ideation-space.md)
-    * {hide-from-toc}[Ideation 공간에 Brief 만들기](planning/ideation/create-briefs-in-ideation-space.md)
-    * {hide-from-toc}[Ideation Space Brief에서 계획 레코드를 만듭니다](planning/ideation/create-records-in-ideation-space-for-planning.md)
-    * {hide-from-toc}[다른 사용자와 관념화 공간 공유](planning/ideation/share-the-ideation-space.md)
+  * Workfront Planning의 관념화 공간 {#ideation}
+    * [Adobe Workfront Planning용 관념화 공간: 문서 색인](planning/ideation/planning-ideation-article-index.md)
+    * [Adobe Workfront Planning의 관념화 공간 시작](planning/ideation/get-started-with-planning-ideation.md)
+    * [관념화 공간을 사용하는 데 필요한 액세스 권한](planning/ideation/access-needed-to-use-ideation-space.md)
+    * [Ideation 공간에 브리프 만들기](planning/ideation/create-briefs-in-ideation-space.md)
+    * [Ideation Space Brief에서 계획 레코드 생성](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * [다른 사용자와 관념화 공간 공유](planning/ideation/share-the-ideation-space.md)
 
 * Adobe Workfront 통합 {#adobe-workfront-integrations}
   * [Adobe Workfront 통합](workfront-integrations-and-apps/workfront-integrations.md)

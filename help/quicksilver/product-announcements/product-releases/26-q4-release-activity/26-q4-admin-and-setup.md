@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
+source-git-commit: be4623920eb86efac831d92d741cd0a10251eed2
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1797'
 ht-degree: 0%
 ---
 # 2026년 4분기 관리자 개선 사항
@@ -194,6 +194,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >미리 보기: 2026년 7월 30일
 >프로덕션 빠른 릴리스: 2026년 8월 13일
 >모두를 위한 프로덕션: 2026년 10월 22일
+>[!BADGE 워크플로우 Ultimate]{type=Informative}
 
 이제 그룹 관리자는 시스템 관리자에 액세스하지 않고도 관리하는 그룹의 비즈니스 프로필을 생성, 편집 및 삭제할 수 있습니다. 이를 통해 조직은 그룹 수준에서 비즈니스 프로필 관리를 보다 유연하게 위임할 수 있습니다.
 

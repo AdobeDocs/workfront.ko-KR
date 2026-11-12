@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: '3504'
+source-wordcount: '3799'
 ht-degree: 1%
 ---
 # 작업 업데이트
@@ -653,41 +653,39 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 </div>
 
-<!--
 <div class="preview">
 
-## Resolve comment threads
+## 댓글 스레드 해결
 
-To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+공간을 절약하고 댓글 탭을 탐색하기 쉽게 하려면 업데이트 스트림에서 댓글 스레드를 숨기는 댓글 스레드를 해결할 수 있습니다.
 
-Consider the following when resolving comments: 
+주석을 해결할 때 다음 사항을 고려하십시오.
 
-* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
-* Comments that are part of a resolved thread are read-only. 
-* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
-* You can display resolved comments or hide them for yourself.
-* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+* 개별 주석이 아니라 주석 스레드를 해결할 수 있습니다. 이 기능은 스레드의 첫 번째 주석에 대해서만 존재합니다.
+* 해결된 스레드의 일부인 주석은 읽기 전용입니다.
+* 해결된 스레드의 일부인 주석을 편집, 삭제, 회신, 좋아요, 고정할 수 없습니다.
+* 해결된 주석을 표시하거나 직접 숨길 수 있습니다.
+* 모든 기능을 사용하여 스레드를 업데이트 스트림으로 다시 가져오는 문제를 해결할 수 있습니다.
 
-To resolve comment threads: 
+주석 스레드를 해결하려면 다음을 수행하십시오.
 
-1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+1. **업데이트** 탭이 있는 개체로 이동한 다음 왼쪽 패널에서 **업데이트**&#x200B;를 클릭한 다음 **댓글** 탭을 클릭합니다.
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   자세한 내용은 [업데이트 탭 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하세요.
 
-1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+1. 기존 스레드의 맨 위 댓글에서 댓글의 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **해결**&#x200B;을 클릭합니다.
 
-   ************add a screen shot***************
+   ![고정 및 해결 옵션으로 추가 메뉴에 주석 달기](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
-   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+   댓글이 업데이트 영역에서 숨겨져 더 이상 상호 작용할 수 없음을 알리는 **댓글 확인** 상자가 열립니다.
 
-1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
-1. Click **Resolve**.
+1. (선택 사항) 댓글을 확인할 때마다 경고를 표시하지 않으려면 **다시 표시 안 함** 설정을 선택합니다. 이 설정을 선택하면 **댓글 확인** 상자를 다시 표시할 수 없습니다.
+1. **해결**&#x200B;을 클릭합니다.
 
-   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
-1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+   스레드가 해결되었으며 스레드의 모든 댓글이 **업데이트** 탭에서 숨겨집니다.
+1. (선택 사항) 업데이트 탭의 오른쪽 위 모서리에 있는 필터를 클릭한 다음 **해결된 댓글 숨기기** 설정을 끕니다. 해결된 스레드가 업데이트 탭에 표시됩니다. 이 설정은 보는 것에만 영향을 줍니다. 다른 사용자는 해결된 주석을 숨겨 둘 수 있습니다.
 
 </div>
--->
 
 ## 댓글 또는 답글 삭제
 
@@ -700,7 +698,7 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이
 1. 삭제하려는 댓글 또는 답장으로 이동합니다.
 1. 삭제하려는 댓글 또는 답글 옆에 있는 **기타** 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
-   ![스트림 댓글 추가 메뉴 업데이트](assets/update-stream-comment-menu-marked-350x152.png)
+   ![고정 및 해결 옵션으로 추가 메뉴에 주석 달기](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
 1. 표시되는 메시지에서 **삭제**&#x200B;를 클릭합니다.
 

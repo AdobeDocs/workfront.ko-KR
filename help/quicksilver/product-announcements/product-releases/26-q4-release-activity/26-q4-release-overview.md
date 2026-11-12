@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 63811ae159e365898db47bcf54705c41f72b2746
+source-git-commit: 31d0e371eb6da0d39d5b8b0354e756e79b2dfd8e
 workflow-type: tm+mt
 source-wordcount: '3631'
 ht-degree: 1%
@@ -180,6 +180,7 @@ ht-degree: 1%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">그룹 관리자가 비즈니스 프로필을 관리할 수 있음</a>
+                <p>[!BADGE 워크플로우 Ultimate]{type=Informative}</p>
                 <p>이제 그룹 관리자는 시스템 관리자에 액세스하지 않고도 관리하는 그룹의 비즈니스 프로필을 생성, 편집 및 삭제할 수 있습니다.</p>
             </td>
             <td><p>2026년 7월 30일</p></td>
@@ -895,6 +896,11 @@ Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용
 
 2027년 1월 릴리스에서는 필터/보기/그룹화 구성(직접 참조 및 텍스트 모드 계산 열 모두)을 포함하여 레거시 필드 **시간당 청구** 및 **시간당 비용**&#x200B;을 Workfront API 또는 작업 역할 목록 보기에서 더 이상 사용할 수 없습니다.
 
+이러한 필드는 1월까지 계속 사용할 수 있지만 제대로 작동하지 않을 수 있습니다. 현재 작업 역할 목록 보기에 **시간당 청구** 및 **시간당 비용** 필드를 표시하는 관리자는 작업 역할 요금을 관리하고 검토하는 데 권장되는 요금 관리 환경을 사용하도록 워크플로를 업데이트해야 합니다.
+
+* [작업 역할] > [비율] 페이지에서 직접 작업 역할 비율에 액세스하고 관리합니다.
+* 비율 보고서를 사용하여 작업 역할 간의 비율 정보를 검토, 분석 및 보고합니다.
+
 보고서에서 대체물로 권장되는 텍스트 모드 코드를 사용할 수 있습니다(필요에 따라 `costRates` 또는 `billingRates` 사용).
 
     &quot;
@@ -905,13 +911,6 @@ Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용
     valueexpression=CONCAT({startDate},&quot; - &quot;,{endDate},&quot;: &quot;,{value})
     valueformat=HTML
     &quot;
-
-작업 역할 비율을 관리하고 검토하려면 전용 비율 관리 환경을 사용하십시오.
-
-* [작업 역할] > [비율] 페이지에서 직접 작업 역할 비율에 액세스하고 관리합니다.
-* 비율 보고서를 사용하여 작업 역할 간의 비율 정보를 검토, 분석 및 보고합니다.
-
-변경을 준비하는 데 필요한 작업은 없습니다. 그러나 현재 작업 역할 목록 보기에 **시간당 청구** 및 **시간당 비용** 필드를 표시하는 관리자는 위에서 설명한 권장 요금 관리 경험을 사용하도록 워크플로우를 업데이트해야 합니다.
 
 작업 역할 비율에 대한 자세한 내용은 [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
 

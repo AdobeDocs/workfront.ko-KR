@@ -4,9 +4,9 @@ description: 2027년 1분기 관리자 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
+source-git-commit: 02c2be8da17c954e508596225df1904feb4da2e2
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '554'
 ht-degree: 0%
 ---
 
@@ -15,6 +15,27 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2027년 1분기 릴리스의 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2027년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2027년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)를 참조하십시오.
+
+## Workfront Planning에서 사용 가능한 환경 프로모션
+
+>[!NOTE]
+>
+>미리 보기: 2026년 11월 12일
+>프로덕션 빠른 릴리스: 2026년 11월 12일
+>모두를 위한 프로덕션: 2026년 11월 12일
+>[!BADGE 동시 릴리스]{type=Neutral}
+
+>[!NOTE]
+>
+>Workfront Planning에 대한 환경 프로모션은 워크플로 패키지 외에 Workfront Planning 패키지를 구매한 고객만 사용할 수 있습니다. Workfront Planning을 독립형 제품으로 구입한 고객은 사용할 수 없습니다.
+
+이제 Workfront 관리자는 Workfront Planning 작업 공간 및 해당 개체를 한 환경에서 다른 환경으로 승격할 수 있으므로 구성을 더 이상 수동으로 다시 빌드할 필요가 없습니다. 이렇게 하면 시간이 절약되고 수동 설정에서 오는 오류가 줄어듭니다.
+
+내보낸 작업 영역에 속하지 않는 레코드, 자동화 및 필드는 상태를 올릴 수 없습니다.
+
+이 기능을 사용하려면 Prime 또는 Ultimate 워크플로 및 계획 패키지, 표준 라이선스 및 Workfront 관리자 액세스 권한이 필요합니다.
+
+자세한 내용은 [Workfront Planning용 환경 프로모션 사용](/help/quicksilver/planning/general/planning-environment-promotion.md)을 참조하십시오.
 
 ## 첨부된 사용자 정의 양식을 제거할 수 있는 권한
 
@@ -33,7 +54,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >미리 보기: 2026년 10월 29일
->프로덕션 빠른 릴리스: 2026년 11월 12일
+>프로덕션 빠른 릴리스: 2026년 12월 17일
 >모두를 위한 프로덕션: 2027년 1월 21일
 
 이제 필드 목록 또는 사용자 정의 양식 디자이너에서 사용자 정의 필드를 즐겨찾기로 표시할 수 있습니다. 특정 목록 및 보고서(예: 프로젝트, 작업 및 문제 목록)에서 작업하고 필터, 보기 및 그룹화를 빌드하면 즐겨 찾는 필드가 [제안됨] 섹션의 사용 가능한 필드 목록 맨 위에 나타납니다.

@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1442'
 ht-degree: 0%
 ---
 
@@ -83,7 +83,7 @@ Workfront Planning 또는 Workfront 메인 메뉴에서만 액세스할 수 있�
 
 * **일반 가용성:**, 2027년 2월 1일 대상.
 
-## 제품 요구 사항
+## 제품 자격 요건
 
 <!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
@@ -123,8 +123,11 @@ Workfront Planning 또는 Workfront 메인 메뉴에서만 액세스할 수 있�
 
     두 패키지 모두 Adobe CX Enterprise Coworker이 활성화되어 있어야 합니다.
 
+* Adobe Workfront 라이선스:
 
+  * 워크플로우 및 계획 시스템 관리자 또는 표준 라이선스 사용자
 
+자세한 내용은 [Ideation 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)를 참조하십시오.
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -141,38 +144,55 @@ In addition to above requirements, you must also meet the following criteria to 
 * Have at least one identified strategist or ideation user who will be the primary Ideation space user
 -->
 
-## 대상자 및 사용 사례
+## 관념화 공간에 대한 액세스 권한 얻기
 
-Ideation 공간은 캠페인 전략을 수립하고 캠페인 브리핑을 제작하는 책임을 지는 제품 및 브랜드 마케터를 위해 설계되었습니다.
+관념화 공간에 액세스하려면:
 
-<!--
-Too much: 
+1. 이 문서의 [제품 요구 사항](#product-requirements) 섹션에 설명된 대로 제품 요구 사항을 충족하는지 확인하십시오.
+1. 폐쇄된 Adobe 참여에 대한 관심을 표명하거나 가능한 경우 Open Beta에 참여하려면 Beta 계정 담당자에게 문의하십시오.
 
-| Role | Primary job to be done |
-|---|---|
-| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
-| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
-| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
--->
+   시스템 관리자는 기본적으로 관념화 공간에 액세스할 수 있으며 Open Beta에서 사용할 수 있게 되면 이를 제거할 수 없습니다. 다음 환경의 다른 모든 사용자에 대해 이 기능을 켤 수 있습니다.
 
-작업 영역 관리자는 다음 단계에 따라 관념화 공간을 사용하여 Workfront Planning에서 레코드를 만들 수 있습니다.
+   * 프로덕션
+   * 미리보기
+   * 사용자 지정 샌드박스
 
-* Planning에서 시작한 후 레코드 생성 또는 편집을 시작할 때 Ideation 공간에 대한 간단한 설명을 만듭니다.
-* AI 프롬프트를 사용하여 시스템의 다른 레코드나 웹에서 세부 정보를 수집하고 관념설명 만들기를 완료합니다.
-* Brief에서 Planning 레코드 유형을 생성합니다.
-* Planning에서 Ideation Brief를 구체화하고 기존 레코드 유형을 업데이트합니다.
+1. 시스템 관리자는 다음 작업을 수행합니다.
 
-다음은 관념화 공간을 사용하는 방법에 대한 사용 사례입니다.
+   * 시스템 환경 설정에서 Coworker 및 MCP 도구 설정을 켜서 회사 전체에 대한 Coworker 액세스를 허용합니다.
+   * 액세스 수준에서 표준 라이선스 사용자에 대해 다음 설정을 끕니다.
+     * Workfront에서 CX Coworker 패널 비활성화
+     * 구상 공간 비활성화
 
-* **이전 성능을 사용하여 이전 캠페인을 새로 고치십시오**
+   관념화 공간 사용에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-  * 예를 들어 새 분기, 시즌 또는 제품 모멘트에 대한 기존 캠페인을 업데이트할 수 있습니다.
-  * 이렇게 하면 어떤 것이 유지되고, 어떤 변화가 일어나고, 어떤 이유가 있는지를 대략적으로 설명하는 이전 성능에 기반을 둔 &quot;델타 브리프&quot;가 생성됩니다.
+   * [관념화 공간을 사용하는 데 필요한 액세스 권한](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+   * [Ideation Space Brief에서 계획 레코드 생성](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+   * [Ideation Space에서 개요 만들기](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 
-* **과거 성과를 사용하여 순-신규 캠페인 만들기**
+1. (권장) 첫 번째 캠페인(새로 고칠 최근 캠페인 또는 처음부터 새로 만들 새 캠페인)을 식별합니다.
 
-  * 예를 들어 직접 캠페인 내역 없이 새 제품, 세그먼트 또는 이니셔티브를 시작할 때 캠페인을 만들 수 있습니다.
-  * 이렇게 하면 안내가 있는 관념화, 권장 채널 믹스 및 초기 개념이나 메시지 지침을 통해 완전히 새로운 브리핑이 생성됩니다.
+## 관념화 공간 찾기
+
+적절한 제품, 패키지, 시스템 및 구성된 액세스 수준에 대한 액세스 권한을 확인했으면 Workfront의 다음 영역에서 Ideation 공간을 찾을 수 있습니다.
+
+* Workfront 주 메뉴에서 관념화 공간 영역을 엽니다.
+
+  ![주 메뉴의 관념화 공간 영역](assets/ideation-space-area-icon-in-main-menu.png)
+
+* Workfront Planning에서 수동으로 새 레코드 추가 시
+
+  새 레코드를 추가할 때의 ![관념화 공간](assets/ideation-space-in-planning-new-record.png)
+
+* Workfront Planning에서 기존 레코드를 편집할 때
+
+  ![레코드 세부 정보 페이지의 관념화 공간](assets/ideation-space-button-in-details-page.png)
+
+
+>[!TIP]
+>
+>레이아웃 템플릿을 사용하여 기본 메뉴에서 관념화 공간 영역을 제거할 수 없습니다. 사용자가 관념화 공간에 액세스하지 못하도록 차단하는 방법에 대한 자세한 내용은 [관념화 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)를 참조하십시오.
+>
 
 ## 관념화 공간 및 Adobe CX Enterprise Coworker
 
@@ -207,42 +227,38 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
   * **완료하기 전에 확인**. AI에서 생성한 응답이 정확하지 않을 수 있으므로 레코드를 완료하기 전에 항상 카드에서 **소스**&#x200B;를 확인하고 연결된 소스를 확인하십시오.
   * **AI 카드와 실제 레코드를 혼합**&#x200B;합니다. 관념화 공간에 실제 레코드를 끌어서 놓습니다.
 
-## 관념화 공간에 대한 액세스 권한 얻기
+## 대상자 및 사용 사례
 
-관념화 공간에 액세스하려면:
+Ideation 공간은 캠페인 전략을 수립하고 캠페인 브리핑을 제작하는 책임을 지는 제품 및 브랜드 마케터를 위해 설계되었습니다.
 
-1. 이 문서의 [제품 요구 사항](#product-requirements) 섹션에 설명된 대로 제품 요구 사항을 충족하는지 확인하십시오.
-1. 폐쇄된 Adobe 참여에 대한 관심을 표명하거나 가능한 경우 Open Beta에 참여하려면 Beta 계정 담당자에게 문의하십시오.
+<!--
+Too much: 
 
-   시스템 관리자는 기본적으로 관념화 공간에 액세스할 수 있으며 Open Beta에서 사용할 수 있게 되면 이를 제거할 수 없습니다. 다음 환경의 다른 모든 사용자에 대해 이 기능을 켤 수 있습니다.
+| Role | Primary job to be done |
+|---|---|
+| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
+| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
+| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
+-->
 
-   * 프로덕션
-   * 미리보기
-   * 사용자 지정 샌드박스
+작업 영역 관리자는 다음 단계에 따라 관념화 공간을 사용하여 Workfront Planning에서 레코드를 만들 수 있습니다.
 
-1. (권장) 첫 번째 캠페인(새로 고칠 최근 캠페인 또는 처음부터 새로 만들 새 캠페인)을 식별합니다.
+* Planning에서 시작한 후 레코드 생성 또는 편집을 시작할 때 Ideation 공간에 대한 간단한 설명을 만듭니다.
+* AI 프롬프트를 사용하여 시스템의 다른 레코드나 웹에서 세부 정보를 수집하고 관념설명 만들기를 완료합니다.
+* Brief에서 Planning 레코드 유형을 생성합니다.
+* Planning에서 Ideation Brief를 구체화하고 기존 레코드 유형을 업데이트합니다.
 
-관념화 공간 사용에 대한 자세한 내용은 다음 문서를 참조하십시오.
+다음은 관념화 공간을 사용하는 방법에 대한 사용 사례입니다.
 
-* [관념화 공간을 사용하는 데 필요한 액세스 권한](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [Ideation Space Brief에서 계획 레코드 생성](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [Ideation Space에서 개요 만들기](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* **이전 성능을 사용하여 이전 캠페인을 새로 고치십시오**
 
-## 관념화 공간 찾기
+  * 예를 들어 새 분기, 시즌 또는 제품 모멘트에 대한 기존 캠페인을 업데이트할 수 있습니다.
+  * 이렇게 하면 어떤 것이 유지되고, 어떤 변화가 일어나고, 어떤 이유가 있는지를 대략적으로 설명하는 이전 성능에 기반을 둔 &quot;델타 브리프&quot;가 생성됩니다.
 
-적절한 제품, 패키지, 시스템 및 구성된 액세스 수준에 대한 액세스 권한을 확인했으면 Workfront의 다음 영역에서 Ideation 공간을 찾을 수 있습니다.
+* **과거 성과를 사용하여 순-신규 캠페인 만들기**
 
-* Workfront Planning에서 새 레코드를 수동으로 추가할 때
-
-  ![Planning의 관념화 공간](assets/ideation-space-in-planning-new-record.png)
-* Workfront 주 메뉴에서 관념화 공간 영역을 엽니다.
-
-  ![주 메뉴의 관념화 공간 영역](assets/ideation-space-area-icon-in-main-menu.png)
-
->[!TIP]
->
->레이아웃 템플릿을 사용하여 기본 메뉴에서 관념화 공간 영역을 제거할 수 없습니다. 사용자가 관념화 공간에 액세스하지 못하도록 차단하는 방법에 대한 자세한 내용은 [관념화 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)를 참조하십시오.
->
+  * 예를 들어 직접 캠페인 내역 없이 새 제품, 세그먼트 또는 이니셔티브를 시작할 때 캠페인을 만들 수 있습니다.
+  * 이렇게 하면 안내가 있는 관념화, 권장 채널 믹스 및 초기 개념이나 메시지 지침을 통해 완전히 새로운 브리핑이 생성됩니다.
 
 ## 관념화 공간에 의해 생성된 객체
 

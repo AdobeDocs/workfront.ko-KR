@@ -4,9 +4,9 @@ description: 2027년 1분기 프로젝트 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '355'
 ht-degree: 0%
 ---
 
@@ -15,6 +15,22 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2027년 1분기 릴리스의 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2027년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2027년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)를 참조하십시오.
+
+## 댓글 스레드 해결
+
+>[!NOTE]
+>
+>미리 보기: 2026년 11월 12일
+>프로덕션 빠른 릴리스: 2026년 12월 17일
+>모두를 위한 프로덕션: 2027년 1월 21일
+
+이제 업데이트 영역에 있는 상단 메시지의 기타 메뉴에서 보기 액세스 권한이 있는 오브젝트에 대한 설명 스레드를 확인할 수 있습니다. 모든 뷰어에 대한 주석 스트림에서 숨깁니다. 나중에 해결하지 않으면 다시 가져올 수 있습니다.
+
+해결된 스레드는 읽기 전용이므로 해결되지 않을 때까지 편집, 삭제, 회신, 반응 또는 고정할 수 없습니다.
+
+필터를 사용하여 업데이트 탭에서 해결된 스레드를 표시할 수 있습니다.
+
+자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 ## 사용할 수 없는 상태 지침
 
