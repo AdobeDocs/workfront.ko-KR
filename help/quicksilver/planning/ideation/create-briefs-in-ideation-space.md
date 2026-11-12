@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2052'
 ht-degree: 1%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -178,7 +178,16 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. Coworker가 설정된 Planning으로 Workfront에 로그인하고 다음 중 하나를 수행하여 브리프를 처음으로 만들 수 있는 Ideation 공간을 엽니다.
 
    * **주 메뉴** ![주 메뉴](assets/main-menu-lines.png) > **관념화 공간**(으)로 이동
-   * **주 메뉴로 이동** ![주 메뉴](assets/main-menu-lines.png) > **계획** > 작업 공간 클릭 > 레코드 유형 클릭 > **새 레코드** > **관념화 공간 시작**
+
+     ![주 메뉴의 관념화 공간](assets/ideation-space-area-icon-in-main-menu.png)
+
+   * **주 메뉴로 이동** ![주 메뉴](assets/main-menu-lines.png) > **계획** > 작업 공간 클릭 > 레코드 유형 클릭 > **새 레코드 클릭** > **관념화 공간 시작**
+
+     새 레코드의 ![관념화 공간](assets/ideation-space-in-planning-new-record.png)
+
+   * **주 메뉴로 이동** ![주 메뉴](assets/main-menu-lines.png) > **계획** > 작업 공간 클릭 > 레코드 유형 클릭 > 기존 레코드 클릭 > **관념에서 열기**
+
+     ![레코드 세부 정보의 관념화 공간](assets/ideation-space-button-in-details-page.png)
 
 1. Beta 계약을 읽고 **동의**&#x200B;를 클릭합니다. 관념화 공간을 사용하려면 계약서에 서명해야 합니다.
 

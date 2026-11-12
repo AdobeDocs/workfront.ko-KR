@@ -19,10 +19,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 1%
+source-wordcount: '268'
+ht-degree: 0%
 ---
 # Beta 프로그램
 
@@ -51,14 +51,16 @@ Beta에서 사용할 수 있는 기능은 일부 고객에게는 제공되지 �
 
 * Adobe Workfront 계획 Designer
 
+  AI에서 제공하는 Adobe Planning Designer을 사용하여 작업 공간 및 데이터 구조를 쉽게 구성할 수 있습니다. Planning Designer은 작업 공간 생성 및 구성에서 필드 및 공식 정의, 레코드 관리, 변경 내용 검토 및 사용자 정의 보기 작성에 이르기까지 모든 작업을 지원합니다.
+
   자세한 내용은 [Adobe Workfront Planning Designer 시작](/help/quicksilver/planning/general/planning-ai-designer.md)을 참조하십시오.
 
-<!--
+* Adobe Workfront Planning의 관념화 공간
 
-* Ideation space for Adobe Workfront Planning 
+  Workfront Planning에 직접 내장된 Adobe의 AI 기반 전략적 관념 기능. 이는 마케팅 팀에게 캠페인 전략을 위한 구조화된 데이터 기반의 시작 지점을 제공하며, 수동 연구 및 추측 작업을 조직의 실제 성과 기록에서 기반으로 하는 AI 생성 브리핑으로 대체합니다.
 
-    For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
--->
+  자세한 내용은 [Adobe Workfront Planning의 Ideation Space 시작](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)을 참조하십시오.
+
 
 <!--
 
