@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7a61a71c731d3fdbf5551e55ceb5954749df8c6
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '900'
 ht-degree: 2%
 ---
 # 사용자 정의 양식의 고급 논리 예
@@ -198,3 +198,27 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 올바른 수의 옵션을 선택하지 않으면 유효성 검사 오류가 표시됩니다.
 
 ![유효성 검사 오류 예](assets/min-max-selections.png)
+
+## 필드가 표시되는 경우에만 유효성 검사를 트리거하는 공식
+
+필드가 표시되지 않더라도 유효성 검사 논리는 항상 선택되어 있습니다. 사용자가 유효성 검사 논리가 포함된 필드와 상호 작용하고 나중에 필드가 표시 논리에 의해 숨겨지면 필드가 숨겨지기 전에 필드의 값이 지워졌더라도 유효성 검사 오류가 발생합니다.
+
+해결 방법: 검증 공식의 표시 규칙에서 동일한 조건을 사용하여 필드가 표시될 때만 검증이 트리거되도록 합니다.
+
+예를 들어 A와 B, 이렇게 두 개의 필드가 있습니다.
+필드 B에는 필드 A의 값이 `"show"`인 경우에만 표시되는 표시 규칙이 있습니다.
+
+필드 B에도 다음과 같은 유효성 검사 공식이 있습니다.
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1', 'field value is invalid')`
+```
+
+필드 B가 표시될 때만 검증하려면 검증 공식에 표시 조건을 포함할 수 있습니다.
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1' && {DE:A} = 'show', 'field value is invalid')
+```
+
+이렇게 하면 필드 A가 `"show"`(으)로 설정되고 다른 유효성 검사 조건이 충족되는 경우에만 유효성 검사 오류가 표시됩니다.
+

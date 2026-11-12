@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
+source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1537'
 ht-degree: 2%
 ---
 
@@ -380,7 +380,7 @@ Desktop Proofing Viewer가 버전 2.3.0으로 업데이트되었습니다. 이 �
 
 * 성능 및 보안 개선을 위해 기본 프레임워크(Electron)를 Chrome 버전 156에서 실행되는 최신 버전으로 업데이트했습니다.
 
-Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](https://experienceleague.adobe.com/ko/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)를 참조하십시오.
+Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)를 참조하십시오.
 
 ## 공지
 
@@ -415,6 +415,11 @@ Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용
 
 2027년 1월 릴리스에서는 필터/보기/그룹화 구성(직접 참조 및 텍스트 모드 계산 열 모두)을 포함하여 레거시 필드 **시간당 청구** 및 **시간당 비용**&#x200B;을 Workfront API 또는 작업 역할 목록 보기에서 더 이상 사용할 수 없습니다.
 
+이러한 필드는 1월까지 계속 사용할 수 있지만 제대로 작동하지 않을 수 있습니다. 현재 작업 역할 목록 보기에 **시간당 청구** 및 **시간당 비용** 필드를 표시하는 관리자는 작업 역할 요금을 관리하고 검토하는 데 권장되는 요금 관리 환경을 사용하도록 워크플로를 업데이트해야 합니다.
+
+* [작업 역할] > [비율] 페이지에서 직접 작업 역할 비율에 액세스하고 관리합니다.
+* 비율 보고서를 사용하여 작업 역할 간의 비율 정보를 검토, 분석 및 보고합니다.
+
 보고서에서 대체물로 권장되는 텍스트 모드 코드를 사용할 수 있습니다(필요에 따라 `costRates` 또는 `billingRates` 사용).
 
     &quot;
@@ -426,23 +431,16 @@ Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용
     valueformat=HTML
     &quot;
 
-작업 역할 비율을 관리하고 검토하려면 전용 비율 관리 환경을 사용하십시오.
-
-* [작업 역할] > [비율] 페이지에서 직접 작업 역할 비율에 액세스하고 관리합니다.
-* 비율 보고서를 사용하여 작업 역할 간의 비율 정보를 검토, 분석 및 보고합니다.
-
-변경을 준비하는 데 필요한 작업은 없습니다. 그러나 현재 작업 역할 목록 보기에 **시간당 청구** 및 **시간당 비용** 필드를 표시하는 관리자는 위에서 설명한 권장 요금 관리 경험을 사용하도록 워크플로우를 업데이트해야 합니다.
-
 작업 역할 비율에 대한 자세한 내용은 [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
 
 <!--
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
