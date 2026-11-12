@@ -1,13 +1,11 @@
 ---
 name: release-notes-formatter
 description: Workfront 릴리스 정보의 일관성, 올바른 구조 및 적절한 링크에 대한 형식과 유효성을 검사합니다. 제품 릴리스 디렉토리의 릴리스 노트 파일에 대해서만 사용하거나 사용자가 릴리스 노트, 제품 릴리스 또는 분기별 릴리스에 대해 언급할 때만 사용합니다. 방법 문서 또는 일반 설명서에는 적용되지 않습니다.
-source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2336'
 ht-degree: 2%
-
 ---
-
 
 # 릴리스 노트 포맷터
 
@@ -83,7 +81,7 @@ exl-id: <existing UUID — never generate or change>
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **본문**: 기능 설명, 도움말 설명서 링크
+5. **본문**: 기능 설명, 도움말 설명서 링크
 
 #### 개요 페이지
 
@@ -91,7 +89,7 @@ exl-id: <existing UUID — never generate or change>
 
 2. 릴리스 예정일이 있는 **단락 소개**
 
-3. 릴리스 일정 테이블이 있는 **`>[!IMPORTANT]`블록**
+3. 릴리스 일정 표가 있는 **`>[!IMPORTANT]`블록** 다음에 동시 릴리스 및 해제 일정 배지를 설명하는 배지 범례가 옵니다(참조 파일의 개요 페이지 템플릿 참조).
 
 4. 앵커 링크의 글머리 기호 목록이 있는 **H2`Adobe Workfront enhancements`**:
 
@@ -100,10 +98,13 @@ exl-id: <existing UUID — never generate or change>
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. HTML 기능 테이블이 포함된 **제품 영역당 H3**(.claude/commands/_release-notes-formatter-reference.md#overview-feature-table 참조)
-   - 각 테이블 내에서 **최신 기능 먼저** — 가장 최근 행이 테이블의 맨 위(머리글 행 뒤)에 나타납니다.
+- 제품 영역 섹션을 주석 처리하면 이 목록에서 해당 링크를 완전히 제거합니다. 링크를 주석 처리하지 마십시오.
 
-&#x200B;6. **후행 섹션**(H2): 다른 영역에 대한 릴리스 정보, 바탕 화면 교정 뷰어 업데이트, 알림, API 버전, 유지 관리 업데이트, 교육 업데이트
+5. HTML 기능 테이블이 포함된 **제품 영역당 H3**(.claude/commands/_release-notes-formatter-reference.md#overview-feature-table 참조)
+   - 각 테이블 내에서 **최신 기능 먼저** — 가장 최근 행이 테이블의 맨 위(머리글 행 뒤)에 나타납니다.
+     - 기능에 배지(`[!BADGE Off schedule]{type=Neutral}` 또는 `[!BADGE Concurrent release]{type=Neutral}`)가 있는 경우 기능 링크 단락 바로 아래의 설명 단락 앞에 있는 자체 `<p>`에 넣으십시오.
+
+6. **후행 섹션**(H2): 다른 영역에 대한 릴리스 정보, 바탕 화면 교정 뷰어 업데이트, 알림, API 버전, 유지 관리 업데이트, 교육 업데이트
 
 ### 3단계: 링크 유효성 검사
 
@@ -134,6 +135,8 @@ exl-id: <existing UUID — never generate or change>
 | 콜아웃 라인의 추가 공백 | 후행 공백 트리밍 |
 | 제품 영역 페이지의 HTML | Markdown으로 유지(HTML은 개요 테이블에만 해당) |
 | `exl-id` 누락 | 제외합니다. 생성하지 마십시오. |
+| 개요 테이블의 설명 뒤에 배치된 배지 | 기능 링크 바로 아래에 있는 자체 `<p>`(으)로 이동 |
+| 주석 처리된 섹션에 대한 미니 TOC 링크 | 목록에서 링크를 제거합니다. 주석 달지 마십시오. |
 
 ### 6단계: 개요 페이지 동기화
 
@@ -193,15 +196,9 @@ exl-id: <existing UUID — never generate or change>
 - `home.md`의 &quot;최신 릴리스&quot; 탭을 업데이트하지 않고 새 분기의 개요 페이지를 만듭니다. 이전 분기를 계속 가리킵니다.
 - 새 분기도 현재 연도 탭 목록에 추가하는 것을 잊었습니다.
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 업스트림 업데이트됨
-
-### 8단계: 제품 릴리스 색인 페이지 업데이트
-=======
-
 ### 9단계: 제품 릴리스 색인 페이지 업데이트
-&#x200B;>>>>>>>>>>저장된 변경 사항
-> 
->**새 분기의 개요 페이지**&#x200B;를 만들 때마다 `help/quicksilver/product-announcements/product-releases/product-releases.md`도 동일한 변경 내용으로 업데이트됩니다.
+
+**새 분기의 개요 페이지**&#x200B;를 만들 때마다 `help/quicksilver/product-announcements/product-releases/product-releases.md`도 동일한 변경 내용으로 업데이트됩니다.
 
 - &quot;Workfront 릴리스&quot; 열에서 현재 연도의 `<p>Releases in {year}</p>` 블록을 찾으십시오.
 - 기존 항목과 동일한 형식으로 새 분기의 개요 페이지에 연결된 해당 연도 목록의 **top**&#x200B;에 새 `<li>`을(를) 추가합니다.
@@ -288,6 +285,9 @@ Source: &quot;2026 월별 릴리스 일정&quot;(Adobe corp wiki, AWF 공간 —
 - [ 개요의 ] 기능 테이블 행이 제품 영역 페이지 콘텐츠와 일치합니다.
 - [ ] 끊어진 내부 링크가 없습니다.
 - [ 개요의 ] 앵커 링크가 H3 섹션 ID와 일치합니다.
+- [ ] 개요 미니 TOC에는 주석 처리된 섹션에 대한 링크가 없으며 기능 링크 바로 아래에 배지가 있습니다
+- [ ] 개요 `>[!IMPORTANT]` 블록에는 배지 범례가 포함되어 있으며 표에 사용된 모든 배지가 여기에 설명되어 있습니다
+- [ ] 개요에서 주석 처리되지 않은 모든 개선 사항 테이블에는 미니 TOC에 일치하는 링크가 있으므로 주석 처리되지 않았을 때 다시 추가된 섹션이 없습니다
 - [ ] 기능은 가장 최신 순으로 정렬됩니다(제품 영역 페이지와 개요 테이블 모두).
 - [ ]개의 새 릴리스 정보 페이지가 올바른 분기 아래의 `help/quicksilver/TOC.md`에 나열되며, 개요는 첫 번째 및 제품 영역을 알파벳순으로(기타 마지막) 나열합니다.
 - [ ] 새 분기의 개요 페이지가 만들어지면 `help/quicksilver/home.md` &quot;최신 릴리스&quot; 탭과 현재 연도 탭이 해당 페이지를 가리킵니다

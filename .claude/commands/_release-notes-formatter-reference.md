@@ -1,9 +1,8 @@
 ---
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '308'
 ht-degree: 0%
-
 ---
 # 릴리스 노트 참조 템플릿
 
@@ -11,7 +10,7 @@ ht-degree: 0%
 `help/quicksilver/product-announcements/product-releases/release-note-templates/` 및
 최근 분기별 릴리스에 사용된 실제 서식.
 
-&#x200B;---
+---
 
 ## 제품 영역 페이지 템플릿
 
@@ -57,17 +56,15 @@ For more information, see [Help article title](/help/quicksilver/path/to/article
   >Production fast release: {date}
   >Production for everyone: {date}
   ```
-
 - 기능이 일시적으로 제거된 경우 날짜 뒤에 줄을 추가합니다.
 
   ```
   >
   >This feature has been temporarily removed from the Production environment on {date}.
   ```
-
 - 도움말 링크는 `/help/quicksilver/`(으)로 시작하는 절대 경로를 사용합니다.
 
-&#x200B;---
+---
 
 ## 개요 페이지 템플릿
 
@@ -98,6 +95,13 @@ The enhancements on this page are available in the Preview environment. This pag
 >Note that for the final release of each quarter ({VV}.{M} this quarter), users on the fast release schedule will receive the release one day early ({Month Day, Year}).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Features that do not follow this schedule display one of the following badges:
+>
+>* [!BADGE Concurrent release]{type=Neutral}
+>   These features are released concurrently to Preview and Production environments due to technical situations, such as the release schedules of other Adobe products that are part of the feature.
+>* [!BADGE Off schedule]{type=Neutral}
+>   These features are released outside of the standard Workfront release schedule.
 
 ## Adobe Workfront enhancements
 
@@ -144,9 +148,9 @@ The enhancements on this page are available in the Preview environment. This pag
 - 기능 셀: `class="MCXref xref" xrefformat="{para}"` 뒤에 `<p>` 설명이 있는 `<a>` 태그
 - `href` 링크는 제품 영역 페이지로 연결됩니다(특정 앵커 아님)
 - 날짜 셀: `<p>`개 태그로 래핑됨
-- 일정 외 항목의 경우 링크 뒤에 `<p>[!BADGE Off schedule]{type=Neutral}</p>`을(를) 추가하십시오.
-- 배지가 필요하지 않은 경우 링크 뒤에 빈 `<p></p>`을(를) 사용할 수 있습니다.
-- HTML 들여쓰기를 기존 파일과 일관되게 유지
+- 일정이 없는 항목의 경우 설명 단락 바로 앞에 링크 단락 바로 아래에 `<p>[!BADGE Off schedule]{type=Neutral}</p>`을(를) 자체 단락으로 추가합니다.
+- 미리 보기와 프로덕션에 동시에 릴리스된 항목의 경우 `<p>[!BADGE Concurrent release]{type=Neutral}</p>`을(를) 같은 위치에 추가하십시오.
+- 배지가 필요하지 않은 경우 링크 다음에 빈 `<p></p>`을(를) 사용할 수 있습니다. - HTML 들여쓰기를 기존 파일과 일관되게 유지합니다.
 
 ### 개요 후행 섹션
 
@@ -157,7 +161,7 @@ The enhancements on this page are available in the Preview environment. This pag
 
 ### Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the standard release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+New features in Workfront Fusion are available in Production at a cadence outside of the standard release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront Planning enhancements
 
@@ -183,14 +187,14 @@ There are no updates for the following at this point in the release:
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the {Written Quarter} {Year} release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko).
+For information about the maintenance updates made during the {Written Quarter} {Year} release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 ```
 
-&#x200B;---
+---
 
 ## 디자인 페이지 템플릿
 
@@ -219,7 +223,7 @@ For a list of all changes available with the {Written Quarter} {Year} release, s
 Description of the look-and-feel change.
 ```
 
-&#x200B;---
+---
 
 ## 날짜 설명선 형식
 
@@ -249,7 +253,7 @@ Description of the look-and-feel change.
 >Preview release: February 9, 2023; Planned Production release: February 23, 2023
 ```
 
-&#x200B;---
+---
 
 ## 감시할 알려진 불일치
 

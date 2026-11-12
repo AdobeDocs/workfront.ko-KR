@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
+source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 3%
+source-wordcount: '1542'
+ht-degree: 2%
 ---
 
 # 2027년 1분기 릴리스 개요
@@ -27,13 +27,19 @@ ht-degree: 3%
 >| <ul><li>2026.11(2026년 11월 12일)</li><li>2026.12 (2026년 12월 17일)</li><li>2027.01 (2027년 1월 21일)</li></ul> | <ul><li>2027.01 (2027년 1월 21일)</li></ul> |
 >
 >빠른 릴리스 프로세스에 대한 자세한 내용은 [빠른 릴리스 프로세스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하십시오.
+>
+>이 일정을 따르지 않는 기능은 다음 배지 중 하나를 표시합니다.
+>
+>* [!BADGE 동시 릴리스]{type=Neutral}
+>   이러한 기능은 기능의 일부인 다른 Adobe 제품의 릴리스 일정과 같은 기술 상황으로 인해 미리보기 및 프로덕션 환경에 동시에 릴리스됩니다.
+>* [!BADGE 일정 해제]{type=Neutral}
+>   이러한 기능은 표준 Workfront 릴리스 일정 외에 릴리스됩니다.
 
 ## Adobe Workfront 개선 사항
 
 * [관리자 개선 사항](#administrator-enhancements)
 * [AI 개선 사항](#ai-enhancements)
 * [문서 개선 사항](#documents-enhancements)
-<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [프로젝트 개선 사항](#project-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
@@ -50,6 +56,16 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Workfront Planning에서 사용 가능한 환경 프로모션</a></p>
+                <p>[!BADGE 동시 릴리스]{type=Neutral}</p>
+                <p>이제 Workfront 관리자는 Workfront Planning 작업 공간 및 해당 개체를 한 환경에서 다른 환경으로 승격시킬 수 있습니다.</p>
+            </td>
+            <td><p>2026년 11월 12일</p></td>
+            <td><p>2026년 11월 12일</p></td>
+            <td><p>2026년 11월 12일</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">첨부된 사용자 정의 양식을 제거할 수 있는 권한</a></p>
                 <p>이제 사용자 정의 양식을 공유할 때 관리 액세스 권한이 있는 사용자가 첨부된 오브젝트에서 양식을 제거할 수 있는 권한을 설정할 수 있습니다.</p>
             </td>
@@ -63,7 +79,7 @@ ht-degree: 3%
                 <p>이제 사용자 지정 필드를 즐겨찾기로 표시하여 필터, 보기 및 그룹화를 작성할 때 사용 가능한 필드의 맨 위와 양식 디자이너 필드 라이브러리에 표시할 수 있습니다.</p>
             </td>
             <td><p>2026년 10월 29일</p></td>
-            <td><p>2026년 11월 12일</p></td>
+            <td><p>2026년 12월 17일</p></td>
             <td><p>2027년 1월 21일</p></td>
         </tr>
         <tr>
@@ -78,8 +94,8 @@ ht-degree: 3%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">변경 내역이 이제 캔버스 대시보드 개체를 추적합니다.</a></p>
-                <p>이제 변경 내역은 캔버스 대시보드 또는 보고서를 생성, 업데이트 또는 삭제한 사람, 시기 및 변경 내용을 기록합니다.</p>
                 <p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>이제 변경 내역은 캔버스 대시보드 또는 보고서를 생성, 업데이트 또는 삭제한 사람, 시기 및 변경 내용을 기록합니다.</p>
             </td>
             <td><p>2026년 10월 29일</p></td>
             <td><p>2026년 10월 29일</p></td>
@@ -216,9 +232,18 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">댓글 스레드 해결</a></p>
+                <p>이제 주석 스레드를 확인하여 모든 뷰어의 주석 스트림에서 숨길 수 있으며 나중에 이를 해결하지 않고 다시 가져올 수 있습니다.</p>
+            </td>
+            <td><p>2026년 11월 12일</p></td>
+            <td><p>2026년 12월 17일</p></td>
+            <td><p>2027년 1월 21일</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">사용할 수 없는 상태 지침</a></p>
-                <p>저장된 문제, 작업 또는 프로젝트 상태를 사용할 수 없을 때 이제 경고 메시지가 저장된 상태 코드의 이유를 설명하고 표시합니다.</p>
                 <p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>저장된 문제, 작업 또는 프로젝트 상태를 사용할 수 없을 때 이제 경고 메시지가 저장된 상태 코드의 이유를 설명하고 표시합니다.</p>
             </td>
             <td><p>2026년 11월 4일</p></td>
             <td><p>2026년 11월 4일</p></td>
@@ -330,6 +355,18 @@ ht-degree: 3%
 
 ## 데스크톱 증명 뷰어 업데이트
 
+### 버전 2.4.0
+
+>[!NOTE]
+>
+>모든 고객을 위한 프로덕션 릴리스: 2026년 11월 11일
+
+Desktop Proofing Viewer가 버전 2.3.0에서 버전 2.4.0으로 업데이트되었습니다. 이 업데이트에는 내부 도구 업데이트가 포함되어 있으며 최종 사용자 기능에는 영향을 주지 않습니다.
+
+이 업데이트는 Mac 및 Windows 모두에 해당됩니다.
+
+Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)를 참조하십시오.
+
 ### 버전 2.3.0
 
 >[!NOTE]
@@ -343,9 +380,34 @@ Desktop Proofing Viewer가 버전 2.3.0으로 업데이트되었습니다. 이 �
 
 * 성능 및 보안 개선을 위해 기본 프레임워크(Electron)를 Chrome 버전 156에서 실행되는 최신 버전으로 업데이트했습니다.
 
-Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](https://experienceleague.adobe.com/ko/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)를 참조하십시오.
+Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)를 참조하십시오.
 
 ## 공지
+
+### 이제 Open Beta에서 Workfront Planning의 관념화 공간을 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 11월 12일
+>프로덕션 빠른 릴리스: 2026년 11월 12일
+>모두를 위한 프로덕션: 2026년 11월 12일
+>[!BADGE 동시 릴리스]{type=Neutral}
+
+>[!NOTE]
+>
+>이 기능은 공개 베타 프로그램으로 사용할 수 있습니다. 관념화 공간은 워크플로 패키지 외에 Workfront Planning 패키지를 구매한 고객만 사용할 수 있습니다. Workfront Planning을 독립형 제품으로 구입한 고객은 사용할 수 없습니다.
+
+이제 Workfront Planning에는 팀이 아이디어를 실행 가능한 작업으로 만들기 전에 아이디어를 캡처, 구성, 세분화 및 평가할 수 있는 협업 영역인 관념 공간이 포함되어 있습니다. 관념화 공간은 이해 당사자가 브레인스토밍을 중앙 집중화하고, 우선 순위를 조정하고, 승인된 개념을 계획 워크플로우로 원활하게 이동할 수 있도록 지원합니다.
+
+이제 CX Enterprise Coworker을 사용하여 파일 또는 Workfront Planning 레코드로 내보낼 수 있는 Ideation Brief를 만들 수 있습니다.
+
+관념화 공간을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
+
+* 팀 및 관련자와 아이디어를 캡처하고 공동 작업합니다.
+* 섭취 과정에 대한 가시성을 가지고 아이디어를 정리하고 평가하고 우선순위를 매긴다.
+* 승인된 아이디어를 계획 레코드 및 워크플로우로 변환합니다.
+
+자세한 내용은 [Workfront Planning의 Ideation Space 시작](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)을 참조하십시오.
 
 ### 작업 역할 목록 보기의 레거시 청구 및 비용 요금 필드 사용 중단
 
@@ -377,10 +439,10 @@ Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
