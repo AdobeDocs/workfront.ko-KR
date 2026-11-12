@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7a61a71c731d3fdbf5551e55ceb5954749df8c6
+source-git-commit: 1bbc850f5cb2086b85582f1ba80b072397b27e50
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 2%
@@ -199,7 +199,7 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 
 ![유효성 검사 오류 예](assets/min-max-selections.png)
 
-## 필드가 표시되는 경우에만 유효성 검사를 트리거하는 공식
+### 필드가 표시되는 경우에만 유효성 검사를 트리거하는 공식
 
 필드가 표시되지 않더라도 유효성 검사 논리는 항상 선택되어 있습니다. 사용자가 유효성 검사 논리가 포함된 필드와 상호 작용하고 나중에 필드가 표시 논리에 의해 숨겨지면 필드가 숨겨지기 전에 필드의 값이 지워졌더라도 유효성 검사 오류가 발생합니다.
 
