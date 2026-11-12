@@ -4,9 +4,9 @@ description: 2027년 1분기 관리자 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 02c2be8da17c954e508596225df1904feb4da2e2
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '560'
 ht-degree: 0%
 ---
 
@@ -20,10 +20,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기: 2026년 11월 12일
->프로덕션 빠른 릴리스: 2026년 11월 12일
->모두를 위한 프로덕션: 2026년 11월 12일
->[!BADGE 동시 릴리스]{type=Neutral}
+>프로덕션 및 샌드박스 빠른 릴리스: 2026년 11월 12일
+>모든 사용자를 위한 프로덕션, 미리보기, 샌드박스: 곧 커뮤니케이션 예정
+>[!BADGE 일정 해제]{type=Neutral}
 
 >[!NOTE]
 >
