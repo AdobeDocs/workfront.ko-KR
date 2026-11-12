@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '3436'
+source-wordcount: '3504'
 ht-degree: 1%
 ---
 # 작업 업데이트
@@ -625,15 +625,23 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 <div class="preview">
 
-## 댓글 고정
+## 주석 스레드 고정
 
-[주석] 탭의 맨 위에 최상위 주석을 고정할 수 있습니다. 스레드의 일부인 답글을 고정할 수 없습니다.
+중요 스레드를 업데이트 탭의 맨 위에 고정하여 고정된 스레드 섹션에서 업데이트 스트림과 분리할 수 있습니다.
 
-1. 댓글 고정을 지원하는 개체로 이동한 다음 왼쪽 패널에서 [업데이트]를 클릭한 다음 **댓글** 탭을 클릭합니다.
+스레드를 고정할 때 다음 사항을 고려하십시오.
+
+* [주석] 탭의 맨 위에 최상위 주석을 고정할 수 있습니다. 스레드의 일부인 답글을 고정할 수 없습니다.
+* 나중에 스레드를 고정 해제할 수 있습니다.
+* 업데이트 영역으로 개체를 볼 수 있는 권한이 있는 모든 사용자는 스레드를 고정하거나 고정 해제할 수 있습니다.
+
+주석 스레드를 고정하려면 다음 작업을 수행하십시오.
+
+1. **업데이트** 영역이 있는 개체로 이동하여 왼쪽 패널에서 **업데이트**&#x200B;를 클릭한 다음 **설명** 탭을 클릭합니다.
 
    자세한 내용은 [업데이트 탭 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하세요.
 
-1. 댓글을 추가하거나 기존 댓글에서 댓글의 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭하고 **스레드 고정**&#x200B;을 클릭합니다. 댓글 및 기존 답글은 댓글 탭 맨 위에 고정됩니다.
+1. 댓글을 추가하거나 기존 댓글에서 댓글의 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭하고 **스레드 고정**&#x200B;을 클릭합니다. 댓글 및 기존 답글은 사용자 및 해당 개체를 볼 수 있는 모든 사용자의 댓글 탭 맨 위에 고정됩니다.
 
    **댓글** 탭 맨 위에 새 **고정된 스레드** 섹션이 만들어집니다.
 
@@ -645,7 +653,41 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 </div>
 
+<!--
+<div class="preview">
 
+## Resolve comment threads
+
+To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+
+Consider the following when resolving comments: 
+
+* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
+* Comments that are part of a resolved thread are read-only. 
+* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
+* You can display resolved comments or hide them for yourself.
+* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+
+To resolve comment threads: 
+
+1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+
+   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+
+   ************add a screen shot***************
+
+   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+
+1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
+1. Click **Resolve**.
+
+   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
+1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+
+</div>
+-->
 
 ## 댓글 또는 답글 삭제
 

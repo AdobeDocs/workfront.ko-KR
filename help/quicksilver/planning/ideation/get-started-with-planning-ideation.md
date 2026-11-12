@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1352'
 ht-degree: 0%
 ---
 
@@ -97,29 +97,31 @@ Workfront Planning 또는 Workfront 메인 메뉴에서만 액세스할 수 있�
 
 * 클라우드 공급자:
 
-  * AWS
+  * Amazon Web Services(AWS)
 
     Azure 및 GCP 공급자는 지원되지 않습니다.
 
 * 제품:
 
   * Workfront Planning을 사용한 Adobe Workfront
-  * Workfront용 Adobe Enterprise CX Coworker
+  * Workfront의 CX Enterprise Coworker
 
     >[!IMPORTANT]
     >
-    >현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 Adobe CX Enterprise Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있지만 Coworker가 없는 Workfront 고객은 Ideation 공간을 사용할 수 없습니다.
+    >현재 의료 서비스, 금융 또는 민감한 데이터가 있는 기타 산업의 조직에서는 CX Enterprise Coworker을 사용할 수 없습니다. 이러한 조직에서는 AI Assistant를 사용할 수 있지만 Coworker가 없는 Workfront 고객은 Ideation 공간을 사용할 수 없습니다.
 
-* Adobe 패키지:
+* Adobe 패키지: <!--Et wanted the Coworker added to these-->
 
   * Open Beta 릴리스(2026년 11월 12일부터 시작) 동안 다음 사항이 있어야 합니다.
 
-    * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
+    * Adobe CX Enterprise Coworker이 활성화된 Workfront Planning 패키지가 있는 Adobe Workfront Workflow 패키지
 
   * GA(2027년 2월 1일 출시) 이후에는 다음 중 하나가 제공될 수 있습니다.
 
     * Workfront Planning 패키지가 포함된 Adobe Workfront Workflow 패키지
     * 독립형 제품으로서의 Adobe Workfront Planning
+
+    두 패키지 모두 Adobe CX Enterprise Coworker이 활성화되어 있어야 합니다.
 
 
 
@@ -189,6 +191,7 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
 
 다음은 관념화 공간에서 사용할 때 Coworker의 기능 중 일부입니다.
 
+* 가상 분석을 수행하여 다양한 캠페인 테마, 메시지를 비교하거나 전략적 방향을 테스트합니다.
 * 문서 또는 소셜 인사이트 업로드
 * 작성 중인 개요와 관련된 웹 콘텐츠에 액세스
 * 캠페인 목표 정의
@@ -211,7 +214,12 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
 1. 이 문서의 [제품 요구 사항](#product-requirements) 섹션에 설명된 대로 제품 요구 사항을 충족하는지 확인하십시오.
 1. 폐쇄된 Adobe 참여에 대한 관심을 표명하거나 가능한 경우 Open Beta에 참여하려면 Beta 계정 담당자에게 문의하십시오.
 
-   시스템 관리자는 기본적으로 관념화 공간에 액세스할 수 있으며 Open Beta에서 사용할 수 있게 되면 이를 제거할 수 없습니다. 다른 모든 사용자에 대해 이 기능을 켤 수 있습니다.
+   시스템 관리자는 기본적으로 관념화 공간에 액세스할 수 있으며 Open Beta에서 사용할 수 있게 되면 이를 제거할 수 없습니다. 다음 환경의 다른 모든 사용자에 대해 이 기능을 켤 수 있습니다.
+
+   * 프로덕션
+   * 미리보기
+   * 사용자 지정 샌드박스
+
 1. (권장) 첫 번째 캠페인(새로 고칠 최근 캠페인 또는 처음부터 새로 만들 새 캠페인)을 식별합니다.
 
 관념화 공간 사용에 대한 자세한 내용은 다음 문서를 참조하십시오.
