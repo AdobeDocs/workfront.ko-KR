@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
+source-git-commit: 0ec3841584258ef9e3b1434b921e54750814457a
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1711'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2027년 1분기 릴리스 활동
@@ -29,14 +29,26 @@ ht-degree: 0%
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
-## Workfront Planning에서 사용 가능한 환경 프로모션
+## Planning 자동화 공유
 
 >[!NOTE]
 >
 >미리 보기: 2026년 11월 12일
 >프로덕션 빠른 릴리스: 2026년 11월 12일
 >모두를 위한 프로덕션: 2026년 11월 12일
->[!BADGE 동시 릴리스]{type=Neutral}
+>[!BADGE 일정 해제]{type=Neutral}
+
+이제 작업 영역의 모든 사용자와 자동으로 공유되지 않고 기본적으로 새 Workfront Planning 자동화를 해당 소유자만 사용할 수 있습니다. 소유자는 다른 사용자와 자동화를 공유하여 누가 액세스 권한을 얻을지 선택할 수 있습니다. 다른 사용자에게 **관리**, **편집** 또는 **실행** 액세스 수준을 부여할 수 있습니다. 기존 자동화는 작업 영역 사용자와 계속 공유되므로 현재 액세스는 영향을 받지 않습니다.
+
+자세한 내용은 [Workfront Planning 자동화 구성](/help/quicksilver/planning/records/configure-automations-to-create-records.md)을 참조하십시오.
+
+## Workfront Planning에서 사용 가능한 환경 프로모션
+
+>[!NOTE]
+>
+>프로덕션 및 샌드박스 빠른 릴리스: 2026년 11월 12일
+>모든 사용자를 위한 프로덕션, 미리보기, 샌드박스: 곧 커뮤니케이션 예정
+>[!BADGE 일정 해제]{type=Neutral}
 
 >[!NOTE]
 >

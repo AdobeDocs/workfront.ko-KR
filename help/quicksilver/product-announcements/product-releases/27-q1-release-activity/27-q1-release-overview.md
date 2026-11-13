@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1539'
 ht-degree: 2%
 ---
 
@@ -57,12 +57,12 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Workfront Planning에서 사용 가능한 환경 프로모션</a></p>
-                <p>[!BADGE 동시 릴리스]{type=Neutral}</p>
+                <p>[!BADGE 해제 일정]{type=Neutral}</p>
                 <p>이제 Workfront 관리자는 Workfront Planning 작업 공간 및 해당 개체를 한 환경에서 다른 환경으로 승격시킬 수 있습니다.</p>
             </td>
+            <td><p>곧 전달될 예정</p></td>
             <td><p>2026년 11월 12일</p></td>
-            <td><p>2026년 11월 12일</p></td>
-            <td><p>2026년 11월 12일</p></td>
+            <td><p>곧 전달될 예정</p></td>
         </tr>
         <tr>
             <td>

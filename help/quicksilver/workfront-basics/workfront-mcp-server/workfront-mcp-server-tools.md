@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
+source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
 workflow-type: tm+mt
-source-wordcount: '3777'
+source-wordcount: '3931'
 ht-degree: 3%
 ---
 
@@ -387,10 +387,28 @@ Insights 도구는 Workfront 개체에 대한 정보를 검색합니다.
 
 제품 요구 사항: 모든 고객
 
-보고 도구를 사용하면 채팅을 통해 캔버스 대시보드를 작성하고 관리할 수 있습니다. 원하는 보고서를 일반 언어로 설명하면 AI 에이전트 플랫폼이 Workfront 데이터를 사용하여 대시보드 및 위젯을 생성합니다.
+### 보드
+
+| 제목 | 도구 이름 | 기능 | 액션 |
+| --- | --- | --- | --- |
+| 게시판 가져오기 | `boards_get_board` | 다양한 세부 수준에서 보드 데이터를 가져옵니다. | 읽기 |
+| 카드 받기 | `boards_get_card` | 보드 ID와 카드 ID로 단일 카드를 가져옵니다. | 읽기 |
+| 카드 만들기 | `boards_create_card` | 특정 열의 보드에 새 카드를 만듭니다. | 쓰기 |
+| 카드 업데이트 | `boards_update_card` | 스칼라 필드, 이동, 보관 상태, 태그, 멤버 또는 Workfront 연결 해제를 포함하여 카드를 업데이트합니다. | 쓰기 |
+| 카드 연결 | `boards_connect_card` | Workfront 작업 또는 문제를 만들고 카드에 연결합니다. | 쓰기 |
+| 보드 태그 만들기 | `boards_create_board_tag` | 보드의 태그 카탈로그에 새 태그를 만듭니다. | 쓰기 |
+| 체크리스트 항목 만들기 | `boards_create_checklist_item` | 체크리스트 항목 또는 하위 작업을 카드에 추가합니다. | 쓰기 |
+| 체크리스트 항목 업데이트 | `boards_update_checklist_item` | 체크리스트 항목의 이름, 설명, 기한, 상태 또는 예상치를 업데이트합니다. | 쓰기 |
+| 체크리스트 항목 삭제 | `boards_delete_checklist_item` | 상위 카드에서 체크리스트 항목을 삭제합니다. | 쓰기 |
+| 열 만들기 | `boards_create_column` | 보드에 새 일반 열을 추가합니다. | 쓰기 |
+| 열 업데이트 | `boards_update_column` | 보드 열 이름을 바꿉니다. | 쓰기 |
+| 열 삭제 | `boards_delete_column` | 보드 열을 삭제하고 필요한 경우 카드를 먼저 이동합니다. | 쓰기 |
+| 보드 만들기 | `boards_create_board` | 필요한 경우 작업 영역 내부에 새 기본 보드를 만듭니다. | 쓰기 |
 
 
 ### 캔버스 대시보드
+
+캔버스 대시보드 도구를 사용하면 채팅을 통해 캔버스 대시보드를 만들고 관리할 수 있습니다. 원하는 보고서를 일반 언어로 설명하면 AI 에이전트 플랫폼이 Workfront 데이터를 사용하여 대시보드 및 위젯을 생성합니다.
 
 | 제목 | 도구 이름 | 기능 | 액션 |
 | --- | --- | --- | --- |
@@ -424,8 +442,3 @@ Workfront MCP 서버는 고객에 대한 사용자 의도를 추적합니다. �
 사용자가 고객 지원 팀에 연락하여 요청을 제출하면 원격 분석 수집을 비활성화할 수 있습니다.
 
 
-## 추가 툴 출시 예정
-
-향후 Workfront MCP 서버에 다음 도구를 추가하기 위해 노력하고 있습니다.
-
-* 보드
