@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: 717
+source-wordcount: '729'
 ht-degree: 3%
-
 ---
-
 # Adobe Workfront 목표에서 연결하여 목표 정렬
 
 <!--Audited P&P only: 10/2025-->
@@ -41,15 +39,16 @@ ht-degree: 3%
 
 Adobe Workfront 목표에는 두 가지 접근 방식으로 목표를 연결할 수 있습니다.
 
-* 목표를 서로 연결하여 목표 간의 정렬을 만들 수 있습니다.
+* 목표를 서로 연결하여 목표 간의 정렬을 만들 수 있습니다. 이 문서에서는 이 접근 방식에 대해 설명합니다.
 
-* 두 목표를 수동으로 정렬하거나 기존 목표의 결과 및 활동을 다른 목표로 변환할 수 있습니다. 전환된 결과나 활동이 원래 목표의 하위 목표가 됩니다.
+* 기존 목표의 결과와 활동을 다른 목표로 변환하여 두 목표를 정렬할 수도 있습니다. 전환된 결과나 활동이 원래 목표의 하위 목표가 됩니다.
+
+  결과 및 활동을 목표로 변환하여 목표를 정렬하는 방법에 대한 자세한 내용은 [결과 및 활동을 목표로 변환하여 목표 정렬](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)을 참조하십시오.
 
 >[!IMPORTANT]
 >
 >목표는 총 1000개의 진행 표시기를 가질 수 있습니다.
 
-이 문서에서는 목표를 서로 연결하여 정렬하는 방법을 설명합니다. 결과 및 활동을 목표로 변환하여 목표를 정렬하는 방법에 대한 자세한 내용은 [결과 및 활동을 목표로 변환하여 목표 정렬](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -215,7 +214,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 
    (목표 2)로 시작한 목표가 (목표 1)로 정렬한 상위 목표의 하위 목표입니다.\
    정렬된 목표는 목표 1에 대한 보조로 목표 2를 사용하여 목표 정렬 섹션에 연결됩니다.
-하위 목표가 상위 목표의 진행 상황을 업데이트할 때 상위 목표의 진행 상황 표시기 섹션에 표시됩니다.
+   하위 목표가 상위 목표의 진행 상황을 업데이트할 때 상위 목표의 진행 상황 표시기 섹션에 표시됩니다.
 
    ![정렬된 카드](assets/goal-1-and-2-aligned-cards-350x427.png)
 

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1673'
 ht-degree: 8%
 ---
 # 사용자 정의 액세스 수준 만들기 및 수정
@@ -250,19 +250,18 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
       <td role="rowheader">사용자가 브랜드에 액세스할 수 있도록 허용</td> 
       <td>사용자가 Workfront에서 GenStudio 브랜드에 액세스하고 관리할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">브랜드 사용 권한에 대한 액세스 권한 부여</a>를 참조하십시오.</td> 
      </tr>
-    <!--
-    <tr>
-      <td role="rowheader">Disable Ideation space</td> 
+        <tr>
+      <td role="rowheader">구상 공간 비활성화</td> 
       <td>
-      <p>Select this setting to allow users to access Ideation space.</p> 
-      <p>This is selected by default.</p>
-      <p>For more information, see <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Get started with Ideation space for Adobe Workfront Planning </a>.</p>
-      <p><b>NOTE:</b></p>
-      <p>Available in Beta only for customers who also have a Workfront Planning package.</p>
+      <p>사용자가 관념화 공간에 액세스할 수 있도록 하려면 이 설정을 선택합니다.</p> 
+      <p>이 옵션은 기본적으로 선택되어 있습니다.</p>
+      <p>자세한 내용은 <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Adobe Workfront Planning </a>의 Ideation 공간 시작 을 참조하십시오.</p>
+      <p><b>참고:</b></p>
+      <p>관념화 공간은 Beta Planning 패키지가 있는 고객만 Workfront에서 사용할 수 있습니다.</p>
       </td> 
      </tr>
-    -->
-    </tbody> 
+
+   </tbody> 
    </table>
 
 
