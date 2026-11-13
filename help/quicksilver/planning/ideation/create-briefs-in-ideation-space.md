@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2125'
 ht-degree: 1%
 ---
 
@@ -233,6 +233,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >
    >파일을 개요에 바로 추가할 수 없습니다. 먼저 파일 정보를 설명서에 보낼 수 있는 카드로 전송해야 합니다.
 
+1. (선택 사항) Coworker 패널의 오른쪽 위 모서리에 있는 **채팅** 아이콘 ![채팅 아이콘](assets/chats-icon-coworker.png)을 클릭한 다음 **새 채팅**&#x200B;을 클릭하여 새 프롬프트를 열거나 목록에서 이전 채팅 중 하나를 클릭하여 이전 메시지로 돌아갑니다.
+
+   채팅에 대한 자세한 내용은 Adobe CX Enterprise Coworker 설명서에서 [채팅 관리](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)를 참조하십시오.
 
 1. **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하여 관념화 캔버스에서 항목을 검색한 다음 목록에 표시될 때 클릭하여 탐색합니다.
 

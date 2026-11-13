@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 1%
+source-wordcount: '853'
+ht-degree: 0%
 ---
 # Adobe Workfront Planning 레코드 자동화를 사용하여 객체 생성
 
@@ -110,6 +110,8 @@ Workfront Planning에서 자동화를 사용하여 다음 항목을 생성할 �
    <p>자동화를 실행 중인 레코드에 대한 권한을 관리합니다.</p>
    <p>하위 개체(프로그램 또는 프로젝트)를 추가하기 위해 Workfront 개체(포트폴리오)에 대한 권한을 관리합니다.</p>
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 관리 권한을 가집니다</p>
+   <p>자동화 제작자는 자신의 자동화에 대한 관리 권한을 가집니다.</p>
+   <p>자동화를 편집하려면 편집 이상의 권한이 필요하고, 이를 실행하려면 실행 권한이 필요합니다</p>
    </td> 
   </tr> 
 </tbody> 
@@ -198,6 +200,8 @@ Old:
 * 조직에서 기존 Workfront 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 Planning에서 자동으로 생성된 항목은 Workfront 관리자가 설정 영역에서 선택한 기본 스토리지를 사용하여 생성됩니다.
 
   사용자 환경에서 Adobe 클라우드 저장소를 사용하는 방법에 대한 자세한 내용은 [조직에 Adobe 클라우드 저장소 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하세요.
+
+* 자동화를 실행하려면 최소한 실행 권한이 있어야 합니다. 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 자동화 구성](/help/quicksilver/planning/records/configure-automations-to-create-records.md)을 참조하십시오.
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 

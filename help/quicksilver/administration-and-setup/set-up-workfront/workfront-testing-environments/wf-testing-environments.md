@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '145'
 ht-degree: 2%
 ---
 # [!DNL Adobe Workfront]개의 테스트 환경
@@ -54,3 +54,4 @@ ht-degree: 2%
 * [&#x200B; [!DNL Workfront] 환경 홍보 API를 사용하여  [!DNL Workfront] 환경 간에 개체 이동](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
 * [환경 프로모션 FAQ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
 * [환경 프로모션 문제 해결](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+* [Adobe Workfront Planning에 환경 프로모션 사용](/help/quicksilver/planning/general/planning-environment-promotion.md)

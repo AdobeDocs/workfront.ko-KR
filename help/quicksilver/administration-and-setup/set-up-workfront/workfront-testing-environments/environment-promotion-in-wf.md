@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '1041'
 ht-degree: 2%
 ---
 # Workfront 환경 간 객체 이동 개요(환경 프로모션)
@@ -64,9 +64,8 @@ ht-degree: 2%
 * [사용자 지정 데이터 개체](#custom-data-objects)
 * [조직 개체](#organization-objects)
 * [기타 구성 객체](#other-configuration-objects)
-<!--
-* [Workfront Planning objects](#workfront-planning-objects)
--->
+* [Workfront Planning 객체](#workfront-planning-objects)
+
 
 ### 작업 오브젝트
 
@@ -139,25 +138,24 @@ ht-degree: 2%
 
 -->
 
-<!--
 
-**** Automations might not be part of this
-**** Planning STA might not be supported - Lilit is checking on this
-
-## Workfront Planning objects
+## Workfront Planning 객체
 
 >[!IMPORTANT]
 >
->Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+>Workfront Planning 객체는 Workfront 패키지 외에 Planning 패키지를 구매한 고객만 사용할 수 있습니다.
+>
+>Workfront Planning을 독립형 제품으로 구입한 고객은 환경 프로모션을 사용할 수 없습니다.
 
-| Promotable object | Included promotable linked objects |
+| 프로모션 가능 개체 | 포함된 프로모션 가능 연결된 오브젝트 |
 | --- | --- |
-| Workspaces | Workspace sections |
-| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
-| Sharing for all objects |  |
-| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
--->
+| 작업 영역 | Workspace 섹션 |
+| 레코드 유형 | 연결된 레코드 종류* <br> 필드 <br> 보기 <br> 계층 <br> 요청 양식 |
+| 모든 개체에 대해 공유 | 그룹 <br> 팀 <br> 작업 역할 <br> 사용자 <br>회사 |
 
+*가져온 작업 영역에 속하는 연결된 레코드 유형만 대상 환경으로 전송됩니다.
+
+자세한 내용은 [Adobe Workfront Planning용 환경 프로모션 사용](/help/quicksilver/planning/general/planning-environment-promotion.md)을 참조하십시오.
 
 ## 환경 프로모션 상태
 

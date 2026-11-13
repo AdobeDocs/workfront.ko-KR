@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 7eb2aeed3e711e36b1f735e75075a10291cd551a
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 4%
+source-wordcount: '2146'
+ht-degree: 3%
 ---
 # Adobe Workfront Planning 자동화 구성
 
@@ -102,6 +102,8 @@ Workfront Planning의 레코드 유형 페이지에서 자동화를 구성하고
    <td role="rowheader"><p>개체 권한</p></td> 
    <td> <p>자동화를 만들려는 작업 공간 및 레코드 유형에 대한 권한을 관리합니다. </p>
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 관리 권한을 가집니다</p>
+   <p>자동화 제작자는 자신의 자동화에 대한 관리 권한을 가집니다.</p>
+   <p>자동화를 편집하려면 편집 이상의 권한이 필요하고, 이를 실행하려면 실행 권한이 필요합니다</p>
    </td> 
   </tr>  
 </tbody> 
@@ -361,3 +363,79 @@ Old:
    * 자동화를 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 삭제된 자동화는 복구할 수 없습니다.
 
      삭제된 자동화를 사용하여 생성된 레코드는 원래 선택한 레코드에 연결된 상태로 유지됩니다.
+
+## 자동화 공유
+
+자동화의 작성자는 기본적으로 자동화에 대한 관리 권한이 있습니다.
+
+또한 다른 사용자 또는 팀과 공유할 수 있습니다.
+
+작업 공간에 속한 사용자는 기본적으로 작업 공간에서 자동화에 대한 권한을 받지 않습니다. 특히 자동화를 공유해야 합니다.
+
+1. 자동화를 공유할 레코드 유형으로 이동합니다.
+1. 레코드 형식 이름 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **자동화**&#x200B;를 클릭합니다.
+
+   자동화 목록이 열립니다.
+1. (조건부) 목록에 자동화가 없으면 이 문서의 [Workfront Planning에서 자동화 구성](#configure-an-automation-in-workfront-planning) 섹션에 설명된 대로 자동화를 만드십시오.
+1. 자동화 목록에서 자동화 이름 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **공유**&#x200B;를 클릭합니다.
+1. 공유 상자에서 공유할 사용자 또는 팀의 이름을 입력합니다. <!--checking with Mikayel if the other entities are not available for sharing for automations-->
+1. 다음 공유 권한 수준 중에서 선택합니다.
+
+   | 권한 수준 | 허용된 작업 |
+   | --- | --- |
+   | **관리** | 자동화를 삭제, 편집, 시작 및 볼 수 있음 |
+   | **편집** | 자동화를 편집, 시작 및 볼 수 있음 |
+   | **실행** | 자동화를 시작하고 볼 수 있음 |
+
+1. 기존 사용자의 권한을 변경하려면 동일한 대화 상자를 열고 이름 옆에 있는 드롭다운에서 다른 권한 수준을 선택하거나 제거 를 클릭하여 모든 액세스를 취소합니다.
+1. 공유 변경 내용을 저장하려면 **저장**&#x200B;을 클릭하세요.
+
+
+<!--checking this with Mikayel Aleksanyan to be sure-->
+
+
+<!-- 
+original info sent in slack from Mikayel: 
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+
+Feature overview
+
+Previously, newly created automations were automatically shared with everyone in the Workfront Planning workspace. Now, a new automation is available only to its owner by default. The owner must manually share it with other users to grant them access.
+
+This change gives owners control over who can access their automations and what access level each user receives.
+
+What the documentation should cover
+
+1. Default visibility and sharing
+
+* Previously, a newly created automation was available to everyone in its Workfront Planning workspace by default.
+* With the new permission system, a newly created automation is available only to its creator/owner by default.
+* Owners must explicitly share new automations with other users to grant them access; workspace membership alone does not grant access to a new automation.
+* Owners can use the **Share** action to grant access to other users in the same organization. In the automations list, open the automation's **More options (···)** menu next to its name, then select **Share**.
+* Sharing grants access to an automation; it does not transfer ownership.
+
+1. Automation access levels
+
+The sharing dialog offers the following access levels, with these descriptions:
+
+| Access level | Allowed actions |
+| --- | --- |
+| **Manage** | Can delete, edit, start, and view |
+| **Edit** | Can edit, start, and view |
+| **Run** | Can start and view |
+
+The automation creator is listed as **Owner**. **Remove** is an action for removing a user's access, not an access level.
+
+1. How to share and update access
+
+1. In the automations list, open the automation's **More options (···)** menu and select **Share**.
+1. In the **Share [automation name]** dialog, use **Add people** to select the users to share with.
+1. Use the access-level dropdown next to a user to assign **Manage**, **Edit**, or **Run**.
+1. Click **Save** to save the sharing changes.
+
+To change an existing user's access, open the same dialog and select a different access level from the dropdown next to their name. To revoke access, select **Remove**. Click **Save** to save the changes.
+
+1. Existing automations
+
+* At the introduction of the new permission system, existing automations were shared with users in their respective Workfront Planning workspaces to preserve existing access.
+-->
