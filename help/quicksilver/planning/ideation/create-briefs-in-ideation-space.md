@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -235,7 +235,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. (선택 사항) Coworker 패널의 오른쪽 위 모서리에 있는 **채팅** 아이콘 ![채팅 아이콘](assets/chats-icon-coworker.png)을 클릭한 다음 **새 채팅**&#x200B;을 클릭하여 새 프롬프트를 열거나 목록에서 이전 채팅 중 하나를 클릭하여 이전 메시지로 돌아갑니다.
 
-   채팅에 대한 자세한 내용은 Adobe CX Enterprise Coworker 설명서에서 [채팅 관리](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)를 참조하십시오.
+   채팅에 대한 자세한 내용은 Adobe CX Enterprise Coworker 설명서에서 [채팅 관리](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)를 참조하십시오.
 
 1. **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하여 관념화 캔버스에서 항목을 검색한 다음 목록에 표시될 때 클릭하여 탐색합니다.
 

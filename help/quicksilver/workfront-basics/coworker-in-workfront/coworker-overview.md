@@ -29,7 +29,7 @@ CX Enterprise Coworker Chat은 작업 수행을 위한 대화 인터페이스이
 
 동료는 Adobe 생태계의 일부이며 Workfront에만 국한되지 않습니다.
 
-동료 및 해당 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker 채팅 개요](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)를 참조하세요.
+동료 및 해당 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker 채팅 개요](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/overview)를 참조하세요.
 
 Workfront에서 Coworker 사용에 대한 자세한 내용은 [Workfront에서 CX Enterprise Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)을 참조하십시오.
 
