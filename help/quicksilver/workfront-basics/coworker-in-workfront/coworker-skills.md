@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 6%
+source-wordcount: '486'
+ht-degree: 3%
 ---
 # CX Enterprise Coworker의 Workfront 기술
 
@@ -59,19 +59,27 @@ ht-degree: 6%
 * 레코드
 * 비즈니스 규칙
 
-<!--
+### 관념화 공간(베타) 기술
 
-### Ideation space skills
+>[!NOTE]
+>
+>관념화 공간은 현재 Workfront Planning의 추가 기능으로 Beta에서 사용할 수 있습니다.
+>
+>Ideation Space에 대한 자세한 내용은 [Adobe Workfront Planning의 Ideation Space 시작](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)을 참조하십시오.
 
-Coworker has a variety of skills to work with Workfront Planning Ideation space. These cover actions such as:
+관념화 공간은 Adobe Planning에 직접 내장된 Workfront의 AI 기반 전략 관념화 기능입니다. 이는 마케팅 팀에게 캠페인 전략을 위한 구조화된 데이터 기반의 시작 지점을 제공하며, 수동 연구 및 추측 작업을 조직의 실제 성과 기록에서 기반으로 하는 AI 생성 브리핑으로 대체합니다.
 
-* Thing 1
-* Thing 2
-* Other thing
+동료는 Workfront Planning Idea 공간으로 작업할 수 있는 다양한 기술을 보유하고 있습니다. 이러한 커버 작업은 다음과 같습니다.
 
-For more information about Ideation space, see [Get started with Ideation space for Adobe Workfront Planning ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+<!--list duplicated in: help/quicksilver/workfront-basics/coworker-in-workfront/coworker-prompts-and-best-practices.md-->
 
--->
+* 캠페인 아이디어 — 첨부된 소스 문서 및 기타 소스를 사용하여 캠페인 및 기타 주제에 대한 캔버스에 아이디어 카드를 브레인스토밍하고 생성합니다. 이것은 관념화의 주요 출발점이다.
+* 캠페인 대화 - Ideation Space 앱 내에서 대화형으로 캠페인 아이디어를 진행합니다.
+* 캠페인 개요 — 체계적인 캠페인 개요를 작성하고 구체화합니다. 이때 가드레일을 사용하여 완성도를 높이고 진행 중에 확인할 수 있습니다.
+* 문서 Q&amp;A — 아이디어 세션에 첨부한 문서에 대해 질문합니다.
+* 연구 — 캔버스에 여러분의 생각을 알리기 위해 연구를 끌어옵니다.
+* 시작 프롬프트 — 아이디어를 시작하거나 확장하는 제안 프롬프트를 가져옵니다.
+* 캔버스 열기 — Ideation Space 캔버스를 시작하거나 이동합니다(앱 외부의 일반 채팅에서 시작할 때 사용).
 
 ## Workfront 스킬
 

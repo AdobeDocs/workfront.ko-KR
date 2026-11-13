@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2366'
 ht-degree: 1%
 ---
 # CX Enterprise Coworker 프롬프트 및 우수 사례
@@ -355,7 +355,7 @@ Coworker를 사용하여 작업 및 할당을 포함한 프로젝트를 만들�
 * 이 프로젝트를 수정한 사람과 변경한 내용을 표시할 수 있습니까?
 * 지난 주에 이 레코드에 대한 모든 업데이트를 확인해야 합니다.
 
-### Workfront Planning에서 시스템 Designer 사용
+### Workfront Planning에서 Planning Designer 사용
 
 * [작업 공간 만들기 및 구성](#create-and-configure-workspaces)
 * [레코드 유형 정의](#define-record-types)
@@ -386,3 +386,15 @@ Coworker를 사용하여 작업 및 할당을 포함한 프로젝트를 만들�
 * Planning에서 타임라인 보기를 만들어 시작 및 종료 날짜별로 내 캠페인 일정 보기
 * 활성 상태만 필터링하는 새 테이블 보기를 내 Planning 이니셔티브에 추가
 * 내 Planning 활성 캠페인 보기를 복제하고 정렬을 수정합니다.
+
+### Workfront Planning의 Ideation Space에서 동료가(베타)
+
+<!--duplicated in help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md-->
+
+* 캠페인 아이디어 — 첨부된 소스 문서 및 기타 소스를 사용하여 캠페인 및 기타 주제에 대한 캔버스에 아이디어 카드를 브레인스토밍하고 생성합니다. 이것은 관념화의 주요 출발점이다.
+* 캠페인 대화 - Ideation Space 앱 내에서 대화형으로 캠페인 아이디어를 진행합니다.
+* 캠페인 개요 — 체계적인 캠페인 개요를 작성하고 구체화합니다. 이때 가드레일을 사용하여 완성도를 높이고 진행 중에 확인할 수 있습니다.
+* 문서 Q&amp;A — 아이디어 세션에 첨부한 문서에 대해 질문합니다.
+* 연구 — 캔버스에 여러분의 생각을 알리기 위해 연구를 끌어옵니다.
+* 시작 프롬프트 — 아이디어를 시작하거나 확장하는 제안 프롬프트를 가져옵니다.
+* 캔버스 열기 — Ideation Space 캔버스를 시작하거나 이동합니다(앱 외부의 일반 채팅에서 시작할 때 사용).

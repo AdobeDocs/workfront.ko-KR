@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '311'
 ht-degree: 0%
 ---
 # Workfront의 CX Enterprise Coworker 개요
@@ -29,12 +29,17 @@ CX Enterprise Coworker Chat은 작업 수행을 위한 대화 인터페이스이
 
 동료는 Adobe 생태계의 일부이며 Workfront에만 국한되지 않습니다.
 
-Workfront에서 Coworker 사용에 대한 자세한 내용은 [Workfront에서 CX Enterprise Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)을 참조하십시오.
+동료 및 해당 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker 채팅 개요](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)를 참조하세요.
 
-동료 및 해당 기능에 대한 자세한 내용은 [Adobe CX Enterprise Coworker 채팅 개요](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/overview)를 참조하세요.
+Workfront에서 Coworker 사용에 대한 자세한 내용은 [Workfront에서 CX Enterprise Coworker 사용](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)을 참조하십시오.
 
 Workfront의 Coworker에서 사용할 수 있는 기술은 [CX Enterprise Coworker의 Workfront 기술](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)을 참조하십시오.
 
-예를 들어 프롬프트는 문서 [Adobe Workfront MCP 서버 사용](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)에서 프롬프트를 참조하십시오.
+예를 들어 Workfront에서 Coworker에 대한 프롬프트는 문서 [Adobe Workfront MCP 서버 사용](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)의 프롬프트를 참조하십시오.
+
+Workfront의 CX Enterprise Coworker은 다음 Workfront 기능에도 사용할 수 있습니다.
+
+* Workfront 계획. 자세한 내용은 [Adobe Workfront Planning CX Enterprise Coworker 개요](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)를 참조하십시오.
+* Workfront Planning의 관념화 공간. 현재 베타 버전입니다. 자세한 내용은 [Adobe Workfront Planning의 Ideation Space 시작](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)을 참조하십시오.
 
 
