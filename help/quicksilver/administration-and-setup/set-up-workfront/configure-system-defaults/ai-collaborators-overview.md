@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3e4856a8edc426c9624ec08e7c4f86d0c38dd2ef
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '167'
 ht-degree: 2%
 ---
 # AI 공동 작업자
@@ -27,9 +27,7 @@ ht-degree: 2%
 
 AI 공동 작업자는 사용자를 할당하는 것과 같은 방식으로 작업에 할당할 수 있는 AI 에이전트입니다. 기존 워크플로우에 AI 공동 작업자를 맞추면 팀이 가장 중요한 사항에 집중할 수 있습니다.
 
-사용 가능한 AI Collaborator 유형에는 AI 검토자 및 작업 에이전트가 포함됩니다.<!--<span class="preview">and Project Coordinators.</span>-->
-
-<!-- BECKY CHECK ME: Why this changed: we are introducing Adobe Native as a new Work Agent origin in the overview; confirm the final product naming and whether it should be described as an origin option rather than a separate collaborator type. -->
+사용 가능한 AI Collaborator 유형에는 AI 검토자, 작업 에이전트<span class="preview"> 및 프로젝트 코디네이터</span>가 포함됩니다.
 
 작업 에이전트의 경우 지원되는 외부 플랫폼 <span class="preview">에서 에이전트를 연결할 수 있습니다. 또는 조직에서 Adobe CX Coworker을 사용하도록 설정한 경우 Adobe CX Coworker에서 제공하는 사용 준비 에이전트를 사용하려면 Adobe Native를 선택하십시오. Adobe 네이티브 옵션에는 외부 플랫폼 자격 증명이 필요하지 않습니다.</span>
 

@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 2%
+source-wordcount: '1993'
+ht-degree: 1%
 ---
 # AI 공동 작업자 구성
 
@@ -42,15 +42,11 @@ AI 공동 작업자는 프로젝트, 작업 및 문제에 AI 에이전트를 온
 
   Adobe CX Enterprise Coworker에 대한 자세한 내용은 [Workfront의 CX Enterprise Coworker 개요](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)를 참조하십시오.
 
-<!-- BECKY CHECK ME: Why this changed: we updated the Work Agent description to include Adobe Native and need product confirmation on any additional package, license, agreement, credit, or administrator restrictions before publishing. -->
-
 AI 공동 작업자가 사용한 라이선스는 청구되지 않습니다. 조직에 Workfront 라이선스가 200개이고 AI 공동 작업자를 만드는 경우 201개의 라이선스가 사용 중이지만 200개만 청구됩니다.
 
-<!--
-* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
+* <span class="preview">프로젝트 코디네이터: 외부 에이전트를 구성할 필요 없이 프로젝트 상태를 모니터링하고 프로젝트 업데이트를 전송하는 기본 공동 작업자입니다.</span>
 
-   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
--->
+  <span class="preview">자세한 내용은 [프로젝트 코디네이터 공동 작업자 사용](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)을 참조하세요.</span>
 
 
 ## 액세스 요구 사항
@@ -108,8 +104,6 @@ AI 공동 작업자가 사용한 라이선스는 청구되지 않습니다. 조�
 >
 >모든 에이전트 공급자와 연결하고자 하므로 사용 중인 공급자가 작업 에이전트와 현재 호환되지 않는 경우 계정 팀에 도움을 요청하십시오.
 
-<!-- BECKY CHECK ME: Why this changed: we separated Native and external-agent prerequisites to match the draft, and we still need product confirmation on the final setup and entitlement requirements before removing the qualifiers. -->
-
 ## 새 AI 검토자 만들기
 
 Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토자를 구성할 수 있습니다.
@@ -137,8 +131,6 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
 작업 에이전트는 에이전트이므로 에이전트를 구성하는 위치에 작업 및 기능이 구성됩니다. 작업 에이전트는 Coworker,</span>을 사용하는 <span class="preview">기본 작업 에이전트이거나 Copilot Studio, Claude, OpenAI 및 IBM과 같은 지원되는 외부 플랫폼에서 사용할 수 있습니다.
 
 >작업 에이전트는 작업 또는 문제에 할당할 수 있습니다.
-
-<!-- BECKY CHECK ME: Why this changed: we broadened the origin language to include Adobe Native and want product confirmation on whether the release should describe it as a ready-to-use origin and whether the external-agent setup language still matches production. -->
 
 작업 에이전트에서 사용한 라이선스는 청구되지 않습니다. 조직에 200개의 Workfront 라이센스가 있고 작업 에이전트를 만드는 경우 201개의 라이센스가 사용 중이지만 200개만 청구됩니다.
 
@@ -263,34 +255,41 @@ More detailed information about creating agents can be found in the [Writer docu
 
 <div class="preview">
 
-<!--
-## Configure a Project Coordinator
+## 프로젝트 코디네이터 구성
 
-The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
+프로젝트 코디네이터는 프로젝트 상태를 모니터링하고 작업을 추적하는 데 도움이 되는 기본 공동 작업자입니다. 작업 에이전트와 달리 프로젝트 코디네이터는 외부 에이전트를 구성할 필요가 없습니다.
 
 {{step-1-to-setup}}
 
-1. In the left navigation, click **AI Collaborators**.
-1. Click **New Collaborator** in the upper-right corner of the screen.
-1. Select **Project Coordinator**.
-1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
-1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
-1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
-1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
-   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
-   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
-   * In the **Time (MST)** field, select the time to send updates.
-   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
-   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
-   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
-   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
-1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
-1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
-1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
-1. Click **Save**.
+1. 왼쪽 탐색에서 **AI 공동 작업자**&#x200B;를 클릭합니다.
+1. 화면 오른쪽 상단의 **새 공동 작업자**&#x200B;를 클릭합니다.
+1. **프로젝트 코디네이터**&#x200B;를 선택한 다음 **계속**&#x200B;을 클릭합니다.
+1. **AI 공동 작업자 이름** 필드에 프로젝트 코디네이터의 이름을 입력하십시오. 프로젝트에서 공동 작업자로 표시되는 이름입니다.
+1. (선택 사항) **AI Collaborator 설명** 필드에 프로젝트 코디네이터가 수행하는 작업 또는 목적에 대한 설명을 입력합니다.
+1. **액세스 수준** 필드에서 프로젝트 코디네이터의 액세스 수준을 선택합니다. 이 액세스 수준은 사용자가 수행할 수 있는 작업을 제어하는 것과 같은 방식으로 공동 작업자가 프로젝트에서 수행할 수 있는 작업을 제어합니다.
+1. (선택 사항) **그룹** 필드에서 프로젝트 코디네이터와 연결할 그룹을 선택합니다.
 
-For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
--->
+   >[!NOTE]
+   >
+   >그룹 관리자인 경우 이 필드에는 관리자인 그룹만 표시됩니다. 그룹 관리자는 그룹을 하나 이상 선택해야 합니다.
+
+1. **코디네이터 작업** 영역에서 프로젝트 코디네이터가 프로젝트 업데이트를 보내는 방법을 지정합니다. 이러한 작업을 수행하려면 프로젝트 코디네이터에게 권한이 있어야 합니다. 프로젝트 코디네이터는 프로젝트 및 해당 작업에 대해 댓글을 달 수도 있습니다.
+
+   프로젝트 업데이트에는 진행 상황 요약, 프로젝트 상태, 지연 또는 위험 상태의 작업 또는 승인, 누락된 필드 또는 할당 등이 포함될 수 있습니다.
+
+   * **Cadence** 필드에서 프로젝트 코디네이터가 업데이트를 매일 전송하는지 또는 매주 전송하는지 여부를 선택합니다.
+   * (조건부) 주간을 선택한 경우 **일** 필드에서 업데이트를 전송할 요일을 선택합니다.
+   * **시간** 필드에서 업데이트를 보낼 시간을 선택합니다.
+   * **시간대** 필드에서 업데이트 시간의 시간대를 선택합니다.
+   * **업데이트를 받는 사람** 필드에서 업데이트가 프로젝트 소유자에게 갈 것인지 프로젝트 이해 당사자에게 갈 것인지를 선택합니다. 기본값은 프로젝트 소유자입니다.
+
+1. **저장**&#x200B;을 클릭합니다.
+
+프로젝트 코디네이터를 저장한 후 사용자가 사용하는 레이아웃 템플릿의 프로젝트 헤더에 **프로젝트 코디네이터** 필드를 추가하십시오. 사용자는 헤더에서 필드를 사용할 수 있을 때까지 프로젝트에 프로젝트 코디네이터를 할당할 수 없습니다.
+
+자세한 지침은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오.
+
+프로젝트에 할당하는 방법을 포함하여 프로젝트 코디네이터에 대한 자세한 내용은 [프로젝트 코디네이터 공동 작업자 사용](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)을 참조하십시오.
 
 </div>
 
