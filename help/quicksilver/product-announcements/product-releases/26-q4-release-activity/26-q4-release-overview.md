@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 31d0e371eb6da0d39d5b8b0354e756e79b2dfd8e
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '3631'
+source-wordcount: '3665'
 ht-degree: 1%
 ---
 # 2026년 4분기 릴리스 개요
@@ -264,17 +264,15 @@ ht-degree: 1%
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
         </tr>
-<!--        
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">New AI Collaborator type: Project Coordinators</a>
-                <p>Project Coordinators can monitor project status and send daily or weekly updates without requiring a separate custom agent setup.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">새 AI 공동 작업자 유형: 프로젝트 코디네이터</a>
+                <p>프로젝트 코디네이터는 별도의 사용자 정의 에이전트 설정 없이 프로젝트 상태를 모니터링하고 매일 또는 매주 업데이트를 전송할 수 있습니다.</p>
             </td>
-            <td><p>October 1, 2026</p></td>
-            <td><p>October 22, 2026</p></td>
-            <td><p>October 22, 2026</p></td>
+            <td><p>2026년 10월 29일</p></td>
+            <td><p>2026년 12월 17일</p></td>
+            <td><p>2027년 1월 21일</p></td>
         </tr>
--->        
        <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md">Workfront MCP 서버 도구 세트</a></p>
