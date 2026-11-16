@@ -37,7 +37,7 @@ Workfront Planning에 이미 Planning 작업 영역이 있는 경우 GenStudio�
 * Workfront Planning 및 GenStudio for Performance Marketing 모두에 액세스할 수 있습니다.
 * 작업 영역에 연결할 Adobe 클라우드 스토리지 프로젝트입니다. 조직 관리자는 Adobe Admin Console에서 만들 수 있습니다.
 
-  자세한 내용은 [Adobe 저장소 관리](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)를 참조하십시오. <!--ensure this site still works-->
+  자세한 내용은 [Adobe 저장소 관리](https://helpx.adobe.com/kr/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)를 참조하십시오. <!--ensure this site still works-->
 
 ## 액세스 요구 사항
 
@@ -73,7 +73,7 @@ Workfront Planning에 이미 Planning 작업 영역이 있는 경우 GenStudio�
    <td> 
    <p> Adobe Admin Console에서 Adobe Storage Cloud 프로젝트를 만들어야 합니다 </p>
 
-<p>자세한 내용은 <a href="https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">프로젝트 관리</a>를 참조하십시오.
+<p>자세한 내용은 <a href="https://helpx.adobe.com/kr/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">프로젝트 관리</a>를 참조하십시오.
 
 </td> 
   </tr>
@@ -99,7 +99,7 @@ Workfront Planning에 이미 Planning 작업 영역이 있는 경우 GenStudio�
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스해야 하는 경우 모든 GenStudio 사용자 역할</li>
    <li>Activations에 액세스해야 하는 경우 GenStudio System Manager <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
