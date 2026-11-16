@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1509'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront] 미리 보기 샌드박스 환경
@@ -83,6 +83,18 @@ ht-degree: 0%
 미리 보기 샌드박스를 사용하면 [!DNL Workfront]이(가) 프로덕션 환경에 배포할 준비가 되기 전에 안전한 환경에서 새 기능을 배포할 수도 있습니다. 미리 보기 샌드박스에 액세스하여 새로운 기능을 테스트하고 해당 기능에 대한 피드백을 [!DNL Workfront]할 수 있습니다. 이러한 이유로 데이터가 매주 새로 고쳐지지만 미리 보기 샌드박스의 코드가 프로덕션 코드보다 항상 우선합니다.
 
 미리보기 환경은 교육을 실행하고, 새로운 기능을 테스트하고, 설정 기능을 결정하는 데 이상적입니다.
+
+## 미리보기 샌드박스의 Adobe 클라우드 스토리지
+
+Adobe 클라우드 스토리지는 미리보기 샌드박스에서 사용할 수 있으므로 프로덕션에서 활성화하기 전에 테스트할 수 있습니다. 그러나 Frame.io 뷰어는 샌드박스 환경에서 사용할 수 없으므로 프로덕션에서 전체 통합 검토 및 승인 환경을 확인해야 합니다.
+
+>[!IMPORTANT]
+>
+>프로덕션에서 미리보기 샌드박스를 새로 고치면 Adobe 클라우드 스토리지 데이터가 샌드박스로 복사되지 않습니다. Adobe 클라우드 스토리지 프로젝트, 해당 문서 및 관련 데이터는 새로 고침에 포함되지 않습니다. 이는 예상된 동작입니다. 기존 Workfront 스토리지 프로젝트 및 문서는 평소대로 샌드박스로 계속 복사됩니다.
+>
+>미리보기 샌드박스에서 Adobe 클라우드 스토리지를 테스트하려면 새 Adobe 클라우드 스토리지 프로젝트를 만들고 해당 환경에서 직접 문서를 업로드하십시오.
+
+자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
 >[!IMPORTANT]
 >

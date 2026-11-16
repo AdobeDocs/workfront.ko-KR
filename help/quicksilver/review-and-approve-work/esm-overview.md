@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1147'
 ht-degree: 0%
 ---
 # Adobe 클라우드 스토리지 개요
@@ -138,6 +138,12 @@ Adobe 클라우드 스토리지를 지원하는 Workfront 버전을 사용해야
 ## 샌드박스 환경의 Adobe 클라우드 스토리지
 
 Adobe 클라우드 스토리지는 [!DNL Workfront] 샌드박스 환경에서 사용할 수 있으므로 프로덕션에서 활성화하기 전에 테스트할 수 있습니다. 그러나 Frame.io 뷰어는 샌드박스에서 사용할 수 없으므로 프로덕션에서 전체 통합 검토 및 승인 환경을 확인해야 합니다.
+
+>[!IMPORTANT]
+>
+>프로덕션에서 샌드박스를 새로 고치면 Adobe 클라우드 스토리지 데이터가 샌드박스로 복사되지 않습니다. Adobe 클라우드 스토리지 프로젝트, 해당 문서 및 관련 데이터는 새로 고침에 포함되지 않습니다. 이는 예상되는 비헤이비어와 Adobe 클라우드 스토리지 아키텍처의 결과입니다. 기존 Workfront 스토리지 프로젝트 및 문서는 평소대로 샌드박스로 계속 복사됩니다.
+>
+>샌드박스에서 Adobe 클라우드 스토리지를 테스트하려면 새 Adobe 클라우드 스토리지 프로젝트를 만들고 해당 환경에서 직접 문서를 업로드하십시오.
 
 사용자 지정 새로 고침 샌드박스가 있는 경우 샌드박스의 Adobe 클라우드 스토리지 기능에 액세스하려면 Adobe 클라우드 스토리지를 지원하는 Workfront 버전으로 업그레이드한 후 샌드박스를 새로 고쳐야 합니다. 자세한 내용은 [사용자 지정 새로 고침 샌드박스 환경](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)을 참조하십시오. [!DNL Adobe Workfront] 
 

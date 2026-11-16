@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '4476'
+source-wordcount: '4571'
 ht-degree: 0%
 ---
 # 통합 검토 및 승인 개요
@@ -580,6 +580,10 @@ Adobe 계정 팀과 함께 적절한 Frame.io Enterprise 라이선스 수를 결
 부분적으로요 승인 워크플로는 Workfront 샌드박스 환경에서 테스트할 수 있습니다. 그러나 Frame.io 뷰어 경험은 샌드박스에서 사용할 수 없습니다. 검토 표면을 테스트하려면 프로덕션 환경이 필요합니다.
 
 롤아웃 도중 노출을 제한하려면 Workfront 프로덕션 환경 내의 특정 그룹에 대해 통합된 검토 및 승인을 활성화할 수 있습니다. 이를 통해 보다 광범위하게 롤아웃하기 전에 더 작은 사용자 세트로 타깃팅된 파일럿을 실행할 수 있습니다.
+
+**새로 고친 후 내 Adobe 클라우드 저장소 프로젝트 및 문서가 샌드박스에 표시되지 않는 이유는 무엇입니까?**
+
+이는 예상된 동작입니다. 프로덕션에서 샌드박스를 새로 고치면 Adobe 클라우드 스토리지 데이터가 샌드박스로 복사되지 않습니다. Adobe 클라우드 스토리지 프로젝트, 해당 문서 및 관련 데이터는 새로 고침에 포함되지 않습니다. 기존 Workfront 스토리지 프로젝트 및 문서는 평소대로 샌드박스로 계속 복사됩니다. 샌드박스에서 Adobe 클라우드 스토리지를 테스트하려면 새 Adobe 클라우드 스토리지 프로젝트를 만들고 해당 환경에서 직접 문서를 업로드하십시오. 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
 <!--
 **How should we test future quarterly releases involving unified review and approval if the Frame.io viewer is not available in sandbox?**
