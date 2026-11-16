@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0ec3841584258ef9e3b1434b921e54750814457a
+source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1851'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2027년 1분기 릴리스 활동
@@ -29,13 +29,27 @@ ht-degree: 0%
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
-## Planning 자동화 공유
+## 새 Workfront 템플릿: AEM 워크플로우로 프로젝트 만들기 및 여러 레코드 만들기
 
 >[!NOTE]
 >
 >미리 보기: 2026년 11월 12일
 >프로덕션 빠른 릴리스: 2026년 11월 12일
 >모두를 위한 프로덕션: 2026년 11월 12일
+>[!BADGE 일정 해제]{type=Neutral}
+
+이제 Workfront Fusion에서 두 개의 새로운 자동화 템플릿을 사용할 수 있습니다.
+
+* **AEM 워크플로를 사용하여 프로젝트 만들기:** 프로젝트 템플릿에서 프로젝트를 만들고 선택적으로 프로젝트 템플릿에 대해 구성된 AEM 연결 폴더를 만들어 새 프로젝트에 연결합니다.
+* **여러 레코드를 만듭니다.** 레코드 형식에 하나 이상의 레코드를 만듭니다. 현재 레코드의 다중 선택 또는 연결된 필드에 각 선택 항목에 대한 새 레코드가 하나씩 있습니다. 각 새 레코드는 현재 레코드에 다시 연결되고 새 레코드에 복사되는 필드를 매핑합니다.
+
+자세한 내용은 [Workfront Planning 자동화 구성](/help/quicksilver/planning/records/configure-automations-to-create-records.md)을 참조하십시오.
+
+## Planning 자동화 공유
+
+>[!NOTE]
+>
+>이 기능은 모든 환경에서 일시적으로 제거되었으며 향후 활성화할 수 있습니다.
 >[!BADGE 일정 해제]{type=Neutral}
 
 이제 작업 영역의 모든 사용자와 자동으로 공유되지 않고 기본적으로 새 Workfront Planning 자동화를 해당 소유자만 사용할 수 있습니다. 소유자는 다른 사용자와 자동화를 공유하여 누가 액세스 권한을 얻을지 선택할 수 있습니다. 다른 사용자에게 **관리**, **편집** 또는 **실행** 액세스 수준을 부여할 수 있습니다. 기존 자동화는 작업 영역 사용자와 계속 공유되므로 현재 액세스는 영향을 받지 않습니다.
