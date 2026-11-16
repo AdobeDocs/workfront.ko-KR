@@ -30,18 +30,23 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5690922c396a91f0fbf8cfa88e885f1e819aeae0
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '93'
+ht-degree: 4%
 ---
 # Adobe Workfront 사용자 지정
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
-* [Adobe Workfront의 사용자 지정 브랜딩](../../administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
 * [레이아웃 템플릿](../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
 * [사용자 정의 양식: 문서 인덱스](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
 * [상태 및 우선 순위 레이블](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
 * [승인 프로세스 및 마일스톤 경로](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
 * [사용자 정의 조건](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
+
+Workfront 사용자 지정에 대한 이 섹션에는 [사용자 지정 도움말 URL을 구성](/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)하는 방법에 대한 문서도 포함되어 있습니다.
+
+>[!NOTE]
+>
+>Adobe Workfront에서는 브랜딩을 사용할 수 없습니다. 브랜딩은 Workfront에서 Adobe CX Enterprise으로 온보딩하는 과정의 일부로 더 이상 사용되지 않습니다.
