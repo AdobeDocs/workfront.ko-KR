@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
+source-git-commit: bcd87200467aa7f62af4c4c54f692b174ab3e517
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1848'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2027년 1분기 릴리스 활동
@@ -61,7 +61,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 >[!NOTE]
 >
 >프로덕션 및 샌드박스 빠른 릴리스: 2026년 11월 12일
->모든 사용자를 위한 프로덕션, 미리보기, 샌드박스: 곧 커뮤니케이션 예정
+>모든 사용자를 위한 프로덕션, 미리보기, 샌드박스: 2026년 12월 17일
 >[!BADGE 일정 해제]{type=Neutral}
 
 >[!NOTE]
