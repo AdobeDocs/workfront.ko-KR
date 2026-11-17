@@ -1,14 +1,15 @@
 ---
-title: Adobe Workfront의 사용자 지정 브랜딩
+title: Custom Branding in Adobe Workfront
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: Workfront 관리자는 사용자 정의 도움말 URL을 만들 수 있습니다.
+description: As a Workfront administrator, you can create a custom help URL.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
+hide: true
 exl-id: 8a733194-f99b-4066-949f-755046b8d515
 TQID: 'https://experienceleague.adobe.com/HaZjvpx-gAvX36ofor17ihVVZCawLO2LHk3fnM76mDI'
 product_v2:
@@ -25,14 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
-workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
 ---
-# Adobe Workfront의 사용자 지정 브랜딩
+# Custom branding in Adobe Workfront
 
-이 섹션에는 다음 문서가 포함됩니다.
+This section contains the following articles:
 
-* [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-* [사용자 정의 도움말 URL 구성하기](../../../administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+* [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md) 
+* [Configure a custom help URL](../../../administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)

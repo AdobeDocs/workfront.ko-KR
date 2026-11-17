@@ -1,11 +1,12 @@
 ---
-title: 레이아웃 템플릿을 사용한 Adobe Workfront 브랜드
+title: Brand Adobe Workfront Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: Adobe Workfront에서 더 이상 브랜딩을 사용할 수 없습니다. 이 기능은 Workfront에서 Adobe Experience Cloud로 온보딩하는 과정의 일부로 더 이상 사용되지 않습니다.
+description: Branding is no longer available for Adobe Workfront. This feature was deprecated as part of the onboarding of Workfront into Adobe Experience Cloud.
 author: Lisa
 feature: System Setup and Administration
+hide: true
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
 TQID: 'https://experienceleague.adobe.com/MhQmqpwdvtCfxXlktomHlIukgbq7sJKXwxTwRJgDSO8'
@@ -23,18 +24,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
-workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 0%
 ---
-# 레이아웃 템플릿을 사용한 Adobe Workfront 브랜드
+# Brand Adobe Workfront using a layout template
 
 <!--Audited: 09/2024-->
 
 >[!IMPORTANT]
 >
->Adobe Workfront에서 더 이상 브랜딩을 사용할 수 없습니다. 이 기능은 Workfront에서 Adobe Experience Cloud로 온보딩하는 과정의 일부로 더 이상 사용되지 않습니다.
+>Branding is no longer available for Adobe Workfront. This feature was deprecated as part of the onboarding of Workfront into Adobe Experience Cloud.
 
 <!-- 
 

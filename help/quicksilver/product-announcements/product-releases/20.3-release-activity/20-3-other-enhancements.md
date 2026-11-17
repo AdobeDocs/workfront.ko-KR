@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1523'
 ht-degree: 1%
 ---
 # 20.3 기타 개선 사항
@@ -129,7 +129,7 @@ Workfront에서 캘린더를 공유하는 부담을 덜기 위해 사용자를 �
 
 이제 레이아웃 템플릿을 사용하여 특정 그룹, 팀, 작업 역할 및 고유한 브랜딩이 있는 사용자에 대해 상단 탐색 영역 및 메인 메뉴에서 로고를 변경할 수 있습니다.
 
-자세한 내용은 [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)을 참조하세요.
+<!--For more information, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).-->
 
 ## 그룹 관리자는 승인 프로세스를 만들고 관리할 수 있습니다.
 

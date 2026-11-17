@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 4%
+source-wordcount: '431'
+ht-degree: 5%
 ---
 # 대시보드 인쇄
 
@@ -95,7 +95,7 @@ ht-degree: 4%
 * 보고서 제목
 * 보고서가 마지막으로 생성된 시간의 타임스탬프
 * 목록 보기, 외부 웹 페이지, 보고서 및 달력을 포함한 대시보드의 모든 오브젝트
-* Workfront 관리자가 전역 탐색 모음에서 회사 로고를 사용자 정의한 경우, 회사의 로고. Workfront 사이트 브랜딩에 대한 자세한 내용은 [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)을 참조하십시오.
+  <!--* Your company's logo, if your Workfront administrator has customized it in your Global Navigation Bar. For more information about branding the Workfront site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). NOTE FROM LISA: Branding is no longer available and the article this links to was deprecated.-->
 
 ### 표시되지 않는 것은 무엇입니까? {#what-is-not-displayed}
 

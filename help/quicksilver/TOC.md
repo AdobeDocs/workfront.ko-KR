@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 4f3207d7f37c24eb2814a9c0d6442eb5c34a0440
+source-git-commit: 69173f21bfd7dd81db69a30a01c1bfee2e575306
 workflow-type: tm+mt
-source-wordcount: '14776'
+source-wordcount: '14764'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -619,10 +619,7 @@ ht-degree: 2%
       * [팀 설정 편집](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
   * Adobe Workfront 사용자 지정 {#customize}
     * [Workfront 사용자 지정](administration-and-setup/customize-workfront/customize-workfront.md)
-    * Adobe Workfront의 사용자 지정 브랜딩 {#custom-branding}
-      * [사용자 지정 브랜딩](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
-      * [인스턴스 브랜딩](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-      * [사용자 정의 도움말 URL 구성하기](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+    * [사용자 정의 도움말 URL 구성하기](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
     * 레이아웃 템플릿 {#layout-templates}
       * [레이아웃 템플릿](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
       * [기본 Workfront 레이아웃](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
@@ -638,7 +635,6 @@ ht-degree: 2%
       * [필터, 보기, 그룹화 맞춤화](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
       * [사용자 인터페이스 용어 맞춤화](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
       * [랜딩 페이지 사용자 지정](administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-      * [Brand Workfront](administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
       * [레이아웃 템플릿 테스트](administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
       * [레이아웃 템플릿에 대한 관리 액세스](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
       * [레이아웃 템플릿에 사용자 할당](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)

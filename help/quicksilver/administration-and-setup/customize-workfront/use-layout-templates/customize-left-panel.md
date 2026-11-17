@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1256'
 ht-degree: 2%
 ---
 # 레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 정의
@@ -247,14 +247,12 @@ ht-degree: 2%
    >* [!UICONTROL 목록]
    >* [!UICONTROL 요약 패널]
    >* [!UICONTROL 홈]
-   >* [!UICONTROL 브랜딩]
    > 
    >이러한 추가 영역을 사용자 지정하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
    >
    >* [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [레이아웃 템플릿을 사용하여 [!UICONTROL 요약 패널 사용자 지정]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [레이아웃 템플릿을 사용하여 홈 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* [Brand Adobe [!DNL Workfront] 레이아웃 템플릿 사용](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (선택 사항) 조직의 대시보드 중 하나에 연결되는 왼쪽 패널 항목을 추가하려면 **[!UICONTROL 대시보드 추가]**&#x200B;를 클릭하고 항목에 대한 **[!UICONTROL 빠른 링크 이름]**&#x200B;을 입력한 다음 대시보드를 선택합니다.

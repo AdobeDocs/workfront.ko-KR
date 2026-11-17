@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1582'
 ht-degree: 0%
 ---
 # 보고서 게재 개요
@@ -175,13 +175,15 @@ Excel, Excel(.xlsx) 또는 TSV 형식으로 배달되도록 예약된 보고서�
 * 시간
 * 보고서가 전송된 시간대
 
-### 브랜딩 {#branding}
+<!--
+### Branding {#branding}
 
-Workfront 관리자가 Workfront 인스턴스에 사용자 지정된 브랜딩을 추가한 경우 .pdf 형식으로 보내진 보고서에 개인화된 로고도 포함됩니다.
+If your Workfront administrator has added customized branding to your Workfront instance, the reports sent in .pdf format also include your personalized logo.
 
-다른 모든 형식으로 전송된 보고서는 로고로 개인화할 수 없습니다.
+Reports sent in all other formats cannot be personalized with your logo.
 
-Workfront 인스턴스 브랜딩에 대한 자세한 내용은 문서 [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)을 참조하십시오.
+For more information about branding your Workfront instance, see the article [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+-->
 
 ### 서식 지정 {#formatting}
 
