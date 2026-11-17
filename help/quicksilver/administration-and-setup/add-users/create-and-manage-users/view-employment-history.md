@@ -7,9 +7,9 @@ description: 속성, 비용 및 청구 요금, 시간 경과에 따른 일정 �
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
+source-git-commit: aa83e1036d82d5db7a0e22a40fdb8472ff329143
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '511'
 ht-degree: 0%
 ---
 # 사용자 고용 내역 보기
@@ -37,6 +37,10 @@ Karen Sterling은 2019년 3월 3일에 채용된 이후 전무 이사로 재직�
 ## 고용 내역 보기
 
 사용자 목록에서 고용 내역을 보거나 사용자 페이지에서 단일 사용자의 총 내역을 볼 수 있습니다.
+
+>[!NOTE]
+>
+>사용자 고용 기록은 현재 사용자의 시작 일자를 고려하지 않습니다.
 
 ### 사용자 목록에서 고용 내역 조회
 
