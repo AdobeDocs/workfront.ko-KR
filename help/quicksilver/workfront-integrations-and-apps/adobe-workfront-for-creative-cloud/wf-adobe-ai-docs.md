@@ -32,12 +32,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 5%
 ---
 # [!DNL Illustrator]에서 문서 업로드
+
+{{cc-plugin-legacy-only}}
 
 프로젝트를 빠른 검토 및 승인을 위한 문서로 업로드하거나 간단히 [!DNL Adobe Workfront]에 저장할 수 있습니다.
 
@@ -101,7 +103,7 @@ ht-degree: 5%
 1. **[!UICONTROL 내보내기 파일 설정 설정]** 대화 상자를 연 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
 
    ![파일 내보내기 설정](assets/file-export-settings.png)
-1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 업로드]**를 클릭합니다.
 플러그 인 및 데스크톱 앱의 [!UICONTROL 문서] 영역에 문서가 표시됩니다.
 
 >[!NOTE]

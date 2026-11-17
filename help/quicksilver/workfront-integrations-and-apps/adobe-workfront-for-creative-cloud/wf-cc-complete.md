@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 6%
 ---
 # [!DNL Adobe Workfront] 플러그인을 사용하여 작업 항목을 완료로 표시
+
+{{cc-plugin-legacy-only}}
 
 다음 [!DNL Adobe Creative Cloud]개의 응용 프로그램을 사용하고 플러그인을 사용하여 [!DNL Adobe Workfront]에서 작업을 원활하게 완료할 수 있습니다.
 

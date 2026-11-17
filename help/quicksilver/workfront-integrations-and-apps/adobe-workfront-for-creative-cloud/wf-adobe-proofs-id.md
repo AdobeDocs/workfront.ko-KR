@@ -32,12 +32,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 3%
 ---
 # [!DNL InDesign]에서 증명 업로드
+
+{{cc-plugin-legacy-only}}
 
 미술 게시판을 [!DNL Adobe Workfront]에 직접 증명으로 업로드하여 검토 및 승인할 수 있습니다.
 
@@ -138,7 +140,7 @@ ht-degree: 3%
 
 1. 드롭다운 메뉴에서 **[!UICONTROL 자산 유형]**&#x200B;을(를) 선택합니다.
 1. (선택 사항) **[!UICONTROL 외부 파일 추가]**&#x200B;를 선택하여 컴퓨터에서 파일을 추가합니다.
-1. **[!UICONTROL 업로드]**&#x200B;를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
+1. **[!UICONTROL 업로드]**를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
 플러그 인 및 데스크톱 앱의 [!UICONTROL 문서] 영역에 문서가 표시됩니다.
 
 ## 새 증명 버전 업로드
@@ -155,11 +157,11 @@ ht-degree: 3%
 1. 플러그 인의 맨 아래에 있는 **[!UICONTROL 새 버전]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 증명 만들기]** 토글을 사용하도록 설정합니다.
 
-1. *[!UICONTROL *증명 승인] **&#x200B; 섹션에서 &#x200B;** [!UICONTROL 기본] **&#x200B; 또는 &#x200B;** [!UICONTROL 자동화]**&#x200B;를 선택합니다.
+1. *[!UICONTROL *증명 승인]** 섹션에서 **[!UICONTROL 기본]** 또는 **[!UICONTROL 자동화]**&#x200B;를 선택합니다.
 
 1. 7단계에서 선택한 승인 유형에 따라 **[!UICONTROL 검토자]** 또는 **[!UICONTROL 워크플로 템플릿]**&#x200B;을 추가하십시오.
 
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역에 댓글을 입력합니다.
 1. 드롭다운 메뉴에서 **[!UICONTROL 자산 유형]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL 업로드]**&#x200B;를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
+1. **[!UICONTROL 업로드]**를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
 플러그 인 및 데스크톱 앱의 [!UICONTROL 문서] 영역에 문서가 표시됩니다.

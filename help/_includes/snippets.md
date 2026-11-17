@@ -1,7 +1,7 @@
 ---
-source-git-commit: f366d51780b787e0f37412d558b210897d764e5e
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '2461'
 ht-degree: 2%
 ---
 # 스니펫
@@ -233,6 +233,12 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 * Illustrator
 * Premiere Pro
 * After Effects
+
+## CC plugin 레거시 스토리지 전용 {#cc-plugin-legacy-only}
+
+>[!IMPORTANT]
+>
+>[!DNL Creative Cloud] 플러그인의 [!DNL Adobe Workfront]은(는) 레거시 Workfront 스토리지의 프로젝트에서만 작동합니다. Adobe 클라우드 스토리지에 대한 프로젝트를 지원하지 않습니다.
 
 ## 자동 증명 설정 조정 {#adjust-proof-settings}
 
@@ -495,12 +501,12 @@ OLD:
 1. Adobe Workfront의 왼쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다.
 
 1. **[!UICONTROL 사용자]**&#x200B;를 클릭한 다음 홈 팀에 연결할 사용자를 선택하십시오.
-1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**을 선택합니다.
    ![](/help/_includes/assets/user-settings-nwe-350x291.png)
 
 1. **[!UICONTROL 조직]** 섹션에서 **[!UICONTROL 홈 팀]** 필드를 선택합니다. 설정을 사용자와 연결할 팀의 이름을 입력하십시오. 목록에 팀의 이름이 표시되면 클릭합니다.
 
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 변경 내용 저장]**을 클릭합니다.
 선택한 사용자가 이제 홈 팀과 연결되었습니다.
 완료 버튼과 연관된 상태를 포함하여 모든 팀 설정이 이제 이러한 사용자에게 표시됩니다.
 

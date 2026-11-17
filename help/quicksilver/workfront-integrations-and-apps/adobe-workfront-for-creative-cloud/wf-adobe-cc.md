@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b2e4857478a0604bc83ef570c4e47576e2369907
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 14%
@@ -38,6 +38,8 @@ ht-degree: 14%
 # [!DNL Creative Cloud] 앱용 [!DNL Adobe Workfront] 플러그 인
 
 <!--Audited: 12/2023-->
+
+{{cc-plugin-legacy-only}}
 
 [!DNL Creative Cloud] 플러그인에 대해 [!DNL Adobe Workfront]을(를) 사용하여 다음을 수행할 수 있습니다.
 
@@ -57,9 +59,9 @@ ht-degree: 14%
 
 플러그인을 사용하고 설치하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 
-* [&#x200B; [!DNL Creative Cloud] 응용 프로그램용  [!DNL Adobe Workfront] 플러그 인 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
-* [&#x200B; [!DNL Creative Cloud] 응용 프로그램에 대한  [!DNL Adobe Workfront] 플러그인으로 작업 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
-* [&#x200B; [!DNL Creative Cloud] Applications용  [!DNL Adobe Workfront] 플러그인으로 문서 및 증명 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+* [ [!DNL Creative Cloud] 응용 프로그램용  [!DNL Adobe Workfront] 플러그 인 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
+* [ [!DNL Creative Cloud] 응용 프로그램에 대한  [!DNL Adobe Workfront] 플러그인으로 작업 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
+* [ [!DNL Creative Cloud] Applications용  [!DNL Adobe Workfront] 플러그인으로 문서 및 증명 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
 * [비디오 자습서: [!DNL Creative Cloud]에 대해  [!DNL Adobe Workfront] 플러그인 사용](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [비디오 자습서: 패키지 만들기 및 관리, 업데이트 배포 및 설치 오류 문제 해결](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 

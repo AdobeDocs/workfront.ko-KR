@@ -32,12 +32,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 5%
 ---
 # [!DNL Adobe Workfront for XD] 설치 및 열기
+
+{{cc-plugin-legacy-only}}
 
 Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설치할 수 있습니다. 플러그인은 다음 언어를 지원합니다.
 
@@ -95,7 +97,7 @@ Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설
 
 [비디오 튜토리얼은 여기에서 봅니다](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console]&#x200B;[&#128279;](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
+[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
 
 ## 개별적으로 [!DNL Adobe Workfront for XD] 플러그 인을 설치하십시오.
 

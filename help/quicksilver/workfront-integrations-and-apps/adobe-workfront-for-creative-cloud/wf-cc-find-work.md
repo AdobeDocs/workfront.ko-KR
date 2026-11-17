@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 4%
 ---
 # [!DNL Adobe Workfront] 플러그인을 사용하여 작업 찾기
+
+{{cc-plugin-legacy-only}}
 
 다음 [!DNL Adobe Creative Cloud]개의 응용 프로그램을 종료하지 않고 [!DNL Adobe Workfront]에서 자신에게 할당된 작업을 찾으십시오.
 

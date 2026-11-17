@@ -30,18 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 3%
 ---
 # [!DNL Photoshop]에서 증명 업로드
 
+{{cc-plugin-legacy-only}}
+
 특정 Photoshop 문서 사전 설정 유형을 증명으로 [!DNL Adobe Workfront]에 직접 업로드하여 철저히 검토하고 승인할 수 있습니다.
 
 >[!IMPORTANT]
 >
->파일은 [Photoshop의 템플릿 및 사전 설정](https://helpx.adobe.com/kr/photoshop/using/create-documents.html)에 설명된 대로 사진 문서 사전 설정이어야 합니다.
+>파일은 [Photoshop의 템플릿 및 사전 설정](https://helpx.adobe.com/photoshop/using/create-documents.html)에 설명된 대로 사진 문서 사전 설정이어야 합니다.
 
 
 
@@ -142,7 +144,7 @@ ht-degree: 3%
 
 1. 드롭다운 메뉴에서 **[!UICONTROL 자산 유형]**&#x200B;을(를) 선택합니다.
 1. (선택 사항) **[!UICONTROL 외부 파일 추가]**&#x200B;를 선택하여 컴퓨터에서 파일을 추가합니다.
-1. **[!UICONTROL 업로드]**&#x200B;를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
+1. **[!UICONTROL 업로드]**를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
 문서가 [!DNL Photoshop]의 [!DNL Workfront] 패널 및 [!DNL Workfront] 데스크톱 앱의 [!UICONTROL 문서] 영역에 표시됩니다.
 
 ## 새 증명 버전 업로드
@@ -159,11 +161,11 @@ ht-degree: 3%
 1. [!DNL Workfront] 패널 아래쪽에 있는 **[!UICONTROL 새 버전]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 증명 만들기]** 토글을 사용하도록 설정합니다.
 
-1. *[!UICONTROL *증명 승인] **&#x200B; 섹션에서 &#x200B;** [!UICONTROL 기본] **&#x200B; 또는 &#x200B;** [!UICONTROL 자동화]**&#x200B;를 선택합니다.
+1. *[!UICONTROL *증명 승인]** 섹션에서 **[!UICONTROL 기본]** 또는 **[!UICONTROL 자동화]**&#x200B;를 선택합니다.
 
 1. 7단계에서 선택한 승인 유형에 따라 **[!UICONTROL 검토자]** 또는 **[!UICONTROL 워크플로 템플릿]**&#x200B;을 추가하십시오.
 
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역에 댓글을 입력합니다.
 1. 드롭다운 메뉴에서 **[!UICONTROL 자산 유형]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL 업로드]**&#x200B;를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
+1. **[!UICONTROL 업로드]**를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
 문서가 [!DNL Photoshop]의 [!DNL Workfront] 패널 및 [!DNL Workfront] 데스크톱 앱의 [!UICONTROL 문서] 영역에 표시됩니다.
