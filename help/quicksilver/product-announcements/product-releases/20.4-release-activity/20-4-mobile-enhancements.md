@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0f2e6b4454d8366d9b8473029e12818d7359bf81
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '441'
 ht-degree: 0%
 ---
 # 20.4 모바일 및 통합 개선 사항
@@ -58,7 +58,7 @@ Workfront은 MDM(모바일 장치 관리) 플랫폼인 MobileIron과 협력하�
 
 Workfront for MobileIron을 사용하면 관리자는 복사/붙여넣기 기능 및 화면 캡처와 같은 기능을 제한할 수 있습니다. [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront)에서 MobileIron용 Workfront 앱을 다운로드할 수 있습니다.
 
-앱 구성에 대한 자세한 내용은 [MobileIron용 Adobe Workfront 구성](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)을 참조하십시오.
+<!--For information on configuring the app, see [Configure Adobe Workfront for MobileIron].-->
 
 ## Workfront 모바일 앱에서 작업을 빠르게 만들기
 
