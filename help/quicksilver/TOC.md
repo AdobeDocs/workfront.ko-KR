@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 69173f21bfd7dd81db69a30a01c1bfee2e575306
+source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
 workflow-type: tm+mt
-source-wordcount: '14764'
+source-wordcount: '14759'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -1074,7 +1074,6 @@ ht-degree: 2%
       * [Android의 증명에 대한 댓글](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
       * [iOS의 증명에 대한 댓글](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
       * [모바일 장치 관리용 Adobe Workfront(MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
-      * [MobileIron용 Adobe Workfront 구성](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
       * [Adobe Workfront 모바일 앱의 승인](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
     * Adobe Workfront 보기 사용 {#use-workfront-view}
       * [Adobe Workfront 보기 사용](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
