@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
+source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1568'
 ht-degree: 2%
 ---
 
@@ -114,6 +114,16 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">작성기 플레이북을 사용하여 작업 에이전트 만들기</a></p>
+                <p>[!BADGE 동시 릴리스]{type=Neutral}</p>
+                <p>이제 작성자 플레이북을 사용하여 작업 에이전트를 만들 수 있습니다.</p>
+            </td>
+            <td><p>2026년 11월 12일</p></td>
+            <td><p>2026년 11월 12일</p></td>
+            <td><p>2026년 11월 12일</p></td>
         </tr>
         <tr>
             <td>

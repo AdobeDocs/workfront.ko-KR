@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1956'
 ht-degree: 1%
 ---
 # AI 공동 작업자 구성
@@ -161,10 +161,11 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
 
    | 플랫폼 | 필수 인증 |
    |---|---|
-   | 코파일럿 스튜디오 | 웹 채널 암호 |
    | Claude Managed Agents | Anthropic API 키<br>에이전트 ID<br>환경 ID |
-   | OpenAI 에이전트 | API 키 <br>에이전트 ID |
+   | 코파일럿 스튜디오 | 웹 채널 암호 |
    | IBM watsonx Orchestrate | 서비스 URL<br>API 키<br> 에이전트 ID |
+   | OpenAI 에이전트 | API 키 <br>에이전트 ID |
+   | 라이터 플레이북 | API 키 </br>플레이북 ID |
 
 1. **연결 테스트**&#x200B;를 클릭합니다. 이렇게 하면 연결이 올바르게 설정되었는지 여부를 알 수 있습니다.
 1. **Collaborator의 작업이 완료되면** 영역에서 Collaborator가 수행할 작업을 전환할 수 있습니다.
@@ -216,42 +217,6 @@ Workfront에서 작업 에이전트로 사용할 에이전트를 생성할 때 �
 
 +++
 -->
-+++ Writer
-
-
-
->[!IMPORTANT]
->
->작성기가 에이전트 사용을 중단했습니다. 작성기 에이전트를 사용하여 구성된 작업 에이전트는 10월 9일 이후 더 이상 작동하지 않습니다. 2026.
->
->사용 중단에 대한 자세한 내용은 작성기 설명서에서 [에이전트 라이브러리 마이그레이션 및 사용 중단](https://support.writer.com/articles/8335689949-migrating-no-code-agents)을 참조하십시오.
-
-
-<!--
-
->[!NOTE]
->
-> You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
-
-When creating an agent for use as a Work Agent in Writer, we recommend the following workflow.
-
-More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
-
-1. Create a no-code app in Writer AI Studio. 
-1. Add a single Text input field. You can use the default name "Text input."
-1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
-1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
-1. Copy your API key and Application ID. You will need them to configure the Work Agent in Workfront.
-
-   * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
-   * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
- 
-1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
-1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
-
--->
-
-+++
 
 <div class="preview">
 

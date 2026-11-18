@@ -25,12 +25,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront plugin]에서 [!DNL Creative Cloud]&#x200B;(으)로 문서 및 증명 업로드
+
+{{cc-plugin-legacy-only}}
 
 프로젝트를 빠른 검토 및 승인을 위한 문서로 업로드하거나 간단히 [!DNL Adobe Workfront]에 저장할 수 있습니다.
 

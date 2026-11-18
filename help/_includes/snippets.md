@@ -1,7 +1,7 @@
 ---
-source-git-commit: f366d51780b787e0f37412d558b210897d764e5e
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '2461'
 ht-degree: 2%
 ---
 # 스니펫
@@ -233,6 +233,12 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 * Illustrator
 * Premiere Pro
 * After Effects
+
+## CC plugin 레거시 스토리지 전용 {#cc-plugin-legacy-only}
+
+>[!IMPORTANT]
+>
+>[!DNL Creative Cloud] 플러그인의 [!DNL Adobe Workfront]은(는) 레거시 Workfront 스토리지의 프로젝트에서만 작동합니다. Adobe 클라우드 스토리지에 대한 프로젝트를 지원하지 않습니다.
 
 ## 자동 증명 설정 조정 {#adjust-proof-settings}
 
