@@ -77,7 +77,7 @@ Some of this information is also duplicated in the section for Ideation space pe
 
 * 브리프를 만들거나 기고하여 다른 응용 프로그램으로 내보내려면 아이디어 공간에 대한 편집자 권한이 있어야 합니다.
 
-* 
+* &#x200B;
   * 공유 는 관념화 캔버스에서 액세스하고 공동 작업을 수행할 수 있는 사용자만 제어합니다. 누군가가 간략한 내용을 Workfront Planning으로 내보낼 때만 레코드 업데이트가 발생합니다.
 
 ## 액세스 요구 사항
