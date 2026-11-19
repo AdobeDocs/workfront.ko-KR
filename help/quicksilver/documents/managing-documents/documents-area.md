@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '924'
 ht-degree: 0%
 ---
 # 문서 영역
@@ -65,6 +65,11 @@ Workfront에 문서를 업로드하는 방법에 대한 자세한 내용은 [파
 문서에 대한 모든 정보가 필요한 경우 세부 정보 머리글을 클릭하여 전체 문서 세부 정보 영역으로 이동할 수 있습니다.
 
 ![문서 영역](assets/documents-area-v2-350x199.png)
+
+<span class="preview">미리 보기 중:
+![문서 영역 요약 패널](assets/legacy-document-summary.png)
+</span>
+
 
 요약에 대한 자세한 내용은 [문서에 대한 요약 개요](../../documents/managing-documents/summary-for-documents.md)를 참조하십시오.
 

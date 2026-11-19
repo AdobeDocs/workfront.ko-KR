@@ -30,14 +30,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '700'
 ht-degree: 3%
-
 ---
-
 # 작업에 대한 완료율 보기 및 업데이트
+
+{{highlighted-preview}}
 
 <!--Audited: 05/2025-->
 
@@ -130,11 +130,15 @@ Old:
 
 * **작업의 요약 패널에서**: 다음 영역에서 작업을 볼 때 요약 패널의 맨 위에 있는 작업의 완료율을 업데이트할 수 있습니다.
 
-   * 작업 목록 또는 보고서
-   * 타임시트
-   * 워크로드 밸런서
+  * 작업 목록 또는 보고서
+  * 타임시트
+  * 워크로드 밸런서
 
   ![강조 표시된 작업 요약의 업데이트 비율](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  <span class="preview">미리 보기 중:
+  ![작업 요약의 업데이트 비율 강조 표시](assets/percent-complete-summary.png)
+  </span>
 
   자세한 내용은 [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하세요.
 
@@ -147,8 +151,8 @@ Old:
 * 작업을 100% 완료로 표시하면 작업 상태가 완료로 업데이트됩니다. 문제의 상태가 [종료됨]으로 업데이트됩니다.
 * 작업을 완료하면 상위 및 프로젝트의 완료율도 업데이트됩니다.
 * 상위 작업 및 프로젝트에 대해 다음과 같은 시나리오가 있습니다.
-   * 프로젝트의 요약 완료 모드가 자동으로 설정되어 있고 하위 작업이 완료되지 않은 경우 상위 작업의 완료율을 100%로 업데이트할 수 없습니다.
-   * 프로젝트의 요약 완료 모드가 수동으로 설정되고 하위 작업이 완료되거나 완료되지 않은 경우 상위 작업 또는 프로젝트의 완료율을 100%로 업데이트할 수 있습니다.
+  * 프로젝트의 요약 완료 모드가 자동으로 설정되어 있고 하위 작업이 완료되지 않은 경우 상위 작업의 완료율을 100%로 업데이트할 수 없습니다.
+  * 프로젝트의 요약 완료 모드가 수동으로 설정되고 하위 작업이 완료되거나 완료되지 않은 경우 상위 작업 또는 프로젝트의 완료율을 100%로 업데이트할 수 있습니다.
 
   자세한 내용은 [프로젝트 편집](../manage-projects/edit-projects.md)을 참조하세요.
 

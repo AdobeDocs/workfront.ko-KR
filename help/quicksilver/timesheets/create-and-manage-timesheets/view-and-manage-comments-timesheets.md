@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '831'
 ht-degree: 2%
-
 ---
-
 # 타임시트의 댓글 보기 및 관리
 
 <!-- Audited: April, 2024-->
@@ -175,7 +173,7 @@ ht-degree: 2%
 
 1. 댓글을 달려는 타임시트로 이동하여 왼쪽 패널에서 [!UICONTROL **타임시트**]&#x200B;를 클릭합니다.
 1. 작업 또는 문제의 행을 클릭한 다음 [!UICONTROL **요약 열기**]&#x200B;를 클릭합니다.
-1. 요약 패널의 [!UICONTROL **업데이트**] 영역에서 업데이트를 입력한 다음 [!UICONTROL **제출**]을 클릭합니다.
+1. 요약 패널의 [!UICONTROL **업데이트**] 탭에서 업데이트를 입력한 다음 [!UICONTROL **제출**]을 클릭합니다.
 작업 및 문제의 업데이트 섹션에 업데이트가 표시됩니다.
 1. (선택 사항) [!UICONTROL **요약 닫기**]&#x200B;를 클릭하여 요약 패널을 닫습니다.
 

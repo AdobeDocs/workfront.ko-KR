@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1655'
 ht-degree: 2%
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 2%
 ## Adobe Workfront 개선 사항
 
 * [관리자 개선 사항](#administrator-enhancements)
+* [애자일 개선 사항](#agile-enhancements)
 * [AI 개선 사항](#ai-enhancements)
 * [문서 개선 사항](#documents-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
@@ -100,6 +101,29 @@ ht-degree: 2%
             <td><p>2026년 10월 29일</p></td>
             <td><p>2026년 10월 29일</p></td>
             <td><p>2026년 10월 29일</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### 애자일 개선 사항
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>기능</strong>
+            </td>
+            <td><strong>미리보기</strong></td>
+            <td><strong>빠른 릴리스</strong></td>
+            <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md">애자일 카드의 필드 편집에 대한 모양과 느낌을 업데이트했습니다.</a></p>
+                <p>애자일 카드를 편집하는 데 사용하는 필드에는 Workfront의 다른 스타일과 일치하도록 업데이트된 모양과 느낌이 있습니다.</p>
+            </td>
+            <td><p>2026년 11월 19일</p></td>
+            <td><p>2026년 12월 17일</p></td>
+            <td><p>2027년 1월 21일</p></td>
         </tr>
     </tbody>
 </table>
@@ -281,6 +305,15 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">작업, 문제 및 문서에 대한 요약 패널의 모양과 느낌이 업데이트됨</a></p>
+                <p>요약 패널에는 정보 및 필드가 별도의 탭으로 구성된 업데이트된 모양과 느낌이 있습니다.</p>
+            </td>
+            <td><p>2026년 11월 19일</p></td>
+            <td><p>2026년 12월 17일</p></td>
+            <td><p>2027년 1월 21일</p></td>
         </tr>
 <!--
         <tr>

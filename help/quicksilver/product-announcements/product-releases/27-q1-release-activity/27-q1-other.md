@@ -4,9 +4,9 @@ description: 2027년 1분기 릴리스 기간 동안의 기타 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '704'
 ht-degree: 0%
 ---
 
@@ -15,6 +15,21 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2027년 1분기 릴리스의 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2027년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2027년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)를 참조하십시오.
+
+## 작업, 문제 및 문서에 대한 요약 패널의 모양과 느낌이 업데이트됨
+
+>[!NOTE]
+>
+>미리 보기: 2026년 11월 19일
+>프로덕션 빠른 릴리스: 2026년 12월 17일
+>모두를 위한 프로덕션: 2027년 1월 21일
+
+작업, 문제 및 문서에 대한 요약 패널에는 Workfront의 다른 스타일과 일치하도록 업데이트된 모양과 느낌이 있습니다. 이제 정보 및 필드가 요약 패널 내에서 별도의 탭으로 구성됩니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+* [문서에 대한 요약 개요](/help/quicksilver/documents/managing-documents/summary-for-documents.md)
 
 <!--
 

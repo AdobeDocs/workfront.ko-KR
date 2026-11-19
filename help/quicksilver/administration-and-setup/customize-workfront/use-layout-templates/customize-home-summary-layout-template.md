@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 4%
@@ -100,8 +100,7 @@ ht-degree: 4%
      <tr> 
       <td role="rowheader">작업</td> 
       <td> <p>작업 목록에서 이 설정은 사용자가 작업을 선택한 다음 요약 열기 아이콘 <img src="assets/summary-panel-icon.png">을(를) 클릭할 때 페이지 오른쪽에 표시되는 요약 패널에 영향을 줍니다.</p>
-
-   <p> <img src="assets/summary-area.png"> </p> </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">문제</td> 

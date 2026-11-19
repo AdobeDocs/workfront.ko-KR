@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '818'
 ht-degree: 9%
 ---
 # [!UICONTROL Home] 영역에서 작업 항목 업데이트 또는 편집
+
+{{highlighted-preview}}
 
 <!--Audited: 04/2024-->
 
@@ -178,7 +180,5 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 1. 작업 항목을 마우스로 가리킨 다음 **요약** 아이콘을 클릭합니다.
    ![요약 열기](assets/open-summary-new-home.png)
 
-1. 요약 패널에서 편집할 필드를 마우스로 가리킵니다.
-필드를 편집할 권한이 있는 경우 필드를 마우스로 가리키면 필드가 강조 표시됩니다.
-1. 편집할 필드를 클릭한 다음 원하는 업데이트를 만듭니다.
+1. 요약 패널에서 편집할 필드를 클릭한 다음 원하는 업데이트를 만듭니다.
 1. 변경 사항을 저장하려면 필드 바깥쪽을 클릭합니다.

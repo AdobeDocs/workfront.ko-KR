@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 4292
+source-wordcount: '4301'
 ht-degree: 1%
-
 ---
-
 # 로그 시간
 
 <!--Audited: 5/2025-->
@@ -282,7 +280,13 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
    ![작업에 대한 summary-panel-opened-in-timesheet](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
-   기록된 시간과 연관된 작업 항목의 업데이트 영역에 업데이트가 표시됩니다.
+   <span class="preview">미리 보기 중:
+
+   ![작업에 대한 summary-panel-opened-in-timesheet](assets/summary-timesheet.png)
+
+   </span>
+
+   기록된 시간과 연관된 작업 항목의 업데이트 탭에 업데이트가 표시됩니다.
 
    >[!TIP]
    >

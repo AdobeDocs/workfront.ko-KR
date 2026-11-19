@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '427'
 ht-degree: 6%
 ---
 # 요약을 사용하여 업무 균형자에서 작업 항목 업데이트
@@ -99,6 +99,10 @@ ht-degree: 6%
    오른쪽에 요약 패널이 열립니다.
 
    ![요약 패널](assets/summary-panel-task-wb-new-comments.png)
+
+   <span class="preview">미리 보기 중:
+   ![요약 패널](assets/summary-panel.png)
+   </span>
 
 1. 작업 항목에 대한 여러 필드를 수정하거나, 업데이트를 입력하거나, 여기에서 Workfront의 다른 영역으로 이동하여 작업 항목에 문서 또는 기타 정보를 추가하십시오.
 
