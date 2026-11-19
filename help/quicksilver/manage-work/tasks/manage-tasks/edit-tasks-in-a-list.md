@@ -34,13 +34,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 2861
+source-wordcount: '2861'
 ht-degree: 4%
-
 ---
-
 # 목록에서 작업 편집 {#edit-tasks-in-a-list}
 
 <!-- Audited: 10/2025 -->
@@ -483,6 +481,7 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
     </tbody> 
    </table>
 
+
 1. Workfront은 작업의 타임라인을 변경하면 모든 프로젝트 내 및 프로젝트 간 종속성을 업데이트합니다.
 1. 작업 변경 내용을 영구적으로 유지하고 프로젝트의 타임라인을 저장하려면 **저장**&#x200B;을 클릭합니다.
 
@@ -526,6 +525,19 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
       <tr> 
       </tbody> 
       </table>
+
+<!--
+uncomment for production release
+
+      | Icon  |Action |
+      |---|---|
+      | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the task. |
+      | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the task. |
+      | Details ![Details icon](assets/details.png) |Click to update information about the task. |
+      | Subtask ![Subtask icon](assets/subtask.png) |Click to view subtasks of the task. |
+      | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+      | Approvals ![Approvals icon](assets/approvals.png)  |Click to add task approvals.  |
+-->
 
 1. 패널의 오른쪽 위 모서리에 있는 **X**&#x200B;을(를) 클릭하여 닫습니다.
 

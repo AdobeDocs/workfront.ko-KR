@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 769a19f560ba582ef696eb48c144baf41b373c5f
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 2%
-
+source-wordcount: '910'
+ht-degree: 3%
 ---
-
 # 목록에서 문제 편집
 
 <!--Audited: 10/2025-->
@@ -132,8 +130,8 @@ Old:
 * 목록에 표시되고 업데이트할 권한이 있는 모든 문제 필드를 편집할 수 있습니다.
 * 다음 목록에서 문제를 편집할 수 있습니다.
 
-   * 프로젝트 또는 작업의 문제 섹션
-   * 문제 보고서
+  * 프로젝트 또는 작업의 문제 섹션
+  * 문제 보고서
 
 문제를 인라인 편집하려면:
 
@@ -181,9 +179,22 @@ Old:
    | 시간 ![로그 시간](assets/log-time-icon-in-summary.png) | 클릭하여 시간을 기록합니다. |
    | 승인 ![승인 아이콘](assets/approvals-icon-in-summary.png) | 문제 승인을 추가하려면 클릭하십시오. |
 
-   *조직에서 문서에 Adobe 클라우드 스토리지를 사용하는 경우 요약 패널에서 Adobe 클라우드 스토리지 문제에 문서를 추가할 수 없습니다.
+<!--
+uncomment for prod
 
-   자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
+   | Icon  |Action |
+   |---|---|
+   | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the issue. |
+   | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the issue. |
+   | Details ![Details icon](assets/details.png) |Click to update information about the issue. |
+   | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+   | Approvals ![Approvals icon](assets/approvals.png)  |Click to add issue approvals.  |
+
+-->
+
+*조직에서 문서에 Adobe 클라우드 스토리지를 사용하는 경우 요약 패널에서 Adobe 클라우드 스토리지 문제에 문서를 추가할 수 없습니다.
+
+자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
 
 1. (선택 사항) **요약 열기** 아이콘을 다시 클릭하거나 요약 오른쪽 상단의 **X 아이콘**&#x200B;을 클릭하여 패널을 닫고 문제를 인라인으로 편집합니다.

@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '759'
 ht-degree: 5%
 ---
 # 문서에 대한 요약 개요
@@ -96,7 +96,11 @@ ht-degree: 5%
 
    ![요약 정보](assets/document-summary-panel.png)
 
-   요약을 연 후에는 수동으로 닫을 때까지 다른 문서를 클릭해도 이 페이지에서 열려 있는 상태로 유지됩니다.
+<span class="preview">미리 보기 중:
+![요약 세부 정보](assets/document-details-summary-legacy.png)
+</span>
+
+요약을 연 후에는 수동으로 닫을 때까지 다른 문서를 클릭해도 이 페이지에서 열려 있는 상태로 유지됩니다.
 
 
 ### 세부 사항
@@ -112,17 +116,29 @@ ht-degree: 5%
 
 ![문서 요약 개요](assets/details-section.png)
 
+<span class="preview">미리 보기 중:
+![요약 세부 정보](assets/document-details-summary-legacy.png)
+</span>
+
 #### 사용자 정의 양식 {#custom-forms}
 
 사용자 정의 Forms 섹션을 사용하여 문서와 연결된 모든 사용자 정의 양식을 추가, 편집 또는 볼 수 있습니다. 사용자 정의 양식의 이름을 입력하여 문서에 추가하십시오. 자세한 내용은 [문서에 사용자 정의 양식 추가 또는 편집](../../documents/managing-documents/add-custom-form-documents.md)을 참조하십시오.
 
 ![문서 요약에 사용자 정의 양식 추가](assets/custom-forms-section.png)
 
+<span class="preview">미리 보기 중:
+![문서 요약에 사용자 정의 양식 추가](assets/custom-form-summary-legacy.png)
+</span>
+
 ### 업데이트
 
 업데이트 섹션을 사용하여 문서 또는 증명에서 수행한 업데이트 내용을 볼 수 있습니다. 요약에는 처음 두 개의 주석이 표시됩니다. 업데이트에 대한 자세한 내용은 [증명에 대한 댓글](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)을 참조하세요.
 
 요약 패널의 ![업데이트 섹션](assets/updates-section.png)
+
+<span class="preview">미리 보기 중:
+요약 패널의 ![업데이트 섹션](assets/updates-summary-legacy.png)
+</span>
 
 ### 승인
 
@@ -135,6 +151,10 @@ ht-degree: 5%
 
 ![문서 요약 승인](assets/approvals-section.png)
 
+<span class="preview">미리 보기 중:
+![문서 요약 승인](assets/document-approvals-summary-legacy.png)
+</span>
+
 ### 버전
 
 버전 섹션을 사용하여 특정 문서에 대해 작성된 버전 수를 볼 수 있습니다. 자세히 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭하여 다음을 수행합니다.
@@ -146,6 +166,10 @@ ht-degree: 5%
 * 증명 또는 문서를 삭제합니다.
 
 ![문서 요약 버전](assets/versions-section.png)
+
+<span class="preview">미리 보기 중:
+![문서 요약 버전](assets/document-versions-summary-legacy.png)
+</span>
 
 ## 새 문서 환경의 문서에 대한 요약
 
