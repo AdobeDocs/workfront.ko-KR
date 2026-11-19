@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1161'
 ht-degree: 0%
 ---
 
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -167,10 +167,12 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 ## Planning 레코드를 만들거나 편집하기 위해 Ideation 공간을 사용하는 것에 대한 고려 사항
 
 * Planning 레코드를 생성하거나 편집하려면 Workfront Planning에서 Ideation 공간을 실행해야 합니다. Workfront 기본 메뉴에서 관념화 공간에 액세스해도 관념화 개요가 Planning 레코드에 연결되지 않습니다.
+* 레코드에서 관념화 공간을 시작하면 Workfront은 레코드의 구조 및 정보를 사용하여 개요 필드를 만들고 업데이트합니다.
 * 관념화 공간을 사용하여 레코드를 만들거나 편집하려면 Workfront Planning에 작업 영역과 레코드 유형이 있어야 합니다.
 * 새 레코드는 만드는 방법에 관계없이 항상 자리 표시자 콘텐츠로 시작합니다.
 * 관념화 요약에 연결된 Planning 레코드를 삭제하면 요약이 관념화 공간에 남아 있으며 연관된 공백은 삭제되지 않습니다.
-* 정보 동기화는 관념화 공간에서 Workfront Planning으로만 수행됩니다. Planning 레코드에서 Ideation Space Brief로의 역방향 또는 자동 동기화는 없습니다. <!--this might change after beta?-->
+* 동기화 작업은 관념화 공간에서 Workfront Planning으로만 수행됩니다. Planning 레코드에서 Ideation Brief로의 역방향 또는 자동 동기화는 없습니다.
+* Workfront Planning으로 내보내면 연결된 Planning 레코드의 모든 기존 필드 데이터를 덮어씁니다.
 * Workfront Planning에서 필드를 생성, 편집 또는 제거할 때 다음과 같은 시나리오가 발생합니다.
 
   * 관념화 요약에 연결된 레코드에서 생성된 새 필드는 요약에 매일 추가됩니다. 관념화 개요에 새 필드가 비어 있습니다.
@@ -208,9 +210,15 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    * 레코드는 자리 표시자 이름으로 즉시 만들어집니다.
 
+   * 관념화 개요는 자리 표시자 이름으로 만들어집니다. 관념화 개요 필드는 시작한 레코드 유형의 필드와 동일합니다.
+
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
+
+1. (선택 사항) 관념화 공간 캔버스의 오른쪽 위 모서리에 있는 **Workfront Planning** 태그 위로 마우스를 가져가면 레코드 유형의 이름, 레코드를 만드는 작업 공간 및 만들고 있는 개요의 버전 번호를 볼 수 있습니다.
+
+   ![Workfront Planning 작업 공간 및 캔버스 내 레코드 유형 정보 태그](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
 
 1. **Coworker** 대화 상자에 프롬프트를 추가한 다음 Enter 키를 누릅니다.
 
@@ -253,9 +261,12 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    관념이 존재하지 않는 경우 관념화 공간과 약식을 만든다.
 
+   관념화 개요에는 시작한 레코드와 동일한 필드가 포함되어 있습니다. 필드 값은 레코드에서 개요로 채워집니다.
+
    >[!TIP]
    >
    >관념화 공간을 사용하여 레코드를 벌크 편집할 수 없습니다.
+
 1. 이 문서의 [이상 공간을 사용하여 레코드 만들기](#create-records-using-the-ideation-space) 섹션에 설명된 대로 간단한 편집을 계속합니다.
 
    <!-- 

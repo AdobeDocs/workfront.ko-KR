@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '700'
 ht-degree: 1%
 ---
 
@@ -76,6 +76,9 @@ Some of this information is also duplicated in the section for Ideation space pe
 * 아이디어 생성자는 항상 자신의 아이디어에 대한 편집기 권한을 가집니다.
 
 * 브리프를 만들거나 기고하여 다른 응용 프로그램으로 내보내려면 아이디어 공간에 대한 편집자 권한이 있어야 합니다.
+
+* 
+  * 공유 는 관념화 캔버스에서 액세스하고 공동 작업을 수행할 수 있는 사용자만 제어합니다. 누군가가 간략한 내용을 Workfront Planning으로 내보낼 때만 레코드 업데이트가 발생합니다.
 
 ## 액세스 요구 사항
 
@@ -163,7 +166,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 

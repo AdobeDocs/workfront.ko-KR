@@ -27,13 +27,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 623
-ht-degree: 3%
-
+source-wordcount: '641'
+ht-degree: 2%
 ---
-
 # [!UICONTROL 간트 차트]에서 리소스 레벨링
 
 <!--Audited: 08/2025-->
@@ -122,6 +120,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
   ![리소스 레벨링 모드](assets/resource-leveling-mode-350x177.png)
 
 * 프로젝트 소유자 또는 작업 할당자는 작업에 레벨링 지연을 도입하여 작업에 추가 시간이 필요할 수 있음을 나타낼 수 있습니다. 작업에 레벨링 지연을 추가하는 방법에 대한 자세한 내용은 [작업 레벨링 지연 업데이트](../../../manage-work/tasks/task-information/task-leveling-delay.md)를 참조하십시오.
+* 최적의 성능을 보장하기 위해 지속 시간이 1000일을 초과하는 작업에는 리소스 레벨링이 작동하지 않습니다.
 
 ## [!UICONTROL 간트 차트]에서 리소스 레벨링 적용
 

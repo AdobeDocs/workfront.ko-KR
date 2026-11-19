@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
 source-wordcount: '1673'
 ht-degree: 8%
@@ -242,7 +242,7 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
       <p>이 옵션은 기본적으로 선택되어 있습니다.</p>
       <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md" class="MCXref xref">Workfront에서 CX Enterprise Coworker 사용</a>을 참조하세요.</p>
       <p><b>참고:</b></p>
-      <p>모든 고객이 Coworkere에 액세스할 수 있는 것은 아닙니다.</p>
+      <p>모든 고객이 Coworker에 액세스할 수 있는 것은 아닙니다.</p>
       </td> 
      </tr>
 

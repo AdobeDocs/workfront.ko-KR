@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1540'
 ht-degree: 0%
 ---
 
@@ -174,7 +174,16 @@ In addition to above requirements, you must also meet the following criteria to 
 
 ## 관념화 공간 찾기
 
-적절한 제품, 패키지, 시스템 및 구성된 액세스 수준에 대한 액세스 권한을 확인했으면 Workfront의 다음 영역에서 Ideation 공간을 찾을 수 있습니다.
+구성된 적절한 제품, 패키지 및 시스템에 대한 액세스 권한과 액세스 수준을 확인했으면 Workfront 및 Workfront Planning의 여러 영역에서 Ideation 공간을 찾을 수 있습니다.
+
+>[!TIP]
+>
+>레이아웃 템플릿을 사용하여 기본 메뉴에서 관념화 공간 영역을 제거할 수 없습니다.
+>
+>사용자가 관념화 공간에 액세스하지 못하도록 차단하는 방법에 대한 자세한 내용은 [관념화 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)를 참조하십시오.
+>
+
+Workfront의 다음 영역에서 관념화 공간에 액세스합니다.
 
 * Workfront 주 메뉴에서 관념화 공간 영역을 엽니다.
 
@@ -188,11 +197,16 @@ In addition to above requirements, you must also meet the following criteria to 
 
   ![레코드 세부 정보 페이지의 관념화 공간](assets/ideation-space-button-in-details-page.png)
 
+>[!IMPORTANT]
+>
+>에서 관념화 공간을 시작하는 지점에 따라 간단한 구조가 결정됩니다. 다음과 같은 시나리오가 있습니다.
+>
+>* Planning의 새 레코드 단추에서 시작하면 개요에는 처음 사용하는 레코드 유형과 동일한 필드가 포함됩니다.
+>
+>* Planning 기존 레코드에서 시작하는 경우 브리프에는 레코드와 동일한 값을 가진 동일한 필드가 포함됩니다.
+>
+>* Workfront의 메인 메뉴에서 이 프로그램을 시작하면 캔버스에 업로드한 파일의 필드와 정보가 요약되어 있습니다.
 
->[!TIP]
->
->레이아웃 템플릿을 사용하여 기본 메뉴에서 관념화 공간 영역을 제거할 수 없습니다. 사용자가 관념화 공간에 액세스하지 못하도록 차단하는 방법에 대한 자세한 내용은 [관념화 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)를 참조하십시오.
->
 
 ## 관념화 공간 및 Adobe CX Enterprise Coworker
 
@@ -309,10 +323,10 @@ Worth noting
 <!--
 ## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/kr/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio Overview](https://business.adobe.com/kr/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/kr/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 -->
 

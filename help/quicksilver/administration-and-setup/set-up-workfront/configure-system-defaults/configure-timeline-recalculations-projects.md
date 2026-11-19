@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '487'
 ht-degree: 3%
 ---
 # 프로젝트에 대한 타임라인 재계산 구성
@@ -67,6 +67,11 @@ ht-degree: 3%
 ## 자동 재계산 구성
 
 [!DNL Adobe Workfront] 관리자는 [!DNL Workfront]이(가) 프로젝트 타임라인을 자동으로 다시 계산하는 시기를 구성할 수 있습니다. [!DNL Workfront]은(는) 매일 밤 또는 프로젝트 범위가 변경될 때 또는 둘 다 프로젝트 타임라인을 다시 계산할 수 있습니다.
+
+>[!NOTE]
+>
+>최적의 성능을 보장하기 위해 기간이 1000일을 초과하는 작업이 있는 프로젝트의 타임라인은 자동으로 다시 계산되지 않습니다. 이러한 프로젝트에 대한 타임라인을 수동으로 다시 계산해야 합니다.
+
 
 {{step-1-to-setup}}
 

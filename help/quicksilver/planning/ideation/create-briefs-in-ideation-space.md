@@ -1,5 +1,5 @@
 ---
-title: 관념화 공간에 브리프 만들기
+title: Ideation 공간에 브리프 만들기
 description: 이 문서에서는 Ideation 공간에서 브레인스토밍하고 전략하여 브리프를 만드는 방법에 대해 설명합니다. 완료된 Ideation Brief를 파일이나 Workfront Planning으로 내보내 레코드를 만들거나 업데이트할 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2224'
 ht-degree: 1%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -188,6 +188,16 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * **주 메뉴로 이동** ![주 메뉴](assets/main-menu-lines.png) > **계획** > 작업 공간 클릭 > 레코드 유형 클릭 > 기존 레코드 클릭 > **관념에서 열기**
 
      ![레코드 세부 정보의 관념화 공간](assets/ideation-space-button-in-details-page.png)
+
+     >[!IMPORTANT]
+     >
+     >에서 관념화 공간을 시작하는 지점에 따라 간단한 구조가 결정됩니다. 다음과 같은 시나리오가 있습니다.
+     >
+     >* Planning의 새 레코드 단추에서 시작하면 개요에는 처음 사용하는 레코드 유형과 동일한 필드가 포함됩니다.
+     >
+     >* Planning 기존 레코드에서 시작하는 경우 브리프에는 레코드와 동일한 값을 가진 동일한 필드가 포함됩니다.
+     >
+     >* Workfront의 메인 메뉴에서 이 프로그램을 시작하면 캔버스에 업로드한 파일의 필드와 정보가 요약되어 있습니다.
 
 1. Beta 계약을 읽고 **동의**&#x200B;를 클릭합니다. 관념화 공간을 사용하려면 계약서에 서명해야 합니다.
 
@@ -235,7 +245,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. (선택 사항) Coworker 패널의 오른쪽 위 모서리에 있는 **채팅** 아이콘 ![채팅 아이콘](assets/chats-icon-coworker.png)을 클릭한 다음 **새 채팅**&#x200B;을 클릭하여 새 프롬프트를 열거나 목록에서 이전 채팅 중 하나를 클릭하여 이전 메시지로 돌아갑니다.
 
-   채팅에 대한 자세한 내용은 Adobe CX Enterprise Coworker 설명서에서 [채팅 관리](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)를 참조하십시오.
+   채팅에 대한 자세한 내용은 Adobe CX Enterprise Coworker 설명서에서 [채팅 관리](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)를 참조하십시오.
 
 1. **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하여 관념화 캔버스에서 항목을 검색한 다음 목록에 표시될 때 클릭하여 탐색합니다.
 
@@ -244,10 +254,16 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    Workfront Planning 또는 웹에서 정보를 가져올 수 있습니다.
 
    또한 스페이스의 오른쪽 상단에 있는 **소스** 아이콘 ![소스 아이콘](assets/sources-icon.png)을 클릭하여 스페이스의 모든 카드에 대한 소스 목록을 표시할 수도 있습니다.
-1. (선택 사항) 스페이스의 오른쪽 상단에 있는 **댓글** ![댓글 아이콘](assets/comments-icon.png)을 클릭하고 **@**&#x200B;을(를) 태깅하여 스페이스 내에서 브레인스토밍을 시작합니다.
+1. (선택 사항) 캔버스의 오른쪽 위 모서리에 있는 **댓글** ![댓글 아이콘](assets/comments-icon.png)을 클릭하고 **@**&#x200B;에 다른 사용자를 태깅하여 공간 내에서 브레인스토밍을 시작합니다.
 
    사용자는 태그에 대한 이메일 알림을 받게 됩니다.
+
+   >[!TIP]
+   >
+   >카드 또는 카드 세트에 대한 주석을 추가할 수 있습니다.
+
 1. (선택 사항) 댓글 카드 내의 **필터** 아이콘 ![필터 아이콘](assets/filter-comments-icon.png)을 클릭하여 다음 기준에 따라 댓글을 필터링합니다.
+
 
    * 검토자
    * 댓글이 추가된 시간
