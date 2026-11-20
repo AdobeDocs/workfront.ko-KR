@@ -10,14 +10,16 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 02c20015be69f0f6c2bcd915eccb37ea4fbb50fe
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 19%
 ---
 # 숨겨진 테스트
 
 더 큰 저장소에서 게시 시간을 테스트하는 데 사용되는 숨겨진 파일입니다.
+
+11월 19일
 
 문제가 있으면 Bob에게 문의하십시오.
 

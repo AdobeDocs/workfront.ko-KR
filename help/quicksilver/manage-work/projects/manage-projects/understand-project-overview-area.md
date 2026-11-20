@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: '1466'
 ht-degree: 5%
-
 ---
-
 # 프로젝트 개요 영역에서 정보 관리
 
 {{highlighted-preview}}
@@ -183,7 +181,8 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">프로그램</td> 
-      <td>프로젝트 포트폴리오와 연계된 프로그램. 프로그램을 프로젝트에 추가하려면 먼저 해당 프로그램을 만들어야 합니다. </td> 
+      <td></p>프로젝트의 포트폴리오와 연계된 프로그램. 프로그램을 프로젝트에 추가하려면 먼저 해당 프로그램을 만들어야 합니다.</p>
+      <p> 포트폴리오에 20개 이상의 활성 프로그램이 있는 경우 프로젝트 개요의 프로그램 필드에는 처음 20개의 프로그램만 알파벳 순서로 나열됩니다. 이름의 일부를 입력하면 포트폴리오의 모든 활성 프로그램을 찾을 수 있습니다. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">그룹</td> 
