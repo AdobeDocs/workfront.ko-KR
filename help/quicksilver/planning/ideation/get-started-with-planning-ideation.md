@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
@@ -214,7 +214,7 @@ Workfront의 다음 영역에서 관념화 공간에 액세스합니다.
 
 사용자는 후속 질문을 하고 일회성 결과를 얻기보다는 짧은 대화를 개선할 수 있습니다.
 
-개요 가 라이브 Workfront Planning 레코드와 연결되면 Coworker는 기본 계획이 그대로 유지되도록 덮어쓰기를 보류합니다. 브리핑을 Workfront Planning으로 내보낼 때만 레코드가 재정의됩니다.
+개요 가 라이브 Workfront Planning 레코드와 연결되면 Coworker는 기본 계획이 그대로 유지되도록 덮어쓰기를 보류합니다. 개요 정보를 Workfront Planning으로 내보낼 때만 레코드를 덮어씁니다.
 
 <!--
 Previous intro but oped for the more direct one above: 
