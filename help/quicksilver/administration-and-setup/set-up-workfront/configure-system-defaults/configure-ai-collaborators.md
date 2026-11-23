@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 12d853c199743583110c988ef2cfbec164d69378
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1992'
 ht-degree: 1%
 ---
 # AI 공동 작업자 구성
@@ -156,7 +156,12 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
    >그룹 관리자인 경우 이 필드에는 관리자인 그룹만 표시됩니다. 그룹 관리자는 그룹을 하나 이상 선택해야 합니다.
 
 1. **에이전트의 원본 선택** 영역에서 <span class="preview">Adobe 네이티브</span>를 사용할지, Copilot과 같은 공통 플랫폼에서 만든 에이전트를 연결할지 또는 사용자 지정 에이전트를 사용할지 여부를 선택합니다.
-1. <span class="preview">(조건부) Adobe Native를 선택하는 경우 귀사에 Adobe CX Coworker이 활성화되어 있고 즉시 사용할 수 있는 Adobe Native 에이전트를 사용할지 확인하십시오.</span>
+1. <span class="preview">(조건부) Adobe Native를 선택하는 경우 사용할 공동 작업자(CX Enterprise Coworker 공동 작업자 또는 Intake 코디네이터와 같은 사전 빌드된 AI 공동 작업자)를 선택합니다. 설명을 포함하여 미리 빌드된 공동 작업자에 대한 자세한 내용은 [미리 빌드된 AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>을 참조하십시오.
+
+   >[!NOTE]
+   >
+   ><span class="preview">미리 빌드된 AI 공동 작업자를 켜면 프로비전되는 데 약 30초가 걸립니다. 공동 작업자가 준비될 때까지 회전기가 표시됩니다.</span>
+
 1. (조건부) 일반 플랫폼에서 에이전트를 사용하는 경우 에이전트 플랫폼에 대한 인증 세부 정보를 입력합니다.
 
    | 플랫폼 | 필수 인증 |
