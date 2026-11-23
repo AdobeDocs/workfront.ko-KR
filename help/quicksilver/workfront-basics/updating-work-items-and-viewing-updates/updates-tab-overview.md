@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
+source-git-commit: 27060a08f07aea5fb0d5ac18b8f903ad407510e6
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1464'
 ht-degree: 3%
 ---
 # 업데이트 섹션 개요
@@ -350,6 +350,8 @@ The following objects don't record system updates:
   * 스토리
   * 타임시트
   * 반복
+
+* 팀의 업데이트 섹션에는 팀이 연결되지 않은 프로젝트에 대한 업데이트를 포함하여 팀 구성원이 수행한 업데이트가 표시됩니다. 업데이트는 팀과 연결된 프로젝트 또는 다른 개체로 필터링되지 않습니다. 특정 프로젝트에 대한 업데이트를 보려면 해당 프로젝트의 업데이트 섹션으로 이동하십시오.
 
 * 사용자에 대한 업데이트 영역의 시스템 업데이트 탭은 다른 객체에 대한 업데이트로 채워집니다. 다음은 사용자 프로필의 시스템 업데이트 탭에 표시되는 업데이트이며, 이러한 필드가 설정의 업데이트 피드 영역에서 추적됩니다.
 
