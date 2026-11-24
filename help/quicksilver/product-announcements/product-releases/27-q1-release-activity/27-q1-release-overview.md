@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe229b1cc5608a4a5ac999fbcaeb1a8c1607bc42
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1718'
 ht-degree: 2%
 ---
 
@@ -142,11 +142,12 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Intake Coordinator가 미리 빌드한 AI Collaborator 구성</a></p>
+                <p>[!BADGE 동시 릴리스]{type=Neutral}</p>
                 <p>이제 관리자는 사전 빌드된 AI 공동 작업자인 Intake 코디네이터를 정보 누락, 불명확성 또는 불일치 여부를 확인하는 작업 에이전트로 구성할 수 있습니다.</p>
             </td>
-            <td><p>2026년 11월 22일</p></td>
-            <td><p>2026년 12월 17일</p></td>
-            <td><p>2027년 1월 21일</p></td>
+            <td><p>2026년 11월 12일</p></td>
+            <td><p>2026년 11월 12일</p></td>
+            <td><p>2026년 11월 12일</p></td>
         </tr>
         <tr>
             <td>
@@ -161,11 +162,12 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">작업 에이전트: Adobe 기본 지원</a></p>
+                <p>[!BADGE 동시 릴리스]{type=Neutral}</p>
                 <p>이제 외부 플랫폼을 구성하거나 외부 자격 증명을 입력하지 않고도 CX Enterprise Coworker 공동 작업자, Adobe Agent Orchestrator에서 제공하는 CX Enterprise Coworker 에이전트를 사용하는 작업 에이전트를 만들 수 있습니다.</p>
             </td>
-            <td><p>2026년 10월 29일</p></td>
             <td><p>2026년 11월 12일</p></td>
-            <td><p>2027년 1월 21일</p></td>
+            <td><p>2026년 11월 12일</p></td>
+            <td><p>2026년 11월 12일</p></td>
         </tr>
         <tr>
             <td>
@@ -432,7 +434,7 @@ Desktop Proofing Viewer가 버전 2.3.0으로 업데이트되었습니다. 이 �
 
 * 성능 및 보안 개선을 위해 기본 프레임워크(Electron)를 Chrome 버전 156에서 실행되는 최신 버전으로 업데이트했습니다.
 
-Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](https://experienceleague.adobe.com/ko/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)를 참조하십시오.
+Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)를 참조하십시오.
 
 ## 공지
 
@@ -489,10 +491,10 @@ Desktop Proofing Viewer 다운로드 및 업데이트에 대한 자세한 내용
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

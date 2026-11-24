@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 작업 에이전트는 Workfront 작업, 문제 및 요청에 직접 할당할 수 있는 AI 공동 작업자입니다. 다른 AI 공동 작업자와 마찬가지로 작업 에이전트도 설정 영역에서 구성되어 사용자와 마찬가지로 작업 항목에 할당됩니다.
 
-<span class="preview">CX Enterprise Coworker 공동 작업자 또는 Intake 코디네이터와 같은 사전 설치된 AI 공동 작업자(자세한 내용은 [사전 설치된 AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md) 참조),</span> 또는 외부 플랫폼에 연결된 작업 에이전트와 같이 바로 사용할 수 있는 Adobe 기본 작업 에이전트를 사용할 수 있습니다. 사용 가능한 기능 및 설정 요구 사항은 에이전트의 출처에 따라 다릅니다.
+Adobe Collaborator 또는 Intake 코디네이터와 같은 사전 설치된 AI Collaborator(자세한 내용은 [사전 설치된 AI Collaborator 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md) 참조) 또는 외부 플랫폼에 연결된 작업 에이전트와 같이 바로 사용할 수 있는 CX Enterprise Coworker 기본 작업 에이전트를 사용할 수 있습니다. 사용 가능한 기능 및 설정 요구 사항은 에이전트의 출처에 따라 다릅니다.
 
 <!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
@@ -69,7 +69,7 @@ Workfront에서 작업 에이전트를 만드는 방법에 대한 정보와 지�
 ## 전제 조건
 
 * Workfront에서 작업 에이전트를 사용하려면 먼저 관리자가 구성해야 합니다.
-* <span class="preview">Adobe 기본 작업 에이전트의 경우 조직에서 Adobe CX Coworker을 사용하도록 설정해야 합니다.</span>
+* Adobe 네이티브 작업 에이전트의 경우, 조직에서 Adobe CX Coworker을 활성화해야 합니다.
 * 외부 플랫폼에 연결된 작업 에이전트의 경우 해당 플랫폼에서도 에이전트를 구성해야 합니다.
 
 ## 작업 에이전트 개요
@@ -128,7 +128,7 @@ Workfront에서 작업 에이전트가 구성되는 방법에 따라 작업을 �
 * 작업 에이전트와 사용자가 이미 할당된 작업이 시작할 준비가 되었으며 작업 에이전트가 먼저 할당되었거나 기본 할당자입니다. (예를 들어 작업에 전임 작업이 있는 경우 해당 전임 작업은 완료됩니다.)
 * 사용자 및 작업 에이전트가 작업에 할당되고 사용자가 제거됩니다.
 * 사용자 및 작업 에이전트가 작업에 할당되고 작업 에이전트가 작업의 기본 피할당자로 설정됩니다.
-* <span class="preview">Workfront 기본 작업 에이전트가 작업에 @mentioned.
+* Workfront 기본 작업 에이전트가 @mentioned에 있습니다.
 
 다음과 같은 경우에는 작업 에이전트가 작업 작업을 시작하지 않습니다.
 

@@ -4,15 +4,13 @@ content-type: reference
 description: 프로젝트 상태를 모니터링하고 지연 작업을 후속 처리하는 즉시 사용 가능한 AI 공동 작업자인 프로젝트 코디네이터를 사용하는 방법에 대해 알아봅니다.
 author: Becky
 feature: Work Management, Projects
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 4%
 
 ---
 # 프로젝트 코디네이터 공동 작업자 사용
-
-{{highlighted-preview-article-level}}
 
 프로젝트 코디네이터는 프로젝트를 모니터링하고 중요한 상태 정보에 대해 이해 당사자에게 알리는 즉시 사용 가능한 AI 공동 작업자입니다.
 
