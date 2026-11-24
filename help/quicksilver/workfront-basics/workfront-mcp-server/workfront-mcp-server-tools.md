@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
+source-git-commit: b836c42f007e31be8533e89cb0c2f3095c9ace9a
 workflow-type: tm+mt
-source-wordcount: '3931'
+source-wordcount: '3801'
 ht-degree: 3%
 ---
 
@@ -112,9 +112,7 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 | 이름별 문서 버전 찾기 | `approvals_find_document_version_by_name` | 파일 이름별로 문서의 현재 버전 ID를 조회합니다. 부분 일치를 지원합니다. | 읽기 |
 | 버전 ID로 문서 가져오기 | `approvals_get_document_by_version_id` | 알려진 문서 버전 ID에 대한 문서 세부 정보(이름, 크기, 업로드 날짜, 업로더)를 가져옵니다. | 읽기 |
 | 문서 범위 해결 | `approvals_resolve_document_scope` | 프로젝트 또는 폴더를 포함된 문서 버전 ID 목록으로 확장합니다. 프로젝트, 폴더 및 이름별 폴더 범위를 지원합니다. | 읽기 |
-| 범위별 문서 가져오기 | `approvals_get_documents_by_scope` | 사용하지 않음. 대신 `insights_find_workfront_data`을(를) 사용합니다. 이 도구는 프로젝트 또는 폴더 내의 문서를 나열했습니다. | 읽기 |
 | AEM 연결 폴더 나열* | `approvals_list_aem_linked_folders` | Adobe Experience Manager에 연결된 Workfront 문서 폴더를 나열합니다. | 읽기 |
-| 문서 찾기 | `approvals_find_document` | 사용하지 않음. 대신 `insights_find_workfront_data`을(를) 사용합니다. 이 도구는 파일 이름 또는 문서 버전 ID로 문서를 조회했습니다. | 읽기 |
 | AEM 폴더로 문서 보내기* | `approvals_send_documents_to_aem_folder` | 하나 이상의 Workfront 문서를 AEM 연결 폴더로 이동합니다. | 쓰기 |
 
 *이 도구를 사용하려면 Workfront 인스턴스에 기본 [!DNL Adobe Experience Manager] 통합이 구성되어 있어야 합니다. 자세한 내용은 [Adobe Experience Manager Assets 통합 개요](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)를 참조하십시오.
@@ -122,10 +120,6 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 
 *AEM 폴더로 문서를 보내는 것은 Adobe 클라우드 스토리지의 프로젝트에 대해 아직 지원되지 않습니다. 향후 릴리스에서 지원이 예상됩니다.
 **이 도구는 대화에서 대화형 업로드 패널을 열므로 MCP 앱을 지원하는 도구에서만 작동합니다. 현재 이 도구는 Claude만 지원됩니다. 도구 권한의 &quot;대화형 도구&quot; 아래에 표시되고 기본적으로 승인을 요청합니다.
-
-<!--
-| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
--->
 
 ### 승인 작업 과정
 
@@ -141,13 +135,6 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 | <span class="preview">경로에서 단계 제거</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">동시 승인 워크플로의 특정 경로에서 시작되지 않은 단계를 제거합니다. 각 경로는 하나 이상의 단계를 유지해야 합니다.</span> | <span class="preview">쓰기</span> |
 | <span class="preview">경로에서 단계 순서 바꾸기</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">병렬 승인 워크플로의 단일 경로 내에서 단계 순서를 변경합니다.</span> | <span class="preview">쓰기</span> |
 
-<!--
-| Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
--->
-
-<!--
-| Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
--->
 
 ### 알림 메시지
 
@@ -176,9 +163,6 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 | 이름으로 프로젝트 찾기 | `approvals_find_project_by_name` | 2026년 8월 13일이 제거되었습니다. 대신 `insights_find_id_by_name`을(를) 사용합니다. 이 도구는 시스템 전체에서 부분 이름 일치를 기준으로 Workfront 프로젝트를 조회했습니다. | 읽기 |
 | 소유자별 프로젝트 가져오기 | `approvals_get_projects_by_owner` | 2026년 8월 13일이 제거되었습니다. 대신 `insights_find_workfront_data`을(를) 사용합니다. 이 도구는 호출 사용자가 소유자였던 Workfront 프로젝트를 나열했습니다. | 읽기 |
 | 현재 사용자 가져오기 | `approvals_get_current_user` | 2026년 8월 13일이 제거되었습니다. 이 도구는 이름, 사용자 ID, 홈 팀 이름 및 홈 팀 ID를 포함하여 호출하는 사용자의 Workfront ID를 반환했습니다. 유사한 기능은 Insights 도구의 [현재 사용자 가져오기](#insights-tools)를 참조하십시오. | 읽기 |
-| 이름으로 사용자 찾기 | `approvals_find_user_by_name` | 사용하지 않음. 대신 `insights_search_users`을(를) 사용합니다. 이 도구는 Workfront 사용자의 ID를 이름(유사 항목 또는 부분 일치), 반환 이름, ID, 이메일, 제목 및 아바타 URL로 조회합니다. | 읽기 |
-| 이름으로 팀 찾기 | `approvals_find_team_by_name` | 사용하지 않음. 대신 `insights_find_id_by_name`을(를) 사용합니다. 이 도구는 이름으로 Workfront 팀의 ID를 조회했습니다(유사 항목 또는 부분 일치). | 읽기 |
-| 프로젝트 찾기 | `approvals_find_projects` | 사용하지 않음. 대신 `insights_find_workfront_data`을(를) 사용합니다. 이 도구는 필요에 따라 이름으로 필터링되고/되거나 호출 사용자가 소유한 프로젝트로 제한된 Workfront 프로젝트를 조회했습니다. | 읽기 |
 
 ## 계획 도구
 
@@ -276,11 +260,9 @@ AI 아젠틱 플랫폼이 Workfront 항목을 찾을 수 있지만 생성, 업�
 
 | 제목 | 도구 이름 | 기능 | 액션 |
 | --- | --- | --- | --- |
-| 오브젝트 검색 | `workflow_search_any_object` | 이 도구는 더 이상 사용되지 않습니다. | 읽기 |
 | 오브젝트 만들기 | `workflow_create_any_object` | 프로젝트, 작업, 문제, 시간, 할당, 프로그램 또는 포트폴리오와 같은 새 Workfront 개체를 만듭니다. | 쓰기 |
 | 개체 업데이트 | `workflow_update_any_object` | 기존 개체의 필드를 업데이트합니다. 또한 작업 또는 문제를 다른 프로젝트로 이동, 작업 또는 문제를 새 프로젝트(또는 문제를 작업으로 변환) 및 작업 전임 작업(종속성) 설정을 지원합니다. | 쓰기 |
 | 오브젝트 삭제 | `workflow_delete_any_object` | ID별로 Workfront 개체를 삭제합니다. 작업을 수행하기 전에 명시적인 사용자 확인이 필요합니다. | 쓰기 |
-| 필드 이름 확인 | `workflow_resolve_field_names_any_object` | 이 도구는 더 이상 사용되지 않습니다. | 읽기 |
 | 워크플로우 문서 읽기 | `workflow_read_workflow_docs` | 도구 사용 안내서 및 개체별 작업 플레이북이 포함된 Workfront Workflow 설명서를 로드합니다. 워크플로 작업을 수행하기 전에 필요한 첫 번째 단계입니다. | 읽기 |
 
 ### 개체 도구 기능 업데이트
