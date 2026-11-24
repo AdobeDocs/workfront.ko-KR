@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3414'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning의 2026년 4분기 릴리스 활동
@@ -418,7 +418,7 @@ Workfront에서 Adobe CX Enterprise Coworker이 출시될 준비를 위해 세�
 
 자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
 
-## 주 보기에서 큰 레코드 집합에 대한 일정 성능이 개선되었습니다.
+## 달력 보기에서 증분 데이터 로드를 통한 성능 향상
 
 >[!NOTE]
 >

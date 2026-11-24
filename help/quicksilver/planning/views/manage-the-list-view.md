@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2096'
 ht-degree: 0%
 ---
 
@@ -172,14 +172,22 @@ Removed - more direct steps below:
 
    1. 목록의 왼쪽 상단 모서리에서 드롭다운 보기 메뉴를 확장하여 다른 보기를 선택하거나 **새 보기**&#x200B;를 클릭하여 다른 보기를 만듭니다.
 
+      다음 섹션 중 하나에 보기가 표시됩니다.
+
+      * Workfront에서 만든 **시스템 보기**.
+      * 다른 사용자가 **공유 보기**&#x200B;를 공유했습니다.
+      * **내 보기**, 사용자가 만들었습니다.
+
       >[!TIP]
       >
       >보기가 시스템 전체에서 공유됩니다. 하나의 레코드 유형에 대한 프로젝트 보기를 만드는 경우 연결된 프로젝트를 표시하는 다른 레코드 유형에서 볼 수 있습니다.
 
    1. 기존 보기의 이름 위로 마우스를 가져간 후 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 중 하나를 클릭하십시오.
       * 보기에 새 이름을 지정하려면 **이름 바꾸기**
-      * **공유**, 다른 사용자와 보기 공유
+      * **공유**&#x200B;하여 다른 사용자와 보기를 공유할 수 있습니다. 다른 사용자가 나와 보기를 공유하면 보기 드롭다운 메뉴의 **공유 보기** 영역에 표시됩니다.
       * 보기를 삭제하려면 **삭제**&#x200B;하십시오.
+      * **기본 설정으로 복사** <span class="preview"><!--or **Copy with my changes**</span>-->, 사용자와 공유된 원본 보기를 복사하는 대신 변경한 내용으로 보기를 복사합니다. 시스템 보기 및 공유 보기에서만 사용할 수 있습니다.
+        <!--* <span class="preview">**Copy**, to copy the view</span>-->
 
       >[!NOTE]
       >
@@ -193,17 +201,31 @@ Removed - more direct steps below:
 
       >[!TIP]
       >
-      >개인화된 필터를 적용하려면 필드 값에 대해 다음 옵션 중 하나를 선택합니다.
+      >* 개인화된 필터를 적용하려면 필드 값에 대해 다음 옵션 중 하나를 선택합니다.
       >
-      >* **내(로그인한 사용자)**&#x200B;가 사용자를 참조하는 필드에서 로그인한 사용자를 참조합니다.
+      >   * **내(로그인한 사용자)**&#x200B;가 사용자를 참조하는 필드에서 로그인한 사용자를 참조합니다.
       >
-      >* **내 팀** 또는 **내 홈 팀**&#x200B;에서 팀을 참조하는 필드에 있는 팀을 참조합니다.
+      >   * **내 팀** 또는 **내 홈 팀**&#x200B;에서 팀을 참조하는 필드에 있는 팀을 참조합니다.
       >
-      >* **내 그룹** 또는 **내 홈 그룹**&#x200B;에서 그룹을 참조하는 필드에 있는 그룹을 참조합니다.
+      >   * **내 그룹** 또는 **내 홈 그룹**&#x200B;에서 그룹을 참조하는 필드에 있는 그룹을 참조합니다.
       >
-      >* **내 회사**&#x200B;에서 회사를 참조하는 필드에 회사를 참조합니다.
+      >   * **내 회사**&#x200B;에서 회사를 참조하는 필드에 회사를 참조합니다.
       > 
-      >* **내 역할** 또는 **내 기본 역할**&#x200B;을(를) 참조하여 필드에서 작업 역할을 참조합니다.
+      >   * **내 역할** 또는 **내 기본 역할**&#x200B;을(를) 참조하여 필드에서 작업 역할을 참조합니다.
+      <!--
+        >* <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+        >
+        >    <div class="preview">
+        >
+        >   * **Is today**
+        >   * **Is yesterday**
+        >   * **Is tomorrow**
+        >   * **Is this month**
+        >   * **Is last month**
+        >   * **Is next month**
+        >
+        >  </div>
+        -->
 
    1. 보기에 표시하거나 숨길 열을 선택하려면 **열** 아이콘 ![열 아이콘](assets/columns-icon.png)을 클릭하십시오.
    1. 열 이름 위로 마우스를 가져간 후 열 이름 왼쪽의 아래쪽 화살표를 클릭하고 다음 중 하나를 클릭합니다.
