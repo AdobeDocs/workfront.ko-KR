@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '183'
 ht-degree: 2%
 ---
 # AI 공동 작업자
@@ -29,7 +29,7 @@ AI 공동 작업자는 사용자를 할당하는 것과 같은 방식으로 작�
 
 사용 가능한 AI Collaborator 유형에는 AI 검토자, 작업 에이전트<span class="preview"> 및 프로젝트 코디네이터</span>가 포함됩니다.
 
-작업 에이전트의 경우 지원되는 외부 플랫폼 <span class="preview">에서 에이전트를 연결할 수 있습니다. 또는 조직에서 Adobe CX Coworker을 사용하도록 설정한 경우 Adobe CX Coworker에서 제공하는 사용 준비 에이전트를 사용하려면 Adobe Native를 선택하십시오. Adobe 네이티브 옵션에는 외부 플랫폼 자격 증명이 필요하지 않습니다.</span>
+작업 에이전트의 경우 지원되는 외부 플랫폼 <span class="preview">에서 에이전트를 연결할 수 있습니다. 또는 조직에서 Adobe CX Coworker을 사용하도록 설정한 경우 Adobe Native를 선택하여 CX Enterprise Coworker 공동 작업자나 Intake 코디네이터와 같은 사전 빌드된 AI 공동 작업자를 사용합니다. Adobe 기본 옵션에는 외부 플랫폼 자격 증명이 필요하지 않습니다. 옵션 목록은 [사전 빌드된 AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>을 참조하십시오.
 
 ## 작업 중인 AI 공동 작업자
 

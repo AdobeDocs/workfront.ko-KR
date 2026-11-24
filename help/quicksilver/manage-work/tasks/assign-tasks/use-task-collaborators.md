@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1249'
 ht-degree: 1%
 ---
 # 작업 에이전트 사용
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 작업 에이전트는 Workfront 작업, 문제 및 요청에 직접 할당할 수 있는 AI 공동 작업자입니다. 다른 AI 공동 작업자와 마찬가지로 작업 에이전트도 설정 영역에서 구성되어 사용자와 마찬가지로 작업 항목에 할당됩니다.
 
-<span class="preview">Adobe CX Coworker에서 제공하는 즉시 사용 가능한 Adobe 기본 작업 에이전트,</span> 또는 외부 플랫폼에 연결된 작업 에이전트를 사용할 수 있습니다. 사용 가능한 기능 및 설정 요구 사항은 에이전트의 출처에 따라 다릅니다.
+<span class="preview">CX Enterprise Coworker 공동 작업자 또는 Intake 코디네이터와 같은 사전 설치된 AI 공동 작업자(자세한 내용은 [사전 설치된 AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md) 참조),</span> 또는 외부 플랫폼에 연결된 작업 에이전트와 같이 바로 사용할 수 있는 Adobe 기본 작업 에이전트를 사용할 수 있습니다. 사용 가능한 기능 및 설정 요구 사항은 에이전트의 출처에 따라 다릅니다.
 
 <!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
