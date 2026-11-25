@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: fa8f434c22cccb4d6a9bed2318f0553c6defb812
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1766'
 ht-degree: 2%
 ---
 
@@ -191,6 +191,17 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Adobe Cloud Drive v1.2.0의 새로운 기능</a></p>
+                <p>[!BADGE 동시 릴리스]{type=Neutral}</p>
+                <p>[!BADGE 워크플로우 Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive v1.2.0에는 Workfront에서 직접 업로드, 일시 중지 및 동기화 다시 시작, 버전 기록, 로컬 저장소 관리, 동기화 작업 및 열기 기능이 도입되었습니다.</p>
+            </td>
+            <td><p>2026년 11월 25일</p></td>
+            <td><p>2026년 11월 25일</p></td>
+            <td><p>2026년 11월 25일</p></td>
         </tr>
 <!--
         <tr>

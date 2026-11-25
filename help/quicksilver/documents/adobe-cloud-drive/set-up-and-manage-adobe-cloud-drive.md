@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3206'
 ht-degree: 1%
 ---
 # 조직을 위한 Adobe 클라우드 드라이브 설정 및 관리
@@ -222,9 +222,13 @@ Adobe Admin Console에서 패키지를 만들려면 다음을 수행하십시오
    ![패키지 마법사에서 앱 단계 선택](assets/choose-apps-step-in-wizard.png)
 
 1. **다음**&#x200B;을 클릭합니다.
-1. **옵션** 단계에서 옵션을 선택하지 않고 **다음**&#x200B;을 클릭합니다.
+1. **옵션** 단계에서 사용자가 응용 프로그램을 직접 업데이트하지 못하도록 하려면 **최종 사용자에 대한 업데이트 사용 안 함**&#x200B;을 클릭하거나, 옵션을 선택하지 않고 **다음**&#x200B;을 클릭합니다.
 
-   이러한 설정은 Creative Cloud 데스크탑 애플리케이션에 적용되며 Adobe Cloud Drive에는 적용되지 않습니다.
+   <!-- Courtney check me: Removed the old sentence saying Options settings don't apply to Adobe Cloud Drive, which contradicted the Disable update for end-users option. Added the note Pulkit requested. Confirm wording, and whether the note duplicates step text above. -->
+
+   >[!NOTE]
+   >
+   >최종 사용자가 직접 응용 프로그램을 업데이트하지 못하도록 하려면 **옵션** 단계에서 **최종 사용자에 대한 업데이트 사용 안 함**&#x200B;을 선택하십시오. 이 단계의 다른 설정은 Creative Cloud 데스크탑 애플리케이션에 적용되며 Adobe Cloud 드라이브에는 적용되지 않습니다.
 
    ![패키지 마법사의 옵션 단계](assets/options-step-in-wizard.png)
 
@@ -238,6 +242,10 @@ Adobe Admin Console에서 패키지를 만들려면 다음을 수행하십시오
    ![준비 중인 패키지](assets/package-is-preparing.png)
 
 1. **다운로드**&#x200B;를 클릭하고 패키지 파일을 선택한 위치에 저장합니다.
+
+   >[!NOTE]
+   >
+   >패키지 다운로드 링크 및 다운로더 유틸리티는 패키지 생성 후 3일 후에 만료됩니다. 그러나 다운로드한 .pkg 또는 .zip 파일은 만료되지 않으며 나중에 설치에 사용할 수 있습니다.
 
 ### 방법 B: 소프트웨어 배포에서 셀프서비스 직접 다운로드
 

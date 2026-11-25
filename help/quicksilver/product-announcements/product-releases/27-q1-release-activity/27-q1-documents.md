@@ -4,9 +4,9 @@ description: 2027년 1분기 문서 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
+source-git-commit: 86dd87865046a4f2dc75e13feb370e338bbf4c92
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '409'
 ht-degree: 0%
 ---
 
@@ -15,6 +15,27 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2027년 1분기 릴리스의 문서 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2027년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2027년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)를 참조하십시오.
+
+## Adobe Cloud Drive v1.2.0의 새로운 기능
+
+>[!NOTE]
+>
+>미리 보기: 2026년 11월 25일
+>프로덕션 빠른 릴리스: 2026년 11월 25일
+>모두를 위한 프로덕션: 2026년 11월 25일
+>[!BADGE 동시 릴리스]{type=Neutral}
+>[!BADGE 워크플로우 Ultimate]{type=Informative}
+
+Adobe Cloud Drive v1.2.0에는 파일을 업로드하고, 동기화를 관리하고, 클라우드 콘텐츠로 작업하는 새로운 방법이 도입되었습니다.
+
+* **클라우드에 업로드(직접 업로드):** Finder 또는 파일 탐색기에서 파일을 마우스 오른쪽 단추로 클릭하여 Adobe 클라우드 저장소의 프로젝트에 직접 업로드합니다. 먼저 Adobe Cloud Drive 폴더로 복사하지 마십시오. 동기화 활동의 직접 업로드 섹션에서 진행 상황을 모니터링합니다.
+* **동기화 일시 중지 및 다시 시작:** 느린 연결 또는 유료 연결에서 Adobe 클라우드 드라이브를 일시 중지한 다음 준비가 되면 다시 시작합니다.
+* **버전 기록:** 저장된 클라우드 버전의 파일을 검색하고, 버전 이름 및 설명을 편집하고, 이전 버전으로 되돌립니다.
+* **로컬 저장소 관리:** 로컬 디스크 사용을 모니터링하고, 저장소 제한을 설정하고, 이 장치에서 Always로 표시된 파일을 봅니다.
+* **동기화 활동:** 최근 업로드, 다운로드 및 변경 내용을 검토하고 동기화할 수 없는 항목을 식별합니다.
+* **Workfront에서 열기:** Finder, 파일 탐색기 또는 동기화 활동에서 직접 항목의 Workfront 위치를 엽니다.
+
+자세한 내용은 [Adobe 클라우드 드라이브 사용](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md) 및 [Adobe 클라우드 드라이브 문제 해결](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)을 참조하십시오.
 
 <!--
 
