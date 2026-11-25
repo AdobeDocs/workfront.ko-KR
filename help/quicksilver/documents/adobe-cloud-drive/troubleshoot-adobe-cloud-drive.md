@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1073'
 ht-degree: 0%
 ---
 # Adobe 클라우드 드라이브 문제 해결
@@ -166,11 +166,46 @@ Adobe Cloud Drive 사용에 대한 자세한 내용은 [Adobe Cloud Drive 사용
 * 프로젝트를 만들거나, 이름을 바꾸거나, 삭제하려면 Workfront 웹 인터페이스를 사용하십시오.
 * 프로젝트 소유자에게 편집 액세스 권한이 있는 사용자와 프로젝트를 공유하도록 요청하십시오.
 
+<!-- Courtney check me: Three new troubleshooting entries below added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf. The PDF's solution wording was minimal, so verify steps and macOS menu paths. -->
+
+### 클라우드에 업로드 옵션을 사용할 수 없습니다.
+
+**가능한 원인:**
+
+* Mac에서 Adobe Cloud Drive Finder Helper가 활성화되지 않았습니다.
+
+**솔루션:**
+
+* Mac에서 **시스템 설정** > **일반** > **로그인 항목 및 확장**(으)로 이동하여 Adobe Cloud Drive Finder Helper가 활성화되어 있는지 확인합니다.
+
+### 인증 오류로 인해 데스크탑, 문서 또는 다운로드에서의 업로드가 실패합니다(Mac)
+
+**가능한 원인:**
+
+* Adobe Cloud Drive에는 데스크톱, 문서 또는 다운로드 폴더에 액세스할 수 있는 권한이 없습니다.
+* macOS 설정에서 필요한 폴더 액세스 권한이 비활성화됩니다.
+
+**솔루션:**
+
+1. **시스템 설정** > **개인 정보 및 보안** > **파일 및 폴더**(으)로 이동합니다.
+1. Adobe Cloud Drive에 관련 폴더에 대한 액세스 권한을 부여합니다.
+1. 업로드를 다시 시도하십시오.
+
+### 여러 파인더 동기화 프로세스가 표시됨(Mac)
+
+**가능한 원인:**
+
+* macOS은 정상 작업의 일부로 Activity Monitor에 2~3개의 Adobe Cloud Drive Finder 동기화 프로세스를 표시할 수 있습니다.
+
+**솔루션:**
+
+* 별도의 작업이 필요하지 않습니다. 2~3개의 Adobe Cloud Drive Finder 동기화 프로세스가 실행 중인 경우 예상되는 비헤이비어입니다.
+
 ## 도움말 보기
 
 라이선스 질문, 프로젝트 액세스 문제 또는 조직별 구성은 Workfront 관리자에게 문의하십시오.
 
-Adobe 지원 팀과 로그를 공유하려면 [Adobe 로그 수집기 도구 실행](https://helpx.adobe.com/kr/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)의 단계를 따르십시오.
+Adobe 지원 팀과 로그를 공유하려면 [Adobe 로그 수집기 도구 실행](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)의 단계를 따르십시오.
 
 ## 모범 사례
 
