@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 4%
+source-wordcount: '499'
+ht-degree: 3%
 ---
 # 레코드 종류의 설정 영역 구성
 
@@ -219,3 +219,12 @@ Old:
    설정은 기본적으로 꺼져 있습니다.
 
    자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하세요.
+
+
+## 레코드 유형에 대한 레코드 기본 권한 구성
+
+레코드 유형 수준에서 기본값을 구성하여 레코드 유형의 모든 레코드에 대한 레코드 권한을 설정할 수 있습니다.
+
+모든 새 레코드는 기본적으로 레코드 유형 설정 영역에서 설정한 권한을 받습니다.
+
+자세한 내용은 [레코드에 대한 기본 권한 설정](/help/quicksilver/planning/access/set-default-record-permissions.md)을 참조하십시오.

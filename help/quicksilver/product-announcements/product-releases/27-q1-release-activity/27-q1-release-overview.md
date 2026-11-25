@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe229b1cc5608a4a5ac999fbcaeb1a8c1607bc42
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1718'
 ht-degree: 2%
 ---
 
@@ -142,11 +142,12 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Intake Coordinator가 미리 빌드한 AI Collaborator 구성</a></p>
+                <p>[!BADGE 동시 릴리스]{type=Neutral}</p>
                 <p>이제 관리자는 사전 빌드된 AI 공동 작업자인 Intake 코디네이터를 정보 누락, 불명확성 또는 불일치 여부를 확인하는 작업 에이전트로 구성할 수 있습니다.</p>
             </td>
-            <td><p>2026년 11월 22일</p></td>
-            <td><p>2026년 12월 17일</p></td>
-            <td><p>2027년 1월 21일</p></td>
+            <td><p>2026년 11월 12일</p></td>
+            <td><p>2026년 11월 12일</p></td>
+            <td><p>2026년 11월 12일</p></td>
         </tr>
         <tr>
             <td>
@@ -161,11 +162,12 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">작업 에이전트: Adobe 기본 지원</a></p>
+                <p>[!BADGE 동시 릴리스]{type=Neutral}</p>
                 <p>이제 외부 플랫폼을 구성하거나 외부 자격 증명을 입력하지 않고도 CX Enterprise Coworker 공동 작업자, Adobe Agent Orchestrator에서 제공하는 CX Enterprise Coworker 에이전트를 사용하는 작업 에이전트를 만들 수 있습니다.</p>
             </td>
-            <td><p>2026년 10월 29일</p></td>
             <td><p>2026년 11월 12일</p></td>
-            <td><p>2027년 1월 21일</p></td>
+            <td><p>2026년 11월 12일</p></td>
+            <td><p>2026년 11월 12일</p></td>
         </tr>
         <tr>
             <td>

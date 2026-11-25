@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 12d853c199743583110c988ef2cfbec164d69378
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1961'
 ht-degree: 1%
 ---
 # AI 공동 작업자 구성
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
 AI 공동 작업자는 프로젝트, 작업 및 문제에 AI 에이전트를 온보딩하는 방법입니다. AI 공동 작업자를 구성한 다음 사용자와 마찬가지로 할당할 수 있습니다.
 
@@ -36,7 +34,7 @@ AI 공동 작업자는 프로젝트, 작업 및 문제에 AI 에이전트를 온
 
   자세한 내용은 [Workfront AI 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)을 참조하세요.
 
-* 작업 에이전트: Adobe CX Coworker에서 제공하는 <span class="preview">공동 작업자 </span>을(를) 만들거나 지원되는 외부 플랫폼에서 에이전트를 연결한 다음 작업 또는 문제에 공동 작업자를 할당하여 작업 항목을 완료합니다.
+* 작업 에이전트: Adobe CX Coworker에서 제공하는 공동 작업자를 만들거나, 사전 빌드된 공동 작업자를 사용하거나, 지원되는 외부 플랫폼에서 에이전트를 연결한 다음 작업 또는 문제에 공동 작업자를 할당하여 작업 항목을 완료합니다.
 
   자세한 내용은 [작업 에이전트 사용](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)을 참조하세요.
 
@@ -44,9 +42,9 @@ AI 공동 작업자는 프로젝트, 작업 및 문제에 AI 에이전트를 온
 
 AI 공동 작업자가 사용한 라이선스는 청구되지 않습니다. 조직에 Workfront 라이선스가 200개이고 AI 공동 작업자를 만드는 경우 201개의 라이선스가 사용 중이지만 200개만 청구됩니다.
 
-* <span class="preview">프로젝트 코디네이터: 외부 에이전트를 구성할 필요 없이 프로젝트 상태를 모니터링하고 프로젝트 업데이트를 전송하는 기본 공동 작업자입니다.</span>
+* 프로젝트 코디네이터: 외부 에이전트를 구성할 필요 없이 프로젝트 상태를 모니터링하고 프로젝트 업데이트를 전송하는 즉시 사용 가능한 공동 작업자입니다.
 
-  <span class="preview">자세한 내용은 [프로젝트 코디네이터 공동 작업자 사용](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)을 참조하세요.</span>
+  자세한 내용은 [프로젝트 코디네이터 공동 작업자 사용](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)을 참조하십시오.
 
 
 ## 액세스 요구 사항
@@ -95,9 +93,9 @@ AI 공동 작업자가 사용한 라이선스는 청구되지 않습니다. 조�
 
 ### 작업 에이전트용
 
-<span class="preview">필수 구성 요소는 에이전트의 원본 </span>에 따라 다릅니다.
+전제 조건은 에이전트의 출처에 따라 다릅니다.
 
-* <span class="preview">Adobe 기본: 조직에서 Adobe CX Coworker을 사용하도록 설정해야 합니다. 외부 플랫폼에서 에이전트를 구성하거나 외부 플랫폼 자격 증명을 제공할 필요가 없습니다.</span>
+* Adobe 기본: CX Enterprise Coworker 공동 작업자를 사용하려면 조직에서 Adobe CX Enterprise Coworker을 활성화해야 합니다. 외부 플랫폼에서 에이전트를 구성하거나 외부 플랫폼 자격 증명을 제공할 필요가 없습니다.
 * 외부 플랫폼 또는 사용자 지정 에이전트: Workfront에서 작업 에이전트를 만들기 전에 연결할 플랫폼에서 에이전트를 구성합니다.
 
 >[!NOTE]
@@ -124,11 +122,9 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
 
 ## 작업 에이전트 구성
 
-<span class="preview">다음 설치 지침은 Adobe 기본 지원과 아직 미리 보기 중인 원본 기반 설치 모델을 반영합니다.</span>
-
 작업 에이전트는 Workfront의 작업 또는 문제에 할당할 수 있는 에이전트입니다. 이름, 액세스 수준 및 기타 세부 정보를 사용하여 작업 에이전트를 구성하고 사용자를 할당할 때처럼 작업에 할당합니다.
 
-작업 에이전트는 에이전트이므로 에이전트를 구성하는 위치에 작업 및 기능이 구성됩니다. 작업 에이전트는 Coworker,</span>을 사용하는 <span class="preview">기본 작업 에이전트이거나 Copilot Studio, Claude, OpenAI 및 IBM과 같은 지원되는 외부 플랫폼에서 사용할 수 있습니다.
+작업 에이전트는 에이전트이므로 에이전트를 구성하는 위치에 작업 및 기능이 구성됩니다. 작업 에이전트는 Coworker를 사용하는 사전 빌드된 작업 에이전트이거나 Copilot Studio, Claude, OpenAI 및 IBM과 같은 지원되는 외부 플랫폼에서 사용될 수 있습니다.
 
 >작업 에이전트는 작업 또는 문제에 할당할 수 있습니다.
 
@@ -155,12 +151,12 @@ Workfront 브랜드 또는 Adobe Brand Intelligence을 사용하도록 AI 검토
    >
    >그룹 관리자인 경우 이 필드에는 관리자인 그룹만 표시됩니다. 그룹 관리자는 그룹을 하나 이상 선택해야 합니다.
 
-1. **에이전트의 원본 선택** 영역에서 <span class="preview">Adobe 네이티브</span>를 사용할지, Copilot과 같은 공통 플랫폼에서 만든 에이전트를 연결할지 또는 사용자 지정 에이전트를 사용할지 여부를 선택합니다.
-1. <span class="preview">(조건부) Adobe Native를 선택하는 경우 사용할 공동 작업자(CX Enterprise Coworker 공동 작업자 또는 Intake 코디네이터와 같은 사전 빌드된 AI 공동 작업자)를 선택합니다. 설명을 포함하여 미리 빌드된 공동 작업자에 대한 자세한 내용은 [미리 빌드된 AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>을 참조하십시오.
+1. **에이전트의 원본 선택** 영역에서 Adobe Native를 사용할지, Copilot과 같은 공통 플랫폼에서 만든 에이전트를 연결할지, 사용자 지정 에이전트를 사용할지 여부를 선택합니다.
+1. (조건부) Adobe Native를 선택하는 경우 사용할 공동 작업자, 즉 CX Enterprise Coworker 공동 작업자 또는 Intake 코디네이터와 같은 사전 빌드된 AI 공동 작업자를 선택합니다. 설명을 포함하여 미리 빌드된 공동 작업자에 대한 자세한 내용은 [미리 빌드된 AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)을 참조하십시오.
 
    >[!NOTE]
    >
-   ><span class="preview">미리 빌드된 AI 공동 작업자를 켜면 프로비전되는 데 약 30초가 걸립니다. 공동 작업자가 준비될 때까지 회전기가 표시됩니다.</span>
+   >사전 빌드된 AI Collaborator를 켜면 프로비저닝되는 데 약 30초가 소요됩니다. 협력자가 준비될 때까지 회전자가 표시됩니다.
 
 1. (조건부) 일반 플랫폼에서 에이전트를 사용하는 경우 에이전트 플랫폼에 대한 인증 세부 정보를 입력합니다.
 
@@ -223,8 +219,6 @@ Workfront에서 작업 에이전트로 사용할 에이전트를 생성할 때 �
 +++
 -->
 
-<div class="preview">
-
 ## 프로젝트 코디네이터 구성
 
 프로젝트 코디네이터는 프로젝트 상태를 모니터링하고 작업을 추적하는 데 도움이 되는 기본 공동 작업자입니다. 작업 에이전트와 달리 프로젝트 코디네이터는 외부 에이전트를 구성할 필요가 없습니다.
@@ -260,8 +254,6 @@ Workfront에서 작업 에이전트로 사용할 에이전트를 생성할 때 �
 자세한 지침은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오.
 
 프로젝트에 할당하는 방법을 포함하여 프로젝트 코디네이터에 대한 자세한 내용은 [프로젝트 코디네이터 공동 작업자 사용](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)을 참조하십시오.
-
-</div>
 
 ## AI 공동 작업자 관리
 

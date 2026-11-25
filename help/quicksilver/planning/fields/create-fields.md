@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
+source-git-commit: f1a19ac5c3f8ca548a1bf203c34118c0bfb30550
 workflow-type: tm+mt
 source-wordcount: '5676'
 ht-degree: 1%
@@ -332,6 +332,10 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
    * **이름**: 테이블이나 레코드의 세부 정보 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블에 있는 필드의 열 헤더 위로 마우스를 가져갈 때 또는 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭할 때 필드에 대한 설명이 표시됩니다.
+
+   <!--
+    * <span class="preview">**Make this field's values unique for all records**: Activate this setting if you want the field values for all record of this type to be unique. For example, if this field stores a unique text identifier like Serial code, the code must be unique for each record. If the field is imported in a secondary record space of a global record type, the field restriction applies in the secondary workspace as well. However, the values are restricted only for records that belong to the same workspace. As you create or edit records, any duplicate values are highlighted with a warning. The warning applies for all records, regardless how you create or edit them (manually, through importing them, using  request form, or using the Workfront MCP server). </span>
+    -->
 1. Click **Create**.
 
    새 한 줄 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
@@ -514,6 +518,9 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
    * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다.
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
+   <!--
+    * <span class="preview">**Make this field's values unique for all records**: Activate this setting if you want the field values for all record of this type to be unique. For example, if this field stores a unique number identifier like Serial number, the number must be unique for each record. If the field is imported in a secondary record space of a global record type, the field restriction applies in the secondary workspace as well. However, the values are restricted only for records that belong to the same workspace. As you create or edit records, any duplicate values are highlighted with a warning. The warning applies for all records, regardless how you create or edit them (manually, through importing them, using  request form, or using the Workfront MCP server). </span>
+    -->
    * **전체 자릿수**: 필드에 기록할 소수 자릿수입니다. 최대 6개의 소수 자리를 표시할 수 있습니다.
    * **음수 허용**: 이 필드에 음수를 허용하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되지 않습니다.
 

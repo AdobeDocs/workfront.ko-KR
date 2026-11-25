@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3611'
+source-wordcount: '3609'
 ht-degree: 1%
 ---
 # 향상된 목록 사용
@@ -98,8 +98,15 @@ ht-degree: 1%
 | 문서의 모든 버전 보기 | 프로젝트 > 문서 > 문서 세부 정보 > 모든 버전 |
 | 게시판 관리자 보기 | 게시판 > 관리자 보기 |
 | Adobe 클라우드 스토리지에 대한 문서 | 프로젝트, 작업, 문제, 포트폴리오, 프로그램, 템플릿, 템플릿 작업 > 문서 |
-| 시나리오 계획 및 이니셔티브 목록 | 메인 메뉴 > 시나리오 |
+| 시나리오 계획 목록 <!--and initiatives--> | 메인 메뉴 > 시나리오 |
 | 목표 및 진행 표시기 목록 | <ul><li>메인 메뉴 > 목표</li><li>메인 메뉴 > 목표 > 진행 표시기</li></ul> |
+
+
+<!--
+| List of expense types | Setup > Expense Types |
+| List of rate cards | Setup > Rate Cards |
+-->
+
 
 <!--
 
@@ -372,7 +379,7 @@ Last, under Scenario Planner
 
 편집 권한이 없는 보기가 공유되면 보기를 복사하고 새 이름으로 저장할 수 있습니다. 보기를 복사하려면 먼저 보기를 변경해야 합니다.
 
-1. 보기 드롭다운에서 설정을 수정하고 복사하려는 **공유 보기**&#x200B;의 보기 위로 마우스를 가져간 후 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭하고 **기본 설정으로 복사**&#x200B;를 클릭합니다.
+1. 보기 드롭다운에서 설정을 수정하고 복사하려는 **공유 보기**&#x200B;의 보기 위로 마우스를 가져간 후 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭하고 **기본 설정으로 복사** <!--<span class="preview">or **Copy with my changes**</span>-->를 클릭합니다.
 
    새 보기가 자동으로 만들어집니다. 복사된 보기의 이름이 `Original view name (copy)` 패턴을 따르며 보기의 **내 보기** 섹션에 표시됩니다.
 
@@ -380,7 +387,7 @@ Last, under Scenario Planner
 
    >[!NOTE]
    >
-   >**기본 설정으로 복사** 옵션은 사용자와 공유된 보기를 변경한 경우에만 사용할 수 있습니다.
+   >**기본 설정이 있는 복사** <!--<span class="preview">or **Copy with my changes**</span>--> 옵션은 나와 공유된 보기를 변경한 경우에만 사용할 수 있습니다.
 
 ### 보기 재설정
 
@@ -458,6 +465,26 @@ Last, under Scenario Planner
 1. 필터 상자에서 **조건 추가**&#x200B;를 클릭합니다.
 1. 필터링 기준으로 사용할 필드를 선택합니다.
 1. &quot;다음 중 1개 이상의 항목 포함&quot;, &quot;다음 중 1개 없음&quot;, &quot;다음 이전&quot;또는 &quot;다음 이후&quot;와 같은 필터 수정자를 선택합니다. 수정자 옵션은 필터링 기준으로 사용하는 필드 유형에 따라 다릅니다.
+
+   <!--
+
+   >[!TIP]
+   >
+   >   <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+   >
+   >    <div class="preview">
+   >
+   >   * **Is today**
+   >   * **Is yesterday**
+   >   * **Is tomorrow**
+   >   * **Is this month**
+   >   * **Is last month**
+   >   * **Is next month**
+   >
+   >  </div>
+
+   -->
+
 1. 필드 값 또는 값을 선택합니다. 필터링 기준으로 사용하는 필드 유형에 따라 목록에서 항목을 선택하거나 검색하거나 달력을 사용하여 날짜 범위를 선택하라는 메시지가 표시될 수 있습니다.
 
    ![고급 목록에서 필터링](assets/glist-filter-with-options.png)
