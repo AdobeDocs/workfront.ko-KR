@@ -22,7 +22,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 0%
@@ -214,3 +214,4 @@ Adobe 지원 팀과 로그를 공유하려면 [Adobe 로그 수집기 도구 실
 * **프로젝트의 폴더 구조를 따릅니다.** 프로젝트 소유자가 의도하는 대로 프로젝트 폴더 내에 파일을 구성합니다.
 * **설명 파일 이름을 사용합니다.** 팀원이 필요한 항목을 찾을 수 있도록 지원합니다.
 * **중복 항목을 만들지 마십시오.** 불필요한 파일 복사본을 만들지 마십시오.
+
