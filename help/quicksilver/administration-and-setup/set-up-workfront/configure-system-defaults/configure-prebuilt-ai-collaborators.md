@@ -6,10 +6,10 @@ description: Adobe Workfront 관리자는 Intake 코디네이터와 같은 Adobe
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: c95c5a71a2706d4ddbf3e53a579b348bd072a04e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 5%
+source-wordcount: '377'
+ht-degree: 4%
 ---
 # 사전 빌드된 AI 공동 작업자 구성
 
@@ -71,6 +71,10 @@ Adobe Agent Orchestrator에서 제공하는 CX Enterprise Coworker 에이전트�
 ### Intake 코디네이터 {#intake-coordinator}
 
 Intake 코디네이터는 요청의 세부 사항, 사용자 정의 양식 및 첨부 파일에서 누락되거나 명확하지 않거나 일관되지 않은 정보를 확인합니다. 피드백을 게시하거나 사용자의 승인으로 변경합니다.
+
+>[!NOTE]
+>
+>규칙이 만들어질 때 Intake 조정자를 라우팅 규칙에 할당할 수 있지만 나중에 할당할 수는 없습니다.
 
 <!--
 ### Context Carrier {#context-carrier}
