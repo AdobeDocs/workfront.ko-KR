@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: c16dc2b8b508f71767999aec7029664f5d31f23f
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '3955'
 ht-degree: 1%
@@ -504,3 +504,4 @@ Adobe Cloud Drive는 충돌에 대해 복제 전략을 사용합니다.
 >* 팀 구성원과 누가 어떤 파일을 편집하고 있는지에 대해 의견을 교환합니다.
 >* 변경 사항이 신속하게 동기화되도록 자주 저장합니다.
 >* 편집을 마치면 파일을 닫습니다.
+
