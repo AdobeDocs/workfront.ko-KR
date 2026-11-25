@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2386'
 ht-degree: 1%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -179,15 +179,23 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    * **주 메뉴** ![주 메뉴](assets/main-menu-lines.png) > **관념화 공간**(으)로 이동
 
+     **Ideation Space 홈** 영역이 열립니다.
+
      ![주 메뉴의 관념화 공간](assets/ideation-space-area-icon-in-main-menu.png)
 
    * **주 메뉴로 이동** ![주 메뉴](assets/main-menu-lines.png) > **계획** > 작업 공간 클릭 > 레코드 유형 클릭 > **새 레코드 클릭** > **관념화 공간 시작**
+
+     새 레코드에 즉시 연결된 새 캔버스가 열립니다.
 
      새 레코드의 ![관념화 공간](assets/ideation-space-in-planning-new-record.png)
 
    * **주 메뉴로 이동** ![주 메뉴](assets/main-menu-lines.png) > **계획** > 작업 공간 클릭 > 레코드 유형 클릭 > 기존 레코드 클릭 > **관념에서 열기**
 
+     선택한 레코드에 연결된 캔버스가 열립니다.
+
      ![레코드 세부 정보의 관념화 공간](assets/ideation-space-button-in-details-page.png)
+
+     Ideation Space를 사용하여 Planning 레코드를 만드는 방법에 대한 자세한 내용은 [Ideation Space Brief에서 Planning 레코드 만들기](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)를 참조하십시오.
 
      >[!IMPORTANT]
      >
@@ -200,24 +208,39 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
      >* Workfront의 메인 메뉴에서 이 프로그램을 시작하면 캔버스에 업로드한 파일의 필드와 정보가 요약되어 있습니다.
 
 1. Beta 계약을 읽고 **동의**&#x200B;를 클릭합니다. 관념화 공간을 사용하려면 계약서에 서명해야 합니다.
+1. (조건부) **기본 메뉴**&#x200B;에서 관념화 공간에 액세스하고 **관념화 공간 홈** 영역을 연 경우 다음 중 하나를 수행하여 관념화 캔버스를 엽니다.
 
-   관념화 공간 캔버스가 열리고 기본적으로 다음 형식 뒤에 새 관념의 제목이 지정됩니다.
+   * 페이지 상단에서 최근에 연 캔버스를 클릭하여 엽니다
+   * **새 캔버스 시작**&#x200B;을 클릭하여 새 캔버스를 열고 아이디어 개요를 만듭니다
 
-   `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
+     관념화 공간 캔버스가 열리고 다음 형식 다음에 새 관념화의 제목이 자동으로 지정됩니다.
 
-   Ideation Space를 사용하여 레코드를 만드는 방법에 대한 자세한 내용은 [Ideation Space Brief에서 계획 레코드 만들기](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)를 참조하십시오.
+     `Untitled ideation - Month date, year at time`
 
-1. (조건부) 관념화 공간에서 기존 개요를 열려면 Coworker가 설정된 Planning으로 Workfront에 로그인하고 다음 중 하나를 수행합니다.
+     ![최소화된 개요 및 동료가 있는 빈 관념화 캔버스](assets/empty-ideation-space-with-brief-minimized.png)
+   * **모든 캔버스** 목록의 오른쪽 상단 모서리에서 기존 캔버스를 검색한 다음 목록에 나타나면 클릭합니다
 
-   * **주 메뉴로 이동** ![주 메뉴](assets/main-menu-lines.png) > **계획** > 작업 공간 클릭 > 레코드 유형 클릭 > 기존 레코드 클릭 > **관념에서 열기**
+     ![관념화 공간 홈 영역](assets/ideation-space-home-area.png)
 
-     관념화 이름은 레코드의 이름과 일치합니다.
+     >[!TIP]
+     >
+     >관념화 공간 홈 영역의 모든 캔버스가 Planning 레코드에 연결되는 것은 아닙니다.
+
+1. (선택 사항) **모든 캔버스** 영역에서 다음 중 하나를 수행합니다.
+
+   * 사용 가능한 모든 캔버스 목록을 갱신하려면 **새로 고침** ![새로 고침 아이콘](assets/refresh-icon.png)을 클릭하세요.
+   * **카드 아이콘** ![카드 아이콘](assets/card-icon.png)을 클릭하여 사용 가능한 캔버스를 카드로 표시합니다.
+   * 목록 보기에서 사용 가능한 캔버스를 표시하려면 **목록 아이콘** ![목록 아이콘](assets/list-icon.png)을 클릭하십시오.
+1. (선택 사항) 열려 있는 캔버스에서 화면의 왼쪽 위 영역에 있는 **Home** 아이콘 ![Ideation Space Home 아이콘](assets/ideation-space-home-icon.png)을 클릭하여 **Ideation Space Home** 영역으로 돌아갑니다.
+
+   >[!TIP]
+   >
+   >Ideation Space Home 아이콘 ![Ideation Space Home 아이콘](assets/ideation-space-home-icon.png)은(는) Workfront Planning에서 열었을 때도 캔버스 내에서 사용할 수 있습니다.
 
 1. (권장) 처음 연 경우에는 표의 이름을 클릭하여 이름을 변경합니다.
 
-1. (조건부 및 선택 사항) 다른 기존 관념화 공간을 열려면 관념화 이름 오른쪽에 있는 드롭다운 메뉴를 클릭하고 이름별로 관념화를 검색한 다음 목록에 표시될 때 관념을 클릭합니다.
+1. (조건부 및 선택 사항) 다른 기존 캔버스를 열려면 관념화 이름의 오른쪽에 있는 드롭다운 메뉴를 클릭하고 이름별로 관념화를 검색한 다음 목록에 표시될 때 관념화를 클릭합니다.
 
-   **Ideation 공간**&#x200B;이 열리고 오른쪽에 Coworker가 열립니다.
 1. Coworker 프롬프트를 사용하여 만들려는 개요 종류를 설명하십시오.
 
    예를 들어, &quot;미국의 부모와 교사를 위해 K-12 학생들이 8월 한 달 동안 진행할 등교 캠페인을 만들기&quot;를 입력합니다.  개요를 최대한 작성하려면 어떤 유형의 캠페인, 타임라인, 관련자, 승인 체크포인트 및 기타 세부 정보에 사용 가능한 한 많은 정보를 표시하십시오.
@@ -245,7 +268,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. (선택 사항) Coworker 패널의 오른쪽 위 모서리에 있는 **채팅** 아이콘 ![채팅 아이콘](assets/chats-icon-coworker.png)을 클릭한 다음 **새 채팅**&#x200B;을 클릭하여 새 프롬프트를 열거나 목록에서 이전 채팅 중 하나를 클릭하여 이전 메시지로 돌아갑니다.
 
-   채팅에 대한 자세한 내용은 Adobe CX Enterprise Coworker 설명서에서 [채팅 관리](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)를 참조하십시오.
+   채팅에 대한 자세한 내용은 Adobe CX Enterprise Coworker 설명서에서 [채팅 관리](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)를 참조하십시오.
 
 1. **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하여 관념화 캔버스에서 항목을 검색한 다음 목록에 표시될 때 클릭하여 탐색합니다.
 

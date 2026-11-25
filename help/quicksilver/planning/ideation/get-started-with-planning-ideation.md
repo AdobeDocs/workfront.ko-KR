@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1588'
 ht-degree: 0%
 ---
 
@@ -169,6 +169,11 @@ In addition to above requirements, you must also meet the following criteria to 
    * [관념화 공간을 사용하는 데 필요한 액세스 권한](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
    * [Ideation Space Brief에서 계획 레코드 생성](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
    * [Ideation Space에서 개요 만들기](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+1. Beta 계약에 동의합니다.
+
+   이는 Beta 프로그램 동안 필요한 요구 사항입니다. 베타 프로그램의 약관에 동의하지 않으면 관념화 공간을 사용할 수 없습니다.
+
+   계약에 동의할 때는 조직에 대해 동의하지 않고 사용자를 위해 동의해야 합니다. 각 사용자는 계약에 개별적으로 동의해야 합니다.
 
 1. (권장) 첫 번째 캠페인(새로 고칠 최근 캠페인 또는 처음부터 새로 만들 새 캠페인)을 식별합니다.
 
@@ -323,10 +328,10 @@ Worth noting
 <!--
 ## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/kr/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio Overview](https://business.adobe.com/kr/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/kr/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 -->
 

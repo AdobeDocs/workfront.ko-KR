@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
 source-wordcount: '3174'
 ht-degree: 0%
@@ -261,7 +261,13 @@ Old:
    * 글머리 기호 목록 추가
    * 번호 매기기 목록 추가
 
+   <!--update screen shot at release of new rich test box and move it below the next step-->
+
    ![단락 필드의 서식 있는 텍스트 도구 모음](assets/rich-text-toolbar-on-paragraph-field.png)
+
+   <!--
+    1. <span class="preview">(Optional) Click the **Expand** icon ![Expand icon](assets/expand-icon.png) in the upper-right corner of the rich-text editing box to enlarge it, add your changes, then click **Save**.</span>
+    -->
 
 1. (선택 사항) 연결된 레코드 필드를 두 번 클릭하여 연결된 레코드나 개체를 다른 레코드에 추가합니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
 1. 키보드에서 **Enter**&#x200B;를 누르거나 행 바깥쪽을 클릭하여 변경 내용을 저장합니다. 변경 사항은 자동으로 저장됩니다. 변경 내용이 저장되었음을 나타내기 위해 테이블 보기의 오른쪽 위 모서리에 **저장됨** 표시기가 잠시 표시됩니다.
