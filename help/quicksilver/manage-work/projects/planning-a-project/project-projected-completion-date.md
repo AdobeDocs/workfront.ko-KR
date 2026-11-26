@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: '885'
 ht-degree: 2%
-
 ---
-
 # 프로젝트, 작업 및 문제의 예상 완료 일자 개요
 
 <!-- Audited: 11/2025 -->
@@ -93,14 +91,14 @@ ht-degree: 2%
 
 * **작업:** 작업의 예상 완료 날짜는 다음 조건에 따라 결정됩니다.
 
-   * **작업 할당자가 작업에 대해 수행한 진행 상황 업데이트:** 진행 상황 업데이트에는 완료율 변경 및 작업 상태 변경 내용이 포함됩니다.
-   * **커밋 일자:** 작업 할당자가 커밋 일자를 지정하면 예상 완료 일자가 커밋 일자와 일치하도록 변경됩니다.
+  * **작업 할당자가 작업에 대해 수행한 진행 상황 업데이트:** 진행 상황 업데이트에는 완료율 변경 및 작업 상태 변경 내용이 포함됩니다.
+  * **커밋 일자:** 작업 할당자가 커밋 일자를 지정하면 예상 완료 일자가 커밋 일자와 일치하도록 변경됩니다. 문제의 계획된 완료 일자는 변경되지 않습니다.
 
-     커밋 날짜에 대한 자세한 내용은 문서 [커밋 날짜 개요](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)를 참조하십시오.
+    커밋 날짜에 대한 자세한 내용은 문서 [커밋 날짜 개요](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)를 참조하십시오.
 
-   * **전임 작업:** 전임 작업이 지연되지 않으면 예상 완료 날짜가 계획된 완료 날짜와 일치해야 합니다. 지연이 발생함에 따라 종속 작업에는 계획된 완료 일자보다 큰 예상 완료 일자가 표시됩니다.
+  * **전임 작업:** 전임 작업이 지연되지 않으면 예상 완료 날짜가 계획된 완료 날짜와 일치해야 합니다. 지연이 발생함에 따라 종속 작업에는 계획된 완료 일자보다 큰 예상 완료 일자가 표시됩니다.
 
-     작업의 계획된 완료 날짜에 대한 자세한 내용은 [작업의 계획된 완료 일자 개요](../../../manage-work/tasks/task-information/task-planned-completion-date.md)를 참조하십시오.
+    작업의 계획된 완료 날짜에 대한 자세한 내용은 [작업의 계획된 완료 일자 개요](../../../manage-work/tasks/task-information/task-planned-completion-date.md)를 참조하십시오.
 
   >[!IMPORTANT]
   >
@@ -111,7 +109,9 @@ ht-degree: 2%
 
 * **문제:** 문제 예상 완료 날짜가 문제 계획 완료 날짜와 일치하도록 초기에 설정되었습니다.
 
-  문제 피할당자가 커밋 일자를 지정하면 예상 완료 일자와 계획된 완료 일자가 모두 커밋 일자와 일치하도록 변경됩니다.
+  문제 피할당자가 커밋 일자를 지정하면 예상 완료 일자가 커밋 일자와 일치하도록 변경됩니다. 문제의 계획된 완료 일자는 변경되지 않습니다.
+
+  <!--Old statement - retired on Nov 25, 2026: If the issue assignee specifies a commit date, both the Projected Completion Date and the Planned Completion Date changes to match the Commit Date. This does not change the Planned Completion Date of the issue.-->
 
   커밋 날짜에 대한 자세한 내용은 문서 [커밋 날짜 개요](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)를 참조하십시오.
 

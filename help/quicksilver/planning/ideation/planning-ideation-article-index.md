@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '328'
 ht-degree: 0%
 ---
 
@@ -62,6 +62,7 @@ Future - when they make it available in Planning: replace the above with this OR
 다음 문서에는 관념화 공간에 대한 정보와 기능 안내서가 포함되어 있습니다.
 
 * 여기에서 Workfront의 관념화 공간에 대한 일반적인 이해를 얻으십시오. [Adobe Workfront Planning의 관념화 공간 시작하기](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+* 관념화 공간에 대한 현재 기능 릴리스: [Adobe Workfront Planning 릴리스 활동에 대한 관념화 공간](/help/quicksilver/planning/ideation/ideation-space-release-notes.md)
 * 시스템 관리자는 조직에서 사용 가능한 Ideation 공간을 만드는 방법을 이해합니다. [Ideation 공간을 사용하는 데 필요한 액세스](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
 * 첫 번째 캠페인 전략을 만들 준비가 되면 Ideation Space를 사용하여 Brief를 만드는 방법을 알아봅니다. [Ideation Space에서 Brief 만들기](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 * Workfront Planning에서 작업하는 경우 Ideation Space를 사용하여 레코드를 만드는 방법을 알아봅니다. [Ideation Space Brief에서 Planning 레코드를 만들거나 편집합니다](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)

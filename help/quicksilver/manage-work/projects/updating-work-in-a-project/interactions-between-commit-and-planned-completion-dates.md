@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: 422
+source-wordcount: '438'
 ht-degree: 1%
-
 ---
-
 # 커밋 일자와 계획된 완료 일자 간의 상호 작용
 
 <!--
@@ -73,7 +71,8 @@ this article has mostly information that is repeated from the articles linked fr
 >
 >할당자만 작업 또는 문제의 커밋 일자를 업데이트할 수 있습니다.
 
-커밋 일자를 변경하는 피할당자는 계획된 완료 일자를 자동으로 변경하지 않습니다. 그 반대도 마찬가지입니다. 계획된 완료 일자를 변경해도 커밋 일자는 변경되지 않습니다.
+
+커밋 일자를 변경하는 작업 또는 문제 할당자는 계획된 완료 일자를 자동으로 변경하지 않습니다. 그 반대도 마찬가지입니다. 계획된 완료 일자를 변경해도 커밋 일자는 변경되지 않습니다. 피할당자가 커밋 일자를 업데이트하면 예상 완료 일자도 변경됩니다.
 
 커밋 일자가 변경되면 프로젝트 소유자는 Workfront 인앱 알림을 통해 이 변경이 발생했다는 알림을 받습니다.
 

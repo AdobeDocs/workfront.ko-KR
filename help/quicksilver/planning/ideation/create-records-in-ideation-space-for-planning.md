@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1212'
 ht-degree: 0%
 ---
 
@@ -200,6 +200,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    ![새 레코드 상자와 [편집 공간 열기] 단추](assets/new-record-creation-picker-with-ideation.png)
 
+   >[!TIP]
+   >
+   >또한 Ideation Space에 액세스하여 Workfront 기본 메뉴에서 레코드를 만들 수 있습니다. 자세한 내용은 [Ideation 공간에 브리프 만들기](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)를 참조하십시오.
+
+
 1. Beta 계약을 읽고 **동의**&#x200B;를 클릭합니다. 관념화 공간을 사용하려면 계약서에 서명해야 합니다.
 
    다음과 같은 상황이 발생합니다.
@@ -216,6 +221,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
+1. (선택 사항) 캔버스의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![Ideation space Home 아이콘](assets/ideation-space-home-icon.png)을 클릭하여 **Ideation space Home** 영역을 열고 다른 캔버스에 액세스합니다.
 1. (선택 사항) 관념화 공간 캔버스의 오른쪽 위 모서리에 있는 **Workfront Planning** 태그 위로 마우스를 가져가면 레코드 유형의 이름, 레코드를 만드는 작업 공간 및 만들고 있는 개요의 버전 번호를 볼 수 있습니다.
 
    ![Workfront Planning 작업 공간 및 캔버스 내 레코드 유형 정보 태그](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)

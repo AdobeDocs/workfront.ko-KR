@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '4357'
+source-wordcount: '4376'
 ht-degree: 2%
 ---
 # 표 보기 관리
@@ -328,7 +328,7 @@ Old:
 
 1. (조건부) 보고 있는 필드 유형에 따라 다음 중 하나를 수행합니다.
 
-   * 이러한 필드 유형으로 형식이 지정된 숫자, 통화, 백분율 및 공식 필드의 경우 열 하단의 집계 드롭다운 메뉴를 확장하고 다음 옵션 중에서 선택합니다.
+   * 이러한 필드 유형으로 서식이 지정된 숫자, 통화, 백분율 및 수식 필드의 경우 <!--<span class="preview">or at the bottom of a grouping</span>--> 열 아래쪽의 집계 드롭다운 메뉴를 확장하고 다음 옵션 중에서 선택합니다.
 
      * **SUM**: 열에 있는 모든 셀의 합계를 표시합니다.
      * **MIN**: 열의 모든 셀에서 가장 낮은 값을 표시합니다.
@@ -362,6 +362,7 @@ Old:
      * 마지막 수정자
      * 레코드 ID
    * 공식 필드와 조회 필드에는 해당 필드 형식에 해당하는 집계자가 있습니다.
+   * 집계기는 화면에 로드된 모든 레코드를 계산할 때 결과를 표시하며 사용 가능한 모든 레코드는 표시하지 않습니다.
 
 
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '14768'
+source-wordcount: '14776'
 ht-degree: 2%
 ---
 # Workfront 안내서 {#using}
@@ -1866,14 +1866,14 @@ ht-degree: 2%
   * Workfront Data Connect {#data-lake}
     * [Workfront Data Connect 개요](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [Snowflake에 대한 Reader 계정 또는 연결 만들기](reports-and-dashboards/data-lake/create-a-reader-account.md)
-    * [Workfront Data Connect에 연결 설정](reports-and-dashboards/data-lake/share-data-externally.md)
+    * [Workfront Data Connect에 대한 연결 설정](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront Data Connect 데이터 사전](reports-and-dashboards/data-lake/data-dictionary.md)
     * {hide-from-toc}[Workfront Data Connect에 대한 비공개 목록 등록](reports-and-dashboards/data-lake/register-a-private-listing.md)
     * {hide-from-toc}[데이터 사전 테스트](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Workfront Data Connect 쿼리 예제](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Workfront Data Connect 사용 지표 보기](reports-and-dashboards/data-lake/view-usage-metrics.md)
-    * [Data Connect에서 작업 내역 데이터 보기 사용](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
-    * [Data Connect에서 데이터 새로 고침 모니터링 보기 사용](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
+    * [Data Connect의 작업 내역 데이터 보기 사용](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
+    * [Data Connect의 데이터 새로 고침 모니터링 보기 사용](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
     * 향상된 Analytics 쿼리{#enhanced-analytics-queries}
       * [향상된 Analytics 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
       * [KPI 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
@@ -2231,7 +2231,7 @@ ht-degree: 2%
   * Adobe Workfront Planning 보고 {#adobe-workfront-planning-reporting}
     * [Adobe Workfront Planning 보고: 문서 색인](planning/reporting/reporting-in-planning-article-index.md)
     * [보고서에서 Workfront Planning 정보 보기](planning/reporting/planning-information-in-reports.md)
-    * {hide-from-toc}[Workfront Planning용 Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
+    * {hide-from-toc}[Workfront 계획용 Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
   * Adobe Workfront 계획 모범 사례 {#adobe-workfront-planning-best-practices}
     * [Adobe Workfront 우수 사례: 문서 색인](planning/best-practices.md/best-practices-article-index.md)
     * [전략적인 홈 구축: 30일 런치패드](planning/best-practices.md/30-day-launchpad.md)
@@ -2342,6 +2342,7 @@ ht-degree: 2%
     * [Adobe Workfront Planning에서 팀을 독립 실행형 제품으로 관리](planning/planning-sta/manage-teams-in-planning-sta.md)
   * Workfront Planning의 관념화 공간 {#ideation}
     * [Adobe Workfront Planning용 관념화 공간: 문서 색인](planning/ideation/planning-ideation-article-index.md)
+    * [Adobe Workfront Planning 릴리스 활동에 대한 관념화 공간](planning/ideation/ideation-space-release-notes.md)
     * [Adobe Workfront Planning의 관념화 공간 시작](planning/ideation/get-started-with-planning-ideation.md)
     * [관념화 공간을 사용하는 데 필요한 액세스 권한](planning/ideation/access-needed-to-use-ideation-space.md)
     * [Ideation 공간에 브리프 만들기](planning/ideation/create-briefs-in-ideation-space.md)
